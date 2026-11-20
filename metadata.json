@@ -1,0 +1,6 @@
+{
+  "name": "JurisMentor - Professor Jurídico & Simulados OAB",
+  "description": "Aplicativo inteligente de preparação jurídica para Exame da OAB, Concursos Públicos e Faculdade de Direito, com simulados autênticos, cronogramas de revisão espaçada e análise de desempenho detalhada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

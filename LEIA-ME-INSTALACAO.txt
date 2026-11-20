@@ -1,0 +1,15 @@
+JurisMentor - Guia Rápido para Rodar no PC ou Servidor Próprio
+================================================================
+
+1. Instale o Node.js 20+ (https://nodejs.org/).
+2. Extraia este ZIP em uma pasta e abra o terminal dentro dela.
+3. Crie um arquivo chamado .env (baseado no .env.example) contendo:
+   GEMINI_API_KEY="SUA_CHAVE_AQUI"
+4. Execute:
+   npm install
+   npm run dev        (para rodar localmente em http://localhost:3000)
+
+Para produção (Render.com, Cloud Run, Railway, VPS):
+   Build Command: npm install && npm run build
+   Start Command: npm start
+   Variável de ambiente obrigatória: GEMINI_API_KEY

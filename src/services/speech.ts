@@ -14,7 +14,7 @@ export interface SpeechStatus {
 type StatusListener = (status: SpeechStatus) => void;
 
 const TTS_SAMPLE_RATE = 24000;
-const FIRST_CHUNK_TIMEOUT_MS = 9000;
+const FIRST_CHUNK_TIMEOUT_MS = 15000;
 const MAX_CLIENT_CACHE_ITEMS = 60;
 
 function base64ToBytes(base64: string): Uint8Array {
@@ -264,9 +264,13 @@ export class ProfessorAudioService {
     sessionId: number
   ): void {
     if (sessionId !== this.playbackSessionId || pcmBytes.byteLength < 2) return;
+    if (ctx.state === 'suspended' && !this.isPaused) {
+      ctx.resume().catch(() => {});
+    }
 
-    const sampleCount = Math.floor(pcmBytes.byteLength / 2);
-    const int16 = new Int16Array(pcmBytes.buffer, pcmBytes.byteOffset, sampleCount);
+    const aligned = pcmBytes.byteOffset % 2 === 0 ? pcmBytes : new Uint8Array(pcmBytes);
+    const sampleCount = Math.floor(aligned.byteLength / 2);
+    const int16 = new Int16Array(aligned.buffer, aligned.byteOffset, sampleCount);
     const audioBuffer = ctx.createBuffer(1, sampleCount, TTS_SAMPLE_RATE);
     const channelData = audioBuffer.getChannelData(0);
 
@@ -448,13 +452,38 @@ export class ProfessorAudioService {
       clearTimeout(firstByteTimer);
       if (sessionId !== this.playbackSessionId) return;
       if (!firstAudioArrived) {
-        console.warn('Stream TTS indisponível/lento, alternando para síntese local:', e);
+        console.warn('Stream TTS indisponível, tentando /api/tts padrão:', e);
       } else {
         return;
       }
     }
 
-    // Fallback instantâneo para síntese local do navegador
+    // Fallback para endpoint /api/tts unário antes de usar síntese robótica local
+    if (sessionId === this.playbackSessionId && !firstAudioArrived) {
+      try {
+        const unaryRes = await fetch('/api/tts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            text: formatted,
+            voice: geminiVoice,
+          }),
+        });
+        if (sessionId !== this.playbackSessionId) return;
+        if (unaryRes.ok) {
+          const unaryData = await unaryRes.json();
+          if (unaryData.success && unaryData.audioUrl) {
+            this.setClientCache(cacheKey, unaryData.audioUrl);
+            this.playAudioUrl(unaryData.audioUrl, formatted, sessionId);
+            return;
+          }
+        }
+      } catch (unaryErr) {
+        console.warn('Endpoint /api/tts também indisponível, alternando para síntese local:', unaryErr);
+      }
+    }
+
+    // Fallback final para síntese local do navegador
     if (sessionId === this.playbackSessionId && !firstAudioArrived) {
       this.isLoadingNeural = false;
       this.playWithLocalSpeech(formatted);

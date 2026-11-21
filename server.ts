@@ -106,6 +106,88 @@ function setTtsCacheEntry(cacheKey: string, audioUrl: string): void {
   cache.set(cacheKey, audioUrl);
 }
 
+function extractPcmFromWav(wavBuffer: Buffer): Buffer {
+  if (wavBuffer.length >= 44 && wavBuffer.subarray(0, 4).toString('ascii') === 'RIFF') {
+    const dataIdx = wavBuffer.indexOf(Buffer.from('data'), 12);
+    if (dataIdx >= 12 && dataIdx + 8 <= wavBuffer.length) {
+      return wavBuffer.subarray(dataIdx + 8);
+    }
+    return wavBuffer.subarray(44);
+  }
+  return wavBuffer;
+}
+
+function splitTextForTts(text: string, firstSegmentMax = 200, nextSegmentMax = 360): string[] {
+  if (text.length <= firstSegmentMax) return [text];
+
+  const sentences = text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [text];
+  const segments: string[] = [];
+  let current = '';
+
+  for (const rawSentence of sentences) {
+    const sentence = rawSentence.trim();
+    if (!sentence) continue;
+
+    const limit = segments.length === 0 ? firstSegmentMax : nextSegmentMax;
+    if (!current) {
+      current = sentence;
+    } else if (current.length + 1 + sentence.length <= limit) {
+      current = `${current} ${sentence}`;
+    } else {
+      segments.push(current);
+      current = sentence;
+    }
+  }
+  if (current) segments.push(current);
+  return segments.length > 0 ? segments : [text];
+}
+
+async function generateUnaryTtsWav(cleanText: string, selectedVoice: string): Promise<Buffer | null> {
+  if (!aiClient) return null;
+  const modelsToTry = ['gemini-3.8-flash-lite-tts', 'gemini-3.8-flash-tts'];
+  for (const model of modelsToTry) {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const ttsResponse = await aiClient.models.generateContent({
+          model,
+          contents: [
+            {
+              role: 'user',
+              parts: [
+                {
+                  text: cleanText,
+                  speechMetadata: {
+                    style: 'Professor de Direito brasileiro, tom humano natural, acolhedor, amigável e pausado',
+                  },
+                } as any,
+              ],
+            },
+          ],
+          config: {
+            responseModalities: ['AUDIO'],
+            speechConfig: {
+              voiceConfig: {
+                prebuiltVoiceConfig: { voiceName: selectedVoice },
+              },
+            },
+          },
+        });
+
+        const base64Audio = ttsResponse.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
+        if (base64Audio) {
+          return Buffer.from(base64Audio, 'base64');
+        }
+      } catch (unaryErr: any) {
+        console.warn(`[TTS] Erro com modelo ${model} (tentativa ${attempt + 1}):`, unaryErr?.message || unaryErr);
+      }
+      if (attempt === 0) {
+        await new Promise(resolve => setTimeout(resolve, 250));
+      }
+    }
+  }
+  return null;
+}
+
 app.post('/api/tts/stream', async (req, res) => {
   const sendLine = (payload: Record<string, unknown>) => {
     if (!res.writableEnded) {
@@ -143,51 +225,56 @@ app.post('/api/tts/stream', async (req, res) => {
       return res.end();
     }
 
-    const responseStream = await aiClient.models.generateContentStream({
-      model: 'gemini-3.8-flash-lite-tts',
-      contents: [
-        {
-          role: 'user',
-          parts: [
-            {
-              text: cleanText,
-              speechMetadata: {
-                style: 'Professor de Direito brasileiro, tom humano natural, acolhedor, amigável e pausado',
-              },
-            } as any,
-          ],
-        },
-      ],
-      config: {
-        responseModalities: ['AUDIO'],
-        speechConfig: {
-          voiceConfig: {
-            prebuiltVoiceConfig: { voiceName: selectedVoice },
-          },
-        },
-      },
+    const segments = splitTextForTts(cleanText, 200, 360);
+
+    // Texto curto (1 segmento): gera direto e envia WAV completo com menor overhead
+    if (segments.length === 1) {
+      const wavBuffer = await generateUnaryTtsWav(segments[0], selectedVoice);
+      if (wavBuffer) {
+        const audioUrl = `data:audio/wav;base64,${wavBuffer.toString('base64')}`;
+        setTtsCacheEntry(cacheKey, audioUrl);
+        sendLine({ type: 'wav', audioUrl });
+        sendLine({ type: 'done' });
+        return res.end();
+      }
+      sendLine({ type: 'fallback', message: 'Nenhum áudio retornado pelo modelo.' });
+      return res.end();
+    }
+
+    // Texto longo (múltiplos segmentos): gera sequencialmente começando por bloco curto (~200 chars -> ~2.5s)
+    // enquanto o cliente já reproduz o primeiro bloco, evitando colisões de concorrência/rate limit
+    let clientClosed = false;
+    res.on('close', () => {
+      clientClosed = true;
     });
 
-    const pcmChunks: Buffer[] = [];
-    for await (const chunk of responseStream) {
-      if (req.destroyed || res.writableEnded) break;
-      const parts = chunk.candidates?.[0]?.content?.parts || [];
-      for (const part of parts) {
-        const b64 = (part as any)?.inlineData?.data;
-        if (b64) {
-          pcmChunks.push(Buffer.from(b64, 'base64'));
-          sendLine({ type: 'pcm', data: b64 });
+    const pcmParts: Buffer[] = [];
+
+    for (const seg of segments) {
+      if (clientClosed || res.writableEnded) break;
+      const wavBuf = await generateUnaryTtsWav(seg, selectedVoice);
+      if (!wavBuf) {
+        if (pcmParts.length === 0) {
+          sendLine({ type: 'fallback', message: 'Nenhum áudio retornado pelo modelo.' });
+          return res.end();
         }
+        continue;
+      }
+      const pcm = extractPcmFromWav(wavBuf);
+      if (pcm.length >= 2) {
+        const alignedPcm = pcm.length % 2 === 0 ? pcm : pcm.subarray(0, pcm.length - 1);
+        pcmParts.push(alignedPcm);
+        sendLine({ type: 'pcm', data: alignedPcm.toString('base64') });
       }
     }
 
-    if (pcmChunks.length === 0) {
+    if (pcmParts.length === 0) {
       sendLine({ type: 'fallback', message: 'Nenhum chunk de áudio retornado pelo modelo.' });
       return res.end();
     }
 
-    const wavBuffer = createWavFromPcm(Buffer.concat(pcmChunks), 24000, 1, 16);
-    setTtsCacheEntry(cacheKey, `data:audio/wav;base64,${wavBuffer.toString('base64')}`);
+    const fullWav = createWavFromPcm(Buffer.concat(pcmParts), 24000, 1, 16);
+    setTtsCacheEntry(cacheKey, `data:audio/wav;base64,${fullWav.toString('base64')}`);
     sendLine({ type: 'done' });
     return res.end();
   } catch (err: any) {

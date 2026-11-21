@@ -1,5 +1,9 @@
-import { GoogleGenAI, Type } from '@google/genai';
-import type { LegalQuestion } from '../src/types';
+import { GoogleGenAI, ThinkingLevel, Type } from '@google/genai';
+import type {
+  LegalQuestion,
+  MissedQuestionSummary,
+  PerformanceErrorAnalysis,
+} from '../src/types';
 import type {
   DifficultyLevel,
   ExplanationLevel,
@@ -826,3 +830,318 @@ function buildLocalGroundedTutorAnswer(
     artBlock || '• Consulte os dispositivos da Constituição Federal e Códigos correspondentes no módulo Base Jurídica.'
   }\n\n${jurBlock ? `**Jurisprudência Relacionada:**\n${jurBlock}` : ''}`;
 }
+
+// =========================================================================
+// ANÁLISE DE ERROS E TÓPICOS PRIORITÁRIOS DE ESTUDO COM GEMINI
+// =========================================================================
+export interface AnalyzePerformanceParams {
+  overallAccuracy: number;
+  totalAnswered: number;
+  totalCorrect: number;
+  rankedSubjects: Array<{ subject: string; rate: number; total: number; correct: number }>;
+  missedQuestions: MissedQuestionSummary[];
+}
+
+export async function analyzePerformanceErrorsWithGemini(
+  params: AnalyzePerformanceParams
+): Promise<{
+  success: boolean;
+  analysis?: PerformanceErrorAnalysis;
+  error?: string;
+  statusCode?: number;
+}> {
+  if (!aiClient) {
+    return {
+      success: false,
+      statusCode: 503,
+      error: 'Serviço Gemini indisponível: configure a variável GEMINI_API_KEY no servidor para usar a análise inteligente.',
+    };
+  }
+
+  if (!params || params.totalAnswered <= 0) {
+    return {
+      success: false,
+      statusCode: 400,
+      error: 'Responda pelo menos algumas questões ou finalize um simulado antes de solicitar a análise de erros.',
+    };
+  }
+
+  const missedList = Array.isArray(params.missedQuestions) ? params.missedQuestions : [];
+  const rankedSubjects = Array.isArray(params.rankedSubjects) ? params.rankedSubjects : [];
+
+  const canonicalSubjects = new Map<string, string>();
+  for (const s of rankedSubjects) {
+    if (s?.subject) canonicalSubjects.set(s.subject.trim().toLowerCase(), s.subject.trim());
+  }
+  for (const m of missedList) {
+    if (m?.subject) canonicalSubjects.set(m.subject.trim().toLowerCase(), m.subject.trim());
+  }
+
+  // Prioritize repeated errors and hardest difficulty levels first
+  const difficultyRank = (m: MissedQuestionSummary): number => {
+    if (typeof m.difficultyLevel === 'number') return m.difficultyLevel;
+    if (m.difficulty === 'Difícil') return 3;
+    if (m.difficulty === 'Médio') return 2;
+    return 1;
+  };
+
+  const sortedMissed = [...missedList]
+    .sort((a, b) => {
+      if ((b.errorCount || 1) !== (a.errorCount || 1)) {
+        return (b.errorCount || 1) - (a.errorCount || 1);
+      }
+      return difficultyRank(b) - difficultyRank(a);
+    })
+    .slice(0, 30);
+
+  // Aggregate missed topics for clearer signal
+  const topicStatsMap = new Map<
+    string,
+    { subject: string; topic: string; count: number; maxDiff: number; refs: Set<string> }
+  >();
+  for (const m of missedList) {
+    const key = `${m.subject}::${m.topic}`;
+    const prev = topicStatsMap.get(key) || {
+      subject: m.subject,
+      topic: m.topic,
+      count: 0,
+      maxDiff: 1,
+      refs: new Set<string>(),
+    };
+    prev.count += m.errorCount || 1;
+    prev.maxDiff = Math.max(prev.maxDiff, difficultyRank(m));
+    (m.statuteRefs || []).forEach(r => prev.refs.add(r));
+    topicStatsMap.set(key, prev);
+  }
+
+  const topProblemTopics = Array.from(topicStatsMap.values())
+    .sort((a, b) => b.count - a.count || b.maxDiff - a.maxDiff)
+    .slice(0, 12)
+    .map(t => ({
+      subject: t.subject,
+      topic: t.topic,
+      totalErrors: t.count,
+      maxDifficultyLevel: t.maxDiff,
+      legalRefs: Array.from(t.refs).slice(0, 4),
+    }));
+
+  const allowedSubjectsList = Array.from(canonicalSubjects.values());
+
+  const prompt = `Você é o Professor JurisMentor, mentor especialista em aprovação na 1ª Fase da OAB (FGV) e análise pedagógica de desempenho jurídico.
+
+Analise os dados reais de desempenho e as questões erradas pelo aluno abaixo e gere um diagnóstico cirúrgico em Português do Brasil, identificando os conteúdos mais difíceis encontrados e sugerindo tópicos prioritários de estudo.
+
+MÉTRICAS GLOBAIS DO ALUNO:
+- Aproveitamento global: ${params.overallAccuracy}% (${params.totalCorrect} acertos de ${params.totalAnswered} questões respondidas)
+- Nota de corte OAB: 50%
+- Total de registros de erros analisados: ${missedList.length}
+
+DESEMPENHO POR DISCIPLINA:
+${rankedSubjects.map(s => `- ${s.subject}: ${s.rate}% (${s.correct}/${s.total} acertos)`).join('\n') || 'Sem detalhamento por disciplina.'}
+
+TÓPICOS COM MAIOR INCIDÊNCIA DE ERROS E DIFICULDADE:
+${JSON.stringify(topProblemTopics, null, 2)}
+
+AMOSTRA DETALHADA DAS QUESTÕES ERRADAS (ordenadas por reincidência e dificuldade):
+${
+  sortedMissed.length > 0
+    ? sortedMissed
+        .map(
+          (m, idx) =>
+            `${idx + 1}. [${m.subject} | ${m.topic}${m.subtopic ? ` - ${m.subtopic}` : ''}] Dificuldade: ${m.difficulty} (Nível ${difficultyRank(m)}) | Erros: ${m.errorCount} | Marcou: ${m.selectedOption || '?'} vs Gabarito: ${m.correctAnswer} | Refs: ${(m.statuteRefs || []).join(', ') || 'N/A'}\n   Enunciado: ${m.statementSnippet}\n   Fundamento: ${m.justificationSnippet || 'N/A'}`
+        )
+        .join('\n')
+    : 'O aluno ainda não registrou erros nesta amostra (100% de aproveitamento). Sugira tópicos avançados de consolidação nas disciplinas já respondidas.'
+}
+
+REGRAS OBRIGATÓRIAS:
+1. No campo "subject" de cada item em "priorityTopics", utilize EXATAMENTE um dos nomes de disciplina presentes nos dados acima (${allowedSubjectsList.join(', ') || 'Disciplina correspondente'}).
+2. Foque principalmente nos erros em conteúdos de maior dificuldade (Difícil / Nível 3-4), erros reincidentes e disciplinas abaixo de 50% ou com maior peso na OAB.
+3. Em "errorPattern", explique objetivamente o provável motivo técnico do erro (ex.: confusão de prazos, exceção legal, pegadinha clássica da FGV ou conceito específico).
+4. Em "recommendedAction", dê uma orientação prática e acionável (o que revisar, distinguir ou memorizar) sem inventar números de artigos ou súmulas que não estejam no contexto ou que não sejam reais.
+5. Gere entre 3 e 5 itens em "priorityTopics" ordenados da maior prioridade para a menor, e exatamente 3 passos práticos em "studyStrategySteps".`;
+
+  const startMs = Date.now();
+  const modelsToTry = [PRIMARY_MODEL, 'gemini-3.1-flash-lite'];
+  let resp: any = null;
+  let usedModel = PRIMARY_MODEL;
+  let lastError: any = null;
+
+  for (const model of modelsToTry) {
+    try {
+      usedModel = model;
+      resp = await aiClient.models.generateContent({
+        model,
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        config: {
+          ...(model === PRIMARY_MODEL
+            ? { thinkingConfig: { thinkingLevel: ThinkingLevel.LOW } }
+            : {}),
+          responseMimeType: 'application/json',
+          responseSchema: {
+            type: Type.OBJECT,
+            properties: {
+              summaryDiagnosis: {
+                type: Type.STRING,
+                description: 'Diagnóstico geral em 2 a 3 frases objetivas sobre o desempenho e perfil de erros do aluno.',
+              },
+              hardestPatternAlert: {
+                type: Type.STRING,
+                description: 'Alerta específico sobre o padrão ou conteúdo mais difícil encontrado nos erros.',
+              },
+              priorityTopics: {
+                type: Type.ARRAY,
+                items: {
+                  type: Type.OBJECT,
+                  properties: {
+                    subject: { type: Type.STRING },
+                    topic: { type: Type.STRING },
+                    priority: { type: Type.STRING },
+                    difficultyDetected: { type: Type.STRING },
+                    errorCount: { type: Type.INTEGER },
+                    errorPattern: { type: Type.STRING },
+                    recommendedAction: { type: Type.STRING },
+                    legalBasis: {
+                      type: Type.ARRAY,
+                      items: { type: Type.STRING },
+                    },
+                  },
+                  required: [
+                    'subject',
+                    'topic',
+                    'priority',
+                    'difficultyDetected',
+                    'errorCount',
+                    'errorPattern',
+                    'recommendedAction',
+                    'legalBasis',
+                  ],
+                },
+              },
+              studyStrategySteps: {
+                type: Type.ARRAY,
+                items: { type: Type.STRING },
+              },
+            },
+            required: ['summaryDiagnosis', 'hardestPatternAlert', 'priorityTopics', 'studyStrategySteps'],
+          },
+        },
+      });
+      if (resp?.text) break;
+    } catch (err: any) {
+      lastError = err;
+      console.warn(`[Performance AI Analysis] Falha com ${model}:`, String(err?.message || err || ''));
+    }
+  }
+
+  if (!resp?.text) {
+    legalDb.logAiUsage({
+      endpoint: '/api/performance/analyze-errors',
+      model: usedModel,
+      promptTokens: 0,
+      completionTokens: 0,
+      totalTokens: 0,
+      cached: false,
+      durationMs: Date.now() - startMs,
+      success: false,
+      errorMessage: lastError?.message,
+    });
+
+    const rawMsg = String(lastError?.message || '');
+    const friendlyError =
+      rawMsg.includes('503') || rawMsg.includes('UNAVAILABLE')
+        ? 'Os servidores do Gemini estão com alta demanda temporária no momento. Aguarde alguns segundos e clique em Tentar Novamente.'
+        : rawMsg.includes('429') || rawMsg.includes('RESOURCE_EXHAUSTED')
+        ? 'Limite temporário de requisições atingido. Aguarde um instante e tente novamente.'
+        : rawMsg.includes('403') || rawMsg.includes('API_KEY_INVALID')
+        ? 'Chave da API Gemini inválida ou sem permissão. Verifique a variável GEMINI_API_KEY nas configurações.'
+        : 'Não foi possível concluir a análise de desempenho com o Gemini agora. Tente novamente em instantes.';
+
+    return {
+      success: false,
+      statusCode: 503,
+      error: friendlyError,
+    };
+  }
+
+  try {
+    const usage = extractTokenUsage(resp);
+    legalDb.logAiUsage({
+      endpoint: '/api/performance/analyze-errors',
+      model: usedModel,
+      ...usage,
+      cached: false,
+      durationMs: Date.now() - startMs,
+      success: true,
+    });
+
+    const rawJson = (resp.text || '{}').trim();
+    const parsed = JSON.parse(rawJson);
+
+    const normalizePriority = (val: unknown): 'CRÍTICA' | 'ALTA' | 'MÉDIA' => {
+      const upper = String(val || '').toUpperCase();
+      if (upper.includes('CRIT') || upper.includes('CRÍT')) return 'CRÍTICA';
+      if (upper.includes('MED') || upper.includes('MÉD')) return 'MÉDIA';
+      return 'ALTA';
+    };
+
+    const normalizeSubject = (rawSub: string): string => {
+      const clean = (rawSub || '').trim();
+      const exact = canonicalSubjects.get(clean.toLowerCase());
+      if (exact) return exact;
+      const partial = allowedSubjectsList.find(
+        s => s.toLowerCase().includes(clean.toLowerCase()) || clean.toLowerCase().includes(s.toLowerCase())
+      );
+      return partial || clean || allowedSubjectsList[0] || 'Direito Constitucional';
+    };
+
+    const priorityTopics = Array.isArray(parsed.priorityTopics)
+      ? parsed.priorityTopics.slice(0, 6).map((item: any) => ({
+          subject: normalizeSubject(item?.subject || ''),
+          topic: String(item?.topic || 'Revisão Geral da Disciplina'),
+          priority: normalizePriority(item?.priority),
+          difficultyDetected: String(item?.difficultyDetected || 'Médio / Difícil'),
+          errorCount: Math.max(0, Number(item?.errorCount ?? 1)),
+          errorPattern: String(item?.errorPattern || ''),
+          recommendedAction: String(item?.recommendedAction || ''),
+          legalBasis: Array.isArray(item?.legalBasis) ? item.legalBasis.map(String).slice(0, 5) : [],
+        }))
+      : [];
+
+    const analysis: PerformanceErrorAnalysis = {
+      summaryDiagnosis: String(parsed.summaryDiagnosis || ''),
+      hardestPatternAlert: String(parsed.hardestPatternAlert || ''),
+      priorityTopics,
+      studyStrategySteps: Array.isArray(parsed.studyStrategySteps)
+        ? parsed.studyStrategySteps.map(String).slice(0, 4)
+        : [],
+      analyzedErrorsCount: missedList.length,
+      generatedAt: new Date().toISOString(),
+    };
+
+    return {
+      success: true,
+      analysis,
+    };
+  } catch (err: any) {
+    legalDb.logAiUsage({
+      endpoint: '/api/performance/analyze-errors',
+      model: usedModel,
+      promptTokens: 0,
+      completionTokens: 0,
+      totalTokens: 0,
+      cached: false,
+      durationMs: Date.now() - startMs,
+      success: false,
+      errorMessage: err?.message,
+    });
+
+    console.error('[Performance AI Analysis] Erro ao interpretar resposta Gemini:', err);
+    return {
+      success: false,
+      statusCode: 500,
+      error: 'Erro ao interpretar a análise estruturada retornada pelo Gemini. Tente novamente.',
+    };
+  }
+}
+

@@ -13,6 +13,7 @@ import {
 import { LegalQuestion } from '../types';
 import type { ExplanationLevel } from '../types/knowledgeBase';
 import { askProfessorTutor } from '../services/aiTutor';
+import { ProfessorAudioService } from '../services/speech';
 import { ProfessorAudioPlayer } from './ProfessorAudioPlayer';
 
 interface ClarificationItem {
@@ -61,6 +62,7 @@ export const InlineQuestionClarification: React.FC<InlineQuestionClarificationPr
           : `Tema: ${question.subject} - ${question.topic}.`,
       });
 
+      ProfessorAudioService.preload(res.answer);
       setThread(prev => [
         ...prev,
         {
@@ -187,7 +189,11 @@ export const InlineQuestionClarification: React.FC<InlineQuestionClarificationPr
                           <Sparkles className="w-3.5 h-3.5 text-amber-400" />
                           Esclarecimento ({item.level})
                         </span>
-                        <ProfessorAudioPlayer textToSpeak={item.answer} compact={true} />
+                        <ProfessorAudioPlayer
+                          textToSpeak={item.answer}
+                          compact={true}
+                          autoPreload={idx === thread.length - 1}
+                        />
                       </div>
 
                       <div className="whitespace-pre-line text-slate-300 font-sans leading-relaxed">

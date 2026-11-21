@@ -183,6 +183,8 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
                     : `${currentCard.title}. Pergunta: ${currentCard.front}`
                 }
                 compact={true}
+                autoPreload={true}
+                preloadDelayMs={500}
               />
             </div>
 

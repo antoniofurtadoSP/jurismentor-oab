@@ -172,3 +172,40 @@ export interface UserStudyData {
   lastActiveDate: string;
   streakDays: number;
 }
+
+export interface MissedQuestionSummary {
+  id: string;
+  subject: string;
+  topic: string;
+  subtopic?: string;
+  difficulty: Difficulty;
+  difficultyLevel?: number;
+  selectedOption?: string;
+  correctAnswer: string;
+  errorCount: number;
+  timeSpentSeconds?: number;
+  statuteRefs: string[];
+  statementSnippet: string;
+  justificationSnippet?: string;
+}
+
+export interface PriorityStudyTopic {
+  subject: string;
+  topic: string;
+  priority: 'CRÍTICA' | 'ALTA' | 'MÉDIA';
+  difficultyDetected: string;
+  errorCount: number;
+  errorPattern: string;
+  recommendedAction: string;
+  legalBasis: string[];
+}
+
+export interface PerformanceErrorAnalysis {
+  summaryDiagnosis: string;
+  hardestPatternAlert: string;
+  priorityTopics: PriorityStudyTopic[];
+  studyStrategySteps: string[];
+  analyzedErrorsCount: number;
+  generatedAt: string;
+}
+

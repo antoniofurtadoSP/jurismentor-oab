@@ -7,6 +7,7 @@ import JSZip from 'jszip';
 import { legalDb } from './server/legalDb';
 import {
   aiClient,
+  analyzePerformanceErrorsWithGemini,
   answerTutorWithGrounding,
   generateGroundedQuestions,
   validateQuestionIndependently,
@@ -52,6 +53,40 @@ app.post('/api/tutor', async (req, res) => {
     res.status(500).json({
       success: false,
       error: error?.message || 'Erro ao consultar o Professor Jurídico.',
+    });
+  }
+});
+
+// =========================================================================
+// ANÁLISE INTELIGENTE DE ERROS E TÓPICOS PRIORITÁRIOS (GEMINI)
+// =========================================================================
+app.post('/api/performance/analyze-errors', async (req, res) => {
+  try {
+    const { overallAccuracy, totalAnswered, totalCorrect, rankedSubjects, missedQuestions } = req.body || {};
+    const result = await analyzePerformanceErrorsWithGemini({
+      overallAccuracy: Number(overallAccuracy || 0),
+      totalAnswered: Number(totalAnswered || 0),
+      totalCorrect: Number(totalCorrect || 0),
+      rankedSubjects: Array.isArray(rankedSubjects) ? rankedSubjects : [],
+      missedQuestions: Array.isArray(missedQuestions) ? missedQuestions : [],
+    });
+
+    if (!result.success || !result.analysis) {
+      return res.status(result.statusCode || 500).json({
+        success: false,
+        error: result.error || 'Não foi possível gerar a análise de desempenho.',
+      });
+    }
+
+    res.json({
+      success: true,
+      analysis: result.analysis,
+    });
+  } catch (error: any) {
+    console.error('Erro no endpoint /api/performance/analyze-errors:', error);
+    res.status(500).json({
+      success: false,
+      error: error?.message || 'Erro interno ao analisar erros de desempenho.',
     });
   }
 });
@@ -117,19 +152,63 @@ function extractPcmFromWav(wavBuffer: Buffer): Buffer {
   return wavBuffer;
 }
 
-function splitTextForTts(text: string, firstSegmentMax = 200, nextSegmentMax = 360): string[] {
+function splitLongSentence(sentence: string, maxChars: number): [string, string] | null {
+  if (sentence.length <= maxChars) return null;
+  const minPos = Math.min(45, Math.floor(maxChars * 0.45));
+  const candidateSlice = sentence.slice(0, maxChars + 1);
+  let splitIdx = -1;
+  for (const sep of ['. ', '! ', '? ', '; ', ': ', ' — ', ', ']) {
+    const idx = candidateSlice.lastIndexOf(sep);
+    if (idx >= minPos) {
+      splitIdx = idx + sep.trimEnd().length;
+      break;
+    }
+  }
+  if (splitIdx === -1) {
+    const spaceIdx = candidateSlice.lastIndexOf(' ');
+    if (spaceIdx >= minPos) {
+      splitIdx = spaceIdx;
+    }
+  }
+  if (splitIdx > 0 && splitIdx < sentence.length - 10) {
+    const first = sentence.slice(0, splitIdx).trim();
+    const rest = sentence.slice(splitIdx).trim();
+    if (first && rest) return [first, rest];
+  }
+  return null;
+}
+
+function splitTextForTts(text: string, firstSegmentMax = 115, nextSegmentMax = 340): string[] {
   if (text.length <= firstSegmentMax) return [text];
 
-  const sentences = text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [text];
+  const rawSentences = text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [text];
+  const sentences: string[] = [];
+  for (const s of rawSentences) {
+    const trimmed = s.trim();
+    if (trimmed) sentences.push(trimmed);
+  }
+
+  if (sentences.length > 0 && sentences[0].length > firstSegmentMax + 25) {
+    const splitFirst = splitLongSentence(sentences[0], firstSegmentMax + 15);
+    if (splitFirst) {
+      sentences.splice(0, 1, splitFirst[0], splitFirst[1]);
+    }
+  }
+
   const segments: string[] = [];
   let current = '';
 
-  for (const rawSentence of sentences) {
-    const sentence = rawSentence.trim();
-    if (!sentence) continue;
-
+  for (const sentence of sentences) {
     const limit = segments.length === 0 ? firstSegmentMax : nextSegmentMax;
     if (!current) {
+      if (sentence.length > limit && segments.length > 0) {
+        const splitNext = splitLongSentence(sentence, limit);
+        if (splitNext) {
+          segments.push(splitNext[0]);
+          current = splitNext[1];
+          continue;
+        }
+      }
       current = sentence;
     } else if (current.length + 1 + sentence.length <= limit) {
       current = `${current} ${sentence}`;
@@ -225,7 +304,7 @@ app.post('/api/tts/stream', async (req, res) => {
       return res.end();
     }
 
-    const segments = splitTextForTts(cleanText, 200, 360);
+    const segments = splitTextForTts(cleanText, 115, 340);
 
     // Texto curto (1 segmento): gera direto e envia WAV completo com menor overhead
     if (segments.length === 1) {
@@ -241,18 +320,21 @@ app.post('/api/tts/stream', async (req, res) => {
       return res.end();
     }
 
-    // Texto longo (múltiplos segmentos): gera sequencialmente começando por bloco curto (~200 chars -> ~2.5s)
-    // enquanto o cliente já reproduz o primeiro bloco, evitando colisões de concorrência/rate limit
+    // Texto longo (múltiplos segmentos): gera sequencialmente começando por bloco curto (~115 chars -> ~1.5s)
+    // enquanto o cliente já reproduz o primeiro bloco ou faz pré-carregamento em background
     let clientClosed = false;
     res.on('close', () => {
       clientClosed = true;
     });
 
+    sendLine({ type: 'meta', totalSegments: segments.length });
+
     const pcmParts: Buffer[] = [];
 
-    for (const seg of segments) {
+    for (let i = 0; i < segments.length; i++) {
       if (clientClosed || res.writableEnded) break;
-      const wavBuf = await generateUnaryTtsWav(seg, selectedVoice);
+      const wavBuf = await generateUnaryTtsWav(segments[i], selectedVoice);
+      if (clientClosed || res.writableEnded) break;
       if (!wavBuf) {
         if (pcmParts.length === 0) {
           sendLine({ type: 'fallback', message: 'Nenhum áudio retornado pelo modelo.' });
@@ -264,8 +346,17 @@ app.post('/api/tts/stream', async (req, res) => {
       if (pcm.length >= 2) {
         const alignedPcm = pcm.length % 2 === 0 ? pcm : pcm.subarray(0, pcm.length - 1);
         pcmParts.push(alignedPcm);
-        sendLine({ type: 'pcm', data: alignedPcm.toString('base64') });
+        sendLine({
+          type: 'pcm',
+          index: i,
+          total: segments.length,
+          data: alignedPcm.toString('base64'),
+        });
       }
+    }
+
+    if (clientClosed || res.writableEnded) {
+      return;
     }
 
     if (pcmParts.length === 0) {

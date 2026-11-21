@@ -3,6 +3,7 @@ import { Sparkles, Send, Bot, User, BookOpen, RefreshCw, X, Lightbulb, Layers } 
 import { LegalQuestion } from '../types';
 import type { ExplanationLevel } from '../types/knowledgeBase';
 import { askProfessorTutor } from '../services/aiTutor';
+import { ProfessorAudioService } from '../services/speech';
 import { ProfessorAudioPlayer } from './ProfessorAudioPlayer';
 
 interface ProfessorTutorModalProps {
@@ -63,6 +64,7 @@ export const ProfessorTutorModal: React.FC<ProfessorTutorModalProps> = ({
         context: question ? `Questão sobre ${question.subject}: ${question.topic}` : 'Estudo para OAB e Concursos',
       });
 
+      ProfessorAudioService.preload(res.answer);
       setMessages(prev => [
         ...prev,
         {
@@ -198,7 +200,11 @@ export const ProfessorTutorModal: React.FC<ProfessorTutorModalProps> = ({
                   }`}
                 >
                   {msg.sender === 'tutor' && (
-                    <ProfessorAudioPlayer textToSpeak={msg.text} compact={true} />
+                    <ProfessorAudioPlayer
+                      textToSpeak={msg.text}
+                      compact={true}
+                      autoPreload={i === messages.length - 1 && i > 0}
+                    />
                   )}
                   <span className="font-mono ml-auto tabular-nums">{msg.time}</span>
                 </div>

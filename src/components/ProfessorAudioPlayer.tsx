@@ -9,12 +9,16 @@ interface ProfessorAudioPlayerProps {
   textToSpeak: string;
   title?: string;
   compact?: boolean;
+  autoPreload?: boolean;
+  preloadDelayMs?: number;
 }
 
 export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
   textToSpeak,
   title = 'Aula do Professor em Áudio (pt-BR)',
   compact = false,
+  autoPreload = !compact,
+  preloadDelayMs = 150,
 }) => {
   const [status, setStatus] = useState<SpeechStatus>(ProfessorAudioService.getStatus());
   const [speed, setSpeed] = useState<number>(ProfessorAudioService.getRate());
@@ -23,6 +27,7 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
   useEffect(() => {
     const unsubscribe = ProfessorAudioService.subscribe((newStatus) => {
       setStatus(newStatus);
+      setPersona(ProfessorAudioService.getPersona());
     });
 
     return () => {
@@ -30,12 +35,34 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
     };
   }, []);
 
-  const handleTogglePlay = () => {
-    if (status.isLoadingNeural) return;
+  useEffect(() => {
+    if (!autoPreload || !textToSpeak.trim()) return;
+    const timer = setTimeout(() => {
+      ProfessorAudioService.preload(textToSpeak);
+    }, preloadDelayMs);
+    return () => clearTimeout(timer);
+  }, [autoPreload, textToSpeak, persona, preloadDelayMs]);
 
-    if (status.isSpeaking && !status.isPaused) {
+  const handleHoverPreload = () => {
+    if (textToSpeak.trim()) {
+      ProfessorAudioService.preload(textToSpeak);
+    }
+  };
+
+  const isThisPlayerActive = ProfessorAudioService.isTextActive(textToSpeak);
+  const isThisLoading = isThisPlayerActive && status.isLoadingNeural;
+  const isThisSpeaking = isThisPlayerActive && status.isSpeaking;
+  const isThisPaused = isThisPlayerActive && status.isPaused;
+  const isCurrentlyPlaying = isThisSpeaking && !isThisPaused;
+  const isReadyInstant = ProfessorAudioService.isReadyForInstantPlay(textToSpeak);
+  const isPreloadingThis = ProfessorAudioService.isPreloadingText(textToSpeak);
+
+  const handleTogglePlay = () => {
+    if (isThisLoading) return;
+
+    if (isThisSpeaking && !isThisPaused) {
       ProfessorAudioService.pause();
-    } else if (status.isPaused) {
+    } else if (isThisPaused) {
       ProfessorAudioService.resume();
     } else {
       ProfessorAudioService.play(textToSpeak);
@@ -54,28 +81,28 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
   const handlePersonaChange = (newPersona: 'male' | 'female') => {
     setPersona(newPersona);
     ProfessorAudioService.setPersona(newPersona);
-    if (status.isSpeaking) {
+    if (isThisSpeaking) {
       // Re-trigger with new voice persona
       ProfessorAudioService.play(textToSpeak);
     }
   };
-
-  const isCurrentlyPlaying = status.isSpeaking && !status.isPaused;
 
   if (compact) {
     return (
       <div className="inline-flex items-center gap-2">
         <button
           onClick={handleTogglePlay}
-          disabled={status.isLoadingNeural}
+          onMouseEnter={handleHoverPreload}
+          onFocus={handleHoverPreload}
+          disabled={isThisLoading}
           className={`px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all cursor-pointer border ${
             isCurrentlyPlaying
               ? 'bg-amber-500 text-slate-950 border-amber-400 shadow-md shadow-amber-500/20'
               : 'bg-slate-900 hover:bg-slate-800 text-amber-300 border-amber-500/30'
-          } ${status.isLoadingNeural ? 'opacity-70 cursor-wait' : ''}`}
+          } ${isThisLoading ? 'opacity-70 cursor-wait' : ''}`}
           title="Ouvir explicação do professor em áudio natural"
         >
-          {status.isLoadingNeural ? (
+          {isThisLoading ? (
             <>
               <RefreshCw className="w-3.5 h-3.5 animate-spin text-amber-400" />
               <span>Gerando Áudio Natural...</span>
@@ -85,6 +112,11 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
               <Pause className="w-3.5 h-3.5" />
               <span>Pausar</span>
             </>
+          ) : isThisPaused ? (
+            <>
+              <Play className="w-3.5 h-3.5 text-amber-400" />
+              <span>Continuar</span>
+            </>
           ) : (
             <>
               <Volume2 className="w-3.5 h-3.5 text-amber-400" />
@@ -93,7 +125,7 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
           )}
         </button>
 
-        {status.isSpeaking && (
+        {isThisSpeaking && (
           <button
             onClick={handleStop}
             className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors cursor-pointer"
@@ -116,7 +148,7 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
               ? 'bg-amber-500/20 text-amber-400 border-amber-500/40 shadow-md shadow-amber-500/10'
               : 'bg-slate-900 text-slate-400 border-slate-800'
           }`}>
-            {status.isLoadingNeural ? (
+            {isThisLoading ? (
               <RefreshCw className="w-5 h-5 animate-spin text-amber-400" />
             ) : isCurrentlyPlaying ? (
               <div className="flex items-end gap-0.5 h-5">
@@ -142,12 +174,16 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
             </div>
             <p className="text-[11px] text-slate-400 flex items-center gap-2 mt-0.5">
               <span>
-                {status.isLoadingNeural 
-                  ? 'Sintetizando locução humana natural...'
+                {isThisLoading 
+                  ? 'Sintetizando primeiro trecho em voz natural...'
                   : isCurrentlyPlaying 
                   ? `Reproduzindo com ${status.activeVoiceName}` 
-                  : status.isPaused 
+                  : isThisPaused 
                   ? 'Áudio pausado' 
+                  : isReadyInstant
+                  ? 'Áudio pré-carregado · início instantâneo'
+                  : isPreloadingThis
+                  ? 'Preparando áudio em segundo plano...'
                   : 'Locução com entonação humana e dicção pausada'}
               </span>
             </p>
@@ -185,14 +221,16 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
           {/* Main Play/Pause Button */}
           <button
             onClick={handleTogglePlay}
-            disabled={status.isLoadingNeural}
+            onMouseEnter={handleHoverPreload}
+            onFocus={handleHoverPreload}
+            disabled={isThisLoading}
             className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition-all cursor-pointer shadow-md ${
               isCurrentlyPlaying
                 ? 'bg-amber-500 hover:bg-amber-400 text-slate-950 shadow-amber-500/20'
                 : 'bg-amber-500 hover:bg-amber-400 text-slate-950'
-            } ${status.isLoadingNeural ? 'opacity-70 cursor-wait' : ''}`}
+            } ${isThisLoading ? 'opacity-70 cursor-wait' : ''}`}
           >
-            {status.isLoadingNeural ? (
+            {isThisLoading ? (
               <>
                 <RefreshCw className="w-4 h-4 animate-spin fill-slate-950" />
                 <span>Gerando...</span>
@@ -202,7 +240,7 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
                 <Pause className="w-4 h-4 fill-slate-950" />
                 <span>Pausar</span>
               </>
-            ) : status.isPaused ? (
+            ) : isThisPaused ? (
               <>
                 <Play className="w-4 h-4 fill-slate-950" />
                 <span>Continuar</span>
@@ -216,7 +254,7 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
           </button>
 
           {/* Stop Button */}
-          {status.isSpeaking && (
+          {isThisSpeaking && (
             <button
               onClick={handleStop}
               className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors cursor-pointer border border-slate-700"

@@ -1,5 +1,5 @@
 // Advanced Brazilian Portuguese (pt-BR) Speech Synthesis Service for Professor Jurídico
-// Supports Progressive Streaming Neural AI Voice (Gemini TTS PCM) + Client Audio Cache + Browser Fallback
+// Supports Background Pre-loading + Progressive Streaming Neural AI Voice (Gemini TTS PCM) + Client Audio Cache + Browser Fallback
 
 export interface SpeechStatus {
   isSpeaking: boolean;
@@ -12,6 +12,21 @@ export interface SpeechStatus {
 }
 
 type StatusListener = (status: SpeechStatus) => void;
+
+interface ActiveTtsJob {
+  cacheKey: string;
+  formattedText: string;
+  voice: string;
+  abortController: AbortController;
+  attachedToPlayback: boolean;
+  pcmChunks: Uint8Array[];
+  totalSegments: number;
+  wavUrl: string | null;
+  completed: boolean;
+  failed: boolean;
+  fallbackReason?: string;
+  listeners: Set<() => void>;
+}
 
 const TTS_SAMPLE_RATE = 24000;
 const FIRST_CHUNK_TIMEOUT_MS = 15000;
@@ -73,6 +88,9 @@ export class ProfessorAudioService {
   // Client-side LRU cache of synthesized WAV URLs for 0ms instant replay
   private static clientAudioCache: Map<string, string> = new Map();
 
+  // Active streaming / preloading jobs keyed by cacheKey so play() attaches seamlessly mid-stream
+  private static activeJobs: Map<string, ActiveTtsJob> = new Map();
+
   // HTML5 Audio instance (cached WAV playback)
   private static currentHtmlAudio: HTMLAudioElement | null = null;
 
@@ -81,7 +99,10 @@ export class ProfessorAudioService {
   private static activeStreamSources: Set<AudioBufferSourceNode> = new Set();
   private static streamNextPlayTime = 0;
   private static streamCompleted = false;
-  private static activeStreamAbort: AbortController | null = null;
+  private static totalStreamChunks = 0;
+  private static activePlaybackJobKey: string | null = null;
+  private static activeFormattedKey: string | null = null;
+  private static activeJobUnsubscribe: (() => void) | null = null;
   private static playbackSessionId = 0;
 
   // Local Web Speech Fallback state
@@ -110,7 +131,7 @@ export class ProfessorAudioService {
       isLoadingNeural: this.isLoadingNeural,
       isNeuralAudio: this.isNeuralAudio,
       currentChunkIndex: this.currentChunkIndex,
-      totalChunks: this.currentChunks.length,
+      totalChunks: this.isNeuralAudio ? this.totalStreamChunks : this.currentChunks.length,
       activeVoiceName: this.isNeuralAudio
         ? this.selectedPersona === 'male'
           ? 'Prof. Eduardo (Voz Humana IA)'
@@ -148,6 +169,43 @@ export class ProfessorAudioService {
 
   public static getRate(): number {
     return this.currentRate;
+  }
+
+  private static getVoiceName(): string {
+    return this.selectedPersona === 'male' ? 'Puck' : 'Kore';
+  }
+
+  private static buildCacheKey(rawText: string): { formatted: string; voice: string; cacheKey: string } {
+    const formatted = this.formatLegalTextForSpeech(rawText);
+    const voice = this.getVoiceName();
+    const cacheKey = `${voice}_${formatted.slice(0, 1200)}`;
+    return { formatted, voice, cacheKey };
+  }
+
+  /**
+   * Returns true if either the full WAV is cached or the first streamed PCM segment
+   * is already buffered in memory, enabling 0ms playback start.
+   */
+  public static isReadyForInstantPlay(rawText: string): boolean {
+    if (!rawText || !rawText.trim()) return false;
+    const { cacheKey } = this.buildCacheKey(rawText);
+    if (this.clientAudioCache.has(cacheKey)) return true;
+    const job = this.activeJobs.get(cacheKey);
+    return Boolean(job && (job.wavUrl || job.pcmChunks.length > 0));
+  }
+
+  public static isPreloadingText(rawText: string): boolean {
+    if (!rawText || !rawText.trim()) return false;
+    const { cacheKey } = this.buildCacheKey(rawText);
+    if (this.clientAudioCache.has(cacheKey)) return false;
+    const job = this.activeJobs.get(cacheKey);
+    return Boolean(job && !job.completed && !job.failed && !job.wavUrl && job.pcmChunks.length === 0);
+  }
+
+  public static isTextActive(rawText: string): boolean {
+    if (!rawText || !rawText.trim() || !this.activeFormattedKey) return false;
+    const { formatted } = this.buildCacheKey(rawText);
+    return this.activeFormattedKey === formatted.slice(0, 1200);
   }
 
   private static setClientCache(key: string, audioUrl: string) {
@@ -226,6 +284,191 @@ export class ProfessorAudioService {
     return spoken;
   }
 
+  private static notifyJobListeners(job: ActiveTtsJob) {
+    job.listeners.forEach(fn => fn());
+  }
+
+  private static startOrReuseJob(
+    cacheKey: string,
+    formattedText: string,
+    voice: string,
+    attachToPlayback: boolean
+  ): ActiveTtsJob {
+    const existing = this.activeJobs.get(cacheKey);
+    if (existing && !existing.failed) {
+      if (attachToPlayback) {
+        existing.attachedToPlayback = true;
+      }
+      return existing;
+    }
+
+    // Keep at most one unattached background preload running at a time
+    if (!attachToPlayback) {
+      for (const [key, job] of this.activeJobs.entries()) {
+        if (!job.attachedToPlayback && key !== cacheKey) {
+          job.abortController.abort();
+          this.activeJobs.delete(key);
+        }
+      }
+    }
+
+    const job: ActiveTtsJob = {
+      cacheKey,
+      formattedText,
+      voice,
+      abortController: new AbortController(),
+      attachedToPlayback: attachToPlayback,
+      pcmChunks: [],
+      totalSegments: 1,
+      wavUrl: null,
+      completed: false,
+      failed: false,
+      listeners: new Set(),
+    };
+
+    this.activeJobs.set(cacheKey, job);
+    void this.runStreamJob(job);
+    this.notify();
+    return job;
+  }
+
+  private static async runStreamJob(job: ActiveTtsJob): Promise<void> {
+    try {
+      const response = await fetch('/api/tts/stream', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          text: job.formattedText,
+          voice: job.voice,
+        }),
+        signal: job.abortController.signal,
+      });
+
+      if (!response.ok || !response.body) {
+        throw new Error('Stream TTS indisponível');
+      }
+
+      const contentType = response.headers.get('content-type') || '';
+      if (contentType.includes('application/json')) {
+        const json = await response.json();
+        if (json.success && json.audioUrl) {
+          job.wavUrl = json.audioUrl;
+          job.completed = true;
+          this.setClientCache(job.cacheKey, json.audioUrl);
+          this.activeJobs.delete(job.cacheKey);
+          this.notifyJobListeners(job);
+          this.notify();
+          return;
+        }
+        throw new Error(json.message || 'Fallback solicitado');
+      }
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let lineBuffer = '';
+      let leftoverByte: number | null = null;
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        lineBuffer += decoder.decode(value, { stream: true });
+        const lines = lineBuffer.split('\n');
+        lineBuffer = lines.pop() || '';
+
+        for (const rawLine of lines) {
+          const line = rawLine.trim();
+          if (!line) continue;
+
+          const event = JSON.parse(line);
+          if (event.type === 'meta' && typeof event.totalSegments === 'number') {
+            job.totalSegments = event.totalSegments;
+            this.notifyJobListeners(job);
+          } else if (event.type === 'wav' && event.audioUrl) {
+            job.wavUrl = event.audioUrl;
+            job.completed = true;
+            this.setClientCache(job.cacheKey, event.audioUrl);
+            this.activeJobs.delete(job.cacheKey);
+            this.notifyJobListeners(job);
+            this.notify();
+            return;
+          } else if (event.type === 'pcm' && event.data) {
+            if (typeof event.total === 'number') {
+              job.totalSegments = event.total;
+            }
+            let rawBytes = base64ToBytes(event.data);
+            if (leftoverByte !== null) {
+              const combined = new Uint8Array(rawBytes.length + 1);
+              combined[0] = leftoverByte;
+              combined.set(rawBytes, 1);
+              rawBytes = combined;
+              leftoverByte = null;
+            }
+
+            if (rawBytes.length % 2 !== 0) {
+              leftoverByte = rawBytes[rawBytes.length - 1];
+              rawBytes = rawBytes.subarray(0, rawBytes.length - 1);
+            }
+
+            if (rawBytes.length >= 2) {
+              job.pcmChunks.push(rawBytes);
+              this.notifyJobListeners(job);
+              if (job.pcmChunks.length === 1) {
+                this.notify();
+              }
+            }
+          } else if (event.type === 'fallback') {
+            throw new Error(event.message || 'Fallback local solicitado');
+          } else if (event.type === 'done') {
+            job.completed = true;
+            if (job.pcmChunks.length > 0) {
+              const wavBlobUrl = buildWavBlobUrlFromPcmChunks(job.pcmChunks, TTS_SAMPLE_RATE);
+              this.setClientCache(job.cacheKey, wavBlobUrl);
+            }
+            this.activeJobs.delete(job.cacheKey);
+            this.notifyJobListeners(job);
+            this.notify();
+            return;
+          }
+        }
+      }
+
+      if (!job.completed && job.pcmChunks.length > 0) {
+        job.completed = true;
+        const wavBlobUrl = buildWavBlobUrlFromPcmChunks(job.pcmChunks, TTS_SAMPLE_RATE);
+        this.setClientCache(job.cacheKey, wavBlobUrl);
+        this.activeJobs.delete(job.cacheKey);
+        this.notifyJobListeners(job);
+        this.notify();
+      } else if (!job.completed) {
+        throw new Error('Stream encerrado sem áudio');
+      }
+    } catch (err: any) {
+      job.failed = true;
+      job.fallbackReason = err?.message || 'Erro no stream TTS';
+      this.activeJobs.delete(job.cacheKey);
+      this.notifyJobListeners(job);
+      this.notify();
+    }
+  }
+
+  /**
+   * Background pre-loading: starts streaming/synthesizing segment 1 and subsequent segments
+   * before the user clicks Play, without playing any sound yet.
+   * If play() is called mid-stream, it attaches directly to this buffered stream at 0ms.
+   */
+  public static preload(rawText: string): void {
+    if (typeof window === 'undefined' || !rawText || !rawText.trim()) return;
+    const { formatted, voice, cacheKey } = this.buildCacheKey(rawText);
+    if (!formatted) return;
+
+    if (this.clientAudioCache.has(cacheKey)) return;
+    const existing = this.activeJobs.get(cacheKey);
+    if (existing && !existing.failed) return;
+
+    this.startOrReuseJob(cacheKey, formatted, voice, false);
+  }
+
   private static playAudioUrl(audioUrl: string, formattedFallback: string, sessionId: number) {
     if (sessionId !== this.playbackSessionId) return;
 
@@ -233,6 +476,8 @@ export class ProfessorAudioService {
     this.isNeuralAudio = true;
     this.isSpeaking = true;
     this.isPaused = false;
+    this.currentChunkIndex = 1;
+    this.totalStreamChunks = 1;
 
     const audio = new Audio(audioUrl);
     audio.playbackRate = this.currentRate;
@@ -302,19 +547,110 @@ export class ProfessorAudioService {
     source.start(startTime);
   }
 
+  private static async fallbackToUnaryOrLocal(
+    formatted: string,
+    voice: string,
+    cacheKey: string,
+    sessionId: number
+  ): Promise<void> {
+    if (sessionId !== this.playbackSessionId) return;
+
+    try {
+      const unaryRes = await fetch('/api/tts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          text: formatted,
+          voice,
+        }),
+      });
+      if (sessionId !== this.playbackSessionId) return;
+      if (unaryRes.ok) {
+        const unaryData = await unaryRes.json();
+        if (unaryData.success && unaryData.audioUrl) {
+          this.setClientCache(cacheKey, unaryData.audioUrl);
+          this.playAudioUrl(unaryData.audioUrl, formatted, sessionId);
+          return;
+        }
+      }
+    } catch (unaryErr) {
+      console.warn('Endpoint /api/tts indisponível, alternando para síntese local:', unaryErr);
+    }
+
+    if (sessionId === this.playbackSessionId) {
+      this.isLoadingNeural = false;
+      this.playWithLocalSpeech(formatted);
+    }
+  }
+
+  private static stopPlaybackPreservingMatchingJob(preserveJobKey?: string) {
+    this.playbackSessionId += 1;
+
+    if (this.activeJobUnsubscribe) {
+      this.activeJobUnsubscribe();
+      this.activeJobUnsubscribe = null;
+    }
+
+    if (this.activePlaybackJobKey && this.activePlaybackJobKey !== preserveJobKey) {
+      const prevJob = this.activeJobs.get(this.activePlaybackJobKey);
+      if (prevJob && !prevJob.completed) {
+        prevJob.abortController.abort();
+        this.activeJobs.delete(this.activePlaybackJobKey);
+      }
+    }
+    this.activePlaybackJobKey = null;
+    this.activeFormattedKey = null;
+
+    this.activeStreamSources.forEach(src => {
+      try {
+        src.onended = null;
+        src.stop();
+        src.disconnect();
+      } catch {
+        // ignore
+      }
+    });
+    this.activeStreamSources.clear();
+    this.streamCompleted = false;
+    this.streamNextPlayTime = 0;
+    this.totalStreamChunks = 0;
+
+    if (this.audioContext && this.audioContext.state === 'suspended') {
+      this.audioContext.resume().catch(() => {});
+    }
+
+    if (this.currentHtmlAudio) {
+      this.currentHtmlAudio.pause();
+      this.currentHtmlAudio.currentTime = 0;
+      this.currentHtmlAudio = null;
+    }
+
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+
+    this.clearKeepAlive();
+    this.isSpeaking = false;
+    this.isPaused = false;
+    this.isLoadingNeural = false;
+    this.isNeuralAudio = false;
+    this.currentChunks = [];
+    this.currentChunkIndex = 0;
+    this.activeUtterance = null;
+  }
+
   /**
    * Main Play function:
    * 1. Plays immediately (0ms) if audio is already in client cache
-   * 2. Otherwise opens Progressive Streaming Neural TTS (/api/tts/stream) so playback begins on chunk 1 (~1s)
-   * 3. Falls back cleanly to /api/tts or local browser SpeechSynthesis if unavailable or timed out
+   * 2. If a background preload job is already buffered/running for this text, attaches immediately (0ms if chunk 1 arrived)
+   * 3. Otherwise starts Progressive Streaming Neural TTS (/api/tts/stream) so playback begins on segment 1
+   * 4. Falls back cleanly to /api/tts or local browser SpeechSynthesis if unavailable or timed out
    */
   public static async play(rawText: string) {
-    this.stop();
-    const sessionId = ++this.playbackSessionId;
-
-    const formatted = this.formatLegalTextForSpeech(rawText);
-    const geminiVoice = this.selectedPersona === 'male' ? 'Puck' : 'Kore';
-    const cacheKey = `${geminiVoice}_${formatted.slice(0, 1200)}`;
+    const { formatted, voice, cacheKey } = this.buildCacheKey(rawText);
+    this.stopPlaybackPreservingMatchingJob(cacheKey);
+    const sessionId = this.playbackSessionId;
+    this.activeFormattedKey = formatted.slice(0, 1200);
 
     // 1. Instant client-side cache hit (0ms)
     const cachedUrl = this.clientAudioCache.get(cacheKey);
@@ -325,168 +661,100 @@ export class ProfessorAudioService {
 
     // Unlock Web Audio Context immediately inside user gesture before any await
     const audioCtx = this.ensureAudioContext();
+    if (!audioCtx) {
+      this.isLoadingNeural = true;
+      this.notify();
+      await this.fallbackToUnaryOrLocal(formatted, voice, cacheKey, sessionId);
+      return;
+    }
 
-    this.isLoadingNeural = true;
-    this.notify();
+    const job = this.startOrReuseJob(cacheKey, formatted, voice, true);
+    this.activePlaybackJobKey = cacheKey;
 
-    const abortController = new AbortController();
-    this.activeStreamAbort = abortController;
+    let consumedChunks = 0;
     let firstAudioArrived = false;
+    let settled = false;
 
     const firstByteTimer = setTimeout(() => {
-      if (!firstAudioArrived && sessionId === this.playbackSessionId) {
-        abortController.abort();
+      if (!firstAudioArrived && !settled && sessionId === this.playbackSessionId) {
+        settled = true;
+        cleanupListener();
+        job.abortController.abort();
+        this.activeJobs.delete(cacheKey);
+        void this.fallbackToUnaryOrLocal(formatted, voice, cacheKey, sessionId);
       }
     }, FIRST_CHUNK_TIMEOUT_MS);
 
-    try {
-      const response = await fetch('/api/tts/stream', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          text: formatted,
-          voice: geminiVoice,
-        }),
-        signal: abortController.signal,
-      });
-
-      if (!response.ok || !response.body || !audioCtx) {
-        throw new Error('Stream TTS indisponível');
-      }
-
-      const contentType = response.headers.get('content-type') || '';
-      if (contentType.includes('application/json')) {
-        const json = await response.json();
-        clearTimeout(firstByteTimer);
-        if (json.success && json.audioUrl) {
-          this.setClientCache(cacheKey, json.audioUrl);
-          this.playAudioUrl(json.audioUrl, formatted, sessionId);
-          return;
-        }
-        throw new Error(json.message || 'Fallback solicitado');
-      }
-
-      const reader = response.body.getReader();
-      const decoder = new TextDecoder();
-      let lineBuffer = '';
-      let leftoverByte: number | null = null;
-      const collectedPcm: Uint8Array[] = [];
-
-      this.streamNextPlayTime = audioCtx.currentTime + 0.03;
-      this.streamCompleted = false;
-
-      while (sessionId === this.playbackSessionId) {
-        const { done, value } = await reader.read();
-        if (done) break;
-
-        lineBuffer += decoder.decode(value, { stream: true });
-        const lines = lineBuffer.split('\n');
-        lineBuffer = lines.pop() || '';
-
-        for (const rawLine of lines) {
-          const line = rawLine.trim();
-          if (!line) continue;
-
-          const event = JSON.parse(line);
-          if (event.type === 'wav' && event.audioUrl) {
-            clearTimeout(firstByteTimer);
-            firstAudioArrived = true;
-            this.setClientCache(cacheKey, event.audioUrl);
-            this.playAudioUrl(event.audioUrl, formatted, sessionId);
-            return;
-          }
-
-          if (event.type === 'pcm' && event.data) {
-            if (!firstAudioArrived) {
-              firstAudioArrived = true;
-              clearTimeout(firstByteTimer);
-              this.isLoadingNeural = false;
-              this.isNeuralAudio = true;
-              this.isSpeaking = true;
-              this.isPaused = false;
-              this.notify();
-            }
-
-            let rawBytes = base64ToBytes(event.data);
-            if (leftoverByte !== null) {
-              const combined = new Uint8Array(rawBytes.length + 1);
-              combined[0] = leftoverByte;
-              combined.set(rawBytes, 1);
-              rawBytes = combined;
-              leftoverByte = null;
-            }
-
-            if (rawBytes.length % 2 !== 0) {
-              leftoverByte = rawBytes[rawBytes.length - 1];
-              rawBytes = rawBytes.subarray(0, rawBytes.length - 1);
-            }
-
-            if (rawBytes.length >= 2) {
-              collectedPcm.push(rawBytes);
-              this.schedulePcmChunk(audioCtx, rawBytes, sessionId);
-            }
-          } else if (event.type === 'fallback') {
-            throw new Error(event.message || 'Fallback local solicitado');
-          } else if (event.type === 'done') {
-            this.streamCompleted = true;
-            if (collectedPcm.length > 0) {
-              const wavBlobUrl = buildWavBlobUrlFromPcmChunks(collectedPcm, TTS_SAMPLE_RATE);
-              this.setClientCache(cacheKey, wavBlobUrl);
-            }
-            if (this.activeStreamSources.size === 0 && sessionId === this.playbackSessionId) {
-              this.stop();
-            }
-          }
-        }
-      }
-
+    const cleanupListener = () => {
       clearTimeout(firstByteTimer);
-      if (sessionId === this.playbackSessionId && firstAudioArrived) {
+      job.listeners.delete(onJobUpdate);
+      if (this.activeJobUnsubscribe === cleanupListener) {
+        this.activeJobUnsubscribe = null;
+      }
+    };
+    this.activeJobUnsubscribe = cleanupListener;
+
+    const onJobUpdate = () => {
+      if (settled || sessionId !== this.playbackSessionId) {
+        cleanupListener();
+        return;
+      }
+
+      if (job.wavUrl && consumedChunks === 0) {
+        settled = true;
+        firstAudioArrived = true;
+        cleanupListener();
+        this.playAudioUrl(job.wavUrl, formatted, sessionId);
+        return;
+      }
+
+      while (consumedChunks < job.pcmChunks.length) {
+        if (!firstAudioArrived) {
+          firstAudioArrived = true;
+          clearTimeout(firstByteTimer);
+          this.streamNextPlayTime = audioCtx.currentTime + 0.025;
+          this.streamCompleted = false;
+          this.isLoadingNeural = false;
+          this.isNeuralAudio = true;
+          this.isSpeaking = true;
+          this.isPaused = false;
+        }
+
+        const pcmChunk = job.pcmChunks[consumedChunks];
+        consumedChunks += 1;
+        this.currentChunkIndex = consumedChunks;
+        this.totalStreamChunks = Math.max(job.totalSegments, consumedChunks);
+        this.schedulePcmChunk(audioCtx, pcmChunk, sessionId);
+        this.notify();
+      }
+
+      if (job.completed) {
+        settled = true;
         this.streamCompleted = true;
-        if (this.activeStreamSources.size === 0) {
+        cleanupListener();
+        if (firstAudioArrived && this.activeStreamSources.size === 0 && sessionId === this.playbackSessionId) {
           this.stop();
+        } else if (!firstAudioArrived) {
+          void this.fallbackToUnaryOrLocal(formatted, voice, cacheKey, sessionId);
         }
         return;
       }
-    } catch (e) {
-      clearTimeout(firstByteTimer);
-      if (sessionId !== this.playbackSessionId) return;
-      if (!firstAudioArrived) {
-        console.warn('Stream TTS indisponível, tentando /api/tts padrão:', e);
-      } else {
-        return;
-      }
-    }
 
-    // Fallback para endpoint /api/tts unário antes de usar síntese robótica local
-    if (sessionId === this.playbackSessionId && !firstAudioArrived) {
-      try {
-        const unaryRes = await fetch('/api/tts', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            text: formatted,
-            voice: geminiVoice,
-          }),
-        });
-        if (sessionId !== this.playbackSessionId) return;
-        if (unaryRes.ok) {
-          const unaryData = await unaryRes.json();
-          if (unaryData.success && unaryData.audioUrl) {
-            this.setClientCache(cacheKey, unaryData.audioUrl);
-            this.playAudioUrl(unaryData.audioUrl, formatted, sessionId);
-            return;
-          }
-        }
-      } catch (unaryErr) {
-        console.warn('Endpoint /api/tts também indisponível, alternando para síntese local:', unaryErr);
+      if (job.failed && !firstAudioArrived) {
+        settled = true;
+        cleanupListener();
+        void this.fallbackToUnaryOrLocal(formatted, voice, cacheKey, sessionId);
       }
-    }
+    };
 
-    // Fallback final para síntese local do navegador
-    if (sessionId === this.playbackSessionId && !firstAudioArrived) {
-      this.isLoadingNeural = false;
-      this.playWithLocalSpeech(formatted);
+    job.listeners.add(onJobUpdate);
+
+    // Immediately consume anything already preloaded before showing loading state
+    onJobUpdate();
+
+    if (!settled && !firstAudioArrived && sessionId === this.playbackSessionId) {
+      this.isLoadingNeural = true;
+      this.notify();
     }
   }
 
@@ -632,48 +900,7 @@ export class ProfessorAudioService {
   }
 
   public static stop() {
-    this.playbackSessionId += 1;
-
-    if (this.activeStreamAbort) {
-      this.activeStreamAbort.abort();
-      this.activeStreamAbort = null;
-    }
-
-    this.activeStreamSources.forEach(src => {
-      try {
-        src.onended = null;
-        src.stop();
-        src.disconnect();
-      } catch {
-        // ignore
-      }
-    });
-    this.activeStreamSources.clear();
-    this.streamCompleted = false;
-    this.streamNextPlayTime = 0;
-
-    if (this.audioContext && this.audioContext.state === 'suspended') {
-      this.audioContext.resume().catch(() => {});
-    }
-
-    if (this.currentHtmlAudio) {
-      this.currentHtmlAudio.pause();
-      this.currentHtmlAudio.currentTime = 0;
-      this.currentHtmlAudio = null;
-    }
-
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-    }
-
-    this.clearKeepAlive();
-    this.isSpeaking = false;
-    this.isPaused = false;
-    this.isLoadingNeural = false;
-    this.isNeuralAudio = false;
-    this.currentChunks = [];
-    this.currentChunkIndex = 0;
-    this.activeUtterance = null;
+    this.stopPlaybackPreservingMatchingJob(undefined);
     this.notify();
   }
 

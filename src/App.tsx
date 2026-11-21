@@ -18,6 +18,7 @@ import {
 } from './services/storage';
 import { SimuladoConfig, SimuladoResult, LegalQuestion, UserStudyData } from './types';
 import { getAllQuestions, subscribeToQuestions, syncPublishedQuestionsFromServer } from './services/questionsService';
+import { startKeepAliveMonitor } from './services/keepAlive';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<'simulados' | 'diagnostico' | 'cronograma' | 'desempenho' | 'erros' | 'flashcards' | 'base_admin' | 'professor'>('simulados');
@@ -31,13 +32,17 @@ export default function App() {
   const [showAccessModal, setShowAccessModal] = useState(false);
   const [, setQuestionsVersion] = useState(0);
 
-  // Sync state with storage and server legal knowledge DB
+  // Sync state with storage, server legal knowledge DB, and periodic keep-alive
   useEffect(() => {
     const unsub = subscribeToQuestions(() => {
       setQuestionsVersion(v => v + 1);
     });
     syncPublishedQuestionsFromServer();
-    return unsub;
+    const stopKeepAlive = startKeepAliveMonitor();
+    return () => {
+      unsub();
+      stopKeepAlive();
+    };
   }, []);
 
   const refreshStudyData = () => {

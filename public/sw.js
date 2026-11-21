@@ -1,5 +1,12 @@
-// JurisMentor Service Worker v2 - Network-First for HTML to prevent stale bundle white screens
-const CACHE_NAME = 'jurismentor-cache-v2';
+// JurisMentor Service Worker v3 - Network-First for HTML + Keep-Alive Coordination
+const CACHE_NAME = 'jurismentor-cache-v3';
+const KEEP_ALIVE_URL = '/api/keep-alive';
+const DEFAULT_KEEP_ALIVE_MS = 5 * 60 * 1000;
+const MIN_PING_GAP_MS = 4 * 60 * 1000;
+
+let lastSwPingAt = 0;
+let swKeepAliveTimer = null;
+
 const STATIC_ASSETS = [
   '/icon-192.png',
   '/icon-512.png',
@@ -7,6 +14,42 @@ const STATIC_ASSETS = [
   '/icon.svg',
   '/manifest.json',
 ];
+
+async function pingKeepAliveServer(source) {
+  const now = Date.now();
+  if (now - lastSwPingAt < MIN_PING_GAP_MS) {
+    return;
+  }
+  lastSwPingAt = now;
+  try {
+    await fetch(`${KEEP_ALIVE_URL}?source=${encodeURIComponent(source)}&t=${now}`, {
+      method: 'GET',
+      cache: 'no-store',
+    });
+  } catch {
+    // Ignore offline or transient network errors
+  }
+}
+
+function ensureSwKeepAliveTimer(intervalMs) {
+  const safeInterval = Math.max(60 * 1000, Number(intervalMs) || DEFAULT_KEEP_ALIVE_MS);
+  if (swKeepAliveTimer) {
+    clearInterval(swKeepAliveTimer);
+  }
+  swKeepAliveTimer = setInterval(async () => {
+    try {
+      const activeClients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+      if (activeClients.length > 0) {
+        await pingKeepAliveServer('sw_interval');
+      } else {
+        clearInterval(swKeepAliveTimer);
+        swKeepAliveTimer = null;
+      }
+    } catch {
+      // Ignore client inspection errors
+    }
+  }, safeInterval);
+}
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -22,6 +65,31 @@ self.addEventListener('activate', (event) => {
     )
   );
   self.clients.claim();
+});
+
+self.addEventListener('message', (event) => {
+  const data = event.data;
+  if (!data || typeof data !== 'object') return;
+
+  if (data.type === 'KEEP_ALIVE_ACK' && typeof data.lastPingAt === 'number') {
+    lastSwPingAt = Math.max(lastSwPingAt, data.lastPingAt);
+    return;
+  }
+
+  if (data.type === 'START_KEEP_ALIVE') {
+    ensureSwKeepAliveTimer(data.intervalMs);
+    return;
+  }
+
+  if (data.type === 'KEEP_ALIVE_PING') {
+    event.waitUntil(pingKeepAliveServer('sw_message'));
+  }
+});
+
+self.addEventListener('periodicsync', (event) => {
+  if (event.tag === 'jurismentor-keep-alive') {
+    event.waitUntil(pingKeepAliveServer('sw_periodicsync'));
+  }
 });
 
 self.addEventListener('fetch', (event) => {

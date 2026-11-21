@@ -774,9 +774,20 @@ app.get('/api/export-project-zip', async (_req, res) => {
   }
 });
 
-// Health check endpoint
+// Health check & keep-alive endpoints
 app.get('/api/health', (_req, res) => {
+  res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate');
   res.json({ status: 'ok', hasGeminiKey: Boolean(apiKey) });
+});
+
+app.get('/api/keep-alive', (_req, res) => {
+  res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate');
+  res.json({ ok: true, ts: Date.now() });
+});
+
+app.head('/api/keep-alive', (_req, res) => {
+  res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate');
+  res.status(204).end();
 });
 
 // Vite or Static file serving

@@ -177,6 +177,138 @@ export const getSubjectQuestionCounts = (): Record<string, number> => {
   return counts;
 };
 
+export const MINIMUM_QUESTIONS_PER_DISCIPLINE = 100;
+
+export interface DisciplineCoverageReport {
+  subject: string;
+  total: number;
+  minimumRequired: number;
+  meetsMinimum: boolean;
+  missingCount: number;
+  byExamType: Record<'OAB' | 'CONCURSO' | 'FACULDADE', number>;
+  byDifficulty: Record<'Fácil' | 'Médio' | 'Difícil', number>;
+}
+
+const buildCoverageFromQuestions = (
+  questions: LegalQuestion[],
+  minimumPerDiscipline = MINIMUM_QUESTIONS_PER_DISCIPLINE
+): DisciplineCoverageReport[] => {
+  const grouped = new Map<string, LegalQuestion[]>();
+  for (const q of questions) {
+    const list = grouped.get(q.subject);
+    if (list) list.push(q);
+    else grouped.set(q.subject, [q]);
+  }
+
+  return Array.from(grouped.entries())
+    .map(([subject, items]) => {
+      const byExamType: Record<'OAB' | 'CONCURSO' | 'FACULDADE', number> = {
+        OAB: 0,
+        CONCURSO: 0,
+        FACULDADE: 0,
+      };
+      const byDifficulty: Record<'Fácil' | 'Médio' | 'Difícil', number> = {
+        Fácil: 0,
+        Médio: 0,
+        Difícil: 0,
+      };
+      for (const item of items) {
+        if (item.examType in byExamType) byExamType[item.examType] += 1;
+        if (item.difficulty in byDifficulty) byDifficulty[item.difficulty] += 1;
+      }
+      const total = items.length;
+      return {
+        subject,
+        total,
+        minimumRequired: minimumPerDiscipline,
+        meetsMinimum: total >= minimumPerDiscipline,
+        missingCount: Math.max(0, minimumPerDiscipline - total),
+        byExamType,
+        byDifficulty,
+      };
+    })
+    .sort((a, b) => a.subject.localeCompare(b.subject, 'pt-BR'));
+};
+
+/**
+ * Gera relatório de cobertura por disciplina considerando o banco completo carregado
+ * (estático em src/data/questions/ + servidor + dinâmico local).
+ */
+export const getDisciplineCoverageReport = (
+  minimumPerDiscipline = MINIMUM_QUESTIONS_PER_DISCIPLINE
+): DisciplineCoverageReport[] => {
+  return buildCoverageFromQuestions(getAllQuestions(), minimumPerDiscipline);
+};
+
+/**
+ * Verifica a integridade e cobertura do acervo estático compilado em src/data/questions/.
+ */
+export const getStaticDatabaseSummary = (
+  minimumPerDiscipline = MINIMUM_QUESTIONS_PER_DISCIPLINE
+) => {
+  const report = buildCoverageFromQuestions(QUESTIONS_DATABASE, minimumPerDiscipline);
+  const disciplinesBelowMinimum = report.filter(r => !r.meetsMinimum);
+  return {
+    totalQuestions: QUESTIONS_DATABASE.length,
+    totalDisciplines: report.length,
+    minimumPerDiscipline,
+    allMeetMinimum: report.length > 0 && disciplinesBelowMinimum.length === 0,
+    disciplinesBelowMinimum,
+    report,
+  };
+};
+
+/**
+ * Carrega o acervo expandido de uma disciplina a partir de src/data/questions/ e fontes sincronizadas,
+ * priorizando equilíbrio entre OAB, Concurso e Faculdade e garantindo deduplicação por ID.
+ */
+export const loadExpandedQuestionsForDiscipline = (
+  subject: string,
+  minimumCount = MINIMUM_QUESTIONS_PER_DISCIPLINE
+): LegalQuestion[] => {
+  const pool = getQuestionsBySubject(subject);
+  if (pool.length <= 1) return pool;
+
+  const byType: Record<'OAB' | 'CONCURSO' | 'FACULDADE', LegalQuestion[]> = {
+    OAB: [],
+    CONCURSO: [],
+    FACULDADE: [],
+  };
+  for (const q of pool) {
+    if (q.examType in byType) byType[q.examType].push(q);
+    else byType.OAB.push(q);
+  }
+
+  const interleaved: LegalQuestion[] = [];
+  const maxLen = Math.max(byType.OAB.length, byType.CONCURSO.length, byType.FACULDADE.length);
+  for (let i = 0; i < maxLen; i++) {
+    if (i < byType.OAB.length) interleaved.push(byType.OAB[i]);
+    if (i < byType.CONCURSO.length) interleaved.push(byType.CONCURSO[i]);
+    if (i < byType.FACULDADE.length) interleaved.push(byType.FACULDADE[i]);
+  }
+
+  return interleaved.slice(0, Math.max(minimumCount, interleaved.length));
+};
+
+/**
+ * Valida se todas as disciplinas carregadas atingem o piso mínimo de questões configurado.
+ */
+export const ensureAllDisciplinesMinimumLoaded = (
+  minimumCount = MINIMUM_QUESTIONS_PER_DISCIPLINE
+) => {
+  cachedQuestions = null;
+  const all = getAllQuestions();
+  const report = buildCoverageFromQuestions(all, minimumCount);
+  const underMinimum = report.filter(r => !r.meetsMinimum);
+  return {
+    ready: report.length > 0 && underMinimum.length === 0,
+    totalQuestions: all.length,
+    totalDisciplines: report.length,
+    underMinimum,
+    report,
+  };
+};
+
 // Auto-update questions for a specific discipline using Grounded AI engine
 export const fetchUpdatedQuestionsForSubject = async (
   subject: string,

@@ -22,6 +22,7 @@ import { PROCESSUAL_PENAL_EXTRA_QUESTIONS } from './questions/extra/processualPe
 import { TRABALHO_EXTRA_QUESTIONS } from './questions/extra/trabalhoExtra';
 import { EMPRESARIAL_EXTRA_QUESTIONS } from './questions/extra/empresarialExtra';
 import { ESPECIAIS_EXTRA_QUESTIONS } from './questions/extra/especiaisExtra';
+import { EXPANDED_CORPUS_QUESTIONS } from './questions/extra/expanded';
 
 export const QUESTIONS_DATABASE: LegalQuestion[] = [
   ...ETICA_QUESTIONS,
@@ -46,6 +47,7 @@ export const QUESTIONS_DATABASE: LegalQuestion[] = [
   ...EMPRESARIAL_EXTRA_QUESTIONS,
   ...ESPECIAIS_QUESTIONS,
   ...ESPECIAIS_EXTRA_QUESTIONS,
+  ...EXPANDED_CORPUS_QUESTIONS,
 ];
 
 export const AVAILABLE_SUBJECTS: string[] = Array.from(

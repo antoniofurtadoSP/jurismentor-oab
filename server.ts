@@ -57,8 +57,153 @@ app.post('/api/tutor', async (req, res) => {
 });
 
 // =========================================================================
-// TTS NEURAL COM CACHE E SANITIZAÇÃO DE DIRETRIZES
+// TTS NEURAL COM STREAMING PCM, CACHE E SANITIZAÇÃO DE DIRETRIZES
 // =========================================================================
+function createWavFromPcm(pcmBuffer: Buffer, sampleRate = 24000, numChannels = 1, bitsPerSample = 16): Buffer {
+  const header = Buffer.alloc(44);
+  const byteRate = (sampleRate * numChannels * bitsPerSample) / 8;
+  const blockAlign = (numChannels * bitsPerSample) / 8;
+  const dataSize = pcmBuffer.length;
+
+  header.write('RIFF', 0);
+  header.writeUInt32LE(36 + dataSize, 4);
+  header.write('WAVE', 8);
+  header.write('fmt ', 12);
+  header.writeUInt32LE(16, 16); // Subchunk1Size (PCM)
+  header.writeUInt16LE(1, 20); // AudioFormat (1 = PCM)
+  header.writeUInt16LE(numChannels, 22);
+  header.writeUInt32LE(sampleRate, 24);
+  header.writeUInt32LE(byteRate, 28);
+  header.writeUInt16LE(blockAlign, 32);
+  header.writeUInt16LE(bitsPerSample, 34);
+  header.write('data', 36);
+  header.writeUInt32LE(dataSize, 40);
+
+  return Buffer.concat([header, pcmBuffer]);
+}
+
+function sanitizeTtsText(text: string): string {
+  return text
+    .replace(/^fale com entonação[^\n\:\.]*[\n\:\.]+\s*/i, '')
+    .replace(/^[\[\(]?instru[çc][ãa]o[^\]\)]*[\]\)]*:?\s*/i, '')
+    .trim()
+    .slice(0, 1200);
+}
+
+function getTtsCache(): Map<string, string> {
+  if (!(globalThis as any).__ttsCache) {
+    (globalThis as any).__ttsCache = new Map<string, string>();
+  }
+  return (globalThis as any).__ttsCache;
+}
+
+function setTtsCacheEntry(cacheKey: string, audioUrl: string): void {
+  const cache = getTtsCache();
+  if (cache.size > 200) {
+    const firstKey = cache.keys().next().value;
+    if (firstKey) cache.delete(firstKey);
+  }
+  cache.set(cacheKey, audioUrl);
+}
+
+app.post('/api/tts/stream', async (req, res) => {
+  const sendLine = (payload: Record<string, unknown>) => {
+    if (!res.writableEnded) {
+      res.write(`${JSON.stringify(payload)}\n`);
+    }
+  };
+
+  try {
+    const { text, voice = 'Puck' } = req.body || {};
+
+    if (!aiClient) {
+      return res.json({
+        success: false,
+        useLocalFallback: true,
+        message: 'Gemini API key não configurada. Usando síntese local.',
+      });
+    }
+
+    if (!text || typeof text !== 'string') {
+      return res.status(400).json({ error: 'Texto obrigatório.' });
+    }
+
+    const cleanText = sanitizeTtsText(text);
+    const selectedVoice = voice || 'Puck';
+    const cacheKey = `${selectedVoice}_${cleanText}`;
+    const cache = getTtsCache();
+
+    res.setHeader('Content-Type', 'application/x-ndjson; charset=utf-8');
+    res.setHeader('Cache-Control', 'no-store');
+    res.setHeader('X-Accel-Buffering', 'no');
+
+    if (cache.has(cacheKey)) {
+      sendLine({ type: 'wav', audioUrl: cache.get(cacheKey), cached: true });
+      sendLine({ type: 'done' });
+      return res.end();
+    }
+
+    const responseStream = await aiClient.models.generateContentStream({
+      model: 'gemini-3.8-flash-lite-tts',
+      contents: [
+        {
+          role: 'user',
+          parts: [
+            {
+              text: cleanText,
+              speechMetadata: {
+                style: 'Professor de Direito brasileiro, tom humano natural, acolhedor, amigável e pausado',
+              },
+            } as any,
+          ],
+        },
+      ],
+      config: {
+        responseModalities: ['AUDIO'],
+        speechConfig: {
+          voiceConfig: {
+            prebuiltVoiceConfig: { voiceName: selectedVoice },
+          },
+        },
+      },
+    });
+
+    const pcmChunks: Buffer[] = [];
+    for await (const chunk of responseStream) {
+      if (req.destroyed || res.writableEnded) break;
+      const parts = chunk.candidates?.[0]?.content?.parts || [];
+      for (const part of parts) {
+        const b64 = (part as any)?.inlineData?.data;
+        if (b64) {
+          pcmChunks.push(Buffer.from(b64, 'base64'));
+          sendLine({ type: 'pcm', data: b64 });
+        }
+      }
+    }
+
+    if (pcmChunks.length === 0) {
+      sendLine({ type: 'fallback', message: 'Nenhum chunk de áudio retornado pelo modelo.' });
+      return res.end();
+    }
+
+    const wavBuffer = createWavFromPcm(Buffer.concat(pcmChunks), 24000, 1, 16);
+    setTtsCacheEntry(cacheKey, `data:audio/wav;base64,${wavBuffer.toString('base64')}`);
+    sendLine({ type: 'done' });
+    return res.end();
+  } catch (err: any) {
+    console.warn('[TTS Stream] Erro na geração neural:', err?.message || err);
+    if (!res.headersSent) {
+      return res.status(200).json({
+        success: false,
+        useLocalFallback: true,
+        error: err?.message || 'Falha no stream TTS.',
+      });
+    }
+    sendLine({ type: 'fallback', error: err?.message || 'Falha no stream TTS.' });
+    return res.end();
+  }
+});
+
 app.post('/api/tts', async (req, res) => {
   try {
     const { text, voice = 'Puck' } = req.body;
@@ -75,19 +220,14 @@ app.post('/api/tts', async (req, res) => {
       return res.status(400).json({ error: 'Texto obrigatório.' });
     }
 
-    let cleanText = text
-      .replace(/^fale com entonação[^\n\:\.]*[\n\:\.]+\s*/i, '')
-      .replace(/^[\[\(]?instru[çc][ãa]o[^\]\)]*[\]\)]*:?\s*/i, '')
-      .trim();
-
-    cleanText = cleanText.slice(0, 1200);
-
+    const cleanText = sanitizeTtsText(text);
     const cacheKey = `${voice}_${cleanText}`;
-    if ((globalThis as any).__ttsCache && (globalThis as any).__ttsCache.has(cacheKey)) {
-      const cached = (globalThis as any).__ttsCache.get(cacheKey);
+    const cache = getTtsCache();
+
+    if (cache.has(cacheKey)) {
       return res.json({
         success: true,
-        audioUrl: cached,
+        audioUrl: cache.get(cacheKey),
         format: 'wav',
         cached: true,
       });
@@ -136,14 +276,7 @@ app.post('/api/tts', async (req, res) => {
 
     if (base64Audio) {
       const audioUrl = `data:audio/wav;base64,${base64Audio}`;
-      if (!(globalThis as any).__ttsCache) {
-        (globalThis as any).__ttsCache = new Map<string, string>();
-      }
-      if ((globalThis as any).__ttsCache.size > 200) {
-        const firstKey = (globalThis as any).__ttsCache.keys().next().value;
-        if (firstKey) (globalThis as any).__ttsCache.delete(firstKey);
-      }
-      (globalThis as any).__ttsCache.set(cacheKey, audioUrl);
+      setTtsCacheEntry(cacheKey, audioUrl);
 
       return res.json({
         success: true,

@@ -21,15 +21,15 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O princípio do juiz das garantias foi declarado integralmente inconstitucional pelo STF em 2023."
+        "text": "O princípio do juiz das garantias foi declarado integralmente inconstitucional pelo STF em 2023, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "C",
-        "text": "No sistema acusatório, o juiz fica vinculado ao pedido de condenação do MP, mas pode condenar mesmo quando o MP pede absolvição em alegações finais nos crimes de ação pública?"
+        "text": "No sistema acusatório, o juiz fica vinculado ao pedido de condenação do MP, mas pode condenar mesmo quando o MP pede absolvição em alegações finais nos crimes de ação pública."
       },
       {
         "letter": "D",
-        "text": "O processo penal terá estrutura ACUSATÓRIA, vedada a iniciativa do juiz na fase de investigação e a substituição da atuação probatória do órgão de acusação (Art. 3º-A do CPP — admitindo-se apenas que o juiz atue de modo supletivo/complementar na instrução para esclarecer dúvida relevante sobre ponto já trazido pelas partes, nos termos da interpretação conforme dada pelo STF)."
+        "text": "O processo penal terá estrutura acusatória, vedada a iniciativa do juiz na fase de investigação e a substituição da atuação probatória do órgão de acusação."
       }
     ],
     "correctAnswer": "D",
@@ -73,19 +73,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A lei processual penal mais gravosa nunca se aplica aos processos em curso por crimes cometidos antes de sua vigência."
+        "text": "A lei processual penal mais gravosa nunca se aplica aos processos em curso por crimes cometidos antes de sua vigência, com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão."
       },
       {
         "letter": "B",
-        "text": "A lei processual penal brasileira não admite interpretação extensiva nem aplicação analógica."
+        "text": "A lei processual penal brasileira não admite interpretação extensiva nem aplicação analógica, sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação."
       },
       {
         "letter": "C",
-        "text": "Os tratados internacionais ratificados pelo Brasil não influenciam a aplicação territorial da lei processual penal."
+        "text": "Os tratados internacionais ratificados pelo Brasil não influenciam a aplicação territorial da lei processual penal, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "D",
-        "text": "Aplica-se a regra tempus regit actum (Art. 2º do CPP): a lei processual penal aplica-se desde logo (imediatamente aos atos futuros), sem prejuízo da validade dos atos já realizados sob a vigência da lei anterior; porém, se a norma tiver natureza HÍBRIDA ou mista (material + processual, atingindo pretensão punitiva/liberdade como prescrição, representação, fiança), prevalece a regra penal da irretroatividade da lei mais gravosa."
+        "text": "Aplica-se a regra tempus regit actum: a lei processual penal aplica-se desde logo, sem prejuízo da validade dos atos já realizados sob a vigência da lei anterior."
       }
     ],
     "correctAnswer": "D",
@@ -132,15 +132,15 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O delegado de polícia pode arquivar diretamente o inquérito policial caso conclua pela atipicidade evidente do fato."
+        "text": "O delegado de polícia pode arquivar diretamente o inquérito policial caso conclua pela atipicidade evidente do fato, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       },
       {
         "letter": "C",
-        "text": "Arquivado o inquérito por falta de provas (Art. 18 CPP), a autoridade policial fica impedida de proceder a novas pesquisas mesmo se surgirem novas provas."
+        "text": "Arquivado o inquérito por falta de provas, a autoridade policial fica impedida de proceder a novas pesquisas mesmo se surgirem novas provas."
       },
       {
         "letter": "D",
-        "text": "No CPP comum, o prazo do inquérito policial é de 10 dias estando o indiciado PRESO (prorrogável por até +15 dias pelo Juiz das Garantias excepcionalmente — Art. 3º-B, § 2º) e de 30 dias estando SOLTO (prorrogável sucessivamente); quanto ao arquivamento (novo Art. 28 interpretado conforme pelo STF nas ADIs 6.298/6.305), o membro do MP ordena o arquivamento e submete o ato à homologação judicial (revisão pela instância competente do próprio MP em caso de discordância judicial ou requerimento da vítima em 30 dias)!"
+        "text": "No CPP comum, o prazo do inquérito policial é de 10 dias estando o indiciado preso e de 30 dias estando solto."
       }
     ],
     "correctAnswer": "D",
@@ -184,19 +184,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O advogado tem direito de acompanhar e acessar inclusive interceptações telefônicas em tempo real ainda não encerradas nem juntadas aos autos."
+        "text": "O advogado tem direito de acompanhar e acessar inclusive interceptações telefônicas em tempo real ainda não encerradas nem juntadas aos autos, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "B",
-        "text": "Por ser procedimento inquisitivo sigiloso (Art. 20 CPP), o delegado pode negar acesso ao advogado inclusive dos documentos já juntados se decretado sigilo judicial."
+        "text": "Por ser procedimento inquisitivo sigiloso, o delegado pode negar acesso ao advogado inclusive dos documentos já juntados se decretado sigilo judicial, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "C",
-        "text": "O advogado precisa de procuração em qualquer hipótese para consultar autos de inquérito não sigilosos."
+        "text": "O advogado precisa de procuração em qualquer hipótese para consultar autos de inquérito não sigilosos, com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "D",
-        "text": "Pela Súmula Vinculante nº 14 do STF, é direito do defensor, no interesse do representado, ter acesso amplo aos elementos de prova que, JÁ DOCUMENTADOS em procedimento investigatório realizado por órgão com competência de polícia judiciária, digam respeito ao exercício do direito de defesa; portanto, o advogado tem direito de acessar os depoimentos e laudos já documentados, mas NÃO tem direito de acesso prévio a diligências sigilosas ainda em andamento não documentadas (como a interceptação em curso)."
+        "text": "É direito do defensor, no interesse do representado, ter acesso amplo aos elementos de prova que, já documentados em procedimento investigatório realizado por órgão com competência de polícia judiciária, digam respeito ao exercício do direito de defesa."
       }
     ],
     "correctAnswer": "D",
@@ -240,19 +240,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na ação penal pública condicionada à representação, a vítima pode retratar-se validamente até a sentença de primeiro grau."
+        "text": "Na ação penal pública condicionada à representação, a vítima pode retratar-se validamente até a sentença de primeiro grau, com eficácia preclusiva imediata quanto às questões processuais decididas interlocutoriamente. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "B",
-        "text": "Na ação penal privada subsidiária da pública (Art. 29 CPP), se o querelante abandonar o processo por 30 dias, extingue-se a punibilidade do réu por perempção."
+        "text": "Na ação penal privada subsidiária da pública, se o querelante abandonar o processo por 30 dias, extingue-se a punibilidade do réu por perempção. O juízo competente deve observar esse rito ao examinar a admissibilidade da acusação."
       },
       {
         "letter": "C",
-        "text": "Na queixa-crime privada, o querelante pode optar por processar apenas um dos dois ofensores deixando o outro impune por mera escolha pessoal."
+        "text": "Na queixa-crime privada, o querelante pode optar por processar apenas um dos dois ofensores deixando o outro impune por mera escolha pessoal, com prosseguimento regular da persecução penal independentemente de manifestação prévia do ofendido."
       },
       {
         "letter": "D",
-        "text": "A ação penal privada extingue-se pela PEREMPÇÃO (Art. 60, I e III, do CPP — inércia injustificada do querelante por mais de 30 dias seguidos OU ausência injustificada a ato que deva estar presente / deixar de formular pedido de condenação nas alegações finais), extinguindo a punibilidade (Art. 107, IV, CP); quanto à representação na ação pública condicionada, é irretratável DEPOIS de oferecida a denúncia (Art. 25 CPP e Art. 102 CP), salvo na Lei Maria da Penha onde exige audiência específica perante o juiz antes do RECEBIMENTO da denúncia (Art. 16 Lei 11.340/06)."
+        "text": "A ação penal privada extingue-se pela perempção, extinguindo a punibilidade; quanto à representação na ação pública condicionada, é irretratável depois de oferecida a denúncia, salvo na Lei Maria da Penha onde exige audiência específica perante o juiz antes do recebimento da denúncia."
       }
     ],
     "correctAnswer": "D",
@@ -295,19 +295,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O ANPP cabe para crimes com pena máxima inferior a 4 anos, dispensando confissão formal do investigado."
+        "text": "O ANPP cabe para crimes com pena máxima inferior a 4 anos, dispensando confissão formal do investigado, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "B",
-        "text": "O ANPP pode ser aplicado em crimes praticados no âmbito de violência doméstica ou familiar contra a mulher se a pena mínima for de 1 ano."
+        "text": "O ANPP pode ser aplicado em crimes praticados no âmbito de violência doméstica ou familiar contra a mulher se a pena mínima for de 1 ano, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       },
       {
         "letter": "C",
-        "text": "Caso o Ministério Público recuse injustificadamente propor o ANPP, o juiz pode elaborar e homologar o acordo diretamente contra a vontade do MP."
+        "text": "Caso o Ministério Público recuse injustificadamente propor o ANPP, o juiz pode elaborar e homologar o acordo diretamente contra a vontade do MP, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "D",
-        "text": "Em tese o crime admite ANPP (pena mínima inferior a 4 anos, sem violência ou grave ameaça — Art. 28-A CPP), MAS para celebração do acordo exige-se que o investigado confesse FORMAL E CIRCUNSTANCIADAMENTE a prática da infração penal; além disso, o acordo é proposto pelo MP (nunca de ofício pelo juiz) e homologado em audiência judicial voluntária com presença do defensor."
+        "text": "Em tese o crime admite ANPP, mas para celebração do acordo exige-se que o investigado confesse formal e circunstanciadamente a prática da infração penal."
       }
     ],
     "correctAnswer": "D",
@@ -350,7 +350,7 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na conexão entre crime militar e crime comum, a Justiça Militar atrai e julga ambos os delitos em processo único."
+        "text": "Na conexão entre crime militar e crime comum, a Justiça Militar atrai e julga ambos os delitos em processo único, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "B",
@@ -358,11 +358,11 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Se o Prefeito praticar crime doloso contra a vida durante o mandato e em razão dele, será julgado pelo Tribunal do Júri com base na SV 45 do STF."
+        "text": "Se o Prefeito praticar crime doloso contra a vida durante o mandato e em razão dele, será julgado pelo Tribunal do Júri com base na SV 45 do STF, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "D",
-        "text": "Na conexão entre crime federal e estadual, compete à JUSTIÇA FEDERAL processar e julgar ambos (Súmula 122 STJ); entre crime militar e crime comum conexos, NÃO se reúnem — há separação obrigatória dos processos (Art. 79, I, CPP e Súmula 90 STJ); e na desclassificação própria operada pelos jurados no plenário do Júri para crime não doloso contra a vida, a competência passa ao JUIZ PRESIDENTE do Tribunal do Júri para proferir a sentença imediatamente (Art. 492, § 1º, CPP)!"
+        "text": "Na conexão entre crime federal e estadual, compete à justiça federal processar e julgar ambos; entre crime militar e crime comum conexos, não se reúnem."
       }
     ],
     "correctAnswer": "D",
@@ -406,19 +406,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A interceptação telefônica é admitida inclusive para investigar crimes punidos exclusivamente com pena de detenção de forma autônoma."
+        "text": "A interceptação telefônica é admitida inclusive para investigar crimes punidos exclusivamente com pena de detenção de forma autônoma, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       },
       {
         "letter": "B",
-        "text": "O prazo inicial máximo da interceptação telefônica é de 30 dias, permitida uma única renovação por igual período."
+        "text": "O prazo inicial máximo da interceptação telefônica é de 30 dias, permitida uma única renovação por igual período, com autorização para atuação instrutória suplementar do magistrado na busca da verdade real."
       },
       {
         "letter": "C",
-        "text": "A captação ambiental de sinais eletromagnéticos/ópticos/acústicos em local privado independe de autorização judicial quando feita pela polícia."
+        "text": "A captação ambiental de sinais eletromagnéticos/ópticos/acústicos em local privado independe de autorização judicial quando feita pela polícia, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "D",
-        "text": "O encontro fortuito de provas (serendipidade) de delito conexo (ou de 1º grau) punido com reclusão é plenamente válido como prova no processo; quanto à infração penal sem conexão punida apenas com detenção ou prisão simples, a jurisprudência admite a transcrição apenas como NOTITIA CRIMINIS (fonte de informação para iniciar investigação autônoma, sem servir de prova direta se não houver conexão com o delito punido com reclusão que justificou o grampo)."
+        "text": "O encontro fortuito de provas (serendipidade) de delito conexo (ou de 1º grau) punido com reclusão é plenamente válido como prova no processo."
       }
     ],
     "correctAnswer": "D",
@@ -461,19 +461,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O único responsável autorizado pelo CPP para iniciar a cadeia de custódia e realizar o isolamento da cena é o perito oficial criminal, jamais o primeiro agente público que chega ao local."
+        "text": "O único responsável autorizado pelo CPP para iniciar a cadeia de custódia e realizar o isolamento da cena é o perito oficial criminal, jamais o primeiro agente público que chega ao local, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "B",
-        "text": "O exame de corpo de delito pode ser suprido livremente pela confissão do acusado quando os vestígios tiverem desaparecido."
+        "text": "O exame de corpo de delito pode ser suprido livremente pela confissão do acusado quando os vestígios tiverem desaparecido, com eficácia preclusiva imediata quanto às questões processuais decididas interlocutoriamente."
       },
       {
         "letter": "C",
-        "text": "Na violência doméstica contra a mulher, o exame de corpo de delito não tem prioridade de realização."
+        "text": "Na violência doméstica contra a mulher, o exame de corpo de delito não tem prioridade de realização, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "D",
-        "text": "A cadeia de custódia (Art. 158-A CPP) é o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, desde o reconhecimento até o descarte (etapas: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte); segundo o STJ, a quebra da cadeia de custódia NÃO gera nulidade automática per se em qualquer caso, mas compromete a confiabilidade/valor probatório do vestígio ou torna a prova imprestável se houver dúvida fundada sobre adulteração/autenticidade."
+        "text": "A cadeia de custódia é o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado em locais ou em vítimas de crimes, desde o reconhecimento até o descarte."
       }
     ],
     "correctAnswer": "D",
@@ -516,19 +516,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As formalidades do Art. 226 do CPP são meramente facultativas (\"se possível\"), sendo válido o reconhecimento por foto única isolada como prova suficiente para condenar."
+        "text": "As formalidades são meramente facultativas (\"se possível\"), sendo válido o reconhecimento por foto única isolada como prova suficiente para condenar, com autorização para atuação instrutória suplementar do magistrado na busca da verdade real."
       },
       {
         "letter": "B",
-        "text": "O interrogatório judicial é o primeiro ato da audiência de instrução, antes da oitiva da vítima e das testemunhas."
+        "text": "O interrogatório judicial é o primeiro ato da audiência de instrução, antes da oitiva da vítima e das testemunhas, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "C",
-        "text": "O STJ mudou seu antigo entendimento (HC 598.886 e seguintes): o Art. 226 do CPP NÃO é mera recomendação, mas garantia mínima cuja inobservância torna NULO o reconhecimento de pessoa (inclusive o fotográfico), não podendo servir isoladamente de fundamento para condenação nem para recebimento de denúncia/prisão preventiva sem outros elementos independentes."
+        "text": "O STJ mudou seu antigo entendimento: o Art. 226 do CPP não é mera recomendação, mas garantia mínima cuja inobservância torna nulo o reconhecimento de pessoa, não podendo servir isoladamente de fundamento para condenação nem para recebimento de denúncia/prisão preventiva sem outros elementos independentes."
       },
       {
         "letter": "D",
-        "text": "O silêncio do acusado no interrogatório, embora não importe confissão, pode ser interpretado em seu prejuízo pela convicção do juiz."
+        "text": "O silêncio do acusado no interrogatório, embora não importe confissão, pode ser interpretado em seu prejuízo pela convicção do juiz. O juízo competente deve observar esse rito ao examinar a admissibilidade da acusação."
       }
     ],
     "correctAnswer": "C",
@@ -572,19 +572,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O juiz pode converter de ofício a prisão em flagrante em prisão preventiva na audiência de custódia mesmo sem requerimento do MP ou representação do delegado."
+        "text": "O juiz pode converter de ofício a prisão em flagrante em prisão preventiva na audiência de custódia mesmo sem requerimento do MP ou representação do delegado, com prosseguimento regular da persecução penal independentemente de manifestação prévia do ofendido. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "B",
-        "text": "O delegado de polícia pode conceder fiança nos crimes cuja pena privativa de liberdade máxima seja superior a 4 anos."
+        "text": "O delegado de polícia pode conceder fiança nos crimes cuja pena privativa de liberdade máxima seja superior a 4 anos, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "C",
-        "text": "A nota de culpa deve ser entregue em até 24 horas da prisão (Art. 306, § 2º, CPP); a audiência de custódia deve realizar-se no prazo de até 24 horas após a realização da prisão (Art. 310, caput), com presença do acusado, advogado/defensor público e MP; e, pelo Art. 310, § 4º, transcorridas 24 horas após o decurso do prazo sem motivação idônea, enseja a ILEGALIDADE da prisão (relaxamento pela autoridade competente), sem prejuízo de eventual decretação posterior de preventiva se presentes os requisitos legais (STF ADI 6.298)."
+        "text": "A nota de culpa deve ser entregue em até 24 horas da prisão; a audiência de custódia deve realizar-se no prazo de até 24 horas após a realização da prisão, com presença do acusado, advogado/defensor público e MP; e, transcorridas 24 horas após o decurso do prazo sem motivação idônea, enseja a ilegalidade da prisão, sem prejuízo de eventual decretação posterior de preventiva se presentes os requisitos legais (STF ADI 6.298)."
       },
       {
         "letter": "D",
-        "text": "No flagrante preparado (provocado pela polícia mediante agente provocador), a prisão é válida como tentativa punível."
+        "text": "No flagrante preparado (provocado pela polícia mediante agente provocador), a prisão é válida como tentativa punível, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       }
     ],
     "correctAnswer": "C",
@@ -628,19 +628,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A prisão preventiva pode ser decretada para qualquer crime doloso punido com reclusão, ainda que a pena máxima seja de 3 anos e o réu seja primário."
+        "text": "A prisão preventiva pode ser decretada para qualquer crime doloso punido com reclusão, ainda que a pena máxima seja de 3 anos e o réu seja primário, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "B",
-        "text": "O prazo para revisão periódica da prisão preventiva no Art. 316, parágrafo único, é de 180 dias e gera extinção automática do processo."
+        "text": "O prazo para revisão periódica da prisão preventiva, é de 180 dias e gera extinção automática do processo, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "C",
-        "text": "Há duas ilegalidades: (1) para estelionato simples sem violência/ameaça com pena máxima de 5 anos — embora a pena máxima seja > 4 anos —, faltou CONTEMPORANEIDADE (Art. 312, § 2º, exige fatos novos ou contemporâneos ao pedido — 4 anos atrás sem fato atual viola o requisito); e (2) pelo Art. 316, parágrafo único, o órgão emissor deve revisar a necessidade da preventiva a cada 90 DIAS (atenção ao STF na SL 1.395 / HC 191.836: o excesso de 90 dias sem revisão NÃO gera soltura automática instantânea, impondo que o tribunal/juiz realize a reavaliação imediata sob pena de constrangimento ilegal!)."
+        "text": "Há duas ilegalidades: para estelionato simples sem violência/ameaça com pena máxima de 5 anos; e, o órgão emissor deve revisar a necessidade da preventiva a cada 90 dias."
       },
       {
         "letter": "D",
-        "text": "A gravidade abstrata do delito (como clamor público genérico pelo tráfico de drogas) basta isoladamente para decretar a prisão preventiva."
+        "text": "A gravidade abstrata do delito (como clamor público genérico pelo tráfico de drogas) basta isoladamente para decretar a prisão preventiva, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       }
     ],
     "correctAnswer": "C",
@@ -692,11 +692,11 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A prisão temporária (exclusiva da fase de INQUÉRITO POLICIAL, jamais de ofício pelo juiz e só para crimes do rol taxativo da Lei 7.960/89 / hediondos) tem prazo de 5 dias prorrogável por +5 em crimes comuns e de 30 dias prorrogável por +30 em crimes HEDIONDOS ou equiparados (Art. 2º, § 4º, Lei 8.072/90); e pelo Art. 318-A do CPP (e STF HC 143.641), a prisão preventiva imposta à gestante ou à mulher mãe/responsável por criança (até 12 anos incompletos) ou pessoa com deficiência SERÁ SUBSTITUÍDA por prisão domiciliar, desde que não tenha cometido crime com violência ou grave ameaça nem contra seu filho/dependente!"
+        "text": "A prisão temporária tem prazo de 5 dias prorrogável por +5 em crimes comuns e de 30 dias prorrogável por +30 em crimes hediondos ou equiparados."
       },
       {
         "letter": "D",
-        "text": "A prisão domiciliar do Art. 318 alcança apenas mulheres, nunca homens que sejam os únicos responsáveis pelos cuidados do filho de até 12 anos."
+        "text": "A prisão domiciliar alcança apenas mulheres, nunca homens que sejam os únicos responsáveis pelos cuidados do filho de até 12 anos, com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão."
       }
     ],
     "correctAnswer": "C",
@@ -740,19 +740,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O descumprimento de medida cautelar diversa da prisão autoriza o juiz a decretar imediatamente a prisão preventiva de ofício, sem pedido do MP."
+        "text": "O descumprimento de medida cautelar diversa da prisão autoriza o juiz a decretar imediatamente a prisão preventiva de ofício, sem pedido do MP, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "B",
-        "text": "O quebramento injustificado da fiança acarreta sempre a perda integral de 100% do valor depositado."
+        "text": "O quebramento injustificado da fiança acarreta sempre a perda integral de 100% do valor depositado, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "C",
-        "text": "No caso de descumprimento de qualquer das obrigações impostas, o juiz, mediante requerimento do MP, de seu assistente ou do querelante, poderá substituir a medida, impor outra em cumulação ou, EM ÚLTIMO CASO, decretar a prisão preventiva (ultima ratio — Art. 282, § 4º, e § 6º, CPP); quanto à fiança, ocorre QUEBRAMENTO se o réu não comparecer a ato sem motivo, deliberadamente obstruir, descumprir cautelar do Art. 319 ou praticar nova infração penal dolosa, importando perda de METADE do valor (Art. 343) — diferente do perdimento total se condenado e não se apresentar à prisão (Art. 344)!"
+        "text": "No caso de descumprimento de qualquer das obrigações impostas, o juiz, mediante requerimento do MP, de seu assistente ou do querelante, poderá substituir a medida, impor outra em cumulação ou, em último caso, decretar a prisão preventiva."
       },
       {
         "letter": "D",
-        "text": "A fiança pode ser concedida mesmo nos crimes de racismo, tortura e ação de grupos armados contra a ordem constitucional."
+        "text": "A fiança pode ser concedida mesmo nos crimes de racismo, tortura e ação de grupos armados contra a ordem constitucional, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       }
     ],
     "correctAnswer": "C",
@@ -795,19 +795,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na citação por hora certa, se o réu não comparecer nem constituir advogado, suspendem-se o processo e a prescrição pelo Art. 366 do CPP."
+        "text": "Na citação por hora certa, se o réu não comparecer nem constituir advogado, suspendem-se o processo e a prescrição. O juízo competente deve observar esse rito ao examinar a admissibilidade da acusação."
       },
       {
         "letter": "B",
-        "text": "Na suspensão pelo Art. 366 do CPP, o prazo prescricional fica suspenso eternamente até a captura ou apresentação espontânea do réu."
+        "text": "Na suspensão, o prazo prescricional fica suspenso eternamente até a captura ou apresentação espontânea do réu, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "C",
-        "text": "Havendo suspeita de ocultação do réu, procede-se à CITAÇÃO POR HORA CERTA (Art. 362 CPP, seguindo regras do CPC — válida e segue o processo normalmente com defensor público se não comparecer!); já na CITAÇÃO POR EDITAL (quando não encontrado), se o acusado não comparecer nem constituir advogado, ficam SUSPENSOS o processo e o curso do prazo prescricional (Art. 366 CPP), podendo o juiz determinar produção antecipada das provas urgentes e decretar prisão preventiva se presentes os requisitos do Art. 312 (Súmula 455 STJ)!"
+        "text": "Havendo suspeita de ocultação do réu, procede-se à citação por hora certa; já na citação por edital, se o acusado não comparecer nem constituir advogado, ficam suspensos o processo e o curso do prazo prescricional, podendo o juiz determinar produção antecipada das provas urgentes e decretar prisão preventiva se presentes os requisitos."
       },
       {
         "letter": "D",
-        "text": "A decretação da prisão preventiva na hipótese do Art. 366 do CPP é obrigatória e automática diante da mera revelia do citado por edital."
+        "text": "A decretação da prisão preventiva na hipótese é obrigatória e automática diante da mera revelia do citado por edital, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       }
     ],
     "correctAnswer": "C",
@@ -851,19 +851,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A absolvição sumária do Art. 397 do CPP deve ser aplicada quando o acusado for manifestamente inimputável por doença mental."
+        "text": "A absolvição sumária deve ser aplicada quando o acusado for manifestamente inimputável por doença mental, com eficácia preclusiva imediata quanto às questões processuais decididas interlocutoriamente."
       },
       {
         "letter": "B",
-        "text": "Caso o advogado constituído não apresente resposta à acusação no prazo de 10 dias, o processo é julgado à revelia sem defesa técnica."
+        "text": "Caso o advogado constituído não apresente resposta à acusação no prazo de 10 dias, o processo é julgado à revelia sem defesa técnica, com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão."
       },
       {
         "letter": "C",
-        "text": "A resposta à acusação tem prazo de 10 dias (Art. 396 CPP — inclusive no ordinário e no sumário); ocorre absolvição sumária do Art. 397 diante de manifesta causa excludente de ilicitude ou culpabilidade (salvo inimputabilidade!), fato evidentemente não constituir crime ou extinção da punibilidade; e o limite de testemunhas é de até 8 por fato no Ordinário (pena máx >= 4 anos), até 5 no Sumário (pena máx < 4 e > 2 anos) e até 3 no Sumaríssimo/JECRIM (<= 2 anos)!"
+        "text": "A resposta à acusação tem prazo de 10 dias; ocorre absolvição sumária diante de manifesta causa excludente de ilicitude ou culpabilidade, fato evidentemente não constituir crime ou extinção da punibilidade; e o limite de testemunhas é de até 8 por fato no Ordinário, até 5 no Sumário e até 3 no Sumaríssimo/JECRIM (<= 2 anos)."
       },
       {
         "letter": "D",
-        "text": "Na resposta à acusação não é permitido arrolar testemunhas nem requerer diligências probatórias."
+        "text": "Na resposta à acusação não é permitido arrolar testemunhas nem requerer diligências probatórias, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       }
     ],
     "correctAnswer": "C",
@@ -906,19 +906,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na emendatio libelli (Art. 383), o juiz é obrigado a determinar que o MP adite a denúncia antes de condenar pelo tipo correto."
+        "text": "Na emendatio libelli, o juiz é obrigado a determinar que o MP adite a denúncia antes de condenar pelo tipo correto, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "B",
-        "text": "Na mutatio libelli (Art. 384), o Tribunal de Justiça pode realizar o aditamento da denúncia diretamente em sede de apelação."
+        "text": "Na mutatio libelli, o Tribunal de Justiça pode realizar o aditamento da denúncia diretamente em sede de apelação, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "C",
-        "text": "No primeiro caso (fatos corretamente narrados, apenas erro de capitulação jurídica), aplica-se a EMENDATIO LIBELLI (Art. 383 CPP): o juiz, na sentença, sem modificar a descrição do fato, pode dar definição jurídica diversa ainda que aplique pena mais grave (inclusive em 2º grau se não violar ne reformatio in pejus); no segundo caso (fato novo/elementar não descrita na denúncia), aplica-se a MUTATIO LIBELLI (Art. 384 CPP): o MP deve ADITAR a denúncia (prazo 5 dias — juiz não pode condenar pelo fato novo sem aditamento!), e NÃO cabe mutatio libelli em 2º grau de jurisdição (Súmula 453 STF)!"
+        "text": "No primeiro caso, aplica-se a emendatio libelli: o juiz, na sentença, sem modificar a descrição do fato, pode dar definição jurídica diversa ainda que aplique pena mais grave."
       },
       {
         "letter": "D",
-        "text": "Caso o Ministério Público se recuse a aditar a denúncia na hipótese do Art. 384, o juiz condena pelo fato novo diretamente."
+        "text": "Caso o Ministério Público se recuse a aditar a denúncia na hipótese, o juiz condena pelo fato novo diretamente, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       }
     ],
     "correctAnswer": "C",
@@ -962,7 +962,7 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Contra a decisão de impronúncia cabe Recurso em Sentido Estrito (RESE), enquanto contra a pronúncia cabe Apelação."
+        "text": "Contra a decisão de impronúncia cabe Recurso em Sentido Estrito (rese), enquanto contra a pronúncia cabe Apelação, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "B",
@@ -970,11 +970,11 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A decisão de PRONÚNCIA (interlocutória mista não terminativa — exige prova da materialidade e indícios suficientes de autoria, devendo ter fundamentação sóbria sem excesso de linguagem que influencie os jurados) desafia RECURSO EM SENTIDO ESTRITO (RESE — Art. 581, IV, CPP); já a IMPRONÚNCIA (por falta de prova da materialidade ou de indícios suficientes de autoria) e a ABSOLVIÇÃO SUMÁRIA (Art. 415) desafiam APELAÇÃO (Art. 416 CPP)!"
+        "text": "A decisão de pronúncia desafia recurso em sentido estrito; já a impronúncia e a absolvição sumária desafiam apelação."
       },
       {
         "letter": "D",
-        "text": "A decisão de impronúncia faz coisa julgada material definitiva, proibindo nova denúncia pelo mesmo fato mesmo com novas provas."
+        "text": "A decisão de impronúncia faz coisa julgada material definitiva, proibindo nova denúncia pelo mesmo fato mesmo com novas provas, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       }
     ],
     "correctAnswer": "C",
@@ -1017,19 +1017,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque pelo Art. 492, I, \"e\", só se executa imediatamente condenação do Júri igual ou superior a 15 anos, e o STF proibiu qualquer execução antes do trânsito em julgado."
+        "text": "Não, porque, só se executa imediatamente condenação do Júri igual ou superior a 15 anos, e o STF proibiu qualquer execução antes do trânsito em julgado. O juízo competente deve observar esse rito ao examinar a admissibilidade da acusação."
       },
       {
         "letter": "B",
-        "text": "O Conselho de Sentença do Tribunal do Júri é composto por 7 jurados sorteados entre 25 alistados, exigindo-se decisão unânime dos 7 para condenar."
+        "text": "O Conselho de Sentença do Tribunal do Júri é composto por 7 jurados sorteados entre 25 alistados, exigindo-se decisão unânime dos 7 para condenar, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "C",
-        "text": "Sim! Em setembro de 2024, no julgamento do RE 1.235.340 (Tema 1068), o STF declarou constitucional o Art. 492, I, \"e\", do CPP, fixando a tese de que a SOBERANIA DOS VEREDICTOS do Tribunal do Júri autoriza a imediata execução de condenação imposta pelo corpo de jurados, INDEPENDENTEMENTE do total da pena aplicada!"
+        "text": "Sim, em setembro de 2024, no julgamento do RE 1.235.340, o STF declarou constitucional o Art. 492, I, \"e\", do CPP, fixando a tese de que a soberania dos veredictos do Tribunal do Júri autoriza a imediata execução de condenação imposta pelo corpo de jurados, independentemente do total da pena aplicada."
       },
       {
         "letter": "D",
-        "text": "No plenário do Júri, a defesa pode ler em plenário referências à decisão de pronúncia ou ao uso de algemas como argumento de autoridade contra o réu."
+        "text": "No plenário do Júri, a defesa pode ler em plenário referências à decisão de pronúncia ou ao uso de algemas como argumento de autoridade contra o réu, com eficácia preclusiva imediata quanto às questões processuais decididas interlocutoriamente. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       }
     ],
     "correctAnswer": "C",
@@ -1073,19 +1073,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Descumprida a transação penal, o juiz converte imediatamente a multa transacionada em pena privativa de liberdade."
+        "text": "Descumprida a transação penal, o juiz converte imediatamente a multa transacionada em pena privativa de liberdade, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "B",
-        "text": "No descumprimento da TRANSAÇÃO PENAL homologada, segundo a Súmula Vinculante nº 35 do STF, a homologação não faz coisa julgada material e, descumpridas suas cláusulas, retoma-se a situação anterior, possibilitando ao Ministério Público a continuidade da persecução penal mediante oferecimento de denúncia ou requisição de inquérito policial (jamais conversão automática da multa em prisão!); quanto à suspensão condicional do processo (Sursis Processual — Art. 89), aplica-se aos crimes com pena MÍNIMA <= 1 ano e, revogada no curso, retoma-se o processo (não cabe em crimes da Lei Maria da Penha — Súmula 536 STJ)."
+        "text": "No descumprimento da transação penal homologada, segundo a Súmula Vinculante nº 35 do STF, a homologação não faz coisa julgada material e, descumpridas suas cláusulas, retoma-se a situação anterior, possibilitando ao Ministério Público a continuidade da persecução penal mediante oferecimento de denúncia ou requisição de inquérito policial."
       },
       {
         "letter": "C",
-        "text": "A suspensão condicional do processo (Art. 89 da Lei 9.099/95) restringe-se apenas aos crimes de menor potencial ofensivo com pena máxima até 2 anos."
+        "text": "A suspensão condicional do processo restringe-se apenas aos crimes de menor potencial ofensivo com pena máxima até 2 anos, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "D",
-        "text": "É permitida a aplicação da transação penal e do sursis processual nos crimes praticados com violência doméstica contra a mulher."
+        "text": "É permitida a aplicação da transação penal e do sursis processual nos crimes praticados com violência doméstica contra a mulher, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       }
     ],
     "correctAnswer": "B",
@@ -1129,19 +1129,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Toda nulidade no processo penal dispensa demonstração de prejuízo, inclusive as nulidades relativas."
+        "text": "Toda nulidade no processo penal dispensa demonstração de prejuízo, inclusive as nulidades relativas, sob pena de nulidade processual absoluta insanável por violação às garantias do devido processo."
       },
       {
         "letter": "B",
-        "text": "A falta de defesa constitui nulidade ABSOLUTA, mas a sua deficiência só anulará o processo se houver prova de prejuízo para o réu (Súmula 523 STF); quanto à precatória, é RELATIVA a nulidade decorrente da inobservância da competência penal por prevenção ou da falta de intimação da expedição quando intimado da data no juízo deprecado (Súmula 155 STF — exige demonstração de prejuízo — Art. 563 CPP: pas de nullité sans grief); e nenhuma das partes poderá arguir nulidade a que haja dado causa ou referente a formalidade cuja observância só à parte contrária interesse (Art. 565 CPP)."
+        "text": "A falta de defesa constitui nulidade absoluta, mas a sua deficiência só anulará o processo se houver prova de prejuízo para o réu; quanto à precatória, é relativa a nulidade decorrente da inobservância da competência penal por prevenção ou da falta de intimação da expedição quando intimado da data no juízo deprecado; e nenhuma das partes poderá arguir nulidade a que haja dado causa ou referente a formalidade cuja observância só à parte contrária interesse."
       },
       {
         "letter": "C",
-        "text": "A deficiência de defesa técnica anula automaticamente o processo mesmo sem prova de prejuízo ao acusado."
+        "text": "A deficiência de defesa técnica anula automaticamente o processo mesmo sem prova de prejuízo ao acusado, com preservação da competência funcional do juízo natural fixada no recebimento da acusação. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "D",
-        "text": "O tribunal pode acolher de ofício nulidade não arguida no recurso da acusação para agravar a situação do réu em recurso exclusivo da defesa."
+        "text": "O tribunal pode acolher de ofício nulidade não arguida no recurso da acusação para agravar a situação do réu em recurso exclusivo da defesa, com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão."
       }
     ],
     "correctAnswer": "B",
@@ -1185,19 +1185,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em razão de erro material aritmético óbvio na dosimetria, o Tribunal pode corrigir a pena de ofício para 6 anos mesmo em recurso exclusivo da defesa."
+        "text": "Em razão de erro material aritmético óbvio na dosimetria, o Tribunal pode corrigir a pena de ofício para 6 anos mesmo em recurso exclusivo da defesa, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       },
       {
         "letter": "B",
-        "text": "O prazo de interposição da Apelação é de 5 DIAS (com 8 dias para razões — Art. 593 e Art. 600 CPP — contados da INTIMAÇÃO e não da juntada do mandado aos autos, Súmula 710 STF!); contra decisão que rejeita a denúncia ou decreta prescrição cabe RESE (5 dias + 2 dias de razões — Art. 581, I e VIII, CPP; exceto no JECRIM, onde contra rejeição da denúncia cabe Apelação em 10 dias — Art. 82 Lei 9.099/95!); e no recurso exclusivo da defesa, é ABSOLUTAMENTE VEDADO agravar a pena (proibição da reformatio in pejus — Art. 617 CPP — nem mesmo por erro material aritmético segundo o STF/STJ!)."
+        "text": "O prazo de interposição da Apelação é de 5 dias; contra decisão que rejeita a denúncia ou decreta prescrição cabe rese; e no recurso exclusivo da defesa, é absolutamente vedado agravar a pena."
       },
       {
         "letter": "C",
-        "text": "Os prazos recursais no Processo Penal contam-se apenas em dias úteis, tal como no CPC, e a partir da juntada do mandado cumprido aos autos."
+        "text": "Os prazos recursais no Processo Penal contam-se apenas em dias úteis, tal como no CPC, e a partir da juntada do mandado cumprido aos autos. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "D",
-        "text": "A renúncia do réu ao direito de apelação, manifestada sem a assistência do defensor, impede o conhecimento do recurso interposto tempestivamente por seu advogado."
+        "text": "A renúncia do réu ao direito de apelação, manifestada sem a assistência do defensor, impede o conhecimento do recurso interposto tempestivamente por seu advogado. O juízo competente deve observar esse rito ao examinar a admissibilidade da acusação."
       }
     ],
     "correctAnswer": "B",
@@ -1241,19 +1241,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Embargos Infringentes criminais podem ser opostos tanto pela defesa quanto pelo Ministério Público sempre que houver voto vencido."
+        "text": "Os Embargos Infringentes criminais podem ser opostos tanto pela defesa quanto pelo Ministério Público sempre que houver voto vencido, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "B",
-        "text": "Contra a decisão não unânime de segunda instância desfavorável ao réu em apelação, RESE ou agravo em execução cabem EMBARGOS INFRINGENTES E DE NULIDADE (prazo de 10 dias, exclusivos da DEFESA — Art. 609, parágrafo único, CPP, restritos à matéria objeto da divergência); e contra a decisão que denegar ou obstar seguimento de RESE ou Agravo em Execução cabe CARTA TESTEMUNHÁVEL (prazo de 48 horas ao escrivão — Art. 639–640 CPP)."
+        "text": "Contra a decisão não unânime de segunda instância desfavorável ao réu em apelação, rese ou agravo em execução cabem embargos infringentes e de nulidade."
       },
       {
         "letter": "C",
-        "text": "Caso o juiz denegue o processamento de recurso de apelação, o instrumento correto a ser utilizado é a Carta Testemunhável."
+        "text": "Caso o juiz denegue o processamento de recurso de apelação, o instrumento correto a ser utilizado é a Carta Testemunhável, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "D",
-        "text": "Os Embargos Infringentes criminais permitem rediscutir toda a apelação, mesmo os capítulos em que os três desembargadores votaram unanimemente pela condenação."
+        "text": "Os Embargos Infringentes criminais permitem rediscutir toda a apelação, mesmo os capítulos em que os três desembargadores votaram unanimemente pela condenação, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       }
     ],
     "correctAnswer": "B",
@@ -1296,19 +1296,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Revisão Criminal tem prazo decadencial de 2 anos após o trânsito em julgado e não pode ser ajuizada após a morte do condenado."
+        "text": "A Revisão Criminal tem prazo decadencial de 2 anos após o trânsito em julgado e não pode ser ajuizada após a morte do condenado, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "B",
-        "text": "A REVISÃO CRIMINAL é plenamente cabível mesmo após a extinção da pena ou morte do condenado (Arts. 622 e 623 CPP — pode ser proposta pelo cônjuge, ascendente, descendente ou irmão, sem prazo limite, exclusiva da defesa, vedada reformatio in pejus); já o HABEAS CORPUS NÃO cabe contra condenação apenas à pena de multa (Súmula 693 STF) nem quando já extinta a pena privativa de liberdade (Súmula 695 STF), por não haver risco ao direito de ir e vir."
+        "text": "A revisão criminal é plenamente cabível mesmo após a extinção da pena ou morte do condenado; já o habeas corpus não cabe contra condenação apenas à pena de multa nem quando já extinta a pena privativa de liberdade, por não haver risco ao direito de ir e vir."
       },
       {
         "letter": "C",
-        "text": "O juízo criminal que julga a revisão criminal pode aumentar a pena do condenado caso verifique erro na dosimetria da sentença revisanda."
+        "text": "O juízo criminal que julga a revisão criminal pode aumentar a pena do condenado caso verifique erro na dosimetria da sentença revisanda, com eficácia preclusiva imediata quanto às questões processuais decididas interlocutoriamente."
       },
       {
         "letter": "D",
-        "text": "Na Revisão Criminal, é proibido pleitear indenização pelos prejuízos sofridos em razão de erro judiciário, exigindo ação cível separada obrigatória."
+        "text": "Na Revisão Criminal, é proibido pleitear indenização pelos prejuízos sofridos em razão de erro judiciário, exigindo ação cível separada obrigatória. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       }
     ],
     "correctAnswer": "B",
@@ -1352,19 +1352,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A falta grave acarreta a perda integral (100%) de todos os dias remidos pelo trabalho ou estudo anteriormente e interrompe o prazo do livramento condicional."
+        "text": "A falta grave acarreta a perda integral (100%) de todos os dias remidos pelo trabalho ou estudo anteriormente e interrompe o prazo do livramento condicional, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "B",
-        "text": "Para primário em crime hediondo/equiparado sem morte aplica-se o percentual de 40% (Art. 112, V, LEP — para reincidente específico sem morte seria 60%, e 50% se com morte para primário); pelo estudo, remi 1 dia de pena a cada 12 horas de frequência escolar divididas em no mínimo 3 dias + acréscimo de 1/3 se concluir o ensino fundamental/médio/superior (Art. 126, § 5º); e o cometimento de falta grave interrompe a contagem para progressão de regime (Art. 112, § 6º, e Súmula 534 STJ), MAS autoriza o juiz a revogar ATÉ 1/3 dos dias já remidos (Art. 127 LEP), NÃO interrompendo livramento condicional nem indulto/comutação (Súmulas 441 e 535 STJ)!"
+        "text": "Para primário em crime hediondo/equiparado sem morte aplica-se o percentual de 40%; pelo estudo, remi 1 dia de pena a cada 12 horas de frequência escolar divididas em no mínimo 3 dias + acréscimo de 1/3 se concluir o ensino fundamental/médio/superior; e o cometimento de falta grave interrompe a contagem para progressão de regime, mas autoriza o juiz a revogar até 1/3 dos dias já remidos, não interrompendo livramento condicional nem indulto/comutação."
       },
       {
         "letter": "C",
-        "text": "O reconhecimento de falta grave no procedimento administrativo prescinde de procedimento disciplinar com defensor técnico, bastando relatório do diretor do presídio."
+        "text": "O reconhecimento de falta grave no procedimento administrativo prescinde de procedimento disciplinar com defensor técnico, bastando relatório do diretor do presídio, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "D",
-        "text": "O trabalho do preso permite remição na proporção de 1 dia de pena para cada 1 dia trabalhado."
+        "text": "O trabalho do preso permite remição na proporção de 1 dia de pena para cada 1 dia trabalhado, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       }
     ],
     "correctAnswer": "B",
@@ -1408,19 +1408,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, a simples apreensão em busca domiciliar ou em prisão em flagrante autoriza o policial a devassar todas as mensagens e arquivos digitais sem autorização judicial específica."
+        "text": "Sim, a simples apreensão em busca domiciliar ou em prisão em flagrante autoriza o policial a devassar todas as mensagens e arquivos digitais sem autorização judicial específica, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "B",
-        "text": "Não (segundo a jurisprudência consolidada do STJ e do STF no ARE 1.042.075 / Tema 977 pendente/precedentes do STJ): embora o mandado de busca autorize a apreensão física do celular na residência, o acesso e a extração dos dados armazenados no aparelho (mensagens de WhatsApp, fotos, e-mails) dependem de AUTORIZAÇÃO JUDICIAL ESPECÍFICA e fundamentada para quebra de sigilo telemático/informático (salvo se o próprio mandado de busca já autorizou expressamente o acesso aos dados de aparelhos eletrônicos apreendidos!)."
+        "text": "Não: embora o mandado de busca autorize a apreensão física do celular na residência, o acesso e a extração dos dados armazenados no aparelho dependem de autorização judicial específica e fundamentada para quebra de sigilo telemático/informático."
       },
       {
         "letter": "C",
-        "text": "O mandado de busca e apreensão domiciliar pode ser cumprido durante a madrugada sem consentimento se o delito investigado for tráfico de drogas."
+        "text": "O mandado de busca e apreensão domiciliar pode ser cumprido durante a madrugada sem consentimento se o delito investigado for tráfico de drogas, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "D",
-        "text": "Na busca pessoal (revista pessoal — Art. 244 CPP), a fundada suspeita admite abordagem baseada exclusivamente em denúncia anônima genérica ou tirocínio subjetivo policial."
+        "text": "Na busca pessoal, a fundada suspeita admite abordagem baseada exclusivamente em denúncia anônima genérica ou tirocínio subjetivo policial, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       }
     ],
     "correctAnswer": "B",
@@ -1464,19 +1464,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O foro por prerrogativa de função aplica-se a qualquer crime cometido antes ou depois da diplomação, independentemente de relação com o cargo."
+        "text": "O foro por prerrogativa de função aplica-se a qualquer crime cometido antes ou depois da diplomação, independentemente de relação com o cargo, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "B",
-        "text": "Atenção à evolução jurisprudencial do STF: pela tese da QO na AP 937, o foro por prerrogativa restringe-se aos crimes cometidos DURANTE o cargo e EM RAZÃO das funções (logo, o crime praticado ANTES do mandato pelo Senador tramita no juízo comum de 1º grau); porém, quanto ao fim do mandato após crime praticado NO cargo e EM RAZÃO dele, em março de 2025 no julgamento do HC 232.627 o STF ALTEROU o marco da QO AP 937 para fixar que a prerrogativa de foro para julgamento de crimes praticados no cargo e em razão dele SUBSISTE mesmo após o afastamento/fim do mandato (não caindo mais para o 1º grau após o fim do mandato)!"
+        "text": "Atenção à evolução jurisprudencial do STF: pela tese da qo na ap 937, o foro por prerrogativa restringe-se aos crimes cometidos durante o cargo e em razão das funções; porém, quanto ao fim do mandato após crime praticado no cargo e em razão dele, em março de 2025 no julgamento do HC 232.627 o STF alterou o marco da qo ap 937 para fixar que a prerrogativa de foro para julgamento de crimes praticados no cargo e em razão dele subsiste mesmo após o afastamento/fim do mandato."
       },
       {
         "letter": "C",
-        "text": "Com a renúncia ou o término do mandato, o processo por crime cometido no cargo e em razão dele sempre volta automaticamente para a 1ª instância, mesmo após o encerramento da instrução."
+        "text": "Com a renúncia ou o término do mandato, o processo por crime cometido no cargo e em razão dele sempre volta automaticamente para a 1ª instância, mesmo após o encerramento da instrução. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "D",
-        "text": "A Súmula 394 do STF, que mantinha o foro especial para todos os crimes mesmo após o fim do mandato, nunca foi cancelada."
+        "text": "A Súmula 394 do STF, que mantinha o foro especial para todos os crimes mesmo após o fim do mandato, nunca foi cancelada. A inobservância dessa regra repercute diretamente na validade dos atos processuais subsequentes."
       }
     ],
     "correctAnswer": "B",
@@ -1520,19 +1520,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na lesão corporal leve no âmbito da Lei Maria da Penha, a ação penal é pública condicionada à representação, podendo a vítima desistir na delegacia."
+        "text": "Na lesão corporal leve no âmbito da Lei Maria da Penha, a ação penal é pública condicionada à representação, podendo a vítima desistir na delegacia. A inobservância dessa regra repercute diretamente na validade dos atos processuais subsequentes."
       },
       {
         "letter": "B",
-        "text": "A ação penal pelo crime de lesão corporal (mesmo leve ou culposa) resultante de violência doméstica contra a mulher é PÚBLICA INCONDICIONADA à representação (Súmula 542 STJ e STF ADI 4.424), prosseguindo independentemente da vontade da vítima; não é exigida coabitação atual entre autor e vítima (Súmula 600 STJ); e pelo Art. 12-C da Lei 11.340/06, o DELEGADO (se o município não for sede de comarca) ou o POLICIAL (se não houver delegado disponível no momento) pode aplicar provisoriamente o afastamento do lar, comunicando o juiz em até 24h (decisão judicial em mais 24h)!"
+        "text": "A ação penal pelo crime de lesão corporal resultante de violência doméstica contra a mulher é pública incondicionada à representação, prosseguindo independentemente da vontade da vítima."
       },
       {
         "letter": "C",
-        "text": "A Lei Maria da Penha não se aplica quando agressor e vítima nunca coabitaram sob o mesmo teto."
+        "text": "A Lei Maria da Penha não se aplica quando agressor e vítima nunca coabitaram sob o mesmo teto, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "D",
-        "text": "É possível substituir a pena privativa de liberdade por prestação pecuniária ou pagamento isolado de cesta básica/multa nos crimes da Lei Maria da Penha."
+        "text": "É possível substituir a pena privativa de liberdade por prestação pecuniária ou pagamento isolado de cesta básica/multa nos crimes da Lei Maria da Penha, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       }
     ],
     "correctAnswer": "B",
@@ -1576,19 +1576,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O assistente de acusação pode se habilitar já durante o inquérito policial e tem prazo exclusivo de 5 dias para apelar quando o MP não recorre."
+        "text": "O assistente de acusação pode se habilitar já durante o inquérito policial e tem prazo exclusivo de 5 dias para apelar quando o MP não recorre, sob pena de nulidade processual absoluta insanável por violação às garantias do devido processo."
       },
       {
         "letter": "B",
-        "text": "A irmã possui legitimidade (CADI — cônjuge, ascendente, descendente ou irmão — Art. 268 c/c Art. 31 CPP); como o MP não recorreu no prazo dele (5 dias), o assistente de acusação habilitado tem o prazo de 15 DIAS para interpor apelação supletiva, contados do dia seguinte ao término do prazo do MP (Art. 598, parágrafo único, CPP e Súmula 448 STF) — e mesmo para pleitear aumento de pena se o MP não apelou (Súmula 210 STF)!"
+        "text": "A irmã possui legitimidade; como o MP não recorreu no prazo dele (5 dias), o assistente de acusação habilitado tem o prazo de 15 dias para interpor apelação supletiva, contados do dia seguinte ao término do prazo do MP."
       },
       {
         "letter": "C",
-        "text": "Se o Ministério Público não recorrer da sentença absolutória ou condenatória, o assistente de acusação não pode recorrer por ausência de interesse."
+        "text": "Se o Ministério Público não recorrer da sentença absolutória ou condenatória, o assistente de acusação não pode recorrer por ausência de interesse, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "D",
-        "text": "O assistente de acusação pode arrolar livremente novas testemunhas além do limite legal do MP em qualquer momento."
+        "text": "O assistente de acusação pode arrolar livremente novas testemunhas além do limite legal do MP em qualquer momento, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       }
     ],
     "correctAnswer": "B",
@@ -1632,19 +1632,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cabe pedido de DESAFORAMENTO (Art. 427 CPP), dirigido ao Tribunal de Justiça (ou TRF) competente pelo MP, assistente, querelante, acusado ou mediante representação do próprio juiz; o tribunal remeterá o julgamento para outra comarca da MESMA REGIÃO onde não existam aqueles motivos, dando preferência às mais próximas, sendo NULA a decisão de desaforamento proferida sem audiência prévia da defesa (Súmula 712 STF)!"
+        "text": "Cabe pedido de desaforamento, dirigido ao Tribunal de Justiça (ou TRF) competente pelo MP, assistente, querelante, acusado ou mediante representação do próprio juiz."
       },
       {
         "letter": "B",
-        "text": "O desaforamento pode ser decretado diretamente de ofício pelo juiz presidente de primeiro grau sem submissão ao Tribunal."
+        "text": "O desaforamento pode ser decretado diretamente de ofício pelo juiz presidente de primeiro grau sem submissão ao Tribunal, com eficácia preclusiva imediata quanto às questões processuais decididas interlocutoriamente."
       },
       {
         "letter": "C",
-        "text": "Também cabe desaforamento quando houver demora superior a 3 meses da pronúncia por excesso de serviço sem culpa do réu."
+        "text": "Também cabe desaforamento quando houver demora superior a 3 meses da pronúncia por excesso de serviço sem culpa do réu, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "D",
-        "text": "Na hipótese de pedido de desaforamento requerido pelo Ministério Público, dispensa-se a intimação da defesa por se tratar de questão de ordem pública."
+        "text": "Na hipótese de pedido de desaforamento requerido pelo Ministério Público, dispensa-se a intimação da defesa por se tratar de questão de ordem pública, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       }
     ],
     "correctAnswer": "A",
@@ -1688,19 +1688,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Surgindo dúvida sobre a integridade mental, o juiz ordena de ofício ou a requerimento exame médico-legal (Art. 149 CPP), ficando SUSPENSO O PROCESSO principal (não a prescrição! E sem prejuízo das diligências inadiáveis), nomeando curador ao acusado e concluindo o laudo no prazo de 45 dias (Art. 150 § 1º); já as exceções do Art. 95 (suspeição, incompetência, litispendência, ilegitimidade de parte e coisa julgada) em regra NÃO suspendem o andamento da ação principal (Art. 111 CPP)."
+        "text": "Surgindo dúvida sobre a integridade mental, o juiz ordena de ofício ou a requerimento exame médico-legal, ficando suspenso o processo principal, nomeando curador ao acusado e concluindo o laudo no prazo de 45 dias."
       },
       {
         "letter": "B",
-        "text": "Se a perícia médica comprovar que a doença mental sobreveio APÓS a infração penal, o juiz absolverá o réu impropriamente e aplicará medida de segurança."
+        "text": "Se a perícia médica comprovar que a doença mental sobreveio após a infração penal, o juiz absolverá o réu impropriamente e aplicará medida de segurança, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "C",
-        "text": "O incidente de insanidade mental só pode ser instaurado mediante requerimento da defesa, sendo vedada sua instauração de ofício pelo juiz ou a pedido do MP."
+        "text": "O incidente de insanidade mental só pode ser instaurado mediante requerimento da defesa, sendo vedada sua instauração de ofício pelo juiz ou a pedido do MP, sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação."
       },
       {
         "letter": "D",
-        "text": "O sequestro de bens imóveis adquiridos com proventos da infração penal exige prévio trânsito em julgado da sentença condenatória."
+        "text": "O sequestro de bens imóveis adquiridos com proventos da infração penal exige prévio trânsito em julgado da sentença condenatória, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       }
     ],
     "correctAnswer": "A",
@@ -1743,19 +1743,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O STF no HC 166.373 (e pacificado na jurisprudência) firmou que, por força do contraditório e ampla defesa, os réus DELATADOS (não colaboradores) têm o direito constitucional de apresentar suas alegações finais DEPOIS dos réus colaboradores (ou seja: 1º Ministério Público -> 2º Réu Colaborador -> 3º Réus Delatados), sob pena de nulidade (exigida arguição oportuna / prejuízo conforme modulação)!"
+        "text": "O STF no HC 166.373 firmou que, por força do contraditório e ampla defesa, os réus delatados (não colaboradores) têm o direito constitucional de apresentar suas alegações finais depois dos réus colaboradores, sob pena de nulidade."
       },
       {
         "letter": "B",
-        "text": "Todos os réus — colaboradores e delatados — devem apresentar alegações finais em prazo comum simultâneo para garantir celeridade."
+        "text": "Todos os réus — colaboradores e delatados — devem apresentar alegações finais em prazo comum simultâneo para garantir celeridade, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "C",
-        "text": "As declarações do colaborador prestadas no acordo são suficientes por si sós para o recebimento da denúncia e decretação de prisão preventiva."
+        "text": "As declarações do colaborador prestadas no acordo são suficientes por si sós para o recebimento da denúncia e decretação de prisão preventiva, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "D",
-        "text": "O juiz participa ativamente das reuniões negociais entre o MP e a defesa para definir os prêmios da colaboração premiada."
+        "text": "O juiz participa ativamente das reuniões negociais entre o MP e a defesa para definir os prêmios da colaboração premiada, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       }
     ],
     "correctAnswer": "A",
@@ -1799,19 +1799,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Competente o juízo do LOCAL DO DOMICÍLIO DA VÍTIMA (Campinas/SP)! Pelo Art. 70, § 4º, do CPP (incluído pela Lei nº 14.155/2021), nos crimes previstos no Art. 171 do CP (estelionato), quando praticados mediante depósito, emissão de cheques sem suficiente provisão de fundos ou frustração de pagamento ou transferência de valores, a competência será definida pelo local do domicílio da vítima (e em caso de pluralidade de vítimas, pela prevenção)."
+        "text": "Competente o juízo do local do domicílio da vítima (Campinas/SP). nos crimes previstos (estelionato), quando praticados mediante depósito, emissão de cheques sem suficiente provisão de fundos ou frustração de pagamento ou transferência de valores, a competência será definida pelo local do domicílio da vítima."
       },
       {
         "letter": "B",
-        "text": "Compete ao juízo do local da agência bancária beneficiária da conta do estelionatário (Fortaleza/CE), conforme antiga Súmula 48 STJ."
+        "text": "Compete ao juízo do local da agência bancária beneficiária da conta do estelionatário (Fortaleza/CE), conforme antiga Súmula 48 STJ, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "C",
-        "text": "Compete exclusivamente ao juízo do local de residência do autor do golpe (Goiânia/GO) por ser onde foi planejada a fraude."
+        "text": "Compete exclusivamente ao juízo do local de residência do autor do golpe (Goiânia/GO) por ser onde foi planejada a fraude, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "D",
-        "text": "O crime de estelionato mediante fraude eletrônica praticado pela internet sempre atrai a competência automática da Justiça Federal."
+        "text": "O crime de estelionato mediante fraude eletrônica praticado pela internet sempre atrai a competência automática da Justiça Federal, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       }
     ],
     "correctAnswer": "A",
@@ -1854,19 +1854,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A queixa-crime exige procuração com PODERES ESPECIAIS contendo expressamente o nome do querelado e a menção ao fato criminoso (Art. 44 CPP — vício sanável apenas dentro do prazo decadencial de 6 meses); quanto à questão prejudicial sobre o estado civil das pessoas (validade de casamento na bigamia — Art. 92 CPP), trata-se de questão prejudicial OBRIGATÓRIA (absoluta): o juiz penal DEVE suspender o curso da ação penal até que no juízo cível seja a controvérsia dirimida por sentença passada em julgado (sem prazo fixo e suspendendo a prescrição — Art. 116, I, CP)!"
+        "text": "A queixa-crime exige procuração com poderes especiais contendo expressamente o nome do querelado e a menção ao fato criminoso; quanto à questão prejudicial sobre o estado civil das pessoas, trata-se de questão prejudicial obrigatória (absoluta): o juiz penal deve suspender o curso da ação penal até que no juízo cível seja a controvérsia dirimida por sentença passada em julgado."
       },
       {
         "letter": "B",
-        "text": "A procuração geral \"ad judicia\" é suficiente para ajuizar queixa-crime desde que o advogado junte declaração posterior após os 6 meses."
+        "text": "A procuração geral \"ad judicia\" é suficiente para ajuizar queixa-crime desde que o advogado junte declaração posterior após os 6 meses, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "C",
-        "text": "A questão prejudicial sobre o estado civil das pessoas (Art. 92) é facultativa e tem prazo máximo de suspensão de 6 meses."
+        "text": "A questão prejudicial sobre o estado civil das pessoas é facultativa e tem prazo máximo de suspensão de 6 meses, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "D",
-        "text": "Enquanto suspenso o processo penal por questão prejudicial do Art. 92, o prazo prescricional continua correndo normalmente contra o Estado."
+        "text": "Enquanto suspenso o processo penal por questão prejudicial, o prazo prescricional continua correndo normalmente contra o Estado, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       }
     ],
     "correctAnswer": "A",
@@ -1909,19 +1909,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não. Pela Súmula 330 do STJ, é DESNECESSÁRIA a resposta preliminar de que trata o Art. 514 do Código de Processo Penal na ação penal instruída por inquérito policial (exigindo-se apenas quando a denúncia vier baseada exclusivamente em peças de informação sem inquérito prévio)."
+        "text": "Não, é desnecessária a resposta preliminar de que trata o Art. 514 do Código de Processo Penal na ação penal instruída por inquérito policial."
       },
       {
         "letter": "B",
-        "text": "Sim, a resposta preliminar de 15 dias do Art. 514 é obrigatória sob pena de nulidade absoluta em qualquer ação por crime funcional."
+        "text": "Sim, a resposta preliminar de 15 dias é obrigatória sob pena de nulidade absoluta em qualquer ação por crime funcional, com preclusão imediata da oportunidade de produção probatória após a fase postulatória."
       },
       {
         "letter": "C",
-        "text": "A notificação do Art. 514 aplica-se mesmo aos crimes funcionais inafiançáveis e aos ex-servidores."
+        "text": "A notificação aplica-se mesmo aos crimes funcionais inafiançáveis e aos ex-servidores, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "D",
-        "text": "Na Lei de Drogas (Lei 11.343/06), a defesa prévia também é dispensada antes do recebimento da denúncia."
+        "text": "Na Lei de Drogas, a defesa prévia também é dispensada antes do recebimento da denúncia, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       }
     ],
     "correctAnswer": "A",
@@ -1965,19 +1965,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo STF (HC 127.900), o Art. 400 do CPP (interrogatório ao FINAL da instrução) prevalece sobre os ritos especiais (incluindo Lei de Drogas e Justiça Militar) para ampliar a autodefesa; e quanto ao laudo, embora o laudo de constatação provisório baste para o flagrante e recebimento da denúncia, a ausência de laudo toxicológico DEFINITIVO impede a condenação (salvo excepcionalíssima comprovação da materialidade por prova pericial equivalente), conforme tese repetitiva do STJ."
+        "text": "O Art. 400 do CPP prevalece sobre os ritos especiais para ampliar a autodefesa; e quanto ao laudo, embora o laudo de constatação provisório baste para o flagrante e recebimento da denúncia, a ausência de laudo toxicológico definitivo impede a condenação, conforme tese repetitiva do STJ."
       },
       {
         "letter": "B",
-        "text": "O procedimento especial da Lei de Drogas prevalece integralmente sobre o CPP, mantendo-se o interrogatório antes das testemunhas."
+        "text": "O procedimento especial da Lei de Drogas prevalece integralmente sobre o CPP, mantendo-se o interrogatório antes das testemunhas, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "C",
-        "text": "O laudo provisório de constatação assinado por um policial militar é suficiente para fundamentar sentença penal condenatória por tráfico."
+        "text": "O laudo provisório de constatação assinado por um policial militar é suficiente para fundamentar sentença penal condenatória por tráfico, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "D",
-        "text": "Para recorrer em liberdade da sentença condenatória por tráfico de drogas, o réu deve comprovar recolhimento prévio à prisão."
+        "text": "Para recorrer em liberdade da sentença condenatória por tráfico de drogas, o réu deve comprovar recolhimento prévio à prisão, com autorização para atuação instrutória suplementar do magistrado na busca da verdade real."
       }
     ],
     "correctAnswer": "A",
@@ -2021,19 +2021,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não. Os tribunais superiores (STF e STJ) NÃO admitem o chamado \"arquivamento implícito\" (ou tácito) no ordenamento brasileiro: qualquer pedido de arquivamento deve ser expresso e fundamentado, permanecendo o terceiro investigado ou fato omitido passível de aditamento ou nova denúncia enquanto não houver arquivamento formal expresso."
+        "text": "Não, os tribunais superiores (STF e STJ) não admitem o chamado \"arquivamento implícito\" (ou tácito) no ordenamento brasileiro: qualquer pedido de arquivamento deve ser expresso e fundamentado, permanecendo o terceiro investigado ou fato omitido passível de aditamento ou nova denúncia enquanto não houver arquivamento formal expresso."
       },
       {
         "letter": "B",
-        "text": "Sim, o silêncio do MP quanto ao terceiro indiciado acarreta extinção imediata da punibilidade por arquivamento tácito."
+        "text": "Sim, o silêncio do MP quanto ao terceiro indiciado acarreta extinção imediata da punibilidade por arquivamento tácito, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "C",
-        "text": "O juiz pode ordenar ao delegado de polícia que proceda ao indiciamento formal de determinado suspeito durante o inquérito."
+        "text": "O juiz pode ordenar ao delegado de polícia que proceda ao indiciamento formal de determinado suspeito durante o inquérito, com autorização para atuação instrutória suplementar do magistrado na busca da verdade real. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "D",
-        "text": "O indiciamento realizado pelo delegado gera automaticamente maus antecedentes contra o cidadão na dosimetria da pena."
+        "text": "O indiciamento realizado pelo delegado gera automaticamente maus antecedentes contra o cidadão na dosimetria da pena, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       }
     ],
     "correctAnswer": "A",
@@ -2077,19 +2077,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No primeiro caso, embora a prova em abstrato não prenda ninguém de imediato, admite-se HC sempre que o processo criminal possa resultar em pena privativa de liberdade (ameaça indireta/potencial à liberdade de locomoção, ex.: trancamento de ação penal sem justa causa); no segundo caso, incide a Súmula 691 do STF (não compete ao tribunal superior conhecer de HC contra indeferimento de liminar em tribunal inferior, salvo flagrante ilegalidade ou teratologia excepcional)."
+        "text": "No primeiro caso, embora a prova em abstrato não prenda ninguém de imediato, admite-se HC sempre que o processo criminal possa resultar em pena privativa de liberdade."
       },
       {
         "letter": "B",
-        "text": "Não cabe Habeas Corpus para trancar inquérito policial ou ação penal por falta de justa causa quando o réu responde solto."
+        "text": "Não cabe Habeas Corpus para trancar inquérito policial ou ação penal por falta de justa causa quando o réu responde solto, sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação."
       },
       {
         "letter": "C",
-        "text": "Cabe Habeas Corpus contra decisão condenatória a pena de multa ou contra punição disciplinar militar propriamente dita."
+        "text": "Cabe Habeas Corpus contra decisão condenatória a pena de multa ou contra punição disciplinar militar propriamente dita, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "D",
-        "text": "No julgamento do Habeas Corpus, exige-se sempre capacidade postulatória privativa de advogado ou defensor público."
+        "text": "No julgamento do Habeas Corpus, exige-se sempre capacidade postulatória privativa de advogado ou defensor público, com eficácia preclusiva imediata quanto às questões processuais decididas interlocutoriamente."
       }
     ],
     "correctAnswer": "A",
@@ -2133,19 +2133,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na ADPF 334 (2023), o STF declarou INCONSTITUCIONAL a prisão especial para portadores de diploma de ensino superior (Art. 295, VII, CPP); quanto ao advogado preso cautelarmente (antes do trânsito em julgado), mantém-se o direito a Sala de Estado-Maior (ou prisão domiciliar na ausência desta — Art. 7º, V, EOAB e ADI 1127); e pela Súmula Vinculante nº 11, o uso de algemas só é lícito em caso de resistência, fundado receio de fuga ou perigo à integridade física, justificado por escrito sob pena de responsabilidade."
+        "text": "Na ADPF 334 (2023), o STF declarou inconstitucional a prisão especial para portadores de diploma de ensino superior; quanto ao advogado preso cautelarmente, mantém-se o direito a Sala de Estado-Maior; o uso de algemas só é lícito em caso de resistência, fundado receio de fuga ou perigo à integridade física, justificado por escrito sob pena de responsabilidade."
       },
       {
         "letter": "B",
-        "text": "A prisão especial para quem possui diploma de nível superior foi confirmada pelo STF como garantia legal válida."
+        "text": "A prisão especial para quem possui diploma de nível superior foi confirmada pelo STF como garantia legal válida, com preservação da competência funcional do juízo natural fixada no recebimento da acusação. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "C",
-        "text": "Caso não exista Sala de Estado-Maior na comarca, o advogado preso preventivamente deve aguardar em cela comum isolado ou presídio comum sem restrição."
+        "text": "Caso não exista Sala de Estado-Maior na comarca, o advogado preso preventivamente deve aguardar em cela comum isolado ou presídio comum sem restrição, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "D",
-        "text": "O uso de algemas em presos durante audiências pode ser determinado discricionariamente pelo policial sem necessidade de fundamentação escrita."
+        "text": "O uso de algemas em presos durante audiências pode ser determinado discricionariamente pelo policial sem necessidade de fundamentação escrita, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       }
     ],
     "correctAnswer": "A",
@@ -2189,19 +2189,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Crimes praticados contra a Petrobras e o Banco do Brasil (sociedades de economia mista federais) atraem a competência da Justiça Federal."
+        "text": "Crimes praticados contra a Petrobras e o Banco do Brasil (sociedades de economia mista federais) atraem a competência da Justiça Federal, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "B",
-        "text": "A contravenção penal praticada em detrimento de bens, serviços ou interesses da União também é julgada pela Justiça Federal."
+        "text": "A contravenção penal praticada em detrimento de bens, serviços ou interesses da União também é julgada pela Justiça Federal, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "C",
-        "text": "Uso de passaporte falso ou moeda falsa é sempre da competência da Justiça Estadual quando o crime ocorre no interior do Estado."
+        "text": "Uso de passaporte falso ou moeda falsa é sempre da competência da Justiça Estadual quando o crime ocorre no interior do Estado, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "D",
-        "text": "O crime contra a Caixa Econômica Federal (empresa pública federal) é julgado pela JUSTIÇA FEDERAL (Art. 109, IV, CF); o crime contra o Banco do Brasil (sociedade de economia mista) é julgado pela JUSTIÇA ESTADUAL (Súmula 42 STJ — salvo se houver interesse direto da União); e o crime a bordo de aeronave ou navio (de grande porte em deslocamento) é da JUSTIÇA FEDERAL (Art. 109, IX, CF)!"
+        "text": "O crime contra a Caixa Econômica Federal é julgado pela justiça federal; o crime contra o Banco do Brasil é julgado pela justiça estadual; e o crime a bordo de aeronave ou navio é da justiça federal."
       }
     ],
     "correctAnswer": "D",
@@ -2245,19 +2245,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Atos praticados pelo juiz durante a fase de inquérito policial jamais firmam prevenção para a ação penal futura."
+        "text": "Atos praticados pelo juiz durante a fase de inquérito policial jamais firmam prevenção para a ação penal futura, sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação."
       },
       {
         "letter": "B",
-        "text": "A inobservância da competência criminal por prevenção gera nulidade absoluta insanável em qualquer momento do processo."
+        "text": "A inobservância da competência criminal por prevenção gera nulidade absoluta insanável em qualquer momento do processo, com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão."
       },
       {
         "letter": "C",
-        "text": "Na competência territorial no Processo Penal (Art. 70 CPP), o critério principal é o domicílio do réu, e subsidiariamente o lugar da consumação."
+        "text": "Na competência territorial no Processo Penal, o critério principal é o domicílio do réu, e subsidiariamente o lugar da consumação. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 83 do CPP, a competência por PREVENÇÃO firma-se sempre que, concorrendo dois ou mais juízes igualmente competentes, um deles tiver antecedido aos outros na prática de algum ato do processo ou de medida a este relativa, AINDA QUE ANTERIOR ao oferecimento da denúncia ou da queixa (ex.: decretação de preventiva, busca e apreensão, quebra de sigilo, concessão de fiança — salvo mera distribuição de inquérito sem conteúdo decisório — Súmula 706 STF indica nulidade relativa se violada)."
+        "text": "A competência por prevenção firma-se sempre que, concorrendo dois ou mais juízes igualmente competentes, um deles tiver antecedido aos outros na prática de algum ato do processo ou de medida a este relativa, ainda que anterior ao oferecimento da denúncia ou da queixa."
       }
     ],
     "correctAnswer": "D",
@@ -2301,19 +2301,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O sequestro recai apenas sobre bens lícitos do réu após o trânsito em julgado da sentença condenatória."
+        "text": "O sequestro recai apenas sobre bens lícitos do réu após o trânsito em julgado da sentença condenatória, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "B",
-        "text": "Não é permitida a alienação antecipada de veículos ou animais apreendidos antes do trânsito em julgado da ação penal."
+        "text": "Não é permitida a alienação antecipada de veículos ou animais apreendidos antes do trânsito em julgado da ação penal, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "C",
-        "text": "O levantamento do sequestro não ocorre mesmo que a ação penal não seja intentada no prazo de 60 dias da diligência."
+        "text": "O levantamento do sequestro não ocorre mesmo que a ação penal não seja intentada no prazo de 60 dias da diligência, com preclusão imediata da oportunidade de produção probatória após a fase postulatória."
       },
       {
         "letter": "D",
-        "text": "Sobre a fazenda adquirida com proventos da infração penal (ainda que já transferida a terceiro/laranja) recai o SEQUESTRO (Art. 125 CPP — exige apenas indícios veementes da proveniência ilícita); sobre os bens imóveis LÍCITOS do acusado para garantir indenização civil/custas/multa recai a HIPOTECA LEGAL (Art. 134 CPP — exige prova da materialidade + indícios de autoria) ou, preventivamente antes da especialização, o ARRESTO PRÉVIO (Art. 136 — devendo pedir especialização em 15 dias) e arresto subsidiário de bens móveis lícitos (Art. 137 CPP)!"
+        "text": "Sobre a fazenda adquirida com proventos da infração penal recai o sequestro; sobre os bens imóveis lícitos do acusado para garantir indenização civil/custas/multa recai a hipoteca legal ou, preventivamente antes da especialização, o arresto prévio e arresto subsidiário de bens móveis lícitos."
       }
     ],
     "correctAnswer": "D",
@@ -2356,19 +2356,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O juiz preside o sistema presidencialista, fazendo primeiro todas as perguntas às testemunhas e repassando as perguntas das partes."
+        "text": "O juiz preside o sistema presidencialista, fazendo primeiro todas as perguntas às testemunhas e repassando as perguntas das partes, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "B",
-        "text": "A mãe do réu e o menor de 14 anos prestam compromisso legal e respondem por crime de falso testemunho se mentirem em juízo."
+        "text": "A mãe do réu e o menor de 14 anos prestam compromisso legal e respondem por crime de falso testemunho se mentirem em juízo, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "C",
-        "text": "Os ministros de Estado, governadores e magistrados são dispensados de depor como testemunhas no processo penal."
+        "text": "Os ministros de Estado, governadores e magistrados são dispensados de depor como testemunhas no processo penal, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "D",
-        "text": "Os ascendentes, descendentes, afins em linha reta, cônjuge/ex-cônjuge e irmãos do acusado NÃO podem recusar-se a comparecer se arrolados, mas PODEM EXIMIR-SE DA OBRIGAÇÃO DE DEPOR (salvo se impossível obter a prova por outro modo — Art. 206 CPP); se depuserem (assim como os menores de 14 anos e doentes mentais — Art. 208 CPP), serão ouvidos como INFORMANTES (NÃO prestam compromisso legal nem respondem por falso testemunho!); e pelo Art. 212 do CPP (cross-examination), as perguntas serão formuladas pelas PARTES DIRETAMENTE à testemunha, cabendo ao juiz apenas complementar sobre pontos não esclarecidos!"
+        "text": "Os ascendentes, descendentes, afins em linha reta, cônjuge/ex-cônjuge e irmãos do acusado não podem recusar-se a comparecer se arrolados, mas podem eximir-se da obrigação de depor."
       }
     ],
     "correctAnswer": "D",
@@ -2411,7 +2411,7 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A absolvição penal por insuficiência de provas (in dubio pro reo - Art. 386, VII) impede a vítima de cobrar indenização civil pelos danos sofridos."
+        "text": "A absolvição penal por insuficiência de provas impede a vítima de cobrar indenização civil pelos danos sofridos, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "B",
@@ -2419,11 +2419,11 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A absolvição imprópria impõe pena privativa de liberdade reduzida de um a dois terços ao inimputável."
+        "text": "A absolvição imprópria impõe pena privativa de liberdade reduzida de um a dois terços ao inimputável, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "D",
-        "text": "A sentença que absolve aplicando medida de segurança ao inimputável chama-se ABSOLVIÇÃO IMPRÓPRIA (Art. 386, parágrafo único, III, CPP); quanto aos efeitos cíveis (Arts. 65 a 67 CPP), a absolvição por INEXISTÊNCIA MATERIAL DO FATO (Art. 386, I) ou NEGATIVA DE AUTORIA (Art. 386, IV) e o reconhecimento de excludente de ilicitude (salvo estado de necessidade contra inocente) FAZEM COISA JULGADA NO CÍVEL, impedindo a ação indenizatória; já a absolvição por INSUFICIÊNCIA DE PROVAS (Art. 386, VII) ou atipicidade NÃO impede a propositura da ação civil ex delicto!"
+        "text": "A sentença que absolve aplicando medida de segurança ao inimputável chama-se absolvição imprópria."
       }
     ],
     "correctAnswer": "D",
@@ -2467,19 +2467,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque com a publicação da sentença que decreta a prescrição esgota-se a jurisdição do juiz de primeiro grau."
+        "text": "Não, porque com a publicação da sentença que decreta a prescrição esgota-se a jurisdição do juiz de primeiro grau. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "B",
-        "text": "Contra decisão do juiz da Vara de Execuções Penais que indefere progressão de regime cabe Recurso em Sentido Estrito no prazo de 10 dias."
+        "text": "Contra decisão do juiz da Vara de Execuções Penais que indefere progressão de regime cabe Recurso em Sentido Estrito no prazo de 10 dias, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "C",
-        "text": "O prazo para interposição de Recurso em Sentido Estrito no caso de inclusão ou exclusão de jurado na lista geral é de 5 dias."
+        "text": "O prazo para interposição de Recurso em Sentido Estrito no caso de inclusão ou exclusão de jurado na lista geral é de 5 dias, sob pena de nulidade processual absoluta insanável por violação às garantias do devido processo."
       },
       {
         "letter": "D",
-        "text": "Sim! O RESE possui EFEITO REGRESSIVO (juízo de retratação / iterativo — Art. 589 CPP): após as razões e contrarrazões (prazo de 5 dias para interposição + 2 dias para razões/contrarrazões), os autos voltam conclusos ao juiz de 1º grau, que em 2 dias reformará ou sustentará seu despacho antes de remeter ao Tribunal (e se reformar, a parte prejudicada poderá requerer a subida imediata dos autos por simples petição, se da nova decisão também couber recurso!)."
+        "text": "Sim, o rese possui efeito regressivo: após as razões e contrarrazões, os autos voltam conclusos ao juiz de 1º grau, que em 2 dias reformará ou sustentará seu despacho antes de remeter ao Tribunal."
       }
     ],
     "correctAnswer": "D",
@@ -2523,19 +2523,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cabe Recurso Especial ao STJ no prazo de 15 dias."
+        "text": "Cabe Recurso Especial ao STJ no prazo de 15 dias, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "B",
-        "text": "Caso o Tribunal de Justiça CONCEDA a ordem de Habeas Corpus em favor do paciente, o Ministério Público também pode interpor ROC ao STJ."
+        "text": "Caso o Tribunal de Justiça conceda a ordem de Habeas Corpus em favor do paciente, o Ministério Público também pode interpor roc ao STJ."
       },
       {
         "letter": "C",
-        "text": "O prazo para interposição de Recurso Especial ou Recurso Extraordinário em matéria criminal segue a regra do CPP de 5 dias."
+        "text": "O prazo para interposição de Recurso Especial ou Recurso Extraordinário em matéria criminal segue a regra do CPP de 5 dias, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "D",
-        "text": "Cabe RECURSO ORDINÁRIO CONSTITUCIONAL (ROC) ao Superior Tribunal de Justiça (Art. 105, II, \"a\", da CF/88), no prazo de 5 DIAS (Art. 30 da Lei nº 8.038/1990 — atenção: para Mandado de Segurança denegado o ROC tem prazo de 15 dias, mas para HC denegado em única/última instância pelos TJs/TRFs o prazo do ROC ao STJ é de 5 dias!)."
+        "text": "Cabe recurso ordinário constitucional (roc) ao Superior Tribunal de Justiça, no prazo de 5 dias."
       }
     ],
     "correctAnswer": "D",
@@ -2578,19 +2578,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo dos embargos de declaração contra sentença penal de primeiro grau é de 5 dias úteis."
+        "text": "O prazo dos embargos de declaração contra sentença penal de primeiro grau é de 5 dias úteis, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "B",
-        "text": "A expedição de carta precatória para oitiva de testemunha suspende obrigatoriamente a instrução criminal até a devolução da carta."
+        "text": "A expedição de carta precatória para oitiva de testemunha suspende obrigatoriamente a instrução criminal até a devolução da carta, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "C",
-        "text": "Ainda vigora no Tribunal do Júri o recurso do Protesto por Novo Júri quando a condenação for igual ou superior a 20 anos."
+        "text": "Ainda vigora no Tribunal do Júri o recurso do Protesto por Novo Júri quando a condenação for igual ou superior a 20 anos, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "D",
-        "text": "O prazo dos Embargos de Declaração no CPP comum (tanto de 1º grau no Art. 382 quanto nos tribunais no Art. 619) é de 2 DIAS (interrompendo o prazo para outros recursos — diferente do JECRIM na Lei 9.099/95 onde o prazo é de 5 dias!); quanto à carta precatória, pela Súmula 273 do STJ, intimada a defesa da EXPEDIÇÃO da carta precatória, torna-se DESNECESSÁRIA intimação da data da audiência no juízo deprecado (cabendo ao defensor acompanhar no juízo deprecado)!"
+        "text": "O prazo dos Embargos de Declaração no CPP comum é de 2 dias; quanto à carta precatória, intimada a defesa da expedição da carta precatória, torna-se desnecessária intimação da data da audiência no juízo deprecado."
       }
     ],
     "correctAnswer": "D",
@@ -2634,19 +2634,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, o Art. 260 do CPP autoriza plenamente a condução coercitiva do investigado para ser interrogado na delegacia sempre que conveniente à polícia."
+        "text": "Sim, a legislação aplicável autoriza plenamente a condução coercitiva do investigado para ser interrogado na delegacia sempre que conveniente à polícia, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "B",
-        "text": "Se o réu citado pessoalmente deixar de comparecer injustificadamente à audiência de instrução, o processo fica suspenso pelo Art. 366."
+        "text": "Se o réu citado pessoalmente deixar de comparecer injustificadamente à audiência de instrução, o processo fica suspenso, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "C",
-        "text": "O interrogatório de réu preso por videoconferência pode ser determinado pelo juiz por simples economia de combustível da viatura, sem fundamentação excepcional."
+        "text": "O interrogatório de réu preso por videoconferência pode ser determinado pelo juiz por simples economia de combustível da viatura, sem fundamentação excepcional, com prosseguimento regular da persecução penal independentemente de manifestação prévia do ofendido. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "D",
-        "text": "Não. No julgamento conjunto das ADPFs 395 e 444, o STF declarou que a condução coercitiva de investigados ou réus PARA INTERROGATÓRIO não foi recepcionada pela Constituição de 1988 (viola o direito à não autoincriminação / nemo tenetur se detegere e a liberdade de locomoção), continuando válida apenas a condução coercitiva de TESTEMUNHAS e vítimas que, devidamente intimadas, faltarem injustificadamente (Arts. 201, § 1º e 218 CPP)!"
+        "text": "Não, no julgamento conjunto das ADPFs 395 e 444, o STF declarou que a condução coercitiva de investigados ou réus para interrogatório não foi recepcionada pela Constituição de 1988, continuando válida apenas a condução coercitiva de testemunhas e vítimas que, devidamente intimadas, faltarem injustificadamente."
       }
     ],
     "correctAnswer": "D",
@@ -2690,19 +2690,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Enquanto não houver vaga no regime semiaberto, o sentenciado deve permanecer provisoriamente no regime fechado em nome da defesa social."
+        "text": "Enquanto não houver vaga no regime semiaberto, o sentenciado deve permanecer provisoriamente no regime fechado em nome da defesa social, sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação."
       },
       {
         "letter": "B",
-        "text": "Na execução penal definitiva, o Art. 117 da LEP autoriza prisão domiciliar irrestrita para condenados em qualquer regime, inclusive fechado."
+        "text": "Na execução penal definitiva, a legislação aplicável autoriza prisão domiciliar irrestrita para condenados em qualquer regime, inclusive fechado. O juízo competente deve observar esse rito ao examinar a admissibilidade da acusação."
       },
       {
         "letter": "C",
-        "text": "O período cumprido em prisão provisória no exterior ou em internação psiquiátrica cautelar não se computa na detração da pena privativa de liberdade."
+        "text": "O período cumprido em prisão provisória no exterior ou em internação psiquiátrica cautelar não se computa na detração da pena privativa de liberdade, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "D",
-        "text": "Pela Súmula Vinculante nº 56 do STF, a falta de estabelecimento penal adequado NÃO autoriza a manutenção do condenado em regime prisional mais gravoso; devendo os juízes da execução adotar medidas alternativas indicadas no RE 641.320 (saída antecipada de outro sentenciado, liberdade eletronicamente monitorada, cumprimento de penas restritivas de direitos ou prisão domiciliar até surgir vaga)!"
+        "text": "A falta de estabelecimento penal adequado não autoriza a manutenção do condenado em regime prisional mais gravoso; devendo os juízes da execução adotar medidas alternativas indicadas no RE 641.320."
       }
     ],
     "correctAnswer": "D",
@@ -2746,19 +2746,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Ministério Público detém legitimidade concorrente irrestrita com a vítima abastada para executar o dano moral individual no juízo cível."
+        "text": "O Ministério Público detém legitimidade concorrente irrestrita com a vítima abastada para executar o dano moral individual no juízo cível, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "B",
-        "text": "Proposta ação cível de reparação de danos antes da ação penal, o juiz cível é obrigado a extinguir o processo civil até o trânsito em julgado criminal."
+        "text": "Proposta ação cível de reparação de danos antes da ação penal, o juiz cível é obrigado a extinguir o processo civil até o trânsito em julgado criminal, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "C",
-        "text": "Transitada em julgado a sentença penal condenatória, podem promover-lhe a execução no juízo cível para efeito da reparação do dano o ofendido, seu representante legal ou seus herdeiros (título executivo judicial cível — Art. 63 CPP e Art. 515, VI, CPC); quanto ao Art. 68 do CPP (que atribuía ao MP legitimidade para propor ação civil ex delicto para vítima pobre), o STF (RE 135.328) declarou tratar-se de norma \"ainda constitucional\" (inconstitucionalidade progressiva) enquanto não estruturada plenamente a Defensoria Pública na comarca (onde há Defensoria Pública organizada, a legitimidade cabe à Defensoria!)."
+        "text": "Transitada em julgado a sentença penal condenatória, podem promover-lhe a execução no juízo cível para efeito da reparação do dano o ofendido, seu representante legal ou seus herdeiros."
       },
       {
         "letter": "D",
-        "text": "A sentença penal que extingue a punibilidade pela prescrição impede a execução civil de título anterior ou a propositura da ação indenizatória cível."
+        "text": "A sentença penal que extingue a punibilidade pela prescrição impede a execução civil de título anterior ou a propositura da ação indenizatória cível, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       }
     ],
     "correctAnswer": "C",
@@ -2801,19 +2801,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, basta mandado de busca genérico contra o cliente para que a polícia apreenda todos os processos e computadores do escritório de seu advogado."
+        "text": "Sim, basta mandado de busca genérico contra o cliente para que a polícia apreenda todos os processos e computadores do escritório de seu advogado, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "B",
-        "text": "Em caso de urgência policial, o cumprimento do mandado de busca em escritório de advocacia dispensa a comunicação e presença de representante da OAB."
+        "text": "Em caso de urgência policial, o cumprimento do mandado de busca em escritório de advocacia dispensa a comunicação e presença de representante da OAB, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "C",
-        "text": "Não! Pelo Art. 7º, II e § 6º, do Estatuto da OAB (e Lei nº 14.365/2022), a inviolabilidade do escritório de advocacia só pode ser quebrada por mandado judicial específico e pormenorizado quando houver indícios de autoria e materialidade da prática de crime POR PARTE DE ADVOGADO, na presença de representante da OAB, sendo PROIBIDA a apreensão ou utilização de documentos/objetos pertencentes a clientes do advogado averiguado (salvo se constituírem o próprio elemento do corpo de delito)!"
+        "text": "Não, a inviolabilidade do escritório de advocacia só pode ser quebrada por mandado judicial específico e pormenorizado quando houver indícios de autoria e materialidade da prática de crime por parte de advogado, na presença de representante da OAB, sendo proibida a apreensão ou utilização de documentos/objetos pertencentes a clientes do advogado averiguado."
       },
       {
         "letter": "D",
-        "text": "O advogado não tem direito à sustentação oral em julgamento de agravo interno interposto contra decisão monocrática em habeas corpus ou mandado de segurança."
+        "text": "O advogado não tem direito à sustentação oral em julgamento de agravo interno interposto contra decisão monocrática em habeas corpus ou mandado de segurança, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       }
     ],
     "correctAnswer": "C",
@@ -2856,19 +2856,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A gravação de conversa presencial feita por um dos próprios interlocutores sem autorização judicial constitui prova ilícita por violar a intimidade."
+        "text": "A gravação de conversa presencial feita por um dos próprios interlocutores sem autorização judicial constitui prova ilícita por violar a intimidade, sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação."
       },
       {
         "letter": "B",
-        "text": "A captação ambiental policial prevista no Art. 8º-A da Lei 9.296/96 pode ser autorizada para crimes com pena máxima de até 2 anos."
+        "text": "A captação ambiental policial pode ser autorizada para crimes com pena máxima de até 2 anos, com prosseguimento regular da persecução penal independentemente de manifestação prévia do ofendido."
       },
       {
         "letter": "C",
-        "text": "Sim! Segundo o STJ (REsp/RHC sobre ERBs), a obtenção judicial de registros de conexão e localização por antenas ERB (sem acesso ao conteúdo de conversas nem quebra de sigilo de pessoa indeterminada sem balizas temporais/geográficas estritas) é lícita mediante ordem judicial fundamentada (e pelo Marco Civil da Internet — Art. 22 — exige indícios + utilidade + período determinado); e a gravação ambiental/clandestina feita por UM DOS INTERLOCUTORES sem ciência do outro para provar inocência ou crime do qual é vítima é plenamente LÍCITA segundo STF (RE 583.937 — Tema 237)!"
+        "text": "Sim, segundo o STJ, a obtenção judicial de registros de conexão e localização por antenas erb é lícita mediante ordem judicial fundamentada; e a gravação ambiental/clandestina feita por um dos interlocutores sem ciência do outro para provar inocência ou crime do qual é vítima é plenamente lícita segundo STF."
       },
       {
         "letter": "D",
-        "text": "O delegado de polícia pode requisitar diretamente às operadoras de internet os dados cadastrais (nome, filiação, endereço) sem ordem judicial?"
+        "text": "O delegado de polícia pode requisitar diretamente às operadoras de internet os dados cadastrais (nome, filiação, endereço) sem ordem judicial. A inobservância dessa regra repercute diretamente na validade dos atos processuais subsequentes."
       }
     ],
     "correctAnswer": "C",
@@ -2912,19 +2912,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, o princípio da identidade física do juiz no processo penal é absoluto e obriga a repetição de toda a audiência pelo novo juiz."
+        "text": "Sim, o princípio da identidade física do juiz no processo penal é absoluto e obriga a repetição de toda a audiência pelo novo juiz, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "B",
-        "text": "O princípio da identidade física do juiz não existe no processo penal brasileiro, aplicando-se apenas ao processo civil."
+        "text": "O princípio da identidade física do juiz não existe no processo penal brasileiro, aplicando-se apenas ao processo civil, com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão."
       },
       {
         "letter": "C",
-        "text": "Não. Pelo Art. 399, § 2º, do CPP, o juiz que presidiu a instrução deverá proferir a sentença (identidade física do juiz); contudo, aplicam-se por analogia (Art. 3º CPP) as exceções do antigo Art. 132 do CPC/73 (promoção, convocação, licença, afastamento, aposentadoria ou férias), sendo válida a sentença proferida pelo sucessor quando o instrutor for promovido!"
+        "text": "Não, o juiz que presidiu a instrução deverá proferir a sentença; contudo, aplicam-se por analogia as exceções do antigo Art. 132 do CPC/73, sendo válida a sentença proferida pelo sucessor quando o instrutor for promovido."
       },
       {
         "letter": "D",
-        "text": "Na sentença penal, o juiz pode condenar o réu por crime mais grave não narrado na denúncia se a prova em audiência demonstrar a culpa."
+        "text": "Na sentença penal, o juiz pode condenar o réu por crime mais grave não narrado na denúncia se a prova em audiência demonstrar a culpa, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       }
     ],
     "correctAnswer": "C",
@@ -2967,19 +2967,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, pois sendo o tráfico crime constitucionalmente inafiançável, o preso em flagrante deve permanecer preso preventivamente durante todo o processo."
+        "text": "Não, pois sendo o tráfico crime constitucionalmente inafiançável, o preso em flagrante deve permanecer preso preventivamente durante todo o processo. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "B",
-        "text": "Nos crimes inafiançáveis, o juiz pode exigir fiança milionária para conceder a liberdade provisória com base no poder geral de cautela."
+        "text": "Nos crimes inafiançáveis, o juiz pode exigir fiança milionária para conceder a liberdade provisória com base no poder geral de cautela, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       },
       {
         "letter": "C",
-        "text": "Sim! A inafiançabilidade constitucional dos crimes hediondos e equiparados (tráfico, tortura, terrorismo) NÃO proíbe a concessão de LIBERDADE PROVISÓRIA SEM FIANÇA quando ausentes os requisitos cautelares da prisão preventiva (Art. 310, II, CPP e STF HC 104.339 / ADI 3.112 — vedada qualquer prisão cautelar automática obrigatória ex lege)!"
+        "text": "Sim, a inafiançabilidade constitucional dos crimes hediondos e equiparados não proíbe a concessão de liberdade provisória sem fiança quando ausentes os requisitos cautelares da prisão preventiva."
       },
       {
         "letter": "D",
-        "text": "No caso de crime afiançável, se o preso não tiver condições econômicas de pagar a fiança arbitrada, permanecerá obrigatoriamente preso até o fim do processo."
+        "text": "No caso de crime afiançável, se o preso não tiver condições econômicas de pagar a fiança arbitrada, permanecerá obrigatoriamente preso até o fim do processo. A inobservância dessa regra repercute diretamente na validade dos atos processuais subsequentes."
       }
     ],
     "correctAnswer": "C",
@@ -3023,19 +3023,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Sursis Processual do Art. 89 aplica-se após a condenação para suspender a execução da pena por 2 a 4 anos."
+        "text": "O Sursis Processual aplica-se após a condenação para suspender a execução da pena por 2 a 4 anos, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "B",
-        "text": "Para a concessão do Sursis Processual (Art. 89), o requisito objetivo é pena máxima cominada não superior a 2 anos."
+        "text": "Para a concessão do Sursis Processual, o requisito objetivo é pena máxima cominada não superior a 2 anos, com preclusão imediata da oportunidade de produção probatória após a fase postulatória."
       },
       {
         "letter": "C",
-        "text": "O Sursis PROCESSUAL (Art. 89 da Lei 9.099/95) ocorre ANTES da sentença (no oferecimento da denúncia, se pena MÍNIMA <= 1 ano; período de prova 2 a 4 anos) e, cumprido sem revogação, EXTINGUE A PUNIBILIDADE mantendo a primariedade sem condenação; já o Sursis PENAL (Art. 77 CP) ocorre NA SENTENÇA CONDENATÓRIA (suspende a execução de pena privativa de liberdade aplicada <= 2 anos, ou <= 4 anos se etário/humanitário), pressupondo condenação e gerando reincidência futura!"
+        "text": "O Sursis processual ocorre antes da sentença e, cumprido sem revogação, extingue a punibilidade mantendo a primariedade sem condenação."
       },
       {
         "letter": "D",
-        "text": "No Sursis Processual, a prescrição continua correndo normalmente durante todo o período de prova."
+        "text": "No Sursis Processual, a prescrição continua correndo normalmente durante todo o período de prova, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       }
     ],
     "correctAnswer": "C",
@@ -3078,19 +3078,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O conflito entre Juiz Estadual e Juiz Federal é julgado pelo Tribunal Regional Federal da respectiva região."
+        "text": "O conflito entre Juiz Estadual e Juiz Federal é julgado pelo Tribunal Regional Federal da respectiva região, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "B",
-        "text": "O conflito de atribuições entre Promotor de Justiça Estadual e Procurador da República é julgado originariamente pelo STF."
+        "text": "O conflito de atribuições entre Promotor de Justiça Estadual e Procurador da República é julgado originariamente pelo STF, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "C",
-        "text": "O conflito de competência entre Juiz Estadual e Juiz Federal (vinculados a tribunais diversos — TJ e TRF) é julgado pelo SUPERIOR TRIBUNAL DE JUSTIÇA (Art. 105, I, \"d\", CF); já o conflito de atribuições entre membros de Ministérios Públicos distintos (MPE vs. MPF) no curso de investigação (sem decisão jurisdicional) é decidido pelo CONSELHO NACIONAL DO MINISTÉRIO PÚBLICO — CNMP (STF ACO 843 e Pet 4.891)!"
+        "text": "O conflito de competência entre Juiz Estadual e Juiz Federal é julgado pelo superior tribunal de justiça; já o conflito de atribuições entre membros de Ministérios Públicos distintos (MPE vs. Mpf) no curso de investigação é decidido pelo conselho nacional do ministério público — CNMP."
       },
       {
         "letter": "D",
-        "text": "Se dois juízes federais vinculados ao mesmo Tribunal Regional Federal divergirem sobre a competência criminal entre si, o conflito sobe diretamente ao STJ."
+        "text": "Se dois juízes federais vinculados ao mesmo Tribunal Regional Federal divergirem sobre a competência criminal entre si, o conflito sobe diretamente ao STJ, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       }
     ],
     "correctAnswer": "C",
@@ -3134,19 +3134,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo para requerer a reabilitação é de 5 anos após o cumprimento da pena, e ela elimina imediatamente a reincidência futura."
+        "text": "O prazo para requerer a reabilitação é de 5 anos após o cumprimento da pena, e ela elimina imediatamente a reincidência futura, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "B",
-        "text": "A decisão do juiz de 1º grau que concede a reabilitação está dispensada de reexame necessário pelo tribunal."
+        "text": "A decisão do juiz de 1º grau que concede a reabilitação está dispensada de reexame necessário pelo tribunal, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "C",
-        "text": "A reabilitação pode ser requerida decorridos 2 ANOS do dia em que for extinta, de qualquer modo, a pena ou terminar sua execução (computando-se o período de prova do sursis/livramento não revogados — Art. 94 CP); ela assegura o SIGILO dos registros sobre o processo e a condenação (não aparecendo em certidão comum para empregadores — Art. 748 CPP) e suspende os efeitos extrapenais específicos do Art. 92 CP, MAS NÃO afasta a reincidência se ainda estiver dentro do período depurador de 5 anos (Art. 64, I, CP)!"
+        "text": "A reabilitação pode ser requerida decorridos 2 anos do dia em que for extinta, de qualquer modo, a pena ou terminar sua execução."
       },
       {
         "letter": "D",
-        "text": "A reabilitação revogada jamais poderá ser novamente requerida pelo sentenciado."
+        "text": "A reabilitação revogada jamais poderá ser novamente requerida pelo sentenciado, com preclusão imediata da oportunidade de produção probatória após a fase postulatória."
       }
     ],
     "correctAnswer": "C",
@@ -3189,7 +3189,7 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cabe Recurso em Sentido Estrito diretamente ao Juiz das Garantias no prazo de 5 dias."
+        "text": "Cabe Recurso em Sentido Estrito diretamente ao Juiz das Garantias no prazo de 5 dias, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "B",
@@ -3197,7 +3197,7 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Cabe RECURSO PARA O CHEFE DE POLÍCIA (Delegado-Geral / Secretário de Segurança Pública conforme organização local — Art. 5º, § 2º, do CPP), sem prejuízo de o cidadão levar a notitia criminis diretamente ao Ministério Público (que poderá requisitar a instauração do inquérito ou oferecer denúncia diretamente se já houver elementos suficientes)."
+        "text": "Cabe recurso para o chefe de polícia, sem prejuízo de o cidadão levar a notitia criminis diretamente ao Ministério Público."
       },
       {
         "letter": "D",
@@ -3245,7 +3245,7 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em todas as três hipóteses aplica-se tecnicamente o relaxamento da prisão por excesso de rigor."
+        "text": "Em todas as três hipóteses aplica-se tecnicamente o relaxamento da prisão por excesso de rigor, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "B",
@@ -3253,7 +3253,7 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Respectivamente: (1) RELAXAMENTO da prisão ilegal (Art. 5º, LXV, CF e Art. 310, I, CPP — prisão ilegal); (2) REVOGAÇÃO da prisão preventiva (Art. 316 CPP — prisão era legal, mas deixou de ser necessária); e (3) LIBERDADE PROVISÓRIA (Art. 5º, LXVI, CF e Art. 310, III, CPP — flagrante era legal, mas não exige preventiva, podendo ser concedida com ou sem fiança/cautelares do Art. 319)."
+        "text": "Respectivamente: relaxamento da prisão ilegal; revogação da prisão preventiva; e liberdade provisória."
       },
       {
         "letter": "D",
@@ -3300,19 +3300,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O juiz sumariante deve condenar o réu imediatamente por lesão corporal seguida de morte na própria decisão de encerramento da 1ª fase."
+        "text": "O juiz sumariante deve condenar o réu imediatamente por lesão corporal seguida de morte na própria decisão de encerramento da 1ª fase, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       },
       {
         "letter": "B",
-        "text": "Deve proferir decisão de DESCLASSIFICAÇÃO (Art. 419 CPP), remetendo os autos ao juiz singular competente para julgar o crime não doloso contra a vida (sem proferir condenação nem absolvição diretamente naquela decisão, e sem indicar qual o novo tipo penal vinculante ao juiz receptor!); contra essa decisão de desclassificação cabe RESE (Art. 581, II, CPP)."
+        "text": "Deve proferir decisão de desclassificação, remetendo os autos ao juiz singular competente para julgar o crime não doloso contra a vida; contra essa decisão de desclassificação cabe rese."
       },
       {
         "letter": "C",
-        "text": "Contra a decisão de desclassificação proferida pelo juiz sumariante na 1ª fase cabe Apelação com base no Art. 416 do CPP."
+        "text": "Contra a decisão de desclassificação proferida pelo juiz sumariante na 1ª fase cabe Apelação, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "D",
-        "text": "As qualificadoras narradas na denúncia só podem ser afastadas na decisão de pronúncia se forem manifestamente improcedentes ou totalmente descabidas."
+        "text": "As qualificadoras narradas na denúncia só podem ser afastadas na decisão de pronúncia se forem manifestamente improcedentes ou totalmente descabidas, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial."
       }
     ],
     "correctAnswer": "B",
@@ -3355,19 +3355,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em qualquer ofensa na internet, o foro competente é obrigatoriamente a Justiça Federal por envolver rede mundial de computadores."
+        "text": "Em qualquer ofensa na internet, o foro competente é obrigatoriamente a Justiça Federal por envolver rede mundial de computadores, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "B",
-        "text": "Nos crimes contra a honra praticados pela internet em publicações abertas (redes sociais, sites), a competência territorial firma-se no local onde o delito se consumou com o acesso/divulgação — ou, segundo a jurisprudência do STJ, no local de onde partiu a publicação ofensiva (local da inserção dos dados/domicílio do agente — Curitiba/PR), ou onde houve primeiro acesso se não identificado; no caso de e-mail/mensagem privada fechada, consuma-se onde a vítima ou terceiro toma conhecimento (Florianópolis/SC); e se atingir o exterior (crime à distância no Art. 70, § 1º, CPP), fixa-se pelo último ato de execução praticado no Brasil!"
+        "text": "Nos crimes contra a honra praticados pela internet em publicações abertas, a competência territorial firma-se no local onde o delito se consumou com o acesso/divulgação."
       },
       {
         "letter": "C",
-        "text": "No caso de crime à distância (execução no Brasil e resultado no estrangeiro), é competente o juízo da Capital Federal (Brasília/DF)."
+        "text": "No caso de crime à distância (execução no Brasil e resultado no estrangeiro), é competente o juízo da Capital Federal (Brasília/DF), com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "D",
-        "text": "Nos crimes contra a honra em ação penal privada, o querelante é proibido de escolher o foro do domicílio do querelado."
+        "text": "Nos crimes contra a honra em ação penal privada, o querelante é proibido de escolher o foro do domicílio do querelado, sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação."
       }
     ],
     "correctAnswer": "B",
@@ -3410,19 +3410,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cabe Apelação Criminal no prazo de 15 dias com efeito suspensivo automático."
+        "text": "Cabe Apelação Criminal no prazo de 15 dias com efeito suspensivo automático, com preservação da competência funcional do juízo natural fixada no recebimento da acusação."
       },
       {
         "letter": "B",
-        "text": "Cabe AGRAVO EM EXECUÇÃO (Art. 197 da Lei de Execução Penal — LEP), no prazo de 5 DIAS corridos (Súmula 700 do STF), seguindo o processamento do Recurso em Sentido Estrito (ou seja, possui juízo de retratação/efeito regressivo e, em regra, NÃO possui efeito suspensivo — Art. 197 LEP)!"
+        "text": "Cabe agravo em execução, no prazo de 5 dias corridos, seguindo o processamento do Recurso em Sentido Estrito."
       },
       {
         "letter": "C",
-        "text": "O prazo de interposição do Agravo em Execução é de 10 dias úteis conforme o CPC aplicado subsidiariamente."
+        "text": "O prazo de interposição do Agravo em Execução é de 10 dias úteis conforme o CPC aplicado subsidiariamente, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "D",
-        "text": "Ao contrário do RESE, o Agravo em Execução não admite juízo de retratação pelo juiz da execução."
+        "text": "Ao contrário do rese, o Agravo em Execução não admite juízo de retratação pelo juiz da execução, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       }
     ],
     "correctAnswer": "B",
@@ -3466,19 +3466,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deve decretar prisão preventiva obrigatoriamente por se tratar de crime financeiro contra a ordem econômica."
+        "text": "Deve decretar prisão preventiva obrigatoriamente por se tratar de crime financeiro contra a ordem econômica, com eficácia preclusiva imediata quanto às questões processuais decididas interlocutoriamente."
       },
       {
         "letter": "B",
-        "text": "Deve aplicar as MEDIDAS CAUTELARES DIVERSAS DA PRISÃO (Art. 319, VI — suspensão do exercício de função pública ou de atividade de natureza econômica/financeira quando houver justo receio de utilização para prática de infrações penais), pois pelo Art. 282, § 6º, do CPP a prisão preventiva somente será determinada quando NÃO for cabível a sua substituição por outra medida cautelar (princípio da proporcionalidade/adequação e ultima ratio da prisão)!"
+        "text": "Deve aplicar as medidas cautelares diversas da prisão, pois a prisão preventiva somente será determinada quando não for cabível a sua substituição por outra medida cautelar."
       },
       {
         "letter": "C",
-        "text": "A proibição de ausentar-se do país (Art. 320 CPP) exige intimação sem entrega do passaporte pelo investigado."
+        "text": "A proibição de ausentar-se do país exige intimação sem entrega do passaporte pelo investigado, com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão."
       },
       {
         "letter": "D",
-        "text": "Não é permitida a cumulação de duas ou mais medidas cautelares do Art. 319 do CPP sobre o mesmo réu."
+        "text": "Não é permitida a cumulação de duas ou mais medidas cautelares sobre o mesmo réu, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       }
     ],
     "correctAnswer": "B",
@@ -3521,19 +3521,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A ação penal é exclusivamente privada do funcionário público ofendido, não podendo atuar o Ministério Público."
+        "text": "A ação penal é exclusivamente privada do funcionário público ofendido, não podendo atuar o Ministério Público, com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão."
       },
       {
         "letter": "B",
-        "text": "Pela Súmula 714 do STF, é CONCORRENTE a legitimidade do ofendido, mediante queixa-crime, e do Ministério Público, condicionada à representação do ofendido, para a ação penal por crime contra a honra de servidor público em razão do exercício de suas funções (escolhendo o servidor entre representar ao MP ou propor queixa privada — e escolhida uma via, ocorre preclusão da outra segundo a jurisprudência!)."
+        "text": "É concorrente a legitimidade do ofendido, mediante queixa-crime, e do Ministério Público, condicionada à representação do ofendido, para a ação penal por crime contra a honra de servidor público em razão do exercício de suas funções."
       },
       {
         "letter": "C",
-        "text": "A ação penal é pública incondicionada sempre que a vítima for servidor público federal."
+        "text": "A ação penal é pública incondicionada sempre que a vítima for servidor público federal, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo."
       },
       {
         "letter": "D",
-        "text": "Caso a ofensa contra o funcionário público diga respeito apenas à sua vida privada familiar sem relação com o cargo, ainda incide a Súmula 714 do STF."
+        "text": "Caso a ofensa contra o funcionário público diga respeito apenas à sua vida privada familiar sem relação com o cargo, ainda incide a Súmula 714 do STF, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito."
       }
     ],
     "correctAnswer": "B",
@@ -3577,19 +3577,19 @@ export const PROCESSUAL_PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na falta de justa causa, o juiz recebe a denúncia e depois absolve sumariamente com base no Art. 397."
+        "text": "Na falta de justa causa, o juiz recebe a denúncia e depois absolve sumariamente, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum."
       },
       {
         "letter": "B",
-        "text": "Na falta de justa causa (ou inépcia ou falta de pressuposto/condição da ação), o juiz REJEITA liminarmente a denúncia ou queixa antes da citação (Art. 395 CPP — cabe RESE pelo Art. 581, I); já após o recebimento e resposta à acusação, verificando manifesta legítima defesa (excludente de ilicitude), o juiz decreta ABSOLVIÇÃO SUMÁRIA (Art. 397, I, CPP — decisão de mérito que faz coisa julgada material, impugnável por APELAÇÃO!)."
+        "text": "Na falta de justa causa, o juiz rejeita liminarmente a denúncia ou queixa antes da citação."
       },
       {
         "letter": "C",
-        "text": "Contra a decisão que recebe a denúncia no rito ordinário cabe imediatamente Recurso em Sentido Estrito."
+        "text": "Contra a decisão que recebe a denúncia no rito ordinário cabe imediatamente Recurso em Sentido Estrito, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível."
       },
       {
         "letter": "D",
-        "text": "A absolvição sumária do Art. 397 não faz coisa julgada material, permitindo nova denúncia pelos mesmos fatos."
+        "text": "A absolvição sumária não faz coisa julgada material, permitindo nova denúncia pelos mesmos fatos, sob pena de nulidade processual absoluta insanável por violação às garantias do devido processo."
       }
     ],
     "correctAnswer": "B",

@@ -15,10 +15,10 @@ export const ADMINISTRATIVO_EXTRA_QUESTIONS: LegalQuestion[] = [
     statement: `João, prefeito municipal, deixou de prestar contas de pequeno convênio no prazo regulamentar por desorganização contábil culposa de sua secretaria, sem qualquer desvio de recursos públicos, sem enriquecimento ilícito e sem intenção de prejudicar o erário. O Ministério Público ajuizou Ação Civil Pública por ato de improbidade administrativa imputando-lhe conduta culposa que atenta contra os princípios da Administração Pública.
 Nos termos da Lei nº 8.429/92, com a redação dada pela Lei nº 14.230/2021, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A conduta caracteriza ato de improbidade administrativa por culpa grave, passível de suspensão dos direitos políticos.' },
-      { letter: 'B', text: 'Não configura ato de improbidade administrativa, pois a nova redação da LIA exige comprovação de DOLO específico (vontade livre e consciente de alcançar o resultado ilícito tipificado na lei), não existindo improbidade culposa.' },
-      { letter: 'C', text: 'A improbidade culposa permanece válida apenas para atos que causem prejuízo ao erário.' },
-      { letter: 'D', text: 'O Município não precisa comprovar dolo quando o agente público for ocupante de cargo eletivo.' }
+      { letter: 'A', text: 'A conduta caracteriza ato de improbidade administrativa por culpa grave, passível de suspensão dos direitos políticos, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' },
+      { letter: 'B', text: 'Não configura ato de improbidade administrativa, pois a nova redação da LIA exige comprovação de dolo específico, não existindo improbidade culposa.' },
+      { letter: 'C', text: 'A improbidade culposa permanece válida apenas para atos que causem prejuízo ao erário, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' },
+      { letter: 'D', text: 'O Município não precisa comprovar dolo quando o agente público for ocupante de cargo eletivo, sob pena de nulidade absoluta do procedimento administrativo e apuração funcional da autoridade.' }
     ],
     correctAnswer: 'B',
     justification: `Com a reforma da Lei nº 14.230/2021 na Lei nº 8.429/92 (Art. 1º, §§ 1º e 2º), foi extinta a modalidade culposa de improbidade administrativa: exige-se a comprovação de DOLO específico (vontade livre e consciente de alcançar o resultado ilícito).`,
@@ -77,10 +77,10 @@ Segundo a Lei nº 14.133/2021, a modalidade licitatória adequada para esse obje
     statement: `Um Município concedeu licença definitiva de funcionamento para uma lanchonete após comprovação de todos os requisitos legais. Meses depois, nova gestão entendeu ser mais conveniente para o fluxo de pedestres não permitir lanchonetes naquela calçada e revogou a licença por oportunidade e conveniência.
 À luz da teoria dos atos administrativos e da Súmula 473 do STF, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A revogação opera efeitos retroativos (ex tunc) e pode ser determinada pelo Poder Judiciário.' },
-      { letter: 'B', text: 'A revogação atinge atos válidos por conveniência e oportunidade com efeitos prospectivos (ex nunc), porém não alcança atos vinculados (como a licença definitiva) nem direitos adquiridos.' },
-      { letter: 'C', text: 'A anulação decorre de conveniência e oportunidade, produzindo efeitos ex nunc.' },
-      { letter: 'D', text: 'A Administração não pode rever seus próprios atos sem prévia autorização judicial.' }
+      { letter: 'A', text: 'A revogação opera efeitos retroativos (ex tunc) e pode ser determinada pelo Poder Judiciário, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' },
+      { letter: 'B', text: 'A revogação atinge atos válidos por conveniência e oportunidade com efeitos prospectivos (ex nunc), porém não alcança atos vinculados nem direitos adquiridos.' },
+      { letter: 'C', text: 'A anulação decorre de conveniência e oportunidade, produzindo efeitos ex nunc, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' },
+      { letter: 'D', text: 'A Administração não pode rever seus próprios atos sem prévia autorização judicial, sem possibilidade de convalidação posterior do ato administrativo por ausência de previsão regulamentar.' }
     ],
     correctAnswer: 'B',
     justification: `Pela Súmula 473 do STF, a Administração pode anular atos ilegais (ex tunc) ou revogar atos válidos por mérito com efeitos ex nunc, respeitados os direitos adquiridos. Atos vinculados e direitos adquiridos não admitem revogação discricionária livre.`,
@@ -110,7 +110,7 @@ Segundo a Lei nº 14.133/2021, a modalidade licitatória adequada para esse obje
 Segundo a jurisprudência vinculante do STF (Tema 592 - RE 841.526), a responsabilidade do Estado nesse caso é:`,
     options: [
       { letter: 'A', text: 'Subjetiva, cabendo à família comprovar dolo ou culpa grave dos agentes penitenciários.' },
-      { letter: 'B', text: 'Objetiva, em razão da inobservância do dever específico de proteção e custódia previsto no Art. 5º, XLIX, da CF/88.' },
+      { letter: 'B', text: 'Objetiva, em razão da inobservância do dever específico de proteção e custódia.' },
       { letter: 'C', text: 'Inexistente, por configurar fato exclusivo de terceiro.' },
       { letter: 'D', text: 'Subsidiária, devendo os familiares acionar primeiro os outros presos.' }
     ],
@@ -172,10 +172,10 @@ Segundo a jurisprudência vinculante do STF (Tema 592 - RE 841.526), a responsab
     statement: `Marcos, servidor federal estável, respondeu a PAD sem advogado, apresentando defesa escrita pessoalmente, e sofreu demissão. Paralelamente, foi absolvido na esfera criminal pelo mesmo fato por insuficiência de provas.
 Considerando a Súmula Vinculante 5 do STF e a Lei nº 8.112/90, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'O PAD é nulo pela falta de advogado e a absolvição criminal vincula o administrativo.' },
-      { letter: 'B', text: 'A falta de defesa técnica por advogado no PAD não ofende a Constituição, e a absolvição criminal por insuficiência de provas não afasta a punição disciplinar administrativa.' },
-      { letter: 'C', text: 'A Súmula Vinculante 5 exige defensor dativo sob pena de nulidade.' },
-      { letter: 'D', text: 'Toda absolvição criminal gera reintegração automática.' }
+      { letter: 'A', text: 'O pad é nulo pela falta de advogado e a absolvição criminal vincula o administrativo, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes.' },
+      { letter: 'B', text: 'A falta de defesa técnica por advogado no pad não ofende a Constituição, e a absolvição criminal por insuficiência de provas não afasta a punição disciplinar administrativa.' },
+      { letter: 'C', text: 'A Súmula Vinculante 5 exige defensor dativo sob pena de nulidade, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal.' },
+      { letter: 'D', text: 'Toda absolvição criminal gera reintegração automática, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' }
     ],
     correctAnswer: 'B',
     justification: `A SV 5 do STF estabelece que a falta de defesa técnica por advogado no PAD não ofende a Constituição. E pelo Art. 126 da Lei nº 8.112/90, apenas absolvição penal por inexistência do fato ou negativa de autoria vincula o administrativo.`,
@@ -204,10 +204,10 @@ Considerando a Súmula Vinculante 5 do STF e a Lei nº 8.112/90, assinale a afir
     statement: `Em 2015, a Administração federal concedeu vantagem pecuniária a servidora aposentada de boa-fé por interpretação equivocada da lei. Em 2022, ao auditar a folha, anulou o benefício e determinou desconto dos valores recebidos.
 Considerando a Lei nº 9.784/99 e a jurisprudência do STJ, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A Administração pode anular atos ilegais a qualquer tempo.' },
+      { letter: 'A', text: 'A Administração pode anular atos ilegais a qualquer tempo, mediante exercício regular do poder discricionário vinculado à finalidade administrativa primária.' },
       { letter: 'B', text: 'Decaiu o direito de anular o ato favorável após 5 anos da data em que foi praticado (salvo má-fé), além de ser incabível a devolução de verbas alimentares recebidas de boa-fé por erro da própria Administração.' },
-      { letter: 'C', text: 'O prazo de decadência na Lei nº 9.784/99 é de 10 anos.' },
-      { letter: 'D', text: 'A servidora deve restituir integralmente os últimos cinco anos.' }
+      { letter: 'C', text: 'O prazo de decadência na Lei nº 9.784/99 é de 10 anos, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.' },
+      { letter: 'D', text: 'A servidora deve restituir integralmente os últimos cinco anos, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 54 da Lei nº 9.784/99 fixa prazo decadencial de 5 anos para anular atos favoráveis aos destinatários de boa-fé, além de valores alimentares recebidos de boa-fé por erro interpretativo da Administração serem irrepetíveis.`,
@@ -266,10 +266,10 @@ O instrumento jurídico específico para essa parceria é:`,
     statement: `Um prédio de antiga escola municipal foi desativado e desafetado por lei para bem dominical visando à venda. Um morador que ocupou o terreno por 6 anos pediu usucapião especial urbana.
 Sobre o regime jurídico dos bens públicos, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Bens dominicais são passíveis de usucapião.' },
+      { letter: 'A', text: 'Bens dominicais são passíveis de usucapião, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' },
       { letter: 'B', text: 'A desafetação permite a alienação (observados os requisitos legais), mas nenhum bem público, nem mesmo o dominical, é passível de usucapião.' },
-      { letter: 'C', text: 'Bens públicos imóveis só podem ser vendidos por concorrência na Lei nº 14.133/2021.' },
-      { letter: 'D', text: 'A ocupação irregular de bem público gera direito de retenção por benfeitorias.' }
+      { letter: 'C', text: 'Bens públicos imóveis só podem ser vendidos por concorrência na Lei nº 14.133/2021, com amparo na autoexecutoriedade e na presunção de legitimidade inerentes aos atos administrativos.' },
+      { letter: 'D', text: 'A ocupação irregular de bem público gera direito de retenção por benfeitorias, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes.' }
     ],
     correctAnswer: 'B',
     justification: `Bens dominicais podem ser alienados cumpridos os requisitos legais (Art. 76, Lei 14.133/21, na modalidade leilão), porém todos os bens públicos são imprescritíveis (CF, Arts. 183 § 3º e 191 parágrafo único; CC, Art. 102).`,
@@ -298,10 +298,10 @@ Sobre o regime jurídico dos bens públicos, assinale a afirmativa correta:`,
     statement: `Para passar fios de alta tensão sobre área rural privada sem retirar o dono do solo, o poder público instituiu ônus real público. Em outro caso, durante enchente, a Defesa Civil usou imediatamente um ginásio privado por 10 dias para abrigar desabrigados.
 Essas duas intervenções na propriedade correspondem, respectivamente, a:`,
     options: [
-      { letter: 'A', text: 'Desapropriação parcial e ocupação temporária.' },
+      { letter: 'A', text: 'Desapropriação parcial e ocupação temporária, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' },
       { letter: 'B', text: 'Servidão administrativa (indenizável se houver prejuízo) e requisição administrativa (por perigo público iminente, com indenização ulterior se houver dano).' },
-      { letter: 'C', text: 'Limitação administrativa e tombamento.' },
-      { letter: 'D', text: 'Tombamento e servidão.' }
+      { letter: 'C', text: 'Limitação administrativa e tombamento, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes.' },
+      { letter: 'D', text: 'Tombamento e servidão, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' }
     ],
     correctAnswer: 'B',
     justification: `Passagem de redes/fios em imóvel alheio = servidão administrativa (indenização se houver dano). Uso emergencial em perigo público iminente = requisição administrativa (Art. 5º, XXV, CF/88, indenização ulterior se houver dano).`,
@@ -330,9 +330,9 @@ Essas duas intervenções na propriedade correspondem, respectivamente, a:`,
 Nos termos do Art. 37, XIX, da CF/88, assinale a afirmativa correta:`,
     options: [
       { letter: 'A', text: 'A autarquia é criada diretamente por lei específica; a sociedade de economia mista tem sua instituição autorizada por lei específica, adquirindo personalidade jurídica com o registro de seus atos.' },
-      { letter: 'B', text: 'Ambas exigem lei complementar.' },
-      { letter: 'C', text: 'A sociedade de economia mista é criada por decreto.' },
-      { letter: 'D', text: 'Autarquias possuem personalidade de direito privado.' }
+      { letter: 'B', text: 'Ambas exigem lei complementar, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.' },
+      { letter: 'C', text: 'A sociedade de economia mista é criada por decreto, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' },
+      { letter: 'D', text: 'Autarquias possuem personalidade de direito privado, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal.' }
     ],
     correctAnswer: 'A',
     justification: `Art. 37, XIX, CF/88: somente por lei específica poderá ser CRIADA autarquia e AUTORIZADA a instituição de empresa pública, sociedade de economia mista e fundação.`,
@@ -360,10 +360,10 @@ Nos termos do Art. 37, XIX, da CF/88, assinale a afirmativa correta:`,
     statement: `Um Município delegou por lei a uma sociedade de economia mista municipal não concorrencial, de capital majoritariamente público, a aplicação de multas de trânsito (sanção de polícia).
 Segundo o STF no Tema 532 (RE 633.782), essa delegação é:`,
     options: [
-      { letter: 'A', text: 'Inconstitucional porque poder de polícia nunca pode ser delegado a pessoa jurídica de direito privado.' },
-      { letter: 'B', text: 'Constitucional (quanto a consentimento, fiscalização e sanção), por tratar-se de estatal da Administração Indireta com capital majoritariamente público prestando serviço público próprio em regime não concorrencial.' },
-      { letter: 'C', text: 'Constitucional inclusive se delegada diretamente a empresas particulares privadas via licitação.' },
-      { letter: 'D', text: 'Inconstitucional salvo se prevista em lei complementar federal.' }
+      { letter: 'A', text: 'Inconstitucional porque poder de polícia nunca pode ser delegado a pessoa jurídica de direito privado. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público.' },
+      { letter: 'B', text: 'Constitucional, por tratar-se de estatal da Administração Indireta com capital majoritariamente público prestando serviço público próprio em regime não concorrencial.' },
+      { letter: 'C', text: 'Constitucional inclusive se delegada diretamente a empresas particulares privadas via licitação, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal.' },
+      { letter: 'D', text: 'Inconstitucional salvo se prevista em lei complementar federal, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes.' }
     ],
     correctAnswer: 'B',
     justification: `No Tema 532 (RE 633.782), o STF validou a delegação por lei das fases de consentimento, fiscalização e sanção a estatais não concorrenciais de capital majoritariamente público.`,
@@ -423,10 +423,10 @@ Nos termos da Lei nº 14.133/2021 (Arts. 74 e 75), são respectivamente hipótes
     statement: `Um Secretário exonerou servidor exclusivamente comissionado (ad nutum), declarando na portaria que o motivo era "ausência injustificada por 45 dias". Provou-se que o servidor estava em licença médica oficial em todo o período.
 Pela Teoria dos Motivos Determinantes, o ato de exoneração é:`,
     options: [
-      { letter: 'A', text: 'Válido porque cargo em comissão é de livre exoneração.' },
+      { letter: 'A', text: 'Válido porque cargo em comissão é de livre exoneração. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.' },
       { letter: 'B', text: 'Nulo, pois ao declarar o motivo do ato, a Administração vincula a validade do ato à veracidade desse motivo.' },
-      { letter: 'C', text: 'Válido, convertendo-se em licença.' },
-      { letter: 'D', text: 'Sanável automaticamente sem novo ato.' }
+      { letter: 'C', text: 'Válido, convertendo-se em licença, sem necessidade de prévia autorização judicial ou instauração de procedimento contraditório específico.' },
+      { letter: 'D', text: 'Sanável automaticamente sem novo ato, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' }
     ],
     correctAnswer: 'B',
     justification: `Pela Teoria dos Motivos Determinantes, mesmo que a exoneração ad nutum dispensasse motivação, uma vez declarado o motivo, o ato só é válido se o motivo for verdadeiro.`,
@@ -454,10 +454,10 @@ Pela Teoria dos Motivos Determinantes, o ato de exoneração é:`,
     statement: `Em contrato administrativo de obra regido pela Lei nº 14.133/2021, a Administração atrasou injustificadamente o pagamento das faturas por 75 dias (2 meses e meio).
 Diante desse atraso, o contratado tem direito a:`,
     options: [
-      { letter: 'A', text: 'Suportar atrasos de até 90 dias como na antiga Lei 8.666/93.' },
+      { letter: 'A', text: 'Suportar atrasos de até 90 dias como na antiga Lei 8.666/93, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes.' },
       { letter: 'B', text: 'Optar pela suspensão do cumprimento de suas obrigações ou pela extinção do contrato, pois o prazo na Lei nº 14.133/2021 passou a ser superior a 2 meses.' },
-      { letter: 'C', text: 'Paralisar desde o primeiro dia de atraso.' },
-      { letter: 'D', text: 'Jamais suspender o contrato administrativo.' }
+      { letter: 'C', text: 'Paralisar desde o primeiro dia de atraso, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal.' },
+      { letter: 'D', text: 'Jamais suspender o contrato administrativo, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 137, § 2º, IV, da Lei nº 14.133/2021 reduziu de 90 dias para **2 meses** o prazo de atraso de pagamento pelo Poder Público que autoriza a extinção ou suspensão contratual pelo contratado.`,
@@ -515,10 +515,10 @@ Nos termos da Lei nº 11.079/2004, trata-se de:`,
     originType: 'ACADEMICA',
     statement: `A criação de uma nova Secretaria dentro de um Ministério e a delegação de serviço público a uma concessionária privada correspondem, respectivamente, a:`,
     options: [
-      { letter: 'A', text: 'Descentralização e desconcentração.' },
+      { letter: 'A', text: 'Descentralização e desconcentração, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.' },
       { letter: 'B', text: 'Desconcentração (criação de órgão sem personalidade jurídica) e descentralização por colaboração (transferência a outra pessoa jurídica).' },
-      { letter: 'C', text: 'Avocação e outorga legal.' },
-      { letter: 'D', text: 'Centralização e tutela hierárquica.' }
+      { letter: 'C', text: 'Avocação e outorga legal, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' },
+      { letter: 'D', text: 'Centralização e tutela hierárquica, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' }
     ],
     correctAnswer: 'B',
     justification: `Desconcentração distribui internamente na mesma pessoa jurídica (cria órgãos). Descentralização transfere para outra pessoa jurídica (por outorga legal ou colaboração contratual).`,
@@ -546,10 +546,10 @@ Nos termos da Lei nº 11.079/2004, trata-se de:`,
     statement: `Um chefe de setor praticou ato de autorização simples que cabia ao Diretor (competência não exclusiva). Antes de qualquer impugnação ou lesão, o Diretor ratificou o ato.
 Segundo o Art. 55 da Lei nº 9.784/99, essa ratificação configura:`,
     options: [
-      { letter: 'A', text: 'Anulação obrigatória.' },
+      { letter: 'A', text: 'Anulação obrigatória, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' },
       { letter: 'B', text: 'Convalidação válida com efeitos retroativos (ex tunc), pois o vício de competência não exclusiva é sanável e não causou lesão ao interesse público nem prejuízo a terceiros.' },
-      { letter: 'C', text: 'Revogação parcial.' },
-      { letter: 'D', text: 'Caducidade do ato.' }
+      { letter: 'C', text: 'Revogação parcial, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.' },
+      { letter: 'D', text: 'Caducidade do ato, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' }
     ],
     correctAnswer: 'B',
     justification: `Art. 55 da Lei nº 9.784/99: defeitos sanáveis (como vício de competência não exclusiva e forma não essencial) podem ser convalidados pela Administração com efeitos ex tunc.`,
@@ -577,10 +577,10 @@ Segundo o Art. 55 da Lei nº 9.784/99, essa ratificação configura:`,
     statement: `Sem decreto expropriatório prévio, o Estado invadiu área privada e nela construiu uma rodovia aberta ao tráfego. Passados 12 anos, o dono pediu a devolução do terreno ou indenização.
 À luz do DL nº 3.365/41 e do Tema 1019 do STJ, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'O proprietário pode reivindicar a posse fechando a rodovia.' },
-      { letter: 'B', text: 'Não cabe reivindicação do bem após afetação pública (Art. 35 DL 3.365/41), resolvendo-se em indenização por desapropriação indireta, cujo prazo prescricional é de 10 anos quando há realização de obra pública no local (Tema 1019 STJ).' },
-      { letter: 'C', text: 'A prescrição da desapropriação indireta é sempre de 3 anos.' },
-      { letter: 'D', text: 'Não há dever de indenizar por apossamento administrativo.' }
+      { letter: 'A', text: 'O proprietário pode reivindicar a posse fechando a rodovia, sem necessidade de prévia autorização judicial ou instauração de procedimento contraditório específico.' },
+      { letter: 'B', text: 'Não cabe reivindicação do bem após afetação pública, resolvendo-se em indenização por desapropriação indireta, cujo prazo prescricional é de 10 anos quando há realização de obra pública no local.' },
+      { letter: 'C', text: 'A prescrição da desapropriação indireta é sempre de 3 anos, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público.' },
+      { letter: 'D', text: 'Não há dever de indenizar por apossamento administrativo, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 35 do DL 3.365/41 veda a reivindicação após incorporação ao patrimônio público, resolvendo-se em perdas e danos. Pelo Tema 1019 do STJ, a prescrição da desapropriação indireta é de 10 anos quando há obra/serviço produtivo no imóvel.`,
@@ -609,10 +609,10 @@ Segundo o Art. 55 da Lei nº 9.784/99, essa ratificação configura:`,
     statement: `Pedro é médico estadual (20h) e assumiu outro cargo efetivo de médico federal (20h), com compatibilidade de horários. Somados os salários, ultrapassa o teto dos Ministros do STF.
 Segundo o STF (Temas 377 e 384), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A acumulação é proibida entre entes diferentes.' },
+      { letter: 'A', text: 'A acumulação é proibida entre entes diferentes, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes.' },
       { letter: 'B', text: 'A acumulação dos dois cargos de médico é lícita, e o teto constitucional incide isoladamente sobre cada um dos vínculos.' },
-      { letter: 'C', text: 'O corte do teto incide sobre a soma dos dois vencimentos.' },
-      { letter: 'D', text: 'Médicos não podem acumular cargos públicos.' }
+      { letter: 'C', text: 'O corte do teto incide sobre a soma dos dois vencimentos, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal.' },
+      { letter: 'D', text: 'Médicos não podem acumular cargos públicos, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência.' }
     ],
     correctAnswer: 'B',
     justification: `Art. 37, XVI, "c", CF/88 autoriza dois cargos privativos de profissionais de saúde com compatibilidade de horários, e o STF (Temas 377 e 384) determinou que o teto incide separadamente sobre cada vínculo lícito.`,
@@ -671,10 +671,10 @@ O percentual máximo de garantia permitido nessa hipótese é:`,
     originType: 'AUTORAL_PROFESSOR',
     statement: `Sobre a prescritibilidade do ressarcimento ao erário no STF, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Toda ação de ressarcimento ao erário é imprescritível.' },
-      { letter: 'B', text: 'São imprescritíveis apenas as ações de ressarcimento fundadas na prática de ato DOLOSO de improbidade administrativa (Tema 897); ilícitos civis comuns e execuções de decisões de Tribunais de Contas são prescritíveis.' },
-      { letter: 'C', text: 'As ações de improbidade dolosas prescrevem em 5 anos quanto ao ressarcimento.' },
-      { letter: 'D', text: 'Acórdãos condenatórios do TCU são imprescritíveis.' }
+      { letter: 'A', text: 'Toda ação de ressarcimento ao erário é imprescritível, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal.' },
+      { letter: 'B', text: 'São imprescritíveis apenas as ações de ressarcimento fundadas na prática de ato doloso de improbidade administrativa.' },
+      { letter: 'C', text: 'As ações de improbidade dolosas prescrevem em 5 anos quanto ao ressarcimento, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' },
+      { letter: 'D', text: 'Acórdãos condenatórios do TCU são imprescritíveis, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' }
     ],
     correctAnswer: 'B',
     justification: `STF: Tema 666 (ilícito civil comum prescreve), Tema 897 (ato doloso de improbidade é imprescritível para ressarcir), Tema 899 (ressarcimento baseado em decisão de Tribunal de Contas prescreve em 5 anos).`,
@@ -734,10 +734,10 @@ Esse poder de execução direta pela própria Administração corresponde ao atr
     statement: `Um Ministro pretende delegar a um diretor subordinado a edição de ato de caráter normativo e a decisão de recurso administrativo hierárquico.
 Segundo o Art. 13 da Lei nº 9.784/99:`,
     options: [
-      { letter: 'A', text: 'Ambas podem ser delegadas.' },
-      { letter: 'B', text: 'Nenhuma das duas pode ser delegada, pois edição de atos normativos, decisão de recursos administrativos e matérias de competência exclusiva são indelegáveis (CE-NO-RA).' },
-      { letter: 'C', text: 'Apenas a decisão de recursos é delegável.' },
-      { letter: 'D', text: 'Apenas atos normativos são delegáveis.' }
+      { letter: 'A', text: 'Ambas podem ser delegadas, sem necessidade de prévia autorização judicial ou instauração de procedimento contraditório específico. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.' },
+      { letter: 'B', text: 'Nenhuma das duas pode ser delegada, pois edição de atos normativos, decisão de recursos administrativos e matérias de competência exclusiva são indelegáveis (CE-no-ra).' },
+      { letter: 'C', text: 'Apenas a decisão de recursos é delegável, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' },
+      { letter: 'D', text: 'Apenas atos normativos são delegáveis, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' }
     ],
     correctAnswer: 'B',
     justification: `Art. 13 da Lei nº 9.784/99 proíbe delegação de: I - atos normativos; II - decisão de recursos administrativos; III - competência exclusiva (CE-NO-RA).`,
@@ -765,10 +765,10 @@ Segundo o Art. 13 da Lei nº 9.784/99:`,
     statement: `Um cidadão requereu acesso à folha nominal de remunerações dos servidores de uma autarquia sem explicar o motivo do pedido. O órgão negou alegando ausência de justificativa e sigilo salarial.
 À luz da Lei nº 12.527/2011 e do STF (Tema 483), a negativa é:`,
     options: [
-      { letter: 'A', text: 'Legítima porque a LAI exige motivação.' },
+      { letter: 'A', text: 'Legítima porque a LAI exige motivação. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa.' },
       { letter: 'B', text: 'Ilegal, pois são vedadas exigências sobre os motivos do pedido e é legítima a divulgação nominal de vencimentos de servidores públicos.' },
-      { letter: 'C', text: 'Legítima por proteção absoluta do sigilo bancário.' },
-      { letter: 'D', text: 'Sujeita a prazo inicial de resposta de 90 dias.' }
+      { letter: 'C', text: 'Legítima por proteção absoluta do sigilo bancário, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes.' },
+      { letter: 'D', text: 'Sujeita a prazo inicial de resposta de 90 dias, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.' }
     ],
     correctAnswer: 'B',
     justification: `Art. 10, § 3º, da LAI veda exigir os motivos determinantes da solicitação, e o STF (Tema 483) validou a publicação nominal de salários dos servidores públicos.`,

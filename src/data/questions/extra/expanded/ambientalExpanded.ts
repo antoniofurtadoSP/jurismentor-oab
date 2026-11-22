@@ -17,19 +17,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Bem de uso comum do povo e essencial à sadia qualidade de vida, pertencente às presentes e futuras gerações (equidade intergeracional), tratando-se de direito fundamental de 3ª dimensão (difuso, indisponível e imaterial, que não se confunde com bem público dominical nem privado!)."
+        "text": "Bem de uso comum do povo e essencial à sadia qualidade de vida, pertencente às presentes e futuras gerações, tratando-se de direito fundamental de 3ª dimensão."
       },
       {
         "letter": "B",
-        "text": "Bem público dominical exclusivo da União, passível de livre alienação por decreto presidencial."
+        "text": "Bem público dominical exclusivo da União, passível de livre alienação por decreto presidencial, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "Direito meramente programático sem força normativa vinculante."
+        "text": "Direito meramente programático sem força normativa vinculante, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "Proteção restrita exclusivamente às gerações atualmente vivas, sem tutela jurídica para gerações futuras."
+        "text": "Proteção restrita exclusivamente às gerações atualmente vivas, sem tutela jurídica para gerações futuras, com responsabilidade civil ambiental objetiva e solidária sob a modalidade de risco integral."
       }
     ],
     "correctAnswer": "A",
@@ -72,19 +72,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No risco conhecido e comprovado cientificamente incide o Princípio da PREVENÇÃO; na incerteza científica acerca do risco grave ou irreversível incide o Princípio da PRECAUÇÃO (Princípio 15 da Rio-92 — \"in dubio pro natura\", que justifica medidas protetivas mesmo sem certeza científica absoluta e fundamenta a inversão do ônus da prova em ações ambientais, Súmula 618 STJ)!"
+        "text": "No risco conhecido e comprovado cientificamente incide o Princípio da prevenção; na incerteza científica acerca do risco grave ou irreversível incide o Princípio da precaução."
       },
       {
         "letter": "B",
-        "text": "Na dúvida científica sobre dano grave e irreversível, prevalece o princípio da livre iniciativa (\"in dubio pro empresa\")."
+        "text": "Na dúvida científica sobre dano grave e irreversível, prevalece o princípio da livre iniciativa (\"in dubio pro empresa\"), sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "Prevenção aplica-se a riscos incertos e precaução aplica-se a riscos certos e catalogados."
+        "text": "Prevenção aplica-se a riscos incertos e precaução aplica-se a riscos certos e catalogados, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "Os princípios ambientais impedem a inversão do ônus da prova em favor da tutela ecológica."
+        "text": "Os princípios ambientais impedem a inversão do ônus da prova em favor da tutela ecológica, observada a competência comum material dos entes federativos para fiscalização e proteção. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "A",
@@ -128,7 +128,7 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Poluidor-pagador impõe ao causador de impacto/poluição o dever de internalizar os custos preventivos e reparatórios das externalidades negativas (NÃO dá \"direito de poluir pagando\"!); Usuário-pagador cobra pelo uso lícito de recursos naturais escassos com valor econômico (ex.: outorga onerosa de água na Lei 9.433/97); e Protetor-recebedor recompensa quem preserva serviços ecossistêmicos (ex.: Pagamento por Serviços Ambientais - PSA, Lei 14.119/2021)."
+        "text": "Poluidor-pagador impõe ao causador de impacto/poluição o dever de internalizar os custos preventivos e reparatórios das externalidades negativas."
       },
       {
         "letter": "B",
@@ -136,11 +136,11 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O usuário-pagador incide apenas quando o uso da água for ilegal e clandestino."
+        "text": "O usuário-pagador incide apenas quando o uso da água for ilegal e clandestino, sem admissão de fato consumado ou boa-fé para afastar o dever de recuperação do dano."
       },
       {
         "letter": "D",
-        "text": "O ordenamento brasileiro proíbe o pagamento por serviços ambientais a proprietários rurais conservacionistas."
+        "text": "O ordenamento brasileiro proíbe o pagamento por serviços ambientais a proprietários rurais conservacionistas, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       }
     ],
     "correctAnswer": "A",
@@ -183,7 +183,7 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplicam-se em plenitude: (1) A responsabilidade civil ambiental é OBJETIVA sob a modalidade do RISCO INTEGRAL (Art. 14, § 1º, Lei 6.938/81 — NÃO admite excludentes de caso fortuito, força maior, fato de terceiro ou licenciamento válido — Tema 681/707 STJ e Súmula 652 STJ sobre dano por rompimento de barragem/incêndio!); (2) A obrigação de reparar o dano ambiental e recompor APP/Reserva Legal tem natureza PROPTER REM, podendo ser cobrada do proprietário ou possuidor ATUAL ainda que não tenha sido o causador direto (Súmula 623 STJ!); e (3) Quanto ao dano moral coletivo ambiental, cumula-se com a reparação específica (Súmula 629 STJ)!"
+        "text": "Aplicam-se em plenitude: A responsabilidade civil ambiental é objetiva sob a modalidade do risco integral."
       },
       {
         "letter": "B",
@@ -191,11 +191,11 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A existência de caso fortuito ou força maior (ex.: tempestade extrema) exclui a responsabilidade civil do empreendedor poluidor."
+        "text": "A existência de caso fortuito ou força maior (ex.: tempestade extrema) exclui a responsabilidade civil do empreendedor poluidor, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "A condenação à recuperação da área degradada impede a cumulação com indenização pecuniária ou dano moral coletivo."
+        "text": "A condenação à recuperação da área degradada impede a cumulação com indenização pecuniária ou dano moral coletivo, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "A",
@@ -239,19 +239,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não! No julgamento do Tema 999 de Repercussão Geral (RE 654.833), o Supremo Tribunal Federal firmou a tese vinculante de que \"É IMPRESCRITÍVEL a pretensão de reparação civil de dano ambiental\" (tendo em vista a indisponibilidade do bem jurídico fundamental tutelado e o direito intergeracional das futuras gerações)! Atenção: a imprescritibilidade refere-se à reparação CIVIL ambiental — não confundir com crimes ambientais (que prescrevem normalmente no CP!) ou multas administrativas ambientais (prescrição em 5 anos pela Lei nº 9.873/99)!"
+        "text": "Não, no julgamento do Tema 999 de Repercussão Geral, o Supremo Tribunal Federal firmou a tese vinculante de que \"é imprescritível a pretensão de reparação civil de dano ambiental\".873/99."
       },
       {
         "letter": "B",
-        "text": "Prescreve em 5 anos a partir da constatação do desmatamento pelo IBAMA."
+        "text": "Prescreve em 5 anos a partir da constatação do desmatamento pelo IBAMA, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "Tanto a reparação civil quanto os crimes ambientais e as multas do IBAMA são absolutamente imprescritíveis."
+        "text": "Tanto a reparação civil quanto os crimes ambientais e as multas do IBAMA são absolutamente imprescritíveis, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "Prescreve em 3 anos conforme o Art. 206, § 3º, V, do Código Civil."
+        "text": "Prescreve em 3 anos, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "A",
@@ -295,19 +295,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não! Pelo Art. 225, § 3º, da CF, as condutas e atividades consideradas lesivas ao meio ambiente sujeitarão os infratores, pessoas físicas ou jurídicas, a sanções PENAIS e ADMINISTRATIVAS, independentemente da obrigação de REPARAR OS DANOS CAUSADOS (tríplice responsabilidade independente: civil, administrativa e penal). A absolvição criminal por insuficiência de provas NÃO vincula nem impede a responsabilização civil (risco integral) nem a multa administrativa (salvo se o juízo criminal reconhecesse categoricamente a inexistência material do fato ou negativa de autoria)!"
+        "text": "Não, as condutas e atividades consideradas lesivas ao meio ambiente sujeitarão os infratores, pessoas físicas ou jurídicas, a sanções penais e administrativas, independentemente da obrigação de reparar OS danos causados."
       },
       {
         "letter": "B",
-        "text": "A absolvição penal por insuficiência de provas obriga automaticamente o cancelamento da multa administrativa e extingue a ação civil reparatória."
+        "text": "A absolvição penal por insuficiência de provas obriga automaticamente o cancelamento da multa administrativa e extingue a ação civil reparatória, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "A cobrança cumulativa de multa administrativa, condenação criminal e indenização civil pelos mesmos fatos configura bis in idem inconstitucional."
+        "text": "A cobrança cumulativa de multa administrativa, condenação criminal e indenização civil pelos mesmos fatos configura bis in idem inconstitucional, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
-        "text": "A responsabilidade administrativa ambiental independe de culpa, sendo idêntica ao risco integral civil em todos os casos."
+        "text": "A responsabilidade administrativa ambiental independe de culpa, sendo idêntica ao risco integral civil em todos os casos, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto."
       }
     ],
     "correctAnswer": "A",
@@ -351,19 +351,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim! Superando a antiga teoria da dupla imputação necessária, o STF (RE 548.181) e o STJ passaram a admitir a responsabilização penal AUTÔNOMA da pessoa jurídica por crime ambiental, independentemente da denúncia ou condenação simultânea da pessoa física dirigente — bastando que a infração seja cometida por decisão de seu representante legal ou contratual, ou de seu órgão colegiado, no interesse ou benefício da entidade (Art. 3º da Lei 9.605/98)!"
+        "text": "Sim, superando a antiga teoria da dupla imputação necessária, o STF e o STJ passaram a admitir a responsabilização penal autônoma da pessoa jurídica por crime ambiental, independentemente da denúncia ou condenação simultânea da pessoa física dirigente."
       },
       {
         "letter": "B",
-        "text": "Não, pela teoria da dupla imputação obrigatória, sem denunciar simultaneamente um sócio pessoa física a denúncia contra a empresa deve ser rejeitada."
+        "text": "Não, pela teoria da dupla imputação obrigatória, sem denunciar simultaneamente um sócio pessoa física a denúncia contra a empresa deve ser rejeitada. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "A pessoa jurídica responde criminalmente apenas nos crimes contra a ordem tributária, nunca em crimes ambientais."
+        "text": "A pessoa jurídica responde criminalmente apenas nos crimes contra a ordem tributária, nunca em crimes ambientais, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "A empresa condenada criminalmente cumpre pena privativa de liberdade por meio de seu sócio majoritário."
+        "text": "A empresa condenada criminalmente cumpre pena privativa de liberdade por meio de seu sócio majoritário, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "A",
@@ -407,19 +407,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para LEGISLAR sobre florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e proteção do meio ambiente, a competência é CONCORRENTE entre União, Estados e DF (Art. 24, VI, CF — União edita normas gerais e Estados suplementam, podendo os Municípios legislar sobre interesse local e suplementar normas federais/estaduais sem contrariar as gerais — Art. 30, I e II, e STF RE 586.224!). Já para EXECUTAR/PROTEGER/FISCALIZAR (poder de polícia e licenciamento), a competência é COMUM entre União, Estados, DF e Municípios (Art. 23, VI e VII, CF), regulamentada pela LC nº 140/2011!"
+        "text": "Para legislar sobre florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e proteção do meio ambiente, a competência é concorrente entre União, Estados e DF."
       },
       {
         "letter": "B",
-        "text": "Apenas a União pode legislar e fiscalizar questões ambientais no Brasil."
+        "text": "Apenas a União pode legislar e fiscalizar questões ambientais no Brasil, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "Estados podem editar leis ambientais mais permissivas que reduzam padrões mínimos fixados em lei geral federal (ex.: dispensar licenciamento previsto em norma geral)."
+        "text": "Estados podem editar leis ambientais mais permissivas que reduzam padrões mínimos fixados em lei geral federal (ex.: dispensar licenciamento previsto em norma geral), sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "Compete privativamente aos municípios legislar sobre energia nuclear e jazidas minerais."
+        "text": "Compete privativamente aos municípios legislar sobre energia nuclear e jazidas minerais, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "A",
@@ -463,15 +463,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 13 da LC nº 140/2011, os empreendimentos e atividades são licenciados ambientalmente por um ÚNICO ente federativo (unicidade do licenciamento — definido pelo critério da titularidade, localização ou impacto predominante!). Quanto à fiscalização (Art. 17): qualquer ente pode exercer poder de polícia em iminência de dano ou irregularidade, MAS prevalece o auto de infração ambiental lavrado pelo órgão que detenha a atribuição de LICENCIAMENTO ou autorização (Art. 17, § 3º) — tendo o STF na ADI 4.757 conferido interpretação conforme para permitir atuação supletiva do IBAMA caso o órgão licenciador estadual permaneça inerte ou omisso!"
+        "text": "Os empreendimentos e atividades são licenciados ambientalmente por um único ente federativo."
       },
       {
         "letter": "B",
-        "text": "Todo empreendimento de grande porte precisa obter simultaneamente três licenças distintas: municipal, estadual e federal."
+        "text": "Todo empreendimento de grande porte precisa obter simultaneamente três licenças distintas: municipal, estadual e federal, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "O órgão estadual nunca pode delegar nem solicitar atuação supletiva ou subsidiária da União."
+        "text": "O órgão estadual nunca pode delegar nem solicitar atuação supletiva ou subsidiária da União, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "D",
@@ -519,19 +519,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer atividade em Área de Proteção Ambiental (APA) federal é obrigatoriamente licenciada pelo IBAMA."
+        "text": "Qualquer atividade em Área de Proteção Ambiental (apa) federal é obrigatoriamente licenciada pelo IBAMA, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "A competência residual (o que não está expresso para Municípios nem Estados) pertence à União."
+        "text": "A competência residual (o que não está expresso para Municípios nem Estados) pertence à União, com impossibilidade de mera compensação pecuniária quando viável a restauração específica."
       },
       {
         "letter": "C",
-        "text": "Impactos que atinjam dois municípios vizinhos do mesmo Estado são licenciados obrigatoriamente pela União."
+        "text": "Impactos que atinjam dois municípios vizinhos do mesmo Estado são licenciados obrigatoriamente pela União, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "Cabe à UNIÃO licenciar empreendimentos localizados ou desenvolvidos: (a) em dois ou mais Estados; (b) no mar territorial, plataforma continental ou zona econômica exclusiva; (c) em terras indígenas; (d) em unidades de conservação instituídas pela União (exceto APAs!); (e) de caráter militar ou material radioativo/nuclear; ou em país vizinho (Art. 7º, XIV). Cabe aos MUNICÍPIOS o impacto ambiental LOCAL (definido pelos Conselhos Estaduais de Meio Ambiente) e UCs municipais exceto APAs (Art. 9º, XIV). Cabe aos ESTADOS a competência RESIDUAL (tudo que não for da União nem dos Municípios, e UCs estaduais exceto APAs — Art. 8º, XIV)!"
+        "text": "Cabe à união licenciar empreendimentos localizados ou desenvolvidos: (a) em dois ou mais Estados; (b) no mar territorial, plataforma continental ou zona econômica exclusiva."
       }
     ],
     "correctAnswer": "D",
@@ -574,19 +574,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Licença Prévia já autoriza a construção imediata da fábrica, faltando apenas ligar as máquinas."
+        "text": "A Licença Prévia já autoriza a construção imediata da fábrica, faltando apenas ligar as máquinas, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "B",
-        "text": "O pedido de renovação da Licença de Operação protocolado 30 dias antes do vencimento prorroga automaticamente a licença até decisão definitiva."
+        "text": "O pedido de renovação da Licença de Operação protocolado 30 dias antes do vencimento prorroga automaticamente a licença até decisão definitiva, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "C",
-        "text": "As licenças ambientais concedidas geram direito adquirido perpétuo, jamais podendo ser suspensas ou canceladas."
+        "text": "As licenças ambientais concedidas geram direito adquirido perpétuo, jamais podendo ser suspensas ou canceladas, sem admissão de fato consumado ou boa-fé para afastar o dever de recuperação do dano."
       },
       {
         "letter": "D",
-        "text": "Não! As três licenças sucessivas têm objetos específicos: (1) Licença Prévia (LP - validade máx. 5 anos) = concedida na fase preliminar do planejamento, aprova localização e concepção, atestando a VIABILIDADE AMBIENTAL e estabelecendo requisitos básicos; (2) Licença de Instalação (LI - validade máx. 6 anos) = autoriza a INSTALAÇÃO do empreendimento/início das obras de acordo com as especificações e medidas de controle; (3) Licença de Operação (LO - validade de 4 a 10 anos) = autoriza a OPERAÇÃO/funcionamento após verificação do efetivo cumprimento das anteriores! Logo, só após a LI podem começar as obras!"
+        "text": "Não, as três licenças sucessivas têm objetos específicos: Licença Prévia = concedida na fase preliminar do planejamento, aprova localização e concepção, atestando a viabilidade ambiental e estabelecendo requisitos básicos."
       }
     ],
     "correctAnswer": "D",
@@ -629,19 +629,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O EIA/RIMA deve ser elaborado e pago exclusivamente pelos cofres públicos do Ministério do Meio Ambiente."
+        "text": "O EIA/RIMA deve ser elaborado e pago exclusivamente pelos cofres públicos do Ministério do Meio Ambiente, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       },
       {
         "letter": "B",
-        "text": "O parecer desfavorável em Audiência Pública ou no RIMA impede juridicamente que o órgão discricionário analise medidas compensatórias, ou obriga que o RIMA seja escrito exclusivamente em linguagem técnica hermética."
+        "text": "O parecer desfavorável em Audiência Pública ou no RIMA impede juridicamente que o órgão discricionário analise medidas compensatórias, ou obriga que o RIMA seja escrito exclusivamente em linguagem técnica hermética, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "São exigidos 500 cidadãos no mínimo para requerer audiência pública no EIA/RIMA."
+        "text": "São exigidos 500 cidadãos no mínimo para requerer audiência pública no EIA/RIMA, observada a competência comum material dos entes federativos para fiscalização e proteção. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "D",
-        "text": "O EIA/RIMA é exigido na forma da lei para instalação de obra ou atividade potencialmente causadora de SIGNIFICATIVA degradação do meio ambiente (Art. 225, § 1º, IV, CF — a que se dará publicidade!), sendo elaborado por equipe multidisciplinar habilitada às expensas do EMPREENDEDOR (não pelo Estado!) com garantia de independência técnica. A Audiência Pública (CONAMA 009/87) deve ser realizada sempre que o órgão ambiental julgar necessário ou quando solicitada por entidade civil, pelo Ministério Público, ou por 50 (cinquenta) ou mais cidadãos — e se requerida validamente e não realizada, a licença concedida será INVÁLIDA!"
+        "text": "O EIA/RIMA é exigido na forma da lei para instalação de obra ou atividade potencialmente causadora de significativa degradação do meio ambiente, sendo elaborado por equipe multidisciplinar habilitada às expensas do empreendedor (não pelo Estado) com garantia de independência técnica."
       }
     ],
     "correctAnswer": "D",
@@ -684,19 +684,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O CONAMA é autarquia federal encarregada exclusivamente de lavrar multas em florestas federais."
+        "text": "O CONAMA é autarquia federal encarregada exclusivamente de lavrar multas em florestas federais, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "B",
-        "text": "O Conselho de Governo é o órgão local do SISNAMA nos municípios."
+        "text": "O Conselho de Governo é o órgão local do SISNAMA nos municípios, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "C",
-        "text": "O ICMBio é órgão exclusivamente consultivo sem competência para gerenciar Unidades de Conservação federais."
+        "text": "O ICMBio é órgão exclusivamente consultivo sem competência para gerenciar Unidades de Conservação federais, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "No SISNAMA: (1) Conselho Nacional do Meio Ambiente (CONAMA) = órgão CONSULTIVO e DELIBERATIVO (edita resoluções normativas e padrões de qualidade ambiental); (2) Ministério do Meio Ambiente (MMA) = órgão CENTRAL (planeja e coordena a política nacional); (3) IBAMA = órgão EXECUTOR (autarquia federal voltada à fiscalização, licenciamento federal e polícia ambiental); e (4) Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio - Lei nº 11.516/2007) = órgão EXECUTOR federal específico para gestão, proteção e fiscalização das UNIDADES DE CONSERVAÇÃO federais!"
+        "text": "No SISNAMA: Conselho Nacional do Meio Ambiente (CONAMA) = órgão consultivo e deliberativo; Ministério do Meio Ambiente (mma) = órgão central; IBAMA = órgão executor; e Instituto Chico Mendes de Conservação da Biodiversidade = órgão executor federal específico para gestão, proteção e fiscalização das unidades de conservação federais."
       }
     ],
     "correctAnswer": "D",
@@ -739,19 +739,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Área de Proteção Ambiental (APA) e Floresta Nacional (FLONA) são unidades de Proteção Integral com proibição absoluta de propriedade privada."
+        "text": "Área de Proteção Ambiental (apa) e Floresta Nacional (flona) são unidades de Proteção Integral com proibição absoluta de propriedade privada, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "No Parque Nacional (PARNA) são admitidas propriedades rurais particulares permanentes com extração comercial de madeira."
+        "text": "No Parque Nacional (parna) são admitidas propriedades rurais particulares permanentes com extração comercial de madeira, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "A Reserva Particular do Patrimônio Natural (RPPN) é de domínio público estatal e tem duração temporária de 10 anos."
+        "text": "A Reserva Particular do Patrimônio Natural (rppn) é de domínio público estatal e tem duração temporária de 10 anos, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
-        "text": "As 5 categorias de Proteção Integral (uso apenas INDIRETO dos recursos naturais, vedada exploração direta comercial) são: Estação Ecológica (ESEC), Reserva Biológica (REBIO), Parque Nacional (PARNA), Monumento Natural (MONA) e Refúgio de Vida Silvestre (RVS)! Já APA, ARIE, Floresta Nacional (FLONA), Reserva Extrativista (RESEX), Reserva de Fauna, RDS e RPPN pertencem ao grupo de USO SUSTENTÁVEL!"
+        "text": "As 5 categorias de Proteção Integral são: Estação Ecológica (esec), Reserva Biológica (rebio), Parque Nacional (parna), Monumento Natural (mona) e Refúgio de Vida Silvestre (rvs)."
       }
     ],
     "correctAnswer": "D",
@@ -794,19 +794,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Quem cria por decreto também pode extinguir ou reduzir a Unidade de Conservação por decreto pelo princípio da simetria."
+        "text": "Quem cria por decreto também pode extinguir ou reduzir a Unidade de Conservação por decreto pelo princípio da simetria, sem necessidade de manifestação técnica do órgão ambiental diante de urgência econômica local."
       },
       {
         "letter": "B",
-        "text": "A criação de qualquer Unidade de Conservação exige sempre referendo popular nacional além de lei complementar."
+        "text": "A criação de qualquer Unidade de Conservação exige sempre referendo popular nacional além de lei complementar, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "C",
-        "text": "É dispensável consulta pública na criação de Parque Nacional, bastando na criação de Estação Ecológica."
+        "text": "É dispensável consulta pública na criação de Parque Nacional, bastando na criação de Estação Ecológica, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "Não! Embora a CRIAÇÃO ou AMPLIAÇÃO de Unidade de Conservação possa ser feita por ato do Poder Público (inclusive DECRETO do Chefe do Executivo — Art. 22 caput do SNUC!), a DESAFETAÇÃO, REDUÇÃO DE LIMITES ou RECLASSIFICAÇÃO para categoria menos protetiva somente pode ser feita mediante LEI ESPECÍFICA (Art. 225, § 1º, III, da CF e Art. 22, § 7º, do SNUC — não admitindo sequer Medida Provisória conforme STF na ADI 4.717!)!"
+        "text": "Não, embora a criação ou ampliação de Unidade de Conservação possa ser feita por ato do Poder Público, a desafetação, redução de limites ou reclassificação para categoria menos protetiva somente pode ser feita mediante lei específica."
       }
     ],
     "correctAnswer": "D",
@@ -850,19 +850,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Zona de Amortecimento é obrigatória exclusivamente em APAs e RPPNs."
+        "text": "A Zona de Amortecimento é obrigatória exclusivamente em APAs e RPPNs, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "B",
-        "text": "O STF na ADI 3.378 declarou totalmente inconstitucional qualquer exigência de compensação ambiental pelo Art. 36 do SNUC."
+        "text": "O STF na ADI 3.378 declarou totalmente inconstitucional qualquer exigência de compensação ambiental do SNUC, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "Os recursos da compensação ambiental do Art. 36 podem ser aplicados prioritariamente em rodovias municipais fora de UCs."
+        "text": "Os recursos da compensação ambiental podem ser aplicados prioritariamente em rodovias municipais fora de UCs, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "Todas as UCs devem possuir Zona de Amortecimento (entorno onde as atividades humanas estão sujeitas a normas e restrições específicas), EXCETO as Áreas de Proteção Ambiental (APA) e as Reservas Particulares do Patrimônio Natural (RPPN) (Art. 25 SNUC)! E pelo Art. 36 (validado pelo STF na ADI 3.378 com afastamento apenas do piso fixo de 0,5%!), empreendimentos com significativo impacto ambiental (sujeitos a EIA/RIMA) são obrigados a apoiar a implantação e manutenção de UC do grupo de Proteção Integral (cujo valor deve ser fixado proporcionalmente ao grau de impacto ambiental pelo órgão licenciador)."
+        "text": "Todas as UCs devem possuir Zona de Amortecimento, exceto as Áreas de Proteção Ambiental (apa) e as Reservas Particulares do Patrimônio Natural (rppn)."
       }
     ],
     "correctAnswer": "D",
@@ -906,19 +906,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pode ser livremente suprimida mediante simples comunicação posterior ao sindicato rural."
+        "text": "Pode ser livremente suprimida mediante simples comunicação posterior ao sindicato rural, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
-        "text": "Quando o desmatamento em APP consolidou-se há mais de 5 anos sem fiscalização, aplica-se a teoria do fato consumado impedindo a recomposição."
+        "text": "Quando o desmatamento em APP consolidou-se há mais de 5 anos sem fiscalização, aplica-se a teoria do fato consumado impedindo a recomposição, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "A APP somente existe em propriedades rurais, inexistindo em áreas urbanas."
+        "text": "A APP somente existe em propriedades rurais, inexistindo em áreas urbanas, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "D",
-        "text": "A supressão ou intervenção em APP somente é permitida excepcionalmente nas hipóteses taxativas de UTILIDADE PÚBLICA, INTERESSE SOCIAL ou BAIXO IMPACTO AMBIENTAL previstas na Lei nº 12.651/2012 (Art. 8º — exigindo autorização do órgão ambiental competente, salvo exceções de segurança nacional/defesa civil, e se for restinga/manguezal exige ainda ausência de alternativa técnica e locacional e utilidade pública apenas!). Se a supressão foi irregular, impõe-se obrigação propter rem de recomposição, sem qualquer \"teoria do fato consumado\" (Súmula 613 STJ)!"
+        "text": "A supressão ou intervenção em APP somente é permitida excepcionalmente nas hipóteses taxativas de utilidade pública, interesse social ou baixo impacto ambiental previstas na Lei nº 12.651/2012."
       }
     ],
     "correctAnswer": "D",
@@ -962,19 +962,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O percentual de Reserva Legal é de 50% para todas as propriedades urbanas e rurais do Brasil."
+        "text": "O percentual de Reserva Legal é de 50% para todas as propriedades urbanas e rurais do Brasil, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "A Área de Preservação Permanente (APP) nunca pode ser computada no cálculo da Reserva Legal."
+        "text": "A Área de Preservação Permanente (APP) nunca pode ser computada no cálculo da Reserva Legal, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "O regime de Reserva Legal permite o corte raso integral da vegetação nativa mediante pagamento de taxa anual."
+        "text": "O regime de Reserva Legal permite o corte raso integral da vegetação nativa mediante pagamento de taxa anual, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       },
       {
         "letter": "D",
-        "text": "Na Amazônia Legal: (a) 80% (oitenta por cento) no imóvel situado em área de FLORESTAS; (b) 35% (trinta e cinco por cento) no imóvel situado em área de CERRADO; e (c) 20% (vinte por cento) no imóvel situado em área de CAMPOS GERAIS. Nas DEMAIS REGIÕES DO PAÍS (fora da Amazônia Legal): 20% (vinte por cento)! Além disso, a inscrição do imóvel rural no Cadastro Ambiental Rural (CAR) é obrigatória para todos os imóveis rurais (Art. 29), dispensando averbação na matrícula imobiliária quando já cadastrado no CAR (Art. 18, § 4º)!"
+        "text": "Na Amazônia Legal: (a) 80% (oitenta por cento) no imóvel situado em área de florestas; (b) 35% no imóvel situado em área de cerrado; e (c) 20% (vinte por cento) no imóvel situado em área de campos gerais."
       }
     ],
     "correctAnswer": "D",
@@ -1018,19 +1018,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Declarou integralmente inconstitucional o Cadastro Ambiental Rural (CAR) e a Cota de Reserva Ambiental (CRA)."
+        "text": "Declarou integralmente inconstitucional o Cadastro Ambiental Rural (CAR) e a Cota de Reserva Ambiental (cra), em consonância com os princípios da prevenção, precaução e vedação ao retrocesso ecológico. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "B",
-        "text": "Permitiram-se compensações de Reserva Legal desmatada na Mata Atlântica em terras localizadas no Pantanal ou Pampa sem identidade ecológica."
+        "text": "Permitiram-se compensações de Reserva Legal desmatada na Mata Atlântica em terras localizadas no Pantanal ou Pampa sem identidade ecológica, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "A pequena propriedade rural (até 4 módulos fiscais) precisa recompor 100% da Reserva Legal mesmo se desmatada legalmente em 1970."
+        "text": "A pequena propriedade rural (até 4 módulos fiscais) precisa recompor 100% da Reserva Legal mesmo se desmatada legalmente em 1970, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "O STF confirmou a constitucionalidade da maior parte do Código Florestal (inclusive regras de áreas rurais consolidadas até 22/07/2008 e isenção do Art. 67 para pequenas propriedades até 4 módulos fiscais quanto ao passivo anterior de RL), MAS deu interpretação conforme à Constituição para exigir que a COMPENSAÇÃO de Reserva Legal em outro imóvel ocorra em áreas com IDENTIDADE ECOLÓGICA (no mesmo bioma — Art. 66, § 6º) e afastou a anistia de crimes/multas se não cumprido integralmente o Programa de Regularização Ambiental (PRA), além de restringir intervenção em APP de gestão de resíduos e utilidade pública sem ausência de alternativa técnica!"
+        "text": "O STF confirmou a constitucionalidade da maior parte do Código Florestal, mas deu interpretação conforme à Constituição para exigir que a compensação de Reserva Legal em outro imóvel ocorra em áreas com identidade ecológica e afastou a anistia de crimes/multas se não cumprido integralmente o Programa de Regularização Ambiental (pra)."
       }
     ],
     "correctAnswer": "D",
@@ -1074,19 +1074,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na zona urbana nunca existiu faixa de proteção marginal ao redor de rios naturais."
+        "text": "Na zona urbana nunca existiu faixa de proteção marginal ao redor de rios naturais, sem admissão de fato consumado ou boa-fé para afastar o dever de recuperação do dano."
       },
       {
         "letter": "B",
-        "text": "O Código Florestal aplica-se apenas a rios navegáveis federais com largura superior a 200 metros."
+        "text": "O Código Florestal aplica-se apenas a rios navegáveis federais com largura superior a 200 metros, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "No Tema 1.010, o STJ inicialmente fixou a prevalência das faixas mais amplas do Código Florestal (Art. 4º, I — mínimo de 30 metros!) sobre os 15 metros da Lei 6.766/79 em áreas urbanas consolidadas. Posteriormente, o Congresso editou a Lei nº 14.285/2021 alterando o Código Florestal (Art. 4º, § 10) para autorizar os Municípios e o DF (ouvidos os conselhos ambientais e respeitado diagnóstico socioambiental) a definirem em lei municipal específica faixas marginais distintas em áreas urbanas consolidadas (tema objeto de controle concentrado no STF — ADI 7.146)!"
+        "text": "No Tema 1.010, o STJ inicialmente fixou a prevalência das faixas mais amplas do Código Florestal sobre os 15 metros da Lei 6.766/79 em áreas urbanas consolidadas."
       },
       {
         "letter": "D",
-        "text": "Reservatórios artificiais de água que não decorram de barramento de cursos naturais exigem obrigatoriamente 500m de APP."
+        "text": "Reservatórios artificiais de água que não decorram de barramento de cursos naturais exigem obrigatoriamente 500m de APP, em consonância com os princípios da prevenção, precaução e vedação ao retrocesso ecológico."
       }
     ],
     "correctAnswer": "C",
@@ -1130,19 +1130,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O princípio da insignificância é absolutamente proibido nos crimes ambientais em qualquer hipótese."
+        "text": "O princípio da insignificância é absolutamente proibido nos crimes ambientais em qualquer hipótese, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "Nos crimes ambientais, a transação penal pode ser concedida normalmente mesmo quando o réu rico se recusa injustificadamente a reparar o dano causado."
+        "text": "Nos crimes ambientais, a transação penal pode ser concedida normalmente mesmo quando o réu rico se recusa injustificadamente a reparar o dano causado, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto."
       },
       {
         "letter": "C",
-        "text": "Pela Lei 9.605/98: (1) não é crime o abate de animal quando realizado em estado de necessidade para saciar a fome do agente ou de sua família, para proteger lavouras/pomares/rebanhos desde que legal e expressamente autorizado, ou por ser nocivo assim caracterizado pelo órgão competente (Art. 37!); (2) nos crimes ambientais de menor potencial ofensivo, a TRANSAÇÃO PENAL (Art. 27) depende de prévia composição do dano ambiental (salvo comprovada impossibilidade), e a declaração de extinção da punibilidade na SUSPENSÃO CONDICIONAL DO PROCESSO (Art. 28) depende de laudo de constatação de reparação do dano ambiental (podendo prorrogar-se o período de prova caso não concluída a reparação!); e (3) STF e STJ admitem excepcionalmente o princípio da INSIGNIFICÂNCIA em crimes ambientais quando ínfima a lesão ao ecossistema, sem reiteração nem espécie ameaçada de extinção!"
+        "text": "Não é crime o abate de animal quando realizado em estado de necessidade para saciar a fome do agente ou de sua família, para proteger lavouras/pomares/rebanhos desde que legal e expressamente autorizado, ou por ser nocivo assim caracterizado pelo órgão competente."
       },
       {
         "letter": "D",
-        "text": "Matar animal silvestre para saciar a fome imediata da família é sempre crime ambiental punido com pena mínima de 3 anos."
+        "text": "Matar animal silvestre para saciar a fome imediata da família é sempre crime ambiental punido com pena mínima de 3 anos, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       }
     ],
     "correctAnswer": "C",
@@ -1185,19 +1185,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A pena para maus-tratos contra cães e gatos permanece detenção de 3 meses a 1 ano de competência do JECRIM."
+        "text": "A pena para maus-tratos contra cães e gatos permanece detenção de 3 meses a 1 ano de competência do JECRIM, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
-        "text": "Aumento de pena se ocorrer morte do animal não se aplica aos cães e gatos."
+        "text": "Aumento de pena se ocorrer morte do animal não se aplica aos cães e gatos, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "Com a inclusão do § 1º-A no Art. 32 da Lei nº 9.605/1998 pela Lei nº 14.064/2020, quando os maus-tratos (praticar ato de abuso, maus-tratos, ferir ou mutilar) se tratarem de CÃO OU GATO, a pena passa a ser de RECLUSÃO de 2 (dois) a 5 (cinco) anos, multa e proibição da guarda (aumentada de 1/6 a 1/3 se ocorrer morte do animal — § 2º)! Com isso, deixou de ser infração de menor potencial ofensivo para cães e gatos (saindo do JECRIM e permitindo inclusive prisão preventiva/ANPP conforme requisitos, ao passo que para outros animais permanece detenção de 3 meses a 1 ano no caput)!"
+        "text": "Com a inclusão do § 1º-A pela Lei nº 14.064/2020, quando os maus-tratos se tratarem de cão ou gato, a pena passa a ser de reclusão de 2 (dois) a 5 (cinco) anos, multa e proibição da guarda."
       },
       {
         "letter": "D",
-        "text": "Rodeios e vaquejadas submetidos a estritas normas regulamentares de proteção ao bem-estar animal foram considerados idênticos a rinhas clandestinas pela EC 96/2017."
+        "text": "Rodeios e vaquejadas submetidos a estritas normas regulamentares de proteção ao bem-estar animal foram considerados idênticos a rinhas clandestinas pela EC 96/2017, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "C",
@@ -1244,15 +1244,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Em caso de seca extrema, a irrigação agrícola e a geração hidrelétrica industrial têm prioridade legal sobre o abastecimento humano."
+        "text": "Em caso de seca extrema, a irrigação agrícola e a geração hidrelétrica industrial têm prioridade legal sobre o abastecimento humano, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "C",
-        "text": "A água é um bem de DOMÍNIO PÚBLICO (não existe água particular na CF/88: pertence à UNIÃO se banhar mais de um Estado, servir de limite nacional/estrangeiro ou vier/for para país vizinho — Art. 20, III, CF; ou aos ESTADOS/DF se ficar integralmente dentro de um único Estado, bem como águas subterrâneas — Art. 26, I, CF! Municípios NÃO têm domínio hídrico!) e um recurso natural limitado dotado de valor econômico. Em situações de escassez, o uso prioritário dos recursos hídricos é o CONSUMO HUMANO e a DESSEDENTAÇÃO DE ANIMAIS (Art. 1º, III)!"
+        "text": "A água é um bem de domínio público e um recurso natural limitado dotado de valor econômico."
       },
       {
         "letter": "D",
-        "text": "A outorga de direito de uso de recursos hídricos transfere a propriedade definitiva da água ao particular e independe de prazo."
+        "text": "A outorga de direito de uso de recursos hídricos transfere a propriedade definitiva da água ao particular e independe de prazo, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "C",
@@ -1295,19 +1295,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A logística reversa aplica-se exclusivamente a resíduos hospitalares infectantes e nucleares."
+        "text": "A logística reversa aplica-se exclusivamente a resíduos hospitalares infectantes e nucleares, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional. A tutela ambiental incide de forma cumulativa sobre a prevenção e a reparação integral."
       },
       {
         "letter": "B",
-        "text": "A ordem de prioridade obrigatória na gestão de resíduos da PNRS começa pela incineração e disposição final em lixões."
+        "text": "A ordem de prioridade obrigatória na gestão de resíduos da pnrs começa pela incineração e disposição final em lixões, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       },
       {
         "letter": "C",
-        "text": "Não! A PNRS institui a RESPONSABILIDADE COMPARTILHADA pelo ciclo de vida dos produtos (Art. 30) e obriga fabricantes, importadores, distribuidores e comerciantes a estruturar e implementar sistemas de LOGÍSTICA REVERSA, mediante retorno dos produtos após o uso pelo consumidor, de forma independente do serviço público de limpeza urbana e de manejo dos resíduos sólidos (Art. 33!), para: (I) agrotóxicos e suas embalagens; (II) pilhas e baterias; (III) pneus; (IV) óleos lubrificantes; (V) lâmpadas fluorescentes, de vapor de sódio e mercúrio e de luz mista; e (VI) produtos eletroeletrônicos e seus componentes!"
+        "text": "Não, a pnrs institui a responsabilidade compartilhada pelo ciclo de vida dos produtos e obriga fabricantes, importadores, distribuidores e comerciantes a estruturar e implementar sistemas de logística reversa, mediante retorno dos produtos após o uso pelo consumidor, de forma independente do serviço público de limpeza urbana e de manejo dos resíduos sólidos, para: (I) agrotóxicos e suas embalagens."
       },
       {
         "letter": "D",
-        "text": "O consumidor não possui dever algum na logística reversa, podendo descartar pilhas e agrotóxicos em qualquer córrego."
+        "text": "O consumidor não possui dever algum na logística reversa, podendo descartar pilhas e agrotóxicos em qualquer córrego, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       }
     ],
     "correctAnswer": "C",
@@ -1350,19 +1350,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A competência da Ação Civil Pública ambiental é sempre do foro do domicílio da sede da associação autora (competência relativa)."
+        "text": "A competência da Ação Civil Pública ambiental é sempre do foro do domicílio da sede da associação autora (competência relativa), com responsabilidade civil ambiental objetiva e solidária sob a modalidade de risco integral."
       },
       {
         "letter": "B",
-        "text": "Sempre que o Ministério Público Federal propõe Ação Civil Pública ambiental, mesmo que o dano envolva apenas bem municipal sem interesse da União, a competência passa a ser da Justiça Estadual se o MPF errar."
+        "text": "Sempre que o Ministério Público Federal propõe Ação Civil Pública ambiental, mesmo que o dano envolva apenas bem municipal sem interesse da União, a competência passa a ser da Justiça Estadual se o mpf errar."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 2º da Lei nº 7.347/1985 (LACP), a Ação Civil Pública deve ser proposta no FORO DO LOCAL ONDE OCORRER O DANO (competência funcional ABSOLUTA!), que neste caso é o juízo estadual da comarca do local do dano (pois o rio é estadual e não há ente federal no polo — Art. 109, I, CF e Súmula 183 STJ cancelada!). A condenação em dinheiro reverterá a um FUNDO gerido por Conselho Federal ou Estadual de Defesa de Direitos Difusos (Art. 13 LACP), com participação obrigatória do Ministério Público como fiscal da ordem jurídica se não for o autor (Art. 5º, § 1º)!"
+        "text": "Pelo Art. 2º da Lei nº 7.347/1985 (LACP), a Ação Civil Pública deve ser proposta no foro do local onde ocorrer o dano, que neste caso é o juízo estadual da comarca do local do dano."
       },
       {
         "letter": "D",
-        "text": "A indenização pecuniária da Ação Civil Pública ambiental é distribuída diretamente entre os associados da ONG autora."
+        "text": "A indenização pecuniária da Ação Civil Pública ambiental é distribuída diretamente entre os associados da ONG autora, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       }
     ],
     "correctAnswer": "C",
@@ -1405,7 +1405,7 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Cerrado e a Caatinga constam expressamente no rol literal do Art. 225, § 4º, da Constituição Federal, enquanto a Serra do Mar ficou de fora."
+        "text": "O Cerrado e a Caatinga constam expressamente no rol literal, enquanto a Serra do Mar ficou de fora, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
@@ -1413,11 +1413,11 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Os cinco expressamente listados no Art. 225, § 4º, CF são: (1) Floresta Amazônica brasileira; (2) Mata Atlântica; (3) Serra do Mar; (4) Pantanal Mato-Grossense; e (5) Zona Costeira! (Pegadinha clássica: CERRADO, CAATINGA e PAMPA são biomas riquíssimos protegidos pela legislação ambiental, MAS NÃO figuram no texto expresso do Art. 225, § 4º, da CF!). Além disso, ser \"patrimônio nacional\" NÃO estatiza as propriedades privadas existentes nesses biomas: o particular mantém o domínio privado, mas sua utilização far-se-á na forma da lei dentro de condições que assegurem a preservação ambiental (como a Lei da Mata Atlântica — Lei nº 11.428/2006)!"
+        "text": "Os cinco expressamente listados são: Floresta Amazônica brasileira; Mata Atlântica; Serra do Mar; Pantanal Mato-Grossense; e Zona Costeira."
       },
       {
         "letter": "D",
-        "text": "Na Lei da Mata Atlântica, é permitido o corte raso livre de vegetação primária em qualquer estágio sucessional sem compensação."
+        "text": "Na Lei da Mata Atlântica, é permitido o corte raso livre de vegetação primária em qualquer estágio sucessional sem compensação, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       }
     ],
     "correctAnswer": "C",
@@ -1460,19 +1460,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, realizado o EIV na prefeitura municipal, fica automaticamente dispensado o EIA/RIMA em qualquer caso."
+        "text": "Sim, realizado o eiv na prefeitura municipal, fica automaticamente dispensado o EIA/RIMA em qualquer caso. A tutela ambiental incide de forma cumulativa sobre a prevenção e a reparação integral."
       },
       {
         "letter": "B",
-        "text": "O EIV é documento sigiloso de circulação interna exclusiva do gabinete do prefeito."
+        "text": "O eiv é documento sigiloso de circulação interna exclusiva do gabinete do prefeito, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "C",
-        "text": "Não! Pelo Art. 38 do Estatuto da Cidade (Lei nº 10.257/2001), a elaboração do EIV NÃO SUBSTITUI a elaboração e a aprovação de estudo prévio de impacto ambiental (EIA), requeridas nos termos da legislação ambiental! O EIV analisa os efeitos positivos e negativos do empreendimento quanto à qualidade de vida da população residente na área e proximidades (adensamento populacional, equipamentos urbanos/comunitários, uso e ocupação do solo, valorização imobiliária, geração de tráfego, transporte público, ventilação/iluminação e paisagem urbana)!"
+        "text": "Não, a elaboração do eiv não substitui a elaboração e a aprovação de estudo prévio de impacto ambiental (EIA), requeridas nos termos da legislação ambiental."
       },
       {
         "letter": "D",
-        "text": "O Plano Diretor é facultativo para cidades com mais de 100 mil habitantes."
+        "text": "O Plano Diretor é facultativo para cidades com mais de 100 mil habitantes, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       }
     ],
     "correctAnswer": "C",
@@ -1515,19 +1515,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A servidão ambiental permite ao proprietário transformar sua APP e Reserva Legal mínima obrigatória em área negociável de servidão ambiental."
+        "text": "A servidão ambiental permite ao proprietário transformar sua APP e Reserva Legal mínima obrigatória em área negociável de servidão ambiental, sem necessidade de manifestação técnica do órgão ambiental diante de urgência econômica local."
       },
       {
         "letter": "B",
-        "text": "A servidão ambiental temporária pode ser instituída pelo prazo mínimo de 6 meses."
+        "text": "A servidão ambiental temporária pode ser instituída pelo prazo mínimo de 6 meses, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "Por meio da Servidão Ambiental (Art. 9º-A da PNMA), o proprietário ou possuidor de imóvel, mediante instrumento público ou particular ou por termo administrativo firmado perante órgão integrante do SISNAMA, limita o uso de toda a sua propriedade ou de parte dela para preservar, conservar ou recuperar os recursos ambientais existentes (por prazo mínimo de 15 anos se temporária, ou em caráter perpétuo!), devendo ser averbada na matrícula do imóvel no Cartório de Registro de Imóveis (NÃO se aplicando às APPs nem à Reserva Legal mínima exigida por lei — Art. 9º-A, § 2º)!"
+        "text": "Por meio da Servidão Ambiental, o proprietário ou possuidor de imóvel, mediante instrumento público ou particular ou por termo administrativo firmado perante órgão integrante do SISNAMA, limita o uso de toda a sua propriedade ou de parte dela para preservar, conservar ou recuperar os recursos ambientais existentes, devendo ser averbada na matrícula do imóvel no Cartório de Registro de Imóveis."
       },
       {
         "letter": "D",
-        "text": "É vedado o cancelamento ou alteração da servidão ambiental perpétua mesmo por anuência do órgão ambiental."
+        "text": "É vedado o cancelamento ou alteração da servidão ambiental perpétua mesmo por anuência do órgão ambiental, com impossibilidade de mera compensação pecuniária quando viável a restauração específica."
       }
     ],
     "correctAnswer": "C",
@@ -1570,19 +1570,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Empresas podem patentear e explorar comercialmente plantas nativas e saberes indígenas livremente sem consentimento nem repartição de benefícios."
+        "text": "Empresas podem patentear e explorar comercialmente plantas nativas e saberes indígenas livremente sem consentimento nem repartição de benefícios, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "B",
-        "text": "A competência para fiscalizar e gerir o patrimônio genético no Brasil pertence aos Conselhos Municipais de Saúde."
+        "text": "A competência para fiscalizar e gerir o patrimônio genético no Brasil pertence aos Conselhos Municipais de Saúde, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "Impõe o cadastro prévio no SisGen (Sistema Nacional de Gestão do Patrimônio Genético e do Conhecimento Tradicional Associado), o CONSENTIMENTO PRÉVIO INFORMADO da população indígena, comunidade tradicional ou agricultor tradicional quando envolver conhecimento tradicional associado de origem identificável, e a REPARTIÇÃO JUSTA E EQUITATIVA DE BENEFÍCIOS derivados da exploração econômica do produto acabado ou material reprodutivo (em regra 1% da receita líquida anual ou por acordo setorial)!"
+        "text": "Impõe o cadastro prévio no SisGen, o consentimento prévio informado da população indígena, comunidade tradicional ou agricultor tradicional quando envolver conhecimento tradicional associado de origem identificável, e a repartição justa e equitativa de benefícios derivados da exploração econômica do produto acabado ou material reprodutivo."
       },
       {
         "letter": "D",
-        "text": "A repartição de benefícios incide até mesmo sobre pesquisas científicas puras sem qualquer exploração econômica."
+        "text": "A repartição de benefícios incide até mesmo sobre pesquisas científicas puras sem qualquer exploração econômica, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "C",
@@ -1625,19 +1625,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Recuperada a área degradada 10 anos depois, extingue-se integralmente qualquer dever de indenizar em dinheiro pelo período perdido."
+        "text": "Recuperada a área degradada 10 anos depois, extingue-se integralmente qualquer dever de indenizar em dinheiro pelo período perdido, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "B",
-        "text": "Sim! Pela Súmula 629 do STJ (\"Quanto ao dano ambiental, é admitida a condenação do réu à obrigação de fazer ou à de não fazer cumulada com a de indenizar\"), o STJ admite expressamente a cumulação tríplice da obrigação de fazer (recuperação in natura), da indenização pelo DANO AMBIENTAL INTERINO/INTERMEDIÁRIO (correspondente aos serviços ecossistêmicos perdidos entre a degradação e a completa restauração) ou DANO RESIDUAL (parcela irreversível), bem como do DANO MORAL COLETIVO ambiental (que é in re ipsa quando há lesão intolerável)!"
+        "text": "Sim, o STJ admite expressamente a cumulação tríplice da obrigação de fazer, da indenização pelo dano ambiental interino/intermediário ou dano residual, bem como do dano moral coletivo ambiental."
       },
       {
         "letter": "C",
-        "text": "A Súmula 629 proíbe cumular obrigação de recompor a floresta com pagamento de indenização pecuniária por configurar bis in idem."
+        "text": "A Súmula 629 proíbe cumular obrigação de recompor a floresta com pagamento de indenização pecuniária por configurar bis in idem, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "D",
-        "text": "Apenas o dano moral individual de vizinho específico é admitido no Brasil, nunca o dano moral coletivo ambiental."
+        "text": "Apenas o dano moral individual de vizinho específico é admitido no Brasil, nunca o dano moral coletivo ambiental, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "B",
@@ -1681,19 +1681,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Exige prova rigorosa de fraude contábil e desvio de finalidade nos exatos moldes da Teoria Maior do Art. 50 do Código Civil."
+        "text": "Exige prova rigorosa de fraude contábil e desvio de finalidade nos exatos moldes da Teoria Maior, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto."
       },
       {
         "letter": "B",
-        "text": "O Art. 4º da Lei nº 9.605/1998 adota a TEORIA MENOR da desconsideração da personalidade jurídica: \"Poderá ser desconsiderada a pessoa jurídica sempre que sua personalidade for obstáculo ao ressarcimento de prejuízos causados à qualidade do meio ambiente\" — bastando a insuficiência patrimonial da sociedade (sem precisar provar fraude ou abuso de desvio de finalidade do Art. 50 do CC)!"
+        "text": "O Art. 4º da Lei nº 9.605/1998 adota a teoria menor da desconsideração da personalidade jurídica: \"Poderá ser desconsiderada a pessoa jurídica sempre que sua personalidade for obstáculo ao ressarcimento de prejuízos causados à qualidade do meio ambiente\"."
       },
       {
         "letter": "C",
-        "text": "Aplica-se exclusivamente às sociedades anônimas de capital aberto, isentando limitadas familiares."
+        "text": "Aplica-se exclusivamente às sociedades anônimas de capital aberto, isentando limitadas familiares, com responsabilidade civil ambiental objetiva e solidária sob a modalidade de risco integral."
       },
       {
         "letter": "D",
-        "text": "Substitui a responsabilidade da pessoa jurídica pela prisão perpétua automática dos acionistas minoritários."
+        "text": "Substitui a responsabilidade da pessoa jurídica pela prisão perpétua automática dos acionistas minoritários, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional. A tutela ambiental incide de forma cumulativa sobre a prevenção e a reparação integral."
       }
     ],
     "correctAnswer": "B",
@@ -1736,19 +1736,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas lançamento de líquidos sólidos químicos em rios configura poluição; ruídos sonoros e fumaça nunca são poluição ambiental."
+        "text": "Apenas lançamento de líquidos sólidos químicos em rios configura poluição; ruídos sonoros e fumaça nunca são poluição ambiental. Tal regime jurídico reflete a proteção constitucional atribuída aos recursos ecológicos."
       },
       {
         "letter": "B",
-        "text": "Sim! Pelo conceito amplo do Art. 3º, III, da Lei nº 6.938/1981, poluição é a degradação da qualidade ambiental resultante de atividades que prejudiquem saúde, segurança e bem-estar da população, criem condições adversas às atividades sociais e econômicas, afetem a biota ou lancem matérias ou ENERGIA (como som, calor, radiação!) em desacordo com padrões ambientais estabelecidos. E o Art. 54 da Lei nº 9.605/98 criminaliza causar poluição de qualquer natureza em níveis tais que resultem ou possam resultar em danos à saúde humana, mortandade de animais ou destruição significativa da flora (crime inclusive punido na modalidade CULPOSA — § 1º)!"
+        "text": "Sim, pelo conceito amplo, poluição é a degradação da qualidade ambiental resultante de atividades que prejudiquem saúde, segurança e bem-estar da população, criem condições adversas às atividades sociais e econômicas, afetem a biota ou lancem matérias ou energia em desacordo com padrões ambientais estabelecidos."
       },
       {
         "letter": "C",
-        "text": "O crime de poluição do Art. 54 da Lei 9.605/98 não admite modalidade culposa."
+        "text": "O crime de poluição não admite modalidade culposa, sem admissão de fato consumado ou boa-fé para afastar o dever de recuperação do dano."
       },
       {
         "letter": "D",
-        "text": "O crime do Art. 54 exige a morte comprovada de ao menos um ser humano."
+        "text": "O crime exige a morte comprovada de ao menos um ser humano, com validação da transferência do passivo ambiental ao poder público por declaração unilateral. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "B",
@@ -1791,19 +1791,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todo crime contra a fauna silvestre no Brasil é automaticamente julgado pela Justiça Federal pela antiga Súmula 91 do STJ."
+        "text": "Todo crime contra a fauna silvestre no Brasil é automaticamente julgado pela Justiça Federal pela antiga Súmula 91 do STJ, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional. A tutela ambiental incide de forma cumulativa sobre a prevenção e a reparação integral."
       },
       {
         "letter": "B",
-        "text": "A JUSTIÇA ESTADUAL! Segundo jurisprudência pacificada do STF e do STJ (após o cancelamento da antiga Súmula 91 do STJ!), a proteção à fauna silvestre em geral NÃO atrai automaticamente a competência da Justiça Federal: os crimes ambientais são, em regra, julgados pela Justiça Estadual, somente deslocando-se para a Justiça Federal (Art. 109, IV, CF) quando houver lesão direta a bens, serviços ou interesses específicos da União (ex.: crime cometido dentro de UC federal, terra indígena, mar territorial, tráfico internacional com transnacionalidade ou envolvendo espécies ameaçadas de extinção protegidas por tratado/interesse direto federal específico segundo análise concreta)!"
+        "text": "A justiça estadual. Segundo jurisprudência pacificada do STF e do STJ, a proteção à fauna silvestre em geral não atrai automaticamente a competência da Justiça Federal: os crimes ambientais são, em regra, julgados pela Justiça Estadual, somente deslocando-se para a Justiça Federal quando houver lesão direta a bens, serviços ou interesses específicos da União."
       },
       {
         "letter": "C",
-        "text": "A mera existência de lei federal (Lei nº 9.605/98) torna todos os crimes ambientais federais."
+        "text": "A mera existência de lei federal torna todos os crimes ambientais federais, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
-        "text": "Crimes ambientais cometidos dentro de Parque Nacional federal ou terra indígena também são da Justiça Estadual."
+        "text": "Crimes ambientais cometidos dentro de Parque Nacional federal ou terra indígena também são da Justiça Estadual, observada a competência comum material dos entes federativos para fiscalização e proteção."
       }
     ],
     "correctAnswer": "B",
@@ -1846,19 +1846,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os manguezais podem ser livremente aterrados para construção de resorts turísticos mediante simples alvará municipal."
+        "text": "Os manguezais podem ser livremente aterrados para construção de resorts turísticos mediante simples alvará municipal, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "B",
-        "text": "São ÁREAS DE PRESERVAÇÃO PERMANENTE (APPs) ope legis em toda a sua extensão (manguezais em toda a sua extensão — Art. 4º, VII; restingas como fixadoras de dunas ou estabilizadoras de mangues — Art. 4º, VI!), contando com proteção constitucional reforçada e impossibilidade de supressão por resolução infralegal (ADPF 747/STF manteve a proteção integral das Resoluções CONAMA 302 e 303/2002 por vedação ao retrocesso ecológico)!"
+        "text": "São áreas de preservação permanente (APPs) ope legis em toda a sua extensão, contando com proteção constitucional reforçada e impossibilidade de supressão por resolução infralegal."
       },
       {
         "letter": "C",
-        "text": "O CONAMA pode revogar definitivamente a proteção de manguezais e restingas sem substituí-la por norma equivalente sem violar a Constituição."
+        "text": "O CONAMA pode revogar definitivamente a proteção de manguezais e restingas sem substituí-la por norma equivalente sem violar a Constituição, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "D",
-        "text": "Topos de morros deixaram de ser APP no Código Florestal em qualquer inclinação."
+        "text": "Topos de morros deixaram de ser APP no Código Florestal em qualquer inclinação, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "B",
@@ -1902,19 +1902,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A exploração de recursos minerais isenta o minerador de recuperar a área se recolheu o CFEM (royalty mineral)."
+        "text": "A exploração de recursos minerais isenta o minerador de recuperar a área se recolheu o cfem (royalty mineral), observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 225, § 2º, aquele que explorar recursos minerais fica obrigado a RECUPERAR O MEIO AMBIENTE DEGRADADO, de acordo com solução técnica exigida pelo órgão público competente, na forma da lei. E pelo Art. 225, § 6º, as usinas que operem com reator nuclear deverão ter sua LOCALIZAÇÃO DEFINIDA EM LEI FEDERAL, sem o que não poderão ser instaladas!"
+        "text": "Aquele que explorar recursos minerais fica obrigado a recuperar o meio ambiente degradado, de acordo com solução técnica exigida pelo órgão público competente, na forma da lei."
       },
       {
         "letter": "C",
-        "text": "A localização de nova usina nuclear pode ser definida por simples portaria do Ministro de Minas e Energia."
+        "text": "A localização de nova usina nuclear pode ser definida por simples portaria do Ministro de Minas e Energia, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
-        "text": "Os danos nucleares respondem na modalidade subjetiva dependente de prova de dolo."
+        "text": "Os danos nucleares respondem na modalidade subjetiva dependente de prova de dolo, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "B",
@@ -1957,19 +1957,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, apenas associações ambientalistas registradas há mais de 5 anos podem pedir dados sobre poluição."
+        "text": "Sim, apenas associações ambientalistas registradas há mais de 5 anos podem pedir dados sobre poluição, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "Não! Pelo Art. 2º, § 1º, da Lei nº 10.650/2003 (em sintonia com o Princípio 10 da Rio-92 e o Art. 10, § 3º, da LAI), qualquer indivíduo tem direito de acesso aos dados e informações ambientais existentes nos órgãos do SISNAMA, INDEPENDENTEMENTE DA COMPROVAÇÃO DE INTERESSE ESPECÍFICO (mediante requerimento escrito em que assumirá obrigação de não usar com fins comerciais se protegido por sigilo industrial, tendo o órgão prazo máximo de 30 dias para prestar as informações — salvo sigilo comercial/industrial devidamente motivado que não oculte emissões ou riscos ambientais)!"
+        "text": "Não, qualquer indivíduo tem direito de acesso aos dados e informações ambientais existentes nos órgãos do SISNAMA, independentemente da comprovação de interesse específico."
       },
       {
         "letter": "C",
-        "text": "As empresas podem invocar sigilo industrial absoluto para impedir que o órgão público informe quais substâncias químicas tóxicas lançam na água ou no ar."
+        "text": "As empresas podem invocar sigilo industrial absoluto para impedir que o órgão público informe quais substâncias químicas tóxicas lançam na água ou no ar, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto."
       },
       {
         "letter": "D",
-        "text": "O órgão ambiental tem prazo ilimitado para responder ao pedido de informação ambiental."
+        "text": "O órgão ambiental tem prazo ilimitado para responder ao pedido de informação ambiental, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       }
     ],
     "correctAnswer": "B",
@@ -2012,19 +2012,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A CRA permite que um proprietário rural venda sua Área de Preservação Permanente desmatada para construir fábricas na cidade."
+        "text": "A cra permite que um proprietário rural venda sua Área de Preservação Permanente desmatada para construir fábricas na cidade, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "B",
-        "text": "A CRA é um título nominativo representativo de área com vegetação nativa existente ou em processo de recuperação (1 CRA = 1 hectare excedente à Reserva Legal mínima, em servidão ambiental ou área em UC pendente de desapropriação), podendo ser negociada para compensar déficit de Reserva Legal em outro imóvel rural do mesmo bioma com identidade ecológica (Art. 44–50). Já o ICMS Ecológico decorre da permissão constitucional (Art. 158, parágrafo único, II, CF) de lei estadual destinar até 1/4 da cota-parte de 25% do ICMS pertencente aos Municípios com base em critérios ambientais (como criação de UCs, mananciais, gestão de resíduos)!"
+        "text": "A cra é um título nominativo representativo de área com vegetação nativa existente ou em processo de recuperação, podendo ser negociada para compensar déficit de Reserva Legal em outro imóvel rural do mesmo bioma com identidade ecológica."
       },
       {
         "letter": "C",
-        "text": "A Constituição proíbe os Estados de adotarem critérios ecológicos na repartição da cota-parte municipal do ICMS."
+        "text": "A Constituição proíbe os Estados de adotarem critérios ecológicos na repartição da cota-parte municipal do ICMS, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "A emissão da CRA dispensa o registro do imóvel no Cadastro Ambiental Rural (CAR)."
+        "text": "A emissão da cra dispensa o registro do imóvel no Cadastro Ambiental Rural (CAR), observada a competência comum material dos entes federativos para fiscalização e proteção. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "B",
@@ -2067,19 +2067,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Com a EC 96/2017, as brigas de galos e a farra do boi foram expressamente legalizadas em todo o Brasil."
+        "text": "Com a EC 96/2017, as brigas de galos e a farra do boi foram expressamente legalizadas em todo o Brasil, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "B",
-        "text": "O STF declarou absolutamente INCONSTITUCIONAIS a \"Farra do Boi\" (RE 153.531), as \"Brigas/Rinhas de Galos\" (ADI 1.856) e inicialmente a lei cearense da \"Vaquejada\" (ADI 4.983) por submeterem animais a crueldade intrínseca. Em reação, o Congresso Nacional promulgou a EC nº 96/2017 (inserindo o § 7º no Art. 225 da CF), estabelecendo que não se consideram cruéis práticas desportivas com animais desde que sejam manifestações culturais registradas como patrimônio imaterial E regulamentadas por lei específica que assegure o bem-estar dos animais envolvidos (permanecendo proibidas rinhas e farra do boi por crueldade incompatível com o bem-estar)!"
+        "text": "O STF declarou absolutamente inconstitucionais a \"Farra do Boi\", as \"Brigas/Rinhas de Galos\" e inicialmente a lei cearense da \"Vaquejada\" por submeterem animais a crueldade intrínseca."
       },
       {
         "letter": "C",
-        "text": "A Constituição de 1988 trata os animais exclusivamente como coisas inertes sem qualquer proteção contra crueldade."
+        "text": "A Constituição de 1988 trata os animais exclusivamente como coisas inertes sem qualquer proteção contra crueldade, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       },
       {
         "letter": "D",
-        "text": "A experimentação científica com animais não possui restrição alguma no ordenamento brasileiro."
+        "text": "A experimentação científica com animais não possui restrição alguma no ordenamento brasileiro, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "B",
@@ -2123,19 +2123,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Declarou que o Acordo de Paris tem força meramente diplomática sem qualquer efeito vinculante interno."
+        "text": "Declarou que o Acordo de Paris tem força meramente diplomática sem qualquer efeito vinculante interno, observada a competência comum material dos entes federativos para fiscalização e proteção. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "B",
-        "text": "Na ADPF 708, o STF afirmou que tratados ambientais internacionais dos quais o Brasil é parte (como o Acordo de Paris) constituem espécie do gênero tratados de DIREITOS HUMANOS (por protegerem a vida e a existência humana digna no planeta), possuindo status SUPRALEGAL (acima das leis ordinárias!), e determinou que o Poder Executivo tem o dever constitucional vinculado de alocar e executar os recursos do Fundo Clima, sendo ilícita a paralisação deliberada ou contigenciamento injustificado por violar o Art. 225 da CF!"
+        "text": "Na ADPF 708, o STF afirmou que tratados ambientais internacionais dos quais o Brasil é parte constituem espécie do gênero tratados de direitos humanos, possuindo status supralegal, e determinou que o Poder Executivo tem o dever constitucional vinculado de alocar e executar os recursos do Fundo Clima, sendo ilícita a paralisação deliberada ou contigenciamento injustificado por violar o Art. 225 da CF."
       },
       {
         "letter": "C",
-        "text": "Autorizou o Executivo a manter o Fundo Clima integralmente paralisado por discricionariedade política absoluta."
+        "text": "Autorizou o Executivo a manter o Fundo Clima integralmente paralisado por discricionariedade política absoluta, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
-        "text": "Decidiu que o Congresso Nacional deve extinguir a Política Nacional sobre Mudança do Clima."
+        "text": "Decidiu que o Congresso Nacional deve extinguir a Política Nacional sobre Mudança do Clima, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "B",
@@ -2179,19 +2179,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas os ÓRGÃOS PÚBLICOS legitimados (Ministério Público, Defensoria Pública, União, Estados, DF, Municípios, autarquias e fundações públicas) podem tomar compromisso de ajustamento de conduta — NÃO tendo as associações civis privadas legitimidade para celebrar TAC com eficácia de título executivo extrajudicial (Art. 5º, § 6º, LACP)! Uma vez tomado por órgão público legitimado, o TAC tem eficácia de TÍTULO EXECUTIVO EXTRAJUDICIAL (e se homologado em juízo, título executivo judicial)!"
+        "text": "Apenas os órgãos públicos legitimados podem tomar compromisso de ajustamento de conduta. Uma vez tomado por órgão público legitimado, o tac tem eficácia de título executivo extrajudicial."
       },
       {
         "letter": "B",
-        "text": "Qualquer ONG ambientalista privada constituída há 1 ano pode celebrar TAC com eficácia de título executivo extrajudicial."
+        "text": "Qualquer ONG ambientalista privada constituída há 1 ano pode celebrar tac com eficácia de título executivo extrajudicial, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "C",
-        "text": "O TAC permite ao órgão público perdoar definitivamente a obrigação de reparar o dano ambiental grave sem compensação."
+        "text": "O tac permite ao órgão público perdoar definitivamente a obrigação de reparar o dano ambiental grave sem compensação, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
-        "text": "O descumprimento do TAC impede a cobrança direta, exigindo novo processo de conhecimento do zero."
+        "text": "O descumprimento do tac impede a cobrança direta, exigindo novo processo de conhecimento do zero, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "A",
@@ -2234,19 +2234,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer CIDADÃO brasileiro no pleno gozo dos direitos políticos (comprovado pelo título de eleitor — Art. 1º, § 3º, Lei 4.717/65) é parte legítima para propor Ação Popular visando anular ato lesivo ao patrimônio público, moralidade administrativa, MEIO AMBIENTE e patrimônio histórico e cultural, ficando o autor, SALVO COMPROVADA MÁ-FÉ, isento de custas judiciais e do ônus da sucumbência (Art. 5º, LXXIII, CF)! Pessoa jurídica (inclusive associação ambientalista ou partido político — Súmula 365 STF!) e Ministério Público NÃO têm legitimidade ativa para ajuizar Ação Popular!"
+        "text": "Qualquer cidadão brasileiro no pleno gozo dos direitos políticos é parte legítima para propor Ação Popular visando anular ato lesivo ao patrimônio público, moralidade administrativa, meio ambiente e patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência."
       },
       {
         "letter": "B",
-        "text": "Associações ambientalistas e o Ministério Público têm legitimidade ativa originária para propor Ação Popular."
+        "text": "Associações ambientalistas e o Ministério Público têm legitimidade ativa originária para propor Ação Popular, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "Na Ação Popular ambiental, o cidadão precisa contratar perícia paga adiantadamente no início do processo e paga sucumbência se perder de boa-fé."
+        "text": "Na Ação Popular ambiental, o cidadão precisa contratar perícia paga adiantadamente no início do processo e paga sucumbência se perder de boa-fé, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "O adolescente de 16 anos que possui título de eleitor facultativo não pode propor Ação Popular sem assistência."
+        "text": "O adolescente de 16 anos que possui título de eleitor facultativo não pode propor Ação Popular sem assistência, com impossibilidade de mera compensação pecuniária quando viável a restauração específica. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "A",
@@ -2290,19 +2290,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na ADPF 623, o Supremo Tribunal Federal declarou inconstitucional o esvaziamento da participação social e federativa no CONAMA, reafirmando que os princípios da participação popular ambiental (Princípio 10 da Rio-92), da democracia ambiental e da proibição do retrocesso socioambiental exigem composição plural e representativa da sociedade civil, entes federados e comunidade científica nos órgãos colegiados ambientais."
+        "text": "Na ADPF 623, o Supremo Tribunal Federal declarou inconstitucional o esvaziamento da participação social e federativa no CONAMA, reafirmando que os princípios da participação popular ambiental, da democracia ambiental e da proibição do retrocesso socioambiental exigem composição plural e representativa da sociedade civil, entes federados e comunidade científica nos órgãos colegiados ambientais."
       },
       {
         "letter": "B",
-        "text": "Validou a transformação do CONAMA em órgão composto exclusivamente por três ministros de Estado sem sociedade civil."
+        "text": "Validou a transformação do CONAMA em órgão composto exclusivamente por três ministros de Estado sem sociedade civil, sem necessidade de manifestação técnica do órgão ambiental diante de urgência econômica local."
       },
       {
         "letter": "C",
-        "text": "Retirou do CONAMA qualquer competência para editar resoluções normativas técnicas."
+        "text": "Retirou do CONAMA qualquer competência para editar resoluções normativas técnicas, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "D",
-        "text": "Submeteu as deliberações do CONAMA à aprovação prévia do Conselho de Segurança Nacional."
+        "text": "Submeteu as deliberações do CONAMA à aprovação prévia do Conselho de Segurança Nacional, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "A",
@@ -2346,7 +2346,7 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim! Pelo Art. 25, § 5º, da Lei nº 9.605/1998 e pelo Art. 111 do Decreto nº 6.514/2008 (cujo regime foi validado pelo STF na ADPF 857 / ADI 6.138 conforme requisitos!), os produtos e instrumentos utilizados na prática da infração ambiental serão apreendidos; e quando forem utilizados exclusivamente na atividade ilícita ou sua remoção de áreas remotas for inviável/arriscada (ex.: garimpo ilegal ou extração ilegal de madeira em terras indígenas e UCs), a autoridade ambiental pode proceder à destruição ou inutilização motivada dos equipamentos para impedir a continuidade do dano ecológico!"
+        "text": "Sim e, os produtos e instrumentos utilizados na prática da infração ambiental serão apreendidos."
       },
       {
         "letter": "B",
@@ -2354,11 +2354,11 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A multa simples administrativa pode ser aplicada sem garantia de defesa ou recurso administrativo do autuado."
+        "text": "A multa simples administrativa pode ser aplicada sem garantia de defesa ou recurso administrativo do autuado, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "Os prazos do Art. 71 da Lei 9.605/98 permitem que o autuado peça conversão da multa em serviços de preservação apenas se for réu primário com menos de 21 anos."
+        "text": "Os prazos permitem que o autuado peça conversão da multa em serviços de preservação apenas se for réu primário com menos de 21 anos."
       }
     ],
     "correctAnswer": "A",
@@ -2401,19 +2401,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não! No Tema 1.036 de recursos repetitivos, o STJ fixou que a apreensão e o perdimento definitivo de veículo utilizado na prática de infração ambiental (Art. 25, § 4º, da Lei nº 9.605/98) NÃO são automáticos: exige-se a demonstração de que o bem era utilizado EXCLUSIVA OU HABITUALMENTE na prática de ilícitos ambientais (ou especificamente adaptado para tal fim), devendo o proprietário de boa-fé/uso esporádico ter o veículo restituído após regularização!"
+        "text": "Não, no Tema 1.036 de recursos repetitivos, o STJ fixou que a apreensão e o perdimento definitivo de veículo utilizado na prática de infração ambiental não são automáticos: exige-se a demonstração de que o bem era utilizado exclusiva ou habitualmente na prática de ilícitos ambientais, devendo o proprietário de boa-fé/uso esporádico ter o veículo restituído após regularização."
       },
       {
         "letter": "B",
-        "text": "Qualquer veículo flagrado uma única vez com produto ambiental irregular perde definitivamente a propriedade ao IBAMA mesmo pertencendo a locadora de boa-fé."
+        "text": "Qualquer veículo flagrado uma única vez com produto ambiental irregular perde definitivamente a propriedade ao IBAMA mesmo pertencendo a locadora de boa-fé, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "C",
-        "text": "O veículo apreendido nunca pode ser devolvido nem mesmo como depositário fiel enquanto tramita o processo."
+        "text": "O veículo apreendido nunca pode ser devolvido nem mesmo como depositário fiel enquanto tramita o processo, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "D",
-        "text": "O perdimento administrativo dispensa decisão motivada."
+        "text": "O perdimento administrativo dispensa decisão motivada, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "A",
@@ -2457,19 +2457,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim! Pelo Art. 3º, IV, da PNMA, poluidor é a pessoa física ou jurídica, de direito público ou privado, responsável, DIRETA OU INDIRETAMENTE, por atividade causadora de degradação ambiental. Pelo Art. 12 da Lei 6.938/81, instituições financeiras e entidades governamentais devem exigir licenciamento ambiental para conceder financiamento/incentivos! Assim, o banco que financia empreendimento ilícito sem cautela mínima ou ciente da degradação responde solidariamente como poluidor INDIRETO (com benefício de ordem ou responsabilidade direta segundo análise do nexo de causalidade pelo financiamento — STJ)!"
+        "text": "Sim, da pnma, poluidor é a pessoa física ou jurídica, de direito público ou privado, responsável, direta ou indiretamente, por atividade causadora de degradação ambiental. instituições financeiras e entidades governamentais devem exigir licenciamento ambiental para conceder financiamento/incentivos."
       },
       {
         "letter": "B",
-        "text": "Bancos nunca respondem por danos ambientais de projetos financiados, pois apenas emprestam dinheiro."
+        "text": "Bancos nunca respondem por danos ambientais de projetos financiados, pois apenas emprestam dinheiro. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "O banco responde penalmente como autor direto de corte de árvores mesmo sem saber de fraude documental do tomador."
+        "text": "O banco responde penalmente como autor direto de corte de árvores mesmo sem saber de fraude documental do tomador, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "D",
-        "text": "O Art. 12 da PNMA obriga apenas bancos privados estrangeiros a verificar licenciamento ambiental."
+        "text": "O Art. 12 da pnma obriga apenas bancos privados estrangeiros a verificar licenciamento ambiental, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "A",
@@ -2516,15 +2516,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Conceder isenção fiscal automática a todas as indústrias poluentes instaladas em zonas de proteção máxima."
+        "text": "Conceder isenção fiscal automática a todas as indústrias poluentes instaladas em zonas de proteção máxima, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "Substituir o licenciamento ambiental e o EIA/RIMA em qualquer empreendimento previsto na zona."
+        "text": "Substituir o licenciamento ambiental e o EIA/RIMA em qualquer empreendimento previsto na zona, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "Restringir-se exclusivamente ao perímetro urbano das capitais estaduais."
+        "text": "Restringir-se exclusivamente ao perímetro urbano das capitais estaduais, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto."
       }
     ],
     "correctAnswer": "A",
@@ -2567,19 +2567,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Plano de Manejo (documento técnico que estabelece o zoneamento e as normas que presidem o uso da área e o manejo dos recursos naturais) deve ser elaborado no prazo máximo de 5 (cinco) anos a partir da data da criação da Unidade de Conservação! E enquanto não aprovado o Plano de Manejo, são proibidas quaisquer alterações, atividades ou modalidades de utilização em desacordo com os objetivos da UC (Art. 28 SNUC)!"
+        "text": "O Plano de Manejo deve ser elaborado no prazo máximo de 5 (cinco) anos a partir da data da criação da Unidade de Conservação."
       },
       {
         "letter": "B",
-        "text": "O Plano de Manejo deve ser publicado no máximo em 30 dias após a criação da UC, sob pena de extinção automática do parque."
+        "text": "O Plano de Manejo deve ser publicado no máximo em 30 dias após a criação da uc, sob pena de extinção automática do parque, com responsabilidade civil ambiental objetiva e solidária sob a modalidade de risco integral."
       },
       {
         "letter": "C",
-        "text": "O Plano de Manejo só é obrigatório para Reservas Particulares do Patrimônio Natural (RPPNs)."
+        "text": "O Plano de Manejo só é obrigatório para Reservas Particulares do Patrimônio Natural (RPPNs), com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
-        "text": "O Plano de Manejo pode ampliar livremente as fronteiras geográficas da UC além do decreto criador sem ato legal."
+        "text": "O Plano de Manejo pode ampliar livremente as fronteiras geográficas da uc além do decreto criador sem ato legal, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "A",
@@ -2622,19 +2622,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na Reserva Extrativista (RESEX — Art. 18, § 2º) e na Reserva de Desenvolvimento Sustentável (RDS — Art. 20, § 4º), ambas presididas pelo órgão responsável por sua administração e constituídas por representantes de órgãos públicos, organizações da sociedade civil e das populações tradicionais residentes!"
+        "text": "Na Reserva Extrativista (RESEX ) e na Reserva de Desenvolvimento Sustentável (RDS ), ambas presididas pelo órgão responsável por sua administração e constituídas por representantes de órgãos públicos, organizações da sociedade civil e das populações tradicionais residentes."
       },
       {
         "letter": "B",
-        "text": "Na Estação Ecológica e na Reserva Biológica."
+        "text": "Na Estação Ecológica e na Reserva Biológica, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "C",
-        "text": "Apenas na Área de Proteção Ambiental (APA) privada."
+        "text": "Apenas na Área de Proteção Ambiental (apa) privada, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
-        "text": "Nenhuma Unidade de Conservação possui conselho com participação da sociedade civil."
+        "text": "Nenhuma Unidade de Conservação possui conselho com participação da sociedade civil, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "A",
@@ -2677,19 +2677,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 42 da Lei nº 9.985/2000, as populações tradicionais residentes em Unidades de Conservação nas quais sua permanência NÃO seja permitida (como PARNA, ESEC e REBIO) serão INDENIZADAS ou COMPENSADAS pelas benfeitorias existentes e devidamente REASSENTADAS pelo Poder Público, em local e condições acordados entre as partes (celebrando-se Termo de Compromisso transitório até o efetivo reassentamento)! Já em RESEX e RDS (Uso Sustentável), sua permanência é o próprio objetivo da unidade!"
+        "text": "As populações tradicionais residentes em Unidades de Conservação nas quais sua permanência não seja permitida serão indenizadas ou compensadas pelas benfeitorias existentes e devidamente reassentadas pelo Poder Público, em local e condições acordados entre as partes."
       },
       {
         "letter": "B",
-        "text": "Podem ser despejadas imediatamente pela força policial sem indenização de benfeitorias nem reassentamento."
+        "text": "Podem ser despejadas imediatamente pela força policial sem indenização de benfeitorias nem reassentamento, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "O Parque Nacional permite exploração comercial madeireira intensiva permanente pelas populações residentes."
+        "text": "O Parque Nacional permite exploração comercial madeireira intensiva permanente pelas populações residentes, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "As Florestas Nacionais (FLONAs) exigem obrigatoriamente expulsão imediata de comunidades tradicionais."
+        "text": "As Florestas Nacionais (FLONAs) exigem obrigatoriamente expulsão imediata de comunidades tradicionais, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "A",
@@ -2732,19 +2732,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É absolutamente vedada qualquer regularização fundiária urbana em APP em todo o território nacional."
+        "text": "É absolutamente vedada qualquer regularização fundiária urbana em APP em todo o território nacional, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "Permite-se regularizar construções em área de risco iminente de deslizamento sem reassentamento."
+        "text": "Permite-se regularizar construções em área de risco iminente de deslizamento sem reassentamento, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "A REURB-S cobra custas cartorárias integrais dos moradores de baixa renda."
+        "text": "A reurb-S cobra custas cartorárias integrais dos moradores de baixa renda, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "D",
-        "text": "Sim! Os Arts. 64 e 65 do Código Florestal (com a redação da Lei nº 13.465/2017) permitem a regularização fundiária de interesse social (REURB-S) e de interesse específico (REURB-E) em núcleos urbanos informais consolidados situados em APP que não estejam em área de risco grave, DESDE QUE aprovado projeto com estudo técnico ambiental que comprove melhoria das condições de sustentabilidade urbano-ambiental em relação à ocupação anterior (mantendo-se faixa não edificável mínima de 15 metros na REURB-E ao longo de cursos d’água)!"
+        "text": "Sim, os Arts. 64 e 65 do Código Florestal permitem a regularização fundiária de interesse social (reurb-S) e de interesse específico (reurb-e) em núcleos urbanos informais consolidados situados em APP que não estejam em área de risco grave, desde que aprovado projeto com estudo técnico ambiental que comprove melhoria das condições de sustentabilidade urbano-ambiental em relação à ocupação anterior."
       }
     ],
     "correctAnswer": "D",
@@ -2791,15 +2791,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A educação ambiental limita-se exclusivamente às escolas públicas rurais."
+        "text": "A educação ambiental limita-se exclusivamente às escolas públicas rurais, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       },
       {
         "letter": "C",
-        "text": "Fica proibida na pós-graduação a existência de disciplinas voltadas à metodologia da educação ambiental."
+        "text": "Fica proibida na pós-graduação a existência de disciplinas voltadas à metodologia da educação ambiental, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "D",
-        "text": "De forma integrada, contínua e permanente (transversal/interdisciplinar) em todos os níveis e modalidades do ensino formal — NÃO devendo ser implantada como disciplina específica isolada no currículo de ensino (Art. 10, § 1º, ressalvada apenas a possibilidade de disciplina específica nos cursos de pós-graduação, extensão e áreas voltadas ao aspecto metodológico da educação ambiental — § 2º)!"
+        "text": "De forma integrada, contínua e permanente em todos os níveis e modalidades do ensino formal."
       }
     ],
     "correctAnswer": "D",
@@ -2842,19 +2842,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O uso de fogo para limpar pasto particular independe de qualquer autorização administrativa."
+        "text": "O uso de fogo para limpar pasto particular independe de qualquer autorização administrativa, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "B",
-        "text": "O incêndio criminoso praticado em unidade de conservação é apenas infração administrativa sem previsão na Lei de Crimes Ambientais."
+        "text": "O incêndio criminoso praticado em unidade de conservação é apenas infração administrativa sem previsão na Lei de Crimes Ambientais, observada a competência comum material dos entes federativos para fiscalização e proteção. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "A Súmula 652 do STJ afastou a responsabilidade civil da Administração Pública por omissão no dever de fiscalização ambiental em qualquer hipótese."
+        "text": "A Súmula 652 do STJ afastou a responsabilidade civil da Administração Pública por omissão no dever de fiscalização ambiental em qualquer hipótese, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "O Art. 38 do Código Florestal PROÍBE o uso de fogo na vegetação, EXCETO em locais ou regiões cujas peculiaridades justifiquem o emprego do fogo em práticas agropastoris ou florestais mediante PRÉVIA APROVAÇÃO do órgão estadual ambiental do SISNAMA (queima controlada), ou em manejo de fogo para prevenção e combate a incêndios em UCs e pesquisa científica! E pela Súmula 652 do STJ (aplicada inicialmente à Administração/responsabilidade civil ambiental), a responsabilidade civil por dano ambiental é objetiva sob o risco integral — não cabendo invocar vento seco natural para afastar reparação quando o proprietário/causador criou ou deixou de prevenir o risco ilícito!"
+        "text": "O Art. 38 do Código Florestal proíbe o uso de fogo na vegetação, exceto em locais ou regiões cujas peculiaridades justifiquem o emprego do fogo em práticas agropastoris ou florestais mediante prévia aprovação do órgão estadual ambiental do SISNAMA (queima controlada), ou em manejo de fogo para prevenção e combate a incêndios em UCs e pesquisa científica. a responsabilidade civil por dano ambiental é objetiva sob o risco integral."
       }
     ],
     "correctAnswer": "D",
@@ -2898,19 +2898,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em qualquer crime de guarda doméstica de arara-azul ameaçada de extinção é obrigatório conceder perdão judicial."
+        "text": "Em qualquer crime de guarda doméstica de arara-azul ameaçada de extinção é obrigatório conceder perdão judicial, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
-        "text": "O crime de matar ou perseguir animal silvestre sem licença (Art. 29) inclui também o abate de peixes, pois peixe integra a fauna aquática no Art. 29."
+        "text": "O crime de matar ou perseguir animal silvestre sem licença inclui também o abate de peixes, pois peixe integra a fauna aquática. A tutela ambiental incide de forma cumulativa sobre a prevenção e a reparação integral."
       },
       {
         "letter": "C",
-        "text": "Cortar árvores em Área de Preservação Permanente é infração meramente administrativa, sem previsão penal."
+        "text": "Cortar árvores em Área de Preservação Permanente é infração meramente administrativa, sem previsão penal, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 29, § 2º, da Lei nº 9.605/98, no caso de guarda doméstica de espécie silvestre NÃO considerada ameaçada de extinção, pode o juiz, considerando as circunstâncias, deixar de aplicar a pena (PERDÃO JUDICIAL!). Além disso, são agravantes gerais dos crimes ambientais (Art. 15) — quando não constituem ou qualificam o crime — cometer o delito para obter vantagem pecuniária, afetando espécies ameaçadas, em domingos ou feriados, à noite, em época de seca/inundações ou no interior de espaço territorial especialmente protegido (e nos crimes contra flora há aumento de 1/6 a 1/3 se resultar diminuição de águas naturais, erosão, em época de queda de sementes, etc. — Art. 53)!"
+        "text": "No caso de guarda doméstica de espécie silvestre não considerada ameaçada de extinção, pode o juiz, considerando as circunstâncias, deixar de aplicar a pena (perdão judicial)."
       }
     ],
     "correctAnswer": "D",
@@ -2953,19 +2953,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Foi proibida a construção de barragens pelo método a jusante, mantendo-se apenas o método a montante."
+        "text": "Foi proibida a construção de barragens pelo método a jusante, mantendo-se apenas o método a montante, com proibição de supressão ou exploração da área sem prévio licenciamento ambiental válido. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "B",
-        "text": "Em caso de rompimento de barragem causado por chuva intensa atípica, o empreendedor minerário fica isento de responsabilidade civil."
+        "text": "Em caso de rompimento de barragem causado por chuva intensa atípica, o empreendedor minerário fica isento de responsabilidade civil, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "C",
-        "text": "A segurança da barragem é responsabilidade exclusiva da prefeitura municipal local."
+        "text": "A segurança da barragem é responsabilidade exclusiva da prefeitura municipal local, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "Foi expressamente PROIBIDA a construção ou alteamento de barragem de mineração pelo método a MONTANTE (método mais barato e instável utilizado em Mariana e Brumadinho!), determinando-se a descaracterização obrigatória das barragens a montante existentes, além de exigir Plano de Ação de Emergência (PAE) para todas as barragens de mineração de médio/alto dano potencial ou alto risco e vedar barragens de rejeitos em áreas com comunidades na Zona de Autossalvamento (ZAS)!"
+        "text": "Foi expressamente proibida a construção ou alteamento de barragem de mineração pelo método a montante, determinando-se a descaracterização obrigatória das barragens a montante existentes."
       }
     ],
     "correctAnswer": "D",
@@ -3008,19 +3008,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A unidade territorial de gestão hídrica é exclusivamente a fronteira municipal de cada prefeitura."
+        "text": "A unidade territorial de gestão hídrica é exclusivamente a fronteira municipal de cada prefeitura, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "B",
-        "text": "A cobrança pelo uso dos recursos hídricos tem natureza jurídica de imposto federal destinado ao Tesouro Nacional."
+        "text": "A cobrança pelo uso dos recursos hídricos tem natureza jurídica de imposto federal destinado ao Tesouro Nacional, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "C",
-        "text": "Os usuários da água (indústrias e agricultores) são proibidos de participar dos Comitês de Bacia Hidrográfica."
+        "text": "Os usuários da água (indústrias e agricultores) são proibidos de participar dos Comitês de Bacia Hidrográfica, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "A unidade territorial para implementação da Política Nacional de Recursos Hídricos é a BACIA HIDROGRÁFICA (Art. 1º, V), e o \"Parlamento das Águas\" com função normativa, deliberativa e consultiva na respectiva bacia é o COMITÊ DE BACIA HIDROGRÁFICA (composto por representantes da União/Estados/Municípios, dos USUÁRIOS das águas e das entidades civis de recursos hídricos — vedado aos entes públicos terem maioria isolada em votos de forma desequilibrada)! Já a Agência de Água atua como secretaria executiva técnica/financeira do Comitê!"
+        "text": "A unidade territorial para implementação da Política Nacional de Recursos Hídricos é a bacia hidrográfica, e o \"Parlamento das Águas\" com função normativa, deliberativa e consultiva na respectiva bacia é o comitê de bacia hidrográfica."
       }
     ],
     "correctAnswer": "D",
@@ -3063,11 +3063,11 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O pagamento por serviços ambientais somente pode ocorrer mediante entrega direta de dinheiro em espécie."
+        "text": "O pagamento por serviços ambientais somente pode ocorrer mediante entrega direta de dinheiro em espécie, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       },
       {
         "letter": "B",
-        "text": "Povos indígenas e comunidades tradicionais ficam excluídos do recebimento de PSA por ocuparem terras da União."
+        "text": "Povos indígenas e comunidades tradicionais ficam excluídos do recebimento de PSA por ocuparem terras da União, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "C",
@@ -3075,7 +3075,7 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Podem ser provedores pessoas físicas ou jurídicas, de direito público ou privado, ou grupos familiares ou comunitários (inclusive agricultores familiares, assentados, povos indígenas e comunidades tradicionais!) que mantêm, recuperam ou melhoram condições ambientais; e o pagamento pode ocorrer por: pagamento direto (monetário ou não monetário), prestação de melhorias sociais a comunidades rurais e urbanas, compensação vinculada a certificado de redução de emissões por desmatamento e degradação, títulos verdes (green bonds), comodato ou Cota de Reserva Ambiental (CRA)!"
+        "text": "Podem ser provedores pessoas físicas ou jurídicas, de direito público ou privado, ou grupos familiares ou comunitários que mantêm, recuperam ou melhoram condições ambientais."
       }
     ],
     "correctAnswer": "D",
@@ -3118,19 +3118,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Significa que apenas os países em desenvolvimento devem reduzir emissões de gases de efeito estufa, ficando os países desenvolvidos livres de metas."
+        "text": "Significa que apenas os países em desenvolvimento devem reduzir emissões de gases de efeito estufa, ficando os países desenvolvidos livres de metas, observada a competência comum material dos entes federativos para fiscalização e proteção. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "B",
-        "text": "O Acordo de Paris aboliu completamente as metas nacionais voluntárias (NDCs) e substituiu por multas militares automáticas."
+        "text": "O Acordo de Paris aboliu completamente as metas nacionais voluntárias (NDCs) e substituiu por multas militares automáticas, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "A Conferência de Estocolmo de 1972 tratou apenas de comércio marítimo de petróleo, sem mencionar direitos humanos ambientais."
+        "text": "A Conferência de Estocolmo de 1972 tratou apenas de comércio marítimo de petróleo, sem mencionar direitos humanos ambientais, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "Embora TODOS os Estados tenham responsabilidade compartilhada pela proteção do sistema climático global e do meio ambiente, os países desenvolvidos (industrializados historicamente) devem assumir liderança e metas/obrigações mais rigorosas de redução de emissões e financiamento/transferência de tecnologia aos países em desenvolvimento, considerando suas distintas contribuições históricas para a degradação e distintas capacidades econômicas!"
+        "text": "Embora todos os Estados tenham responsabilidade compartilhada pela proteção do sistema climático global e do meio ambiente, os países desenvolvidos devem assumir liderança e metas/obrigações mais rigorosas de redução de emissões e financiamento/transferência de tecnologia aos países em desenvolvimento, considerando suas distintas contribuições históricas para a degradação e distintas capacidades econômicas."
       }
     ],
     "correctAnswer": "D",
@@ -3173,19 +3173,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, a licença ambiental obtida em 1975 gera direito adquirido perpétuo e imutável contra qualquer nova norma do CONAMA."
+        "text": "Sim, a licença ambiental obtida em 1975 gera direito adquirido perpétuo e imutável contra qualquer nova norma do CONAMA, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "A proibição de retrocesso ambiental impede o legislador de atualizar padrões para torná-los mais rígidos e protetivos."
+        "text": "A proibição de retrocesso ambiental impede o legislador de atualizar padrões para torná-los mais rígidos e protetivos, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "C",
-        "text": "O princípio do fato consumado convalida construções irregulares em APP após 10 anos sem embargo."
+        "text": "O princípio do fato consumado convalida construções irregulares em APP após 10 anos sem embargo, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
-        "text": "Não! Segundo jurisprudência pacífica do STF e do STJ, NÃO EXISTE DIREITO ADQUIRIDO À DEGRADAÇÃO AMBIENTAL OU A POLUIR! Por força do princípio da prevenção, da precaução e da natureza fundamental e intergeracional do Art. 225 da CF, normas ambientais mais protetivas aplicam-se imediatamente aos empreendimentos em curso, exigindo adequação e modernização dos controles (princípio da vedação ao retrocesso socioambiental impede redução injustificada de proteção já conquistada, ao mesmo tempo que impede alegar direito adquirido para continuar poluindo)!"
+        "text": "Não, segundo jurisprudência pacífica do STF e do STJ, não existe direito adquirido à degradação ambiental ou a poluir."
       }
     ],
     "correctAnswer": "D",
@@ -3228,19 +3228,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Ministério Público não pode propor Ação Civil Pública em defesa do meio ambiente, cabendo apenas ação penal."
+        "text": "O Ministério Público não pode propor Ação Civil Pública em defesa do meio ambiente, cabendo apenas ação penal, sem admissão de fato consumado ou boa-fé para afastar o dever de recuperação do dano."
       },
       {
         "letter": "B",
-        "text": "A associação ambientalista precisa de autorização individual expressa em assembleia de cada cidadão brasileiro para propor Ação Civil Pública."
+        "text": "A associação ambientalista precisa de autorização individual expressa em assembleia de cada cidadão brasileiro para propor Ação Civil Pública, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "O Inquérito Civil é procedimento administrativo obrigatório sem o qual o Ministério Público não pode propor Ação Civil Pública."
+        "text": "O Inquérito Civil é procedimento administrativo obrigatório sem o qual o Ministério Público não pode propor Ação Civil Pública, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "Mandado de Segurança Coletivo (Art. 5º, LXX, CF e Art. 21 da Lei nº 12.016/2009) quando houver direito líquido e certo comprovado de plano por prova documental pré-constituída (além da Ação Civil Pública, que admite ampla dilação probatória pericial!). Atenção: a Súmula 629 do STF esclarece que a impetração de MS coletivo por entidade de classe em favor dos associados independe da autorização destes, e o Art. 21 da Lei 12.016/09 estendeu o MS coletivo à tutela de direitos coletivos e individuais homogêneos (divergindo a doutrina sobre difusos no MS coletivo, ao contrário da ACP que tutela plenamente difusos, coletivos e individuais homogêneos)!"
+        "text": "Mandado de Segurança Coletivo quando houver direito líquido e certo comprovado de plano por prova documental pré-constituída. 21 da Lei 12.016/09 estendeu o MS coletivo à tutela de direitos coletivos e individuais homogêneos."
       }
     ],
     "correctAnswer": "D",
@@ -3287,15 +3287,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na desapropriação-sanção urbana (Art. 182, § 4º, III, CF), a indenização é paga previamente em dinheiro."
+        "text": "Na desapropriação-sanção urbana, a indenização é paga previamente em dinheiro, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "Sequência obrigatória escalonada (Art. 182, § 4º, CF e Arts. 5º–8º do Estatuto da Cidade): (1º) Parcelamento, edificação ou utilização compulsórios (PEUC); (2º) em caso de descumprimento, IPTU progressivo no tempo (alíquota majorada pelo prazo de até 5 anos consecutivos, limitada ao teto máximo de 15%, vedada isenção ou anistia!); e (3º) persistindo o descumprimento após 5 anos de cobrança de IPTU progressivo, Desapropriação-Sanção com pagamento mediante títulos da dívida pública de emissão previamente aprovada pelo Senado Federal, resgatáveis em até 10 anos em parcelas anuais iguais e sucessivas!"
+        "text": "Sequência obrigatória escalonada: (1º) Parcelamento, edificação ou utilização compulsórios (peuc); (2º) em caso de descumprimento, IPTU progressivo no tempo."
       },
       {
         "letter": "D",
-        "text": "É permitida usucapião especial urbana de imóveis públicos municipais abandonados."
+        "text": "É permitida usucapião especial urbana de imóveis públicos municipais abandonados, observada a competência comum material dos entes federativos para fiscalização e proteção."
       }
     ],
     "correctAnswer": "C",
@@ -3338,19 +3338,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As praias marítimas pertencem aos municípios litorâneos, podendo hotéis cercarem trechos exclusivos de areia."
+        "text": "As praias marítimas pertencem aos municípios litorâneos, podendo hotéis cercarem trechos exclusivos de areia, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "Terrenos de marinha pertencem aos Estados costeiros."
+        "text": "Terrenos de marinha pertencem aos Estados costeiros, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "Tanto as praias marítimas quanto os terrenos de marinha e seus acrescidos pertencem aos bens da UNIÃO (Art. 20, IV e VII, da CF/88)! As praias são bens públicos de uso comum do povo, sendo assegurado sempre livre e franco acesso a elas e ao mar em qualquer direção e sentido (Art. 10 da Lei nº 7.661/1988 — proibida privatização ou cercamento de praias!), ao passo que os terrenos de marinha (faixa de 33 metros da linha do preamar médio de 1831) podem ser objeto de aforamento/enfiteuse ou ocupação onerosa por particulares (com pagamento de foro, taxa de ocupação e laudêmio)!"
+        "text": "Tanto as praias marítimas quanto os terrenos de marinha e seus acrescidos pertencem aos bens da união."
       },
       {
         "letter": "D",
-        "text": "A ocupação por particular há mais de 50 anos em terreno de marinha gera usucapião privada transferindo o domínio pleno."
+        "text": "A ocupação por particular há mais de 50 anos em terreno de marinha gera usucapião privada transferindo o domínio pleno, com responsabilidade civil ambiental objetiva e solidária sob a modalidade de risco integral."
       }
     ],
     "correctAnswer": "C",
@@ -3393,19 +3393,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O licenciamento automático sem qualquer análise técnica prévia é válido inclusive para usinas nucleares e grandes barragens de rejeitos."
+        "text": "O licenciamento automático sem qualquer análise técnica prévia é válido inclusive para usinas nucleares e grandes barragens de rejeitos, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "B",
-        "text": "Estados possuem liberdade absoluta para extinguir todo o licenciamento ambiental estadual visando atrair investimentos."
+        "text": "Estados possuem liberdade absoluta para extinguir todo o licenciamento ambiental estadual visando atrair investimentos, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "C",
-        "text": "O STF (ex.: ADI 6.808 — que suspendeu concessão automática de licenças via sistema automático nacional — e ADIs 5.014/4.615/6.618) tem declarado inconstitucionais leis que instituam licenciamento automático sem análise humana/técnica prévia ou dispensa ampla para atividades efetiva ou potencialmente causadoras de significativa degradação ambiental, por violarem os deveres constitucionais de prevenção, precaução e proibição de proteção deficiente (Art. 225 CF)! O licenciamento simplificado somente se admite constitucionalmente para empreendimentos de BAIXO/PEQUENO potencial poluidor previstos conforme normas gerais do CONAMA!"
+        "text": "O STF tem declarado inconstitucionais leis que instituam licenciamento automático sem análise humana/técnica prévia ou dispensa ampla para atividades efetiva ou potencialmente causadoras de significativa degradação ambiental, por violarem os deveres constitucionais de prevenção, precaução e proibição de proteção deficiente."
       },
       {
         "letter": "D",
-        "text": "A Resolução CONAMA nº 237/1997 proíbe procedimentos simplificados mesmo para atividades artesanais de baixíssimo impacto."
+        "text": "A Resolução CONAMA nº 237/1997 proíbe procedimentos simplificados mesmo para atividades artesanais de baixíssimo impacto, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "C",
@@ -3449,19 +3449,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A contratação de empresa transportadora terceirizada transfere integralmente a responsabilidade civil ambiental e exonera o fabricante gerador do resíduo."
+        "text": "A contratação de empresa transportadora terceirizada transfere integralmente a responsabilidade civil ambiental e exonera o fabricante gerador do resíduo, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "B",
-        "text": "A importação de pneus usados e lixo hospitalar estrangeiro é livre no Brasil desde que seja para reciclagem energética."
+        "text": "A importação de pneus usados e lixo hospitalar estrangeiro é livre no Brasil desde que seja para reciclagem energética, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 49 da Lei nº 12.305/2010 (em sintonia com a Convenção da Basileia e ADPF 101/STF sobre pneus usados!), é PROIBIDA a importação de resíduos sólidos perigosos e rejeitos, bem como de resíduos sólidos cujas características causem dano ao meio ambiente, à saúde pública e animal e à sanidade vegetal, ainda que para tratamento, reforma, reúso, reutilização ou recuperação! Além disso, pelo Art. 27, § 1º, da PNRS, a contratação de terceiros para coleta, transporte ou destinação final NÃO isenta a empresa geradora de responsabilidade pelos danos eventualmente causados pelo gerenciamento inadequado dos respectivos resíduos!"
+        "text": "É proibida a importação de resíduos sólidos perigosos e rejeitos, bem como de resíduos sólidos cujas características causem dano ao meio ambiente, à saúde pública e animal e à sanidade vegetal, ainda que para tratamento, reforma, reúso, reutilização ou recuperação. Além disso, da pnrs, a contratação de terceiros para coleta, transporte ou destinação final não isenta a empresa geradora de responsabilidade pelos danos eventualmente causados pelo gerenciamento inadequado dos respectivos resíduos."
       },
       {
         "letter": "D",
-        "text": "Nos municípios, o descarte de lixo doméstico comum em lixões a céu aberto foi mantido indefinidamente sem proibição legal."
+        "text": "Nos municípios, o descarte de lixo doméstico comum em lixões a céu aberto foi mantido indefinidamente sem proibição legal, com impossibilidade de mera compensação pecuniária quando viável a restauração específica. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "C",
@@ -3505,7 +3505,7 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela Súmula 467 do STJ, a multa administrativa por infração ambiental é imprescritível, tal como a reparação civil."
+        "text": "A multa administrativa por infração ambiental é imprescritível, tal como a reparação civil, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
@@ -3513,11 +3513,11 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A conciliação ambiental busca encerrar consensualmente o processo administrativo sancionador logo após a autuação (optando o autuado por pagamento com desconto, parcelamento ou adesão à conversão da multa em serviços de preservação/melhoria ambiental, sem prejuízo da reparação do dano ecológico!). Quanto à prescrição: pelo Decreto nº 6.514/2008 (Art. 21) e Lei nº 9.873/99, prescreve em 5 (cinco) anos a ação da Administração para apurar a prática de infrações ambientais (e em 3 anos a prescrição intercorrente se paralisado o processo administrativo!), e em 5 anos a prescrição da execução da multa definitivamente constituída (Súmula 467 STJ)!"
+        "text": "A conciliação ambiental busca encerrar consensualmente o processo administrativo sancionador logo após a autuação."
       },
       {
         "letter": "D",
-        "text": "A prescrição intercorrente administrativa no processo ambiental federal ocorre em 10 anos de paralisação."
+        "text": "A prescrição intercorrente administrativa no processo ambiental federal ocorre em 10 anos de paralisação, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "C",
@@ -3561,19 +3561,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Declarou inconstitucional a TCFA por ausência de fiscalização individualizada prévia no estabelecimento."
+        "text": "Declarou inconstitucional a tcfa por ausência de fiscalização individualizada prévia no estabelecimento, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "Considerou que o porte da empresa torna a TCFA idêntica ao Imposto de Renda."
+        "text": "Considerou que o porte da empresa torna a tcfa idêntica ao Imposto de Renda, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "O STF declarou a TCFA plenamente CONSTITUCIONAL: trata-se de taxa pelo exercício regular do poder de polícia ambiental do IBAMA (Art. 145, II, CF), sendo legítimo graduar o valor em faixas segundo o porte econômico e o potencial poluidor (critérios de proporcionalidade ao custo e intensidade da fiscalização), desde que não haja identidade com base de cálculo de imposto."
+        "text": "O STF declarou a tcfa plenamente constitucional: trata-se de taxa pelo exercício regular do poder de polícia ambiental do IBAMA, sendo legítimo graduar o valor em faixas segundo o porte econômico e o potencial poluidor, desde que não haja identidade com base de cálculo de imposto."
       },
       {
         "letter": "D",
-        "text": "A TCFA incide sobre toda pessoa física residente em área rural mesmo sem atividade potencialmente poluidora."
+        "text": "A tcfa incide sobre toda pessoa física residente em área rural mesmo sem atividade potencialmente poluidora, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       }
     ],
     "correctAnswer": "C",
@@ -3617,19 +3617,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ao redor de nascentes perenes a APP tem raio mínimo de 15 metros."
+        "text": "Ao redor de nascentes perenes a APP tem raio mínimo de 15 metros, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
-        "text": "Apenas áreas acima de 3.000 metros de altitude no Brasil são APP de altitude."
+        "text": "Apenas áreas acima de 3.000 metros de altitude no Brasil são APP de altitude, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "São APPs ope legis: (1) ao redor das NASCENTES e dos olhos d’água perenes, qualquer que seja sua situação topográfica, no raio mínimo de 50 (cinquenta) METROS (Art. 4º, IV — atenção: STF na ADI 4.903 validou proteção de nascentes perenes, excluindo apenas olhos d’água intermitentes!); (2) nas VEREDAS, a faixa marginal em projeção horizontal com largura mínima de 50 (cinquenta) METROS a partir do espaço permanentemente brejoso e encharcado (Art. 4º, XI); e (3) nas BORDAS DOS TABULEIROS ou chapadas até a linha de ruptura do relevo, em faixa nunca inferior a 100 (cem) METROS em projeções horizontais (Art. 4º, VIII)! Além das encostas com declividade superior a 45º (100% na linha de maior declive) e áreas em altitude superior a 1.800 metros!"
+        "text": "São APPs ope legis: ao redor das nascentes e dos olhos d’água perenes, qualquer que seja sua situação topográfica, no raio mínimo de 50 (cinquenta) metros."
       },
       {
         "letter": "D",
-        "text": "Encostas com declividade de 30 graus são APPs de proibição total de uso agrário."
+        "text": "Encostas com declividade de 30 graus são APPs de proibição total de uso agrário, em consonância com os princípios da prevenção, precaução e vedação ao retrocesso ecológico."
       }
     ],
     "correctAnswer": "C",
@@ -3672,19 +3672,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Pantanal é absolutamente proibido qualquer manejo pecuário extensivo sustentável."
+        "text": "No Pantanal é absolutamente proibido qualquer manejo pecuário extensivo sustentável, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "B",
-        "text": "Áreas entre 25º e 45º de declividade equiparam-se a Estações Ecológicas com proibição total de qualquer atividade econômica."
+        "text": "Áreas entre 25º e 45º de declividade equiparam-se a Estações Ecológicas com proibição total de qualquer atividade econômica, sem admissão de fato consumado ou boa-fé para afastar o dever de recuperação do dano. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "Nos pantanais e planícies pantaneiras é permitida a exploração ecologicamente sustentável, devendo considerar-se as recomendações técnicas dos órgãos oficiais de pesquisa, ficando novas supressões de vegetação nativa para uso alternativo do solo condicionadas à autorização do órgão estadual do meio ambiente (Art. 10). E nas áreas de inclinação entre 25º e 45º, são permitidos o manejo florestal sustentável e o exercício de atividades agrossilvipastoris, bem como a manutenção da infraestrutura física associada, observadas boas práticas agronômicas e vedada a conversão de novas áreas, excetuadas hipóteses de utilidade pública e interesse social (Art. 11)!"
+        "text": "Nos pantanais e planícies pantaneiras é permitida a exploração ecologicamente sustentável, devendo considerar-se as recomendações técnicas dos órgãos oficiais de pesquisa, ficando novas supressões de vegetação nativa para uso alternativo do solo condicionadas à autorização do órgão estadual do meio ambiente."
       },
       {
         "letter": "D",
-        "text": "Áreas acima de 45º integram a categoria de Uso Restrito."
+        "text": "Áreas acima de 45º integram a categoria de Uso Restrito, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "C",
@@ -3727,19 +3727,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A RPPN possui prazo máximo de duração de 20 anos, após os quais o proprietário pode desmatar a área livremente."
+        "text": "A rppn possui prazo máximo de duração de 20 anos, após os quais o proprietário pode desmatar a área livremente, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional. A tutela ambiental incide de forma cumulativa sobre a prevenção e a reparação integral."
       },
       {
         "letter": "B",
-        "text": "Na RPPN é permitido o corte raso e a exploração mineral comercial pelo proprietário."
+        "text": "Na rppn é permitido o corte raso e a exploração mineral comercial pelo proprietário, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       },
       {
         "letter": "C",
-        "text": "A RPPN é Unidade de Conservação de Uso Sustentável de domínio PRIVADO, gravada com PERPETUIDADE (averbada no Registro de Imóveis por iniciativa voluntária do proprietário e ato do órgão ambiental), na qual só são permitidas pesquisa científica e visitação com objetivos turísticos, recreativos e educacionais; e a área gravada como RPPN (assim como APP e Reserva Legal) é EXCLUÍDA da área tributável do Imposto Territorial Rural (ITR) — exigindo apresentação do Ato Declaratório Ambiental (ADA) apenas no regime da Lei 6.938/81 conforme Súmula/jurisprudência tributária do STJ (dispensado para APP/RL após LC/jurisprudência recente ou exigido conforme entendimento específico sobre RPPN/ADA)!"
+        "text": "A rppn é Unidade de Conservação de Uso Sustentável de domínio privado, gravada com perpetuidade, na qual só são permitidas pesquisa científica e visitação com objetivos turísticos, recreativos e educacionais."
       },
       {
         "letter": "D",
-        "text": "A RPPN obriga a desapropriação imediata do imóvel pelo ICMBio."
+        "text": "A rppn obriga a desapropriação imediata do imóvel pelo ICMBio, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "C",
@@ -3782,19 +3782,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O tombamento de um casarão histórico privado transfere automaticamente sua propriedade ao Município, obrigando indenização integral de desapropriação."
+        "text": "O tombamento de um casarão histórico privado transfere automaticamente sua propriedade ao Município, obrigando indenização integral de desapropriação, com responsabilidade civil ambiental objetiva e solidária sob a modalidade de risco integral."
       },
       {
         "letter": "B",
-        "text": "O imóvel tombado não pode ser vendido ou hipotecado pelo proprietário privado em hipótese alguma."
+        "text": "O imóvel tombado não pode ser vendido ou hipotecado pelo proprietário privado em hipótese alguma, sem admissão de fato consumado ou boa-fé para afastar o dever de recuperação do dano."
       },
       {
         "letter": "C",
-        "text": "O Tombamento (Decreto-Lei nº 25/1937) protege bens materiais móveis ou imóveis de valor histórico, artístico, paisagístico ou arqueológico (restringindo destruição, demolição ou mutilação, podendo ser provisório ou definitivo, de ofício, voluntário ou compulsório, e NÃO transfere a propriedade do bem privado ao Estado nem exige indenização em regra, salvo esvaziamento econômico total!). Já o Registro (Decreto nº 3.551/2000) tutela o patrimônio cultural IMATERIAL (saberes, celebrações, formas de expressão e lugares de práticas culturais, como o ofício das baianas de acarajé ou a roda de capoeira)!"
+        "text": "O Tombamento protege bens materiais móveis ou imóveis de valor histórico, artístico, paisagístico ou arqueológico. Já o Registro tutela o patrimônio cultural imaterial."
       },
       {
         "letter": "D",
-        "text": "Apenas bens materiais imóveis podem ser objeto de tombamento cultural."
+        "text": "Apenas bens materiais imóveis podem ser objeto de tombamento cultural, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "C",
@@ -3837,19 +3837,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Reserva da Biosfera é uma categoria de Unidade de Conservação de Proteção Integral que exige desapropriação total da área pelo IBAMA."
+        "text": "A Reserva da Biosfera é uma categoria de Unidade de Conservação de Proteção Integral que exige desapropriação total da área pelo IBAMA, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "B",
-        "text": "Mosaico (Art. 26 SNUC) é o conjunto de Unidades de Conservação de categorias diferentes ou não, próximas, justapostas ou sobrepostas, e outras áreas protegidas públicas ou privadas, cuja gestão deve ser feita de forma integrada e participativa por um conselho de mosaico. Já a Reserva da Biosfera (Art. 41 SNUC) é um modelo, adotado INTERNACIONALMENTE (Programa MaB da UNESCO), de gestão integrada, participativa e sustentável dos recursos naturais, constituída por uma ou várias áreas-núcleo (proteção integral), zonas de amortecimento e zonas de transição!"
+        "text": "Mosaico é o conjunto de Unidades de Conservação de categorias diferentes ou não, próximas, justapostas ou sobrepostas, e outras áreas protegidas públicas ou privadas, cuja gestão deve ser feita de forma integrada e participativa por um conselho de mosaico."
       },
       {
         "letter": "C",
-        "text": "No Mosaico de UCs, é proibido misturar unidades municipais, estaduais e federais."
+        "text": "No Mosaico de UCs, é proibido misturar unidades municipais, estaduais e federais. Tal regime jurídico reflete a proteção constitucional atribuída aos recursos ecológicos."
       },
       {
         "letter": "D",
-        "text": "Os corredores ecológicos são rodovias asfaltadas exclusivas para caminhões madeireiros."
+        "text": "Os corredores ecológicos são rodovias asfaltadas exclusivas para caminhões madeireiros, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "B",
@@ -3892,19 +3892,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O crime ambiental do Art. 55 absorve integralmente o crime patrimonial da Lei 8.176/91 pelo princípio da consunção, sendo julgado na Justiça Estadual."
+        "text": "O crime ambiental absorve integralmente o crime patrimonial da Lei 8.176/91 pelo princípio da consunção, sendo julgado na Justiça Estadual, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
-        "text": "Configura CONCURSO FORMAL de dois crimes distintos (não há consunção, pois tutelam bens jurídicos diversos!): o crime ambiental de extração de recursos minerais sem autorização (Art. 55 da Lei nº 9.605/1998 — tutela o meio ambiente) E o crime contra o patrimônio da União de usurpação de matéria-prima pertencente à União (Art. 2º da Lei nº 8.176/1991 — tutela o patrimônio econômico mineral federal do Art. 20, IX, CF)! E por atingir bem mineral pertencente à União, a competência criminal é da JUSTIÇA FEDERAL!"
+        "text": "Configura concurso formal de dois crimes distintos: o crime ambiental de extração de recursos minerais sem autorização e o crime contra o patrimônio da União de usurpação de matéria-prima pertencente à União."
       },
       {
         "letter": "C",
-        "text": "As jazidas minerais no subsolo pertencem ao proprietário do solo superficial privado."
+        "text": "As jazidas minerais no subsolo pertencem ao proprietário do solo superficial privado, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "A simples pesquisa mineral dispensa qualquer licença ambiental."
+        "text": "A simples pesquisa mineral dispensa qualquer licença ambiental, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "B",
@@ -3947,19 +3947,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na ADI 3.510, o STF proibiu totalmente qualquer pesquisa científica com células-tronco embrionárias humanas no Brasil."
+        "text": "Na ADI 3.510, o STF proibiu totalmente qualquer pesquisa científica com células-tronco embrionárias humanas no Brasil, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "Cabe à Comissão Técnica Nacional de Biossegurança (CTNBio) emitir decisão técnica sobre a biossegurança de OGMs e derivados (inclusive definindo, caso a caso, se há potencial significativa degradação ambiental que exija licenciamento com EIA/RIMA — Art. 16 da Lei 11.105/2005); e na ADI 3.510, o STF julgou plenamente CONSTITUCIONAL o Art. 5º da Lei de Biossegurança que autoriza pesquisas científicas e terapêuticas com células-tronco embrionárias obtidas de embriões humanos produzidos por fertilização in vitro e inviáveis ou congelados há 3 anos ou mais (com consentimento dos genitores e vedada comercialização)!"
+        "text": "Cabe à Comissão Técnica Nacional de Biossegurança emitir decisão técnica sobre a biossegurança de OGMs e derivados."
       },
       {
         "letter": "C",
-        "text": "A CTNBio é órgão municipal subordinado às prefeituras locais."
+        "text": "A CTNBio é órgão municipal subordinado às prefeituras locais, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "D",
-        "text": "A Lei de Biossegurança autoriza livremente a clonagem humana reprodutiva e o comércio de embriões humanos."
+        "text": "A Lei de Biossegurança autoriza livremente a clonagem humana reprodutiva e o comércio de embriões humanos, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       }
     ],
     "correctAnswer": "B",
@@ -4003,19 +4003,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Obriga os Estados a distribuírem gratuitamente todas as terras devolutas ecológicas a madeireiras privadas."
+        "text": "Obriga os Estados a distribuírem gratuitamente todas as terras devolutas ecológicas a madeireiras privadas, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "B",
-        "text": "Impede que os Estados alienem, doem, cedam em definitivo ou desafetem terras devolutas (terras públicas sem destinação específica) ou áreas arrecadadas em ações discriminatórias quando forem ecologicamente necessárias à proteção de ecossistemas naturais (como corredores ecológicos, reservas e mananciais) — constituindo limitação constitucional direta contra privatização ou desmatamento de terras públicas estratégicas!"
+        "text": "Impede que os Estados alienem, doem, cedam em definitivo ou desafetem terras devolutas ou áreas arrecadadas em ações discriminatórias quando forem ecologicamente necessárias à proteção de ecossistemas naturais."
       },
       {
         "letter": "C",
-        "text": "As terras devolutas pertencem sempre e exclusivamente aos municípios, nunca aos Estados ou à União."
+        "text": "As terras devolutas pertencem sempre e exclusivamente aos municípios, nunca aos Estados ou à União, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "Terras devolutas necessárias aos ecossistemas podem ser adquiridas por usucapião especial rural por particular."
+        "text": "Terras devolutas necessárias aos ecossistemas podem ser adquiridas por usucapião especial rural por particular, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto."
       }
     ],
     "correctAnswer": "B",
@@ -4058,19 +4058,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O agricultor pode enterrar ou queimar livremente as embalagens vazias de agrotóxicos em sua própria fazenda."
+        "text": "O agricultor pode enterrar ou queimar livremente as embalagens vazias de agrotóxicos em sua própria fazenda, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       },
       {
         "letter": "B",
-        "text": "O Art. 56 da Lei nº 9.605/1998 tipifica como crime ambiental produzir, processar, embalar, importar, exportar, comercializar, fornecer, transportar, armazenar, guardar, ter em depósito ou usar produto ou substância tóxica, perigosa ou nociva à saúde humana ou ao meio ambiente em desacordo com as exigências legais/regulamentares (inclusive em modalidade culposa — § 3º!). Além disso, embalagens vazias de agrotóxicos integram obrigatoriamente o sistema de LOGÍSTICA REVERSA (Art. 33 PNRS), devendo o usuário devolvê-las nos postos indicados na nota fiscal e o fabricante/comerciante recolher e destinar adequadamente!"
+        "text": "O Art. 56 da Lei nº 9.605/1998 tipifica como crime ambiental produzir, processar, embalar, importar, exportar, comercializar, fornecer, transportar, armazenar, guardar, ter em depósito ou usar produto ou substância tóxica, perigosa ou nociva à saúde humana ou ao meio ambiente em desacordo com as exigências legais/regulamentares."
       },
       {
         "letter": "C",
-        "text": "O crime de armazenamento ilegal de substância perigosa (Art. 56 Lei 9.605/98) exige que haja morte efetiva de pessoa."
+        "text": "O crime de armazenamento ilegal de substância perigosa exige que haja morte efetiva de pessoa, observada a competência comum material dos entes federativos para fiscalização e proteção. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "D",
-        "text": "Estados podem criar exigências menos protetivas que as normas gerais federais permitindo uso de substância proibida nacionalmente."
+        "text": "Estados podem criar exigências menos protetivas que as normas gerais federais permitindo uso de substância proibida nacionalmente, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "B",
@@ -4113,19 +4113,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Convenção da Basileia trata de proteção de baleias e a de Ramsar trata de redução de gases na camada de ozônio."
+        "text": "Convenção da Basileia trata de proteção de baleias e a de Ramsar trata de redução de gases na camada de ozônio, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
-        "text": "Convenção de Ramsar (1971) = proteção das Zonas Úmidas de importância internacional (como Pantanal, Abrolhos e Ilha do Bananal); Convenção CITES (Washington, 1973) = controle e restrição do comércio internacional de espécies da fauna e flora selvagens ameaçadas de extinção; e Convenção da Basileia (1989) = controle de movimentos transfronteiriços de resíduos perigosos e seu depósito!"
+        "text": "Convenção de Ramsar = proteção das Zonas Úmidas de importância internacional; Convenção cites (Washington, 1973) = controle e restrição do comércio internacional de espécies da fauna e flora selvagens ameaçadas de extinção; e Convenção da Basileia = controle de movimentos transfronteiriços de resíduos perigosos e seu depósito."
       },
       {
         "letter": "C",
-        "text": "A Convenção CITES libera o comércio mundial irrestrito de marfim e araras ameaçadas sem licença."
+        "text": "A Convenção cites libera o comércio mundial irrestrito de marfim e araras ameaçadas sem licença, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "O Protocolo de Cartagena trata exclusivamente de pesca oceânica de atum."
+        "text": "O Protocolo de Cartagena trata exclusivamente de pesca oceânica de atum, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "B",
@@ -4168,11 +4168,11 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O proprietário do navio fica isento de indenizar os pescadores locais se comprovar que uma onda forte rompeu a tubulação da embarcação."
+        "text": "O proprietário do navio fica isento de indenizar os pescadores locais se comprovar que uma onda forte rompeu a tubulação da embarcação, com proibição de supressão ou exploração da área sem prévio licenciamento ambiental válido."
       },
       {
         "letter": "B",
-        "text": "Aplica-se a Lei do Óleo (Lei nº 9.966/2000) em conjunto com o Art. 14, § 1º, da PNMA (responsabilidade civil OBJETIVA sob o RISCO INTEGRAL pelos danos causados ao meio ambiente e a terceiros — pescadores artesanais, turismo, etc. — sem admissão de excludentes como fortuito ou culpa de terceiro!), além de sanções administrativas da Marinha/IBAMA e responsabilidade penal (Lei 9.605/98). Como o mar territorial e a Zona Econômica Exclusiva são bens da União (Art. 20, V e VI, CF), o licenciamento/atuação criminal federal atrai competência da JUSTIÇA FEDERAL (em ações civis de indenização privada de pescadores contra empresa privada sem ente federal, o STJ distingue a competência conforme presença de ente federal no polo)!"
+        "text": "Aplica-se a Lei do Óleo em conjunto com o Art. 14, § 1º, da pnma, além de sanções administrativas da Marinha/IBAMA e responsabilidade penal."
       },
       {
         "letter": "C",
@@ -4180,7 +4180,7 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O mar territorial pertence aos Estados costeiros limítrofes."
+        "text": "O mar territorial pertence aos Estados costeiros limítrofes, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       }
     ],
     "correctAnswer": "B",
@@ -4224,15 +4224,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O mero protocolo do pedido de licença corretiva obriga o órgão ambiental a levantar o embargo no mesmo dia."
+        "text": "O mero protocolo do pedido de licença corretiva obriga o órgão ambiental a levantar o embargo no mesmo dia, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "B",
-        "text": "A simples protocolização tardia do pedido de licença ambiental NÃO suspende automaticamente o embargo nem convalida a atividade ilegal pretérita; o embargo administrativo tem natureza acautelatória visando cessar de imediato a degradação (Art. 108 do Decreto 6.514/2008 e Art. 72, VII, Lei 9.605/98)! Admite-se excepcionalmente o chamado \"licenciamento corretivo\" (ou Licença de Operação Corretiva - LOC, prevista em normas locais/CONAMA) APENAS se a atividade for ambientalmente viável/compatível com a área, sem prejuízo das multas aplicadas, das sanções penais (Art. 60 Lei 9.605/98 — funcionar sem licença!) e da reparação integral de eventuais danos causados!"
+        "text": "A simples protocolização tardia do pedido de licença ambiental não suspende automaticamente o embargo nem convalida a atividade ilegal pretérita."
       },
       {
         "letter": "C",
-        "text": "Obter licença corretiva posterior apaga retroativamente a multa já lavrada e extingue a punibilidade do crime do Art. 60."
+        "text": "Obter licença corretiva posterior apaga retroativamente a multa já lavrada e extingue a punibilidade do crime, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
@@ -4279,19 +4279,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na expansão da cidade para área antes rural, a Reserva Legal continua obrigatória perpetuamente no meio dos lotes residenciais urbanos mesmo com registro aprovado do parcelamento do solo."
+        "text": "Na expansão da cidade para área antes rural, a Reserva Legal continua obrigatória perpetuamente no meio dos lotes residenciais urbanos mesmo com registro aprovado do parcelamento do solo, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "B",
-        "text": "O Poder Público Municipal contará com instrumentos específicos para estabelecer Áreas Verdes Urbanas (Art. 25), como o exercício do direito de preempção (Estatuto da Cidade), a transformação das Reservas Legais em áreas verdes nas expansões urbanas, o estabelecimento de exigência de áreas verdes nos loteamentos/empreendimentos comerciais e a aplicação de recursos de compensação ambiental. E pelo Art. 26, a supressão de vegetação nativa para uso alternativo do solo (tanto em área pública quanto privada!) dependerá de cadastramento do imóvel no CAR (quando rural) e de PRÉVIA AUTORIZAÇÃO do órgão estadual competente do SISNAMA (salvo competência federal/municipal da LC 140/2011)!"
+        "text": "O Poder Público Municipal contará com instrumentos específicos para estabelecer Áreas Verdes Urbanas, como o exercício do direito de preempção, a transformação das Reservas Legais em áreas verdes nas expansões urbanas, o estabelecimento de exigência de áreas verdes nos loteamentos/empreendimentos comerciais e a aplicação de recursos de compensação ambiental."
       },
       {
         "letter": "C",
-        "text": "O proprietário particular pode suprimir vegetação nativa fora de APP e fora de Reserva Legal sem qualquer autorização ambiental."
+        "text": "O proprietário particular pode suprimir vegetação nativa fora de APP e fora de Reserva Legal sem qualquer autorização ambiental, sem necessidade de manifestação técnica do órgão ambiental diante de urgência econômica local."
       },
       {
         "letter": "D",
-        "text": "O município nunca pode exigir áreas verdes ao aprovar novos loteamentos urbanos."
+        "text": "O município nunca pode exigir áreas verdes ao aprovar novos loteamentos urbanos, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "B",
@@ -4334,19 +4334,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas baterias industriais de caminhões pesados entram na logística reversa, excluindo celulares e computadores domésticos."
+        "text": "Apenas baterias industriais de caminhões pesados entram na logística reversa, excluindo celulares e computadores domésticos, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
-        "text": "Por força do Art. 33, VI, da PNRS (Lei nº 12.305/2010) e do Decreto nº 10.240/2020, os produtos eletroeletrônicos de uso doméstico e seus componentes integram o rol legal obrigatório de LOGÍSTICA REVERSA: consumidores entregam nos pontos de recebimento; comerciantes e distribuidores recebem e consolidam; e fabricantes e importadores custeiam e garantem a destinação ambientalmente adequada (reaproveitamento, reciclagem ou tratamento de componentes tóxicos como chumbo/mercúrio)!"
+        "text": "Por força, da pnrs e do Decreto nº 10.240/2020, os produtos eletroeletrônicos de uso doméstico e seus componentes integram o rol legal obrigatório de logística reversa: consumidores entregam nos pontos de recebimento."
       },
       {
         "letter": "C",
-        "text": "A logística reversa de eletroeletrônicos só pode ser criada mediante sentença judicial individual contra cada loja."
+        "text": "A logística reversa de eletroeletrônicos só pode ser criada mediante sentença judicial individual contra cada loja, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "Os municípios devem pagar integralmente aos fabricantes pelo transporte dos resíduos eletrônicos de volta às fábricas."
+        "text": "Os municípios devem pagar integralmente aos fabricantes pelo transporte dos resíduos eletrônicos de volta às fábricas, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "B",
@@ -4389,19 +4389,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Significa que o meio ambiente é onipresente (está em todo lugar — não conhece fronteiras políticas ou geográficas), de modo que toda atividade humana, política pública, planejamento econômico ou tratado deve considerar o fator ambiental antes de qualquer decisão, além de justificar a cooperação ambiental global e interestadual!"
+        "text": "Significa que o meio ambiente é onipresente, de modo que toda atividade humana, política pública, planejamento econômico ou tratado deve considerar o fator ambiental antes de qualquer decisão."
       },
       {
         "letter": "B",
-        "text": "Significa que cada município pode adotar suas próprias leis ignorando os impactos causados nos municípios vizinhos rio abaixo."
+        "text": "Significa que cada município pode adotar suas próprias leis ignorando os impactos causados nos municípios vizinhos rio abaixo, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto."
       },
       {
         "letter": "C",
-        "text": "Determina que somente órgãos federais podem atuar em questões urbanas locais."
+        "text": "Determina que somente órgãos federais podem atuar em questões urbanas locais, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       },
       {
         "letter": "D",
-        "text": "Refere-se exclusivamente ao direito de propriedade privada sobre subsolo."
+        "text": "Refere-se exclusivamente ao direito de propriedade privada sobre subsolo, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "A",
@@ -4444,19 +4444,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não! O Art. 5º, II, da Lei nº 7.347/1985 inclui expressamente a Defensoria Pública entre os legitimados ativos para a Ação Civil Pública, e o STF na ADI 3.943 julgou plenamente CONSTITUCIONAL essa legitimidade ampla: basta que haja pertinência temática potencial com interesses de pessoas necessitadas (em sentido jurídico/organizacional/social amplo!), não se exigindo que TODOS os beneficiários difusos ou coletivos da demanda sejam comprovadamente hipossuficientes econômicos!"
+        "text": "Não, o Art. 5º, II, da Lei nº 7.347/1985 inclui expressamente a Defensoria Pública entre os legitimados ativos para a Ação Civil Pública, e o STF na ADI 3.943 julgou plenamente constitucional essa legitimidade ampla: basta que haja pertinência temática potencial com interesses de pessoas necessitadas, não se exigindo que todos os beneficiários difusos ou coletivos da demanda sejam comprovadamente hipossuficientes econômicos."
       },
       {
         "letter": "B",
-        "text": "Sim, a Defensoria Pública só pode propor ação civil pública se 100% dos moradores da cidade comprovarem renda abaixo de 1 salário mínimo."
+        "text": "Sim, a Defensoria Pública só pode propor ação civil pública se 100% dos moradores da cidade comprovarem renda abaixo de 1 salário mínimo, com validação da transferência do passivo ambiental ao poder público por declaração unilateral."
       },
       {
         "letter": "C",
-        "text": "A Defensoria Pública só pode propor ação civil pública na Justiça do Trabalho."
+        "text": "A Defensoria Pública só pode propor ação civil pública na Justiça do Trabalho, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto."
       },
       {
         "letter": "D",
-        "text": "A Defensoria Pública não consta no Art. 5º da Lei da Ação Civil Pública."
+        "text": "A Defensoria Pública não consta da Lei da Ação Civil Pública, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "A",
@@ -4500,19 +4500,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os demais entes federativos interessados podem manifestar-se ao órgão licenciador de maneira NÃO VINCULANTE, respeitados os prazos e procedimentos do licenciamento ambiental (Art. 13, § 1º, LC 140/2011). Contudo, para órgãos intervenientes específicos com tutela constitucional/legal própria (como IPHAN para patrimônio arqueológico/tombado, FUNAI para terras indígenas, Fundação Cultural Palmares para quilombolas e ICMBio para UCs federais afetadas — Art. 36, § 3º, SNUC!), a oitiva é obrigatória e o desrespeito às exigências materiais desses bens protegidos pode invalidar a licença (como a necessidade de autorização do ICMBio quando houver impacto direto em UC de proteção integral)!"
+        "text": "Os demais entes federativos interessados podem manifestar-se ao órgão licenciador de maneira não vinculante, respeitados os prazos e procedimentos do licenciamento ambiental."
       },
       {
         "letter": "B",
-        "text": "Qualquer prefeitura vizinha pode vetar de forma absolutamente vinculante um licenciamento de obra federal do IBAMA por força do Art. 13, § 1º, da LC 140/2011."
+        "text": "Qualquer prefeitura vizinha pode vetar de forma absolutamente vinculante um licenciamento de obra federal do IBAMA por força, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "O IBAMA pode dispensar totalmente a consulta prévia à comunidade indígena (Convenção 169 OIT) e ao ICMBio mesmo quando o empreendimento afeta diretamente UC de proteção integral."
+        "text": "O IBAMA pode dispensar totalmente a consulta prévia à comunidade indígena (Convenção 169 OIT) e ao ICMBio mesmo quando o empreendimento afeta diretamente uc de proteção integral."
       },
       {
         "letter": "D",
-        "text": "O IPHAN nunca participa de licenciamentos ambientais de grandes obras de infraestrutura."
+        "text": "O iphan nunca participa de licenciamentos ambientais de grandes obras de infraestrutura, com proibição de supressão ou exploração da área sem prévio licenciamento ambiental válido."
       }
     ],
     "correctAnswer": "A",
@@ -4555,19 +4555,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Fazer o funcionário público afirmação falsa ou enganosa, omitir a verdade, sonegar informações ou dados técnico-científicos em procedimentos de autorização ou licenciamento ambiental configura crime próprio de funcionário público (Art. 66 — reclusão de 1 a 3 anos e multa); conceder o funcionário público licença/autorização em desacordo com normas ambientais para atividades cuja realização depende de ato autorizativo configura o crime do Art. 67 (detenção de 1 a 3 anos e multa, com modalidade CULPOSA prevista no parágrafo único!); e elaborar ou apresentar no licenciamento/concessão florestal estudo, laudo ou relatório ambiental total ou parcialmente falso ou enganoso, inclusive por omissão, configura o crime do Art. 69-A (reclusão de 3 a 6 anos e multa, também com modalidade CULPOSA no § 1º)!"
+        "text": "Fazer o funcionário público afirmação falsa ou enganosa, omitir a verdade, sonegar informações ou dados técnico-científicos em procedimentos de autorização ou licenciamento ambiental configura crime próprio de funcionário público."
       },
       {
         "letter": "B",
-        "text": "O servidor ambiental que concede licença ambiental ilegal por negligência ou imprudência não comete crime porque o Art. 67 não prevê modalidade culposa."
+        "text": "O servidor ambiental que concede licença ambiental ilegal por negligência ou imprudência não comete crime porque o Art. 67 não prevê modalidade culposa. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "Apresentar EIA/RIMA parcialmente falso por omissão gera apenas multa disciplinar ao biólogo ou engenheiro, sem tipificação penal."
+        "text": "Apresentar EIA/RIMA parcialmente falso por omissão gera apenas multa disciplinar ao biólogo ou engenheiro, sem tipificação penal, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "Deixar de cumprir obrigação de relevante interesse ambiental (Art. 68) exige exclusivamente conduta dolosa sem modalidade culposa."
+        "text": "Deixar de cumprir obrigação de relevante interesse ambiental exige exclusivamente conduta dolosa sem modalidade culposa, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       }
     ],
     "correctAnswer": "A",
@@ -4610,19 +4610,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo do contrato de concessão florestal será estabelecido de acordo com o ciclo de colheita ou exploração, com prazo mínimo equivalente a 1 ciclo e prazo MÁXIMO de 40 (quarenta) anos (Art. 22). É expressamente VEDADO outorgar na concessão florestal (Art. 16, § 1º): (I) a titularidade imobiliária ou preferência em sua aquisição; (II) acesso ao patrimônio genético para pesquisa/bioprospecção; (III) uso dos recursos hídricos acima do especificado como insignificante; (IV) exploração dos recursos minerais; e (V) exploração de recursos pesqueiros ou da fauna silvestre!"
+        "text": "O prazo do contrato de concessão florestal será estabelecido de acordo com o ciclo de colheita ou exploração, com prazo mínimo equivalente a 1 ciclo e prazo máximo de 40 (quarenta) anos."
       },
       {
         "letter": "B",
-        "text": "A concessão florestal transfere a propriedade definitiva da terra pública florestal ao concessionário privado ao final de 10 anos."
+        "text": "A concessão florestal transfere a propriedade definitiva da terra pública florestal ao concessionário privado ao final de 10 anos, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "C",
-        "text": "O concessionário florestal ganha automaticamente o direito de minerar ouro e explorar recursos hídricos na área concedida."
+        "text": "O concessionário florestal ganha automaticamente o direito de minerar ouro e explorar recursos hídricos na área concedida, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "A concessão florestal dispensa licitação prévia, podendo ser dada por decreto direto a qualquer madeireira."
+        "text": "A concessão florestal dispensa licitação prévia, podendo ser dada por decreto direto a qualquer madeireira, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       }
     ],
     "correctAnswer": "A",
@@ -4665,19 +4665,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na ADI 3.540, o STF afirmou que o princípio do desenvolvimento sustentável atua como fator de obtenção do justo equilíbrio entre as exigências da economia e as da ecologia: a atividade econômica não pode ser exercida em desarmonia com os ditames de preservação ambiental (Art. 170, VI — inclusive com tratamento diferenciado conforme o impacto ambiental dos produtos e serviços!), prevalecendo a tutela ambiental quando houver conflito irredutível com risco de degradação grave ou irreversível."
+        "text": "Na ADI 3.540, o STF afirmou que o princípio do desenvolvimento sustentável atua como fator de obtenção do justo equilíbrio entre as exigências da economia e as da ecologia: a atividade econômica não pode ser exercida em desarmonia com os ditames de preservação ambiental, prevalecendo a tutela ambiental quando houver conflito irredutível com risco de degradação grave ou irreversível."
       },
       {
         "letter": "B",
-        "text": "A livre iniciativa econômica possui hierarquia absoluta sobre o Art. 225, impedindo qualquer restrição ambiental a empresas privadas."
+        "text": "A livre iniciativa econômica possui hierarquia absoluta sobre o Art. 225, impedindo qualquer restrição ambiental a empresas privadas, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "O Art. 170, VI, da CF proíbe tributação ambientalmente diferenciada (extrafiscalidade verde) sobre produtos menos poluentes."
+        "text": "A legislação aplicável proíbe tributação ambientalmente diferenciada (extrafiscalidade verde) sobre produtos menos poluentes, observada a competência comum material dos entes federativos para fiscalização e proteção. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "D",
-        "text": "O desenvolvimento sustentável exige paralisação completa de toda atividade industrial e agrícola no território nacional."
+        "text": "O desenvolvimento sustentável exige paralisação completa de toda atividade industrial e agrícola no território nacional, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       }
     ],
     "correctAnswer": "A",
@@ -4725,15 +4725,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Todo imóvel rural na Amazônia Legal exige indistintamente 80% de Reserva Legal, mesmo em área de cerrado ou campos gerais."
+        "text": "Todo imóvel rural na Amazônia Legal exige indistintamente 80% de Reserva Legal, mesmo em área de cerrado ou campos gerais, sem necessidade de manifestação técnica do órgão ambiental diante de urgência econômica local."
       },
       {
         "letter": "C",
-        "text": "A pequena propriedade rural com até 4 módulos fiscais é dispensada de ter Reserva Legal em qualquer região do país."
+        "text": "A pequena propriedade rural com até 4 módulos fiscais é dispensada de ter Reserva Legal em qualquer região do país, com impossibilidade de mera compensação pecuniária quando viável a restauração específica."
       },
       {
         "letter": "D",
-        "text": "Nas demais regiões do país fora da Amazônia Legal, o percentual mínimo de Reserva Legal é de 50% do imóvel."
+        "text": "Nas demais regiões do país fora da Amazônia Legal, o percentual mínimo de Reserva Legal é de 50% do imóvel, observada a competência comum material dos entes federativos para fiscalização e proteção."
       }
     ],
     "correctAnswer": "A",
@@ -4780,15 +4780,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A logística reversa de pneus, pilhas e agrotóxicos depende exclusivamente de adesão voluntária das empresas mediante incentivo fiscal prévio."
+        "text": "A logística reversa de pneus, pilhas e agrotóxicos depende exclusivamente de adesão voluntária das empresas mediante incentivo fiscal prévio, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "C",
-        "text": "O dever de recolhimento pós-consumo de lâmpadas fluorescentes e óleos lubrificantes cabe apenas aos municípios titulares da limpeza urbana."
+        "text": "O dever de recolhimento pós-consumo de lâmpadas fluorescentes e óleos lubrificantes cabe apenas aos municípios titulares da limpeza urbana, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "Acordo setorial firmado em nível estadual prevalece mesmo que fixe metas inferiores às estabelecidas em regulamento federal."
+        "text": "Acordo setorial firmado em nível estadual prevalece mesmo que fixe metas inferiores às estabelecidas em regulamento federal, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       }
     ],
     "correctAnswer": "A",
@@ -4835,15 +4835,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "É vedada a cumulação de obrigação de fazer consistente na recuperação da área degradada com indenização pecuniária na mesma ação civil pública."
+        "text": "É vedada a cumulação de obrigação de fazer consistente na recuperação da área degradada com indenização pecuniária na mesma ação civil pública, em consonância com os princípios da prevenção, precaução e vedação ao retrocesso ecológico."
       },
       {
         "letter": "C",
-        "text": "A empresa proprietária da barragem pode eximir-se da indenização alegando caso fortuito consistente em chuvas intensas na região."
+        "text": "A empresa proprietária da barragem pode eximir-se da indenização alegando caso fortuito consistente em chuvas intensas na região, com responsabilidade civil ambiental objetiva e solidária sob a modalidade de risco integral."
       },
       {
         "letter": "D",
-        "text": "O dano moral coletivo ambiental exige prova de abalo psicológico individual de cada morador da bacia afetada."
+        "text": "O dano moral coletivo ambiental exige prova de abalo psicológico individual de cada morador da bacia afetada, observada a competência comum material dos entes federativos para fiscalização e proteção."
       }
     ],
     "correctAnswer": "A",
@@ -4891,15 +4891,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A supressão de vegetação em estágio avançado na Mata Atlântica é livre dentro do perímetro urbano mediante alvará municipal de construção."
+        "text": "A supressão de vegetação em estágio avançado na Mata Atlântica é livre dentro do perímetro urbano mediante alvará municipal de construção, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "O Código Florestal revogou tacitamente a Lei da Mata Atlântica por ser norma geral posterior sobre vegetação nativa."
+        "text": "O Código Florestal revogou tacitamente a Lei da Mata Atlântica por ser norma geral posterior sobre vegetação nativa, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
-        "text": "Qualquer vegetação secundária, em estágio inicial, médio ou avançado, recebe exatamente a mesma vedação absoluta de corte."
+        "text": "Qualquer vegetação secundária, em estágio inicial, médio ou avançado, recebe exatamente a mesma vedação absoluta de corte. Tal regime jurídico reflete a proteção constitucional atribuída aos recursos ecológicos."
       }
     ],
     "correctAnswer": "A",
@@ -4942,19 +4942,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplica-se o prazo prescricional quinquenal da Lei da Ação Popular por analogia às ações civis públicas ambientais."
+        "text": "Aplica-se o prazo prescricional quinquenal da Lei da Ação Popular por analogia às ações civis públicas ambientais, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "Aplica-se o prazo prescricional de 10 anos do Código Civil contado da data do último ato poluidor."
+        "text": "Aplica-se o prazo prescricional de 10 anos do Código Civil contado da data do último ato poluidor, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "A reparação ambiental é imprescritível apenas para o dano moral coletivo, prescrevendo em 3 anos a obrigação de reflorestar."
+        "text": "A reparação ambiental é imprescritível apenas para o dano moral coletivo, prescrevendo em 3 anos a obrigação de reflorestar, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "D",
-        "text": "A pretensão de reparação civil do dano ambiental é imprescritível, conforme tese fixada pelo Supremo Tribunal Federal em repercussão geral (Tema 999)."
+        "text": "A pretensão de reparação civil do dano ambiental é imprescritível, conforme tese fixada pelo Supremo Tribunal Federal em repercussão geral."
       }
     ],
     "correctAnswer": "D",
@@ -4998,19 +4998,19 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Trata-se exclusivamente de sanção punitiva decorrente do princípio do poluidor-pagador, pois toda captação de água é ilícita."
+        "text": "Trata-se exclusivamente de sanção punitiva decorrente do princípio do poluidor-pagador, pois toda captação de água é ilícita. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "B",
-        "text": "O princípio do poluidor-pagador autoriza o empreendedor a poluir livremente desde que pague previamente o preço correspondente."
+        "text": "O princípio do poluidor-pagador autoriza o empreendedor a poluir livremente desde que pague previamente o preço correspondente, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "A cobrança pelo uso da água é tributo da espécie taxa de polícia fiscalizatória, instituída por decreto do governador."
+        "text": "A cobrança pelo uso da água é tributo da espécie taxa de polícia fiscalizatória, instituída por decreto do governador, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
-        "text": "Trata-se do princípio do usuário-pagador, que impõe pagamento pela utilização econômica de recursos naturais escassos (como a outorga onerosa da água), distinguindo-se do poluidor-pagador, voltado à internalização de externalidades negativas da poluição."
+        "text": "Trata-se do princípio do usuário-pagador, que impõe pagamento pela utilização econômica de recursos naturais escassos, distinguindo-se do poluidor-pagador, voltado à internalização de externalidades negativas da poluição."
       }
     ],
     "correctAnswer": "D",
@@ -5053,15 +5053,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Estados não podem legislar sobre proteção ambiental, matéria de competência legislativa privativa da União."
+        "text": "Os Estados não podem legislar sobre proteção ambiental, matéria de competência legislativa privativa da União, com impossibilidade de mera compensação pecuniária quando viável a restauração específica."
       },
       {
         "letter": "B",
-        "text": "Havendo norma geral da União, os Estados ficam impedidos de estabelecer padrões ambientais mais rigorosos em seu território."
+        "text": "Havendo norma geral da União, os Estados ficam impedidos de estabelecer padrões ambientais mais rigorosos em seu território, observada a competência comum material dos entes federativos para fiscalização e proteção. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "Os Municípios estão totalmente excluídos da competência legislativa ambiental por não constarem do caput do Art. 24 da CF."
+        "text": "Os Municípios estão totalmente excluídos da competência legislativa ambiental por não constarem do caput, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
@@ -5109,15 +5109,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A denúncia deve ser rejeitada por inépcia, uma vez que vigora no STF a teoria da dupla imputação obrigatória."
+        "text": "A denúncia deve ser rejeitada por inépcia, uma vez que vigora no STF a teoria da dupla imputação obrigatória, com autorização para implantação do empreendimento independentemente de estudo prévio de impacto."
       },
       {
         "letter": "B",
-        "text": "As pessoas jurídicas só respondem administrativamente e civilmente por danos ambientais, sendo inconstitucional a punição penal de entes coletivos."
+        "text": "As pessoas jurídicas só respondem administrativamente e civilmente por danos ambientais, sendo inconstitucional a punição penal de entes coletivos, com proibição de supressão ou exploração da área sem prévio licenciamento ambiental válido."
       },
       {
         "letter": "C",
-        "text": "Mesmo condenada criminalmente, a pessoa jurídica nunca pode sofrer pena de prestação de serviços à comunidade ou interdição temporária de direitos."
+        "text": "Mesmo condenada criminalmente, a pessoa jurídica nunca pode sofrer pena de prestação de serviços à comunidade ou interdição temporária de direitos, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "D",
@@ -5165,15 +5165,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos crimes ambientais, a transação penal é absolutamente proibida pelo interesse público indisponível."
+        "text": "Nos crimes ambientais, a transação penal é absolutamente proibida pelo interesse público indisponível, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "B",
-        "text": "Na suspensão condicional do processo ambiental, o juiz declara extinta a punibilidade ao final do prazo mesmo se o réu não tiver reparado o dano possível."
+        "text": "Na suspensão condicional do processo ambiental, o juiz declara extinta a punibilidade ao final do prazo mesmo se o réu não tiver reparado o dano possível, em consonância com os princípios da prevenção, precaução e vedação ao retrocesso ecológico."
       },
       {
         "letter": "C",
-        "text": "Caso a reparação integral do dano seja tecnicamente impossível, o agente perde o direito à transação penal mesmo sem culpa."
+        "text": "Caso a reparação integral do dano seja tecnicamente impossível, o agente perde o direito à transação penal mesmo sem culpa, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "D",
@@ -5220,15 +5220,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O decreto é válido pelo princípio da simetria das formas, já que o parque foi criado originalmente por decreto."
+        "text": "O decreto é válido pelo princípio da simetria das formas, já que o parque foi criado originalmente por decreto, sem necessidade de manifestação técnica do órgão ambiental diante de urgência econômica local."
       },
       {
         "letter": "B",
-        "text": "As Unidades de Conservação do grupo de Uso Sustentável nunca precisam de Zona de Amortecimento nem de Plano de Manejo."
+        "text": "As Unidades de Conservação do grupo de Uso Sustentável nunca precisam de Zona de Amortecimento nem de Plano de Manejo, com impossibilidade de mera compensação pecuniária quando viável a restauração específica."
       },
       {
         "letter": "C",
-        "text": "A Zona de Amortecimento integra a área interna nuclear da Unidade de Conservação com vedação absoluta à moradia."
+        "text": "A Zona de Amortecimento integra a área interna nuclear da Unidade de Conservação com vedação absoluta à moradia, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
@@ -5275,15 +5275,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O patrimônio genético brasileiro é livre para apropriação privada e exploração econômica internacional sem notificação ou repartição de benefícios."
+        "text": "O patrimônio genético brasileiro é livre para apropriação privada e exploração econômica internacional sem notificação ou repartição de benefícios, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "B",
-        "text": "Apenas empresas estrangeiras são obrigadas a repartir benefícios pelo uso do patrimônio genético brasileiro."
+        "text": "Apenas empresas estrangeiras são obrigadas a repartir benefícios pelo uso do patrimônio genético brasileiro, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "C",
-        "text": "A repartição de benefícios monetária recai sobre o faturamento bruto obtido na fase de pesquisa básica em laboratório universitário."
+        "text": "A repartição de benefícios monetária recai sobre o faturamento bruto obtido na fase de pesquisa básica em laboratório universitário, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental."
       },
       {
         "letter": "D",
@@ -5330,15 +5330,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os dois Estados devem emitir duas licenças prévias autônomas e concorrentes, cabendo ao empreendedor cumprir ambas integralmente."
+        "text": "Os dois Estados devem emitir duas licenças prévias autônomas e concorrentes, cabendo ao empreendedor cumprir ambas integralmente, observada a competência comum material dos entes federativos para fiscalização e proteção."
       },
       {
         "letter": "B",
-        "text": "A competência será do Município onde estiver instalada a sede administrativa da concessionária."
+        "text": "A competência será do Município onde estiver instalada a sede administrativa da concessionária, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "Compete ao Conselho Estadual definir livremente se cede o processo para a União quando houver impacto em dois Estados."
+        "text": "Compete ao Conselho Estadual definir livremente se cede o processo para a União quando houver impacto em dois Estados, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
@@ -5385,15 +5385,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A infração administrativa ambiental é imprescritível, assim como a pretensão de reparação civil do dano."
+        "text": "A infração administrativa ambiental é imprescritível, assim como a pretensão de reparação civil do dano, observada a competência comum material dos entes federativos para fiscalização e proteção. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "B",
-        "text": "A prescrição intercorrente no processo administrativo ambiental federal ocorre apenas após 10 anos de paralisação."
+        "text": "A prescrição intercorrente no processo administrativo ambiental federal ocorre apenas após 10 anos de paralisação, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico."
       },
       {
         "letter": "C",
-        "text": "Quando o fato também constituir crime ambiental com pena máxima de 4 anos, a prescrição intercorrente passa a ser de 8 anos."
+        "text": "Quando o fato também constituir crime ambiental com pena máxima de 4 anos, a prescrição intercorrente passa a ser de 8 anos, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional."
       },
       {
         "letter": "D",
@@ -5444,15 +5444,15 @@ export const AMBIENTAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Não há crime ambiental porque cães e gatos são animais domésticos sem proteção pela Lei de Crimes Ambientais."
+        "text": "Não há crime ambiental porque cães e gatos são animais domésticos sem proteção pela Lei de Crimes Ambientais. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público."
       },
       {
         "letter": "C",
-        "text": "A morte do animal absorve o crime de maus-tratos e afasta a aplicação da pena acessória de proibição de guarda."
+        "text": "A morte do animal absorve o crime de maus-tratos e afasta a aplicação da pena acessória de proibição de guarda, em consonância com os princípios da prevenção, precaução e vedação ao retrocesso ecológico."
       },
       {
         "letter": "D",
-        "text": "Trata-se do crime qualificado de maus-tratos previsto no Art. 32, § 1º-A, da Lei nº 9.605/1998, com pena de reclusão de 2 a 5 anos, multa e proibição da guarda, aumentada de um sexto a um terço caso ocorra morte do animal."
+        "text": "Trata-se do crime qualificado de maus-tratos, com pena de reclusão de 2 a 5 anos, multa e proibição da guarda, aumentada de um sexto a um terço caso ocorra morte do animal."
       }
     ],
     "correctAnswer": "D",

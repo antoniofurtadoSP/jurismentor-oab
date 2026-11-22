@@ -14,9 +14,9 @@ export const PROCESSUAL_CIVIL_QUESTIONS: LegalQuestion[] = [
 À luz do Código de Processo Civil de 2015, assinale a opção que indica o recurso cabível e o respectivo prazo:`,
     options: [
       { letter: 'A', text: 'Agravo de Instrumento, a ser interposto perante o Tribunal competente, no prazo de 15 dias úteis.' },
-      { letter: 'B', text: 'Apelação, a ser interposta perante o juízo de primeiro grau no prazo de 15 dias úteis.' },
-      { letter: 'C', text: 'Agravo Retido nos próprios autos, a ser reiterado nas razões de apelação ao final do processo.' },
-      { letter: 'D', text: 'Mandado de Segurança direto ao Presidente do Tribunal de Justiça por ausência de previsão recursal.' }
+      { letter: 'B', text: 'Apelação, a ser interposta perante o juízo de primeiro grau no prazo de 15 dias úteis, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' },
+      { letter: 'C', text: 'Agravo Retido nos próprios autos, a ser reiterado nas razões de apelação ao final do processo, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'D', text: 'Mandado de Segurança direto ao Presidente do Tribunal de Justiça por ausência de previsão recursal, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 1.015, inciso I, do CPC/2015 prevê expressamente o cabimento do Agravo de Instrumento contra decisões interlocutórias que versarem sobre "tutelas provisórias" (seja concessão, modificação ou indeferimento). O recurso deve ser protocolado diretamente no Tribunal de segundo grau no prazo de 15 dias úteis (arts. 1.003, § 5º e 219 do CPC). O agravo retido foi extinto do ordenamento pelo CPC/2015.`,
@@ -74,9 +74,9 @@ Contra essa decisão que julga antecipadamente parcela do mérito, cabe qual rec
 Com base no art. 64 e 65 do CPC/2015, ocorreu:`,
     options: [
       { letter: 'A', text: 'Prorrogação da competência territorial, tornando o juízo de Salvador plenamente competente para processar e julgar a causa.' },
-      { letter: 'B', text: 'Nulidade absoluta e insanável do processo por violação da cláusula de eleição de foro.' },
-      { letter: 'C', text: 'Dever do juiz de declinar de ofício a qualquer momento da marcha processual.' },
-      { letter: 'D', text: 'Preclusão do direito de cobrar a dívida contratual.' }
+      { letter: 'B', text: 'Nulidade absoluta e insanável do processo por violação da cláusula de eleição de foro, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'C', text: 'Dever do juiz de declinar de ofício a qualquer momento da marcha processual, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'D', text: 'Preclusão do direito de cobrar a dívida contratual, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' }
     ],
     correctAnswer: 'A',
     justification: `A incompetência territorial é de natureza relativa. Nos termos do art. 64 do CPC/2015, a incompetência relativa deve ser alegada como preliminar de contestação. Se o réu não alegar a incompetência relativa no prazo da resposta, opera-se a prorrogação da competência (art. 65 do CPC), fixando-se a jurisdição do juízo prevento e convalidando todos os atos.`,
@@ -104,9 +104,9 @@ Com base no art. 64 e 65 do CPC/2015, ocorreu:`,
 Diante das normas que disciplinam a fase de cumprimento de sentença no CPC/2015:`,
     options: [
       { letter: 'A', text: 'O executado tem novo prazo de 15 dias para apresentar Impugnação ao Cumprimento de Sentença, devendo declarar de imediato na petição o valor que entende correto sob pena de não conhecimento do excesso.' },
-      { letter: 'B', text: 'A via processual adequada é a interposição de Embargos à Execução com efeito suspensivo automático.' },
-      { letter: 'C', text: 'O executado só pode impugnar se depositar previamente a quantia total executada sem qualquer ressalva.' },
-      { letter: 'D', text: 'Não incide multa de 10% se o devedor manifestar intenção de parcelar a dívida na impugnação.' }
+      { letter: 'B', text: 'A via processual adequada é a interposição de Embargos à Execução com efeito suspensivo automático, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' },
+      { letter: 'C', text: 'O executado só pode impugnar se depositar previamente a quantia total executada sem qualquer ressalva, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'D', text: 'Não incide multa de 10% se o devedor manifestar intenção de parcelar a dívida na impugnação, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 525, caput do CPC/2015 estabelece que, transcorrido o prazo de 15 dias para pagamento voluntário sem a sua realização, inicia-se automaticamente outro prazo sucessivo de 15 dias para que o executado, independentemente de penhora ou garantia do juízo, apresente Impugnação ao Cumprimento de Sentença. Quando alegar excesso de execução, o executado deve obrigatoriamente declarar o valor incontroverso correto acompanhado de demonstrativo de cálculo discriminado (art. 525, § 4º e § 5º), sob pena de não conhecimento deste fundamento.`,
@@ -134,8 +134,8 @@ Diante da Teoria da Causa Madura insculpida no Art. 1.013, § 3º do CPC/2015, o
     options: [
       { letter: 'A', text: 'Julgar desde logo o mérito da ação sem devolver os autos à primeira instância, pois o processo já está em condições de imediato julgamento.' },
       { letter: 'B', text: 'Anular a sentença e obrigatoriamente devolver os autos à comarca de origem para o magistrado proferir nova decisão sob pena de supressão de instância.' },
-      { letter: 'C', text: 'Suspender o julgamento e suscitar incidente de assunção de competência perante o Órgão Especial.' },
-      { letter: 'D', text: 'Rejeitar a apelação e converter o procedimento em arbitragem obrigatória.' }
+      { letter: 'C', text: 'Suspender o julgamento e suscitar incidente de assunção de competência perante o Órgão Especial, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'D', text: 'Rejeitar a apelação e converter o procedimento em arbitragem obrigatória, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 1.013, § 3º, inciso I do CPC/2015 consagra expressamente a TEORIA DA CAUSA MADURA. Se o Tribunal reformar sentença fundada no art. 485 (sem resolução do mérito) e o processo estiver em condições de imediato julgamento (todas as provas documentadas e respeitado o contraditório), o próprio Tribunal DEVE julgar desde logo o mérito, privilegiando a celeridade e a razoável duração do processo, não ocorrendo vedada supressão de instância.`,
@@ -162,9 +162,9 @@ Diante da Teoria da Causa Madura insculpida no Art. 1.013, § 3º do CPC/2015, o
 De acordo com o Art. 304 do CPC/2015, o que ocorre com a tutela antecipada concedida?`,
     options: [
       { letter: 'A', text: 'A tutela antecipada torna-se estável, extinguindo-se o processo sem resolução de mérito, podendo qualquer das partes intentar ação própria para rever, reformar ou invalidar a tutela no prazo decadencial de 2 anos.' },
-      { letter: 'B', text: 'A tutela converte-se automaticamente em coisa julgada material irrecorrível e imutável.' },
-      { letter: 'C', text: 'O processo é compulsoriamente remetido ao Tribunal de Justiça para reexame necessário.' },
-      { letter: 'D', text: 'O autor é obrigado a aditar a petição inicial sob pena de revogação da tutela já concedida.' }
+      { letter: 'B', text: 'A tutela converte-se automaticamente em coisa julgada material irrecorrível e imutável, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'C', text: 'O processo é compulsoriamente remetido ao Tribunal de Justiça para reexame necessário, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'D', text: 'O autor é obrigado a aditar a petição inicial sob pena de revogação da tutela já concedida, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' }
     ],
     correctAnswer: 'A',
     justification: `Nos termos do Art. 304 do CPC/2015, a tutela antecipada concedida em caráter antecedente ESTABILIZA-SE se da decisão que a conceder não for interposto o respectivo recurso (agravo de instrumento). Uma vez estabilizada a tutela, o processo será extinto sem resolução de mérito (§ 1º). A tutela estável NÃO faz coisa julgada material (§ 6º), mas qualquer das partes pode ajuizar ação autônoma para rever, reformar ou invalidá-la no prazo decadencial de 2 (dois) anos (§ 2º e § 5º).`,
@@ -191,9 +191,9 @@ De acordo com o Art. 304 do CPC/2015, o que ocorre com a tutela antecipada conce
 Nos moldes do CPC/2015 e da Súmula 537 do STJ, a modalidade de intervenção de terceiros adequada a ser requerida por Rodrigo é:`,
     options: [
       { letter: 'A', text: 'Denunciação da lide, sendo admitida a condenação direta e solidária da seguradora perante o autor nos limites da apólice.' },
-      { letter: 'B', text: 'Chamamento ao processo, por se tratar de fiança contratual consumerista.' },
-      { letter: 'C', text: 'Amicus curiae, em razão do interesse difuso no equilíbrio financeiro atuarial securitário.' },
-      { letter: 'D', text: 'Oposição, formulada em autos apartados contra ambas as partes da lide.' }
+      { letter: 'B', text: 'Chamamento ao processo, por se tratar de fiança contratual consumerista, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'C', text: 'Amicus curiae, em razão do interesse difuso no equilíbrio financeiro atuarial securitário, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual.' },
+      { letter: 'D', text: 'Oposição, formulada em autos apartados contra ambas as partes da lide, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' }
     ],
     correctAnswer: 'A',
     justification: `A denunciação da lide (art. 125, II do CPC/2015) é cabível contra aquele que estiver obrigado, por lei ou pelo contrato, a indenizar, em ação regressiva, o prejuízo de quem for vencido no processo. A Súmula 537 do STJ consagrou que 'em ação de reparação de danos, a seguradora denunciada, se aceitar a denunciação ou contestar o pedido do autor, pode ser condenada, direta e solidariamente junto com o segurado, a pagar a indenização devida à vítima, nos limites contratados na apólice'.`,
@@ -222,19 +222,19 @@ Considerando o rol do Art. 1.015 do CPC/2015 e a tese vinculante do Tema 988 do 
     options: [
       {
         letter: 'A',
-        text: 'A decisão sobre redistribuição do ônus da prova consta expressamente no art. 1.015, XI do CPC; quanto à competência, admite-se o Agravo de Instrumento pela taxatividade mitigada se comprovada a inutilidade de julgar a questão apenas na futura apelação.'
+        text: 'A decisão sobre redistribuição do ônus da prova consta expressamente; quanto à competência, admite-se o Agravo de Instrumento pela taxatividade mitigada se comprovada a inutilidade de julgar a questão apenas na futura apelação.'
       },
       {
         letter: 'B',
-        text: 'Nenhuma decisão interlocutória pode ser agravada, cabendo agravo apenas contra concessão de tutela de urgência.'
+        text: 'Nenhuma decisão interlocutória pode ser agravada, cabendo agravo apenas contra concessão de tutela de urgência, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação.'
       },
       {
         letter: 'C',
-        text: 'O rol do art. 1.015 do CPC é meramente exemplificativo, cabendo Agravo contra toda e qualquer decisão interlocutória sem restrições.'
+        text: 'O rol é meramente exemplificativo, cabendo Agravo contra toda e qualquer decisão interlocutória sem restrições, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.'
       },
       {
         letter: 'D',
-        text: 'O único remédio cabível contra decisões interlocutórias fora do rol é a impetração imediata de Mandado de Segurança perante o Tribunal.'
+        text: 'O único remédio cabível contra decisões interlocutórias fora do rol é a impetração imediata de Mandado de Segurança perante o Tribunal, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.'
       }
     ],
     correctAnswer: 'A',
@@ -268,15 +268,15 @@ Conforme as regras do Art. 311 do CPC/2015 que regem a Tutela da Evidência:`,
       },
       {
         letter: 'B',
-        text: 'A tutela da evidência exige cumulativamente o fumus boni iuris e o periculum in mora em todas as suas hipóteses.'
+        text: 'A tutela da evidência exige cumulativamente o fumus boni iuris e o periculum in mora em todas as suas hipóteses, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.'
       },
       {
         letter: 'C',
-        text: 'É cabível apenas na fase de execução forçada, sendo vedada no procedimento comum de conhecimento.'
+        text: 'É cabível apenas na fase de execução forçada, sendo vedada no procedimento comum de conhecimento, com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível.'
       },
       {
         letter: 'D',
-        text: 'Exige necessariamente a prestação de caução idônea em dinheiro no valor total do crédito cobrado.'
+        text: 'Exige necessariamente a prestação de caução idônea em dinheiro no valor total do crédito cobrado, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação.'
       }
     ],
     correctAnswer: 'A',
@@ -310,15 +310,15 @@ Nos moldes do Art. 523, § 1º e Art. 525 do CPC/2015, qual a consequência imed
       },
       {
         letter: 'B',
-        text: 'O juiz decretará a prisão civil dos administradores e bloqueará as contas com acréscimo de 50% a título de astreintes.'
+        text: 'O juiz decretará a prisão civil dos administradores e bloqueará as contas com acréscimo de 50% a título de astreintes, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.'
       },
       {
         letter: 'C',
-        text: 'A impugnação deve ser apresentada dentro dos mesmos 15 dias do pagamento, sob pena de preclusão absoluta.'
+        text: 'A impugnação deve ser apresentada dentro dos mesmos 15 dias do pagamento, sob pena de preclusão absoluta, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.'
       },
       {
         letter: 'D',
-        text: 'Apresentada a impugnação, os honorários e a multa de 10% são cancelados retroativamente de pleno direito.'
+        text: 'Apresentada a impugnação, os honorários e a multa de 10% são cancelados retroativamente de pleno direito, sem exigência de caução prévia ou intimação complementar da parte adversa para efetivação.'
       }
     ],
     correctAnswer: 'A',

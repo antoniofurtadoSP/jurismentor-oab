@@ -13,10 +13,10 @@ export const ETICA_QUESTIONS: LegalQuestion[] = [
     statement: `Lucas, advogado com dez anos de atuação profissional ilibada, foi aprovado em concurso público e tomou posse no cargo efetivo de Diretor-Geral de Secretaria de Vara Cível do Tribunal de Justiça do respectivo Estado. Lucas procura seu antigo sócio para saber como ficará sua inscrição nos quadros da OAB e se poderá continuar patrocinando as causas cíveis de seus familiares mais próximos.
 Considerando o que dispõe a Lei nº 8.906/94 (Estatuto da Advocacia e da OAB), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Lucas terá sua inscrição cancelada perante a OAB, sendo vedada qualquer atividade de advocacia em caráter definitivo.' },
+      { letter: 'A', text: 'Lucas terá sua inscrição cancelada perante a OAB, sendo vedada qualquer atividade de advocacia em caráter definitivo, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional.' },
       { letter: 'B', text: 'Lucas terá sua inscrição suspensa perante a OAB, pois o exercício de cargo de direção no Poder Judiciário gera incompatibilidade temporária com a advocacia.' },
       { letter: 'C', text: 'Lucas terá sua inscrição cancelada perante a OAB, em razão de o cargo ser incompatível de modo definitivo, mesmo em causa própria ou de familiares.' },
-      { letter: 'D', text: 'Lucas sofrerá apenas impedimento para advogar contra a Fazenda Pública estadual que o remunera, podendo atuar livremente na Justiça Federal e em causas familiares.' }
+      { letter: 'D', text: 'Lucas sofrerá apenas impedimento para advogar contra a Fazenda Pública estadual que o remunera, podendo atuar livremente na Justiça Federal e em causas familiares, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local.' }
     ],
     correctAnswer: 'B',
     justification: `A investidura em cargo de direção ou chefia no Poder Judiciário acarreta incompatibilidade temporária com o exercício da advocacia (art. 28, inciso IV, da Lei nº 8.906/94). Como se trata de cargo público passível de exoneração voluntária, opera-se o licenciamento/suspensão do exercício (art. 12, inciso II, do EAOAB), e não o cancelamento definitivo (reservado às hipóteses do art. 11).`,
@@ -43,10 +43,10 @@ Considerando o que dispõe a Lei nº 8.906/94 (Estatuto da Advocacia e da OAB), 
     statement: `Mariana celebrou contrato de prestação de serviços advocatícios com o cliente Roberto para ajuizamento de reclamatória trabalhista. No contrato, convencionou-se a cláusula de quota litis (honorários de êxito no percentual de 30% do benefício econômico obtido). Ao final da execução vitoriosa, Roberto recebeu valores e Mariana reteve 30% acordados a título de honorários contratuais, além de levantar integralmente os honorários de sucumbência arbitrados pelo juiz em 15%. Roberto insurgiu-se alegando que Mariana não poderia cumular ambas as verbas.
 Sobre os honorários advocatícios e a cláusula quota litis, assinale a afirmativa correta segundo o Código de Ética e Disciplina da OAB:`,
     options: [
-      { letter: 'A', text: 'A cumulação é vedada em qualquer hipótese, devendo o advogado optar ou pelos honorários contratuais ou pelos sucumbenciais.' },
+      { letter: 'A', text: 'A cumulação é vedada em qualquer hipótese, devendo o advogado optar ou pelos honorários contratuais ou pelos sucumbenciais, sob pena de configuração de infração ético-disciplinar apurável no órgão competente.' },
       { letter: 'B', text: 'A cláusula quota litis é admitida excepcionalmente, desde que a soma dos honorários contratuais com os sucumbenciais não ultrapasse as vantagens auferidas pelo próprio cliente.' },
-      { letter: 'C', text: 'Os honorários de sucumbência pertencem com exclusividade ao cliente para recomposição de seus prejuízos contratuais.' },
-      { letter: 'D', text: 'A cláusula quota litis é nula de pleno direito no processo trabalhista por envolver crédito de natureza estritamente alimentar.' }
+      { letter: 'C', text: 'Os honorários de sucumbência pertencem com exclusividade ao cliente para recomposição de seus prejuízos contratuais, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local.' },
+      { letter: 'D', text: 'A cláusula quota litis é nula de pleno direito no processo trabalhista por envolver crédito de natureza estritamente alimentar, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente.' }
     ],
     correctAnswer: 'B',
     justification: `Nos termos do Art. 50 do Código de Ética e Disciplina da OAB (CED), a adoção da cláusula quota litis é admitida excepcionalmente quando o cliente não possuir condições financeiras, com a estrita limitação de que os honorários contratuais acrescidos dos honorários sucumbenciais não podem ser superiores aos valores líquidos percebidos pelo cliente.`,
@@ -74,9 +74,9 @@ Sobre os honorários advocatícios e a cláusula quota litis, assinale a afirmat
 Diante das prerrogativas da advocacia insculpidas na Lei nº 8.906/94 (EAOAB), assinale a afirmativa correta:`,
     options: [
       { letter: 'A', text: 'Felipe tem o direito e o dever de recusar-se a depor como testemunha sobre fatos de que tomou conhecimento no exercício profissional, mesmo se desobrigado pelo cliente.' },
-      { letter: 'B', text: 'Felipe é obrigado a depor caso o constituinte o autorize formalmente por escrito, cessando de pronto o sigilo profissional.' },
-      { letter: 'C', text: 'Felipe somente poderia recusar-se a depor se tivesse procuração com poderes especiais outorgada pelo investigado.' },
-      { letter: 'D', text: 'A autoridade policial pode conduzir coercitivamente o advogado para depor caso a apuração verse sobre organização criminosa.' }
+      { letter: 'B', text: 'Felipe é obrigado a depor caso o constituinte o autorize formalmente por escrito, cessando de pronto o sigilo profissional, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional.' },
+      { letter: 'C', text: 'Felipe somente poderia recusar-se a depor se tivesse procuração com poderes especiais outorgada pelo investigado, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente.' },
+      { letter: 'D', text: 'A autoridade policial pode conduzir coercitivamente o advogado para depor caso a apuração verse sobre organização criminosa, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 7º, inciso XIX, do EAOAB assegura ao advogado o direito de recusar-se a depor como testemunha em processo no qual funcionou ou deva funcionar, ou sobre fatos relacionados com pessoa de quem seja ou foi advogado, mesmo quando autorizado ou desobrigado pelo constituinte. O sigilo profissional é de ordem pública.`,
@@ -103,9 +103,9 @@ Diante das prerrogativas da advocacia insculpidas na Lei nº 8.906/94 (EAOAB), a
 Consoante o Estatuto da Advocacia e da OAB (Lei 8.906/94):`,
     options: [
       { letter: 'A', text: 'Nenhum advogado pode integrar mais de uma sociedade de advogados na mesma área territorial do respectivo Conselho Seccional, e é vedada a participação de não-advogado como sócio.' },
-      { letter: 'B', text: 'Bruno pode integrar quantas sociedades desejar no mesmo Estado, desde que não atue simultaneamente nos mesmos processos.' },
-      { letter: 'C', text: 'Rodrigo pode ser sócio minoritário com poderes restritos de gestão administrativa e financeira.' },
-      { letter: 'D', text: 'A sociedade pode ter natureza empresária se optar pelo registro na Junta Comercial do Estado.' }
+      { letter: 'B', text: 'Bruno pode integrar quantas sociedades desejar no mesmo Estado, desde que não atue simultaneamente nos mesmos processos, em observância rigorosa aos deveres institucionais e às normas disciplinares da categoria.' },
+      { letter: 'C', text: 'Rodrigo pode ser sócio minoritário com poderes restritos de gestão administrativa e financeira, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional.' },
+      { letter: 'D', text: 'A sociedade pode ter natureza empresária se optar pelo registro na Junta Comercial do Estado, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 15, § 4º do EAOAB veda expressamente que o advogado integre mais de uma sociedade de advogados ou sociedade individual com sede na mesma base territorial do respectivo Conselho Seccional. Além disso, o art. 16, § 1º proíbe o registro de sociedade que contenha sócio não inscrito como advogado.`,
@@ -132,10 +132,10 @@ Consoante o Estatuto da Advocacia e da OAB (Lei 8.906/94):`,
     statement: `Advogado recebeu quantia de R$ 80.000,00 mediante alvará judicial expedido em nome de sua cliente. O advogado reteve o valor integral por mais de 8 meses, ignorando ligações e notificações da constituinte, prestando contas somente após a instauração de representação disciplinar no Tribunal de Ética e Disciplina (TED).
 Diante da conduta do advogado, assinale a sanção disciplinar prevista no EAOAB:`,
     options: [
-      { letter: 'A', text: 'Censura, conversível em advertência em caso de primariedade.' },
+      { letter: 'A', text: 'Censura, conversível em advertência em caso de primariedade, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional.' },
       { letter: 'B', text: 'Suspensão pelo prazo de 30 dias a 12 meses, prorrogável até a efetiva prestação de contas e devolução dos valores.' },
-      { letter: 'C', text: 'Exclusão sumária imediata sem direito a recurso.' },
-      { letter: 'D', text: 'Multa administrativa de até 10 anuidades, sem afastar a regularidade da inscrição.' }
+      { letter: 'C', text: 'Exclusão sumária imediata sem direito a recurso, sob pena de configuração de infração ético-disciplinar apurável no órgão competente.' },
+      { letter: 'D', text: 'Multa administrativa de até 10 anuidades, sem afastar a regularidade da inscrição, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente.' }
     ],
     correctAnswer: 'B',
     justification: `A recusa injustificada em prestar contas ou o locupletamento à custa do cliente constitui infração disciplinar sancionada com SUSPENSÃO (art. 37, I do EAOAB). No caso de não prestação de contas e locupletamento (art. 34, XX e XXI), a suspensão perdura até que o profissional satisfaça integralmente a dívida (art. 37, § 2º).`,
@@ -162,9 +162,9 @@ Diante da conduta do advogado, assinale a sanção disciplinar prevista no EAOAB
 À luz do Estatuto da Advocacia (Lei 8.906/94 com as alterações das Leis 14.365/22):`,
     options: [
       { letter: 'A', text: 'O mandado é ilegal, pois a inviolabilidade do escritório somente pode ser excepcionada quando houver indícios de autoria ou participação do próprio advogado em crime, sendo nula a ordem genérica ou voltada exclusivamente contra cliente não corréu do causídico.' },
-      { letter: 'B', text: 'O mandado é plenamente válido, bastando que a diligência seja acompanhada por um representante da OAB nomeado pela comarca.' },
-      { letter: 'C', text: 'A autoridade policial pode apreender todos os computadores do escritório sem restrição, desde que pericie apenas as pastas com o nome do cliente investigado.' },
-      { letter: 'D', text: 'A inviolabilidade do escritório é absoluta e impassível de mitigação, nem mesmo na hipótese de o próprio advogado figurar como investigado.' }
+      { letter: 'B', text: 'O mandado é plenamente válido, bastando que a diligência seja acompanhada por um representante da OAB nomeado pela comarca, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional.' },
+      { letter: 'C', text: 'A autoridade policial pode apreender todos os computadores do escritório sem restrição, desde que pericie apenas as pastas com o nome do cliente investigado, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local.' },
+      { letter: 'D', text: 'A inviolabilidade do escritório é absoluta e impassível de mitigação, nem mesmo na hipótese de o próprio advogado figurar como investigado, sob pena de configuração de infração ético-disciplinar apurável no órgão competente. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 7º, II e § 6º da Lei 8.906/94 (com a redação dada pela Lei 14.365/2022) assegura a inviolabilidade de seu escritório, de seus instrumentos de trabalho e de sua correspondência. A quebra de inviolabilidade por mandado de busca e apreensão exige que haja indícios de autoria e materialidade de crime praticado pelo PRÓPRIO advogado, sendo expressamente vedada a expedição de mandado de busca e apreensão com o objetivo exclusivo de atingir cliente do advogado não investigado conjuntamente com ele, além de ser nula a ordem genérica (art. 7º, § 6º-F).`,
@@ -191,9 +191,9 @@ Diante da conduta do advogado, assinale a sanção disciplinar prevista no EAOAB
 Sobre as regras de publicidade na advocacia (Provimento nº 205/2021 do CFOAB e Código de Ética e Disciplina), é correto afirmar que:`,
     options: [
       { letter: 'A', text: 'A conduta de Júlia viola a ética profissional, pois a publicidade jurídica deve ser meramente informativa, discreta e moderada, sendo vedada a mercantilização, distribuição de panfletos, faixas em vias públicas e a veiculação em rádio ou televisão.' },
-      { letter: 'B', text: 'As condutas são lícitas com base na liberdade de concorrência e publicidade comercial assegurada pela Lei de Liberdade Econômica.' },
-      { letter: 'C', text: 'Apenas a veiculação em rádio é vedada, sendo autorizada a panfletagem física se o advogado atuar no ramo do direito consumerista.' },
-      { letter: 'D', text: 'Júlia pode divulgar livremente preços e descontos promocionais para facilitar o acesso à justiça dos hipossuficientes.' }
+      { letter: 'B', text: 'As condutas são lícitas com base na liberdade de concorrência e publicidade comercial assegurada pela Lei de Liberdade Econômica, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional.' },
+      { letter: 'C', text: 'Apenas a veiculação em rádio é vedada, sendo autorizada a panfletagem física se o advogado atuar no ramo do direito consumerista, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão.' },
+      { letter: 'D', text: 'Júlia pode divulgar livremente preços e descontos promocionais para facilitar o acesso à justiça dos hipossuficientes, com validação imediata dos atos profissionais independentemente de formalidade complementar.' }
     ],
     correctAnswer: 'A',
     justification: `O Provimento CFOAB nº 205/2021 e os arts. 39 a 47-A do Código de Ética e Disciplina da OAB estabelecem que a publicidade profissional deve ter caráter meramente informativo e primar pela discrição e sobriedade, não podendo configurar captação indevida de clientela ou mercantilização da profissão. É expressamente vedada a veiculação de publicidade em rádio, cinema e televisão, o uso de outdoors, faixas, muros, a distribuição de panfletos e a menção a valores de serviços ou promessas de resultados.`,
@@ -221,9 +221,9 @@ Sobre as regras de publicidade na advocacia (Provimento nº 205/2021 do CFOAB e 
 Conforme o art. 5º, § 3º da Lei 8.906/94 e o Código de Processo Civil:`,
     options: [
       { letter: 'A', text: 'André deve continuar a representar o constituinte durante os 10 (dez) dias seguintes à notificação da renúncia, salvo se for substituído antes do término desse prazo.' },
-      { letter: 'B', text: 'André fica imediatamente exonerado de qualquer obrigação processual no momento exato em que subscrever a petição de renúncia.' },
-      { letter: 'C', text: 'André deve obrigatoriamente patrocinar o processo até o trânsito em julgado se a renúncia ocorrer em fase recursal.' },
-      { letter: 'D', text: 'O prazo de permanência compulsória de André após a renúncia é de 15 (quinze) dias úteis.' }
+      { letter: 'B', text: 'André fica imediatamente exonerado de qualquer obrigação processual no momento exato em que subscrever a petição de renúncia, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional.' },
+      { letter: 'C', text: 'André deve obrigatoriamente patrocinar o processo até o trânsito em julgado se a renúncia ocorrer em fase recursal, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente.' },
+      { letter: 'D', text: 'O prazo de permanência compulsória de André após a renúncia é de 15 (quinze) dias úteis, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 5º, § 3º do Estatuto da OAB (Lei 8.906/94) e o art. 112, § 1º do CPC/2015 preveem expressamente que o advogado que renunciar ao mandato continuará a representar o mandante nos 10 (dez) dias seguintes à notificação da renúncia, para evitar prejuízos ao cliente, salvo se for substituído antes desse prazo.`,
@@ -255,15 +255,15 @@ Conforme o art. 5º, § 3º da Lei 8.906/94 e o Código de Processo Civil:`,
       },
       {
         letter: 'B',
-        text: 'Plenamente válida, pois vigora a ampla autonomia da vontade contratual sem qualquer teto percentual em contratos de risco.'
+        text: 'Plenamente válida, pois vigora a ampla autonomia da vontade contratual sem qualquer teto percentual em contratos de risco. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito.'
       },
       {
         letter: 'C',
-        text: 'Nula de pleno direito, pois a cláusula quota litis é terminantemente proibida em qualquer hipótese no direito brasileiro.'
+        text: 'Nula de pleno direito, pois a cláusula quota litis é terminantemente proibida em qualquer hipótese no direito brasileiro. Tal conduta repercute na regularidade estatutária dos atos praticados pelo profissional.'
       },
       {
         letter: 'D',
-        text: 'Válida apenas se o advogado aceitar receber exclusivamente em bens imóveis.'
+        text: 'Válida apenas se o advogado aceitar receber exclusivamente em bens imóveis, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente.'
       }
     ],
     correctAnswer: 'A',
@@ -297,15 +297,15 @@ Conforme o art. 5º, § 3º da Lei 8.906/94 e o Código de Processo Civil:`,
       },
       {
         letter: 'B',
-        text: 'A diligência é lícita, pois a inviolabilidade do escritório aplica-se unicamente ao domicílio residencial particular do advogado.'
+        text: 'A diligência é lícita, pois a inviolabilidade do escritório aplica-se unicamente ao domicílio residencial particular do advogado. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito.'
       },
       {
         letter: 'C',
-        text: 'A presença de representante da OAB é mera formalidade facultativa que não acarreta nulidade processual.'
+        text: 'A presença de representante da OAB é mera formalidade facultativa que não acarreta nulidade processual, sob pena de configuração de infração ético-disciplinar apurável no órgão competente.'
       },
       {
         letter: 'D',
-        text: 'O sigilo profissional do advogado cessa automaticamente se o crime investigado envolver crimes financeiros ou corrupção.'
+        text: 'O sigilo profissional do advogado cessa automaticamente se o crime investigado envolver crimes financeiros ou corrupção, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local.'
       }
     ],
     correctAnswer: 'A',

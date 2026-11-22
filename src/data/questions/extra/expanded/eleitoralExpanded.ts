@@ -17,19 +17,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A lei nova aplica-se imediatamente às eleições de outubro de 2026 porque foi publicada mais de seis meses antes do pleito."
+        "text": "A lei nova aplica-se imediatamente às eleições de outubro de 2026 porque foi publicada mais de seis meses antes do pleito. Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito."
       },
       {
         "letter": "B",
-        "text": "O princípio da anterioridade eleitoral aplica-se apenas a leis ordinárias, não alcançando emendas constitucionais que mudam regras eleitorais."
+        "text": "O princípio da anterioridade eleitoral aplica-se apenas a leis ordinárias, não alcançando emendas constitucionais que mudam regras eleitorais, com cassação do registro ou diploma e imposição de multa após regular instrução processual."
       },
       {
         "letter": "C",
-        "text": "Mudanças de jurisprudência do TSE sem alteração legal nunca estão sujeitas à anterioridade anual eleitoral."
+        "text": "Mudanças de jurisprudência do TSE sem alteração legal nunca estão sujeitas à anterioridade anual eleitoral, em estrita observância à soberania popular, à legitimidade do pleito e à isonomia eleitoral. A inobservância do preceito submete o candidato e a agremiação às sanções da Justiça Eleitoral."
       },
       {
         "letter": "D",
-        "text": "A lei entra em vigor na data de sua publicação, mas NÃO se aplica à eleição de outubro de 2026, pois a lei que alterar o processo eleitoral entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até um ano da data de sua vigência (Art. 16 CF)."
+        "text": "A lei entra em vigor na data de sua publicação, mas não se aplica à eleição de outubro de 2026, pois a lei que alterar o processo eleitoral entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até um ano da data de sua vigência."
       }
     ],
     "correctAnswer": "D",
@@ -73,19 +73,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Estados possuem competência concorrente para legislar sobre inelegibilidades e prazos eleitorais nas eleições estaduais e municipais."
+        "text": "Os Estados possuem competência concorrente para legislar sobre inelegibilidades e prazos eleitorais nas eleições estaduais e municipais, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "As resoluções expedidas pelo Tribunal Superior Eleitoral têm força de lei complementar e podem criar livremente novas hipóteses de inelegibilidade."
+        "text": "As resoluções expedidas pelo Tribunal Superior Eleitoral têm força de lei complementar e podem criar livremente novas hipóteses de inelegibilidade, com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial."
       },
       {
         "letter": "C",
-        "text": "As instruções do TSE sobre eleições devem ser expedidas até 15 de agosto do ano da eleição."
+        "text": "As instruções do TSE sobre eleições devem ser expedidas até 15 de agosto do ano da eleição, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "A lei estadual é formalmente inconstitucional, pois compete privativamente à União legislar sobre direito eleitoral (Art. 22, I, CF), cabendo ao TSE expedir instruções (resoluções com caráter regulamentar, sem inovar na criação de inelegibilidades ou penas) até 5 de março do ano eleitoral."
+        "text": "A lei estadual é formalmente inconstitucional, pois compete privativamente à União legislar sobre direito eleitoral, cabendo ao TSE expedir instruções até 5 de março do ano eleitoral."
       }
     ],
     "correctAnswer": "D",
@@ -136,11 +136,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Os Ministros do TSE e membros dos TREs possuem vitaliciedade permanente na Justiça Eleitoral até completarem 75 anos de idade."
+        "text": "Os Ministros do TSE e membros dos TREs possuem vitaliciedade permanente na Justiça Eleitoral até completarem 75 anos de idade, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "D",
-        "text": "São órgãos da Justiça Eleitoral o TSE, os TREs, os Juízes Eleitorais e as Juntas Eleitorais (Art. 118 CF); trata-se de ramo especializado da Justiça da União que NÃO possui quadro próprio de juízes concursados permanentes, atuando magistrados oriundos de outros tribunais, juristas indicados pela OAB e juízes de direito estaduais por mandatos temporários de 2 anos."
+        "text": "São órgãos da Justiça Eleitoral o TSE, os TREs, os Juízes Eleitorais e as Juntas Eleitorais."
       }
     ],
     "correctAnswer": "D",
@@ -183,19 +183,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Presidente e o Vice-Presidente do Tribunal Superior Eleitoral são escolhidos livremente pelo Presidente da República dentre os advogados da classe dos juristas."
+        "text": "O Presidente e o Vice-Presidente do Tribunal Superior Eleitoral são escolhidos livremente pelo Presidente da República dentre os advogados da classe dos juristas, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "Os Tribunais Regionais Eleitorais são presididos pelo Juiz Federal integrante da corte regional eleitoral."
+        "text": "Os Tribunais Regionais Eleitorais são presididos pelo Juiz Federal integrante da corte regional eleitoral, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "C",
-        "text": "O número de integrantes do Tribunal Superior Eleitoral é taxativamente fixado em 11 Ministros pela Constituição."
+        "text": "O número de integrantes do Tribunal Superior Eleitoral é taxativamente fixado em 11 Ministros pela Constituição, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "D",
-        "text": "O TSE compõe-se de no mínimo 7 membros (3 Ministros do STF, 2 Ministros do STJ, eleitos pelo voto secreto dos respectivos tribunais, e 2 advogados nomeados pelo Presidente da República dentre 6 indicados pelo STF); já o TRE compõe-se de 2 Desembargadores do TJ, 2 Juízes de Direito escolhidos pelo TJ, 1 Juiz Federal do TRF e 2 advogados nomeados pelo Presidente dentre 6 indicados pelo TJ."
+        "text": "O TSE compõe-se de no mínimo 7 membros; já o TRE compõe-se de 2 Desembargadores do TJ, 2 Juízes de Direito escolhidos pelo TJ, 1 Juiz Federal do TRF e 2 advogados nomeados pelo Presidente dentre 6 indicados pelo TJ."
       }
     ],
     "correctAnswer": "D",
@@ -238,19 +238,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os membros das Juntas Eleitorais são indicados diretamente pelos diretórios municipais dos partidos políticos concorrentes."
+        "text": "Os membros das Juntas Eleitorais são indicados diretamente pelos diretórios municipais dos partidos políticos concorrentes, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "B",
-        "text": "Compete às Juntas Eleitorais diplomar os deputados federais, senadores e governadores eleitos nos estados."
+        "text": "Compete às Juntas Eleitorais diplomar os deputados federais, senadores e governadores eleitos nos estados, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "C",
-        "text": "Todas as decisões da Junta Eleitoral sobre apuração são irrecorríveis em qualquer instância."
+        "text": "Todas as decisões da Junta Eleitoral sobre apuração são irrecorríveis em qualquer instância, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "D",
-        "text": "Cada Junta Eleitoral compõe-se de um Juiz de Direito (que será o Presidente) e de 2 ou 4 cidadãos de notória idoneidade, nomeados pelo Presidente do TRE após aprovação do Tribunal (60 dias antes das eleições), competindo-lhes apurar as eleições nas zonas, resolver impugnações de apuração, expedir boletins e diplomar os eleitos nas eleições municipais."
+        "text": "Cada Junta Eleitoral compõe-se de um Juiz de Direito e de 2 ou 4 cidadãos de notória idoneidade, nomeados pelo Presidente do TRE após aprovação do Tribunal, competindo-lhes apurar as eleições nas zonas, resolver impugnações de apuração, expedir boletins e diplomar os eleitos nas eleições municipais."
       }
     ],
     "correctAnswer": "D",
@@ -293,19 +293,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A atuação perante as zonas eleitorais municipais e perante os TREs compete exclusivamente aos Procuradores da República (MPF) em todo o país."
+        "text": "A atuação perante as zonas eleitorais municipais e perante os TREs compete exclusivamente aos Procuradores da República (mpf) em todo o país, com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão."
       },
       {
         "letter": "B",
-        "text": "O Procurador Regional Eleitoral perante o TRE é o Procurador-Geral de Justiça do Ministério Público Estadual."
+        "text": "O Procurador Regional Eleitoral perante o TRE é o Procurador-Geral de Justiça do Ministério Público Estadual, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "O Ministério Público Eleitoral atua apenas na propositura de ações penais eleitorais, não tendo legitimidade para propor AIJE ou AIME."
+        "text": "O Ministério Público Eleitoral atua apenas na propositura de ações penais eleitorais, não tendo legitimidade para propor aije ou aime, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "O Ministério Público Eleitoral não possui carreira própria autônoma: perante o TSE atua o Procurador-Geral Eleitoral (que é o Procurador-Geral da República); perante os TREs atua o Procurador Regional Eleitoral (membro do MPF); e perante os Juízes e Juntas Eleitorais atua o Promotor Eleitoral (membro do Ministério Público Estadual local)."
+        "text": "O Ministério Público Eleitoral não possui carreira própria autônoma: perante o TSE atua o Procurador-Geral Eleitoral; perante os TREs atua o Procurador Regional Eleitoral (membro do mpf)."
       }
     ],
     "correctAnswer": "D",
@@ -348,7 +348,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O analfabeto é proibido de alistar-se como eleitor e de votar no Brasil, integrando o grupo dos inalistáveis."
+        "text": "O analfabeto é proibido de alistar-se como eleitor e de votar no Brasil, integrando o grupo dos inalistáveis, em estrita observância à soberania popular, à legitimidade do pleito e à isonomia eleitoral."
       },
       {
         "letter": "B",
@@ -356,11 +356,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A obrigatoriedade do voto estende-se até os 65 anos de idade, tornando-se facultativa aos 66 anos."
+        "text": "A obrigatoriedade do voto estende-se até os 65 anos de idade, tornando-se facultativa aos 66 anos, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "D",
-        "text": "Para todos os três — maiores de 16 e menores de 18 anos, analfabetos e maiores de 70 anos — o alistamento eleitoral e o voto são FACULTATIVOS; porém, o analfabeto, embora possa votar, é INELEGÍVEL (Art. 14, § 4º, CF)."
+        "text": "Para todos os três — maiores de 16 e menores de 18 anos, analfabetos e maiores de 70 anos — o alistamento eleitoral e o voto são facultativos."
       }
     ],
     "correctAnswer": "D",
@@ -403,19 +403,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todos os integrantes permanentes de carreira das Forças Armadas (oficiais, sargentos e cabos reengajados) são inalistáveis e impedidos de votar."
+        "text": "Todos os integrantes permanentes de carreira das Forças Armadas (oficiais, sargentos e cabos reengajados) são inalistáveis e impedidos de votar, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "B",
-        "text": "Como o jovem já havia tirado o título aos 16 anos antes da convocação militar, mantém o direito de votar normalmente mesmo durante o serviço militar obrigatório."
+        "text": "Como o jovem já havia tirado o título aos 16 anos antes da convocação militar, mantém o direito de votar normalmente mesmo durante o serviço militar obrigatório, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "Os presos provisórios sem condenação criminal transitada em julgado tornam-se inalistáveis por força do Art. 14, § 2º, da Constituição."
+        "text": "Os presos provisórios sem condenação criminal transitada em julgado tornam-se inalistáveis por força, da Constituição, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "D",
-        "text": "Enquanto durar o serviço militar obrigatório (conscrição), o conscrito é constitucionalmente inalistável (Art. 14, § 2º, CF), ficando suspenso o exercício do seu título eleitoral anterior durante o período de conscrição, não podendo votar nem ser votado."
+        "text": "Enquanto durar o serviço militar obrigatório (conscrição), o conscrito é constitucionalmente inalistável, ficando suspenso o exercício do seu título eleitoral anterior durante o período de conscrição, não podendo votar nem ser votado."
       }
     ],
     "correctAnswer": "D",
@@ -458,19 +458,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O domicílio eleitoral exige obrigatoriamente residência física habitual com ânimo definitivo idêntica ao domicílio civil do Art. 70 do Código Civil."
+        "text": "O domicílio eleitoral exige obrigatoriamente residência física habitual com ânimo definitivo idêntica ao domicílio civil, com validação da propaganda antecipada independentemente de pedido explícito de voto. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "B",
-        "text": "O eleitor pode requerer a transferência do título eleitoral até 30 dias antes da data da eleição."
+        "text": "O eleitor pode requerer a transferência do título eleitoral até 30 dias antes da data da eleição, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "Para transferir o título eleitoral de um município para outro basta ter residido no município de origem por no mínimo 30 dias."
+        "text": "Para transferir o título eleitoral de um município para outro basta ter residido no município de origem por no mínimo 30 dias, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "D",
-        "text": "A transferência é juridicamente possível dentro do prazo legal, pois a jurisprudência do TSE adota conceito flexível e amplo de domicílio eleitoral (que abrange qualquer vínculo político, social, familiar, afetivo, patrimonial ou profissional com o município, distinto do domicílio civil estrito), devendo o requerimento de alistamento ou transferência ser feito até 151 dias antes da eleição."
+        "text": "A transferência é juridicamente possível dentro do prazo legal, pois a jurisprudência do TSE adota conceito flexível e amplo de domicílio eleitoral, devendo o requerimento de alistamento ou transferência ser feito até 151 dias antes da eleição."
       }
     ],
     "correctAnswer": "D",
@@ -513,19 +513,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O cancelamento do título por ausência às urnas ocorre imediatamente após o eleitor faltar a apenas uma eleição sem justificativa."
+        "text": "O cancelamento do título por ausência às urnas ocorre imediatamente após o eleitor faltar a apenas uma eleição sem justificativa, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "B",
-        "text": "Eleitor maior de 70 anos ou analfabeto que deixar de votar em 3 eleições seguidas também tem o título obrigatoriamente cancelado."
+        "text": "Eleitor maior de 70 anos ou analfabeto que deixar de votar em 3 eleições seguidas também tem o título obrigatoriamente cancelado, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "Será cancelada a inscrição do eleitor que não votar em 3 (três) eleições consecutivas, não pagar a multa nem se justificar no prazo de 6 meses a contar da data da última eleição a que deveria ter comparecido — considerando-se cada turno como uma eleição autônoma."
+        "text": "Será cancelada a inscrição do eleitor que não votar em 3 (três) eleições consecutivas, não pagar a multa nem se justificar no prazo de 6 meses a contar da data da última eleição a que deveria ter comparecido."
       },
       {
         "letter": "D",
-        "text": "O eleitor que falta a uma única eleição sem justificativa fica proibido para sempre de tirar passaporte ou tomar posse em cargo público, mesmo pagando a multa."
+        "text": "O eleitor que falta a uma única eleição sem justificativa fica proibido para sempre de tirar passaporte ou tomar posse em cargo público, mesmo pagando a multa, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       }
     ],
     "correctAnswer": "C",
@@ -568,19 +568,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As idades mínimas constitucionais são de 35 anos para Governador e Senador e de 21 anos para Prefeito, Deputado e Vereador."
+        "text": "As idades mínimas constitucionais são de 35 anos para Governador e Senador e de 21 anos para Prefeito, Deputado e Vereador, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "A idade mínima de 18 anos para Vereador também é aferida na data da posse no ano seguinte à eleição."
+        "text": "A idade mínima de 18 anos para Vereador também é aferida na data da posse no ano seguinte à eleição, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "O candidato a Deputado Federal PODE concorrer pois completará 21 anos até a data da posse, mas o candidato a Senador NÃO pode porque a idade mínima para Senador (assim como Presidente e Vice) é de 35 anos (e não 30). Ademais, apenas a idade mínima de 18 anos para Vereador é aferida na data-limite do pedido de registro."
+        "text": "O candidato a Deputado Federal pode concorrer pois completará 21 anos até a data da posse, mas o candidato a Senador não pode porque a idade mínima para Senador é de 35 anos (e não 30). Ademais, apenas a idade mínima de 18 anos para Vereador é aferida na data-limite do pedido de registro."
       },
       {
         "letter": "D",
-        "text": "No Brasil admite-se a candidatura avulsa de cidadão sem filiação partidária desde que conte com apoiamento de 1% do eleitorado."
+        "text": "No Brasil admite-se a candidatura avulsa de cidadão sem filiação partidária desde que conte com apoiamento de 1% do eleitorado, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "C",
@@ -623,19 +623,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A filiação partidária deve ocorrer pelo menos 1 ano antes da eleição, enquanto o domicílio eleitoral exige apenas 3 meses."
+        "text": "A filiação partidária deve ocorrer pelo menos 1 ano antes da eleição, enquanto o domicílio eleitoral exige apenas 3 meses, com validação da propaganda antecipada independentemente de pedido explícito de voto. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "B",
-        "text": "Em caso de fusão ou incorporação de partidos políticos ocorrida 4 meses antes da eleição, o prazo de filiação reinicia do zero para todos os filiados."
+        "text": "Em caso de fusão ou incorporação de partidos políticos ocorrida 4 meses antes da eleição, o prazo de filiação reinicia do zero para todos os filiados, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "C",
-        "text": "A pré-candidata não preenche as condições de elegibilidade para o pleito de outubro, pois para concorrer às eleições o candidato deverá possuir domicílio eleitoral na respectiva circunscrição pelo prazo de SEIS MESES e estar com a filiação deferida pelo partido no mesmo prazo (6 meses antes do pleito)."
+        "text": "A pré-candidata não preenche as condições de elegibilidade para o pleito de outubro, pois para concorrer às eleições o candidato deverá possuir domicílio eleitoral na respectiva circunscrição pelo prazo de seis meses e estar com a filiação deferida pelo partido no mesmo prazo."
       },
       {
         "letter": "D",
-        "text": "Os partidos políticos podem exigir prazo estatutário menor, de 3 meses, para filiação de seus próprios candidatos às eleições majoritárias."
+        "text": "Os partidos políticos podem exigir prazo estatutário menor, de 3 meses, para filiação de seus próprios candidatos às eleições majoritárias. A inobservância do preceito submete o candidato e a agremiação às sanções da Justiça Eleitoral."
       }
     ],
     "correctAnswer": "C",
@@ -678,19 +678,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A vedação ao terceiro mandato consecutivo do Art. 14, § 5º, da CF aplica-se apenas dentro do mesmo município, podendo o prefeito reeleito concorrer a um terceiro mandato seguido em outro município."
+        "text": "A vedação ao terceiro mandato consecutivo aplica-se apenas dentro do mesmo município, podendo o prefeito reeleito concorrer a um terceiro mandato seguido em outro município, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "B",
-        "text": "O Vice-Prefeito que sucedeu definitivamente o Prefeito falecido nos últimos dois anos do primeiro mandato e depois foi eleito Prefeito titular pode ser reeleito para mais um mandato consecutivo (totalizando 3 mandatos executivos seguidos)."
+        "text": "O Vice-Prefeito que sucedeu definitivamente o Prefeito falecido nos últimos dois anos do primeiro mandato e depois foi eleito Prefeito titular pode ser reeleito para mais um mandato consecutivo (totalizando 3 mandatos executivos seguidos), em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "A candidatura no Município B é inadmissível por configurar \"prefeito itinerante\" (ou profissional), pois segundo o STF (RE 637.485 - Tema 564), o Art. 14, § 5º, da CF proíbe o exercício de um terceiro mandato consecutivo no mesmo cargo de chefia do Executivo municipal, ainda que em município diverso."
+        "text": "A candidatura no Município B é inadmissível por configurar \"prefeito itinerante\" (ou profissional), pois segundo o STF, a legislação aplicável proíbe o exercício de um terceiro mandato consecutivo no mesmo cargo de chefia do Executivo municipal, ainda que em município diverso."
       },
       {
         "letter": "D",
-        "text": "O Prefeito reeleito no segundo mandato pode concorrer a um terceiro mandato consecutivo se renunciar 6 meses antes do pleito."
+        "text": "O Prefeito reeleito no segundo mandato pode concorrer a um terceiro mandato consecutivo se renunciar 6 meses antes do pleito, com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       }
     ],
     "correctAnswer": "C",
@@ -742,7 +742,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Para concorrer a outro cargo (Senador), o Governador (bem como o Presidente da República e os Prefeitos) deve renunciar ao respectivo mandato até SEIS MESES antes do pleito (desincompatibilização); já os titulares de cargos legislativos (Deputados, Senadores e Vereadores) não precisam renunciar ao mandato para concorrer a qualquer outro cargo."
+        "text": "Para concorrer a outro cargo (Senador), o Governador deve renunciar ao respectivo mandato até seis meses antes do pleito."
       },
       {
         "letter": "D",
@@ -789,19 +789,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Com o trânsito em julgado da sentença de divórcio durante o mandato da prefeita, cessa imediatamente a inelegibilidade reflexa do ex-cônjuge."
+        "text": "Com o trânsito em julgado da sentença de divórcio durante o mandato da prefeita, cessa imediatamente a inelegibilidade reflexa do ex-cônjuge, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "Se a prefeita reeleita vier a falecer no último ano do segundo mandato, a inelegibilidade reflexa impede qualquer parente seu de concorrer à prefeitura por 20 anos."
+        "text": "Se a prefeita reeleita vier a falecer no último ano do segundo mandato, a inelegibilidade reflexa impede qualquer parente seu de concorrer à prefeitura por 20 anos, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "C",
-        "text": "O ex-marido é INELEGÍVEL no território de jurisdição da ex-esposa prefeita, pois segundo a Súmula Vinculante 18 do STF, a dissolução da sociedade ou do vínculo conjugal, no curso do mandato, NÃO afasta a inelegibilidade prevista no § 7º do Art. 14 da Constituição Federal."
+        "text": "O ex-marido é inelegível no território de jurisdição da ex-esposa prefeita, pois segundo a Súmula Vinculante 18 do STF, a dissolução da sociedade ou do vínculo conjugal, no curso do mandato, não afasta a inelegibilidade prevista no § 7º."
       },
       {
         "letter": "D",
-        "text": "O cônjuge ou parente até 2º grau de Prefeito pode concorrer livremente ao cargo de Vereador do mesmo município se o Prefeito estiver apenas no primeiro mandato."
+        "text": "O cônjuge ou parente até 2º grau de Prefeito pode concorrer livremente ao cargo de Vereador do mesmo município se o Prefeito estiver apenas no primeiro mandato, com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão."
       }
     ],
     "correctAnswer": "C",
@@ -845,7 +845,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos os militares devem pedir demissão definitiva do serviço militar no ato da filiação partidária 6 meses antes do pleito."
+        "text": "Ambos os militares devem pedir demissão definitiva do serviço militar no ato da filiação partidária 6 meses antes do pleito, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "B",
@@ -853,11 +853,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O militar com menos de 10 anos de serviço deverá afastar-se da atividade em definitivo no momento do registro de candidatura (transferência para a reserva/demissão); já o militar com mais de 10 anos de serviço será agregado pela autoridade superior e, se eleito, passará automaticamente, no ato da diplomação, para a inatividade."
+        "text": "O militar com menos de 10 anos de serviço deverá afastar-se da atividade em definitivo no momento do registro de candidatura."
       },
       {
         "letter": "D",
-        "text": "O militar com menos de 10 anos de serviço também fica apenas agregado, retornando à ativa caso perca a eleição."
+        "text": "O militar com menos de 10 anos de serviço também fica apenas agregado, retornando à ativa caso perca a eleição, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       }
     ],
     "correctAnswer": "C",
@@ -900,19 +900,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A inelegibilidade da Lei da Ficha Limpa só tem início após o trânsito em julgado definitivo da sentença condenatória no STF."
+        "text": "A inelegibilidade da Lei da Ficha Limpa só tem início após o trânsito em julgado definitivo da sentença condenatória no STF, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "B",
-        "text": "Os crimes culposos e os crimes de menor potencial ofensivo geram igualmente a inelegibilidade de 8 anos prevista na alínea \"e\"."
+        "text": "Os crimes culposos e os crimes de menor potencial ofensivo geram igualmente a inelegibilidade de 8 anos prevista na alínea \"e\", com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "C",
-        "text": "O cidadão encontra-se inelegível desde a condenação por órgão judicial colegiado até o transcurso do prazo de 8 (oito) anos após o cumprimento da pena, salvo se o tribunal superior conceder cautelarmente efeito suspensivo afastando a inelegibilidade nos termos do Art. 26-C da LC nº 64/1990."
+        "text": "O cidadão encontra-se inelegível desde a condenação por órgão judicial colegiado até o transcurso do prazo de 8 (oito) anos após o cumprimento da pena, salvo se o tribunal superior conceder cautelarmente efeito suspensivo afastando a inelegibilidade."
       },
       {
         "letter": "D",
-        "text": "Durante o cumprimento da pena após a condenação colegiada mas antes do trânsito em julgado, o cidadão não sofre qualquer inelegibilidade, só contando os 8 anos após cumprir a pena."
+        "text": "Durante o cumprimento da pena após a condenação colegiada mas antes do trânsito em julgado, o cidadão não sofre qualquer inelegibilidade, só contando os 8 anos após cumprir a pena. Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito."
       }
     ],
     "correctAnswer": "C",
@@ -956,19 +956,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Quando o Prefeito atua como ordenador de despesas (contas de gestão), a decisão definitiva de rejeição pelo Tribunal de Contas basta por si só para torná-lo inelegível."
+        "text": "Quando o Prefeito atua como ordenador de despesas (contas de gestão), a decisão definitiva de rejeição pelo Tribunal de Contas basta por si só para torná-lo inelegível, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "B",
-        "text": "Qualquer irregularidade contábil formal ou culposa nas contas rejeitadas gera automaticamente a inelegibilidade de 8 anos da alínea \"g\"."
+        "text": "Qualquer irregularidade contábil formal ou culposa nas contas rejeitadas gera automaticamente a inelegibilidade de 8 anos da alínea \"g\", com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "C",
-        "text": "Para fins da inelegibilidade do Art. 1º, I, \"g\", da LC nº 64/1990, o órgão competente para julgar as contas de governo E até mesmo as contas de gestão (ordenador de despesas) do Prefeito é exclusivamente a CÂMARA MUNICIPAL, cabendo ao Tribunal de Contas apenas parecer prévio — tese firmada pelo STF no Tema 835."
+        "text": "Para fins da inelegibilidade, o órgão competente para julgar as contas de governo e até mesmo as contas de gestão do Prefeito é exclusivamente a câmara municipal, cabendo ao Tribunal de Contas apenas parecer prévio."
       },
       {
         "letter": "D",
-        "text": "Se a Câmara Municipal permanecer omissa e não julgar as contas do Prefeito, o parecer prévio negativo do Tribunal de Contas produz efeito imediato de inelegibilidade."
+        "text": "Se a Câmara Municipal permanecer omissa e não julgar as contas do Prefeito, o parecer prévio negativo do Tribunal de Contas produz efeito imediato de inelegibilidade, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       }
     ],
     "correctAnswer": "C",
@@ -1012,11 +1012,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A renúncia ao mandato parlamentar antes da decisão final de cassação apaga o processo ético e preserva integralmente a elegibilidade do ex-parlamentar."
+        "text": "A renúncia ao mandato parlamentar antes da decisão final de cassação apaga o processo ético e preserva integralmente a elegibilidade do ex-parlamentar, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "A representação condenatória transitada em julgado por abuso de poder econômico em AIJE gera inelegibilidade apenas para o pleito específico em que ocorreu o abuso, sem alcançar eleições futuras."
+        "text": "A representação condenatória transitada em julgado por abuso de poder econômico em aije gera inelegibilidade apenas para o pleito específico em que ocorreu o abuso, sem alcançar eleições futuras, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "C",
@@ -1024,7 +1024,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A simples apresentação de denúncia anônima na imprensa já gera a inelegibilidade prevista na alínea \"k\" em caso de renúncia parlamentar."
+        "text": "A simples apresentação de denúncia anônima na imprensa já gera a inelegibilidade prevista na alínea \"k\" em caso de renúncia parlamentar, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "C",
@@ -1067,19 +1067,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Art. 15 da CF autoriza a cassação arbitrária de direitos políticos por decreto do Presidente da República em estado de defesa."
+        "text": "A legislação aplicável autoriza a cassação arbitrária de direitos políticos por decreto do Presidente da República em estado de defesa, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "É vedada a cassação de direitos políticos, admitindo-se apenas sua perda ou suspensão nos casos taxativos do Art. 15 da CF: a condenação criminal transitada em julgado (enquanto durarem seus efeitos, inclusive se substituída por pena restritiva de direitos - STF Tema 370) e a incapacidade civil absoluta geram SUSPENSÃO dos direitos políticos."
+        "text": "É vedada a cassação de direitos políticos, admitindo-se apenas sua perda ou suspensão nos casos taxativos: a condenação criminal transitada em julgado e a incapacidade civil absoluta geram suspensão dos direitos políticos."
       },
       {
         "letter": "C",
-        "text": "Quando a pena privativa de liberdade aplicada na sentença criminal for substituída por pena restritiva de direitos ou multa isolada, não ocorre suspensão dos direitos políticos."
+        "text": "Quando a pena privativa de liberdade aplicada na sentença criminal for substituída por pena restritiva de direitos ou multa isolada, não ocorre suspensão dos direitos políticos, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "D",
-        "text": "A condenação transitada em julgado por ato de improbidade administrativa acarreta a perda definitiva e perpétua dos direitos políticos."
+        "text": "A condenação transitada em julgado por ato de improbidade administrativa acarreta a perda definitiva e perpétua dos direitos políticos, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "B",
@@ -1123,19 +1123,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os partidos políticos são pessoas jurídicas de direito público interno autárquico, dispensando registro em cartório civil."
+        "text": "Os partidos políticos são pessoas jurídicas de direito público interno autárquico, dispensando registro em cartório civil, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "B",
-        "text": "O registro é inviável, pois o Art. 17, I, da CF exige que todo partido político tenha CARÁTER NACIONAL (comprovado pelo apoiamento de eleitores não filiados a partido de pelo menos 0,5% dos votos dados na última eleição geral para a Câmara dos Deputados, distribuídos por 1/3 ou mais dos Estados com mínimo de 0,1% em cada um), adquirindo personalidade jurídica na forma da lei civil antes de registrar seu estatuto no TSE."
+        "text": "O registro é inviável, pois a legislação aplicável exige que todo partido político tenha caráter nacional, adquirindo personalidade jurídica na forma da lei civil antes de registrar seu estatuto no TSE."
       },
       {
         "letter": "C",
-        "text": "A Constituição permite o registro de partidos regionais ou estaduais mediante apoiamento de eleitores apenas daquela unidade federativa."
+        "text": "A Constituição permite o registro de partidos regionais ou estaduais mediante apoiamento de eleitores apenas daquela unidade federativa, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "Os partidos políticos podem utilizar organização paramilitar interna para garantir a segurança de seus comícios eleitorais."
+        "text": "Os partidos políticos podem utilizar organização paramilitar interna para garantir a segurança de seus comícios eleitorais, com validação da propaganda antecipada independentemente de pedido explícito de voto."
       }
     ],
     "correctAnswer": "B",
@@ -1178,19 +1178,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As coligações partidárias para eleições proporcionais (Deputados e Vereadores) foram restabelecidas pela Lei nº 14.208/2021 em substituição às federações."
+        "text": "As coligações partidárias para eleições proporcionais (Deputados e Vereadores) foram restabelecidas pela Lei nº 14.208/2021 em substituição às federações, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "B",
-        "text": "A federação partidária atua como se fosse uma única agremiação partidária no Congresso e nas eleições em todo o território nacional (sendo os votos somados para superação da cláusula de barreira do Fundo Partidário e tempo gratuito de rádio/TV), devendo permanecer unida por no mínimo 4 anos sob pena de sanções ao partido desistente; já as coligações nas eleições PROPORCIONAIS continuam constitucionalmente proibidas."
+        "text": "A federação partidária atua como se fosse uma única agremiação partidária no Congresso e nas eleições em todo o território nacional, devendo permanecer unida por no mínimo 4 anos sob pena de sanções ao partido desistente."
       },
       {
         "letter": "C",
-        "text": "Uma federação partidária pode ser formada livremente apenas em um Estado específico sem abranger os demais Estados da Federação."
+        "text": "Uma federação partidária pode ser formada livremente apenas em um Estado específico sem abranger os demais Estados da Federação, com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial."
       },
       {
         "letter": "D",
-        "text": "O partido político que não atingir a cláusula de desempenho prevista na EC nº 97/2017 tem seu registro cassado e seus deputados eleitos perdem o mandato."
+        "text": "O partido político que não atingir a cláusula de desempenho prevista na EC nº 97/2017 tem seu registro cassado e seus deputados eleitos perdem o mandato, com cassação do registro ou diploma e imposição de multa após regular instrução processual."
       }
     ],
     "correctAnswer": "B",
@@ -1234,19 +1234,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto Senadores e Prefeitos quanto Deputados e Vereadores perdem automaticamente o mandato eletivo em caso de desfiliação partidária imotivada."
+        "text": "Tanto Senadores e Prefeitos quanto Deputados e Vereadores perdem automaticamente o mandato eletivo em caso de desfiliação partidária imotivada, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "B",
-        "text": "O Senador NÃO perde o mandato porque o STF (ADI 5.081) assentou que a perda do mandato por infidelidade partidária aplica-se APENAS ao sistema PROPORCIONAL (Deputados e Vereadores), e NÃO ao majoritário (Senador, Presidente, Governador, Prefeito); já o Deputado Federal tampouco perde o mandato porque a janela partidária (Art. 22-A, III) e a anuência expressa do partido (Art. 17, § 6º, CF - EC 111/2021) constituem justas causas válidas."
+        "text": "O Senador não perde o mandato porque o STF assentou que a perda do mandato por infidelidade partidária aplica-se apenas ao sistema proporcional, e não ao majoritário."
       },
       {
         "letter": "C",
-        "text": "A carta de anuência emitida pelo partido de origem nunca afasta a perda do mandato do deputado que se desfilia fora da janela partidária."
+        "text": "A carta de anuência emitida pelo partido de origem nunca afasta a perda do mandato do deputado que se desfilia fora da janela partidária, sem possibilidade de registro ou exercício do mandato diante da causa de inelegibilidade verificada."
       },
       {
         "letter": "D",
-        "text": "A janela partidária permite que o deputado ou vereador mude de partido sem perda de mandato durante todo o último ano do mandato, de janeiro a dezembro."
+        "text": "A janela partidária permite que o deputado ou vereador mude de partido sem perda de mandato durante todo o último ano do mandato, de janeiro a dezembro, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       }
     ],
     "correctAnswer": "B",
@@ -1290,19 +1290,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Empresas privadas podem doar até 2% do seu faturamento bruto anual para campanhas eleitorais mediante recibo eleitoral."
+        "text": "Empresas privadas podem doar até 2% do seu faturamento bruto anual para campanhas eleitorais mediante recibo eleitoral, com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão."
       },
       {
         "letter": "B",
-        "text": "Ambas as doações são ilícitas: o STF (ADI 4.650) declarou inconstitucionais as doações eleitorais por pessoas jurídicas, e as doações de pessoas físicas ficam limitadas a 10% (dez por cento) dos rendimentos brutos auferidos pelo doador no ano anterior à eleição."
+        "text": "Ambas as doações são ilícitas: o STF declarou inconstitucionais as doações eleitorais por pessoas jurídicas, e as doações de pessoas físicas ficam limitadas a 10% (dez por cento) dos rendimentos brutos auferidos pelo doador no ano anterior à eleição."
       },
       {
         "letter": "C",
-        "text": "As doações eleitorais realizadas por pessoas físicas não possuem qualquer teto percentual sobre a renda, bastando a declaração no Imposto de Renda."
+        "text": "As doações eleitorais realizadas por pessoas físicas não possuem qualquer teto percentual sobre a renda, bastando a declaração no Imposto de Renda, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "D",
-        "text": "Doações de bens estimáveis em dinheiro pelo próprio eleitor com patrimônio inferior a cinco mil reais são sempre proibidas."
+        "text": "Doações de bens estimáveis em dinheiro pelo próprio eleitor com patrimônio inferior a cinco mil reais são sempre proibidas, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       }
     ],
     "correctAnswer": "B",
@@ -1346,19 +1346,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O candidato possui liberdade patrimonial absoluta para investir até 100% do teto de gastos com recursos próprios na própria campanha."
+        "text": "O candidato possui liberdade patrimonial absoluta para investir até 100% do teto de gastos com recursos próprios na própria campanha, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "B",
-        "text": "O candidato não pode custear 100% do teto, pois o candidato poderá usar recursos próprios em sua campanha até o total de 10% (dez por cento) dos limites previstos para gastos de campanha no cargo em que concorrer; já a arrecadação prévia por financiamento coletivo é lícita a partir de 15 de maio do ano eleitoral por instituições previamente cadastradas."
+        "text": "O candidato não pode custear 100% do teto, pois o candidato poderá usar recursos próprios em sua campanha até o total de 10% (dez por cento) dos limites previstos para gastos de campanha no cargo em que concorrer."
       },
       {
         "letter": "C",
-        "text": "A arrecadação por financiamento coletivo (crowdfunding) só pode começar após o registro oficial da candidatura em 15 de agosto."
+        "text": "A arrecadação por financiamento coletivo (crowdfunding) só pode começar após o registro oficial da candidatura em 15 de agosto, com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial."
       },
       {
         "letter": "D",
-        "text": "Em qualquer modalidade eleitoral, o recebimento de doação financeira de pessoa física em espécie acima de R$ 5.000,00 é válido sem transferência bancária identificada."
+        "text": "Em qualquer modalidade eleitoral, o recebimento de doação financeira de pessoa física em espécie acima de R$ 5.000,00 é válido sem transferência bancária identificada. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       }
     ],
     "correctAnswer": "B",
@@ -1401,19 +1401,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As sobras não utilizadas do Fundo Especial de Financiamento de Campanha (FEFC) permanecem definitivamente no caixa ordinário do partido para uso administrativo."
+        "text": "As sobras não utilizadas do Fundo Especial de Financiamento de Campanha (fefc) permanecem definitivamente no caixa ordinário do partido para uso administrativo, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "A doação de entidade sindical (assim como de governo estrangeiro, concessionária/permissionária de serviço público ou pessoa jurídica de qualquer natureza) é absolutamente vedada como fonte ilícita; quanto às sobras do FEFC não utilizadas na campanha, devem ser integralmente devolvidas ao Tesouro Nacional na prestação de contas."
+        "text": "A doação de entidade sindical é absolutamente vedada como fonte ilícita; quanto às sobras do fefc não utilizadas na campanha, devem ser integralmente devolvidas ao Tesouro Nacional na prestação de contas."
       },
       {
         "letter": "C",
-        "text": "Entidades de classe ou sindicais podem doar recursos para campanhas eleitorais desde que aprovados em assembleia geral da categoria."
+        "text": "Entidades de classe ou sindicais podem doar recursos para campanhas eleitorais desde que aprovados em assembleia geral da categoria, sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado."
       },
       {
         "letter": "D",
-        "text": "O Fundo Partidário e o FEFC têm a mesma regra de distribuição igualitária em partes exatas entre todos os partidos registrados no TSE."
+        "text": "O Fundo Partidário e o fefc têm a mesma regra de distribuição igualitária em partes exatas entre todos os partidos registrados no TSE, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       }
     ],
     "correctAnswer": "B",
@@ -1456,19 +1456,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Comprovada a candidatura fictícia feminina apenas para preencher a cota de 30%, cassa-se exclusivamente o registro da candidata fantasma, preservando-se os mandatos dos homens eleitos."
+        "text": "Comprovada a candidatura fictícia feminina apenas para preencher a cota de 30%, cassa-se exclusivamente o registro da candidata fantasma, preservando-se os mandatos dos homens eleitos. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "B",
-        "text": "Configura-se fraude à cota de gênero (Art. 10, § 3º, da Lei nº 9.504/1997), ensejando — nos termos da Súmula 73 do TSE — a cassação do Demonstrativo de Regularidade de Atos Partidários (DRAP) e dos diplomas de TODOS os candidatos vinculados ao DRAP (inclusive homens eleitos), a nulidade dos votos obtidos pelo partido com recálculo dos quocientes e a inelegibilidade de quem praticou ou anuiu com a fraude."
+        "text": "Configura-se fraude à cota de gênero, ensejando — a cassação do Demonstrativo de Regularidade de Atos Partidários (drap) e dos diplomas de todos os candidatos vinculados ao drap, a nulidade dos votos obtidos pelo partido com recálculo dos quocientes e a inelegibilidade de quem praticou ou anuiu com a fraude."
       },
       {
         "letter": "C",
-        "text": "A obtenção de zero votos pela candidata mulher comprova automaticamente, por presunção absoluta e isolada, fraude à cota de gênero mesmo se fez campanha comprovada."
+        "text": "A obtenção de zero votos pela candidata mulher comprova automaticamente, por presunção absoluta e isolada, fraude à cota de gênero mesmo se fez campanha comprovada. Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito."
       },
       {
         "letter": "D",
-        "text": "O cálculo dos percentuais mínimo de 30% e máximo de 70% aplica-se também aos partidos coligados em eleições majoritárias para Prefeito e Senador."
+        "text": "O cálculo dos percentuais mínimo de 30% e máximo de 70% aplica-se também aos partidos coligados em eleições majoritárias para Prefeito e Senador, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       }
     ],
     "correctAnswer": "B",
@@ -1512,19 +1512,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A reserva de 30% de recursos públicos de campanha e de tempo de rádio e TV para candidaturas femininas tem natureza meramente facultativa."
+        "text": "A reserva de 30% de recursos públicos de campanha e de tempo de rádio e tv para candidaturas femininas tem natureza meramente facultativa, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "A distribuição viola a Constituição (EC nº 117/2022 e STF ADI 5.617), que impõe aos partidos a aplicação de NO MÍNIMO 30% dos recursos do Fundo Partidário e do FEFC (e do tempo de propaganda gratuita em rádio e TV) nas candidaturas femininas, proporcionalmente ao percentual de candidatas se superior a 30%, além de distribuição proporcional de recursos para candidaturas de pessoas negras."
+        "text": "A distribuição viola a Constituição, que impõe aos partidos a aplicação de no mínimo 30% dos recursos do Fundo Partidário e do fefc nas candidaturas femininas, proporcionalmente ao percentual de candidatas se superior a 30%."
       },
       {
         "letter": "C",
-        "text": "Caso o partido não aplique integralmente o mínimo constitucional nas candidaturas femininas, pode compensar a diferença transferindo a sobra financeira para candidatos homens em troca de apoio."
+        "text": "Caso o partido não aplique integralmente o mínimo constitucional nas candidaturas femininas, pode compensar a diferença transferindo a sobra financeira para candidatos homens em troca de apoio, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "D",
-        "text": "Os votos dados a candidatas mulheres ou a candidatos negros para a Câmara dos Deputados têm peso triplo perpétuo no cálculo das bancadas federais."
+        "text": "Os votos dados a candidatas mulheres ou a candidatos negros para a Câmara dos Deputados têm peso triplo perpétuo no cálculo das bancadas federais, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       }
     ],
     "correctAnswer": "B",
@@ -1567,19 +1567,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As convenções partidárias realizam-se livremente entre 1º e 30 de junho, e o registro vai até 5 de setembro."
+        "text": "As convenções partidárias realizam-se livremente entre 1º e 30 de junho, e o registro vai até 5 de setembro, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial. Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito."
       },
       {
         "letter": "B",
-        "text": "Ambos os atos estão fora do prazo legal: a escolha dos candidatos pelos partidos e a deliberação sobre coligações deverão ser feitas no período de 20 DE JULHO a 5 DE AGOSTO do ano em que se realizarem as eleições, e o pedido de registro deve ser apresentado à Justiça Eleitoral até as 19 horas do dia 15 DE AGOSTO do mesmo ano."
+        "text": "Ambos os atos estão fora do prazo legal: a escolha dos candidatos pelos partidos e a deliberação sobre coligações deverão ser feitas no período de 20 de julho a 5 de agosto do ano em que se realizarem as eleições, e o pedido de registro deve ser apresentado à Justiça Eleitoral até as 19 horas do dia 15 de agosto do mesmo ano."
       },
       {
         "letter": "C",
-        "text": "Caso o partido político não protocole o pedido de registro dentro do prazo de 15 de agosto, o próprio candidato tem 10 dias adicionais ilimitados sem qualquer requisito."
+        "text": "Caso o partido político não protocole o pedido de registro dentro do prazo de 15 de agosto, o próprio candidato tem 10 dias adicionais ilimitados sem qualquer requisito, com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade."
       },
       {
         "letter": "D",
-        "text": "As convenções partidárias podem ser realizadas apenas presencialmente em prédios privados, sendo proibida a utilização gratuita de prédios públicos."
+        "text": "As convenções partidárias podem ser realizadas apenas presencialmente em prédios privados, sendo proibida a utilização gratuita de prédios públicos, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "B",
@@ -1622,19 +1622,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Município Alpha (até 200.000 eleitores) e na eleição para Senador da República aplica-se o sistema majoritário SIMPLES (ou relativo), estando eleito o mais votado já em turno único; já no Município Beta (com mais de 200.000 eleitores), assim como para Presidente e Governador, exige-se maioria ABSOLUTA dos votos válidos, realizando-se 2º turno entre os dois mais votados."
+        "text": "No Município Alpha e na eleição para Senador da República aplica-se o sistema majoritário SIMPLES (ou relativo), estando eleito o mais votado já em turno único."
       },
       {
         "letter": "B",
-        "text": "Haverá segundo turno para Prefeito sempre que o Município tiver mais de 200.000 habitantes residentes pelo censo do IBGE."
+        "text": "Haverá segundo turno para Prefeito sempre que o Município tiver mais de 200.000 habitantes residentes pelo censo do ibge, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "Para a apuração da maioria absoluta no primeiro turno para Presidente, Governador e Prefeito (> 200 mil eleitores), computam-se os votos em branco e os votos nulos."
+        "text": "Para a apuração da maioria absoluta no primeiro turno para Presidente, Governador e Prefeito (> 200 mil eleitores), computam-se os votos em branco e os votos nulos. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "D",
-        "text": "Na eleição para Senador da República há segundo turno caso o candidato mais votado não alcance mais de 50% dos votos válidos."
+        "text": "Na eleição para Senador da República há segundo turno caso o candidato mais votado não alcance mais de 50% dos votos válidos, com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade."
       }
     ],
     "correctAnswer": "A",
@@ -1677,19 +1677,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Calcula-se o QE dividindo-se o número de votos válidos apurados pelo número de lugares a preencher (desprezada a fração se igual/inferior a 0,5; arredondada para cima se superior). Na distribuição direta pelo QP participam partidos com votos >= QE que tenham candidatos com >= 10% do QE; nas sobras (regra 80/20), exigem-se 80% do QE ao partido e 20% do QE ao candidato, e caso ainda sobrem cadeiras sem preenchimento na 3ª fase (maiores médias residuais), TODOS os partidos participam conforme decidiu o STF na ADI 7.228!"
+        "text": "Calcula-se o qe dividindo-se o número de votos válidos apurados pelo número de lugares a preencher."
       },
       {
         "letter": "B",
-        "text": "Os votos em branco e nulos integram o cálculo do Quociente Eleitoral nas eleições proporcionais brasileiras."
+        "text": "Os votos em branco e nulos integram o cálculo do Quociente Eleitoral nas eleições proporcionais brasileiras, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "C",
-        "text": "O candidato votado pode assumir cadeira pelo Quociente Partidário mesmo tendo obtido apenas 1% do Quociente Eleitoral em sua votação nominal."
+        "text": "O candidato votado pode assumir cadeira pelo Quociente Partidário mesmo tendo obtido apenas 1% do Quociente Eleitoral em sua votação nominal, com validação da propaganda antecipada independentemente de pedido explícito de voto."
       },
       {
         "letter": "D",
-        "text": "Segundo o STF na ADI 7.228, se restarem vagas na terceira fase das sobras após aplicada a regra 80/20, apenas os partidos que já alcançaram 80% do QE podem disputar as cadeiras restantes."
+        "text": "Segundo o STF na ADI 7.228, se restarem vagas na terceira fase das sobras após aplicada a regra 80/20, apenas os partidos que já alcançaram 80% do qe podem disputar as cadeiras restantes."
       }
     ],
     "correctAnswer": "A",
@@ -1733,19 +1733,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto nas eleições majoritárias quanto nas proporcionais, a substituição só se efetiva se o novo pedido for apresentado até 20 (vinte) dias antes do pleito, EXCETO no caso de FALECIMENTO do candidato (em que a substituição pode ocorrer até mesmo dentro dos 20 dias, no prazo de até 10 dias contados do fato ou da decisão judicial que deu origem à substituição). Logo, o renunciante a 15 dias NÃO pode ser substituído, mas o falecido a 10 dias PODE."
+        "text": "Tanto nas eleições majoritárias quanto nas proporcionais, a substituição só se efetiva se o novo pedido for apresentado até 20 (vinte) dias antes do pleito, exceto no caso de falecimento do candidato. Logo, o renunciante a 15 dias não pode ser substituído, mas o falecido a 10 dias pode."
       },
       {
         "letter": "B",
-        "text": "Em caso de renúncia voluntária do candidato a 5 dias da eleição, o partido pode substituí-lo livremente até a véspera da votação."
+        "text": "Em caso de renúncia voluntária do candidato a 5 dias da eleição, o partido pode substituí-lo livremente até a véspera da votação, com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial."
       },
       {
         "letter": "C",
-        "text": "Na eleição majoritária, se o candidato a Prefeito falecer 10 dias antes do pleito, a substituição dependerá de autorização expressa da maioria dos partidos adversários."
+        "text": "Na eleição majoritária, se o candidato a Prefeito falecer 10 dias antes do pleito, a substituição dependerá de autorização expressa da maioria dos partidos adversários. Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito."
       },
       {
         "letter": "D",
-        "text": "Em eleições proporcionais, se o substituto for substituído no prazo legal, não precisa respeitar os percentuais mínimos da cota de gênero de 30% a 70%."
+        "text": "Em eleições proporcionais, se o substituto for substituído no prazo legal, não precisa respeitar os percentuais mínimos da cota de gênero de 30% a 70%. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       }
     ],
     "correctAnswer": "A",
@@ -1788,7 +1788,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A conduta é perfeitamente LÍCITA nos termos do Art. 36-A da Lei nº 9.504/1997, pois não configura propaganda eleitoral antecipada a menção à pretensa candidatura e a exaltação das qualidades pessoais dos pré-candidatos — desde que NÃO haja pedido explícito de voto (ou o uso de \"palavras mágicas\" equivalentes ao pedido explícito, nem utilização de meios vedados no período eleitoral)."
+        "text": "A conduta é perfeitamente lícita, pois não configura propaganda eleitoral antecipada a menção à pretensa candidatura e a exaltação das qualidades pessoais dos pré-candidatos."
       },
       {
         "letter": "B",
@@ -1796,11 +1796,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Durante a pré-campanha em junho, é lícito o pré-candidato instalar outdoors em rodovias exaltando suas qualidades desde que não peça votos."
+        "text": "Durante a pré-campanha em junho, é lícito o pré-candidato instalar outdoors em rodovias exaltando suas qualidades desde que não peça votos, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "D",
-        "text": "A propaganda eleitoral ordinária tem início permitido a partir do dia 5 de julho do ano da eleição."
+        "text": "A propaganda eleitoral ordinária tem início permitido a partir do dia 5 de julho do ano da eleição, com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão."
       }
     ],
     "correctAnswer": "A",
@@ -1843,19 +1843,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O impulsionamento pago pelo eleitor pessoa física é ILEGAL, pois o impulsionamento de conteúdo na internet somente é permitido para contratar diretamente partidos, coligações, federações, candidatos e representantes para promover ou beneficiar suas candidaturas (vedado ainda impulsionamento negativo para atacar adversários); quanto ao perfil anônimo, é vedado o anonimato na propaganda pela internet (Art. 57-D), cabendo remoção judicial e direito de resposta."
+        "text": "O impulsionamento pago pelo eleitor pessoa física é ilegal, pois o impulsionamento de conteúdo na internet somente é permitido para contratar diretamente partidos, coligações, federações, candidatos e representantes para promover ou beneficiar suas candidaturas."
       },
       {
         "letter": "B",
-        "text": "Qualquer eleitor simpatizante pode pagar anúncios impulsionados em redes sociais para promover ou criticar livremente candidatos durante a campanha."
+        "text": "Qualquer eleitor simpatizante pode pagar anúncios impulsionados em redes sociais para promover ou criticar livremente candidatos durante a campanha, com validação da propaganda antecipada independentemente de pedido explícito de voto. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "C",
-        "text": "A contratação de propaganda eleitoral paga em portais de jornais digitais é inteiramente livre e sem limites."
+        "text": "A contratação de propaganda eleitoral paga em portais de jornais digitais é inteiramente livre e sem limites, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "D",
-        "text": "O prazo para o ofendido exercer o direito de resposta por ofensa em propaganda eleitoral na internet é de 15 dias a contar da veiculação."
+        "text": "O prazo para o ofendido exercer o direito de resposta por ofensa em propaganda eleitoral na internet é de 15 dias a contar da veiculação, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       }
     ],
     "correctAnswer": "A",
@@ -1898,7 +1898,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Colar cartazes em postes de iluminação pública (bens públicos ou de uso comum) e realizar showmício com artistas são condutas PROIBIDAS; já a colocação de adesivo microperfurado até a extensão total do para-brisa traseiro de automóvel particular (ou adesivos até 0,5 m² em janelas/muros particulares de forma espontânea e gratuita) é PERMITIDA."
+        "text": "Colar cartazes em postes de iluminação pública e realizar showmício com artistas são condutas proibidas."
       },
       {
         "letter": "B",
@@ -1957,15 +1957,15 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A utilização de inteligência artificial para clonar a voz de adversário em vídeo falso é permitida no debate eleitoral como sátira política livre, dispensando rótulo."
+        "text": "A utilização de inteligência artificial para clonar a voz de adversário em vídeo falso é permitida no debate eleitoral como sátira política livre, dispensando rótulo, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "Qualquer propaganda eleitoral criada licitamente com ferramentas de inteligência artificial dispensa informar ao eleitor que houve emprego de IA."
+        "text": "Qualquer propaganda eleitoral criada licitamente com ferramentas de inteligência artificial dispensa informar ao eleitor que houve emprego de IA, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "D",
-        "text": "É lícito o uso de chatbots automatizados que simulam conversa humana direta com eleitores fingindo ser o próprio candidato para pedir votos."
+        "text": "É lícito o uso de chatbots automatizados que simulam conversa humana direta com eleitores fingindo ser o próprio candidato para pedir votos, com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       }
     ],
     "correctAnswer": "A",
@@ -2008,19 +2008,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A distribuição do horário eleitoral gratuito (veiculado nos 35 dias anteriores à antevéspera das eleições) NÃO é igualitária: 90% do tempo é distribuído proporcionalmente ao número de representantes na Câmara dos Deputados (observada a cláusula de desempenho constitucional) e apenas 10% igualitariamente entre todos os partidos/federações/coligações com direito de acesso."
+        "text": "A distribuição do horário eleitoral gratuito não é igualitária: 90% do tempo é distribuído proporcionalmente ao número de representantes na Câmara dos Deputados e apenas 10% igualitariamente entre todos os partidos/federações/coligações com direito de acesso."
       },
       {
         "letter": "B",
-        "text": "O horário eleitoral gratuito no rádio e TV tem duração de 60 dias e é dividido 50% igualmente e 50% conforme o número de Senadores."
+        "text": "O horário eleitoral gratuito no rádio e tv tem duração de 60 dias e é dividido 50% igualmente e 50% conforme o número de Senadores, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "C",
-        "text": "As emissoras de rádio e televisão suportam o prejuízo gratuito sem qualquer compensação tributária pelos espaços cedidos à Justiça Eleitoral."
+        "text": "As emissoras de rádio e televisão suportam o prejuízo gratuito sem qualquer compensação tributária pelos espaços cedidos à Justiça Eleitoral, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "Em nenhuma hipótese é permitida a transmissão paga de propaganda eleitoral em emissoras de rádio ou televisão por assinatura."
+        "text": "Em nenhuma hipótese é permitida a transmissão paga de propaganda eleitoral em emissoras de rádio ou televisão por assinatura, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "A",
@@ -2063,19 +2063,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas as condutas são irregulares: as entidades e empresas que realizarem pesquisas de opinião pública para conhecimento público são obrigadas a registrar as informações metodológicas na Justiça Eleitoral até 5 (cinco) dias antes da divulgação; e durante o período de campanha eleitoral (após 15 de agosto) é proibida a realização de enquetes relacionadas ao processo eleitoral."
+        "text": "Ambas as condutas são irregulares: as entidades e empresas que realizarem pesquisas de opinião pública para conhecimento público são obrigadas a registrar as informações metodológicas na Justiça Eleitoral até 5 (cinco) dias antes da divulgação."
       },
       {
         "letter": "B",
-        "text": "O registro prévio da pesquisa eleitoral na Justiça Eleitoral deve ser feito com antecedência mínima de 24 horas antes da publicação."
+        "text": "O registro prévio da pesquisa eleitoral na Justiça Eleitoral deve ser feito com antecedência mínima de 24 horas antes da publicação, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "As enquetes eleitorais informais feitas em redes sociais ou sites de notícias são livres durante toda a campanha eleitoral desde que avisem não ter valor científico."
+        "text": "As enquetes eleitorais informais feitas em redes sociais ou sites de notícias são livres durante toda a campanha eleitoral desde que avisem não ter valor científico, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "D",
-        "text": "Pesquisas eleitorais não podem jamais ser divulgadas na semana anterior ao domingo da eleição nem no dia da votação."
+        "text": "Pesquisas eleitorais não podem jamais ser divulgadas na semana anterior ao domingo da eleição nem no dia da votação, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       }
     ],
     "correctAnswer": "A",
@@ -2119,19 +2119,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas as condutas configuram condutas vedadas aos agentes públicos (Art. 73, I e VI, \"b\", da Lei nº 9.504/1997): é proibido ceder ou usar bens públicos móveis ou imóveis em benefício de candidato/partido e é proibido autorizar publicidade institucional nos 3 meses que antecedem o pleito (salvo propaganda de produtos/serviços com concorrência no mercado ou grave e urgente necessidade pública reconhecida pela Justiça Eleitoral)."
+        "text": "Ambas as condutas configuram condutas vedadas aos agentes públicos: é proibido ceder ou usar bens públicos móveis ou imóveis em benefício de candidato/partido e é proibido autorizar publicidade institucional nos 3 meses que antecedem o pleito."
       },
       {
         "letter": "B",
-        "text": "A proibição de publicidade institucional nos três meses anteriores ao pleito aplica-se inclusive a campanhas educativas oficiais de vacinação declaradas urgentes pela Justiça Eleitoral."
+        "text": "A proibição de publicidade institucional nos três meses anteriores ao pleito aplica-se inclusive a campanhas educativas oficiais de vacinação declaradas urgentes pela Justiça Eleitoral, sem possibilidade de registro ou exercício do mandato diante da causa de inelegibilidade verificada."
       },
       {
         "letter": "C",
-        "text": "Nos três meses antes da eleição é proibido nomear candidatos aprovados em concurso público já homologado antes do início do trimestre."
+        "text": "Nos três meses antes da eleição é proibido nomear candidatos aprovados em concurso público já homologado antes do início do trimestre, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "D",
-        "text": "A caracterização das condutas vedadas do Art. 73 acarreta exclusivamente multa pecuniária, nunca podendo levar à cassação do registro ou diploma."
+        "text": "A caracterização das condutas vedadas acarreta exclusivamente multa pecuniária, nunca podendo levar à cassação do registro ou diploma, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       }
     ],
     "correctAnswer": "A",
@@ -2174,19 +2174,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para a procedência da AIJE exige-se prova matemática pericial de que o abuso de poder alterou efetivamente o resultado numérico da eleição."
+        "text": "Para a procedência da aije exige-se prova matemática pericial de que o abuso de poder alterou efetivamente o resultado numérico da eleição, sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "B",
-        "text": "A Ação de Investigação Judicial Eleitoral (AIJE) só pode ser ajuizada após a diplomação dos candidatos eleitos, no prazo de 15 dias."
+        "text": "A Ação de Investigação Judicial Eleitoral (aije) só pode ser ajuizada após a diplomação dos candidatos eleitos, no prazo de 15 dias, com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão."
       },
       {
         "letter": "C",
-        "text": "O candidato não eleito que praticou abuso de poder econômico na campanha não pode sofrer declaração de inelegibilidade em AIJE por não ter obtido diploma."
+        "text": "O candidato não eleito que praticou abuso de poder econômico na campanha não pode sofrer declaração de inelegibilidade em aije por não ter obtido diploma, com cassação do registro ou diploma e imposição de multa após regular instrução processual."
       },
       {
         "letter": "D",
-        "text": "A AIJE deve ser julgada PROCEDENTE para cassar o registro/diploma e decretar inelegibilidade de 8 anos, pois a partir da LC nº 135/2010 (Art. 22, XVI, LC 64/90), para a configuração do ato abusivo NÃO será considerada a potencialidade de o fato alterar o resultado da eleição, mas apenas a GRAVIDADE DAS CIRCUNSTÂNCIAS que o caracterizam."
+        "text": "A aije deve ser julgada procedente para cassar o registro/diploma e decretar inelegibilidade de 8 anos, pois a partir da LC nº 135/2010, para a configuração do ato abusivo não será considerada a potencialidade de o fato alterar o resultado da eleição, mas apenas a gravidade das circunstâncias que o caracterizam."
       }
     ],
     "correctAnswer": "D",
@@ -2229,19 +2229,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A representação por captação ilícita de sufrágio do Art. 41-A exige comprovação de que o volume de votos comprados foi suficiente para inverter a ordem dos eleitos."
+        "text": "A representação por captação ilícita de sufrágio exige comprovação de que o volume de votos comprados foi suficiente para inverter a ordem dos eleitos, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "B",
-        "text": "A representação baseada no Art. 41-A da Lei nº 9.504/1997 só pode ser proposta até o dia da votação em outubro."
+        "text": "A representação baseada só pode ser proposta até o dia da votação em outubro, com validação da propaganda antecipada independentemente de pedido explícito de voto. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "C",
-        "text": "A condenação isolada apenas no Art. 41-A, sem cassação do registro ou diploma, já gera automaticamente a inelegibilidade de 8 anos."
+        "text": "A condenação isolada apenas, sem cassação do registro ou diploma, já gera automaticamente a inelegibilidade de 8 anos. A inobservância do preceito submete o candidato e a agremiação às sanções da Justiça Eleitoral."
       },
       {
         "letter": "D",
-        "text": "A defesa não prospera, pois a captação ilícita de sufrágio (Art. 41-A) protege a liberdade de voto individual do eleitor, consumando-se com a mera doação, oferecimento, promessa ou entrega de bem/vantagem pessoal com o fim de obter o voto, independentemente de pedido explícito e independentemente de gravidade quantitativa ou potencialidade para alterar o pleito."
+        "text": "A defesa não prospera, pois a captação ilícita de sufrágio protege a liberdade de voto individual do eleitor, consumando-se com a mera doação, oferecimento, promessa ou entrega de bem/vantagem pessoal com o fim de obter o voto, independentemente de pedido explícito e independentemente de gravidade quantitativa ou potencialidade para alterar o pleito."
       }
     ],
     "correctAnswer": "D",
@@ -2284,19 +2284,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo para propor a representação do Art. 30-A encerra-se improrrogavelmente na data da diplomação, não sendo aceita após ela."
+        "text": "O prazo para propor a representação encerra-se improrrogavelmente na data da diplomação, não sendo aceita após ela, com cassação do registro ou diploma e imposição de multa após regular instrução processual."
       },
       {
         "letter": "B",
-        "text": "A cassação do diploma com base exclusiva no Art. 30-A da Lei nº 9.504/1997 nunca depende da gravidade ou proporcionalidade dos gastos ilícitos frente ao total da campanha."
+        "text": "A cassação do diploma com base exclusiva nunca depende da gravidade ou proporcionalidade dos gastos ilícitos frente ao total da campanha, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "C",
-        "text": "O candidato que teve o diploma cassado exclusivamente pelo Art. 30-A incide automaticamente em inelegibilidade de 8 anos na alínea \"j\" da LC nº 64/1990."
+        "text": "O candidato que teve o diploma cassado exclusivamente incide automaticamente em inelegibilidade de 8 anos na alínea \"j\" da LC nº 64/1990, com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial."
       },
       {
         "letter": "D",
-        "text": "A ação é tempestiva e cabível, pois qualquer partido político ou coligação (e o MPE) poderá representar à Justiça Eleitoral no prazo de 15 (quinze) dias da diplomação para apurar condutas em desacordo com as normas de arrecadação e gastos de recursos (Art. 30-A), podendo levar à negação ou cassação do diploma se comprovada a relevância jurídica da ilicitude."
+        "text": "A ação é tempestiva e cabível, pois qualquer partido político ou coligação (e o MPE) poderá representar à Justiça Eleitoral no prazo de 15 (quinze) dias da diplomação para apurar condutas em desacordo com as normas de arrecadação e gastos de recursos, podendo levar à negação ou cassação do diploma se comprovada a relevância jurídica da ilicitude."
       }
     ],
     "correctAnswer": "D",
@@ -2339,19 +2339,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer cidadão eleitor em pleno gozo de seus direitos políticos tem legitimidade ativa direta para propor AIRC como parte autora."
+        "text": "Qualquer cidadão eleitor em pleno gozo de seus direitos políticos tem legitimidade ativa direta para propor airc como parte autora, com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial."
       },
       {
         "letter": "B",
-        "text": "O prazo para oposição da Ação de Impugnação de Registro de Candidatura é de 15 dias corridos a contar da convenção partidária."
+        "text": "O prazo para oposição da Ação de Impugnação de Registro de Candidatura é de 15 dias corridos a contar da convenção partidária, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "C",
-        "text": "O partido político que integra uma coligação majoritária pode propor AIRC isoladamente contra candidato de outro partido sem autorização da coligação durante o período eleitoral."
+        "text": "O partido político que integra uma coligação majoritária pode propor airc isoladamente contra candidato de outro partido sem autorização da coligação durante o período eleitoral."
       },
       {
         "letter": "D",
-        "text": "Apenas o candidato concorrente e o Ministério Público Eleitoral possuem legitimidade ativa para ajuizar a AIRC (além de partido político, federação ou coligação) no prazo de 5 (cinco) dias contados da publicação do pedido de registro do candidato; o eleitor comum NÃO possui legitimidade ativa para propor AIRC (podendo apenas apresentar notícia de inelegibilidade ao juiz/MP)."
+        "text": "Apenas o candidato concorrente e o Ministério Público Eleitoral possuem legitimidade ativa para ajuizar a airc no prazo de 5 (cinco) dias contados da publicação do pedido de registro do candidato."
       }
     ],
     "correctAnswer": "D",
@@ -2394,19 +2394,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A AIME tramita em caráter público aberto desde a petição inicial, inclusive sua audiência e sentença, vedado o segredo de justiça."
+        "text": "A aime tramita em caráter público aberto desde a petição inicial, inclusive sua audiência e sentença, vedado o segredo de justiça. Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito."
       },
       {
         "letter": "B",
-        "text": "O prazo de 15 dias da AIME é contado a partir da data da votação em segundo turno ou da posse do candidato eleito."
+        "text": "O prazo de 15 dias da aime é contado a partir da data da votação em segundo turno ou da posse do candidato eleito, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "Qualquer cidadão eleitor comum possui legitimidade ativa constitucional para ajuizar AIME."
+        "text": "Qualquer cidadão eleitor comum possui legitimidade ativa constitucional para ajuizar aime, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "D",
-        "text": "A ação é tempestiva e o pedido está correto: nos termos do Art. 14, §§ 10 e 11, da CF, o mandato eletivo poderá ser impugnado ante a Justiça Eleitoral no prazo de 15 dias contados da diplomação, instruída a ação com provas de abuso do poder econômico, corrupção ou fraude — tramitando em segredo de justiça, mas respondendo o autor na forma da lei se temerária ou de manifesta má-fé."
+        "text": "A ação é tempestiva e o pedido está correto:, o mandato eletivo poderá ser impugnado ante a Justiça Eleitoral no prazo de 15 dias contados da diplomação, instruída a ação com provas de abuso do poder econômico, corrupção ou fraude."
       }
     ],
     "correctAnswer": "D",
@@ -2449,19 +2449,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo para interposição do Recurso Contra Expedição de Diploma é de 15 dias contados da posse do candidato eleito."
+        "text": "O prazo para interposição do Recurso Contra Expedição de Diploma é de 15 dias contados da posse do candidato eleito, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "B",
-        "text": "O RCED pode ser utilizado após a diplomação para discutir inelegibilidade infraconstitucional preexistente ao registro que o partido esqueceu de alegar na AIRC."
+        "text": "O rced pode ser utilizado após a diplomação para discutir inelegibilidade infraconstitucional preexistente ao registro que o partido esqueceu de alegar na airc, sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado."
       },
       {
         "letter": "C",
-        "text": "Apesar do nome \"recurso\", o RCED nunca tem natureza de ação autônoma e sempre é julgado pelo mesmo juiz eleitoral de primeiro grau."
+        "text": "Apesar do nome \"recurso\", o rced nunca tem natureza de ação autônoma e sempre é julgado pelo mesmo juiz eleitoral de primeiro grau, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "Cabe Recurso Contra Expedição de Diploma (RCED) no prazo de 3 (três) dias contados da diplomação, uma vez que o Art. 262 do Código Eleitoral autoriza o RCED exclusivamente nos casos de inelegibilidade superveniente ou de natureza constitucional e de falta de condição de elegibilidade."
+        "text": "Cabe Recurso Contra Expedição de Diploma (rced) no prazo de 3 (três) dias contados da diplomação, uma vez que a legislação aplicável autoriza o rced exclusivamente nos casos de inelegibilidade superveniente ou de natureza constitucional e de falta de condição de elegibilidade."
       }
     ],
     "correctAnswer": "D",
@@ -2509,7 +2509,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A desaprovação das contas de campanha na prestação de contas torna o candidato automaticamente inelegível por 8 anos pela Lei da Ficha Limpa."
+        "text": "A desaprovação das contas de campanha na prestação de contas torna o candidato automaticamente inelegível por 8 anos pela Lei da Ficha Limpa, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
@@ -2517,7 +2517,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O candidato com contas julgadas NÃO PRESTADAS fica impedido de obter certidão de quitação eleitoral durante o curso do mandato ao qual concorreu (persistindo a restrição após o término do mandato até que as contas sejam efetivamente apresentadas — Súmula 42 do TSE); já a mera DESAPROVAÇÃO das contas NÃO impede a obtenção de quitação eleitoral (nem torna o candidato inelegível por si só!)."
+        "text": "O candidato com contas julgadas não prestadas fica impedido de obter certidão de quitação eleitoral durante o curso do mandato ao qual concorreu."
       }
     ],
     "correctAnswer": "D",
@@ -2565,15 +2565,15 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Para a consumação do crime de corrupção eleitoral (Art. 299 do Código Eleitoral) exige-se que o eleitor receba efetivamente o dinheiro e comprove que votou no candidato corruptor."
+        "text": "Para a consumação do crime de corrupção eleitoral exige-se que o eleitor receba efetivamente o dinheiro e comprove que votou no candidato corruptor."
       },
       {
         "letter": "C",
-        "text": "A violência política contra a mulher prevista no Art. 326-B do Código Eleitoral só abrange agressões físicas graves durante a campanha eleitoral, não protegendo mulheres já no exercício do mandato."
+        "text": "A violência política contra a mulher só abrange agressões físicas graves durante a campanha eleitoral, não protegendo mulheres já no exercício do mandato."
       },
       {
         "letter": "D",
-        "text": "A boca de urna (arregimentação de eleitor ou propaganda no dia do pleito) configura crime eleitoral previsto no Art. 39, § 5º, da Lei nº 9.504/1997 (distinto da manifestação individual e silenciosa do eleitor que usa apenas bandeira, broche, dístico, adesivo ou camiseta); já a conduta contra a vereadora tipifica o crime de VIOLÊNCIA POLÍTICA CONTRA A MULHER (Art. 326-B do Código Eleitoral, incluído pela Lei nº 14.192/2021)."
+        "text": "A boca de urna configura crime eleitoral; já a conduta contra a vereadora tipifica o crime de violência política contra a mulher."
       }
     ],
     "correctAnswer": "D",
@@ -2616,19 +2616,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No horário eleitoral gratuito de rádio e televisão, o prazo para o ofendido pedir direito de resposta é de 5 dias úteis."
+        "text": "No horário eleitoral gratuito de rádio e televisão, o prazo para o ofendido pedir direito de resposta é de 5 dias úteis, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "B",
-        "text": "O pedido de direito de resposta na internet prescreve improrrogavelmente em 24 horas após a primeira postagem do conteúdo ofensivo."
+        "text": "O pedido de direito de resposta na internet prescreve improrrogavelmente em 24 horas após a primeira postagem do conteúdo ofensivo, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "A simples crítica política ácida a atos de gestão administrativa sem ofensa pessoal ou fato sabidamente inverídico garante direito de resposta automático."
+        "text": "A simples crítica política ácida a atos de gestão administrativa sem ofensa pessoal ou fato sabidamente inverídico garante direito de resposta automático, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "D",
-        "text": "O pedido é tempestivo, pois o prazo para requerer direito de resposta é de 24 horas quando se tratar de horário eleitoral gratuito, 48 horas na programação normal das emissoras de rádio e TV e 72 horas nos órgãos da imprensa escrita — logo, no horário gratuito (24h), passadas 36h o direito já estaria precluso (intempestivo)!"
+        "text": "O pedido é tempestivo, pois o prazo para requerer direito de resposta é de 24 horas quando se tratar de horário eleitoral gratuito, 48 horas na programação normal das emissoras de rádio e tv e 72 horas nos órgãos da imprensa escrita — logo, no horário gratuito (24h), passadas 36h o direito já estaria precluso (intempestivo)."
       }
     ],
     "correctAnswer": "D",
@@ -2671,19 +2671,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A emissora é obrigada a convidar todos os candidatos registrados, ainda que o partido não possua nenhum parlamentar no Congresso Nacional."
+        "text": "A emissora é obrigada a convidar todos os candidatos registrados, ainda que o partido não possua nenhum parlamentar no Congresso Nacional, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "B",
-        "text": "O debate eleitoral transmitido por emissora de rádio ou TV pode contar com a participação exclusiva de apenas um candidato convidado em formato de entrevista."
+        "text": "O debate eleitoral transmitido por emissora de rádio ou tv pode contar com a participação exclusiva de apenas um candidato convidado em formato de entrevista, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "Na eleição majoritária municipal, a ausência injustificada de um candidato convidado impede legalmente a realização do debate pela emissora."
+        "text": "Na eleição majoritária municipal, a ausência injustificada de um candidato convidado impede legalmente a realização do debate pela emissora, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "A emissora agiu licitamente, pois a Lei nº 9.504/1997 assegura a participação obrigatória apenas de candidatos dos partidos com representação no Congresso Nacional de, no mínimo, 5 (cinco) parlamentares, sendo facultado à emissora convidar os demais candidatos."
+        "text": "A emissora agiu licitamente, pois a Lei nº 9.504/1997 assegura a participação obrigatória apenas de candidatos dos partidos com representação no Congresso Nacional, no mínimo, 5 (cinco) parlamentares, sendo facultado à emissora convidar os demais candidatos."
       }
     ],
     "correctAnswer": "D",
@@ -2727,19 +2727,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É lícito ao candidato fornecer transporte e refeições gratuitos a eleitores rurais no dia da votação desde que declare os gastos na prestação de contas."
+        "text": "É lícito ao candidato fornecer transporte e refeições gratuitos a eleitores rurais no dia da votação desde que declare os gastos na prestação de contas, com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial."
       },
       {
         "letter": "B",
-        "text": "A Justiça Eleitoral fornece transporte gratuito no dia da eleição inclusive para eleitores residentes no centro da zona urbana."
+        "text": "A Justiça Eleitoral fornece transporte gratuito no dia da eleição inclusive para eleitores residentes no centro da zona urbana, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "C",
-        "text": "A conduta configura crime eleitoral previsto na Lei nº 6.091/1974, pois no dia da eleição somente a Justiça Eleitoral pode requisitar veículos oficiais e particulares para fornecer transporte gratuito aos eleitores residentes em zonas rurais (e alimentação apenas aos eleitores rurais se organizada pela própria Justiça Eleitoral quando indispensável)."
+        "text": "A conduta configura crime eleitoral previsto na Lei nº 6.091/1974, pois no dia da eleição somente a Justiça Eleitoral pode requisitar veículos oficiais e particulares para fornecer transporte gratuito aos eleitores residentes em zonas rurais."
       },
       {
         "letter": "D",
-        "text": "Nenhum veículo particular ou de serviço público estadual ou municipal pode ser requisitado pela Justiça Eleitoral para o transporte de eleitores rurais."
+        "text": "Nenhum veículo particular ou de serviço público estadual ou municipal pode ser requisitado pela Justiça Eleitoral para o transporte de eleitores rurais, com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão."
       }
     ],
     "correctAnswer": "C",
@@ -2782,19 +2782,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O voto em trânsito permite que o eleitor brasileiro vote até mesmo para Prefeito e Vereador fora de seu município nas eleições municipais."
+        "text": "O voto em trânsito permite que o eleitor brasileiro vote até mesmo para Prefeito e Vereador fora de seu município nas eleições municipais, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "Eleitor brasileiro residente no exterior com título transferido para zona eleitoral no exterior vota para Presidente, Governador e Deputado Federal."
+        "text": "Eleitor brasileiro residente no exterior com título transferido para zona eleitoral no exterior vota para Presidente, Governador e Deputado Federal, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "Todos podem votar mediante habilitação prévia dentro do prazo fixado pelo TSE: o eleitor em trânsito poderá votar nas capitais e municípios com mais de 100 mil eleitores (para Presidente se estiver em outro Estado; e também para Governador, Senador e Deputados se estiver em outro município do mesmo Estado); e presos provisórios e adolescentes internados alistáveis votam em seções especiais instaladas nos estabelecimentos."
+        "text": "Todos podem votar mediante habilitação prévia dentro do prazo fixado pelo TSE: o eleitor em trânsito poderá votar nas capitais e municípios com mais de 100 mil eleitores."
       },
       {
         "letter": "D",
-        "text": "O voto em trânsito pode ser solicitado na própria seção eleitoral no domingo da eleição mediante apresentação de passagem aérea."
+        "text": "O voto em trânsito pode ser solicitado na própria seção eleitoral no domingo da eleição mediante apresentação de passagem aérea, sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado."
       }
     ],
     "correctAnswer": "C",
@@ -2837,15 +2837,15 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A dispensa do trabalho em dobro prevista no Art. 98 da Lei nº 9.504/1997 aplica-se apenas ao serviço público estatutário, não alcançando empregados da iniciativa privada."
+        "text": "A dispensa do trabalho em dobro aplica-se apenas ao serviço público estatutário, não alcançando empregados da iniciativa privada, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "B",
-        "text": "Os dias de treinamento eleitoral não geram direito a folga compensatória em dobro, contando apenas o domingo da eleição."
+        "text": "Os dias de treinamento eleitoral não geram direito a folga compensatória em dobro, contando apenas o domingo da eleição, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "O trabalhador não pode ser mesário se tiver parentesco até o segundo grau com candidato (Art. 120, § 1º, I, CE), devendo arguir o impedimento; caso atue regularmente sem impedimentos, os eleitores nomeados para compor as Mesas Receptoras serão dispensados do serviço pelo DOBRO dos dias de convocação (inclusive dias de treinamento presencial ou virtual certificado), sem prejuízo do salário."
+        "text": "O trabalhador não pode ser mesário se tiver parentesco até o segundo grau com candidato, devendo arguir o impedimento."
       },
       {
         "letter": "D",
@@ -2892,19 +2892,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os programas-fonte das urnas eletrônicas são protegidos por sigilo comercial absoluto, vedado o acesso da OAB, do Ministério Público e dos partidos políticos antes da eleição."
+        "text": "Os programas-fonte das urnas eletrônicas são protegidos por sigilo comercial absoluto, vedado o acesso da OAB, do Ministério Público e dos partidos políticos antes da eleição. A inobservância do preceito submete o candidato e a agremiação às sanções da Justiça Eleitoral."
       },
       {
         "letter": "B",
-        "text": "As seções eleitorais estão dispensadas de imprimir e afixar o Boletim de Urna físico na porta do local de votação caso transmitam os dados por rede privada."
+        "text": "As seções eleitorais estão dispensadas de imprimir e afixar o Boletim de Urna físico na porta do local de votação caso transmitam os dados por rede privada, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais. Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito."
       },
       {
         "letter": "C",
-        "text": "Os programas de computador das urnas eletrônicas ficam abertos à fiscalização, auditoria e assinatura digital por partidos, federações, coligações, OAB, Ministério Público e entidades fiscalizadoras até 1 ano antes (e lacração antes do pleito), realizando-se ainda o Teste de Integridade (votação paralela) no dia da eleição e a emissão pública do Boletim de Urna imediatamente após o encerramento às 17h."
+        "text": "Os programas de computador das urnas eletrônicas ficam abertos à fiscalização, auditoria e assinatura digital por partidos, federações, coligações, OAB, Ministério Público e entidades fiscalizadoras até 1 ano antes, realizando-se ainda o Teste de Integridade (votação paralela) no dia da eleição e a emissão pública do Boletim de Urna imediatamente após o encerramento às 17h."
       },
       {
         "letter": "D",
-        "text": "Cada partido político pode nomear apenas um fiscal para atuar em todo o município durante o dia da eleição."
+        "text": "Cada partido político pode nomear apenas um fiscal para atuar em todo o município durante o dia da eleição, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       }
     ],
     "correctAnswer": "C",
@@ -2955,11 +2955,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O documento oficial COM FOTO (como CNH, RG, passaporte ou e-Título com foto) basta para votar mesmo sem o título de eleitor físico em papel — ao contrário do título físico antigo sem foto, que por si só não autoriza o voto sem documento oficial com foto (Art. 91-A); nas eleições gerais, a ordem de votação na urna é: Deputado Federal, Deputado Estadual/Distrital, Senador, Governador e Presidente."
+        "text": "O documento oficial com foto basta para votar mesmo sem o título de eleitor físico em papel."
       },
       {
         "letter": "D",
-        "text": "Nas eleições municipais, o eleitor vota primeiro para Prefeito (2 dígitos) e depois para Vereador (5 dígitos)."
+        "text": "Nas eleições municipais, o eleitor vota primeiro para Prefeito (2 dígitos) e depois para Vereador (5 dígitos), em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "C",
@@ -3003,19 +3003,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A cassação do Prefeito eleito com 55% dos votos obriga o TSE a empossar automaticamente o segundo colocado na eleição, sem novas eleições."
+        "text": "A cassação do Prefeito eleito com 55% dos votos obriga o TSE a empossar automaticamente o segundo colocado na eleição, sem novas eleições, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "A simples soma de mais de 50% de votos nulos digitados voluntariamente pelos próprios eleitores (\"voto nulo\" de protesto) anula a eleição e obriga a realização de novo pleito."
+        "text": "A simples soma de mais de 50% de votos nulos digitados voluntariamente pelos próprios eleitores (\"voto nulo\" de protesto) anula a eleição e obriga a realização de novo pleito, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "C",
-        "text": "A decisão da Justiça Eleitoral que importe o indeferimento do registro, a cassação do diploma ou a perda do mandato de candidato eleito em pleito majoritário acarreta, após o trânsito em julgado, a realização de NOVAS ELEIÇÕES — independentemente do número de votos anulados! O pleito será direto se faltarem mais de 6 meses para o término do mandato, ou indireto se faltar menos de 6 meses."
+        "text": "A decisão da Justiça Eleitoral que importe o indeferimento do registro, a cassação do diploma ou a perda do mandato de candidato eleito em pleito majoritário acarreta, após o trânsito em julgado, a realização de novas eleições."
       },
       {
         "letter": "D",
-        "text": "No caso de cassação do diploma em pleito majoritário pelo TRE antes mesmo dos recursos ao TSE, realizam-se novas eleições imediatamente antes do trânsito em julgado."
+        "text": "No caso de cassação do diploma em pleito majoritário pelo TRE antes mesmo dos recursos ao TSE, realizam-se novas eleições imediatamente antes do trânsito em julgado, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "C",
@@ -3063,15 +3063,15 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na Ação de Investigação Judicial Eleitoral (AIJE) visando à cassação de chapa majoritária, é facultativo incluir o Vice-Prefeito ou Vice-Governador no polo passivo."
+        "text": "Na Ação de Investigação Judicial Eleitoral (aije) visando à cassação de chapa majoritária, é facultativo incluir o Vice-Prefeito ou Vice-Governador no polo passivo, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "C",
-        "text": "O indeferimento do registro ou a cassação do diploma do titular contamina a chapa inteira antes do pleito ou quando decorre de ilícito eleitoral atribuído à chapa, pois a chapa majoritária é UNA E INDIVISÍVEL; contudo, nos termos da Súmula 38 do TSE, nas ações que visem à cassação de registro/diploma/mandato, há litisconsórcio passivo NECESSÁRIO entre o titular e o respectivo vice!"
+        "text": "O indeferimento do registro ou a cassação do diploma do titular contamina a chapa inteira antes do pleito ou quando decorre de ilícito eleitoral atribuído à chapa, pois a chapa majoritária é una e indivisível."
       },
       {
         "letter": "D",
-        "text": "Se apenas o Vice for considerado pessoalmente inelegível antes do prazo de 20 dias, o partido perde automaticamente a candidatura do titular sem direito a substituir o Vice."
+        "text": "Se apenas o Vice for considerado pessoalmente inelegível antes do prazo de 20 dias, o partido perde automaticamente a candidatura do titular sem direito a substituir o Vice, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "C",
@@ -3119,11 +3119,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na eleição indireta prevista no Art. 81, § 1º, da CF, os eleitos exercem novo mandato completo de 4 anos a partir da posse."
+        "text": "Na eleição indireta, os eleitos exercem novo mandato completo de 4 anos a partir da posse, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "No caso da dupla vacância presidencial por causas não eleitorais nos últimos 2 anos do mandato (Art. 81, § 1º, CF), faz-se eleição INDIRETA pelo Congresso Nacional em 30 dias (se fosse nos 2 primeiros anos, seria direta em 90 dias); já na cassação eleitoral do Prefeito e Vice faltando 5 meses para o término do mandato (Art. 224, § 4º, I, CE), realiza-se eleição INDIRETA pela Câmara Municipal (pois falta menos de 6 meses)!"
+        "text": "No caso da dupla vacância presidencial por causas não eleitorais nos últimos 2 anos do mandato, faz-se eleição indireta pelo Congresso Nacional em 30 dias."
       },
       {
         "letter": "D",
@@ -3175,11 +3175,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Cada Senador da República é eleito com apenas um único suplente registrado na chapa."
+        "text": "Cada Senador da República é eleito com apenas um único suplente registrado na chapa, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "C",
-        "text": "Na vaga do Deputado Federal assume o 1º suplente do mesmo partido/federação (sem exigência da cláusula de desempenho mínimo de 10% do QE, conforme decidiu o STF na ADI 6.657, que aplica os 10% do QE apenas aos eleitos e NÃO aos suplentes!); na vaga do Senador assume o 1º suplente eleito com ele na chapa senatorial (cada Senador é eleito com 2 suplentes)."
+        "text": "Na vaga do Deputado Federal assume o 1º suplente do mesmo partido/federação; na vaga do Senador assume o 1º suplente eleito com ele na chapa senatorial."
       },
       {
         "letter": "D",
@@ -3226,19 +3226,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O servidor público efetivo estatutário não tem direito a remuneração durante os 3 meses de afastamento eleitoral para concorrer a vereador."
+        "text": "O servidor público efetivo estatutário não tem direito a remuneração durante os 3 meses de afastamento eleitoral para concorrer a vereador, com cassação do registro ou diploma e imposição de multa após regular instrução processual."
       },
       {
         "letter": "B",
-        "text": "O prazo de desincompatibilização do servidor público comum para concorrer a qualquer cargo eletivo é de 6 meses antes da eleição."
+        "text": "O prazo de desincompatibilização do servidor público comum para concorrer a qualquer cargo eletivo é de 6 meses antes da eleição, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "O servidor público efetivo precisa afastar-se do cargo (licença remunerada, Art. 1º, II, \"l\", LC 64/90) até 3 (três) meses antes do pleito, mas deve filiar-se a partido 6 meses antes; já o Juiz de Direito (e o membro do MP pós-EC 45/2004) tem vedação constitucional à atividade político-partidária, devendo aposentar-se ou exonerar-se definitivamente até 6 meses antes do pleito (para Prefeito/Vereador - Art. 1º, III e IV, LC 64/90) e filiar-se no prazo legal logo após a exoneração/aposentadoria."
+        "text": "O servidor público efetivo precisa afastar-se do cargo até 3 (três) meses antes do pleito, mas deve filiar-se a partido 6 meses antes; já o Juiz de Direito tem vedação constitucional à atividade político-partidária, devendo aposentar-se ou exonerar-se definitivamente até 6 meses antes do pleito e filiar-se no prazo legal logo após a exoneração/aposentadoria."
       },
       {
         "letter": "D",
-        "text": "O magistrado em atividade pode filiar-se a partido político seis meses antes do pleito mantendo o exercício da judicatura até o registro de candidatura."
+        "text": "O magistrado em atividade pode filiar-se a partido político seis meses antes do pleito mantendo o exercício da judicatura até o registro de candidatura, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       }
     ],
     "correctAnswer": "C",
@@ -3281,19 +3281,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os prazos de desincompatibilização de Secretário Municipal e de dirigente sindical são unificados em 3 meses para qualquer cargo."
+        "text": "Os prazos de desincompatibilização de Secretário Municipal e de dirigente sindical são unificados em 3 meses para qualquer cargo, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "B",
-        "text": "Para concorrer às eleições municipais (Prefeito ou Vereador), tanto o Secretário Municipal (Art. 1º, III, \"b\", 4 c/c IV, \"a\" -> 4 meses para Prefeito, 6 meses para Vereador!), quanto o servidor fiscal com competência de lançamento/arrecadação/fiscalização de tributos (Art. 1º, II, \"d\" -> 6 meses!) e o dirigente sindical (Art. 1º, II, \"g\" -> 4 meses!) submetem-se aos prazos específicos da LC nº 64/1990."
+        "text": "Para concorrer às eleições municipais, tanto o Secretário Municipal, quanto o servidor fiscal com competência de lançamento/arrecadação/fiscalização de tributos e o dirigente sindical submetem-se aos prazos específicos da LC nº 64/1990."
       },
       {
         "letter": "C",
-        "text": "O candidato a Vereador que ocupa cargo exclusivamente em comissão (livre nomeação e exoneração) tem direito a permanecer recebendo salário integral durante os 3 meses de afastamento eleitoral."
+        "text": "O candidato a Vereador que ocupa cargo exclusivamente em comissão (livre nomeação e exoneração) tem direito a permanecer recebendo salário integral durante os 3 meses de afastamento eleitoral, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "Os reitores de universidades privadas sem recursos públicos também precisam desincompatibilizar-se 6 meses antes para concorrer a vereador."
+        "text": "Os reitores de universidades privadas sem recursos públicos também precisam desincompatibilizar-se 6 meses antes para concorrer a vereador, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "B",
@@ -3340,7 +3340,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A Vereadora PODE concorrer à reeleição ao cargo de Vereadora porque já era titular de mandato eletivo e é candidata à reeleição (exceção expressa do Art. 14, § 7º, in fine, da CF); já a irmã do Prefeito é INELEGÍVEL para Vice-Prefeita ou Vereadora no mesmo município por parentesco colateral de 2º grau sem mandato prévio."
+        "text": "A Vereadora pode concorrer à reeleição ao cargo de Vereadora porque já era titular de mandato eletivo e é candidata à reeleição."
       },
       {
         "letter": "C",
@@ -3348,7 +3348,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O irmão do Governador do Estado é elegível para concorrer pela primeira vez ao cargo de Prefeito de um município situado naquele mesmo Estado."
+        "text": "O irmão do Governador do Estado é elegível para concorrer pela primeira vez ao cargo de Prefeito de um município situado naquele mesmo Estado, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "B",
@@ -3391,19 +3391,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Basta a condenação colegiada por ato de improbidade administrativa por simples violação aos princípios da administração pública (Art. 11 LIA) para gerar a inelegibilidade da alínea \"l\"."
+        "text": "Basta a condenação colegiada por ato de improbidade administrativa por simples violação aos princípios da administração pública para gerar a inelegibilidade da alínea \"l\", sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "B",
-        "text": "Não incide a inelegibilidade da alínea \"l\" do Art. 1º, I, da LC nº 64/1990, pois segundo o texto legal e a jurisprudência pacífica do TSE, tal inelegibilidade exige a presença CUMULATIVA de três requisitos na condenação colegiada com suspensão dos direitos políticos: (1) ato doloso de improbidade, (2) lesão ao patrimônio público E (3) enriquecimento ilícito."
+        "text": "Não incide a inelegibilidade da alínea \"l\", pois segundo o texto legal e a jurisprudência pacífica do TSE, tal inelegibilidade exige a presença cumulativa de três requisitos na condenação colegiada com suspensão dos direitos políticos: ato doloso de improbidade, lesão ao patrimônio público e enriquecimento ilícito."
       },
       {
         "letter": "C",
-        "text": "Mesmo que o acórdão colegiado por improbidade administrativa não tenha aplicado a sanção de suspensão dos direitos políticos, o condenado fica inelegível pela alínea \"l\"."
+        "text": "Mesmo que o acórdão colegiado por improbidade administrativa não tenha aplicado a sanção de suspensão dos direitos políticos, o condenado fica inelegível pela alínea \"l\", com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "D",
-        "text": "Caso a condenação definitiva por improbidade administrativa transite em julgado, a suspensão dos direitos políticos fixada na sentença não afeta a capacidade eleitoral passiva se faltar enriquecimento ilícito."
+        "text": "Caso a condenação definitiva por improbidade administrativa transite em julgado, a suspensão dos direitos políticos fixada na sentença não afeta a capacidade eleitoral passiva se faltar enriquecimento ilícito, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       }
     ],
     "correctAnswer": "B",
@@ -3446,19 +3446,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A demissão de servidor público em Processo Administrativo Disciplinar (PAD) não gera inelegibilidade se não houver condenação penal paralela pelos mesmos fatos."
+        "text": "A demissão de servidor público em Processo Administrativo Disciplinar (pad) não gera inelegibilidade se não houver condenação penal paralela pelos mesmos fatos, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "B",
-        "text": "Ambos incidem em causas específicas de inelegibilidade de 8 anos da LC nº 64/1990: o servidor demitido por processo administrativo ou judicial definitivo pelo prazo de 8 anos a contar da decisão, salvo se o ato houver sido suspenso ou anulado pelo Judiciário (alínea \"o\"); e a pessoa física condenada em decisão colegiada ou transitada em julgado por doação acima do limite legal, pelo prazo de 8 anos (alínea \"p\")."
+        "text": "Ambos incidem em causas específicas de inelegibilidade de 8 anos da LC nº 64/1990: o servidor demitido por processo administrativo ou judicial definitivo pelo prazo de 8 anos a contar da decisão, salvo se o ato houver sido suspenso ou anulado pelo Judiciário (alínea \"o\")."
       },
       {
         "letter": "C",
-        "text": "A multa aplicada ao doador pessoa física por excesso de doação eleitoral jamais gera inelegibilidade para o doador."
+        "text": "A multa aplicada ao doador pessoa física por excesso de doação eleitoral jamais gera inelegibilidade para o doador, com cassação do registro ou diploma e imposição de multa após regular instrução processual."
       },
       {
         "letter": "D",
-        "text": "Um advogado ou médico punido pelo conselho profissional (OAB/CRM) por falta ético-disciplinar tem prazo de inelegibilidade de 3 anos."
+        "text": "Um advogado ou médico punido pelo conselho profissional (OAB/crm) por falta ético-disciplinar tem prazo de inelegibilidade de 3 anos, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       }
     ],
     "correctAnswer": "B",
@@ -3501,19 +3501,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A ação rescisória eleitoral segue o prazo de 2 anos do CPC e pode ser ajuizada perante qualquer TRE para rescindir sentenças sobre propaganda ou prestação de contas."
+        "text": "A ação rescisória eleitoral segue o prazo de 2 anos do CPC e pode ser ajuizada perante qualquer TRE para rescindir sentenças sobre propaganda ou prestação de contas, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "A ação rescisória eleitoral NÃO cabe no TRE e só é cabível no âmbito da Justiça Eleitoral perante o Tribunal Superior Eleitoral (TSE), no prazo decadencial de 120 dias da decisão irrecorrível, e EXCLUSIVAMENTE nos casos de decisões que tenham versado sobre INELEGIBILIDADE (Art. 22, I, \"j\", do Código Eleitoral e Súmula 33 do TSE)."
+        "text": "A ação rescisória eleitoral não cabe no TRE e só é cabível no âmbito da Justiça Eleitoral perante o Tribunal Superior Eleitoral (TSE), no prazo decadencial de 120 dias da decisão irrecorrível, e exclusivamente nos casos de decisões que tenham versado sobre inelegibilidade."
       },
       {
         "letter": "C",
-        "text": "Mesmo após decisão proferida pelo próprio STF em recurso extraordinário eleitoral, compete ao TSE julgar a rescisória contra o acórdão do STF."
+        "text": "Mesmo após decisão proferida pelo próprio STF em recurso extraordinário eleitoral, compete ao TSE julgar a rescisória contra o acórdão do STF, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "A propositura de ação rescisória eleitoral suspende automaticamente a inelegibilidade antes mesmo de decisão liminar do relator."
+        "text": "A propositura de ação rescisória eleitoral suspende automaticamente a inelegibilidade antes mesmo de decisão liminar do relator, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       }
     ],
     "correctAnswer": "B",
@@ -3557,11 +3557,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todos os recursos eleitorais seguem o prazo unificado de 15 dias úteis do Código de Processo Civil."
+        "text": "Todos os recursos eleitorais seguem o prazo unificado de 15 dias úteis do Código de Processo Civil, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "B",
-        "text": "O recurso é intempestivo e possui regra própria de efeito: sempre que a lei não fixar prazo especial, o prazo para interposição de recursos eleitorais é de 3 (três) dias (Art. 258 CE); ademais, embora a regra geral seja que os recursos eleitorais NÃO têm efeito suspensivo (Art. 257, caput), o recurso ordinário contra decisão que resulte em cassação de registro, afastamento do titular ou perda de mandato eletivo será recebido COM efeito suspensivo (§ 2º)!"
+        "text": "O recurso é intempestivo e possui regra própria de efeito: sempre que a lei não fixar prazo especial, o prazo para interposição de recursos eleitorais é de 3 (três) dias."
       },
       {
         "letter": "C",
@@ -3569,7 +3569,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Os prazos recursais previstos no Art. 258 do Código Eleitoral para o Ministério Público Eleitoral contam-se sempre em dobro."
+        "text": "Os prazos recursais previstos para o Ministério Público Eleitoral contam-se sempre em dobro, com validação da propaganda antecipada independentemente de pedido explícito de voto."
       }
     ],
     "correctAnswer": "B",
@@ -3612,19 +3612,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As decisões dos Tribunais Regionais Eleitorais são sempre terminativas em todo e qualquer caso de eleição municipal, nunca cabendo recurso ao TSE."
+        "text": "As decisões dos Tribunais Regionais Eleitorais são sempre terminativas em todo e qualquer caso de eleição municipal, nunca cabendo recurso ao TSE, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "B",
-        "text": "Das decisões dos TREs caberá Recurso ORDINÁRIO ao TSE quando versarem sobre expedição de diplomas nas eleições federais ou estaduais, ou quando decretarem a perda de mandatos eletivos federais ou estaduais (caso do Governador), podendo o TSE reexaminar fatos e provas; já nas demais hipóteses (como eleições municipais ou decisões que apenas violam lei/Constituição sem cassar diploma federal/estadual), cabe Recurso ESPECIAL ao TSE (vedado reexame de provas — Súmula 24 do TSE)."
+        "text": "Das decisões dos TREs caberá Recurso ordinário ao TSE quando versarem sobre expedição de diplomas nas eleições federais ou estaduais, ou quando decretarem a perda de mandatos eletivos federais ou estaduais, podendo o TSE reexaminar fatos e provas."
       },
       {
         "letter": "C",
-        "text": "No julgamento de Recurso Especial Eleitoral (RESPE), o TSE realiza livre reexame de todo o conjunto fático-probatório dos autos."
+        "text": "No julgamento de Recurso Especial Eleitoral (respe), o TSE realiza livre reexame de todo o conjunto fático-probatório dos autos, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "D",
-        "text": "Contra decisão do TRE que denegar habeas corpus ou mandado de segurança em matéria eleitoral cabe Recurso Especial, e não Recurso Ordinário."
+        "text": "Contra decisão do TRE que denegar habeas corpus ou mandado de segurança em matéria eleitoral cabe Recurso Especial, e não Recurso Ordinário, com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade."
       }
     ],
     "correctAnswer": "B",
@@ -3668,19 +3668,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nas representações por propaganda eleitoral irregular do Art. 96, o representado tem prazo de 15 dias para contestar e 10 dias para recorrer."
+        "text": "Nas representações por propaganda eleitoral irregular, o representado tem prazo de 15 dias para contestar e 10 dias para recorrer, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "B",
-        "text": "Nos termos do Art. 96 da Lei nº 9.504/1997, recebida a representação por descumprimento da Lei das Eleições (salvo rito próprio específico como Art. 30-A/41-A), a Justiça Eleitoral notificará imediatamente o reclamado para apresentar defesa no prazo de 48 (quarenta e oito) horas, e da decisão caberá recurso no prazo de 24 (vinte e quatro) horas."
+        "text": "Recebida a representação por descumprimento da Lei das Eleições, a Justiça Eleitoral notificará imediatamente o reclamado para apresentar defesa no prazo de 48 (quarenta e oito) horas, e da decisão caberá recurso no prazo de 24 (vinte e quatro) horas."
       },
       {
         "letter": "C",
-        "text": "Entre 15 de agosto e a diplomação, os prazos relativos às representações do Art. 96 são suspensos aos sábados, domingos e feriados."
+        "text": "Entre 15 de agosto e a diplomação, os prazos relativos às representações são suspensos aos sábados, domingos e feriados. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "D",
-        "text": "A representação por propaganda irregular pode ser julgada diretamente pelo TSE mesmo quando envolver disputa exclusivamente municipal para Vereador."
+        "text": "A representação por propaganda irregular pode ser julgada diretamente pelo TSE mesmo quando envolver disputa exclusivamente municipal para Vereador, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       }
     ],
     "correctAnswer": "B",
@@ -3723,11 +3723,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer eleitor ou prefeito municipal pode apresentar consulta jurídica ao TSE sobre sua própria elegibilidade no caso concreto."
+        "text": "Qualquer eleitor ou prefeito municipal pode apresentar consulta jurídica ao TSE sobre sua própria elegibilidade no caso concreto, com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão."
       },
       {
         "letter": "B",
-        "text": "A consulta não deve ser conhecida por duplo motivo: (1) o Prefeito municipal não possui legitimidade para formular consulta ao TSE (apenas autoridade com jurisdição federal ou órgão nacional de partido político pode consultar o TSE; ao TRE consultam autoridades públicas estaduais ou partidos estaduais); e (2) a consulta versa exclusivamente sobre matéria eleitoral EM TESE, nunca sobre caso concreto."
+        "text": "A consulta não deve ser conhecida por duplo motivo: o Prefeito municipal não possui legitimidade para formular consulta ao TSE."
       },
       {
         "letter": "C",
@@ -3735,7 +3735,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Os Juízes Eleitorais de primeiro grau têm competência originária para responder a consultas eleitorais formuladas por diretórios municipais."
+        "text": "Os Juízes Eleitorais de primeiro grau têm competência originária para responder a consultas eleitorais formuladas por diretórios municipais, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       }
     ],
     "correctAnswer": "B",
@@ -3778,19 +3778,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Toda e qualquer forma de propaganda eleitoral, incluindo distribuição de panfletos e carreatas, encerra-se 48 horas antes do domingo da eleição."
+        "text": "Toda e qualquer forma de propaganda eleitoral, incluindo distribuição de panfletos e carreatas, encerra-se 48 horas antes do domingo da eleição. Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito."
       },
       {
         "letter": "B",
-        "text": "A conduta é LÍCITA dentro do horário permitido, pois até as 22 (vinte e duas) horas do dia que antecede a eleição serão permitidos a distribuição de material gráfico e a promoção de caminhada, carreata ou passeata (acompanhadas ou não por carro de som ou minitrio), respeitada a distância mínima de 200 metros de sedes de poderes, tribunais, hospitais, escolas e templos em funcionamento."
+        "text": "A conduta é lícita dentro do horário permitido, pois até as 22 (vinte e duas) horas do dia que antecede a eleição serão permitidos a distribuição de material gráfico e a promoção de caminhada, carreata ou passeata, respeitada a distância mínima de 200 metros de sedes de poderes, tribunais, hospitais, escolas e templos em funcionamento."
       },
       {
         "letter": "C",
-        "text": "É permitido o uso livre de trios elétricos de grande porte em qualquer carreata eleitoral de rua."
+        "text": "É permitido o uso livre de trios elétricos de grande porte em qualquer carreata eleitoral de rua, sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado."
       },
       {
         "letter": "D",
-        "text": "A instalação de alto-falantes ou amplificadores de som pode ocorrer a qualquer distância de escolas ou igrejas mesmo durante o horário de aula ou culto."
+        "text": "A instalação de alto-falantes ou amplificadores de som pode ocorrer a qualquer distância de escolas ou igrejas mesmo durante o horário de aula ou culto, com validação da propaganda antecipada independentemente de pedido explícito de voto. A inobservância do preceito submete o candidato e a agremiação às sanções da Justiça Eleitoral."
       }
     ],
     "correctAnswer": "B",
@@ -3833,19 +3833,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A determinação de retirada do cartaz é legítima (exercício do poder de polícia administrativo do Art. 41, § 1º), mas a imposição de multa de ofício pelo juiz é ILEGAL: nos termos da Súmula 18 do TSE, conquanto investido de poder de polícia, não tem legitimidade o juiz eleitoral para, de ofício, instaurar procedimento com a finalidade de impor multa pela veiculação de propaganda eleitoral em desacordo com a Lei nº 9.504/1997."
+        "text": "A determinação de retirada do cartaz é legítima, mas a imposição de multa de ofício pelo juiz é ilegal:, conquanto investido de poder de polícia, não tem legitimidade o juiz eleitoral para, de ofício, instaurar procedimento com a finalidade de impor multa pela veiculação de propaganda eleitoral em desacordo com a Lei nº 9.504/1997."
       },
       {
         "letter": "B",
-        "text": "O poder de polícia exercido pelo juiz eleitoral autoriza a aplicação direta de multa de ofício sem necessidade de representação pelo Ministério Público ou por partido político."
+        "text": "O poder de polícia exercido pelo juiz eleitoral autoriza a aplicação direta de multa de ofício sem necessidade de representação pelo Ministério Público ou por partido político, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "O poder de polícia sobre a propaganda eleitoral abrange a censura prévia de entrevistas jornalísticas e opiniões políticas antes de sua divulgação."
+        "text": "O poder de polícia sobre a propaganda eleitoral abrange a censura prévia de entrevistas jornalísticas e opiniões políticas antes de sua divulgação, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "A simples retirada da propaganda irregular em bem público após notificação judicial em 48 horas isenta automaticamente o infrator da multa mesmo em propaganda em bem particular irregular."
+        "text": "A simples retirada da propaganda irregular em bem público após notificação judicial em 48 horas isenta automaticamente o infrator da multa mesmo em propaganda em bem particular irregular, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial. Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito."
       }
     ],
     "correctAnswer": "A",
@@ -3889,7 +3889,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O candidato (e o partido quanto à campanha) deve encaminhar à Justiça Eleitoral a prestação de contas final até o 30º dia posterior à realização das eleições (e até o 20º dia após o 2º turno para quem o disputar); já o partido que deixar de apresentar a prestação de contas ANUAL (até 30 de junho do ano seguinte) sofre suspensão do repasse de cotas do Fundo Partidário e do FEFC enquanto perdurar a inadimplência (Art. 37-A da Lei nº 9.096/95), mas eventual irregularidade nas contas não gera responsabilização pessoal automática sem individualização."
+        "text": "O candidato deve encaminhar à Justiça Eleitoral a prestação de contas final até o 30º dia posterior à realização das eleições."
       },
       {
         "letter": "B",
@@ -3897,11 +3897,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A prestação de contas anual dos partidos políticos deve ser entregue à Receita Federal até 31 de março e não à Justiça Eleitoral."
+        "text": "A prestação de contas anual dos partidos políticos deve ser entregue à Receita Federal até 31 de março e não à Justiça Eleitoral, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "A desaprovação das contas partidárias anuais acarreta automaticamente o cancelamento definitivo do registro do partido político no TSE."
+        "text": "A desaprovação das contas partidárias anuais acarreta automaticamente o cancelamento definitivo do registro do partido político no TSE, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       }
     ],
     "correctAnswer": "A",
@@ -3944,7 +3944,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos termos da jurisprudência consolidada do STF (Inq 4.435), compete à JUSTIÇA ELEITORAL processar e julgar os crimes comuns (como corrupção ou lavagem de dinheiro) conexos com crimes eleitorais; quanto ao eleitor preso 4 dias antes do pleito, sua prisão preventiva NÃO é válida se não houver sentença condenatória por crime inafiançável ou flagrante delito (Art. 236 CE)!"
+        "text": "Nos termos da jurisprudência consolidada do STF (Inq 4.435), compete à justiça eleitoral processar e julgar os crimes comuns conexos com crimes eleitorais."
       },
       {
         "letter": "B",
@@ -3952,11 +3952,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A imunidade prisional de 5 dias antes até 48 horas depois da eleição (Art. 236 CE) impede inclusive a prisão em flagrante delito de quem estiver cometendo homicídio no sábado pré-eleitoral."
+        "text": "A imunidade prisional de 5 dias antes até 48 horas depois da eleição impede inclusive a prisão em flagrante delito de quem estiver cometendo homicídio no sábado pré-eleitoral."
       },
       {
         "letter": "D",
-        "text": "O prazo de proteção contra prisão do Art. 236 para os candidatos eleitos dura apenas 5 dias antes da eleição."
+        "text": "O prazo de proteção contra prisão para os candidatos eleitos dura apenas 5 dias antes da eleição, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "A",
@@ -4000,19 +4000,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O apoiamento mínimo exige assinaturas de eleitores NÃO filiados a partido político correspondentes a pelo menos 0,5% dos votos dados na última eleição geral para a Câmara dos Deputados (não computados brancos e nulos), distribuídos por 1/3 ou mais dos Estados com mínimo de 0,1% do eleitorado que haja votado em cada um deles — devendo as assinaturas ser obtidas no prazo máximo de 2 ANOS após aquisição da personalidade jurídica civil."
+        "text": "O apoiamento mínimo exige assinaturas de eleitores não filiados a partido político correspondentes a pelo menos 0,5% dos votos dados na última eleição geral para a Câmara dos Deputados, distribuídos por 1/3 ou mais dos Estados com mínimo de 0,1% do eleitorado que haja votado em cada um deles."
       },
       {
         "letter": "B",
-        "text": "Qualquer eleitor já filiado a outro partido político pode assinar validamente a lista de apoiamento para criação de novo partido."
+        "text": "Qualquer eleitor já filiado a outro partido político pode assinar validamente a lista de apoiamento para criação de novo partido, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "C",
-        "text": "Para disputar as eleições do mesmo ano, basta que o novo partido protocole seu pedido de registro de estatuto no TSE até 15 de agosto."
+        "text": "Para disputar as eleições do mesmo ano, basta que o novo partido protocole seu pedido de registro de estatuto no TSE até 15 de agosto, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "D",
-        "text": "O apoiamento mínimo para criação de partido deve alcançar pelo menos 5% do eleitorado brasileiro distribuído em todos os 26 Estados."
+        "text": "O apoiamento mínimo para criação de partido deve alcançar pelo menos 5% do eleitorado brasileiro distribuído em todos os 26 Estados, sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado."
       }
     ],
     "correctAnswer": "A",
@@ -4055,19 +4055,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Fundo Partidário (Art. 41-A Lei 9.096/95), 5% são divididos igualmente entre todos os partidos com estatuto no TSE que preencham a cláusula de desempenho e 95% na proporção dos votos obtidos na última eleição para a Câmara dos Deputados; já no FEFC (Art. 16-D Lei 9.504/97), apenas 2% são divididos igualmente e os demais 98% distribuem-se conforme bancadas/votos na Câmara (35%, 48%) e no Senado (15%)."
+        "text": "No Fundo Partidário, 5% são divididos igualmente entre todos os partidos com estatuto no TSE que preencham a cláusula de desempenho e 95% na proporção dos votos obtidos na última eleição para a Câmara dos Deputados."
       },
       {
         "letter": "B",
-        "text": "Tanto o Fundo Partidário quanto o FEFC dividem 50% de forma igualitária entre todas as legendas e 50% conforme o número de vereadores eleitos."
+        "text": "Tanto o Fundo Partidário quanto o fefc dividem 50% de forma igualitária entre todas as legendas e 50% conforme o número de vereadores eleitos, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "O Senado Federal não possui nenhum peso percentual na fórmula de distribuição do Fundo Especial de Financiamento de Campanha (FEFC)."
+        "text": "O Senado Federal não possui nenhum peso percentual na fórmula de distribuição do Fundo Especial de Financiamento de Campanha (fefc), em estrita observância à soberania popular, à legitimidade do pleito e à isonomia eleitoral."
       },
       {
         "letter": "D",
-        "text": "Todos os partidos com registro no TSE, mesmo os que não atingiram a cláusula de barreira da EC nº 97/2017, recebem a cota de Fundo Partidário."
+        "text": "Todos os partidos com registro no TSE, mesmo os que não atingiram a cláusula de barreira da EC nº 97/2017, recebem a cota de Fundo Partidário. A inobservância do preceito submete o candidato e a agremiação às sanções da Justiça Eleitoral."
       }
     ],
     "correctAnswer": "A",
@@ -4110,19 +4110,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O partido descumpriu a obrigação legal de aplicar NO MÍNIMO 5% (cinco por cento) do total dos recursos do Fundo Partidário em programas de promoção e difusão da participação política das mulheres, sujeitando-se ao acréscimo de 12,5% no ano seguinte sobre a diferença não aplicada (além da obrigação de aplicar o valor faltante exclusivamente nessa finalidade)."
+        "text": "O partido descumpriu a obrigação legal de aplicar no mínimo 5% (cinco por cento) do total dos recursos do Fundo Partidário em programas de promoção e difusão da participação política das mulheres, sujeitando-se ao acréscimo de 12,5% no ano seguinte sobre a diferença não aplicada."
       },
       {
         "letter": "B",
-        "text": "O percentual mínimo do Fundo Partidário destinado a programas femininos pode ser redirecionado livremente para pagamento de advogados eleitorais caso não haja interesse interno."
+        "text": "O percentual mínimo do Fundo Partidário destinado a programas femininos pode ser redirecionado livremente para pagamento de advogados eleitorais caso não haja interesse interno, com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade."
       },
       {
         "letter": "C",
-        "text": "O mínimo legal para programas de promoção da participação política das mulheres no Fundo Partidário é de 30% anuais, igual ao percentual eleitoral de candidaturas."
+        "text": "O mínimo legal para programas de promoção da participação política das mulheres no Fundo Partidário é de 30% anuais, igual ao percentual eleitoral de candidaturas, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "D",
-        "text": "O descumprimento da cota anual de 5% para programas femininos gera cassação imediata do registro do partido político."
+        "text": "O descumprimento da cota anual de 5% para programas femininos gera cassação imediata do registro do partido político, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       }
     ],
     "correctAnswer": "A",
@@ -4165,19 +4165,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Havendo coexistência de filiações partidárias, PREVALECERÁ A MAIS RECENTE, devendo a Justiça Eleitoral determinar o cancelamento automático das demais filiações anteriores (Art. 22, parágrafo único, da Lei nº 9.096/1995)."
+        "text": "Havendo coexistência de filiações partidárias, prevalecerá a mais recente, devendo a Justiça Eleitoral determinar o cancelamento automático das demais filiações anteriores."
       },
       {
         "letter": "B",
-        "text": "A coexistência de duas filiações partidárias sem prévio cancelamento torna nulas ambas as filiações, deixando a eleitora sem partido e inelegível."
+        "text": "A coexistência de duas filiações partidárias sem prévio cancelamento torna nulas ambas as filiações, deixando a eleitora sem partido e inelegível, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "Na duplicidade de filiações, prevalece sempre a filiação mais antiga até que o partido anterior conceda carta de liberação formal."
+        "text": "Na duplicidade de filiações, prevalece sempre a filiação mais antiga até que o partido anterior conceda carta de liberação formal, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "As relações internas de filiação partidária são regidas exclusivamente pela Justiça Comum estadual sem qualquer controle pela Justiça Eleitoral."
+        "text": "As relações internas de filiação partidária são regidas exclusivamente pela Justiça Comum estadual sem qualquer controle pela Justiça Eleitoral, com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial."
       }
     ],
     "correctAnswer": "A",
@@ -4220,11 +4220,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para desligar-se do partido, o filiado faz comunicação escrita ao órgão de direção municipal e ao Juiz Eleitoral da Zona em que for inscrito; decorridos dois dias da data da entrega da comunicação, o vínculo torna-se extinto para todos os efeitos (Art. 21 Lei nº 9.096/95). Já a expulsão pelo partido exige devido processo legal interno e ampla defesa."
+        "text": "Para desligar-se do partido, o filiado faz comunicação escrita ao órgão de direção municipal e ao Juiz Eleitoral da Zona em que for inscrito."
       },
       {
         "letter": "B",
-        "text": "A desfiliação voluntária de filiado comum depende da concordância formal do presidente do diretório nacional do partido."
+        "text": "A desfiliação voluntária de filiado comum depende da concordância formal do presidente do diretório nacional do partido, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "C",
@@ -4275,19 +4275,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A propaganda partidária gratuita (restabelecida pela Lei nº 14.291/2022 exclusivamente em forma de inserções nacionais e estaduais de 30 segundos entre 19h30 e 22h30) é permitida em anos NÃO eleitorais (1º e 2º semestres) e somente no PRIMEIRO SEMESTRE dos anos eleitorais (vedada no 2º semestre eleitoral), devendo reservar no mínimo 30% do tempo para promover e difundir a participação política feminina."
+        "text": "A propaganda partidária gratuita é permitida em anos não eleitorais (1º e 2º semestres) e somente no primeiro semestre dos anos eleitorais, devendo reservar no mínimo 30% do tempo para promover e difundir a participação política feminina."
       },
       {
         "letter": "B",
-        "text": "A propaganda partidária gratuita pode ser transmitida durante todo o segundo semestre do ano eleitoral em conjunto com o horário eleitoral gratuito."
+        "text": "A propaganda partidária gratuita pode ser transmitida durante todo o segundo semestre do ano eleitoral em conjunto com o horário eleitoral gratuito, com validação da propaganda antecipada independentemente de pedido explícito de voto."
       },
       {
         "letter": "C",
-        "text": "Na propaganda partidária gratuita é lícito ao dirigente partidário pedir expressamente votos para o futuro candidato a prefeito da legenda."
+        "text": "Na propaganda partidária gratuita é lícito ao dirigente partidário pedir expressamente votos para o futuro candidato a prefeito da legenda, sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado."
       },
       {
         "letter": "D",
-        "text": "Na propaganda partidária gratuita não há nenhuma cota mínima obrigatória de tempo destinada à participação política das mulheres."
+        "text": "Na propaganda partidária gratuita não há nenhuma cota mínima obrigatória de tempo destinada à participação política das mulheres, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       }
     ],
     "correctAnswer": "A",
@@ -4330,19 +4330,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A conduta configura o crime eleitoral previsto no Art. 40 da Lei nº 9.504/1997: o uso, na propaganda eleitoral, de símbolos, frases ou imagens, associadas ou semelhantes às empregadas por órgão de governo, empresa pública ou sociedade de economia mista constitui crime punível com detenção de 6 meses a 1 ano (com alternativa de prestação de serviços à comunidade) e multa."
+        "text": "A conduta configura o crime eleitoral: o uso, na propaganda eleitoral, de símbolos, frases ou imagens, associadas ou semelhantes às empregadas por órgão de governo, empresa pública ou sociedade de economia mista constitui crime punível com detenção de 6 meses a 1 ano e multa."
       },
       {
         "letter": "B",
-        "text": "Candidato que exerce o cargo de Prefeito pode utilizar livremente o brasão oficial do Município em seus santinhos para demonstrar experiência administrativa."
+        "text": "Candidato que exerce o cargo de Prefeito pode utilizar livremente o brasão oficial do Município em seus santinhos para demonstrar experiência administrativa, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "C",
-        "text": "O uso de símbolos ou frases associadas a órgãos governamentais na propaganda eleitoral constitui mera irregularidade administrativa sujeita apenas à retirada do material."
+        "text": "O uso de símbolos ou frases associadas a órgãos governamentais na propaganda eleitoral constitui mera irregularidade administrativa sujeita apenas à retirada do material, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "D",
-        "text": "A proibição do Art. 40 restringe-se aos símbolos da União Federal, não protegendo logotipos ou slogans de empresas públicas e prefeituras municipais."
+        "text": "A proibição restringe-se aos símbolos da União Federal, não protegendo logotipos ou slogans de empresas públicas e prefeituras municipais, com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade."
       }
     ],
     "correctAnswer": "A",
@@ -4385,19 +4385,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Como as lojas comerciais, igrejas e bancas de jornal pertencem a particulares, é lícito colar cartazes eleitorais em suas fachadas se o proprietário concordar."
+        "text": "Como as lojas comerciais, igrejas e bancas de jornal pertencem a particulares, é lícito colar cartazes eleitorais em suas fachadas se o proprietário concordar. A inobservância do preceito submete o candidato e a agremiação às sanções da Justiça Eleitoral."
       },
       {
         "letter": "B",
-        "text": "É lícito colar vários adesivos de 0,4 m² lado a lado na mesma fachada particular formando um grande painel de 4 m²."
+        "text": "É lícito colar vários adesivos de 0,4 m² lado a lado na mesma fachada particular formando um grande painel de 4 m², em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "Nas árvores e jardins localizados em áreas públicas é permitida a colocação de placas pequenas de até 0,5 m² desde que não danifiquem os galhos."
+        "text": "Nas árvores e jardins localizados em áreas públicas é permitida a colocação de placas pequenas de até 0,5 m² desde que não danifiquem os galhos, com cassação do registro ou diploma e imposição de multa após regular instrução processual."
       },
       {
         "letter": "D",
-        "text": "A propaganda na passarela e na banca de jornal é ILEGAL, pois nos bens cujo uso dependa de cessão ou permissão do Poder Público, ou que a ele pertençam, e nos bens de uso comum (inclusive cinemas, clubes, lojas, centros comerciais, templos, ginásios, estádios, ainda que de propriedade privada), é vedada a veiculação de propaganda; já o adesivo único de até 0,5 m² na janela particular de forma gratuita e espontânea é LÍCITO."
+        "text": "A propaganda na passarela e na banca de jornal é ilegal, pois nos bens cujo uso dependa de cessão ou permissão do Poder Público, ou que a ele pertençam, e nos bens de uso comum, é vedada a veiculação de propaganda."
       }
     ],
     "correctAnswer": "D",
@@ -4440,19 +4440,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Espalhar santinhos na calçada em frente às seções eleitorais às 3h da manhã é lícito porque foi realizado antes da abertura das urnas às 8h."
+        "text": "Espalhar santinhos na calçada em frente às seções eleitorais às 3h da manhã é lícito porque foi realizado antes da abertura das urnas às 8h. Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito."
       },
       {
         "letter": "B",
-        "text": "A multa eleitoral pelo derrame de santinhos independe de qualquer vínculo ou prévio conhecimento do candidato, aplicando-se por responsabilidade objetiva absoluta."
+        "text": "A multa eleitoral pelo derrame de santinhos independe de qualquer vínculo ou prévio conhecimento do candidato, aplicando-se por responsabilidade objetiva absoluta, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "C",
-        "text": "O recolhimento voluntário dos santinhos pelas equipes de limpeza municipal após as 10h da manhã do domingo afasta automaticamente a infração eleitoral."
+        "text": "O recolhimento voluntário dos santinhos pelas equipes de limpeza municipal após as 10h da manhã do domingo afasta automaticamente a infração eleitoral, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "D",
-        "text": "O chamado \"derrame de santinhos\" nas vias públicas próximas aos locais de votação na véspera ou madrugada do pleito configura propaganda eleitoral irregular (Art. 37 c/c Art. 39, § 5º, III, da Lei nº 9.504/1997), ensejando responsabilização pela multa eleitoral do candidato beneficiado quando comprovado seu prévio conhecimento (inclusive pelas circunstâncias do caso) e apuração criminal eleitoral."
+        "text": "O chamado \"derrame de santinhos\" nas vias públicas próximas aos locais de votação na véspera ou madrugada do pleito configura propaganda eleitoral irregular, ensejando responsabilização pela multa eleitoral do candidato beneficiado quando comprovado seu prévio conhecimento e apuração criminal eleitoral."
       }
     ],
     "correctAnswer": "D",
@@ -4495,19 +4495,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A distribuição gratuita de camisetas e bonés com o número do candidato aos eleitores é livre durante a campanha, sendo proibida apenas a distribuição de cestas básicas."
+        "text": "A distribuição gratuita de camisetas e bonés com o número do candidato aos eleitores é livre durante a campanha, sendo proibida apenas a distribuição de cestas básicas, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "B",
-        "text": "Os próprios eleitores estão proibidos de comprar por conta própria uma camiseta lisa ou confeccionar broche para manifestar preferência individual no dia da eleição."
+        "text": "Os próprios eleitores estão proibidos de comprar por conta própria uma camiseta lisa ou confeccionar broche para manifestar preferência individual no dia da eleição, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "A distribuição de santinhos e folhetos impressos simples de campanha também foi proibida junto com os brindes."
+        "text": "A distribuição de santinhos e folhetos impressos simples de campanha também foi proibida junto com os brindes, com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade."
       },
       {
         "letter": "D",
-        "text": "É terminantemente PROIBIDA na campanha eleitoral a confecção, utilização ou distribuição por comitê, candidato, ou com a sua autorização, de camisetas, chaveiros, bonés, canetas, brindes, cestas básicas ou quaisquer outros bens ou materiais que possam proporcionar vantagem ao eleitor — configurando ilícito eleitoral (e até captação ilícita de sufrágio se vinculada ao voto)."
+        "text": "É terminantemente proibida na campanha eleitoral a confecção, utilização ou distribuição por comitê, candidato, ou com a sua autorização, de camisetas, chaveiros, bonés, canetas, brindes, cestas básicas ou quaisquer outros bens ou materiais que possam proporcionar vantagem ao eleitor."
       }
     ],
     "correctAnswer": "D",
@@ -4550,7 +4550,7 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todos os comitês de campanha, inclusive os regionais e distritais, podem ostentar placas de até 4 metros quadrados livremente."
+        "text": "Todos os comitês de campanha, inclusive os regionais e distritais, podem ostentar placas de até 4 metros quadrados livremente. A inobservância do preceito submete o candidato e a agremiação às sanções da Justiça Eleitoral."
       },
       {
         "letter": "B",
@@ -4558,11 +4558,11 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O comitê central de campanha não precisa ser informado à Justiça Eleitoral no registro ou prestação de contas."
+        "text": "O comitê central de campanha não precisa ser informado à Justiça Eleitoral no registro ou prestação de contas, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "D",
-        "text": "A placa do Comitê Central de Campanha (3,5 m²) é LÍCITA porque o limite no comitê central é de até 4 (quatro) metros quadrados; contudo, nos demais comitês de campanha (não centrais), a inscrição do nome e número do candidato NÃO pode exceder a dimensão de 0,5 (meio) metro quadrado — tornando irregulares as placas de 2 m² dos subcomitês!"
+        "text": "A placa do Comitê Central de Campanha (3,5 m²) é lícita porque o limite no comitê central é de até 4 (quatro) metros quadrados."
       }
     ],
     "correctAnswer": "D",
@@ -4605,19 +4605,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É proibida toda e qualquer propaganda eleitoral paga em jornais ou revistas impressos, assim como ocorre na televisão aberta."
+        "text": "É proibida toda e qualquer propaganda eleitoral paga em jornais ou revistas impressos, assim como ocorre na televisão aberta, com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade."
       },
       {
         "letter": "B",
-        "text": "Em jornais padrão e revistas, o candidato pode comprar página inteira em até 20 edições desde que declare o valor pago na prestação de contas."
+        "text": "Em jornais padrão e revistas, o candidato pode comprar página inteira em até 20 edições desde que declare o valor pago na prestação de contas, com validação da propaganda antecipada independentemente de pedido explícito de voto."
       },
       {
         "letter": "C",
-        "text": "A reprodução exata da página do jornal impresso no site oficial do próprio veículo na internet é proibida durante a campanha."
+        "text": "A reprodução exata da página do jornal impresso no site oficial do próprio veículo na internet é proibida durante a campanha, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "A conduta ultrapassou os dois limites legais do Art. 43 da Lei nº 9.504/1997: são permitidos até a antevéspera das eleições apenas até 10 (DEZ) anúncios de propaganda eleitoral, por veículo, em datas diversas, para cada candidato, num espaço máximo, por edição, de 1/8 (um oitavo) de página de jornal padrão e de 1/4 (um quarto) de página de revista ou tabloide!"
+        "text": "A conduta ultrapassou os dois limites legais: são permitidos até a antevéspera das eleições apenas até 10 (dez) anúncios de propaganda eleitoral, por veículo, em datas diversas, para cada candidato, num espaço máximo, por edição, de 1/8 (um oitavo) de página de jornal padrão e de 1/4 (um quarto) de página de revista ou tabloide."
       }
     ],
     "correctAnswer": "D",
@@ -4660,19 +4660,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A contratação de cabos eleitorais remunerados pelo candidato ou partido cria automaticamente vínculo de emprego regido pela CLT com direito a aviso prévio e FGTS."
+        "text": "A contratação de cabos eleitorais remunerados pelo candidato ou partido cria automaticamente vínculo de emprego regido pela CLT com direito a aviso prévio e FGTS, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "B",
-        "text": "Não existe qualquer limite numérico legal para contratação de cabos eleitorais remunerados pelo candidato desde que não ultrapasse o teto financeiro de gastos."
+        "text": "Não existe qualquer limite numérico legal para contratação de cabos eleitorais remunerados pelo candidato desde que não ultrapasse o teto financeiro de gastos, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "A militância voluntária não remunerada de simpatizantes também entra na cota numérica máxima do Art. 100-A."
+        "text": "A militância voluntária não remunerada de simpatizantes também entra na cota numérica máxima, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "D",
-        "text": "A contratação de pessoal para prestação de serviços nas campanhas eleitorais NÃO gera vínculo empregatício com o candidato ou partido contratante (Art. 100), mas deve respeitar rigorosamente o teto numérico do Art. 100-A da Lei nº 9.504/1997 (baseado no número de eleitores do município/estado) — tornando ilegal a contratação excessiva."
+        "text": "A contratação de pessoal para prestação de serviços nas campanhas eleitorais não gera vínculo empregatício com o candidato ou partido contratante, mas deve respeitar rigorosamente o teto numérico."
       }
     ],
     "correctAnswer": "D",
@@ -4715,19 +4715,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Somente os candidatos a cargos majoritários (Prefeito, Governador e Presidente) são obrigados a abrir conta bancária específica de campanha."
+        "text": "Somente os candidatos a cargos majoritários (Prefeito, Governador e Presidente) são obrigados a abrir conta bancária específica de campanha, com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão."
       },
       {
         "letter": "B",
-        "text": "Os bancos podem recusar a abertura de conta bancária de campanha para candidato que possua restrição cadastral no SPC/SERASA ou nome negativado."
+        "text": "Os bancos podem recusar a abertura de conta bancária de campanha para candidato que possua restrição cadastral no spc/serasa ou nome negativado, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "Despesas eleitorais de campanha contratadas pelo próprio candidato podem ser pagas a qualquer momento por meio de dinheiro vivo sem controle bancário ou limite."
+        "text": "Despesas eleitorais de campanha contratadas pelo próprio candidato podem ser pagas a qualquer momento por meio de dinheiro vivo sem controle bancário ou limite, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "D",
-        "text": "O procedimento é gravemente irregular: é OBRIGATÓRIA para partidos e candidatos a abertura de conta bancária específica destinada à campanha eleitoral (com CNPJ próprio gerado após o registro pela Receita Federal/TSE), devendo toda doação financeira transitar pela conta de campanha mediante emissão de recibo eleitoral quando exigido (salvo dispensa legal apenas da conta em municípios sem agência bancária/correspondente)."
+        "text": "O procedimento é gravemente irregular: é obrigatória para partidos e candidatos a abertura de conta bancária específica destinada à campanha eleitoral, devendo toda doação financeira transitar pela conta de campanha mediante emissão de recibo eleitoral quando exigido."
       }
     ],
     "correctAnswer": "D",
@@ -4770,19 +4770,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os honorários de advogados e contadores pagos com recursos privados para defesa judicial do candidato durante a campanha submetem-se integralmente ao limite máximo de gastos do cargo."
+        "text": "Os honorários de advogados e contadores pagos com recursos privados para defesa judicial do candidato durante a campanha submetem-se integralmente ao limite máximo de gastos do cargo, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "B",
-        "text": "Não existe limite percentual algum na Lei nº 9.504/1997 para contratação de aluguel de veículos automotores ou alimentação de pessoal em campanhas."
+        "text": "Não existe limite percentual algum na Lei nº 9.504/1997 para contratação de aluguel de veículos automotores ou alimentação de pessoal em campanhas, em estrita observância à soberania popular, à legitimidade do pleito e à isonomia eleitoral."
       },
       {
         "letter": "C",
-        "text": "O candidato que ultrapassar o limite legal global de gastos de campanha sofre apenas advertência verbal sem sanção pecuniária."
+        "text": "O candidato que ultrapassar o limite legal global de gastos de campanha sofre apenas advertência verbal sem sanção pecuniária, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "D",
-        "text": "As despesas com serviços advocatícios e de contabilidade prestados a candidatos ou partidos políticos em campanhas eleitorais são lícitas e NÃO estão sujeitas aos limites de gastos de campanha nem aos tetos de doação para essa rubrica específica (Art. 26, §§ 4º e 5º, Lei nº 9.504/97); porém, gastos com alimentação de pessoal prestador de serviços não podem exceder 10% do total das despesas de campanha (tornando ilegal o patamar de 18%)."
+        "text": "As despesas com serviços advocatícios e de contabilidade prestados a candidatos ou partidos políticos em campanhas eleitorais são lícitas e não estão sujeitas aos limites de gastos de campanha nem aos tetos de doação para essa rubrica específica."
       }
     ],
     "correctAnswer": "D",
@@ -4825,19 +4825,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cada partido político ou federação pode registrar até 150% do número de vagas a preencher nas eleições proporcionais."
+        "text": "Cada partido político ou federação pode registrar até 150% do número de vagas a preencher nas eleições proporcionais, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "B",
-        "text": "Em Estados com menos de 12 Deputados Federais, a regra permite lançar até 200% das vagas disponíveis."
+        "text": "Em Estados com menos de 12 Deputados Federais, a regra permite lançar até 200% das vagas disponíveis, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "C",
-        "text": "Se a conta do percentual mínimo de 30% por gênero resultar em número fracionário de candidatas mulheres, arredonda-se sempre para baixo."
+        "text": "Se a conta do percentual mínimo de 30% por gênero resultar em número fracionário de candidatas mulheres, arredonda-se sempre para baixo, sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado."
       },
       {
         "letter": "D",
-        "text": "O partido ou federação poderá registrar candidatos para a Câmara dos Deputados, Câmara Legislativa, Assembleias Legislativas e Câmaras Municipais no total de até 100% (cem por cento) do número de lugares a preencher MAIS 1 (um) — ou seja, no município de 15 vagas poderá registrar no máximo 16 candidatos (mantendo o mínimo de 30% e máximo de 70% por gênero)."
+        "text": "O partido ou federação poderá registrar candidatos para a Câmara dos Deputados, Câmara Legislativa, Assembleias Legislativas e Câmaras Municipais no total de até 100% (cem por cento) do número de lugares a preencher mais 1 (um)."
       }
     ],
     "correctAnswer": "D",
@@ -4880,19 +4880,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Indeferido o registro pelo Juiz Eleitoral em primeira instância, o candidato perde imediatamente o direito de fazer campanha e seu nome é excluído da urna eletrônica mesmo havendo recurso pendente."
+        "text": "Indeferido o registro pelo Juiz Eleitoral em primeira instância, o candidato perde imediatamente o direito de fazer campanha e seu nome é excluído da urna eletrônica mesmo havendo recurso pendente, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "B",
-        "text": "Caso o candidato sub judice vença a eleição com registro ainda indeferido aguardando recurso no TSE, deverá ser imediatamente diplomado e empossado provisoriamente antes do julgamento do recurso."
+        "text": "Caso o candidato sub judice vença a eleição com registro ainda indeferido aguardando recurso no TSE, deverá ser imediatamente diplomado e empossado provisoriamente antes do julgamento do recurso, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "Se o registro do candidato sub judice for definitivamente indeferido após a eleição, os votos a ele dados nas eleições proporcionais são aproveitados integralmente pelo seu partido político."
+        "text": "Se o registro do candidato sub judice for definitivamente indeferido após a eleição, os votos a ele dados nas eleições proporcionais são aproveitados integralmente pelo seu partido político, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "D",
-        "text": "O candidato cujo registro esteja SUB JUDICE poderá efetuar todos os atos relativos à campanha eleitoral, inclusive utilizar o horário eleitoral gratuito no rádio e na televisão e ter seu nome mantido na urna eletrônica enquanto estiver sob essa condição, ficando a validade dos votos a ele atribuídos condicionada ao deferimento de seu registro por instância superior (Art. 16-A Lei 9.504/97)."
+        "text": "O candidato cujo registro esteja sub judice poderá efetuar todos os atos relativos à campanha eleitoral, inclusive utilizar o horário eleitoral gratuito no rádio e na televisão e ter seu nome mantido na urna eletrônica enquanto estiver sob essa condição, ficando a validade dos votos a ele atribuídos condicionada ao deferimento de seu registro por instância superior."
       }
     ],
     "correctAnswer": "D",
@@ -4935,19 +4935,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A diplomação e a posse representam o mesmo ato único praticado sempre pelo Presidente da Câmara Municipal ou do Congresso Nacional."
+        "text": "A diplomação e a posse representam o mesmo ato único praticado sempre pelo Presidente da Câmara Municipal ou do Congresso Nacional, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "B",
-        "text": "A expedição do diploma ao candidato eleito gera coisa julgada material absoluta, tornando impossível qualquer ação posterior para questionar corrupção ou abuso eleitoral."
+        "text": "A expedição do diploma ao candidato eleito gera coisa julgada material absoluta, tornando impossível qualquer ação posterior para questionar corrupção ou abuso eleitoral, com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade."
       },
       {
         "letter": "C",
-        "text": "A diplomação é o ato jurisdicional-administrativo formal pelo qual a Justiça Eleitoral atesta quem são os eleitos e suplentes com os respectivos votos nominais e habilita o eleito à posse perante o Poder Executivo ou Legislativo. É o marco temporal final para a propositura da AIJE e da representação do Art. 41-A, e o marco temporal INICIAL de contagem dos prazos da AIME (15 dias), do Art. 30-A (15 dias) e do RCED (3 dias)."
+        "text": "A diplomação é o ato jurisdicional-administrativo formal pelo qual a Justiça Eleitoral atesta quem são os eleitos e suplentes com os respectivos votos nominais e habilita o eleito à posse perante o Poder Executivo ou Legislativo."
       },
       {
         "letter": "D",
-        "text": "Nos termos da Constituição, compete exclusivamente à Justiça Comum estadual julgar mandado de segurança contra ato de diplomação de prefeito."
+        "text": "Nos termos da Constituição, compete exclusivamente à Justiça Comum estadual julgar mandado de segurança contra ato de diplomação de prefeito, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       }
     ],
     "correctAnswer": "C",
@@ -4994,15 +4994,15 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Nos crimes de calúnia e difamação eleitorais previstos no Código Eleitoral admite-se a extinção da punibilidade pela retratação do agente antes da sentença."
+        "text": "Nos crimes de calúnia e difamação eleitorais previstos no Código Eleitoral admite-se a extinção da punibilidade pela retratação do agente antes da sentença, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "C",
-        "text": "Configura-se o crime de calúnia eleitoral (Art. 324 do Código Eleitoral — na propaganda eleitoral ou visando a fins de propaganda), admitindo-se exceção da verdade salvo as hipóteses legais; ademais, TODOS os crimes eleitorais definidos no Código Eleitoral — inclusive calúnia, difamação e injúria eleitorais — são de AÇÃO PENAL PÚBLICA INCONDICIONADA (Art. 355 CE)!"
+        "text": "Configura-se o crime de calúnia eleitoral, admitindo-se exceção da verdade salvo as hipóteses legais; ademais, todos os crimes eleitorais definidos no Código Eleitoral."
       },
       {
         "letter": "D",
-        "text": "Na injúria eleitoral (Art. 326 CE), é sempre cabível a exceção da verdade caso o ofendido seja candidato à reeleição."
+        "text": "Na injúria eleitoral, é sempre cabível a exceção da verdade caso o ofendido seja candidato à reeleição, com validação da propaganda antecipada independentemente de pedido explícito de voto."
       }
     ],
     "correctAnswer": "C",
@@ -5045,19 +5045,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A divulgação de pesquisa eleitoral não registrada ou fraudulenta gera exclusivamente multa administrativa pecuniária ao partido, sem previsão de tipo penal."
+        "text": "A divulgação de pesquisa eleitoral não registrada ou fraudulenta gera exclusivamente multa administrativa pecuniária ao partido, sem previsão de tipo penal, sem possibilidade de registro ou exercício do mandato diante da causa de inelegibilidade verificada."
       },
       {
         "letter": "B",
-        "text": "O crime do Art. 323 do Código Eleitoral aplica-se apenas a declarações verbais em comícios presenciais, não abrangendo redes sociais na internet."
+        "text": "O crime aplica-se apenas a declarações verbais em comícios presenciais, não abrangendo redes sociais na internet, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "C",
-        "text": "A divulgação de pesquisa fraudulenta constitui crime punível com detenção de 6 meses a 1 ano e multa (Art. 33, § 4º, da Lei nº 9.504/1997), e a divulgação na propaganda eleitoral de fatos que sabe inverídicos em relação a partidos ou candidatos e capazes de exercer influência perante o eleitorado configura o crime do Art. 323 do Código Eleitoral (aumentada a pena de 1/3 a 1/2 se cometido por meio da imprensa, rádio, TV ou internet/rede social)!"
+        "text": "A divulgação de pesquisa fraudulenta constitui crime punível com detenção de 6 meses a 1 ano e multa, e a divulgação na propaganda eleitoral de fatos que sabe inverídicos em relação a partidos ou candidatos e capazes de exercer influência perante o eleitorado configura o crime."
       },
       {
         "letter": "D",
-        "text": "No crime do Art. 323 do Código Eleitoral pune-se até mesmo quem divulgou informação equivocada de boa-fé por simples negligência culposa."
+        "text": "No crime pune-se até mesmo quem divulgou informação equivocada de boa-fé por simples negligência culposa, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "C",
@@ -5100,19 +5100,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O eleitor pode fotografar ou filmar livremente o seu próprio voto na tela da urna eletrônica por se tratar de manifestação privada de vontade."
+        "text": "O eleitor pode fotografar ou filmar livremente o seu próprio voto na tela da urna eletrônica por se tratar de manifestação privada de vontade, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder."
       },
       {
         "letter": "B",
-        "text": "Se um eleitor tentar votar duas vezes no mesmo pleito ou votar em lugar de outrem, comete mera infração administrativa de multa sem tipificação penal."
+        "text": "Se um eleitor tentar votar duas vezes no mesmo pleito ou votar em lugar de outrem, comete mera infração administrativa de multa sem tipificação penal, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "C",
-        "text": "Violar ou tentar violar o sigilo do voto constitui crime eleitoral punido com detenção de até 2 anos (Art. 312 do Código Eleitoral), sendo expressamente proibido portar aparelho de telefonia celular, máquinas fotográficas ou filmadoras dentro da cabina de votação (devendo deixá-los retidos com a mesa receptora); e promover desordem que prejudique trabalhos eleitorais tipifica o Art. 296 CE."
+        "text": "Violar ou tentar violar o sigilo do voto constitui crime eleitoral punido com detenção de até 2 anos, sendo expressamente proibido portar aparelho de telefonia celular, máquinas fotográficas ou filmadoras dentro da cabina de votação."
       },
       {
         "letter": "D",
-        "text": "Inutilizar, alterar ou perturbar meio de propaganda devidamente empregado nos termos da lei é conduta penalmente atípica."
+        "text": "Inutilizar, alterar ou perturbar meio de propaganda devidamente empregado nos termos da lei é conduta penalmente atípica, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       }
     ],
     "correctAnswer": "C",
@@ -5155,19 +5155,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A falsa imputação de crime eleitoral para prejudicar adversário configura apenas o delito de calúnia eleitoral do Art. 324, mesmo quando gera abertura formal de inquérito policial."
+        "text": "A falsa imputação de crime eleitoral para prejudicar adversário configura apenas o delito de calúnia eleitoral, mesmo quando gera abertura formal de inquérito policial, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       },
       {
         "letter": "B",
-        "text": "A pena do crime do Art. 326-A não sofre aumento caso o agente se utilize de anonimato ou nome suposto."
+        "text": "A pena do crime não sofre aumento caso o agente se utilize de anonimato ou nome suposto, sem possibilidade de registro ou exercício do mandato diante da causa de inelegibilidade verificada."
       },
       {
         "letter": "C",
-        "text": "A conduta configura o crime autônomo de DENUNCIAÇÃO CALUNIOSA COM FINALIDADE ELEITORAL (Art. 326-A do Código Eleitoral, reclusão de 2 a 8 anos e multa), abrangendo inclusive quem dá causa à instauração de investigação policial, processo judicial, investigação administrativa, inquérito civil ou ação de improbidade administrativa atribuindo prática de crime ou ato infracional de que o sabe inocente, com finalidade eleitoral."
+        "text": "A conduta configura o crime autônomo de denunciação caluniosa com finalidade eleitoral, abrangendo inclusive quem dá causa à instauração de investigação policial, processo judicial, investigação administrativa, inquérito civil ou ação de improbidade administrativa atribuindo prática de crime ou ato infracional de que o sabe inocente, com finalidade eleitoral."
       },
       {
         "letter": "D",
-        "text": "O STF declarou inconstitucional todo o Art. 326-A do Código Eleitoral na ADPF sobre fake news."
+        "text": "O STF declarou inconstitucional todo o Art. 326-A do Código Eleitoral na ADPF sobre fake news, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       }
     ],
     "correctAnswer": "C",
@@ -5210,19 +5210,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A pessoa com deficiência sob regime de curatela civil tem automaticamente suspensos seus direitos políticos de votar e ser votada."
+        "text": "A pessoa com deficiência sob regime de curatela civil tem automaticamente suspensos seus direitos políticos de votar e ser votada, com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos."
       },
       {
         "letter": "B",
-        "text": "É proibido em qualquer circunstância que pessoa de confiança acompanhe eleitor com deficiência visual ou motora grave até a cabina de votação."
+        "text": "É proibido em qualquer circunstância que pessoa de confiança acompanhe eleitor com deficiência visual ou motora grave até a cabina de votação, em estrita observância à soberania popular, à legitimidade do pleito e à isonomia eleitoral."
       },
       {
         "letter": "C",
-        "text": "O requerimento é plenamente assegurado por lei: os TREs devem instalar seções eleitorais especiais com acessibilidade e recursos de tecnologia assistiva (sistema Braille e fone de ouvido com áudio na urna), garantindo-se ainda à pessoa com deficiência ou mobilidade reduzida o direito de contar com o auxílio de pessoa de sua confiança na cabina de votação, mesmo que não o tenha requerido antecipadamente ao juiz."
+        "text": "O requerimento é plenamente assegurado por lei: os TREs devem instalar seções eleitorais especiais com acessibilidade e recursos de tecnologia assistiva, garantindo-se ainda à pessoa com deficiência ou mobilidade reduzida o direito de contar com o auxílio de pessoa de sua confiança na cabina de votação, mesmo que não o tenha requerido antecipadamente ao juiz."
       },
       {
         "letter": "D",
-        "text": "O eleitor com deficiência é obrigado a votar apenas em seção comum em andar superior sem elevador se não comunicou o cartório com 2 anos de antecedência."
+        "text": "O eleitor com deficiência é obrigado a votar apenas em seção comum em andar superior sem elevador se não comunicou o cartório com 2 anos de antecedência, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       }
     ],
     "correctAnswer": "C",
@@ -5265,19 +5265,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O referendo é convocado previamente à elaboração da norma pelo Presidente da República por decreto autônomo, enquanto o plebiscito ratifica norma já vigente."
+        "text": "O referendo é convocado previamente à elaboração da norma pelo Presidente da República por decreto autônomo, enquanto o plebiscito ratifica norma já vigente, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais."
       },
       {
         "letter": "B",
-        "text": "No âmbito municipal, a Constituição Federal exige adesão de pelo menos 1% do eleitorado da cidade para projeto de lei de iniciativa popular."
+        "text": "No âmbito municipal, a Constituição Federal exige adesão de pelo menos 1% do eleitorado da cidade para projeto de lei de iniciativa popular, sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "C",
-        "text": "A consulta prévia à edição do ato legislativo denomina-se PLEBISCITO (ao passo que o REFERENDO ocorre após a edição do ato legislativo para ratificá-lo ou rejeitá-lo, competindo exclusivamente ao Congresso Nacional autorizar referendo e convocar plebiscito — Art. 49, XV, CF); quanto à iniciativa popular, no plano FEDERAL exige-se 1% do eleitorado nacional distribuído em pelo menos 5 Estados com no mínimo 0,3% em cada, e no plano MUNICIPAL exige-se 5% do eleitorado local."
+        "text": "A consulta prévia à edição do ato legislativo denomina-se plebiscito; quanto à iniciativa popular, no plano federal exige-se 1% do eleitorado nacional distribuído em pelo menos 5 Estados com no mínimo 0,3% em cada, e no plano municipal exige-se 5% do eleitorado local."
       },
       {
         "letter": "D",
-        "text": "A iniciativa popular prevista no Art. 61, § 2º, da Constituição autoriza apresentação direta de Proposta de Emenda à Constituição (PEC) pelos cidadãos."
+        "text": "A iniciativa popular, da Constituição autoriza apresentação direta de Proposta de Emenda à Constituição (pec) pelos cidadãos, observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial."
       }
     ],
     "correctAnswer": "C",
@@ -5320,19 +5320,19 @@ export const ELEITORAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os crimes eleitorais praticados por Prefeito no exercício do mandato são julgados originariamente pelo Juiz Eleitoral da Zona Eleitoral do município."
+        "text": "Os crimes eleitorais praticados por Prefeito no exercício do mandato são julgados originariamente pelo Juiz Eleitoral da Zona Eleitoral do município, em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais. Essa regra garante a paridade de armas e a regularidade do processo democrático."
       },
       {
         "letter": "B",
-        "text": "Deputados Federais e Senadores que praticam crimes eleitorais estranhos ao exercício do mandato e anteriores à diplomação sempre mantêm foro privilegiado no STF."
+        "text": "Deputados Federais e Senadores que praticam crimes eleitorais estranhos ao exercício do mandato e anteriores à diplomação sempre mantêm foro privilegiado no STF, com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão."
       },
       {
         "letter": "C",
-        "text": "A competência originária para julgar Prefeito pela prática de crime ELEITORAL (ou crime comum federal) no exercício do cargo — em razão da simetria constitucional e da Súmula 702 do STF — pertence ao TRIBUNAL REGIONAL ELEITORAL (TRE) do respectivo Estado, enquanto os crimes comuns estaduais do prefeito competem ao Tribunal de Justiça (TJ)."
+        "text": "A competência originária para julgar Prefeito pela prática de crime eleitoral no exercício do cargo — em razão da simetria constitucional e da Súmula 702 do STF — pertence ao tribunal regional eleitoral (TRE) do respectivo Estado, enquanto os crimes comuns estaduais do prefeito competem ao Tribunal de Justiça (TJ)."
       },
       {
         "letter": "D",
-        "text": "Os Vereadores possuem foro por prerrogativa de função constitucional obrigatório no TRE para crimes eleitorais em todo o país."
+        "text": "Os Vereadores possuem foro por prerrogativa de função constitucional obrigatório no TRE para crimes eleitorais em todo o país, sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado."
       }
     ],
     "correctAnswer": "C",

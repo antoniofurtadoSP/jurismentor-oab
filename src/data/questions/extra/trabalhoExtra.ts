@@ -14,10 +14,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Duas sociedades empresárias distintas têm os mesmos sócios em comum, porém não há relação de direção, controle ou administração de uma sobre a outra, mantendo cada qual autonomia administrativa e atuação em ramos diferentes, sem comunhão de interesses efetiva. Em reclamação trabalhista, o autor pede a responsabilidade solidária das empresas por grupo econômico. Segundo o Art. 2º, § 3º, da CLT:`,
     options: [
-      { letter: 'A', text: 'A mera identidade de sócios é suficiente para caracterizar automaticamente o grupo econômico.' },
+      { letter: 'A', text: 'A mera identidade de sócios é suficiente para caracterizar automaticamente o grupo econômico, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.' },
       { letter: 'B', text: 'Não caracteriza grupo econômico a mera identidade de sócios, sendo necessárias, para a configuração do grupo, a demonstração do interesse integrado, a efetiva comunhão de interesses e a atuação conjunta das empresas dele integrantes.' },
-      { letter: 'C', text: 'O grupo econômico trabalhista gera responsabilidade meramente subsidiária entre as empresas.' },
-      { letter: 'D', text: 'A CLT admite grupo econômico apenas por subordinação hierárquica, proibindo o grupo por coordenação.' }
+      { letter: 'C', text: 'O grupo econômico trabalhista gera responsabilidade meramente subsidiária entre as empresas, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários.' },
+      { letter: 'D', text: 'A CLT admite grupo econômico apenas por subordinação hierárquica, proibindo o grupo por coordenação, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador.' }
     ],
     correctAnswer: 'B',
     justification: `Com a Reforma Trabalhista, o art. 2º, § 3º, da CLT passou a exigir, além da eventual identidade de sócios, a demonstração cumulativa de: (i) interesse integrado, (ii) efetiva comunhão de interesses e (iii) atuação conjunta das empresas integrantes (grupo econômico por coordenação, com responsabilidade solidária prevista no § 2º).`,
@@ -44,10 +44,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `A sociedade Alfa vendeu regularmente sua unidade produtiva e fundo de comércio para a sociedade Beta, continuando os empregados a trabalhar no mesmo local. Posteriormente, um ex-empregado dispensado antes da venda ajuizou ação cobrando verbas não pagas, requerendo a condenação de ambas. Não houve comprovação de fraude na transferência. À luz do Art. 448-A da CLT:`,
     options: [
-      { letter: 'A', text: 'A empresa sucedida (Alfa) responde diretamente de forma principal, respondendo a sucessora (Beta) apenas subsidiariamente.' },
+      { letter: 'A', text: 'A empresa sucedida (Alfa) responde diretamente de forma principal, respondendo a sucessora (Beta) apenas subsidiariamente, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.' },
       { letter: 'B', text: 'Caracterizada a sucessão empresarial, as obrigações trabalhistas, inclusive as contraídas à época em que os empregados trabalhavam para a empresa sucedida, são de responsabilidade da sucessora (Beta), respondendo a sucedida solidariamente apenas se comprovada fraude na transferência.' },
-      { letter: 'C', text: 'A mudança na propriedade da empresa rescinde automaticamente todos os contratos de trabalho.' },
-      { letter: 'D', text: 'Cláusula contratual entre Alfa e Beta isentando Beta de dívidas trabalhistas impede a execução pelo empregado.' }
+      { letter: 'C', text: 'A mudança na propriedade da empresa rescinde automaticamente todos os contratos de trabalho, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.' },
+      { letter: 'D', text: 'Cláusula contratual entre Alfa e Beta isentando Beta de dívidas trabalhistas impede a execução pelo empregado, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 448-A da CLT positiva que, caracterizada a sucessão empresarial ou de empregadores, as obrigações trabalhistas — inclusive as do período anterior à transferência — são de responsabilidade exclusiva da SUCESSORA. A empresa sucedida só responde solidariamente quando comprovada FRAUDE na transferência (parágrafo único).`,
@@ -74,10 +74,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Marina foi contratada originalmente no regime presencial e, após dois anos, acordou com seu empregador por termo aditivo contratual a migração para o regime de teletrabalho por produção (sem controle de jornada). Seis meses depois, o empregador decidiu unilateralmente determinar o retorno de Marina ao trabalho presencial. Consoante o Art. 75-C, § 2º, da CLT:`,
     options: [
-      { letter: 'A', text: 'O retorno ao presencial exige concordância prévia e expressa da empregada.' },
+      { letter: 'A', text: 'O retorno ao presencial exige concordância prévia e expressa da empregada, observados os princípios da continuidade da relação de emprego e da primazia da realidade.' },
       { letter: 'B', text: 'Poderá ser realizada a alteração do regime de teletrabalho para o presencial por determinação do empregador, garantido prazo de transição mínimo de 15 dias, com correspondente registro em aditivo contratual.' },
-      { letter: 'C', text: 'Todo empregado em teletrabalho tem direito automático a horas extras por estar sempre conectado.' },
-      { letter: 'D', text: 'A migração inicial do presencial para o teletrabalho também independe de mútuo acordo.' }
+      { letter: 'C', text: 'Todo empregado em teletrabalho tem direito automático a horas extras por estar sempre conectado, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador.' },
+      { letter: 'D', text: 'A migração inicial do presencial para o teletrabalho também independe de mútuo acordo, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo o art. 75-C da CLT: a ida do presencial para o teletrabalho exige MÚTUO ACORDO (§ 1º); já a volta do teletrabalho para o presencial pode ocorrer por DETERMINAÇÃO UNILATERAL do empregador, desde que garantido prazo de transição mínimo de 15 dias e formalizado aditivo contratual (§ 2º). Ademais, pelo art. 62, III, apenas o teletrabalhador por produção ou tarefa está dispensado do controle de jornada.`,
@@ -104,10 +104,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Um empregado maior de 50 anos de idade solicita à empresa o fracionamento de suas férias anuais remuneradas de 30 dias em três períodos, sendo um de 14 dias e outros dois de 8 dias cada, iniciando o gozo em uma sexta-feira imediatamente anterior a um feriado nacional que cairá no sábado. Com base no Art. 134 da CLT:`,
     options: [
-      { letter: 'A', text: 'É vedado o fracionamento de férias para maiores de 50 anos e menores de 18 anos.' },
-      { letter: 'B', text: 'O fracionamento em até três períodos é permitido (desde que um deles seja de pelo menos 14 dias e os demais de no mínimo 5 dias), porém é vedado o início das férias no período de dois dias que antecede feriado ou dia de repouso semanal remunerado.' },
-      { letter: 'C', text: 'As férias podem começar em qualquer dia da semana, inclusive na véspera de feriado ou domingo.' },
-      { letter: 'D', text: 'O empregado pode vender integralmente os 30 dias de férias mediante acordo individual.' }
+      { letter: 'A', text: 'É vedado o fracionamento de férias para maiores de 50 anos e menores de 18 anos, com nulidade absoluta de qualquer estipulação voltada a reduzir patamares protetivos básicos.' },
+      { letter: 'B', text: 'O fracionamento em até três períodos é permitido, porém é vedado o início das férias no período de dois dias que antecede feriado ou dia de repouso semanal remunerado.' },
+      { letter: 'C', text: 'As férias podem começar em qualquer dia da semana, inclusive na véspera de feriado ou domingo, com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período.' },
+      { letter: 'D', text: 'O empregado pode vender integralmente os 30 dias de férias mediante acordo individual, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo art. 134, § 1º, da CLT, desde que haja concordância do empregado, as férias podem ser usufruídas em até 3 períodos (inclusive para menores de 18 e maiores de 50 anos, pois a Reforma Trabalhista revogou o antigo § 2º), sendo um deles não inferior a 14 dias corridos e os demais não inferiores a 5 dias corridos cada um. Contudo, pelo § 3º, é VEDADO o início das férias no período de 2 dias que antecede feriado ou dia de repouso semanal remunerado!`,
@@ -134,10 +134,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Empresa de tecnologia pretende implantar sistema de banco de horas diretamente com seus empregados, sem participação do sindicato da categoria profissional, pactuado por acordo individual escrito para compensação no prazo máximo de seis meses. Sobre a validade desse banco de horas nos termos do Art. 59 da CLT:`,
     options: [
-      { letter: 'A', text: 'Banco de horas somente pode ser instituído por convenção ou acordo coletivo com participação sindical.' },
+      { letter: 'A', text: 'Banco de horas somente pode ser instituído por convenção ou acordo coletivo com participação sindical, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.' },
       { letter: 'B', text: 'O banco de horas pode ser pactuado por acordo individual escrito, desde que a compensação ocorra no período máximo de seis meses.' },
-      { letter: 'C', text: 'O banco de horas individual escrito permite compensação em até um ano.' },
-      { letter: 'D', text: 'A compensação dentro do mesmo mês exige obrigatoriamente acordo coletivo escrito.' }
+      { letter: 'C', text: 'O banco de horas individual escrito permite compensação em até um ano, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.' },
+      { letter: 'D', text: 'A compensação dentro do mesmo mês exige obrigatoriamente acordo coletivo escrito, observados os princípios da continuidade da relação de emprego e da primazia da realidade.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 59, § 5º, da CLT autoriza expressamente a pactuação de banco de horas por ACORDO INDIVIDUAL ESCRITO, desde que a compensação ocorra no período máximo de 6 meses. Para banco de horas anual (até 1 ano), exige-se norma coletiva (§ 2º). Já a compensação dentro do mesmo mês pode ser ajustada por acordo individual, tácito ou escrito (§ 6º).`,
@@ -164,10 +164,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'AUTORAL_PROFESSOR',
     statement: `Um sindicato laboral e um sindicato patronal firmaram Convenção Coletiva de Trabalho reduzindo o intervalo intrajornada para 30 minutos em jornada superior a 6 horas diárias, sem suprimi-lo, e mantendo o pagamento correspondente em contrapartida de outros benefícios. Conforme o Art. 611-A e Art. 611-B da CLT e o Tema 1046 do STF:`,
     options: [
-      { letter: 'A', text: 'A cláusula é nula de pleno direito porque o intervalo intrajornada constitui norma de saúde inegociável nem mesmo por redução mínima.' },
+      { letter: 'A', text: 'A cláusula é nula de pleno direito porque o intervalo intrajornada constitui norma de saúde inegociável nem mesmo por redução mínima. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais.' },
       { letter: 'B', text: 'A convenção coletiva prevalece sobre a lei, sendo lícita a redução do intervalo intrajornada respeitado o limite mínimo de 30 minutos para jornadas superiores a seis horas.' },
-      { letter: 'C', text: 'As normas coletivas podem inclusive reduzir ou suprimir o valor do FGTS e do 13º salário.' },
-      { letter: 'D', text: 'A redução do intervalo depende de autorização individual do Auditor-Fiscal do Trabalho mesmo existindo norma coletiva.' }
+      { letter: 'C', text: 'As normas coletivas podem inclusive reduzir ou suprimir o valor do FGTS e do 13º salário, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos.' },
+      { letter: 'D', text: 'A redução do intervalo depende de autorização individual do Auditor-Fiscal do Trabalho mesmo existindo norma coletiva, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 611-A, III, da CLT autoriza expressamente que a convenção ou acordo coletivo prevaleça sobre a lei quanto ao intervalo intrajornada, respeitado o limite mínimo de 30 minutos para jornadas superiores a 6 horas. Ademais, o STF no Tema 1046 (ARE 1.121.633) declarou serem constitucionais acordos e convenções coletivos que limitam ou afastam direitos trabalhistas, desde que respeitados os direitos absolutamente indisponíveis (rol exemplificado no art. 611-B, como FGTS, 13º salário, salário mínimo e licença-maternidade).`,
@@ -195,10 +195,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Amanda foi contratada por contrato de experiência de 90 dias. Ao término do contrato, foi dispensada pela empresa, que desconhecia o estado gravídico da empregada. Duas semanas depois, exame médico constatou que Amanda já estava grávida de 6 semanas no momento da dispensa. À luz do ADCT e da Súmula 244 do TST:`,
     options: [
-      { letter: 'A', text: 'Não há estabilidade em contrato por prazo determinado como o de experiência.' },
-      { letter: 'B', text: 'O desconhecimento do estado gravídico pelo empregador afasta o direito à indenização estabilitária.' },
-      { letter: 'C', text: 'A empregada gestante tem direito à estabilidade provisória prevista no Art. 10, II, b, do ADCT mesmo na hipótese de admissão mediante contrato por tempo determinado e ainda que o empregador desconhecesse a gravidez.' },
-      { letter: 'D', text: 'A estabilidade da gestante perdura apenas até a data do parto.' }
+      { letter: 'A', text: 'Não há estabilidade em contrato por prazo determinado como o de experiência, em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais.' },
+      { letter: 'B', text: 'O desconhecimento do estado gravídico pelo empregador afasta o direito à indenização estabilitária, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários.' },
+      { letter: 'C', text: 'A empregada gestante tem direito à estabilidade provisória, do adct mesmo na hipótese de admissão mediante contrato por tempo determinado e ainda que o empregador desconhecesse a gravidez.' },
+      { letter: 'D', text: 'A estabilidade da gestante perdura apenas até a data do parto, observados os princípios da continuidade da relação de emprego e da primazia da realidade.' }
     ],
     correctAnswer: 'C',
     justification: `Segundo a Súmula 244 do TST e o Tema 497 do STF: o desconhecimento do estado gravídico pelo empregador não afasta o direito ao pagamento da indenização decorrente da estabilidade (item I); e a empregada gestante tem direito à estabilidade provisória mesmo na admissão por contrato por tempo determinado (item III), desde a confirmação da gravidez até 5 meses após o parto (art. 10, II, b, ADCT).`,
@@ -226,10 +226,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Um técnico em radiologia e alta tensão trabalha exposto simultaneamente a agente insalubre em grau máximo (40% sobre o salário mínimo) e a agente perigoso por energia elétrica (30% sobre o salário base). De acordo com o Art. 193, § 2º, da CLT e a jurisprudência consolidada do TST:`,
     options: [
-      { letter: 'A', text: 'Os adicionais de insalubridade e periculosidade são obrigatoriamente cumuláveis por terem fatos geradores distintos.' },
+      { letter: 'A', text: 'Os adicionais de insalubridade e periculosidade são obrigatoriamente cumuláveis por terem fatos geradores distintos, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários.' },
       { letter: 'B', text: 'Não é possível a cumulação dos adicionais de insalubridade e periculosidade, ainda que decorrentes de fatos geradores distintos e autônomos, cabendo ao empregado optar pelo adicional que lhe for mais vantajoso.' },
-      { letter: 'C', text: 'O adicional de periculosidade incide sempre sobre o salário mínimo nacional.' },
-      { letter: 'D', text: 'A empresa escolhe unilateralmente o adicional de menor valor para pagar ao trabalhador.' }
+      { letter: 'C', text: 'O adicional de periculosidade incide sempre sobre o salário mínimo nacional, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal.' },
+      { letter: 'D', text: 'A empresa escolhe unilateralmente o adicional de menor valor para pagar ao trabalhador, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador.' }
     ],
     correctAnswer: 'B',
     justification: `O TST, no julgamento de Incidente de Recursos Repetitivos (IRR-239-55.2011.5.02.0319), reafirmou a literalidade do art. 193, § 2º, da CLT: o empregado NÃO pode cumular os adicionais de insalubridade e periculosidade, mesmo quando os agentes são distintos, devendo optar pelo que lhe for mais vantajoso.`,
@@ -256,10 +256,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Há oito meses consecutivos, uma empresa deixou de depositar o FGTS mensal na conta vinculada de seu empregado, além de atrasar reiteradamente o pagamento dos salários por mais de 20 dias após o quinto dia útil. Desejando romper o vínculo por falta grave do empregador sem perder suas verbas rescisórias, o empregado deverá pleitear judicialmente:`,
     options: [
-      { letter: 'A', text: 'Pedido de demissão simples com pagamento de aviso prévio à empresa.' },
+      { letter: 'A', text: 'Pedido de demissão simples com pagamento de aviso prévio à empresa, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador.' },
       { letter: 'B', text: 'Rescisão indireta do contrato de trabalho (despedida indireta), com direito ao recebimento integral das verbas rescisórias como se dispensado sem justa causa fosse.' },
-      { letter: 'C', text: 'Extinção por acordo mútuo com redução pela metade da multa do FGTS.' },
-      { letter: 'D', text: 'Suspensão do contrato de trabalho por força maior.' }
+      { letter: 'C', text: 'Extinção por acordo mútuo com redução pela metade da multa do FGTS, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.' },
+      { letter: 'D', text: 'Suspensão do contrato de trabalho por força maior, observados os princípios da continuidade da relação de emprego e da primazia da realidade.' }
     ],
     correctAnswer: 'B',
     justification: `Nos termos do art. 483, "d", da CLT, o empregado poderá considerar rescindido o contrato e pleitear a devida indenização quando não cumprir o empregador as obrigações do contrato. O TST pacifica que o descumprimento contumaz do recolhimento do FGTS e a mora salarial reiterada caracterizam falta grave patronal suficiente para a rescisão indireta.`,
@@ -286,10 +286,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Um garçom firmou contrato de trabalho intermitente por escrito com uma casa de eventos. Convocado com quatro dias de antecedência para trabalhar em um fim de semana, o empregado recusou a convocação. Sobre o trabalho intermitente na CLT (Art. 452-A):`,
     options: [
-      { letter: 'A', text: 'A recusa da oferta pelo empregado caracteriza insubordinação e autoriza justa causa imediata.' },
+      { letter: 'A', text: 'A recusa da oferta pelo empregado caracteriza insubordinação e autoriza justa causa imediata, observados os princípios da continuidade da relação de emprego e da primazia da realidade.' },
       { letter: 'B', text: 'A recusa da oferta pelo empregado não descaracteriza a subordinação para fins do contrato de trabalho intermitente, tendo ele o prazo de 1 dia útil para responder ao chamado.' },
-      { letter: 'C', text: 'A convocação do empregado intermitente pode ser feita com apenas duas horas de antecedência.' },
-      { letter: 'D', text: 'O empregado intermitente não tem direito a férias proporcionais nem a 13º salário proporcional.' }
+      { letter: 'C', text: 'A convocação do empregado intermitente pode ser feita com apenas duas horas de antecedência, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal.' },
+      { letter: 'D', text: 'O empregado intermitente não tem direito a férias proporcionais nem a 13º salário proporcional, sem integração na base de cálculo das demais parcelas contratuais e rescisórias devidas.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo o art. 452-A, §§ 1º a 3º, da CLT: o empregador convocará o empregado com pelo menos 3 dias corridos de antecedência (§ 1º); o empregado terá o prazo de 1 dia útil para responder, presumindo-se no silêncio a recusa (§ 2º); e a recusa da oferta NÃO descaracteriza a subordinação nem gera punição (§ 3º). Ao final de cada período de prestação, recebe remuneração, férias proporcionais + 1/3, 13º proporcional, DSR e adicionais (§ 6º).`,
@@ -316,10 +316,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'AUTORAL_PROFESSOR',
     statement: `Um empregado trabalhou em uma indústria de 01/02/2014 a 10/05/2022, data em que foi dispensado com aviso prévio indenizado (projetado até 09/06/2022? Não — considerando a projeção legal de 54 dias até 03/07/2022). Se o trabalhador ajuizar reclamação trabalhista em 15/06/2024, considerando a OJ 83 da SDI-1 do TST e o Art. 7º, XXIX, da CF/88:`,
     options: [
-      { letter: 'A', text: 'Operou-se a prescrição bienal total porque se passaram mais de dois anos da data da dispensa em 10/05/2022.' },
-      { letter: 'B', text: 'A prescrição bienal começa a fluir ao término do aviso prévio, inclusive o indenizado (OJ 83 SDI-1 TST), logo a ação é tempestiva, podendo cobrar parcelas dos 5 anos anteriores ao ajuizamento.' },
-      { letter: 'C', text: 'A prescrição bienal corre contra menores de 18 anos desde a data da rescisão.' },
-      { letter: 'D', text: 'Para depósitos não efetuados de FGTS aplica-se hoje prescrição trintenária em todos os casos.' }
+      { letter: 'A', text: 'Operou-se a prescrição bienal total porque se passaram mais de dois anos da data da dispensa em 10/05/2022. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador.' },
+      { letter: 'B', text: 'A prescrição bienal começa a fluir ao término do aviso prévio, inclusive o indenizado, logo a ação é tempestiva, podendo cobrar parcelas dos 5 anos anteriores ao ajuizamento.' },
+      { letter: 'C', text: 'A prescrição bienal corre contra menores de 18 anos desde a data da rescisão, observados os princípios da continuidade da relação de emprego e da primazia da realidade.' },
+      { letter: 'D', text: 'Para depósitos não efetuados de FGTS aplica-se hoje prescrição trintenária em todos os casos, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários.' }
     ],
     correctAnswer: 'B',
     justification: `Consoante a OJ 83 da SDI-1 do TST e art. 487, § 1º, CLT, a prescrição começa a fluir no final da data do término do aviso prévio, ainda que indenizado. Assim, projetado o término para julho/2022, a ação ajuizada em junho/2024 está dentro do biênio constitucional, preservando as parcelas dos últimos 5 anos contados do ajuizamento (Súmula 308, I, TST).`,
@@ -347,10 +347,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Um banco contratou empresa especializada de tecnologia para prestar serviços ligados à própria atividade-fim bancária, em regime de terceirização regular. Inadimplente a prestadora quanto aos salários e FGTS dos empregados terceirizados, estes ajuizaram ação contra ambas. Conforme o entendimento vinculante do STF (ADPF 324 e Tema 725):`,
     options: [
-      { letter: 'A', text: 'A terceirização da atividade-fim é ilícita e gera automaticamente vínculo direto com o banco tomador.' },
+      { letter: 'A', text: 'A terceirização da atividade-fim é ilícita e gera automaticamente vínculo direto com o banco tomador, sem integração na base de cálculo das demais parcelas contratuais e rescisórias devidas.' },
       { letter: 'B', text: 'É lícita a terceirização de qualquer atividade, meio ou fim, não se configurando relação de emprego entre a contratante e os empregados da contratada, subsistindo a responsabilidade subsidiária da tomadora privada pelos débitos trabalhistas.' },
-      { letter: 'C', text: 'Na terceirização privada lícita, a empresa tomadora fica isenta até mesmo de responsabilidade subsidiária.' },
-      { letter: 'D', text: 'O ente público tomador responde objetivamente de forma automática pelo mero inadimplemento da prestadora.' }
+      { letter: 'C', text: 'Na terceirização privada lícita, a empresa tomadora fica isenta até mesmo de responsabilidade subsidiária, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.' },
+      { letter: 'D', text: 'O ente público tomador responde objetivamente de forma automática pelo mero inadimplemento da prestadora, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador.' }
     ],
     correctAnswer: 'B',
     justification: `O STF na ADPF 324 e Tema 725 firmou que é lícita a terceirização em todas as etapas do processo produtivo (meio ou fim), mantendo-se a responsabilidade SUBSIDIÁRIA da empresa contratante privada (art. 5º-A, § 5º, da Lei 6.019/74). Já quanto ao ente público (Tema 246 STF), a responsabilidade subsidiária exige comprovação de culpa in vigilando (não é automática).`,
@@ -378,10 +378,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Um vigilante trabalha na escala de 12 horas seguidas por 36 horas ininterruptas de descanso (12x36), pactuada por acordo individual escrito após a Reforma Trabalhista. Durante o mês, dois de seus plantões caíram em feriados nacionais, sem concessão de folga extra. À luz do Art. 59-A da CLT:`,
     options: [
-      { letter: 'A', text: 'A jornada 12x36 somente é válida mediante convenção ou acordo coletivo, jamais por acordo individual.' },
+      { letter: 'A', text: 'A jornada 12x36 somente é válida mediante convenção ou acordo coletivo, jamais por acordo individual, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários.' },
       { letter: 'B', text: 'A jornada 12x36 pode ser ajustada por acordo individual escrito, e a remuneração mensal pactuada já abrange os pagamentos devidos pelo descanso semanal remunerado e pelos feriados, sendo considerados compensados.' },
-      { letter: 'C', text: 'Os feriados trabalhados na escala 12x36 devem ser pagos em dobro (Súmula 444 TST).' },
-      { letter: 'D', text: 'A jornada 12x36 é proibida em qualquer atividade insalubre mesmo com autorização coletiva.' }
+      { letter: 'C', text: 'Os feriados trabalhados na escala 12x36 devem ser pagos em dobro, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador.' },
+      { letter: 'D', text: 'A jornada 12x36 é proibida em qualquer atividade insalubre mesmo com autorização coletiva, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 59-A da CLT (declarado constitucional pelo STF na ADI 5994) permite estabelecer horário de 12x36 por acordo individual escrito, convenção ou acordo coletivo, dispondo expressamente no parágrafo único que a remuneração mensal já abrange os pagamentos pelo DSR e pelos feriados (superando a antiga Súmula 444 do TST quanto aos feriados).`,
@@ -408,10 +408,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Em reclamação trabalhista com pedido de indenização por danos morais decorrentes de assédio moral no ambiente de trabalho, a reclamada alega que o juiz não pode arbitrar indenização superior ao teto de 50 vezes o último salário contratual do ofendido, previsto no Art. 223-G, § 1º, da CLT. Segundo o julgamento definitivo do STF (ADIs 6050, 6069 e 6082):`,
     options: [
-      { letter: 'A', text: 'Os tetos previstos no art. 223-G da CLT são absolutos e intransponíveis pelo juiz.' },
-      { letter: 'B', text: 'Os critérios de quantificação previstos no Art. 223-G da CLT são constitucionais como parâmetros orientadores, mas os valores ali estabelecidos NÃO constituem tetos limitadores, podendo o juiz fixar indenização superior em decisão fundamentada.' },
-      { letter: 'C', text: 'Todo o Título II-A sobre dano extrapatrimonial foi declarado integralmente inconstitucional pelo STF.' },
-      { letter: 'D', text: 'Empregados que recebem salários menores têm direito apenas à metade do dano moral sofrido por diretores no mesmo acidente.' }
+      { letter: 'A', text: 'Os tetos previstos são absolutos e intransponíveis pelo juiz, observados os princípios da continuidade da relação de emprego e da primazia da realidade.' },
+      { letter: 'B', text: 'Os critérios de quantificação previstos são constitucionais como parâmetros orientadores, mas os valores ali estabelecidos não constituem tetos limitadores, podendo o juiz fixar indenização superior em decisão fundamentada.' },
+      { letter: 'C', text: 'Todo o Título II-A sobre dano extrapatrimonial foi declarado integralmente inconstitucional pelo STF, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários.' },
+      { letter: 'D', text: 'Empregados que recebem salários menores têm direito apenas à metade do dano moral sofrido por diretores no mesmo acidente, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.' }
     ],
     correctAnswer: 'B',
     justification: `O STF julgou parcialmente procedentes as ADIs 6050, 6069 e 6082 para conferir interpretação conforme à Constituição ao art. 223-G, § 1º, da CLT: os critérios do dispositivo são válidos apenas como parâmetros orientadores para a fundamentação judicial, mas NÃO estabelecem teto obrigatório que limite o valor da reparação pelo dano extrapatrimonial.`,
@@ -439,10 +439,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Um motorista profissional de caminhão teve sua Carteira Nacional de Habilitação (CNH) definitivamente cassada pelo órgão de trânsito em decorrência de multas graves cometidas em seu carro particular nos fins de semana por conduta dolosa própria, ficando impossibilitado de exercer sua profissão na empregadora. Conforme o Art. 482, alínea "m", da CLT:`,
     options: [
-      { letter: 'A', text: 'Não cabe justa causa porque as infrações ocorreram fora do horário de trabalho.' },
+      { letter: 'A', text: 'Não cabe justa causa porque as infrações ocorreram fora do horário de trabalho. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais.' },
       { letter: 'B', text: 'Configura justa causa a perda da habilitação ou dos requisitos estabelecidos em lei para o exercício da profissão, em decorrência de conduta dolosa do empregado.' },
-      { letter: 'C', text: 'A empresa é obrigada a criar um cargo administrativo interno para realocar o motorista.' },
-      { letter: 'D', text: 'Configura despedida sem justa causa por fato do príncipe.' }
+      { letter: 'C', text: 'A empresa é obrigada a criar um cargo administrativo interno para realocar o motorista, observados os princípios da continuidade da relação de emprego e da primazia da realidade.' },
+      { letter: 'D', text: 'Configura despedida sem justa causa por fato do príncipe, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.' }
     ],
     correctAnswer: 'B',
     justification: `A Reforma Trabalhista incluiu a alínea "m" ao art. 482 da CLT prevendo expressamente como justa causa a "perda da habilitação ou dos requisitos estabelecidos em lei para o exercício da profissão, em decorrência de conduta dolosa do empregado" (ex.: motorista com CNH cassada, advogado com inscrição na OAB cancelada por fraude dolosa).`,
@@ -469,10 +469,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Trabalhador beneficiário da justiça gratuita obteve procedência parcial em reclamação trabalhista, ganhando R$ 15.000,00 referentes a horas extras, mas sucumbindo integralmente no pedido de adicional de insalubridade. Considerando o julgamento da ADI 5766 pelo STF sobre o Art. 791-A, § 4º, da CLT:`,
     options: [
-      { letter: 'A', text: 'Os honorários devidos aos advogados da empresa serão automaticamente descontados dos créditos de R$ 15.000,00 obtidos pelo trabalhador nesta ação.' },
+      { letter: 'A', text: 'Os honorários devidos aos advogados da empresa serão automaticamente descontados dos créditos de R$ 15.000,00 obtidos pelo trabalhador nesta ação, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho.' },
       { letter: 'B', text: 'O beneficiário da justiça gratuita não pode ter seus créditos obtidos no processo (ou em outro) utilizados para pagar honorários de sucumbência, ficando as obrigações decorrentes de sua sucumbência sob condição suspensiva de exigibilidade por dois anos.' },
-      { letter: 'C', text: 'O beneficiário da justiça gratuita jamais pode ser condenado em honorários de sucumbência na sentença.' },
-      { letter: 'D', text: 'Na Justiça do Trabalho não existem honorários de sucumbência, apenas assistenciais sindicais.' }
+      { letter: 'C', text: 'O beneficiário da justiça gratuita jamais pode ser condenado em honorários de sucumbência na sentença, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal.' },
+      { letter: 'D', text: 'Na Justiça do Trabalho não existem honorários de sucumbência, apenas assistenciais sindicais, com afastamento das normas processuais comuns diante da disciplina própria da execução laboral.' }
     ],
     correctAnswer: 'B',
     justification: `Na ADI 5766, o STF declarou inconstitucional a expressão do art. 791-A, § 4º, da CLT que permitia compensar os honorários sucumbenciais com créditos obtidos pelo beneficiário da justiça gratuita neste ou em outro processo (assim como inconstitucional a cobrança de honorários periciais do beneficiário). Mantém-se a condenação sob condição suspensiva de exigibilidade por 2 anos, só executável se o credor comprovar que deixou de existir a insuficiência de recursos.`,
@@ -500,10 +500,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Na audiência una trabalhista, a empresa reclamada não enviou nenhum sócio nem preposto, fazendo-se representar exclusivamente por seu advogado regularmente constituído, munido de defesa e documentos. O reclamante compareceu normalmente com seu advogado. À luz do Art. 844, § 5º, da CLT:`,
     options: [
-      { letter: 'A', text: 'A ausência do preposto gera revelia e confissão quanto à matéria de fato, não podendo a defesa escrita ser recebida.' },
-      { letter: 'B', text: 'Ainda que ausente o reclamado, presente o advogado na audiência, serão aceitos a contestação e os documentos eventualmente apresentados, afastando-se apenas os efeitos materiais mais gravosos se a defesa for recebida (mantida a revelia se não justificada).' },
-      { letter: 'C', text: 'O advogado pode acumular as funções de defensor e de preposto em qualquer ação trabalhista.' },
-      { letter: 'D', text: 'O processo será arquivado sem resolução do mérito por ausência da reclamada.' }
+      { letter: 'A', text: 'A ausência do preposto gera revelia e confissão quanto à matéria de fato, não podendo a defesa escrita ser recebida, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa.' },
+      { letter: 'B', text: 'Ainda que ausente o reclamado, presente o advogado na audiência, serão aceitos a contestação e os documentos eventualmente apresentados, afastando-se apenas os efeitos materiais mais gravosos se a defesa for recebida.' },
+      { letter: 'C', text: 'O advogado pode acumular as funções de defensor e de preposto em qualquer ação trabalhista, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal.' },
+      { letter: 'D', text: 'O processo será arquivado sem resolução do mérito por ausência da reclamada, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo art. 844, § 5º, da CLT (Reforma Trabalhista), ainda que ausente o reclamado, presente o advogado na audiência, serão aceitos a contestação e os documentos eventualmente apresentados! Contudo, o advogado não substitui o preposto para depor (o preposto não precisa mais ser empregado — art. 843, § 3º CLT —, mas o advogado não pode depor pela parte, conforme art. 3º do CED/OAB e jurisprudência do TST).`,
@@ -530,10 +530,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Empresa com sede em Curitiba/PR foi citada em reclamação trabalhista ajuizada em Salvador/BA, local onde o reclamante jamais residiu ou prestou serviços. Desejando arguir a incompetência territorial do juízo baiano antes da audiência, conforme o procedimento previsto no Art. 800 da CLT, a reclamada deverá:`,
     options: [
-      { letter: 'A', text: 'Apresentar a arguição como preliminar no corpo da contestação diretamente na audiência.' },
+      { letter: 'A', text: 'Apresentar a arguição como preliminar no corpo da contestação diretamente na audiência, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa.' },
       { letter: 'B', text: 'Apresentar exceção de incompetência territorial em peça apartada, no prazo de 5 dias a contar da notificação, antes da audiência, o que suspenderá o processo até sua decisão.' },
-      { letter: 'C', text: 'Impetrar exceção de incompetência no prazo de 15 dias úteis segundo o CPC.' },
-      { letter: 'D', text: 'Aguardar a prolação da sentença para recorrer ordinariamente.' }
+      { letter: 'C', text: 'Impetrar exceção de incompetência no prazo de 15 dias úteis segundo o CPC, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho.' },
+      { letter: 'D', text: 'Aguardar a prolação da sentença para recorrer ordinariamente, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho.' }
     ],
     correctAnswer: 'B',
     justification: `Nos termos do art. 800 da CLT (Reforma Trabalhista), a exceção de incompetência territorial deve ser apresentada no prazo de 5 dias a contar da notificação, ANTES DA AUDIÊNCIA e em PEÇA QUE SINALIZE A EXISTÊNCIA DESTA EXCEÇÃO (não em preliminar da contestação), suspendendo-se o processo (§ 1º) para oitiva do exceto em 5 dias e decisão.`,
@@ -560,7 +560,7 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Considerando o Art. 114 da Constituição Federal e a jurisprudência vinculante do STF e STJ sobre a competência material da Justiça do Trabalho, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Compete à Justiça do Trabalho julgar ações de servidores públicos estatutários contra a Administração Pública.' },
+      { letter: 'A', text: 'Compete à Justiça do Trabalho julgar ações de servidores públicos estatutários contra a Administração Pública, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral.' },
       { letter: 'B', text: 'Compete à Justiça do Trabalho julgar ações de cobrança de honorários de profissionais liberais (como advogados ou médicos autônomos) contra seus clientes.' },
       { letter: 'C', text: 'Compete à Justiça do Trabalho processar e julgar as ações de indenização por dano moral ou patrimonial decorrentes da relação de trabalho, inclusive acidente de trabalho.' },
       { letter: 'D', text: 'Compete à Justiça do Trabalho executar de ofício todas as contribuições previdenciárias devidas a terceiros (Sistema S) e salários pretéritos não pagos em acordo sem vínculo reconhecido.' }
@@ -591,10 +591,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Na fase de execução trabalhista contra sociedade empresária privada (não filantrópica), o juízo julgou improcedentes os Embargos à Execução opostos pela executada após garantia integral do juízo por seguro garantia judicial. Inconformada com a decisão dos embargos à execução, a executada poderá interpor:`,
     options: [
-      { letter: 'A', text: 'Agravo de Instrumento, no prazo de 8 dias.' },
+      { letter: 'A', text: 'Agravo de Instrumento, no prazo de 8 dias, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho.' },
       { letter: 'B', text: 'Agravo de Petição, no prazo de 8 dias úteis, com delimitação justificada das matérias e dos valores impugnados.' },
-      { letter: 'C', text: 'Recurso Ordinário, no prazo de 8 dias.' },
-      { letter: 'D', text: 'Recurso de Revista imediatamente para o TST sobre matéria fática.' }
+      { letter: 'C', text: 'Recurso Ordinário, no prazo de 8 dias, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral.' },
+      { letter: 'D', text: 'Recurso de Revista imediatamente para o TST sobre matéria fática, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa.' }
     ],
     correctAnswer: 'B',
     justification: `Nos termos do art. 897, "a", e § 1º da CLT, das decisões do juiz nas execuções (como a que julga embargos à execução ou impugnação à sentença de liquidação) cabe AGRAVO DE PETIÇÃO no prazo de 8 dias úteis, exigindo-se a delimitação justificada das matérias e dos valores impugnados (permitindo a execução definitiva imediata da parte incontroversa).`,
@@ -621,10 +621,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Na execução definitiva de sentença trabalhista, frustrada a tentativa de penhora de bens da sociedade limitada executada, o exequente requer a inclusão imediata dos sócios no polo passivo para bloqueio de suas contas pessoais. Conforme o Art. 855-A da CLT:`,
     options: [
-      { letter: 'A', text: 'O juiz deve redirecionar automaticamente a execução contra os sócios sem prévia oitiva, por força do impulso oficial.' },
+      { letter: 'A', text: 'O juiz deve redirecionar automaticamente a execução contra os sócios sem prévia oitiva, por força do impulso oficial, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal.' },
       { letter: 'B', text: 'Aplica-se ao processo do trabalho o incidente de desconsideração da personalidade jurídica previsto no CPC, garantindo-se o contraditório prévio aos sócios antes da constrição definitiva.' },
-      { letter: 'C', text: 'Da decisão interlocutória que acolhe ou rejeita o IDPJ na fase de conhecimento cabe agravo de petição imediato.' },
-      { letter: 'D', text: 'O IDPJ suspende o curso do processo, não cabendo tutela de urgência cautelar em nenhuma hipótese.' }
+      { letter: 'C', text: 'Da decisão interlocutória que acolhe ou rejeita o IDPJ na fase de conhecimento cabe agravo de petição imediato, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho.' },
+      { letter: 'D', text: 'O IDPJ suspende o curso do processo, não cabendo tutela de urgência cautelar em nenhuma hipótese, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 855-A da CLT tornou aplicável expressamente o IDPJ do CPC (arts. 133 a 137) ao Processo do Trabalho, assegurando citação dos sócios para manifestação em 15 dias antes da desconsideração. Pelo § 1º do art. 855-A: da decisão do IDPJ na fase de conhecimento NÃO cabe recurso imediato (irrecorribilidade das interlocutórias); na fase de execução, cabe agravo de petição; e se proferida pelo relator no TRT, agravo interno. O juiz pode conceder tutela de urgência cautelar (§ 2º).`,
@@ -651,10 +651,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'AUTORAL_PROFESSOR',
     statement: `No Processo do Trabalho vigora a regra geral de irrecorribilidade imediata das decisões interlocutórias (Art. 893, § 1º, da CLT). Contudo, segundo a Súmula 214 do TST, admite-se excepcionalmente recurso imediato contra decisão interlocutória quando esta:`,
     options: [
-      { letter: 'A', text: 'Indeferir oitiva de testemunha em audiência.' },
+      { letter: 'A', text: 'Indeferir oitiva de testemunha em audiência, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa.' },
       { letter: 'B', text: 'Acolher exceção de incompetência territorial com a remessa dos autos para Tribunal Regional distinto daquele a que se vincula o juízo excepcionado.' },
-      { letter: 'C', text: 'Rejeitar pedido de perícia contábil no rito ordinário.' },
-      { letter: 'D', text: 'Fixar honorários periciais provisórios.' }
+      { letter: 'C', text: 'Rejeitar pedido de perícia contábil no rito ordinário, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho.' },
+      { letter: 'D', text: 'Fixar honorários periciais provisórios, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho.' }
     ],
     correctAnswer: 'B',
     justification: `A Súmula 214 do TST excepciona a irrecorribilidade imediata em três hipóteses: a) decisão de TRT contrária à Súmula ou OJ do TST; b) decisão suscetível de impugnação mediante recurso para o mesmo Tribunal; c) decisão que acolhe exceção de incompetência territorial com remessa dos autos para TRT distinto daquele a que se vincula o juízo excepcionado.`,
@@ -682,10 +682,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Ao julgar as ADCs 58 e 59, o Supremo Tribunal Federal declarou inconstitucional a aplicação da Taxa Referencial (TR) para atualização de créditos trabalhistas. De acordo com o entendimento fixado pelo STF nas referidas ações declaratórias (antes de eventuais modificações legislativas supervenientes da Lei 14.905/2024 para o período posterior):`,
     options: [
-      { letter: 'A', text: 'Na fase pré-judicial deve-se aplicar a TR e na judicial o IPCA-E.' },
-      { letter: 'B', text: 'Até que sobrevenha solução legislativa, aplicam-se os mesmos índices das condenações cíveis em geral: IPCA-E (mais juros legais do art. 39, caput, da Lei 8.177/91) na fase pré-judicial e, a partir do ajuizamento da ação, a taxa SELIC (que já engloba correção e juros).' },
-      { letter: 'C', text: 'Aplica-se o INPC somado a juros de 1% ao mês cumulativamente com a taxa SELIC.' },
-      { letter: 'D', text: 'A atualização monetária trabalhista segue exclusivamente a poupança em todas as fases.' }
+      { letter: 'A', text: 'Na fase pré-judicial deve-se aplicar a tr e na judicial o ipca-e, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução.' },
+      { letter: 'B', text: 'Até que sobrevenha solução legislativa, aplicam-se os mesmos índices das condenações cíveis em geral: Ipca-e na fase pré-judicial e, a partir do ajuizamento da ação, a taxa SELIC.' },
+      { letter: 'C', text: 'Aplica-se o inpc somado a juros de 1% ao mês cumulativamente com a taxa SELIC, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho. Tal disciplina reflete a autonomia procedimental própria do processo judiciário do trabalho.' },
+      { letter: 'D', text: 'A atualização monetária trabalhista segue exclusivamente a poupança em todas as fases, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal.' }
     ],
     correctAnswer: 'B',
     justification: `Na ADC 58, o STF estabeleceu que até edição de lei específica devem incidir: na fase pré-judicial, o IPCA-E + juros legais do art. 39, caput, da Lei 8.177/91; a partir do ajuizamento da ação, apenas a taxa SELIC (vedada cumulação da SELIC com outros juros de 1% ao mês). Posteriormente, com a Lei 14.905/2024 (alterando o CC), o TST passou a observar o IPCA na atualização + taxa legal SELIC deduzido o IPCA a partir da vigência da nova lei.`,
@@ -713,10 +713,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Em recurso de revista interposto para o Tribunal Superior do Trabalho (TST), a recorrente busca o reexame da prova testemunhal sobre horas extras e deixa de demonstrar a existência de transcendência. Sobre o Recurso de Revista (Arts. 896 e 896-A da CLT):`,
     options: [
-      { letter: 'A', text: 'O Recurso de Revista permite amplo reexame de fatos e provas colhidos na audiência de instrução.' },
-      { letter: 'B', text: 'O Recurso de Revista exige prévio exame da transcendência (econômica, política, social ou jurídica) e não admite revolvimento de fatos e provas (Súmula 126 do TST).' },
-      { letter: 'C', text: 'Nas causas sujeitas ao procedimento sumaríssimo cabe Recurso de Revista por divergência jurisprudencial entre TRTs.' },
-      { letter: 'D', text: 'O prazo do Recurso de Revista é de 15 dias úteis.' }
+      { letter: 'A', text: 'O Recurso de Revista permite amplo reexame de fatos e provas colhidos na audiência de instrução, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho.' },
+      { letter: 'B', text: 'O Recurso de Revista exige prévio exame da transcendência (econômica, política, social ou jurídica) e não admite revolvimento de fatos e provas.' },
+      { letter: 'C', text: 'Nas causas sujeitas ao procedimento sumaríssimo cabe Recurso de Revista por divergência jurisprudencial entre TRTs, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral.' },
+      { letter: 'D', text: 'O prazo do Recurso de Revista é de 15 dias úteis, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 896-A da CLT impõe que o TST examine previamente se a causa oferece transcendência com relação aos reflexos gerais de natureza econômica, política, social ou jurídica. Ademais, pela Súmula 126 do TST, é incabível o recurso de revista (ou de embargos) para reexame de fatos e provas.`,
@@ -744,10 +744,10 @@ export const TRABALHO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Uma empresa pretende ajuizar ação rescisória perante o TRT para desconstituir sentença trabalhista transitada em julgado há 10 meses. Nos termos do Art. 836 da CLT, para a propositura da ação rescisória na Justiça do Trabalho, a empresa autora deverá:`,
     options: [
-      { letter: 'A', text: 'Efetuar depósito prévio de 5% sobre o valor da causa, seguindo o percentual do CPC.' },
+      { letter: 'A', text: 'Efetuar depósito prévio de 5% sobre o valor da causa, seguindo o percentual do CPC, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa.' },
       { letter: 'B', text: 'Efetuar depósito prévio de 20% (vinte por cento) do valor da causa, salvo prova de miserabilidade jurídica do autor.' },
-      { letter: 'C', text: 'Obter autorização prévia do Ministério Público do Trabalho.' },
-      { letter: 'D', text: 'Aguardar o prazo decadencial de 5 anos contado do trânsito em julgado.' }
+      { letter: 'C', text: 'Obter autorização prévia do Ministério Público do Trabalho, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal.' },
+      { letter: 'D', text: 'Aguardar o prazo decadencial de 5 anos contado do trânsito em julgado, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral.' }
     ],
     correctAnswer: 'B',
     justification: `Diferentemente do CPC (que exige 5%), o art. 836, caput, da CLT exige para a ação rescisória trabalhista o depósito prévio de 20% (vinte por cento) do valor da causa, salvo prova de miserabilidade jurídica do autor. O prazo decadencial é de 2 anos do trânsito em julgado (art. 975 CPC c/c Súmula 100 TST).`,

@@ -160,7 +160,7 @@ class LegalDatabaseStore {
     });
 
     const freshDb: LegalKnowledgeDbSchema = {
-      schemaVersion: 2,
+      schemaVersion: 3,
       disciplines: allDisciplines,
       norms: SEED_NORMS,
       articles: SEED_ARTICLES,
@@ -184,8 +184,31 @@ class LegalDatabaseStore {
   }
 
   private migrateExisting(existing: LegalKnowledgeDbSchema): LegalKnowledgeDbSchema {
-    const existingQIds = new Set(existing.questions.map(q => q.id));
-    const existingHashes = new Set(existing.questions.map(q => q.sourceMeta?.contentHash || computeContentHash(q.statement)));
+    const seedById = new Map<string, LegalQuestion>(QUESTIONS_DATABASE.map(q => [q.id, q]));
+    const needsOptionsRefresh = (existing.schemaVersion || 0) < 3;
+    let optionsRefreshed = false;
+
+    const updatedExistingQuestions = existing.questions.map(q => {
+      if (needsOptionsRefresh) {
+        const seedMatch = seedById.get(q.id);
+        if (seedMatch) {
+          const changedOpts =
+            q.options.length !== seedMatch.options.length ||
+            q.options.some((opt, idx) => opt.text !== seedMatch.options[idx]?.text || opt.letter !== seedMatch.options[idx]?.letter);
+          if (changedOpts) {
+            optionsRefreshed = true;
+            return {
+              ...q,
+              options: seedMatch.options,
+            };
+          }
+        }
+      }
+      return q;
+    });
+
+    const existingQIds = new Set(updatedExistingQuestions.map(q => q.id));
+    const existingHashes = new Set(updatedExistingQuestions.map(q => q.sourceMeta?.contentHash || computeContentHash(q.statement)));
     const newSeedQuestions = QUESTIONS_DATABASE
       .filter(q => !existingQIds.has(q.id) && !existingHashes.has(computeContentHash(q.statement)))
       .map(q => enrichSeedQuestion(q, existing.articles || SEED_ARTICLES, existing.jurisprudence || SEED_JURISPRUDENCE));
@@ -201,12 +224,12 @@ class LegalDatabaseStore {
 
     const migrated: LegalKnowledgeDbSchema = {
       ...existing,
-      schemaVersion: 2,
+      schemaVersion: 3,
       norms: [...(existing.norms || []), ...missingNorms],
       articles: [...(existing.articles || []), ...missingArts],
       jurisprudence: [...(existing.jurisprudence || []), ...missingJurs],
       officialExams: existing.officialExams || SEED_OFFICIAL_EXAMS,
-      questions: [...existing.questions, ...newSeedQuestions],
+      questions: [...updatedExistingQuestions, ...newSeedQuestions],
       updateLogs: existing.updateLogs || [],
       importJobs: existing.importJobs || [],
       aiLogs: existing.aiLogs || [],
@@ -226,7 +249,14 @@ class LegalDatabaseStore {
       ])
     ).sort();
 
-    if (newSeedQuestions.length > 0 || missingNorms.length > 0 || missingArts.length > 0 || missingJurs.length > 0) {
+    if (
+      needsOptionsRefresh ||
+      optionsRefreshed ||
+      newSeedQuestions.length > 0 ||
+      missingNorms.length > 0 ||
+      missingArts.length > 0 ||
+      missingJurs.length > 0
+    ) {
       this.saveToDisk(migrated);
     }
 

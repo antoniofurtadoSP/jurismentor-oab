@@ -17,11 +17,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Quem tem exatos 12 anos completos ainda é considerado criança pelo Art. 2º do ECA."
+        "text": "Quem tem exatos 12 anos completos ainda é considerado criança, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
-        "text": "Considera-se CRIANÇA a pessoa até 12 (doze) anos de idade INCOMPLETOS (ou seja, de 0 a 11 anos, 11 meses e 29 dias — completou 12 anos já é adolescente!), e ADOLESCENTE aquela entre 12 (doze) e 18 (dezoito) anos de idade! Nos casos expressos em lei, aplica-se excepcionalmente o ECA às pessoas entre 18 (dezoito) e 21 (vinte e um) anos de idade (por exemplo: cumprimento de medida socioeducativa de internação ou semiliberdade por ato infracional praticado antes dos 18 anos — liberação compulsória aos 21 anos pelo Art. 121, § 5º, ECA, e Súmula 605 STJ)!"
+        "text": "Considera-se criança a pessoa até 12 (doze) anos de idade incompletos, e adolescente aquela entre 12 (doze) e 18 (dezoito) anos de idade."
       },
       {
         "letter": "C",
@@ -29,7 +29,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A aplicação excepcional do ECA estende-se até os 29 anos de idade em medidas socioeducativas."
+        "text": "A aplicação excepcional do ECA estende-se até os 29 anos de idade em medidas socioeducativas, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "B",
@@ -73,19 +73,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A prioridade absoluta significa apenas preferência na fila de atendimento bancário, não vinculando o orçamento público."
+        "text": "A prioridade absoluta significa apenas preferência na fila de atendimento bancário, não vinculando o orçamento público, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei."
       },
       {
         "letter": "B",
-        "text": "Compreende quatro eixos legais expressos (Art. 4º, parágrafo único, ECA): (a) primazia de receber proteção e socorro em quaisquer circunstâncias; (b) precedência de atendimento nos serviços públicos ou de relevância pública; (c) preferência na formulação e na execução das políticas sociais públicas; e (d) destinação privilegiada de recursos públicos nas áreas relacionadas com a proteção à infância e à juventude!"
+        "text": "Compreende quatro eixos legais expressos: (a) primazia de receber proteção e socorro em quaisquer circunstâncias; (b) precedência de atendimento nos serviços públicos ou de relevância pública."
       },
       {
         "letter": "C",
-        "text": "O ECA mantém a antiga doutrina da \"situação irregular\", aplicando-se somente a menores infratores ou abandonados."
+        "text": "O ECA mantém a antiga doutrina da \"situação irregular\", aplicando-se somente a menores infratores ou abandonados, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       },
       {
         "letter": "D",
-        "text": "Na colisão de interesses entre direitos patrimoniais dos pais e o melhor interesse da criança, prevalecem os interesses financeiros dos genitores."
+        "text": "Na colisão de interesses entre direitos patrimoniais dos pais e o melhor interesse da criança, prevalecem os interesses financeiros dos genitores, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "B",
@@ -128,19 +128,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A criança em acolhimento institucional deve ter sua situação reavaliada apenas a cada 2 anos, podendo permanecer indefinidamente até os 18 anos."
+        "text": "A criança em acolhimento institucional deve ter sua situação reavaliada apenas a cada 2 anos, podendo permanecer indefinidamente até os 18 anos, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
-        "text": "Toda criança ou adolescente tem direito de ser criado no seio de sua família NATURAL ou, excepcionalmente, em família SUBSTITUTA (guarda, tutela ou adoção — Art. 19), dando-se preferência legal à manutenção na FAMÍLIA EXTENSA ou ampliada (parentes próximos com os quais a criança convive e mantém vínculos de afinidade e afetividade — Art. 25, parágrafo único!) antes de encaminhá-la a família substituta estranha! A permanência em programa de acolhimento institucional NÃO se prolongará por mais de 18 (dezoito) MESES, salvo comprovada necessidade que atenda ao seu superior interesse, devidamente fundamentada pela autoridade judiciária — com reavaliação obrigatória a cada 3 (três) MESES (Art. 19, §§ 1º e 2º, ECA)!"
+        "text": "Toda criança ou adolescente tem direito de ser criado no seio de sua família natural ou, excepcionalmente, em família substituta, dando-se preferência legal à manutenção na família extensa ou ampliada antes de encaminhá-la a família substituta estranha."
       },
       {
         "letter": "C",
-        "text": "A falta ou carência de recursos materiais da família é motivo suficiente para decretar a perda ou suspensão do poder familiar."
+        "text": "A falta ou carência de recursos materiais da família é motivo suficiente para decretar a perda ou suspensão do poder familiar, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "D",
-        "text": "Família extensa compreende exclusivamente os irmãos biológicos maiores de 21 anos."
+        "text": "Família extensa compreende exclusivamente os irmãos biológicos maiores de 21 anos, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "B",
@@ -183,19 +183,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O menor sob guarda judicial do avô não possui direito à pensão por morte previdenciária desse guardião."
+        "text": "O menor sob guarda judicial do avô não possui direito à pensão por morte previdenciária desse guardião, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "B",
-        "text": "(1) GUARDA (Art. 33): obriga à prestação de assistência material, moral e educacional, conferindo direito de opor-se a terceiros, inclusive aos pais; NÃO exige prévia perda ou suspensão do poder familiar (compatível com manutenção do poder familiar) e confere a condição de DEPENDENTE para todos os fins, inclusive PREVIDENCIÁRIOS (Art. 33, § 3º — consolidado pelo STF nas ADIs 4.878 e 5.083)! (2) TUTELA (Art. 36): destina-se a menor de 18 anos e pressupõe necessariamente o falecimento dos pais, ausência declarada ou prévia PERDA/SUSPENSÃO do poder familiar, gerando dever de administrar bens do tutelado! (3) ADOÇÃO (Art. 39): medida EXCEPCIONAL e IRREVOGÁVEL, atribui condição de filho com os mesmos direitos e deveres (inclusive sucessórios) e desliga qualquer vínculo com pais e parentes consanguíneos (salvo impedimentos para casamento)!"
+        "text": "Guarda: obriga à prestação de assistência material, moral e educacional, conferindo direito de opor-se a terceiros, inclusive aos pais."
       },
       {
         "letter": "C",
-        "text": "A tutela pode ser deferida mesmo quando ambos os pais exercem plenamente e sem restrição o poder familiar."
+        "text": "A tutela pode ser deferida mesmo quando ambos os pais exercem plenamente e sem restrição o poder familiar, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "D",
-        "text": "A adoção pode ser revogada a qualquer tempo caso os pais adotivos se arrependam após 2 anos."
+        "text": "A adoção pode ser revogada a qualquer tempo caso os pais adotivos se arrependam após 2 anos, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       }
     ],
     "correctAnswer": "B",
@@ -239,19 +239,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os avós e os irmãos maiores de idade podem adotar regularmente o neto ou o irmão caçula pelo Art. 42 do ECA."
+        "text": "Os avós e os irmãos maiores de idade podem adotar regularmente o neto ou o irmão caçula, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
-        "text": "Apenas o CASAL DIVORCIADO (desde que acordem sobre guarda e regime de visitas e que o estágio de convivência tenha sido iniciado na constância do período de convivência do casal, comprovada a existência de vínculos de afinidade e afetividade com aquele não detentor da guarda — Art. 42, § 4º, ECA)! O homem de 20 anos NÃO pode adotar, pois o adotante deve ter mais de 18 ANOS E pelo menos 16 ANOS DE DIFERENÇA para o adotando (20 - 3 = 17 anos -> opa, atenção! 20 - 3 = 17 anos >= 16 anos, logo o homem de 20 anos PODE adotar criança de 3 anos se tiver >= 18 anos e 16 anos mais velho — se a criança tivesse 5 anos não poderia)! Já o irmão NÃO pode adotar o irmão: pelo Art. 42, § 1º, do ECA, NÃO podem adotar os ASCENDENTES e os IRMÃOS do adotando!"
+        "text": "Apenas o casal divorciado. O homem de 20 anos não pode adotar, pois o adotante deve ter mais de 18 anos e pelo menos 16 anos de diferença para o adotando."
       },
       {
         "letter": "C",
-        "text": "Pessoas divorciadas ou solteiras jamais podem adotar pelo Estatuto da Criança e do Adolescente."
+        "text": "Pessoas divorciadas ou solteiras jamais podem adotar pelo Estatuto da Criança e do Adolescente, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "D",
-        "text": "A adoção por procuração é admitida no Brasil quando os adotantes residem em outro Estado."
+        "text": "A adoção por procuração é admitida no Brasil quando os adotantes residem em outro Estado, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       }
     ],
     "correctAnswer": "B",
@@ -294,19 +294,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O adolescente maior de 12 anos não precisa consentir na própria adoção, bastando decisão do juiz."
+        "text": "O adolescente maior de 12 anos não precisa consentir na própria adoção, bastando decisão do juiz, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "B",
-        "text": "A adoção depende do consentimento dos pais ou representante legal do adotando (salvo se desconhecidos ou destituídos do poder familiar — Art. 45, § 1º), bem como do consentimento do próprio adotando em audiência caso seja maior de 12 (DOZE) ANOS de idade (Art. 45, § 2º)! O estágio de convivência será fixado pela autoridade judiciária (podendo ser dispensado se o adotando já estiver sob tutela ou guarda legal do adotante por tempo suficiente para avaliar o vínculo — Art. 46, § 1º — mas a simples guarda de fato não autoriza a dispensa, § 2º!), pelo prazo MÁXIMO de 90 (noventa) dias na adoção nacional (prorrogável por igual período — Art. 46 caput e § 2º-A), e na adoção INTERNACIONAL será de no MÍNIMO 30 (trinta) e no MÁXIMO 45 (quarenta e cinco) dias, cumprido em território nacional (Art. 46, § 3º)!"
+        "text": "A adoção depende do consentimento dos pais ou representante legal do adotando, bem como do consentimento do próprio adotando em audiência caso seja maior de 12 (doze) anos de idade."
       },
       {
         "letter": "C",
-        "text": "Na adoção internacional, o casal estrangeiro pode levar imediatamente a criança ao exterior antes de cumprir estágio de convivência no Brasil."
+        "text": "Na adoção internacional, o casal estrangeiro pode levar imediatamente a criança ao exterior antes de cumprir estágio de convivência no Brasil, com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial."
       },
       {
         "letter": "D",
-        "text": "A simples guarda de fato sem processo judicial prévio dispensa automaticamente o estágio de convivência na adoção."
+        "text": "A simples guarda de fato sem processo judicial prévio dispensa automaticamente o estágio de convivência na adoção, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "B",
@@ -349,19 +349,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer pessoa amiga da gestante que receba o recém-nascido diretamente na maternidade passa automaticamente à frente da fila do cadastro de adoção."
+        "text": "Qualquer pessoa amiga da gestante que receba o recém-nascido diretamente na maternidade passa automaticamente à frente da fila do cadastro de adoção, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
-        "text": "O ECA protege a entrega voluntária da gestante (Art. 19-A — atendimento psicossocial sigiloso pela Justiça da Infância e Juventude, com direito ao sigilo sobre o nascimento — § 9º — e possibilidade de retratação até a audiência ou em 10 dias após a sentença de extinção do poder familiar — Art. 166, § 5º!). E pelo Art. 50, § 13, do ECA, somente poderá ser deferida adoção em favor de candidato domiciliado no Brasil NÃO cadastrado previamente quando: (I) se tratar de pedido de adoção UNILATERAL (padrasto/madrasta); (II) for formulada por parente com o qual a criança mantenha vínculos de afinidade e afetividade; ou (III) oriundo o pedido de quem detém a tutela ou guarda legal de criança maior de 3 (três) anos de idade, desde que o lapso de tempo de convivência comprove a fixação de laços de afinidade e afetividade e não seja constatada má-fé ou \"adoção à brasileira\" fraudulenta!"
+        "text": "O ECA protege a entrega voluntária da gestante. E, somente poderá ser deferida adoção em favor de candidato domiciliado no Brasil não cadastrado previamente quando: (I) se tratar de pedido de adoção unilateral (padrasto/madrasta)."
       },
       {
         "letter": "C",
-        "text": "A gestante que entrega o bebê voluntariamente à Vara da Infância comete crime de abandono de incapaz."
+        "text": "A gestante que entrega o bebê voluntariamente à Vara da Infância comete crime de abandono de incapaz, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "D",
-        "text": "Após assinar a entrega em audiência judicial e ser proferida a sentença de extinção do poder familiar, os genitores têm até 1 ano para se arrepender."
+        "text": "Após assinar a entrega em audiência judicial e ser proferida a sentença de extinção do poder familiar, os genitores têm até 1 ano para se arrepender, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "B",
@@ -404,11 +404,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os pais têm direito absoluto de recusar vacinas obrigatórias do SUS por convicção pessoal sem qualquer consequência jurídica."
+        "text": "Os pais têm direito absoluto de recusar vacinas obrigatórias do SUS por convicção pessoal sem qualquer consequência jurídica, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 56 do ECA, os dirigentes de estabelecimentos de ensino fundamental devem comunicar ao CONSELHO TUTELAR os casos de: (I) maus-tratos envolvendo seus alunos; (II) reiteração de faltas injustificadas e de evasão escolar, esgotados os recursos escolares; e (III) elevados níveis de repetência! E quanto às vacinas: pelo Art. 14, § 1º, do ECA, é OBRIGATÓRIA a vacinação das crianças nos casos recomendados pelas autoridades sanitárias — tendo o STF (ARE 1.267.879 / Tema 1.103) decidido ser CONSTITUCIONAL a obrigatoriedade da imunização infantil (não se impondo uso de força física invasiva, mas sanções indiretas como multa do Art. 249 ECA e medidas do Conselho Tutelar/Judiciário)!"
+        "text": "Os dirigentes de estabelecimentos de ensino fundamental devem comunicar ao conselho tutelar os casos de: (I) maus-tratos envolvendo seus alunos."
       },
       {
         "letter": "C",
@@ -416,7 +416,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O ECA garante vaga gratuita apenas em escolas distantes no centro da cidade, sem considerar proximidade residencial."
+        "text": "O ECA garante vaga gratuita apenas em escolas distantes no centro da cidade, sem considerar proximidade residencial, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "B",
@@ -460,19 +460,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas crianças menores de 12 anos precisam de autorização para viajar desacompanhadas entre Estados dentro do Brasil."
+        "text": "Apenas crianças menores de 12 anos precisam de autorização para viajar desacompanhadas entre Estados dentro do Brasil, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
-        "text": "Em VIAGEM NACIONAL (Art. 83 ECA pós-Lei 13.812/2019): nenhuma criança ou adolescente MENOR DE 16 (DEZESSEIS) ANOS poderá viajar para fora da comarca onde reside desacompanhado dos pais ou dos responsáveis sem expressa AUTORIZAÇÃO JUDICIAL! (Dispensada a autorização judicial quando: tratar-se de comarca contígua na mesma região metropolitana/Estado; ou estiver acompanhado de ascendente ou colateral maior até o 3º grau — ex.: avós, tios, irmãos maiores — comprovado documentalmente o parentesco; ou pessoa maior expressamente autorizada pelo pai, mãe ou responsável — adolescentes de 16 e 17 anos viajam livremente no Brasil!). Em VIAGEM INTERNACIONAL (Art. 84): até os 18 anos INCOMPLETOS exige-se autorização! Se viajar com apenas UM dos pais, exige autorização do outro com firma reconhecida (se sem nenhum dos pais, autorização judicial — salvo expressa autorização de ambos os pais por escritura pública ou documento com firma reconhecida conforme Resolução CNJ 131/2011)!"
+        "text": "Em viagem nacional: nenhuma criança ou adolescente menor de 16 (dezesseis) anos poderá viajar para fora da comarca onde reside desacompanhado dos pais ou dos responsáveis sem expressa autorização judicial."
       },
       {
         "letter": "C",
-        "text": "Um adolescente de 17 anos pode viajar ao exterior sozinho sem autorização dos pais nem judicial."
+        "text": "Um adolescente de 17 anos pode viajar ao exterior sozinho sem autorização dos pais nem judicial, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
-        "text": "Tio ou avô maior de idade precisa de alvará judicial para viajar dentro do Brasil acompanhando sobrinho de 10 anos."
+        "text": "Tio ou avô maior de idade precisa de alvará judicial para viajar dentro do Brasil acompanhando sobrinho de 10 anos, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "B",
@@ -515,15 +515,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 7º, XXXIII, da CF e Art. 60 do ECA: é PROIBIDO qualquer trabalho a menores de 16 (dezesseis) anos, SALVO na condição de APRENDIZ a partir de 14 (quatorze) anos! Ademais, é absolutamente PROIBIDO o trabalho NOTURNO (realizado entre 22h de um dia e 5h do dia seguinte — Art. 67, I, ECA!), PERIGOSO, INSALUBRE ou PENOSO (Art. 67, II), ou realizado em locais prejudiciais à sua formação e desenvolvimento ou em horários que não permitam a frequência à escola a menores de 18 (dezoito) anos!"
+        "text": "Da CF e Art. 60 do ECA: é proibido qualquer trabalho a menores de 16 (dezesseis) anos, salvo na condição de aprendiz a partir de 14 (quatorze) anos."
       },
       {
         "letter": "B",
-        "text": "Adolescente de 15 anos pode trabalhar como empregado celetista comum em supermercado sem contrato de aprendizagem."
+        "text": "Adolescente de 15 anos pode trabalhar como empregado celetista comum em supermercado sem contrato de aprendizagem, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       },
       {
         "letter": "C",
-        "text": "Adolescente de 17 anos emancipado civilmente pode trabalhar no turno da madrugada (00h às 6h) ou em posto de combustível (periculoso)."
+        "text": "Adolescente de 17 anos emancipado civilmente pode trabalhar no turno da madrugada (00h às 6h) ou em posto de combustível (periculoso), sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
@@ -570,19 +570,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos praticaram ATO INFRACIONAL (conduta descrita como crime ou contravenção penal — Art. 103 ECA), pois são penalmente INIMPUTÁVEIS até 18 anos (Art. 104 ECA e Art. 228 CF). Contudo: (1) à CRIANÇA de 11 anos NÃO se aplicam medidas socioeducativas (Arts. 112 ss.), aplicando-se exclusivamente MEDIDAS DE PROTEÇÃO (Art. 105 c/c Art. 101 ECA — encaminhamento aos pais, orientação escolar, acolhimento, etc., em regra via Conselho Tutelar)! (2) Ao ADOLESCENTE de 16 anos aplicam-se MEDIDAS SOCIOEDUCATIVAS (Arts. 112 ss.), asseguradas todas as garantias processuais (inclusive Súmula 342 STJ: confissão de adolescente na instrução NÃO dispensa produção de outras provas!), sendo a Justiça da Infância e Juventude competente para apuração e aplicação (Súmula 108 STJ)!"
+        "text": "Ambos praticaram ato infracional, pois são penalmente inimputáveis até 18 anos. Contudo: à criança de 11 anos não se aplicam medidas socioeducativas, aplicando-se exclusivamente medidas de proteção."
       },
       {
         "letter": "B",
-        "text": "A criança de 11 anos que comete furto deve cumprir medida socioeducativa de internação por até 3 anos na Fundação CASA."
+        "text": "A criança de 11 anos que comete furto deve cumprir medida socioeducativa de internação por até 3 anos na Fundação casa, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "Se o adolescente confessar o ato infracional perante o juiz, o procedimento encerra-se imediatamente sem necessidade de ouvir testemunhas nem produzir outras provas."
+        "text": "Se o adolescente confessar o ato infracional perante o juiz, o procedimento encerra-se imediatamente sem necessidade de ouvir testemunhas nem produzir outras provas, sem admissão de exposição indevida da identidade do menor ou redução de suas garantias."
       },
       {
         "letter": "D",
-        "text": "Ao adolescente apreendido em flagrante é permitido que seja algemado e transportado em compartimento fechado de camburão policial como regra geral."
+        "text": "Ao adolescente apreendido em flagrante é permitido que seja algemado e transportado em compartimento fechado de camburão policial como regra geral, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "A",
@@ -626,19 +626,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As 6 medidas do Art. 112 são: (I) advertência; (II) obrigação de reparar o dano; (III) prestação de serviços à comunidade (PSC — prazo MÁXIMO de 6 MESES, jornada máxima de 8 horas semanais aos sábados, domingos, feriados ou dias úteis sem prejudicar escola/trabalho — Art. 117!); (IV) liberdade assistida (LA — prazo MÍNIMO de 6 MESES, podendo a qualquer tempo ser prorrogada, revogada ou substituída — Art. 118, § 2º!); (V) inserção em regime de semiliberdade (sem prazo determinado, reavaliada a cada 6 meses, máx. 3 anos / 21 anos); e (VI) internação em estabelecimento educacional (sem prazo determinado na sentença, reavaliada no máximo a cada 6 MESES, não podendo exceder 3 ANOS e com liberação compulsória aos 21 anos — Art. 121)!"
+        "text": "As 6 medidas são: (I) advertência; (II) obrigação de reparar o dano; (III) prestação de serviços à comunidade; (IV) liberdade assistida; (V) inserção em regime de semiliberdade; e (vi) internação em estabelecimento educacional."
       },
       {
         "letter": "B",
-        "text": "A prestação de serviços à comunidade tem prazo mínimo de 6 meses e a liberdade assistida tem prazo máximo de 6 meses."
+        "text": "A prestação de serviços à comunidade tem prazo mínimo de 6 meses e a liberdade assistida tem prazo máximo de 6 meses, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "C",
-        "text": "O juiz fixa na sentença de internação o tempo exato de 2 anos e 4 meses de duração definitiva sem reavaliação."
+        "text": "O juiz fixa na sentença de internação o tempo exato de 2 anos e 4 meses de duração definitiva sem reavaliação, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
-        "text": "Não se aplica a prescrição penal aos atos infracionais praticados por adolescentes."
+        "text": "Não se aplica a prescrição penal aos atos infracionais praticados por adolescentes, em observância absoluta à proteção integral e ao melhor interesse da criança e do adolescente. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       }
     ],
     "correctAnswer": "A",
@@ -682,19 +682,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não! Pelo Art. 122 do ECA, o rol para aplicação da medida de internação é TAXATIVO (excepcionalidade, brevidade e respeito à condição peculiar de pessoa em desenvolvimento — Art. 121), só cabendo em 3 hipóteses: (I) ato infracional cometido mediante GRAVE AMEAÇA OU VIOLÊNCIA A PESSOA; (II) reiteração no cometimento de outras infrações graves; ou (III) descumprimento reiterado e injustificável da medida anteriormente imposta (internação-sanção, que NÃO pode ultrapassar 3 meses — § 1º!). E pela Súmula 492 do STJ: \"O ato infracional análogo ao tráfico de drogas, por si só, não conduz obrigatoriamente à imposição de medida socioeducativa de internação do adolescente\"!"
+        "text": "Não, o rol para aplicação da medida de internação é taxativo, só cabendo em 3 hipóteses: (I) ato infracional cometido mediante grave ameaça ou violência a pessoa."
       },
       {
         "letter": "B",
-        "text": "Sim, qualquer ato infracional análogo a crime hediondo ou equiparado impõe internação obrigatória por gravidade abstrata."
+        "text": "Sim, qualquer ato infracional análogo a crime hediondo ou equiparado impõe internação obrigatória por gravidade abstrata, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "A internação por descumprimento reiterado e injustificável de medida anterior (internação-sanção) pode durar até 3 anos."
+        "text": "A internação por descumprimento reiterado e injustificável de medida anterior (internação-sanção) pode durar até 3 anos, com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial."
       },
       {
         "letter": "D",
-        "text": "Para configurar reiteração no cometimento de outras infrações graves (inciso II), o STJ exige no mínimo 10 atos anteriores transitados em julgado."
+        "text": "Para configurar reiteração no cometimento de outras infrações graves, o STJ exige no mínimo 10 atos anteriores transitados em julgado, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "A",
@@ -738,19 +738,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 108 e Art. 183 do ECA, a internação antes da sentença pode ser determinada pelo prazo MÁXIMO e IMPRORROGÁVEL de 45 (quarenta e cinco) DIAS, mediante decisão fundamentada baseada em indícios suficientes de autoria e materialidade e demonstrada a necessidade imperiosa da medida! Transcorridos os 45 dias sem prolação de sentença, o adolescente DEVE ser colocado imediatamente em liberdade (configurando constrangimento ilegal sanável por Habeas Corpus a manutenção além desse prazo, salvo excesso de prazo provocado exclusivamente pela defesa ou sentença já prolatada)!"
+        "text": "Pelo Art. 108 e Art. 183 do ECA, a internação antes da sentença pode ser determinada pelo prazo máximo e improrrogável de 45 (quarenta e cinco) dias, mediante decisão fundamentada baseada em indícios suficientes de autoria e materialidade e demonstrada a necessidade imperiosa da medida."
       },
       {
         "letter": "B",
-        "text": "A internação provisória pode durar até 180 dias prorrogáveis se o crime for hediondo."
+        "text": "A internação provisória pode durar até 180 dias prorrogáveis se o crime for hediondo, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "C",
-        "text": "Durante a internação provisória de 45 dias, não é preciso demonstrar indícios de autoria e materialidade."
+        "text": "Durante a internação provisória de 45 dias, não é preciso demonstrar indícios de autoria e materialidade, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "D",
-        "text": "Se a internação provisória for cumprida em comarca sem unidade socioeducativa, o adolescente pode ficar recolhido em cela comum da cadeia pública por até 60 dias."
+        "text": "Se a internação provisória for cumprida em comarca sem unidade socioeducativa, o adolescente pode ficar recolhido em cela comum da cadeia pública por até 60 dias, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       }
     ],
     "correctAnswer": "A",
@@ -793,7 +793,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Antes de iniciado o procedimento judicial, o MINISTÉRIO PÚBLICO pode conceder a remissão como forma de EXCLUSÃO do processo (sujeita à homologação do juiz — se o juiz discordar, remete os autos ao Procurador-Geral de Justiça pelo Art. 181, § 2º, análogo ao Art. 28 CPP!); já iniciado o procedimento, a concessão cabe à autoridade JUDICIÁRIA como forma de SUSPENSÃO ou EXTINÇÃO do processo! A remissão NÃO implica necessariamente reconhecimento ou comprovação da responsabilidade nem prevalece para efeito de antecedentes (Art. 127), podendo incluir aplicação de medida socioeducativa — EXCETO semiliberdade ou internação (ou seja, SÓ medidas em meio aberto!) — e atenção à Súmula 108 do STJ: \"A aplicação de medidas socioeducativas ao adolescente, pela prática de ato infracional, é da competência exclusiva do juiz\" (o MP pode propor na remissão, mas só produz efeito com homologação judicial)!"
+        "text": "Antes de iniciado o procedimento judicial, o ministério público pode conceder a remissão como forma de exclusão do processo."
       },
       {
         "letter": "B",
@@ -801,7 +801,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A aceitação da remissão pelo adolescente gera maus antecedentes e equivale a condenação penal definitiva."
+        "text": "A aceitação da remissão pelo adolescente gera maus antecedentes e equivale a condenação penal definitiva, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
@@ -849,19 +849,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Conselho Tutelar é órgão PERMANENTE e AUTÔNOMO, NÃO JURISDICIONAL, encarregado pela sociedade de zelar pelo cumprimento dos direitos da criança e do adolescente (Art. 131 ECA). Em cada Município e Região Administrativa do DF haverá no mínimo 1 Conselho Tutelar composto por 5 (cinco) membros, escolhidos pela população local para mandato de 4 (quatro) anos, PERMITIDA RECONDUÇÃO por novos processos de escolha sem limite fixo de uma única reeleição (alteração da Lei nº 13.824/2019 no Art. 132)! Para candidatar-se exigem-se 3 requisitos legais mínimos do Art. 133: (I) reconhecida idoneidade moral; (II) idade superior a 21 anos; e (III) residir no município!"
+        "text": "O Conselho Tutelar é órgão permanente e autônomo, não jurisdicional, encarregado pela sociedade de zelar pelo cumprimento dos direitos da criança e do adolescente."
       },
       {
         "letter": "B",
-        "text": "O Conselho Tutelar exerce função jurisdicional podendo decretar a perda do poder familiar e aplicar internação a adolescentes."
+        "text": "O Conselho Tutelar exerce função jurisdicional podendo decretar a perda do poder familiar e aplicar internação a adolescentes, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "C",
-        "text": "Os conselheiros tutelares só podem ser reconduzidos para um único mandato consecutivo (máximo 2 mandatos)."
+        "text": "Os conselheiros tutelares só podem ser reconduzidos para um único mandato consecutivo (máximo 2 mandatos), com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação."
       },
       {
         "letter": "D",
-        "text": "Basta ter 18 anos completos para concorrer a conselheiro tutelar segundo o Art. 133 do ECA."
+        "text": "Basta ter 18 anos completos para concorrer a conselheiro tutelar segundo o Art. 133 do ECA, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "A",
@@ -904,11 +904,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Conselho Tutelar PODE aplicar as medidas protetivas do Art. 101, I a VII (encaminhamento aos pais, orientação/apoio, matrícula obrigatória em escola, inclusão em programa comunitário/auxílio/tratamento de saúde/drogadição) e também medidas aos pais do Art. 129, I a VII (encaminhamento a tratamento, advertência, matrícula escolar — NÃO podendo aplicar perda de guarda, destituição de tutela ou perda/suspensão do poder familiar, Art. 129, VIII a X!), além de poder promover a execução de suas decisões (requisitar serviços públicos e representar ao MP/Judiciário)! Já o ACOLHIMENTO INSTITUCIONAL/FAMILIAR (Art. 101, VII e VIII? Atenção: Art. 101, VII = acolhimento institucional; VIII = inclusão em programa de acolhimento familiar — no Art. 136, I, o ECA autoriza o CT a aplicar medidas do Art. 101, I a VII, MAS pelo Art. 101, § 2º e Art. 93, o afastamento da criança do convívio familiar é de competência EXCLUSIVA da autoridade judiciária, podendo o CT apenas em caso de emergência excepcional promover o encaminhamento imediato comunicando o juiz em até 24 horas para expedição da Guia de Acolhimento — Art. 93!) e a colocação em FAMÍLIA SUBSTITUTA (Art. 101, IX) são privativos do JUIZ!"
+        "text": "O Conselho Tutelar pode aplicar as medidas protetivas e também medidas aos pais, além de poder promover a execução de suas decisões."
       },
       {
         "letter": "B",
-        "text": "O Conselho Tutelar pode decretar diretamente a suspensão e a perda do poder familiar dos pais agressores."
+        "text": "O Conselho Tutelar pode decretar diretamente a suspensão e a perda do poder familiar dos pais agressores, com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação."
       },
       {
         "letter": "C",
@@ -916,7 +916,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O Conselho Tutelar não tem competência para requisitar certidões de nascimento e óbito de criança ou adolescente quando necessário."
+        "text": "O Conselho Tutelar não tem competência para requisitar certidões de nascimento e óbito de criança ou adolescente quando necessário, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "A",
@@ -959,19 +959,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela Lei nº 13.106/2015, vender, fornecer, servir, ministrar ou entregar, ainda que gratuitamente, bebida alcoólica (ou outros produtos cujos componentes possam causar dependência física ou psíquica) a criança ou adolescente deixou de ser mera contravenção/infração administrativa e passou a ser CRIME expresso no Art. 243 do ECA (detenção de 2 a 4 anos e multa, além de interdição do estabelecimento como infração administrativa no Art. 258-C)! E quanto à corrupção de menores (Art. 244-B ECA), a Súmula 500 do STJ firmou que sua configuração INDEPENDE da prova da efetiva corrupção do menor, por se tratar de crime FORMAL!"
+        "text": "Vender, fornecer, servir, ministrar ou entregar, ainda que gratuitamente, bebida alcoólica a criança ou adolescente deixou de ser mera contravenção/infração administrativa e passou a ser crime expresso."
       },
       {
         "letter": "B",
-        "text": "Vender bebida alcoólica a adolescente de 17 anos gera apenas multa administrativa, não configurando crime no ECA."
+        "text": "Vender bebida alcoólica a adolescente de 17 anos gera apenas multa administrativa, não configurando crime no ECA, sem admissão de exposição indevida da identidade do menor ou redução de suas garantias."
       },
       {
         "letter": "C",
-        "text": "O crime de corrupção de menores (Art. 244-B ECA) exige provar que o adolescente era \"puro e inocente\" antes do delito e nunca havia cometido ato infracional."
+        "text": "O crime de corrupção de menores exige provar que o adolescente era \"puro e inocente\" antes do delito e nunca havia cometido ato infracional, em observância absoluta à proteção integral e ao melhor interesse da criança e do adolescente."
       },
       {
         "letter": "D",
-        "text": "Hospedar criança ou adolescente desacompanhado dos pais ou responsável sem autorização escrita ou judicial em hotel/motel é fato atípico."
+        "text": "Hospedar criança ou adolescente desacompanhado dos pais ou responsável sem autorização escrita ou judicial em hotel/motel é fato atípico, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "A",
@@ -1015,19 +1015,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Plano Individual de Atendimento (PIA) é instrumento obrigatório para previsão, registro e gestão das atividades com o adolescente: deve ser elaborado no prazo de até 45 (quarenta e cinco) dias da data do ingresso do adolescente no programa de atendimento para medidas de semiliberdade ou internação (Art. 55) — e em até 15 (quinze) dias na prestação de serviços à comunidade ou liberdade assistida (Art. 56)! Além disso, pelo Art. 45 do SINASE: se o adolescente já cumpre medida socioeducativa e é condenado por outro ato infracional praticado ANTES do início da execução, há UNIFICAÇÃO das medidas (computando o tempo já cumprido, vedado ultrapassar o teto de 3 anos na internação — § 1º), e medidas em meio aberto ou anteriores ficam absorvidas por atos praticados anteriormente à internação (salvo se o novo ato for cometido DURANTE a execução, hipótese em que se aplica nova medida após o cumprimento ou reavaliação conforme § 2º)!"
+        "text": "O Plano Individual de Atendimento (pia) é instrumento obrigatório para previsão, registro e gestão das atividades com o adolescente: deve ser elaborado no prazo de até 45 (quarenta e cinco) dias da data do ingresso do adolescente no programa de atendimento para medidas de semiliberdade ou internação — e em até 15 (quinze) dias na prestação de serviços à comunidade ou liberdade assistida."
       },
       {
         "letter": "B",
-        "text": "O prazo para elaborar o PIA na medida de internação é de 180 dias após o ingresso na unidade."
+        "text": "O prazo para elaborar o pia na medida de internação é de 180 dias após o ingresso na unidade, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "Na execução das medidas socioeducativas pelo SINASE, a soma de várias internações por múltiplos atos infracionais pode alcançar 12 anos ininterruptos."
+        "text": "Na execução das medidas socioeducativas pelo SINASE, a soma de várias internações por múltiplos atos infracionais pode alcançar 12 anos ininterruptos, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "D",
-        "text": "Adolescente cumprindo medida socioeducativa não tem direito a visita íntima mesmo sendo casado ou vivendo em união estável."
+        "text": "Adolescente cumprindo medida socioeducativa não tem direito a visita íntima mesmo sendo casado ou vivendo em união estável, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "A",
@@ -1070,19 +1070,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O princípio da discricionariedade punitiva absoluta, que autoriza internação por tempo superior à pena máxima penal do adulto."
+        "text": "O princípio da discricionariedade punitiva absoluta, que autoriza internação por tempo superior à pena máxima penal do adulto, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "B",
-        "text": "Ao adolescente infrator aplicam-se automaticamente todos os agravantes da Lei de Execução Penal de adultos sem adaptações."
+        "text": "Ao adolescente infrator aplicam-se automaticamente todos os agravantes da Lei de Execução Penal de adultos sem adaptações, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "C",
-        "text": "Adolescente sem defensor constituído pode ser processado sem defesa técnica na apuração de ato infracional."
+        "text": "Adolescente sem defensor constituído pode ser processado sem defesa técnica na apuração de ato infracional, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "D",
-        "text": "O princípio previsto no Art. 35, I, da Lei nº 12.594/2012 (SINASE): a \"legalidade, NÃO podendo o adolescente receber tratamento mais gravoso do que o conferido ao adulto\"! Assim, não se justifica manter adolescente internado por tempo ou em condições piores do que receberia um adulto pelo mesmo fato (ex.: se o crime análogo para adulto admitiria de plano regime aberto ou substituição da pena sem privação de liberdade, e não se enquadra no Art. 122 do ECA, também o adolescente não pode ser punido mais severamente)!"
+        "text": "O princípio (SINASE): a \"legalidade, não podendo o adolescente receber tratamento mais gravoso do que o conferido ao adulto\"."
       }
     ],
     "correctAnswer": "D",
@@ -1125,19 +1125,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo para interposição de apelação no ECA é de 15 dias úteis conforme o CPC, mediante pagamento prévio de preparo recursal."
+        "text": "O prazo para interposição de apelação no ECA é de 15 dias úteis conforme o CPC, mediante pagamento prévio de preparo recursal, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
-        "text": "Nos processos do ECA, o Ministério Público e a Fazenda Pública possuem prazo em dobro para recorrer."
+        "text": "Nos processos do ECA, o Ministério Público e a Fazenda Pública possuem prazo em dobro para recorrer, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "A apelação contra sentença que defere adoção internacional não possui efeito suspensivo, permitindo levar a criança para o exterior imediatamente."
+        "text": "A apelação contra sentença que defere adoção internacional não possui efeito suspensivo, permitindo levar a criança para o exterior imediatamente, em observância absoluta à proteção integral e ao melhor interesse da criança e do adolescente."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 198 do ECA: nos procedimentos afetos à Justiça da Infância e da Juventude, aplica-se subsidiariamente o CPC com adaptações específicas: (1) os recursos serão interpostos INDEPENDENTEMENTE DE PREPARO (Art. 198, I — isenção de custas e porte!); (2) em TODOS os recursos (inclusive apelação e agravo de instrumento!), salvo os embargos de declaração (5 dias pelo CPC!), o prazo para interposição e resposta será sempre de 10 (DEZ) DIAS (Art. 198, II!); (3) os recursos terão preferência absoluta de julgamento e dispensam revisor; e (4) pela regra geral (Art. 199-A e 199-B c/c jurisprudência STJ), a apelação contra sentença que impõe medida socioeducativa é recebida apenas no efeito DEVOLUTIVO (sem efeito suspensivo em regra, salvo em adoção internacional - Art. 199-A - ou risco de dano irreparável avaliado pelo juiz/relator)!"
+        "text": "Nos procedimentos afetos à Justiça da Infância e da Juventude, aplica-se subsidiariamente o CPC com adaptações específicas: os recursos serão interpostos independentemente de preparo."
       }
     ],
     "correctAnswer": "D",
@@ -1180,19 +1180,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É lícito divulgar as iniciais do nome completo e o rosto sem tarja quando o ato infracional for grave."
+        "text": "É lícito divulgar as iniciais do nome completo e o rosto sem tarja quando o ato infracional for grave, com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação."
       },
       {
         "letter": "B",
-        "text": "A exibição pela TV de fotografia de adolescente suspeito de ato infracional não gera infração alguma ao ECA."
+        "text": "A exibição pela tv de fotografia de adolescente suspeito de ato infracional não gera infração alguma ao ECA, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "C",
-        "text": "A restrição do Art. 143 não impede que terceiros obtenham certidões públicas livres de qualquer sigilo sobre atos infracionais praticados por adolescentes."
+        "text": "A restrição não impede que terceiros obtenham certidões públicas livres de qualquer sigilo sobre atos infracionais praticados por adolescentes."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 143 do ECA, é VEDADA a divulgação de atos judiciais, policiais e administrativos que digam respeito a crianças e adolescentes a que se atribua autoria de ato infracional (qualquer notícia não poderá identificar a criança ou adolescente, vedando-se fotografia, referência a nome, apelido, filiação, parentesco, residência e até INICIAIS do nome e sobrenome)! A violação pelo meio de comunicação configura INFRAÇÃO ADMINISTRATIVA expressa no Art. 247 do ECA (multa de 3 a 20 salários de referência, aplicada em dobro na reincidência, podendo o juiz determinar apreensão da publicação ou suspensão da programação até 2 dias/emissora por reincidência)!"
+        "text": "É vedada a divulgação de atos judiciais, policiais e administrativos que digam respeito a crianças e adolescentes a que se atribua autoria de ato infracional."
       }
     ],
     "correctAnswer": "D",
@@ -1235,19 +1235,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O depoimento especial deve ser repetido exaustivamente na delegacia, no Conselho Tutelar e em três audiências presenciais frente a frente com o réu."
+        "text": "O depoimento especial deve ser repetido exaustivamente na delegacia, no Conselho Tutelar e em três audiências presenciais frente a frente com o réu, com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial."
       },
       {
         "letter": "B",
-        "text": "A escuta especializada é o interrogatório formal feito pelo juiz criminal na sala de audiências tradicional."
+        "text": "A escuta especializada é o interrogatório formal feito pelo juiz criminal na sala de audiências tradicional, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "A criança menor de 7 anos é proibida de prestar depoimento especial em sala protegida mesmo sendo a única testemunha presencial."
+        "text": "A criança menor de 7 anos é proibida de prestar depoimento especial em sala protegida mesmo sendo a única testemunha presencial, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei."
       },
       {
         "letter": "D",
-        "text": "A ESCUTA ESPECIALIZADA (Art. 7º) é o procedimento de entrevista sobre situação de violência com criança ou adolescente perante órgão da rede de proteção (escola, saúde, assistência social, Conselho Tutelar), limitado estritamente ao necessário para o cumprimento de sua finalidade protetiva; já o DEPOIMENTO ESPECIAL (Art. 8º) é o procedimento de oitiva de criança ou adolescente vítima ou testemunha de violência perante autoridade POLICIAL ou JUDICIÁRIA, em sala acolhedora e reservada com profissionais especializados e gravação audiovisual (evitando a revitimização e o contato visual com o suposto agressor — Art. 11, § 1º)!"
+        "text": "A escuta especializada é o procedimento de entrevista sobre situação de violência com criança ou adolescente perante órgão da rede de proteção, limitado estritamente ao necessário para o cumprimento de sua finalidade protetiva; já o depoimento especial é o procedimento de oitiva de criança ou adolescente vítima ou testemunha de violência perante autoridade policial ou judiciária, em sala acolhedora e reservada com profissionais especializados e gravação audiovisual."
       }
     ],
     "correctAnswer": "D",
@@ -1290,19 +1290,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Lei Henry Borel proíbe o afastamento cautelar do agressor do lar doméstico antes do trânsito em julgado da sentença penal."
+        "text": "A Lei Henry Borel proíbe o afastamento cautelar do agressor do lar doméstico antes do trânsito em julgado da sentença penal, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "B",
-        "text": "Descumprir medida protetiva da Lei Henry Borel gera apenas advertência verbal do Conselho Tutelar."
+        "text": "Descumprir medida protetiva da Lei Henry Borel gera apenas advertência verbal do Conselho Tutelar, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "O homicídio contra criança menor de 14 anos não foi alterado pela Lei Henry Borel."
+        "text": "O homicídio contra criança menor de 14 anos não foi alterado pela Lei Henry Borel, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei."
       },
       {
         "letter": "D",
-        "text": "Criou sistema autônomo de medidas protetivas de urgência específicas para crianças e adolescentes vítimas de violência doméstica/familiar (como afastamento imediato do agressor do lar pela autoridade judicial, policial em comarca sem juiz ou delegado — sujeito a controle judicial em 24h! — Art. 14–20); tipificou como crime o descumprimento de medida protetiva (Art. 25); tornou HEDIONDO o homicídio praticado contra menor de 14 anos (incluído no Art. 121, § 2º, IX, CP e Lei 8.072/90); e tornou CRIME deixar de comunicar à autoridade pública a prática de violência, tratamento cruel ou violação contra criança/adolescente quando tiver conhecimento (Art. 26)!"
+        "text": "Criou sistema autônomo de medidas protetivas de urgência específicas para crianças e adolescentes vítimas de violência doméstica/familiar."
       }
     ],
     "correctAnswer": "D",
@@ -1345,19 +1345,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os pais que aplicarem palmada ou castigo físico corretivo perdem automática e imediatamente o poder familiar por decisão do Conselho Tutelar."
+        "text": "Os pais que aplicarem palmada ou castigo físico corretivo perdem automática e imediatamente o poder familiar por decisão do Conselho Tutelar, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
-        "text": "O castigo físico leve é expressamente autorizado pelo ECA como método pedagógico ordinário desde que não deixe hematomas."
+        "text": "O castigo físico leve é expressamente autorizado pelo ECA como método pedagógico ordinário desde que não deixe hematomas, em observância absoluta à proteção integral e ao melhor interesse da criança e do adolescente."
       },
       {
         "letter": "C",
-        "text": "Apenas os professores escolares estão proibidos de aplicar castigos físicos, mantendo-se a permissão aos avós e babás."
+        "text": "Apenas os professores escolares estão proibidos de aplicar castigos físicos, mantendo-se a permissão aos avós e babás, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "D",
-        "text": "O Art. 18-A estabelece que a criança e o adolescente têm o direito de ser educados e cuidados SEM O USO DE CASTIGO FÍSICO (ação de natureza disciplinar ou punitiva aplicada com uso de força física que resulte em sofrimento físico ou lesão) ou de TRATAMENTO CRUEL OU DEGRADANTE (conduta que humilhe, ameace gravemente ou ridicularize) como formas de correção, disciplina ou educação! Os pais ou responsáveis que utilizarem tais métodos ficam sujeitos às medidas do Art. 18-B aplicáveis pelo Conselho Tutelar (encaminhamento a programa oficial de proteção à família, tratamento psicológico/psiquiátrico, cursos/programas de orientação, obrigação de encaminhar a criança a tratamento especializado e advertência), sem prejuízo de outras sanções legais!"
+        "text": "A legislação aplicável estabelece que a criança e o adolescente têm o direito de ser educados e cuidados sem o uso de castigo físico ou de tratamento cruel ou degradante como formas de correção, disciplina ou educação."
       }
     ],
     "correctAnswer": "D",
@@ -1400,11 +1400,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Conselho Tutelar ou o delegado podem decretar diretamente a perda do poder familiar sem processo judicial."
+        "text": "O Conselho Tutelar ou o delegado podem decretar diretamente a perda do poder familiar sem processo judicial, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "B",
-        "text": "O procedimento judicial de destituição do poder familiar tem prazo máximo legal de 2 anos para conclusão."
+        "text": "O procedimento judicial de destituição do poder familiar tem prazo máximo legal de 2 anos para conclusão, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
@@ -1412,7 +1412,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 24 do ECA, a perda e a suspensão do poder familiar serão decretadas JUDICIALMENTE, em procedimento contraditório (com ampla defesa), nos casos previstos na legislação civil (Arts. 1.637 e 1.638 CC: castigo imoderado, abandono, atos contrários à moral, feminicídio/homicídio/estupro contra o outro genitor ou filho — Lei 13.715/18!), bem como na hipótese de descumprimento injustificado dos deveres e obrigações do Art. 22 do ECA (sustento, guarda e educação)! E pelo Art. 163, caput, do ECA (pós-Lei 13.509/2017), o prazo máximo para conclusão do procedimento de destituição do poder familiar será de 120 (CENTO E VINTE) DIAS — cabendo ainda citação pessoal prévia (ou por hora certa/edital se não encontrado) e intervenção obrigatória do Ministério Público!"
+        "text": "A perda e a suspensão do poder familiar serão decretadas judicialmente, em procedimento contraditório (com ampla defesa), nos casos previstos na legislação civil."
       }
     ],
     "correctAnswer": "D",
@@ -1455,19 +1455,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas pessoas já inscritas na fila de adoção podem participar do apadrinhamento afetivo."
+        "text": "Apenas pessoas já inscritas na fila de adoção podem participar do apadrinhamento afetivo, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
-        "text": "O acolhimento institucional (abrigo coletivo) tem preferência legal absoluta sobre o acolhimento em família acolhedora."
+        "text": "O acolhimento institucional (abrigo coletivo) tem preferência legal absoluta sobre o acolhimento em família acolhedora, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "Pessoas jurídicas (empresas) são proibidas pelo ECA de apadrinhar programas ou crianças acolhidas."
+        "text": "Pessoas jurídicas (empresas) são proibidas pelo ECA de apadrinhar programas ou crianças acolhidas, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "D",
-        "text": "O apadrinhamento consiste em estabelecer vínculos externos à instituição (apadrinhamento afetivo, prestador de serviços ou provedor financeiro) para proporcionar convivência familiar/comunitária; podem ser padrinhos pessoas MAIORES DE 18 ANOS NÃO INSCRITAS NOS CADASTROS DE ADOÇÃO (cumpridos requisitos do programa — Art. 19-B, § 2º — inclusive pessoas jurídicas podem apadrinhar para colaborar com desenvolvimento, § 3º!), dando-se prioridade ao apadrinhamento de crianças/adolescentes com remota possibilidade de reinserção ou adoção (§ 4º). E quanto às modalidades de acolhimento (Art. 34, § 1º): a inclusão em programa de ACOLHIMENTO FAMILIAR (família acolhedora) terá PREFERÊNCIA ao acolhimento institucional (abrigo)!"
+        "text": "O apadrinhamento consiste em estabelecer vínculos externos à instituição para proporcionar convivência familiar/comunitária."
       }
     ],
     "correctAnswer": "D",
@@ -1510,19 +1510,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para julgar ato infracional, a competência é determinada pelo domicílio dos pais no momento da infração, nunca pelo local da ação."
+        "text": "Para julgar ato infracional, a competência é determinada pelo domicílio dos pais no momento da infração, nunca pelo local da ação. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "B",
-        "text": "A alteração de domicílio do guardião com a criança durante uma ação de guarda mantém o processo preso perpetuamente no juízo antigo pela perpetuatio jurisdictionis."
+        "text": "A alteração de domicílio do guardião com a criança durante uma ação de guarda mantém o processo preso perpetuamente no juízo antigo pela perpetuatio jurisdictionis, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "C",
-        "text": "A Vara de Família comum julga sempre pedidos de adoção de crianças em situação de risco com poder familiar destituído."
+        "text": "A Vara de Família comum julga sempre pedidos de adoção de crianças em situação de risco com poder familiar destituído, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "D",
-        "text": "Regra dúplice clássica do Art. 147 do ECA! (1) Para ações protetivas, guarda, destituição do poder familiar e alimentos envolvendo criança/adolescente: a competência será determinada pelo DOMICÍLIO DOS PAIS OU RESPONSÁVEL (Art. 147, I) ou pelo lugar onde se encontre a criança/adolescente à falta dos pais ou responsável (Art. 147, II) — lembrando a Súmula 383 do STJ: \"A competência para processar e julgar as ações conexas de interesse de menor é, em princípio, do foro do domicílio do detentor de sua guarda\" (competência absoluta, não se aplicando a perpetuatio jurisdictionis se mudar o domicílio da criança!). (2) Já nos casos de ATO INFRACIONAL, será competente a autoridade do LUGAR DA AÇÃO OU OMISSÃO (local do fato — São Paulo!), observadas as regras de conexão, continência e prevenção (Art. 147, § 1º) — podendo a execução da medida socioeducativa ser delegada ao juízo da residência dos pais/adolescente (Art. 147, § 2º)!"
+        "text": "Regra dúplice clássica. Para ações protetivas, guarda, destituição do poder familiar e alimentos envolvendo criança/adolescente: a competência será determinada pelo domicílio dos pais ou responsável ou pelo lugar onde se encontre a criança/adolescente à falta dos pais ou responsável. Já nos casos de ato infracional, será competente a autoridade do lugar da ação ou omissão, observadas as regras de conexão, continência e prevenção."
       }
     ],
     "correctAnswer": "D",
@@ -1566,19 +1566,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os prontuários individuais de parto em hospitais devem ser guardados apenas por 5 anos."
+        "text": "Os prontuários individuais de parto em hospitais devem ser guardados apenas por 5 anos, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
-        "text": "A identificação neonatal exige apenas pulseira de plástico com nome da mãe, sem coleta de impressão plantar do bebê."
+        "text": "A identificação neonatal exige apenas pulseira de plástico com nome da mãe, sem coleta de impressão plantar do bebê, com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação."
       },
       {
         "letter": "C",
-        "text": "Deixar o médico ou responsável de identificar corretamente o neonato e a parturiente na ocasião do parto é conduta atípica."
+        "text": "Deixar o médico ou responsável de identificar corretamente o neonato e a parturiente na ocasião do parto é conduta atípica, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "D",
-        "text": "Os hospitais são obrigados a: (I) manter registro das atividades desenvolvidas, através de prontuários individuais, pelo prazo de 18 (DEZOITO) ANOS; (II) identificar o recém-nascido mediante registro de sua impressão plantar e digital e da impressão digital da mãe, sem prejuízo de outras formas normatizadas; (III) proceder a exames visando ao diagnóstico e terapêutica de anormalidades no metabolismo do recém-nascido (teste do pezinho e correlatos, inclusive triagem auditiva/ocular/cardíaca conforme atualizações!), bem como prestar orientação aos pais; (IV) fornecer declaração de nascimento onde constem necessariamente as intercorrências do parto e do desenvolvimento do neonato; e (V) manter alojamento conjunto, possibilitando ao neonato a permanência junto à mãe (além do direito a um acompanhante durante todo o trabalho de parto, parto e pós-parto imediato — Lei 11.108/05 e 14.737/23)!"
+        "text": "Os hospitais são obrigados a: (I) manter registro das atividades desenvolvidas, através de prontuários individuais, pelo prazo de 18 (dezoito) anos."
       }
     ],
     "correctAnswer": "D",
@@ -1621,19 +1621,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Conselho Tutelar expede os alvarás judiciais e portarias disciplinando entrada e permanência de crianças em estádios, bailes e novelas."
+        "text": "O Conselho Tutelar expede os alvarás judiciais e portarias disciplinando entrada e permanência de crianças em estádios, bailes e novelas, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
-        "text": "Por força da ADI 5.326, a Justiça do Trabalho assumiu exclusivamente todos os alvarás de trabalho infantil artístico."
+        "text": "Por força da ADI 5.326, a Justiça do Trabalho assumiu exclusivamente todos os alvarás de trabalho infantil artístico, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "C",
-        "text": "A AUTORIDADE JUDICIÁRIA (Juiz da Infância e Juventude), mediante portaria ou alvará caso a caso, nos termos do Art. 149 do ECA! Na atuação artística infantil (exceção admitida com base na Convenção 138 da OIT — Art. 8º — internalizada no Brasil!), exige-se prévia autorização judicial (alvará do Juiz da Infância, consoante entendimento do STF na ADI 5.326!) verificando proteção à saúde, frequência escolar, descanso, contrato e destinação protetiva dos rendimentos — NÃO bastando autorização isolada dos pais nem competindo ao Conselho Tutelar expedir alvará!"
+        "text": "A autoridade judiciária, mediante portaria ou alvará caso a caso. Na atuação artística infantil, exige-se prévia autorização judicial verificando proteção à saúde, frequência escolar, descanso, contrato e destinação protetiva dos rendimentos."
       },
       {
         "letter": "D",
-        "text": "Se os pais da criança de 9 anos assinarem autorização no cartório, dispensa-se qualquer alvará judicial para a criança atuar em novela."
+        "text": "Se os pais da criança de 9 anos assinarem autorização no cartório, dispensa-se qualquer alvará judicial para a criança atuar em novela, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "C",
@@ -1677,19 +1677,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na ADI 2.404, o STF confirmou ser obrigatório multar e suspender emissoras que exibam programas fora da faixa horária da classificação indicativa."
+        "text": "Na ADI 2.404, o STF confirmou ser obrigatório multar e suspender emissoras que exibam programas fora da faixa horária da classificação indicativa, com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "B",
-        "text": "A venda de bilhetes de loteria a adolescentes de 16 anos é permitida livremente pelo Art. 81 do ECA."
+        "text": "A venda de bilhetes de loteria a adolescentes de 16 anos é permitida livremente, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 81 do ECA, é PROIBIDA a venda à criança ou ao adolescente de: (I) armas, munições e explosivos; (II) bebidas alcoólicas; (III) produtos cujos componentes possam causar dependência física ou psíquica; (IV) fogos de estampido e de artifício (exceto aqueles que pelo seu reduzido potencial sejam incapazes de provocar qualquer dano físico em caso de utilização indevida); (V) revistas e publicações impróprias/pornográficas (Art. 78); e (VI) bilhetes lotéricos e equivalentes! Já sobre a classificação indicativa de TV e diversões (Art. 74–76 ECA e Art. 220, § 3º, I, CF), o STF na ADI 2.404 declarou inconstitucional a punição automática por exibição em horário diverso do recomendado, firmando que a classificação indicativa do Poder Público tem natureza meramente INDICATIVA/informativa (para orientar as famílias), vedada a imposição compulsória de horários vinculantes (que configuraria censura prévia)!"
+        "text": "É proibida a venda à criança ou ao adolescente de: (I) armas, munições e explosivos; (II) bebidas alcoólicas; (III) produtos cujos componentes possam causar dependência física ou psíquica; (IV) fogos de estampido e de artifício; (V) revistas e publicações impróprias/pornográficas; e (vi) bilhetes lotéricos e equivalentes."
       },
       {
         "letter": "D",
-        "text": "Fogos de artifício de alto poder explosivo podem ser vendidos a adolescentes maiores de 14 anos sem restrição."
+        "text": "Fogos de artifício de alto poder explosivo podem ser vendidos a adolescentes maiores de 14 anos sem restrição, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       }
     ],
     "correctAnswer": "C",
@@ -1733,19 +1733,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O delegado de polícia pode autorizar diretamente a infiltração policial na internet sem ordem judicial por até 180 dias."
+        "text": "O delegado de polícia pode autorizar diretamente a infiltração policial na internet sem ordem judicial por até 180 dias, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
-        "text": "A infiltração na internet pelo ECA pode prorrogar-se por prazo indeterminado sem limite máximo de dias."
+        "text": "A infiltração na internet pelo ECA pode prorrogar-se por prazo indeterminado sem limite máximo de dias, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       },
       {
         "letter": "C",
-        "text": "A infiltração de agentes de polícia na internet depende de PRÉVIA AUTORIZAÇÃO JUDICIAL devidamente circunstanciada e sigilosa (mediante requerimento do MP ou representação do delegado de polícia após manifestação técnica/MP — demonstrada a necessidade e impossibilidade de obtenção por outros meios — Art. 190-A), não podendo exceder o prazo inicial de 90 (noventa) DIAS, permitidas renovações desde que comprovada sua necessidade, NÃO podendo o prazo total exceder a 720 (SETECENTOS E VINTE) DIAS!"
+        "text": "A infiltração de agentes de polícia na internet depende de prévia autorização judicial devidamente circunstanciada e sigilosa, não podendo exceder o prazo inicial de 90 (noventa) dias, permitidas renovações desde que comprovada sua necessidade, não podendo o prazo total exceder a 720 dias."
       },
       {
         "letter": "D",
-        "text": "O agente policial infiltrado que omite crime ao simular interesse em grupo pedófilo comete crime automaticamente sem excludente."
+        "text": "O agente policial infiltrado que omite crime ao simular interesse em grupo pedófilo comete crime automaticamente sem excludente, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       }
     ],
     "correctAnswer": "C",
@@ -1788,11 +1788,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O direito a acompanhante em tempo integral aplica-se apenas a crianças de até 3 anos de idade, cessando na fase escolar."
+        "text": "O direito a acompanhante em tempo integral aplica-se apenas a crianças de até 3 anos de idade, cessando na fase escolar, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       },
       {
         "letter": "B",
-        "text": "Em Unidades de Terapia Intensiva (UTI) pediátricas, o acompanhante pode permanecer apenas durante o horário de visitas de 1 hora por dia."
+        "text": "Em Unidades de Terapia Intensiva (uti) pediátricas, o acompanhante pode permanecer apenas durante o horário de visitas de 1 hora por dia, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "C",
@@ -1800,7 +1800,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Somente a mãe biológica possui legitimidade para permanecer como acompanhante hospitalar, vedada a indicação de pai ou avô."
+        "text": "Somente a mãe biológica possui legitimidade para permanecer como acompanhante hospitalar, vedada a indicação de pai ou avô, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei."
       }
     ],
     "correctAnswer": "C",
@@ -1843,11 +1843,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A reavaliação do acolhimento institucional deve ocorrer a cada 12 meses e o prazo máximo de permanência é de 3 anos improrrogáveis."
+        "text": "A reavaliação do acolhimento institucional deve ocorrer a cada 12 meses e o prazo máximo de permanência é de 3 anos improrrogáveis, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
-        "text": "O acolhimento institucional equivale à colocação em família substituta e transfere automaticamente a tutela ao diretor do abrigo."
+        "text": "O acolhimento institucional equivale à colocação em família substituta e transfere automaticamente a tutela ao diretor do abrigo, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
@@ -1855,7 +1855,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Transcorridos 18 meses de acolhimento, a criança deve ser imediatamente entregue à adoção sem necessidade de processo de destituição do poder familiar."
+        "text": "Transcorridos 18 meses de acolhimento, a criança deve ser imediatamente entregue à adoção sem necessidade de processo de destituição do poder familiar, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "C",
@@ -1898,11 +1898,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A manifestação de entrega voluntária configura crime de abandono de incapaz e gera instauração imediata de inquérito policial contra a mãe."
+        "text": "A manifestação de entrega voluntária configura crime de abandono de incapaz e gera instauração imediata de inquérito policial contra a mãe, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "B",
-        "text": "O consentimento dado pela mãe em audiência judicial é irrevogável no exato instante da assinatura da ata, não cabendo arrependimento posterior."
+        "text": "O consentimento dado pela mãe em audiência judicial é irrevogável no exato instante da assinatura da ata, não cabendo arrependimento posterior, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei."
       },
       {
         "letter": "C",
@@ -1910,7 +1910,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O juiz deve notificar compulsoriamente todos os parentes até o 4º grau da gestante, mesmo diante de pedido expresso de sigilo por ela formulado."
+        "text": "O juiz deve notificar compulsoriamente todos os parentes até o 4º grau da gestante, mesmo diante de pedido expresso de sigilo por ela formulado, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "C",
@@ -1953,11 +1953,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A pobreza extrema autoriza a perda automática do poder familiar e o encaminhamento imediato das crianças para adoção."
+        "text": "A pobreza extrema autoriza a perda automática do poder familiar e o encaminhamento imediato das crianças para adoção, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
-        "text": "O poder familiar é exercido com primazia jurídica pelo pai, cabendo à mãe apenas o exercício subsidiário em caso de ausência paterna."
+        "text": "O poder familiar é exercido com primazia jurídica pelo pai, cabendo à mãe apenas o exercício subsidiário em caso de ausência paterna, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "C",
@@ -1965,7 +1965,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A inclusão em programas oficiais de assistência social depende da concordância prévia de família substituta habilitada."
+        "text": "A inclusão em programas oficiais de assistência social depende da concordância prévia de família substituta habilitada, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "C",
@@ -2008,11 +2008,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A descoberta de \"adoção à brasileira\" impõe automaticamente a retirada imediata da criança do lar socioafetivo e recolhimento a abrigo, vedada análise do vínculo afetivo."
+        "text": "A descoberta de \"adoção à brasileira\" impõe automaticamente a retirada imediata da criança do lar socioafetivo e recolhimento a abrigo, vedada análise do vínculo afetivo, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "B",
-        "text": "O registro de filho alheio como próprio é expressamente autorizado pelo ECA como modalidade simplificada de adoção direta."
+        "text": "O registro de filho alheio como próprio é expressamente autorizado pelo ECA como modalidade simplificada de adoção direta, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "C",
@@ -2020,7 +2020,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A mãe biológica que entregou o filho há seis anos perde apenas o direito de visitas, mantendo o pátrio poder."
+        "text": "A mãe biológica que entregou o filho há seis anos perde apenas o direito de visitas, mantendo o pátrio poder, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "C",
@@ -2064,11 +2064,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A guarda é modalidade irrevogável de colocação em família substituta que extingue o poder familiar dos pais biológicos."
+        "text": "A guarda é modalidade irrevogável de colocação em família substituta que extingue o poder familiar dos pais biológicos, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "B",
-        "text": "A guarda não confere ao guardião o direito de opor-se a terceiros, sequer contra os próprios pais biológicos."
+        "text": "A guarda não confere ao guardião o direito de opor-se a terceiros, sequer contra os próprios pais biológicos, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
@@ -2076,7 +2076,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A concessão de guarda exige obrigatoriamente a prévia destituição do poder familiar em processo autônomo."
+        "text": "A concessão de guarda exige obrigatoriamente a prévia destituição do poder familiar em processo autônomo, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "C",
@@ -2120,11 +2120,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A tutela pode ser cumulada com a manutenção íntegra do poder familiar dos pais vivos e plenamente capazes."
+        "text": "A tutela pode ser cumulada com a manutenção íntegra do poder familiar dos pais vivos e plenamente capazes, com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação."
       },
       {
         "letter": "B",
-        "text": "O deferimento da tutela no ECA aplica-se apenas a crianças até 12 anos incompletos, cabendo curatela aos adolescentes."
+        "text": "O deferimento da tutela no ECA aplica-se apenas a crianças até 12 anos incompletos, cabendo curatela aos adolescentes, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "C",
@@ -2132,7 +2132,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "É obrigatório que a tia preste hipoteca legal sobre seus bens pessoais antes da lavratura do termo de tutela."
+        "text": "É obrigatório que a tia preste hipoteca legal sobre seus bens pessoais antes da lavratura do termo de tutela, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       }
     ],
     "correctAnswer": "C",
@@ -2175,7 +2175,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os estrangeiros têm preferência em igualdade de condições com casais brasileiros residentes no país na ordem do cadastro."
+        "text": "Os estrangeiros têm preferência em igualdade de condições com casais brasileiros residentes no país na ordem do cadastro, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "B",
@@ -2183,11 +2183,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O estágio de convivência na adoção internacional pode ser cumprido integralmente no país de residência dos adotantes após o embarque da criança."
+        "text": "O estágio de convivência na adoção internacional pode ser cumprido integralmente no país de residência dos adotantes após o embarque da criança, com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial."
       },
       {
         "letter": "D",
-        "text": "A saída do adotando do território nacional é autorizada imediatamente após a entrega provisória pela CEJAI antes da sentença de adoção."
+        "text": "A saída do adotando do território nacional é autorizada imediatamente após a entrega provisória pela cejai antes da sentença de adoção, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       }
     ],
     "correctAnswer": "B",
@@ -2230,7 +2230,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Com o falecimento do adotante antes do trânsito em julgado da sentença, o processo de adoção é obrigatoriamente extinto sem resolução de mérito."
+        "text": "Com o falecimento do adotante antes do trânsito em julgado da sentença, o processo de adoção é obrigatoriamente extinto sem resolução de mérito, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
@@ -2238,11 +2238,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Os efeitos da adoção póstuma passam a vigorar somente após a averbação da sentença no cartório civil, sem repercussão sucessória."
+        "text": "Os efeitos da adoção póstuma passam a vigorar somente após a averbação da sentença no cartório civil, sem repercussão sucessória, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       },
       {
         "letter": "D",
-        "text": "A adoção póstuma é permitida exclusivamente quando os herdeiros biológicos do falecido concordam por escritura pública."
+        "text": "A adoção póstuma é permitida exclusivamente quando os herdeiros biológicos do falecido concordam por escritura pública, com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação."
       }
     ],
     "correctAnswer": "B",
@@ -2285,7 +2285,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A adoção conjunta exige obrigatoriamente casamento civil entre homem e mulher, sendo vedada à união estável homoafetiva."
+        "text": "A adoção conjunta exige obrigatoriamente casamento civil entre homem e mulher, sendo vedada à união estável homoafetiva, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "B",
@@ -2293,11 +2293,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Na adoção unilateral pelo cônjuge ou companheiro de um dos pais, rompem-se os vínculos jurídicos da criança com ambos os genitores originários."
+        "text": "Na adoção unilateral pelo cônjuge ou companheiro de um dos pais, rompem-se os vínculos jurídicos da criança com ambos os genitores originários, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "D",
-        "text": "A adoção por casal em união estável exige prazo mínimo legal de dez anos de convivência pública."
+        "text": "A adoção por casal em união estável exige prazo mínimo legal de dez anos de convivência pública, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "B",
@@ -2341,7 +2341,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O sigilo do processo de adoção é perpétuo e absoluto, impedindo o adotado de acessar os autos mesmo após atingir a maioridade civil."
+        "text": "O sigilo do processo de adoção é perpétuo e absoluto, impedindo o adotado de acessar os autos mesmo após atingir a maioridade civil, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
@@ -2349,11 +2349,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O acesso ao processo de adoção antes dos 18 anos é totalmente proibido, mesmo que o adolescente conte com assistência jurídica e psicológica."
+        "text": "O acesso ao processo de adoção antes dos 18 anos é totalmente proibido, mesmo que o adolescente conte com assistência jurídica e psicológica, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei."
       },
       {
         "letter": "D",
-        "text": "O conhecimento da origem biológica pelo adotado revoga automaticamente a adoção e restaura o poder familiar biológico."
+        "text": "O conhecimento da origem biológica pelo adotado revoga automaticamente a adoção e restaura o poder familiar biológico, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "B",
@@ -2396,7 +2396,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O direito à creche é norma constitucional puramente programática, não podendo o Judiciário determinar a matrícula individual de criança."
+        "text": "O direito à creche é norma constitucional puramente programática, não podendo o Judiciário determinar a matrícula individual de criança, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial."
       },
       {
         "letter": "B",
@@ -2404,11 +2404,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A criança tem direito de acesso à escola pública gratuita apenas a partir dos 6 anos de idade, no ensino fundamental."
+        "text": "A criança tem direito de acesso à escola pública gratuita apenas a partir dos 6 anos de idade, no ensino fundamental, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "D",
-        "text": "O ECA dispensa o acesso à escola próxima à residência quando o município fornecer passe de ônibus intermunicipal."
+        "text": "O ECA dispensa o acesso à escola próxima à residência quando o município fornecer passe de ônibus intermunicipal, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "B",
@@ -2452,7 +2452,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O dever de promover cultura e lazer para crianças e adolescentes cabe exclusivamente às famílias e clubes privados, sem obrigação municipal."
+        "text": "O dever de promover cultura e lazer para crianças e adolescentes cabe exclusivamente às famílias e clubes privados, sem obrigação municipal, com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial."
       },
       {
         "letter": "B",
@@ -2460,11 +2460,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O direito ao lazer previsto no ECA restringe-se ao período de férias escolares de julho e dezembro."
+        "text": "O direito ao lazer previsto no ECA restringe-se ao período de férias escolares de julho e dezembro, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "D",
-        "text": "No processo educacional de crianças indígenas e quilombolas, deve-se suprimir os valores culturais próprios para uniformização curricular nacional."
+        "text": "No processo educacional de crianças indígenas e quilombolas, deve-se suprimir os valores culturais próprios para uniformização curricular nacional, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       }
     ],
     "correctAnswer": "B",
@@ -2507,7 +2507,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No trabalho educativo permitido pelo ECA, a produtividade comercial prevalece sobre a formação escolar do adolescente."
+        "text": "No trabalho educativo permitido pelo ECA, a produtividade comercial prevalece sobre a formação escolar do adolescente, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       },
       {
         "letter": "B",
@@ -2515,11 +2515,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A remuneração recebida pela venda de produtos no trabalho educativo converte automaticamente a oficina em relação de emprego celetista comum sem vínculo escolar."
+        "text": "A remuneração recebida pela venda de produtos no trabalho educativo converte automaticamente a oficina em relação de emprego celetista comum sem vínculo escolar, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
-        "text": "A bolsa de aprendizagem é devida ao adolescente aprendiz somente após completar 18 anos de idade."
+        "text": "A bolsa de aprendizagem é devida ao adolescente aprendiz somente após completar 18 anos de idade, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "B",
@@ -2562,19 +2562,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A hospedagem de adolescente com 16 anos completos é livre mediante simples apresentação de RG, exigindo-se autorização apenas para menores de 12 anos."
+        "text": "A hospedagem de adolescente com 16 anos completos é livre mediante simples apresentação de RG, exigindo-se autorização apenas para menores de 12 anos, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
-        "text": "A conduta configura infração administrativa tipificada no Art. 250 do ECA, sujeitando o estabelecimento a multa e, em caso de reincidência, à possibilidade de fechamento por até 15 dias ou cassação de licença de funcionamento."
+        "text": "A conduta configura infração administrativa tipificada, sujeitando o estabelecimento a multa e, em caso de reincidência, à possibilidade de fechamento por até 15 dias ou cassação de licença de funcionamento."
       },
       {
         "letter": "C",
-        "text": "A hospedagem irregular de adolescente desacompanhado configura crime inafiançável punido com reclusão de 4 a 8 anos."
+        "text": "A hospedagem irregular de adolescente desacompanhado configura crime inafiançável punido com reclusão de 4 a 8 anos, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "D",
-        "text": "A autorização dos pais para hospedagem só tem validade se homologada por decisão prévia do juiz da comarca."
+        "text": "A autorização dos pais para hospedagem só tem validade se homologada por decisão prévia do juiz da comarca, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "B",
@@ -2617,19 +2617,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Basta a assinatura de termo simples entre os pais da criança e a emissora de televisão, dispensando qualquer intervenção judicial."
+        "text": "Basta a assinatura de termo simples entre os pais da criança e a emissora de televisão, dispensando qualquer intervenção judicial, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "B",
-        "text": "Compete à autoridade judiciária (Juiz da Infância e da Juventude ou conforme competência fixada pelo STF em harmonia protetiva) disciplinar mediante portaria ou autorizar mediante alvará a participação da criança em espetáculos públicos e certames."
+        "text": "Compete à autoridade judiciária disciplinar mediante portaria ou autorizar mediante alvará a participação da criança em espetáculos públicos e certames."
       },
       {
         "letter": "C",
-        "text": "O Conselho Tutelar detém competência originária para expedir alvará autorizativo de trabalho artístico infantil."
+        "text": "O Conselho Tutelar detém competência originária para expedir alvará autorizativo de trabalho artístico infantil, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "D",
-        "text": "Os pais podem autorizar livremente a entrada e permanência de criança de 8 anos desacompanhada em bailes noturnos sem restrição judicial."
+        "text": "Os pais podem autorizar livremente a entrada e permanência de criança de 8 anos desacompanhada em bailes noturnos sem restrição judicial, com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação."
       }
     ],
     "correctAnswer": "B",
@@ -2672,7 +2672,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A legislação brasileira exige o decurso mínimo de 24 horas para registro de boletim de ocorrência e início das buscas por menor desaparecido."
+        "text": "A legislação brasileira exige o decurso mínimo de 24 horas para registro de boletim de ocorrência e início das buscas por menor desaparecido, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "B",
@@ -2680,11 +2680,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Somente crianças menores de 6 anos gozam de busca policial imediata, aplicando-se espera de 48 horas aos adolescentes."
+        "text": "Somente crianças menores de 6 anos gozam de busca policial imediata, aplicando-se espera de 48 horas aos adolescentes, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "D",
-        "text": "A comunicação a aeroportos e polícia rodoviária depende de mandado judicial prévio expedido após cinco dias de diligências locais."
+        "text": "A comunicação a aeroportos e polícia rodoviária depende de mandado judicial prévio expedido após cinco dias de diligências locais, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "B",
@@ -2731,15 +2731,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O adolescente apreendido em flagrante de ato infracional sem violência deve permanecer recolhido na cela comum da delegacia até audiência de custódia em 15 dias."
+        "text": "O adolescente apreendido em flagrante de ato infracional sem violência deve permanecer recolhido na cela comum da delegacia até audiência de custódia em 15 dias, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "C",
-        "text": "Nenhum adolescente pode ser apreendido em flagrante de ato infracional, exigindo-se ordem escrita do juiz mesmo na prática atual do ilícito."
+        "text": "Nenhum adolescente pode ser apreendido em flagrante de ato infracional, exigindo-se ordem escrita do juiz mesmo na prática atual do ilícito, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "D",
-        "text": "A comunicação da apreensão ao juiz e à família do adolescente pode ser postergada em até 72 horas para preservação da investigação policial."
+        "text": "A comunicação da apreensão ao juiz e à família do adolescente pode ser postergada em até 72 horas para preservação da investigação policial, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "A",
@@ -2786,15 +2786,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O tráfico de drogas equipara-se a ato infracional cometido com violência à pessoa por ficção legal, obrigando o juiz a aplicar internação."
+        "text": "O tráfico de drogas equipara-se a ato infracional cometido com violência à pessoa por ficção legal, obrigando o juiz a aplicar internação, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "Adolescente reincidente em qualquer ato infracional leve, como pichação e furto simples, deve sofrer internação por prazo mínimo de 1 ano."
+        "text": "Adolescente reincidente em qualquer ato infracional leve, como pichação e furto simples, deve sofrer internação por prazo mínimo de 1 ano. Tal competência delimita a atuação integrada da rede de garantia dos direitos infantojuvenis."
       },
       {
         "letter": "D",
-        "text": "A Súmula 492 do STJ foi cancelada após a edição da Lei do SINASE, passando o tráfico a exigir internação automática."
+        "text": "A Súmula 492 do STJ foi cancelada após a edição da Lei do SINASE, passando o tráfico a exigir internação automática, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "A",
@@ -2842,15 +2842,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O juiz pode converter definitivamente a prestação de serviços em internação por prazo indeterminado de até 3 anos."
+        "text": "O juiz pode converter definitivamente a prestação de serviços em internação por prazo indeterminado de até 3 anos, com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial."
       },
       {
         "letter": "C",
-        "text": "A decretação da internação-sanção dispensa audiência de justificação ou manifestação da defesa por se tratar de execução imediata."
+        "text": "A decretação da internação-sanção dispensa audiência de justificação ou manifestação da defesa por se tratar de execução imediata, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "D",
-        "text": "O prazo máximo da internação-sanção é de 45 dias, idêntico ao da internação provisória antes da sentença."
+        "text": "O prazo máximo da internação-sanção é de 45 dias, idêntico ao da internação provisória antes da sentença, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "A",
@@ -2893,19 +2893,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Operou-se a prescrição da pretensão socioeducativa, pois a Súmula 338 do STJ aplica a prescrição penal às medidas socioeducativas, computando-se pela metade os prazos prescricionais em razão da menoridade do agente (Art. 115 do CP)."
+        "text": "Operou-se a prescrição da pretensão socioeducativa, pois a Súmula 338 do STJ aplica a prescrição penal às medidas socioeducativas, computando-se pela metade os prazos prescricionais em razão da menoridade do agente."
       },
       {
         "letter": "B",
-        "text": "As medidas socioeducativas são imprescritíveis por terem natureza puramente pedagógica e protetiva, não punitiva."
+        "text": "As medidas socioeducativas são imprescritíveis por terem natureza puramente pedagógica e protetiva, não punitiva, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial."
       },
       {
         "letter": "C",
-        "text": "Aplica-se o prazo prescricional do Código Penal sem a redução pela metade prevista no Art. 115 do CP."
+        "text": "Aplica-se o prazo prescricional do Código Penal sem a redução pela metade, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "D",
-        "text": "Quando a medida aplicada for semiliberdade por prazo indeterminado, utiliza-se o prazo prescricional de 2 anos independentemente do tipo penal análogo."
+        "text": "Quando a medida aplicada for semiliberdade por prazo indeterminado, utiliza-se o prazo prescricional de 2 anos independentemente do tipo penal análogo, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "A",
@@ -2953,15 +2953,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Ao completar 18 anos, o jovem deve ser transferido imediatamente para penitenciária estadual comum a fim de cumprir o restante da medida."
+        "text": "Ao completar 18 anos, o jovem deve ser transferido imediatamente para penitenciária estadual comum a fim de cumprir o restante da medida, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       },
       {
         "letter": "C",
-        "text": "Atingindo a maioridade aos 18 anos antes de iniciar o cumprimento da medida, extingue-se automaticamente a punibilidade do ato infracional."
+        "text": "Atingindo a maioridade aos 18 anos antes de iniciar o cumprimento da medida, extingue-se automaticamente a punibilidade do ato infracional, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "D",
-        "text": "A liberação compulsória aos 21 anos admite prorrogação até os 24 anos em caso de atos infracionais análogos a crimes hediondos."
+        "text": "A liberação compulsória aos 21 anos admite prorrogação até os 24 anos em caso de atos infracionais análogos a crimes hediondos, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "A",
@@ -3009,15 +3009,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A superlotação em unidades socioeducativas não autoriza substituição por internação domiciliar nem progressão, salvo autorização do governador do Estado."
+        "text": "A superlotação em unidades socioeducativas não autoriza substituição por internação domiciliar nem progressão, salvo autorização do governador do Estado, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "O teto de ocupação definido pelo STF permite margem de tolerância de até 130% em comarcas de grande densidade populacional."
+        "text": "O teto de ocupação definido pelo STF permite margem de tolerância de até 130% em comarcas de grande densidade populacional, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
-        "text": "Aplica-se o remédio do habeas corpus coletivo apenas a presídios de adultos, sendo incabível no âmbito do ECA."
+        "text": "Aplica-se o remédio do habeas corpus coletivo apenas a presídios de adultos, sendo incabível no âmbito do ECA, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       }
     ],
     "correctAnswer": "A",
@@ -3061,19 +3061,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A criança (menor de 12 anos) não recebe medida socioeducativa, mas sim medidas específicas de proteção do Art. 101 (como encaminhamento aos pais, orientação, matrícula escolar e acompanhamento temporário), aplicáveis isolada ou cumulativamente."
+        "text": "A criança (menor de 12 anos) não recebe medida socioeducativa, mas sim medidas específicas de proteção, aplicáveis isolada ou cumulativamente."
       },
       {
         "letter": "B",
-        "text": "À criança de 9 anos autora de dano grave aplica-se medida socioeducativa de prestação de serviços à comunidade pelo prazo de 3 meses."
+        "text": "À criança de 9 anos autora de dano grave aplica-se medida socioeducativa de prestação de serviços à comunidade pelo prazo de 3 meses, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "C",
-        "text": "O Conselho Tutelar pode aplicar diretamente a medida protetiva de colocação em família substituta por guarda definitiva."
+        "text": "O Conselho Tutelar pode aplicar diretamente a medida protetiva de colocação em família substituta por guarda definitiva, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "D",
-        "text": "As medidas de proteção previstas no ECA só podem ser aplicadas após a instauração de processo judicial com sentença transitada em julgado."
+        "text": "As medidas de proteção previstas no ECA só podem ser aplicadas após a instauração de processo judicial com sentença transitada em julgado, com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial."
       }
     ],
     "correctAnswer": "A",
@@ -3116,19 +3116,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Conselho Tutelar não detém competência para aplicar perda da guarda, destituição de tutela ou suspensão/destituição do poder familiar, pois dentre as medidas do Art. 129, apenas as dos incisos I a VII podem ser aplicadas pelo Conselho Tutelar, cabendo os incisos VIII a X exclusivamente ao juiz."
+        "text": "O Conselho Tutelar não detém competência para aplicar perda da guarda, destituição de tutela ou suspensão/destituição do poder familiar, pois dentre as medidas, apenas as dos incisos I a VII podem ser aplicadas pelo Conselho Tutelar, cabendo os incisos VIII a X exclusivamente ao juiz."
       },
       {
         "letter": "B",
-        "text": "O Conselho Tutelar pode aplicar todas as dez medidas do Art. 129 do ECA, incluindo a destituição do poder familiar em casos urgentes."
+        "text": "O Conselho Tutelar pode aplicar todas as dez medidas, incluindo a destituição do poder familiar em casos urgentes, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "O Conselho Tutelar não pode aplicar sequer advertência aos pais nem determinar obrigação de encaminhar o filho a tratamento especializado."
+        "text": "O Conselho Tutelar não pode aplicar sequer advertência aos pais nem determinar obrigação de encaminhar o filho a tratamento especializado, sem admissão de exposição indevida da identidade do menor ou redução de suas garantias. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "D",
-        "text": "A advertência aos pais prevista no Art. 129, VII, exige condenação prévia do Ministério Público em ação civil pública."
+        "text": "A advertência aos pais, exige condenação prévia do Ministério Público em ação civil pública, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "A",
@@ -3175,15 +3175,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A utilização de justiça restaurativa é proibida na execução socioeducativa por violar o princípio da indisponibilidade da ação socioeducativa pública."
+        "text": "A utilização de justiça restaurativa é proibida na execução socioeducativa por violar o princípio da indisponibilidade da ação socioeducativa pública, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "C",
-        "text": "As práticas restaurativas substituem o princípio da legalidade estrita, permitindo impor ao adolescente sanção superior à pena do adulto."
+        "text": "As práticas restaurativas substituem o princípio da legalidade estrita, permitindo impor ao adolescente sanção superior à pena do adulto, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "D",
-        "text": "A Justiça Restaurativa só é admitida se o adolescente já estiver cumprindo internação por mais de um ano."
+        "text": "A Justiça Restaurativa só é admitida se o adolescente já estiver cumprindo internação por mais de um ano, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "A",
@@ -3226,11 +3226,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É permitida a dedução das doações efetuadas aos Fundos dos Direitos da Criança e do Adolescente devidamente comprovadas, obedecidos os limites legais (até 6% ao longo do ano-calendário ou até 3% diretamente na declaração de ajuste anual)."
+        "text": "É permitida a dedução das doações efetuadas aos Fundos dos Direitos da Criança e do Adolescente devidamente comprovadas, obedecidos os limites legais."
       },
       {
         "letter": "B",
-        "text": "Apenas pessoas jurídicas tributadas pelo lucro presumido podem deduzir doações feitas aos Fundos da Criança e do Adolescente."
+        "text": "Apenas pessoas jurídicas tributadas pelo lucro presumido podem deduzir doações feitas aos Fundos da Criança e do Adolescente, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       },
       {
         "letter": "C",
@@ -3238,7 +3238,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "As doações ao Fundo podem ser direcionadas pelo contribuinte para pagamento de despesa pessoal de conselheiro tutelar específico."
+        "text": "As doações ao Fundo podem ser direcionadas pelo contribuinte para pagamento de despesa pessoal de conselheiro tutelar específico, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "A",
@@ -3281,15 +3281,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A paridade entre Poder Público e sociedade civil é facultativa nos conselhos municipais, aplicando-se apenas ao CONANDA federal."
+        "text": "A paridade entre Poder Público e sociedade civil é facultativa nos conselhos municipais, aplicando-se apenas ao conanda federal, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "B",
-        "text": "O Conselho Tutelar e o CMDCA são exatamente o mesmo órgão administrativo municipal com funções idênticas."
+        "text": "O Conselho Tutelar e o CMDCA são exatamente o mesmo órgão administrativo municipal com funções idênticas, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "C",
-        "text": "Os membros do Conselho Municipal dos Direitos devem ser remunerados com subsídio equivalente ao de vereador."
+        "text": "Os membros do Conselho Municipal dos Direitos devem ser remunerados com subsídio equivalente ao de vereador, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "D",
@@ -3336,15 +3336,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas cônjuges têm impedimento de atuar no mesmo Conselho Tutelar, não havendo restrição para irmãos ou tios e sobrinhos."
+        "text": "Apenas cônjuges têm impedimento de atuar no mesmo Conselho Tutelar, não havendo restrição para irmãos ou tios e sobrinhos, sem admissão de exposição indevida da identidade do menor ou redução de suas garantias."
       },
       {
         "letter": "B",
-        "text": "Se eleitos pelo voto popular direto da comunidade, a soberania do voto afasta o impedimento de parentesco do Art. 140."
+        "text": "Se eleitos pelo voto popular direto da comunidade, a soberania do voto afasta o impedimento de parentesco, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "O impedimento não alcança eventual parentesco do conselheiro tutelar com o Promotor de Justiça da Infância e Juventude da comarca."
+        "text": "O impedimento não alcança eventual parentesco do conselheiro tutelar com o Promotor de Justiça da Infância e Juventude da comarca, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "D",
@@ -3391,15 +3391,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cada conselheiro tutelar pode exercer no máximo dois mandatos consecutivos, sendo proibida a terceira candidatura."
+        "text": "Cada conselheiro tutelar pode exercer no máximo dois mandatos consecutivos, sendo proibida a terceira candidatura, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "B",
-        "text": "O processo de escolha dos membros do Conselho Tutelar ocorre a cada dois anos, sempre no mês de junho, com mandato de dois anos."
+        "text": "O processo de escolha dos membros do Conselho Tutelar ocorre a cada dois anos, sempre no mês de junho, com mandato de dois anos. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "C",
-        "text": "O voto do eleitor nas eleições do Conselho Tutelar é obrigatório sob pena de multa eleitoral."
+        "text": "O voto do eleitor nas eleições do Conselho Tutelar é obrigatório sob pena de multa eleitoral, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
@@ -3450,15 +3450,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A competência territorial do Art. 147 do ECA é meramente relativa, prorrogando-se se o réu não apresentar preliminar em contestação."
+        "text": "A competência territorial é meramente relativa, prorrogando-se se o réu não apresentar preliminar em contestação, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "Para a apuração de ato infracional, também prevalece o foro do domicílio dos pais do adolescente em qualquer estado do país."
+        "text": "Para a apuração de ato infracional, também prevalece o foro do domicílio dos pais do adolescente em qualquer estado do país, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "D",
-        "text": "A competência nas ações do ECA é absoluta e fixada pelo domicílio dos pais ou responsável, ou, na falta destes, pelo lugar onde se encontre a criança ou adolescente; contudo, segundo a Súmula 383 do STJ, a competência para processar e julgar as ações conexas de interesse de menor é, em princípio, do foro do domicílio do detentor de sua guarda."
+        "text": "A competência nas ações do ECA é absoluta e fixada pelo domicílio dos pais ou responsável, ou, na falta destes, pelo lugar onde se encontre a criança ou adolescente."
       }
     ],
     "correctAnswer": "D",
@@ -3502,19 +3502,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A intervenção do Ministério Público nas ações que envolvem guarda de menores é facultativa quando ambas as partes estiverem assistidas por advogado."
+        "text": "A intervenção do Ministério Público nas ações que envolvem guarda de menores é facultativa quando ambas as partes estiverem assistidas por advogado, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "B",
-        "text": "A nulidade pela ausência do Ministério Público só pode ser pronunciada se a criança comprovar prejuízo financeiro direto superior a 40 salários mínimos."
+        "text": "A nulidade pela ausência do Ministério Público só pode ser pronunciada se a criança comprovar prejuízo financeiro direto superior a 40 salários mínimos, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial."
       },
       {
         "letter": "C",
-        "text": "O Ministério Público só atua como parte legitimada no ECA em procedimentos de apuração de ato infracional, nunca em ações civis individuais."
+        "text": "O Ministério Público só atua como parte legitimada no ECA em procedimentos de apuração de ato infracional, nunca em ações civis individuais, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei."
       },
       {
         "letter": "D",
-        "text": "O processo é nulo a partir do momento em que o Ministério Público deveria ter sido intimado, pois a falta de intervenção do Parquet acarreta nulidade do feito nos termos do Art. 204 do ECA, que será declarada de ofício pelo juiz ou a requerimento de qualquer interessado."
+        "text": "O processo é nulo a partir do momento em que o Ministério Público deveria ter sido intimado, pois a falta de intervenção do Parquet acarreta nulidade do feito, que será declarada de ofício pelo juiz ou a requerimento de qualquer interessado."
       }
     ],
     "correctAnswer": "D",
@@ -3565,11 +3565,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A multa aplicada por infração administrativa no ECA é recolhida diretamente ao caixa pessoal do Conselho Tutelar local."
+        "text": "A multa aplicada por infração administrativa no ECA é recolhida diretamente ao caixa pessoal do Conselho Tutelar local, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "D",
-        "text": "Ambos cometeram infrações administrativas previstas no ECA: o veículo de comunicação incorreu no Art. 247 (divulgação indevida de ato policial/judicial envolvendo adolescente) e o pai no Art. 249 (descumprimento doloso ou culposo dos deveres do poder familiar ou de determinação judicial/do Conselho Tutelar)."
+        "text": "Ambos cometeram infrações administrativas previstas no ECA: o veículo de comunicação incorreu e o pai."
       }
     ],
     "correctAnswer": "D",
@@ -3612,19 +3612,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas quem paga o valor responde pelo crime, ficando a mãe isenta de pena por estado de necessidade presumido."
+        "text": "Apenas quem paga o valor responde pelo crime, ficando a mãe isenta de pena por estado de necessidade presumido, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "B",
-        "text": "O fato é atípico no ECA caso o casal receptor trate a criança com carinho e a matricule em escola particular."
+        "text": "O fato é atípico no ECA caso o casal receptor trate a criança com carinho e a matricule em escola particular, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "O auxílio para envio ilegal de criança ao exterior com objetivo de lucro não é tipificado pelo ECA."
+        "text": "O auxílio para envio ilegal de criança ao exterior com objetivo de lucro não é tipificado pelo ECA, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial."
       },
       {
         "letter": "D",
-        "text": "Tanto quem promete ou efetiva a entrega de filho ou pupilo a terceiro mediante paga ou recompensa quanto quem oferece ou efetiva a paga ou recompensa pratica o crime previsto no Art. 238 do ECA (reclusão de 1 a 4 anos e multa)."
+        "text": "Tanto quem promete ou efetiva a entrega de filho ou pupilo a terceiro mediante paga ou recompensa quanto quem oferece ou efetiva a paga ou recompensa pratica o crime."
       }
     ],
     "correctAnswer": "D",
@@ -3667,15 +3667,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É vedada a realização de audiências conjuntas com a rede intersetorial para reavaliação do acolhimento, devendo ocorrer exclusivamente exame documental silencioso a cada dois anos."
+        "text": "É vedada a realização de audiências conjuntas com a rede intersetorial para reavaliação do acolhimento, devendo ocorrer exclusivamente exame documental silencioso a cada dois anos, em observância absoluta à proteção integral e ao melhor interesse da criança e do adolescente."
       },
       {
         "letter": "B",
-        "text": "A presença de equipe técnica interprofissional nessas reavaliações substitui a atuação do Ministério Público."
+        "text": "A presença de equipe técnica interprofissional nessas reavaliações substitui a atuação do Ministério Público, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "Nas audiências concentradas, não se pode ouvir a própria criança ou adolescente acolhido, mesmo que já tenha discernimento."
+        "text": "Nas audiências concentradas, não se pode ouvir a própria criança ou adolescente acolhido, mesmo que já tenha discernimento. A medida deve respeitar o princípio da proporcionalidade e a condição de pessoa em formação."
       },
       {
         "letter": "D",
@@ -3722,19 +3722,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O direito à liberdade de opinião e expressão no ECA aplica-se apenas a maiores de 16 anos já alistados como eleitores."
+        "text": "O direito à liberdade de opinião e expressão no ECA aplica-se apenas a maiores de 16 anos já alistados como eleitores, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "B",
-        "text": "A liberdade de ir e vir de crianças em espaços comunitários depende de licença prévia do Conselho Tutelar."
+        "text": "A liberdade de ir e vir de crianças em espaços comunitários depende de licença prévia do Conselho Tutelar, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "O direito ao respeito previsto no ECA significa apenas a integridade física, sem abranger a inviolabilidade psíquica ou preservação de valores e ideias."
+        "text": "O direito ao respeito previsto no ECA significa apenas a integridade física, sem abranger a inviolabilidade psíquica ou preservação de valores e ideias, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
-        "text": "A restrição viola o direito fundamental à liberdade assegurado no Art. 16 do ECA, que compreende os aspectos de ir, vir e estar nos logradouros públicos, opinião e expressão, crença e culto religioso, brincar, praticar esportes e divertir-se, e participar da vida política na forma da lei."
+        "text": "A restrição viola o direito fundamental à liberdade assegurado, que compreende os aspectos de ir, vir e estar nos logradouros públicos, opinião e expressão, crença e culto religioso, brincar, praticar esportes e divertir-se, e participar da vida política na forma da lei."
       }
     ],
     "correctAnswer": "D",
@@ -3781,15 +3781,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na nova certidão de nascimento do adotado deve constar averbação discreta indicando que a filiação decorre de adoção judicial."
+        "text": "Na nova certidão de nascimento do adotado deve constar averbação discreta indicando que a filiação decorre de adoção judicial, com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação."
       },
       {
         "letter": "C",
-        "text": "A inscrição dos nomes dos avós adotivos no novo assento de nascimento exige ação autônoma de retificação de registro civil após a adoção."
+        "text": "A inscrição dos nomes dos avós adotivos no novo assento de nascimento exige ação autônoma de retificação de registro civil após a adoção, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
-        "text": "A sentença constitutiva da adoção será inscrita no registro civil mediante mandado, cancelando-se o registro original do adotado; a modificação do prenome é admitida a pedido do adotante ou do adotando, sendo obrigatória a oitiva do adotando se este for maior de 12 anos, e proibida qualquer observação sobre a origem do ato nas certidões."
+        "text": "A sentença constitutiva da adoção será inscrita no registro civil mediante mandado, cancelando-se o registro original do adotado."
       }
     ],
     "correctAnswer": "D",
@@ -3832,11 +3832,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O divórcio ocorrido durante o estágio de convivência impede de forma absoluta a concessão da adoção conjunta, restando apenas adoção individual."
+        "text": "O divórcio ocorrido durante o estágio de convivência impede de forma absoluta a concessão da adoção conjunta, restando apenas adoção individual, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
-        "text": "Para ex-companheiros adotarem conjuntamente, basta que tenham vivido juntos por 6 meses no passado, mesmo que o estágio de convivência comece após a separação."
+        "text": "Para ex-companheiros adotarem conjuntamente, basta que tenham vivido juntos por 6 meses no passado, mesmo que o estágio de convivência comece após a separação. Tal competência delimita a atuação integrada da rede de garantia dos direitos infantojuvenis."
       },
       {
         "letter": "C",
@@ -3844,7 +3844,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Não se exige acordo sobre guarda e regime de visitas quando a adoção conjunta é requerida por divorciados."
+        "text": "Não se exige acordo sobre guarda e regime de visitas quando a adoção conjunta é requerida por divorciados, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "C",
@@ -3887,19 +3887,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É permitida a adoção por procuração pública com poderes específicos sempre que o adotante residir fora da comarca."
+        "text": "É permitida a adoção por procuração pública com poderes específicos sempre que o adotante residir fora da comarca, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "B",
-        "text": "Os tios do adotando também estão legalmente impedidos pelo Art. 42, § 1º, de adotarem seus sobrinhos."
+        "text": "Os tios do adotando também estão legalmente impedidos, de adotarem seus sobrinhos, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "Ambos os pedidos são juridicamente inviáveis no formato pretendido: é expressamente vedada a adoção por procuração e não podem adotar os ascendentes e os irmãos do adotando (cabendo à avó requerer tutela ou guarda, embora o STJ mitigue excepcionalmente a vedação em casos extremíssimos)."
+        "text": "Ambos os pedidos são juridicamente inviáveis no formato pretendido: é expressamente vedada a adoção por procuração e não podem adotar os ascendentes e os irmãos do adotando."
       },
       {
         "letter": "D",
-        "text": "Os avós possuem prioridade legal absoluta para adotar seus netos, bastando requerimento administrativo ao cartório."
+        "text": "Os avós possuem prioridade legal absoluta para adotar seus netos, bastando requerimento administrativo ao cartório, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "C",
@@ -3946,15 +3946,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Uma vez iniciado o estágio de convivência, a adoção já se torna irrevogável antes mesmo da sentença judicial."
+        "text": "Uma vez iniciado o estágio de convivência, a adoção já se torna irrevogável antes mesmo da sentença judicial, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "A desistência da guarda para fins de adoção durante o estágio de convivência gera a exclusão do cadastro de adoção e a vedação de renovação da habilitação, além de poder ensejar responsabilização civil por danos morais causados à criança caso evidenciada conduta culposa ou abusiva na devolução (STJ)."
+        "text": "A desistência da guarda para fins de adoção durante o estágio de convivência gera a exclusão do cadastro de adoção e a vedação de renovação da habilitação."
       },
       {
         "letter": "D",
-        "text": "A devolução da criança durante o estágio de convivência acarreta prisão preventiva automática dos pretendentes por abandono de incapaz."
+        "text": "A devolução da criança durante o estágio de convivência acarreta prisão preventiva automática dos pretendentes por abandono de incapaz, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "C",
@@ -3998,19 +3998,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A condenação penal do pai por crime contra a vida da mãe suspende o poder familiar apenas enquanto durar o cumprimento da pena em regime fechado."
+        "text": "A condenação penal do pai por crime contra a vida da mãe suspende o poder familiar apenas enquanto durar o cumprimento da pena em regime fechado, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "B",
-        "text": "A condenação criminal transitada em julgado gera automaticamente a perda do poder familiar como efeito extrapenal sem necessidade de processo cível ou declaração judicial."
+        "text": "A condenação criminal transitada em julgado gera automaticamente a perda do poder familiar como efeito extrapenal sem necessidade de processo cível ou declaração judicial, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "Perderá por ato judicial o poder familiar o pai ou a mãe que praticar contra outrem igualmente titular do mesmo poder familiar homicídio, feminicídio ou lesão corporal grave ou seguida de morte, quando se tratar de crime doloso envolvendo violência doméstica ou menosprezo à condição de mulher, bem como quem praticar tais crimes ou crimes contra a dignidade sexual contra filho ou descendente."
+        "text": "Perderá por ato judicial o poder familiar o pai ou a mãe que praticar contra outrem igualmente titular do mesmo poder familiar homicídio, feminicídio ou lesão corporal grave ou seguida de morte, quando se tratar de crime doloso envolvendo violência doméstica ou menosprezo à condição de mulher."
       },
       {
         "letter": "D",
-        "text": "O pai destituído do poder familiar fica igualmente exonerado da obrigação de pagar pensão alimentícia ao filho menor."
+        "text": "O pai destituído do poder familiar fica igualmente exonerado da obrigação de pagar pensão alimentícia ao filho menor, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "C",
@@ -4053,11 +4053,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Enquanto a criança estiver em abrigo custeado pelo Município, suspende-se a exigibilidade de pensão alimentícia devida pelos genitores."
+        "text": "Enquanto a criança estiver em abrigo custeado pelo Município, suspende-se a exigibilidade de pensão alimentícia devida pelos genitores, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
-        "text": "A Justiça da Infância e da Juventude é absolutamente incompetente para conhecer de pedidos de alimentos cumulados com guarda ou proteção de criança em risco."
+        "text": "A Justiça da Infância e da Juventude é absolutamente incompetente para conhecer de pedidos de alimentos cumulados com guarda ou proteção de criança em risco, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
@@ -4065,7 +4065,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O inadimplemento de alimentos devidos a adolescente maior de 16 anos não autoriza prisão civil, pois o ECA veda coerção patrimonial."
+        "text": "O inadimplemento de alimentos devidos a adolescente maior de 16 anos não autoriza prisão civil, pois o ECA veda coerção patrimonial. Tal competência delimita a atuação integrada da rede de garantia dos direitos infantojuvenis."
       }
     ],
     "correctAnswer": "C",
@@ -4108,19 +4108,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplica-se integralmente a contagem em dias úteis do CPC a todos os recursos cíveis e protetivos disciplinados no ECA."
+        "text": "Aplica-se integralmente a contagem em dias úteis do CPC a todos os recursos cíveis e protetivos disciplinados no ECA, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "B",
-        "text": "O Ministério Público e a Fazenda Pública mantêm o prazo em dobro para recorrer nas ações regidas pelo ECA."
+        "text": "O Ministério Público e a Fazenda Pública mantêm o prazo em dobro para recorrer nas ações regidas pelo ECA, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "C",
-        "text": "O recurso é intempestivo, pois nos termos do Art. 152, § 2º, do ECA, os prazos estabelecidos no Estatuto são aplicáveis a todos os procedimentos e são contados em dias corridos, excluído o dia do começo e incluído o dia do vencimento, vedado o prazo em dobro para Fazenda Pública e Ministério Público."
+        "text": "O recurso é intempestivo, pois os prazos estabelecidos no Estatuto são aplicáveis a todos os procedimentos e são contados em dias corridos, excluído o dia do começo e incluído o dia do vencimento, vedado o prazo em dobro para Fazenda Pública e Ministério Público."
       },
       {
         "letter": "D",
-        "text": "A contagem em dias corridos aplica-se apenas ao procedimento de apuração de ato infracional, não às ações de adoção e guarda."
+        "text": "A contagem em dias corridos aplica-se apenas ao procedimento de apuração de ato infracional, não às ações de adoção e guarda, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei."
       }
     ],
     "correctAnswer": "C",
@@ -4163,11 +4163,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A apelação no ECA segue o prazo de 15 dias úteis previsto no Código de Processo Civil e exige preparo prévio."
+        "text": "A apelação no ECA segue o prazo de 15 dias úteis previsto no Código de Processo Civil e exige preparo prévio, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
-        "text": "O agravo de instrumento no ECA possui prazo de 15 dias enquanto apenas a apelação observa prazo de 10 dias."
+        "text": "O agravo de instrumento no ECA possui prazo de 15 dias enquanto apenas a apelação observa prazo de 10 dias, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
@@ -4175,7 +4175,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Somente os recursos interpostos pelo Ministério Público ou pela Defensoria Pública são isentos de preparo no ECA."
+        "text": "Somente os recursos interpostos pelo Ministério Público ou pela Defensoria Pública são isentos de preparo no ECA, com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial."
       }
     ],
     "correctAnswer": "C",
@@ -4218,19 +4218,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O juízo de retratação é permitido apenas no recurso de agravo de instrumento, sendo vedado na apelação por força do princípio da preclusão consumativa."
+        "text": "O juízo de retratação é permitido apenas no recurso de agravo de instrumento, sendo vedado na apelação por força do princípio da preclusão consumativa, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei."
       },
       {
         "letter": "B",
-        "text": "A apelação interposta contra sentença que deferir adoção possui sempre efeito suspensivo automático por força de lei."
+        "text": "A apelação interposta contra sentença que deferir adoção possui sempre efeito suspensivo automático por força de lei, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       },
       {
         "letter": "C",
-        "text": "Houve vício procedimental, pois antes de determinar a remessa dos autos à superior instância, no caso de apelação ou de agravo, a autoridade judiciária proferirá despacho fundamentado, mantendo ou reformando a decisão recorrida no prazo de 5 dias (juízo de retratação obrigatório)."
+        "text": "Houve vício procedimental, pois antes de determinar a remessa dos autos à superior instância, no caso de apelação ou de agravo, a autoridade judiciária proferirá despacho fundamentado, mantendo ou reformando a decisão recorrida no prazo de 5 dias."
       },
       {
         "letter": "D",
-        "text": "A apelação contra sentença que destituir o poder familiar será recebida sempre no duplo efeito (devolutivo e suspensivo automático)."
+        "text": "A apelação contra sentença que destituir o poder familiar será recebida sempre no duplo efeito (devolutivo e suspensivo automático), com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       }
     ],
     "correctAnswer": "C",
@@ -4273,19 +4273,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas o Ministério Público possui legitimidade para ajuizar ações coletivas fundadas no Art. 208 do ECA."
+        "text": "Apenas o Ministério Público possui legitimidade para ajuizar ações coletivas fundadas, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
-        "text": "O rol do Art. 208 do ECA é taxativo, impedindo a proteção coletiva de direitos ligados à acessibilidade ou segurança alimentar não listados expressamente."
+        "text": "O rol é taxativo, impedindo a proteção coletiva de direitos ligados à acessibilidade ou segurança alimentar não listados expressamente, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "C",
-        "text": "A associação tem legitimidade ativa concorrente para propor ação de responsabilidade por ofensa aos direitos assegurados à criança e ao adolescente referentes ao não oferecimento ou oferta irregular de ensino, saúde, assistência social, creche e programas de atendimento, sendo o rol do Art. 208 meramente exemplificativo."
+        "text": "A associação tem legitimidade ativa concorrente para propor ação de responsabilidade por ofensa aos direitos assegurados à criança e ao adolescente referentes ao não oferecimento ou oferta irregular de ensino, saúde, assistência social, creche e programas de atendimento, sendo o rol meramente exemplificativo."
       },
       {
         "letter": "D",
-        "text": "A ação civil pública no ECA deve ser ajuizada obrigatoriamente na capital do Estado, independentemente do local do dano."
+        "text": "A ação civil pública no ECA deve ser ajuizada obrigatoriamente na capital do Estado, independentemente do local do dano, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "C",
@@ -4328,11 +4328,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As astreintes fixadas em ação coletiva do ECA revertem diretamente para a conta bancária particular dos pais da criança beneficiária."
+        "text": "As astreintes fixadas em ação coletiva do ECA revertem diretamente para a conta bancária particular dos pais da criança beneficiária, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "B",
-        "text": "Se a multa não for paga voluntariamente, o próprio Conselho Tutelar executa o título diretamente em cartório extrajudicial."
+        "text": "Se a multa não for paga voluntariamente, o próprio Conselho Tutelar executa o título diretamente em cartório extrajudicial, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "C",
@@ -4340,7 +4340,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Em caso de interposição de recurso pelo Município, o valor da multa cominatória já pode ser levantado e gasto imediatamente antes do trânsito em julgado."
+        "text": "Em caso de interposição de recurso pelo Município, o valor da multa cominatória já pode ser levantado e gasto imediatamente antes do trânsito em julgado, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       }
     ],
     "correctAnswer": "C",
@@ -4383,7 +4383,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As medidas socioeducativas de internação aplicadas em dois processos distintos somam-se integralmente, podendo o adolescente permanecer internado por até 6 anos."
+        "text": "As medidas socioeducativas de internação aplicadas em dois processos distintos somam-se integralmente, podendo o adolescente permanecer internado por até 6 anos, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "B",
@@ -4391,11 +4391,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "É obrigatório aplicar nova internação por ato infracional praticado antes do início da execução da medida anterior, ainda que já absorvido pelo mesmo contexto pedagógico."
+        "text": "É obrigatório aplicar nova internação por ato infracional praticado antes do início da execução da medida anterior, ainda que já absorvido pelo mesmo contexto pedagógico, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "D",
-        "text": "A unificação de medidas socioeducativas dispensa prévia manifestação do defensor do adolescente por se tratar de cálculo aritmético."
+        "text": "A unificação de medidas socioeducativas dispensa prévia manifestação do defensor do adolescente por se tratar de cálculo aritmético, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       }
     ],
     "correctAnswer": "B",
@@ -4438,7 +4438,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A visita íntima é terminantemente proibida a qualquer adolescente privado de liberdade no Brasil até completar 18 anos de idade."
+        "text": "A visita íntima é terminantemente proibida a qualquer adolescente privado de liberdade no Brasil até completar 18 anos de idade, em observância absoluta à proteção integral e ao melhor interesse da criança e do adolescente."
       },
       {
         "letter": "B",
@@ -4446,11 +4446,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Qualquer adolescente internado tem direito à visita íntima semanal com namorados eventuais independentemente de vínculo conjugal ou união estável."
+        "text": "Qualquer adolescente internado tem direito à visita íntima semanal com namorados eventuais independentemente de vínculo conjugal ou união estável, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       },
       {
         "letter": "D",
-        "text": "A concessão de visita íntima exige aprovação unânime dos pais dos demais internos da mesma ala."
+        "text": "A concessão de visita íntima exige aprovação unânime dos pais dos demais internos da mesma ala, com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       }
     ],
     "correctAnswer": "B",
@@ -4493,7 +4493,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As atividades pedagógicas são obrigatórias apenas na internação definitiva por sentença, dispensando-se na internação provisória de até 45 dias."
+        "text": "As atividades pedagógicas são obrigatórias apenas na internação definitiva por sentença, dispensando-se na internação provisória de até 45 dias, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "B",
@@ -4501,11 +4501,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A privação de liberdade no ECA suspende temporariamente o direito à educação básica até a progressão para liberdade assistida."
+        "text": "A privação de liberdade no ECA suspende temporariamente o direito à educação básica até a progressão para liberdade assistida, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
-        "text": "O adolescente internado que já concluiu o ensino fundamental não tem direito a cursar o ensino médio dentro da unidade."
+        "text": "O adolescente internado que já concluiu o ensino fundamental não tem direito a cursar o ensino médio dentro da unidade, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       }
     ],
     "correctAnswer": "B",
@@ -4548,7 +4548,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deve ser aplicada ao adolescente inimputável por transtorno mental a medida de segurança de internação em manicômio judiciário de adultos pelo prazo mínimo de 3 anos."
+        "text": "Deve ser aplicada ao adolescente inimputável por transtorno mental a medida de segurança de internação em manicômio judiciário de adultos pelo prazo mínimo de 3 anos, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "B",
@@ -4556,11 +4556,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O transtorno mental do adolescente não interfere na execução da internação comum em cela disciplinar, bastando medicação eventual."
+        "text": "O transtorno mental do adolescente não interfere na execução da internação comum em cela disciplinar, bastando medicação eventual, em observância absoluta à proteção integral e ao melhor interesse da criança e do adolescente."
       },
       {
         "letter": "D",
-        "text": "A avaliação da condição mental de adolescente internado dispensa decisão judicial, podendo ser decidida unilateralmente pelo agente socioeducativo."
+        "text": "A avaliação da condição mental de adolescente internado dispensa decisão judicial, podendo ser decidida unilateralmente pelo agente socioeducativo, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "B",
@@ -4603,19 +4603,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O diretor da unidade socioeducativa pode aplicar livremente isolamento disciplinar de até 30 dias sem ouvir o adolescente ou comunicar o juiz."
+        "text": "O diretor da unidade socioeducativa pode aplicar livremente isolamento disciplinar de até 30 dias sem ouvir o adolescente ou comunicar o juiz, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "B",
-        "text": "A sanção é ilegal, pois o regime disciplinar no SINASE exige processo administrativo que assegure prévia audiência do adolescente, defesa técnica e contraditório, sendo proibido o isolamento em qualquer hipótese como punição (salvo cautelar excepcionalíssima de proteção física imediata com comunicação imediata)."
+        "text": "A sanção é ilegal, pois o regime disciplinar no SINASE exige processo administrativo que assegure prévia audiência do adolescente, defesa técnica e contraditório, sendo proibido o isolamento em qualquer hipótese como punição."
       },
       {
         "letter": "C",
-        "text": "É lícita a aplicação de sanção disciplinar coletiva a todos os adolescentes do alojamento quando não se identificar o autor da falta."
+        "text": "É lícita a aplicação de sanção disciplinar coletiva a todos os adolescentes do alojamento quando não se identificar o autor da falta, com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei."
       },
       {
         "letter": "D",
-        "text": "A visita familiar do adolescente pode ser suspensa como castigo disciplinar por até seis meses em caso de fuga tentada."
+        "text": "A visita familiar do adolescente pode ser suspensa como castigo disciplinar por até seis meses em caso de fuga tentada, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "B",
@@ -4658,7 +4658,7 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O ato infracional cometido aos 16 anos gera reincidência penal automática caso o agente cometa crime aos 19 anos."
+        "text": "O ato infracional cometido aos 16 anos gera reincidência penal automática caso o agente cometa crime aos 19 anos, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
@@ -4666,11 +4666,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Qualquer cidadão ou empregador pode obter cópia integral do processo infracional de adolescente após este completar 18 anos."
+        "text": "Qualquer cidadão ou empregador pode obter cópia integral do processo infracional de adolescente após este completar 18 anos, com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação."
       },
       {
         "letter": "D",
-        "text": "A extinção da punibilidade do ato infracional exige ação autônoma de reabilitação criminal após dois anos do cumprimento."
+        "text": "A extinção da punibilidade do ato infracional exige ação autônoma de reabilitação criminal após dois anos do cumprimento, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       }
     ],
     "correctAnswer": "B",
@@ -4713,19 +4713,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O registro civil tardio de criança acolhida depende de pagamento de taxa administrativa estadual pelos abrigos municipais."
+        "text": "O registro civil tardio de criança acolhida depende de pagamento de taxa administrativa estadual pelos abrigos municipais, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "B",
-        "text": "As medidas de proteção previstas no Art. 101 poderão ser acompanhadas da regularização do registro civil, sendo a expedição do registro de nascimento e de óbito gratuita e isenta de multas, custas e emolumentos, incumbindo ao juiz requisitar as certidões e determinar o suprimento do assento se inexistente."
+        "text": "As medidas de proteção previstas poderão ser acompanhadas da regularização do registro civil, sendo a expedição do registro de nascimento e de óbito gratuita e isenta de multas, custas e emolumentos, incumbindo ao juiz requisitar as certidões e determinar o suprimento do assento se inexistente."
       },
       {
         "letter": "C",
-        "text": "O registro civil de criança sem pais identificados só pode ocorrer após o completamento de 18 anos de idade."
+        "text": "O registro civil de criança sem pais identificados só pode ocorrer após o completamento de 18 anos de idade, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "D",
-        "text": "Apenas o pai biológico pode requerer o registro civil tardio perante o juízo da infância."
+        "text": "Apenas o pai biológico pode requerer o registro civil tardio perante o juízo da infância, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "B",
@@ -4772,11 +4772,11 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A omissão viola dever expresso do Art. 10 do ECA e configura o crime do Art. 229 do ECA (deixar o médico, enfermeiro ou dirigente de estabelecimento de atenção à saúde de gestante de identificar corretamente o neonato e a parturiente, por ocasião do parto, bem como deixar de proceder aos exames neonatais do Art. 10, III)."
+        "text": "A omissão viola dever expresso e configura o crime."
       },
       {
         "letter": "C",
-        "text": "O crime do Art. 229 do ECA é punível exclusivamente na modalidade dolosa, não admitindo punição por culpa médica."
+        "text": "O crime é punível exclusivamente na modalidade dolosa, não admitindo punição por culpa médica."
       },
       {
         "letter": "D",
@@ -4823,19 +4823,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A proibição de venda de bilhetes lotéricos e fogos de artifício aplica-se apenas a crianças menores de 12 anos, sendo liberada aos maiores de 16."
+        "text": "A proibição de venda de bilhetes lotéricos e fogos de artifício aplica-se apenas a crianças menores de 12 anos, sendo liberada aos maiores de 16, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial."
       },
       {
         "letter": "B",
-        "text": "Todos esses itens integram o rol do Art. 81 do ECA, que proíbe a venda à criança ou ao adolescente de armas/munições/explosivos, bebidas alcoólicas, produtos cujos componentes possam causar dependência física ou psíquica, fogos de estampido/artifício (exceto os de reduzido potencial de dano), revistas pornográficas e bilhetes lotéricos e equivalentes."
+        "text": "Todos esses itens integram o rol, que proíbe a venda à criança ou ao adolescente de armas/munições/explosivos, bebidas alcoólicas, produtos cujos componentes possam causar dependência física ou psíquica, fogos de estampido/artifício, revistas pornográficas e bilhetes lotéricos e equivalentes."
       },
       {
         "letter": "C",
-        "text": "A venda de qualquer tipo de fogo de artifício, ainda que mero estalinho inofensivo incapaz de provocar dano físico, é absolutamente proibida pelo Art. 81, IV."
+        "text": "A venda de qualquer tipo de fogo de artifício, ainda que mero estalinho inofensivo incapaz de provocar dano físico, é absolutamente proibida. Tal competência delimita a atuação integrada da rede de garantia dos direitos infantojuvenis."
       },
       {
         "letter": "D",
-        "text": "O Art. 81 permite a venda de bebidas alcoólicas a adolescentes de 17 anos desde que consumidas fora do estabelecimento comercial."
+        "text": "A legislação aplicável permite a venda de bebidas alcoólicas a adolescentes de 17 anos desde que consumidas fora do estabelecimento comercial, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "B",
@@ -4878,19 +4878,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O fornecimento gratuito de bebida alcoólica a adolescente configura apenas infração administrativa de multa, só havendo crime se houver venda onerosa."
+        "text": "O fornecimento gratuito de bebida alcoólica a adolescente configura apenas infração administrativa de multa, só havendo crime se houver venda onerosa, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "B",
-        "text": "Configura-se o crime previsto no Art. 243 do ECA (detenção de 2 a 4 anos e multa), que pune vender, fornecer, servir, ministrar ou entregar, ainda que gratuitamente, bebida alcoólica ou outros produtos que possam causar dependência física ou psíquica a criança ou adolescente, tratando-se de crime formal."
+        "text": "Configura-se o crime, que pune vender, fornecer, servir, ministrar ou entregar, ainda que gratuitamente, bebida alcoólica ou outros produtos que possam causar dependência física ou psíquica a criança ou adolescente, tratando-se de crime formal."
       },
       {
         "letter": "C",
-        "text": "Para a consumação do crime do Art. 243 exige-se comprovação pericial de embriaguez efetiva do adolescente."
+        "text": "Para a consumação do crime exige-se comprovação pericial de embriaguez efetiva do adolescente, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "D",
-        "text": "O fato configura apenas a contravenção penal prevista no Art. 63 da Lei das Contravenções Penais."
+        "text": "O fato configura apenas a contravenção penal da Lei das Contravenções Penais, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       }
     ],
     "correctAnswer": "B",
@@ -4933,19 +4933,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O agente maior responde pelo crime de roubo em concurso formal com o crime de corrupção de menores (Art. 244-B do ECA), pois nos termos da Súmula 500 do STJ a configuração do crime independe da prova da efetiva corrupção do menor, por se tratar de delito formal."
+        "text": "O agente maior responde pelo crime de roubo em concurso formal com o crime de corrupção de menores, pois a configuração do crime independe da prova da efetiva corrupção do menor, por se tratar de delito formal."
       },
       {
         "letter": "B",
-        "text": "Não se configura o crime de corrupção de menores se o adolescente já possuía extenso histórico infracional anterior, pois já estava previamente corrompido."
+        "text": "Não se configura o crime de corrupção de menores se o adolescente já possuía extenso histórico infracional anterior, pois já estava previamente corrompido. Tal competência delimita a atuação integrada da rede de garantia dos direitos infantojuvenis."
       },
       {
         "letter": "C",
-        "text": "O crime de corrupção de menores fica automaticamente absorvido pelo crime patrimonial praticado em coautoria."
+        "text": "O crime de corrupção de menores fica automaticamente absorvido pelo crime patrimonial praticado em coautoria, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "D",
-        "text": "A corrupção de menores tipifica-se apenas quando o adolescente tem menos de 14 anos de idade."
+        "text": "A corrupção de menores tipifica-se apenas quando o adolescente tem menos de 14 anos de idade, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido. A medida deve respeitar o princípio da proporcionalidade e a condição de pessoa em formação."
       }
     ],
     "correctAnswer": "A",
@@ -4989,19 +4989,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O simples armazenamento/posse de material pornográfico infantojuvenil configura o crime do Art. 241-B (reclusão de 1 a 4 anos), e a adulteração/montagem de fotografia ou vídeo para simular a participação de criança ou adolescente em cena pornográfica configura o crime específico do Art. 241-C."
+        "text": "O simples armazenamento/posse de material pornográfico infantojuvenil configura o crime, e a adulteração/montagem de fotografia ou vídeo para simular a participação de criança ou adolescente em cena pornográfica configura o crime específico."
       },
       {
         "letter": "B",
-        "text": "A mera posse ou armazenamento privado em computador pessoal sem compartilhamento com terceiros é fato atípico por ausência de ofensividade social."
+        "text": "A mera posse ou armazenamento privado em computador pessoal sem compartilhamento com terceiros é fato atípico por ausência de ofensividade social, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "A montagem digital que insere rosto de criança em cena pornográfica adulta não é crime no ECA porque não houve abuso sexual físico real daquela criança."
+        "text": "A montagem digital que insere rosto de criança em cena pornográfica adulta não é crime no ECA porque não houve abuso sexual físico real daquela criança. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "D",
-        "text": "Os crimes dos Arts. 241-A e 241-B são de ação penal pública condicionada à representação dos pais da vítima."
+        "text": "Os crimes dos Arts. 241-A e 241-B são de ação penal pública condicionada à representação dos pais da vítima, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "A",
@@ -5044,19 +5044,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Configura-se o crime previsto no Art. 241-D do ECA (aliciar, assediar, instigar ou constranger, por qualquer meio de comunicação, criança, com o fim de com ela praticar ato libidinoso), apenado com reclusão de 1 a 3 anos e multa."
+        "text": "Configura-se o crime (aliciar, assediar, instigar ou constranger, por qualquer meio de comunicação, criança, com o fim de com ela praticar ato libidinoso), apenado com reclusão de 1 a 3 anos e multa."
       },
       {
         "letter": "B",
-        "text": "O fato configura crime apenas se a vítima for adolescente de até 16 anos, não abrangendo o ambiente virtual."
+        "text": "O fato configura crime apenas se a vítima for adolescente de até 16 anos, não abrangendo o ambiente virtual, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "C",
-        "text": "Se a criança não aceitar o encontro presencial, a conduta permanece como mero ato preparatório impunível."
+        "text": "Se a criança não aceitar o encontro presencial, a conduta permanece como mero ato preparatório impunível, em observância absoluta à proteção integral e ao melhor interesse da criança e do adolescente."
       },
       {
         "letter": "D",
-        "text": "Nas mesmas penas do Art. 241-D incorre apenas quem consegue gravar vídeo pornográfico da criança."
+        "text": "Nas mesmas penas incorre apenas quem consegue gravar vídeo pornográfico da criança, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "A",
@@ -5099,19 +5099,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A conduta configura o crime do Art. 232 do ECA (submeter criança ou adolescente sob sua autoridade, guarda ou vigilância a vexame ou a constrangimento), com pena de detenção de 6 meses a 2 anos."
+        "text": "A conduta configura o crime (submeter criança ou adolescente sob sua autoridade, guarda ou vigilância a vexame ou a constrangimento), com pena de detenção de 6 meses a 2 anos."
       },
       {
         "letter": "B",
-        "text": "Trata-se de mera infração administrativa de multa aplicável ao estabelecimento comercial, inexistindo tipo penal específico no ECA."
+        "text": "Trata-se de mera infração administrativa de multa aplicável ao estabelecimento comercial, inexistindo tipo penal específico no ECA, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       },
       {
         "letter": "C",
-        "text": "Se o adolescente efetivamente tentou furtar uma mercadoria, o exercício regular de direito afasta o crime do Art. 232 mesmo com a exposição humilhante."
+        "text": "Se o adolescente efetivamente tentou furtar uma mercadoria, o exercício regular de direito afasta o crime mesmo com a exposição humilhante, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
-        "text": "O crime do Art. 232 exige a aplicação de violência física grave para se consumar."
+        "text": "O crime exige a aplicação de violência física grave para se consumar, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida."
       }
     ],
     "correctAnswer": "A",
@@ -5154,19 +5154,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A omissão dolosa da autoridade policial configura o crime do Art. 231 do ECA (detenção de 6 meses a 2 anos), e a submissão de criança ou adolescente à prostituição ou à exploração sexual configura o crime hediondo do Art. 244-A do ECA (reclusão de 4 a 10 anos e multa)."
+        "text": "A omissão dolosa da autoridade policial configura o crime, e a submissão de criança ou adolescente à prostituição ou à exploração sexual configura o crime hediondo."
       },
       {
         "letter": "B",
-        "text": "A omissão na comunicação da apreensão configura apenas falta funcional disciplinar sem repercussão penal no ECA."
+        "text": "A omissão na comunicação da apreensão configura apenas falta funcional disciplinar sem repercussão penal no ECA, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "C",
-        "text": "O crime de submeter adolescente à exploração sexual (Art. 244-A) não é considerado crime hediondo pela Lei nº 8.072/1990."
+        "text": "O crime de submeter adolescente à exploração sexual não é considerado crime hediondo pela Lei nº 8.072/1990, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "D",
-        "text": "No crime do Art. 244-A, o proprietário do estabelecimento onde ocorra a exploração sexual responde apenas por multa civil, nunca pelos efeitos da condenação penal."
+        "text": "No crime, o proprietário do estabelecimento onde ocorra a exploração sexual responde apenas por multa civil, nunca pelos efeitos da condenação penal."
       }
     ],
     "correctAnswer": "A",
@@ -5209,19 +5209,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A conduta configura infração administrativa tipificada no Art. 245 do ECA (sujeita a multa de 3 a 20 salários de referência, aplicada em dobro em caso de reincidência), pois basta a mera suspeita ou confirmação de maus-tratos para tornar obrigatória a comunicação ao Conselho Tutelar."
+        "text": "A conduta configura infração administrativa tipificada, pois basta a mera suspeita ou confirmação de maus-tratos para tornar obrigatória a comunicação ao Conselho Tutelar."
       },
       {
         "letter": "B",
-        "text": "Os profissionais de saúde e educação só têm obrigação legal de comunicar ao Conselho Tutelar após obterem laudo pericial definitivo que comprove lesão grave."
+        "text": "Os profissionais de saúde e educação só têm obrigação legal de comunicar ao Conselho Tutelar após obterem laudo pericial definitivo que comprove lesão grave, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "A omissão de comunicação de maus-tratos pelo médico ou professor constitui crime hediondo punido com reclusão de 2 a 5 anos no ECA."
+        "text": "A omissão de comunicação de maus-tratos pelo médico ou professor constitui crime hediondo punido com reclusão de 2 a 5 anos no ECA, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
-        "text": "Os dirigentes de estabelecimentos de ensino fundamental são obrigados a comunicar ao Conselho Tutelar apenas faltas escolares, não casos de maus-tratos."
+        "text": "Os dirigentes de estabelecimentos de ensino fundamental são obrigados a comunicar ao Conselho Tutelar apenas faltas escolares, não casos de maus-tratos, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial."
       }
     ],
     "correctAnswer": "A",
@@ -5268,15 +5268,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A criança vítima deve ser ouvida pelo mesmo rito comum de testemunha adulta em respeito à ampla defesa irrestrita do acusado."
+        "text": "A criança vítima deve ser ouvida pelo mesmo rito comum de testemunha adulta em respeito à ampla defesa irrestrita do acusado, com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial."
       },
       {
         "letter": "C",
-        "text": "A escuta especializada e o depoimento especial são sinônimos perfeitos realizados ambos exclusivamente pelo delegado na delegacia."
+        "text": "A escuta especializada e o depoimento especial são sinônimos perfeitos realizados ambos exclusivamente pelo delegado na delegacia, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal."
       },
       {
         "letter": "D",
-        "text": "O depoimento especial deve ser repetido obrigatoriamente ao menos três vezes durante o processo para testar a coerência da memória infantil."
+        "text": "O depoimento especial deve ser repetido obrigatoriamente ao menos três vezes durante o processo para testar a coerência da memória infantil, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       }
     ],
     "correctAnswer": "A",
@@ -5319,19 +5319,19 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Conselho Tutelar agiu dentro de suas atribuições legais, pois o Art. 136 do ECA lhe confere poder de requisitar serviços públicos nas áreas de saúde, educação, serviço social, previdência, trabalho e segurança, bem como requisitar certidões de nascimento e de óbito de criança ou adolescente quando necessário."
+        "text": "O Conselho Tutelar agiu dentro de suas atribuições legais, pois o Art. 136 do ECA lhe confere poder de requisitar serviços públicos nas áreas de saúde, educação, serviço social, previdência, trabalho e segurança."
       },
       {
         "letter": "B",
-        "text": "O Conselho Tutelar pode apenas emitir ofícios consultivos não vinculantes, devendo ajuizar mandado de segurança antes de requisitar vaga de saúde ou certidão."
+        "text": "O Conselho Tutelar pode apenas emitir ofícios consultivos não vinculantes, devendo ajuizar mandado de segurança antes de requisitar vaga de saúde ou certidão, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial."
       },
       {
         "letter": "C",
-        "text": "O Conselho Tutelar detém poder para requisitar busca e apreensão policial de criança dentro de residência fechada sem mandado judicial."
+        "text": "O Conselho Tutelar detém poder para requisitar busca e apreensão policial de criança dentro de residência fechada sem mandado judicial, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       },
       {
         "letter": "D",
-        "text": "O Conselho Tutelar possui atribuição legal para determinar a instauração de inquérito policial e ofertar denúncia em crimes contra crianças."
+        "text": "O Conselho Tutelar possui atribuição legal para determinar a instauração de inquérito policial e ofertar denúncia em crimes contra crianças, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento."
       }
     ],
     "correctAnswer": "A",
@@ -5378,15 +5378,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O prazo para contestação na ação de destituição do poder familiar é de 15 dias úteis, e o processo pode tramitar sem prazo legal definido."
+        "text": "O prazo para contestação na ação de destituição do poder familiar é de 15 dias úteis, e o processo pode tramitar sem prazo legal definido, sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional."
       },
       {
         "letter": "C",
-        "text": "Se os pais estiverem presos ou recolhidos em presídio, dispensa-se a citação pessoal, realizando-se diretamente a citação por edital."
+        "text": "Se os pais estiverem presos ou recolhidos em presídio, dispensa-se a citação pessoal, realizando-se diretamente a citação por edital. Tal competência delimita a atuação integrada da rede de garantia dos direitos infantojuvenis."
       },
       {
         "letter": "D",
-        "text": "Na ação de destituição do poder familiar, é proibido decretar liminarmente a suspensão provisória do poder familiar mesmo diante de grave motivo."
+        "text": "Na ação de destituição do poder familiar, é proibido decretar liminarmente a suspensão provisória do poder familiar mesmo diante de grave motivo, considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido."
       }
     ],
     "correctAnswer": "A",
@@ -5433,15 +5433,15 @@ export const ECA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A prioridade absoluta limita-se à preferência de atendimento nas filas de hospitais públicos, não gerando obrigação vinculante na elaboração das leis orçamentárias."
+        "text": "A prioridade absoluta limita-se à preferência de atendimento nas filas de hospitais públicos, não gerando obrigação vinculante na elaboração das leis orçamentárias, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário."
       },
       {
         "letter": "C",
-        "text": "Em caso de conflito direto de atendimento emergencial entre adulto jovem e criança, prevalece a ordem cronológica de chegada ao posto médico."
+        "text": "Em caso de conflito direto de atendimento emergencial entre adulto jovem e criança, prevalece a ordem cronológica de chegada ao posto médico, sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas."
       },
       {
         "letter": "D",
-        "text": "A prioridade absoluta é princípio exclusivo dos conselhos municipais, não vinculando a iniciativa privada prestadora de serviços públicos concedidos."
+        "text": "A prioridade absoluta é princípio exclusivo dos conselhos municipais, não vinculando a iniciativa privada prestadora de serviços públicos concedidos, com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial."
       }
     ],
     "correctAnswer": "A",

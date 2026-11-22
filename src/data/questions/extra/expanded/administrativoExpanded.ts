@@ -17,19 +17,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Administração pode anular atos ilegais a qualquer tempo, pois atos nulos jamais se consolidam pelo decurso do prazo."
+        "text": "A Administração pode anular atos ilegais a qualquer tempo, pois atos nulos jamais se consolidam pelo decurso do prazo. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "A revogação de ato administrativo válido e discricionário por conveniência e oportunidade gera efeitos retroativos (ex tunc) idênticos aos da anulação."
+        "text": "A revogação de ato administrativo válido e discricionário por conveniência e oportunidade gera efeitos retroativos (ex tunc) idênticos aos da anulação, com amparo na autoexecutoriedade e na presunção de legitimidade inerentes aos atos administrativos."
       },
       {
         "letter": "C",
-        "text": "Não respeitou, pois embora a Administração possa anular seus próprios atos quando eivados de vícios que os tornam ilegais (Súmula 473 STF), o direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em CINCO ANOS contados da data em que foram praticados, salvo comprovada má-fé (Art. 54 da Lei 9.784/99), exigindo-se ainda prévio contraditório e ampla defesa."
+        "text": "Não respeitou, pois embora a Administração possa anular seus próprios atos quando eivados de vícios que os tornam ilegais, o direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos contados da data em que foram praticados, salvo comprovada má-fé, exigindo-se ainda prévio contraditório e ampla defesa."
       },
       {
         "letter": "D",
-        "text": "O Poder Judiciário pode revogar livremente atos administrativos discricionários válidos quando discordar da política pública adotada pelo prefeito."
+        "text": "O Poder Judiciário pode revogar livremente atos administrativos discricionários válidos quando discordar da política pública adotada pelo prefeito, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público."
       }
     ],
     "correctAnswer": "C",
@@ -81,7 +81,7 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Incidem a Teoria dos Motivos Determinantes (os motivos declarados vinculam a validade do ato administrativo; se falsos ou inexistentes, o ato é nulo, mesmo sendo discricionário) e o Desvio de Poder/Finalidade (vício no elemento FINALIDADE ao perseguir inimigo em afronta ao interesse público e à impessoalidade), ambos INSUSCETÍVEIS de convalidação."
+        "text": "Incidem a Teoria dos Motivos Determinantes e o Desvio de Poder/Finalidade, ambos insuscetíveis de convalidação."
       },
       {
         "letter": "D",
@@ -128,19 +128,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Prospera, pois a ampla defesa constitucional exige obrigatoriamente a presença de advogado ou defensor dativo em qualquer sindicância ou PAD."
+        "text": "Prospera, pois a ampla defesa constitucional exige obrigatoriamente a presença de advogado ou defensor dativo em qualquer sindicância ou pad. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "B",
-        "text": "O poder disciplinar da Administração Pública permite punir apenas seus próprios servidores estatutários, jamais atingindo particulares contratados ou alunos de escola pública."
+        "text": "O poder disciplinar da Administração Pública permite punir apenas seus próprios servidores estatutários, jamais atingindo particulares contratados ou alunos de escola pública, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "C",
-        "text": "Não prospera, pois nos termos da Súmula Vinculante 5 do STF, a falta de defesa técnica por advogado no processo administrativo disciplinar NÃO ofende a Constituição, desde que assegurada a oportunidade real de contraditório e ampla defesa ao acusado."
+        "text": "Não prospera, pois a falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição, desde que assegurada a oportunidade real de contraditório e ampla defesa ao acusado."
       },
       {
         "letter": "D",
-        "text": "A avocação de competência pelo superior hierárquico pode ocorrer sobre qualquer matéria, inclusive aquelas atribuídas por lei como de competência exclusiva do órgão inferior."
+        "text": "A avocação de competência pelo superior hierárquico pode ocorrer sobre qualquer matéria, inclusive aquelas atribuídas por lei como de competência exclusiva do órgão inferior, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       }
     ],
     "correctAnswer": "C",
@@ -184,19 +184,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não é constitucional, porque apenas os atos meramente materiais de consentimento e fiscalização podem ser delegados a empresas estatais, jamais a aplicação de sanções."
+        "text": "Não é constitucional, porque apenas os atos meramente materiais de consentimento e fiscalização podem ser delegados a empresas estatais, jamais a aplicação de sanções. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "B",
-        "text": "A ação punitiva da Administração Pública Federal no exercício do poder de polícia prescreve em 10 anos contados da prática do ato."
+        "text": "A ação punitiva da Administração Pública Federal no exercício do poder de polícia prescreve em 10 anos contados da prática do ato, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "Sim, conforme tese de repercussão geral do STF (Tema 532 / RE 633.782), é constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública INDIRETA (como empresas públicas e sociedades de economia mista) de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial — exceto quanto à fase de LEGISLAÇÃO/ordem normativa."
+        "text": "Sim, pois é constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial."
       },
       {
         "letter": "D",
-        "text": "O poder de polícia municipal de fiscalização de estabelecimentos pode ser delegado por contrato de concessão a empresa privada pura vencedora de licitação."
+        "text": "O poder de polícia municipal de fiscalização de estabelecimentos pode ser delegado por contrato de concessão a empresa privada pura vencedora de licitação, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       }
     ],
     "correctAnswer": "C",
@@ -240,19 +240,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todas as entidades da Administração Indireta exigem lei complementar para criação direta da sua personalidade jurídica."
+        "text": "Todas as entidades da Administração Indireta exigem lei complementar para criação direta da sua personalidade jurídica, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "B",
-        "text": "A sociedade de economia mista pode adotar qualquer forma societária prevista no Código Civil, inclusive sociedade limitada, e possui foro obrigatório na Justiça Federal quando federal."
+        "text": "A sociedade de economia mista pode adotar qualquer forma societária prevista no Código Civil, inclusive sociedade limitada, e possui foro obrigatório na Justiça Federal quando federal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "C",
-        "text": "A criação de autarquia faz-se diretamente por LEI ESPECÍFICA (personalidade jurídica nasce com a vigência da lei); já a empresa pública, a sociedade de economia mista e a fundação pública têm sua instituição AUTORIZADA por lei específica (adquirindo personalidade jurídica apenas com o registro dos atos constitutivos no cartório/Junta Comercial), dependendo de autorização legislativa também a criação de subsidiárias (que o STF admite constar genericamente na própria lei criadora da matriz)."
+        "text": "A criação de autarquia faz-se diretamente por lei específica; já a empresa pública, a sociedade de economia mista e a fundação pública têm sua instituição autorizada por lei específica, dependendo de autorização legislativa também a criação de subsidiárias."
       },
       {
         "letter": "D",
-        "text": "As empresas públicas e sociedades de economia mista podem contratar todos os seus empregados livremente sem concurso público por seguirem regime celetista."
+        "text": "As empresas públicas e sociedades de economia mista podem contratar todos os seus empregados livremente sem concurso público por seguirem regime celetista, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "C",
@@ -296,7 +296,7 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Extinto o cargo do servidor estável, ele fica em disponibilidade com remuneração INTEGRAL até a aposentadoria compulsória."
+        "text": "Extinto o cargo do servidor estável, ele fica em disponibilidade com remuneração integral até a aposentadoria compulsória, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "B",
@@ -304,11 +304,11 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Com 3 anos de efetivo exercício e aprovação na avaliação especial de desempenho por comissão instituída para essa finalidade, adquiriu ESTABILIDADE (Art. 41, caput e § 4º); extinto o cargo, fica em DISPONIBILIDADE com remuneração PROPORCIONAL ao tempo de serviço até adequado APROVEITAMENTO em outro cargo (Art. 41, § 3º); e invalidada a demissão do outro servidor, ele será REINTEGRADO, e o eventual ocupante da vaga (se estável) será reconduzido ao cargo de origem (sem direito a indenização), aproveitado em outro cargo ou posto em disponibilidade (§ 2º)."
+        "text": "Com 3 anos de efetivo exercício e aprovação na avaliação especial de desempenho por comissão instituída para essa finalidade, adquiriu estabilidade."
       },
       {
         "letter": "D",
-        "text": "O servidor estável só pode perder o cargo em virtude de sentença judicial transitada em julgado."
+        "text": "O servidor estável só pode perder o cargo em virtude de sentença judicial transitada em julgado, mediante exercício regular do poder discricionário vinculado à finalidade administrativa primária."
       }
     ],
     "correctAnswer": "C",
@@ -359,7 +359,7 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O candidato aprovado DENTRO do número de vagas do edital possui direito SUBJETIVO à nomeação (Tema 161 STF — salvo situações excepcionalíssimas supervenientes, imprevisíveis, graves e necessárias); já o aprovado em CADASTRO DE RESERVA adquire direito subjetivo à nomeação se surgirem novas vagas ou houver preterição arbitrária e imotivada por contratação precária equivalente durante a validade do concurso (Tema 784 STF)."
+        "text": "O candidato aprovado dentro do número de vagas do edital possui direito subjetivo à nomeação."
       },
       {
         "letter": "D",
@@ -411,15 +411,15 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na Lei nº 14.133/2021, a definição entre Pregão e Concorrência continua baseada exclusivamente no valor estimado da contratação em reais."
+        "text": "Na Lei nº 14.133/2021, a definição entre Pregão e Concorrência continua baseada exclusivamente no valor estimado da contratação em reais, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "As cinco modalidades da Lei nº 14.133/2021 são: PREGÃO, CONCORRÊNCIA, CONCURSO, LEILÃO e DIÁLOGO COMPETITIVO; nesta última, a Administração realiza diálogos com licitantes previamente selecionados por critérios objetivos visando desenvolver alternativas capazes de atender suas necessidades, apresentando depois os licitantes proposta final em fase competitiva."
+        "text": "As cinco modalidades da Lei nº 14.133/2021 são: Pregão, concorrência, concurso, leilão e diálogo competitivo."
       },
       {
         "letter": "D",
-        "text": "A etapa de habilitação dos licitantes ocorre sempre ANTES do julgamento das propostas na Lei nº 14.133/2021, sem inversão."
+        "text": "A etapa de habilitação dos licitantes ocorre sempre antes do julgamento das propostas na Lei nº 14.133/2021, sem inversão, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       }
     ],
     "correctAnswer": "C",
@@ -462,19 +462,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A contratação de serviço técnico especializado de notória especialização ou de artista consagrado configura dispensa de licitação por baixo risco."
+        "text": "A contratação de serviço técnico especializado de notória especialização ou de artista consagrado configura dispensa de licitação por baixo risco, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "B",
-        "text": "O rol de hipóteses de dispensa de licitação previsto no Art. 75 da Lei 14.133/2021 é meramente exemplificativo, permitindo criar novos casos por decreto municipal."
+        "text": "O rol de hipóteses de dispensa de licitação é meramente exemplificativo, permitindo criar novos casos por decreto municipal, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "Os casos (1) fornecedor exclusivo e (3) contratação de profissional do setor artístico consagrado pela crítica ou opinião pública configuram INEXIGIBILIDADE de licitação (Art. 74, I e II — rol exemplificativo por inviabilidade de competição); já o caso (2) contratação de pequeno valor configura DISPENSA de licitação (Art. 75, I ou II — rol taxativo em que a competição é possível, mas dispensada por lei)."
+        "text": "Os casos fornecedor exclusivo e contratação de profissional do setor artístico consagrado pela crítica ou opinião pública configuram inexigibilidade de licitação."
       },
       {
         "letter": "D",
-        "text": "Na dispensa emergencial prevista no Art. 75, VIII, da Lei 14.133/2021, o contrato pode durar até 5 anos prorrogáveis."
+        "text": "Na dispensa emergencial, o contrato pode durar até 5 anos prorrogáveis, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       }
     ],
     "correctAnswer": "C",
@@ -517,19 +517,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O contratado precisa aguardar 90 dias de atraso nos pagamentos pela Administração para poder suspender a execução ou pedir extinção na Lei 14.133/2021."
+        "text": "O contratado precisa aguardar 90 dias de atraso nos pagamentos pela Administração para poder suspender a execução ou pedir extinção na Lei 14.133/2021, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "B",
-        "text": "A alteração unilateral quantitativa para acréscimos ou supressões em obras, serviços ou compras limita-se a 25% do valor inicial atualizado (e até 50% para acréscimos em reforma de edifício ou equipamento — Art. 125), logo 20% é válido com restabelecimento do equilíbrio econômico-financeiro; já quanto ao atraso de pagamento, na Lei nº 14.133/2021 (Art. 137, § 2º, IV), o contratado tem direito à extinção ou suspensão contratual quando o atraso for superior a DOIS MESES (60 dias, diferente dos antigos 90 dias da Lei 8.666/93)!"
+        "text": "A alteração unilateral quantitativa para acréscimos ou supressões em obras, serviços ou compras limita-se a 25% do valor inicial atualizado, logo 20% é válido com restabelecimento do equilíbrio econômico-financeiro."
       },
       {
         "letter": "C",
-        "text": "As supressões unilaterais impostas pela Administração em obras podem atingir até 50% do valor inicial atualizado sem concordância do contratado."
+        "text": "As supressões unilaterais impostas pela Administração em obras podem atingir até 50% do valor inicial atualizado sem concordância do contratado, com amparo na autoexecutoriedade e na presunção de legitimidade inerentes aos atos administrativos."
       },
       {
         "letter": "D",
-        "text": "A Administração pode alterar unilateralmente até mesmo as cláusulas econômico-financeiras (reduzir a margem de lucro do contratado) por força da supremacia do interesse público."
+        "text": "A Administração pode alterar unilateralmente até mesmo as cláusulas econômico-financeiras (reduzir a margem de lucro do contratado) por força da supremacia do interesse público, sem necessidade de prévia autorização judicial ou instauração de procedimento contraditório específico."
       }
     ],
     "correctAnswer": "B",
@@ -572,19 +572,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A encampação independe de lei autorizativa específica, bastando decreto motivado do chefe do Poder Executivo."
+        "text": "A encampação independe de lei autorizativa específica, bastando decreto motivado do chefe do Poder Executivo, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "B",
-        "text": "A extinção por inexecução contratual culposa da concessionária é a CADUCIDADE (Art. 38 — exige comunicação prévia dos descumprimentos com prazo para correção e instauração de PAD, sem exigência de lei autorizativa nem indenização prévia); já a retomada coativa por interesse público durante o contrato sem culpa da concessionária é a ENCAMPAÇÃO (Art. 37 — exige LEI autorizativa específica E prévio pagamento da indenização)."
+        "text": "A extinção por inexecução contratual culposa da concessionária é a caducidade; já a retomada coativa por interesse público durante o contrato sem culpa da concessionária é a encampação."
       },
       {
         "letter": "C",
-        "text": "Na caducidade por culpa da concessionária, o poder concedente deve indenizar previamente todos os lucros cessantes futuros até o fim do prazo da concessão."
+        "text": "Na caducidade por culpa da concessionária, o poder concedente deve indenizar previamente todos os lucros cessantes futuros até o fim do prazo da concessão, mediante exercício regular do poder discricionário vinculado à finalidade administrativa primária."
       },
       {
         "letter": "D",
-        "text": "A permissão de serviço público, por ser delegada a título precário, dispensa licitação prévia segundo o Art. 175 da Constituição."
+        "text": "A permissão de serviço público, por ser delegada a título precário, dispensa licitação prévia segundo o Art. 175 da Constituição. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       }
     ],
     "correctAnswer": "B",
@@ -627,19 +627,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Permanece plenamente punível a improbidade administrativa culposa no Art. 10 quando houver grave lesão financeira ao erário público."
+        "text": "Permanece plenamente punível a improbidade administrativa culposa quando houver grave lesão financeira ao erário público, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "B",
-        "text": "A Lei nº 14.230/2021 extinguiu a modalidade culposa de improbidade administrativa, exigindo sempre DOLO ESPECÍFICO (vontade livre e consciente de alcançar o resultado ilícito tipificado — Art. 1º, §§ 1º e 2º), aplicando-se retroativamente a processos em curso não transitados em julgado (Tema 1199 STF); ademais, o rol do Art. 11 (violação a princípios) passou a ser TAXATIVO."
+        "text": "A Lei nº 14.230/2021 extinguiu a modalidade culposa de improbidade administrativa, exigindo sempre dolo específico, aplicando-se retroativamente a processos em curso não transitados em julgado."
       },
       {
         "letter": "C",
-        "text": "O prazo prescricional da ação de improbidade administrativa permanece vinculado ao fim do mandato eletivo, em 5 anos após a saída do cargo."
+        "text": "O prazo prescricional da ação de improbidade administrativa permanece vinculado ao fim do mandato eletivo, em 5 anos após a saída do cargo, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "D",
-        "text": "O Ministério Público detém legitimidade exclusiva e absoluta para propor ação de improbidade, ficando proibidos os entes públicos lesados de ajuizá-la."
+        "text": "O Ministério Público detém legitimidade exclusiva e absoluta para propor ação de improbidade, ficando proibidos os entes públicos lesados de ajuizá-la, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "B",
@@ -683,19 +683,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em qualquer caso de morte ou suicídio de preso dentro de estabelecimento prisional, o Estado responde por responsabilidade estritamente subjetiva com prova de culpa do diretor."
+        "text": "Em qualquer caso de morte ou suicídio de preso dentro de estabelecimento prisional, o Estado responde por responsabilidade estritamente subjetiva com prova de culpa do diretor, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "B",
-        "text": "No caso do detento sob custódia estatal, aplica-se a responsabilidade civil OBJETIVA do Estado (Tema 592 STF — dever específico de guarda/proteção, salvo se comprovada impossibilidade absoluta de evitar a morte); no caso da viatura, a vítima deve acionar APENAS a pessoa jurídica estatal (tese da dupla garantia — Tema 940 STF), sendo ilegítimo acionar diretamente o servidor público causador do dano (que só responde em ação regressiva posterior do Estado se houver dolo ou culpa)."
+        "text": "No caso do detento sob custódia estatal, aplica-se a responsabilidade civil objetiva do Estado; no caso da viatura, a vítima deve acionar apenas a pessoa jurídica estatal, sendo ilegítimo acionar diretamente o servidor público causador do dano."
       },
       {
         "letter": "C",
-        "text": "A vítima de acidente causado por agente público no exercício da função pode escolher livremente processar diretamente apenas o servidor público ou incluí-lo em litisconsórcio passivo com o Estado."
+        "text": "A vítima de acidente causado por agente público no exercício da função pode escolher livremente processar diretamente apenas o servidor público ou incluí-lo em litisconsórcio passivo com o Estado, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "A responsabilidade civil objetiva das concessionárias de serviço público aplica-se apenas aos usuários do serviço, nunca a terceiros não usuários atropelados por ônibus."
+        "text": "A responsabilidade civil objetiva das concessionárias de serviço público aplica-se apenas aos usuários do serviço, nunca a terceiros não usuários atropelados por ônibus, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       }
     ],
     "correctAnswer": "B",
@@ -743,11 +743,11 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O prédio da escola era bem público de USO ESPECIAL e, ao perder sua destinação pública por ato formal (desafetação), passou a bem DOMINICAL; contudo, TODOS os bens públicos (uso comum do povo, uso especial e dominicais) são IMPRESCRITÍVEIS (não sujeitos a usucapião — Art. 183, § 3º, Art. 191, parágrafo único, CF e Súmula 340 STF), e a alienação de bem imóvel público exige desafetação, interesse público justificado, avaliação prévia, autorização legislativa e licitação na modalidade leilão (Art. 76 Lei 14.133/21)."
+        "text": "O prédio da escola era bem público de uso especial e, ao perder sua destinação pública por ato formal (desafetação), passou a bem dominical."
       },
       {
         "letter": "C",
-        "text": "As terras devolutas pertencem integralmente à União em todo o território brasileiro por força do Art. 20 da Constituição."
+        "text": "As terras devolutas pertencem integralmente à União em todo o território brasileiro por força da Constituição, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
@@ -799,7 +799,7 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A SERVIDÃO ADMINISTRATIVA gera direito à indenização somente se e na medida em que causar efetivo dano/prejuízo ao proprietário; o TOMBAMENTO impõe restrição de preservação histórica ao bem específico, só gerando indenização se esvaziar economicamente a propriedade ou causar dano efetivo comprovado; e na DESAPROPRIAÇÃO, os juros compensatórios incidem apenas se houver imissão provisória na posse e comprovação de perda de renda pelo proprietário (ADI 2332 STF, superando a aplicação automática irrestrita de 12% sobre imóveis improdutivos)."
+        "text": "A servidão administrativa gera direito à indenização somente se e na medida em que causar efetivo dano/prejuízo ao proprietário."
       },
       {
         "letter": "C",
@@ -855,11 +855,11 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Não procede, pois ocorreu TREDESTINAÇÃO LÍCITA (alteração da finalidade específica mantendo-se o interesse público na destinação dada ao bem), o que NÃO gera direito de retrocessão ao ex-proprietário (Art. 519 CC e jurisprudência do STF/STJ)."
+        "text": "Não procede, pois ocorreu tredestinação lícita, o que não gera direito de retrocessão ao ex-proprietário."
       },
       {
         "letter": "C",
-        "text": "O prazo de caducidade do decreto expropriatório por UTILIDADE PÚBLICA é de 2 anos improrrogáveis a partir da sua expedição."
+        "text": "O prazo de caducidade do decreto expropriatório por utilidade pública é de 2 anos improrrogáveis a partir da sua expedição, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "D",
@@ -906,19 +906,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Trata-se de concessão patrocinada porque o ente público pagará contraprestação pecuniária mensal à parceira privada."
+        "text": "Trata-se de concessão patrocinada porque o ente público pagará contraprestação pecuniária mensal à parceira privada. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "B",
-        "text": "A modalidade cabível é a CONCESSÃO ADMINISTRATIVA (contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, com remuneração exclusiva por contraprestação pública — sem tarifa de usuário), e atende aos requisitos legais da Lei nº 11.079/2004, pois o valor mínimo atualizado é de R$ 10 milhões e o prazo contratual situa-se entre 5 e 35 anos (incluindo eventuais prorrogações)."
+        "text": "A modalidade cabível é a concessão administrativa, e atende aos requisitos legais da Lei nº 11.079/2004, pois o valor mínimo atualizado é de R$ 10 milhões e o prazo contratual situa-se entre 5 e 35 anos."
       },
       {
         "letter": "C",
-        "text": "É permitida a celebração de PPP com valor inferior a R$ 10 milhões ou com prazo inferior a 5 anos para obras rápidas municipais."
+        "text": "É permitida a celebração de PPP com valor inferior a R$ 10 milhões ou com prazo inferior a 5 anos para obras rápidas municipais, mediante exercício regular do poder discricionário vinculado à finalidade administrativa primária."
       },
       {
         "letter": "D",
-        "text": "Nas PPPs, a contraprestação da Administração Pública deve ser paga antecipadamente antes mesmo da disponibilização do serviço."
+        "text": "Nas PPPs, a contraprestação da Administração Pública deve ser paga antecipadamente antes mesmo da disponibilização do serviço, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       }
     ],
     "correctAnswer": "B",
@@ -961,19 +961,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todo consórcio público possui obrigatoriamente personalidade jurídica de direito privado e não integra a Administração Indireta dos entes participantes."
+        "text": "Todo consórcio público possui obrigatoriamente personalidade jurídica de direito privado e não integra a Administração Indireta dos entes participantes, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "B",
-        "text": "O consórcio público constituído sob a forma de ASSOCIAÇÃO PÚBLICA tem personalidade jurídica de DIREITO PÚBLICO e integra a Administração Indireta de todos os entes federados consorciados (Art. 6º, § 1º, Lei 11.107/05); já a parceria de mútua cooperação com repasse financeiro a OSC por iniciativa da Administração formaliza-se via TERMO DE COLABORAÇÃO (ou Termo de Fomento se proposta pela OSC) regido pelo MROSC (Lei 13.019/2014), mediante chamamento público."
+        "text": "O consórcio público constituído sob a forma de associação pública tem personalidade jurídica de direito público e integra a Administração Indireta de todos os entes federados consorciados; já a parceria de mútua cooperação com repasse financeiro a osc por iniciativa da Administração formaliza-se via termo de colaboração regido pelo mrosc, mediante chamamento público."
       },
       {
         "letter": "C",
-        "text": "A União pode participar de consórcio público exclusivamente com Municípios, dispensada a presença do respectivo Estado-membro."
+        "text": "A União pode participar de consórcio público exclusivamente com Municípios, dispensada a presença do respectivo Estado-membro, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       },
       {
         "letter": "D",
-        "text": "Na Lei nº 13.019/2014 (MROSC), o Termo de Fomento é o instrumento utilizado quando o plano de trabalho é proposto pela própria Administração Pública."
+        "text": "Na Lei nº 13.019/2014 (mrosc), o Termo de Fomento é o instrumento utilizado quando o plano de trabalho é proposto pela própria Administração Pública, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       }
     ],
     "correctAnswer": "B",
@@ -1016,19 +1016,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A simples amizade íntima ou inimizade notória do servidor com o interessado configura causa de IMPEDIMENTO absoluto no Art. 18 da Lei 9.784/99."
+        "text": "A simples amizade íntima ou inimizade notória do servidor com o interessado configura causa de impedimento absoluto, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "B",
-        "text": "O servidor que atuou ou deva atuar como perito, testemunha ou representante está IMPEDIDO de atuar no processo administrativo (Art. 18, II, da Lei 9.784/99 — diferente da suspeição do Art. 20 por amizade íntima/inimizade notória); quanto ao recurso administrativo, a Lei nº 9.784/99 ADMITE a reformatio in pejus (Art. 64, parágrafo único — o órgão competente pode confirmar, modificar, anular ou revogar a decisão, inclusive agravando a situação do recorrente, DESDE QUE o cientifique antes para formular alegações antes da decisão)."
+        "text": "O servidor que atuou ou deva atuar como perito, testemunha ou representante está impedido de atuar no processo administrativo; quanto ao recurso administrativo, a Lei nº 9.784/99 admite a reformatio in pejus."
       },
       {
         "letter": "C",
-        "text": "É absolutamente proibida a reformatio in pejus em qualquer recurso administrativo da Lei nº 9.784/99."
+        "text": "É absolutamente proibida a reformatio in pejus em qualquer recurso administrativo da Lei nº 9.784/99, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "D",
-        "text": "Para recorrer administrativamente de decisão na Lei nº 9.784/99, exige-se depósito prévio de 30% do valor da multa aplicada."
+        "text": "Para recorrer administrativamente de decisão na Lei nº 9.784/99, exige-se depósito prévio de 30% do valor da multa aplicada, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       }
     ],
     "correctAnswer": "B",
@@ -1072,19 +1072,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não procede, pois a Lei nº 12.846/2013 estabelece a responsabilização OBJETIVA administrativa e civil das pessoas jurídicas pela prática de atos contra a administração pública nacional ou estrangeira praticados em seu interesse ou benefício, exclusivo ou não (Art. 2º), independentemente de culpa dos sócios."
+        "text": "Não procede, pois a Lei nº 12.846/2013 estabelece a responsabilização objetiva administrativa e civil das pessoas jurídicas pela prática de atos contra a administração pública nacional ou estrangeira praticados em seu interesse ou benefício, exclusivo ou não, independentemente de culpa dos sócios."
       },
       {
         "letter": "B",
-        "text": "Procede, porque a Lei Anticorrupção exige comprovação de dolo específico de todos os administradores na ata societária."
+        "text": "Procede, porque a Lei Anticorrupção exige comprovação de dolo específico de todos os administradores na ata societária. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "C",
-        "text": "O programa de integridade (compliance) efetivo implantado pela empresa antes da infração isenta totalmente a pessoa jurídica da multa administrativa."
+        "text": "O programa de integridade (compliance) efetivo implantado pela empresa antes da infração isenta totalmente a pessoa jurídica da multa administrativa, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "O acordo de leniência celebrado pela empresa na Lei 12.846/2013 dispensa a obrigação de reparar integralmente o dano causado ao erário."
+        "text": "O acordo de leniência celebrado pela empresa na Lei 12.846/2013 dispensa a obrigação de reparar integralmente o dano causado ao erário, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       }
     ],
     "correctAnswer": "A",
@@ -1127,19 +1127,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas são ilegais: o pedido de acesso à informação pública INDEPENDE de motivação do solicitante (Art. 10, § 3º — a publicidade é a regra e o sigilo a exceção); além disso, o prazo máximo de classificação como ULTRASSECRETO é de 25 ANOS (secreto = 15 anos; reservado = 5 anos — Art. 24, § 1º), e informações pessoais têm restrição de acesso por até 100 anos da data de produção (Art. 31)."
+        "text": "Ambas são ilegais: o pedido de acesso à informação pública independe de motivação do solicitante; além disso, o prazo máximo de classificação como ultrassecreto é de 25 anos, e informações pessoais têm restrição de acesso por até 100 anos da data de produção."
       },
       {
         "letter": "B",
-        "text": "O cidadão deve comprovar legítimo interesse jurídico e pessoal específico por escrito para obter informações públicas não sigilosas."
+        "text": "O cidadão deve comprovar legítimo interesse jurídico e pessoal específico por escrito para obter informações públicas não sigilosas, sem possibilidade de convalidação posterior do ato administrativo por ausência de previsão regulamentar."
       },
       {
         "letter": "C",
-        "text": "Os prazos máximos de restrição de acesso à informação classificada são de 10 anos (reservado), 20 anos (secreto) e 50 anos (ultrassecreto)."
+        "text": "Os prazos máximos de restrição de acesso à informação classificada são de 10 anos (reservado), 20 anos (secreto) e 50 anos (ultrassecreto), sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "O órgão público pode cobrar taxa lucrativa pelo fornecimento de dados digitais simples via sistema eletrônico e-SIC."
+        "text": "O órgão público pode cobrar taxa lucrativa pelo fornecimento de dados digitais simples via sistema eletrônico e-sic, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       }
     ],
     "correctAnswer": "A",
@@ -1182,19 +1182,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As empresas públicas e sociedades de economia mista submetem-se ao estatuto jurídico próprio da Lei nº 13.303/2016 (e NÃO diretamente à Lei 14.133/2021 nas suas licitações e contratos — Art. 1º, § 1º, Lei 14.133/21): é vedado indicar para o Conselho de Administração e Diretoria quem atuou nos últimos 36 meses como participante de estrutura decisória de partido político ou campanha eleitoral, além de representante de órgão regulador (Art. 17, § 2º — observando-se decisão cautelar/mérito na ADI 7331 STF); e os contratos regem-se pelos preceitos de direito privado (sem cláusulas exorbitantes unilaterais clássicas — Art. 68)."
+        "text": "As empresas públicas e sociedades de economia mista submetem-se ao estatuto jurídico próprio da Lei nº 13.303/2016: é vedado indicar para o Conselho de Administração e Diretoria quem atuou nos últimos 36 meses como participante de estrutura decisória de partido político ou campanha eleitoral."
       },
       {
         "letter": "B",
-        "text": "As sociedades de economia mista utilizam integralmente a Lei nº 14.133/2021 para todas as suas licitações e aplicam cláusulas exorbitantes de rescisão unilateral automática."
+        "text": "As sociedades de economia mista utilizam integralmente a Lei nº 14.133/2021 para todas as suas licitações e aplicam cláusulas exorbitantes de rescisão unilateral automática, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "C",
-        "text": "A dispensa de licitação para obras e serviços de engenharia na Lei nº 13.303/2016 tem teto fixado em R$ 15.000,00."
+        "text": "A dispensa de licitação para obras e serviços de engenharia na Lei nº 13.303/2016 tem teto fixado em R$ 15.000,00, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "D",
-        "text": "É dispensada a licitação na empresa estatal mesmo para comercialização de seus produtos fora de sua atividade-fim ou contratação de suas subsidiárias com terceiros estranhos sem vínculo."
+        "text": "É dispensada a licitação na empresa estatal mesmo para comercialização de seus produtos fora de sua atividade-fim ou contratação de suas subsidiárias com terceiros estranhos sem vínculo, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       }
     ],
     "correctAnswer": "A",
@@ -1237,19 +1237,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É inválido por dupla ilegalidade: os dirigentes das agências reguladoras exercem MANDATO FIXO de 5 anos (vedada a recondução pela Lei nº 13.848/2019) e possuem estabilidade reforçada no cargo, só perdendo o mandato por renúncia, condenação judicial transitada em julgado ou processo administrativo disciplinar (Súmula/jurisprudência STF e Art. 9º da Lei 9.986/2000), sendo proibida a exoneração ad nutum; ademais, é vedada a indicação de titulares de mandato eletivo ou ministros/secretários."
+        "text": "É inválido por dupla ilegalidade: os dirigentes das agências reguladoras exercem mandato fixo de 5 anos e possuem estabilidade reforçada no cargo, só perdendo o mandato por renúncia, condenação judicial transitada em julgado ou processo administrativo disciplinar, sendo proibida a exoneração ad nutum."
       },
       {
         "letter": "B",
-        "text": "O Presidente da República pode exonerar livremente dirigentes de agências reguladoras por ocuparem cargos comissionados de confiança."
+        "text": "O Presidente da República pode exonerar livremente dirigentes de agências reguladoras por ocuparem cargos comissionados de confiança, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "C",
-        "text": "Das decisões finais da diretoria colegiada de agência reguladora federal cabe sempre recurso hierárquico impróprio automático de mérito ao Ministério supervisor."
+        "text": "Das decisões finais da diretoria colegiada de agência reguladora federal cabe sempre recurso hierárquico impróprio automático de mérito ao Ministério supervisor, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "As agências reguladoras não precisam elaborar Análise de Impacto Regulatório (AIR) nem realizar consultas públicas antes de alterar atos normativos de interesse geral."
+        "text": "As agências reguladoras não precisam elaborar Análise de Impacto Regulatório (air) nem realizar consultas públicas antes de alterar atos normativos de interesse geral, sem possibilidade de convalidação posterior do ato administrativo por ausência de previsão regulamentar."
       }
     ],
     "correctAnswer": "A",
@@ -1292,19 +1292,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Trata-se de qualificação como ORGANIZAÇÃO SOCIAL (OS — Lei nº 9.637/1998) formalizada mediante CONTRATO DE GESTÃO; e o STF na ADI 1.923 validou a constitucionalidade desse modelo (bem como a dispensa de licitação para celebrar o contrato de gestão prevista no Art. 75, XV/antigo Art. 24, XXIV), desde que a escolha da OS e seus contratos com terceiros observem processo objetivo, impessoal e público com controle do Tribunal de Contas."
+        "text": "Trata-se de qualificação como organização social formalizada mediante contrato de gestão; e o STF na ADI 1.923 validou a constitucionalidade desse modelo, desde que a escolha da OS e seus contratos com terceiros observem processo objetivo, impessoal e público com controle do Tribunal de Contas."
       },
       {
         "letter": "B",
-        "text": "O instrumento adequado para transferência de gestão hospitalar com cessão de servidores públicos para Organização Social é o Termo de Parceria da Lei 9.790/99."
+        "text": "O instrumento adequado para transferência de gestão hospitalar com cessão de servidores públicos para Organização Social é o Termo de Parceria da Lei 9.790/99, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "C",
-        "text": "As Organizações Sociais, por receberem recursos públicos, tornam-se entidades da Administração Pública Indireta e devem realizar concurso público para contratar médicos celetistas."
+        "text": "As Organizações Sociais, por receberem recursos públicos, tornam-se entidades da Administração Pública Indireta e devem realizar concurso público para contratar médicos celetistas. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "D",
-        "text": "A qualificação de uma entidade como OSCIP pelo Ministério da Justiça é ato discricionário do Ministro."
+        "text": "A qualificação de uma entidade como OSCIP pelo Ministério da Justiça é ato discricionário do Ministro, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       }
     ],
     "correctAnswer": "A",
@@ -1348,19 +1348,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ocorreu a prescrição da pretensão punitiva disciplinar de 5 anos para demissão (Art. 142, I, Lei 8.112/90), pois o prazo conta-se da data em que o fato se tornou conhecido pela autoridade competente (10/01/2020) e só se interrompe pela instauração do PAD (voltando a correr após 140 dias da instauração — Súmula 635 STJ); quanto à prova emprestada de interceptação telefônica criminal, é plenamente ADMITIDA no PAD desde que devidamente autorizada pelo juízo criminal competente (Súmula 591 STJ)."
+        "text": "Ocorreu a prescrição da pretensão punitiva disciplinar de 5 anos para demissão, pois o prazo conta-se da data em que o fato se tornou conhecido pela autoridade competente (10/01/2020) e só se interrompe pela instauração do pad."
       },
       {
         "letter": "B",
-        "text": "A instauração de sindicância meramente investigativa sem caráter punitivo interrompe o prazo prescricional de 5 anos para a demissão."
+        "text": "A instauração de sindicância meramente investigativa sem caráter punitivo interrompe o prazo prescricional de 5 anos para a demissão, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "É vedado o uso de prova emprestada de interceptação telefônica criminal no processo administrativo disciplinar por ser a prova restrita à esfera penal."
+        "text": "É vedado o uso de prova emprestada de interceptação telefônica criminal no processo administrativo disciplinar por ser a prova restrita à esfera penal, em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita."
       },
       {
         "letter": "D",
-        "text": "A autoridade julgadora do PAD está sempre absolutamente vinculada ao relatório final da comissão processante, não podendo aplicar sanção mais grave."
+        "text": "A autoridade julgadora do pad está sempre absolutamente vinculada ao relatório final da comissão processante, não podendo aplicar sanção mais grave, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       }
     ],
     "correctAnswer": "A",
@@ -1404,19 +1404,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, é possível o retorno ao cargo anteriormente ocupado mediante RECONDUÇÃO (Art. 29, I, e Art. 20, § 2º, da Lei nº 8.112/90), justamente porque o servidor já era ESTÁVEL no serviço público federal e pediu vacância por posse em outro cargo inacumulável (Art. 33, VIII) em vez de simples exoneração sem vínculo — aplicando-se a recondução em caso de inabilitação em estágio probatório ou desistência dentro do período de estágio probatório do novo cargo (STJ/STF)."
+        "text": "Sim, é possível o retorno ao cargo anteriormente ocupado mediante recondução, justamente porque o servidor já era estável no serviço público federal e pediu vacância por posse em outro cargo inacumulável em vez de simples exoneração sem vínculo — aplicando-se a recondução em caso de inabilitação em estágio probatório ou desistência dentro do período de estágio probatório do novo cargo (STJ/STF)."
       },
       {
         "letter": "B",
-        "text": "Não é possível o retorno, porque a posse no segundo cargo extingue irrevogavelmente todo e qualquer vínculo anterior pela exoneração definitiva."
+        "text": "Não é possível o retorno, porque a posse no segundo cargo extingue irrevogavelmente todo e qualquer vínculo anterior pela exoneração definitiva. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "C",
-        "text": "O prazo legal para o candidato nomeado tomar posse é de 15 dias contados da publicação do ato de provimento, e outros 30 dias para entrar em exercício."
+        "text": "O prazo legal para o candidato nomeado tomar posse é de 15 dias contados da publicação do ato de provimento, e outros 30 dias para entrar em exercício, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "D",
-        "text": "A redistribuição é o deslocamento do servidor, a pedido ou de ofício, no âmbito do mesmo quadro de pessoal, com ou sem mudança de sede."
+        "text": "A redistribuição é o deslocamento do servidor, a pedido ou de ofício, no âmbito do mesmo quadro de pessoal, com ou sem mudança de sede. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       }
     ],
     "correctAnswer": "A",
@@ -1459,19 +1459,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A instauração de procedimento disciplinar com base em denúncia anônima é perfeitamente VÁLIDA, desde que motivada e precedida de apuração preliminar sumária (Súmula 611 STJ); quanto ao controle judicial da sanção disciplinar, embora o Judiciário não substitua o mérito administrativo, a Súmula 665 do STJ admite o controle jurisdicional da LEGALIDADE e da PROPORCIONALIDADE/RAZOABILIDADE da sanção aplicada (podendo anular pena manifestamente desproporcional)."
+        "text": "A instauração de procedimento disciplinar com base em denúncia anônima é perfeitamente válida, desde que motivada e precedida de apuração preliminar sumária."
       },
       {
         "letter": "B",
-        "text": "Toda e qualquer investigação disciplinar originada de denúncia anônima é nula ab initio por força da vedação constitucional ao anonimato (Art. 5º, IV, CF)."
+        "text": "Toda e qualquer investigação disciplinar originada de denúncia anônima é nula ab initio por força da vedação constitucional ao anonimato."
       },
       {
         "letter": "C",
-        "text": "O Poder Judiciário nunca pode analisar a proporcionalidade da pena aplicada em PAD por ser matéria exclusiva do mérito administrativo."
+        "text": "O Poder Judiciário nunca pode analisar a proporcionalidade da pena aplicada em pad por ser matéria exclusiva do mérito administrativo."
       },
       {
         "letter": "D",
-        "text": "No PAD, a ausência de intimação prévia da defesa acerca da nova capitulação jurídica dos fatos gera nulidade mesmo que a defesa já tenha se defendido amplamente dos mesmos fatos narrados na portaria."
+        "text": "No pad, a ausência de intimação prévia da defesa acerca da nova capitulação jurídica dos fatos gera nulidade mesmo que a defesa já tenha se defendido amplamente dos mesmos fatos narrados na portaria."
       }
     ],
     "correctAnswer": "A",
@@ -1515,19 +1515,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não é válida, pois o tratamento de dados pessoais pelas pessoas jurídicas de direito público (Art. 23 da LGPD) deve observar a finalidade pública, o interesse público, a adequação e a NECESSIDADE (minimização dos dados), devendo a publicidade ativa ser compatibilizada com a proteção de dados pessoais (Art. 5º, LXXIX, CF) mediante mascaramento de CPF, endereço e dados bancários sensíveis."
+        "text": "Não é válida, pois o tratamento de dados pessoais pelas pessoas jurídicas de direito público deve observar a finalidade pública, o interesse público, a adequação e a necessidade, devendo a publicidade ativa ser compatibilizada com a proteção de dados pessoais mediante mascaramento de CPF, endereço e dados bancários sensíveis."
       },
       {
         "letter": "B",
-        "text": "A Administração Pública está totalmente isenta de cumprir a Lei Geral de Proteção de Dados (LGPD) por força do princípio da publicidade."
+        "text": "A Administração Pública está totalmente isenta de cumprir a Lei Geral de Proteção de Dados por força do princípio da publicidade, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "C",
-        "text": "As empresas públicas e sociedades de economia mista que atuam no mercado em regime concorrencial seguem exclusivamente as regras diferenciadas do Poder Público, sem se submeter ao regime privado da LGPD."
+        "text": "As empresas públicas e sociedades de economia mista que atuam no mercado em regime concorrencial seguem exclusivamente as regras diferenciadas do Poder Público, sem se submeter ao regime privado da LGPD, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "É livre e ilimitada a transferência de bases de dados pessoais da Administração Pública para empresas privadas de cobrança sem previsão legal ou finalidade específica."
+        "text": "É livre e ilimitada a transferência de bases de dados pessoais da Administração Pública para empresas privadas de cobrança sem previsão legal ou finalidade específica, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       }
     ],
     "correctAnswer": "A",
@@ -1570,19 +1570,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A ação indenizatória contra o Município NÃO prescreveu (foi proposta em 4 anos e 2 meses), pois o prazo prescricional de dívidas e ações pessoais contra a Fazenda Pública é de CINCO ANOS contados da data do ato ou fato (Art. 1º do Decreto nº 20.910/1932 — Tema 553 STJ, prevalecendo sobre os 3 anos do Código Civil); já o condenado por erro judiciário tem direito constitucional expresso à indenização pelo Estado (Art. 5º, LXXV, CF)."
+        "text": "A ação indenizatória contra o Município não prescreveu, pois o prazo prescricional de dívidas e ações pessoais contra a Fazenda Pública é de cinco anos contados da data do ato ou fato."
       },
       {
         "letter": "B",
-        "text": "A ação contra o Município prescreveu em 3 anos com base no Art. 206, § 3º, V, do Código Civil para reparação civil."
+        "text": "A ação contra o Município prescreveu em 3 anos para reparação civil, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "O Estado nunca responde civilmente por atos jurisdicionais típicos em nenhuma hipótese constitucional."
+        "text": "O Estado nunca responde civilmente por atos jurisdicionais típicos em nenhuma hipótese constitucional, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "A interrupção da prescrição contra a Fazenda Pública faz o prazo recomeçar integralmente por novos 5 anos após o protocolo administrativo."
+        "text": "A interrupção da prescrição contra a Fazenda Pública faz o prazo recomeçar integralmente por novos 5 anos após o protocolo administrativo, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "A",
@@ -1630,15 +1630,15 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na Lei nº 14.133/2021, a vigência da Ata de Registro de Preços é improrrogável de no máximo 12 meses."
+        "text": "Na Lei nº 14.133/2021, a vigência da Ata de Registro de Preços é improrrogável de no máximo 12 meses, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "C",
-        "text": "Cada órgão não participante (\"carona\") pode aderir a até 100% do quantitativo de cada item registrado na ata."
+        "text": "Cada órgão não participante (\"carona\") pode aderir a até 100% do quantitativo de cada item registrado na ata, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "A existência de preços registrados implica compromisso de fornecimento nas condições estabelecidas, mas NÃO obriga a Administração a contratar (facultada realização de licitação específica, assegurada preferência ao fornecedor registrado em igualdade de condições — Art. 83); o prazo de vigência da ata é de 1 ano, podendo ser prorrogado por igual período (total até 2 anos — Art. 84); e na adesão por não participantes (\"carona\"), as aquisições individuais por órgão não participante não podem exceder 50% dos quantitativos registrados, e o total global de adesões não pode ultrapassar o DOBRO do quantitativo registrado (Art. 86, §§ 4º e 5º)."
+        "text": "A existência de preços registrados implica compromisso de fornecimento nas condições estabelecidas, mas não obriga a Administração a contratar."
       }
     ],
     "correctAnswer": "D",
@@ -1681,19 +1681,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O princípio da eficiência apenas, não havendo ilegalidade se a obra foi regularmente concluída."
+        "text": "O princípio da eficiência apenas, não havendo ilegalidade se a obra foi regularmente concluída, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "B",
-        "text": "Nenhum princípio foi violado, porque a publicidade das realizações da gestão concretiza o princípio da publicidade."
+        "text": "Nenhum princípio foi violado, porque a publicidade das realizações da gestão concretiza o princípio da publicidade. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "C",
-        "text": "O princípio da autotutela, pois cabe exclusivamente ao Tribunal de Contas anular atos publicitários."
+        "text": "O princípio da autotutela, pois cabe exclusivamente ao Tribunal de Contas anular atos publicitários. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "D",
-        "text": "O princípio da impessoalidade (e moralidade), pois o Art. 37, § 1º, da CF/88 proíbe que a publicidade oficial dos atos, programas e obras contenha nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores."
+        "text": "O princípio da impessoalidade (e moralidade), pois a legislação aplicável proíbe que a publicidade oficial dos atos, programas e obras contenha nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores."
       }
     ],
     "correctAnswer": "D",
@@ -1736,19 +1736,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque o poder de polícia jamais pode ser exercido por pessoa jurídica de direito privado."
+        "text": "Não, porque o poder de polícia jamais pode ser exercido por pessoa jurídica de direito privado. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "B",
-        "text": "Sim, podendo o Município delegar a aplicação de multas inclusive para concessionária privada com fins lucrativos."
+        "text": "Sim, podendo o Município delegar a aplicação de multas inclusive para concessionária privada com fins lucrativos, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "C",
-        "text": "A delegação dispensa previsão legal, bastando portaria da Secretaria de Transportes."
+        "text": "A delegação dispensa previsão legal, bastando portaria da Secretaria de Transportes, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "D",
-        "text": "Sim. O STF decidiu no RE 633.782 (Tema 532) que é constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial."
+        "text": "Sim, o STF decidiu no RE 633.782 que é constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial."
       }
     ],
     "correctAnswer": "D",
@@ -1792,19 +1792,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o poder hierárquico autoriza delegação irrestrita de qualquer atribuição administrativa."
+        "text": "Sim, pois o poder hierárquico autoriza delegação irrestrita de qualquer atribuição administrativa. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "Apenas a decisão de recurso administrativo não pode ser delegada; a edição de atos normativos pode."
+        "text": "Apenas a decisão de recurso administrativo não pode ser delegada; a edição de atos normativos pode. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "C",
-        "text": "A avocação de competência independe de motivos relevantes e pode ser feita em caráter definitivo."
+        "text": "A avocação de competência independe de motivos relevantes e pode ser feita em caráter definitivo, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "D",
-        "text": "Não. Pelo Art. 13 da Lei nº 9.784/1999, NÃO podem ser objeto de delegação: a edição de atos de caráter normativo, a decisão de recursos administrativos e as matérias de competência exclusiva do órgão ou autoridade (mnemônico CENORA)."
+        "text": "Não, não podem ser objeto de delegação: a edição de atos de caráter normativo, a decisão de recursos administrativos e as matérias de competência exclusiva do órgão ou autoridade (mnemônico cenora)."
       }
     ],
     "correctAnswer": "D",
@@ -1847,19 +1847,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O ato é plenamente válido, porque cargo em comissão é de livre nomeação e exoneração."
+        "text": "O ato é plenamente válido, porque cargo em comissão é de livre nomeação e exoneração. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "B",
-        "text": "A nulidade atinge apenas a forma do ato, podendo ser convalidada por novo decreto."
+        "text": "A nulidade atinge apenas a forma do ato, podendo ser convalidada por novo decreto, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "C",
-        "text": "Somente atos vinculados estão sujeitos ao controle judicial da veracidade dos motivos."
+        "text": "Somente atos vinculados estão sujeitos ao controle judicial da veracidade dos motivos, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "D",
-        "text": "O ato de exoneração é nulo por vício no motivo, pois, pela teoria dos motivos determinantes, ainda que o ato seja discricionário e dispensasse motivação (exoneração ad nutum), uma vez declarados os motivos, a Administração vincula-se à veracidade deles."
+        "text": "O ato de exoneração é nulo por vício no motivo, pois pela teoria dos motivos determinantes, ainda que o ato seja discricionário e dispensasse motivação, uma vez declarados os motivos, a Administração vincula-se à veracidade deles."
       }
     ],
     "correctAnswer": "D",
@@ -1902,19 +1902,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No primeiro caso cabe anulação com efeitos retroativos (ex tunc) e sem indenização."
+        "text": "No primeiro caso cabe anulação com efeitos retroativos (ex tunc) e sem indenização, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "B",
-        "text": "No segundo caso a Administração pode anular o ato a qualquer tempo porque atos nulos não prescrevem."
+        "text": "No segundo caso a Administração pode anular o ato a qualquer tempo porque atos nulos não prescrevem. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "C",
-        "text": "A convalidação é possível mesmo quando o vício recair sobre a finalidade ou quando causar lesão ao interesse público."
+        "text": "A convalidação é possível mesmo quando o vício recair sobre a finalidade ou quando causar lesão ao interesse público, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "No primeiro caso cabe REVOGAÇÃO (por conveniência e oportunidade, com efeitos ex nunc, respeitados direitos adquiridos — vedada se já exauriu seus efeitos); no segundo caso, operou-se a DECADÊNCIA do direito de anular da Administração (5 anos — Art. 54 da Lei 9.784/99), salvo comprovada má-fé."
+        "text": "No primeiro caso cabe revogação; no segundo caso, operou-se a decadência do direito de anular da Administração (5 anos ), salvo comprovada má-fé."
       }
     ],
     "correctAnswer": "D",
@@ -1958,19 +1958,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas adquirem personalidade jurídica apenas após registro do estatuto na Junta Comercial."
+        "text": "Ambas adquirem personalidade jurídica apenas após registro do estatuto na Junta Comercial, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "B",
-        "text": "O controle acionário de sociedade de economia mista pode pertencer integralmente a acionistas privados."
+        "text": "O controle acionário de sociedade de economia mista pode pertencer integralmente a acionistas privados, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "C",
-        "text": "Autarquias sujeitam-se à falência e ao regime trabalhista celetista obrigatoriamente."
+        "text": "Autarquias sujeitam-se à falência e ao regime trabalhista celetista obrigatoriamente, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "A autarquia (pessoa jurídica de direito público) é criada diretamente por lei específica, possui bens públicos impenhoráveis e regime de precatórios; a sociedade de economia mista (pessoa jurídica de direito privado) tem sua criação apenas autorizada por lei específica (adquirindo personalidade com o registro dos atos constitutivos), empregados celetistas e capital misto com controle acionário estatal."
+        "text": "A autarquia é criada diretamente por lei específica, possui bens públicos impenhoráveis e regime de precatórios."
       }
     ],
     "correctAnswer": "D",
@@ -2013,19 +2013,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O teto constitucional incide sobre a soma das duas remunerações, devendo ser cortado o excedente."
+        "text": "O teto constitucional incide sobre a soma das duas remunerações, devendo ser cortado o excedente, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "B",
-        "text": "Médico não pode acumular dois cargos de profissional de saúde mesmo havendo compatibilidade de horários."
+        "text": "Médico não pode acumular dois cargos de profissional de saúde mesmo havendo compatibilidade de horários, sem possibilidade de convalidação posterior do ato administrativo por ausência de previsão regulamentar."
       },
       {
         "letter": "C",
-        "text": "A acumulação lícita permite também acumular dois cargos técnicos comuns quaisquer."
+        "text": "A acumulação lícita permite também acumular dois cargos técnicos comuns quaisquer, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "Nos casos de acumulação constitucional lícita de cargos (Art. 37, XVI), o teto remuneratório constitucional incide ISOLADAMENTE sobre a remuneração de cada cargo público considerado per si, e não sobre o somatório dos dois cargos (STF Tema 377/384)."
+        "text": "Nos casos de acumulação constitucional lícita de cargos, o teto remuneratório constitucional incide isoladamente sobre a remuneração de cada cargo público considerado per si, e não sobre o somatório dos dois cargos (STF Tema 377/384)."
       }
     ],
     "correctAnswer": "D",
@@ -2069,19 +2069,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas por sentença judicial transitada em julgado, sendo vedada a demissão via processo administrativo disciplinar."
+        "text": "Apenas por sentença judicial transitada em julgado, sendo vedada a demissão via processo administrativo disciplinar, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "B",
-        "text": "Se seu cargo for extinto por lei, o servidor estável será imediatamente exonerado sem direito a remuneração."
+        "text": "Se seu cargo for extinto por lei, o servidor estável será imediatamente exonerado sem direito a remuneração, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "A estabilidade é adquirida após 2 anos de efetivo exercício no cargo."
+        "text": "A estabilidade é adquirida após 2 anos de efetivo exercício no cargo, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "Em virtude de sentença judicial transitada em julgado; mediante processo administrativo em que lhe seja assegurada ampla defesa; mediante procedimento de avaliação periódica de desempenho (na forma de lei complementar, assegurada ampla defesa); ou por excesso de despesa com pessoal após medidas de redução previstas no Art. 169, § 4º, da CF/88."
+        "text": "Em virtude de sentença judicial transitada em julgado; mediante processo administrativo em que lhe seja assegurada ampla defesa; mediante procedimento de avaliação periódica de desempenho; ou por excesso de despesa com pessoal após medidas de redução previstas."
       }
     ],
     "correctAnswer": "D",
@@ -2124,19 +2124,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque a aprovação em concurso público gera mera expectativa de direito em todas as hipóteses."
+        "text": "Não, porque a aprovação em concurso público gera mera expectativa de direito em todas as hipóteses. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "O prazo máximo de validade do concurso público é de 2 anos, prorrogável indefinidamente a critério do administrador."
+        "text": "O prazo máximo de validade do concurso público é de 2 anos, prorrogável indefinidamente a critério do administrador, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "O exame psicotécnico em concurso público pode ser previsto exclusivamente em edital, sem necessidade de previsão em lei."
+        "text": "O exame psicotécnico em concurso público pode ser previsto exclusivamente em edital, sem necessidade de previsão em lei, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "Sim. O STF (Tema 161 e Tema 784) firmou que o candidato aprovado dentro do número de vagas previsto no edital tem direito subjetivo à nomeação, e mesmo o aprovado em cadastro de reserva adquire esse direito se surgir nova vaga e houver preterição arbitrária ou contratação precária inequívoca."
+        "text": "Sim, o STF firmou que o candidato aprovado dentro do número de vagas previsto no edital tem direito subjetivo à nomeação, e mesmo o aprovado em cadastro de reserva adquire esse direito se surgir nova vaga e houver preterição arbitrária ou contratação precária inequívoca."
       }
     ],
     "correctAnswer": "D",
@@ -2180,11 +2180,11 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tomada de preços para bens comuns e convite para inovação tecnológica."
+        "text": "Tomada de preços para bens comuns e convite para inovação tecnológica, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "B",
-        "text": "Concorrência obrigatória para serviços comuns de pequeno valor e leilão para obras."
+        "text": "Concorrência obrigatória para serviços comuns de pequeno valor e leilão para obras, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "C",
@@ -2192,7 +2192,7 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O diálogo competitivo dispensa publicação de edital e não tem fase de apresentação de propostas finais."
+        "text": "O diálogo competitivo dispensa publicação de edital e não tem fase de apresentação de propostas finais, em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita."
       }
     ],
     "correctAnswer": "C",
@@ -2235,19 +2235,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todas constituem hipóteses de licitação dispensada de rol taxativo."
+        "text": "Todas constituem hipóteses de licitação dispensada de rol taxativo, sob pena de nulidade absoluta do procedimento administrativo e apuração funcional da autoridade."
       },
       {
         "letter": "B",
-        "text": "A contratação emergencial por dispensa (Art. 75, VIII) permite contratos por prazo de até 5 anos prorrogáveis."
+        "text": "A contratação emergencial por dispensa permite contratos por prazo de até 5 anos prorrogáveis, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "C",
-        "text": "A contratação de artista consagrado e do fornecedor exclusivo enquadram-se em INEXIGIBILIDADE de licitação (Art. 74 — inviabilidade de competição, rol exemplificativo); já a contratação emergencial enquadra-se em DISPENSA de licitação (Art. 75, VIII — rol taxativo, podendo competir em tese, mas a lei autoriza dispensar)."
+        "text": "A contratação de artista consagrado e do fornecedor exclusivo enquadram-se em inexigibilidade de licitação; já a contratação emergencial enquadra-se em dispensa de licitação."
       },
       {
         "letter": "D",
-        "text": "Para contratar serviço técnico especializado de notória especialização (Art. 74, III), dispensa-se a natureza singular ou a notória especialização."
+        "text": "Para contratar serviço técnico especializado de notória especialização, dispensa-se a natureza singular ou a notória especialização, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       }
     ],
     "correctAnswer": "C",
@@ -2290,19 +2290,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, pois na Lei 14.133/2021 o contratado ainda precisa aguardar 90 dias de atraso, como na antiga Lei 8.666/93."
+        "text": "Não, pois na Lei 14.133/2021 o contratado ainda precisa aguardar 90 dias de atraso, como na antiga Lei 8.666/93. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "A Administração pode alterar unilateralmente as cláusulas econômico-financeiras do contrato sem anuência do contratado."
+        "text": "A Administração pode alterar unilateralmente as cláusulas econômico-financeiras do contrato sem anuência do contratado, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "C",
-        "text": "Sim. Na Nova Lei de Licitações (Art. 137, § 2º, IV), o contratado tem direito à extinção ou suspensão do cumprimento das obrigações caso ocorra atraso superior a 2 (dois) meses, contado da emissão da nota fiscal, dos pagamentos ou de parcelas de pagamentos devidos pela Administração."
+        "text": "Sim, na Nova Lei de Licitações, o contratado tem direito à extinção ou suspensão do cumprimento das obrigações caso ocorra atraso superior a 2 (dois) meses, contado da emissão da nota fiscal, dos pagamentos ou de parcelas de pagamentos devidos pela Administração."
       },
       {
         "letter": "D",
-        "text": "Os limites de acréscimo e supressão unilateral em obras e serviços são de até 50% para acréscimos em qualquer obra nova."
+        "text": "Os limites de acréscimo e supressão unilateral em obras e serviços são de até 50% para acréscimos em qualquer obra nova, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       }
     ],
     "correctAnswer": "C",
@@ -2345,15 +2345,15 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No descumprimento ocorre encampação, e no interesse público ocorre caducidade."
+        "text": "No descumprimento ocorre encampação, e no interesse público ocorre caducidade, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "B",
-        "text": "Ambas dependem obrigatoriamente de autorização legislativa específica prévia e pagamento prévio de indenização."
+        "text": "Ambas dependem obrigatoriamente de autorização legislativa específica prévia e pagamento prévio de indenização, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "C",
-        "text": "No descumprimento contratual pela concessionária ocorre CADUCIDADE (exige prévia comunicação dos descumprimentos com prazo para correção e instauração de processo administrativo, declarada por decreto sem indenização prévia); na retomada por interesse público ocorre ENCAMPAÇÃO (exige lei autorizativa específica e prévio pagamento da indenização)."
+        "text": "No descumprimento contratual pela concessionária ocorre caducidade; na retomada por interesse público ocorre encampação."
       },
       {
         "letter": "D",
@@ -2400,19 +2400,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não cabe PPP porque o valor mínimo legal dos contratos de PPP continua sendo de R$ 20 milhões."
+        "text": "Não cabe PPP porque o valor mínimo legal dos contratos de PPP continua sendo de R$ 20 milhões. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "B",
-        "text": "Trata-se de concessão patrocinada, pois o usuário custeia parte do serviço mediante tarifa."
+        "text": "Trata-se de concessão patrocinada, pois o usuário custeia parte do serviço mediante tarifa. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "C",
-        "text": "Cabe PPP na modalidade Concessão Administrativa (quando a Administração Pública é usuária direta ou indireta, sem tarifa paga pelos usuários), e o valor atende ao piso legal, pois a Lei nº 14.133/2021 alterou a Lei de PPP reduzindo o valor mínimo do contrato de R$ 20 milhões para R$ 10 milhões."
+        "text": "Cabe PPP na modalidade Concessão Administrativa, e o valor atende ao piso legal, pois a Lei nº 14.133/2021 alterou a Lei de PPP reduzindo o valor mínimo do contrato de R$ 20 milhões para R$ 10 milhões."
       },
       {
         "letter": "D",
-        "text": "É permitido celebrar PPP que tenha como objeto único o fornecimento de mão de obra ou de equipamentos sem prestação de serviço."
+        "text": "É permitido celebrar PPP que tenha como objeto único o fornecimento de mão de obra ou de equipamentos sem prestação de serviço, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "C",
@@ -2455,19 +2455,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A morte de detento em presídio gera responsabilidade subjetiva do Estado por omissão."
+        "text": "A morte de detento em presídio gera responsabilidade subjetiva do Estado por omissão, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "B",
-        "text": "A vítima do acidente de trânsito pode escolher demandar diretamente o motorista servidor público ou o Estado."
+        "text": "A vítima do acidente de trânsito pode escolher demandar diretamente o motorista servidor público ou o Estado, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público."
       },
       {
         "letter": "C",
-        "text": "No caso do detento morto sob custódia, aplica-se a responsabilidade civil OBJETIVA do Estado por inobservância do dever específico de proteção (STF Tema 592); já no acidente com ambulância, a ação deve ser proposta contra a pessoa jurídica de direito público (Estado), sendo vedada ação direta contra o agente público causador do dano (STF Tema 940 — tese da dupla garantia)."
+        "text": "No caso do detento morto sob custódia, aplica-se a responsabilidade civil objetiva do Estado por inobservância do dever específico de proteção (STF Tema 592)."
       },
       {
         "letter": "D",
-        "text": "A responsabilidade civil do Estado segue a teoria do risco integral, não admitindo excludentes como culpa exclusiva da vítima."
+        "text": "A responsabilidade civil do Estado segue a teoria do risco integral, não admitindo excludentes como culpa exclusiva da vítima, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "C",
@@ -2511,19 +2511,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Procede apenas quanto ao prejuízo ao erário, que continua admitindo improbidade por culpa grave."
+        "text": "Procede apenas quanto ao prejuízo ao erário, que continua admitindo improbidade por culpa grave, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "B",
-        "text": "O rol do Art. 11 (violação a princípios) permanece meramente exemplificativo."
+        "text": "O rol (violação a princípios) permanece meramente exemplificativo, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "Não procede. A Lei nº 14.230/2021 passou a exigir DOLO específico (vontade livre e consciente de alcançar o resultado ilícito) em todos os tipos de improbidade administrativa — extinguindo a modalidade culposa — e tornou TAXATIVO o rol de atos que atentam contra os princípios da Administração Pública (Art. 11)."
+        "text": "Não procede. A Lei nº 14.230/2021 passou a exigir dolo específico em todos os tipos de improbidade administrativa."
       },
       {
         "letter": "D",
-        "text": "A prescrição na improbidade administrativa continua sendo de 5 anos após o término do mandato."
+        "text": "A prescrição na improbidade administrativa continua sendo de 5 anos após o término do mandato, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       }
     ],
     "correctAnswer": "C",
@@ -2567,19 +2567,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O terreno sem destinação é bem dominical e, por integrar o patrimônio disponível, admite usucapião extraordinário."
+        "text": "O terreno sem destinação é bem dominical e, por integrar o patrimônio disponível, admite usucapião extraordinário. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "B",
-        "text": "Os bens de uso comum do povo e os de uso especial podem ser alienados livremente mediante simples decreto de desafetação."
+        "text": "Os bens de uso comum do povo e os de uso especial podem ser alienados livremente mediante simples decreto de desafetação, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "C",
-        "text": "O prédio da Secretaria é bem de uso especial; o terreno sem destinação é bem dominical. Nenhum deles pode ser adquirido por usucapião (Art. 183, § 3º, e Art. 191, parágrafo único, CF; Art. 102 CC; Súmula 340 STF), porém apenas o bem dominical pode ser alienado observados os requisitos legais."
+        "text": "O prédio da Secretaria é bem de uso especial; o terreno sem destinação é bem dominical. Nenhum deles pode ser adquirido por usucapião, porém apenas o bem dominical pode ser alienado observados os requisitos legais."
       },
       {
         "letter": "D",
-        "text": "Os bens das empresas públicas prestadoras de serviço público essencial não gozam de proteção alguma mesmo quando afetados ao serviço."
+        "text": "Os bens das empresas públicas prestadoras de serviço público essencial não gozam de proteção alguma mesmo quando afetados ao serviço, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       }
     ],
     "correctAnswer": "C",
@@ -2623,19 +2623,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em ambos os casos há tredestinação ilícita, devendo o ex-proprietário exigir a devolução imediata de ambos os imóveis."
+        "text": "Em ambos os casos há tredestinação ilícita, devendo o ex-proprietário exigir a devolução imediata de ambos os imóveis, em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita."
       },
       {
         "letter": "B",
-        "text": "Na desapropriação, a transferência da propriedade do particular para o Poder Público ocorre com a simples edição do decreto expropriatório."
+        "text": "Na desapropriação, a transferência da propriedade do particular para o Poder Público ocorre com a simples edição do decreto expropriatório, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "Na construção da escola pública houve tredestinação LÍCITA (manteve-se finalidade pública), não cabendo devolução; na venda ociosa ao particular ocorreu tredestinação ILÍCITA (adestinação), gerando ao ex-proprietário direito à retrocessão (ou perdas e danos se já transferido a terceiro de boa-fé)."
+        "text": "Na construção da escola pública houve tredestinação lícita, não cabendo devolução; na venda ociosa ao particular ocorreu tredestinação ilícita (adestinação), gerando ao ex-proprietário direito à retrocessão."
       },
       {
         "letter": "D",
-        "text": "O prazo de caducidade do decreto de desapropriação por interesse social é de 5 anos."
+        "text": "O prazo de caducidade do decreto de desapropriação por interesse social é de 5 anos, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "C",
@@ -2678,19 +2678,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ocupação temporária gratuita sem dever de indenizar eventual dano e servidão administrativa de uso."
+        "text": "Ocupação temporária gratuita sem dever de indenizar eventual dano e servidão administrativa de uso, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "B",
-        "text": "O tombamento transfere automaticamente a propriedade do imóvel histórico ao patrimônio da União (IPHAN)."
+        "text": "O tombamento transfere automaticamente a propriedade do imóvel histórico ao patrimônio da União (iphan), em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "Respectivamente: requisição administrativa (perigo público iminente, sobre bens móveis/imóveis ou serviços, com indenização ULTERIOR apenas se houver dano) e tombamento (restrição parcial para proteção do patrimônio histórico/cultural, em regra sem indenização salvo esvaziamento econômico total)."
+        "text": "Respectivamente: requisição administrativa (perigo público iminente, sobre bens móveis/imóveis ou serviços, com indenização ulterior apenas se houver dano) e tombamento (restrição parcial para proteção do patrimônio histórico/cultural, em regra sem indenização salvo esvaziamento econômico total)."
       },
       {
         "letter": "D",
-        "text": "A servidão administrativa incide sobre bens móveis e imóveis indistintamente e sempre independe de indenização."
+        "text": "A servidão administrativa incide sobre bens móveis e imóveis indistintamente e sempre independe de indenização, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público."
       }
     ],
     "correctAnswer": "C",
@@ -2733,19 +2733,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o Art. 6º, § 3º, II, da Lei 8.987/95 permite o corte imediato sem aviso prévio por qualquer dívida pretérita."
+        "text": "Sim, pois a legislação aplicável permite o corte imediato sem aviso prévio por qualquer dívida pretérita. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "B",
-        "text": "Não. É vedado o corte de serviço essencial por débitos pretéritos/consolidados (Súmula/jurisprudência pacífica do STJ — só cabe corte por débito atual mediante aviso prévio); e, quanto a serviços públicos essenciais prestados a unidades públicas essenciais (como hospitais e escolas), o corte não pode atingir a continuidade dos serviços indispensáveis à população."
+        "text": "Não, é vedado o corte de serviço essencial por débitos pretéritos/consolidados; e, quanto a serviços públicos essenciais prestados a unidades públicas essenciais, o corte não pode atingir a continuidade dos serviços indispensáveis à população."
       },
       {
         "letter": "C",
-        "text": "A continuidade do serviço público proíbe que a concessionária suspenda fornecimento mesmo ao consumidor particular que deixe de pagar a fatura atual após aviso prévio."
+        "text": "A continuidade do serviço público proíbe que a concessionária suspenda fornecimento mesmo ao consumidor particular que deixe de pagar a fatura atual após aviso prévio, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "O usuário tem direito de exigir o corte às sextas-feiras para economia, podendo a concessionária realizar a suspensão aos sábados por inadimplência."
+        "text": "O usuário tem direito de exigir o corte às sextas-feiras para economia, podendo a concessionária realizar a suspensão aos sábados por inadimplência, mediante exercício regular do poder discricionário vinculado à finalidade administrativa primária."
       }
     ],
     "correctAnswer": "B",
@@ -2788,19 +2788,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Com a OS celebra-se termo de parceria, e com a OSCIP celebra-se contrato de gestão."
+        "text": "Com a OS celebra-se termo de parceria, e com a OSCIP celebra-se contrato de gestão, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "B",
-        "text": "Com a Organização Social (OS) celebra-se CONTRATO DE GESTÃO (Lei 9.637/98); com a Organização da Sociedade Civil (OSC) no Marco Regulatório do Terceiro Setor (Lei 13.019/14), celebra-se TERMO DE COLABORAÇÃO (proposto pela Administração) ou TERMO DE FOMENTO (proposto pela OSC)."
+        "text": "Com a Organização Social (OS) celebra-se contrato de gestão; com a Organização da Sociedade Civil (osc) no Marco Regulatório do Terceiro Setor, celebra-se termo de colaboração ou termo de fomento (proposto pela osc)."
       },
       {
         "letter": "C",
-        "text": "As entidades do Terceiro Setor (OS, OSCIP, Sistema S) integram a Administração Pública Indireta."
+        "text": "As entidades do Terceiro Setor (OS, OSCIP, Sistema S) integram a Administração Pública Indireta. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "D",
-        "text": "A contratação de OS para execução de atividades contempladas no contrato de gestão exige concorrência pública obrigatória."
+        "text": "A contratação de OS para execução de atividades contempladas no contrato de gestão exige concorrência pública obrigatória, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público."
       }
     ],
     "correctAnswer": "B",
@@ -2843,19 +2843,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo recursal é de 15 dias úteis, e a reformatio in pejus é proibida em qualquer recurso administrativo."
+        "text": "O prazo recursal é de 15 dias úteis, e a reformatio in pejus é proibida em qualquer recurso administrativo, sob pena de nulidade absoluta do procedimento administrativo e apuração funcional da autoridade."
       },
       {
         "letter": "B",
-        "text": "O prazo geral para recurso administrativo é de 10 dias (Art. 59) — salvo disposição específica —, sendo POSSÍVEL a reformatio in pejus (agravamento da situação do recorrente) no recurso administrativo, desde que o interessado seja previamente cientificado para formular suas alegações antes da decisão (Art. 64, parágrafo único); diversamente, na REVISÃO administrativa (Art. 65) a reformatio in pejus é expressamente vedada."
+        "text": "O prazo geral para recurso administrativo é de 10 dias; diversamente, na revisão administrativa a reformatio in pejus é expressamente vedada."
       },
       {
         "letter": "C",
-        "text": "O recurso administrativo na Lei 9.784/99 tem efeito suspensivo automático como regra geral."
+        "text": "O recurso administrativo na Lei 9.784/99 tem efeito suspensivo automático como regra geral, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "D",
-        "text": "É obrigatório o depósito prévio do valor da multa para a admissibilidade do recurso administrativo."
+        "text": "É obrigatório o depósito prévio do valor da multa para a admissibilidade do recurso administrativo, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "B",
@@ -2899,19 +2899,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, a pessoa jurídica só responde se comprovado dolo específico do seu conselho de administração."
+        "text": "Sim, a pessoa jurídica só responde se comprovado dolo específico do seu conselho de administração, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "B",
-        "text": "Não. A Lei nº 12.846/2013 estabelece a responsabilidade OBJETIVA administrativa e civil das pessoas jurídicas pela prática de atos contra a administração pública nacional ou estrangeira praticados em seu interesse ou benefício, exclusivo ou não (sem prejuízo da responsabilidade subjetiva individual de seus dirigentes)."
+        "text": "Não, a Lei nº 12.846/2013 estabelece a responsabilidade objetiva administrativa e civil das pessoas jurídicas pela prática de atos contra a administração pública nacional ou estrangeira praticados em seu interesse ou benefício, exclusivo ou não."
       },
       {
         "letter": "C",
-        "text": "A celebração de acordo de leniência isenta a empresa integralmente da obrigação de reparar o dano causado ao erário."
+        "text": "A celebração de acordo de leniência isenta a empresa integralmente da obrigação de reparar o dano causado ao erário, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "D",
-        "text": "As sanções administrativas incluem multa de até 5% do lucro líquido, não existindo publicação extraordinária da decisão."
+        "text": "As sanções administrativas incluem multa de até 5% do lucro líquido, não existindo publicação extraordinária da decisão, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       }
     ],
     "correctAnswer": "B",
@@ -2954,19 +2954,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o princípio da inafastabilidade da jurisdição permite ao juiz rever livremente a conveniência administrativa."
+        "text": "Sim, pois o princípio da inafastabilidade da jurisdição permite ao juiz rever livremente a conveniência administrativa. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "Não. O Poder Judiciário exerce controle de LEGALIDADE (incluindo razoabilidade, proporcionalidade, motivação e desvio de finalidade) sobre atos vinculados e discricionários, mas não pode substituir o administrador no mérito administrativo legítimo (conveniência e oportunidade dentro dos limites legais)."
+        "text": "Não, o Poder Judiciário exerce controle de legalidade sobre atos vinculados e discricionários, mas não pode substituir o administrador no mérito administrativo legítimo."
       },
       {
         "letter": "C",
-        "text": "Atos discricionários são absolutamente imunes a qualquer espécie de controle judicial."
+        "text": "Atos discricionários são absolutamente imunes a qualquer espécie de controle judicial, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "O controle legislativo externo é exercido pelo Senado Federal diretamente sem auxílio do Tribunal de Contas."
+        "text": "O controle legislativo externo é exercido pelo Senado Federal diretamente sem auxílio do Tribunal de Contas, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       }
     ],
     "correctAnswer": "B",
@@ -3009,19 +3009,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O consórcio público deve obrigatoriamente ter personalidade de direito privado, nunca integrando a Administração Indireta."
+        "text": "O consórcio público deve obrigatoriamente ter personalidade de direito privado, nunca integrando a Administração Indireta, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       },
       {
         "letter": "B",
-        "text": "O consórcio público pode constituir associação pública (pessoa jurídica de direito público que integra a Administração Indireta de todos os entes consorciados) ou pessoa jurídica de direito privado sem fins econômicos, exigindo sempre a ratificação do protocolo de intenções por LEI de cada ente federativo participante."
+        "text": "O consórcio público pode constituir associação pública ou pessoa jurídica de direito privado sem fins econômicos, exigindo sempre a ratificação do protocolo de intenções por lei de cada ente federativo participante."
       },
       {
         "letter": "C",
-        "text": "A União pode participar de consórcio público diretamente com Municípios, independentemente da participação do respectivo Estado."
+        "text": "A União pode participar de consórcio público diretamente com Municípios, independentemente da participação do respectivo Estado, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público."
       },
       {
         "letter": "D",
-        "text": "O protocolo de intenções dispensa ratificação legislativa pelas Câmaras Municipais."
+        "text": "O protocolo de intenções dispensa ratificação legislativa pelas Câmaras Municipais, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       }
     ],
     "correctAnswer": "B",
@@ -3064,19 +3064,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As estatais exploradoras de atividade econômica estão submetidas integralmente à Lei nº 14.133/2021."
+        "text": "As estatais exploradoras de atividade econômica estão submetidas integralmente à Lei nº 14.133/2021, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "B",
-        "text": "Aplica-se o regime próprio de licitações e contratos da Lei nº 13.303/2016 (com dispensas por valor diferenciadas e contratos regidos predominantemente pelo direito privado, com prazo máximo geral de 5 anos, salvo exceções), e seu pessoal submete-se ao regime celetista mediante concurso público, dispensando motivação em ato formal? Não — pelo STF, a dispensa de empregado de estatal exige motivação simplificada (Tema 1022)."
+        "text": "Aplica-se o regime próprio de licitações e contratos da Lei nº 13.303/2016, e seu pessoal submete-se ao regime celetista mediante concurso público, dispensando motivação em ato formal. Não."
       },
       {
         "letter": "C",
-        "text": "Os bens de empresa pública exploradora de atividade econômica em regime de concorrência gozam de imunidade tributária recíproca e regime de precatórios."
+        "text": "Os bens de empresa pública exploradora de atividade econômica em regime de concorrência gozam de imunidade tributária recíproca e regime de precatórios, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "D",
-        "text": "A dispensa sem justa causa de empregado concursado de empresa pública ou SEM dispensa totalmente qualquer indicação de motivo (STF Tema 1022)."
+        "text": "A dispensa sem justa causa de empregado concursado de empresa pública ou sem dispensa totalmente qualquer indicação de motivo (STF Tema 1022), sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "B",
@@ -3120,19 +3120,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Excesso de poder, pois o agente extrapolou os limites de sua competência legal."
+        "text": "Excesso de poder, pois o agente extrapolou os limites de sua competência legal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "Desvio de poder (ou desvio de finalidade), pois o agente atuou dentro de sua competência formal para remover servidores, mas buscou finalidade diversa do interesse público (perseguição/vingança pessoal), gerando nulidade absoluta insanável."
+        "text": "Desvio de poder, pois o agente atuou dentro de sua competência formal para remover servidores, mas buscou finalidade diversa do interesse público, gerando nulidade absoluta insanável."
       },
       {
         "letter": "C",
-        "text": "O ato é meramente anulável e pode ser convalidado pelo Governador do Estado."
+        "text": "O ato é meramente anulável e pode ser convalidado pelo Governador do Estado, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "D",
-        "text": "O desvio de poder só configura ilicitude se houver dano financeiro direto ao erário."
+        "text": "O desvio de poder só configura ilicitude se houver dano financeiro direto ao erário, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "B",
@@ -3175,19 +3175,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, a ausência de advogado ou defensor dativo bacharel em direito torna o PAD absolutamente nulo."
+        "text": "Sim, a ausência de advogado ou defensor dativo bacharel em direito torna o pad absolutamente nulo, sem possibilidade de convalidação posterior do ato administrativo por ausência de previsão regulamentar."
       },
       {
         "letter": "B",
-        "text": "Não. Conforme a Súmula Vinculante nº 5 do STF, a falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição; além disso, é válida a instauração de PAD com base em denúncia anônima desde que devidamente motivada e precedida de investigação sumária (Súmula 611 STJ)."
+        "text": "Não, a falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição; além disso, é válida a instauração de pad com base em denúncia anônima desde que devidamente motivada e precedida de investigação sumária."
       },
       {
         "letter": "C",
-        "text": "É nula qualquer apuração disciplinar originada a partir de denúncia anônima, mesmo que haja diligências preliminares."
+        "text": "É nula qualquer apuração disciplinar originada a partir de denúncia anônima, mesmo que haja diligências preliminares, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "D",
-        "text": "A comissão processante aplica diretamente a pena de demissão e a autoridade superior apenas homologa."
+        "text": "A comissão processante aplica diretamente a pena de demissão e a autoridade superior apenas homologa, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       }
     ],
     "correctAnswer": "B",
@@ -3231,19 +3231,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Da data exata da prática da infração disciplinar (2018), independentemente da ciência da Administração."
+        "text": "Da data exata da prática da infração disciplinar (2018), independentemente da ciência da Administração, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "Da data em que o fato se tornou CONHECIDO pela autoridade competente para instaurar o processo administrativo disciplinar (2021), sendo de 5 anos o prazo para demissão/cassação e de 2 anos para suspensão (Súmula 635 STJ e Art. 142, § 1º, Lei 8.112/90)."
+        "text": "Da data em que o fato se tornou conhecido pela autoridade competente para instaurar o processo administrativo disciplinar (2021), sendo de 5 anos o prazo para demissão/cassação e de 2 anos para suspensão."
       },
       {
         "letter": "C",
-        "text": "A instauração de sindicância investigativa meramente preparatória interrompe o prazo prescricional indefinidamente."
+        "text": "A instauração de sindicância investigativa meramente preparatória interrompe o prazo prescricional indefinidamente, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "Se a infração disciplinar também constituir crime, aplica-se sempre o prazo fixo de 5 anos."
+        "text": "Se a infração disciplinar também constituir crime, aplica-se sempre o prazo fixo de 5 anos, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       }
     ],
     "correctAnswer": "B",
@@ -3287,19 +3287,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para o cidadão anular ato lesivo ao patrimônio público ou moralidade administrativa cabe AÇÃO POPULAR (Art. 5º, LXXIII — exclusiva de cidadão/eleitor, isenta de custas salvo má-fé); para a empresa inabilitada no certame há 60 dias cabe MANDADO DE SEGURANÇA (direito líquido e certo, prazo decadencial de 120 dias)."
+        "text": "Para o cidadão anular ato lesivo ao patrimônio público ou moralidade administrativa cabe ação popular; para a empresa inabilitada no certame há 60 dias cabe mandado de segurança."
       },
       {
         "letter": "B",
-        "text": "A empresa pode ajuizar Ação Popular por ser contribuinte de tributos municipais."
+        "text": "A empresa pode ajuizar Ação Popular por ser contribuinte de tributos municipais, sem necessidade de prévia autorização judicial ou instauração de procedimento contraditório específico. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "C",
-        "text": "O cidadão tem prazo decadencial de 120 dias para propor Ação Popular contra o contrato lesivo."
+        "text": "O cidadão tem prazo decadencial de 120 dias para propor Ação Popular contra o contrato lesivo, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "A Ação Popular exige demonstração concreta de dano patrimonial financeiro, não cabendo apenas por ofensa à moralidade administrativa."
+        "text": "A Ação Popular exige demonstração concreta de dano patrimonial financeiro, não cabendo apenas por ofensa à moralidade administrativa, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "A",
@@ -3343,19 +3343,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para a festa de um dia no interesse predominante do particular cabe AUTORIZAÇÃO de uso de bem público (ato unilateral, precário e discricionário sem licitação); para o restaurante com investimento elevado e prazo determinado de 15 anos cabe CONCESSÃO de uso de bem público (contrato administrativo bilateral precedido de licitação)."
+        "text": "Para a festa de um dia no interesse predominante do particular cabe autorização de uso de bem público."
       },
       {
         "letter": "B",
-        "text": "Ambos devem ser formalizados por autorização de uso por se tratar de bens de uso comum."
+        "text": "Ambos devem ser formalizados por autorização de uso por se tratar de bens de uso comum, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "A permissão de uso de bem público confere direito subjetivo à indenização caso revogada a qualquer tempo."
+        "text": "A permissão de uso de bem público confere direito subjetivo à indenização caso revogada a qualquer tempo, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "Concessão de direito real de uso não transfere qualquer direito real resolúvel sobre o terreno público."
+        "text": "Concessão de direito real de uso não transfere qualquer direito real resolúvel sobre o terreno público, sob pena de nulidade absoluta do procedimento administrativo e apuração funcional da autoridade."
       }
     ],
     "correctAnswer": "A",
@@ -3398,19 +3398,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O STF decidiu que a necessidade de comprovação de responsabilidade subjetiva para a tipificação dos atos de improbidade administrativa (exigência de dolo) aplica-se aos processos em curso sem trânsito em julgado, mas NÃO retroage para rescindir condenações definitivas já transitadas em julgado; e o novo regime prescricional é irretroativo."
+        "text": "O STF decidiu que a necessidade de comprovação de responsabilidade subjetiva para a tipificação dos atos de improbidade administrativa (exigência de dolo) aplica-se aos processos em curso sem trânsito em julgado, mas não retroage para rescindir condenações definitivas já transitadas em julgado."
       },
       {
         "letter": "B",
-        "text": "O STF determinou a retroatividade irrestrita inclusive para desconstituir ações já transitadas em julgado com base no Art. 5º, XL, da CF."
+        "text": "O STF determinou a retroatividade irrestrita inclusive para desconstituir ações já transitadas em julgado, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "C",
-        "text": "A Lei 14.230/2021 não se aplica sequer aos processos em curso sem condenação definitiva."
+        "text": "A Lei 14.230/2021 não se aplica sequer aos processos em curso sem condenação definitiva, em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita."
       },
       {
         "letter": "D",
-        "text": "Os novos prazos de prescrição geral (8 anos) e intercorrente (4 anos) retroagem para extinguir todas as ações ajuizadas antes de 2021."
+        "text": "Os novos prazos de prescrição geral (8 anos) e intercorrente (4 anos) retroagem para extinguir todas as ações ajuizadas antes de 2021, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       }
     ],
     "correctAnswer": "A",
@@ -3454,19 +3454,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não. Pelo Art. 7º, III, e Art. 23 da LGPD, a Administração Pública pode tratar e compartilhar dados pessoais independentemente de consentimento do titular quando necessário para o cumprimento de obrigação legal ou execução de políticas públicas previstas em leis, regulamentos ou respaldadas em contratos/convênios, devendo indicar encarregado (DPO) e dar publicidade às hipóteses."
+        "text": "Não, e Art. 23 da LGPD, a Administração Pública pode tratar e compartilhar dados pessoais independentemente de consentimento do titular quando necessário para o cumprimento de obrigação legal ou execução de políticas públicas previstas em leis, regulamentos ou respaldadas em contratos/convênios, devendo indicar encarregado (dpo) e dar publicidade às hipóteses."
       },
       {
         "letter": "B",
-        "text": "Sim, a LGPD exige consentimento prévio escrito de todos os cidadãos em qualquer política pública."
+        "text": "Sim, a LGPD exige consentimento prévio escrito de todos os cidadãos em qualquer política pública, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "C",
-        "text": "O Poder Público está totalmente excluído da aplicação da LGPD por força do princípio da supremacia do interesse público."
+        "text": "O Poder Público está totalmente excluído da aplicação da LGPD por força do princípio da supremacia do interesse público, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "D",
-        "text": "Dados pessoais tratados pelo Poder Público podem ser transferidos livremente a empresas privadas de marketing para geração de receita."
+        "text": "Dados pessoais tratados pelo Poder Público podem ser transferidos livremente a empresas privadas de marketing para geração de receita, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "A",
@@ -3509,19 +3509,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim. Conforme fixado pelo STF no RE 591.874 (Tema 130), a responsabilidade civil das pessoas jurídicas de direito privado prestadoras de serviço público é OBJETIVA relativamente a terceiros usuários E não usuários do serviço."
+        "text": "Sim, conforme fixado pelo STF no RE 591.874, a responsabilidade civil das pessoas jurídicas de direito privado prestadoras de serviço público é objetiva relativamente a terceiros usuários e não usuários do serviço."
       },
       {
         "letter": "B",
-        "text": "Não, pois em relação a terceiros não usuários a concessionária responde de forma subjetiva (mediante prova de culpa do motorista)."
+        "text": "Não, pois em relação a terceiros não usuários a concessionária responde de forma subjetiva (mediante prova de culpa do motorista). Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "C",
-        "text": "Responde diretamente o Município concedente como devedor solidário principal, sem necessidade de demandar a concessionária."
+        "text": "Responde diretamente o Município concedente como devedor solidário principal, sem necessidade de demandar a concessionária, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "As empresas exploradoras de atividade econômica (como bancos estatais) também respondem pelo Art. 37, § 6º, da CF/88."
+        "text": "As empresas exploradoras de atividade econômica (como bancos estatais) também respondem, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "A",
@@ -3565,19 +3565,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O recuo obrigatório geral e abstrato configura LIMITAÇÃO ADMINISTRATIVA (em regra não indenizável); a invasão física fática pelo Poder Público sem procedimento expropriatório configurando perda da posse/propriedade é DESAPROPRIAÇÃO INDIRETA (gera ação de indenização com prazo prescricional de 10 anos pela Súmula 119 STJ e Tema 1019 STJ)."
+        "text": "O recuo obrigatório geral e abstrato configura limitação administrativa; a invasão física fática pelo Poder Público sem procedimento expropriatório configurando perda da posse/propriedade é desapropriação indireta."
       },
       {
         "letter": "B",
-        "text": "O recuo de 4 metros exige indenização prévia por desapropriação parcial."
+        "text": "O recuo de 4 metros exige indenização prévia por desapropriação parcial, mediante exercício regular do poder discricionário vinculado à finalidade administrativa primária. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "C",
-        "text": "Na desapropriação indireta, o proprietário pode exigir a reintegração de posse demolindo a avenida pública construída."
+        "text": "Na desapropriação indireta, o proprietário pode exigir a reintegração de posse demolindo a avenida pública construída, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público."
       },
       {
         "letter": "D",
-        "text": "A ação de desapropriação indireta prescreve em 5 anos por força do Decreto 20.910/1932."
+        "text": "A ação de desapropriação indireta prescreve em 5 anos por força do Decreto 20.910/1932, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       }
     ],
     "correctAnswer": "A",
@@ -3621,19 +3621,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não sendo possível conceder acesso imediato, o órgão tem prazo não superior a 20 dias (prorrogável por mais 10 dias mediante justificativa expressa); quanto às informações sigilosas, os prazos máximos de restrição são 25 anos (ultrassecreta, renovável uma única vez), 15 anos (secreta) e 5 anos (reservada)."
+        "text": "Não sendo possível conceder acesso imediato, o órgão tem prazo não superior a 20 dias; quanto às informações sigilosas, os prazos máximos de restrição são 25 anos, 15 anos (secreta) e 5 anos (reservada)."
       },
       {
         "letter": "B",
-        "text": "O prazo de resposta é de 30 dias prorrogável por 30, e a classificação ultrassecreta dura 50 anos."
+        "text": "O prazo de resposta é de 30 dias prorrogável por 30, e a classificação ultrassecreta dura 50 anos, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "C",
-        "text": "Documentos que tratem de condutas que impliquem violação dos direitos humanos por agentes públicos podem ser classificados como ultrassecretos por 25 anos."
+        "text": "Documentos que tratem de condutas que impliquem violação dos direitos humanos por agentes públicos podem ser classificados como ultrassecretos por 25 anos, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "O pedido de acesso à informação exige que o cidadão justifique os motivos determinantes de sua solicitação."
+        "text": "O pedido de acesso à informação exige que o cidadão justifique os motivos determinantes de sua solicitação, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       }
     ],
     "correctAnswer": "A",
@@ -3676,19 +3676,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não. Trata-se de agente de fato PUTATIVO (investidura aparente com vício oculto): pela teoria da aparência e segurança jurídica, os atos praticados perante terceiros de boa-fé são mantidos válidos em relação aos administrados, embora o agente perca o vínculo e responda pelos ilícitos."
+        "text": "Não, trata-se de agente de fato putativo: pela teoria da aparência e segurança jurídica, os atos praticados perante terceiros de boa-fé são mantidos válidos em relação aos administrados, embora o agente perca o vínculo e responda pelos ilícitos."
       },
       {
         "letter": "B",
-        "text": "Sim, todos os atos assinados por agente com investidura viciada são inexistentes e prejudicam terceiros."
+        "text": "Sim, todos os atos assinados por agente com investidura viciada são inexistentes e prejudicam terceiros, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "C",
-        "text": "O agente putativo adquire direito subjetivo à efetivação no cargo após 2 anos de exercício irregular."
+        "text": "O agente putativo adquire direito subjetivo à efetivação no cargo após 2 anos de exercício irregular, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "D",
-        "text": "Agente de fato necessário é o particular que usurpa cargo público por fraude para obter vantagem financeira."
+        "text": "Agente de fato necessário é o particular que usurpa cargo público por fraude para obter vantagem financeira, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "A",
@@ -3731,19 +3731,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A nomeação do irmão para cargo em comissão meramente administrativo viola frontalmente a Súmula Vinculante nº 13 (nepotismo até 3º grau, inclusive cruzado); já a nomeação da esposa para o cargo POLÍTICO de Secretária de Estado não é alcançada automaticamente pela SV 13, desde que possua qualificação técnica e não haja fraude ou troca de favores (STF Rcl 29.033 / Tema 1000)."
+        "text": "A nomeação do irmão para cargo em comissão meramente administrativo viola frontalmente a Súmula Vinculante nº 13."
       },
       {
         "letter": "B",
-        "text": "Ambas violam igualmente a Súmula Vinculante nº 13 sem exceção para cargos de Secretário de Estado."
+        "text": "Ambas violam igualmente a Súmula Vinculante nº 13 sem exceção para cargos de Secretário de Estado, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "C",
-        "text": "Irmão é parente de 3º grau, mas a Súmula Vinculante 13 restringe-se apenas ao cônjuge e parentes até o 2º grau."
+        "text": "Irmão é parente de 3º grau, mas a Súmula Vinculante 13 restringe-se apenas ao cônjuge e parentes até o 2º grau, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "D",
-        "text": "A proibição do nepotismo aplica-se também quando o parente foi aprovado em concurso público para cargo efetivo."
+        "text": "A proibição do nepotismo aplica-se também quando o parente foi aprovado em concurso público para cargo efetivo, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       }
     ],
     "correctAnswer": "A",
@@ -3787,19 +3787,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A coleta domiciliar de lixo (serviço público específico, divisível e de utilização compulsória, ainda que potencial) é remunerada por TAXA (tributo submetido à legalidade e anterioridade — Súmula Vinculante 19); já o serviço de água e esgoto prestado por concessionária (utilização efetiva e contratual) é remunerado por TARIFA / PREÇO PÚBLICO (Súmula 545 STF e STF RE 518.256), não se sujeitando à anterioridade tributária."
+        "text": "A coleta domiciliar de lixo é remunerada por taxa; já o serviço de água e esgoto prestado por concessionária é remunerado por tarifa / preço público, não se sujeitando à anterioridade tributária."
       },
       {
         "letter": "B",
-        "text": "Tanto a coleta de lixo quanto o fornecimento de água tratada possuem natureza tributária de taxa."
+        "text": "Tanto a coleta de lixo quanto o fornecimento de água tratada possuem natureza tributária de taxa, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "C",
-        "text": "A taxa de iluminação pública é constitucional por se tratar de serviço específico e divisível."
+        "text": "A taxa de iluminação pública é constitucional por se tratar de serviço específico e divisível, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "Taxa de incêndio estadual instituída para custear o Corpo de Bombeiros é considerada constitucional pelo STF."
+        "text": "Taxa de incêndio estadual instituída para custear o Corpo de Bombeiros é considerada constitucional pelo STF, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "A",
@@ -3843,19 +3843,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois todos os conselhos profissionais são entidades privadas do Terceiro Setor."
+        "text": "Sim, pois todos os conselhos profissionais são entidades privadas do Terceiro Setor. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "B",
-        "text": "A OAB também integra a Administração Indireta como autarquia submetida ao TCU e ao concurso público."
+        "text": "A OAB também integra a Administração Indireta como autarquia submetida ao TCU e ao concurso público, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "C",
-        "text": "Os bens dos conselhos profissionais são penhoráveis como bens privados comuns sem prerrogativas."
+        "text": "Os bens dos conselhos profissionais são penhoráveis como bens privados comuns sem prerrogativas, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "D",
-        "text": "Não. O STF (ADI 1717) decidiu que os conselhos de fiscalização profissional têm natureza jurídica de AUTARQUIAS corporativas (exercem poder de polícia típico de Estado), submetendo-se ao controle do TCU e à exigência de prévia seleção pública impessoal/concurso público, ainda que sob regime celetista (ADC 36 / Tema 1054), com exceção exclusiva da OAB (ADI 3026)."
+        "text": "Não, o STF decidiu que os conselhos de fiscalização profissional têm natureza jurídica de autarquias corporativas, submetendo-se ao controle do TCU e à exigência de prévia seleção pública impessoal/concurso público, ainda que sob regime celetista, com exceção exclusiva da OAB."
       }
     ],
     "correctAnswer": "D",
@@ -3899,19 +3899,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A expropriação é de responsabilidade objetiva absoluta, não podendo o dono provar ausência de culpa em nenhuma hipótese."
+        "text": "A expropriação é de responsabilidade objetiva absoluta, não podendo o dono provar ausência de culpa em nenhuma hipótese, em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita."
       },
       {
         "letter": "B",
-        "text": "A perda limita-se estritamente aos metros quadrados efetivamente cultivados, preservando o restante da propriedade."
+        "text": "A perda limita-se estritamente aos metros quadrados efetivamente cultivados, preservando o restante da propriedade, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "O ex-proprietário faz jus à indenização das benfeitorias úteis e necessárias em títulos da dívida agrária."
+        "text": "O ex-proprietário faz jus à indenização das benfeitorias úteis e necessárias em títulos da dívida agrária, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "D",
-        "text": "A expropriação prevista no Art. 243 da Constituição Federal (culturas ilegais de plantas psicotrópicas ou exploração de trabalho escravo) exige responsabilidade SUBJETIVA do proprietário (culpa in vigilando/omissão culposa), sendo possível afastar o confisco apenas se o dono comprovar que não incorreu em culpa de qualquer espécie; além disso, a perda atinge a totalidade do imóvel, e não apenas a área plantada."
+        "text": "A expropriação exige responsabilidade subjetiva do proprietário, sendo possível afastar o confisco apenas se o dono comprovar que não incorreu em culpa de qualquer espécie."
       }
     ],
     "correctAnswer": "D",
@@ -3955,19 +3955,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cabe indenização objetiva em ambos os casos porque o Art. 37, § 6º, abrange qualquer dano decorrente de lei."
+        "text": "Cabe indenização objetiva em ambos os casos porque o Art. 37, § 6º, abrange qualquer dano decorrente de lei. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "O erro judiciário cível comum por divergência interpretativa do juiz gera automaticamente responsabilidade objetiva do Estado."
+        "text": "O erro judiciário cível comum por divergência interpretativa do juiz gera automaticamente responsabilidade objetiva do Estado, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "C",
-        "text": "As leis declaradas inconstitucionais pelo STF nunca ensejam dever de indenizar os danos concretos comprovados."
+        "text": "As leis declaradas inconstitucionais pelo STF nunca ensejam dever de indenizar os danos concretos comprovados, sem possibilidade de convalidação posterior do ato administrativo por ausência de previsão regulamentar."
       },
       {
         "letter": "D",
-        "text": "Cabe indenização do Estado exclusivamente na primeira hipótese (erro judiciário penal ou prisão além do tempo fixado na sentença — Art. 5º, LXXV, da CF/88); atos legislativos típicos e constitucionais não geram responsabilidade civil estatal, salvo leis declaradas inconstitucionais pelo STF ou leis de efeitos concretos lesivas."
+        "text": "Cabe indenização do Estado exclusivamente na primeira hipótese; atos legislativos típicos e constitucionais não geram responsabilidade civil estatal, salvo leis declaradas inconstitucionais pelo STF ou leis de efeitos concretos lesivas."
       }
     ],
     "correctAnswer": "D",
@@ -4010,19 +4010,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Administração tem prazo de 10 dias improrrogáveis para decidir, e o silêncio implica deferimento automático do pedido."
+        "text": "A Administração tem prazo de 10 dias improrrogáveis para decidir, e o silêncio implica deferimento automático do pedido, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "B",
-        "text": "A Administração não possui prazo legal para responder requerimentos, sujeitando-se apenas à discricionariedade de pauta."
+        "text": "A Administração não possui prazo legal para responder requerimentos, sujeitando-se apenas à discricionariedade de pauta, em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita."
       },
       {
         "letter": "C",
-        "text": "Em mandado de segurança contra mora administrativa, o juiz já concede o mérito do pedido administrativo diretamente em regra."
+        "text": "Em mandado de segurança contra mora administrativa, o juiz já concede o mérito do pedido administrativo diretamente em regra, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "Concluída a instrução, a Administração tem prazo de até 30 dias para decidir, salvo prorrogação por igual período expressamente motivada (Art. 49); diante da omissão injustificada após o prazo, cabe impetração de Mandado de Segurança para compelir a autoridade a decidir."
+        "text": "Concluída a instrução, a Administração tem prazo de até 30 dias para decidir, salvo prorrogação por igual período expressamente motivada."
       }
     ],
     "correctAnswer": "D",
@@ -4065,19 +4065,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque a Constituição exige alvará prévio municipal para qualquer estabelecimento comercial ou de serviços, ainda que de baixo risco."
+        "text": "Não, porque a Constituição exige alvará prévio municipal para qualquer estabelecimento comercial ou de serviços, ainda que de baixo risco. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "B",
-        "text": "A dispensa aplica-se apenas a indústrias de grande porte registradas na junta comercial federal."
+        "text": "A dispensa aplica-se apenas a indústrias de grande porte registradas na junta comercial federal, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "C",
-        "text": "A aprovação tácita por decurso de prazo aplica-se inclusive para licenciamento ambiental de atividades de alto impacto."
+        "text": "A aprovação tácita por decurso de prazo aplica-se inclusive para licenciamento ambiental de atividades de alto impacto, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "Sim. O Art. 3º, I, da Lei nº 13.874/2019 assegura como direito de toda pessoa desenvolver atividade econômica de baixo risco, para a qual se valha exclusivamente de propriedade privada própria ou de terceiros consensuais, sem a necessidade de quaisquer atos públicos de liberação da atividade econômica."
+        "text": "Sim, a legislação aplicável assegura como direito de toda pessoa desenvolver atividade econômica de baixo risco, para a qual se valha exclusivamente de propriedade privada própria ou de terceiros consensuais, sem a necessidade de quaisquer atos públicos de liberação da atividade econômica."
       }
     ],
     "correctAnswer": "D",
@@ -4120,19 +4120,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o Art. 175 permite autorização direta sem licitação para transporte coletivo municipal."
+        "text": "Sim, pois a legislação aplicável permite autorização direta sem licitação para transporte coletivo municipal. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "B",
-        "text": "A permissão de serviço público na Lei 8.987/95 não possui natureza contratual e dispensa licitação."
+        "text": "A permissão de serviço público na Lei 8.987/95 não possui natureza contratual e dispensa licitação, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "A concessão de serviço público pode ser contratada por prazo indeterminado para garantir amortização."
+        "text": "A concessão de serviço público pode ser contratada por prazo indeterminado para garantir amortização, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "Não. Pelo Art. 175 da CF/88, incumbe ao Poder Público a prestação de serviços públicos, sempre através de LICITAÇÃO, na forma da lei, sob regime de CONCESSÃO ou PERMISSÃO (contratos de adesão, segundo o Art. 40 da Lei 8.987/95)."
+        "text": "Não, incumbe ao Poder Público a prestação de serviços públicos, sempre através de licitação, na forma da lei, sob regime de concessão ou permissão."
       }
     ],
     "correctAnswer": "D",
@@ -4175,11 +4175,11 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O limite máximo absoluto da garantia continua sendo sempre de 5%, mesmo em obras de grande vulto."
+        "text": "O limite máximo absoluto da garantia continua sendo sempre de 5%, mesmo em obras de grande vulto, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "B",
-        "text": "A escolha da modalidade de garantia (caução, seguro-garantia ou fiança bancária) compete exclusivamente à Administração Pública."
+        "text": "A escolha da modalidade de garantia (caução, seguro-garantia ou fiança bancária) compete exclusivamente à Administração Pública, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "C",
@@ -4187,7 +4187,7 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Até 30% do valor inicial do contrato (cláusula de retomada prevista no Art. 99 e Art. 102 da Lei nº 14.133/2021), sendo a regra geral das garantias de até 5% (elevável a até 10% nos contratos de grande complexidade/risco financeiro)."
+        "text": "Até 30% do valor inicial do contrato, sendo a regra geral das garantias de até 5% (elevável a até 10% nos contratos de grande complexidade/risco financeiro)."
       }
     ],
     "correctAnswer": "D",
@@ -4230,19 +4230,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois qualquer divergência interpretativa da lei pelo gestor gera sua responsabilização pessoal objetiva."
+        "text": "Sim, pois qualquer divergência interpretativa da lei pelo gestor gera sua responsabilização pessoal objetiva. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "Ao invalidar contrato ou ato administrativo, o juiz ou órgão de controle é proibido de modular efeitos ou estabelecer regime de transição."
+        "text": "Ao invalidar contrato ou ato administrativo, o juiz ou órgão de controle é proibido de modular efeitos ou estabelecer regime de transição, sob pena de nulidade absoluta do procedimento administrativo e apuração funcional da autoridade."
       },
       {
         "letter": "C",
-        "text": "Os precedentes e súmulas administrativas internas vinculam apenas o particular, jamais os órgãos públicos que os editaram."
+        "text": "Os precedentes e súmulas administrativas internas vinculam apenas o particular, jamais os órgãos públicos que os editaram, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       },
       {
         "letter": "D",
-        "text": "Não procede. O Art. 20 da LINDB veda decisões nas esferas administrativa, controladora e judicial baseadas exclusivamente em valores jurídicos abstratos sem considerar as consequências práticas da decisão; o Art. 22 exige considerar os obstáculos e dificuldades reais do gestor; e o Art. 28 só responsabiliza pessoalmente o agente público em caso de DOLO ou ERRO GROSSEIRO."
+        "text": "Não procede. a legislação aplicável veda decisões nas esferas administrativa, controladora e judicial baseadas exclusivamente em valores jurídicos abstratos sem considerar as consequências práticas da decisão."
       }
     ],
     "correctAnswer": "D",
@@ -4285,19 +4285,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nenhuma entidade federativa pode desapropriar bens públicos de outro ente em razão da autonomia federativa."
+        "text": "Nenhuma entidade federativa pode desapropriar bens públicos de outro ente em razão da autonomia federativa, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público."
       },
       {
         "letter": "B",
-        "text": "O Município pode desapropriar imóvel estadual se demonstrar interesse local mais relevante e tiver lei municipal."
+        "text": "O Município pode desapropriar imóvel estadual se demonstrar interesse local mais relevante e tiver lei municipal, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "A União pode desapropriar bens dos Estados mediante simples decreto presidencial sem autorização legislativa."
+        "text": "A União pode desapropriar bens dos Estados mediante simples decreto presidencial sem autorização legislativa, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "D",
-        "text": "Apenas a desapropriação do bem do Município pelo Estado é permitida (mediante autorização legislativa prévia do Poder Legislativo expropriante — ordem descendente: União -> Estados/DF -> Municípios); o Município NÃO pode desapropriar bem do Estado nem da União."
+        "text": "Apenas a desapropriação do bem do Município pelo Estado é permitida; o Município não pode desapropriar bem do Estado nem da União."
       }
     ],
     "correctAnswer": "D",
@@ -4340,19 +4340,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois todos os atributos do ato administrativo — inclusive autoexecutoriedade — aplicam-se à cobrança de multas."
+        "text": "Sim, pois todos os atributos do ato administrativo — aplicam-se à cobrança de multas. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "B",
-        "text": "A apreensão de alimentos estragados é nula porque nenhum ato de polícia administrativa goza de autoexecutoriedade."
+        "text": "A apreensão de alimentos estragados é nula porque nenhum ato de polícia administrativa goza de autoexecutoriedade. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "C",
-        "text": "A imperatividade está presente em todos os atos administrativos, inclusive nos atos negociais como licenças e certidões."
+        "text": "A imperatividade está presente em todos os atos administrativos, inclusive nos atos negociais como licenças e certidões, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "D",
-        "text": "Não. A apreensão de alimentos vencidos decorre da AUTOEXECUTORIEDADE (poder de polícia urgente/previsto em lei), mas a cobrança forçada de multa pecuniária NÃO possui executoriedade direta: diante do inadimplemento, a multa é exigível, mas sua execução forçada depende de inscrição em dívida ativa e cobrança judicial (execução fiscal)."
+        "text": "Não, a apreensão de alimentos vencidos decorre da autoexecutoriedade, mas a cobrança forçada de multa pecuniária não possui executoriedade direta: diante do inadimplemento, a multa é exigível, mas sua execução forçada depende de inscrição em dívida ativa e cobrança judicial (execução fiscal)."
       }
     ],
     "correctAnswer": "D",
@@ -4395,19 +4395,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o direito de greve é constitucionalmente garantido com remuneração integral incondicionada."
+        "text": "Sim, pois o direito de greve é constitucionalmente garantido com remuneração integral incondicionada. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "B",
-        "text": "Policiais civis, militares e agentes penitenciários podem exercer o direito de greve desde que mantenham 30% do efetivo."
+        "text": "Policiais civis, militares e agentes penitenciários podem exercer o direito de greve desde que mantenham 30% do efetivo, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "Não. Segundo o STF (RE 693.456 — Tema 531), a Administração Pública deve proceder ao desconto dos dias de paralisação decorrentes do exercício do direito de greve pelos servidores públicos, em virtude da suspensão do vínculo funcional, salvo se ficar demonstrado que a greve foi provocada por conduta ilícita do próprio Poder Público (ou celebrado acordo de compensação)."
+        "text": "Não, segundo o STF, a Administração Pública deve proceder ao desconto dos dias de paralisação decorrentes do exercício do direito de greve pelos servidores públicos, em virtude da suspensão do vínculo funcional, salvo se ficar demonstrado que a greve foi provocada por conduta ilícita do próprio Poder Público."
       },
       {
         "letter": "D",
-        "text": "A greve no serviço público é absolutamente proibida para qualquer categoria enquanto não houver lei complementar."
+        "text": "A greve no serviço público é absolutamente proibida para qualquer categoria enquanto não houver lei complementar, sob pena de nulidade absoluta do procedimento administrativo e apuração funcional da autoridade. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       }
     ],
     "correctAnswer": "C",
@@ -4451,19 +4451,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o auditor já contribuiu para sua aposentadoria e pode livremente assumir qualquer novo cargo efetivo acumulando ambos os ganhos."
+        "text": "Sim, pois o auditor já contribuiu para sua aposentadoria e pode livremente assumir qualquer novo cargo efetivo acumulando ambos os ganhos. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "B",
-        "text": "A vedação impede também o aposentado pelo RPPS de ocupar cargo em comissão ou mandato de Prefeito acumulando proventos."
+        "text": "A vedação impede também o aposentado pelo RPPS de ocupar cargo em comissão ou mandato de Prefeito acumulando proventos, em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita."
       },
       {
         "letter": "C",
-        "text": "Não. Pelo Art. 37, § 10, da Constituição Federal, é vedada a percepção simultânea de proventos de aposentadoria decorrentes do RPPS (Art. 40 ou militares Arts. 42/142) com a remuneração de cargo, emprego ou função pública, RESSALVADOS os cargos acumuláveis na forma da CF (Art. 37, XVI), os cargos eletivos e os cargos em comissão."
+        "text": "Não, é vedada a percepção simultânea de proventos de aposentadoria decorrentes do RPPS com a remuneração de cargo, emprego ou função pública, ressalvados os cargos acumuláveis, os cargos eletivos e os cargos em comissão."
       },
       {
         "letter": "D",
-        "text": "Caso o servidor seja aposentado pelo Regime Geral (INSS - RGPS), também está proibido de acumular a aposentadoria do INSS com cargo efetivo público."
+        "text": "Caso o servidor seja aposentado pelo Regime Geral (INSS - RGPS), também está proibido de acumular a aposentadoria do INSS com cargo efetivo público, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       }
     ],
     "correctAnswer": "C",
@@ -4506,19 +4506,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Art. 10 a suspensão dos direitos políticos é de 5 a 8 anos, e a indisponibilidade tem periculum in mora presumido e inclui o valor da multa civil."
+        "text": "No Art. 10 a suspensão dos direitos políticos é de 5 a 8 anos, e a indisponibilidade tem periculum in mora presumido e inclui o valor da multa civil, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "B",
-        "text": "Nos atos que atentam contra os princípios (Art. 11), ainda é aplicável a sanção de suspensão dos direitos políticos por até 5 anos."
+        "text": "Nos atos que atentam contra os princípios, ainda é aplicável a sanção de suspensão dos direitos políticos por até 5 anos, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "C",
-        "text": "Para ato do Art. 10 (lesão ao erário), a suspensão dos direitos políticos é de até 12 anos (e até 14 anos no Art. 9º — enriquecimento ilícito; inexistente no Art. 11 após a reforma), e a indisponibilidade de bens exige demonstração de perigo de dano irreparável (periculum in mora concreto) e NÃO pode incidir sobre o acréscimo de multa civil, nem sobre o bem de família (salvo comprovado proveito ilícito direto)."
+        "text": "Para ato (lesão ao erário), a suspensão dos direitos políticos é de até 12 anos, e a indisponibilidade de bens exige demonstração de perigo de dano irreparável e não pode incidir sobre o acréscimo de multa civil, nem sobre o bem de família."
       },
       {
         "letter": "D",
-        "text": "A indisponibilidade de bens recai prioritariamente sobre as contas bancárias necessárias à subsistência sem ordem de preferência."
+        "text": "A indisponibilidade de bens recai prioritariamente sobre as contas bancárias necessárias à subsistência sem ordem de preferência, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       }
     ],
     "correctAnswer": "C",
@@ -4561,19 +4561,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o Art. 24 da CF confere competência concorrente plena para cada Estado criar suas próprias modalidades de licitação."
+        "text": "Sim, pois o Art. 24 da CF confere competência concorrente plena para cada Estado criar suas próprias modalidades de licitação. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "B",
-        "text": "A União não pode editar normas gerais de licitação aplicáveis aos Municípios sem adesão voluntária destes."
+        "text": "A União não pode editar normas gerais de licitação aplicáveis aos Municípios sem adesão voluntária destes, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "C",
-        "text": "Não. Compete privativamente à União legislar sobre NORMAS GERAIS de licitação e contratação para as administrações públicas diretas, autárquicas e fundacionais da União, Estados, DF e Municípios (Art. 22, XXVII, CF), não podendo os Estados criar modalidades ou ampliar hipóteses de dispensa contra a norma geral federal."
+        "text": "Não, compete privativamente à União legislar sobre normas gerais de licitação e contratação para as administrações públicas diretas, autárquicas e fundacionais da União, Estados, DF e Municípios, não podendo os Estados criar modalidades ou ampliar hipóteses de dispensa contra a norma geral federal."
       },
       {
         "letter": "D",
-        "text": "Estados podem ampliar o rol taxativo de contratação direta do Art. 75 para fomentar empresas regionais."
+        "text": "Estados podem ampliar o rol taxativo de contratação direta para fomentar empresas regionais, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       }
     ],
     "correctAnswer": "C",
@@ -4616,19 +4616,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Requisição administrativa definitiva por perigo público iminente."
+        "text": "Requisição administrativa definitiva por perigo público iminente, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "Servidão administrativa perpétua sobre o imóvel vizinho."
+        "text": "Servidão administrativa perpétua sobre o imóvel vizinho, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "C",
-        "text": "Ocupação temporária (Art. 36 do DL 3.365/1941), pois consiste na utilização transitória e compulsória pelo Poder Público de terreno não edificado vizinho à realização de obra pública (ou serviço público), com indenização dos prejuízos efetivamente comprovados ao término (e caução prévia se exigida)."
+        "text": "Ocupação temporária, pois consiste na utilização transitória e compulsória pelo Poder Público de terreno não edificado vizinho à realização de obra pública, com indenização dos prejuízos efetivamente comprovados ao término."
       },
       {
         "letter": "D",
-        "text": "Desapropriação sancionatória por função social da propriedade."
+        "text": "Desapropriação sancionatória por função social da propriedade, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       }
     ],
     "correctAnswer": "C",
@@ -4671,19 +4671,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "3 (três) anos, aplicando-se o prazo geral de reparação civil do Art. 206, § 3º, V, do Código Civil."
+        "text": "3 (três) anos, aplicando-se o prazo geral de reparação civil, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "B",
-        "text": "10 (dez) anos, aplicando-se o prazo geral residual do Código Civil."
+        "text": "10 (dez) anos, aplicando-se o prazo geral residual do Código Civil, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       },
       {
         "letter": "C",
-        "text": "5 (cinco) anos, conforme o Art. 1º do Decreto nº 20.910/1932 e tese firmada pelo STJ em recurso repetitivo (Tema 553 — REsp 1.251.993), que prevalece como norma especial sobre o prazo trienal do Art. 206, § 3º, V, do Código Civil."
+        "text": "5 (cinco) anos, conforme tese firmada pelo STJ em recurso repetitivo, que prevalece como norma especial sobre o prazo trienal."
       },
       {
         "letter": "D",
-        "text": "A pretensão de ressarcimento ao erário fundada em ilícito civil comum é imprescritível segundo o STF."
+        "text": "A pretensão de ressarcimento ao erário fundada em ilícito civil comum é imprescritível segundo o STF, sob pena de nulidade absoluta do procedimento administrativo e apuração funcional da autoridade."
       }
     ],
     "correctAnswer": "C",
@@ -4727,19 +4727,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o Art. 37, IX, permite contratação temporária para funções permanentes sempre que houver economia fiscal."
+        "text": "Sim, pois o Art. 37, IX, permite contratação temporária para funções permanentes sempre que houver economia fiscal. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "B",
-        "text": "As contratações temporárias nulas por fraude não geram sequer direito ao pagamento dos salários pelos dias efetivamente trabalhados nem FGTS."
+        "text": "As contratações temporárias nulas por fraude não geram sequer direito ao pagamento dos salários pelos dias efetivamente trabalhados nem FGTS, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       },
       {
         "letter": "C",
-        "text": "Não. Pelo STF (RE 658.026 — Tema 612), a contratação por tempo determinado sem concurso exige simultaneamente: previsão em lei, prazo determinado, necessidade temporária, interesse público excepcional e que a necessidade não decorra de atividade ordinária permanente nem de inércia administrativa."
+        "text": "Não, pelo STF, a contratação por tempo determinado sem concurso exige simultaneamente: previsão em lei, prazo determinado, necessidade temporária, interesse público excepcional e que a necessidade não decorra de atividade ordinária permanente nem de inércia administrativa."
       },
       {
         "letter": "D",
-        "text": "O contratado temporariamente por excepcional interesse público adquire estabilidade extraordinária após 3 anos de renovação."
+        "text": "O contratado temporariamente por excepcional interesse público adquire estabilidade extraordinária após 3 anos de renovação, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       }
     ],
     "correctAnswer": "C",
@@ -4783,19 +4783,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O ex-proprietário pode apenas exigir multa simbólica de 10%, não podendo reaver o bem nem perdas e danos."
+        "text": "O ex-proprietário pode apenas exigir multa simbólica de 10%, não podendo reaver o bem nem perdas e danos, sem possibilidade de convalidação posterior do ato administrativo por ausência de previsão regulamentar. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício."
       },
       {
         "letter": "B",
-        "text": "A retrocessão é cabível sempre que o Estado demora mais de 6 meses para iniciar a obra pública prevista no decreto."
+        "text": "A retrocessão é cabível sempre que o Estado demora mais de 6 meses para iniciar a obra pública prevista no decreto, sem necessidade de prévia autorização judicial ou instauração de procedimento contraditório específico."
       },
       {
         "letter": "C",
-        "text": "Direito real ou pessoal resolúvel de preferência/reaver o bem (ou perdas e danos caso já consolidada a alienação a terceiro de boa-fé), consistente no dever do expropriante de oferecer o bem ao ex-proprietário pelo preço atual da coisa, se não tiver o destino para que se desapropriou nem for utilizado em obras ou serviços públicos."
+        "text": "Direito real ou pessoal resolúvel de preferência/reaver o bem, consistente no dever do expropriante de oferecer o bem ao ex-proprietário pelo preço atual da coisa, se não tiver o destino para que se desapropriou nem for utilizado em obras ou serviços públicos."
       },
       {
         "letter": "D",
-        "text": "Na retrocessão, o ex-proprietário paga exatamente o mesmo valor nominal histórico recebido décadas atrás sem atualização."
+        "text": "Na retrocessão, o ex-proprietário paga exatamente o mesmo valor nominal histórico recebido décadas atrás sem atualização, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       }
     ],
     "correctAnswer": "C",
@@ -4838,19 +4838,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer órgão federal pode aderir livremente à ata de registro de preços de um pequeno município."
+        "text": "Qualquer órgão federal pode aderir livremente à ata de registro de preços de um pequeno município, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal."
       },
       {
         "letter": "B",
-        "text": "Cada órgão carona pode adquirir até 100% do quantitativo original, até o limite global de cinco vezes o total registrado."
+        "text": "Cada órgão carona pode adquirir até 100% do quantitativo original, até o limite global de cinco vezes o total registrado, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "C",
-        "text": "As aquisições ou contratações adicionais por adesão não poderão exceder, por órgão ou entidade, a 50% dos quantitativos dos itens do instrumento convocatório registrados na ata para o gerenciador e participantes, e o quantitativo decorrente das adesões não poderá exceder, na totalidade, ao dobro (2x) do quantitativo registrado; além disso, órgão federal NÃO pode aderir à ata estadual/distrital/municipal."
+        "text": "As aquisições ou contratações adicionais por adesão não poderão exceder, por órgão ou entidade, a 50% dos quantitativos dos itens do instrumento convocatório registrados na ata para o gerenciador e participantes, e o quantitativo decorrente das adesões não poderá exceder, na totalidade, ao dobro (2x) do quantitativo registrado."
       },
       {
         "letter": "D",
-        "text": "O prazo de vigência da ata de registro de preços é de 1 ano, vedada qualquer prorrogação."
+        "text": "O prazo de vigência da ata de registro de preços é de 1 ano, vedada qualquer prorrogação, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       }
     ],
     "correctAnswer": "C",
@@ -4893,19 +4893,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque o princípio da indisponibilidade do interesse público proíbe absolutamente qualquer uso de arbitragem pelo Estado."
+        "text": "Não, porque o princípio da indisponibilidade do interesse público proíbe absolutamente qualquer uso de arbitragem pelo Estado. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "B",
-        "text": "A arbitragem envolvendo o Poder Público pode ser julgada por equidade e tramitar sob sigilo absoluto permanente."
+        "text": "A arbitragem envolvendo o Poder Público pode ser julgada por equidade e tramitar sob sigilo absoluto permanente, com amparo na autoexecutoriedade e na presunção de legitimidade inerentes aos atos administrativos."
       },
       {
         "letter": "C",
-        "text": "Sim. A Administração Pública direta e indireta pode utilizar a arbitragem para dirimir conflitos relativos a direitos patrimoniais disponíveis (como cláusulas econômicas/reequilíbrio de contratos — Art. 1º, § 1º, da Lei 9.307/96 e Art. 151 da Lei 14.133/21), sendo a arbitragem sempre de direito e respeitado o princípio da publicidade."
+        "text": "Sim, a Administração Pública direta e indireta pode utilizar a arbitragem para dirimir conflitos relativos a direitos patrimoniais disponíveis, sendo a arbitragem sempre de direito e respeitado o princípio da publicidade."
       },
       {
         "letter": "D",
-        "text": "Havendo condenação pecuniária da Fazenda Pública em sentença arbitral, a execução dispensa precatório e autoriza bloqueio imediato via SISBAJUD."
+        "text": "Havendo condenação pecuniária da Fazenda Pública em sentença arbitral, a execução dispensa precatório e autoriza bloqueio imediato via sisbajud, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público."
       }
     ],
     "correctAnswer": "C",
@@ -4948,19 +4948,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não repercute em nenhuma hipótese, porque as instâncias administrativa e penal são absolutamente incomunicáveis."
+        "text": "Não repercute em nenhuma hipótese, porque as instâncias administrativa e penal são absolutamente incomunicáveis. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público."
       },
       {
         "letter": "B",
-        "text": "Sim. Embora as instâncias civil, penal e administrativa sejam independentes, a responsabilidade administrativa (e civil) do servidor será afastada no caso de absolvição criminal que negue a existência do fato ou sua autoria (Art. 126 da Lei 8.112/90 e Art. 935 CC)."
+        "text": "Sim, embora as instâncias civil, penal e administrativa sejam independentes, a responsabilidade administrativa (e civil) do servidor será afastada no caso de absolvição criminal que negue a existência do fato ou sua autoria."
       },
       {
         "letter": "C",
-        "text": "A absolvição penal por insuficiência de provas obriga a Administração a reintegrar o servidor demitido."
+        "text": "A absolvição penal por insuficiência de provas obriga a Administração a reintegrar o servidor demitido, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes. A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa."
       },
       {
         "letter": "D",
-        "text": "A absolvição por atipicidade penal do fato também impede qualquer sanção disciplinar."
+        "text": "A absolvição por atipicidade penal do fato também impede qualquer sanção disciplinar, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal."
       }
     ],
     "correctAnswer": "B",
@@ -5004,19 +5004,19 @@ export const ADMINISTRATIVO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ao fim do prazo contratual, todos os bens reversíveis passam a integrar definitivamente o patrimônio privado da concessionária."
+        "text": "Ao fim do prazo contratual, todos os bens reversíveis passam a integrar definitivamente o patrimônio privado da concessionária, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes."
       },
       {
         "letter": "B",
-        "text": "Com a extinção ao fim do prazo contratual ocorre a REVERSÃO dos bens reversíveis ao poder concedente (com indenização apenas das parcelas de investimentos vinculados a bens reversíveis ainda não amortizados); durante o contrato, o poder concedente pode decretar INTERVENÇÃO por decreto para assegurar a adequação na prestação do serviço (instaurando PAD em 30 dias e concluindo-o em até 180 dias)."
+        "text": "Com a extinção ao fim do prazo contratual ocorre a reversão dos bens reversíveis ao poder concedente."
       },
       {
         "letter": "C",
-        "text": "A intervenção do poder concedente na concessionária não exige instauração de processo administrativo posterior."
+        "text": "A intervenção do poder concedente na concessionária não exige instauração de processo administrativo posterior, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência."
       },
       {
         "letter": "D",
-        "text": "A subconcessão é absolutamente proibida na Lei de Concessões mesmo com previsão contratual e licitação."
+        "text": "A subconcessão é absolutamente proibida na Lei de Concessões mesmo com previsão contratual e licitação, em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita."
       }
     ],
     "correctAnswer": "B",

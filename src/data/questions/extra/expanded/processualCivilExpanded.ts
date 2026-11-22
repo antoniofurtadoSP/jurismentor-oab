@@ -17,19 +17,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As partes jamais podem alterar prazos peremptórios legais ou ônus processuais por convenção privada."
+        "text": "As partes jamais podem alterar prazos peremptórios legais ou ônus processuais por convenção privada, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "B",
-        "text": "A ordem cronológica de conclusão para sentença e acórdão é regra absoluta que gera nulidade da sentença se invertida."
+        "text": "A ordem cronológica de conclusão para sentença e acórdão é regra absoluta que gera nulidade da sentença se invertida, com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível."
       },
       {
         "letter": "C",
-        "text": "O negócio jurídico processual sobre ônus, poderes, faculdades e deveres processuais em causas que admitam autocomposição é VÁLIDO entre partes plenamente capazes (Art. 190 CPC), cabendo ao juiz controlar apenas nulidades, inserção abusiva em contrato de adesão ou manifesta vulnerabilidade; já a ordem cronológica de julgamento (Art. 12 CPC) é PREFERENCIAL (e não absoluta após Lei 13.256/2016)."
+        "text": "O negócio jurídico processual sobre ônus, poderes, faculdades e deveres processuais em causas que admitam autocomposição é válido entre partes plenamente capazes, cabendo ao juiz controlar apenas nulidades, inserção abusiva em contrato de adesão ou manifesta vulnerabilidade."
       },
       {
         "letter": "D",
-        "text": "O juiz pode recusar de ofício negócio jurídico processual válido mesmo sem nulidade ou vulnerabilidade apenas por discordar da conveniência."
+        "text": "O juiz pode recusar de ofício negócio jurídico processual válido mesmo sem nulidade ou vulnerabilidade apenas por discordar da conveniência, sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório."
       }
     ],
     "correctAnswer": "C",
@@ -72,19 +72,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A incompetência territorial baseada em cláusula de eleição de foro aleatório nunca pode ser declarada de ofício pelo juiz."
+        "text": "A incompetência territorial baseada em cláusula de eleição de foro aleatório nunca pode ser declarada de ofício pelo juiz, sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório."
       },
       {
         "letter": "B",
-        "text": "Em contratos de adesão com consumidor, a cláusula de eleição de foro distante do domicílio do consumidor prevalece se escrita em negrito."
+        "text": "Em contratos de adesão com consumidor, a cláusula de eleição de foro distante do domicílio do consumidor prevalece se escrita em negrito, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "C",
-        "text": "A eleição de foro só produz efeito quando guardar pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação (ressalvada relação de consumo quando favorável ao consumidor), constituindo prática abusiva a eleição aleatória de foro sem pertinência, que autoriza o juiz a declinar de ofício na distribuição da inicial (Art. 63, §§ 1º e 5º, CPC)."
+        "text": "A eleição de foro só produz efeito quando guardar pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação, constituindo prática abusiva a eleição aleatória de foro sem pertinência, que autoriza o juiz a declinar de ofício na distribuição da inicial."
       },
       {
         "letter": "D",
-        "text": "A incompetência absoluta deve ser alegada pelo réu exclusivamente em exceção autônoma em 15 dias sob pena de prorrogação."
+        "text": "A incompetência absoluta deve ser alegada pelo réu exclusivamente em exceção autônoma em 15 dias sob pena de prorrogação, sem exigência de caução prévia ou intimação complementar da parte adversa para efetivação. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       }
     ],
     "correctAnswer": "C",
@@ -127,7 +127,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Litisconsortes com advogados de escritórios distintos têm sempre prazo em dobro mesmo nos processos eletrônicos."
+        "text": "Litisconsortes com advogados de escritórios distintos têm sempre prazo em dobro mesmo nos processos eletrônicos, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "B",
@@ -135,7 +135,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Não se aplica o prazo em dobro para litisconsortes com procuradores diferentes nos processos em autos ELETRÔNICOS (Art. 229, § 2º, CPC — o prazo em dobro do Art. 229 restringe-se apenas aos autos FÍSICOS!); já na ação anulatória de casamento contra os cônjuges, há litisconsórcio passivo NECESSÁRIO (e unitário), cuja falta de citação de todos torna a sentença nula ou ineficaz (Art. 115 CPC)."
+        "text": "Não se aplica o prazo em dobro para litisconsortes com procuradores diferentes nos processos em autos eletrônicos."
       },
       {
         "letter": "D",
@@ -182,19 +182,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para trazer o fiador ou codevedores solidários à lide utiliza-se a denunciação da lide."
+        "text": "Para trazer o fiador ou codevedores solidários à lide utiliza-se a denunciação da lide, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "B",
-        "text": "Na denunciação da lide, são permitidas denunciações sucessivas ilimitadas em cadeia até atingir toda a cadeia produtiva."
+        "text": "Na denunciação da lide, são permitidas denunciações sucessivas ilimitadas em cadeia até atingir toda a cadeia produtiva, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
-        "text": "Para trazer os outros codevedores solidários (ou o devedor principal pelo fiador), cabe CHAMAMENTO AO PROCESSO (Art. 130 CPC); para trazer a seguradora por direito regressivo contratual/legal, cabe DENUNCIAÇÃO DA LIDE (Art. 125 CPC), sendo VEDADA a denunciação sucessiva além de uma única denunciação sucessiva do denunciado (Art. 125, § 2º — e permitindo a Súmula 537 STJ que a vítima execute diretamente a seguradora denunciada solidariamente nos limites da apólice)."
+        "text": "Para trazer os outros codevedores solidários, cabe chamamento ao processo; para trazer a seguradora por direito regressivo contratual/legal, cabe denunciação da lide, sendo vedada a denunciação sucessiva além de uma única denunciação sucessiva do denunciado."
       },
       {
         "letter": "D",
-        "text": "O Incidente de Desconsideração da Personalidade Jurídica (IDPJ) pode ser instaurado de ofício pelo juiz cível sem requerimento da parte ou do MP."
+        "text": "O Incidente de Desconsideração da Personalidade Jurídica (IDPJ) pode ser instaurado de ofício pelo juiz cível sem requerimento da parte ou do MP, com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas."
       }
     ],
     "correctAnswer": "C",
@@ -238,19 +238,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o juiz pode sempre reduzir honorários por equidade contra a Fazenda Pública quando o valor da causa for milionário e a causa simples."
+        "text": "Sim, pois o juiz pode sempre reduzir honorários por equidade contra a Fazenda Pública quando o valor da causa for milionário e a causa simples. A medida submete-se ao controle recursal ordinário nos prazos previstos para o procedimento."
       },
       {
         "letter": "B",
-        "text": "Os honorários advocatícios fixados na sentença podem ser compensados entre si em caso de sucumbência recíproca das partes."
+        "text": "Os honorários advocatícios fixados na sentença podem ser compensados entre si em caso de sucumbência recíproca das partes, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "C",
-        "text": "Não é válida, pois no Tema 1076 dos Recursos Repetitivos o STJ decidiu que a fixação dos honorários por apreciação equitativa (Art. 85, § 8º) NÃO é permitida quando os valores da condenação, da causa ou o proveito econômico da demanda forem ELEVADOS — sendo obrigatória a observância dos percentuais legais do Art. 85, §§ 2º e 3º (salvo apenas quando inestimável/irrisório o proveito econômico ou muito baixo o valor da causa)."
+        "text": "Não é válida, pois no Tema 1076 dos Recursos Repetitivos o STJ decidiu que a fixação dos honorários por apreciação equitativa não é permitida quando os valores da condenação, da causa ou o proveito econômico da demanda forem elevados."
       },
       {
         "letter": "D",
-        "text": "Se a sentença transitada em julgado for totalmente omissa quanto aos honorários advocatícios, forma-se coisa julgada material que impede o advogado de cobrá-los posteriormente."
+        "text": "Se a sentença transitada em julgado for totalmente omissa quanto aos honorários advocatícios, forma-se coisa julgada material que impede o advogado de cobrá-los posteriormente, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       }
     ],
     "correctAnswer": "C",
@@ -294,19 +294,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo processual suspende-se apenas entre 20 de dezembro e 6 de janeiro, voltando a correr em 7 de janeiro."
+        "text": "O prazo processual suspende-se apenas entre 20 de dezembro e 6 de janeiro, voltando a correr em 7 de janeiro, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "B",
-        "text": "A contagem em dias úteis prevista no Art. 219 do CPC aplica-se também aos prazos materiais de prescrição e decadência previstos no Código Civil."
+        "text": "A contagem em dias úteis aplica-se também aos prazos materiais de prescrição e decadência previstos no Código Civil, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "C",
-        "text": "A publicação considera-se realizada no 1º dia útil seguinte à disponibilização (ou após o recesso) e suspende-se o curso do prazo processual nos dias compreendidos entre 20 DE DEZEMBRO e 20 DE JANEIRO, inclusive (Art. 220 CPC), iniciando-se a fluência útil somente a partir do primeiro dia útil após 20 de janeiro (21/01 ou próximo dia útil), excluindo o dia do começo e incluindo o do vencimento (Art. 224)."
+        "text": "A publicação considera-se realizada no 1º dia útil seguinte à disponibilização (ou após o recesso) e suspende-se o curso do prazo processual nos dias compreendidos entre 20 de dezembro e 20 de janeiro, inclusive, iniciando-se a fluência útil somente a partir do primeiro dia útil após 20 de janeiro, excluindo o dia do começo e incluindo o do vencimento."
       },
       {
         "letter": "D",
-        "text": "O ato processual praticado antes do termo inicial do prazo recursal (recurso prematuro) é considerado intempestivo e inadmissível."
+        "text": "O ato processual praticado antes do termo inicial do prazo recursal (recurso prematuro) é considerado intempestivo e inadmissível, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       }
     ],
     "correctAnswer": "C",
@@ -349,19 +349,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A citação continua sendo realizada obrigatoriamente primeiro por oficial de justiça pessoalmente, sendo proibida a citação inicial por e-mail cadastrado."
+        "text": "A citação continua sendo realizada obrigatoriamente primeiro por oficial de justiça pessoalmente, sendo proibida a citação inicial por e-mail cadastrado, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco."
       },
       {
         "letter": "B",
-        "text": "Se a empresa cadastrada ignorar o e-mail de citação eletrônica sem confirmar em 3 dias úteis, inicia-se automaticamente o prazo da contestação no 4º dia útil gerando revelia imediata."
+        "text": "Se a empresa cadastrada ignorar o e-mail de citação eletrônica sem confirmar em 3 dias úteis, inicia-se automaticamente o prazo da contestação no 4º dia útil gerando revelia imediata, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
-        "text": "A citação deve ser feita PREFERENCIALMENTE por MEIO ELETRÔNICO, no prazo de até 2 dias úteis contado da decisão que a determinar, pelos endereços eletrônicos indicados pelo citando no banco de dados do Poder Judiciário (Art. 246 CPC); não havendo confirmação de recebimento em até 3 dias úteis, faz-se citação pelo correio/oficial/escrivão/edital, devendo o réu apresentar justa causa na primeira oportunidade sob pena de multa de até 5% do valor da causa por ato atentatório à dignidade da justiça (Art. 246, § 1º-C)."
+        "text": "A citação deve ser feita preferencialmente por meio eletrônico, no prazo de até 2 dias úteis contado da decisão que a determinar, pelos endereços eletrônicos indicados pelo citando no banco de dados do Poder Judiciário."
       },
       {
         "letter": "D",
-        "text": "O termo inicial do prazo de contestação na citação por carta com aviso de recebimento (correio) é a data da entrega da carta pelo carteiro ao porteiro."
+        "text": "O termo inicial do prazo de contestação na citação por carta com aviso de recebimento (correio) é a data da entrega da carta pelo carteiro ao porteiro, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       }
     ],
     "correctAnswer": "C",
@@ -404,19 +404,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A tutela estabilizada forma imediatamente coisa julgada material imutável, não podendo jamais ser revista por ação posterior."
+        "text": "A tutela estabilizada forma imediatamente coisa julgada material imutável, não podendo jamais ser revista por ação posterior, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "B",
-        "text": "A tutela cautelar antecedente também se estabiliza automaticamente pelo Art. 304 caso o réu não recorra da liminar de arresto."
+        "text": "A tutela cautelar antecedente também se estabiliza automaticamente caso o réu não recorra da liminar de arresto, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "C",
-        "text": "A tutela antecipada concedida em caráter antecedente torna-se ESTÁVEL se da decisão que a conceder não for interposto o respectivo recurso (agravo de instrumento — e o STJ admite que mera contestação específica impugnando a tutela também impede estabilização em corrente divergente, mas a letra da lei exige o recurso — Art. 304); extinto o processo, a decisão conserva seus efeitos enquanto não revista/reformada/invalidada por ação própria no prazo de 2 ANOS, NÃO fazendo coisa julgada material (Art. 304, § 6º)."
+        "text": "A tutela antecipada concedida em caráter antecedente torna-se estável se da decisão que a conceder não for interposto o respectivo recurso."
       },
       {
         "letter": "D",
-        "text": "Na tutela provisória de evidência fundada em prova documental ou tese firmada em julgamento de casos repetitivos/súmula vinculante (Art. 311, II), o juiz deve exigir demonstração de perigo de dano urgente."
+        "text": "Na tutela provisória de evidência fundada em prova documental ou tese firmada em julgamento de casos repetitivos/súmula vinculante, o juiz deve exigir demonstração de perigo de dano urgente."
       }
     ],
     "correctAnswer": "C",
@@ -459,19 +459,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O juiz pode indeferir de plano a petição inicial sem oportunidade prévia de emenda sempre que faltar documento indispensável à propositura."
+        "text": "O juiz pode indeferir de plano a petição inicial sem oportunidade prévia de emenda sempre que faltar documento indispensável à propositura, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "B",
-        "text": "Na improcedência liminar do pedido (Art. 332), o processo é extinto SEM resolução de mérito por inépcia da inicial."
+        "text": "Na improcedência liminar do pedido, o processo é extinto sem resolução de mérito por inépcia da inicial, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "C",
-        "text": "Quanto à ausência de procuração/defeito sanável na inicial, o juiz DEVE determinar que o autor a emende ou complete no prazo de 15 DIAS, indicando com precisão o que deve ser corrigido (Art. 321 — não pode indeferir de plano sem oportunidade de emenda); quanto ao pedido que contraria enunciado de súmula do STF ou STJ (ou acórdão em repetitivo/IRDR/IAC/súmula de TJ sobre direito local), o juiz pode julgar LIMINARMENTE IMPROCEDENTE o pedido independentemente de citação do réu (Art. 332 — com resolução de mérito!)."
+        "text": "Quanto à ausência de procuração/defeito sanável na inicial, o juiz deve determinar que o autor a emende ou complete no prazo de 15 dias, indicando com precisão o que deve ser corrigido."
       },
       {
         "letter": "D",
-        "text": "Contra a sentença de indeferimento da petição inicial ou de improcedência liminar do pedido, caso o autor apele, o juiz não pode exercer juízo de retratação."
+        "text": "Contra a sentença de indeferimento da petição inicial ou de improcedência liminar do pedido, caso o autor apele, o juiz não pode exercer juízo de retratação. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       }
     ],
     "correctAnswer": "C",
@@ -514,15 +514,15 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Basta a petição unilateral do réu com 10 dias de antecedência manifestando desinteresse para o juiz cancelar obrigatoriamente a audiência do Art. 334."
+        "text": "Basta a petição unilateral do réu com 10 dias de antecedência manifestando desinteresse para o juiz cancelar obrigatoriamente a audiência, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "B",
-        "text": "A audiência de conciliação/mediação só NÃO se realiza se AMBAS as partes manifestarem expressamente desinteresse na autocomposição (Art. 334, § 4º, I — logo, só o réu dizendo não, a audiência se mantém!); a ausência injustificada de qualquer das partes (autor ou réu) à audiência é considerada ato atentatório à dignidade da justiça, sancionada com multa de até 2% da vantagem econômica pretendida ou do valor da causa em favor da União/Estado (Art. 334, § 8º); e a RECONVENÇÃO é proposta na própria peça da CONTESTAÇÃO (Art. 343 CPC), podendo inclusive ampliar subjetivamente para incluir terceiro em litisconsórcio (§§ 3º e 4º)."
+        "text": "A audiência de conciliação/mediação só não se realiza se ambas as partes manifestarem expressamente desinteresse na autocomposição."
       },
       {
         "letter": "C",
-        "text": "Se o réu faltar injustificadamente à audiência de conciliação/mediação do Art. 334, decretar-se-á imediatamente sua revelia."
+        "text": "Se o réu faltar injustificadamente à audiência de conciliação/mediação, decretar-se-á imediatamente sua revelia, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "D",
@@ -569,19 +569,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cabe recurso de apelação imediata porque resolveu o mérito de um dos pedidos."
+        "text": "Cabe recurso de apelação imediata porque resolveu o mérito de um dos pedidos. A medida submete-se ao controle recursal ordinário nos prazos previstos para o procedimento."
       },
       {
         "letter": "B",
-        "text": "Cabe AGRAVO DE INSTRUMENTO contra a decisão que julga antecipadamente parte do mérito (Art. 356, § 5º, c/c Art. 1.015, II, CPC — trata-se de decisão interlocutória de mérito!), a qual transita em julgado autonomamente e admite cumprimento definitivo de sentença em autos suplementares se não recorrida (Art. 356, § 3º)."
+        "text": "Cabe agravo de instrumento contra a decisão que julga antecipadamente parte do mérito, a qual transita em julgado autonomamente e admite cumprimento definitivo de sentença em autos suplementares se não recorrida."
       },
       {
         "letter": "C",
-        "text": "Não se admite cumprimento provisório da decisão de julgamento antecipado parcial de mérito mesmo havendo interposição de recurso sem efeito suspensivo."
+        "text": "Não se admite cumprimento provisório da decisão de julgamento antecipado parcial de mérito mesmo havendo interposição de recurso sem efeito suspensivo, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "D",
-        "text": "Após a decisão de saneamento e organização do processo (Art. 357), as partes têm prazo preclusivo de 15 dias para pedir esclarecimentos ou ajustes."
+        "text": "Após a decisão de saneamento e organização do processo, as partes têm prazo preclusivo de 15 dias para pedir esclarecimentos ou ajustes, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       }
     ],
     "correctAnswer": "B",
@@ -624,19 +624,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O juiz pode aplicar a distribuição dinâmica do ônus da prova apenas no momento de proferir a sentença de mérito, surpreendendo a parte vencida."
+        "text": "O juiz pode aplicar a distribuição dinâmica do ônus da prova apenas no momento de proferir a sentença de mérito, surpreendendo a parte vencida, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "B",
-        "text": "A distribuição dinâmica do ônus da prova (Art. 373, § 1º, CPC) exige DECISÃO FUNDAMENTADA do juiz nos casos previstos em lei ou diante de peculiaridades da causa ligadas à impossibilidade/excessiva dificuldade ou à maior facilidade de obtenção da prova, NÃO podendo gerar situação em que a desincumbência do encargo pela parte seja impossível ou excessivamente difícil (\"prova diabólica\" — § 2º), devendo oportunizar à parte desincumbir-se do ônus; já a prova emprestada de outro processo é admitida pelo Art. 372, desde que observado o CONTRADITÓRIO."
+        "text": "A distribuição dinâmica do ônus da prova exige decisão fundamentada do juiz nos casos previstos em lei ou diante de peculiaridades da causa ligadas à impossibilidade/excessiva dificuldade ou à maior facilidade de obtenção da prova, não podendo gerar situação em que a desincumbência do encargo pela parte seja impossível ou excessivamente difícil, devendo oportunizar à parte desincumbir-se do ônus."
       },
       {
         "letter": "C",
-        "text": "A prova emprestada só pode ser utilizada no processo cível se todas as partes do segundo processo tiverem participado exatamente do primeiro processo de origem."
+        "text": "A prova emprestada só pode ser utilizada no processo cível se todas as partes do segundo processo tiverem participado exatamente do primeiro processo de origem, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "D",
-        "text": "A ata notarial lavrada por tabelião não possui força probatória quanto a imagens e mensagens exibidas em páginas eletrônicas da internet."
+        "text": "A ata notarial lavrada por tabelião não possui força probatória quanto a imagens e mensagens exibidas em páginas eletrônicas da internet, com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial."
       }
     ],
     "correctAnswer": "B",
@@ -679,19 +679,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No CPC/2015, os motivos e questões prejudiciais incidentais decididos na fundamentação nunca fazem coisa julgada sem ação declaratória incidental autônoma."
+        "text": "No CPC/2015, os motivos e questões prejudiciais incidentais decididos na fundamentação nunca fazem coisa julgada sem ação declaratória incidental autônoma, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "B",
-        "text": "Sim, pois o Art. 503, § 1º, do CPC/2015 estendeu a autoridade da COISA JULGADA à resolução de questão prejudicial decidida expressa e incidentemente no processo (dispensando antiga ação declaratória incidental!), DESDE QUE: (1) dela dependa o julgamento do mérito; (2) a seu respeito tiver havido contraditório prévio e efetivo (NÃO se aplicando em caso de revelia!); e (3) o juízo tiver competência em razão da matéria e da pessoa para resolvê-la como questão principal."
+        "text": "Sim, pois o Art. 503, § 1º, do CPC/2015 estendeu a autoridade da coisa julgada à resolução de questão prejudicial decidida expressa e incidentemente no processo, desde que dela dependa o julgamento do mérito; a seu respeito tiver havido contraditório prévio e efetivo; e o juízo tiver competência em razão da matéria e da pessoa para resolvê-la como questão principal."
       },
       {
         "letter": "C",
-        "text": "Mesmo que o réu seja revel e não tenha participado do contraditório efetivo, a questão prejudicial incidental forma coisa julgada material pelo Art. 503, § 1º."
+        "text": "Mesmo que o réu seja revel e não tenha participado do contraditório efetivo, a questão prejudicial incidental forma coisa julgada material, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "D",
-        "text": "A coisa julgada formada em ação individual prejudica terceiros estranhos ao processo se a decisão lhes for desfavorável."
+        "text": "A coisa julgada formada em ação individual prejudica terceiros estranhos ao processo se a decisão lhes for desfavorável, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       }
     ],
     "correctAnswer": "B",
@@ -738,7 +738,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Não ocorrendo pagamento voluntário no prazo de 15 dias úteis, o débito será acrescido de MULTA DE 10% E TAMBÉM de HONORÁRIOS ADVOCATÍCIOS DE 10% (Art. 523, § 1º, CPC); além disso, transcorrido o prazo de 15 dias para pagamento voluntário, inicia-se AUTOMATICAMENTE (independentemente de nova intimação ou penhora/garantia!) o prazo subsequente de 15 dias úteis para o executado apresentar IMPUGNAÇÃO ao cumprimento de sentença nos próprios autos (Art. 525 CPC)."
+        "text": "Não ocorrendo pagamento voluntário no prazo de 15 dias úteis, o débito será acrescido de multa de 10% e também de honorários advocatícios de 10%."
       },
       {
         "letter": "C",
@@ -789,19 +789,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os embargos à execução de título extrajudicial exigem prévia penhora ou depósito garantidor como condição de admissibilidade no CPC/2015."
+        "text": "Os embargos à execução de título extrajudicial exigem prévia penhora ou depósito garantidor como condição de admissibilidade no CPC/2015, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "B",
-        "text": "O contrato particular com 2 testemunhas (ou título eletrônico com integridade conferida por qualquer modalidade de assinatura eletrônica prevista em lei — Art. 784, § 4º, Lei 14.620/23) é título executivo extrajudicial válido; os EMBARGOS À EXECUÇÃO independem de penhora, depósito ou caução (Art. 914 — prazo de 15 dias da juntada do mandado de citação), embora não tenham efeito suspensivo sem garantia; e a quantia depositada em caderneta de poupança ATÉ O LIMITE DE 40 SALÁRIOS MÍNIMOS é IMPENHORÁVEL (Art. 833, X, CPC — estendido pelo STJ a conta corrente/aplicações financeiras até 40 SM, salvo abuso ou alimentos!)."
+        "text": "O contrato particular com 2 testemunhas é título executivo extrajudicial válido; os embargos à execução independem de penhora, depósito ou caução, embora não tenham efeito suspensivo sem garantia; e a quantia depositada em caderneta de poupança até o limite de 40 salários mínimos é impenhorável."
       },
       {
         "letter": "C",
-        "text": "São absolutamente impenhoráveis salários, proventos de aposentadoria e poupança até 40 salários mínimos até mesmo para pagamento de prestação alimentícia ou quando superiores a 50 salários mínimos."
+        "text": "São absolutamente impenhoráveis salários, proventos de aposentadoria e poupança até 40 salários mínimos até mesmo para pagamento de prestação alimentícia ou quando superiores a 50 salários mínimos, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "D",
-        "text": "Os contratos particulares constituídos de forma eletrônica sempre exigem assinatura de duas testemunhas físicas sob pena de nulidade executiva."
+        "text": "Os contratos particulares constituídos de forma eletrônica sempre exigem assinatura de duas testemunhas físicas sob pena de nulidade executiva, com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       }
     ],
     "correctAnswer": "B",
@@ -844,11 +844,11 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na ação possessória de força nova (menos de ano e dia), o juiz só pode deferir a liminar de reintegração se o autor demonstrar urgência grave e prestar caução real obrigatória."
+        "text": "Na ação possessória de força nova (menos de ano e dia), o juiz só pode deferir a liminar de reintegração se o autor demonstrar urgência grave e prestar caução real obrigatória, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação."
       },
       {
         "letter": "B",
-        "text": "Como o esbulho ocorreu há menos de ano e dia (3 meses e 10 dias), trata-se de ação possessória de FORÇA NOVA (procedimento especial com direito à liminar possessória — Art. 558 e 562 CPC — se provada posse anterior, esbulho e data de < ano e dia, sem exigir urgência/perigo de dano!); ademais, vigora a FUNGIBILIDADE das possessórias (Art. 554 — propor manutenção quando houve esbulho não impede o juiz de conceder reintegração) e o CARÁTER DÚPLICE (Art. 556 — réu pode pedir proteção possessória e indenização na própria contestação, sem reconvenção)."
+        "text": "Como o esbulho ocorreu há menos de ano e dia (3 meses e 10 dias), trata-se de ação possessória de força nova; ademais, vigora a fungibilidade das possessórias e o caráter dúplice."
       },
       {
         "letter": "C",
@@ -856,7 +856,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Em ação possessória em trâmite, é perfeitamente lícito ao réu ajuizar simultaneamente ação reivindicatória discutindo o domínio sobre o mesmo imóvel."
+        "text": "Em ação possessória em trâmite, é perfeitamente lícito ao réu ajuizar simultaneamente ação reivindicatória discutindo o domínio sobre o mesmo imóvel, com prosseguimento imediato do rito executivo mediante constrição patrimonial do devedor."
       }
     ],
     "correctAnswer": "B",
@@ -899,11 +899,11 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A ação monitória contra a Fazenda Pública é absolutamente proibida pelo CPC/2015."
+        "text": "A ação monitória contra a Fazenda Pública é absolutamente proibida pelo CPC/2015, com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível."
       },
       {
         "letter": "B",
-        "text": "A ação monitória admite prova escrita SEM eficácia de título executivo (como cheque prescrito — Súmula 299 e 503 STJ, sendo desnecessário provar a causa debendi na inicial — Súmula 531 STJ), e os EMBARGOS MONITÓRIOS independem de prévia segurança do juízo (Art. 702 CPC — prazo de 15 dias, suspendendo a eficácia da decisão inicial); já o cônjuge meeiro para defender sua meação ou bem próprio deve opor EMBARGOS DE TERCEIRO (Art. 674, § 2º, I, CPC e Súmula 134 STJ)."
+        "text": "A ação monitória admite prova escrita sem eficácia de título executivo, e os embargos monitórios independem de prévia segurança do juízo."
       },
       {
         "letter": "C",
@@ -911,7 +911,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Os embargos de terceiro podem ser opostos até 1 ano após a arrematação ou adjudicação transitada em julgado em qualquer fase."
+        "text": "Os embargos de terceiro podem ser opostos até 1 ano após a arrematação ou adjudicação transitada em julgado em qualquer fase, com prosseguimento imediato do rito executivo mediante constrição patrimonial do devedor."
       }
     ],
     "correctAnswer": "B",
@@ -955,19 +955,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O rol do Art. 1.015 do CPC é absolutamente taxativo e inflexível, não admitindo agravo de instrumento fora de seus incisos em hipótese alguma."
+        "text": "O rol é absolutamente taxativo e inflexível, não admitindo agravo de instrumento fora de seus incisos em hipótese alguma, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "B",
-        "text": "O STJ no Tema 988 (REsp 1.704.520) fixou a tese da TAXATIVIDADE MITIGADA do rol do Art. 1.015 do CPC: o rol não é absolutamente fechado nem puramente exemplificativo, admitindo a interposição de AGRAVO DE INSTRUMENTO quando verificada a URGÊNCIA decorrente da inutilidade do julgamento da questão no recurso de apelação."
+        "text": "O STJ no Tema 988 fixou a tese da taxatividade mitigada do rol: o rol não é absolutamente fechado nem puramente exemplificativo, admitindo a interposição de agravo de instrumento quando verificada a urgência decorrente da inutilidade do julgamento da questão no recurso de apelação."
       },
       {
         "letter": "C",
-        "text": "Se uma questão interlocutória não agravável não for impugnada de imediato em agravo de instrumento, opera-se preclusão imediata que impede sua discussão em preliminar de apelação."
+        "text": "Se uma questão interlocutória não agravável não for impugnada de imediato em agravo de instrumento, opera-se preclusão imediata que impede sua discussão em preliminar de apelação, com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial."
       },
       {
         "letter": "D",
-        "text": "Contra decisão interlocutória que rejeita ou acolhe a alegação de convenção de arbitragem NÃO cabe agravo de instrumento."
+        "text": "Contra decisão interlocutória que rejeita ou acolhe a alegação de convenção de arbitragem não cabe agravo de instrumento, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       }
     ],
     "correctAnswer": "B",
@@ -1011,19 +1011,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Afastada a prescrição ou nulidade da sentença, o Tribunal é proibido de julgar diretamente o mérito, devendo baixar os autos ao juiz de primeiro grau por força do duplo grau."
+        "text": "Afastada a prescrição ou nulidade da sentença, o Tribunal é proibido de julgar diretamente o mérito, devendo baixar os autos ao juiz de primeiro grau por força do duplo grau. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "B",
-        "text": "Ao afastar a prescrição ou reforma de sentença terminativa com o processo em condições de imediato julgamento (\"causa madura\" — Art. 1.013, § 3º e § 4º, CPC), o Tribunal DEVE julgar diretamente o mérito sem devolver os autos ao 1º grau; quanto à condenação do Município de 80 salários mínimos, NÃO está sujeita à remessa necessária, pois o Art. 496, § 3º, III, dispensa remessa necessária para Municípios quando a condenação/proveito for inferior a 100 SALÁRIOS MÍNIMOS!"
+        "text": "Ao afastar a prescrição ou reforma de sentença terminativa com o processo em condições de imediato julgamento, o Tribunal deve julgar diretamente o mérito sem devolver os autos ao 1º grau."
       },
       {
         "letter": "C",
-        "text": "Qualquer condenação pecuniária contra a União, Estados ou Municípios acima de 60 salários mínimos submete-se obrigatoriamente à remessa necessária."
+        "text": "Qualquer condenação pecuniária contra a União, Estados ou Municípios acima de 60 salários mínimos submete-se obrigatoriamente à remessa necessária, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "D",
-        "text": "Na apelação, é permitido sempre inovar livremente com fatos novos não alegados em primeiro grau sem qualquer justificativa de força maior."
+        "text": "Na apelação, é permitido sempre inovar livremente com fatos novos não alegados em primeiro grau sem qualquer justificativa de força maior, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco."
       }
     ],
     "correctAnswer": "B",
@@ -1066,11 +1066,11 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Embargos de Declaração (prazo de 5 DIAS úteis, não sujeitos a preparo) INTERROMPEM o prazo para interposição de outros recursos para AMBAS as partes (Art. 1.026 CPC); havendo pedido de eventual efeito modificativo (infringente), o juiz DEVE intimar o embargado para manifestar-se em 5 dias sobre os embargos (Art. 1.023, § 2º); e se o autor já havia interposto apelação antes dos embargos e os embargos forem rejeitados sem modificação, sua apelação anterior independe de ratificação (Art. 1.024, § 5º — superou a Súmula 418 STJ)!"
+        "text": "Os Embargos de Declaração interrompem o prazo para interposição de outros recursos para ambas as partes."
       },
       {
         "letter": "B",
-        "text": "Os embargos de declaração apenas suspendem o prazo recursal, aproveitando o prazo restante após o julgamento apenas ao embargante."
+        "text": "Os embargos de declaração apenas suspendem o prazo recursal, aproveitando o prazo restante após o julgamento apenas ao embargante, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
@@ -1122,19 +1122,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O IRDR exige simultaneamente efetiva repetição de processos com controvérsia sobre a MESMA QUESTÃO UNICAMENTE DE DIREITO e risco de ofensa à isonomia e à segurança jurídica (Art. 976 CPC), sendo vedado se já houver afetação de recurso repetitivo sobre a tese em Tribunal Superior (§ 4º); são legitimados para pedir a instauração o juiz/relator, as partes, o MP e a Defensoria Pública (Art. 977 — isento de custas); e admitido o IRDR, o relator SUSPENDERÁ os processos pendentes no Estado/região e, julgada a tese, esta VINCULARÁ todos os juízes e órgãos do respectivo tribunal (e Juizados Especiais — Art. 985)."
+        "text": "O IRDR exige simultaneamente efetiva repetição de processos com controvérsia sobre a mesma questão unicamente de direito e risco de ofensa à isonomia e à segurança jurídica, sendo vedado se já houver afetação de recurso repetitivo sobre a tese em Tribunal Superior."
       },
       {
         "letter": "B",
-        "text": "O IRDR pode ser instaurado no Tribunal de Justiça mesmo quando o mérito da controvérsia envolver exclusivamente o reexame complexo de fatos e provas distintos em cada caso."
+        "text": "O IRDR pode ser instaurado no Tribunal de Justiça mesmo quando o mérito da controvérsia envolver exclusivamente o reexame complexo de fatos e provas distintos em cada caso, sem exigência de caução prévia ou intimação complementar da parte adversa para efetivação."
       },
       {
         "letter": "C",
-        "text": "O pedido de instauração de IRDR obriga a parte requerente ao recolhimento antecipado de preparo e custas recursais específicas no Tribunal."
+        "text": "O pedido de instauração de IRDR obriga a parte requerente ao recolhimento antecipado de preparo e custas recursais específicas no Tribunal, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "D",
-        "text": "Se o autor desistir da ação individual originária em que se suscitou o IRDR, o Tribunal fica obrigado a extinguir o IRDR sem fixar a tese jurídica."
+        "text": "Se o autor desistir da ação individual originária em que se suscitou o IRDR, o Tribunal fica obrigado a extinguir o IRDR sem fixar a tese jurídica, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       }
     ],
     "correctAnswer": "A",
@@ -1177,19 +1177,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, considera-se PREQUESTIONADA a matéria suscitada nos embargos de declaração mesmo que o tribunal de origem os rejeite ou inadmita sem examiná-la, caso o Tribunal Superior entenda existentes erro, omissão, contradição ou obscuridade (prequestionamento ficto — Art. 1.025 CPC, superando a Súmula 211 STJ!); ademais, a EC nº 125/2022 inseriu o § 2º e § 3º no Art. 105 da CF criando o filtro da RELEVÂNCIA DAS QUESTÕES DE DIREITO FEDERAL INFRACONSTITUCIONAL no Recurso Especial (similar à repercussão geral do RE no STF)."
+        "text": "Sim, considera-se prequestionada a matéria suscitada nos embargos de declaração mesmo que o tribunal de origem os rejeite ou inadmita sem examiná-la, caso o Tribunal Superior entenda existentes erro, omissão, contradição ou obscuridade; ademais, a EC nº 125/2022 inseriu o § 2º e § 3º criando o filtro da relevância das questões de direito federal infraconstitucional no Recurso Especial."
       },
       {
         "letter": "B",
-        "text": "Se o Tribunal de origem rejeitar os embargos declaratórios sem analisar o artigo federal, o REsp é inadmissível de plano no mérito por ausência de prequestionamento."
+        "text": "Se o Tribunal de origem rejeitar os embargos declaratórios sem analisar o artigo federal, o REsp é inadmissível de plano no mérito por ausência de prequestionamento, com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível."
       },
       {
         "letter": "C",
-        "text": "A simples alegação de ofensa reflexa à Constituição ou o reexame puro de provas em acórdão estadual autoriza o conhecimento de Recurso Extraordinário e Recurso Especial."
+        "text": "A simples alegação de ofensa reflexa à Constituição ou o reexame puro de provas em acórdão estadual autoriza o conhecimento de Recurso Extraordinário e Recurso Especial, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "D",
-        "text": "Se a decisão impugnada violar simultaneamente lei federal e a Constituição Federal com fundamentos independentes suficientes, basta interpor apenas o Recurso Extraordinário ao STF."
+        "text": "Se a decisão impugnada violar simultaneamente lei federal e a Constituição Federal com fundamentos independentes suficientes, basta interpor apenas o Recurso Extraordinário ao STF, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       }
     ],
     "correctAnswer": "A",
@@ -1233,19 +1233,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O direito à rescisão se extingue em 2 ANOS contados do trânsito em julgado da última decisão proferida no processo (Art. 975 CPC — e se fundada em PROVA NOVA do inciso VII, o prazo de 2 anos conta-se da descoberta da prova nova, observado o limite máximo de 5 anos da data do trânsito em julgado, Art. 975, § 2º); a propositura da ação rescisória exige depósito prévio de 5% sobre o valor da causa (teto de 1.000 salários mínimos), dispensado para União, Estados, DF, Municípios, MP, Defensoria Pública e beneficiários de gratuidade (Art. 968, II e § 1º)."
+        "text": "O direito à rescisão se extingue em 2 anos contados do trânsito em julgado da última decisão proferida no processo; a propositura da ação rescisória exige depósito prévio de 5% sobre o valor da causa, dispensado para União, Estados, DF, Municípios, MP, Defensoria Pública e beneficiários de gratuidade."
       },
       {
         "letter": "B",
-        "text": "O prazo para propor ação rescisória fundada em prova nova obtida após a sentença é sempre de 2 anos improrrogáveis da data do trânsito em julgado original."
+        "text": "O prazo para propor ação rescisória fundada em prova nova obtida após a sentença é sempre de 2 anos improrrogáveis da data do trânsito em julgado original, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "C",
-        "text": "O depósito prévio de 5% exigido na petição inicial da ação rescisória converte-se automaticamente em multa ao réu caso a ação seja julgada procedente."
+        "text": "O depósito prévio de 5% exigido na petição inicial da ação rescisória converte-se automaticamente em multa ao réu caso a ação seja julgada procedente, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "D",
-        "text": "Se a ação rescisória tiver por objeto apenas a violação manifesta de norma jurídica em sentença já alterada em parte no acórdão, não cabe contra capítulo autônomo de mérito."
+        "text": "Se a ação rescisória tiver por objeto apenas a violação manifesta de norma jurídica em sentença já alterada em parte no acórdão, não cabe contra capítulo autônomo de mérito, sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório."
       }
     ],
     "correctAnswer": "A",
@@ -1289,7 +1289,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A reclamação ao STF/STJ para garantir observância de acórdão de RE com repercussão geral ou REsp repetitivo exige o ESGOTAMENTO DAS INSTÂNCIAS ORDINÁRIAS (Art. 988, § 5º, II, CPC — e nunca cabe após trânsito em julgado — § 5º, I); ademais, contra acórdão de Turma Recursal de JEC que contraria jurisprudência consolidada do STJ (sem questão constitucional), o STJ pacificou não caber REsp nem Reclamação direta como regra geral (cabendo apenas Reclamação por divergência prevista em resolução ou Pedido de Uniformização nos JEFs/JECs conforme regras próprias, enquanto para Súmula Vinculante e controle concentrado cabe Reclamação ao STF!)."
+        "text": "A reclamação ao STF/STJ para garantir observância de acórdão de RE com repercussão geral ou REsp repetitivo exige o esgotamento das instâncias ordinárias."
       },
       {
         "letter": "B",
@@ -1297,11 +1297,11 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "É perfeitamente cabível ajuizar Reclamação mesmo após o trânsito em julgado da decisão reclamada como substitutivo de ação rescisória."
+        "text": "É perfeitamente cabível ajuizar Reclamação mesmo após o trânsito em julgado da decisão reclamada como substitutivo de ação rescisória, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "D",
-        "text": "No Juizado Especial Cível estadual (Lei nº 9.099/95), o prazo para interpor Recurso Inominado contra a sentença é de 15 dias úteis conforme o CPC."
+        "text": "No Juizado Especial Cível estadual, o prazo para interpor Recurso Inominado contra a sentença é de 15 dias úteis conforme o CPC, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       }
     ],
     "correctAnswer": "A",
@@ -1345,19 +1345,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, o pedido de cooperação jurisdicional entre órgãos do Poder Judiciário nacional prescinde de forma especial (pode ocorrer por auxílio direto, reunião/apensamento ou atos concertados entre juízes cooperantes — Art. 69, § 2º, CPC), inclusive para efetivação de tutela provisória e centralização de processos repetitivos."
+        "text": "Sim, o pedido de cooperação jurisdicional entre órgãos do Poder Judiciário nacional prescinde de forma especial, inclusive para efetivação de tutela provisória e centralização de processos repetitivos."
       },
       {
         "letter": "B",
-        "text": "Qualquer comunicação ou ato entre juízos de comarcas diversas exige obrigatoriamente carta precatória solene."
+        "text": "Qualquer comunicação ou ato entre juízos de comarcas diversas exige obrigatoriamente carta precatória solene, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "C",
-        "text": "A cooperação nacional restringe-se apenas a juízos pertencentes ao mesmo Tribunal de Justiça estadual."
+        "text": "A cooperação nacional restringe-se apenas a juízos pertencentes ao mesmo Tribunal de Justiça estadual, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "D",
-        "text": "Juízes não podem pactuar o compartilhamento de competência para execução de penhora unificada."
+        "text": "Juízes não podem pactuar o compartilhamento de competência para execução de penhora unificada, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco."
       }
     ],
     "correctAnswer": "A",
@@ -1400,19 +1400,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O adquirente NÃO poderá ingressar substituindo o alienante em juízo sem que a parte contrária (réu) consinta expressamente (Art. 109, § 1º); na falta de consentimento, o alienante continua no processo como SUBSTITUTO PROCESSUAL, podendo o adquirente intervir apenas como ASSISTENTE LITISCONSORCIAL (§ 2º), estendendo-se os efeitos da sentença ao adquirente (§ 3º)."
+        "text": "O adquirente não poderá ingressar substituindo o alienante em juízo sem que a parte contrária (réu) consinta expressamente."
       },
       {
         "letter": "B",
-        "text": "A alienação da coisa litigiosa durante o processo é nula de pleno direito e extingue imediatamente a ação."
+        "text": "A alienação da coisa litigiosa durante o processo é nula de pleno direito e extingue imediatamente a ação, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "C",
-        "text": "Sem consentimento do réu, o adquirente é proibido até mesmo de ingressar nos autos como assistente."
+        "text": "Sem consentimento do réu, o adquirente é proibido até mesmo de ingressar nos autos como assistente, com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível."
       },
       {
         "letter": "D",
-        "text": "A sentença proferida contra o alienante nunca produz efeitos em face do adquirente que não assumiu o polo ativo."
+        "text": "A sentença proferida contra o alienante nunca produz efeitos em face do adquirente que não assumiu o polo ativo, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       }
     ],
     "correctAnswer": "A",
@@ -1455,11 +1455,11 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A gratuidade da justiça NÃO afasta a responsabilidade pelas despesas e honorários decorrentes da sucumbência nem o pagamento das multas processuais impostas ao beneficiário (Art. 98, § 4º — que são exigíveis normalmente!); quanto aos honorários sucumbenciais e custas, ficam apenas sob CONDIÇÃO SUSPENSIVA DE EXIGIBILIDADE por 5 anos após o trânsito em julgado, extinguindo-se só após 5 anos se persistir a insuficiência (Art. 98, § 3º)."
+        "text": "A gratuidade da justiça não afasta a responsabilidade pelas despesas e honorários decorrentes da sucumbência nem o pagamento das multas processuais impostas ao beneficiário."
       },
       {
         "letter": "B",
-        "text": "O beneficiário da gratuidade da justiça fica totalmente imune ao pagamento de multas por litigância de má-fé ou ato atentatório à dignidade da justiça."
+        "text": "O beneficiário da gratuidade da justiça fica totalmente imune ao pagamento de multas por litigância de má-fé ou ato atentatório à dignidade da justiça, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "C",
@@ -1467,7 +1467,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Indeferida a gratuidade de justiça em sentença final, o recurso cabível contra o capítulo da gratuidade é o agravo de instrumento isolado."
+        "text": "Indeferida a gratuidade de justiça em sentença final, o recurso cabível contra o capítulo da gratuidade é o agravo de instrumento isolado, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       }
     ],
     "correctAnswer": "A",
@@ -1511,11 +1511,11 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A atuação do escritório do cônjuge ou parente até 3º grau do juiz — ainda que outro advogado do mesmo escritório atue nos autos — configura IMPEDIMENTO objetivo (Art. 144, VIII, CPC — não preclui e gera inclusive nulidade rescindível por ação rescisória após trânsito em julgado!); já a amizade íntima ou inimizade capital configura SUSPEIÇÃO (Art. 145, I — deve ser arguida pela parte no prazo de 15 DIAS a contar do conhecimento do fato, em petição específica dirigida ao juiz da causa, sob pena de preclusão)."
+        "text": "A atuação do escritório do cônjuge ou parente até 3º grau do juiz; já a amizade íntima ou inimizade capital configura suspeição."
       },
       {
         "letter": "B",
-        "text": "Se o cônjuge do juiz apenas integra o mesmo escritório de advocacia, mas não assina a petição do processo, não há impedimento."
+        "text": "Se o cônjuge do juiz apenas integra o mesmo escritório de advocacia, mas não assina a petição do processo, não há impedimento. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "C",
@@ -1523,7 +1523,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O prazo para arguir impedimento ou suspeição é de 5 dias em petição avulsa diretamente no Tribunal de Justiça."
+        "text": "O prazo para arguir impedimento ou suspeição é de 5 dias em petição avulsa diretamente no Tribunal de Justiça, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       }
     ],
     "correctAnswer": "A",
@@ -1566,19 +1566,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nas intimações via portal eletrônico próprio (Art. 5º da Lei 11.419/2006 c/c Art. 231, V, CPC), se o intimado NÃO efetuar a consulta eletrônica em até 10 DIAS CORRIDOS contados da data do envio, considera-se automaticamente realizada a intimação no término desse prazo de 10 dias (intimação tácita), iniciando-se o prazo processual no primeiro dia útil seguinte (salvo intimação via Diário de Justiça Eletrônico — DJeN — em que a publicação ocorre no 1º dia útil seguinte à disponibilização)."
+        "text": "Nas intimações via portal eletrônico próprio, se o intimado não efetuar a consulta eletrônica em até 10 dias corridos contados da data do envio, considera-se automaticamente realizada a intimação no término desse prazo de 10 dias (intimação tácita), iniciando-se o prazo processual no primeiro dia útil seguinte."
       },
       {
         "letter": "B",
-        "text": "Não havendo abertura do portal eletrônico pelo advogado, a intimação jamais se aperfeiçoa e o prazo fica eternamente parado."
+        "text": "Não havendo abertura do portal eletrônico pelo advogado, a intimação jamais se aperfeiçoa e o prazo fica eternamente parado, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco."
       },
       {
         "letter": "C",
-        "text": "Na contagem do prazo de 15 dias úteis quando há intimação de dois réus citados por cartas precatórias distintas, o prazo de defesa corre isolado para cada réu desde sua própria juntada."
+        "text": "Na contagem do prazo de 15 dias úteis quando há intimação de dois réus citados por cartas precatórias distintas, o prazo de defesa corre isolado para cada réu desde sua própria juntada, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "D",
-        "text": "A falta de indicação do nome completo de pelo menos um advogado na publicação eletrônica não gera nulidade se constar apenas o número da OAB."
+        "text": "A falta de indicação do nome completo de pelo menos um advogado na publicação eletrônica não gera nulidade se constar apenas o número da OAB, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       }
     ],
     "correctAnswer": "A",
@@ -1621,19 +1621,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Correta, pois nenhum inventário ou arrolamento sumário judicial pode ser homologado sem prévia quitação do ITCMD."
+        "text": "Correta, pois nenhum inventário ou arrolamento sumário judicial pode ser homologado sem prévia quitação do ITCMD. A medida submete-se ao controle recursal ordinário nos prazos previstos para o procedimento."
       },
       {
         "letter": "B",
-        "text": "Mesmo havendo herdeiro menor ou incapaz, os herdeiros podem realizar inventário extrajudicial em cartório sempre que todos os maiores assinarem."
+        "text": "Mesmo havendo herdeiro menor ou incapaz, os herdeiros podem realizar inventário extrajudicial em cartório sempre que todos os maiores assinarem, com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas."
       },
       {
         "letter": "C",
-        "text": "O prazo legal para requerer a abertura do inventário após o óbito no CPC/2015 é de 30 dias."
+        "text": "O prazo legal para requerer a abertura do inventário após o óbito no CPC/2015 é de 30 dias, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "D",
-        "text": "Incorreta, pois no Tema 1074 dos Recursos Repetitivos (REsp 1.896.526), o STJ decidiu que no ARROLAMENTO SUMÁRIO (Art. 659, § 2º, CPC), a homologação da partilha ou da adjudicação NÃO se condiciona ao prévio recolhimento do imposto de transmissão causa mortis (ITCMD), devendo o Fisco estadual ser intimado apenas APÓS a expedição do formal de partilha para lançar e cobrar administrativamente o tributo (ressalvada a prova de quitação dos tributos relativos aos bens do espólio!)."
+        "text": "Incorreta, pois no Tema 1074 dos Recursos Repetitivos, o STJ decidiu que no arrolamento sumário, a homologação da partilha ou da adjudicação não se condiciona ao prévio recolhimento do imposto de transmissão causa mortis (ITCMD), devendo o Fisco estadual ser intimado apenas após a expedição do formal de partilha para lançar e cobrar administrativamente o tributo."
       }
     ],
     "correctAnswer": "D",
@@ -1677,19 +1677,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo para o autor efetuar o depósito inicial na consignação judicial é de 15 dias após a citação do réu."
+        "text": "O prazo para o autor efetuar o depósito inicial na consignação judicial é de 15 dias após a citação do réu, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "B",
-        "text": "Quando o réu alega insuficiência do depósito na contestação, ele não precisa indicar o montante que entende exato."
+        "text": "Quando o réu alega insuficiência do depósito na contestação, ele não precisa indicar o montante que entende exato, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
-        "text": "A consignação extrajudicial em estabelecimento bancário é cabível para obrigações de entregar coisa certa móvel ou imóvel."
+        "text": "A consignação extrajudicial em estabelecimento bancário é cabível para obrigações de entregar coisa certa móvel ou imóvel, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "D",
-        "text": "Não realizado o depósito inicial pelo autor no prazo de 5 DIAS do deferimento, o processo será EXTINTO SEM RESOLUÇÃO DO MÉRITO (Art. 542, parágrafo único); porém, se o réu alegar apenas que o depósito efetuado é INSUFICIENTE (depósito a menor), o autor poderá completá-lo no prazo de 10 DIAS, salvo se corresponder à prestação cujo inadimplemento acarrete a rescisão do contrato (Art. 545 CPC)."
+        "text": "Não realizado o depósito inicial pelo autor no prazo de 5 dias do deferimento, o processo será extinto sem resolução do mérito."
       }
     ],
     "correctAnswer": "D",
@@ -1736,7 +1736,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A decisão que julga o incidente de liquidação de sentença é recorrível por meio de apelação por encerrar a fase cognitiva."
+        "text": "A decisão que julga o incidente de liquidação de sentença é recorrível por meio de apelação por encerrar a fase cognitiva, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
@@ -1744,7 +1744,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Deve-se adotar a LIQUIDAÇÃO PELO PROCEDIMENTO COMUM (quando houver necessidade de alegar e provar FATO NOVO — Art. 509, II, CPC — diferente da liquidação por arbitramento, que decorre apenas de convenção ou natureza do objeto sem fatos novos, e do mero cálculo aritmético que dispensa liquidação!); da decisão proferida na liquidação de sentença cabe AGRAVO DE INSTRUMENTO (Art. 1.015, parágrafo único, CPC)."
+        "text": "Deve-se adotar a liquidação pelo procedimento comum; da decisão proferida na liquidação de sentença cabe agravo de instrumento."
       }
     ],
     "correctAnswer": "D",
@@ -1791,15 +1791,15 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O juiz pode extinguir o processo de ofício por abandono de causa do autor mesmo após apresentada contestação pelo réu."
+        "text": "O juiz pode extinguir o processo de ofício por abandono de causa do autor mesmo após apresentada contestação pelo réu, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação."
       },
       {
         "letter": "C",
-        "text": "A extinção do processo por abandono (3 vezes consecutivas) não impede o autor de propor a mesma ação uma quarta vez."
+        "text": "A extinção do processo por abandono (3 vezes consecutivas) não impede o autor de propor a mesma ação uma quarta vez, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "D",
-        "text": "A desistência da ação após o oferecimento da contestação NÃO pode ser homologada sem o consentimento do réu (Art. 485, § 4º — que só pode recusar justificadamente? Não, basta não consentir, podendo apenas o juiz afastar recusa abusiva na jurisprudência — e só pode desistir até a SENTENÇA, § 5º); e o abandono da causa por mais de 30 dias exige prévia intimação PESSOAL da parte (não basta do advogado — § 1º) E requerimento do réu (Súmula 240 STJ — o juiz não extingue de ofício por abandono após contestação!)."
+        "text": "A desistência da ação após o oferecimento da contestação não pode ser homologada sem o consentimento do réu."
       }
     ],
     "correctAnswer": "D",
@@ -1843,7 +1843,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O IAC exige exatamente a multiplicação massiva de centenas de processos idênticos, assim como o IRDR."
+        "text": "O IAC exige exatamente a multiplicação massiva de centenas de processos idênticos, assim como o IRDR, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação."
       },
       {
         "letter": "B",
@@ -1851,11 +1851,11 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Quem suscitou anteriormente a exceção/preliminar de incompetência pode suscitar também conflito de competência sobre a mesma questão."
+        "text": "Quem suscitou anteriormente a exceção/preliminar de incompetência pode suscitar também conflito de competência sobre a mesma questão, com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas."
       },
       {
         "letter": "D",
-        "text": "SIM, cabe IAC exatamente quando houver relevante questão de direito com grande repercussão social, SEM REPETIÇÃO EM MÚLTIPLOS PROCESSOS (Art. 947 CPC — o acórdão do órgão colegiado indicado pelo regimento vinculará todos os juízes e órgãos fracionários); e o conflito negativo de competência entre juiz estadual e juiz federal (não vinculados ao mesmo tribunal) é julgado pelo SUPERIOR TRIBUNAL DE JUSTIÇA — STJ (Art. 105, I, \"d\", CF)."
+        "text": "Sim, cabe IAC exatamente quando houver relevante questão de direito com grande repercussão social, sem repetição em múltiplos processos."
       }
     ],
     "correctAnswer": "D",
@@ -1899,19 +1899,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O mediador que não conseguiu acordo pode advogar imediatamente para uma das partes no dia seguinte ao encerramento da mediação."
+        "text": "O mediador que não conseguiu acordo pode advogar imediatamente para uma das partes no dia seguinte ao encerramento da mediação, com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível."
       },
       {
         "letter": "B",
-        "text": "O conciliador atua preferencialmente nos casos em que houver vínculo anterior entre as partes, enquanto o mediador atua quando não houver vínculo prévio."
+        "text": "O conciliador atua preferencialmente nos casos em que houver vínculo anterior entre as partes, enquanto o mediador atua quando não houver vínculo prévio, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "C",
-        "text": "Os termos de acordo celebrados em câmara privada de mediação não possuem força de título executivo sem homologação judicial prévia."
+        "text": "Os termos de acordo celebrados em câmara privada de mediação não possuem força de título executivo sem homologação judicial prévia, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "D",
-        "text": "Ambas as condutas são proibidas: o conciliador e o mediador ficam IMPEDIDOS, pelo prazo de 1 ANO contado do término da última audiência em que atuaram, de assessorar, representar ou patrocinar qualquer das partes (Art. 172 CPC); e os princípios da confidencialidade e sigilo proíbem a divulgação de informações da sessão, não podendo sequer o mediador depor como testemunha acerca dos fatos ali tratados (Art. 166, §§ 1º e 2º)."
+        "text": "Ambas as condutas são proibidas: o conciliador e o mediador ficam impedidos, pelo prazo de 1 ano contado do término da última audiência em que atuaram, de assessorar, representar ou patrocinar qualquer das partes."
       }
     ],
     "correctAnswer": "D",
@@ -1954,19 +1954,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na falta total de comprovação de preparo no ato da interposição, opera-se deserção imediata sem oportunidade de regularização."
+        "text": "Na falta total de comprovação de preparo no ato da interposição, opera-se deserção imediata sem oportunidade de regularização, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "B",
-        "text": "Havendo vício formal sanável em recurso ou no preparo insuficiente, o relator deve primeiro aplicar multa de 10% antes de julgar o mérito."
+        "text": "Havendo vício formal sanável em recurso ou no preparo insuficiente, o relator deve primeiro aplicar multa de 10% antes de julgar o mérito, com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas."
       },
       {
         "letter": "C",
-        "text": "O erro no preenchimento da guia de custas recursais implica deserção automática sem chance de correção."
+        "text": "O erro no preenchimento da guia de custas recursais implica deserção automática sem chance de correção, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "D",
-        "text": "Não respeita, pois pelo princípio da primazia da decisão de mérito e cooperação (Arts. 4º, 6º, 932, parágrafo único e 1.007, §§ 2º e 4º, CPC): (1) se o preparo foi recolhido a MENOR (insuficiência), intima-se para complementar em 5 dias úteis no valor simples; (2) se NÃO houve NENHUM recolhimento na interposição, intima-se para realizar o recolhimento EM DOBRO em 5 dias úteis (e se ainda não recolher ou recolher a menor na dobra, aí sim haverá deserção, sem nova oportunidade — § 5º)."
+        "text": "Não respeita, pois pelo princípio da primazia da decisão de mérito e cooperação: se o preparo foi recolhido a menor (insuficiência), intima-se para complementar em 5 dias úteis no valor simples."
       }
     ],
     "correctAnswer": "D",
@@ -2009,19 +2009,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, pois pela Súmula 33 do STJ a incompetência relativa e a abusividade de eleição de foro nunca podem ser declaradas de ofício."
+        "text": "Não, pois a incompetência relativa e a abusividade de eleição de foro nunca podem ser declaradas de ofício. A medida submete-se ao controle recursal ordinário nos prazos previstos para o procedimento."
       },
       {
         "letter": "B",
-        "text": "A eleição de foro pode alterar inclusive a competência absoluta em razão da matéria e da hierarquia."
+        "text": "A eleição de foro pode alterar inclusive a competência absoluta em razão da matéria e da hierarquia, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "C",
-        "text": "Se o réu não alegar incompetência relativa na contestação, a competência continua prorrogável apenas com concordância posterior do Ministério Público."
+        "text": "Se o réu não alegar incompetência relativa na contestação, a competência continua prorrogável apenas com concordância posterior do Ministério Público, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "D",
-        "text": "Sim. Com a Lei nº 14.879/2024, o Art. 63, §§ 1º e 5º, do CPC passou a exigir que a eleição de foro guarde pertinência com o domicílio/residência de uma das partes ou com o local da obrigação (salvo consumerista quando favorável ao consumidor), e o ajuizamento em juízo aleatório sem vinculação constitui prática abusiva que autoriza o juiz a declinar da competência DE OFÍCIO."
+        "text": "Sim, com a Lei nº 14.879/2024, o Art. 63, §§ 1º e 5º, do CPC passou a exigir que a eleição de foro guarde pertinência com o domicílio/residência de uma das partes ou com o local da obrigação, e o ajuizamento em juízo aleatório sem vinculação constitui prática abusiva que autoriza o juiz a declinar da competência de ofício."
       }
     ],
     "correctAnswer": "D",
@@ -2064,19 +2064,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, porque o juiz pode sempre reduzir honorários por equidade quando considerar o valor econômico da causa elevado."
+        "text": "Sim, porque o juiz pode sempre reduzir honorários por equidade quando considerar o valor econômico da causa elevado. Essa sistemática assegura a regularidade formal do rito de conhecimento e de execução."
       },
       {
         "letter": "B",
-        "text": "Os honorários sucumbenciais pertencem à parte vencedora e podem ser compensados livremente em caso de sucumbência recíproca."
+        "text": "Os honorários sucumbenciais pertencem à parte vencedora e podem ser compensados livremente em caso de sucumbência recíproca, com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas."
       },
       {
         "letter": "C",
-        "text": "Se a sentença transitada em julgado omitir os honorários sucumbenciais, eles não poderão ser cobrados em ação autônoma."
+        "text": "Se a sentença transitada em julgado omitir os honorários sucumbenciais, eles não poderão ser cobrados em ação autônoma, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "D",
-        "text": "Não. No Tema 1076 dos Recursos Repetitivos, o STJ firmou que a fixação de honorários por apreciação equitativa (Art. 85, § 8º, CPC) NÃO é permitida quando os valores da condenação, da causa ou o proveito econômico forem elevados, devendo observar obrigatoriamente os percentuais legais do Art. 85, §§ 2º e 3º."
+        "text": "Não, no Tema 1076 dos Recursos Repetitivos, o STJ firmou que a fixação de honorários por apreciação equitativa não é permitida quando os valores da condenação, da causa ou o proveito econômico forem elevados, devendo observar obrigatoriamente os percentuais legais."
       }
     ],
     "correctAnswer": "D",
@@ -2120,19 +2120,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O IDPJ pode ser decidido de plano sem citar o sócio e a decisão só pode ser impugnada na apelação final."
+        "text": "O IDPJ pode ser decidido de plano sem citar o sócio e a decisão só pode ser impugnada na apelação final, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "B",
-        "text": "A intervenção do amicus curiae autoriza a interposição de recurso especial e extraordinário contra a decisão de mérito."
+        "text": "A intervenção do amicus curiae autoriza a interposição de recurso especial e extraordinário contra a decisão de mérito, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "C",
-        "text": "A admissão de amicus curiae modifica a competência do juiz estadual para a Justiça Federal quando se tratar de órgão federal neutro."
+        "text": "A admissão de amicus curiae modifica a competência do juiz estadual para a Justiça Federal quando se tratar de órgão federal neutro, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "D",
-        "text": "A instauração do IDPJ suspende o processo principal (salvo se requerida na própria petição inicial — Art. 134, §§ 2º e 3º), exige citação do sócio/PJ para se manifestar e requerer provas em 15 dias (Art. 135), e a decisão interlocutória que julga o IDPJ desafia AGRAVO DE INSTRUMENTO (Art. 1.015, IV, CPC) — ou agravo interno se proferida por relator no tribunal (Art. 136, parágrafo único)."
+        "text": "A instauração do IDPJ suspende o processo principal, exige citação do sócio/pj para se manifestar e requerer provas em 15 dias, e a decisão interlocutória que julga o IDPJ desafia agravo de instrumento."
       }
     ],
     "correctAnswer": "D",
@@ -2175,19 +2175,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em autos eletrônicos, litisconsortes de escritórios diferentes mantêm direito ao prazo em dobro."
+        "text": "Em autos eletrônicos, litisconsortes de escritórios diferentes mantêm direito ao prazo em dobro, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "B",
-        "text": "A Fazenda Pública possui prazo em quádruplo para contestar e em dobro para recorrer, igual ao antigo CPC/1973."
+        "text": "A Fazenda Pública possui prazo em quádruplo para contestar e em dobro para recorrer, igual ao antigo CPC/1973, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
-        "text": "Nos processos em autos ELETRÔNICOS, NÃO se aplica o prazo em dobro para litisconsortes com advogados diferentes (Art. 229, § 2º, CPC — prazo simples de 15 dias úteis para cada réu); já para a autarquia estadual (Fazenda Pública) ou Ministério Público ou Defensoria Pública, aplica-se o prazo em DOBRO para todas as manifestações processuais (Arts. 180, 183 e 186 CPC), inclusive em autos eletrônicos, salvo quando a lei fixar prazo próprio."
+        "text": "Nos processos em autos eletrônicos, não se aplica o prazo em dobro para litisconsortes com advogados diferentes; já para a autarquia estadual (Fazenda Pública) ou Ministério Público ou Defensoria Pública, aplica-se o prazo em dobro para todas as manifestações processuais, inclusive em autos eletrônicos, salvo quando a lei fixar prazo próprio."
       },
       {
         "letter": "D",
-        "text": "Os prazos processuais contam-se sempre em dias corridos, incluindo finais de semana e feriados."
+        "text": "Os prazos processuais contam-se sempre em dias corridos, incluindo finais de semana e feriados, com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       }
     ],
     "correctAnswer": "C",
@@ -2230,19 +2230,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O negócio jurídico processual depende sempre de prévia homologação judicial para ter eficácia e só vale após a citação."
+        "text": "O negócio jurídico processual depende sempre de prévia homologação judicial para ter eficácia e só vale após a citação, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação."
       },
       {
         "letter": "B",
-        "text": "As partes podem pactuar inclusive a redução de prazos peremptórios recursais ou a supressão do duplo grau obrigatório."
+        "text": "As partes podem pactuar inclusive a redução de prazos peremptórios recursais ou a supressão do duplo grau obrigatório, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
-        "text": "Não. Pelo Art. 190, caput e parágrafo único, do CPC, as partes podem estipular mudanças no procedimento sobre direitos que admitam autocomposição para ajustá-lo às especificidades da causa e convencionar ônus/poderes/deveres processuais, mas NÃO podem criar novos recursos ou alterar regras de ordem pública/competência absoluta, cabendo ao juiz controlar de ofício a validade (recusando aplicação em caso de nulidade, inserção abusiva em contrato de adesão ou vulnerabilidade manifesta)."
+        "text": "Não, as partes podem estipular mudanças no procedimento sobre direitos que admitam autocomposição para ajustá-lo às especificidades da causa e convencionar ônus/poderes/deveres processuais, mas não podem criar novos recursos ou alterar regras de ordem pública/competência absoluta, cabendo ao juiz controlar de ofício a validade."
       },
       {
         "letter": "D",
-        "text": "O calendário processual previsto no Art. 191 pode ser imposto unilateralmente pelo autor sem participação do juiz."
+        "text": "O calendário processual pode ser imposto unilateralmente pelo autor sem participação do juiz, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       }
     ],
     "correctAnswer": "C",
@@ -2285,19 +2285,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A tutela estabilizada faz coisa julgada material definitiva imediatamente, impedindo ação revisional futura."
+        "text": "A tutela estabilizada faz coisa julgada material definitiva imediatamente, impedindo ação revisional futura, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "B",
-        "text": "A tutela cautelar em caráter antecedente também se estabiliza nos termos do Art. 304 caso o réu não recorra."
+        "text": "A tutela cautelar em caráter antecedente também se estabiliza caso o réu não recorra, com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial."
       },
       {
         "letter": "C",
-        "text": "Questão clássica do CPC (Art. 304) e STJ: pela letra do Art. 304, a tutela antecipada torna-se estável se da decisão que a conceder não for interposto o respectivo RECURSO (extinguindo-se o processo, e cabendo ação revisional/anulatória em 2 anos — sem fazer coisa julgada material!); atenção porém ao entendimento consolidado no STJ (1ª Turma x 3ª Turma): a 3ª Turma exige impugnação por recurso ou contestação inequívoca contra a medida, enquanto a 1ª Turma exige estritamente a interposição do agravo de instrumento conforme o texto literal do Art. 304."
+        "text": "Questão clássica do CPC e STJ: pela letra, a tutela antecipada torna-se estável se da decisão que a conceder não for interposto o respectivo recurso."
       },
       {
         "letter": "D",
-        "text": "Na tutela da evidência do Art. 311 do CPC, exige-se sempre demonstração cumulativa de perigo de dano ou risco ao resultado útil do processo."
+        "text": "Na tutela da evidência, exige-se sempre demonstração cumulativa de perigo de dano ou risco ao resultado útil do processo, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       }
     ],
     "correctAnswer": "C",
@@ -2340,19 +2340,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deve indeferir a petição inicial sem resolução de mérito (Art. 330 CPC) por impossibilidade jurídica do pedido."
+        "text": "Deve indeferir a petição inicial sem resolução de mérito por impossibilidade jurídica do pedido, sem exigência de caução prévia ou intimação complementar da parte adversa para efetivação."
       },
       {
         "letter": "B",
-        "text": "Antes de indeferir a inicial por falta de requisito formal do Art. 319, o juiz extingue o processo imediatamente sem conceder prazo ao autor."
+        "text": "Antes de indeferir a inicial por falta de requisito formal, o juiz extingue o processo imediatamente sem conceder prazo ao autor, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
-        "text": "Deve julgar LIMINARMENTE IMPROCEDENTE o pedido (Art. 332, I, CPC), resolvendo o mérito com força de coisa julgada material após o trânsito em julgado, independentemente de citação do réu; havendo apelação do autor, o juiz poderá retratar-se em 5 dias e, se mantiver a sentença, mandará citar o réu para contrarrazões."
+        "text": "Deve julgar liminarmente improcedente o pedido, resolvendo o mérito com força de coisa julgada material após o trânsito em julgado, independentemente de citação do réu."
       },
       {
         "letter": "D",
-        "text": "O juiz não pode julgar liminarmente improcedente o pedido reconhecendo de plano a prescrição ou decadência antes de citar o réu."
+        "text": "O juiz não pode julgar liminarmente improcedente o pedido reconhecendo de plano a prescrição ou decadência antes de citar o réu, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       }
     ],
     "correctAnswer": "C",
@@ -2395,19 +2395,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Basta a manifestação unilateral do autor na inicial para que a audiência do Art. 334 seja cancelada."
+        "text": "Basta a manifestação unilateral do autor na inicial para que a audiência seja cancelada, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "B",
-        "text": "O não comparecimento injustificado de qualquer parte à audiência de conciliação gera automaticamente revelia com presunção de veracidade."
+        "text": "O não comparecimento injustificado de qualquer parte à audiência de conciliação gera automaticamente revelia com presunção de veracidade, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "C",
-        "text": "A audiência de conciliação só NÃO será realizada se AMBAS as partes manifestarem expressamente desinteresse na composição consensual (autor na inicial e réu por petição apresentada com pelo menos 10 dias de antecedência — logo, pedido com 5 dias é intempestivo, não cancela automaticamente!); já a reconvenção é proposta NA PRÓPRIA CONTESTAÇÃO (Art. 343 CPC), podendo ser dirigida contra o autor e terceiro ou pelo réu em litisconsórcio com terceiro."
+        "text": "A audiência de conciliação só não será realizada se ambas as partes manifestarem expressamente desinteresse na composição consensual."
       },
       {
         "letter": "D",
-        "text": "A desistência da ação pelo autor ou a extinção sem mérito impede o prosseguimento da reconvenção já proposta."
+        "text": "A desistência da ação pelo autor ou a extinção sem mérito impede o prosseguimento da reconvenção já proposta, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       }
     ],
     "correctAnswer": "C",
@@ -2450,19 +2450,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Contra o réu que não contestou aplica-se sempre a presunção absoluta de veracidade e extingue-se a defesa do litisconsorte."
+        "text": "Contra o réu que não contestou aplica-se sempre a presunção absoluta de veracidade e extingue-se a defesa do litisconsorte, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "B",
-        "text": "A decisão de julgamento antecipado parcial do mérito (Art. 356) desafia recurso de apelação imediata."
+        "text": "A decisão de julgamento antecipado parcial do mérito desafia recurso de apelação imediata, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
-        "text": "No primeiro caso, embora haja revelia formal do réu inerte, NÃO se aplica seu efeito material (presunção de veracidade), pois em litisconsórcio com fato comum, a contestação de um aproveita ao outro (Art. 345, I, CPC); no segundo caso, o juiz deve proferir JULGAMENTO ANTECIPADO PARCIAL DO MÉRITO quanto ao pedido incontroverso/maduro (Art. 356 CPC), decisão impugnável por AGRAVO DE INSTRUMENTO!"
+        "text": "No primeiro caso, embora haja revelia formal do réu inerte, não se aplica seu efeito material, pois em litisconsórcio com fato comum, a contestação de um aproveita ao outro."
       },
       {
         "letter": "D",
-        "text": "O réu revel não pode mais intervir no processo em nenhuma fase após o prazo de contestação."
+        "text": "O réu revel não pode mais intervir no processo em nenhuma fase após o prazo de contestação, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco."
       }
     ],
     "correctAnswer": "C",
@@ -2505,19 +2505,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, o CPC veda expressamente a distribuição dinâmica do ônus da prova fora das relações de consumo."
+        "text": "Não, o CPC veda expressamente a distribuição dinâmica do ônus da prova fora das relações de consumo, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "B",
-        "text": "As partes jamais podem convencionar contratualmente a redistribuição do ônus da prova antes do processo."
+        "text": "As partes jamais podem convencionar contratualmente a redistribuição do ônus da prova antes do processo, sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório."
       },
       {
         "letter": "C",
-        "text": "O juiz pode atribuir o ônus da prova de modo diverso (distribuição dinâmica do ônus da prova — Art. 373, § 1º, CPC) diante de peculiaridades da causa relacionadas à impossibilidade ou excessiva dificuldade de cumprir o encargo ou maior facilidade de obtenção da prova do fato contrário, desde que o faça por DECISÃO FUNDAMENTADA e assegure à parte oportunidade para desincumbir-se do ônus que lhe foi atribuído (em regra no saneamento, passível de Agravo de Instrumento — Art. 1.015, XI)."
+        "text": "O juiz pode atribuir o ônus da prova de modo diverso diante de peculiaridades da causa relacionadas à impossibilidade ou excessiva dificuldade de cumprir o encargo ou maior facilidade de obtenção da prova do fato contrário, desde que o faça por decisão fundamentada e assegure à parte oportunidade para desincumbir-se do ônus que lhe foi atribuído."
       },
       {
         "letter": "D",
-        "text": "A prova emprestada de outro processo só é admitida se houver identidade exata das mesmas partes em ambos os processos."
+        "text": "A prova emprestada de outro processo só é admitida se houver identidade exata das mesmas partes em ambos os processos, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       }
     ],
     "correctAnswer": "C",
@@ -2564,15 +2564,15 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O prazo decadencial da Ação Rescisória é de 5 anos contados da prolação da sentença de primeiro grau."
+        "text": "O prazo decadencial da Ação Rescisória é de 5 anos contados da prolação da sentença de primeiro grau, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
-        "text": "Sim, se cumpridos todos os requisitos cumulativos do Art. 503, § 1º, do CPC: (1) da resolução depender o julgamento do mérito; (2) tiver havido contraditório prévio e efetivo (não se aplicando na revelia); e (3) o juízo tiver competência em razão da matéria e da pessoa para resolvê-la como questão principal (e não houver restrições probatórias — § 2º)."
+        "text": "Sim, se cumpridos todos os requisitos cumulativos: da resolução depender o julgamento do mérito; tiver havido contraditório prévio e efetivo."
       },
       {
         "letter": "D",
-        "text": "Os motivos determinantes da sentença fazem sempre coisa julgada material isoladamente, mesmo fora dos requisitos do § 1º."
+        "text": "Os motivos determinantes da sentença fazem sempre coisa julgada material isoladamente, mesmo fora dos requisitos do § 1º, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação."
       }
     ],
     "correctAnswer": "C",
@@ -2615,19 +2615,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo de 15 dias para impugnação ao cumprimento de sentença só começa após a garantia integral do juízo pela penhora."
+        "text": "O prazo de 15 dias para impugnação ao cumprimento de sentença só começa após a garantia integral do juízo pela penhora, com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas."
       },
       {
         "letter": "B",
-        "text": "A multa de 10% e os honorários de 10% aplicam-se também no cumprimento provisório de sentença e contra a Fazenda Pública."
+        "text": "A multa de 10% e os honorários de 10% aplicam-se também no cumprimento provisório de sentença e contra a Fazenda Pública, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "C",
-        "text": "Incidirá multa de 10% E honorários advocatícios de mais 10% sobre o débito não pago (Art. 523, § 1º, CPC); e, transcorrido o prazo de 15 dias para pagamento voluntário, inicia-se IMEDIATAMENTE — independentemente de penhora ou nova intimação — o prazo de 15 dias úteis para o executado apresentar impugnação ao cumprimento de sentença nos próprios autos (Art. 525 CPC)."
+        "text": "Incidirá multa de 10% e honorários advocatícios de mais 10% sobre o débito não pago; e, transcorrido o prazo de 15 dias para pagamento voluntário, inicia-se imediatamente."
       },
       {
         "letter": "D",
-        "text": "Caso o executado pague parcialmente o valor devido no prazo de 15 dias, a multa de 10% incide sobre a totalidade integral da condenação."
+        "text": "Caso o executado pague parcialmente o valor devido no prazo de 15 dias, a multa de 10% incide sobre a totalidade integral da condenação, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       }
     ],
     "correctAnswer": "C",
@@ -2670,19 +2670,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para opor Embargos à Execução, o executado deve primeiro garantir integralmente o juízo por penhora ou depósito."
+        "text": "Para opor Embargos à Execução, o executado deve primeiro garantir integralmente o juízo por penhora ou depósito, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação."
       },
       {
         "letter": "B",
-        "text": "Na execução de título extrajudicial, os embargos à execução possuem sempre efeito suspensivo automático até o julgamento."
+        "text": "Na execução de título extrajudicial, os embargos à execução possuem sempre efeito suspensivo automático até o julgamento, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "C",
-        "text": "O executado é citado para pagar a dívida em 3 DIAS (se pagar integralmente em 3 dias, os honorários advocatícios são reduzidos pela METADE — Art. 827, § 1º, CPC); pode opor Embargos à Execução no prazo de 15 dias úteis contados da juntada do mandado de citação aos autos, INDEPENDENTEMENTE de penhora, depósito ou caução (Art. 914 CPC), porém os embargos NÃO têm efeito suspensivo automático (Art. 919 CPC)."
+        "text": "O executado é citado para pagar a dívida em 3 dias; pode opor Embargos à Execução no prazo de 15 dias úteis contados da juntada do mandado de citação aos autos, independentemente de penhora, depósito ou caução, porém os embargos não têm efeito suspensivo automático."
       },
       {
         "letter": "D",
-        "text": "No caso de parcelamento legal do Art. 916 do CPC (30% de entrada + 6 parcelas), o credor aplica o mesmo parcelamento ao cumprimento de sentença."
+        "text": "No caso de parcelamento legal (30% de entrada + 6 parcelas), o credor aplica o mesmo parcelamento ao cumprimento de sentença, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       }
     ],
     "correctAnswer": "C",
@@ -2725,19 +2725,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os R$ 30.000,00 na poupança são integralmente penhoráveis porque o limite de proteção do CPC é de apenas 10 salários-mínimos."
+        "text": "Os R$ 30.000,00 na poupança são integralmente penhoráveis porque o limite de proteção do CPC é de apenas 10 salários-mínimos. A medida submete-se ao controle recursal ordinário nos prazos previstos para o procedimento."
       },
       {
         "letter": "B",
-        "text": "A quantia de até 40 salários-mínimos depositada em caderneta de poupança (ou conta corrente/aplicação financeira protegida segundo jurisprudência do STJ se reserva de subsistência sem movimentação especulativa) é IMPENHORÁVEL (Art. 833, X); quanto ao salário, embora a regra legal excepcione apenas dívida alimentar e ganhos acima de 50 salários-mínimos (Art. 833, § 2º), a Corte Especial do STJ admite excepcionalmente a mitigação da impenhorabilidade do salário mesmo abaixo de 50 SM para pagamento de dívida não alimentar desde que preservado o mínimo existencial/subsistência digna (EREsp 1.874.222)."
+        "text": "A quantia de até 40 salários-mínimos depositada em caderneta de poupança é impenhorável; quanto ao salário, embora a regra legal excepcione apenas dívida alimentar e ganhos acima de 50 salários-mínimos, a Corte Especial do STJ admite excepcionalmente a mitigação da impenhorabilidade do salário mesmo abaixo de 50 SM para pagamento de dívida não alimentar desde que preservado o mínimo existencial/subsistência digna (EREsp 1.874.222)."
       },
       {
         "letter": "C",
-        "text": "Pelo texto literal do Art. 833, § 2º, CPC, a impenhorabilidade de salários cede automaticamente acima de 20 salários-mínimos mensais."
+        "text": "Pelo texto literal, a impenhorabilidade de salários cede automaticamente acima de 20 salários-mínimos mensais, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias. Essa sistemática assegura a regularidade formal do rito de conhecimento e de execução."
       },
       {
         "letter": "D",
-        "text": "Os bens móveis que guarnecem a residência do executado são penhoráveis ainda que necessários ao sustento cotidiano, inclusive geladeira e fogão únicos."
+        "text": "Os bens móveis que guarnecem a residência do executado são penhoráveis ainda que necessários ao sustento cotidiano, inclusive geladeira e fogão únicos, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       }
     ],
     "correctAnswer": "B",
@@ -2781,11 +2781,11 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Como houve turbação em vez de esbulho, o juiz deve extinguir a reintegração de posse sem mérito por inadequação da via eleita."
+        "text": "Como houve turbação em vez de esbulho, o juiz deve extinguir a reintegração de posse sem mérito por inadequação da via eleita, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "B",
-        "text": "Por ter sido proposta dentro de ano e dia do esbulho (4 meses), trata-se de ação de força NOVA (rito especial com possibilidade de liminar imediata sem ouvir o réu ou após justificação — Art. 562 CPC); aplica-se a fungibilidade entre as possessórias (Art. 554 — receber reintegração como manutenção diante da turbação); e, pelo caráter DÚPLICE das ações possessórias (Art. 556), o réu pode formular pedido contraposto de proteção possessória e indenização na própria contestação!"
+        "text": "Por ter sido proposta dentro de ano e dia do esbulho (4 meses), trata-se de ação de força nova; aplica-se a fungibilidade entre as possessórias."
       },
       {
         "letter": "C",
@@ -2793,7 +2793,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Na pendência de ação possessória, qualquer das partes pode propor livremente ação reivindicatória discutindo propriedade."
+        "text": "Na pendência de ação possessória, qualquer das partes pode propor livremente ação reivindicatória discutindo propriedade, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       }
     ],
     "correctAnswer": "B",
@@ -2836,19 +2836,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na ação monitória, caso o réu pague o valor integral dentro do prazo de 15 dias, arcará com custas integrais e honorários de 20%."
+        "text": "Na ação monitória, caso o réu pague o valor integral dentro do prazo de 15 dias, arcará com custas integrais e honorários de 20%. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "B",
-        "text": "A ação monitória é o meio adequado para cobrança de cheque prescrito (Súmula 299 e Súmula 531 STJ — prova escrita sem força executiva, prazo de 5 anos — Art. 206, § 5º, I, CC), com mandado de pagamento em 15 dias (isentando de custas processuais se o réu cumprir no prazo e pagando apenas 5% de honorários — Art. 701, § 1º); já o cônjuge meeiro defende sua meação/bens próprios por EMBARGOS DE TERCEIRO (Art. 674, § 2º, I, CPC)."
+        "text": "A ação monitória é o meio adequado para cobrança de cheque prescrito, com mandado de pagamento em 15 dias; já o cônjuge meeiro defende sua meação/bens próprios por embargos de terceiro."
       },
       {
         "letter": "C",
-        "text": "Os embargos monitórios exigem garantia prévia do juízo e seguem em autos apartados distribuídos por dependência."
+        "text": "Os embargos monitórios exigem garantia prévia do juízo e seguem em autos apartados distribuídos por dependência, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "D",
-        "text": "O inventário extrajudicial em cartório é proibido mesmo havendo consenso quando todos os herdeiros forem capazes."
+        "text": "O inventário extrajudicial em cartório é proibido mesmo havendo consenso quando todos os herdeiros forem capazes, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       }
     ],
     "correctAnswer": "B",
@@ -2896,15 +2896,15 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Podem requerer o IRDR o juiz ou relator (por ofício), as partes, o Ministério Público ou a Defensoria Pública (Art. 977); exige-se pendência de causa no tribunal (Art. 978, parágrafo único — salvo divergência doutrinária/STJ sobre causa piloto, o CPC exige processo pendente no tribunal); é julgado pelo órgão competente para uniformização no tribunal; e do julgamento do MÉRITO do IRDR cabe Recurso Especial ou Recurso Extraordinário (com efeito suspensivo automático e presunção de repercussão geral — Art. 987!)."
+        "text": "Podem requerer o IRDR o juiz ou relator (por ofício), as partes, o Ministério Público ou a Defensoria Pública; exige-se pendência de causa no tribunal."
       },
       {
         "letter": "C",
-        "text": "São exigidas custas processuais elevadas para a parte requerer a instauração do IRDR."
+        "text": "São exigidas custas processuais elevadas para a parte requerer a instauração do IRDR, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "D",
-        "text": "O Incidente de Assunção de Competência (IAC - Art. 947) exige multiplicidade repetitiva de milhares de processos em curso."
+        "text": "O Incidente de Assunção de Competência (IAC - Art. 947) exige multiplicidade repetitiva de milhares de processos em curso, sem exigência de caução prévia ou intimação complementar da parte adversa para efetivação."
       }
     ],
     "correctAnswer": "B",
@@ -2947,19 +2947,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, o rol do Art. 1.015 é absolutamente taxativo e impede agravo de instrumento em qualquer situação não prevista em lei."
+        "text": "Não, o rol é absolutamente taxativo e impede agravo de instrumento em qualquer situação não prevista em lei, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "B",
-        "text": "Sim. Embora a incompetência não conste literalmente no rol do Art. 1.015 do CPC, o STJ firmou no Tema 988 a tese da TAXATIVIDADE MITIGADA do rol do Art. 1.015: admite-se a interposição imediata de Agravo de Instrumento quando verificada a URGÊNCIA decorrente da inutilidade do julgamento da questão no recurso de apelação (e especificamente sobre competência/cláusula arbitral, o STJ reconhece cabimento imediato por urgência/analogia ao inciso III)."
+        "text": "Sim, embora a incompetência não conste literalmente no rol, o STJ firmou no Tema 988 a tese da taxatividade mitigada do rol: admite-se a interposição imediata de Agravo de Instrumento quando verificada a urgência decorrente da inutilidade do julgamento da questão no recurso de apelação."
       },
       {
         "letter": "C",
-        "text": "Caso a parte não interponha agravo de instrumento sob a tese da taxatividade mitigada em hipótese fora do rol literal, ocorre preclusão imediata da matéria."
+        "text": "Caso a parte não interponha agravo de instrumento sob a tese da taxatividade mitigada em hipótese fora do rol literal, ocorre preclusão imediata da matéria, com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial."
       },
       {
         "letter": "D",
-        "text": "O prazo para interposição de todos os recursos no CPC, inclusive Embargos de Declaração, é de 15 dias úteis."
+        "text": "O prazo para interposição de todos os recursos no CPC, inclusive Embargos de Declaração, é de 15 dias úteis. Essa sistemática assegura a regularidade formal do rito de conhecimento e de execução."
       }
     ],
     "correctAnswer": "B",
@@ -3003,11 +3003,11 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O juiz de primeiro grau realiza o primeiro juízo de admissibilidade da apelação, podendo inadmiti-la por deserção."
+        "text": "O juiz de primeiro grau realiza o primeiro juízo de admissibilidade da apelação, podendo inadmiti-la por deserção, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "B",
-        "text": "A apelação é protocolada no 1º grau, mas o juízo de admissibilidade é exercido EXCLUSIVAMENTE pelo TRIBUNAL (Art. 1.010, § 3º — acabou o juízo de admissibilidade duplo!); questões interlocutórias não agraváveis são suscitadas em preliminar de apelação ou contrarrazões (Art. 1.009, § 1º); e pela teoria da causa madura (Art. 1.013, § 3º), reformando sentença sem mérito ou nula, o Tribunal pode julgar imediatamente o mérito se o processo estiver em condições de imediato julgamento."
+        "text": "A apelação é protocolada no 1º grau, mas o juízo de admissibilidade é exercido exclusivamente pelo tribunal."
       },
       {
         "letter": "C",
@@ -3015,7 +3015,7 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A apelação no CPC/2015 não possui efeito suspensivo em nenhuma hipótese."
+        "text": "A apelação no CPC/2015 não possui efeito suspensivo em nenhuma hipótese, com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial."
       }
     ],
     "correctAnswer": "B",
@@ -3058,19 +3058,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Mesmo intempestivos, os embargos de declaração interrompem o prazo para o Recurso Especial por força do Art. 1.026."
+        "text": "Mesmo intempestivos, os embargos de declaração interrompem o prazo para o Recurso Especial por força, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "B",
-        "text": "Embargos de declaração INTEMPESTIVOS NÃO interrompem o prazo para outros recursos (logo, o Recurso Especial posterior será também intempestivo — Súmula/jurisprudência pacífica STJ/STF); e quando o agravo interno for declarado manifestamente inadmissível ou improcedente em votação UNÂNIME, o órgão colegiado condenará o agravante a pagar ao agravado multa entre 1% e 5% do valor atualizado da causa (Art. 1.021, § 4º, CPC), cujo depósito é condição para interpor qualquer outro recurso (salvo Fazenda e gratuidade)."
+        "text": "Embargos de declaração intempestivos não interrompem o prazo para outros recursos; e quando o agravo interno for declarado manifestamente inadmissível ou improcedente em votação unânime, o órgão colegiado condenará o agravante a pagar ao agravado multa entre 1% e 5% do valor atualizado da causa, cujo depósito é condição para interpor qualquer outro recurso."
       },
       {
         "letter": "C",
-        "text": "Para interpor Agravo Interno contra decisão monocrática do relator, não é necessário impugnar especificamente os fundamentos da decisão agravada."
+        "text": "Para interpor Agravo Interno contra decisão monocrática do relator, não é necessário impugnar especificamente os fundamentos da decisão agravada, sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório."
       },
       {
         "letter": "D",
-        "text": "Contra decisão de Presidente/Vice-Presidente de TJ que inadmite Recurso Especial com base em tema repetitivo do STJ cabe Agravo em Recurso Especial (AREsp) ao próprio STJ."
+        "text": "Contra decisão de Presidente/Vice-Presidente de TJ que inadmite Recurso Especial com base em tema repetitivo do STJ cabe Agravo em Recurso Especial (AREsp) ao próprio STJ, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       }
     ],
     "correctAnswer": "B",
@@ -3113,19 +3113,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pessoa jurídica jamais pode figurar no polo ativo do Juizado Especial Cível estadual."
+        "text": "Pessoa jurídica jamais pode figurar no polo ativo do Juizado Especial Cível estadual, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "B",
-        "text": "A microempresa e EPP PODEM ser autoras no Juizado Especial Cível (Art. 8º, § 1º, II, da Lei 9.099/95), porém, como o valor da causa supera 20 salários-mínimos (limite de até 40 salários-mínimos), é OBRIGATÓRIA a assistência por ADVOGADO (Art. 9º); além disso, o Recurso Inominado tem prazo de 10 DIAS úteis (Art. 42) — e NÃO 15 dias — sendo intempestivo aos 15 dias!"
+        "text": "A microempresa e EPP podem ser autoras no Juizado Especial Cível, porém, como o valor da causa supera 20 salários-mínimos, é obrigatória a assistência por advogado; além disso, o Recurso Inominado tem prazo de 10 dias úteis."
       },
       {
         "letter": "C",
-        "text": "Nos Juizados Especiais Cíveis admite-se livremente a citação por edital e o chamamento ao processo de terceiros."
+        "text": "Nos Juizados Especiais Cíveis admite-se livremente a citação por edital e o chamamento ao processo de terceiros, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "D",
-        "text": "Da decisão da Turma Recursal em Juizado Especial Cível estadual cabe Recurso Especial ao STJ."
+        "text": "Da decisão da Turma Recursal em Juizado Especial Cível estadual cabe Recurso Especial ao STJ, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       }
     ],
     "correctAnswer": "B",
@@ -3169,19 +3169,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A limitação territorial do Art. 16 da Lei de Ação Civil Pública restringe os efeitos da coisa julgada estritamente à comarca do juiz sentenciante."
+        "text": "A limitação territorial da Lei de Ação Civil Pública restringe os efeitos da coisa julgada estritamente à comarca do juiz sentenciante, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "B",
-        "text": "A associação tem legitimidade ativa na Ação Civil Pública (constituída há pelo menos 1 ano + pertinência temática — Art. 5º, V, Lei 7.347/85), e a sentença terá eficácia erga omnes nos limites da competência do órgão prolator — atenção: o STF no Tema 1075 declarou INCONSTITUCIONAL a limitação territorial do Art. 16 da LACP, aplicando extensão nacional/regional conforme o dano!; já o Mandado de Segurança NÃO é substitutivo de ação de cobrança (Súmula 269 STF) e não produz efeitos patrimoniais pretéritos à impetração (Súmula 271 STF)."
+        "text": "A associação tem legitimidade ativa na Ação Civil Pública, e a sentença terá eficácia erga omnes nos limites da competência do órgão prolator."
       },
       {
         "letter": "C",
-        "text": "O Mandado de Segurança permite cobrar diretamente verbas salariais vencidas nos 5 anos anteriores à data da impetração."
+        "text": "O Mandado de Segurança permite cobrar diretamente verbas salariais vencidas nos 5 anos anteriores à data da impetração, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "D",
-        "text": "Na Ação Civil Pública, caso o pedido seja julgado improcedente por insuficiência de provas, impede-se definitivamente qualquer nova propositura."
+        "text": "Na Ação Civil Pública, caso o pedido seja julgado improcedente por insuficiência de provas, impede-se definitivamente qualquer nova propositura. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       }
     ],
     "correctAnswer": "B",
@@ -3225,19 +3225,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O autor pode desistir livremente da ação sem resolução de mérito até a prolação da sentença, independentemente de anuência do réu."
+        "text": "O autor pode desistir livremente da ação sem resolução de mérito até a prolação da sentença, independentemente de anuência do réu, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "B",
-        "text": "Não. Oferecida a contestação, o autor NÃO poderá desistir da ação sem o consentimento do réu (Art. 485, § 4º, CPC); e no caso de abandono da causa por mais de 30 dias (Art. 485, III), o juiz NÃO pode extinguir imediatamente: deve primeiro intimar PESSOALMENTE a parte (além do advogado) para suprir a falta em 5 dias (§ 1º) e, se já houver contestação, depende de REQUERIMENTO do réu (Súmula 240 STJ e Art. 485, § 6º)!"
+        "text": "Não, oferecida a contestação, o autor não poderá desistir da ação sem o consentimento do réu; e no caso de abandono da causa por mais de 30 dias, o juiz não pode extinguir imediatamente: deve primeiro intimar pessoalmente a parte (além do advogado) para suprir a falta em 5 dias e, se já houver contestação, depende de requerimento do réu."
       },
       {
         "letter": "C",
-        "text": "No abandono da causa pelo autor por 30 dias, basta a intimação eletrônica do advogado no Diário de Justiça para extinguir o feito."
+        "text": "No abandono da causa pelo autor por 30 dias, basta a intimação eletrônica do advogado no Diário de Justiça para extinguir o feito, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "D",
-        "text": "A extinção do processo por abandono da causa após a contestação deve ser declarada de ofício pelo juiz mesmo contra a vontade do réu."
+        "text": "A extinção do processo por abandono da causa após a contestação deve ser declarada de ofício pelo juiz mesmo contra a vontade do réu, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       }
     ],
     "correctAnswer": "B",
@@ -3281,19 +3281,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não. Pelo princípio da vedação à decisão surpresa (Arts. 9º e 10 do CPC), o juiz não pode decidir, em grau algum de jurisdição, com base em fundamento a respeito do qual não se tenha dado às partes oportunidade de se manifestar, AINDA QUE se trate de matéria sobre a qual deva decidir de ofício!"
+        "text": "Não, pelo princípio da vedação à decisão surpresa, o juiz não pode decidir, em grau algum de jurisdição, com base em fundamento a respeito do qual não se tenha dado às partes oportunidade de se manifestar, ainda que se trate de matéria sobre a qual deva decidir de ofício."
       },
       {
         "letter": "B",
-        "text": "Sim, porque matérias de ordem pública cognoscíveis de ofício dispensam o contraditório prévio."
+        "text": "Sim, porque matérias de ordem pública cognoscíveis de ofício dispensam o contraditório prévio. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "C",
-        "text": "A vedação à decisão surpresa impede inclusive a concessão de tutela de urgência liminar inaudita altera parte."
+        "text": "A vedação à decisão surpresa impede inclusive a concessão de tutela de urgência liminar inaudita altera parte, com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial."
       },
       {
         "letter": "D",
-        "text": "A ordem cronológica de conclusão para proferir sentença ou acórdão tem caráter absoluto, gerando nulidade da sentença proferida fora da ordem."
+        "text": "A ordem cronológica de conclusão para proferir sentença ou acórdão tem caráter absoluto, gerando nulidade da sentença proferida fora da ordem, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco."
       }
     ],
     "correctAnswer": "A",
@@ -3336,19 +3336,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A citação passou a ser feita PREFERENCIALMENTE por meio ELETRÔNICO (no prazo de até 2 dias úteis da decisão que a determinar, por meio dos endereços eletrônicos indicados no cadastro do Poder Judiciário); confirmada a citação eletrônica, o prazo inicia-se no 5º dia útil seguinte à confirmação (Art. 231, IX — e se não houver confirmação em 3 dias úteis, faz-se por correio/oficial/escrivão/edital, podendo haver multa de até 5% por ato atentatório se a empresa deixar de confirmar sem justa causa!); já por correio, o prazo corre da data de juntada aos autos do aviso de recebimento (Art. 231, I)."
+        "text": "A citação passou a ser feita preferencialmente por meio eletrônico; confirmada a citação eletrônica, o prazo inicia-se no 5º dia útil seguinte à confirmação; já por correio, o prazo corre da data de juntada aos autos do aviso de recebimento."
       },
       {
         "letter": "B",
-        "text": "A citação por oficial de justiça permanece sendo a regra geral prioritária em todos os processos cíveis."
+        "text": "A citação por oficial de justiça permanece sendo a regra geral prioritária em todos os processos cíveis, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       },
       {
         "letter": "C",
-        "text": "Na citação por correio dirigida a pessoa física, a carta pode ser entregue a qualquer vizinho na rua sem responsabilidade."
+        "text": "Na citação por correio dirigida a pessoa física, a carta pode ser entregue a qualquer vizinho na rua sem responsabilidade, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação."
       },
       {
         "letter": "D",
-        "text": "A citação por hora certa exige tentativa infrutífera de localização pelo oficial de justiça em cinco ocasiões distintas."
+        "text": "A citação por hora certa exige tentativa infrutífera de localização pelo oficial de justiça em cinco ocasiões distintas, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       }
     ],
     "correctAnswer": "A",
@@ -3391,19 +3391,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não. Conforme a Súmula nº 343 do STF, não cabe ação rescisória por ofensa a literal disposição de lei (violação manifesta de norma jurídica), quando a decisão rescindenda se tiver baseado em texto legal de interpretação controvertida nos tribunais à época da prolação (salvo se envolver norma CONSTITUCIONAL declarada inconstitucional pelo STF — Art. 525, § 15, CPC e STF RE 590.809)."
+        "text": "Não, não cabe ação rescisória por ofensa a literal disposição de lei, quando a decisão rescindenda se tiver baseado em texto legal de interpretação controvertida nos tribunais à época da prolação."
       },
       {
         "letter": "B",
-        "text": "Sim, a mudança posterior da jurisprudência dos tribunais superiores sempre autoriza ação rescisória nos 2 anos seguintes."
+        "text": "Sim, a mudança posterior da jurisprudência dos tribunais superiores sempre autoriza ação rescisória nos 2 anos seguintes, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual."
       },
       {
         "letter": "C",
-        "text": "A ação rescisória também não é admitida contra decisão interlocutória de mérito (julgamento antecipado parcial do mérito) transitada em julgado."
+        "text": "A ação rescisória também não é admitida contra decisão interlocutória de mérito (julgamento antecipado parcial do mérito) transitada em julgado, sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório."
       },
       {
         "letter": "D",
-        "text": "A propositura da ação rescisória suspende automaticamente o cumprimento da decisão rescindenda até o julgamento final pelo tribunal."
+        "text": "A propositura da ação rescisória suspende automaticamente o cumprimento da decisão rescindenda até o julgamento final pelo tribunal, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual."
       }
     ],
     "correctAnswer": "A",
@@ -3447,19 +3447,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Quando a apuração depender apenas de cálculo aritmético, NÃO há fase autônoma de liquidação de sentença: o credor promove diretamente o CUMPRIMENTO DE SENTENÇA apresentando o demonstrativo discriminado e atualizado do crédito (Art. 509, § 2º, CPC); quanto ao crédito municipal de R$ 25.000,00 sem lei própria reduzindo o piso, observa-se o limite constitucional de 30 salários-mínimos para Municípios (Art. 87, II, ADCT), pagando-se por Requisição de Pequeno Valor (RPV), e não precatório."
+        "text": "Quando a apuração depender apenas de cálculo aritmético, não há fase autônoma de liquidação de sentença: o credor promove diretamente o cumprimento de sentença apresentando o demonstrativo discriminado e atualizado do crédito."
       },
       {
         "letter": "B",
-        "text": "Mesmo dependendo apenas de cálculos aritméticos simples, é obrigatória a liquidação prévia por arbitramento."
+        "text": "Mesmo dependendo apenas de cálculos aritméticos simples, é obrigatória a liquidação prévia por arbitramento, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "C",
-        "text": "Municípios não podem editar lei própria reduzindo o limite da RPV abaixo de 30 salários-mínimos."
+        "text": "Municípios não podem editar lei própria reduzindo o limite da RPV abaixo de 30 salários-mínimos, com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "D",
-        "text": "A Fazenda Pública pode ser intimada no cumprimento de sentença para impugnar em 15 dias sob pena de multa de 10%."
+        "text": "A Fazenda Pública pode ser intimada no cumprimento de sentença para impugnar em 15 dias sob pena de multa de 10%, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação."
       }
     ],
     "correctAnswer": "A",
@@ -3502,19 +3502,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O CONCILIADOR atuará preferencialmente nos casos em que NÃO houver vínculo anterior entre as partes, podendo sugerir soluções para o litígio (vedada qualquer constrição ou intimidação); já o MEDIADOR atuará preferencialmente nos casos em que HOUVER vínculo anterior entre as partes, auxiliando os interessados a compreender as questões e identificar por si mesmos soluções consensuais (sem sugerir diretamente)."
+        "text": "O conciliador atuará preferencialmente nos casos em que não houver vínculo anterior entre as partes, podendo sugerir soluções para o litígio."
       },
       {
         "letter": "B",
-        "text": "O mediador atua preferencialmente quando não houver vínculo anterior entre as partes, sugerindo ativamente propostas de acordo."
+        "text": "O mediador atua preferencialmente quando não houver vínculo anterior entre as partes, sugerindo ativamente propostas de acordo, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "C",
-        "text": "Conciliadores e mediadores não se submetem às regras de impedimento e suspeição aplicáveis aos juízes."
+        "text": "Conciliadores e mediadores não se submetem às regras de impedimento e suspeição aplicáveis aos juízes, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto."
       },
       {
         "letter": "D",
-        "text": "As sessões de conciliação e mediação são sempre públicas em atendimento à publicidade constitucional absoluta."
+        "text": "As sessões de conciliação e mediação são sempre públicas em atendimento à publicidade constitucional absoluta, com prosseguimento imediato do rito executivo mediante constrição patrimonial do devedor."
       }
     ],
     "correctAnswer": "A",
@@ -3557,15 +3557,15 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Parente até o 3º grau (irmão = 2º grau) atuando como advogado é causa objetiva de IMPEDIMENTO (Art. 144, III, CPC — vício mais grave, insanável, que autoriza inclusive Ação Rescisória em 2 anos após o trânsito em julgado conforme Art. 966, II!); amizade íntima é causa subjetiva de SUSPEIÇÃO (Art. 145, I — vício menos grave que preclui se não arguido em 15 dias do conhecimento do fato, não cabendo rescisória por mera suspeição!)."
+        "text": "Parente até o 3º grau (irmão = 2º grau) atuando como advogado é causa objetiva de impedimento; amizade íntima é causa subjetiva de suspeição."
       },
       {
         "letter": "B",
-        "text": "Ambas as situações configuram suspeição e geram nulidade absoluta arguível em ação rescisória."
+        "text": "Ambas as situações configuram suspeição e geram nulidade absoluta arguível em ação rescisória, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco."
       },
       {
         "letter": "C",
-        "text": "A arguição de impedimento ou suspeição suspende o processo automaticamente apenas se o juiz rejeitar a alegação."
+        "text": "A arguição de impedimento ou suspeição suspende o processo automaticamente apenas se o juiz rejeitar a alegação, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       },
       {
         "letter": "D",
@@ -3612,19 +3612,19 @@ export const PROCESSUAL_CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No tribunal, para relevante questão de direito com grande repercussão social SEM repetição em múltiplos processos, cabe Incidente de Assunção de Competência (IAC — Art. 947 CPC); já contra inobservância de tese em recurso extraordinário com repercussão geral ou recurso especial repetitivo, a Reclamação só é admitida APÓS esgotadas as instâncias ordinárias (Art. 988, § 5º, II, CPC — e nunca cabe reclamação após trânsito em julgado pela Súmula 734 STF e Art. 988, § 5º, I)!"
+        "text": "No tribunal, para relevante questão de direito com grande repercussão social sem repetição em múltiplos processos, cabe Incidente de Assunção de Competência (IAC ); já contra inobservância de tese em recurso extraordinário com repercussão geral ou recurso especial repetitivo, a Reclamação só é admitida após esgotadas as instâncias ordinárias."
       },
       {
         "letter": "B",
-        "text": "Cabe Reclamação direta imediata ao STF ou STJ antes mesmo de esgotar a apelação no Tribunal de Justiça quando o juiz de 1º grau contrariar recurso repetitivo."
+        "text": "Cabe Reclamação direta imediata ao STF ou STJ antes mesmo de esgotar a apelação no Tribunal de Justiça quando o juiz de 1º grau contrariar recurso repetitivo, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível."
       },
       {
         "letter": "C",
-        "text": "A reclamação constitucional pode ser proposta mesmo após o trânsito em julgado da decisão impugnada para desconstituir coisa julgada."
+        "text": "A reclamação constitucional pode ser proposta mesmo após o trânsito em julgado da decisão impugnada para desconstituir coisa julgada, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação."
       },
       {
         "letter": "D",
-        "text": "A decisão proferida em IAC vincula apenas as partes do processo originário, sem efeito vinculante para os demais órgãos fracionários do tribunal."
+        "text": "A decisão proferida em IAC vincula apenas as partes do processo originário, sem efeito vinculante para os demais órgãos fracionários do tribunal, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias."
       }
     ],
     "correctAnswer": "A",

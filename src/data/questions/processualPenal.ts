@@ -14,9 +14,9 @@ export const PROCESSUAL_PENAL_QUESTIONS: LegalQuestion[] = [
 Conforme o disposto no Art. 28-A do Código de Processo Penal:`,
     options: [
       { letter: 'A', text: 'Marcos preenche os requisitos objetivos e subjetivos, sendo cabível o ANPP desde que a infração tenha pena mínima inferior a 4 anos e tenha havido confissão formal.' },
-      { letter: 'B', text: 'O ANPP é expressamente vedado para crimes contra o patrimônio mesmo praticados sem violência.' },
-      { letter: 'C', text: 'O ANPP somente pode ser celebrado após o recebimento formal da denúncia na audiência de instrução.' },
-      { letter: 'D', text: 'A celebração e homologação do ANPP gera reincidência e registro na certidão de antecedentes criminais do agente.' }
+      { letter: 'B', text: 'O ANPP é expressamente vedado para crimes contra o patrimônio mesmo praticados sem violência, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito.' },
+      { letter: 'C', text: 'O ANPP somente pode ser celebrado após o recebimento formal da denúncia na audiência de instrução, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial.' },
+      { letter: 'D', text: 'A celebração e homologação do ANPP gera reincidência e registro na certidão de antecedentes criminais do agente, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 28-A do CPP (introduzido pelo Pacote Anticrime - Lei 13.964/2019) autoriza o Ministério Público a propor o ANPP não sendo caso de arquivamento e tendo o investigado confessado formal e circunstanciadamente a prática de infração penal sem violência ou grave ameaça e com pena mínima cominada inferior a 4 (quatro) anos. Como a pena mínima do estelionato é de 1 ano, Marcos é elegível ao acordo.`,
@@ -44,9 +44,9 @@ Conforme o disposto no Art. 28-A do Código de Processo Penal:`,
 Considerando o Art. 5º, LVI da CF/88 e o Art. 157, § 1º do Código de Processo Penal:`,
     options: [
       { letter: 'A', text: 'A apreensão dos fuzis é prova ilícita por derivação (fruits of the poisonous tree), devendo ser desentranhada dos autos por contaminação causal direta.' },
-      { letter: 'B', text: 'A apreensão das armas é plenamente válida porque se trata de corpo de delito autônomo e de apreensão física palpável.' },
-      { letter: 'C', text: 'A prova ilícita original é convalidada caso o crime imputado seja equiparado a hediondo.' },
-      { letter: 'D', text: 'A ilicitude atinge os policiais na esfera administrativa, mas preserva a total integridade de todas as provas no processo penal.' }
+      { letter: 'B', text: 'A apreensão das armas é plenamente válida porque se trata de corpo de delito autônomo e de apreensão física palpável. A inobservância dessa regra repercute diretamente na validade dos atos processuais subsequentes.' },
+      { letter: 'C', text: 'A prova ilícita original é convalidada caso o crime imputado seja equiparado a hediondo, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível.' },
+      { letter: 'D', text: 'A ilicitude atinge os policiais na esfera administrativa, mas preserva a total integridade de todas as provas no processo penal, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito.' }
     ],
     correctAnswer: 'A',
     justification: `Pelo art. 157, § 1º do CPP e art. 5º, LVI da CF/88, são também inadmissíveis as provas derivadas das ilícitas (Teoria dos Frutos da Árvore Envenenada / Fruits of the Poisonous Tree). Como a localização do galpão e a apreensão das armas decorreram causal e unicamente da interceptação telefônica ilegal, não se aplicando as exceções da fonte independente ou descoberta inevitável, a prova derivada está contaminada e é nula.`,
@@ -75,9 +75,9 @@ Considerando o Art. 5º, LVI da CF/88 e o Art. 157, § 1º do Código de Process
 À luz das alterações do Pacote Anticrime (Lei 13.964/2019) no CPP e da jurisprudência pacífica do STF e STJ:`,
     options: [
       { letter: 'A', text: 'A decisão do magistrado é ilegal, pois é expressamente vedada a decretação da prisão preventiva de ofício pelo juiz, tanto na fase investigatória quanto na fase judicial.' },
-      { letter: 'B', text: 'A decisão é válida, pois na fase processual (ação penal em curso) o magistrado goza de poderes para decretar a preventiva de ofício.' },
-      { letter: 'C', text: 'O juiz pode decretar a preventiva de ofício em crimes graves cuja pena máxima cominada supere 8 anos de reclusão.' },
-      { letter: 'D', text: 'A decretação de ofício é facultada sempre que houver descumprimento de cautelar anterior sem necessidade de provocação das partes.' }
+      { letter: 'B', text: 'A decisão é válida, pois na fase processual (ação penal em curso) o magistrado goza de poderes para decretar a preventiva de ofício. O juízo competente deve observar esse rito ao examinar a admissibilidade da acusação.' },
+      { letter: 'C', text: 'O juiz pode decretar a preventiva de ofício em crimes graves cuja pena máxima cominada supere 8 anos de reclusão, com prosseguimento regular da persecução penal independentemente de manifestação prévia do ofendido.' },
+      { letter: 'D', text: 'A decretação de ofício é facultada sempre que houver descumprimento de cautelar anterior sem necessidade de provocação das partes, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível.' }
     ],
     correctAnswer: 'A',
     justification: `Com a vigência da Lei nº 13.964/2019 (Pacote Anticrime) e a consolidação do sistema acusatório (art. 3º-A do CPP), o art. 282, § 2º e o art. 311 do CPP foram alterados para SUPRIMIR a possibilidade de decretação de prisão preventiva de ofício pelo magistrado. O STF e o STJ pacificaram que em NENHUMA fase (nem inquérito, nem ação penal) o juiz pode decretar preventiva sem requerimento do MP, do querelante ou representação policial.`,
@@ -104,7 +104,7 @@ Considerando o Art. 5º, LVI da CF/88 e o Art. 157, § 1º do Código de Process
     statement: `Ao final da primeira fase do procedimento especial do Tribunal do Júri (judicium accusationis), o magistrado se convenceu da materialidade do fato delituoso doloso contra a vida e da existência de indícios suficientes de autoria e proferiu decisão de Pronúncia, remetendo o réu a julgamento em plenário popular. A defesa pretende recorrer dessa decisão.
 Qual é o recurso processual cabível e previsto expressamente no Código de Processo Penal?`,
     options: [
-      { letter: 'A', text: 'Recurso em Sentido Estrito (RESE).' },
+      { letter: 'A', text: 'Recurso em Sentido Estrito (rese).' },
       { letter: 'B', text: 'Apelação.' },
       { letter: 'C', text: 'Agravo de Instrumento Criminal.' },
       { letter: 'D', text: 'Carta Testemunhável.' }
@@ -134,10 +134,10 @@ Qual é o recurso processual cabível e previsto expressamente no Código de Pro
     statement: `Deputado Federal, durante o exercício de seu mandato parlamentar, praticou crime de homicídio em razão de desentendimento puramente pessoal e passional ocorrido em churrasco de família em sua cidade natal, sem qualquer liame funcional com os seus deveres de parlamentar.
 Conforme a tese fixada pelo Plenário do STF na Questão de Ordem na Ação Penal nº 937:`,
     options: [
-      { letter: 'A', text: 'O processo deve tramitar perante o Tribunal do Júri da Justiça de primeiro grau, pois o foro por prerrogativa de função no STF exige que o crime seja praticado durante o mandato E relacionado às funções do cargo parlamentar.' },
-      { letter: 'B', text: 'O processo tramitará obrigatoriamente perante o STF, pois deputados federais possuem foro absoluto para quaisquer delitos praticados durante a legislatura.' },
-      { letter: 'C', text: 'O processo é julgado pelo Superior Tribunal de Justiça (STJ) por ser autoridade com foro federal.' },
-      { letter: 'D', text: 'Apenas após a renúncia ou cassação do mandato é que o parlamentar pode ser processado criminalmente.' }
+      { letter: 'A', text: 'O processo deve tramitar perante o Tribunal do Júri da Justiça de primeiro grau, pois o foro por prerrogativa de função no STF exige que o crime seja praticado durante o mandato e relacionado às funções do cargo parlamentar.' },
+      { letter: 'B', text: 'O processo tramitará obrigatoriamente perante o STF, pois deputados federais possuem foro absoluto para quaisquer delitos praticados durante a legislatura. A inobservância dessa regra repercute diretamente na validade dos atos processuais subsequentes.' },
+      { letter: 'C', text: 'O processo é julgado pelo Superior Tribunal de Justiça (STJ) por ser autoridade com foro federal, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum. O juízo competente deve observar esse rito ao examinar a admissibilidade da acusação.' },
+      { letter: 'D', text: 'Apenas após a renúncia ou cassação do mandato é que o parlamentar pode ser processado criminalmente, com prosseguimento regular da persecução penal independentemente de manifestação prévia do ofendido.' }
     ],
     correctAnswer: 'A',
     justification: `O STF, no julgamento da QO na AP 937/RJ, restringiu o foro por prerrogativa de função para deputados federais e senadores aos crimes praticados DURANTE o mandato e que tenham RELAÇÃO com o exercício da função parlamentar (critério da contemporaneidade + pertinência funcional). Como o crime é de natureza estritamente privada/familiar e desvinculado do cargo, o parlamentar é julgado na primeira instância (Vara do Júri).`,
@@ -165,9 +165,9 @@ Conforme a tese fixada pelo Plenário do STF na Questão de Ordem na Ação Pena
 Segundo os Arts. 158-A a 158-F do Código de Processo Penal e a jurisprudência do Superior Tribunal de Justiça (Sexta Turma):`,
     options: [
       { letter: 'A', text: 'A quebra da cadeia de custódia compromete a idoneidade, confiabilidade e higidez da prova pericial, podendo levar à sua inadmissibilidade ou à imprestabilidade de seu valor probatório se verificada a quebra de rastreabilidade ou potencial contaminação do vestígio.' },
-      { letter: 'B', text: 'A cadeia de custódia é mera formalidade administrativa interna e sua inobservância jamais contamina a validade judicial da prova.' },
-      { letter: 'C', text: 'O desrespeito à cadeia de custódia acarreta automaticamente e em qualquer caso a extinção da punibilidade do réu.' },
-      { letter: 'D', text: 'Apenas a autoridade judicial tem o dever legal de documentar as etapas de fixação, coleta e isolamento do vestígio criminal.' }
+      { letter: 'B', text: 'A cadeia de custódia é mera formalidade administrativa interna e sua inobservância jamais contamina a validade judicial da prova, com preclusão imediata da oportunidade de produção probatória após a fase postulatória.' },
+      { letter: 'C', text: 'O desrespeito à cadeia de custódia acarreta automaticamente e em qualquer caso a extinção da punibilidade do réu, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível.' },
+      { letter: 'D', text: 'Apenas a autoridade judicial tem o dever legal de documentar as etapas de fixação, coleta e isolamento do vestígio criminal, em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo.' }
     ],
     correctAnswer: 'A',
     justification: `A Lei 13.964/2019 (Pacote Anticrime) positivou a Cadeia de Custódia nos arts. 158-A a 158-F do CPP como o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio. Conforme jurisprudência do STJ (RHC 147.884/PR e HC 653.515/RJ), a quebra da cadeia de custódia afeta a confiabilidade e idoneidade da prova, ensejando sua inadmissibilidade ou desconsideração valorativa caso haja fundada dúvida sobre a integridade e rastreabilidade da evidência.`,
@@ -195,9 +195,9 @@ Segundo os Arts. 158-A a 158-F do Código de Processo Penal e a jurisprudência 
 De acordo com o sistema acusatório delineado pelo Pacote Anticrime (Lei nº 13.964/19) e a jurisprudência pacífica do STF e STJ:`,
     options: [
       { letter: 'A', text: 'A decisão judicial é manifestamente ilegal, pois é vedada a decretação de prisão preventiva de ofício pelo magistrado em qualquer fase da persecução penal, inclusive na audiência de custódia.' },
-      { letter: 'B', text: 'A decisão é válida, pois o art. 310 do CPP confere ao juiz poder geral de cautela para prender de ofício na audiência de custódia.' },
-      { letter: 'C', text: 'A conversão só seria ilegal se o crime fosse culposo.' },
-      { letter: 'D', text: 'O juiz pode decretar prisão de ofício desde que justifique na garantia da ordem pública.' }
+      { letter: 'B', text: 'A decisão é válida, pois o art. 310 do CPP confere ao juiz poder geral de cautela para prender de ofício na audiência de custódia. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo.' },
+      { letter: 'C', text: 'A conversão só seria ilegal se o crime fosse culposo, sob pena de nulidade processual absoluta insanável por violação às garantias do devido processo.' },
+      { letter: 'D', text: 'O juiz pode decretar prisão de ofício desde que justifique na garantia da ordem pública, sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial.' }
     ],
     correctAnswer: 'A',
     justification: `Com o advento da Lei nº 13.964/2019 e a interpretação constitucional pelo STF e STJ (RHC 131.263/GO e HC 590.039/GO), NÃO É MAIS POSSÍVEL a decretação ou conversão de prisão preventiva de ofício pelo juiz sob o império do sistema acusatório (art. 3º-A e 311 do CPP). Para que haja conversão da prisão em flagrante em preventiva na audiência de custódia, é INDISPENSÁVEL a prévia representação policial ou requerimento formal do Ministério Público.`,
@@ -226,19 +226,19 @@ Conforme o Art. 28-A, § 14 do CPP e a jurisprudência das Cortes Superiores, qu
     options: [
       {
         letter: 'A',
-        text: 'Requerer ao juiz a remessa dos autos ao órgão superior do Ministério Público (Procuradoria-Geral de Justiça) para revisão da recusa, nos moldes do art. 28-A, § 14 do CPP.'
+        text: 'Requerer ao juiz a remessa dos autos ao órgão superior do Ministério Público (Procuradoria-Geral de Justiça) para revisão da recusa, nos moldes.'
       },
       {
         letter: 'B',
-        text: 'O juiz pode substituir a vontade ministerial e conceder diretamente o ANPP à revelia do promotor de justiça.'
+        text: 'O juiz pode substituir a vontade ministerial e conceder diretamente o ANPP à revelia do promotor de justiça, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito.'
       },
       {
         letter: 'C',
-        text: 'Nenhuma providência cabe, pois o oferecimento do ANPP é ato discricionário imune a qualquer controle jurisdicional ou administrativo.'
+        text: 'Nenhuma providência cabe, pois o oferecimento do ANPP é ato discricionário imune a qualquer controle jurisdicional ou administrativo. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo.'
       },
       {
         letter: 'D',
-        text: 'Impetrar Mandado de Injunção no STF para que o Conselho Nacional do Ministério Público firme o acordo de ofício.'
+        text: 'Impetrar Mandado de Injunção no STF para que o Conselho Nacional do Ministério Público firme o acordo de ofício, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível.'
       }
     ],
     correctAnswer: 'A',
@@ -268,19 +268,19 @@ A defesa suscitou a nulidade e imprestabilidade probatória por violação da ca
     options: [
       {
         letter: 'A',
-        text: 'A cadeia de custódia (Art. 158-A a 158-F) visa assegurar a idoneidade e rastreabilidade dos vestígios; a sua quebra compromete a confiabilidade e pode acarretar a ilicitude ou imprestabilidade do elemento probatório.'
+        text: 'A cadeia de custódia visa assegurar a idoneidade e rastreabilidade dos vestígios; a sua quebra compromete a confiabilidade e pode acarretar a ilicitude ou imprestabilidade do elemento probatório.'
       },
       {
         letter: 'B',
-        text: 'A cadeia de custódia só é obrigatória na Justiça Federal e em crimes contra o sistema financeiro nacional.'
+        text: 'A cadeia de custódia só é obrigatória na Justiça Federal e em crimes contra o sistema financeiro nacional, mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível.'
       },
       {
         letter: 'C',
-        text: 'A quebra da cadeia de custódia é mera irregularidade formal que jamais afeta o valor probatório pericial.'
+        text: 'A quebra da cadeia de custódia é mera irregularidade formal que jamais afeta o valor probatório pericial, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito.'
       },
       {
         letter: 'D',
-        text: 'O Código de Processo Penal não contém normas sobre cadeia de custódia, sendo tema exclusivo de regulamento policial interno.'
+        text: 'O Código de Processo Penal não contém normas sobre cadeia de custódia, sendo tema exclusivo de regulamento policial interno, sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação.'
       }
     ],
     correctAnswer: 'A',
@@ -310,19 +310,19 @@ A defesa suscitou a nulidade e imprestabilidade probatória por violação da ca
     options: [
       {
         letter: 'A',
-        text: 'Não cabe apelação do Ministério Público por decisão manifestamente contrária à prova dos autos fundada na absolvição pelo quesito genérico, em respeito à soberania dos veredictos (CF/88, art. 5º, XXXVIII, c).'
+        text: 'Não cabe apelação do Ministério Público por decisão manifestamente contrária à prova dos autos fundada na absolvição pelo quesito genérico, em respeito à soberania dos veredictos.'
       },
       {
         letter: 'B',
-        text: 'A apelação ministerial é sempre provida automaticamente, remetendo o réu a cumprimento imediato de pena.'
+        text: 'A apelação ministerial é sempre provida automaticamente, remetendo o réu a cumprimento imediato de pena, com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito.'
       },
       {
         letter: 'C',
-        text: 'O Tribunal pode, desde logo, reformar o mérito do veredicto e condenar o réu em grau de apelação.'
+        text: 'O Tribunal pode, desde logo, reformar o mérito do veredicto e condenar o réu em grau de apelação. A inobservância dessa regra repercute diretamente na validade dos atos processuais subsequentes.'
       },
       {
         letter: 'D',
-        text: 'O quesito genérico de absolvição foi revogado e não pode ser formulado aos jurados.'
+        text: 'O quesito genérico de absolvição foi revogado e não pode ser formulado aos jurados, sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação. Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo.'
       }
     ],
     correctAnswer: 'A',

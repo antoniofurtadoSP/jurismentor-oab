@@ -19,7 +19,7 @@ Diante das limitações constitucionais ao poder de tributar, assinale a afirmat
       },
       {
         letter: 'B',
-        text: 'A cobrança é constitucional, porque a majoração de impostos municipais se submete apenas ao princípio da anterioridade anual ordinária.'
+        text: 'A cobrança é constitucional, porque a majoração de impostos municipais se submete apenas ao princípio da anterioridade anual ordinária. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.'
       },
       {
         letter: 'C',
@@ -27,7 +27,7 @@ Diante das limitações constitucionais ao poder de tributar, assinale a afirmat
       },
       {
         letter: 'D',
-        text: 'A cobrança é constitucional, porquanto o ISS é tributo extrafiscal, equiparado ao II, IE e IPI, dispensado de ambas as anterioridades.'
+        text: 'A cobrança é constitucional, porquanto o ISS é tributo extrafiscal, equiparado ao II, IE e IPI, dispensado de ambas as anterioridades. Tal critério determina a incidência tributária e a competência ativa do ente tributante.'
       }
     ],
     correctAnswer: 'A',
@@ -128,15 +128,15 @@ Com base no Código Tributário Nacional, assinale a opção que apresenta exclu
       },
       {
         letter: 'B',
-        text: 'A compensação, a dação em pagamento em bens imóveis e o parcelamento.'
+        text: 'A compensação, a dação em pagamento em bens imóveis e o parcelamento, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.'
       },
       {
         letter: 'C',
-        text: 'A remissão, a anistia e os recursos tempestivos no processo administrativo-tributário.'
+        text: 'A remissão, a anistia e os recursos tempestivos no processo administrativo-tributário, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.'
       },
       {
         letter: 'D',
-        text: 'A prescrição, a decadência e a tutela antecipada em ação anulatória.'
+        text: 'A prescrição, a decadência e a tutela antecipada em ação anulatória, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.'
       }
     ],
     correctAnswer: 'A',
@@ -182,15 +182,15 @@ Com base no Código Tributário Nacional, assinale a opção que apresenta exclu
       },
       {
         letter: 'B',
-        text: 'Constitucional quanto ao imóvel "B", porque a locação a terceiros descaracteriza a destinação religiosa e atrai a incidência normal do IPTU.'
+        text: 'Constitucional quanto ao imóvel "B", porque a locação a terceiros descaracteriza a destinação religiosa e atrai a incidência normal do IPTU. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.'
       },
       {
         letter: 'C',
-        text: 'Constitucional quanto aos imóveis "B" e "C", pois a imunidade de templos restringe-se estritamente ao altar e ao local de culto presencial.'
+        text: 'Constitucional quanto aos imóveis "B" e "C", pois a imunidade de templos restringe-se estritamente ao altar e ao local de culto presencial. Tal critério determina a incidência tributária e a competência ativa do ente tributante.'
       },
       {
         letter: 'D',
-        text: 'Inconstitucional apenas quanto ao imóvel "A" e "B", incidindo o IPTU no imóvel "C" por se tratar de bem não edificado sujeito a IPTU progressivo.'
+        text: 'Inconstitucional apenas quanto ao imóvel "A" e "B", incidindo o IPTU no imóvel "C" por se tratar de bem não edificado sujeito a IPTU progressivo, com vedação à analogia ou equidade para exigir tributo ou dispensar crédito sem previsão legal.'
       }
     ],
     correctAnswer: 'A',
@@ -233,19 +233,19 @@ Considerando o regime da Lei de Execução Fiscal e o entendimento fixado no Tem
     options: [
       {
         letter: 'A',
-        text: 'Foi correta, pois após o prazo de suspensão de 1 ano do Art. 40 da LEF, inicia-se automaticamente a contagem da prescrição intercorrente quinquenal (5 anos), podendo o juiz reconhecê-la de ofício após prévia oitiva da Fazenda Pública.'
+        text: 'Foi correta, pois após o prazo de suspensão de 1 ano, inicia-se automaticamente a contagem da prescrição intercorrente quinquenal (5 anos), podendo o juiz reconhecê-la de ofício após prévia oitiva da Fazenda Pública.'
       },
       {
         letter: 'B',
-        text: 'Foi incorreta, porque créditos inscritos em dívida ativa e cobrados em juízo são imprescritíveis enquanto o devedor não comprovar falência ou insolvência.'
+        text: 'Foi incorreta, porque créditos inscritos em dívida ativa e cobrados em juízo são imprescritíveis enquanto o devedor não comprovar falência ou insolvência. Tal critério determina a incidência tributária e a competência ativa do ente tributante.'
       },
       {
         letter: 'C',
-        text: 'Foi incorreta, pois a prescrição intercorrente em execução fiscal depende de requerimento expresso e unânime de todos os sócios da empresa.'
+        text: 'Foi incorreta, pois a prescrição intercorrente em execução fiscal depende de requerimento expresso e unânime de todos os sócios da empresa. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte.'
       },
       {
         letter: 'D',
-        text: 'Foi correta no prazo, porém o juiz cometeu nulidade absoluta insanável por não ter determinado a realização de leilão judicial de bens futuros.'
+        text: 'Foi correta no prazo, porém o juiz cometeu nulidade absoluta insanável por não ter determinado a realização de leilão judicial de bens futuros, em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal.'
       }
     ],
     correctAnswer: 'A',
@@ -288,11 +288,11 @@ Considerando as regras constitucionais pertinentes às taxas e a jurisprudência
     options: [
       {
         letter: 'A',
-        text: 'A taxa de limpeza de logradouros públicos é inconstitucional (serviço universal e indivisível), mas a taxa de coleta domiciliar de lixo é constitucional (serviço específico e divisível).'
+        text: 'A taxa de limpeza de logradouros públicos é inconstitucional, mas a taxa de coleta domiciliar de lixo é constitucional.'
       },
       {
         letter: 'B',
-        text: 'Ambas as taxas são perfeitamente constitucionais, porque decorrem do poder de polícia sanitária do Município.'
+        text: 'Ambas as taxas são perfeitamente constitucionais, porque decorrem do poder de polícia sanitária do Município. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte.'
       },
       {
         letter: 'C',
@@ -343,19 +343,19 @@ Considerando as regras constitucionais pertinentes às taxas e a jurisprudência
     options: [
       {
         letter: 'A',
-        text: 'É manifestamente inconstitucional, pois a imunidade tributária do art. 150, VI, "d", alcança os livros eletrônicos e os suportes exclusivos para sua leitura (Súmula Vinculante 57).'
+        text: 'É manifestamente inconstitucional, pois a imunidade tributária, alcança os livros eletrônicos e os suportes exclusivos para sua leitura.'
       },
       {
         letter: 'B',
-        text: 'É constitucional para os aparelhos de leitura (hardware), aplicando-se a imunidade apenas aos arquivos digitais (software).'
+        text: 'É constitucional para os aparelhos de leitura (hardware), aplicando-se a imunidade apenas aos arquivos digitais (software), sujeita à repartição constitucional de receitas e à competência tributária do ente federado.'
       },
       {
         letter: 'C',
-        text: 'É devida, visto que a imunidade tributária exige previsão expressa em lei complementar em respeito à estrita legalidade.'
+        text: 'É devida, visto que a imunidade tributária exige previsão expressa em lei complementar em respeito à estrita legalidade, com legitimação do lançamento de ofício e inscrição imediata do débito em dívida ativa.'
       },
       {
         letter: 'D',
-        text: 'É válida somente se a editora não auferir lucro na comercialização das obras literárias.'
+        text: 'É válida somente se a editora não auferir lucro na comercialização das obras literárias, com impedimento à fruição imediata de imunidade ou isenção condicionada no caso concreto.'
       }
     ],
     correctAnswer: 'A',
@@ -398,19 +398,19 @@ Considerando o princípio da anterioridade tributária anual (exercício finance
     options: [
       {
         letter: 'A',
-        text: 'O II pode ser cobrado imediatamente (exceção a ambas as anterioridades); o IPI deve respeitar a noventena mas não o exercício; e a COFINS deve respeitar a noventena especial do Art. 195, § 6º da CF/88.'
+        text: 'O II pode ser cobrado imediatamente (exceção a ambas as anterioridades); o IPI deve respeitar a noventena mas não o exercício; e a COFINS deve respeitar a noventena especial.'
       },
       {
         letter: 'B',
-        text: 'Nenhum dos três tributos pode ser cobrado de imediato, devendo todos aguardar obrigatoriamente 1º de janeiro do ano subsequente e mais 90 dias.'
+        text: 'Nenhum dos três tributos pode ser cobrado de imediato, devendo todos aguardar obrigatoriamente 1º de janeiro do ano subsequente e mais 90 dias, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.'
       },
       {
         letter: 'C',
-        text: 'O IPI não se submete a nenhuma anterioridade por se tratar de tributo eminentemente extrafiscal e regulatório.'
+        text: 'O IPI não se submete a nenhuma anterioridade por se tratar de tributo eminentemente extrafiscal e regulatório, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.'
       },
       {
         letter: 'D',
-        text: 'A COFINS, por ser contribuição social, submete-se cumulativamente à anterioridade anual de exercício e à noventena.'
+        text: 'A COFINS, por ser contribuição social, submete-se cumulativamente à anterioridade anual de exercício e à noventena. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte.'
       }
     ],
     correctAnswer: 'A',
@@ -457,7 +457,7 @@ Conforme as regras do Código Tributário Nacional, constituem causas de SUSPENS
     options: [
       {
         letter: 'A',
-        text: 'Apenas os itens I, II e IV, pois a dação em pagamento de bens imóveis é causa de EXTINÇÃO do crédito tributário.'
+        text: 'Apenas os itens I.'
       },
       {
         letter: 'B',
@@ -512,19 +512,19 @@ Conforme as regras do Código Tributário Nacional, constituem causas de SUSPENS
     options: [
       {
         letter: 'A',
-        text: 'O redirecionamento é legítimo, pois presume-se dissolvida irregularmente a empresa que deixa de funcionar no seu domicílio fiscal sem comunicação aos órgãos competentes (Súmula 435 do STJ).'
+        text: 'O redirecionamento é legítimo, pois presume-se dissolvida irregularmente a empresa que deixa de funcionar no seu domicílio fiscal sem comunicação aos órgãos competentes.'
       },
       {
         letter: 'B',
-        text: 'O mero inadimplemento da obrigação tributária basta para autorizar o redirecionamento automático contra qualquer sócio, inclusive o sócio sem poderes de gerência.'
+        text: 'O mero inadimplemento da obrigação tributária basta para autorizar o redirecionamento automático contra qualquer sócio, inclusive o sócio sem poderes de gerência, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       },
       {
         letter: 'C',
-        text: 'O redirecionamento é expressamente vedado no direito tributário brasileiro, devendo a Fazenda propor ação falimentar.'
+        text: 'O redirecionamento é expressamente vedado no direito tributário brasileiro, devendo a Fazenda propor ação falimentar, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.'
       },
       {
         letter: 'D',
-        text: 'A dissolução irregular exige prévia comprovação de desvio de finalidade por meio de incidente de desconsideração da personalidade jurídica no CPC, sem exceções.'
+        text: 'A dissolução irregular exige prévia comprovação de desvio de finalidade por meio de incidente de desconsideração da personalidade jurídica no CPC, sem exceções, com legitimação do lançamento de ofício e inscrição imediata do débito em dívida ativa.'
       }
     ],
     correctAnswer: 'A',
@@ -573,7 +573,7 @@ Acerca da elementar "em moeda ou cujo valor nela se possa exprimir" e dos meios 
     options: [
       {
         letter: 'A',
-        text: 'A prestação pecuniária veda a instituição de tributos *in labore* (prestação de serviços pelo sujeito passivo) ou *in natura* (entrega de bens agrícolas/produtos), admitindo-se, contudo, na forma e condições estabelecidas em lei, a dação em pagamento em bens imóveis para extinguir o crédito tributário (Art. 156, XI, do CTN).'
+        text: 'A prestação pecuniária veda a instituição de tributos in labore ou in natura, admitindo-se, contudo, na forma e condições estabelecidas em lei, a dação em pagamento em bens imóveis para extinguir o crédito tributário.'
       },
       {
         letter: 'B',
@@ -581,11 +581,11 @@ Acerca da elementar "em moeda ou cujo valor nela se possa exprimir" e dos meios 
       },
       {
         letter: 'C',
-        text: 'A dação em pagamento de bens móveis ou serviços é modalidade expressa de extinção do crédito tributário admitida irrestritamente pelo Código Tributário Nacional desde a sua redação original de 1966.'
+        text: 'A dação em pagamento de bens móveis ou serviços é modalidade expressa de extinção do crédito tributário admitida irrestritamente pelo Código Tributário Nacional desde a sua redação original de 1966, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       },
       {
         letter: 'D',
-        text: 'O tributo pode ter como fato imponível a prestação de serviços forçados pelo devedor, sendo a pecuniariedade mera recomendação doutrinária não cogente aos entes federados.'
+        text: 'O tributo pode ter como fato imponível a prestação de serviços forçados pelo devedor, sendo a pecuniariedade mera recomendação doutrinária não cogente aos entes federados, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.'
       }
     ],
     correctAnswer: 'A',
@@ -628,19 +628,19 @@ Considerando o Código Tributário Nacional e a jurisprudência pacificada do Su
     options: [
       {
         letter: 'A',
-        text: 'A autuação fiscal é ilegítima, visto que a ilicitude do negócio jurídico anula retroativamente qualquer obrigação tributária dele decorrente.'
+        text: 'A autuação fiscal é ilegítima, visto que a ilicitude do negócio jurídico anula retroativamente qualquer obrigação tributária dele decorrente, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.'
       },
       {
         letter: 'B',
-        text: 'A autuação é perfeitamente legítima, pois a definição legal do fato gerador é interpretada com abstração da validade jurídica dos atos efetivamente praticados e da ilicitude de seu objeto, incidindo o princípio do *pecunia non olet* (o dinheiro não tem cheiro).'
+        text: 'A autuação é perfeitamente legítima, pois a definição legal do fato gerador é interpretada com abstração da validade jurídica dos atos efetivamente praticados e da ilicitude de seu objeto, incidindo o princípio do pecunia non olet.'
       },
       {
         letter: 'C',
-        text: 'A cobrança do Imposto de Renda é nula, convertendo-se o débito fiscal automaticamente em confisco de bens na esfera penal sem necessidade de lançamento.'
+        text: 'A cobrança do Imposto de Renda é nula, convertendo-se o débito fiscal automaticamente em confisco de bens na esfera penal sem necessidade de lançamento, sem configuração de hipótese de suspensão da exigibilidade nem de exclusão do crédito fiscal.'
       },
       {
         letter: 'D',
-        text: 'O Fisco só poderia exigir o tributo caso Rodrigo fosse absolvido na esfera criminal, dependendo o crédito tributário de decisão penal absolutória transitada em julgado.'
+        text: 'O Fisco só poderia exigir o tributo caso Rodrigo fosse absolvido na esfera criminal, dependendo o crédito tributário de decisão penal absolutória transitada em julgado, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       }
     ],
     correctAnswer: 'B',
@@ -684,11 +684,11 @@ Sobre essa distinção fundamental entre tributo e sanção (multa), assinale a 
     options: [
       {
         letter: 'A',
-        text: 'A hipótese de incidência do tributo é necessariamente a descrição de um fato lícito (comportamento permitido ou situação de fato neutra), enquanto a hipótese da multa é a descrição de uma conduta antijurídica (descumprimento de dever legal ou obrigação tributária).'
+        text: 'A hipótese de incidência do tributo é necessariamente a descrição de um fato lícito, enquanto a hipótese da multa é a descrição de uma conduta antijurídica.'
       },
       {
         letter: 'B',
-        text: 'A multa fiscal converte-se juridicamente em espécie do gênero tributo a partir do momento em que é inscrita em Dívida Ativa da Fazenda Pública.'
+        text: 'A multa fiscal converte-se juridicamente em espécie do gênero tributo a partir do momento em que é inscrita em Dívida Ativa da Fazenda Pública, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.'
       },
       {
         letter: 'C',
@@ -743,15 +743,15 @@ Diante da jurisprudência sumulada do Supremo Tribunal Federal e do Superior Tri
       },
       {
         letter: 'B',
-        text: 'Qualquer serviço de saneamento básico e água é indelegável à iniciativa privada e deve obrigatoriamente ser custeado por imposto municipal sobre a propriedade predial.'
+        text: 'Qualquer serviço de saneamento básico e água é indelegável à iniciativa privada e deve obrigatoriamente ser custeado por imposto municipal sobre a propriedade predial, com possibilidade de instituição ou majoração de alíquota mediante ato normativo infralegal.'
       },
       {
         letter: 'C',
-        text: 'A contraprestação de serviços de água e esgoto é necessariamente taxa tributária, aplicando-se o prazo prescricional quinquenal do Art. 174 do CTN mesmo quando cobrada por concessionária privada.'
+        text: 'A contraprestação de serviços de água e esgoto é necessariamente taxa tributária, aplicando-se o prazo prescricional quinquenal mesmo quando cobrada por concessionária privada, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       },
       {
         letter: 'D',
-        text: 'O preço público não admite corte no fornecimento por inadimplemento, prerrogativa conferida unicamente às taxas tributárias.'
+        text: 'O preço público não admite corte no fornecimento por inadimplemento, prerrogativa conferida unicamente às taxas tributárias, sujeita à repartição constitucional de receitas e à competência tributária do ente federado. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.'
       }
     ],
     correctAnswer: 'A',
@@ -795,19 +795,19 @@ Diante da jurisprudência sumulada do Supremo Tribunal Federal e do Superior Tri
     options: [
       {
         letter: 'A',
-        text: 'A cobrança é inconstitucional, pois a taxa pelo exercício do poder de polícia exige comprovação em juízo de fiscalização física e presencial individualizada a cada ano em cada estabelecimento comercial.'
+        text: 'A cobrança é inconstitucional, pois a taxa pelo exercício do poder de polícia exige comprovação em juízo de fiscalização física e presencial individualizada a cada ano em cada estabelecimento comercial. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.'
       },
       {
         letter: 'B',
-        text: 'A exigência anual da taxa de fiscalização é constitucional, sendo legítima sua cobrança quando demonstrada a existência de órgão administrativo competente e estrutura em efetivo funcionamento para a fiscalização, sem necessidade de vistoria física permanente (fiscalização potencial pelo poder de polícia).'
+        text: 'A exigência anual da taxa de fiscalização é constitucional, sendo legítima sua cobrança quando demonstrada a existência de órgão administrativo competente e estrutura em efetivo funcionamento para a fiscalização, sem necessidade de vistoria física permanente.'
       },
       {
         letter: 'C',
-        text: 'Taxas pelo exercício do poder de polícia são exclusivas da União Federal, sendo vedado aos Municípios cobrar taxas de localização e funcionamento de estabelecimentos.'
+        text: 'Taxas pelo exercício do poder de polícia são exclusivas da União Federal, sendo vedado aos Municípios cobrar taxas de localização e funcionamento de estabelecimentos, sem configuração de hipótese de suspensão da exigibilidade nem de exclusão do crédito fiscal.'
       },
       {
         letter: 'D',
-        text: 'O poder de polícia somente pode ser remunerado mediante preço público e com concordância expressa do fiscalizado.'
+        text: 'O poder de polícia somente pode ser remunerado mediante preço público e com concordância expressa do fiscalizado, com responsabilidade solidária automática dos sócios e administradores da pessoa jurídica.'
       }
     ],
     correctAnswer: 'B',
@@ -851,7 +851,7 @@ Considerando o entendimento pacificado no Supremo Tribunal Federal (Súmula Vinc
     options: [
       {
         letter: 'A',
-        text: 'A cobrança da taxa é válida, pois a iluminação de vias públicas é serviço individualizado que aproveita especificamente a cada proprietário lindeiro à rua.'
+        text: 'A cobrança da taxa é válida, pois a iluminação de vias públicas é serviço individualizado que aproveita especificamente a cada proprietário lindeiro à rua. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.'
       },
       {
         letter: 'B',
@@ -859,11 +859,11 @@ Considerando o entendimento pacificado no Supremo Tribunal Federal (Súmula Vinc
       },
       {
         letter: 'C',
-        text: 'O serviço de iluminação pública somente pode ser custeado por Empréstimo Compulsório federal, vedada qualquer espécie tributária local.'
+        text: 'O serviço de iluminação pública somente pode ser custeado por Empréstimo Compulsório federal, vedada qualquer espécie tributária local, com vedação à analogia ou equidade para exigir tributo ou dispensar crédito sem previsão legal.'
       },
       {
         letter: 'D',
-        text: 'Tanto a taxa de iluminação pública quanto a COSIP foram declaradas integralmente inconstitucionais pelo Supremo Tribunal Federal em sede de controle concentrado.'
+        text: 'Tanto a taxa de iluminação pública quanto a COSIP foram declaradas integralmente inconstitucionais pelo Supremo Tribunal Federal em sede de controle concentrado, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.'
       }
     ],
     correctAnswer: 'B',
@@ -911,11 +911,11 @@ Considerando o entendimento pacificado no Supremo Tribunal Federal (Súmula Vinc
       },
       {
         letter: 'B',
-        text: 'A cobrança é inconstitucional e ilegítima no valor pretendido, pois a contribuição de melhoria está sujeita ao princípio do duplo limite: o limite total (gasto total com a obra) e o limite individual (a efetiva valorização imobiliária auferida por cada imóvel em decorrência da obra).'
+        text: 'A cobrança é inconstitucional e ilegítima no valor pretendido, pois a contribuição de melhoria está sujeita ao princípio do duplo limite: o limite total e o limite individual.'
       },
       {
         letter: 'C',
-        text: 'O fato gerador da contribuição de melhoria é a mera conclusão da obra pública, sendo irrelevante se houve valorização ou desvalorização do imóvel do contribuinte.'
+        text: 'O fato gerador da contribuição de melhoria é a mera conclusão da obra pública, sendo irrelevante se houve valorização ou desvalorização do imóvel do contribuinte, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.'
       },
       {
         letter: 'D',
@@ -962,7 +962,7 @@ Assinale a alternativa que indica a conformidade constitucional da medida:`,
     options: [
       {
         letter: 'A',
-        text: 'A instituição é constitucional, já que situações de calamidade pública autorizam qualquer ente federado a criar empréstimo compulsório por lei ordinária para socorrer suas finanças.'
+        text: 'A instituição é constitucional, já que situações de calamidade pública autorizam qualquer ente federado a criar empréstimo compulsório por lei ordinária para socorrer suas finanças, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       },
       {
         letter: 'B',
@@ -970,11 +970,11 @@ Assinale a alternativa que indica a conformidade constitucional da medida:`,
       },
       {
         letter: 'C',
-        text: 'A lei é válida apenas se aprovada por quórum qualificado de dois terços da Assembleia Legislativa Estadual.'
+        text: 'A lei é válida apenas se aprovada por quórum qualificado de dois terços da Assembleia Legislativa Estadual, com possibilidade de instituição ou majoração de alíquota mediante ato normativo infralegal.'
       },
       {
         letter: 'D',
-        text: 'A inconstitucionalidade decorre apenas do prazo de resgate em 5 anos, pois a CF/88 exige devolução imediata em até 12 meses.'
+        text: 'A inconstitucionalidade decorre apenas do prazo de resgate em 5 anos, pois a CF/88 exige devolução imediata em até 12 meses. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte.'
       }
     ],
     correctAnswer: 'B',
@@ -1017,19 +1017,19 @@ Contudo, após a promulgação da Constituição de 1988, o Supremo Tribunal Fed
     options: [
       {
         letter: 'A',
-        text: 'A teoria tripartite foi plenamente mantida pelo constituinte de 1988, sendo os empréstimos compulsórios considerados meros contratos de mútuo civil.'
+        text: 'A teoria tripartite foi plenamente mantida pelo constituinte de 1988, sendo os empréstimos compulsórios considerados meros contratos de mútuo civil, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       },
       {
         letter: 'B',
-        text: 'Vige no Brasil a Teoria Pentapartida ou Quinquipartida (impostos, taxas, contribuições de melhoria, empréstimos compulsórios e contribuições especiais), restando superada a irrelevância da destinação da receita para essas duas últimas espécies tributárias constitucionais.'
+        text: 'Vige no Brasil a Teoria Pentapartida ou Quinquipartida, restando superada a irrelevância da destinação da receita para essas duas últimas espécies tributárias constitucionais.'
       },
       {
         letter: 'C',
-        text: 'As contribuições especiais têm natureza jurídica de preço privado, subordinando-se ao Código de Defesa do Consumidor.'
+        text: 'As contribuições especiais têm natureza jurídica de preço privado, subordinando-se ao Código de Defesa do Consumidor, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.'
       },
       {
         letter: 'D',
-        text: 'O rol de espécies tributárias é ilimitado, podendo cada Município criar categorias autônomas não previstas na Carta Magna.'
+        text: 'O rol de espécies tributárias é ilimitado, podendo cada Município criar categorias autônomas não previstas na Carta Magna, em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal.'
       }
     ],
     correctAnswer: 'B',
@@ -1077,15 +1077,15 @@ Consultado por uma associação de contribuintes sobre a validade do decreto:`,
       },
       {
         letter: 'B',
-        text: 'A alteração das alíquotas do II, IPI e IOF por decreto é válida (exceção mitigada à legalidade estrita nos limites da lei), porém a majoração da CSLL por decreto é flagrantemente inconstitucional, pois a CSLL exige indispensavelmente lei em sentido formal.'
+        text: 'A alteração das alíquotas do II, IPI e IOF por decreto é válida, porém a majoração da CSLL por decreto é flagrantemente inconstitucional, pois a CSLL exige indispensavelmente lei em sentido formal.'
       },
       {
         letter: 'C',
-        text: 'Todas as modificações são inconstitucionais, visto que a Constituição de 1988 não admite nenhuma exceção ao princípio da legalidade estrita (Art. 150, I da CF).'
+        text: 'Todas as modificações são inconstitucionais, visto que a Constituição de 1988 não admite nenhuma exceção ao princípio da legalidade estrita, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.'
       },
       {
         letter: 'D',
-        text: 'O decreto é válido unicamente quanto à CSLL, sendo nulo no que se refere aos impostos regulatórios.'
+        text: 'O decreto é válido unicamente quanto à CSLL, sendo nulo no que se refere aos impostos regulatórios, em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.'
       }
     ],
     correctAnswer: 'B',
@@ -1128,19 +1128,19 @@ Sob a sistemática constitucional inaugurada pela Emenda Constitucional nº 42/2
     options: [
       {
         letter: 'A',
-        text: 'A cobrança a partir de 15 de janeiro de 2025 é inconstitucional, pois a regra geral do sistema tributário nacional impõe o cumprimento cumulativo da anterioridade anual (exercício seguinte) e da anterioridade nonagesimal (mínimo de 90 dias da publicação).'
+        text: 'A cobrança a partir de 15 de janeiro de 2025 é inconstitucional, pois a regra geral do sistema tributário nacional impõe o cumprimento cumulativo da anterioridade anual e da anterioridade nonagesimal.'
       },
       {
         letter: 'B',
-        text: 'A taxa é válida a partir de 15 de janeiro, visto que taxas pelo poder de polícia não se submetem a nenhuma anterioridade constitucional.'
+        text: 'A taxa é válida a partir de 15 de janeiro, visto que taxas pelo poder de polícia não se submetem a nenhuma anterioridade constitucional, com impedimento à fruição imediata de imunidade ou isenção condicionada no caso concreto.'
       },
       {
         letter: 'C',
-        text: 'Bastava respeitar a virada do exercício financeiro em 1º de janeiro de 2025, sendo a noventena dispensada para tributos estaduais.'
+        text: 'Bastava respeitar a virada do exercício financeiro em 1º de janeiro de 2025, sendo a noventena dispensada para tributos estaduais, sem configuração de hipótese de suspensão da exigibilidade nem de exclusão do crédito fiscal.'
       },
       {
         letter: 'D',
-        text: 'A taxa só poderá ser cobrada em 1º de janeiro de 2026, pois a noventena sempre empurra a exigência para o segundo exercício subsequente.'
+        text: 'A taxa só poderá ser cobrada em 1º de janeiro de 2026, pois a noventena sempre empurra a exigência para o segundo exercício subsequente. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.'
       }
     ],
     correctAnswer: 'A',
@@ -1190,15 +1190,15 @@ Ambos os atos normativos previram cobrança a partir de 1º de janeiro de 2025.
       },
       {
         letter: 'B',
-        text: 'A cobrança do Imposto de Renda em 1º de janeiro de 2025 é constitucional (é exceção à noventena, respeitando apenas a anterioridade anual), enquanto a cobrança do IPI em 1º de janeiro de 2025 é inconstitucional (é exceção à anterioridade anual, mas deve obrigatoriamente respeitar os 90 dias da noventena).'
+        text: 'A cobrança do Imposto de Renda em 1º de janeiro de 2025 é constitucional, enquanto a cobrança do IPI em 1º de janeiro de 2025 é inconstitucional.'
       },
       {
         letter: 'C',
-        text: 'Nenhum dos tributos poderá ser cobrado antes de 90 dias, porquanto a noventena é absoluta para todos os impostos da União.'
+        text: 'Nenhum dos tributos poderá ser cobrado antes de 90 dias, porquanto a noventena é absoluta para todos os impostos da União, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       },
       {
         letter: 'D',
-        text: 'O IPI pode ser cobrado imediatamente no dia seguinte à publicação, visto que não respeita nenhuma anterioridade.'
+        text: 'O IPI pode ser cobrado imediatamente no dia seguinte à publicação, visto que não respeita nenhuma anterioridade, em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal.'
       }
     ],
     correctAnswer: 'B',
@@ -1245,19 +1245,19 @@ Diante da disciplina constitucional e da Súmula 160 do STJ:`,
     options: [
       {
         letter: 'A',
-        text: 'Ambos os atos são ilegítimos, pois o IPTU exige sempre noventena e anterioridade anual tanto para alíquotas quanto para atualização monetária.'
+        text: 'Ambos os atos são ilegítimos, pois o IPTU exige sempre noventena e anterioridade anual tanto para alíquotas quanto para atualização monetária. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.'
       },
       {
         letter: 'B',
-        text: 'A atualização do valor venal por decreto é válida (não constitui aumento de tributo a mera atualização monetária - art. 97, § 2º do CTN), mas a majoração da alíquota exige respeito à anterioridade anual E à noventena, só podendo ser exigida após decorridos 90 dias da publicação da lei.'
+        text: 'A atualização do valor venal por decreto é válida, mas a majoração da alíquota exige respeito à anterioridade anual e à noventena, só podendo ser exigida após decorridos 90 dias da publicação da lei.'
       },
       {
         letter: 'C',
-        text: 'A majoração da alíquota do IPTU é exceção tanto à anterioridade anual quanto à noventena, sendo válida já a partir de 1º de janeiro de 2025.'
+        text: 'A majoração da alíquota do IPTU é exceção tanto à anterioridade anual quanto à noventena, sendo válida já a partir de 1º de janeiro de 2025, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.'
       },
       {
         letter: 'D',
-        text: 'O Prefeito pode majorar a alíquota por decreto executivo, desde que a base de cálculo seja mantida inalterada.'
+        text: 'O Prefeito pode majorar a alíquota por decreto executivo, desde que a base de cálculo seja mantida inalterada, com possibilidade de instituição ou majoração de alíquota mediante ato normativo infralegal.'
       }
     ],
     correctAnswer: 'B',
@@ -1301,19 +1301,19 @@ A respeito das exceções legais que permitem a aplicação retroativa da lei tr
     options: [
       {
         letter: 'A',
-        text: 'A lei tributária aplica-se retroativamente para majorar alíquotas de tributos pretéritos caso o sujeito passivo ainda não tenha sido notificado do lançamento.'
+        text: 'A lei tributária aplica-se retroativamente para majorar alíquotas de tributos pretéritos caso o sujeito passivo ainda não tenha sido notificado do lançamento, sem configuração de hipótese de suspensão da exigibilidade nem de exclusão do crédito fiscal.'
       },
       {
         letter: 'B',
-        text: 'Aplica-se retroativamente a lei expressamente interpretativa (salvo aplicação de penalidade pelo descumprimento do dispositivo interpretado) e a lei que deixe de definir ato como infração ou lhe comine penalidade menos severa (*lex mitior*), desde que o ato não esteja definitivamente julgado.'
+        text: 'Aplica-se retroativamente a lei expressamente interpretativa e a lei que deixe de definir ato como infração ou lhe comine penalidade menos severa (*lex mitior*), desde que o ato não esteja definitivamente julgado.'
       },
       {
         letter: 'C',
-        text: 'O princípio da *lex mitior* tributária autoriza a repetição de indébito de multas administrativas já pagas e extintas com trânsito em julgado material administrativo e judicial.'
+        text: 'O princípio da lex mitior tributária autoriza a repetição de indébito de multas administrativas já pagas e extintas com trânsito em julgado material administrativo e judicial, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.'
       },
       {
         letter: 'D',
-        text: 'A retroatividade da lei interpretativa permite a criação de novas obrigações acessórias com efeitos ex tunc.'
+        text: 'A retroatividade da lei interpretativa permite a criação de novas obrigações acessórias com efeitos ex tunc, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.'
       }
     ],
     correctAnswer: 'B',
@@ -1358,7 +1358,7 @@ Com base na jurisprudência vinculante do Supremo Tribunal Federal (Temas 214 e 
     options: [
       {
         letter: 'A',
-        text: 'A vedação constitucional ao confisco aplica-se exclusivamente aos impostos, não alcançando penalidades pecuniárias ou multas fiscais.'
+        text: 'A vedação constitucional ao confisco aplica-se exclusivamente aos impostos, não alcançando penalidades pecuniárias ou multas fiscais, com vedação à analogia ou equidade para exigir tributo ou dispensar crédito sem previsão legal.'
       },
       {
         letter: 'B',
@@ -1366,11 +1366,11 @@ Com base na jurisprudência vinculante do Supremo Tribunal Federal (Temas 214 e 
       },
       {
         letter: 'C',
-        text: 'Qualquer multa superior a 10% do valor do débito é automaticamente nula no ordenamento jurídico brasileiro.'
+        text: 'Qualquer multa superior a 10% do valor do débito é automaticamente nula no ordenamento jurídico brasileiro, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.'
       },
       {
         letter: 'D',
-        text: 'O STF autorizou que multas punitivas alcancem até 500% do imposto nos casos em que comprovada a má-fé societária.'
+        text: 'O STF autorizou que multas punitivas alcancem até 500% do imposto nos casos em que comprovada a má-fé societária, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.'
       }
     ],
     correctAnswer: 'B',
@@ -1418,19 +1418,19 @@ Sobre a evolução jurisprudencial desse princípio no Supremo Tribunal Federal:
     options: [
       {
         letter: 'A',
-        text: 'O STF manteve a interpretação restritiva e proibiu qualquer progressividade fiscal em impostos reais como o ITCMD e o IPTU.'
+        text: 'O STF manteve a interpretação restritiva e proibiu qualquer progressividade fiscal em impostos reais como o ITCMD e o IPTU, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.'
       },
       {
         letter: 'B',
-        text: 'O STF pacificou que o princípio da capacidade contributiva aplica-se a todos os impostos (reais ou pessoais), sendo constitucional a fixação de alíquotas progressivas para o ITCMD (Súmula 656 superada pelo RE 562.045) e para o IPTU com base no valor venal do imóvel (Art. 156, § 1º, I da CF).'
+        text: 'O STF pacificou que o princípio da capacidade contributiva aplica-se a todos os impostos (reais ou pessoais), sendo constitucional a fixação de alíquotas progressivas para o ITCMD e para o IPTU com base no valor venal do imóvel.'
       },
       {
         letter: 'C',
-        text: 'A capacidade contributiva foi revogada da Constituição pela Emenda Constitucional da Reforma Tributária.'
+        text: 'A capacidade contributiva foi revogada da Constituição pela Emenda Constitucional da Reforma Tributária, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       },
       {
         letter: 'D',
-        text: 'Apenas a União Federal pode instituir impostos com alíquotas progressivas, sendo a proporcionalidade estrita obrigatória para Estados e Municípios.'
+        text: 'Apenas a União Federal pode instituir impostos com alíquotas progressivas, sendo a proporcionalidade estrita obrigatória para Estados e Municípios, com possibilidade de instituição ou majoração de alíquota mediante ato normativo infralegal.'
       }
     ],
     correctAnswer: 'B',
@@ -1476,19 +1476,19 @@ Sobre a cobrança de pedágio à luz da Constituição Federal e da jurisprudên
     options: [
       {
         letter: 'A',
-        text: 'A cobrança de pedágio é expressamente ressalvada pela própria Constituição Federal (Art. 150, V, in fine) para vias conservadas pelo Poder Público, não havendo obrigatoriedade constitucional de oferecimento de via alternativa gratuita ao usuário.'
+        text: 'A cobrança de pedágio é expressamente ressalvada pela própria Constituição Federal para vias conservadas pelo Poder Público, não havendo obrigatoriedade constitucional de oferecimento de via alternativa gratuita ao usuário.'
       },
       {
         letter: 'B',
-        text: 'O pedágio é flagrantemente inconstitucional sempre que não houver rodovia vicinal pública gratuita e asfaltada disponível no mesmo trajeto.'
+        text: 'O pedágio é flagrantemente inconstitucional sempre que não houver rodovia vicinal pública gratuita e asfaltada disponível no mesmo trajeto, sem configuração de hipótese de suspensão da exigibilidade nem de exclusão do crédito fiscal.'
       },
       {
         letter: 'C',
-        text: 'O pedágio possui natureza tributária de imposto sobre a circulação viária, sendo vedada sua exploração por concessionárias privadas.'
+        text: 'O pedágio possui natureza tributária de imposto sobre a circulação viária, sendo vedada sua exploração por concessionárias privadas, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       },
       {
         letter: 'D',
-        text: 'O pedágio só pode ser cobrado de veículos de transporte de cargas, sendo imunes os veículos de passeio particulares.'
+        text: 'O pedágio só pode ser cobrado de veículos de transporte de cargas, sendo imunes os veículos de passeio particulares, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.'
       }
     ],
     correctAnswer: 'A',
@@ -1532,19 +1532,19 @@ Analisando a constitucionalidade da norma sob a ótica dos princípios federativ
     options: [
       {
         letter: 'A',
-        text: 'A lei é constitucional, pois a autonomia federativa permite aos Estados fixar livremente alíquotas tributárias diferenciadas conforme a origem da mercadoria para proteger seus produtores locais.'
+        text: 'A lei é constitucional, pois a autonomia federativa permite aos Estados fixar livremente alíquotas tributárias diferenciadas conforme a origem da mercadoria para proteger seus produtores locais. Tal critério determina a incidência tributária e a competência ativa do ente tributante.'
       },
       {
         letter: 'B',
-        text: 'A lei é flagrantemente inconstitucional, pois o Artigo 152 da CF/88 consagra o Princípio da Não Discriminação Tributária em Razão da Procedência ou Destino, vedando aos entes estabelecer diferença tributária entre bens e serviços de qualquer natureza em virtude de sua origem.'
+        text: 'A lei é flagrantemente inconstitucional, pois a legislação aplicável consagra o Princípio da Não Discriminação Tributária em Razão da Procedência ou Destino, vedando aos entes estabelecer diferença tributária entre bens e serviços de qualquer natureza em virtude de sua origem.'
       },
       {
         letter: 'C',
-        text: 'O princípio da não discriminação aplica-se apenas aos Municípios, possuindo os Estados soberania para criar barreiras alfandegárias internas.'
+        text: 'O princípio da não discriminação aplica-se apenas aos Municípios, possuindo os Estados soberania para criar barreiras alfandegárias internas, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.'
       },
       {
         letter: 'D',
-        text: 'A diferenciação tributária somente seria inválida caso se tratasse de produtos industrializados, sendo permitida para produtos do setor agropecuário primário.'
+        text: 'A diferenciação tributária somente seria inválida caso se tratasse de produtos industrializados, sendo permitida para produtos do setor agropecuário primário, com legitimação do lançamento de ofício e inscrição imediata do débito em dívida ativa.'
       }
     ],
     correctAnswer: 'B',
@@ -1587,19 +1587,19 @@ Sobre esse novo princípio constitucional e o modelo do Imposto sobre Bens e Ser
     options: [
       {
         letter: 'A',
-        text: 'A neutralidade tributária determina que a tributação deve interferir o mínimo possível nas decisões econômicas dos agentes de mercado, garantindo a não cumulatividade plena (crédito financeiro amplo) e a tributação no destino para eliminar guerras fiscais e distorções na cadeia produtiva.'
+        text: 'A neutralidade tributária determina que a tributação deve interferir o mínimo possível nas decisões econômicas dos agentes de mercado, garantindo a não cumulatividade plena e a tributação no destino para eliminar guerras fiscais e distorções na cadeia produtiva.'
       },
       {
         letter: 'B',
-        text: 'O princípio da neutralidade tributária proíbe a concessão de alíquotas reduzidas para quaisquer produtos, inclusive medicamentos e serviços de educação e saúde.'
+        text: 'O princípio da neutralidade tributária proíbe a concessão de alíquotas reduzidas para quaisquer produtos, inclusive medicamentos e serviços de educação e saúde, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       },
       {
         letter: 'C',
-        text: 'Com a EC 132/2023, o IBS e a CBS passam a adotar o princípio da origem, arrecadando os tributos exclusivamente no local onde o bem ou serviço foi produzido.'
+        text: 'Com a EC 132/2023, o ibs e a cbs passam a adotar o princípio da origem, arrecadando os tributos exclusivamente no local onde o bem ou serviço foi produzido. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte.'
       },
       {
         letter: 'D',
-        text: 'A neutralidade autoriza que o IBS substitua apenas tributos federais, mantendo o ICMS e o ISS em vigor permanente de forma cumulativa.'
+        text: 'A neutralidade autoriza que o ibs substitua apenas tributos federais, mantendo o ICMS e o ISS em vigor permanente de forma cumulativa, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal. Tal critério determina a incidência tributária e a competência ativa do ente tributante.'
       }
     ],
     correctAnswer: 'A',
@@ -1642,19 +1642,19 @@ Sobre a fisionomia jurídica e as regras constitucionais aplicáveis ao novo Imp
     options: [
       {
         letter: 'A',
-        text: 'O Imposto Seletivo possui natureza puramente fiscal e arrecadatória, devendo incidir sobre todos os bens e serviços de consumo de massa, inclusive energia elétrica e telecomunicações.'
+        text: 'O Imposto Seletivo possui natureza puramente fiscal e arrecadatória, devendo incidir sobre todos os bens e serviços de consumo de massa, inclusive energia elétrica e telecomunicações. Tal critério determina a incidência tributária e a competência ativa do ente tributante.'
       },
       {
         letter: 'B',
-        text: 'O Imposto Seletivo possui natureza eminentemente extrafiscal (desestímulo ao consumo nocivo), integrará a base de cálculo do IBS e da CBS, não incidirá sobre exportações e sua alíquota poderá ser fixada em valor específico por unidade de medida ou ad valorem.'
+        text: 'O Imposto Seletivo possui natureza eminentemente extrafiscal, integrará a base de cálculo do ibs e da cbs, não incidirá sobre exportações e sua alíquota poderá ser fixada em valor específico por unidade de medida ou ad valorem.'
       },
       {
         letter: 'C',
-        text: 'O Imposto Seletivo é de competência concorrente de Estados e Municípios, podendo cada prefeito instituir alíquotas seletivas municipais.'
+        text: 'O Imposto Seletivo é de competência concorrente de Estados e Municípios, podendo cada prefeito instituir alíquotas seletivas municipais, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.'
       },
       {
         letter: 'D',
-        text: 'O Imposto Seletivo é imune ao princípio da legalidade estrita, podendo o Presidente da República criar novos fatos geradores tributáveis mediante portaria ministerial.'
+        text: 'O Imposto Seletivo é imune ao princípio da legalidade estrita, podendo o Presidente da República criar novos fatos geradores tributáveis mediante portaria ministerial, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.'
       }
     ],
     correctAnswer: 'B',

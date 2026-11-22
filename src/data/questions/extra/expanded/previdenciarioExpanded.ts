@@ -17,19 +17,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto a Previdência Social quanto a Assistência Social exigem contribuição prévia direta do beneficiário para acesso a qualquer benefício."
+        "text": "Tanto a Previdência Social quanto a Assistência Social exigem contribuição prévia direta do beneficiário para acesso a qualquer benefício, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "B",
-        "text": "A Seguridade Social compreende um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade destinado a assegurar os direitos relativos à SAÚDE, à PREVIDÊNCIA e à ASSISTÊNCIA SOCIAL: a Saúde é direito de todos (universal, independente de contribuição); a Assistência Social é prestada a quem dela necessitar (independente de contribuição); e a Previdência Social tem caráter CONTRIBUTIVO e filiação obrigatória."
+        "text": "A Seguridade Social compreende um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade destinado a assegurar os direitos relativos à saúde, à previdência e à assistência social: a Saúde é direito de todos."
       },
       {
         "letter": "C",
-        "text": "Os benefícios da Saúde pública do SUS restringem-se exclusivamente aos segurados contribuintes do INSS e seus dependentes."
+        "text": "Os benefícios da Saúde pública do SUS restringem-se exclusivamente aos segurados contribuintes do INSS e seus dependentes, com livre aproveitamento ou desaposentação sem sujeição às regras constitucionais de transição."
       },
       {
         "letter": "D",
-        "text": "O princípio da irredutibilidade do valor dos benefícios aplica-se apenas nominalmente, sem impedir redução real no RGPS."
+        "text": "O princípio da irredutibilidade do valor dos benefícios aplica-se apenas nominalmente, sem impedir redução real no RGPS, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "B",
@@ -72,19 +72,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A regra da contrapartida financeira prévia aplica-se apenas quando o projeto cria um benefício inteiramente novo, não incidindo sobre a simples majoração de percentual de benefício já existente."
+        "text": "A regra da contrapartida financeira prévia aplica-se apenas quando o projeto cria um benefício inteiramente novo, não incidindo sobre a simples majoração de percentual de benefício já existente, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei."
       },
       {
         "letter": "B",
-        "text": "A lei é materialmente INCONSTITUCIONAL por violar o princípio da preexistência (ou precedência) da fonte de custeio previsto no Art. 195, § 5º, da CF: nenhum benefício ou serviço da seguridade social poderá ser criado, majorado ou estendido sem a correspondente fonte de custeio total."
+        "text": "A lei é materialmente inconstitucional por violar o princípio da preexistência (ou precedência) da fonte de custeio: nenhum benefício ou serviço da seguridade social poderá ser criado, majorado ou estendido sem a correspondente fonte de custeio total."
       },
       {
         "letter": "C",
-        "text": "O Judiciário pode estender administrativamente benefício previdenciário por analogia benéfica mesmo sem previsão legal nem fonte de custeio."
+        "text": "O Judiciário pode estender administrativamente benefício previdenciário por analogia benéfica mesmo sem previsão legal nem fonte de custeio, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "A necessidade de prévia fonte de custeio aplica-se apenas à Previdência Social, estando dispensada para criação de novos benefícios da Assistência Social."
+        "text": "A necessidade de prévia fonte de custeio aplica-se apenas à Previdência Social, estando dispensada para criação de novos benefícios da Assistência Social, com vedação à concessão ou majoração de benefício sem cumprimento integral de carência e idade."
       }
     ],
     "correctAnswer": "B",
@@ -131,7 +131,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "As contribuições sociais para a seguridade social submetem-se APENAS à anterioridade nonagesimal (90 dias contados da data da publicação da lei — ou da Medida Provisória que as houver instituído ou modificado, conforme jurisprudência do STF), NÃO se aplicando a anterioridade anual do exercício financeiro seguinte!"
+        "text": "As contribuições sociais para a seguridade social submetem-se apenas à anterioridade nonagesimal, não se aplicando a anterioridade anual do exercício financeiro seguinte."
       },
       {
         "letter": "C",
@@ -183,19 +183,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A União pode instituir novas contribuições residuais para a seguridade social por meio de simples lei ordinária federal ou medida provisória."
+        "text": "A União pode instituir novas contribuições residuais para a seguridade social por meio de simples lei ordinária federal ou medida provisória, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "B",
-        "text": "A lei ordinária é inconstitucional por duplo vício: nos termos do Art. 195, § 4º, c/c Art. 154, I, da CF, a instituição de outras fontes residuais destinadas à seguridade exige LEI COMPLEMENTAR, não cumulatividade e fato gerador ou base de cálculo diversos dos impostos/contribuições já discriminados na Constituição."
+        "text": "A lei ordinária é inconstitucional por duplo vício: /c Art. 154, I, da CF, a instituição de outras fontes residuais destinadas à seguridade exige lei complementar, não cumulatividade e fato gerador ou base de cálculo diversos dos impostos/contribuições já discriminados na Constituição."
       },
       {
         "letter": "C",
-        "text": "A contribuição do empregador incide apenas sobre a folha de salários, sendo inconstitucional sua incidência sobre o faturamento ou o lucro."
+        "text": "A contribuição do empregador incide apenas sobre a folha de salários, sendo inconstitucional sua incidência sobre o faturamento ou o lucro, em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "As entidades beneficentes de assistência social que atendam às exigências legais não gozam de imunidade às contribuições sociais da seguridade."
+        "text": "As entidades beneficentes de assistência social que atendam às exigências legais não gozam de imunidade às contribuições sociais da seguridade, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "B",
@@ -238,11 +238,11 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O ocupante exclusivamente de cargo em comissão em prefeitura municipal vincula-se ao RPPS estatutário do município."
+        "text": "O ocupante exclusivamente de cargo em comissão em prefeitura municipal vincula-se ao RPPS estatutário do município, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "B",
-        "text": "O servidor titular de cargo efetivo vincula-se ao Regime Próprio de Previdência Social (RPPS) do ente federativo; já o empregado celetista privado E o ocupante exclusivamente de cargo em comissão (bem como o agente político e o empregado público de empresa estatal) vinculam-se obrigatoriamente ao Regime Geral de Previdência Social (RGPS - Art. 40, § 13, CF)!"
+        "text": "O servidor titular de cargo efetivo vincula-se ao Regime Próprio de Previdência Social (RPPS) do ente federativo."
       },
       {
         "letter": "C",
@@ -250,7 +250,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A previdência complementar aberta ou fechada prevista no Art. 202 da CF tem filiação compulsória e caráter público estatutário."
+        "text": "A previdência complementar aberta ou fechada tem filiação compulsória e caráter público estatutário, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       }
     ],
     "correctAnswer": "B",
@@ -293,11 +293,11 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O estivador que presta serviços a diversas empresas sem vínculo empregatício com intermediação obrigatória do OGMO ou sindicato enquadra-se como empregado doméstico."
+        "text": "O estivador que presta serviços a diversas empresas sem vínculo empregatício com intermediação obrigatória do ogmo ou sindicato enquadra-se como empregado doméstico."
       },
       {
         "letter": "B",
-        "text": "Todos os três enquadram-se como segurados obrigatórios do RGPS: o médico autônomo e o motorista sem vínculo empregatício são CONTRIBUINTES INDIVIDUAIS (Art. 11, V, \"h\"); e o estivador intermediado pelo sindicato ou OGMO nos portos é TRABALHADOR AVULSO (Art. 11, VI)."
+        "text": "Todos os três enquadram-se como segurados obrigatórios do RGPS: o médico autônomo e o motorista sem vínculo empregatício são contribuintes individuais."
       },
       {
         "letter": "C",
@@ -305,7 +305,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O diretor não empregado de sociedade anônima que recebe pró-labore não é segurado obrigatório do RGPS."
+        "text": "O diretor não empregado de sociedade anônima que recebe pró-labore não é segurado obrigatório do RGPS, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "B",
@@ -348,19 +348,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A contratação de qualquer trabalhador assalariado temporário em época de safra descaracteriza imediatamente a condição de segurado especial rural."
+        "text": "A contratação de qualquer trabalhador assalariado temporário em época de safra descaracteriza imediatamente a condição de segurado especial rural, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "Ele MANTÉM a condição de segurado especial, pois a lei admite que o segurado especial explore atividade agropecuária em área contínua ou descontínua de até 4 módulos fiscais, utilize empregados eventuais à razão de no máximo 120 pessoas por dia no ano civil (80 < 120!) e aufira outras fontes de renda expressamente ressalvadas (como exercício de mandato eletivo/sindical, artesanato ou turismo rural limitado)."
+        "text": "Ele mantém a condição de segurado especial, pois a lei admite que o segurado especial explore atividade agropecuária em área contínua ou descontínua de até 4 módulos fiscais, utilize empregados eventuais à razão de no máximo 120 pessoas por dia no ano civil (80 < 120) e aufira outras fontes de renda expressamente ressalvadas."
       },
       {
         "letter": "C",
-        "text": "Para manter a condição de segurado especial, o imóvel rural explorado em regime de economia familiar não pode ultrapassar 1 módulo fiscal."
+        "text": "Para manter a condição de segurado especial, o imóvel rural explorado em regime de economia familiar não pode ultrapassar 1 módulo fiscal, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "Os filhos maiores de 14 anos que trabalham no campo em regime de economia familiar com os pais nunca adquirem a qualidade de segurado especial até completarem 18 anos."
+        "text": "Os filhos maiores de 14 anos que trabalham no campo em regime de economia familiar com os pais nunca adquirem a qualidade de segurado especial até completarem 18 anos, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "B",
@@ -407,7 +407,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Podem filiar-se como segurados facultativos o estudante de 19 anos e o estagiário remunerado da Lei nº 11.788/2008 (já que o estágio regular não gera vínculo de emprego nem renda tributável obrigatória no RGPS); contudo, o jovem de 15 anos NÃO pode filiar-se ainda como facultativo porque a jurisprudência e o Decreto nº 3.048/1999 (em consonância com o Art. 7º, XXXIII, CF - EC 20/98) fixam a idade mínima de 16 anos para o facultativo!"
+        "text": "Podem filiar-se como segurados facultativos o estudante de 19 anos e o estagiário remunerado da Lei nº 11.788/2008."
       },
       {
         "letter": "C",
@@ -458,19 +458,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo máximo possível do período de graça após a última contribuição de qualquer segurado obrigatório é sempre de 12 meses."
+        "text": "O prazo máximo possível do período de graça após a última contribuição de qualquer segurado obrigatório é sempre de 12 meses, com concessão imediata do benefício independentemente de comprovação de carência mínima."
       },
       {
         "letter": "B",
-        "text": "Ele mantém a qualidade de segurado por até 36 (trinta e seis) meses após a cessação das contribuições (12 meses regra geral após deixar de contribuir + 12 meses por contar com mais de 120 contribuições sem interrupção + 12 meses pela situação de desemprego involuntário), além do prazo estendido até o dia 16 do segundo mês seguinte ao término do último mês (Art. 15, § 4º)."
+        "text": "Ele mantém a qualidade de segurado por até 36 (trinta e seis) meses após a cessação das contribuições, além do prazo estendido até o dia 16 do segundo mês seguinte ao término do último mês."
       },
       {
         "letter": "C",
-        "text": "Para o segurado facultativo que deixa de recolher suas contribuições mensais, o período de graça também é de 12 meses."
+        "text": "Para o segurado facultativo que deixa de recolher suas contribuições mensais, o período de graça também é de 12 meses, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "O segurado em gozo de auxílio-doença ou aposentadoria por incapacidade permanente perde a qualidade de segurado após 12 meses sem contribuir."
+        "text": "O segurado em gozo de auxílio-doença ou aposentadoria por incapacidade permanente perde a qualidade de segurado após 12 meses sem contribuir, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       }
     ],
     "correctAnswer": "B",
@@ -513,19 +513,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A jurisprudência do STJ e da TNU (Súmula 27 da TNU) admite que o desemprego involuntário do Art. 15, § 2º, seja comprovado por outros meios idôneos de prova (como ausência de anotações na CTPS e no CNIS após dispensa sem justa causa), NÃO sendo o registro no órgão do Ministério do Trabalho (SINE) meio exclusivo nem indispensável."
+        "text": "A jurisprudência do STJ e da tnu admite que o desemprego involuntário, seja comprovado por outros meios idôneos de prova, não sendo o registro no órgão do Ministério do Trabalho (sine) meio exclusivo nem indispensável."
       },
       {
         "letter": "B",
-        "text": "Sem a certidão formal de inscrição no SINE ou recebimento de seguro-desemprego é absolutamente impossível prorrogar em 12 meses o período de graça por desemprego."
+        "text": "Sem a certidão formal de inscrição no sine ou recebimento de seguro-desemprego é absolutamente impossível prorrogar em 12 meses o período de graça por desemprego, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei."
       },
       {
         "letter": "C",
-        "text": "O segurado contribuinte individual (autônomo) faz jus facilmente à prorrogação de 12 meses por desemprego involuntário sempre que ficar sem clientes no consultório."
+        "text": "O segurado contribuinte individual (autônomo) faz jus facilmente à prorrogação de 12 meses por desemprego involuntário sempre que ficar sem clientes no consultório, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "D",
-        "text": "O segurado perde a qualidade de segurado no exato aniversário do 12º mês após o desligamento do emprego."
+        "text": "O segurado perde a qualidade de segurado no exato aniversário do 12º mês após o desligamento do emprego, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       }
     ],
     "correctAnswer": "A",
@@ -569,19 +569,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para o contribuinte individual e para o segurado facultativo, é VEDADA a inscrição post mortem e não produzem efeitos previdenciários para pensão as contribuições recolhidas após o óbito sem inscrição prévia; contudo, para o SEGURADO ESPECIAL rural, os dependentes PODEM requerer a inscrição post mortem desde que comprovem o exercício da atividade rural em economia familiar antes do óbito!"
+        "text": "Para o contribuinte individual e para o segurado facultativo, é vedada a inscrição post mortem e não produzem efeitos previdenciários para pensão as contribuições recolhidas após o óbito sem inscrição prévia."
       },
       {
         "letter": "B",
-        "text": "A inscrição post mortem é admitida para todas as categorias de segurados obrigatórios mediante recolhimento das últimas 12 contribuições pelos dependentes após o óbito."
+        "text": "A inscrição post mortem é admitida para todas as categorias de segurados obrigatórios mediante recolhimento das últimas 12 contribuições pelos dependentes após o óbito, com acumulação integral e irrestrita das prestações sem redução proporcional de valor."
       },
       {
         "letter": "C",
-        "text": "A filiação ao RGPS do empregado celetista depende da ida pessoal dele a uma agência do INSS para efetuar sua inscrição antes de começar a trabalhar."
+        "text": "A filiação ao RGPS do empregado celetista depende da ida pessoal dele a uma agência do INSS para efetuar sua inscrição antes de começar a trabalhar, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "A primeira contribuição do segurado facultativo pode ser paga com três anos de atraso para validar o início da cobertura retroativa."
+        "text": "A primeira contribuição do segurado facultativo pode ser paga com três anos de atraso para validar o início da cobertura retroativa, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       }
     ],
     "correctAnswer": "A",
@@ -624,19 +624,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas a MÃE receberá a pensão por morte, pois os pais integram a Classe II dos dependentes e os irmãos integram a Classe III; nos termos do Art. 16, § 1º, da Lei nº 8.213/1991, a existência de dependente de qualquer das classes exclui do direito às prestações os das classes seguintes."
+        "text": "Apenas a mãe receberá a pensão por morte, pois os pais integram a Classe II dos dependentes e os irmãos integram a Classe III; a existência de dependente de qualquer das classes exclui do direito às prestações os das classes seguintes."
       },
       {
         "letter": "B",
-        "text": "Os pais e os irmãos não emancipados inválidos concorrem em igualdade de condições e dividem a pensão por morte em partes iguais."
+        "text": "Os pais e os irmãos não emancipados inválidos concorrem em igualdade de condições e dividem a pensão por morte em partes iguais, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "C",
-        "text": "Para a mãe idosa dependente (Classe II), a dependência econômica é absolutamente presumida por lei, dispensando qualquer comprovação."
+        "text": "Para a mãe idosa dependente (Classe II), a dependência econômica é absolutamente presumida por lei, dispensando qualquer comprovação. O preenchimento dos requisitos verifica-se segundo a legislação vigente na data do direito."
       },
       {
         "letter": "D",
-        "text": "O filho universitário até os 24 anos de idade mantém a qualidade de dependente previdenciário no RGPS para pensão por morte."
+        "text": "O filho universitário até os 24 anos de idade mantém a qualidade de dependente previdenciário no RGPS para pensão por morte, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       }
     ],
     "correctAnswer": "A",
@@ -679,19 +679,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A negativa do INSS é inconstitucional: embora a reforma da Lei nº 9.528/1997 tenha retirado o menor sob guarda do rol do Art. 16, § 2º (mantendo literalmente apenas o enteado e o menor tutelado mediante declaração do segurado e prova de dependência econômica), o STF (ADIs 4.878 e 5.083 / Tema 732) conferiu interpretação conforme à Constituição garantindo ao MENOR SOB GUARDA JUDICIAL a condição de dependente para fins de pensão por morte, desde que comprovada a dependência econômica."
+        "text": "A negativa do INSS é inconstitucional: embora a reforma da Lei nº 9.528/1997 tenha retirado o menor sob guarda do rol, o STF conferiu interpretação conforme à Constituição garantindo ao menor sob guarda judicial a condição de dependente para fins de pensão por morte, desde que comprovada a dependência econômica."
       },
       {
         "letter": "B",
-        "text": "Para equiparar o enteado ou o menor tutelado a filho, a dependência econômica é presumida de forma absoluta sem exigir prova nem declaração do segurado."
+        "text": "Para equiparar o enteado ou o menor tutelado a filho, a dependência econômica é presumida de forma absoluta sem exigir prova nem declaração do segurado, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "C",
-        "text": "Mesmo após a decisão do STF nas ADIs 4.878 e 5.083, o menor sob guarda judicial jamais tem direito a pensão por morte no INSS em razão da EC nº 103/2019."
+        "text": "Mesmo após a decisão do STF nas ADIs 4.878 e 5.083, o menor sob guarda judicial jamais tem direito a pensão por morte no INSS em razão da EC nº 103/2019, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "O menor sob guarda de fato sem termo judicial nenhum equipara-se automaticamente a filho para receber pensão por morte."
+        "text": "O menor sob guarda de fato sem termo judicial nenhum equipara-se automaticamente a filho para receber pensão por morte, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "A",
@@ -735,19 +735,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos termos da Súmula 336 do STJ, a mulher (ou ex-cônjuge) que renunciou aos alimentos na separação judicial tem direito à pensão previdenciária por morte do ex-marido, DESDE QUE COMPROVADA A NECESSIDADE ECONÔMICA SUPERVENIENTE (ou que demonstrasse receber auxílio material habitual dele)."
+        "text": "A mulher (ou ex-cônjuge) que renunciou aos alimentos na separação judicial tem direito à pensão previdenciária por morte do ex-marido, desde que comprovada a necessidade econômica superveniente."
       },
       {
         "letter": "B",
-        "text": "Quem renunciou expressamente aos alimentos no momento do divórcio perde definitiva e irremediavelmente qualquer direito à pensão por morte previdenciária no INSS."
+        "text": "Quem renunciou expressamente aos alimentos no momento do divórcio perde definitiva e irremediavelmente qualquer direito à pensão por morte previdenciária no INSS, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "O ex-cônjuge divorciado que já recebia pensão alimentícia do falecido concorre apenas com metade do valor destinado ao cônjuge atual, recebendo fração reduzida."
+        "text": "O ex-cônjuge divorciado que já recebia pensão alimentícia do falecido concorre apenas com metade do valor destinado ao cônjuge atual, recebendo fração reduzida, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "D",
-        "text": "Se a ex-esposa recebia pensão alimentícia temporária por apenas 2 anos fixada judicialmente, sua pensão por morte no INSS será vitalícia."
+        "text": "Se a ex-esposa recebia pensão alimentícia temporária por apenas 2 anos fixada judicialmente, sua pensão por morte no INSS será vitalícia, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       }
     ],
     "correctAnswer": "A",
@@ -791,11 +791,11 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A viúva receberá a pensão por morte por apenas 4 (QUATRO) MESES a contar do óbito, pois o segurado falecido NÃO tinha vertido pelo menos 18 contribuições mensais até a data do óbito (mesmo tendo mais de 2 anos de casamento, exige-se o preenchimento cumulativo de >= 18 contribuições E >= 2 anos de casamento/união estável para ter direito à escala etária, salvo óbito por acidente de qualquer natureza!)."
+        "text": "A viúva receberá a pensão por morte por apenas 4 (quatro) meses a contar do óbito, pois o segurado falecido não tinha vertido pelo menos 18 contribuições mensais até a data do óbito."
       },
       {
         "letter": "B",
-        "text": "Por ter mais de 2 anos de casamento formal, a viúva terá direito automaticamente à pensão por morte vitalícia independentemente do número de contribuições ou de sua idade."
+        "text": "Por ter mais de 2 anos de casamento formal, a viúva terá direito automaticamente à pensão por morte vitalícia independentemente do número de contribuições ou de sua idade, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "C",
@@ -846,19 +846,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nenhum dos dois faz jus aos respectivos benefícios no momento: após a Lei nº 13.846/2019, o auxílio-reclusão passou a exigir CARÊNCIA DE 24 CONTRIBUIÇÕES MENSAIS (antes não tinha carência!), e o salário-maternidade para contribuinte individual (e facultativa/especial) exige CARÊNCIA DE 10 CONTRIBUIÇÕES MENSAIS (não tendo carência apenas para empregada, doméstica e avulsa — lembrando ainda o tema STF ADI 2.110!)."
+        "text": "Nenhum dos dois faz jus aos respectivos benefícios no momento: após a Lei nº 13.846/2019, o auxílio-reclusão passou a exigir carência de 24 contribuições mensais, e o salário-maternidade para contribuinte individual exige carência de 10 contribuições mensais."
       },
       {
         "letter": "B",
-        "text": "O auxílio-reclusão e a pensão por morte são igualmente isentos de qualquer período de carência no RGPS."
+        "text": "O auxílio-reclusão e a pensão por morte são igualmente isentos de qualquer período de carência no RGPS, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "C",
-        "text": "O salário-maternidade da segurada contribuinte individual, facultativa e empregada doméstica exige exatamente a mesma carência de 10 meses."
+        "text": "O salário-maternidade da segurada contribuinte individual, facultativa e empregada doméstica exige exatamente a mesma carência de 10 meses, com concessão imediata do benefício independentemente de comprovação de carência mínima."
       },
       {
         "letter": "D",
-        "text": "O auxílio por incapacidade temporária (auxílio-doença) e a aposentadoria por incapacidade permanente exigem 180 contribuições mensais de carência como regra geral."
+        "text": "O auxílio por incapacidade temporária (auxílio-doença) e a aposentadoria por incapacidade permanente exigem 180 contribuições mensais de carência como regra geral, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "A",
@@ -902,19 +902,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos têm direito aos benefícios por incapacidade SEM cumprimento da carência de 12 meses: a lei isenta de carência os benefícios por incapacidade decorrentes de acidente de qualquer natureza (não apenas acidente do trabalho!) e de doença profissional ou do trabalho, bem como nos casos das doenças e afecções graves especificadas em lista interministerial (Art. 151, incluindo neoplasia maligna, cardiopatia grave, AIDS, alienação mental, cegueira, Parkinson, etc.)."
+        "text": "Ambos têm direito aos benefícios por incapacidade sem cumprimento da carência de 12 meses: a lei isenta de carência os benefícios por incapacidade decorrentes de acidente de qualquer natureza e de doença profissional ou do trabalho."
       },
       {
         "letter": "B",
-        "text": "A isenção de carência no auxílio por incapacidade temporária aplica-se apenas a acidentes típicos ocorridos dentro do ambiente de trabalho."
+        "text": "A isenção de carência no auxílio por incapacidade temporária aplica-se apenas a acidentes típicos ocorridos dentro do ambiente de trabalho, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       },
       {
         "letter": "C",
-        "text": "A lista de doenças graves do Art. 151 da Lei nº 8.213/1991 que dispensam carência exige que o segurado já estivesse filiado há no mínimo 6 meses antes do diagnóstico."
+        "text": "A lista de doenças graves que dispensam carência exige que o segurado já estivesse filiado há no mínimo 6 meses antes do diagnóstico, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "D",
-        "text": "O rol de doenças graves do Art. 151 da Lei nº 8.213/1991 é absolutamente taxativo, proibida qualquer interpretação extensiva mesmo para enfermidades igualmente graves e estigmatizantes."
+        "text": "O rol de doenças graves é absolutamente taxativo, proibida qualquer interpretação extensiva mesmo para enfermidades igualmente graves e estigmatizantes, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       }
     ],
     "correctAnswer": "A",
@@ -957,19 +957,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ela FAZ JUS ao auxílio por incapacidade temporária: nos termos do Art. 27-A da Lei nº 8.213/1991 (com redação da Lei nº 13.846/2019), na hipótese de perda da qualidade de segurado, para efeito da concessão de auxílio por incapacidade temporária, aposentadoria por incapacidade permanente, salário-maternidade e auxílio-reclusão, o segurado deverá contar, a partir da data da nova filiação à Previdência Social, com METADE (50%) dos períodos de carência previstos nos incisos I, III e IV do Art. 25 (logo, 6 meses para incapacidade!)."
+        "text": "Ela faz jus ao auxílio por incapacidade temporária:, na hipótese de perda da qualidade de segurado, para efeito da concessão de auxílio por incapacidade temporária, aposentadoria por incapacidade permanente, salário-maternidade e auxílio-reclusão, o segurado deverá contar, a partir da data da nova filiação à Previdência Social, com metade (50%) dos períodos de carência previstos nos incisos I, III e IV."
       },
       {
         "letter": "B",
-        "text": "Após perder a qualidade de segurado, o trabalhador precisa cumprir integralmente 100% da carência de 12 meses do zero para voltar a ter direito ao auxílio-doença."
+        "text": "Após perder a qualidade de segurado, o trabalhador precisa cumprir integralmente 100% da carência de 12 meses do zero para voltar a ter direito ao auxílio-doença, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "Para a aposentadoria por idade urbana (carência de 180 meses), a perda da qualidade de segurado também obriga o trabalhador a cumprir novamente metade (90 contribuições) a partir da nova filiação, desprezando todo o tempo antigo."
+        "text": "Para a aposentadoria por idade urbana (carência de 180 meses), a perda da qualidade de segurado também obriga o trabalhador a cumprir novamente metade (90 contribuições) a partir da nova filiação, desprezando todo o tempo antigo. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "O tempo anterior à perda da qualidade de segurado nunca se soma ao novo tempo após o cumprimento da metade da carência."
+        "text": "O tempo anterior à perda da qualidade de segurado nunca se soma ao novo tempo após o cumprimento da metade da carência, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       }
     ],
     "correctAnswer": "A",
@@ -1012,19 +1012,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Segundo a jurisprudência consolidada dos tribunais superiores: INCIDE contribuição previdenciária sobre o TERÇO CONSTITUCIONAL DE FÉRIAS GOZADAS (STF Tema 985 - RE 1.072.485, com modulação a partir de 15/09/2020!), mas NÃO incide contribuição previdenciária sobre o AVISO PRÉVIO INDENIZADO nem sobre os PRIMEIROS 15 DIAS de afastamento do empregado doente (STJ Tema 478 e Tema 738)."
+        "text": "Segundo a jurisprudência consolidada dos tribunais superiores: Incide contribuição previdenciária sobre o terço constitucional de férias gozadas, mas não incide contribuição previdenciária sobre o aviso prévio indenizado nem sobre os primeiros 15 dias de afastamento do empregado doente."
       },
       {
         "letter": "B",
-        "text": "O STF decidiu no Tema 985 que o terço constitucional de férias usufruídas tem natureza indenizatória e está isento da contribuição previdenciária patronal."
+        "text": "O STF decidiu no Tema 985 que o terço constitucional de férias usufruídas tem natureza indenizatória e está isento da contribuição previdenciária patronal, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "C",
-        "text": "Incide contribuição previdenciária sobre o aviso prévio indenizado e sobre o vale-transporte pago em pecúnia."
+        "text": "Incide contribuição previdenciária sobre o aviso prévio indenizado e sobre o vale-transporte pago em pecúnia, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "D",
-        "text": "O décimo terceiro salário (gratificação natalina) é isento de contribuição previdenciária e não integra o salário-de-contribuição."
+        "text": "O décimo terceiro salário (gratificação natalina) é isento de contribuição previdenciária e não integra o salário-de-contribuição, com vedação à concessão ou majoração de benefício sem cumprimento integral de carência e idade."
       }
     ],
     "correctAnswer": "A",
@@ -1068,19 +1068,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O cálculo do salário-de-benefício permanente continua utilizando a média apenas dos 80% maiores salários de contribuição desde julho de 1994."
+        "text": "O cálculo do salário-de-benefício permanente continua utilizando a média apenas dos 80% maiores salários de contribuição desde julho de 1994, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "Ao utilizar a faculdade de excluir salários baixos prevista no Art. 26, § 6º, da EC nº 103/2019, o segurado pode computar aqueles meses excluídos como tempo de contribuição e carência."
+        "text": "Ao utilizar a faculdade de excluir salários baixos, da EC nº 103/2019, o segurado pode computar aqueles meses excluídos como tempo de contribuição e carência. O preenchimento dos requisitos verifica-se segundo a legislação vigente na data do direito."
       },
       {
         "letter": "C",
-        "text": "A tese da \"Revisão da Vida Toda\" (inclusão de salários anteriores a julho de 1994) foi mantida definitivamente favorável aos segurados pelo STF em 2024."
+        "text": "A tese da \"Revisão da Vida Toda\" (inclusão de salários anteriores a julho de 1994) foi mantida definitivamente favorável aos segurados pelo STF em 2024, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "A partir da EC nº 103/2019 (Art. 26), o cálculo do salário-de-benefício considera a média aritmética simples de 100% (cem por cento) de TODOS os salários de contribuição desde a competência julho de 1994 (acabou o descarte automático das 20% menores contribuições da Lei nº 9.876/1999!), facultado apenas ao segurado EXCLUIR contribuições que resultem em redução do valor do benefício (desde que não reduza o tempo mínimo exigido!)."
+        "text": "A partir da EC nº 103/2019, o cálculo do salário-de-benefício considera a média aritmética simples de 100% (cem por cento) de todos os salários de contribuição desde a competência julho de 1994, facultado apenas ao segurado excluir contribuições que resultem em redução do valor do benefício."
       }
     ],
     "correctAnswer": "D",
@@ -1128,15 +1128,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Com 15 anos de contribuição para a mulher e 20 anos para o homem, o coeficiente inicial da aposentadoria programada começa em 70% mais 1% por ano."
+        "text": "Com 15 anos de contribuição para a mulher e 20 anos para o homem, o coeficiente inicial da aposentadoria programada começa em 70% mais 1% por ano, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "C",
-        "text": "Para atingir 100% da média salarial pela regra permanente, tanto o homem quanto a mulher precisam exatamente de 30 anos de contribuição."
+        "text": "Para atingir 100% da média salarial pela regra permanente, tanto o homem quanto a mulher precisam exatamente de 30 anos de contribuição, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "A mulher preenche os requisitos da aposentadoria programada (62 anos de idade e mínimo de 15 anos de contribuição) com RMI de 70% da média (60% + 2% × 5 anos acima dos 15 anos); o homem preenche os requisitos (65 anos de idade e mínimo de 20 anos de contribuição para novos filiados!) com RMI também de 70% da média (60% + 2% × 5 anos acima dos 20 anos)!"
+        "text": "A mulher preenche os requisitos da aposentadoria programada com rmi de 70% da média; o homem preenche os requisitos com rmi também de 70% da média."
       }
     ],
     "correctAnswer": "D",
@@ -1187,11 +1187,11 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A aposentadoria por idade híbrida assegura ao trabalhador a redução etária de 60 anos (homem) e 55 anos (mulher)."
+        "text": "A aposentadoria por idade híbrida assegura ao trabalhador a redução etária de 60 anos (homem) e 55 anos (mulher), com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "Ela faz jus à aposentadoria por idade HÍBRIDA (Art. 48, § 3º, da Lei nº 8.213/1991) somando tempo rural (mesmo remoto e descontínuo!) e tempo urbano para completar os 15 anos de carência, devendo observar a idade urbana (65 anos homem / 62 anos mulher); já para a aposentadoria por idade RURAL pura, mantém-se a redução de 5 anos na idade (60 homem / 55 mulher) exigindo 15 anos de efetivo labor rural."
+        "text": "Ela faz jus à aposentadoria por idade híbrida somando tempo rural e tempo urbano para completar os 15 anos de carência, devendo observar a idade urbana."
       }
     ],
     "correctAnswer": "D",
@@ -1235,19 +1235,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Toda aposentadoria por incapacidade permanente, mesmo por doença comum não relacionada ao trabalho, corresponde sempre a 100% da média salarial após a EC nº 103/2019."
+        "text": "Toda aposentadoria por incapacidade permanente, mesmo por doença comum não relacionada ao trabalho, corresponde sempre a 100% da média salarial após a EC nº 103/2019. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "O adicional de 25% por necessidade de assistência permanente de terceiros estende-se também às aposentadorias por idade e por tempo de contribuição pelo princípio da isonomia."
+        "text": "O adicional de 25% por necessidade de assistência permanente de terceiros estende-se também às aposentadorias por idade e por tempo de contribuição pelo princípio da isonomia, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "C",
-        "text": "O adicional de 25% do Art. 45 fica limitado pelo teto máximo dos benefícios do RGPS."
+        "text": "O adicional de 25% fica limitado pelo teto máximo dos benefícios do RGPS, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "Após a EC nº 103/2019, a aposentadoria por incapacidade permanente decorrente de doença comum (não acidentária) corresponde a 60% da média + 2% por ano que exceder 20 anos (homem) ou 15 anos (mulher) — só atingindo 100% de plano quando decorrer de ACIDENTE DE TRABALHO, doença profissional ou do trabalho! Ademais, o segurado tem direito ao adicional de 25% do Art. 45 da Lei nº 8.213/91 (podendo até ultrapassar o teto do RGPS!), mas segundo o STF (Tema 1.095), esse adicional de 25% restringe-se EXCLUSIVAMENTE à aposentadoria por incapacidade permanente (não se estende a aposentadoria por idade/tempo!)."
+        "text": "Após a EC nº 103/2019, a aposentadoria por incapacidade permanente decorrente de doença comum (não acidentária) corresponde a 60% da média + 2% por ano que exceder 20 anos (homem) ou 15 anos (mulher)."
       }
     ],
     "correctAnswer": "D",
@@ -1291,19 +1291,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para todos os segurados do RGPS, inclusive o contribuinte individual e o desempregado, os primeiros 15 dias de doença são sempre descontados sem pagamento pelo INSS."
+        "text": "Para todos os segurados do RGPS, inclusive o contribuinte individual e o desempregado, os primeiros 15 dias de doença são sempre descontados sem pagamento pelo INSS. Tal critério incide diretamente sobre o enquadramento do segurado e o cálculo mensal."
       },
       {
         "letter": "B",
-        "text": "A renda mensal do auxílio por incapacidade temporária é de 100% do salário-de-benefício sem nenhum teto sobre os últimos 12 meses."
+        "text": "A renda mensal do auxílio por incapacidade temporária é de 100% do salário-de-benefício sem nenhum teto sobre os últimos 12 meses, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "O auxílio por incapacidade temporária exige comprovação de incapacidade total e absoluta para toda e qualquer profissão existente."
+        "text": "O auxílio por incapacidade temporária exige comprovação de incapacidade total e absoluta para toda e qualquer profissão existente, com garantia de paridade e integralidade remuneratória a todos os segurados do regime geral."
       },
       {
         "letter": "D",
-        "text": "Ao segurado empregado, os primeiros 15 (quinze) dias consecutivos de afastamento são pagos pela própria empresa, incumbindo ao INSS pagar o auxílio por incapacidade temporária a partir do 16º dia (se requerido em até 30 dias do afastamento; se depois, da DER); a renda mensal inicial corresponde a 91% do salário-de-benefício, limitado (teto específico do Art. 29, § 10!) à média aritmética simples dos últimos 12 salários de contribuição!"
+        "text": "Ao segurado empregado, os primeiros 15 (quinze) dias consecutivos de afastamento são pagos pela própria empresa, incumbindo ao INSS pagar o auxílio por incapacidade temporária a partir do 16º dia."
       }
     ],
     "correctAnswer": "D",
@@ -1346,19 +1346,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por força do Art. 201, § 2º, da CF, nenhum benefício pago pelo INSS, nem mesmo o auxílio-acidente, pode ter valor mensal inferior ao salário mínimo."
+        "text": "Por força, nenhum benefício pago pelo INSS, nem mesmo o auxílio-acidente, pode ter valor mensal inferior ao salário mínimo. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "O auxílio-acidente é devido a todas as categorias de segurados do RGPS, inclusive ao segurado contribuinte individual e ao facultativo."
+        "text": "O auxílio-acidente é devido a todas as categorias de segurados do RGPS, inclusive ao segurado contribuinte individual e ao facultativo, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "C",
-        "text": "Após aposentar-se por idade, o segurado continua recebendo vitaliciamente o auxílio-acidente cumulativamente com os proventos de aposentadoria."
+        "text": "Após aposentar-se por idade, o segurado continua recebendo vitaliciamente o auxílio-acidente cumulativamente com os proventos de aposentadoria, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "Ele TEM DIREITO ao auxílio-acidente: trata-se de benefício de natureza INDENIZATÓRIA (não substitutivo do salário), motivo pelo qual PODE ter valor mensal inferior a um salário mínimo e é acumulável com a remuneração do trabalho na ativa — sendo vedada, porém, sua acumulação com qualquer aposentadoria e também sendo excluídos do benefício os contribuintes individuais e os facultativos (Art. 18, § 1º)!"
+        "text": "Ele tem direito ao auxílio-acidente: trata-se de benefício de natureza indenizatória, motivo pelo qual pode ter valor mensal inferior a um salário mínimo e é acumulável com a remuneração do trabalho na ativa."
       }
     ],
     "correctAnswer": "D",
@@ -1405,15 +1405,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Caso exista um dependente inválido ou com deficiência intelectual, mental ou grave, a pensão também fica limitada a 60% se ele estiver sozinho."
+        "text": "Caso exista um dependente inválido ou com deficiência intelectual, mental ou grave, a pensão também fica limitada a 60% se ele estiver sozinho. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "C",
-        "text": "Mesmo quando a cota calculada de 50% + 10% resultar em valor inferior ao salário mínimo nacional, o dependente receberá apenas aquele valor reduzido."
+        "text": "Mesmo quando a cota calculada de 50% + 10% resultar em valor inferior ao salário mínimo nacional, o dependente receberá apenas aquele valor reduzido, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "Pela EC nº 103/2019 (Art. 23), a pensão por morte corresponde a uma cota familiar de 50% do valor da aposentadoria (ou da incapacidade permanente a que teria direito) acrescida de cotas de 10 pontos percentuais por dependente — resultando em 80% de R$ 4.000,00 (50% + 3×10% = R$ 3.200,00); quando o filho completar 21 anos, sua cota de 10% CESSA e NÃO reverte para os demais dependentes (caindo para 70%)!"
+        "text": "Pela EC nº 103/2019, a pensão por morte corresponde a uma cota familiar de 50% do valor da aposentadoria acrescida de cotas de 10 pontos percentuais por dependente.000,00."
       }
     ],
     "correctAnswer": "D",
@@ -1456,19 +1456,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Reforma da Previdência proibiu absolutamente a acumulação de pensão por morte de cônjuge com aposentadoria própria, obrigando a viúva a escolher apenas um dos benefícios."
+        "text": "A Reforma da Previdência proibiu absolutamente a acumulação de pensão por morte de cônjuge com aposentadoria própria, obrigando a viúva a escolher apenas um dos benefícios, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "B",
-        "text": "O segurado pode acumular livremente duas pensões por morte deixadas por dois cônjuges sucessivos dentro do mesmo regime previdenciário (RGPS)."
+        "text": "O segurado pode acumular livremente duas pensões por morte deixadas por dois cônjuges sucessivos dentro do mesmo regime previdenciário (RGPS), sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "O redutor em faixas do Art. 24, § 2º, aplica-se inclusive sobre a parcela equivalente a 1 salário mínimo do segundo benefício."
+        "text": "O redutor em faixas, aplica-se inclusive sobre a parcela equivalente a 1 salário mínimo do segundo benefício, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "É PERMITIDA a acumulação de pensão por morte deixada por cônjuge/companheiro com aposentadoria do RGPS (ou RPPS), porém não de forma integral: o beneficiário percebe o valor integral do benefício mais vantajoso (R$ 3.000,00) E uma parcela do outro benefício (R$ 2.500,00) apurada em faixas decrescentes sobre o que exceder 1 salário mínimo (60% entre 1 e 2 SMs, 40% entre 2 e 3 SMs, 20% entre 3 e 4 SMs e 10% acima de 4 SMs)."
+        "text": "É permitida a acumulação de pensão por morte deixada por cônjuge/companheiro com aposentadoria do RGPS (ou RPPS), porém não de forma integral: o beneficiário percebe o valor integral do benefício mais vantajoso (R$ 3.000,00) e uma parcela do outro benefício (R$ 2.500,00) apurada em faixas decrescentes sobre o que exceder 1 salário mínimo."
       }
     ],
     "correctAnswer": "D",
@@ -1511,19 +1511,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O auxílio-reclusão é devido aos dependentes de qualquer segurado preso em regime fechado ou semiaberto, independentemente da renda ou carência."
+        "text": "O auxílio-reclusão é devido aos dependentes de qualquer segurado preso em regime fechado ou semiaberto, independentemente da renda ou carência, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "B",
-        "text": "Para verificar se o segurado preso é de baixa renda, considera-se exclusivamente a renda total dos dependentes após a prisão."
+        "text": "Para verificar se o segurado preso é de baixa renda, considera-se exclusivamente a renda total dos dependentes após a prisão, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "Se o segurado preso em regime fechado exercia trabalho remunerado dentro da unidade prisional recebendo bolsa penitenciária, mantém o direito ao auxílio-reclusão."
+        "text": "Se o segurado preso em regime fechado exercia trabalho remunerado dentro da unidade prisional recebendo bolsa penitenciária, mantém o direito ao auxílio-reclusão, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "D",
-        "text": "O pedido deve ser INDEFERIDO porque, após a Lei nº 13.846/2019, o auxílio-reclusão é devido apenas aos dependentes do segurado de baixa renda recolhido à prisão em REGIME FECHADO (excluindo regime semiaberto e aberto!), cumprida a carência de 24 contribuições mensais, não exercendo atividade remunerada nem recebendo outro benefício, e no valor máximo de 1 salário mínimo."
+        "text": "O pedido deve ser indeferido porque, após a Lei nº 13.846/2019, o auxílio-reclusão é devido apenas aos dependentes do segurado de baixa renda recolhido à prisão em regime fechado, cumprida a carência de 24 contribuições mensais, não exercendo atividade remunerada nem recebendo outro benefício, e no valor máximo de 1 salário mínimo."
       }
     ],
     "correctAnswer": "D",
@@ -1566,19 +1566,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na adoção de criança maior de 4 anos, o salário-maternidade reduz-se proporcionalmente para 60 ou 30 dias conforme a idade do adotando."
+        "text": "Na adoção de criança maior de 4 anos, o salário-maternidade reduz-se proporcionalmente para 60 ou 30 dias conforme a idade do adotando, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "B",
-        "text": "Em caso de aborto não criminoso comprovado por atestado médico, a segurada perde integralmente o salário-maternidade."
+        "text": "Em caso de aborto não criminoso comprovado por atestado médico, a segurada perde integralmente o salário-maternidade, em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório."
       },
       {
         "letter": "C",
-        "text": "O valor do salário-maternidade da segurada empregada com salário superior ao teto do RGPS sofre corte no teto máximo do INSS."
+        "text": "O valor do salário-maternidade da segurada empregada com salário superior ao teto do RGPS sofre corte no teto máximo do INSS, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "D",
-        "text": "Ambos têm direito amplo: o segurado homem (ou mulher) que adotar ou obtiver guarda judicial para fins de adoção faz jus ao salário-maternidade de 120 dias independentemente da idade da criança até 12 anos (Art. 71-A); e na internação hospitalar pós-parto da mãe ou do recém-nascido superior a 2 semanas, o STF (ADI 6.327) determinou que o termo inicial da licença/salário-maternidade de 120 dias se conta da ALTA HOSPITALAR da mãe ou do bebê (o que ocorrer por último), prorrogando-se o benefício durante toda a internação!"
+        "text": "Ambos têm direito amplo: o segurado homem (ou mulher) que adotar ou obtiver guarda judicial para fins de adoção faz jus ao salário-maternidade de 120 dias independentemente da idade da criança até 12 anos."
       }
     ],
     "correctAnswer": "D",
@@ -1622,19 +1622,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O contribuinte individual e o segurado especial de baixa renda também fazem jus ao salário-família pago pelo INSS."
+        "text": "O contribuinte individual e o segurado especial de baixa renda também fazem jus ao salário-família pago pelo INSS, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "B",
-        "text": "Quando o pai e a mãe são empregados de baixa renda, apenas um deles pode receber a cota de salário-família por filho."
+        "text": "Quando o pai e a mãe são empregados de baixa renda, apenas um deles pode receber a cota de salário-família por filho, com acumulação integral e irrestrita das prestações sem redução proporcional de valor. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "C",
-        "text": "Ambos podem receber o salário-família simultaneamente pelos mesmos filhos (Art. 82 do Decreto 3.048/99): o benefício é devido ao segurado EMPREGADO (inclusive DOMÉSTICO após a LC 150/2015!) e ao TRABALHADOR AVULSO de baixa renda (ou aposentado que preencha o requisito), na proporção de uma cota única por filho até 14 anos ou inválido de qualquer idade, INDEPENDENTE DE CARÊNCIA!"
+        "text": "Ambos podem receber o salário-família simultaneamente pelos mesmos filhos: o benefício é devido ao segurado empregado e ao trabalhador avulso de baixa renda, na proporção de uma cota única por filho até 14 anos ou inválido de qualquer idade, independente de carência."
       },
       {
         "letter": "D",
-        "text": "O salário-família exige o cumprimento de carência mínima de 12 contribuições mensais e apresentação anual do boletim escolar."
+        "text": "O salário-família exige o cumprimento de carência mínima de 12 contribuições mensais e apresentação anual do boletim escolar, com livre aproveitamento ou desaposentação sem sujeição às regras constitucionais de transição."
       }
     ],
     "correctAnswer": "C",
@@ -1677,7 +1677,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A utilização de EPI eficaz afasta o direito à aposentadoria especial mesmo quando o agente nocivo for o ruído acima dos limites legais."
+        "text": "A utilização de epi eficaz afasta o direito à aposentadoria especial mesmo quando o agente nocivo for o ruído acima dos limites legais, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "B",
@@ -1685,7 +1685,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Quanto ao EPI em caso de RUÍDO acima dos limites de tolerância, o STF (ARE 664.335 - Tema 555) decidiu que a declaração de eficácia do EPI no PPP NÃO descaracteriza o tempo especial (porque o ruído provoca danos extra-auditivos); porém, após a EC nº 103/2019, é VEDADA a conversão de tempo especial em comum para trabalho cumprido após 13/11/2019 (Art. 25, § 2º) e passou a exigir-se IDADE MÍNIMA para aposentadoria especial (55, 58 ou 60 anos, conforme 15, 20 ou 25 anos de exposição)!"
+        "text": "Quanto ao epi em caso de ruído acima dos limites de tolerância, o STF decidiu que a declaração de eficácia do epi no PPP não descaracteriza o tempo especial."
       },
       {
         "letter": "D",
@@ -1733,19 +1733,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Reforma da Previdência (EC nº 103/2019) revogou a LC nº 142/2013 e passou a exigir 62 anos de idade da mulher com deficiência."
+        "text": "A Reforma da Previdência revogou a LC nº 142/2013 e passou a exigir 62 anos de idade da mulher com deficiência, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "B",
-        "text": "Na aposentadoria por idade da pessoa com deficiência (LC nº 142/2013), a idade mínima é de 60 anos para homens e 55 anos para mulheres, exigindo apenas 15 anos de contribuição independente do grau da deficiência."
+        "text": "Na aposentadoria por idade da pessoa com deficiência, a idade mínima é de 60 anos para homens e 55 anos para mulheres, exigindo apenas 15 anos de contribuição independente do grau da deficiência."
       },
       {
         "letter": "C",
-        "text": "A segurada TEM DIREITO à aposentadoria por tempo de contribuição da pessoa com deficiência: o Art. 22 da EC nº 103/2019 preservou integralmente as regras da LC nº 142/2013 (que confere aposentadoria por tempo de contribuição sem idade mínima: para deficiência GRAVE 25H/20M; MODERADA 29H/24M; LEVE 33H/28M — além de aposentadoria por idade aos 60H/55M com 15 anos de contribuição na condição de deficiência, mantido cálculo de 100% no tempo ou 70%+1% na idade)!"
+        "text": "A segurada tem direito à aposentadoria por tempo de contribuição da pessoa com deficiência: o Art. 22 da EC nº 103/2019 preservou integralmente as regras da LC nº 142/2013."
       },
       {
         "letter": "D",
-        "text": "A aferição da deficiência para a LC nº 142/2013 realiza-se exclusivamente por médico clínico com base apenas no CID da doença, vedada avaliação social."
+        "text": "A aferição da deficiência para a LC nº 142/2013 realiza-se exclusivamente por médico clínico com base apenas no cid da doença, vedada avaliação social, em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório."
       }
     ],
     "correctAnswer": "C",
@@ -1788,19 +1788,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O professor de ensino superior universitário faz jus à redução etária constitucional de 5 anos no RGPS assim como o professor do ensino médio."
+        "text": "O professor de ensino superior universitário faz jus à redução etária constitucional de 5 anos no RGPS assim como o professor do ensino médio, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "B",
-        "text": "O diretor de escola, o coordenador e o assessor pedagógico que não lecionam dentro de sala de aula jamais contam esse período como tempo de magistério."
+        "text": "O diretor de escola, o coordenador e o assessor pedagógico que não lecionam dentro de sala de aula jamais contam esse período como tempo de magistério, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "C",
-        "text": "O pedido deve ser INDEFERIDO na modalidade reduzida de professor, pois o Art. 201, § 8º, da CF reduz os requisitos apenas ao professor que comprove tempo de efetivo exercício das funções de magistério exclusivamente na EDUCAÇÃO INFANTIL e no ENSINO FUNDAMENTAL E MÉDIO (excluindo ensino superior!), exigindo pela EC nº 103/2019 a idade mínima de 60 anos (homem) e 57 anos (mulher) + 25 anos de contribuição exclusiva de magistério."
+        "text": "O pedido deve ser indeferido na modalidade reduzida de professor, pois o Art. 201, § 8º, da CF reduz os requisitos apenas ao professor que comprove tempo de efetivo exercício das funções de magistério exclusivamente na educação infantil e no ensino fundamental e médio, exigindo pela EC nº 103/2019 a idade mínima de 60 anos (homem) e 57 anos (mulher) + 25 anos de contribuição exclusiva de magistério."
       },
       {
         "letter": "D",
-        "text": "Após a EC nº 103/2019, a professora de ensino fundamental continua aposentando-se apenas com 25 anos de magistério sem nenhuma idade mínima na regra permanente."
+        "text": "Após a EC nº 103/2019, a professora de ensino fundamental continua aposentando-se apenas com 25 anos de magistério sem nenhuma idade mínima na regra permanente, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "C",
@@ -1848,15 +1848,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na regra de transição do pedágio de 50% (Art. 17), o valor da aposentadoria corresponde integralmente a 100% da média salarial sem aplicação do fator previdenciário."
+        "text": "Na regra de transição do pedágio de 50%, o valor da aposentadoria corresponde integralmente a 100% da média salarial sem aplicação do fator previdenciário."
       },
       {
         "letter": "C",
-        "text": "Na regra do PEDÁGIO DE 50% (Art. 17 — exclusiva para quem estava a menos de 2 anos de completar 30M/35H em 13/11/2019), ela precisa cumprir apenas +50% do tempo faltante (9 meses, completando 30 anos e 9 meses) SEM idade mínima, porém INCIDE O FATOR PREVIDENCIÁRIO; já no PEDÁGIO DE 100% (Art. 20), exige-se idade mínima de 57 anos (mulher) / 60 anos (homem) + dobro do tempo faltante, porém a RMI é de 100% DA MÉDIA (sem fator previdenciário nem redutor de 60%+2%)!"
+        "text": "Na regra do pedágio de 50%, ela precisa cumprir apenas +50% do tempo faltante sem idade mínima, porém incide o fator previdenciário."
       },
       {
         "letter": "D",
-        "text": "Na regra de transição do pedágio de 100% (Art. 20), aplica-se o coeficiente redutor de 60% + 2% ao ano sobre o salário de benefício."
+        "text": "Na regra de transição do pedágio de 100%, aplica-se o coeficiente redutor de 60% + 2% ao ano sobre o salário de benefício, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "C",
@@ -1907,7 +1907,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Ambos equiparam-se a acidente do trabalho pela Lei nº 8.213/1991: o percurso casa-trabalho-casa é acidente do trabalho por equiparação (acidente de trajeto - Art. 21, IV, \"d\", plenamente vigente após caducidade da MP 905/2019!); e a tendinite adquirida em função das condições especiais do trabalho caracteriza DOENÇA DO TRABALHO (mesopatia - Art. 20, II), ao passo que doença profissional (tecnopatia - Art. 20, I) é a produzida pelo exercício peculiar a determinada atividade."
+        "text": "Ambos equiparam-se a acidente do trabalho pela Lei nº 8.213/1991: o percurso casa-trabalho-casa é acidente do trabalho por equiparação."
       },
       {
         "letter": "D",
@@ -1954,19 +1954,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O empregado que recebeu auxílio-doença comum não relacionado ao trabalho (B31) por mais de 15 dias também adquire estabilidade provisória de 12 meses após a alta do INSS."
+        "text": "O empregado que recebeu auxílio-doença comum não relacionado ao trabalho (B31) por mais de 15 dias também adquire estabilidade provisória de 12 meses após a alta do INSS, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei."
       },
       {
         "letter": "B",
-        "text": "Caso o empregado tenha sido contratado por prazo determinado (como contrato de experiência) e sofra acidente do trabalho, não tem direito à estabilidade do Art. 118."
+        "text": "Caso o empregado tenha sido contratado por prazo determinado (como contrato de experiência) e sofra acidente do trabalho, não tem direito à estabilidade, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "C",
-        "text": "A dispensa é nula/arbitrária por violar a estabilidade provisória acidentária de 12 meses após a cessação do auxílio-doença acidentário (Art. 118 da Lei nº 8.213/91 e Súmula 378 do TST), devendo o empregador ainda ter depositado o FGTS durante todo o período de afastamento acidentário (diferente do auxílio-doença comum B31, em que não há depósito de FGTS nem estabilidade!)."
+        "text": "A dispensa é nula/arbitrária por violar a estabilidade provisória acidentária de 12 meses após a cessação do auxílio-doença acidentário, devendo o empregador ainda ter depositado o FGTS durante todo o período de afastamento acidentário."
       },
       {
         "letter": "D",
-        "text": "Se a doença profissional ou do trabalho só for constatada após a demissão do empregado, é impossível reconhecer a estabilidade do Art. 118."
+        "text": "Se a doença profissional ou do trabalho só for constatada após a demissão do empregado, é impossível reconhecer a estabilidade, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       }
     ],
     "correctAnswer": "C",
@@ -2010,19 +2010,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O pagamento do Seguro Acidente de Trabalho (SAT/RAT/GILRAT) pela empresa isenta integralmente o empregador de qualquer ação regressiva movida pelo INSS em caso de culpa grave."
+        "text": "O pagamento do Seguro Acidente de Trabalho (SAT/RAT/gilrat) pela empresa isenta integralmente o empregador de qualquer ação regressiva movida pelo INSS em caso de culpa grave, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "Por envolver acidente do trabalho, a ação regressiva movida pelo INSS contra o empregador deve ser ajuizada perante a Justiça do Trabalho."
+        "text": "Por envolver acidente do trabalho, a ação regressiva movida pelo INSS contra o empregador deve ser ajuizada perante a Justiça do Trabalho, com acumulação integral e irrestrita das prestações sem redução proporcional de valor."
       },
       {
         "letter": "C",
-        "text": "A ação regressiva é plenamente cabível e compete à JUSTIÇA FEDERAL (Art. 109, I, CF - autarquia federal no polo ativo): nos casos de negligência quanto às normas padrão de segurança e higiene do trabalho indicados para a proteção individual e coletiva, a Previdência Social proporá ação regressiva contra os responsáveis (Art. 120), não excluindo o pagamento das prestações previdenciárias a responsabilidade civil do empregador (Art. 121)."
+        "text": "A ação regressiva é plenamente cabível e compete à justiça federal: nos casos de negligência quanto às normas padrão de segurança e higiene do trabalho indicados para a proteção individual e coletiva, a Previdência Social proporá ação regressiva contra os responsáveis, não excluindo o pagamento das prestações previdenciárias a responsabilidade civil do empregador."
       },
       {
         "letter": "D",
-        "text": "O prazo prescricional para o INSS cobrar em ação regressiva parcelas vencidas contra a empresa é imprescritível."
+        "text": "O prazo prescricional para o INSS cobrar em ação regressiva parcelas vencidas contra a empresa é imprescritível, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "C",
@@ -2066,19 +2066,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A obrigatoriedade da cota de pessoas com deficiência e reabilitados aplica-se a qualquer empresa brasileira com mais de 20 empregados."
+        "text": "A obrigatoriedade da cota de pessoas com deficiência e reabilitados aplica-se a qualquer empresa brasileira com mais de 20 empregados, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "B",
-        "text": "A reabilitação profissional fornecida pelo INSS é facultativa para o segurado em auxílio por incapacidade temporária, que pode recusá-la mantendo o benefício vitaliciamente."
+        "text": "A reabilitação profissional fornecida pelo INSS é facultativa para o segurado em auxílio por incapacidade temporária, que pode recusá-la mantendo o benefício vitaliciamente, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "C",
-        "text": "A empresa descumpre o Art. 93 da Lei nº 8.213/1991 por dois motivos: (1) a empresa com 100 ou mais empregados está obrigada a preencher de 2% a 5% de seus cargos com beneficiários reabilitados ou pessoas com deficiência habilitadas (de 201 a 500 empregados a cota legal é de 3%!); e (2) a dispensa de pessoa com deficiência ou beneficiário reabilitado ao final de contrato por prazo determinado >90 dias e a dispensa imotivada em contrato indeterminado SÓ poderão ocorrer após a contratação de outro trabalhador com deficiência ou beneficiário reabilitado do INSS (§ 1º)!"
+        "text": "A empresa descumpre o Art. 93 da Lei nº 8.213/1991 por dois motivos: a empresa com 100 ou mais empregados está obrigada a preencher de 2% a 5% de seus cargos com beneficiários reabilitados ou pessoas com deficiência habilitadas."
       },
       {
         "letter": "D",
-        "text": "Caso a empresa não encontre nenhum trabalhador reabilitado após publicação rápida de anúncio, o simples cumprimento do percentual não tem mais nenhuma proteção na dispensa individual."
+        "text": "Caso a empresa não encontre nenhum trabalhador reabilitado após publicação rápida de anúncio, o simples cumprimento do percentual não tem mais nenhuma proteção na dispensa individual, em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório."
       }
     ],
     "correctAnswer": "C",
@@ -2121,15 +2121,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O BPC/LOAS exige idade mínima de 60 anos para mulheres e 65 anos para homens, além de no mínimo 60 contribuições ao INSS."
+        "text": "O BPC/LOAS exige idade mínima de 60 anos para mulheres e 65 anos para homens, além de no mínimo 60 contribuições ao INSS, com livre aproveitamento ou desaposentação sem sujeição às regras constitucionais de transição."
       },
       {
         "letter": "B",
-        "text": "Para a pessoa com deficiência pleitear o BPC/LOAS, basta atestar incapacidade médica temporária superior a 3 meses."
+        "text": "Para a pessoa com deficiência pleitear o BPC/LOAS, basta atestar incapacidade médica temporária superior a 3 meses, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "C",
-        "text": "Ele FAZ JUS ao BPC no valor de 1 salário mínimo mensal (desde que comprovada renda familiar per capita inferior a 1/4 de salário mínimo — sendo excluído expressamente do cálculo da renda familiar o outro BPC ou benefício previdenciário de até 1 salário mínimo recebido por idoso ou PCD da mesma família, nos termos do Art. 20, § 14, da LOAS e STF!); contudo, por ter natureza ASSISTENCIAL (não previdenciária), o BPC NÃO gera 13º salário (abono anual) nem gera pensão por morte aos dependentes!"
+        "text": "Ele faz jus ao BPC no valor de 1 salário mínimo mensal; contudo, por ter natureza assistencial, o BPC não gera 13º salário (abono anual) nem gera pensão por morte aos dependentes."
       },
       {
         "letter": "D",
@@ -2177,19 +2177,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ao ingressar no mercado de trabalho formal com remuneração de 1,5 salário mínimo, o beneficiário de BPC perde definitivamente o benefício sem direito a qualquer incentivo de inclusão."
+        "text": "Ao ingressar no mercado de trabalho formal com remuneração de 1,5 salário mínimo, o beneficiário de BPC perde definitivamente o benefício sem direito a qualquer incentivo de inclusão. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "O beneficiário passa a fazer jus ao AUXÍLIO-INCLUSÃO (Art. 26-A da LOAS), no valor correspondente a 50% (cinquenta por cento) do valor do BPC (isto é, meio salário mínimo mensal), desde que receba remuneração limitada a 2 salários mínimos e seja segurado obrigatório do RGPS/RPPS; durante o auxílio-inclusão, o BPC fica SUSPENSO (não extinto!), podendo ser prontamente restabelecido caso perca o emprego."
+        "text": "O beneficiário passa a fazer jus ao auxílio-inclusão, no valor correspondente a 50% do valor do BPC, desde que receba remuneração limitada a 2 salários mínimos e seja segurado obrigatório do RGPS/RPPS."
       },
       {
         "letter": "C",
-        "text": "O pagamento do auxílio-inclusão acumula-se integralmente com o recebimento simultâneo de 100% do BPC ou de seguro-desemprego."
+        "text": "O pagamento do auxílio-inclusão acumula-se integralmente com o recebimento simultâneo de 100% do BPC ou de seguro-desemprego, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "D",
-        "text": "O auxílio-inclusão tem o mesmo valor integral de 1 salário mínimo pago ao titular do BPC."
+        "text": "O auxílio-inclusão tem o mesmo valor integral de 1 salário mínimo pago ao titular do BPC, com concessão imediata do benefício independentemente de comprovação de carência mínima."
       }
     ],
     "correctAnswer": "B",
@@ -2236,15 +2236,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "É assegurada a contagem recíproca do tempo de contribuição entre RGPS e RPPS, com compensação financeira entre os regimes (Art. 201, § 9º, CF), utilizando-se a Certidão de Tempo de Contribuição (CTC); contudo, pelo Art. 96 da Lei nº 8.213/1991, é VEDADA a contagem de tempo de serviço público com o de atividade privada quando CONCOMITANTES no mesmo período para o mesmo benefício, bem como é vedada a contagem de tempo fictício (Art. 40, § 10, CF)."
+        "text": "É assegurada a contagem recíproca do tempo de contribuição entre RGPS e RPPS, com compensação financeira entre os regimes, utilizando-se a Certidão de Tempo de Contribuição (ctc)."
       },
       {
         "letter": "C",
-        "text": "O tempo de serviço militar obrigatório prestado nas Forças Armadas não pode ser computado na contagem recíproca para aposentadoria no INSS."
+        "text": "O tempo de serviço militar obrigatório prestado nas Forças Armadas não pode ser computado na contagem recíproca para aposentadoria no INSS, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "A emissão de Certidão de Tempo de Contribuição (CTC) pelo RGPS permite levar tempo sem contribuição efetiva de período rural anterior a 1991 diretamente para o RPPS sem qualquer indenização."
+        "text": "A emissão de Certidão de Tempo de Contribuição (ctc) pelo RGPS permite levar tempo sem contribuição efetiva de período rural anterior a 1991 diretamente para o RPPS sem qualquer indenização."
       }
     ],
     "correctAnswer": "B",
@@ -2287,11 +2287,11 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O tempo rural anterior a novembro de 1991 sem contribuições conta igualmente como tempo de contribuição E como carência mensal para aposentadoria por tempo de contribuição urbana."
+        "text": "O tempo rural anterior a novembro de 1991 sem contribuições conta igualmente como tempo de contribuição e como carência mensal para aposentadoria por tempo de contribuição urbana, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "B",
-        "text": "Dentro do próprio RGPS, o tempo de serviço do segurado trabalhador rural anterior à competência novembro de 1991 será computado independentemente do recolhimento das contribuições a ele correspondentes para fins de TEMPO DE CONTRIBUIÇÃO (exceto para efeito de CARÊNCIA — Art. 55, § 2º, da Lei nº 8.213/1991 e Súmula 24 da TNU)!"
+        "text": "Dentro do próprio RGPS, o tempo de serviço do segurado trabalhador rural anterior à competência novembro de 1991 será computado independentemente do recolhimento das contribuições a ele correspondentes para fins de tempo de contribuição."
       },
       {
         "letter": "C",
@@ -2299,7 +2299,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O tempo de aluno-aprendiz em escola técnica federal antes da Lei nº 9.032/1995 nunca pode ser averbado como tempo de serviço se havia remuneração à conta do orçamento público."
+        "text": "O tempo de aluno-aprendiz em escola técnica federal antes da Lei nº 9.032/1995 nunca pode ser averbado como tempo de serviço se havia remuneração à conta do orçamento público, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       }
     ],
     "correctAnswer": "B",
@@ -2342,19 +2342,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Embora o STF tenha vedado a desaposentação simples, autorizou plenamente a \"reaposentação\" (nova aposentadoria apenas com as contribuições posteriores) independentemente de lei."
+        "text": "Embora o STF tenha vedado a desaposentação simples, autorizou plenamente a \"reaposentação\" (nova aposentadoria apenas com as contribuições posteriores) independentemente de lei, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei."
       },
       {
         "letter": "B",
-        "text": "O pedido deve ser julgado IMPROCEDENTE: o STF, no julgamento do RE 661.256 (Tema 503 de Repercussão Geral), declarou constitucional o Art. 18, § 2º, da Lei nº 8.213/1991 e assentou que, no âmbito do RGPS, somente lei pode criar benefícios e vantagens previdenciárias, NÃO havendo previsão legal para o direito à desaposentação ou à reaposentação!"
+        "text": "O pedido deve ser julgado improcedente: o STF, no julgamento do RE 661.256, declarou constitucional o Art. 18, § 2º, da Lei nº 8.213/1991 e assentou que, no âmbito do RGPS, somente lei pode criar benefícios e vantagens previdenciárias, não havendo previsão legal para o direito à desaposentação ou à reaposentação."
       },
       {
         "letter": "C",
-        "text": "Em compensação pela proibição da desaposentação, o aposentado que continua trabalhando no RGPS fica dispensado de pagar contribuição previdenciária mensal sobre o seu novo salário."
+        "text": "Em compensação pela proibição da desaposentação, o aposentado que continua trabalhando no RGPS fica dispensado de pagar contribuição previdenciária mensal sobre o seu novo salário, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       },
       {
         "letter": "D",
-        "text": "O aposentado que volta a trabalhar e sofre acidente ou doença tem direito de acumular o auxílio por incapacidade temporária (auxílio-doença) com a sua aposentadoria."
+        "text": "O aposentado que volta a trabalhar e sofre acidente ou doença tem direito de acumular o auxílio por incapacidade temporária (auxílio-doença) com a sua aposentadoria, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       }
     ],
     "correctAnswer": "B",
@@ -2398,19 +2398,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Após a Lei nº 13.846/2019, quem teve pedido de aposentadoria negado administrativamente pelo INSS perde definitivamente o fundo de direito se não recorrer à Justiça em 10 anos."
+        "text": "Após a Lei nº 13.846/2019, quem teve pedido de aposentadoria negado administrativamente pelo INSS perde definitivamente o fundo de direito se não recorrer à Justiça em 10 anos, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       },
       {
         "letter": "B",
-        "text": "O segurado que nunca teve o benefício concedido (indeferimento há 12 anos) NÃO sofreu decadência, pois o STF declarou INCONSTITUCIONAL na ADI 6.096 a aplicação do prazo decadencial de 10 anos ao indeferimento/cancelamento de benefício (prescrevendo apenas as parcelas vencidas há mais de 5 anos — Súmula 85 STJ!); já o segurado aposentado há 11 anos que busca REVISÃO da RMI sofreu DECADÊNCIA decenal do Art. 103 (salvo se tratar de questão jamais apreciada no ato de concessão — STF Tema 313!)."
+        "text": "O segurado que nunca teve o benefício concedido não sofreu decadência, pois o STF declarou inconstitucional na ADI 6.096 a aplicação do prazo decadencial de 10 anos ao indeferimento/cancelamento de benefício."
       },
       {
         "letter": "C",
-        "text": "O prazo para o próprio INSS anular administrativamente atos previdenciários favoráveis ao segurado com efeitos patrimoniais é de 5 anos."
+        "text": "O prazo para o próprio INSS anular administrativamente atos previdenciários favoráveis ao segurado com efeitos patrimoniais é de 5 anos, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "D",
-        "text": "A decadência de 10 anos do Art. 103 alcança até mesmo verbas trabalhistas reconhecidas posteriormente na Justiça do Trabalho que jamais foram submetidas ao INSS na concessão."
+        "text": "A decadência de 10 anos alcança até mesmo verbas trabalhistas reconhecidas posteriormente na Justiça do Trabalho que jamais foram submetidas ao INSS na concessão, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "B",
@@ -2458,15 +2458,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "No caso da TUTELA ANTECIPADA REVOGADA (STJ Tema 692), é OBRIGATÓRIA a devolução dos valores recebidos precariamente pelo segurado (por desconto de até 30% do benefício ou execução), em razão da precariedade da decisão judicial; já no caso de ERRO ADMINISTRATIVO ou operacional EXCLUSIVO do INSS com boa-fé objetiva do segurado (STJ Tema 979), NÃO é devida a devolução dos valores alimentares recebidos (salvo se comprovado que o segurado tinha condições inequívocas de compreender o erro)!"
+        "text": "No caso da tutela antecipada revogada (STJ Tema 692), é obrigatória a devolução dos valores recebidos precariamente pelo segurado, em razão da precariedade da decisão judicial."
       },
       {
         "letter": "C",
-        "text": "Qualquer erro de cálculo cometido pelo servidor do INSS obriga automaticamente o segurado de boa-fé a devolver tudo com juros e correção monetária."
+        "text": "Qualquer erro de cálculo cometido pelo servidor do INSS obriga automaticamente o segurado de boa-fé a devolver tudo com juros e correção monetária, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "O limite máximo de desconto mensal administrativo em benefício previdenciário para ressarcimento de valores devidos ao INSS é de 50% do valor do benefício."
+        "text": "O limite máximo de desconto mensal administrativo em benefício previdenciário para ressarcimento de valores devidos ao INSS é de 50% do valor do benefício, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       }
     ],
     "correctAnswer": "B",
@@ -2510,19 +2510,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A união estável para fins de pensão por morte no INSS pode ser comprovada exclusivamente por prova testemunhal sem necessidade de qualquer início de prova material."
+        "text": "A união estável para fins de pensão por morte no INSS pode ser comprovada exclusivamente por prova testemunhal sem necessidade de qualquer início de prova material, com acumulação integral e irrestrita das prestações sem redução proporcional de valor."
       },
       {
         "letter": "B",
-        "text": "As pretensões não podem ser acolhidas com base apenas em testemunhas: tanto para comprovação de tempo de serviço/atividade rural (Art. 55, § 3º e Súmula 149 STJ) quanto para comprovação de união estável e dependência econômica (Art. 16, §§ 5º e 6º, incluídos pela Lei nº 13.846/2019!), a lei EXIGE INÍCIO DE PROVA MATERIAL contemporâneo aos fatos, NÃO sendo admitida prova exclusivamente testemunhal (salvo motivo de força maior ou caso fortuito previsto em regulamento)!"
+        "text": "As pretensões não podem ser acolhidas com base apenas em testemunhas: tanto para comprovação de tempo de serviço/atividade rural quanto para comprovação de união estável e dependência econômica, a lei exige início de prova material contemporâneo aos fatos, não sendo admitida prova exclusivamente testemunhal."
       },
       {
         "letter": "C",
-        "text": "A Justificação Administrativa (JA) processada no INSS pode suprir a ausência absoluta de qualquer documento por meio de duas testemunhas."
+        "text": "A Justificação Administrativa (ja) processada no INSS pode suprir a ausência absoluta de qualquer documento por meio de duas testemunhas, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei."
       },
       {
         "letter": "D",
-        "text": "Na comprovação da atividade rural, a Súmula 149 do STJ admite prova exclusivamente testemunhal para trabalhadores diaristas (\"boias-frias\") sem qualquer documento."
+        "text": "Na comprovação da atividade rural, a Súmula 149 do STJ admite prova exclusivamente testemunhal para trabalhadores diaristas (\"boias-frias\") sem qualquer documento, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       }
     ],
     "correctAnswer": "B",
@@ -2566,19 +2566,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer ação previdenciária comum contra o INSS em cidade que não possua Vara Federal na própria comarca pode ser ajuizada na Justiça Estadual, independentemente da distância."
+        "text": "Qualquer ação previdenciária comum contra o INSS em cidade que não possua Vara Federal na própria comarca pode ser ajuizada na Justiça Estadual, independentemente da distância, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "B",
-        "text": "A ação de aposentadoria comum por idade DEVE ser ajuizada na JUSTIÇA FEDERAL (pois a Lei nº 13.876/2019 limitou a competência delegada estadual do Art. 109, § 3º, CF apenas aos municípios cuja sede esteja a MAIS DE 70 KM de distância de município sede de Vara Federal!); já a ação contra o INSS relativa a ACIDENTE DO TRABALHO compete SEMPRE à JUSTIÇA ESTADUAL (Art. 109, I, in fine, CF e Súmulas 15/501 do STJ), ainda que exista Vara Federal na cidade!"
+        "text": "A ação de aposentadoria comum por idade deve ser ajuizada na justiça federal; já a ação contra o INSS relativa a acidente do trabalho compete sempre à justiça estadual, ainda que exista Vara Federal na cidade."
       },
       {
         "letter": "C",
-        "text": "Os benefícios previdenciários decorrentes de acidente do trabalho devem ser julgados pela Justiça do Trabalho ou pela Justiça Federal quando houver vara federal na cidade."
+        "text": "Os benefícios previdenciários decorrentes de acidente do trabalho devem ser julgados pela Justiça do Trabalho ou pela Justiça Federal quando houver vara federal na cidade, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "D",
-        "text": "A ação que busca concessão de Benefício de Prestação Continuada (BPC/LOAS) também integra a exceção constitucional acidentária e vai sempre para a Justiça Estadual."
+        "text": "A ação que busca concessão de Benefício de Prestação Continuada (BPC/LOAS) também integra a exceção constitucional acidentária e vai sempre para a Justiça Estadual, com acumulação integral e irrestrita das prestações sem redução proporcional de valor."
       }
     ],
     "correctAnswer": "B",
@@ -2622,19 +2622,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O beneficiário de auxílio-acidente não faz jus ao abono anual por se tratar de benefício de natureza meramente indenizatória."
+        "text": "O beneficiário de auxílio-acidente não faz jus ao abono anual por se tratar de benefício de natureza meramente indenizatória, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "B",
-        "text": "Têm direito ao abono anual (proporcional ou integral) o beneficiário de AUXÍLIO-ACIDENTE e a beneficiária de SALÁRIO-MATERNIDADE (proporcional aos 4 meses pagos no ano — Art. 120, § 2º, Decreto 3.048/99), além de quem recebe aposentadoria, pensão por morte, auxílio-doença e auxílio-reclusão; NÃO têm direito ao abono anual o beneficiário do BPC/LOAS (assistencial) nem o do SALÁRIO-FAMÍLIA!"
+        "text": "Têm direito ao abono anual o beneficiário de auxílio-acidente e a beneficiária de salário-maternidade, além de quem recebe aposentadoria, pensão por morte, auxílio-doença e auxílio-reclusão."
       },
       {
         "letter": "C",
-        "text": "Os idosos e pessoas com deficiência beneficiários do BPC/LOAS recebem o 13º salário anual pago com verba do Fundo Nacional de Assistência Social."
+        "text": "Os idosos e pessoas com deficiência beneficiários do BPC/LOAS recebem o 13º salário anual pago com verba do Fundo Nacional de Assistência Social, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "D",
-        "text": "A segurada que recebeu salário-maternidade durante 4 meses recebe abono anual integral correspondente a 12/12 avos pagos pelo INSS."
+        "text": "A segurada que recebeu salário-maternidade durante 4 meses recebe abono anual integral correspondente a 12/12 avos pagos pelo INSS, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "B",
@@ -2677,19 +2677,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O benefício previdenciário do RGPS pode ser penhorado por qualquer dívida civil ou comercial acima de dois salários mínimos mensais."
+        "text": "O benefício previdenciário do RGPS pode ser penhorado por qualquer dívida civil ou comercial acima de dois salários mínimos mensais, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "B",
-        "text": "A penhora da aposentadoria para dívida comum de cartão de crédito é VEDADA pelos Arts. 114 da Lei nº 8.213/1991 e 833, IV, do CPC (salvo prestação alimentícia ou para importâncias excedentes a 50 salários mínimos mensais); já os descontos expressamente autorizados no Art. 115 (contribuições devidas à Previdência, pagamento de benefício além do devido, IR retido na fonte, alimentos judiciais, mensalidade sindical autorizada e empréstimo consignado dentro da margem legal) SÃO PERMITIDOS!"
+        "text": "A penhora da aposentadoria para dívida comum de cartão de crédito é vedada pelos Arts. 114 da Lei nº 8.213/1991 e 833, IV, do CPC; já os descontos expressamente autorizados são permitidos."
       },
       {
         "letter": "C",
-        "text": "A margem máxima de desconto para empréstimo consignado em benefícios do RGPS é de até 70% do valor líquido da aposentadoria."
+        "text": "A margem máxima de desconto para empréstimo consignado em benefícios do RGPS é de até 70% do valor líquido da aposentadoria, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "O INSS pode descontar automaticamente mensalidade associativa de sindicato ou associação de aposentados mesmo sem autorização prévia, expressa e revogável do beneficiário."
+        "text": "O INSS pode descontar automaticamente mensalidade associativa de sindicato ou associação de aposentados mesmo sem autorização prévia, expressa e revogável do beneficiário, com concessão imediata do benefício independentemente de comprovação de carência mínima."
       }
     ],
     "correctAnswer": "B",
@@ -2732,19 +2732,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ela faz jus à pensão especial mensal, vitalícia e intransferível no valor de 1 salário mínimo (Lei nº 13.985/2020 — atualizada também pelas discussões sobre revisão indenizatória/Lei nº 15.156/2025 quando aplicável!), sendo VEDADA sua acumulação com o BPC/LOAS ou com indenização paga pela União pelo mesmo fato, cabendo a desistência do processo ou do BPC para receber a pensão especial."
+        "text": "Ela faz jus à pensão especial mensal, vitalícia e intransferível no valor de 1 salário mínimo, sendo vedada sua acumulação com o BPC/LOAS ou com indenização paga pela União pelo mesmo fato, cabendo a desistência do processo ou do BPC para receber a pensão especial."
       },
       {
         "letter": "B",
-        "text": "A pensão especial concedida às vítimas da Síndrome da Talidomida ou às pessoas atingidas pela hanseníase exige cumprimento prévio de 180 contribuições mensais ao INSS."
+        "text": "A pensão especial concedida às vítimas da Síndrome da Talidomida ou às pessoas atingidas pela hanseníase exige cumprimento prévio de 180 contribuições mensais ao INSS, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "A pensão especial por hanseníase da Lei nº 11.520/2007 transfere-se integralmente como pensão por morte aos filhos maiores de 30 anos após o óbito do beneficiário."
+        "text": "A pensão especial por hanseníase da Lei nº 11.520/2007 transfere-se integralmente como pensão por morte aos filhos maiores de 30 anos após o óbito do beneficiário, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "D",
-        "text": "A pensão especial das vítimas da Síndrome da Talidomida não pode ser acumulada com aposentadoria nem com pensão previdenciária do RGPS."
+        "text": "A pensão especial das vítimas da Síndrome da Talidomida não pode ser acumulada com aposentadoria nem com pensão previdenciária do RGPS, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei."
       }
     ],
     "correctAnswer": "A",
@@ -2787,15 +2787,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Conforme o entendimento fixado pelo Plenário do STF no julgamento das ADIs 2.110 e 2.111 (março/2024), o Art. 3º da Lei nº 9.876/1999 possui natureza COGENTE (regra de transição obrigatória, e não opcional), razão pela qual os segurados filiados ao RGPS até 26/11/1999 submetem-se obrigatoriamente à limitação temporal de julho de 1994, não podendo optar pela regra definitiva do Art. 29 da Lei 8.213/91 para incluir salários anteriores ao Plano Real."
+        "text": "Conforme o entendimento fixado pelo Plenário do STF no julgamento das ADIs 2.110 e 2.111 (março/2024), o Art. 3º da Lei nº 9.876/1999 possui natureza cogente."
       },
       {
         "letter": "B",
-        "text": "O segurado possui direito potestativo absoluto de escolher o cálculo da Revisão da Vida Toda sempre que o resultado numérico for maior que a regra de transição."
+        "text": "O segurado possui direito potestativo absoluto de escolher o cálculo da Revisão da Vida Toda sempre que o resultado numérico for maior que a regra de transição, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "C",
-        "text": "O divisor mínimo de 60% do período contributivo previsto no Art. 3º, § 2º, da Lei nº 9.876/1999 foi declarado inconstitucional pelo STF."
+        "text": "O divisor mínimo de 60% do período contributivo foi declarado inconstitucional pelo STF, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       },
       {
         "letter": "D",
@@ -2843,19 +2843,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 26 da EC nº 103/2019, a média aritmética simples considera 100% dos salários de contribuição desde julho de 1994 (fim do descarte automático dos 20% menores), mas o § 6º autoriza expressamente o DESCARTE voluntário de contribuições que reduzam o valor do benefício, desde que mantido o tempo mínimo de contribuição exigido (15 anos para mulher, restando 18 anos no caso); contudo, o tempo descartado NÃO poderá ser utilizado para nenhuma outra finalidade (como acréscimo percentual ou averbação em outro regime)."
+        "text": "Pelo Art. 26 da EC nº 103/2019, a média aritmética simples considera 100% dos salários de contribuição desde julho de 1994, mas o § 6º autoriza expressamente o descarte voluntário de contribuições que reduzam o valor do benefício, desde que mantido o tempo mínimo de contribuição exigido."
       },
       {
         "letter": "B",
-        "text": "Após a EC nº 103/2019, continua automático o descarte dos 20% menores salários de contribuição para todos os segurados do RGPS."
+        "text": "Após a EC nº 103/2019, continua automático o descarte dos 20% menores salários de contribuição para todos os segurados do RGPS, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "C",
-        "text": "As contribuições descartadas nos termos do Art. 26, § 6º, continuam contando para aumentar o coeficiente de 2% ao ano acima de 15/20 anos."
+        "text": "As contribuições descartadas, continuam contando para aumentar o coeficiente de 2% ao ano acima de 15/20 anos, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "D",
-        "text": "O descarte de contribuições previsto no Art. 26, § 6º, é proibido na aposentadoria programada, aplicando-se exclusivamente à aposentadoria especial."
+        "text": "O descarte de contribuições, é proibido na aposentadoria programada, aplicando-se exclusivamente à aposentadoria especial. O preenchimento dos requisitos verifica-se segundo a legislação vigente na data do direito."
       }
     ],
     "correctAnswer": "A",
@@ -2898,19 +2898,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O pedido deve ser julgado IMPROCEDENTE: segundo tese vinculante do STF (Tema 503), no âmbito do RGPS, somente lei pode criar benefícios e vantagens previdenciárias, não havendo previsão legal para o direito à \"desaposentação\" ou \"reaposentação\", sendo constitucional o Art. 18, § 2º, da Lei nº 8.213/1991."
+        "text": "O pedido deve ser julgado improcedente: segundo tese vinculante do STF, no âmbito do RGPS, somente lei pode criar benefícios e vantagens previdenciárias, não havendo previsão legal para o direito à \"desaposentação\" ou \"reaposentação\", sendo constitucional o Art. 18, § 2º, da Lei nº 8.213/1991."
       },
       {
         "letter": "B",
-        "text": "A desaposentação é juridicamente possível no RGPS como direito fundamental à melhor aposentadoria, independentemente de previsão em lei."
+        "text": "A desaposentação é juridicamente possível no RGPS como direito fundamental à melhor aposentadoria, independentemente de previsão em lei, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "C",
-        "text": "O aposentado que volta a trabalhar tem direito de deixar de recolher contribuição previdenciária sobre o novo salário, já que não pode usar esse tempo para nova aposentadoria."
+        "text": "O aposentado que volta a trabalhar tem direito de deixar de recolher contribuição previdenciária sobre o novo salário, já que não pode usar esse tempo para nova aposentadoria, em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório."
       },
       {
         "letter": "D",
-        "text": "A desaposentação é proibida apenas se o segurado não devolver as parcelas recebidas; devolvendo-as em juízo, a Lei 8.213/91 autoriza a renúncia."
+        "text": "A desaposentação é proibida apenas se o segurado não devolver as parcelas recebidas; devolvendo-as em juízo, a Lei 8.213/91 autoriza a renúncia. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       }
     ],
     "correctAnswer": "A",
@@ -2954,19 +2954,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ela tem direito à aposentadoria por idade HÍBRIDA (mista) prevista no Art. 48, § 3º, da Lei nº 8.213/1991: conforme tese do STJ (Tema 1.007), admite-se a soma de tempo rural (mesmo remoto e descontínuo, sem recolhimentos antes de 1991) ao tempo urbano para completar a carência, independentemente de a atividade imediatamente anterior ao requerimento ser rural ou urbana, observada a idade urbana."
+        "text": "Ela tem direito à aposentadoria por idade híbrida (mista): conforme tese do STJ, admite-se a soma de tempo rural ao tempo urbano para completar a carência, independentemente de a atividade imediatamente anterior ao requerimento ser rural ou urbana, observada a idade urbana."
       },
       {
         "letter": "B",
-        "text": "A aposentadoria híbrida exige que a segurada esteja exercendo atividade exclusivamente rural na data do requerimento administrativo."
+        "text": "A aposentadoria híbrida exige que a segurada esteja exercendo atividade exclusivamente rural na data do requerimento administrativo, com garantia de paridade e integralidade remuneratória a todos os segurados do regime geral. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "C",
-        "text": "O segurado que utiliza a aposentadoria por idade híbrida faz jus à redução etária de 5 anos aplicada aos trabalhadores rurais puros."
+        "text": "O segurado que utiliza a aposentadoria por idade híbrida faz jus à redução etária de 5 anos aplicada aos trabalhadores rurais puros, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "D",
-        "text": "O tempo rural anterior a novembro de 1991 só pode ser somado ao tempo urbano na aposentadoria híbrida se houver recolhimento indenizatório das contribuições."
+        "text": "O tempo rural anterior a novembro de 1991 só pode ser somado ao tempo urbano na aposentadoria híbrida se houver recolhimento indenizatório das contribuições, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       }
     ],
     "correctAnswer": "A",
@@ -3010,19 +3010,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para segurados filiados após a EC nº 103/2019, a aposentadoria especial passou a exigir cumulativamente tempo de efetiva exposição nociva (15, 20 ou 25 anos) e IDADE MÍNIMA (55, 58 ou 60 anos, respectivamente — 60 anos no caso de 25 anos); ademais, é VEDADA a conversão de tempo especial em tempo comum para períodos trabalhados após a entrada em vigor da EC nº 103/2019 (13/11/2019)."
+        "text": "Para segurados filiados após a EC nº 103/2019, a aposentadoria especial passou a exigir cumulativamente tempo de efetiva exposição nociva (15, 20 ou 25 anos) e idade mínima."
       },
       {
         "letter": "B",
-        "text": "A aposentadoria especial no RGPS continua exigindo apenas 15, 20 ou 25 anos de exposição a agentes nocivos, sem qualquer requisito de idade mínima ou pontuação."
+        "text": "A aposentadoria especial no RGPS continua exigindo apenas 15, 20 ou 25 anos de exposição a agentes nocivos, sem qualquer requisito de idade mínima ou pontuação. Tal critério incide diretamente sobre o enquadramento do segurado e o cálculo mensal."
       },
       {
         "letter": "C",
-        "text": "Permanece livre a conversão de tempo especial em comum com multiplicador 1,4 (homem) ou 1,2 (mulher) mesmo para períodos laborados em 2023 e 2024."
+        "text": "Permanece livre a conversão de tempo especial em comum com multiplicador 1,4 (homem) ou 1,2 (mulher) mesmo para períodos laborados em 2023 e 2024. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "A exposição por periculosidade (como risco à integridade física sem agente físico/químico/biológico) manteve previsão constitucional expressa automática após a EC 103/2019."
+        "text": "A exposição por periculosidade (como risco à integridade física sem agente físico/químico/biológico) manteve previsão constitucional expressa automática após a EC 103/2019, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "A",
@@ -3065,19 +3065,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ela TEM direito à contagem da carência completa: nos termos do Art. 27-A da Lei nº 8.213/1991 (com redação da Lei nº 13.846/2019), na hipótese de perda da qualidade de segurado, para efeito da carência dos benefícios de auxílio por incapacidade temporária, aposentadoria por incapacidade permanente, salário-maternidade e auxílio-reclusão, o segurado deverá contar, a partir da data da nova filiação, com METADE do número de contribuições exigidas (no caso, 6 meses para atingir os 12 meses, somando-se às 50 anteriores)."
+        "text": "Ela tem direito à contagem da carência completa:, na hipótese de perda da qualidade de segurado, para efeito da carência dos benefícios de auxílio por incapacidade temporária, aposentadoria por incapacidade permanente, salário-maternidade e auxílio-reclusão, o segurado deverá contar, a partir da data da nova filiação, com metade do número de contribuições exigidas."
       },
       {
         "letter": "B",
-        "text": "Perdida a qualidade de segurado, todas as 50 contribuições anteriores são definitivamente zeradas para fins de carência, exigindo-se integralmente 12 novas contribuições."
+        "text": "Perdida a qualidade de segurado, todas as 50 contribuições anteriores são definitivamente zeradas para fins de carência, exigindo-se integralmente 12 novas contribuições. Tal critério incide diretamente sobre o enquadramento do segurado e o cálculo mensal."
       },
       {
         "letter": "C",
-        "text": "A regra da metade da carência prevista no Art. 27-A aplica-se também à aposentadoria programada, reduzindo sua carência de 180 para 90 contribuições."
+        "text": "A regra da metade da carência aplica-se também à aposentadoria programada, reduzindo sua carência de 180 para 90 contribuições, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "Pela redação vigente da Lei nº 13.846/2019, basta cumprir apenas um terço (4 contribuições) para reaver a carência anterior no auxílio-doença."
+        "text": "Pela redação vigente da Lei nº 13.846/2019, basta cumprir apenas um terço (4 contribuições) para reaver a carência anterior no auxílio-doença, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema. O preenchimento dos requisitos verifica-se segundo a legislação vigente na data do direito."
       }
     ],
     "correctAnswer": "A",
@@ -3120,19 +3120,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ele MANTÉM a qualidade de segurado em janeiro de 2025: o prazo base do período de graça de 12 meses (Art. 15, II) é acrescido de +12 meses por ter mais de 120 contribuições sem interrupção que acarrete perda da qualidade (§ 1º) E de mais +12 meses pela comprovação da situação de desemprego involuntário (§ 2º), totalizando 36 meses (além da prorrogação até o dia 16 do mês seguinte — Art. 15, § 4º)."
+        "text": "Ele mantém a qualidade de segurado em janeiro de 2025: o prazo base do período de graça de 12 meses é acrescido de +12 meses por ter mais de 120 contribuições sem interrupção que acarrete perda da qualidade e de mais +12 meses pela comprovação da situação de desemprego involuntário, totalizando 36 meses."
       },
       {
         "letter": "B",
-        "text": "O período de graça do segurado empregado após demissão é sempre limitado ao máximo improrrogável de 12 meses, independentemente de tempo de contribuição."
+        "text": "O período de graça do segurado empregado após demissão é sempre limitado ao máximo improrrogável de 12 meses, independentemente de tempo de contribuição, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "C",
-        "text": "A ausência de registro formal no órgão do Ministério do Trabalho impede absolutamente a prova do desemprego involuntário em juízo."
+        "text": "A ausência de registro formal no órgão do Ministério do Trabalho impede absolutamente a prova do desemprego involuntário em juízo, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "O segurado facultativo que deixa de pagar suas contribuições mensais mantém a qualidade de segurado por 12 meses."
+        "text": "O segurado facultativo que deixa de pagar suas contribuições mensais mantém a qualidade de segurado por 12 meses, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       }
     ],
     "correctAnswer": "A",
@@ -3176,19 +3176,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A contagem recíproca entre RGPS e RPPS é garantida constitucionalmente com compensação financeira entre os regimes (Art. 201, § 9º, CF), mas o Art. 96 da Lei nº 8.213/1991 VEDA expressamente a contagem de tempo de serviço público com o de atividade privada quando CONCOMITANTES (salvo acumulação lícita de cargos com regimes distintos se não usada no mesmo benefício) e proíbe utilizar tempo já aproveitado em outro regime para concessão de aposentadoria."
+        "text": "A contagem recíproca entre RGPS e RPPS é garantida constitucionalmente com compensação financeira entre os regimes, mas a legislação aplicável veda expressamente a contagem de tempo de serviço público com o de atividade privada quando concomitantes e proíbe utilizar tempo já aproveitado em outro regime para concessão de aposentadoria."
       },
       {
         "letter": "B",
-        "text": "É possível averbar no RPPS o tempo de contribuição privado concomitante ao cargo público para somar tempo dobrado na mesma aposentadoria."
+        "text": "É possível averbar no RPPS o tempo de contribuição privado concomitante ao cargo público para somar tempo dobrado na mesma aposentadoria, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "O tempo de serviço prestado sem recolhimento previdenciário, como o tempo rural anterior a 1991 sem indenização, pode ser averbado livremente no RPPS via CTC."
+        "text": "O tempo de serviço prestado sem recolhimento previdenciário, como o tempo rural anterior a 1991 sem indenização, pode ser averbado livremente no RPPS via ctc. O preenchimento dos requisitos verifica-se segundo a legislação vigente na data do direito."
       },
       {
         "letter": "D",
-        "text": "Após a EC nº 103/2019, continua livre a averbação de tempo fictício (como licença-prêmio não gozada em dobro) no RGPS via contagem recíproca."
+        "text": "Após a EC nº 103/2019, continua livre a averbação de tempo fictício (como licença-prêmio não gozada em dobro) no RGPS via contagem recíproca, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "A",
@@ -3231,19 +3231,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O pedido NÃO pode ser deferido apenas com base em prova testemunhal: tanto o Art. 55, § 3º, da Lei nº 8.213/1991 quanto a Súmula 149 do STJ exigem INÍCIO DE PROVA MATERIAL contemporânea dos fatos (documentos do próprio segurado ou de membros do grupo familiar — Súmula 6 TNU, complementados por autodeclaração ratificada em cadastro oficial após a Lei 13.846/2019), não bastando prova exclusivamente testemunhal, salvo motivo de força maior ou caso fortuito."
+        "text": "O pedido não pode ser deferido apenas com base em prova testemunhal: tanto o Art. 55, § 3º, da Lei nº 8.213/1991 quanto a Súmula 149 do STJ exigem início de prova material contemporânea dos fatos, não bastando prova exclusivamente testemunhal, salvo motivo de força maior ou caso fortuito."
       },
       {
         "letter": "B",
-        "text": "A prova exclusivamente testemunhal é suficiente para comprovar o exercício de atividade rural em qualquer situação no INSS e na Justiça Federal."
+        "text": "A prova exclusivamente testemunhal é suficiente para comprovar o exercício de atividade rural em qualquer situação no INSS e na Justiça Federal, com acumulação integral e irrestrita das prestações sem redução proporcional de valor."
       },
       {
         "letter": "C",
-        "text": "Os documentos usados como início de prova material devem obrigatoriamente estar em nome próprio do segurado requerente, não servindo documentos do cônjuge ou pais."
+        "text": "Os documentos usados como início de prova material devem obrigatoriamente estar em nome próprio do segurado requerente, não servindo documentos do cônjuge ou pais, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "A partir da Lei nº 13.846/2019, a declaração do sindicato rural voltou a ter força probatória absoluta dispensando validação no CNIS ou autodeclaração."
+        "text": "A partir da Lei nº 13.846/2019, a declaração do sindicato rural voltou a ter força probatória absoluta dispensando validação no CNIS ou autodeclaração, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "A",
@@ -3287,7 +3287,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O estagiário que recebe bolsa-auxílio sob a Lei nº 11.788/2008 é segurado obrigatório do RGPS na categoria de empregado."
+        "text": "O estagiário que recebe bolsa-auxílio sob a Lei nº 11.788/2008 é segurado obrigatório do RGPS na categoria de empregado, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "B",
@@ -3299,7 +3299,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O período como ALUNO-APRENDIZ em escola pública profissional (anterior à extinção da figura pela Lei 3.552/59 ou observados os requisitos da Súmula 96 do TCU: retribuição pecuniária/utilidades à conta do orçamento da União e execução de encomendas a terceiros) é computável como tempo de serviço; já o período de ESTÁGIO regular (Lei nº 11.788/2008) NÃO cria vínculo de emprego nem filiação obrigatória ao RGPS, só contando se o estagiário tiver recolhido contribuições como segurado FACULTATIVO."
+        "text": "O período como aluno-aprendiz em escola pública profissional é computável como tempo de serviço."
       }
     ],
     "correctAnswer": "D",
@@ -3343,19 +3343,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O segurado facultativo de baixa renda que contribui com 5% do salário mínimo tem direito à aposentadoria por tempo de contribuição nas regras de transição sem complementar o recolhimento."
+        "text": "O segurado facultativo de baixa renda que contribui com 5% do salário mínimo tem direito à aposentadoria por tempo de contribuição nas regras de transição sem complementar o recolhimento, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "B",
-        "text": "A simples inscrição antiga no CadÚnico, mesmo desatualizada há mais de 2 anos ou com renda própria de aluguel, valida automaticamente a alíquota de 5%."
+        "text": "A simples inscrição antiga no CadÚnico, mesmo desatualizada há mais de 2 anos ou com renda própria de aluguel, valida automaticamente a alíquota de 5%. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "C",
-        "text": "O microempreendedor individual (MEI) também contribui com 5% como segurado facultativo de baixa renda."
+        "text": "O microempreendedor individual (MEI) também contribui com 5% como segurado facultativo de baixa renda, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "D",
-        "text": "A alíquota de 5% (segurado facultativo de baixa renda) destina-se a quem se dedique exclusivamente ao trabalho doméstico na própria residência, não tenha renda própria de nenhum tipo e pertença a família de baixa renda (renda familiar até 2 SMs) com inscrição ATUALIZADA no CadÚnico; pela falta de atualização cadastral exigida e para validação automática, as contribuições em 5% dependem de validação/ratificação ou complementação (diferença para 11% ou 20%), além de não darem direito à aposentadoria por tempo de contribuição nem à contagem recíproca sem complementação."
+        "text": "A alíquota de 5% destina-se a quem se dedique exclusivamente ao trabalho doméstico na própria residência, não tenha renda própria de nenhum tipo e pertença a família de baixa renda com inscrição atualizada no CadÚnico."
       }
     ],
     "correctAnswer": "D",
@@ -3398,19 +3398,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As contribuições de 5% do MEI já valem automaticamente tanto para aposentadoria por idade quanto para todas as regras de transição por tempo de contribuição e CTC."
+        "text": "As contribuições de 5% do MEI já valem automaticamente tanto para aposentadoria por idade quanto para todas as regras de transição por tempo de contribuição e ctc, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "B",
-        "text": "O MEI não tem direito a nenhum benefício por incapacidade ou salário-maternidade, mesmo mantendo os pagamentos mensais em dia."
+        "text": "O MEI não tem direito a nenhum benefício por incapacidade ou salário-maternidade, mesmo mantendo os pagamentos mensais em dia, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       },
       {
         "letter": "C",
-        "text": "Para complementar a contribuição de 5% para o plano de 20%, o MEI deve pagar apenas mais 6% (atingindo o patamar de 11%)."
+        "text": "Para complementar a contribuição de 5% para o plano de 20%, o MEI deve pagar apenas mais 6% (atingindo o patamar de 11%), sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "Para aproveitar esse tempo em aposentadoria por tempo de contribuição (regras de transição) ou para emitir CTC visando à contagem recíproca no RPPS, o MEI terá de COMPLEMENTAR a contribuição mensal mediante o recolhimento da diferença de 15% (totalizando os 20% do plano normal sobre o salário mínimo), acrescida de juros moratórios na forma do Art. 21, § 3º, da Lei nº 8.212/1991."
+        "text": "Para aproveitar esse tempo em aposentadoria por tempo de contribuição ou para emitir ctc visando à contagem recíproca no RPPS, o MEI terá de complementar a contribuição mensal mediante o recolhimento da diferença de 15%, acrescida de juros moratórios na forma."
       }
     ],
     "correctAnswer": "D",
@@ -3453,19 +3453,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por contribuir sobre o novo salário, o aposentado adquire direito ao auxílio por incapacidade temporária cumulativo com sua aposentadoria."
+        "text": "Por contribuir sobre o novo salário, o aposentado adquire direito ao auxílio por incapacidade temporária cumulativo com sua aposentadoria, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "O aposentado que volta a trabalhar como empregado não faz jus sequer ao salário-família ou à reabilitação profissional."
+        "text": "O aposentado que volta a trabalhar como empregado não faz jus sequer ao salário-família ou à reabilitação profissional, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "Quando o aposentado que voltou a trabalhar sofre acidente de trabalho e morre, seus dependentes não têm direito à pensão por morte."
+        "text": "Quando o aposentado que voltou a trabalhar sofre acidente de trabalho e morre, seus dependentes não têm direito à pensão por morte, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "Embora seja segurado obrigatório e obrigado a contribuir (Art. 11, § 3º), o aposentado que permanece ou retorna à atividade sujeita ao RGPS NÃO faz jus a nenhuma prestação da Previdência Social em decorrência do exercício dessa atividade, EXCETO ao SALÁRIO-FAMÍLIA e à REABILITAÇÃO PROFISSIONAL, quando empregado ou trabalhador avulso (Art. 18, § 2º, Lei 8.213/91) — não tendo direito, portanto, a auxílio por incapacidade temporária nem a nova aposentadoria."
+        "text": "Embora seja segurado obrigatório e obrigado a contribuir, o aposentado que permanece ou retorna à atividade sujeita ao RGPS não faz jus a nenhuma prestação da Previdência Social em decorrência do exercício dessa atividade, exceto ao salário-família e à reabilitação profissional, quando empregado ou trabalhador avulso."
       }
     ],
     "correctAnswer": "D",
@@ -3508,7 +3508,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A decadência de 10 anos do Art. 103 aplica-se tanto ao pedido de revisão quanto ao requerimento de concessão inicial de benefício previdenciário jamais solicitado."
+        "text": "A decadência de 10 anos aplica-se tanto ao pedido de revisão quanto ao requerimento de concessão inicial de benefício previdenciário jamais solicitado."
       },
       {
         "letter": "B",
@@ -3520,7 +3520,7 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Quanto à REVISÃO do ato de concessão do benefício já concedido em 2010, operou-se a DECADÊNCIA decenal (10 anos a contar do primeiro dia do mês seguinte ao do recebimento da primeira prestação — Art. 103); já quanto ao direito de requerer a CONCESSÃO inicial de um benefício nunca pedido antes (fundo de direito), NÃO há decadência nem prescrição (STF Tema 313 e Súmula 85/STJ), prescrevendo apenas as parcelas vencidas há mais de 5 anos anteriores ao requerimento (Art. 103, parágrafo único)."
+        "text": "Quanto à revisão do ato de concessão do benefício já concedido em 2010, operou-se a decadência decenal."
       }
     ],
     "correctAnswer": "D",
@@ -3564,19 +3564,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto nos erros administrativos do INSS quanto na tutela antecipada revogada, o caráter alimentar do benefício dispensa sempre qualquer devolução."
+        "text": "Tanto nos erros administrativos do INSS quanto na tutela antecipada revogada, o caráter alimentar do benefício dispensa sempre qualquer devolução, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "B",
-        "text": "Se o erro de cálculo administrativo do INSS ocorrer por falha de sistema interno, o segurado de boa-fé é obrigado a devolver tudo em parcela única imediatamente."
+        "text": "Se o erro de cálculo administrativo do INSS ocorrer por falha de sistema interno, o segurado de boa-fé é obrigado a devolver tudo em parcela única imediatamente, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "C",
-        "text": "O desconto administrativo no benefício previdenciário para reposição ao erário pode comprometer até 70% da renda mensal do segurado."
+        "text": "O desconto administrativo no benefício previdenciário para reposição ao erário pode comprometer até 70% da renda mensal do segurado, com concessão imediata do benefício independentemente de comprovação de carência mínima."
       },
       {
         "letter": "D",
-        "text": "Os desfechos são opostos na jurisprudência do STJ: no caso de erro exclusivo operacional da Administração (INSS), os valores recebidos de boa-fé NÃO são restituíveis quando ficar demonstrado que o segurado não tinha condições de perceber a ilegalidade do pagamento (Tema 979 STJ); já no caso de valores recebidos por força de tutela provisória judicial posteriormente revogada, É OBRIGATÓRIA a devolução (mediante desconto de até 30% do benefício ou cobrança — Tema 692 STJ)."
+        "text": "Os desfechos são opostos na jurisprudência do STJ: no caso de erro exclusivo operacional da Administração (INSS), os valores recebidos de boa-fé não são restituíveis quando ficar demonstrado que o segurado não tinha condições de perceber a ilegalidade do pagamento."
       }
     ],
     "correctAnswer": "D",
@@ -3620,19 +3620,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Como nunca contribuiu para o INSS, o requerente não pode receber nenhum benefício pago pela autarquia previdenciária, nem mesmo de natureza assistencial."
+        "text": "Como nunca contribuiu para o INSS, o requerente não pode receber nenhum benefício pago pela autarquia previdenciária, nem mesmo de natureza assistencial. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "O recebimento do BPC/LOAS gera direito automático ao 13º salário (abono anual) e transforma-se em pensão por morte para os dependentes após o óbito."
+        "text": "O recebimento do BPC/LOAS gera direito automático ao 13º salário (abono anual) e transforma-se em pensão por morte para os dependentes após o óbito, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "C",
-        "text": "O benefício previdenciário de 1 salário mínimo recebido pelo cônjuge idoso entra integralmente no cálculo da renda per capita, inviabilizando o BPC da esposa."
+        "text": "O benefício previdenciário de 1 salário mínimo recebido pelo cônjuge idoso entra integralmente no cálculo da renda per capita, inviabilizando o BPC da esposa, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "Ela FAZ JUS ao BPC/LOAS no valor de 1 salário mínimo mensal, pois o BPC é benefício da ASSISTÊNCIA SOCIAL (independe de contribuição previdenciária), destina-se à pessoa idosa com 65 anos ou mais ou à pessoa com deficiência de longo prazo (mínimo 2 anos), e o Art. 20, § 14, da LOAS (c/c Estatuto da Pessoa Idosa, Art. 34) exclui do cálculo da renda familiar per capita o outro BPC ou benefício previdenciário de até 1 salário mínimo já recebido por idoso ou pessoa com deficiência da mesma família."
+        "text": "Ela faz jus ao BPC/LOAS no valor de 1 salário mínimo mensal, pois o BPC é benefício da assistência social, destina-se à pessoa idosa com 65 anos ou mais ou à pessoa com deficiência de longo prazo (mínimo 2 anos), e o Art. 20, § 14, da LOAS exclui do cálculo da renda familiar per capita o outro BPC ou benefício previdenciário de até 1 salário mínimo já recebido por idoso ou pessoa com deficiência da mesma família."
       }
     ],
     "correctAnswer": "D",
@@ -3676,19 +3676,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ao assinar a carteira de trabalho, o titular do BPC perde definitivamente o benefício sem nenhuma prestação substitutiva assistencial."
+        "text": "Ao assinar a carteira de trabalho, o titular do BPC perde definitivamente o benefício sem nenhuma prestação substitutiva assistencial, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "B",
-        "text": "O valor do Auxílio-Inclusão corresponde a 100% do salário mínimo e é acumulado integralmente com o BPC/LOAS tradicional."
+        "text": "O valor do Auxílio-Inclusão corresponde a 100% do salário mínimo e é acumulado integralmente com o BPC/LOAS tradicional, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "C",
-        "text": "Caso o beneficiário do Auxílio-Inclusão seja demitido após 1 ano de trabalho, terá de passar por toda a perícia médica e social inicial do zero para tentar recuperar o BPC."
+        "text": "Caso o beneficiário do Auxílio-Inclusão seja demitido após 1 ano de trabalho, terá de passar por toda a perícia médica e social inicial do zero para tentar recuperar o BPC, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "Ele pode requerer o AUXÍLIO-INCLUSÃO (Art. 26-A da LOAS), correspondente a 50% do valor do BPC (meio salário mínimo), devido à pessoa com deficiência moderada ou grave que recebia o BPC (ou o recebeu nos últimos 5 anos) e passa a exercer atividade remunerada que a enquadre como segurado obrigatório do RGPS ou filiado ao RPPS com remuneração limitada a até 2 salários mínimos."
+        "text": "Ele pode requerer o auxílio-inclusão, correspondente a 50% do valor do BPC, devido à pessoa com deficiência moderada ou grave que recebia o BPC e passa a exercer atividade remunerada que a enquadre como segurado obrigatório do RGPS ou filiado ao RPPS com remuneração limitada a até 2 salários mínimos."
       }
     ],
     "correctAnswer": "D",
@@ -3731,19 +3731,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O seguro-defeso é pago apenas ao pescador que possui vínculo empregatício formal com empresa pesqueira industrial."
+        "text": "O seguro-defeso é pago apenas ao pescador que possui vínculo empregatício formal com empresa pesqueira industrial, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "B",
-        "text": "O seguro-defeso pode ser acumulado livremente com o Benefício de Prestação Continuada (BPC/LOAS) ou aposentadoria por idade rural."
+        "text": "O seguro-defeso pode ser acumulado livremente com o Benefício de Prestação Continuada (BPC/LOAS) ou aposentadoria por idade rural, com acumulação integral e irrestrita das prestações sem redução proporcional de valor."
       },
       {
         "letter": "C",
-        "text": "O valor mensal do seguro-defeso equivale à média dos últimos 12 salários de contribuição comercializados, podendo alcançar o teto do RGPS."
+        "text": "O valor mensal do seguro-defeso equivale à média dos últimos 12 salários de contribuição comercializados, podendo alcançar o teto do RGPS, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "Ele faz jus ao Seguro-Desemprego do Pescador Artesanal (Seguro-Defeso), pago pelo INSS no valor de 1 salário mínimo mensal durante o período de defeso fixado pelo IBAMA/órgão ambiental, exigindo-se registro ativo no Registro Geral da Atividade Pesqueira (RGP) com antecedência mínima de 1 ano, comprovação de exercício profissional ininterrupto da pesca artesanal e ausência de outro benefício previdenciário/assistencial (salvo pensão por morte ou auxílio-acidente)."
+        "text": "Ele faz jus ao Seguro-Desemprego do Pescador Artesanal (Seguro-Defeso), pago pelo INSS no valor de 1 salário mínimo mensal durante o período de defeso fixado pelo IBAMA/órgão ambiental, exigindo-se registro ativo no Registro Geral da Atividade Pesqueira (rgp) com antecedência mínima de 1 ano, comprovação de exercício profissional ininterrupto da pesca artesanal e ausência de outro benefício previdenciário/assistencial."
       }
     ],
     "correctAnswer": "D",
@@ -3786,19 +3786,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todas as ações judiciais movidas contra o INSS, inclusive as decorrentes de acidente de trabalho, pertencem absolutamente à Justiça Federal."
+        "text": "Todas as ações judiciais movidas contra o INSS, inclusive as decorrentes de acidente de trabalho, pertencem absolutamente à Justiça Federal. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "A competência delegada prevista no Art. 109, § 3º, da CF aplica-se a qualquer município brasileiro que não possua Vara Federal instalada, independentemente da distância."
+        "text": "A competência delegada aplica-se a qualquer município brasileiro que não possua Vara Federal instalada, independentemente da distância, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       },
       {
         "letter": "C",
-        "text": "As ações de reparação civil por acidente de trabalho movidas pelo empregado contra o EMPREGADOR pertencem à Justiça Estadual Comum."
+        "text": "As ações de reparação civil por acidente de trabalho movidas pelo empregado contra o empregador pertencem à Justiça Estadual Comum."
       },
       {
         "letter": "D",
-        "text": "As competências são distintas: a ação de BENEFÍCIO ACIDENTÁRIO do trabalho contra o INSS é sempre de competência originária da JUSTIÇA ESTADUAL (exceção constitucional do Art. 109, I, da CF, inclusive em capitais onde há Vara Federal — Súmula 501 STJ e STF); já na ação previdenciária COMUM (aposentadoria por idade), a competência é da Justiça Federal, admitindo-se competência delegada na Justiça Estadual apenas quando a comarca do domicílio do segurado estiver a mais de 70 km de município sede de Vara Federal (Art. 109, § 3º, CF c/c Art. 15, III, Lei 5.010/66 após Lei 13.876/19)."
+        "text": "As competências são distintas: a ação de benefício acidentário do trabalho contra o INSS é sempre de competência originária da justiça estadual."
       }
     ],
     "correctAnswer": "D",
@@ -3842,19 +3842,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para a companheira de união estável, a dependência econômica nunca é presumida e precisa ser provada documentalmente, além da própria união."
+        "text": "Para a companheira de união estável, a dependência econômica nunca é presumida e precisa ser provada documentalmente, além da própria união. O preenchimento dos requisitos verifica-se segundo a legislação vigente na data do direito."
       },
       {
         "letter": "B",
-        "text": "A união estável pode ser comprovada no INSS mediante apenas três depoimentos testemunhais em justificação administrativa, sem nenhum documento."
+        "text": "A união estável pode ser comprovada no INSS mediante apenas três depoimentos testemunhais em justificação administrativa, sem nenhum documento, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "C",
-        "text": "Administrativamente o INSS exigirá INÍCIO DE PROVA MATERIAL contemporânea dos fatos: nos termos do Art. 16, §§ 5º e 6º, da Lei nº 8.213/1991 (incluídos pela Lei nº 13.846/2019), tanto a união estável quanto a dependência econômica exigem prova material produzida em período NÃO superior a 24 meses anterior à data do óbito, não sendo admitida prova exclusivamente testemunhal (salvo motivo de força maior ou caso fortuito)."
+        "text": "Administrativamente o INSS exigirá início de prova material contemporânea dos fatos:, tanto a união estável quanto a dependência econômica exigem prova material produzida em período não superior a 24 meses anterior à data do óbito, não sendo admitida prova exclusivamente testemunhal."
       },
       {
         "letter": "D",
-        "text": "Se houver filho em comum nascido há 10 anos, dispensa-se qualquer outra prova atualizada da convivência até o óbito, mesmo separados de fato."
+        "text": "Se houver filho em comum nascido há 10 anos, dispensa-se qualquer outra prova atualizada da convivência até o óbito, mesmo separados de fato. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       }
     ],
     "correctAnswer": "C",
@@ -3897,19 +3897,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Toda pensão por morte devida ao cônjuge ou companheiro no RGPS é automaticamente vitalícia desde a primeira contribuição."
+        "text": "Toda pensão por morte devida ao cônjuge ou companheiro no RGPS é automaticamente vitalícia desde a primeira contribuição, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "Se o segurado tiver menos de 18 contribuições mensais na data do óbito ou o casamento tiver menos de 2 anos, o cônjuge perde completamente o direito à pensão por morte."
+        "text": "Se o segurado tiver menos de 18 contribuições mensais na data do óbito ou o casamento tiver menos de 2 anos, o cônjuge perde completamente o direito à pensão por morte, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "A pensão por morte terá duração TEMPORÁRIA de 10 ANOS: nos termos do Art. 77, § 2º, V, \"c\", da Lei nº 8.213/1991 (com as faixas etárias atualizadas pela Portaria ME nº 424/2020), tendo o segurado vertido pelo menos 18 contribuições mensais e o casamento/união estável durado pelo menos 2 anos antes do óbito, aplica-se a tabela progressiva conforme a idade do cônjuge na data do óbito (sendo de 10 anos para idade entre 28 e 30 anos na regra atualizada, e vitalícia apenas a partir dos 45 anos)."
+        "text": "A pensão por morte terá duração temporária de 10 anos:, tendo o segurado vertido pelo menos 18 contribuições mensais e o casamento/união estável durado pelo menos 2 anos antes do óbito, aplica-se a tabela progressiva conforme a idade do cônjuge na data do óbito."
       },
       {
         "letter": "D",
-        "text": "Se o óbito do segurado decorrer de acidente de trânsito após 3 meses de contribuição e 6 meses de casamento, a pensão do cônjuge durará apenas 4 meses."
+        "text": "Se o óbito do segurado decorrer de acidente de trânsito após 3 meses de contribuição e 6 meses de casamento, a pensão do cônjuge durará apenas 4 meses, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       }
     ],
     "correctAnswer": "C",
@@ -3952,19 +3952,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Reforma Trabalhista (Lei nº 13.467/2017) extinguiu o conceito de acidente de trajeto na legislação previdenciária (Art. 21 da Lei nº 8.213/1991)."
+        "text": "A Reforma Trabalhista extinguiu o conceito de acidente de trajeto na legislação previdenciária, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "B",
-        "text": "As doenças degenerativas inerentes a grupo etário são automaticamente equiparadas a doenças do trabalho pelo INSS."
+        "text": "As doenças degenerativas inerentes a grupo etário são automaticamente equiparadas a doenças do trabalho pelo INSS, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "C",
-        "text": "O evento continua equiparado a ACIDENTE DO TRABALHO para todos os efeitos previdenciários (Art. 21, IV, \"d\", da Lei nº 8.213/1991 — acidente in itinere), garantindo ao empregado a dispensa de carência para o benefício acidentário, o recolhimento de FGTS pela empresa durante o afastamento e a estabilidade provisória no emprego pelo prazo mínimo de 12 meses após a cessação do auxílio-doença acidentário (Art. 118 da Lei nº 8.213/91)."
+        "text": "O evento continua equiparado a acidente do trabalho para todos os efeitos previdenciários, garantindo ao empregado a dispensa de carência para o benefício acidentário, o recolhimento de FGTS pela empresa durante o afastamento e a estabilidade provisória no emprego pelo prazo mínimo de 12 meses após a cessação do auxílio-doença acidentário."
       },
       {
         "letter": "D",
-        "text": "A falta de emissão da CAT pela empresa impede que o INSS reconheça o acidente de trabalho ou aplique a estabilidade do Art. 118."
+        "text": "A falta de emissão da CAT pela empresa impede que o INSS reconheça o acidente de trabalho ou aplique a estabilidade, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       }
     ],
     "correctAnswer": "C",
@@ -4008,19 +4008,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O pagamento regular da contribuição ao RAT (1%, 2% ou 3%) isenta a empresa de responder em ação regressiva movida pelo INSS mesmo quando há culpa por descumprimento de normas de segurança."
+        "text": "O pagamento regular da contribuição ao RAT (1%, 2% ou 3%) isenta a empresa de responder em ação regressiva movida pelo INSS mesmo quando há culpa por descumprimento de normas de segurança, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "B",
-        "text": "O Nexo Técnico Epidemiológico Previdenciário (NTEP) gera presunção absoluta que impede a empresa de produzir prova contrária perante o INSS."
+        "text": "O Nexo Técnico Epidemiológico Previdenciário (ntep) gera presunção absoluta que impede a empresa de produzir prova contrária perante o INSS, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "C",
-        "text": "Ambas as medidas são válidas: (1) o Art. 120 da Lei nº 8.213/1991 autoriza o INSS a propor AÇÃO REGRESSIVA na Justiça Federal contra os responsáveis nos casos de negligência quanto às normas padrão de segurança e higiene do trabalho (presumindo-se ainda o nexo técnico epidemiológico previdenciário - NTEP pelo Art. 21-A quando há relevância estatística entre CNAE e CID); e (2) o Fator Acidentário de Prevenção (FAP) multiplica a alíquota de RAT (1%, 2% ou 3%) entre 0,5 e 2,0 conforme índices de frequência, gravidade e custo."
+        "text": "Ambas as medidas são válidas: a legislação aplicável autoriza o INSS a propor ação regressiva na Justiça Federal contra os responsáveis nos casos de negligência quanto às normas padrão de segurança e higiene do trabalho."
       },
       {
         "letter": "D",
-        "text": "O Fator Acidentário de Prevenção (FAP) pode reduzir a alíquota do RAT a zero ou elevá-la até cinco vezes o percentual original."
+        "text": "O Fator Acidentário de Prevenção (FAP) pode reduzir a alíquota do RAT a zero ou elevá-la até cinco vezes o percentual original, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "C",
@@ -4063,19 +4063,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por ter natureza estritamente indenizatória, não incide contribuição previdenciária sobre o terço constitucional de férias gozadas."
+        "text": "Por ter natureza estritamente indenizatória, não incide contribuição previdenciária sobre o terço constitucional de férias gozadas, em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório."
       },
       {
         "letter": "B",
-        "text": "Incide contribuição previdenciária patronal sobre o aviso prévio indenizado e sobre os primeiros 15 dias de afastamento por doença pagos pelo empregador."
+        "text": "Incide contribuição previdenciária patronal sobre o aviso prévio indenizado e sobre os primeiros 15 dias de afastamento por doença pagos pelo empregador, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "C",
-        "text": "Consoante jurisprudência vinculante dos Tribunais Superiores: (I) INCIDE contribuição previdenciária patronal sobre o terço constitucional de férias GOZADAS (usufruídas), ante sua natureza habitual/remuneratória (STF Tema 985, modulados os efeitos até a publicação da ata em 15/09/2020); (II) NÃO incide sobre o aviso prévio indenizado (STJ Tema 478 e Decreto 3.048/99); e (III) NÃO incide sobre o vale-transporte, ainda que pago em dinheiro nos limites legais (STF RE 478.410 e Art. 28, § 9º, \"f\", Lei 8.212/91)."
+        "text": "Consoante jurisprudência vinculante dos Tribunais Superiores: (I) incide contribuição previdenciária patronal sobre o terço constitucional de férias gozadas (usufruídas), ante sua natureza habitual/remuneratória."
       },
       {
         "letter": "D",
-        "text": "O pagamento do vale-transporte em dinheiro torna a parcela salarial e atrai automaticamente a incidência previdenciária."
+        "text": "O pagamento do vale-transporte em dinheiro torna a parcela salarial e atrai automaticamente a incidência previdenciária, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       }
     ],
     "correctAnswer": "C",
@@ -4119,15 +4119,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O benefício do Art. 195, § 7º, da CF é mera isenção infraconstitucional, podendo ser integralmente revogado a qualquer tempo por simples decreto presidencial."
+        "text": "O benefício é mera isenção infraconstitucional, podendo ser integralmente revogado a qualquer tempo por simples decreto presidencial."
       },
       {
         "letter": "B",
-        "text": "A imunidade do Art. 195, § 7º, dispensa a entidade beneficente até mesmo de reter e repassar a contribuição previdenciária descontada do salário dos seus empregados."
+        "text": "A imunidade, dispensa a entidade beneficente até mesmo de reter e repassar a contribuição previdenciária descontada do salário dos seus empregados."
       },
       {
         "letter": "C",
-        "text": "Apesar de o Art. 195, § 7º, da CF empregar o termo \"isentas\", trata-se de verdadeira IMUNIDADE tributária constitucional condicionada; conforme decidido pelo STF (ADI 2.028 e Tema 32) e concretizado pela LC nº 187/2021, a fixação dos requisitos contraprestacionais para fruição dessa imunidade exige LEI COMPLEMENTAR (Art. 146, II, CF), podendo aspectos procedimentais da certificação (CEBAS) ser tratados em lei ordinária."
+        "text": "Apesar de o Art. 195, § 7º, da CF empregar o termo \"isentas\", trata-se de verdadeira imunidade tributária constitucional condicionada."
       },
       {
         "letter": "D",
@@ -4175,19 +4175,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Como o auxílio-acidente possui natureza de benefício substitutivo da renda, seu valor mensal nunca pode ser inferior a 1 salário mínimo."
+        "text": "Como o auxílio-acidente possui natureza de benefício substitutivo da renda, seu valor mensal nunca pode ser inferior a 1 salário mínimo, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "B",
-        "text": "O segurado contribuinte individual e o segurado facultativo também têm direito ao auxílio-acidente caso sofram acidente de qualquer natureza."
+        "text": "O segurado contribuinte individual e o segurado facultativo também têm direito ao auxílio-acidente caso sofram acidente de qualquer natureza, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "C",
-        "text": "O INSS errou: o auxílio-acidente (Art. 86 da Lei nº 8.213/1991) tem natureza INDENIZATÓRIA, corresponde a 50% do salário de benefício (podendo ser inferior ao salário mínimo, pois não substitui o salário!), independe de carência e, nos termos do Tema 416 do STJ, é devido MESMO QUE A REDUÇÃO DA CAPACIDADE LABORATIVA SEJA MÍNIMA; contudo, não pode ser acumulado com nenhuma aposentadoria (Art. 86, § 2º, e Súmula 507 STJ)."
+        "text": "O INSS errou: o auxílio-acidente tem natureza indenizatória, corresponde a 50% do salário de benefício, independe de carência e, nos termos do Tema 416 do STJ, é devido mesmo que a redução da capacidade laborativa seja mínima."
       },
       {
         "letter": "D",
-        "text": "É lícita a acumulação permanente do auxílio-acidente com a aposentadoria programada concedida posteriormente em razão de seu caráter indenizatório."
+        "text": "É lícita a acumulação permanente do auxílio-acidente com a aposentadoria programada concedida posteriormente em razão de seu caráter indenizatório, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       }
     ],
     "correctAnswer": "C",
@@ -4231,19 +4231,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O adicional de 25% do Art. 45 estende-se a qualquer aposentado do RGPS que comprove necessitar de assistência permanente de outra pessoa."
+        "text": "O adicional de 25% estende-se a qualquer aposentado do RGPS que comprove necessitar de assistência permanente de outra pessoa, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "B",
-        "text": "Mesmo na aposentadoria por incapacidade permanente, o acréscimo de 25% fica limitado ao teto máximo de benefícios do RGPS e incorpora-se à pensão por morte."
+        "text": "Mesmo na aposentadoria por incapacidade permanente, o acréscimo de 25% fica limitado ao teto máximo de benefícios do RGPS e incorpora-se à pensão por morte, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "O pedido deve ser julgado IMPROCEDENTE: segundo tese vinculante do STF (Tema 1.095, superando anterior entendimento do STJ), no âmbito do RGPS é INCONSTITUCIONAL a extensão judicial do adicional de 25% previsto no Art. 45 da Lei nº 8.213/1991 às demais espécies de aposentadoria (como idade ou tempo de contribuição), sendo exclusivo da aposentadoria por incapacidade permanente (\"grande invalidez\"), hipótese em que pode inclusive ultrapassar o teto do RGPS."
+        "text": "O pedido deve ser julgado improcedente: segundo tese vinculante do STF, no âmbito do RGPS é inconstitucional a extensão judicial do adicional de 25% às demais espécies de aposentadoria, sendo exclusivo da aposentadoria por incapacidade permanente, hipótese em que pode inclusive ultrapassar o teto do RGPS."
       },
       {
         "letter": "D",
-        "text": "A conversão da aposentadoria por idade em aposentadoria por incapacidade para obter os 25% é admitida automaticamente a qualquer tempo."
+        "text": "A conversão da aposentadoria por idade em aposentadoria por incapacidade para obter os 25% é admitida automaticamente a qualquer tempo, com livre aproveitamento ou desaposentação sem sujeição às regras constitucionais de transição. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       }
     ],
     "correctAnswer": "C",
@@ -4287,15 +4287,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O exercício de qualquer atividade urbana remunerada, ainda que por apenas 30 dias no ano, descaracteriza definitivamente a qualidade de segurado especial."
+        "text": "O exercício de qualquer atividade urbana remunerada, ainda que por apenas 30 dias no ano, descaracteriza definitivamente a qualidade de segurado especial. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "A exploração de propriedade rural com dimensão superior a 1 módulo fiscal já retira automaticamente a qualidade de segurado especial."
+        "text": "A exploração de propriedade rural com dimensão superior a 1 módulo fiscal já retira automaticamente a qualidade de segurado especial, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "C",
-        "text": "Ele NÃO perde a condição de segurado especial: o Art. 11, §§ 8º e 9º, da Lei nº 8.213/1991 estabelece que não descaracteriza o segurado especial (I) explorar área de até 4 módulos fiscais; (II) exercer atividade remunerada em período de entressafra ou defeso não superior a 120 dias por ano civil; e (III) exercer mandato eletivo de dirigente sindical rural, de cooperativa rural ou de VEREADOR do Município onde desenvolve a atividade rural (contribuindo como obrigatório na atividade urbana/mandato sem perder o vínculo rural no período restante)."
+        "text": "Ele não perde a condição de segurado especial: a legislação aplicável estabelece que não descaracteriza o segurado especial (I) explorar área de até 4 módulos fiscais."
       },
       {
         "letter": "D",
@@ -4342,19 +4342,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todo sócio cotista de sociedade limitada, mesmo que apenas de capital e sem atuar na gestão nem receber pró-labore, é contribuinte individual obrigatório."
+        "text": "Todo sócio cotista de sociedade limitada, mesmo que apenas de capital e sem atuar na gestão nem receber pró-labore, é contribuinte individual obrigatório. Tal critério incide diretamente sobre o enquadramento do segurado e o cálculo mensal."
       },
       {
         "letter": "B",
-        "text": "Incide contribuição previdenciária sobre a distribuição de lucros e dividendos ao sócio administrador mesmo quando regularmente comprovada em balanço contábil."
+        "text": "Incide contribuição previdenciária sobre a distribuição de lucros e dividendos ao sócio administrador mesmo quando regularmente comprovada em balanço contábil, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "C",
-        "text": "Incidirá contribuição previdenciária sobre os valores pagos ao sócio: nos termos do Art. 201, § 5º, II, do Decreto nº 3.048/1999 e jurisprudência do STJ e CARF, os valores pagos a sócios apenas NÃO integram o salário de contribuição quando se tratar de distribuição de lucros regularmente demonstrada em ESCRITURAÇÃO CONTÁBIL regular; na ausência de contabilidade regular que comprove o lucro, a totalidade da remuneração paga ao sócio-gerente é considerada pró-labore tributável pelo INSS."
+        "text": "Incidirá contribuição previdenciária sobre os valores pagos ao sócio: e jurisprudência do STJ e CARF, os valores pagos a sócios apenas não integram o salário de contribuição quando se tratar de distribuição de lucros regularmente demonstrada em escrituração contábil regular."
       },
       {
         "letter": "D",
-        "text": "A alíquota básica devida pela empresa sobre o pró-labore do sócio-administrador é de apenas 11%, dispensada a cota patronal de 20%."
+        "text": "A alíquota básica devida pela empresa sobre o pró-labore do sócio-administrador é de apenas 11%, dispensada a cota patronal de 20%, com perda da qualidade de segurado após o esgotamento integral do período de graça legal. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       }
     ],
     "correctAnswer": "C",
@@ -4397,19 +4397,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sem intermediação do sindicato ou do OGMO, o prestador eventual de carga e descarga continua sendo enquadrado como trabalhador avulso."
+        "text": "Sem intermediação do sindicato ou do ogmo, o prestador eventual de carga e descarga continua sendo enquadrado como trabalhador avulso, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "B",
-        "text": "Ele é segurado obrigatório do RGPS na categoria de TRABALHADOR AVULSO (não portuário): nos termos do Art. 11, VI, da Lei nº 8.213/1991 e da Lei nº 12.023/2009, trabalhador avulso é quem presta serviços de natureza urbana ou rural a diversas empresas, sem vínculo empregatício, com intermediação obrigatória do sindicato da categoria (movimentação de mercadorias) ou do Órgão Gestor de Mão de Obra - OGMO (no setor portuário)."
+        "text": "Ele é segurado obrigatório do RGPS na categoria de trabalhador avulso (não portuário): e da Lei nº 12.023/2009, trabalhador avulso é quem presta serviços de natureza urbana ou rural a diversas empresas, sem vínculo empregatício, com intermediação obrigatória do sindicato da categoria ou do Órgão Gestor de Mão de Obra - ogmo."
       },
       {
         "letter": "C",
-        "text": "O trabalhador avulso recolhe sua própria contribuição previdenciária via carnê GPS à alíquota de 20% como contribuinte individual."
+        "text": "O trabalhador avulso recolhe sua própria contribuição previdenciária via carnê GPS à alíquota de 20% como contribuinte individual, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "O trabalhador avulso não faz jus ao salário-família nem ao auxílio-acidente."
+        "text": "O trabalhador avulso não faz jus ao salário-família nem ao auxílio-acidente, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       }
     ],
     "correctAnswer": "B",
@@ -4452,19 +4452,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O STF declarou inconstitucional em definitivo a contribuição sobre a comercialização da produção rural do empregador pessoa física sob a Lei 10.256/2001."
+        "text": "O STF declarou inconstitucional em definitivo a contribuição sobre a comercialização da produção rural do empregador pessoa física sob a Lei 10.256/2001, em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório."
       },
       {
         "letter": "B",
-        "text": "Desde a Lei nº 13.606/2018 (Art. 25, § 13, da Lei nº 8.212/1991), o produtor rural empregador (pessoa física ou jurídica) pode OPTAR anualmente, de forma irretratável para todo o ano-calendário, entre contribuir sobre a receita bruta da comercialização (1,2% de cota previdenciária + 0,1% de RAT para PF, além de 0,2% ao SENAR) OU sobre a folha de salários (20% + RAT). Se mantiver a opção pela comercialização e vender para pessoa jurídica adquirente, opera-se a SUB-ROGAÇÃO tributária da empresa compradora (STF RE 718.874)."
+        "text": "Desde a Lei nº 13.606/2018, o produtor rural empregador pode optar anualmente, de forma irretratável para todo o ano-calendário, entre contribuir sobre a receita bruta da comercialização ou sobre a folha de salários (20% + RAT)."
       },
       {
         "letter": "C",
-        "text": "A opção pela tributação sobre a folha de salários pode ser alterada mensalmente pelo produtor rural conforme lhe seja mais favorável na colheita."
+        "text": "A opção pela tributação sobre a folha de salários pode ser alterada mensalmente pelo produtor rural conforme lhe seja mais favorável na colheita, com acumulação integral e irrestrita das prestações sem redução proporcional de valor."
       },
       {
         "letter": "D",
-        "text": "O segurado especial também pode optar livremente por contribuir com 20% sobre a folha de salários em vez da comercialização da produção."
+        "text": "O segurado especial também pode optar livremente por contribuir com 20% sobre a folha de salários em vez da comercialização da produção, com livre aproveitamento ou desaposentação sem sujeição às regras constitucionais de transição."
       }
     ],
     "correctAnswer": "B",
@@ -4508,19 +4508,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Além da retenção de 11% na fonte, a tomadora responde solidariamente de forma objetiva pelos débitos previdenciários da prestadora, mesmo tendo feito e recolhido a retenção integral."
+        "text": "Além da retenção de 11% na fonte, a tomadora responde solidariamente de forma objetiva pelos débitos previdenciários da prestadora, mesmo tendo feito e recolhido a retenção integral. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "A empresa contratante (tomadora) é obrigada a RETER 11% do valor bruto da nota fiscal ou fatura de prestação de serviços (R$ 11.000,00) e recolher a importância retida em nome da empresa cedente da mão de obra até o dia 20 do mês subsequente (Art. 31 da Lei nº 8.212/1991 — com redução para 3,5% se a prestadora for optante pela desoneração da CPRB); cumprida a retenção, NÃO há mais responsabilidade solidária da tomadora pelas contribuições patronais da prestadora!"
+        "text": "A empresa contratante (tomadora) é obrigada a reter 11% do valor bruto da nota fiscal ou fatura de prestação de serviços (R$ 11.000,00) e recolher a importância retida em nome da empresa cedente da mão de obra até o dia 20 do mês subsequente."
       },
       {
         "letter": "C",
-        "text": "A retenção de 11% prevista no Art. 31 incide apenas sobre os serviços executados mediante empreitada total de construção civil, não alcançando cessão de mão de obra de limpeza ou vigilância."
+        "text": "A retenção de 11% incide apenas sobre os serviços executados mediante empreitada total de construção civil, não alcançando cessão de mão de obra de limpeza ou vigilância, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei."
       },
       {
         "letter": "D",
-        "text": "A empresa prestadora perde definitivamente o valor retido de 11%, sem poder compensá-lo com suas contribuições mensais devidas sobre a folha."
+        "text": "A empresa prestadora perde definitivamente o valor retido de 11%, sem poder compensá-lo com suas contribuições mensais devidas sobre a folha, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "B",
@@ -4563,19 +4563,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A responsabilidade do proprietário da obra na construção civil é apenas subsidiária, exigindo esgotamento prévio do patrimônio da construtora."
+        "text": "A responsabilidade do proprietário da obra na construção civil é apenas subsidiária, exigindo esgotamento prévio do patrimônio da construtora, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "B",
-        "text": "O proprietário/dono da obra responde SOLIDARIAMENTE com o construtor pelas obrigações previdenciárias relativas à obra de construção civil (Art. 30, VI, da Lei nº 8.212/1991), podendo o Fisco, na falta de comprovação regular em contabilidade, apurar o valor da mão de obra por AFERIÇÃO INDIRETA com base na área construída e padrão da obra (CUB/SERO — Art. 33, § 4º), cabendo ao interessado o ônus da prova em contrário."
+        "text": "O proprietário/dono da obra responde solidariamente com o construtor pelas obrigações previdenciárias relativas à obra de construção civil, podendo o Fisco, na falta de comprovação regular em contabilidade, apurar o valor da mão de obra por aferição indireta com base na área construída e padrão da obra (CUB/SERO ), cabendo ao interessado o ônus da prova em contrário."
       },
       {
         "letter": "C",
-        "text": "É vedado ao Fisco Federal utilizar a aferição indireta para arbitrar contribuições previdenciárias em obras de construção civil sem folha de pagamento."
+        "text": "É vedado ao Fisco Federal utilizar a aferição indireta para arbitrar contribuições previdenciárias em obras de construção civil sem folha de pagamento, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "A execução de construção residencial unifamiliar de pequeno porte pelo próprio proprietário pessoa física em regime de mutirão familiar gera a mesma solidariedade empresarial com construtora."
+        "text": "A execução de construção residencial unifamiliar de pequeno porte pelo próprio proprietário pessoa física em regime de mutirão familiar gera a mesma solidariedade empresarial com construtora, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "B",
@@ -4618,19 +4618,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por terem natureza parafiscal e não tributária, as contribuições da seguridade social sujeitam-se ao prazo decenal da Lei nº 8.212/1991."
+        "text": "Por terem natureza parafiscal e não tributária, as contribuições da seguridade social sujeitam-se ao prazo decenal da Lei nº 8.212/1991, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "B",
-        "text": "O lançamento é NULO por DECADÊNCIA: a Súmula Vinculante 8 do STF declarou INCONSTITUCIONAIS os Arts. 45 e 46 da Lei nº 8.212/1991, que fixavam prazo de 10 anos para decadência e prescrição das contribuições da seguridade social, por violação à reserva de LEI COMPLEMENTAR para normas gerais tributárias (Art. 146, III, \"b\", CF), aplicando-se integralmente os prazos de 5 ANOS previstos no Código Tributário Nacional (CTN)."
+        "text": "O lançamento é nulo por decadência: a Súmula Vinculante 8 do STF declarou inconstitucionais os Arts. 45 e 46 da Lei nº 8.212/1991, que fixavam prazo de 10 anos para decadência e prescrição das contribuições da seguridade social, por violação à reserva de lei complementar para normas gerais tributárias, aplicando-se integralmente os prazos de 5 anos previstos no Código Tributário Nacional."
       },
       {
         "letter": "C",
-        "text": "A Súmula Vinculante 8 alcança tanto o prazo de cobrança fiscal das contribuições quanto o prazo de 10 anos do segurado para revisar benefício no INSS."
+        "text": "A Súmula Vinculante 8 alcança tanto o prazo de cobrança fiscal das contribuições quanto o prazo de 10 anos do segurado para revisar benefício no INSS, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "D",
-        "text": "Em qualquer hipótese de tributo sujeito a lançamento por homologação, havendo dolo ou fraude, conta-se o prazo de 5 anos da data do fato gerador (Art. 150, § 4º, CTN)."
+        "text": "Em qualquer hipótese de tributo sujeito a lançamento por homologação, havendo dolo ou fraude, conta-se o prazo de 5 anos da data do fato gerador. Tal critério incide diretamente sobre o enquadramento do segurado e o cálculo mensal."
       }
     ],
     "correctAnswer": "B",
@@ -4674,19 +4674,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A cota legal de contratação de pessoas com deficiência ou reabilitados (Art. 93) aplica-se a todas as empresas brasileiras com mais de 20 empregados."
+        "text": "A cota legal de contratação de pessoas com deficiência ou reabilitados aplica-se a todas as empresas brasileiras com mais de 20 empregados, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "B",
-        "text": "A dispensa sem justa causa é IRREGULAR: nos termos do Art. 93 da Lei nº 8.213/1991, a empresa com 100 ou mais empregados está obrigada a preencher de 2% a 5% dos seus cargos com beneficiários reabilitados ou pessoas com deficiência habilitadas (no caso de 201 a 500 empregados, o percentual é de 3%), e o § 1º PROÍBE a dispensa de trabalhador reabilitado ou PCD ao final de contrato por prazo determinado >90 dias e a dispensa imotivada sem a prévia contratação de substituto em condição semelhante."
+        "text": "A dispensa sem justa causa é irregular:, a empresa com 100 ou mais empregados está obrigada a preencher de 2% a 5% dos seus cargos com beneficiários reabilitados ou pessoas com deficiência habilitadas, e o § 1º proíbe a dispensa de trabalhador reabilitado ou PCD ao final de contrato por prazo determinado >90 dias e a dispensa imotivada sem a prévia contratação de substituto em condição semelhante."
       },
       {
         "letter": "C",
-        "text": "O serviço de habilitação e reabilitação profissional do INSS restringe-se apenas aos segurados que contribuíram pelo menos 12 meses."
+        "text": "O serviço de habilitação e reabilitação profissional do INSS restringe-se apenas aos segurados que contribuíram pelo menos 12 meses, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "O fornecimento de próteses, órteses e instrumentos de auxílio à locomoção na reabilitação profissional é custeado exclusivamente pelo segurado."
+        "text": "O fornecimento de próteses, órteses e instrumentos de auxílio à locomoção na reabilitação profissional é custeado exclusivamente pelo segurado, com concessão imediata do benefício independentemente de comprovação de carência mínima. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       }
     ],
     "correctAnswer": "B",
@@ -4729,19 +4729,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O princípio constitucional da inafastabilidade da jurisdição (Art. 5º, XXXV, CF) dispensa qualquer requerimento administrativo prévio ao INSS até mesmo para pedido inicial de benefício."
+        "text": "O princípio constitucional da inafastabilidade da jurisdição dispensa qualquer requerimento administrativo prévio ao INSS até mesmo para pedido inicial de benefício, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "B",
-        "text": "Falta INTERESSE DE AGIR à segurada: no Tema 350 de repercussão geral (RE 631.240), o STF fixou que a concessão de benefícios previdenciários depende de PRÉVIO REQUERIMENTO ADMINISTRATIVO perante o INSS (pois sem negativa ou demora injustificada de mais de 45 dias/prazo legal não há lesão ou ameaça a direito), dispensando-se o exaurimento da via administrativa e excetuando-se os casos em que o entendimento da Administração seja notoriamente contrário à pretensão do segurado, bem como ações de revisão/restabelecimento."
+        "text": "Falta interesse de agir à segurada: no Tema 350 de repercussão geral, o STF fixou que a concessão de benefícios previdenciários depende de prévio requerimento administrativo perante o INSS, dispensando-se o exaurimento da via administrativa e excetuando-se os casos em que o entendimento da Administração seja notoriamente contrário à pretensão do segurado."
       },
       {
         "letter": "C",
-        "text": "Para poder acionar o Poder Judiciário contra decisão negativa do INSS, o segurado é obrigado a recorrer primeiro às Juntas e Câmaras do CRPS."
+        "text": "Para poder acionar o Poder Judiciário contra decisão negativa do INSS, o segurado é obrigado a recorrer primeiro às Juntas e Câmaras do crps, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "Também nas ações revisionais de benefício já concedido ou de restabelecimento de benefício cessado indevidamente exige-se novo pedido administrativo prévio."
+        "text": "Também nas ações revisionais de benefício já concedido ou de restabelecimento de benefício cessado indevidamente exige-se novo pedido administrativo prévio, com livre aproveitamento ou desaposentação sem sujeição às regras constitucionais de transição. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       }
     ],
     "correctAnswer": "B",
@@ -4785,19 +4785,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo para interposição de recurso ordinário ao CRPS é de 15 dias úteis, seguindo subsidiariamente a regra do Código de Processo Civil."
+        "text": "O prazo para interposição de recurso ordinário ao crps é de 15 dias úteis, seguindo subsidiariamente a regra do Código de Processo Civil, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "B",
-        "text": "O recurso é TEMPESTIVO: nos termos do Art. 305, § 1º, do Decreto nº 3.048/1999, o prazo para interposição de recurso ordinário e especial no âmbito do CRPS (contra decisões do INSS e das Juntas de Recursos) é de 30 DIAS contados da ciência da decisão pelo interessado ou pelo INSS; ademais, a propositura de ação judicial com idêntico objeto importa renúncia ao direito de recorrer na esfera administrativa (Art. 126, § 3º, da Lei nº 8.213/1991)."
+        "text": "O recurso é tempestivo:, o prazo para interposição de recurso ordinário e especial no âmbito do crps é de 30 dias contados da ciência da decisão pelo interessado ou pelo INSS."
       },
       {
         "letter": "C",
-        "text": "O segurado pode tramitar simultaneamente o recurso administrativo no CRPS e ação judicial idêntica na Justiça Federal sem prejuízo do processo administrativo."
+        "text": "O segurado pode tramitar simultaneamente o recurso administrativo no crps e ação judicial idêntica na Justiça Federal sem prejuízo do processo administrativo."
       },
       {
         "letter": "D",
-        "text": "Das decisões proferidas pelas Câmaras de Julgamento do CRPS cabe recurso hierárquico ordinário para a Justiça Federal no prazo de 30 dias."
+        "text": "Das decisões proferidas pelas Câmaras de Julgamento do crps cabe recurso hierárquico ordinário para a Justiça Federal no prazo de 30 dias, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       }
     ],
     "correctAnswer": "B",
@@ -4840,19 +4840,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer contribuição descontada em folha, mesmo sobre meio salário mínimo no contrato intermitente, conta integralmente como mês cheio de carência após a Reforma de 2019."
+        "text": "Qualquer contribuição descontada em folha, mesmo sobre meio salário mínimo no contrato intermitente, conta integralmente como mês cheio de carência após a Reforma de 2019. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "B",
-        "text": "NÃO conta automaticamente: pelo Art. 195, § 14, da Constituição Federal (incluído pela EC nº 103/2019), o segurado somente terá reconhecida como tempo de contribuição ao RGPS a competência cuja contribuição seja IGUAL OU SUPERIOR à contribuição mínima mensal exigida para sua categoria; o Art. 29 da EC nº 103/2019 oferece três saídas dentro do mesmo ano civil: (1) complementar a contribuição até atingir o mínimo; (2) utilizar valor excedente de outra competência; ou (3) agrupar contribuições inferiores ao mínimo de diferentes competências para formar um mês cheio."
+        "text": "Não conta automaticamente:, o segurado somente terá reconhecida como tempo de contribuição ao RGPS a competência cuja contribuição seja igual ou superior à contribuição mínima mensal exigida para sua categoria."
       },
       {
         "letter": "C",
-        "text": "Caso receba menos que 1 salário mínimo em um mês, a única alternativa do segurado é perder definitivamente aquela contribuição sem aproveitamento algum."
+        "text": "Caso receba menos que 1 salário mínimo em um mês, a única alternativa do segurado é perder definitivamente aquela contribuição sem aproveitamento algum, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "D",
-        "text": "A regra do Art. 195, § 14, da CF aplica-se retroativamente para invalidar as competências anteriores a novembro de 2019."
+        "text": "A regra aplica-se retroativamente para invalidar as competências anteriores a novembro de 2019, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "B",
@@ -4895,19 +4895,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O trânsito em julgado de sentença que negou auxílio-doença ou BPC impede para sempre que o segurado proponha qualquer nova ação pedindo o mesmo benefício."
+        "text": "O trânsito em julgado de sentença que negou auxílio-doença ou BPC impede para sempre que o segurado proponha qualquer nova ação pedindo o mesmo benefício, com concessão imediata do benefício independentemente de comprovação de carência mínima."
       },
       {
         "letter": "B",
-        "text": "NÃO há ofensa à coisa julgada: conforme o Art. 505, I, do CPC e jurisprudência pacífica do STJ e STF, nos benefícios previdenciários/assistenciais por incapacidade ou vulnerabilidade socioeconômica trata-se de RELAÇÃO JURÍDICA DE TRATO CONTINUADO, de modo que a modificação posterior no estado de fato (agravamento da enfermidade ou queda da renda familiar) ou no estado de direito autoriza o ajuizamento de nova demanda com novo pedido/causa de pedir (e novo termo inicial)."
+        "text": "Não há ofensa à coisa julgada: e jurisprudência pacífica do STJ e STF, nos benefícios previdenciários/assistenciais por incapacidade ou vulnerabilidade socioeconômica trata-se de relação jurídica de trato continuado, de modo que a modificação posterior no estado de fato ou no estado de direito autoriza o ajuizamento de nova demanda com novo pedido/causa de pedir."
       },
       {
         "letter": "C",
-        "text": "Se a ação anterior foi julgada improcedente apenas por ausência de início de prova material rural, também é impossível reabrir a discussão em nova ação com documentos novos."
+        "text": "Se a ação anterior foi julgada improcedente apenas por ausência de início de prova material rural, também é impossível reabrir a discussão em nova ação com documentos novos, com vedação à concessão ou majoração de benefício sem cumprimento integral de carência e idade. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "Mesmo que não tenha havido nenhuma alteração de fato nem de direito, o segurado pode repetir indefinidamente a mesma ação previdenciária alterando apenas o advogado."
+        "text": "Mesmo que não tenha havido nenhuma alteração de fato nem de direito, o segurado pode repetir indefinidamente a mesma ação previdenciária alterando apenas o advogado, em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório."
       }
     ],
     "correctAnswer": "B",
@@ -4951,19 +4951,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "NÃO passaram a valer automaticamente: a EC nº 103/2019 promoveu a chamada DESCONSTITUCIONALIZAÇÃO parcial das regras de aposentadoria no RPPS (Art. 40, § 1º, III, e § 4º-A a § 4º-C, CF), fixando 65/62 anos diretamente no RPPS DA UNIÃO, mas delegando a cada Estado, ao Distrito Federal e a cada Município a definição das respectivas idades mínimas e regras de transição mediante emenda às suas Constituições Estaduais ou Leis Orgânicas e leis próprias (salvo quanto à vedação de criar novos RPPS — Art. 40, § 22 — e quanto ao piso contributivo mínimo dos servidores)."
+        "text": "Não passaram a valer automaticamente: a EC nº 103/2019 promoveu a chamada desconstitucionalização parcial das regras de aposentadoria no RPPS, fixando 65/62 anos diretamente no RPPS da união, mas delegando a cada Estado, ao Distrito Federal e a cada Município a definição das respectivas idades mínimas e regras de transição mediante emenda às suas Constituições Estaduais ou Leis Orgânicas e leis próprias."
       },
       {
         "letter": "B",
-        "text": "A EC nº 103/2019 revogou imediatamente todos os regimes próprios municipais, transferindo todos os servidores públicos municipais ao RGPS."
+        "text": "A EC nº 103/2019 revogou imediatamente todos os regimes próprios municipais, transferindo todos os servidores públicos municipais ao RGPS, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "As alíquotas de contribuição dos servidores públicos estaduais e municipais podem ser livremente inferiores à alíquota do RGPS se o ente possuir superávit financeiro."
+        "text": "As alíquotas de contribuição dos servidores públicos estaduais e municipais podem ser livremente inferiores à alíquota do RGPS se o ente possuir superávit financeiro, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "D",
-        "text": "A aposentadoria compulsória do servidor público no RPPS foi elevada pela EC nº 103/2019 para os 80 anos de idade."
+        "text": "A aposentadoria compulsória do servidor público no RPPS foi elevada pela EC nº 103/2019 para os 80 anos de idade, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       }
     ],
     "correctAnswer": "A",
@@ -5006,15 +5006,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Regime de Previdência Complementar possui caráter CONTRATUAL privado, facultativo e autônomo em relação ao RGPS (Art. 202 CF), não integrando o contrato de trabalho as contribuições do patrocinador (§ 2º); ao desligar-se antes da aposentadoria, o participante tem direito aos institutos obrigatórios do Art. 14 da LC nº 109/2001: PORTABILIDADE, BENEFÍCIO PROPORCIONAL DIFERIDO (BPD), AUTOPATROCÍNIO ou RESGATE (cumprida eventual carência)."
+        "text": "O Regime de Previdência Complementar possui caráter contratual privado, facultativo e autônomo em relação ao RGPS, não integrando o contrato de trabalho as contribuições do patrocinador."
       },
       {
         "letter": "B",
-        "text": "As contribuições pagas pelo empregador ao plano de previdência complementar privado integram automaticamente o salário do empregado para cálculo de férias, 13º e FGTS."
+        "text": "As contribuições pagas pelo empregador ao plano de previdência complementar privado integram automaticamente o salário do empregado para cálculo de férias, 13º e FGTS, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "C",
-        "text": "As entidades fechadas de previdência complementar (EFPC) de servidores públicos (Art. 40, § 15, CF) devem oferecer exclusivamente planos na modalidade de benefício definido."
+        "text": "As entidades fechadas de previdência complementar (efpc) de servidores públicos devem oferecer exclusivamente planos na modalidade de benefício definido, com garantia de paridade e integralidade remuneratória a todos os segurados do regime geral."
       },
       {
         "letter": "D",
@@ -5061,19 +5061,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por força do Acordo Internacional de Previdência Social (Art. 85-A da Lei nº 8.213/1991), admite-se a TOTALIZAÇÃO dos períodos contributivos cumpridos nos dois países (10 + 10 = 20 anos) para fins de preenchimento do requisito temporal/carência de elegibilidade em cada regime; contudo, o pagamento do valor em cada país observa o cálculo PRO RATA TEMPORE (cada Estado paga exclusivamente o valor proporcional correspondente ao tempo e às contribuições ali vertidas), sem transferência física de dinheiro entre tesouros nacionais."
+        "text": "Por força do Acordo Internacional de Previdência Social, admite-se a totalização dos períodos contributivos cumpridos nos dois países (10 + 10 = 20 anos) para fins de preenchimento do requisito temporal/carência de elegibilidade em cada regime."
       },
       {
         "letter": "B",
-        "text": "Na totalização internacional, o Brasil paga uma aposentadoria integral de 20 anos e cobra reembolso financeiro direto do governo português."
+        "text": "Na totalização internacional, o Brasil paga uma aposentadoria integral de 20 anos e cobra reembolso financeiro direto do governo português, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "C",
-        "text": "É permitida a soma dos mesmos meses trabalhados simultaneamente nos dois países para dobrar o tempo total de contribuição."
+        "text": "É permitida a soma dos mesmos meses trabalhados simultaneamente nos dois países para dobrar o tempo total de contribuição, com acumulação integral e irrestrita das prestações sem redução proporcional de valor."
       },
       {
         "letter": "D",
-        "text": "O beneficiário residente no exterior sofre automaticamente retenção de 25% de Imposto de Renda na fonte sobre a aposentadoria brasileira (tese pacífica pela constitucionalidade absoluta)."
+        "text": "O beneficiário residente no exterior sofre automaticamente retenção de 25% de Imposto de Renda na fonte sobre a aposentadoria brasileira (tese pacífica pela constitucionalidade absoluta), sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "A",
@@ -5117,19 +5117,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplicam-se duas regras expressas da Lei nº 8.213/1991: (1) quanto à habilitação tardia, qualquer inscrição ou habilitação posterior de dependente só produzirá efeitos financeiros a contar da DATA DO PEDIDO (sem retroagir contra o INSS nem obrigar a viúva a devolver o que recebeu — Art. 76, caput), inclusive para menor absolutamente incapaz após a Lei nº 13.846/2019 (ressalvada a discussão quanto ao prazo de 180 dias do Art. 74, I, para menor de 16 anos em pedido inicial sem outro pensionista); e (2) o condenado criminalmente com trânsito em julgado pela prática de crime doloso de que tenha resultado a morte do segurado PERDE o direito à pensão por morte (Art. 74, § 1º)."
+        "text": "Aplicam-se duas regras expressas da Lei nº 8.213/1991: quanto à habilitação tardia, qualquer inscrição ou habilitação posterior de dependente só produzirá efeitos financeiros a contar da data do pedido, inclusive para menor absolutamente incapaz após a Lei nº 13.846/2019."
       },
       {
         "letter": "B",
-        "text": "O dependente menor de 16 anos que se habilita tardiamente em pensão já paga a outro dependente tem direito a receber do INSS todas as parcelas retroativas desde o óbito em duplicidade."
+        "text": "O dependente menor de 16 anos que se habilita tardiamente em pensão já paga a outro dependente tem direito a receber do INSS todas as parcelas retroativas desde o óbito em duplicidade, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       },
       {
         "letter": "C",
-        "text": "A perda do direito à pensão por morte por homicídio contra o segurado aplica-se também em caso de homicídio culposo em acidente de trânsito."
+        "text": "A perda do direito à pensão por morte por homicídio contra o segurado aplica-se também em caso de homicídio culposo em acidente de trânsito, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "Se houver um filho absolutamente incapaz inimputável que praticou o ato contra o segurado, ele também perde automaticamente o direito à pensão por morte pelo Art. 74, § 1º."
+        "text": "Se houver um filho absolutamente incapaz inimputável que praticou o ato contra o segurado, ele também perde automaticamente o direito à pensão por morte, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "A",
@@ -5172,19 +5172,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para computar período de atividade como contribuinte individual já alcançado pela decadência quinquenal, ele deverá efetuar o pagamento mediante INDENIZAÇÃO ao INSS (Art. 45-A da Lei nº 8.212/1991), comprovando o efetivo exercício da atividade remunerada naquela época (documentos contemporâneos); o cálculo incidirá sobre a média dos maiores salários de contribuição (20% sobre a média correspondente a 80%/100% conforme regra aplicável, acrescida de juros de até 50% e multa de 10%), e esse recolhimento em atraso após perda de qualidade de segurado ou primeira contribuição em dia NÃO conta para carência (Art. 27, II, Lei 8.213/91), servindo apenas como tempo de contribuição."
+        "text": "Para computar período de atividade como contribuinte individual já alcançado pela decadência quinquenal, ele deverá efetuar o pagamento mediante indenização ao INSS, comprovando o efetivo exercício da atividade remunerada naquela época."
       },
       {
         "letter": "B",
-        "text": "O segurado facultativo pode pagar livremente contribuições de qualquer época passada mediante indenização desde que prove trabalho doméstico."
+        "text": "O segurado facultativo pode pagar livremente contribuições de qualquer época passada mediante indenização desde que prove trabalho doméstico, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "C",
-        "text": "As contribuições indenizadas relativas a períodos prescritos/decadentes contam integralmente para o cumprimento da carência mínima exigida para aposentadoria."
+        "text": "As contribuições indenizadas relativas a períodos prescritos/decadentes contam integralmente para o cumprimento da carência mínima exigida para aposentadoria, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "Como o período de 2005 a 2010 está prescrito para cobrança pela Receita Federal, o contribuinte pode averbá-lo gratuitamente na aposentadoria sem indenizar o INSS."
+        "text": "Como o período de 2005 a 2010 está prescrito para cobrança pela Receita Federal, o contribuinte pode averbá-lo gratuitamente na aposentadoria sem indenizar o INSS, com concessão imediata do benefício independentemente de comprovação de carência mínima."
       }
     ],
     "correctAnswer": "A",
@@ -5227,19 +5227,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A associação desportiva que mantém equipe de futebol profissional recolhe contribuição previdenciária patronal SUBSTITUTIVA correspondente a 5% da RECEITA BRUTA decorrente dos espetáculos desportivos de que participe em todo território nacional e de qualquer forma de patrocínio, licenciamento de marcas e símbolos, publicidade, propaganda e transmissão de espetáculos desportivos (Art. 22, § 6º, da Lei nº 8.212/1991) — substituindo os 20% sobre a folha e o RAT de TODOS os seus empregados (não apenas atletas); contudo, se constituir Sociedade Anônima do Futebol (SAF), aplica-se o regime tributário específico (TEF) da Lei nº 14.193/2021."
+        "text": "A associação desportiva que mantém equipe de futebol profissional recolhe contribuição previdenciária patronal substitutiva correspondente a 5% da receita bruta decorrente dos espetáculos desportivos de que participe em todo território nacional e de qualquer forma de patrocínio, licenciamento de marcas e símbolos, publicidade, propaganda e transmissão de espetáculos desportivos."
       },
       {
         "letter": "B",
-        "text": "A alíquota substitutiva de 5% do clube de futebol profissional incide exclusivamente sobre a renda de bilheteria dos jogos, ficando isentos os contratos de transmissão televisiva e patrocínio."
+        "text": "A alíquota substitutiva de 5% do clube de futebol profissional incide exclusivamente sobre a renda de bilheteria dos jogos, ficando isentos os contratos de transmissão televisiva e patrocínio, com acumulação integral e irrestrita das prestações sem redução proporcional de valor."
       },
       {
         "letter": "C",
-        "text": "A contribuição de 5% substitui a contribuição patronal apenas sobre a folha de salários dos jogadores de futebol, permanecendo os 20% sobre os empregados administrativos e técnicos."
+        "text": "A contribuição de 5% substitui a contribuição patronal apenas sobre a folha de salários dos jogadores de futebol, permanecendo os 20% sobre os empregados administrativos e técnicos, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "D",
-        "text": "Caberá à própria associação desportiva vendedora dos ingressos efetuar sozinha o recolhimento dos 5%, sem retenção pela entidade promotora do campeonato."
+        "text": "Caberá à própria associação desportiva vendedora dos ingressos efetuar sozinha o recolhimento dos 5%, sem retenção pela entidade promotora do campeonato, com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime."
       }
     ],
     "correctAnswer": "A",
@@ -5282,19 +5282,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "AMBOS estão ISENTOS do exame médico-pericial revisional ordinário: nos termos do Art. 101, § 1º, da Lei nº 8.213/1991, o aposentado por incapacidade permanente (e o pensionista inválido) é dispensado do exame pericial periódico após completar: (I) 55 anos ou mais de idade E quando decorridos 15 anos da data da concessão da aposentadoria por incapacidade ou do auxílio-doença que a precedeu; OU (II) 60 anos de idade (independentemente do tempo de benefício) — ressalvado apenas exame para verificar necessidade de adicional de 25%, recuperação espontânea solicitada ou suspeita de fraude."
+        "text": "Ambos estão isentos do exame médico-pericial revisional ordinário:, o aposentado por incapacidade permanente é dispensado do exame pericial periódico após completar: (I) 55 anos ou mais de idade e quando decorridos 15 anos da data da concessão da aposentadoria por incapacidade ou do auxílio-doença que a precedeu."
       },
       {
         "letter": "B",
-        "text": "A isenção da perícia revisional do INSS aplica-se somente aos segurados aposentados por incapacidade que tenham completado 65 anos de idade."
+        "text": "A isenção da perícia revisional do INSS aplica-se somente aos segurados aposentados por incapacidade que tenham completado 65 anos de idade, em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório."
       },
       {
         "letter": "C",
-        "text": "A pessoa portadora de HIV/AIDS aposentada por invalidez continua obrigada a submeter-se ao pente-fino bienal mesmo após a Lei nº 13.847/2019."
+        "text": "A pessoa portadora de hiv/aids aposentada por invalidez continua obrigada a submeter-se ao pente-fino bienal mesmo após a Lei nº 13.847/2019, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "D",
-        "text": "A isenção do exame pericial impede inclusive que o próprio segurado requeira perícia para pleitear o acréscimo de 25% por necessidade de cuidador permanente."
+        "text": "A isenção do exame pericial impede inclusive que o próprio segurado requeira perícia para pleitear o acréscimo de 25% por necessidade de cuidador permanente, com perda da qualidade de segurado após o esgotamento integral do período de graça legal."
       }
     ],
     "correctAnswer": "A",
@@ -5337,19 +5337,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O procedimento é CONSTITUCIONAL e LEGAL: nos termos do Art. 60, §§ 8º e 9º, da Lei nº 8.213/1991 e da tese firmada pelo STF no Tema 1.124 (RE 1.347.526, 2024), a instituição do mecanismo de \"alta programada\" (Cobertura Previdenciária Estimada — fixação de prazo estimado de duração do benefício ou de 120 dias na ausência de fixação) é constitucional, não violando o princípio da legalidade nem o contraditório, pois assegura ao segurado o direito de requerer prorrogação antes do término com manutenção automática até a realização da nova perícia."
+        "text": "O procedimento é constitucional e legal: e da tese firmada pelo STF no Tema 1.124, a instituição do mecanismo de \"alta programada\" é constitucional, não violando o princípio da legalidade nem o contraditório, pois assegura ao segurado o direito de requerer prorrogação antes do término com manutenção automática até a realização da nova perícia."
       },
       {
         "letter": "B",
-        "text": "A fixação prévia de data de cessação de benefício sem nova perícia médica presencial de alta foi declarada inconstitucional pelo STF."
+        "text": "A fixação prévia de data de cessação de benefício sem nova perícia médica presencial de alta foi declarada inconstitucional pelo STF, com perda da qualidade de segurado após o esgotamento integral do período de graça legal. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       },
       {
         "letter": "C",
-        "text": "Quando o perito do INSS ou o juiz deixa de estipular prazo de recuperação no laudo, o auxílio por incapacidade temporária torna-se automaticamente vitalício."
+        "text": "Quando o perito do INSS ou o juiz deixa de estipular prazo de recuperação no laudo, o auxílio por incapacidade temporária torna-se automaticamente vitalício, observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema."
       },
       {
         "letter": "D",
-        "text": "Caso o segurado apresente pedido de prorrogação tempestivo dentro dos 15 dias finais, o INSS suspende imediatamente o pagamento até a data da nova perícia."
+        "text": "Caso o segurado apresente pedido de prorrogação tempestivo dentro dos 15 dias finais, o INSS suspende imediatamente o pagamento até a data da nova perícia, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       }
     ],
     "correctAnswer": "A",
@@ -5393,15 +5393,15 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ela possui DIREITO ADQUIRIDO ao cálculo e às regras vigentes até 13/11/2019 (Art. 3º da EC nº 103/2019 e Súmula 359 do STF), podendo optar entre a aposentadoria pelas regras antigas (observada a legislação da época em que implementou os requisitos, sendo o ato de concessão declaratório) ou pelas regras atuais/de transição mais vantajosas — vedada apenas a combinação híbrida do melhor de dois regimes distintos (pinçamento de regras)."
+        "text": "Ela possui direito adquirido ao cálculo e às regras vigentes até 13/11/2019, podendo optar entre a aposentadoria pelas regras antigas ou pelas regras atuais/de transição mais vantajosas."
       },
       {
         "letter": "B",
-        "text": "Como não protocolou o pedido no INSS antes da promulgação da EC nº 103/2019, a segurada perdeu definitivamente o direito às regras anteriores."
+        "text": "Como não protocolou o pedido no INSS antes da promulgação da EC nº 103/2019, a segurada perdeu definitivamente o direito às regras anteriores, sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei."
       },
       {
         "letter": "C",
-        "text": "A segurada pode combinar a idade/tempo de contribuição da regra antiga de 2018 com a fórmula de cálculo de média de 100% da regra nova de 2019."
+        "text": "A segurada pode combinar a idade/tempo de contribuição da regra antiga de 2018 com a fórmula de cálculo de média de 100% da regra nova de 2019, com livre aproveitamento ou desaposentação sem sujeição às regras constitucionais de transição."
       },
       {
         "letter": "D",
@@ -5449,19 +5449,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As regras da LC nº 142/2013 foram INTEGRALMENTE MANTIDAS pelo Art. 22 da EC nº 103/2019: na modalidade por tempo de contribuição, a mulher com deficiência moderada aposenta-se aos 24 ANOS de tempo de contribuição (sem exigência de idade mínima!), sendo as faixas da LC 142: Grave (25H/20M), Moderada (29H/24M) e Leve (33H/28M); e na modalidade por idade, exige-se 60 anos (homem) ou 55 anos (mulher) com pelo menos 15 anos de contribuição na condição de pessoa com deficiência, aplicando-se o cálculo integral da LC 142 (100% na por tempo, e 70% + 1%/ano na por idade)."
+        "text": "As regras da LC nº 142/2013 foram integralmente mantidas da EC nº 103/2019: na modalidade por tempo de contribuição, a mulher com deficiência moderada aposenta-se aos 24 anos de tempo de contribuição, sendo as faixas da LC 142: Grave (25H/20M), Moderada (29H/24M) e Leve (33H/28M)."
       },
       {
         "letter": "B",
-        "text": "A EC nº 103/2019 revogou a LC nº 142/2013 e passou a exigir 62 anos de idade mínima para todas as mulheres com deficiência."
+        "text": "A EC nº 103/2019 revogou a LC nº 142/2013 e passou a exigir 62 anos de idade mínima para todas as mulheres com deficiência, com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento."
       },
       {
         "letter": "C",
-        "text": "Na aposentadoria por idade da pessoa com deficiência (60H / 55M), o fator previdenciário é aplicado obrigatoriamente mesmo que reduza o valor do benefício."
+        "text": "Na aposentadoria por idade da pessoa com deficiência (60H / 55M), o fator previdenciário é aplicado obrigatoriamente mesmo que reduza o valor do benefício, sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios."
       },
       {
         "letter": "D",
-        "text": "A avaliação da deficiência na LC nº 142/2013 considera exclusivamente o laudo médico clínico, sem participação de assistente social."
+        "text": "A avaliação da deficiência na LC nº 142/2013 considera exclusivamente o laudo médico clínico, sem participação de assistente social, com livre aproveitamento ou desaposentação sem sujeição às regras constitucionais de transição. Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente."
       }
     ],
     "correctAnswer": "A",
@@ -5504,19 +5504,19 @@ export const PREVIDENCIARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O não repasse das contribuições declaradas em GFIP exige animus rem sibi habendi (vontade específica de se apoderar definitivamente do dinheiro) para configurar o Art. 168-A do CP."
+        "text": "O não repasse das contribuições declaradas em GFIP exige animus rem sibi habendi (vontade específica de se apoderar definitivamente do dinheiro) para configurar o Art. 168-A do CP, em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório."
       },
       {
         "letter": "B",
-        "text": "Assim como na sonegação previdenciária (Art. 337-A do CP), a apropriação indébita previdenciária (Art. 168-A) também é crime material que exige constituição definitiva do crédito tributário nos termos da Súmula Vinculante 24."
+        "text": "Assim como na sonegação previdenciária, a apropriação indébita previdenciária também é crime material que exige constituição definitiva do crédito tributário, com acumulação integral e irrestrita das prestações sem redução proporcional de valor."
       },
       {
         "letter": "C",
-        "text": "A conduta tipifica o crime de APROPRIAÇÃO INDÉBITA PREVIDENCIÁRIA (Art. 168-A do Código Penal — e não sonegação previdenciária do Art. 337-A, pois houve declaração correta sem fraude/omissão na folha!), tratando-se de crime omissivo próprio que, conforme jurisprudência do STJ e STF, exige apenas o DOLO GENÉRICO (dispensado o animus rem sibi habendi), admitindo-se, porém, a exclusão da culpabilidade por inexigibilidade de conduta diversa em grave crise financeira comprovada, bem como a extinção da punibilidade pelo pagamento integral do débito."
+        "text": "A conduta tipifica o crime de apropriação indébita previdenciária, tratando-se de crime omissivo próprio que, conforme jurisprudência do STJ e STF, exige apenas o dolo genérico, admitindo-se, porém, a exclusão da culpabilidade por inexigibilidade de conduta diversa em grave crise financeira comprovada."
       },
       {
         "letter": "D",
-        "text": "O pagamento integral das contribuições devidas após o recebimento da denúncia impede a extinção da punibilidade no crime do Art. 168-A do CP."
+        "text": "O pagamento integral das contribuições devidas após o recebimento da denúncia impede a extinção da punibilidade no crime, com concessão imediata do benefício independentemente de comprovação de carência mínima."
       }
     ],
     "correctAnswer": "C",

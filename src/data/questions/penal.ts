@@ -27,7 +27,7 @@ Considerando estritamente os fatos narrados e o Código Penal brasileiro, a cond
       },
       {
         letter: 'D',
-        text: 'Exercício regular de direito, visto que todo cidadão tem a prerrogativa legal de reagir a assaltos em via pública.'
+        text: 'Exercício regular de direito, visto que todo cidadão tem a prerrogativa legal de reagir a assaltos em via pública, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude.'
       }
     ],
     correctAnswer: 'B',
@@ -74,7 +74,7 @@ Diante da dogmática penal brasileira, a conduta de Bruno configura:`,
     options: [
       {
         letter: 'A',
-        text: 'Tentativa de homicídio qualificado, aplicando-se a causa de diminuição de pena de um a dois terços prevista no Art. 14, II do CP.'
+        text: 'Tentativa de homicídio qualificado, aplicando-se a causa de diminuição de pena de um a dois terços, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração.'
       },
       {
         letter: 'B',
@@ -82,11 +82,11 @@ Diante da dogmática penal brasileira, a conduta de Bruno configura:`,
       },
       {
         letter: 'C',
-        text: 'Desistência voluntária, respondendo Bruno apenas pelo crime de porte ilegal de arma de fogo.'
+        text: 'Desistência voluntária, respondendo Bruno apenas pelo crime de porte ilegal de arma de fogo, sem configuração de causa interruptiva ou suspensiva do curso regular da pretensão punitiva.'
       },
       {
         letter: 'D',
-        text: 'Arrependimento posterior, com redução de pena na terceira fase de dosimetria pelo ressarcimento do dano hospitalar.'
+        text: 'Arrependimento posterior, com redução de pena na terceira fase de dosimetria pelo ressarcimento do dano hospitalar, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais.'
       }
     ],
     correctAnswer: 'B',
@@ -128,19 +128,19 @@ Diante da distinção dogmática entre os crimes patrimoniais no Código Penal, 
     options: [
       {
         letter: 'A',
-        text: 'Furto qualificado mediante fraude (Art. 155, § 4º, II do CP).'
+        text: 'Furto qualificado mediante fraude.'
       },
       {
         letter: 'B',
-        text: 'Estelionato comum (Art. 171, caput do CP).'
+        text: 'Estelionato comum.'
       },
       {
         letter: 'C',
-        text: 'Apropriação indébita (Art. 168 do CP).'
+        text: 'Apropriação indébita.'
       },
       {
         letter: 'D',
-        text: 'Roubo impróprio (Art. 157, § 1º do CP).'
+        text: 'Roubo impróprio.'
       }
     ],
     correctAnswer: 'A',
@@ -183,19 +183,19 @@ Considerando estritamente os crimes praticados por funcionário público contra 
     options: [
       {
         letter: 'A',
-        text: 'Concussão (Art. 316 do Código Penal).'
+        text: 'Concussão.'
       },
       {
         letter: 'B',
-        text: 'Corrupção passiva (Art. 317 do Código Penal).'
+        text: 'Corrupção passiva.'
       },
       {
         letter: 'C',
-        text: 'Prevaricação (Art. 319 do Código Penal).'
+        text: 'Prevaricação.'
       },
       {
         letter: 'D',
-        text: 'Extorsão comum (Art. 158 do Código Penal).'
+        text: 'Extorsão comum.'
       }
     ],
     correctAnswer: 'A',
@@ -245,11 +245,11 @@ Diante da regra do concurso de pessoas e da cooperação dolosamente distinta no
       },
       {
         letter: 'C',
-        text: 'Ficará extinta por atipicidade da conduta, em razão da quebra do nexo causal decorrente de fato exclusivo de terceiro.'
+        text: 'Ficará extinta por atipicidade da conduta, em razão da quebra do nexo causal decorrente de fato exclusivo de terceiro, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais.'
       },
       {
         letter: 'D',
-        text: 'Será desclassificada unicamente para favorecimento real, haja vista sua permanência fora do domicílio da vítima.'
+        text: 'Será desclassificada unicamente para favorecimento real, haja vista sua permanência fora do domicílio da vítima, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração.'
       }
     ],
     correctAnswer: 'B',
@@ -295,15 +295,15 @@ Diante da regra do concurso de pessoas e da cooperação dolosamente distinta no
       },
       {
         letter: 'B',
-        text: 'O princípio da insignificância é causa de extinção da punibilidade, devendo o juiz aplicar perdão judicial na audiência de custódia.'
+        text: 'O princípio da insignificância é causa de extinção da punibilidade, devendo o juiz aplicar perdão judicial na audiência de custódia, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração.'
       },
       {
         letter: 'C',
-        text: 'O princípio da insignificância é expressamente vedado em crimes patrimoniais pelo Código Penal, devendo Daniel ser condenado à pena mínima.'
+        text: 'O princípio da insignificância é expressamente vedado em crimes patrimoniais pelo Código Penal, devendo Daniel ser condenado à pena mínima, com impossibilidade de reconhecimento de concurso formal ou de majorante não prevista no tipo.'
       },
       {
         letter: 'D',
-        text: 'A restituição da coisa afasta a tipicidade formal, configurando hipótese de arrependimento posterior obrigatório com absolvição sumária.'
+        text: 'A restituição da coisa afasta a tipicidade formal, configurando hipótese de arrependimento posterior obrigatório com absolvição sumária, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude.'
       }
     ],
     correctAnswer: 'A',
@@ -350,15 +350,15 @@ Diante da regra do concurso de pessoas e da cooperação dolosamente distinta no
       },
       {
         letter: 'B',
-        text: 'Erro de proibição escusável, que exclui a ilicitude do comportamento por legítima defesa putativa.'
+        text: 'Erro de proibição escusável, que exclui a ilicitude do comportamento por legítima defesa putativa, com impossibilidade de reconhecimento de concurso formal ou de majorante não prevista no tipo.'
       },
       {
         letter: 'C',
-        text: 'Aberratio ictus (erro na execução), devendo Carlos responder por homicídio culposo com base no Art. 73 do CP.'
+        text: 'Aberratio ictus (erro na execução), devendo Carlos responder por homicídio culposo, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico.'
       },
       {
         letter: 'D',
-        text: 'Erro sobre a pessoa (Art. 20, § 3º do CP), respondendo Carlos por homicídio doloso considerando as qualidades da vítima virtual.'
+        text: 'Erro sobre a pessoa, respondendo Carlos por homicídio doloso considerando as qualidades da vítima virtual, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude.'
       }
     ],
     correctAnswer: 'A',
@@ -401,19 +401,19 @@ Considerando a disciplina legal da tentativa e da consumação no Código Penal,
     options: [
       {
         letter: 'A',
-        text: 'Configura crime impossível por ineficácia absoluta do meio (Art. 17 do CP), não sendo punível a tentativa.'
+        text: 'Configura crime impossível por ineficácia absoluta do meio, não sendo punível a tentativa.'
       },
       {
         letter: 'B',
-        text: 'Configura tentativa de homicídio qualificado por envenenamento (Art. 121, § 2º, III c/c Art. 14, II do CP).'
+        text: 'Configura tentativa de homicídio qualificado por envenenamento, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico.'
       },
       {
         letter: 'C',
-        text: 'Tipifica crime impossível por impropriedade absoluta do objeto material.'
+        text: 'Tipifica crime impossível por impropriedade absoluta do objeto material, com afastamento da tipicidade material da conduta por ausência de lesividade penal relevante.'
       },
       {
         letter: 'D',
-        text: 'Configura crime putativo por erro de tipo, punível como contravenção penal de perigo.'
+        text: 'Configura crime putativo por erro de tipo, punível como contravenção penal de perigo, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude.'
       }
     ],
     correctAnswer: 'A',
@@ -460,15 +460,15 @@ Considerando a disciplina legal da tentativa e da consumação no Código Penal,
       },
       {
         letter: 'B',
-        text: 'Ocorre bis in idem indeclinável, pois o feminicídio possui natureza estritamente subjetiva, absorvendo o motivo torpe.'
+        text: 'Ocorre bis in idem indeclinável, pois o feminicídio possui natureza estritamente subjetiva, absorvendo o motivo torpe. Tal critério incide objetivamente na verificação da adequação típica da conduta.'
       },
       {
         letter: 'C',
-        text: 'O feminicídio constitui causa especial de aumento de pena da 3ª fase, e não qualificadora autônoma.'
+        text: 'O feminicídio constitui causa especial de aumento de pena da 3ª fase, e não qualificadora autônoma, com afastamento da tipicidade material da conduta por ausência de lesividade penal relevante.'
       },
       {
         letter: 'D',
-        text: 'A qualificadora do feminicídio somente se aplica se houver prévia concessão de medidas protetivas da Lei Maria da Penha.'
+        text: 'A qualificadora do feminicídio somente se aplica se houver prévia concessão de medidas protetivas da Lei Maria da Penha, com consumação formal do delito independentemente da obtenção de vantagem ilícita efetiva.'
       }
     ],
     correctAnswer: 'A',
@@ -511,7 +511,7 @@ A respeito da técnica de individualização da pena adotada pelo magistrado:`,
     options: [
       {
         letter: 'A',
-        text: 'A conduta do magistrado está estritamente correta e em consonância com a Súmula 231 do STJ.'
+        text: 'A conduta do magistrado está estritamente correta.'
       },
       {
         letter: 'B',

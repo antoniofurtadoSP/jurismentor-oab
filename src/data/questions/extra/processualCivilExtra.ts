@@ -15,10 +15,10 @@ export const PROCESSUAL_CIVIL_EXTRA_QUESTIONS: LegalQuestion[] = [
     statement: `Marina requereu tutela antecipada em caráter antecedente (Art. 303 do CPC) para compelir seu plano de saúde a autorizar cirurgia cardíaca imediata. O juiz concedeu a liminar determinando a cirurgia. O plano de saúde cumpriu a decisão e NÃO interpôs agravo de instrumento no prazo de 15 dias, limitando-se a protocolar uma contestação simples sem recorrer.
 Nos termos do Art. 304 do CPC e da jurisprudência do STJ, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A tutela torna-se estável e o processo será extinto sem resolução do mérito, formando-se coisa julgada material definitiva imediatamente.' },
-      { letter: 'B', text: 'A tutela antecipada torna-se estável (conservando seus efeitos enquanto não revista, reformada ou invalidada por ação própria), e o processo será extinto; qualquer das partes poderá demandar a outra com o intuito de rever, reformar ou invalidar a tutela estabilizada no prazo de 2 anos.' },
-      { letter: 'C', text: 'A apresentação de contestação isolada impede a estabilização porque o STJ entende que contestar equivale a recorrer.' },
-      { letter: 'D', text: 'O juiz deve prosseguir normalmente com a fase instrutória até a sentença de mérito.' }
+      { letter: 'A', text: 'A tutela torna-se estável e o processo será extinto sem resolução do mérito, formando-se coisa julgada material definitiva imediatamente, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'B', text: 'A tutela antecipada torna-se estável, e o processo será extinto; qualquer das partes poderá demandar a outra com o intuito de rever, reformar ou invalidar a tutela estabilizada no prazo de 2 anos.' },
+      { letter: 'C', text: 'A apresentação de contestação isolada impede a estabilização porque o STJ entende que contestar equivale a recorrer. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' },
+      { letter: 'D', text: 'O juiz deve prosseguir normalmente com a fase instrutória até a sentença de mérito, com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo o Art. 304 do CPC, a tutela antecipada concedida nos termos do Art. 303 torna-se ESTÁVEL se da decisão que a conceder não for interposto o respectivo recurso (agravo de instrumento), caso em que o processo será extinto sem formação de coisa julgada material (§ 6º), cabendo ação revisional/anulatória própria no prazo decadencial de 2 anos (§ 5º). (Nota: Embora haja debate entre turmas do STJ, a literalidade absoluta da FGV no Art. 304 exige interposição do respectivo recurso para obstar a estabilização, e nunca forma coisa julgada material — § 6º!).`,
@@ -46,10 +46,10 @@ Nos termos do Art. 304 do CPC e da jurisprudência do STJ, assinale a afirmativa
     statement: `Durante a fase de conhecimento pelo procedimento comum, o juiz proferiu decisão interlocutória: (I) rejeitando a alegação de incompetência absoluta; e (II) rejeitando a arguição de convenção de arbitragem.
 À luz do Art. 1.015 do CPC e da tese fixada pelo STJ no Tema 988, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Ambas as decisões são irrecorríveis de imediato, só podendo ser impugnadas em apelação.' },
-      { letter: 'B', text: 'A decisão que rejeita a alegação de convenção de arbitragem é expressamente agravável de instrumento (Art. 1.015, III); quanto à decisão sobre competência (não listada no Art. 1.015), o STJ fixou a tese da taxatividade mitigada, cabendo agravo de instrumento quando verificada a urgência decorrente da inutilidade do julgamento da questão no recurso de apelação.' },
-      { letter: 'C', text: 'O rol do Art. 1.015 é absolutamente fechado e nunca admite agravo fora de suas hipóteses.' },
-      { letter: 'D', text: 'Contra rejeição de convenção de arbitragem cabe recurso em sentido estrito.' }
+      { letter: 'A', text: 'Ambas as decisões são irrecorríveis de imediato, só podendo ser impugnadas em apelação, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'B', text: 'A decisão que rejeita a alegação de convenção de arbitragem é expressamente agravável de instrumento.' },
+      { letter: 'C', text: 'O rol é absolutamente fechado e nunca admite agravo fora de suas hipóteses, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' },
+      { letter: 'D', text: 'Contra rejeição de convenção de arbitragem cabe recurso em sentido estrito, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 1.015, inciso III, prevê expressamente agravo de instrumento contra decisão que rejeita alegação de convenção de arbitragem. Quanto às demais hipóteses não listadas (como competência), o STJ (Tema 988) definiu que o rol do Art. 1.015 tem TAXATIVIDADE MITIGADA, admitindo agravo de instrumento quando houver urgência decorrente da inutilidade do julgamento futuro na apelação.`,
@@ -78,10 +78,10 @@ Nos termos do Art. 304 do CPC e da jurisprudência do STJ, assinale a afirmativa
     statement: `Em fase de cumprimento de sentença cível, o exequente instaurou Incidente de Desconsideração da Personalidade Jurídica (IDPJ) requerendo a inclusão de dois sócios da executada por confusão patrimonial.
 Segundo os Arts. 133 a 137 do CPC, sobre o processamento desse incidente é correto afirmar que:`,
     options: [
-      { letter: 'A', text: 'O juiz pode incluir os sócios diretamente sem citá-los previamente para defesa.' },
-      { letter: 'B', text: 'Instaurado o incidente, o processo principal será suspenso (salvo se requerido na petição inicial), o sócio ou a pessoa jurídica será citado para manifestar-se e requerer provas no prazo de 15 dias, e a decisão interlocutória que o resolve é impugnável por agravo de instrumento.' },
-      { letter: 'C', text: 'O IDPJ é cabível apenas na fase de cumprimento de sentença, nunca no processo de conhecimento.' },
-      { letter: 'D', text: 'Da decisão do juiz que acolhe ou rejeita o IDPJ não cabe recurso imediato.' }
+      { letter: 'A', text: 'O juiz pode incluir os sócios diretamente sem citá-los previamente para defesa, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' },
+      { letter: 'B', text: 'Instaurado o incidente, o processo principal será suspenso, o sócio ou a pessoa jurídica será citado para manifestar-se e requerer provas no prazo de 15 dias, e a decisão interlocutória que o resolve é impugnável por agravo de instrumento.' },
+      { letter: 'C', text: 'O IDPJ é cabível apenas na fase de cumprimento de sentença, nunca no processo de conhecimento, com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível.' },
+      { letter: 'D', text: 'Da decisão do juiz que acolhe ou rejeita o IDPJ não cabe recurso imediato, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo Art. 134, § 3º, do CPC, a instauração do incidente suspenderá o processo (salvo se requerida já na petição inicial - § 2º). Pelo Art. 135, o sócio/PJ será citado para se manifestar e requerer provas em 15 dias. E pelo Art. 1.015, IV, contra a decisão interlocutória do IDPJ cabe agravo de instrumento (ou agravo interno se decidida pelo relator em tribunal - Art. 136, parágrafo único).`,
@@ -108,10 +108,10 @@ Segundo os Arts. 133 a 137 do CPC, sobre o processamento desse incidente é corr
     originType: 'AUTORAL_PROFESSOR',
     statement: `Sobre a contagem dos prazos processuais no CPC (Arts. 219, 224 e 1.003, § 6º, com a atualização da Lei nº 14.939/2024), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Todos os prazos processuais e materiais do CPC contam-se em dias corridos.' },
-      { letter: 'B', text: 'Na contagem de prazo em dias estabelecido por lei ou pelo juiz, computar-se-ão somente os dias úteis; e caso o recorrente deixe de comprovar feriado local no ato da interposição do recurso, o tribunal determinará a correção do vício antes de considerar inadmissível o recurso.' },
+      { letter: 'A', text: 'Todos os prazos processuais e materiais do CPC contam-se em dias corridos, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'B', text: 'Na contagem de prazo em dias estabelecido por lei ou pelo juiz, computar-se-ão somente os dias úteis.' },
       { letter: 'C', text: 'A falta de comprovação de feriado local no ato da interposição gera inadmissibilidade imediata sem possibilidade de intimação para sanar.' },
-      { letter: 'D', text: 'O prazo em dias úteis aplica-se também aos prazos prescricionais e decadenciais do Código Civil.' }
+      { letter: 'D', text: 'O prazo em dias úteis aplica-se também aos prazos prescricionais e decadenciais do Código Civil, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 219 do CPC fixa a contagem em DIAS ÚTEIS apenas para prazos processuais (excluindo prazos de direito material como prescrição/decadência). E atenção à importantíssima atualização da Lei nº 14.939/2024 no Art. 1.003, § 6º, do CPC: se o recorrente não comprovar feriado local na interposição, o tribunal DEVERÁ determinar a correção do vício (ou o desconsiderará caso já conste no processo eletrônico), superando a antiga jurisprudência restritiva!`,
@@ -139,10 +139,10 @@ Segundo os Arts. 133 a 137 do CPC, sobre o processamento desse incidente é corr
     statement: `Em ação de cobrança pelo procedimento comum sobre direito disponível, o autor declarou na petição inicial que NÃO tinha interesse na audiência de conciliação. O réu, porém, não se manifestou previamente pela dispensa. Mesmo assim, o autor não compareceu injustificadamente à audiência designada pelo juízo.
 Nos termos do Art. 334, §§ 4º e 8º, do CPC, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A audiência não deveria ter ocorrido porque bastava a recusa do autor na inicial.' },
-      { letter: 'B', text: 'A audiência de conciliação só é dispensada quando AMBAS as partes manifestarem expressamente desinteresse; logo, o não comparecimento injustificado do autor constitui ato atentatório à dignidade da justiça e será sancionado com multa de até 2% da vantagem econômica pretendida ou do valor da causa, revertida em favor da União ou do Estado.' },
-      { letter: 'C', text: 'A ausência injustificada do autor acarreta a extinção imediata do processo sem resolução do mérito.' },
-      { letter: 'D', text: 'A multa pelo não comparecimento reverte-se em favor da parte contrária.' }
+      { letter: 'A', text: 'A audiência não deveria ter ocorrido porque bastava a recusa do autor na inicial. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' },
+      { letter: 'B', text: 'A audiência de conciliação só é dispensada quando ambas as partes manifestarem expressamente desinteresse.' },
+      { letter: 'C', text: 'A ausência injustificada do autor acarreta a extinção imediata do processo sem resolução do mérito, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'D', text: 'A multa pelo não comparecimento reverte-se em favor da parte contrária, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 334, § 4º, I, do CPC determina que a audiência só não se realiza se AMBAS as partes manifestarem expressamente desinteresse (ou se não se admitir autocomposição). A ausência injustificada de qualquer das partes (Art. 334, § 8º) é ato atentatório à dignidade da justiça, sancionado com multa de até 2% da vantagem econômica pretendida ou do valor da causa, revertida em favor da UNIÃO ou do ESTADO.`,
@@ -170,10 +170,10 @@ Nos termos do Art. 334, §§ 4º e 8º, do CPC, assinale a afirmativa correta:`,
     statement: `Ao apresentar contestação em ação indenizatória proposta por Bruno, o réu Carlos pretende formular pedido reconvencional tanto contra Bruno quanto em litisconsórcio passivo com um terceiro estranho ao processo (um fiador de Bruno). Além disso, indaga se pode reconvir mesmo sem apresentar contestação.
 Nos termos do Art. 343 do CPC, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A reconvenção deve ser apresentada em peça autônoma separada e nunca pode incluir terceiro estranho à lide.' },
+      { letter: 'A', text: 'A reconvenção deve ser apresentada em peça autônoma separada e nunca pode incluir terceiro estranho à lide, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
       { letter: 'B', text: 'A reconvenção é proposta na própria contestação, pode ser deduzida contra o autor e terceiro, e o réu pode propor reconvenção independentemente de oferecer contestação.' },
-      { letter: 'C', text: 'A desistência da ação principal pelo autor extingue automaticamente a reconvenção.' },
-      { letter: 'D', text: 'Se o autor for substituto processual, não cabe reconvenção em nenhuma hipótese.' }
+      { letter: 'C', text: 'A desistência da ação principal pelo autor extingue automaticamente a reconvenção, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'D', text: 'Se o autor for substituto processual, não cabe reconvenção em nenhuma hipótese, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 343 do CPC modernizou a reconvenção: apresenta-se na própria contestação; permite ampliar o polo passivo ou ativo com terceiro (§§ 3º e 4º); independe de oferecimento de contestação (§ 6º); e a desistência da ação ou causa extintiva que impeça o exame de seu mérito NÃO obsta o prosseguimento do processo quanto à reconvenção (§ 2º).`,
@@ -202,7 +202,7 @@ Nos termos do Art. 343 do CPC, assinale a afirmativa correta:`,
 Nos termos do Art. 356 do CPC, essa decisão do juiz é impugnável por:`,
     options: [
       { letter: 'A', text: 'Apelação imediata.' },
-      { letter: 'B', text: 'Agravo de instrumento (Art. 356, § 5º e Art. 1.015, II, do CPC).' },
+      { letter: 'B', text: 'Agravo de instrumento.' },
       { letter: 'C', text: 'Agravo interno.' },
       { letter: 'D', text: 'Correição parcial.' }
     ],
@@ -232,10 +232,10 @@ Nos termos do Art. 356 do CPC, essa decisão do juiz é impugnável por:`,
     statement: `No CPC/2015, além do dispositivo da sentença quanto ao pedido principal, é possível que a resolução de questão prejudicial decidida expressa e incidentemente no processo passe a fazer coisa julgada material (Art. 503, § 1º).
 Para que a questão prejudicial se torne indiscutível pela coisa julgada, exige-se cumulativamente que:`,
     options: [
-      { letter: 'A', text: 'Baste que tenha sido mencionada na fundamentação, mesmo à revelia do réu.' },
-      { letter: 'B', text: 'Da resolução dependa o julgamento do mérito; a seu respeito tenha havido contraditório prévio e efetivo (não se aplicando no caso de revelia); e o juízo tenha competência em razão da matéria e da pessoa para resolvê-la como questão principal.' },
-      { letter: 'C', text: 'Tenha sido formulada ação declaratória incidental autônoma, obrigatoriamente.' },
-      { letter: 'D', text: 'Haja concordância expressa do Ministério Público em causas privadas.' }
+      { letter: 'A', text: 'Baste que tenha sido mencionada na fundamentação, mesmo à revelia do réu, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'B', text: 'Da resolução dependa o julgamento do mérito; a seu respeito tenha havido contraditório prévio e efetivo; e o juízo tenha competência em razão da matéria e da pessoa para resolvê-la como questão principal.' },
+      { letter: 'C', text: 'Tenha sido formulada ação declaratória incidental autônoma, obrigatoriamente, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' },
+      { letter: 'D', text: 'Haja concordância expressa do Ministério Público em causas privadas, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 503, § 1º, do CPC aboliu a antiga ação declaratória incidental e passou a estender a coisa julgada à questão prejudicial expressamente decidida se preenchidos 3 requisitos cumulativos (e ausentes restrições probatórias do § 2º): I - dela depender o julgamento do mérito; II - houver contraditório prévio e efetivo (NÃO se aplicando em caso de revelia!); III - o juízo tiver competência em razão da matéria e da pessoa para resolvê-la como questão principal.`,
@@ -263,10 +263,10 @@ Para que a questão prejudicial se torne indiscutível pela coisa julgada, exige
     statement: `Publicada a sentença no Diário da Justiça, o advogado da parte autora identificou clara omissão sobre um dos pedidos formulados e opôs embargos de declaração no 4º dia útil do prazo de 5 dias.
 Sobre os embargos de declaração no CPC (Arts. 1.022 a 1.026), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Os embargos de declaração suspendem o prazo para apelação, contando-se apenas o dia restante após o julgamento.' },
+      { letter: 'A', text: 'Os embargos de declaração suspendem o prazo para apelação, contando-se apenas o dia restante após o julgamento, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual.' },
       { letter: 'B', text: 'Os embargos de declaração possuem prazo de 5 dias úteis, não estão sujeitos a preparo, e interrompem o prazo para a interposição de recurso por qualquer das partes.' },
-      { letter: 'C', text: 'Só interrompem o prazo para a própria parte que os opôs.' },
-      { letter: 'D', text: 'Mesmo se os embargos tiverem efeito modificativo (infringente), dispensa-se intimação do embargado.' }
+      { letter: 'C', text: 'Só interrompem o prazo para a própria parte que os opôs, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' },
+      { letter: 'D', text: 'Mesmo se os embargos tiverem efeito modificativo (infringente), dispensa-se intimação do embargado, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo os Arts. 1.023 e 1.026 do CPC, os embargos de declaração são opostos no prazo de 5 dias úteis, independem de preparo e INTERROMPEM (zeram!) o prazo para a interposição de recurso por AMBAS as partes (salvo se intempestivos). Além disso, havendo possibilidade de efeito modificativo, é obrigatória a intimação do embargado para manifestar-se em 5 dias (Art. 1.023, § 2º).`,
@@ -294,10 +294,10 @@ Sobre os embargos de declaração no CPC (Arts. 1.022 a 1.026), assinale a afirm
     statement: `Em ação cível de cobrança, o réu foi condenado em 1º grau ao pagamento da dívida e de honorários advocatícios fixados em 12% sobre o valor da condenação. Inconformado, o réu interpôs apelação buscando a reforma integral da sentença, mas o Tribunal de Justiça negou provimento ao recurso por unanimidade.
 Nos termos do Art. 85, § 11, do CPC e da jurisprudência do STJ (Tema 1059), o tribunal:`,
     options: [
-      { letter: 'A', text: 'Não pode majorar os honorários na fase recursal se o advogado do apelado não apresentou pedido expresso.' },
+      { letter: 'A', text: 'Não pode majorar os honorários na fase recursal se o advogado do apelado não apresentou pedido expresso, sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório.' },
       { letter: 'B', text: 'Ao julgar o recurso desprovido, majorará os honorários fixados anteriormente levando em conta o trabalho adicional realizado em grau recursal, respeitado o limite máximo total de 20% na fase de conhecimento.' },
-      { letter: 'C', text: 'Pode elevar os honorários sucumbenciais para 30% somados em razão do recurso protelatório.' },
-      { letter: 'D', text: 'Só pode majorar honorários se o recurso tiver sido provido.' }
+      { letter: 'C', text: 'Pode elevar os honorários sucumbenciais para 30% somados em razão do recurso protelatório, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' },
+      { letter: 'D', text: 'Só pode majorar honorários se o recurso tiver sido provido, com prosseguimento imediato do rito executivo mediante constrição patrimonial do devedor.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 85, § 11, do CPC impõe ao tribunal majorar os honorários fixados anteriormente (de ofício, mesmo sem pedido!) quando o recurso não é conhecido integralmente ou é desprovido (conforme Tema 1059 STJ), respeitados os limites de 10% a 20% na fase de conhecimento (Art. 85, §§ 2º e 3º).`,
@@ -357,10 +357,10 @@ Nos termos do Art. 523, § 1º, do CPC, transcorrido o prazo de 15 dias sem paga
     statement: `Um credor comum de nota promissória (dívida não alimentar) requereu em execução a penhora de 15% dos vencimentos líquidos de um devedor que ganha mensalmente valor modesto próximo ao salário mínimo, alegando que toda renda admite penhora parcial.
 Considerando o Art. 833, IV e § 2º, do CPC e a jurisprudência atual da Corte Especial do STJ (EREsp 1.582.475 e EREsp 1.874.222), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Salários são absolutamente impenhoráveis em qualquer circunstância, mesmo para pensão alimentícia.' },
-      { letter: 'B', text: 'Embora o Art. 833, § 2º permita exceção expressa à impenhorabilidade salarial para pagamento de prestação alimentícia e importâncias excedentes a 50 salários mínimos mensais, a Corte Especial do STJ admite excepcionalmente a mitigação da impenhorabilidade salarial também para dívidas não alimentares, desde que preservada a subsistência digna do devedor e de sua família — o que veda a penhora sobre renda próxima ao mínimo vital.' },
-      { letter: 'C', text: 'Para dívidas não alimentares, o limite automático é sempre 30% de qualquer salário.' },
-      { letter: 'D', text: 'A poupança de até 40 salários mínimos não goza de proteção legal de impenhorabilidade.' }
+      { letter: 'A', text: 'Salários são absolutamente impenhoráveis em qualquer circunstância, mesmo para pensão alimentícia, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' },
+      { letter: 'B', text: 'Embora o Art. 833, § 2º permita exceção expressa à impenhorabilidade salarial para pagamento de prestação alimentícia e importâncias excedentes a 50 salários mínimos mensais, a Corte Especial do STJ admite excepcionalmente a mitigação da impenhorabilidade salarial também para dívidas não alimentares, desde que preservada a subsistência digna do devedor e de sua família.' },
+      { letter: 'C', text: 'Para dívidas não alimentares, o limite automático é sempre 30% de qualquer salário, com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial.' },
+      { letter: 'D', text: 'A poupança de até 40 salários mínimos não goza de proteção legal de impenhorabilidade, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo Art. 833, IV e § 2º, do CPC, os salários são em regra impenhoráveis, exceto para prestação alimentícia e ganhos acima de 50 salários mínimos mensais. Contudo, a Corte Especial do STJ flexibilizou a regra excepcionalmente para dívidas não alimentares somente quando preservado percentual capaz de assegurar a dignidade e subsistência do devedor e família (inviável quando a remuneração está próxima ao mínimo existencial).`,
@@ -389,10 +389,10 @@ Considerando o Art. 833, IV e § 2º, do CPC e a jurisprudência atual da Corte 
     statement: `Um acórdão condenatório transitou em julgado em 10 de maio de 2023. Em abril de 2025, a parte vencida descobriu documento novo, cuja existência ignorava ou de que não pôde fazer uso na época do processo, capaz de assegurar-lhe pronunciamento favorável.
 À luz dos Arts. 966 e 975 do CPC sobre Ação Rescisória, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'O prazo da ação rescisória é sempre de 2 anos improrrogáveis contados do primeiro dia de trânsito em julgado, sem exceção.' },
-      { letter: 'B', text: 'Regra geral, o direito à rescisão extingue-se em 2 anos contados do trânsito em julgado da última decisão proferida no processo; contudo, se fundada em prova nova, o termo inicial será a data de descoberta da prova nova, observado o prazo máximo de 5 anos contados do trânsito em julgado.' },
-      { letter: 'C', text: 'Não cabe ação rescisória com base em prova nova no CPC/2015.' },
-      { letter: 'D', text: 'O depósito prévio obrigatório da ação rescisória é de 10% sobre o valor da causa.' }
+      { letter: 'A', text: 'O prazo da ação rescisória é sempre de 2 anos improrrogáveis contados do primeiro dia de trânsito em julgado, sem exceção, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'B', text: 'Regra geral, o direito à rescisão extingue-se em 2 anos contados do trânsito em julgado da última decisão proferida no processo.' },
+      { letter: 'C', text: 'Não cabe ação rescisória com base em prova nova no CPC/2015, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco.' },
+      { letter: 'D', text: 'O depósito prévio obrigatório da ação rescisória é de 10% sobre o valor da causa, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 975, caput e § 2º, do CPC traz a regra de ouro: prazo geral de 2 anos do trânsito em julgado da última decisão; MAS se fundada em PROVA NOVA (Art. 966, VII), o termo inicial passa a ser a data de DESCOBERTA da prova nova, limitado ao teto máximo de 5 anos do trânsito em julgado! Além disso, o depósito prévio é de 5% sobre o valor da causa (Art. 968, II), limitado a 1.000 salários mínimos.`,
@@ -420,10 +420,10 @@ Considerando o Art. 833, IV e § 2º, do CPC e a jurisprudência atual da Corte 
     statement: `Pedro ajuizou ação indenizatória no Juizado Especial Cível estadual no valor de 18 salários mínimos, sem advogado. Na audiência de instrução, o juiz proferiu sentença julgando o pedido improcedente. Pedro deseja recorrer à Turma Recursal.
 Considerando a Lei nº 9.099/95, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Como a causa é inferior a 20 salários mínimos, Pedro pode interpor recurso inominado sozinho, sem advogado.' },
+      { letter: 'A', text: 'Como a causa é inferior a 20 salários mínimos, Pedro pode interpor recurso inominado sozinho, sem advogado. Essa sistemática assegura a regularidade formal do rito de conhecimento e de execução.' },
       { letter: 'B', text: 'Em primeiro grau, até 20 salários mínimos a assistência por advogado é facultativa; porém, no recurso inominado (prazo de 10 dias), a assistência por advogado é sempre obrigatória, independentemente do valor da causa.' },
-      { letter: 'C', text: 'O recurso cabível contra sentença do JEC é a apelação no prazo de 15 dias úteis.' },
-      { letter: 'D', text: 'A sentença do JEC pode ser impugnada por Recurso Especial ao STJ.' }
+      { letter: 'C', text: 'O recurso cabível contra sentença do JEC é a apelação no prazo de 15 dias úteis, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'D', text: 'A sentença do JEC pode ser impugnada por Recurso Especial ao STJ, com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação. A medida submete-se ao controle recursal ordinário nos prazos previstos para o procedimento.' }
     ],
     correctAnswer: 'B',
     justification: `Na Lei nº 9.099/95: Art. 9º dispensa advogado apenas em 1º grau nas causas até 20 salários mínimos (entre 20 e 40 SM é obrigatório desde o início). Já no recurso (Recurso Inominado, prazo de 10 dias úteis, Art. 42), as partes serão OBRIGATORIAMENTE representadas por advogado (Art. 41, § 2º). E conforme a Súmula 203 do STJ, não cabe Recurso Especial contra decisão de Turma Recursal.`,
@@ -452,10 +452,10 @@ Considerando a Lei nº 9.099/95, assinale a afirmativa correta:`,
     statement: `Em contrato empresarial paritário celebrado entre duas grandes empresas capazes, as partes inseriram cláusula estabelecendo que, em eventual litígio judicial, os prazos processuais para réplica e memoriais seriam ampliados para 20 dias úteis e seria dispensada a audiência inicial de conciliação.
 Nos termos do Art. 190 do Código de Processo Civil, essa cláusula é:`,
     options: [
-      { letter: 'A', text: 'Nula, porque normas processuais são sempre cogentes e indisponíveis.' },
+      { letter: 'A', text: 'Nula, porque normas processuais são sempre cogentes e indisponíveis. A medida submete-se ao controle recursal ordinário nos prazos previstos para o procedimento.' },
       { letter: 'B', text: 'Válida, pois versando o processo sobre direitos que admitam autocomposição, é lícito às partes plenamente capazes estipular mudanças no procedimento para ajustá-lo às especificidades da causa e convencionar sobre seus ônus, poderes, faculdades e deveres processuais.' },
-      { letter: 'C', text: 'Válida somente se homologada previamente pelo Ministério Público.' },
-      { letter: 'D', text: 'Válida apenas para mudar o foro competente, jamais prazos ou procedimento.' }
+      { letter: 'C', text: 'Válida somente se homologada previamente pelo Ministério Público, com prosseguimento imediato do rito executivo mediante constrição patrimonial do devedor.' },
+      { letter: 'D', text: 'Válida apenas para mudar o foro competente, jamais prazos ou procedimento, com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 190 do CPC consagra a cláusula geral dos negócios jurídicos processuais atípicos: em causas sobre direitos que admitam autocomposição, partes plenamente capazes podem ajustar mudanças procedimentais, ônus e prazos disponíveis antes ou durante o processo, cabendo ao juiz controlar apenas a validade (recusando em nulidade ou inserção abusiva em contrato de adesão/vulnerabilidade).`,
@@ -483,10 +483,10 @@ Nos termos do Art. 190 do Código de Processo Civil, essa cláusula é:`,
     statement: `Em ação judicial de responsabilidade civil médica contra um hospital privado, a autora (paciente) encontra extrema dificuldade técnica para produzir prova sobre o protocolo interno da sala cirúrgica no momento da infecção, enquanto o hospital detém prontuários eletrônicos completos e registros de esterilização.
 À luz do Art. 373, § 1º, do CPC, o juiz poderá:`,
     options: [
-      { letter: 'A', text: 'Julgar improcedente o pedido na sentença por falta de prova da autora, sem avisar antes.' },
-      { letter: 'B', text: 'Aplicar a distribuição dinâmica do ônus da prova em decisão fundamentada (antes da instrução), atribuindo o ônus ao hospital que tem maior facilidade de obtenção da prova do fato contrário, assegurando-lhe oportunidade de se desincumbir do ônus.' },
-      { letter: 'C', text: 'Inverter o ônus da prova somente na sentença de mérito, de surpresa.' },
-      { letter: 'D', text: 'Proibir a inversão do ônus da prova fora do Código de Defesa do Consumidor.' }
+      { letter: 'A', text: 'Julgar improcedente o pedido na sentença por falta de prova da autora, sem avisar antes, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual.' },
+      { letter: 'B', text: 'Aplicar a distribuição dinâmica do ônus da prova em decisão fundamentada, atribuindo o ônus ao hospital que tem maior facilidade de obtenção da prova do fato contrário, assegurando-lhe oportunidade de se desincumbir do ônus.' },
+      { letter: 'C', text: 'Inverter o ônus da prova somente na sentença de mérito, de surpresa, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' },
+      { letter: 'D', text: 'Proibir a inversão do ônus da prova fora do Código de Defesa do Consumidor, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 373, § 1º, do CPC consagrou a distribuição dinâmica do ônus da prova por decisão fundamentada, diante de peculiaridades da causa relacionadas à impossibilidade/excessiva dificuldade de cumprir o encargo ou à maior facilidade de obtenção da prova do fato contrário — sempre garantindo à parte oportunidade de se desincumbir do ônus que lhe foi atribuído (regra de instrução, nunca na sentença de surpresa!).`,
@@ -514,10 +514,10 @@ Nos termos do Art. 190 do Código de Processo Civil, essa cláusula é:`,
     statement: `Uma construtora deseja realizar perícia judicial de engenharia para documentar o estado atual de um muro vizinho antes do início de escavações, mesmo sem haver urgência de desabamento imediato, apenas para evitar futuro litígio ou viabilizar eventual acordo extrajudicial.
 Nos termos do Art. 381 do CPC, esse requerimento de produção antecipada de provas:`,
     options: [
-      { letter: 'A', text: 'Deve ser indeferido porque exige obrigatoriamente risco de perecimento imediato (urgência).' },
+      { letter: 'A', text: 'Deve ser indeferido porque exige obrigatoriamente risco de perecimento imediato (urgência). Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' },
       { letter: 'B', text: 'É plenamente cabível independentemente de urgência, quando a prova a ser produzida seja suscetível de viabilizar a autocomposição ou quando o prévio conhecimento dos fatos possa justificar ou evitar o ajuizamento de ação.' },
-      { letter: 'C', text: 'Previne obrigatoriamente a competência do juízo para eventual ação principal futura.' },
-      { letter: 'D', text: 'Permite ampla discussão e julgamento do mérito da responsabilidade civil na própria sentença.' }
+      { letter: 'C', text: 'Previne obrigatoriamente a competência do juízo para eventual ação principal futura, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual.' },
+      { letter: 'D', text: 'Permite ampla discussão e julgamento do mérito da responsabilidade civil na própria sentença, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 381 do CPC ampliou o cabimento da Produção Antecipada de Provas para além da urgência (inciso I), admitindo-a também sem urgência quando: II - a prova possa viabilizar autocomposição ou outro meio adequado de solução de conflito; III - o prévio conhecimento dos fatos possa justificar ou evitar o ajuizamento de ação. E pelo § 3º, NÃO previne a competência do juízo para a ação futura!`,
@@ -545,10 +545,10 @@ Nos termos do Art. 381 do CPC, esse requerimento de produção antecipada de pro
     statement: `Paula possui um cheque prescrito há mais de um ano (que perdeu a força executiva cambial), emitido por Marcos no valor de R$ 25.000,00. Para cobrar a dívida de forma célere, Paula pretende ajuizar ação monitória.
 De acordo com os Arts. 700 a 702 do CPC e a Súmula 531 do STJ, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Cheque prescrito não serve como prova escrita para instruir ação monitória.' },
-      { letter: 'B', text: 'Em ação monitória fundada em cheque prescrito, dispensa-se que Paula mencione o negócio jurídico subjacente; citado, Marcos tem 15 dias para pagar (com isenção de custas processuais e honorários de 5%) ou opor embargos monitórios.' },
-      { letter: 'C', text: 'Os embargos monitórios exigem garantia prévia do juízo mediante penhora.' },
-      { letter: 'D', text: 'A ação monitória só serve para cobrança de quantia em dinheiro, não cabendo para entrega de coisa.' }
+      { letter: 'A', text: 'Cheque prescrito não serve como prova escrita para instruir ação monitória, sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório.' },
+      { letter: 'B', text: 'Em ação monitória fundada em cheque prescrito, dispensa-se que Paula mencione o negócio jurídico subjacente; citado, Marcos tem 15 dias para pagar ou opor embargos monitórios.' },
+      { letter: 'C', text: 'Os embargos monitórios exigem garantia prévia do juízo mediante penhora, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'D', text: 'A ação monitória só serve para cobrança de quantia em dinheiro, não cabendo para entrega de coisa, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' }
     ],
     correctAnswer: 'B',
     justification: `Pela Súmula 531 do STJ, em ação monitória fundada em cheque prescrito ajuizada contra o emitente, é dispensável a menção ao negócio jurídico subjacente à emissão da cártula. Citado o réu, tem 15 dias para cumprir (ficando isento de custas processuais e pagando honorários de 5% - Art. 701, § 1º) ou opor embargos monitórios, independentemente de prévia segurança do juízo (Art. 702).`,
@@ -577,10 +577,10 @@ De acordo com os Arts. 700 a 702 do CPC e a Súmula 531 do STJ, assinale a afirm
     statement: `Diante de dezenas de processos idênticos tramitando em varas cíveis de determinado Estado discutindo exclusivamente a mesma questão unicamente de direito com decisões conflitantes, um juiz de 1º grau enviou ofício ao Presidente do Tribunal de Justiça requerendo a instauração de Incidente de Resolução de Demandas Repetitivas (IRDR).
 De acordo com os Arts. 976 a 987 do CPC, sobre o IRDR assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Somente as partes do processo podem pedir a instauração do IRDR.' },
-      { letter: 'B', text: 'O juiz ou relator pode requerer por ofício a instauração do IRDR ao presidente do tribunal; contudo, é incabível o IRDR quando um dos tribunais superiores (STF ou STJ), no âmbito de sua respectiva competência, já tiver afetado recurso para definição de tese sobre questão de direito material ou processual repetitiva.' },
-      { letter: 'C', text: 'O IRDR admite instauração para resolver controvérsia exclusivamente sobre matéria de fato.' },
-      { letter: 'D', text: 'A desistência do recurso que originou o incidente impede o exame do mérito da tese pelo tribunal.' }
+      { letter: 'A', text: 'Somente as partes do processo podem pedir a instauração do IRDR, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'B', text: 'O juiz ou relator pode requerer por ofício a instauração do IRDR ao presidente do tribunal.' },
+      { letter: 'C', text: 'O IRDR admite instauração para resolver controvérsia exclusivamente sobre matéria de fato, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'D', text: 'A desistência do recurso que originou o incidente impede o exame do mérito da tese pelo tribunal, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo Art. 977 do CPC, podem pedir a instauração do IRDR: I - juiz ou relator, por ofício; II - partes, por petição; III - MP ou Defensoria Pública, por petição. Exige-se questão UNICAMENTE de direito (Art. 976, I) + risco à isonomia/segurança jurídica (II), sendo incabível quando STF ou STJ já tiver afetado recurso repetitivo sobre a matéria (Art. 976, § 4º). A desistência ou abandono não impede o exame do mérito do incidente (Art. 976, § 1º).`,
@@ -608,10 +608,10 @@ De acordo com os Arts. 976 a 987 do CPC, sobre o IRDR assinale a afirmativa corr
     statement: `Duas empresas firmaram contrato comercial em São Paulo elegeram o foro da Comarca de Curitiba/PR como competente para eventuais litígios, sem qualquer justificativa ou vínculo territorial das partes ou do negócio jurídico com o Paraná. Proposta a ação em Curitiba, o juiz analisou a cláusula de eleição de foro antes da citação.
 Considerando a atualização promovida pela Lei nº 14.879/2024 no Art. 63 do CPC, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A eleição de foro é sempre válida livremente e nunca pode ser recusada de ofício pelo juiz por se tratar de competência territorial.' },
-      { letter: 'B', text: 'A eleição de foro deve guardar pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação (ressalvada pactuação consumerista mais favorável); o ajuizamento em juízo aleatório, sem vinculação com o domicílio ou negócio, constitui prática abusiva que justifica a declinação de competência de ofício pelo juiz.' },
-      { letter: 'C', text: 'A incompetência relativa nunca pode ser conhecida de ofício em nenhuma hipótese pela Súmula 33 do STJ.' },
-      { letter: 'D', text: 'Cláusula de eleição de foro só vale para causas de família.' }
+      { letter: 'A', text: 'A eleição de foro é sempre válida livremente e nunca pode ser recusada de ofício pelo juiz por se tratar de competência territorial, com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco.' },
+      { letter: 'B', text: 'A eleição de foro deve guardar pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação.' },
+      { letter: 'C', text: 'A incompetência relativa nunca pode ser conhecida de ofício em nenhuma hipótese, com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível.' },
+      { letter: 'D', text: 'Cláusula de eleição de foro só vale para causas de família, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' }
     ],
     correctAnswer: 'B',
     justification: `A recente Lei nº 14.879/2024 alterou o Art. 63, §§ 1º e 5º, do CPC para coibir o "forum shopping": exige-se que o foro eleito guarde pertinência com o domicílio/residência de uma das partes ou com o local da obrigação, dispondo o § 5º que o ajuizamento de ação em juízo aleatório, entendido como aquele sem vinculação com o domicílio ou residência das partes ou com o negócio jurídico discutido na demanda, constitui prática abusiva que justifica a declinação de competência de ofício!`,
@@ -639,10 +639,10 @@ Considerando a atualização promovida pela Lei nº 14.879/2024 no Art. 63 do CP
     statement: `Executado em processo autônomo de execução de título extrajudicial (nota promissória) pretende apresentar embargos à execução para alegar excesso de execução.
 Nos termos dos Arts. 914 a 919 do CPC, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Os embargos à execução dependem de prévia garantia integral do juízo por penhora ou depósito.' },
-      { letter: 'B', text: 'Os embargos à execução independem de penhora, depósito ou caução (para serem recebidos), têm prazo de 15 dias úteis, porém a concessão de efeito suspensivo exige requerimento, requisitos da tutela provisória E garantia do juízo.' },
-      { letter: 'C', text: 'Ao alegar excesso de execução, o embargante não precisa apontar o valor que entende correto.' },
-      { letter: 'D', text: 'Os embargos à execução possuem automaticamente efeito suspensivo automático.' }
+      { letter: 'A', text: 'Os embargos à execução dependem de prévia garantia integral do juízo por penhora ou depósito, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' },
+      { letter: 'B', text: 'Os embargos à execução independem de penhora, depósito ou caução, têm prazo de 15 dias úteis, porém a concessão de efeito suspensivo exige requerimento, requisitos da tutela provisória e garantia do juízo.' },
+      { letter: 'C', text: 'Ao alegar excesso de execução, o embargante não precisa apontar o valor que entende correto, sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório.' },
+      { letter: 'D', text: 'Os embargos à execução possuem automaticamente efeito suspensivo automático, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo Art. 914 do CPC, o executado, independentemente de penhora, depósito ou caução, poderá se opor à execução por meio de embargos no prazo de 15 dias úteis (Art. 915). Contudo, os embargos NÃO têm efeito suspensivo automático (Art. 919); para obter efeito suspensivo, o embargante precisa de: 1) requerimento; 2) relevância dos fundamentos + risco de dano grave; e 3) garantia do juízo por penhora, depósito ou caução suficientes (Art. 919, § 1º)!`,
@@ -670,10 +670,10 @@ Nos termos dos Arts. 914 a 919 do CPC, assinale a afirmativa correta:`,
     statement: `Em ação de indenização por danos materiais e morais, o juiz julgou procedente em parte o pedido (sucumbência recíproca), condenando o réu apenas aos danos materiais. O autor não recorreu no prazo dos primeiros 15 dias úteis. O réu, todavia, interpôs apelação tempestiva buscando a improcedência total. Intimado para apresentar contrarrazões, o autor quer aproveitar para pedir a condenação em danos morais via recurso adesivo.
 Nos termos do Art. 997, § 2º, do CPC, sobre o recurso adesivo assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Não cabe recurso adesivo em apelação.' },
-      { letter: 'B', text: 'O recurso adesivo é admissível na apelação, no recurso extraordinário e no recurso especial, devendo ser interposto no prazo de contrarrazões (15 dias), mas ficará subordinado ao recurso principal — não sendo conhecido se houver desistência do recurso principal ou se este for considerado inadmissível.' },
-      { letter: 'C', text: 'O recurso adesivo independe de preparo mesmo quando a parte não tem gratuidade.' },
-      { letter: 'D', text: 'Cabe recurso adesivo também no agravo de instrumento e nos embargos de declaração.' }
+      { letter: 'A', text: 'Não cabe recurso adesivo em apelação, com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial.' },
+      { letter: 'B', text: 'O recurso adesivo é admissível na apelação, no recurso extraordinário e no recurso especial, devendo ser interposto no prazo de contrarrazões (15 dias), mas ficará subordinado ao recurso principal.' },
+      { letter: 'C', text: 'O recurso adesivo independe de preparo mesmo quando a parte não tem gratuidade, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'D', text: 'Cabe recurso adesivo também no agravo de instrumento e nos embargos de declaração, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 997, § 2º, do CPC admite recurso adesivo APENAS em 3 recursos: Apelação, Recurso Extraordinário e Recurso Especial (quando houver sucumbência recíproca). Ele segue o prazo das contrarrazões, exige preparo próprio (salvo isenção/gratuidade), e é subordinado ao recurso principal: se o principal desistir ou não for conhecido, o adesivo não é conhecido.`,
@@ -700,10 +700,10 @@ Nos termos do Art. 997, § 2º, do CPC, sobre o recurso adesivo assinale a afirm
     originType: 'ACADEMICA',
     statement: `Pela Teoria da Asserção, amplamente adotada pelo Superior Tribunal de Justiça e pelo CPC/2015, como deve o magistrado aferir a presença da legitimidade das partes e do interesse de agir?`,
     options: [
-      { letter: 'A', text: 'Somente após o término da instrução probatória e oitiva de testemunhas, extinguindo o processo sem mérito.' },
-      { letter: 'B', text: 'À luz das afirmações deduzidas pelo autor na petição inicial (in status assertionis); caso o juiz precise aprofundar a análise probatória para concluir que o réu não participou do evento danoso, a decisão será de improcedência com resolução do mérito (coisa julgada material).' },
-      { letter: 'C', text: 'A legitimidade e o interesse de agir foram extintos pelo CPC/2015, restando apenas a possibilidade jurídica do pedido.' },
-      { letter: 'D', text: 'A ilegitimidade passiva apurada após prova pericial gera extinção sem resolução do mérito.' }
+      { letter: 'A', text: 'Somente após o término da instrução probatória e oitiva de testemunhas, extinguindo o processo sem mérito, com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas.' },
+      { letter: 'B', text: 'À luz das afirmações deduzidas pelo autor na petição inicial; caso o juiz precise aprofundar a análise probatória para concluir que o réu não participou do evento danoso, a decisão será de improcedência com resolução do mérito.' },
+      { letter: 'C', text: 'A legitimidade e o interesse de agir foram extintos pelo CPC/2015, restando apenas a possibilidade jurídica do pedido, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'D', text: 'A ilegitimidade passiva apurada após prova pericial gera extinção sem resolução do mérito, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual. Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.' }
     ],
     correctAnswer: 'B',
     justification: `Na Teoria da Asserção, as condições da ação (legitimidade e interesse processual — já que a possibilidade jurídica do pedido deixou de ser condição autônoma no CPC/2015) são aferidas em cognição sumária a partir das alegações da petição inicial. Se, após instrução probatória ou cognição exauriente, constatar-se que o réu não é devedor ou não praticou o fato, o juiz julga o mérito IMPROCEDENTE (Art. 487, I, CPC), e não carência de ação.`,
@@ -731,10 +731,10 @@ Nos termos do Art. 997, § 2º, do CPC, sobre o recurso adesivo assinale a afirm
     statement: `Após ser citado em processo de execução cível já em curso, o devedor vendeu seu único automóvel a um terceiro comprador, reduzindo-se à insolvência. O veículo não possuía restrição de penhora nem averbação da execução no prontuário do DETRAN, e o comprador agiu de boa-fé sem saber da demanda.
 À luz do Art. 792 do CPC e da Súmula 375 do STJ, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A venda é automaticamente ineficaz contra o exequente independentemente de registro ou má-fé.' },
-      { letter: 'B', text: 'O reconhecimento da fraude à execução depende do registro da penhora do bem alienado (ou averbação premonitória da execução - Art. 828 CPC) OU da prova de má-fé do terceiro adquirente (Súmula 375 STJ).' },
-      { letter: 'C', text: 'A fraude à execução torna a alienação nula, exigindo ação pauliana autônoma.' },
-      { letter: 'D', text: 'Não existe presunção absoluta de fraude à execução mesmo após averbada a penhora na matrícula do imóvel.' }
+      { letter: 'A', text: 'A venda é automaticamente ineficaz contra o exequente independentemente de registro ou má-fé, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'B', text: 'O reconhecimento da fraude à execução depende do registro da penhora do bem alienado ou da prova de má-fé do terceiro adquirente.' },
+      { letter: 'C', text: 'A fraude à execução torna a alienação nula, exigindo ação pauliana autônoma, com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto.' },
+      { letter: 'D', text: 'Não existe presunção absoluta de fraude à execução mesmo após averbada a penhora na matrícula do imóvel, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo a Súmula 375 do STJ (recepcionada pelo Art. 792, § 2º, do CPC): o reconhecimento da fraude à execução depende do registro da penhora do bem alienado (ou averbação da existência da ação/execução no registro do bem) OU da prova de má-fé do terceiro adquirente. Caso contrário, protege-se o terceiro de boa-fé (cabendo ao exequente provar que o adquirente não adotou cautelas ou sabia da ação).`,
@@ -763,10 +763,10 @@ Nos termos do Art. 997, § 2º, do CPC, sobre o recurso adesivo assinale a afirm
     statement: `Um inquilino deseja pagar pontualmente o aluguel vencido, mas duas pessoas distintas (o ex-cônjuge e a irmã do locador falecido, sem inventário aberto) cobram o aluguel simultaneamente afirmando serem as legítimas credoras.
 Nos termos dos Arts. 539 a 548 do CPC, o instrumento processual adequado para o inquilino livrar-se da mora é:`,
     options: [
-      { letter: 'A', text: 'Ação de depósito.' },
+      { letter: 'A', text: 'Ação de depósito, com formação de coisa julgada formal e material após o exaurimento das vias ordinárias.' },
       { letter: 'B', text: 'Ação de consignação em pagamento fundada em dúvida sobre quem deva legitimamente receber o objeto do pagamento, requerendo a citação de ambos os pretensos credores.' },
-      { letter: 'C', text: 'Mandado de segurança cível.' },
-      { letter: 'D', text: 'Ação monitória passiva.' }
+      { letter: 'C', text: 'Mandado de segurança cível, em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual.' },
+      { letter: 'D', text: 'Ação monitória passiva, observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 335, IV, do CC e o Art. 547 do CPC preveem a ação de consignação em pagamento quando ocorrer dúvida fundada sobre quem deva legitimamente receber. Nesse caso, o autor requer o depósito e a citação dos possíveis titulares para provarem seu direito; se ambos comparecerem, o juiz declarará efetuado o depósito e extinguirá a obrigação do devedor, prosseguindo o processo apenas entre os credores disputantes (Art. 548, III).`,

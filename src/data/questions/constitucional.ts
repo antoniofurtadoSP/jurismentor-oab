@@ -15,8 +15,8 @@ export const CONSTITUCIONAL_QUESTIONS: LegalQuestion[] = [
     options: [
       { letter: 'A', text: 'A confederação sindical é legitimada especial e carece de pertinência temática para impugnar a referida lei federal no STF.' },
       { letter: 'B', text: 'A confederação sindical é legitimada universal, podendo impugnar qualquer lei federal ou estadual sem demonstrar pertinência temática.' },
-      { letter: 'C', text: 'Apenas os partidos políticos com representação no Congresso Nacional dependem de demonstração de pertinência temática.' },
-      { letter: 'D', text: 'O STF admite ADI proposta por confederação sindical independentemente do conteúdo da norma impugnada.' }
+      { letter: 'C', text: 'Apenas os partidos políticos com representação no Congresso Nacional dependem de demonstração de pertinência temática, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente.' },
+      { letter: 'D', text: 'O STF admite ADI proposta por confederação sindical independentemente do conteúdo da norma impugnada, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' }
     ],
     correctAnswer: 'A',
     justification: `O STF classifica os legitimados do art. 103 da CF/88 em universais e especiais. São legitimados especiais: Mesa da Assembleia Legislativa/CLDF, Governador de Estado/DF e Confederação Sindical ou Entidade de Classe de âmbito nacional. Esses legitimados precisam comprovar PERTINÊNCIA TEMÁTICA entre seus objetivos estatutários e a matéria veiculada na lei atacada. Como a entidade representa trabalhadores da educação e a lei versa sobre o sistema financeiro, falta pertinência temática.`,
@@ -43,10 +43,10 @@ export const CONSTITUCIONAL_QUESTIONS: LegalQuestion[] = [
     statement: `Lei promulgada pelo Estado Alfa estabeleceu a proibição de que concessionárias de telefonia móvel e serviços de telecomunicações cobrem tarifas adicionais pelo envio de notificações bancárias aos usuários residentes no território do respectivo Estado, fixando multa administrativa em caso de descumprimento.
 Considerando a sistemática constitucional de repartição de competências da CF/88 e a jurisprudência pacífica do STF:`,
     options: [
-      { letter: 'A', text: 'A lei estadual é inconstitucional por invadir a competência privativa da União para legislar sobre telecomunicações (Art. 22, IV, da CF/88).' },
-      { letter: 'B', text: 'A lei estadual é plenamente constitucional com fundamento na competência concorrente sobre direito do consumidor (Art. 24, V).' },
+      { letter: 'A', text: 'A lei estadual é inconstitucional por invadir a competência privativa da União para legislar sobre telecomunicações.' },
+      { letter: 'B', text: 'A lei estadual é plenamente constitucional com fundamento na competência concorrente sobre direito do consumidor, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' },
       { letter: 'C', text: 'A competência para legislar sobre tarifas de telecomunicações é compartilhada entre União e Municípios com base no interesse local.' },
-      { letter: 'D', text: 'Os Estados possuem competência privativa e exclusiva para fiscalizar e tabelar tarifas de serviços prestados em seu território.' }
+      { letter: 'D', text: 'Os Estados possuem competência privativa e exclusiva para fiscalizar e tabelar tarifas de serviços prestados em seu território, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.' }
     ],
     correctAnswer: 'A',
     justification: `É pacífica e sumulada a jurisprudência do STF (Súmula Vinculante nº 46 e tese reiterada de Repercussão Geral): leis estaduais que impõem obrigações, gratuidades ou regras tarifárias a concessionárias de telefonia e telecomunicações invadem a competência legislativa privativa da União estabelecida no Art. 22, inciso IV, da CF/88.`,
@@ -74,9 +74,9 @@ Considerando a sistemática constitucional de repartição de competências da C
 Diante da negativa e do ordenamento constitucional, assinale o instrumento adequado:`,
     options: [
       { letter: 'A', text: 'Não cabe Habeas Data, pois este remédio constitucional é personalíssimo e destina-se a assegurar o conhecimento de informações relativas à pessoa do próprio impetrante.' },
-      { letter: 'B', text: 'Cabe Habeas Data, pois qualquer cidadão pode obter dados de quaisquer pessoas constantes de bancos de entidades governamentais.' },
-      { letter: 'C', text: 'Cabe Mandado de Injunção por ausência de lei regulamentadora do acesso à informação.' },
-      { letter: 'D', text: 'Cabe Ação Popular direta contra o agente fiscal que negou a exibição de dados de terceiros.' }
+      { letter: 'B', text: 'Cabe Habeas Data, pois qualquer cidadão pode obter dados de quaisquer pessoas constantes de bancos de entidades governamentais. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente.' },
+      { letter: 'C', text: 'Cabe Mandado de Injunção por ausência de lei regulamentadora do acesso à informação, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.' },
+      { letter: 'D', text: 'Cabe Ação Popular direta contra o agente fiscal que negou a exibição de dados de terceiros, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.' }
     ],
     correctAnswer: 'A',
     justification: `O Habeas Data (Art. 5º, LXXII, 'a' da CF/88) possui natureza personalíssima: presta-se para assegurar o conhecimento ou retificação de informações relativas à pessoa do impetrante constantes de registros ou bancos de dados governamentais ou de caráter público. Não serve para bisbilhotar ou obter dados fiscais de terceiros.`,
@@ -103,9 +103,9 @@ Diante da negativa e do ordenamento constitucional, assinale o instrumento adequ
 Considerando os limites materiais ao poder constituinte derivado reformador (Art. 60 da CF/88), a referida PEC:`,
     options: [
       { letter: 'A', text: 'É constitucionalmente admissível, pois a cláusula pétrea resguarda o voto direto, secreto, universal e periódico, não incluindo a sua obrigatoriedade.' },
-      { letter: 'B', text: 'É inconstitucional, pois o caráter obrigatório do sufrágio é cláusula pétrea expressa da CF/88.' },
-      { letter: 'C', text: 'Não pode sequer ser deliberada pelo plenário sem prévia aprovação em plebiscito popular.' },
-      { letter: 'D', text: 'Depende de aprovação por maioria absoluta em sessão conjunta das duas casas do Congresso Nacional.' }
+      { letter: 'B', text: 'É inconstitucional, pois o caráter obrigatório do sufrágio é cláusula pétrea expressa da CF/88. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
+      { letter: 'C', text: 'Não pode sequer ser deliberada pelo plenário sem prévia aprovação em plebiscito popular, em observância estrita à reserva constitucional de competência legislativa privativa.' },
+      { letter: 'D', text: 'Depende de aprovação por maioria absoluta em sessão conjunta das duas casas do Congresso Nacional, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 60, § 4º, inciso II, da CF/88 prevê como cláusula pétrea "o voto direto, secreto, universal e periódico". A OBRIGATORIEDADE do voto NÃO constitui cláusula pétrea. Portanto, nada impede que Emenda Constitucional altere o voto no Brasil para o modelo facultativo.`,
@@ -132,9 +132,9 @@ Considerando os limites materiais ao poder constituinte derivado reformador (Art
 Consoante a tese fixada pelo STF no Tema 280 da Repercussão Geral:`,
     options: [
       { letter: 'A', text: 'A entrada forçada em domicílio sem mandado judicial só é lícita quando amparada em fundadas razões, devidamente justificadas pelas circunstâncias prévias do caso concreto, sob pena de nulidade das provas.' },
-      { letter: 'B', text: 'A constatação posterior de drogas no interior da residência legitima retroativamente a invasão policial domiciliar.' },
-      { letter: 'C', text: 'O estado de flagrante delito em crime permanente autoriza o ingresso domiciliar a qualquer hora do dia ou da noite, independentemente de justa causa prévia.' },
-      { letter: 'D', text: 'A mera fuga ao avistar a viatura policial constitui justa causa suficiente e inquestionável para violação do domicílio.' }
+      { letter: 'B', text: 'A constatação posterior de drogas no interior da residência legitima retroativamente a invasão policial domiciliar, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' },
+      { letter: 'C', text: 'O estado de flagrante delito em crime permanente autoriza o ingresso domiciliar a qualquer hora do dia ou da noite, independentemente de justa causa prévia, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'D', text: 'A mera fuga ao avistar a viatura policial constitui justa causa suficiente e inquestionável para violação do domicílio, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.' }
     ],
     correctAnswer: 'A',
     justification: `No julgamento do RE 603.616 (Tema 280), o STF pacificou a tese: a entrada forçada em domicílio sem mandado judicial só é lícita, mesmo em crime permanente, quando amparada em fundadas razões, devidamente justificadas a posteriori, que indiquem que dentro da casa ocorre situação de flagrante delito, sob pena de responsabilidade disciplinar, civil e penal do agente e de nulidade dos atos praticados.`,
@@ -162,9 +162,9 @@ Consoante a tese fixada pelo STF no Tema 280 da Repercussão Geral:`,
 À luz da Constituição da República de 1988 e da jurisprudência do STF (Súmula Vinculante 2), o remédio constitucional cabível é:`,
     options: [
       { letter: 'A', text: 'Habeas Data, sendo imprescindível a comprovação da recusa da autoridade administrativa em fornecer a informação ou da decorrência de mais de 10 dias sem resposta.' },
-      { letter: 'B', text: 'Mandado de Segurança, pois o Habeas Data destina-se exclusivamente a obter dados de caráter penal ou policial.' },
-      { letter: 'C', text: 'Ação Popular, por se tratar de violação direta ao princípio da publicidade administrativa.' },
-      { letter: 'D', text: 'Habeas Corpus preventivo, em razão de potencial prejuízo à liberdade de locomoção previdenciária.' }
+      { letter: 'B', text: 'Mandado de Segurança, pois o Habeas Data destina-se exclusivamente a obter dados de caráter penal ou policial. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.' },
+      { letter: 'C', text: 'Ação Popular, por se tratar de violação direta ao princípio da publicidade administrativa, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'D', text: 'Habeas Corpus preventivo, em razão de potencial prejuízo à liberdade de locomoção previdenciária, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' }
     ],
     correctAnswer: 'A',
     justification: `O Habeas Data (CF/88, art. 5º, LXXII, 'a' e Lei nº 9.507/97) é a ação constitucional adequada para assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de registros ou bancos de dados de entidades governamentais. A Súmula Vinculante nº 2 do STF estabelece que o não atendimento do pedido de informações no prazo legal de 10 dias configura recusa tácita e legitima o ajuizamento de habeas data.`,
@@ -192,9 +192,9 @@ Consoante a tese fixada pelo STF no Tema 280 da Repercussão Geral:`,
 À luz da Constituição Federal de 1988 e da Súmula Vinculante 18 do STF:`,
     options: [
       { letter: 'A', text: 'Patrícia é inelegível no território de jurisdição do titular, pois a dissolução da sociedade conjugal no curso do mandato não afasta a inelegibilidade reflexa.' },
-      { letter: 'B', text: 'Patrícia é plenamente elegível, porque o divórcio extingue de plano todos os efeitos da afinidade e do parentesco eleitoral.' },
-      { letter: 'C', text: 'Patrícia só seria inelegível se pretendesse concorrer ao mesmo cargo de Governadora, podendo disputar o Poder Legislativo.' },
-      { letter: 'D', text: 'Patrícia poderia se candidatar somente se o Governador renunciasse com pelo menos 6 meses de antecedência.' }
+      { letter: 'B', text: 'Patrícia é plenamente elegível, porque o divórcio extingue de plano todos os efeitos da afinidade e do parentesco eleitoral. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
+      { letter: 'C', text: 'Patrícia só seria inelegível se pretendesse concorrer ao mesmo cargo de Governadora, podendo disputar o Poder Legislativo, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'D', text: 'Patrícia poderia se candidatar somente se o Governador renunciasse com pelo menos 6 meses de antecedência, com produção regular de efeitos jurídicos independentemente de regulamentação complementar.' }
     ],
     correctAnswer: 'A',
     justification: `Nos termos do art. 14, § 7º da CF/88, são inelegíveis, no território de jurisdição do titular, o cônjuge e os parentes até o segundo grau. A Súmula Vinculante nº 18 do STF consolidou a tese de que a dissolução da sociedade ou do vínculo conjugal, no curso do mandato, NÃO afasta a inelegibilidade prevista no § 7º do art. 14 da Constituição Federal, justamente para evitar fraudes eleitorais mediante 'divórcio de conveniência'.`,
@@ -227,15 +227,15 @@ Consoante a tese fixada pelo STF no Tema 280 da Repercussão Geral:`,
       },
       {
         letter: 'B',
-        text: 'A Confederação Sindical é legitimada universal, podendo impugnar qualquer lei federal ou estadual sobre qualquer assunto perante o STF.'
+        text: 'A Confederação Sindical é legitimada universal, podendo impugnar qualquer lei federal ou estadual sobre qualquer assunto perante o STF, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.'
       },
       {
         letter: 'C',
-        text: 'Apenas partidos políticos com representação no Congresso Nacional exigem prova de pertinência temática.'
+        text: 'Apenas partidos políticos com representação no Congresso Nacional exigem prova de pertinência temática, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.'
       },
       {
         letter: 'D',
-        text: 'O Governador de Estado e o Conselho Federal da OAB são os únicos legitimados especiais do art. 103.'
+        text: 'O Governador de Estado e o Conselho Federal da OAB são os únicos legitimados especiais, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.'
       }
     ],
     correctAnswer: 'A',
@@ -269,15 +269,15 @@ Conforme as limitações materiais explícitas impostas ao poder constituinte de
       },
       {
         letter: 'B',
-        text: 'A PEC é plenamente constitucional, pois o Poder Constituinte Derivado é ilimitado, autônomo e incondicionado.'
+        text: 'A pec é plenamente constitucional, pois o Poder Constituinte Derivado é ilimitado, autônomo e incondicionado. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente.'
       },
       {
         letter: 'C',
-        text: 'As cláusulas pétreas podem ser revogadas se a emenda for aprovada por unanimidade em três turnos de votação.'
+        text: 'As cláusulas pétreas podem ser revogadas se a emenda for aprovada por unanimidade em três turnos de votação, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.'
       },
       {
         letter: 'D',
-        text: 'Apenas a forma republicana e o sistema presidencialista constituem cláusulas pétreas no Brasil.'
+        text: 'Apenas a forma republicana e o sistema presidencialista constituem cláusulas pétreas no Brasil, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente.'
       }
     ],
     correctAnswer: 'A',
@@ -311,15 +311,15 @@ Conforme as limitações materiais explícitas impostas ao poder constituinte de
       },
       {
         letter: 'B',
-        text: 'O Habeas Data não é cabível, sendo obrigatório ajuizar Ação Popular com pagamento de preparo e custas iniciais.'
+        text: 'O Habeas Data não é cabível, sendo obrigatório ajuizar Ação Popular com pagamento de preparo e custas iniciais, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.'
       },
       {
         letter: 'C',
-        text: 'Rodrigo deve impetrar Mandado de Injunção, pois não existe lei que discipline o acesso a dados cadastrais no Brasil.'
+        text: 'Rodrigo deve impetrar Mandado de Injunção, pois não existe lei que discipline o acesso a dados cadastrais no Brasil. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.'
       },
       {
         letter: 'D',
-        text: 'Habeas Data só pode ser utilizado para retificar dados, sendo vedado para o mero conhecimento de informações pessoais.'
+        text: 'Habeas Data só pode ser utilizado para retificar dados, sendo vedado para o mero conhecimento de informações pessoais, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.'
       }
     ],
     correctAnswer: 'A',

@@ -15,10 +15,10 @@ export const CONSTITUCIONAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     statement: `Determinado Município editou decreto autônomo criando restrições à circulação de livros didáticos em escolas locais, contrariando diretamente a liberdade de cátedra e o pluralismo de ideias previstos na Constituição Federal de 1988. Uma confederação sindical de âmbito nacional pretende impugnar diretamente o ato perante o Supremo Tribunal Federal.
 À luz da Constituição Federal e da Lei nº 9.882/99, a medida cabível no controle concentrado é:`,
     options: [
-      { letter: 'A', text: 'Ação Direta de Inconstitucionalidade (ADI), pois a norma municipal violou diretamente preceito da Constituição Federal.' },
+      { letter: 'A', text: 'Ação Direta de Inconstitucionalidade (ADI), pois a norma municipal violou diretamente preceito da Constituição Federal. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
       { letter: 'B', text: 'Arguição de Descumprimento de Preceito Fundamental (ADPF), por se tratar de ato normativo municipal em face de preceito fundamental da CF/88, observada a subsidiariedade.' },
-      { letter: 'C', text: 'Ação Declaratória de Constitucionalidade (ADC), para que o STF fixe interpretação conforme à Constituição.' },
-      { letter: 'D', text: 'Mandado de Injunção coletivo originário no STF contra o Prefeito Municipal.' }
+      { letter: 'C', text: 'Ação Declaratória de Constitucionalidade (ADC), para que o STF fixe interpretação conforme à Constituição, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.' },
+      { letter: 'D', text: 'Mandado de Injunção coletivo originário no STF contra o Prefeito Municipal, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente.' }
     ],
     correctAnswer: 'B',
     justification: `Não cabe ADI contra lei ou ato normativo municipal em face da Constituição Federal (Art. 102, I, "a", CF/88 limita a ADI a lei/ato normativo federal ou estadual). O instrumento adequado no controle concentrado perante o STF para impugnar ato municipal ou norma pré-constitucional lesiva a preceito fundamental é a ADPF (Art. 102, § 1º, CF/88 e Art. 1º, parágrafo único, I, da Lei nº 9.882/99).`,
@@ -47,9 +47,9 @@ export const CONSTITUCIONAL_EXTRA_QUESTIONS: LegalQuestion[] = [
 Considerando o Art. 14, § 7º, da CF/88 e a Súmula Vinculante 18 do STF, assinale a afirmativa correta:`,
     options: [
       { letter: 'A', text: 'A dissolução do vínculo conjugal no curso do mandato afasta a inelegibilidade reflexa, podendo Lucas candidatar-se normalmente.' },
-      { letter: 'B', text: 'A dissolução da sociedade ou do vínculo conjugal, no curso do mandato, NÃO afasta a inelegibilidade prevista no § 7º do art. 14 da Constituição Federal.' },
-      { letter: 'C', text: 'Lucas é elegível apenas porque Mariana já está em seu segundo mandato.' },
-      { letter: 'D', text: 'A inelegibilidade reflexa aplica-se apenas a cargos do Poder Executivo, jamais a Vereador.' }
+      { letter: 'B', text: 'A dissolução da sociedade ou do vínculo conjugal, no curso do mandato, não afasta a inelegibilidade prevista no § 7º.' },
+      { letter: 'C', text: 'Lucas é elegível apenas porque Mariana já está em seu segundo mandato. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
+      { letter: 'D', text: 'A inelegibilidade reflexa aplica-se apenas a cargos do Poder Executivo, jamais a Vereador, em observância estrita à reserva constitucional de competência legislativa privativa.' }
     ],
     correctAnswer: 'B',
     justification: `Nos termos da Súmula Vinculante 18 do STF e do Art. 14, § 7º, da CF/88, o cônjuge e os parentes até o segundo grau de Prefeito são inelegíveis no território de jurisdição do titular, salvo se já titulares de mandato eletivo e candidatos à reeleição. Ademais, a dissolução do vínculo conjugal no curso do mandato NÃO afasta a inelegibilidade (SV 18).`,
@@ -78,10 +78,10 @@ Considerando o Art. 14, § 7º, da CF/88 e a Súmula Vinculante 18 do STF, assin
     statement: `Jean nasceu na França, filho de pai francês e mãe brasileira que estava em Paris a turismo. Ao completar 20 anos, Jean mudou-se para o Brasil, passou a residir em Florianópolis e optou pela nacionalidade brasileira perante a Justiça Federal. Dois anos depois, o governo da França solicitou ao Brasil a extradição de Jean pela prática de crime comum praticado em Paris antes da mudança.
 Considerando o Art. 12 e o Art. 5º, LI, da CF/88, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Jean é brasileiro naturalizado e pode ser extraditado pelo crime comum praticado antes da naturalização.' },
+      { letter: 'A', text: 'Jean é brasileiro naturalizado e pode ser extraditado pelo crime comum praticado antes da naturalização, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente.' },
       { letter: 'B', text: 'Jean é brasileiro nato (por critério sanguíneo com residência no Brasil e opção confirmatória), razão pela qual não pode ser extraditado em nenhuma hipótese.' },
-      { letter: 'C', text: 'A opção pela nacionalidade brasileira aos 20 anos gera efeitos ex nunc apenas para direitos políticos, permitindo extradição por fatos anteriores.' },
-      { letter: 'D', text: 'A extradição de brasileiro nato é admitida em caso de tráfico ilícito de entorpecentes.' }
+      { letter: 'C', text: 'A opção pela nacionalidade brasileira aos 20 anos gera efeitos ex nunc apenas para direitos políticos, permitindo extradição por fatos anteriores, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' },
+      { letter: 'D', text: 'A extradição de brasileiro nato é admitida em caso de tráfico ilícito de entorpecentes, sem admitir interpretação extensiva que amplie restrições não previstas na ordem constitucional.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo Art. 12, I, "c", da CF/88, são brasileiros NATOS os nascidos no estrangeiro de pai brasileiro ou de mãe brasileira, desde que sejam registrados em repartição brasileira competente OU venham a residir na República Federativa do Brasil e optem, em qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira. Como brasileiro nato, Jean não pode ser extraditado em nenhuma hipótese (Art. 5º, LI).`,
@@ -109,10 +109,10 @@ Considerando o Art. 12 e o Art. 5º, LI, da CF/88, assinale a afirmativa correta
     statement: `A Assembleia Legislativa de determinado Estado promulgou lei estadual obrigando as empresas de telefonia móvel a instalar equipamentos bloqueadores de sinal nos estabelecimentos prisionais estaduais, sob pena de multa diária. Inconformada, a associação nacional das operadoras ajuizou ADI no STF.
 À luz da repartição de competências da CF/88 e da jurisprudência do STF, essa lei estadual é:`,
     options: [
-      { letter: 'A', text: 'Constitucional, por se tratar de competência concorrente sobre direito penitenciário e segurança pública.' },
+      { letter: 'A', text: 'Constitucional, por se tratar de competência concorrente sobre direito penitenciário e segurança pública, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' },
       { letter: 'B', text: 'Inconstitucional por vício formal, pois compete privativamente à União legislar sobre telecomunicações.' },
-      { letter: 'C', text: 'Constitucional, por tratar de matéria de interesse regional e proteção ao consumidor.' },
-      { letter: 'D', text: 'Inconstitucional apenas se houver lei federal proibindo o bloqueio.' }
+      { letter: 'C', text: 'Constitucional, por tratar de matéria de interesse regional e proteção ao consumidor, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'D', text: 'Inconstitucional apenas se houver lei federal proibindo o bloqueio, com vedação à modulação ou relativização de efeitos por ato normativo infralegal superveniente.' }
     ],
     correctAnswer: 'B',
     justification: `Nos termos do Art. 22, IV, da CF/88 e da jurisprudência reiterada do STF (ADI 5.356 e ADIs sobre bloqueadores de celular em presídios), compete PRIVATIVAMENTE à União legislar sobre telecomunicações, sendo formalmente inconstitucional lei estadual que imponha obrigações às operadoras de telefonia móvel, ainda que sob justificativa de segurança penitenciária.`,
@@ -142,9 +142,9 @@ Considerando o Art. 12 e o Art. 5º, LI, da CF/88, assinale a afirmativa correta
 Considerando o Art. 62, § 1º, da CF/88, assinale a afirmativa correta:`,
     options: [
       { letter: 'A', text: 'A Medida Provisória é válida quanto aos itens I e III, mas vedada quanto ao item II, pois é proibido editar MP sobre direito penal.' },
-      { letter: 'B', text: 'É vedada a edição de Medida Provisória em matéria tributária, tornando nulo também o item I.' },
-      { letter: 'C', text: 'A Medida Provisória é válida em todos os itens em razão da urgência e relevância.' },
-      { letter: 'D', text: 'É vedada Medida Provisória sobre direito penal apenas quando agravar a pena, sendo admitida para criar tipos penais brandos.' }
+      { letter: 'B', text: 'É vedada a edição de Medida Provisória em matéria tributária, tornando nulo também o item I, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'C', text: 'A Medida Provisória é válida em todos os itens em razão da urgência e relevância, com produção regular de efeitos jurídicos independentemente de regulamentação complementar.' },
+      { letter: 'D', text: 'É vedada Medida Provisória sobre direito penal apenas quando agravar a pena, sendo admitida para criar tipos penais brandos, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' }
     ],
     correctAnswer: 'A',
     justification: `O Art. 62, § 1º, inciso I, alínea "b", da CF/88 proíbe expressamente a edição de Medida Provisória relativa a direito penal, processual penal e processual civil. Já matéria tributária (respeitada a anterioridade do Art. 62, § 2º, quando aplicável) e organização administrativa (criação de cargos públicos na estrutura executiva, não reservada a lei complementar) são admitidas.`,
@@ -203,10 +203,10 @@ Para assegurar o conhecimento e a retificação dessas informações pessoais, o
     originType: 'ACADEMICA',
     statement: `Segundo a clássica classificação de José Afonso da Silva sobre a eficácia e aplicabilidade das normas constitucionais, o Art. 5º, XIII, da CF/88 ("é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer") classifica-se como norma constitucional de eficácia:`,
     options: [
-      { letter: 'A', text: 'Plena, pois não admite qualquer restrição por lei infraconstitucional.' },
+      { letter: 'A', text: 'Plena, pois não admite qualquer restrição por lei infraconstitucional. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
       { letter: 'B', text: 'Contida (ou restringível), pois possui aplicabilidade direta e imediata, mas o legislador infraconstitucional pode restringir seu alcance ao estabelecer qualificações profissionais.' },
-      { letter: 'C', text: 'Limitada de princípio institutivo, dependendo integralmente de lei complementar para produzir qualquer efeito.' },
-      { letter: 'D', text: 'Programática, servindo apenas como meta futura ao legislador ordinário.' }
+      { letter: 'C', text: 'Limitada de princípio institutivo, dependendo integralmente de lei complementar para produzir qualquer efeito, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' },
+      { letter: 'D', text: 'Programática, servindo apenas como meta futura ao legislador ordinário, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.' }
     ],
     correctAnswer: 'B',
     justification: `Normas de eficácia CONTIDA (ou prospectiva/restringível) têm aplicabilidade direta, imediata e integral desde a promulgação da Constituição, mas permitem que lei infraconstitucional (ou conceitos éticos/técnicos) restrinja sua abrangência, exatamente como o Art. 5º, XIII (livre exercício profissional até que lei exija qualificação, como o Exame da OAB).`,
@@ -235,9 +235,9 @@ Para assegurar o conhecimento e a retificação dessas informações pessoais, o
 À luz do Art. 58, § 3º, da CF/88 e da jurisprudência do STF sobre reserva de jurisdição, a CPI possui poderes para determinar:`,
     options: [
       { letter: 'A', text: 'Apenas o item I (quebra de sigilo bancário, fiscal e de dados), dependendo os itens II e III de ordem judicial.' },
-      { letter: 'B', text: 'Os itens I e III, cabendo ao juiz apenas a prisão preventiva.' },
-      { letter: 'C', text: 'Todos os três itens, pois tem poderes de investigação próprios das autoridades judiciais.' },
-      { letter: 'D', text: 'Nenhum dos três itens sem autorização prévia do Presidente da Câmara.' }
+      { letter: 'B', text: 'Os itens I e III, cabendo ao juiz apenas a prisão preventiva, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' },
+      { letter: 'C', text: 'Todos os três itens, pois tem poderes de investigação próprios das autoridades judiciais. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
+      { letter: 'D', text: 'Nenhum dos três itens sem autorização prévia do Presidente da Câmara, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' }
     ],
     correctAnswer: 'A',
     justification: `As CPIs têm poderes de investigação próprios das autoridades judiciais (Art. 58, § 3º, CF/88), podendo decretar fundamentadamente a quebra de sigilo bancário, fiscal e de registros telefônicos (dados já passados). Contudo, estão sujeitas à cláusula constitucional de RESERVA DE JURISDIÇÃO quanto à prisão (salvo flagrante), busca e apreensão domiciliar e interceptação telefônica (escuta em tempo real - Art. 5º, XII, CF/88).`,
@@ -265,10 +265,10 @@ Para assegurar o conhecimento e a retificação dessas informações pessoais, o
     statement: `Um Deputado Federal, após a diplomação, foi preso em flagrante pela prática de crime inafiançável de tráfico de drogas fora do Congresso Nacional. No dia seguinte, um Senador da República proferiu discurso na tribuna do Senado imputando fatos políticos graves a um Ministro de Estado no exercício do mandato.
 Considerando o Art. 53 da CF/88, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A prisão do Deputado é ilegal porque parlamentares federais nunca podem ser presos antes da sentença transitada em julgado.' },
-      { letter: 'B', text: 'Em caso de flagrante de crime inafiançável, os autos serão remetidos dentro de 24 horas à Câmara dos Deputados, para que, pelo voto da maioria de seus membros, resolva sobre a prisão; quanto ao Senador, ele é inviolável civil e penalmente por suas opiniões, palavras e votos proferidos da tribuna.' },
-      { letter: 'C', text: 'Os autos da prisão em flagrante do Deputado devem ser remetidos ao STF, que decidirá definitivamente sem participação da Câmara.' },
-      { letter: 'D', text: 'A imunidade material do Senador cobre apenas responsabilidade penal, mantendo-se a responsabilidade civil por danos morais.' }
+      { letter: 'A', text: 'A prisão do Deputado é ilegal porque parlamentares federais nunca podem ser presos antes da sentença transitada em julgado. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente.' },
+      { letter: 'B', text: 'Em caso de flagrante de crime inafiançável, os autos serão remetidos dentro de 24 horas à Câmara dos Deputados, para que, pelo voto da maioria de seus membros, resolva sobre a prisão.' },
+      { letter: 'C', text: 'Os autos da prisão em flagrante do Deputado devem ser remetidos ao STF, que decidirá definitivamente sem participação da Câmara, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.' },
+      { letter: 'D', text: 'A imunidade material do Senador cobre apenas responsabilidade penal, mantendo-se a responsabilidade civil por danos morais, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 53, caput, da CF/88 estabelece a imunidade material (inviolabilidade civil E penal por quaisquer opiniões, palavras e votos ligados ao exercício parlamentar). Já o Art. 53, § 2º, determina que desde a expedição do diploma os membros do Congresso Nacional não poderão ser presos, salvo em flagrante de crime inafiançável, caso em que os autos serão remetidos dentro de 24 horas à Casa respectiva para que, pelo voto da maioria de seus membros, resolva sobre a prisão.`,
@@ -328,10 +328,10 @@ Nos termos do Art. 5º, LXXIII, da CF/88 e da Lei nº 4.717/65, possuem legitimi
     statement: `O Brasil ratificou determinado tratado internacional de proteção aos direitos humanos aprovado no Congresso Nacional pelo quórum de maioria simples em turno único nas duas Casas. Posteriormente, verificou-se conflito entre um dispositivo desse tratado e uma lei ordinária federal anterior.
 Segundo a jurisprudência consolidada do STF e o Art. 5º, § 3º, da CF/88, esse tratado possui hierarquia:`,
     options: [
-      { letter: 'A', text: 'Equivalente às emendas constitucionais.' },
+      { letter: 'A', text: 'Equivalente às emendas constitucionais, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.' },
       { letter: 'B', text: 'Supralegal (acima das leis ordinárias e abaixo da Constituição Federal), paralisando a eficácia da lei ordinária com ele incompatível.' },
-      { letter: 'C', text: 'De lei ordinária comum, devendo prevalecer a norma que tratar do tema de modo mais específico.' },
-      { letter: 'D', text: 'De lei complementar tributária.' }
+      { letter: 'C', text: 'De lei ordinária comum, devendo prevalecer a norma que tratar do tema de modo mais específico, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente.' },
+      { letter: 'D', text: 'De lei complementar tributária, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' }
     ],
     correctAnswer: 'B',
     justification: `Os tratados internacionais de direitos humanos aprovados pelo quórum qualificado do Art. 5º, § 3º (3/5 em dois turnos em cada Casa) equivalem às emendas constitucionais. Já os tratados de direitos humanos aprovados pelo rito comum (ou anteriores à EC 45/2004, como o Pacto de San José da Costa Rica) possuem status SUPRALEGAL (acima das leis, abaixo da CF/88), conforme decidiu o STF no RE 466.343.`,
@@ -361,9 +361,9 @@ Segundo a jurisprudência consolidada do STF e o Art. 5º, § 3º, da CF/88, ess
 Comparando o Estado de Defesa (Art. 136) e o Estado de Sítio (Art. 137), assinale a afirmativa correta:`,
     options: [
       { letter: 'A', text: 'O Presidente pode decretar o Estado de Defesa ouvidos o Conselho da República e o Conselho de Defesa Nacional, submetendo o decreto em 24 horas ao Congresso Nacional, que decidirá por maioria absoluta.' },
-      { letter: 'B', text: 'Tanto o Estado de Defesa quanto o Estado de Sítio dependem de autorização prévia do Congresso Nacional antes da decretação presidencial.' },
-      { letter: 'C', text: 'O Estado de Defesa pode durar até 60 dias prorrogáveis indefinidamente.' },
-      { letter: 'D', text: 'Durante a vigência do Estado de Defesa é permitida emenda constitucional visando à reforma política.' }
+      { letter: 'B', text: 'Tanto o Estado de Defesa quanto o Estado de Sítio dependem de autorização prévia do Congresso Nacional antes da decretação presidencial, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'C', text: 'O Estado de Defesa pode durar até 60 dias prorrogáveis indefinidamente, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários.' },
+      { letter: 'D', text: 'Durante a vigência do Estado de Defesa é permitida emenda constitucional visando à reforma política, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' }
     ],
     correctAnswer: 'A',
     justification: `No Estado de Defesa (Art. 136, CF/88), o Presidente decreta diretamente após ouvir o Conselho da República e o Conselho de Defesa Nacional, e submete o ato com justificativa ao Congresso Nacional dentro de 24 horas (Art. 136, § 4º), que decide por maioria absoluta (§ 6º). Já no Estado de Sítio (Art. 137), o Presidente solicita autorização PRÉVIA ao Congresso Nacional.`,
@@ -391,10 +391,10 @@ Comparando o Estado de Defesa (Art. 136) e o Estado de Sítio (Art. 137), assina
     statement: `Um grupo de Senadores apresentou Proposta de Emenda à Constituição (PEC) com o objetivo de tornar facultativo o voto nas eleições gerais no Brasil, bem como extinguir a periodicidade das eleições municipais, prorrogando mandatos de prefeitos por prazo indeterminado.
 Considerando o Art. 60, § 4º, da Constituição Federal de 1988, a PEC deve ser considerada:`,
     options: [
-      { letter: 'A', text: 'Integralmente inconstitucional, pois tanto a obrigatoriedade do voto quanto a periodicidade são cláusulas pétreas.' },
-      { letter: 'B', text: 'Inconstitucional na parte que extingue a periodicidade das eleições (pois viola o voto direto, secreto, universal e periódico), mas constitucional quanto à discussão sobre obrigatoriedade ou facultatividade do voto.' },
-      { letter: 'C', text: 'Integralmente constitucional caso seja aprovada por três quintos em dois turnos.' },
-      { letter: 'D', text: 'Inconstitucional apenas porque PEC só pode ser proposta pelo Presidente da República.' }
+      { letter: 'A', text: 'Integralmente inconstitucional, pois tanto a obrigatoriedade do voto quanto a periodicidade são cláusulas pétreas. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
+      { letter: 'B', text: 'Inconstitucional na parte que extingue a periodicidade das eleições, mas constitucional quanto à discussão sobre obrigatoriedade ou facultatividade do voto.' },
+      { letter: 'C', text: 'Integralmente constitucional caso seja aprovada por três quintos em dois turnos, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'D', text: 'Inconstitucional apenas porque pec só pode ser proposta pelo Presidente da República. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 60, § 4º, II, da CF/88 protege como cláusula pétrea o voto direto, secreto, universal e PERIÓDICO — não incluindo a obrigatoriedade do voto no rol imutável (a doutrina e o STF distinguem o voto obrigatório das características protegidas no inciso II). Prorrogar mandatos indefinidamente violaria a periodicidade e a forma republicana/democrática.`,
@@ -422,10 +422,10 @@ Considerando o Art. 60, § 4º, da Constituição Federal de 1988, a PEC deve se
     statement: `Ao julgar apelação cível interposta por contribuinte, uma Câmara Cível (órgão fracionário) de Tribunal de Justiça estadual, sem declarar formalmente a inconstitucionalidade de lei estadual vigente, afastou sua aplicação no caso concreto por entendê-la incompatível com o princípio constitucional da igualdade, sem submeter a questão ao Órgão Especial ou Plenário do Tribunal.
 Segundo o Art. 97 da CF/88 e a Súmula Vinculante 10 do STF, essa decisão fracionária é:`,
     options: [
-      { letter: 'A', text: 'Válida, pois não houve declaração expressa de inconstitucionalidade.' },
+      { letter: 'A', text: 'Válida, pois não houve declaração expressa de inconstitucionalidade. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.' },
       { letter: 'B', text: 'Nula por violar a cláusula de reserva de plenário, mesmo que o órgão fracionário não tenha declarado expressamente a inconstitucionalidade.' },
-      { letter: 'C', text: 'Válida, porque o controle difuso dispensa reserva de plenário nos tribunais estaduais.' },
-      { letter: 'D', text: 'Nula apenas se envolver lei federal, não se aplicando a lei estadual.' }
+      { letter: 'C', text: 'Válida, porque o controle difuso dispensa reserva de plenário nos tribunais estaduais. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
+      { letter: 'D', text: 'Nula apenas se envolver lei federal, não se aplicando a lei estadual, sem admitir interpretação extensiva que amplie restrições não previstas na ordem constitucional.' }
     ],
     correctAnswer: 'B',
     justification: `A Súmula Vinculante 10 do STF dispõe expressamente que viola a cláusula de reserva de plenário (CF, Art. 97) a decisão de órgão fracionário de tribunal que, embora não declare expressamente a inconstitucionalidade de lei ou ato normativo do Poder Público, afasta sua incidência, no todo ou em parte.`,
@@ -455,9 +455,9 @@ Segundo o Art. 97 da CF/88 e a Súmula Vinculante 10 do STF, essa decisão fraci
 De acordo com a jurisprudência consolidada do STF (Temas 793 e 500 de Repercussão Geral) e do STJ, assinale a afirmativa correta:`,
     options: [
       { letter: 'A', text: 'Os entes da federação respondem solidariamente nas demandas prestacionais na área da saúde, competindo à autoridade judicial direcionar o cumprimento conforme as regras de repartição de competências e determinar o ressarcimento a quem suportou o ônus financeiro.' },
-      { letter: 'B', text: 'O Poder Público está obrigado a fornecer gratuitamente qualquer medicamento experimental ainda sem registro na ANVISA em qualquer hipótese.' },
-      { letter: 'C', text: 'O Município não possui legitimidade passiva em demandas de saúde, que cabem exclusivamente à União.' },
-      { letter: 'D', text: 'A ausência na lista do SUS impede definitivamente o acesso judicial ao medicamento, mesmo diante de comprovação médica de imprescindibilidade.' }
+      { letter: 'B', text: 'O Poder Público está obrigado a fornecer gratuitamente qualquer medicamento experimental ainda sem registro na ANVISA em qualquer hipótese, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.' },
+      { letter: 'C', text: 'O Município não possui legitimidade passiva em demandas de saúde, que cabem exclusivamente à União, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'D', text: 'A ausência na lista do SUS impede definitivamente o acesso judicial ao medicamento, mesmo diante de comprovação médica de imprescindibilidade, com vedação à modulação ou relativização de efeitos por ato normativo infralegal superveniente.' }
     ],
     correctAnswer: 'A',
     justification: `No Tema 793 da Repercussão Geral, o STF reafirmou que os entes da Federação (União, Estados, DF e Municípios) são solidariamente responsáveis nas demandas de saúde, cabendo ao juiz direcionar o cumprimento de acordo com as competências administrativas e determinar o ressarcimento. Para medicamentos sem registro na ANVISA, a regra geral é a negativa (Tema 500), com exceções estritas.`,
@@ -486,10 +486,10 @@ De acordo com a jurisprudência consolidada do STF (Temas 793 e 500 de Repercuss
     statement: `Um Estado da Federação aprovou lei estabelecendo que o ensino religioso nas escolas públicas de ensino fundamental será de matrícula facultativa, porém de conteúdo confessional vinculado a uma religião específica escolhida pelos alunos, custeado sem discriminação.
 Segundo o Art. 210, § 1º, da CF/88 e o entendimento do STF na ADI 4.439, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'O ensino religioso nas escolas públicas é proibido pela laicidade do Estado.' },
+      { letter: 'A', text: 'O ensino religioso nas escolas públicas é proibido pela laicidade do Estado, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
       { letter: 'B', text: 'O ensino religioso, de matrícula facultativa, constituirá disciplina dos horários normais das escolas públicas de ensino fundamental, sendo admitido pelo STF o ensino inclusive em caráter confessional, desde que respeitada a matrícula facultativa e vedado o proselitismo estatal impositivo.' },
-      { letter: 'C', text: 'O ensino religioso é obrigatório até o ensino médio, com dispensa apenas mediante declaração judicial.' },
-      { letter: 'D', text: 'Apenas o Município pode ofertar ensino religioso na rede privada.' }
+      { letter: 'C', text: 'O ensino religioso é obrigatório até o ensino médio, com dispensa apenas mediante declaração judicial, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.' },
+      { letter: 'D', text: 'Apenas o Município pode ofertar ensino religioso na rede privada, com produção regular de efeitos jurídicos independentemente de regulamentação complementar.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 210, § 1º, da CF/88 dispõe que o ensino religioso, de matrícula facultativa, constituirá disciplina dos horários normais das escolas públicas de ensino fundamental. Na ADI 4.439, o STF decidiu que não ofende a laicidade estatal o ensino religioso de caráter confessional nas escolas públicas, desde que preservada a matrícula facultativa e o pluralismo.`,
@@ -518,10 +518,10 @@ Segundo o Art. 210, § 1º, da CF/88 e o entendimento do STF na ADI 4.439, assin
     statement: `Um movimento estudantil organizou passeata pacífica e sem armas na principal avenida da cidade para reivindicar passe livre estudantil. O movimento divulgou amplamente o evento pelas redes sociais e imprensa com uma semana de antecedência, mas não protocolou ofício formal de comunicação na prefeitura. A polícia municipal tentou dispersar a passeata alegando ausência de autorização prévia.
 À luz do Art. 5º, XVI, da CF/88 e da jurisprudência do STF (RE 806.339), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A passeata é ilegal porque exige autorização prévia da autoridade policial.' },
-      { letter: 'B', text: 'Todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, independentemente de autorização, desde que não frustrem outra reunião anteriormente convocada, bastando prévio aviso — que o STF entende cumprido mesmo quando o evento ganha publicidade suficiente para ciência do poder público.' },
-      { letter: 'C', text: 'O direito de reunião aplica-se apenas a sindicatos e partidos políticos registrados.' },
-      { letter: 'D', text: 'Qualquer reunião em via pública pode ser dissolvida livremente pelo prefeito por decreto municipal.' }
+      { letter: 'A', text: 'A passeata é ilegal porque exige autorização prévia da autoridade policial. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.' },
+      { letter: 'B', text: 'Todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, independentemente de autorização, desde que não frustrem outra reunião anteriormente convocada, bastando prévio aviso.' },
+      { letter: 'C', text: 'O direito de reunião aplica-se apenas a sindicatos e partidos políticos registrados, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'D', text: 'Qualquer reunião em via pública pode ser dissolvida livremente pelo prefeito por decreto municipal, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 5º, XVI, da CF/88 garante o direito de reunião pacífica e sem armas em locais abertos ao público, independentemente de autorização (exige apenas prévio aviso, nunca autorização!). No RE 806.339 (Tema 855), o STF fixou que a exigência de prévio aviso não condiciona o direito à notificação formal burocrática se o poder público pôde tomar ciência prévia do evento para organizar o trânsito e a segurança.`,
@@ -550,10 +550,10 @@ Segundo o Art. 210, § 1º, da CF/88 e o entendimento do STF na ADI 4.439, assin
     statement: `Determinado Estado-membro deixou de aplicar o mínimo exigido da receita resultante de impostos estaduais na manutenção e desenvolvimento do ensino (princípio constitucional sensível previsto no Art. 34, VII, "e", da CF/88).
 Para a decretação da Intervenção Federal nessa hipótese específica de violação a princípio constitucional sensível, o Art. 36, III, da CF/88 exige:`,
     options: [
-      { letter: 'A', text: 'Apenas decreto espontâneo do Presidente da República, ouvido o Conselho da República.' },
+      { letter: 'A', text: 'Apenas decreto espontâneo do Presidente da República, ouvido o Conselho da República, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente.' },
       { letter: 'B', text: 'Provimento, pelo Supremo Tribunal Federal, de representação do Procurador-Geral da República (Ação Direta Interventiva).' },
-      { letter: 'C', text: 'Requisição direta do Tribunal de Justiça estadual ao Governador.' },
-      { letter: 'D', text: 'Autorização prévia de dois terços dos Deputados Federais antes de qualquer medida judicial.' }
+      { letter: 'C', text: 'Requisição direta do Tribunal de Justiça estadual ao Governador, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' },
+      { letter: 'D', text: 'Autorização prévia de dois terços dos Deputados Federais antes de qualquer medida judicial, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' }
     ],
     correctAnswer: 'B',
     justification: `Nos termos do Art. 36, III, da CF/88, a decretação de intervenção federal para assegurar a observância dos princípios constitucionais sensíveis (Art. 34, VII) depende de provimento, pelo Supremo Tribunal Federal, de representação do Procurador-Geral da República (conhecida como Ação Direta Interventiva ou Representação Interventiva).`,
@@ -581,10 +581,10 @@ Para a decretação da Intervenção Federal nessa hipótese específica de viol
     statement: `O Presidente da República foi formalmente acusado da prática de crime de responsabilidade (impeachment) por ato atentatório à lei orçamentária, bem como da prática de crime comum estranho ao exercício das funções cometido antes da posse no mandato atual.
 De acordo com o Art. 86 e o § 4º da CF/88, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Ambos os processos tramitam imediatamente no STF desde o recebimento da queixa pela Câmara.' },
-      { letter: 'B', text: 'Admitida a acusação contra o Presidente por dois terços da Câmara dos Deputados, será submetido a julgamento perante o Senado Federal nos crimes de responsabilidade; quanto ao crime comum estranho ao exercício das funções, o Presidente goza de imunidade temporária e não pode ser responsabilizado na vigência do mandato.' },
-      { letter: 'C', text: 'O Senado Federal julga tanto os crimes comuns quanto os crimes de responsabilidade do Presidente.' },
-      { letter: 'D', text: 'O Presidente só é afastado de suas funções após a condenação definitiva pelo Senado.' }
+      { letter: 'A', text: 'Ambos os processos tramitam imediatamente no STF desde o recebimento da queixa pela Câmara, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.' },
+      { letter: 'B', text: 'Admitida a acusação contra o Presidente por dois terços da Câmara dos Deputados, será submetido a julgamento perante o Senado Federal nos crimes de responsabilidade.' },
+      { letter: 'C', text: 'O Senado Federal julga tanto os crimes comuns quanto os crimes de responsabilidade do Presidente, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'D', text: 'O Presidente só é afastado de suas funções após a condenação definitiva pelo Senado, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo o Art. 86 da CF/88: admitida a acusação por 2/3 da Câmara dos Deputados, o Presidente é julgado pelo STF nos crimes comuns (relacionados ao cargo em curso) e pelo Senado Federal nos crimes de responsabilidade. Pelo § 4º do Art. 86, o Presidente, na vigência de seu mandato, NÃO pode ser responsabilizado por atos estranhos ao exercício de suas funções (imunidade formal temporária à persecução penal).`,
@@ -612,10 +612,10 @@ De acordo com o Art. 86 e o § 4º da CF/88, assinale a afirmativa correta:`,
     statement: `Um grande proprietário urbano mantém imóvel ocioso em área incluída no plano diretor municipal há anos, descumprindo sucessivamente as etapas de parcelamento/edificação compulsórios e a cobrança do IPTU progressivo no tempo por 5 anos consecutivos sem atingir a função social da propriedade.
 Nos termos do Art. 182, § 4º, III, da CF/88, o Município poderá promover:`,
     options: [
-      { letter: 'A', text: 'Desapropriação com pagamento em dinheiro prévio e justo, acrescido de juros compensatórios.' },
+      { letter: 'A', text: 'Desapropriação com pagamento em dinheiro prévio e justo, acrescido de juros compensatórios, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.' },
       { letter: 'B', text: 'Desapropriação com pagamento mediante títulos da dívida pública de emissão previamente aprovada pelo Senado Federal, com prazo de resgate de até dez anos, em parcelas anuais, iguais e sucessivas.' },
-      { letter: 'C', text: 'Confisco imediato do imóvel sem qualquer indenização ao proprietário.' },
-      { letter: 'D', text: 'Desapropriação com pagamento em títulos da dívida agrária resgatáveis em até vinte anos.' }
+      { letter: 'C', text: 'Confisco imediato do imóvel sem qualquer indenização ao proprietário, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
+      { letter: 'D', text: 'Desapropriação com pagamento em títulos da dívida agrária resgatáveis em até vinte anos, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 182, § 4º, da CF/88 prevê a sequência sancionatória urbana: 1) parcelamento/edificação compulsórios; 2) IPTU progressivo no tempo (até 5 anos); 3) desapropriação com pagamento mediante TÍTULOS DA DÍVIDA PÚBLICA (emissão aprovada pelo Senado Federal), resgatáveis em até 10 anos, em parcelas anuais, iguais e sucessivas.`,
@@ -644,9 +644,9 @@ Nos termos do Art. 182, § 4º, III, da CF/88, o Município poderá promover:`,
 Assinale a alternativa que apresenta APENAS direitos constitucionalmente estendidos à categoria dos trabalhadores domésticos:`,
     options: [
       { letter: 'A', text: 'Salário mínimo, décimo terceiro salário, férias anuais acrescidas de 1/3, FGTS e seguro-desemprego.' },
-      { letter: 'B', text: 'Participação nos lucros ou resultados da residência e adicional de periculosidade.' },
-      { letter: 'C', text: 'Piso salarial proporcional à extensão do trabalho e adicional de penosidade.' },
-      { letter: 'D', text: 'Aviso prévio proporcional de no máximo 15 dias e jornada máxima de 36 horas semanais.' }
+      { letter: 'B', text: 'Participação nos lucros ou resultados da residência e adicional de periculosidade, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente.' },
+      { letter: 'C', text: 'Piso salarial proporcional à extensão do trabalho e adicional de penosidade, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'D', text: 'Aviso prévio proporcional de no máximo 15 dias e jornada máxima de 36 horas semanais, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' }
     ],
     correctAnswer: 'A',
     justification: `O Art. 7º, parágrafo único, da CF/88 assegura expressamente aos trabalhadores domésticos salário mínimo, 13º salário, férias + 1/3, FGTS, seguro-desemprego, salário-família, adicional noturno, hora extra de no mínimo 50%, jornada de 8h/44h semanais, licença-maternidade, aviso prévio proporcional e proteção contra dispensa arbitrária.`,
@@ -674,10 +674,10 @@ Assinale a alternativa que apresenta APENAS direitos constitucionalmente estendi
     statement: `Após aprovação de projeto de lei ordinária pela Câmara dos Deputados e pelo Senado Federal, o texto seguiu para sanção presidencial. O Presidente da República vetou apenas uma expressão específica dentro de um inciso do Art. 4º do projeto, por considerá-la contrária ao interesse público, sancionando todo o restante.
 Nos termos do Art. 66 da Constituição Federal de 1988, a conduta presidencial é:`,
     options: [
-      { letter: 'A', text: 'Constitucional, pois o Presidente tem liberdade para vetar qualquer palavra isolada do projeto.' },
+      { letter: 'A', text: 'Constitucional, pois o Presidente tem liberdade para vetar qualquer palavra isolada do projeto. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
       { letter: 'B', text: 'Inconstitucional, pois o veto parcial somente abrangerá texto integral de artigo, de parágrafo, de inciso ou de alínea, vedado o veto de palavra ou expressão isolada.' },
-      { letter: 'C', text: 'Constitucional, mas a derrubada pelo Congresso dependerá de quórum de três quintos.' },
-      { letter: 'D', text: 'Inconstitucional apenas porque não existe veto político por interesse público, apenas veto jurídico.' }
+      { letter: 'C', text: 'Constitucional, mas a derrubada pelo Congresso dependerá de quórum de três quintos, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' },
+      { letter: 'D', text: 'Inconstitucional apenas porque não existe veto político por interesse público, apenas veto jurídico. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 66, § 2º, da CF/88 proíbe o veto de palavra isolada para evitar que o Presidente altere o sentido da norma legislando positivamente: o veto parcial somente abrangerá texto INTEGRAL de artigo, de parágrafo, de inciso ou de alínea.`,
@@ -705,10 +705,10 @@ Nos termos do Art. 66 da Constituição Federal de 1988, a conduta presidencial 
     statement: `Agentes policiais em patrulhamento noturno receberam denúncia anônima genérica de que um morador guardava entorpecentes em casa. Sem mandado judicial e sem observar qualquer movimentação suspeita externa ou tentativa de fuga, arrombaram a porta da residência às 23h e encontraram pequena quantidade de droga no quarto.
 Segundo o Art. 5º, XI, da CF/88 e o entendimento firmado pelo STF no RE 603.616 (Tema 280), a prova obtida é:`,
     options: [
-      { letter: 'A', text: 'Lícita, porque o tráfico de drogas é crime permanente, autorizando o ingresso domiciliar a qualquer hora por mera denúncia anônima.' },
-      { letter: 'B', text: 'Ilícita, pois o ingresso forçado em domicílio sem mandado judicial só se legitima quando amparado em fundadas razões, devidamente justificadas a posteriori, que indiquem situação de flagrante delito — o que não é suprido por denúncia anônima isolada.' },
-      { letter: 'C', text: 'Lícita, porque a garantia da inviolabilidade domiciliar só protege o imóvel próprio, não alcançando imóvel alugado.' },
-      { letter: 'D', text: 'Ilícita apenas quanto ao período noturno, tornando-se válida se fosse às 14h sem mandado.' }
+      { letter: 'A', text: 'Lícita, porque o tráfico de drogas é crime permanente, autorizando o ingresso domiciliar a qualquer hora por mera denúncia anônima. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.' },
+      { letter: 'B', text: 'Ilícita, pois o ingresso forçado em domicílio sem mandado judicial só se legitima quando amparado em fundadas razões, devidamente justificadas a posteriori, que indiquem situação de flagrante delito.' },
+      { letter: 'C', text: 'Lícita, porque a garantia da inviolabilidade domiciliar só protege o imóvel próprio, não alcançando imóvel alugado. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.' },
+      { letter: 'D', text: 'Ilícita apenas quanto ao período noturno, tornando-se válida se fosse às 14h sem mandado, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente.' }
     ],
     correctAnswer: 'B',
     justification: `No Tema 280 da Repercussão Geral (RE 603.616), o STF definiu que a entrada forçada em domicílio sem mandado judicial só é lícita, mesmo em período noturno, quando amparada em FUNDADAS RAZÕES, devidamente justificadas a posteriori, que indiquem que dentro da casa ocorre situação de flagrante delito. Denúncia anônima isolada não configura fundada razão.`,
@@ -737,9 +737,9 @@ Segundo o Art. 5º, XI, da CF/88 e o entendimento firmado pelo STF no RE 603.616
     statement: `Sobre a composição e as atribuições constitucionais do Conselho Nacional de Justiça (CNJ), previstas no Art. 103-B da CF/88, assinale a afirmativa correta:`,
     options: [
       { letter: 'A', text: 'O CNJ é órgão do Poder Judiciário composto por 15 membros com mandato de 2 anos, admitida uma recondução, cabendo-lhe o controle da atuação administrativa e financeira do Judiciário e do cumprimento dos deveres funcionais dos juízes, sem exercer jurisdição.' },
-      { letter: 'B', text: 'O CNJ tem competência para anular sentenças e acórdãos judiciais com trânsito em julgado quando considerar a tese jurídica equivocada.' },
-      { letter: 'C', text: 'O CNJ é presidido pelo Procurador-Geral da República e conta com dois cidadãos escolhidos pelo Presidente da República.' },
-      { letter: 'D', text: 'Compete ao CNJ editar Súmula Vinculante em matéria processual civil.' }
+      { letter: 'B', text: 'O CNJ tem competência para anular sentenças e acórdãos judiciais com trânsito em julgado quando considerar a tese jurídica equivocada, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes.' },
+      { letter: 'C', text: 'O CNJ é presidido pelo Procurador-Geral da República e conta com dois cidadãos escolhidos pelo Presidente da República, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa.' },
+      { letter: 'D', text: 'Compete ao CNJ editar Súmula Vinculante em matéria processual civil, mediante observância formal do devido processo legislativo ordinário aplicável à espécie. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.' }
     ],
     correctAnswer: 'A',
     justification: `O CNJ integra o Poder Judiciário (Art. 92, I-A, CF/88), compõe-se de 15 membros para mandato de 2 anos (admitida 1 recondução), é presidido pelo Presidente do STF e exerce o controle administrativo, financeiro e disciplinar do Judiciário, jamais exercendo função jurisdicional nem revisando conteúdo de decisões judiciais.`,
@@ -767,10 +767,10 @@ Segundo o Art. 5º, XI, da CF/88 e o entendimento firmado pelo STF no RE 603.616
     statement: `Ao apreciar o ato inicial de concessão de aposentadoria de um servidor público federal, o Tribunal de Contas da União (TCU), passados 7 anos desde que o processo administrativo chegou à Corte de Contas sem qualquer decisão, julgou ilegal o registro da aposentadoria sem garantir contraditório prévio ao interessado.
 Considerando a jurisprudência vinculante do STF (Tema 445 - RE 636.553) e o Art. 71 da CF/88, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'O ato do TCU é válido, pois a apreciação de legalidade de aposentadorias é ato complexo e imprescritível.' },
+      { letter: 'A', text: 'O ato do TCU é válido, pois a apreciação de legalidade de aposentadorias é ato complexo e imprescritível. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.' },
       { letter: 'B', text: 'Os Tribunais de Contas estão sujeitos ao prazo de 5 anos para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, a contar da chegada do processo à respectiva Corte de Contas, após o qual considera-se definitivamente registrado o ato.' },
-      { letter: 'C', text: 'O TCU não tem competência para apreciar a legalidade de aposentadorias federais, competindo apenas ao STF.' },
-      { letter: 'D', text: 'A Súmula Vinculante 3 obriga o contraditório prévio do servidor já no registro inicial mesmo dentro do primeiro ano.' }
+      { letter: 'C', text: 'O TCU não tem competência para apreciar a legalidade de aposentadorias federais, competindo apenas ao STF, em observância estrita à reserva constitucional de competência legislativa privativa.' },
+      { letter: 'D', text: 'A Súmula Vinculante 3 obriga o contraditório prévio do servidor já no registro inicial mesmo dentro do primeiro ano, mediante observância formal do devido processo legislativo ordinário aplicável à espécie.' }
     ],
     correctAnswer: 'B',
     justification: `No Tema 445 da Repercussão Geral (RE 636.553), o STF fixou tese vinculante estabelecendo que, em atenção aos princípios da segurança jurídica e da confiança legítima, os Tribunais de Contas estão sujeitos ao prazo decadencial de 5 anos para julgar a legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, contados da chegada do processo à Corte de Contas; transcorrido o quinquênio in albis, o ato considera-se definitivamente registrado.`,

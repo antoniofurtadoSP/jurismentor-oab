@@ -15,8 +15,8 @@ De acordo com o Art. 461 da CLT, com a redação dada pela Reforma Trabalhista (
     options: [
       { letter: 'A', text: 'Gustavo tem direito à equiparação salarial, pois a diferença de tempo de serviço para o mesmo empregador não é superior a quatro anos e na mesma função não é superior a dois anos.' },
       { letter: 'B', text: 'Gustavo não tem direito, pois a diferença de tempo na função entre paradigma e paragonado é superior a 2 anos.' },
-      { letter: 'C', text: 'A equiparação salarial exige que ambos tenham sido contratados no mesmo mês e ano.' },
-      { letter: 'D', text: 'A mera identidade de função obriga à paridade salarial automática, sem qualquer limite temporal.' }
+      { letter: 'C', text: 'A equiparação salarial exige que ambos tenham sido contratados no mesmo mês e ano, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.' },
+      { letter: 'D', text: 'A mera identidade de função obriga à paridade salarial automática, sem qualquer limite temporal, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.' }
     ],
     correctAnswer: 'B',
     justification: `Com a Reforma Trabalhista (Lei 13.467/2017), o art. 461, § 1º da CLT fixou dois requisitos temporais cumulativos para a equiparação salarial: a diferença de tempo de serviço para o mesmo empregador não pode ser superior a 4 (quatro) anos E a diferença de tempo na MESMA FUNÇÃO não pode ser superior a 2 (dois) anos. Como a diferença de tempo na função entre Felipe e Gustavo é de 2 anos e meio (portanto, superior a dois anos), o pedido de equiparação salarial é improcedente.`,
@@ -43,9 +43,9 @@ De acordo com o Art. 461 da CLT, com a redação dada pela Reforma Trabalhista (
 Conforme o Art. 484-A da CLT, incluído pela Reforma Trabalhista, o trabalhador terá direito a receber:`,
     options: [
       { letter: 'A', text: 'Por metade: o aviso prévio indenizado e a indenização sobre o saldo do FGTS (20%); e na integralidade as demais verbas rescisórias, podendo sacar até 80% do FGTS, sem direito ao seguro-desemprego.' },
-      { letter: 'B', text: 'A integralidade de todas as verbas rescisórias, incluindo multa de 40% do FGTS e habilitação no seguro-desemprego.' },
-      { letter: 'C', text: 'Apenas o saldo de salário e férias vencidas, perdendo o direito a qualquer saque do FGTS.' },
-      { letter: 'D', text: 'Metade de todas as verbas rescisórias, inclusive das férias e do 13º salário.' }
+      { letter: 'B', text: 'A integralidade de todas as verbas rescisórias, incluindo multa de 40% do FGTS e habilitação no seguro-desemprego, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários.' },
+      { letter: 'C', text: 'Apenas o saldo de salário e férias vencidas, perdendo o direito a qualquer saque do FGTS, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.' },
+      { letter: 'D', text: 'Metade de todas as verbas rescisórias, inclusive das férias e do 13º salário, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 484-A da CLT disciplina a extinção contratual por mútuo acordo entre as partes. Nessa modalidade, são pagos pela METADE: o aviso prévio (se indenizado) e a indenização sobre o FGTS (que fica em 20%, metade dos 40%). As demais verbas (férias, 13º salário, saldo de salário) são pagas INTEGRALMENTE. O trabalhador pode movimentar até 80% do saldo do FGTS, mas NÃO terá direito ao benefício do seguro-desemprego (§ 2º).`,
@@ -72,9 +72,9 @@ Conforme o Art. 484-A da CLT, incluído pela Reforma Trabalhista, o trabalhador 
 Consoante as regras da CLT aplicáveis aos recursos trabalhistas:`,
     options: [
       { letter: 'A', text: 'O prazo para interposição do Recurso Ordinário é de 8 dias úteis, devendo recolher as custas e o depósito recursal pela metade, por se tratar de empresa de pequeno porte.' },
-      { letter: 'B', text: 'O prazo do RO é de 15 dias úteis, conforme as regras subsidiárias do Código de Processo Civil.' },
-      { letter: 'C', text: 'A empresa de pequeno porte é totalmente isenta de realizar o depósito recursal.' },
-      { letter: 'D', text: 'O depósito recursal deve ser recolhido no valor integral em qualquer hipótese.' }
+      { letter: 'B', text: 'O prazo do RO é de 15 dias úteis, conforme as regras subsidiárias do Código de Processo Civil, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral.' },
+      { letter: 'C', text: 'A empresa de pequeno porte é totalmente isenta de realizar o depósito recursal, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho.' },
+      { letter: 'D', text: 'O depósito recursal deve ser recolhido no valor integral em qualquer hipótese, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal.' }
     ],
     correctAnswer: 'A',
     justification: `No processo do trabalho, a regra geral é que os prazos recursais são de 8 dias úteis (art. 6º da Lei 5.584/70 e art. 895, I da CLT). O art. 899, § 9º da CLT, introduzido pela Reforma Trabalhista, estabelece que o valor do depósito recursal será reduzido pela METADE para entidades sem fins lucrativos, empregadores domésticos, microempreendedores individuais, microempresas e EMPRESAS DE PEQUENO PORTE. A isenção total de depósito alcança beneficiários da justiça gratuita, entidades filantrópicas e empresas em recuperação judicial (art. 899, § 10).`,
@@ -101,9 +101,9 @@ Consoante as regras da CLT aplicáveis aos recursos trabalhistas:`,
 De acordo com o Art. 852-A da Consolidação das Leis do Trabalho (CLT):`,
     options: [
       { letter: 'A', text: 'A reclamatória não poderá tramitar pelo procedimento sumaríssimo, pois estão excluídas desse rito as demandas em que é parte a Administração Pública direta, autárquica e fundacional.' },
-      { letter: 'B', text: 'A demanda tramitará obrigatoriamente pelo rito sumaríssimo por ter valor inferior a 40 salários mínimos.' },
-      { letter: 'C', text: 'O procedimento sumaríssimo admite citação por edital de entidades da administração pública.' },
-      { letter: 'D', text: 'Demandas trabalhistas contra autarquias federais tramitam perante as Varas Federais cíveis.' }
+      { letter: 'B', text: 'A demanda tramitará obrigatoriamente pelo rito sumaríssimo por ter valor inferior a 40 salários mínimos, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho.' },
+      { letter: 'C', text: 'O procedimento sumaríssimo admite citação por edital de entidades da administração pública, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal.' },
+      { letter: 'D', text: 'Demandas trabalhistas contra autarquias federais tramitam perante as Varas Federais cíveis, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 852-A, parágrafo único, da CLT expressamente preceitua: "Estão excluídas do procedimento sumaríssimo as demandas em que é parte a Administração Pública direta, autárquica e fundacional". Logo, mesmo que o valor da causa seja inferior a 40 salários mínimos, a presença da autarquia atrai compulsoriamente o rito ordinário.`,
@@ -130,9 +130,9 @@ De acordo com o Art. 852-A da Consolidação das Leis do Trabalho (CLT):`,
 Conforme as alterações introduzidas pela Lei nº 14.442/2022 no Art. 62, III da CLT:`,
     options: [
       { letter: 'A', text: 'Não são abrangidos pelo regime de controle de jornada e horas extras os empregados em teletrabalho que prestam serviços por produção ou tarefa.' },
-      { letter: 'B', text: 'Qualquer empregado em teletrabalho tem direito irrestrito ao pagamento de horas extras sem exceção.' },
-      { letter: 'C', text: 'O teletrabalho impede qualquer tipo de remuneração variável.' },
-      { letter: 'D', text: 'O comparecimento habitual às dependências do empregador descaracteriza o regime de teletrabalho por completo.' }
+      { letter: 'B', text: 'Qualquer empregado em teletrabalho tem direito irrestrito ao pagamento de horas extras sem exceção, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal.' },
+      { letter: 'C', text: 'O teletrabalho impede qualquer tipo de remuneração variável, observados os princípios da continuidade da relação de emprego e da primazia da realidade.' },
+      { letter: 'D', text: 'O comparecimento habitual às dependências do empregador descaracteriza o regime de teletrabalho por completo, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.' }
     ],
     correctAnswer: 'A',
     justification: `Com a edição da Medida Provisória 1.108 convertida na Lei nº 14.442/2022, o inciso III do art. 62 da CLT foi expressamente modificado: passou a excluir do regime de controle de jornada apenas os empregados em teletrabalho que prestam serviços por PRODUÇÃO ou TAREFA. Já os empregados em teletrabalho contratados por jornada de tempo continuam submetidos ao controle de horário e fazem jus a horas extras.`,
@@ -159,9 +159,9 @@ Conforme as alterações introduzidas pela Lei nº 14.442/2022 no Art. 62, III d
 Quanto às verbas rescisórias devidas ao trabalhador no distrato consensual por acordo mútuo:`,
     options: [
       { letter: 'A', text: 'O aviso prévio indenizado é pago pela metade (50%), a indenização sobre o saldo do FGTS é de 20% (metade de 40%), e o empregado pode sacar até 80% do saldo do FGTS, sendo vedado o ingresso no Seguro-Desemprego.' },
-      { letter: 'B', text: 'O empregado recebe todas as verbas rescisórias integrais e habilita-se normalmente ao programa do Seguro-Desemprego.' },
-      { letter: 'C', text: 'O empregado perde qualquer indenização sobre o FGTS e nada recebe a título de aviso prévio.' },
-      { letter: 'D', text: 'O empregado levanta 100% dos depósitos do FGTS e recebe 30% de multa rescisória.' }
+      { letter: 'B', text: 'O empregado recebe todas as verbas rescisórias integrais e habilita-se normalmente ao programa do Seguro-Desemprego, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador.' },
+      { letter: 'C', text: 'O empregado perde qualquer indenização sobre o FGTS e nada recebe a título de aviso prévio, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.' },
+      { letter: 'D', text: 'O empregado levanta 100% dos depósitos do FGTS e recebe 30% de multa rescisória, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 484-A da CLT estabelece que o contrato de trabalho pode ser extinto por acordo mútuo entre empregado e empregador, caso em que serão devidos por METADE: a) o aviso prévio indenizado (50%); b) a indenização rescisória sobre o FGTS (20%, que é metade de 40%). As demais verbas (férias, 13º e saldo de salário) são pagas na integralidade. O trabalhador pode sacar até 80% do FGTS depositado, mas NÃO tem direito a receber o seguro-desemprego (§ 2º).`,
@@ -188,9 +188,9 @@ Quanto às verbas rescisórias devidas ao trabalhador no distrato consensual por
 Segundo o que disciplina a CLT no Art. 899, § 10:`,
     options: [
       { letter: 'A', text: 'A empresa em recuperação judicial é isenta do recolhimento do depósito recursal, recolhendo apenas as custas processuais se não for beneficiária da justiça gratuita.' },
-      { letter: 'B', text: 'A empresa é isenta de custas e de depósito recursal de forma incondicional e definitiva.' },
-      { letter: 'C', text: 'A recuperação judicial não gera qualquer benefício no preparo de recursos trabalhistas.' },
-      { letter: 'D', text: 'O depósito recursal deve ser recolhido pela metade, nos termos da regra geral de microempresas.' }
+      { letter: 'B', text: 'A empresa é isenta de custas e de depósito recursal de forma incondicional e definitiva, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal.' },
+      { letter: 'C', text: 'A recuperação judicial não gera qualquer benefício no preparo de recursos trabalhistas, com afastamento das normas processuais comuns diante da disciplina própria da execução laboral.' },
+      { letter: 'D', text: 'O depósito recursal deve ser recolhido pela metade, nos termos da regra geral de microempresas, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 899, § 10 da CLT (introduzido pela Lei 13.467/2017) prevê expressamente: 'São isentos do depósito recursal os beneficiários da justiça gratuita, as entidades filantrópicas e as empresas em recuperação judicial'. Já as entidades sem fins lucrativos e EPPs/MEs comuns recolhem o depósito pela metade (§ 9º), mas a recuperação judicial confere ISENÇÃO TOTAL do depósito recursal (embora continue exigindo custas, salvo gratuidade de justiça ou Súmula 86 do TST para massa falida).`,
@@ -222,15 +222,15 @@ Segundo o que disciplina a CLT no Art. 899, § 10:`,
       },
       {
         letter: 'B',
-        text: 'A terceirização de atividade-fim continua expressamente proibida pela Súmula 331 do TST, gerando vínculo direto obrigatório com o hospital.'
+        text: 'A terceirização de atividade-fim continua expressamente proibida, gerando vínculo direto obrigatório com o hospital, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.'
       },
       {
         letter: 'C',
-        text: 'O hospital tomador responde solidariamente por todas as verbas rescisórias, inclusive multas dos arts. 467 e 477 da CLT.'
+        text: 'O hospital tomador responde solidariamente por todas as verbas rescisórias, inclusive multas dos arts. 467 e 477 da CLT, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários.'
       },
       {
         letter: 'D',
-        text: 'O tomador só responde se for pessoa jurídica de direito público, sendo empresas privadas isentas de qualquer responsabilidade.'
+        text: 'O tomador só responde se for pessoa jurídica de direito público, sendo empresas privadas isentas de qualquer responsabilidade, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.'
       }
     ],
     correctAnswer: 'A',
@@ -265,15 +265,15 @@ Ao ajuizar reclamação trabalhista postulando horas extras, a empresa contestou
       },
       {
         letter: 'B',
-        text: 'Nenhum empregado em teletrabalho tem direito a horas extras sob qualquer hipótese no direito brasileiro.'
+        text: 'Nenhum empregado em teletrabalho tem direito a horas extras sob qualquer hipótese no direito brasileiro, com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período.'
       },
       {
         letter: 'C',
-        text: 'O controle de jornada em teletrabalho é expressamente proibido pela CLT, sendo ilícito o controle por login da empresa.'
+        text: 'O controle de jornada em teletrabalho é expressamente proibido pela CLT, sendo ilícito o controle por login da empresa, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária.'
       },
       {
         letter: 'D',
-        text: 'As horas excedentes devem ser pagas apenas como sobreaviso de 1/3, e não como horas extraordinárias.'
+        text: 'As horas excedentes devem ser pagas apenas como sobreaviso de 1/3, e não como horas extraordinárias, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual.'
       }
     ],
     correctAnswer: 'A',
@@ -303,19 +303,19 @@ Conforme a disciplina legal do Art. 484-A da CLT, quais são os direitos devidos
     options: [
       {
         letter: 'A',
-        text: 'Metade do aviso prévio indenizado (50%), indenização de 20% sobre o saldo do FGTS, saque de até 80% do FGTS depositado, e NÃO terá direito ao seguro-desemprego.'
+        text: 'Metade do aviso prévio indenizado (50%), indenização de 20% sobre o saldo do FGTS, saque de até 80% do FGTS depositado, e não terá direito ao seguro-desemprego.'
       },
       {
         letter: 'B',
-        text: 'Aviso prévio integral, multa de 40% do FGTS, levantamento de 100% dos depósitos e habilitação ao seguro-desemprego.'
+        text: 'Aviso prévio integral, multa de 40% do FGTS, levantamento de 100% dos depósitos e habilitação ao seguro-desemprego. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais.'
       },
       {
         letter: 'C',
-        text: 'Apenas as verbas de pedido de demissão, sem saque do FGTS nem qualquer indenização compensatória.'
+        text: 'Apenas as verbas de pedido de demissão, sem saque do FGTS nem qualquer indenização compensatória, observados os princípios da continuidade da relação de emprego e da primazia da realidade.'
       },
       {
         letter: 'D',
-        text: 'Multa de 10% do FGTS e parcelamento das demais verbas rescisórias em até 12 vezes sem juros.'
+        text: 'Multa de 10% do FGTS e parcelamento das demais verbas rescisórias em até 12 vezes sem juros, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais.'
       }
     ],
     correctAnswer: 'A',

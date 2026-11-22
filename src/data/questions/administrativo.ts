@@ -14,9 +14,9 @@ export const ADMINISTRATIVO_QUESTIONS: LegalQuestion[] = [
 Considerando os princípios do Direito Administrativo e os atributos dos atos administrativos:`,
     options: [
       { letter: 'A', text: 'A autorização de uso é ato administrativo discricionário e precário, passível de revogação a qualquer tempo pela Administração sem direito a indenização.' },
-      { letter: 'B', text: 'A autorização de uso constitui direito adquirido irrevogável, cabendo obrigatoriamente ação de desapropriação.' },
-      { letter: 'C', text: 'A revogação de ato administrativo gera efeitos retroativos (ex tunc), desfazendo todos os atos pretéritos.' },
-      { letter: 'D', text: 'O Poder Judiciário pode revogar o ato administrativo com base em critérios de conveniência e oportunidade.' }
+      { letter: 'B', text: 'A autorização de uso constitui direito adquirido irrevogável, cabendo obrigatoriamente ação de desapropriação, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' },
+      { letter: 'C', text: 'A revogação de ato administrativo gera efeitos retroativos (ex tunc), desfazendo todos os atos pretéritos, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' },
+      { letter: 'D', text: 'O Poder Judiciário pode revogar o ato administrativo com base em critérios de conveniência e oportunidade, em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público.' }
     ],
     correctAnswer: 'A',
     justification: `A autorização de uso de bem público é ato administrativo unilateral, discricionário e marcado pela precariedade. Por ser precário, pode ser revogado a qualquer tempo pela Administração Pública por razões supervenientes de conveniência e oportunidade (mérito administrativo), operando efeitos prospectivos (ex nunc) e sem gerar dever de indenizar o particular.`,
@@ -44,9 +44,9 @@ Considerando os princípios do Direito Administrativo e os atributos dos atos ad
 De acordo com o Art. 37, § 6º da CF/88 e a tese de Repercussão Geral do STF (Tema 940):`,
     options: [
       { letter: 'A', text: 'A vítima deve ajuizar a ação indenizatória em face do Estado, sendo vedado o ajuizamento direto ou litisconsórcio passivo contra o agente público causador do dano.' },
-      { letter: 'B', text: 'A vítima pode ajuizar ação indenizatória facultativamente e diretamente contra o motorista oficial com base na culpa civil ordinária.' },
-      { letter: 'C', text: 'O Estado responde civilmente de forma subjetiva, exigindo que o cidadão comprove o dolo do motorista na petição inicial.' },
-      { letter: 'D', text: 'O Estado é isento de responsabilidade, pois o servidor agia em desvio de função para fins privados.' }
+      { letter: 'B', text: 'A vítima pode ajuizar ação indenizatória facultativamente e diretamente contra o motorista oficial com base na culpa civil ordinária, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal.' },
+      { letter: 'C', text: 'O Estado responde civilmente de forma subjetiva, exigindo que o cidadão comprove o dolo do motorista na petição inicial, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' },
+      { letter: 'D', text: 'O Estado é isento de responsabilidade, pois o servidor agia em desvio de função para fins privados. Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público.' }
     ],
     correctAnswer: 'A',
     justification: `No Tema 940 de Repercussão Geral (RE 1.027.633/SP), o STF fixou a tese de que a ação de responsabilidade civil fundada no art. 37, § 6º, da CF/88 deve ser proposta exclusivamente contra a pessoa jurídica de direito público ou de direito privado prestadora de serviço público. É vedada a propositura da ação diretamente em face do agente público causador do dano, devendo o Poder Público acioná-lo posteriormente em via de regresso (dupla garantia).`,
@@ -103,9 +103,9 @@ De acordo com a Nova Lei de Licitações e Contratos Administrativos (Lei nº 14
 Considerando as alterações introduzidas pela Lei nº 14.230/2021 na Lei de Improbidade Administrativa:`,
     options: [
       { letter: 'A', text: 'Não configura ato de improbidade administrativa, pois a nova legislação revogou a modalidade culposa, exigindo dolo específico para todos os atos de improbidade.' },
-      { letter: 'B', text: 'Configura improbidade culposa grave, aplicando-se suspensão de direitos políticos por até 12 anos.' },
-      { letter: 'C', text: 'A culpa grave equipara-se automaticamente ao dolo para fins de condenação por improbidade administrativa.' },
-      { letter: 'D', text: 'O mero prejuízo financeiro apurado presume a intenção desonesta do agente público.' }
+      { letter: 'B', text: 'Configura improbidade culposa grave, aplicando-se suspensão de direitos políticos por até 12 anos, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal.' },
+      { letter: 'C', text: 'A culpa grave equipara-se automaticamente ao dolo para fins de condenação por improbidade administrativa, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.' },
+      { letter: 'D', text: 'O mero prejuízo financeiro apurado presume a intenção desonesta do agente público, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' }
     ],
     correctAnswer: 'A',
     justification: `Com a vigência da Lei nº 14.230/2021, o ordenamento jurídico brasileiro aboliu a figura do ato de improbidade administrativa culposo. O Art. 1º, §§ 1º, 2º e 3º, e o Art. 10 da LIA passaram a exigir expressamente o DOLO ESPECÍFICO (a vontade consciente de alcançar o resultado ilícito tipificado nos artigos 9º, 10 e 11), não bastando a voluntariedade do agente, a culpa grave ou a inaptidão técnica. O STF confirmou a irretroatividade da nova lei para casos transitados em julgado, mas sua aplicação imediata às ações em curso (Tema 1.199).`,
@@ -133,9 +133,9 @@ Considerando as alterações introduzidas pela Lei nº 14.230/2021 na Lei de Imp
 De acordo com o entendimento vinculante firmado pelo STF no Tema 532 da Repercussão Geral:`,
     options: [
       { letter: 'A', text: 'É constitucional a delegação do poder de polícia para aplicar sanções de trânsito a estatais de capital social majoritariamente público que prestem serviço público exclusivo e não concorrencial.' },
-      { letter: 'B', text: 'É inconstitucional qualquer delegação de poder punitivo de polícia a pessoas jurídicas de direito privado em qualquer hipótese.' },
-      { letter: 'C', text: 'O poder de polícia só pode ser exercido diretamente por servidores públicos militares ou policiais civis.' },
-      { letter: 'D', text: 'Apenas a fase de consentimento e fiscalização pode ser delegada, nunca a aplicação de multas pecuniárias.' }
+      { letter: 'B', text: 'É inconstitucional qualquer delegação de poder punitivo de polícia a pessoas jurídicas de direito privado em qualquer hipótese, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes.' },
+      { letter: 'C', text: 'O poder de polícia só pode ser exercido diretamente por servidores públicos militares ou policiais civis, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.' },
+      { letter: 'D', text: 'Apenas a fase de consentimento e fiscalização pode ser delegada, nunca a aplicação de multas pecuniárias, com vedação ao administrador público de suprir a exigência legal por juízo de conveniência.' }
     ],
     correctAnswer: 'A',
     justification: `O STF, no julgamento do RE 633.782/MG (Tema 532 de Repercussão Geral), superou entendimento restritivo anterior e fixou a tese: É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da administração pública indireta de capital social majoritariamente público, que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial, inclusive quanto à aplicação de sanções administrativas (multas).`,
@@ -163,9 +163,9 @@ De acordo com o entendimento vinculante firmado pelo STF no Tema 532 da Repercus
 Diante da sistemática jurídica da desapropriação e da jurisprudência pacífica do STJ:`,
     options: [
       { letter: 'A', text: 'A desistência da desapropriação é lícita e admissível até o pagamento integral da indenização, desde que o imóvel possa ser devolvido ao expropriado no estado em que se encontrava, respondendo o Estado por eventuais prejuízos causados.' },
-      { letter: 'B', text: 'A edição do decreto declaratório inicial torna o ato irretratável, sendo obrigatório prosseguir na compra forçada do bem.' },
-      { letter: 'C', text: 'O Estado só poderia desistir da desapropriação se houvesse expressa anuência do proprietário José.' },
-      { letter: 'D', text: 'A desistência é impossível a partir da citação do réu na ação judicial de desapropriação.' }
+      { letter: 'B', text: 'A edição do decreto declaratório inicial torna o ato irretratável, sendo obrigatório prosseguir na compra forçada do bem, com amparo na autoexecutoriedade e na presunção de legitimidade inerentes aos atos administrativos.' },
+      { letter: 'C', text: 'O Estado só poderia desistir da desapropriação se houvesse expressa anuência do proprietário José, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.' },
+      { letter: 'D', text: 'A desistência é impossível a partir da citação do réu na ação judicial de desapropriação, em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita.' }
     ],
     correctAnswer: 'A',
     justification: `A jurisprudência pacífica do Superior Tribunal de Justiça (STJ) e do STF estabelece que o Poder Público pode desistir da desapropriação a qualquer momento antes do pagamento integral do preço ou da imutabilidade da afetação pública definitiva, desde que o imóvel possa ser devolvido nas mesmas condições anteriores e o ente indenize eventuais prejuízos causados ao proprietário.`,
@@ -265,19 +265,19 @@ Sob a égide da Nova Lei de Licitações e Contratos Administrativos (Lei nº 14
     options: [
       {
         letter: 'A',
-        text: 'Não há ato de improbidade administrativa, pois a Lei 14.230/21 revogou expressamente todas as modalidades culposas de improbidade, exigindo-se dolo específico em todos os tipos legais (arts. 9º, 10 e 11).'
+        text: 'Não há ato de improbidade administrativa, pois a Lei 14.230/21 revogou expressamente todas as modalidades culposas de improbidade, exigindo-se dolo específico em todos os tipos legais.'
       },
       {
         letter: 'B',
-        text: 'O Secretário deve ser condenado por improbidade culposa no art. 10 (dano ao erário), pois a culpa grave continua punível com perda da função pública.'
+        text: 'O Secretário deve ser condenado por improbidade culposa (dano ao erário), pois a culpa grave continua punível com perda da função pública. Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.'
       },
       {
         letter: 'C',
-        text: 'A conduta caracteriza improbidade administrativa presumida com base na culpa in vigilando objetiva.'
+        text: 'A conduta caracteriza improbidade administrativa presumida com base na culpa in vigilando objetiva, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal.'
       },
       {
         letter: 'D',
-        text: 'A improbidade administrativa dispensa dolo ou culpa, aplicando-se a teoria da responsabilidade estritamente objetiva aos agentes políticos.'
+        text: 'A improbidade administrativa dispensa dolo ou culpa, aplicando-se a teoria da responsabilidade estritamente objetiva aos agentes políticos, sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes.'
       }
     ],
     correctAnswer: 'A',
@@ -311,15 +311,15 @@ Sob a égide da Nova Lei de Licitações e Contratos Administrativos (Lei nº 14
       },
       {
         letter: 'B',
-        text: 'O Estado responde objetivamente e com base na teoria do risco integral por todos os crimes cometidos pelo foragido até a sua recaptura.'
+        text: 'O Estado responde objetivamente e com base na teoria do risco integral por todos os crimes cometidos pelo foragido até a sua recaptura, com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal.'
       },
       {
         letter: 'C',
-        text: 'O Estado responde apenas se houver condenação criminal prévia do diretor do presídio por facilitação dolosa de fuga.'
+        text: 'O Estado responde apenas se houver condenação criminal prévia do diretor do presídio por facilitação dolosa de fuga, sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal.'
       },
       {
         letter: 'D',
-        text: 'A vítima só pode cobrar indenização da União por se tratar de matéria de segurança pública nacional.'
+        text: 'A vítima só pode cobrar indenização da União por se tratar de matéria de segurança pública nacional, em vinculação direta da autoridade administrativa competente aos limites do regime de direito público.'
       }
     ],
     correctAnswer: 'A',

@@ -14,7 +14,8 @@ import {
   getStoredStudyData, 
   recordSimuladoResult, 
   toggleBookmarkQuestion,
-  getGlobalPerformanceStats 
+  getGlobalPerformanceStats,
+  getEffectiveSubjectGoal,
 } from './services/storage';
 import { SimuladoConfig, SimuladoResult, LegalQuestion, UserStudyData } from './types';
 import { getAllQuestions, subscribeToQuestions, syncPublishedQuestionsFromServer } from './services/questionsService';
@@ -133,14 +134,27 @@ export default function App() {
 
   const handleStartDayPractice = (subject: string, dayNumber: number) => {
     const all = getAllQuestions();
-    const matching = all.filter(q => q.subject.toLowerCase() === subject.toLowerCase());
-    const questionsToUse = matching.length > 0 ? matching : all.slice(0, 6);
+    const isGeneral = subject.toLowerCase() === 'geral';
+    const matching = isGeneral
+      ? all
+      : all.filter(q => q.subject.toLowerCase() === subject.toLowerCase());
+    const pool = [...(matching.length > 0 ? matching : all)];
+
+    for (let i = pool.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [pool[i], pool[j]] = [pool[j], pool[i]];
+    }
+
+    const goal = isGeneral
+      ? { dailyQuestions: 20, dailyMinutes: 60 }
+      : getEffectiveSubjectGoal(studyData, subject);
+    const questionsToUse = pool.slice(0, Math.min(goal.dailyQuestions, pool.length));
 
     setActiveSimulado({
       config: {
         id: `day_${dayNumber}_${Date.now()}`,
         title: `Treino do Dia ${dayNumber} · ${subject}`,
-        description: `Questões oficiais para cumprir a meta diária do cronograma de revisão com fixação do professor.`,
+        description: `Meta configurada: ${questionsToUse.length} questões · tempo dedicado sugerido de ${goal.dailyMinutes} min com fixação do professor.`,
         type: 'DISCIPLINA',
         questionCount: questionsToUse.length,
         timeLimitMinutes: null,

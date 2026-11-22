@@ -17,19 +17,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sócrates defendia o relativismo moral absoluto dos sofistas, sustentando que as leis mudam conforme a conveniência individual do condenado."
+        "text": "Sócrates defendia o relativismo moral absoluto dos sofistas, sustentando que as leis mudam conforme a conveniência individual do condenado, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "No diálogo Críton, Sócrates aceitou fugir da prisão justificando que leis injustas aplicadas por juízes corruptos perdem qualquer obrigação moral cívica."
+        "text": "No diálogo Críton, Sócrates aceitou fugir da prisão justificando que leis injustas aplicadas por juízes corruptos perdem qualquer obrigação moral cívica, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
-        "text": "Na filosofia socrática retratada no diálogo \"Críton\", Sócrates distingue a injustiça da sentença proferida pelos homens da autoridade legítima das LEIS da pólis: fugir destruiria a força das leis às quais ele voluntariamente se submeteu durante toda a vida em Atenas, além de sustentar que \"é melhor sofrer uma injustiça do que cometê-la\". No método, Sócrates emprega a ironia (desconstrução da falsa certeza) e a maiêutica (parto das ideias pela dialética)."
+        "text": "Na filosofia socrática retratada no diálogo \"Críton\", Sócrates distingue a injustiça da sentença proferida pelos homens da autoridade legítima das leis da pólis: fugir destruiria a força das leis às quais ele voluntariamente se submeteu durante toda a vida em Atenas."
       },
       {
         "letter": "D",
-        "text": "O método socrático consistia em longos discursos monologados retóricos destinados a persuadir o júri sem questionamentos."
+        "text": "O método socrático consistia em longos discursos monologados retóricos destinados a persuadir o júri sem questionamentos, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "C",
@@ -72,19 +72,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em toda a sua obra filosófica, Platão sempre defendeu exclusivamente o governo absoluto de um soberano sem nenhuma lei escrita, jamais valorizando a legalidade."
+        "text": "Em toda a sua obra filosófica, Platão sempre defendeu exclusivamente o governo absoluto de um soberano sem nenhuma lei escrita, jamais valorizando a legalidade. A análise teórica evidencia o papel da argumentação racional na justificação das decisões."
       },
       {
         "letter": "B",
-        "text": "Na teoria platônica, a justiça equivale à igualdade aritmética absoluta em que todos os cidadãos exercem simultaneamente as funções militares, produtivas e governamentais."
+        "text": "Na teoria platônica, a justiça equivale à igualdade aritmética absoluta em que todos os cidadãos exercem simultaneamente as funções militares, produtivas e governamentais. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       },
       {
         "letter": "C",
-        "text": "Em \"A República\", Platão concebe a JUSTIÇA como a HARMONIA (ordem proporcional) resultante do cumprimento por cada classe da cidade (governantes-filósofos, guardiões e produtores) e por cada parte da alma (racional, irascível e concupiscível) de sua função própria sem invadir a alheia, propondo o governo do Rei-Filósofo acima das leis escritas; já na obra tardia \"As Leis\", reconhecendo a falibilidade humana, Platão adota o segundo melhor regime: a supremacia do IMPÉRIO DAS LEIS (nomocracia), às quais até os governantes devem submeter-se."
+        "text": "Em \"A República\", Platão concebe a justiça como a harmonia resultante do cumprimento por cada classe da cidade e por cada parte da alma de sua função própria sem invadir a alheia, propondo o governo do Rei-Filósofo acima das leis escritas."
       },
       {
         "letter": "D",
-        "text": "Para Platão, o direito positivo perfeito independe do mundo inteligível das ideias e funda-se na mera opinião empírica da maioria na assembleia."
+        "text": "Para Platão, o direito positivo perfeito independe do mundo inteligível das ideias e funda-se na mera opinião empírica da maioria na assembleia, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       }
     ],
     "correctAnswer": "C",
@@ -135,7 +135,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Conforme a clássica distinção aristotélica no Livro V da \"Ética a Nicômaco\": a situação (I) pertence à JUSTIÇA DISTRIBUTIVA (que regula as relações da pólis/comunidade com os cidadãos na repartição de bens, honras e encargos, operando segundo uma PROPORÇÃO GEOMÉTRICA conforme o mérito ou critério desigual — tratar igualmente os iguais e desigualmente os desiguais); já a situação (II) pertence à JUSTIÇA CORRETIVA ou SINALAGMÁTICA/COMUTATIVA (que regula as relações privadas voluntárias ou involuntárias entre particulares, operando segundo uma PROPORÇÃO ARITMÉTICA para restabelecer o equilíbrio exato sem olhar o mérito pessoal das partes)!"
+        "text": "Conforme a clássica distinção aristotélica no Livro V da \"Ética a Nicômaco\": a situação (I) pertence à justiça distributiva."
       },
       {
         "letter": "D",
@@ -182,19 +182,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Aristóteles, a equidade significa a revogação arbitrária das leis da cidade pela vontade subjetiva do julgador contra o texto da Constituição."
+        "text": "Para Aristóteles, a equidade significa a revogação arbitrária das leis da cidade pela vontade subjetiva do julgador contra o texto da Constituição, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "B",
-        "text": "Aristóteles negava completamente a existência de um justo natural universal, afirmando que toda justiça é inteiramente convencional e variável de cidade para cidade."
+        "text": "Aristóteles negava completamente a existência de um justo natural universal, afirmando que toda justiça é inteiramente convencional e variável de cidade para cidade, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "C",
-        "text": "Para Aristóteles (Ética a Nicômaco, Livro V, Cap. 10), impõe-se a aplicação da EQUIDADE (epieikeia): a equidade é uma espécie superior de justiça que atua como CORREÇÃO DA JUSTIÇA LEGAL nos casos particulares em que a lei, por força de sua inevitável generalidade e universalidade, mostra-se omissa ou defeituosa no caso concreto — como a \"régua de chumbo\" dos construtores de Lesbos, que se adapta às sinuosidades da pedra em vez de permanecer rígida!"
+        "text": "Para Aristóteles, impõe-se a aplicação da equidade (epieikeia): a equidade é uma espécie superior de justiça que atua como correção da justiça legal nos casos particulares em que a lei, por força de sua inevitável generalidade e universalidade, mostra-se omissa ou defeituosa no caso concreto."
       },
       {
         "letter": "D",
-        "text": "A \"régua de Lesbos\" citada por Aristóteles ilustra a rigidez inflexível da lei escrita que jamais pode ceder diante das circunstâncias concretas."
+        "text": "A \"régua de Lesbos\" citada por Aristóteles ilustra a rigidez inflexível da lei escrita que jamais pode ceder diante das circunstâncias concretas, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       }
     ],
     "correctAnswer": "C",
@@ -237,19 +237,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os sofistas defendiam que a lei positiva (nomos) é eterna, imutável e deriva diretamente da razão divina cósmica."
+        "text": "Os sofistas defendiam que a lei positiva (nomos) é eterna, imutável e deriva diretamente da razão divina cósmica, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "Na obra \"A República\", Sócrates concorda integralmente com Trasímaco de que o governante legítimo legisla sempre exclusivamente em proveito próprio."
+        "text": "Na obra \"A República\", Sócrates concorda integralmente com Trasímaco de que o governante legítimo legisla sempre exclusivamente em proveito próprio, com reconhecimento da força normativa direta dos princípios morais na validade jurídica."
       },
       {
         "letter": "C",
-        "text": "A tese representa o convencionalismo e realismo cético dos sofistas: no Livro I de \"A República\", Trasímaco sustenta que \"a justiça nada mais é do que a conveniência do mais forte\" (isto é, o grupo dominante — tiranos, oligarcas ou povo — faz as leis no seu próprio interesse e chama de justo o que lhes convém); de modo análogo, em \"Górgias\", Cálicles opõe a natureza (PHYSIS, onde imperaria o direito natural dos mais fortes) à lei positiva convencional (NOMOS, inventada pelos fracos para conter os fortes)."
+        "text": "A tese representa o convencionalismo e realismo cético dos sofistas: no Livro I de \"A República\", Trasímaco sustenta que \"a justiça nada mais é do que a conveniência do mais forte\"."
       },
       {
         "letter": "D",
-        "text": "Para Protágoras, a verdade jurídica e a justiça são objetivas e independentes da percepção humana ou do consenso da pólis."
+        "text": "Para Protágoras, a verdade jurídica e a justiça são objetivas e independentes da percepção humana ou do consenso da pólis, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       }
     ],
     "correctAnswer": "C",
@@ -292,19 +292,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O estoicismo rejeitava a existência de qualquer razão universal, pregando que apenas o cidadão ateniense livre é portador de direitos naturais."
+        "text": "O estoicismo rejeitava a existência de qualquer razão universal, pregando que apenas o cidadão ateniense livre é portador de direitos naturais, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "B",
-        "text": "Para Cícero, uma lei formalmente votada pelo Senado romano permanece justa e legítima mesmo quando viola frontalmente a reta razão natural."
+        "text": "Para Cícero, uma lei formalmente votada pelo Senado romano permanece justa e legítima mesmo quando viola frontalmente a reta razão natural, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "C",
-        "text": "A formulação de Cícero consolida o JUSNATURALISMO ESTOICO romano: influenciado pelo Estoicismo grego (Zenão de Cítio, Crisipo), concebe o universo governado pelo Logos (razão divina imanente à natureza), fundamentando uma Lei Natural universal, imutável e comum a toda a humanidade (cosmopolitismo — cidadão do mundo acima das fronteiras da pólis), que serve de critério de validade moral e jurídica para todas as leis positivas de Roma e das demais nações."
+        "text": "A formulação de Cícero consolida o jusnaturalismo estoico romano: influenciado pelo Estoicismo grego, concebe o universo governado pelo Logos, fundamentando uma Lei Natural universal, imutável e comum a toda a humanidade, que serve de critério de validade moral e jurídica para todas as leis positivas de Roma e das demais nações."
       },
       {
         "letter": "D",
-        "text": "Os estoicos concebiam a liberdade jurídica como entrega desenfreada às paixões e desejos materiais imediatos."
+        "text": "Os estoicos concebiam a liberdade jurídica como entrega desenfreada às paixões e desejos materiais imediatos, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       }
     ],
     "correctAnswer": "C",
@@ -347,19 +347,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Direito Romano clássico, o \"ius gentium\" aplicava-se exclusivamente às regras religiosas dos sacerdotes romanos."
+        "text": "No Direito Romano clássico, o \"ius gentium\" aplicava-se exclusivamente às regras religiosas dos sacerdotes romanos, com superação crítica da literalidade legal em favor da equidade e da justiça material concreta."
       },
       {
         "letter": "B",
-        "text": "Para os romanos, o conceito de \"suum cuique tribuere\" significava entregar exatamente bens idênticos a todos sem qualquer vínculo contratual ou proprietário."
+        "text": "Para os romanos, o conceito de \"suum cuique tribuere\" significava entregar exatamente bens idênticos a todos sem qualquer vínculo contratual ou proprietário, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
-        "text": "Nos termos dos fragmentos clássicos de Ulpiano acolhidos no Digesto: (1) os três preceitos do Direito são: viver honestamente (honeste vivere), não lesar a ninguém (alterum non laedere) e dar a cada um o que é seu (suum cuique tribuere); e (2) quanto às esferas do direito privado, distingue-se o IUS CIVILE (direito próprio exclusivo dos cidadãos romanos), o IUS GENTIUM (direito comum observado por todos os povos humanos nas relações comerciais e entre estrangeiros, guiado pela razão natural) e o IUS NATURALE (aquilo que a natureza ensinou a todos os animais)."
+        "text": "Nos termos dos fragmentos clássicos de Ulpiano acolhidos no Digesto: os três preceitos do Direito são: viver honestamente (honeste vivere), não lesar a ninguém e dar a cada um o que é seu."
       },
       {
         "letter": "D",
-        "text": "Ulpiano definia a jurisprudência exclusivamente como o conhecimento mecânico da letra da lei sem noção das coisas divinas e humanas."
+        "text": "Ulpiano definia a jurisprudência exclusivamente como o conhecimento mecânico da letra da lei sem noção das coisas divinas e humanas, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "C",
@@ -406,11 +406,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Agostinho sustentava que uma lei humana radicalmente contrária à lei eterna de Deus ainda assim deve ser considerada verdadeira lei justa."
+        "text": "Agostinho sustentava que uma lei humana radicalmente contrária à lei eterna de Deus ainda assim deve ser considerada verdadeira lei justa, com superação crítica da literalidade legal em favor da equidade e da justiça material concreta."
       },
       {
         "letter": "C",
-        "text": "Na filosofia jurídica da Patrística, Santo Agostinho distingue a CIDADE DE DEUS (civitas Dei — comunidade espiritual movida pelo amor a Deus até o desprezo de si) da CIDADE TERRENA (civitas terrena — Estado político marcado pelo pecado original e pelo amor próprio até o desprezo a Deus). Embora a justiça plena pertença apenas à Cidade de Deus, o Direito e a paz temporal da Cidade Terrena possuem valor relativo indispensável para conter o caos e garantir uma ordem mínima de convivência, desde que subordinados em última instância à Lei Eterna divina (razão e vontade de Deus)."
+        "text": "Na filosofia jurídica da Patrística, Santo Agostinho distingue a cidade de deus da cidade terrena."
       },
       {
         "letter": "D",
@@ -457,19 +457,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para São Tomás de Aquino, a essência da lei reside na pura vontade arbitrária do soberano, independentemente da razão ou do bem comum."
+        "text": "Para São Tomás de Aquino, a essência da lei reside na pura vontade arbitrária do soberano, independentemente da razão ou do bem comum. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       },
       {
         "letter": "B",
-        "text": "Na filosofia tomista, a lei natural confunde-se integralmente com a lei positiva escrita nos códigos civis, não havendo diferença entre elas."
+        "text": "Na filosofia tomista, a lei natural confunde-se integralmente com a lei positiva escrita nos códigos civis, não havendo diferença entre elas. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "C",
-        "text": "Na Escolástica tomista, articulam-se quatro níveis de lei: (1) LEI ETERNA — a própria razão da sabedoria divina que governa todo o universo; (2) LEI NATURAL — a participação da criatura racional (homem) na Lei Eterna, apreendida pela razão humana em seus preceitos evidentes (\"fazer o bem e evitar o mal\"); (3) LEI HUMANA (Positiva) — a concretização prudencial da lei natural pelos governantes humanos (por via de conclusão lógica ou determinação prática) visando ao bem comum da sociedade; e (4) LEI DIVINA — a lei revelada nas Escrituras para orientar o homem ao seu fim sobrenatural último."
+        "text": "Na Escolástica tomista, articulam-se quatro níveis de lei: lei eterna; lei natural — a participação da criatura racional (homem) na Lei Eterna, apreendida pela razão humana em seus preceitos evidentes; lei humana (Positiva); e lei divina."
       },
       {
         "letter": "D",
-        "text": "São Tomás de Aquino exigia que a lei humana punisse absolutamente todos os vícios privados da alma, sem limites à coerção estatal."
+        "text": "São Tomás de Aquino exigia que a lei humana punisse absolutamente todos os vícios privados da alma, sem limites à coerção estatal, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "C",
@@ -516,7 +516,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Para São Tomás de Aquino (Suma Teológica, I-II, q. 96, a. 4), a lei humana positiva que discorda da lei natural deixa de ser verdadeira lei para ser CORRUPÇÃO DA LEI (\"non iam erit lex, sed legis corruptio\"), não obrigando em consciência — SALVO se a desobediência implicar escândalo ou perturbação social ainda mais grave (caso em que se recomenda ceder ao próprio direito diante da injustiça suportável); todavia, se a lei humana ordenar algo diretamente contrário à LEI DIVINA (ex.: idolatria ou ofensa direta a preceito divino), NÃO é lícito obedecê-la em nenhuma hipótese (\"importa obedecer antes a Deus do que aos homens\")."
+        "text": "Para São Tomás de Aquino, a lei humana positiva que discorda da lei natural deixa de ser verdadeira lei para ser corrupção da lei, não obrigando em consciência."
       },
       {
         "letter": "C",
@@ -567,19 +567,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em \"O Príncipe\", Maquiavel defende que o governante deve subordinar todas as suas decisões estatais exclusivamente aos preceitos da moral cristã, mesmo que isso leve à ruína do Estado."
+        "text": "Em \"o Príncipe\", Maquiavel defende que o governante deve subordinar todas as suas decisões estatais exclusivamente aos preceitos da moral cristã, mesmo que isso leve à ruína do Estado. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       },
       {
         "letter": "B",
-        "text": "Maquiavel inaugura a ciência política autônoma moderna ao SEPARAR a Política (e a razão de Estado) da Moral teológica tradicional: o governante deve agir segundo a necessidade concreta de conquista e conservação do Estado e da ordem pública (combinando VIRTÙ — capacidade racional, energia e astúcia de decisão — para dominar a FORTUNA — o acaso imprevisível da história), valendo-se tanto das LEIS (próprias do homem) quanto da FORÇA (própria dos animais: leão e raposa) quando as leis não bastarem."
+        "text": "Maquiavel inaugura a ciência política autônoma moderna ao separar a Política da Moral teológica tradicional: o governante deve agir segundo a necessidade concreta de conquista e conservação do Estado e da ordem pública, valendo-se tanto das leis (próprias do homem) quanto da força quando as leis não bastarem."
       },
       {
         "letter": "C",
-        "text": "Na obra \"Discursos sobre a Primeira Década de Tito Lívio\", Maquiavel revela preferência absoluta pela tirania perpétua contra qualquer modelo republicano de leis."
+        "text": "Na obra \"Discursos sobre a Primeira Década de Tito Lívio\", Maquiavel revela preferência absoluta pela tirania perpétua contra qualquer modelo republicano de leis, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "D",
-        "text": "Na terminologia maquiaveliana, \"virtù\" significa exatamente a virtude cristã da humildade, resignação e caridade passiva."
+        "text": "Na terminologia maquiaveliana, \"virtù\" significa exatamente a virtude cristã da humildade, resignação e caridade passiva. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       }
     ],
     "correctAnswer": "B",
@@ -622,19 +622,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Hugo Grócio negava a existência de qualquer direito natural racional, defendendo que todo direito nasce apenas da autoridade eclesiástica papal."
+        "text": "Hugo Grócio negava a existência de qualquer direito natural racional, defendendo que todo direito nasce apenas da autoridade eclesiástica papal, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "Hugo Grócio promove a SECULARIZAÇÃO (laicização) do Direito Natural na transição da Escolástica para a Modernidade: ao formular o célebre argumento \"etiamsi daremus non esse Deum\" (ainda que concedêssemos que Deus não existe ou não cuida das coisas humanas), Grócio desvincula o Direito Natural da teologia revelada e o fundamenta exclusivamente na RAZÃO HUMANA e na natureza racional e sociável do homem (appetitus societatis), inaugurando o JUSNATURALISMO RACIONALISTA moderno e sistematizando o Direito Internacional Público (mare liberum e ius in bello)."
+        "text": "Hugo Grócio promove a secularização (laicização) do Direito Natural na transição da Escolástica para a Modernidade: ao formular o célebre argumento \"etiamsi daremus non esse Deum\", Grócio desvincula o Direito Natural da teologia revelada e o fundamenta exclusivamente na razão humana e na natureza racional e sociável do homem, inaugurando o jusnaturalismo racionalista moderno e sistematizando o Direito Internacional Público."
       },
       {
         "letter": "C",
-        "text": "Na obra \"Mare Liberum\", Hugo Grócio defendeu que os oceanos constituem propriedade privada exclusiva de duas potências navais europeias."
+        "text": "Na obra \"Mare Liberum\", Hugo Grócio defendeu que os oceanos constituem propriedade privada exclusiva de duas potências navais europeias, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "D",
-        "text": "Grócio afirmou que não existe nenhuma regra jurídica aplicável durante a guerra (\"em meio às armas calam as leis\")."
+        "text": "Grócio afirmou que não existe nenhuma regra jurídica aplicável durante a guerra (\"em meio às armas calam as leis\"), com recusa à discricionariedade interpretativa do julgador diante de casos difíceis sem regra unívoca. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       }
     ],
     "correctAnswer": "B",
@@ -677,19 +677,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na teoria contratualista de Hobbes, o Estado de Natureza é um paraíso pacífico de harmonia espontânea destruído apenas pelo surgimento da propriedade privada."
+        "text": "Na teoria contratualista de Hobbes, o Estado de Natureza é um paraíso pacífico de harmonia espontânea destruído apenas pelo surgimento da propriedade privada, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "B",
-        "text": "Para Thomas Hobbes, no ESTADO DE NATUREZA (pré-político), vigora a igualdade de vulnerabilidade e a \"guerra de todos contra todos\" (bellum omnium contra omnes — \"o homem é o lobo do homem\"), onde a vida é solitária, pobre, sórdida, embrutecida e curta. Para preservar a própria VIDA e alcançar a paz, os indivíduos celebram um CONTRATO SOCIAL DE SUBMISSÃO (pacto de união/sujeição entre si em favor de um terceiro — o Soberano/Leviatã, que não é parte do pacto), alienando irrevogavelmente todos os direitos (exceto a autodefesa imediata da vida) a um poder soberano absoluto e indivisível — consolidando a fórmula precursora do positivismo estatal: \"auctoritas, non veritas, facit legem\" (a autoridade, e não a verdade, faz a lei)."
+        "text": "Para Thomas Hobbes, no estado de natureza (pré-político), vigora a igualdade de vulnerabilidade e a \"guerra de todos contra todos\", onde a vida é solitária, pobre, sórdida, embrutecida e curta."
       },
       {
         "letter": "C",
-        "text": "No contrato social hobbesiano, o Soberano (Leviatã) assina o pacto como parte contratante vinculada e pode ser destituído pelo povo sempre que editar leis impopulares."
+        "text": "No contrato social hobbesiano, o Soberano (Leviatã) assina o pacto como parte contratante vinculada e pode ser destituído pelo povo sempre que editar leis impopulares, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "D",
-        "text": "Hobbes defendia que a divisão dos Poderes Executivo, Legislativo e Judiciário é essencial para frear o poder do Leviatã."
+        "text": "Hobbes defendia que a divisão dos Poderes Executivo, Legislativo e Judiciário é essencial para frear o poder do Leviatã, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "B",
@@ -732,19 +732,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para John Locke, a propriedade privada surge apenas depois da criação do Estado pelo decreto do soberano absolutista."
+        "text": "Para John Locke, a propriedade privada surge apenas depois da criação do Estado pelo decreto do soberano absolutista, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "B",
-        "text": "No contratualismo LIBERAL de John Locke (Segundo Tratado sobre o Governo Civil): (1) no Estado de Natureza reina relativa paz sob a lei da razão, possuindo cada indivíduo DIREITOS NATURAIS INALIENÁVEIS à VIDA, à LIBERDADE e à PROPRIEDADE (adquirida pelo trabalho); (2) contudo, faltam um juiz imparcial, lei escrita conhecida e força executória contra transgressores (inconvenientes); (3) por isso, celebra-se o Contrato Social por consentimento (pacto de confiança fiduciária — trust) para instituir um Estado LIMITADO encarregado de proteger os direitos naturais (sem aliená-los); e (4) caso o governante torne-se tirano e viole vida, liberdade ou propriedade, assiste ao povo o legítimo DIREITO DE RESISTÊNCIA (\"apelo ao céu\") para destituí-lo!"
+        "text": "No contratualismo liberal de John Locke: no Estado de Natureza reina relativa paz sob a lei da razão, possuindo cada indivíduo direitos naturais inalienáveis à vida, à liberdade e à propriedade."
       },
       {
         "letter": "C",
-        "text": "Assim como Hobbes, John Locke nega categoricamente qualquer direito de resistência ou revolução do povo contra um governo tirânico."
+        "text": "Assim como Hobbes, John Locke nega categoricamente qualquer direito de resistência ou revolução do povo contra um governo tirânico, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "D",
-        "text": "Locke defende a concentração absoluta de todos os poderes estatais nas mãos exclusivas do monarca sem controle legislativo."
+        "text": "Locke defende a concentração absoluta de todos os poderes estatais nas mãos exclusivas do monarca sem controle legislativo, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "B",
@@ -787,19 +787,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Rousseau, \"vontade geral\" e \"vontade de todos\" são expressões perfeitamente sinônimas que designam a soma simples dos interesses privados individuais."
+        "text": "Para Rousseau, \"vontade geral\" e \"vontade de todos\" são expressões perfeitamente sinônimas que designam a soma simples dos interesses privados individuais, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "B",
-        "text": "A solução rousseauniana é o CONTRATO SOCIAL DEMOCRÁTICO fundado na SOBERANIA POPULAR INALIENÁVEL: cada associado aliena seus direitos à própria comunidade inteira (e não a um rei ou terceiro!), formando o corpo político soberano guiado pela VONTADE GERAL (volonté générale). Rousseau distingue crucialmente a VONTADE GERAL (que mira sempre o INTERESSE COMUM/bem coletivo e é reta, inalienável e indivisível) da VONTADE DE TODOS (que é apenas a soma aritmética de interesses particulares egoístas). A lei legítima é exclusivamente a expressão da Vontade Geral — ser livre é obedecer à lei que nós mesmos prescrevemos!"
+        "text": "A solução rousseauniana é o contrato social democrático fundado na soberania popular inalienável: cada associado aliena seus direitos à própria comunidade inteira, formando o corpo político soberano guiado pela vontade geral (volonté générale)."
       },
       {
         "letter": "C",
-        "text": "No Estado de Natureza rousseauniano, o ser humano já nasce perverso e em guerra perpétua, sendo civilizado moralmente apenas pela invenção da propriedade privada."
+        "text": "No Estado de Natureza rousseauniano, o ser humano já nasce perverso e em guerra perpétua, sendo civilizado moralmente apenas pela invenção da propriedade privada. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "D",
-        "text": "Rousseau defendia a democracia estritamente representativa em que o povo transfere definitivamente sua soberania legislativa aos deputados sem participação direta."
+        "text": "Rousseau defendia a democracia estritamente representativa em que o povo transfere definitivamente sua soberania legislativa aos deputados sem participação direta, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "B",
@@ -842,19 +842,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Montesquieu, o Judiciário deve possuir poder discricionário ilimitado para criar normas gerais e corrigir livremente as leis aprovadas pelo Parlamento."
+        "text": "Para Montesquieu, o Judiciário deve possuir poder discricionário ilimitado para criar normas gerais e corrigir livremente as leis aprovadas pelo Parlamento, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "Montesquieu (O Espírito das Leis, Livro XI, Cap. 6) parte da constatação realista de que \"todo homem que tem poder é tentado a abusar dele\" e propõe o sistema de FREIOS E CONTRAPESOS da SEPARAÇÃO DOS PODERES (Legislativo, Executivo e Judiciário), onde \"o poder freia o poder\" (le pouvoir arrête le pouvoir) para assegurar a liberdade política (definida como o direito de fazer tudo o que as leis permitem). Nessa concepção iluminista antiabsolutista, Montesquieu afirma que o Poder Judiciário é de certo modo \"nulo\", devendo os juízes ser apenas a \"boca que pronuncia as palavras da lei\" (bouche de la loi), sem arbítrio criativo contra o texto legal."
+        "text": "Montesquieu parte da constatação realista de que \"todo homem que tem poder é tentado a abusar dele\" e propõe o sistema de freios e contrapesos da separação dos poderes, onde \"o poder freia o poder\" para assegurar a liberdade política."
       },
       {
         "letter": "C",
-        "text": "Montesquieu concebia as leis positivas como fórmulas abstratas idênticas que devem ser copiadas sem adaptação por qualquer país do mundo."
+        "text": "Montesquieu concebia as leis positivas como fórmulas abstratas idênticas que devem ser copiadas sem adaptação por qualquer país do mundo, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "D",
-        "text": "Na tipologia dos governos de Montesquieu, os três tipos fundamentais e seus princípios motores são: monarquia (medo), república (honra) e despotismo (virtude)."
+        "text": "Na tipologia dos governos de Montesquieu, os três tipos fundamentais e seus princípios motores são: monarquia (medo), república (honra) e despotismo (virtude). Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       }
     ],
     "correctAnswer": "B",
@@ -901,11 +901,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Beccaria aplica o contratualismo iluminista e o utilitarismo humanista ao Direito Penal: (1) somente as LEIS podem decretar as penas dos delitos (princípio da reserva legal estrita — proibindo aos juízes interpretar arbitrariamente leis obscuras em detrimento do cidadão); (2) a pena tem finalidade UTILITÁRIA e PREVENTIVA (impedir o réu de causar novos danos e dissuadir outros cidadãos — e NÃO vingar o passado); (3) as penas devem ser PROPORCIONAIS ao dano social causado, HUMANAS e CERTAS (a certeza do castigo moderado intimida mais do que a crueldade incerta); e (4) condena veementemente a TORTURA judicial (por inverter a presunção de inocência e punir o inocente antes da sentença) e a PENA DE MORTE (por não estar compreendida no contrato social — ninguém cede ao Estado o direito à própria vida)!"
+        "text": "Beccaria aplica o contratualismo iluminista e o utilitarismo humanista ao Direito Penal: somente as leis podem decretar as penas dos delitos."
       },
       {
         "letter": "C",
-        "text": "Para Beccaria, o critério fundamental para medir a gravidade de um delito é a intenção pecaminosa íntima do agente perante Deus."
+        "text": "Para Beccaria, o critério fundamental para medir a gravidade de um delito é a intenção pecaminosa íntima do agente perante Deus, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "D",
@@ -952,19 +952,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Kant, o Direito confunde-se inteiramente com a Moral, exigindo que o cidadão pague impostos ou cumpra contratos movido exclusivamente por amor puro ao dever interior."
+        "text": "Para Kant, o Direito confunde-se inteiramente com a Moral, exigindo que o cidadão pague impostos ou cumpra contratos movido exclusivamente por amor puro ao dever interior. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "B",
-        "text": "Para Immanuel Kant, tanto a Moral quanto o Direito fundam-se na razão prática e no dever, mas distinguem-se por três notas essenciais: (1) MOTIVO DE ADESÃO — na Moral exige-se ação POR DEVER (adesão íntima da consciência/intenção pura = moralidade), enquanto no Direito basta a conformidade exterior da conduta com a norma, qualquer que seja o motivo íntimo (LEGALIDADE); (2) AUTONOMIA vs. HETERONOMIA — a legislação moral é autônoma (dada pelo próprio sujeito racional a si mesmo), ao passo que a legislação jurídica é suscetível de legislação externa (heterônoma); e (3) COERCIBILIDADE — o Direito é essencialmente ligado à faculdade de COAGIR externamente para impedir o obstáculo à liberdade. Daí a definição kantiana de Direito: \"o conjunto das condições mediante as quais o arbítrio de um pode conciliar-se com o arbítrio do outro segundo uma lei universal de liberdade\"."
+        "text": "Para Immanuel Kant, tanto a Moral quanto o Direito fundam-se na razão prática e no dever, mas distinguem-se por três notas essenciais: motivo de adesão — na Moral exige-se ação por dever, enquanto no Direito basta a conformidade exterior da conduta com a norma, qualquer que seja o motivo íntimo (legalidade)."
       },
       {
         "letter": "C",
-        "text": "Kant concebia o Imperativo Categórico como uma regra hipotética condicionada aos resultados econômicos desejados pelo agente (\"se queres lucro, age assim\")."
+        "text": "Kant concebia o Imperativo Categórico como uma regra hipotética condicionada aos resultados econômicos desejados pelo agente (\"se queres lucro, age assim\"), com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "D",
-        "text": "Para Kant, a coerção externa é incompatível com o conceito racional de Direito, devendo as normas jurídicas serem desprovidas de sanção."
+        "text": "Para Kant, a coerção externa é incompatível com o conceito racional de Direito, devendo as normas jurídicas serem desprovidas de sanção. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       }
     ],
     "correctAnswer": "B",
@@ -1011,15 +1011,15 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na \"Fundamentação da Metafísica dos Costumes\", Kant distingue no reino dos fins o que tem PREÇO (tudo aquilo que pode ser substituído por equivalente) daquilo que está acima de todo preço e possui DIGNIDADE (Würde — valor intrínseco insubstituível pertencente ao ser racional capaz de autonomia moral). Daí decorre a Fórmula da Humanidade do Imperativo Categórico: \"Age de tal maneira que uses a humanidade, tanto na tua pessoa como na pessoa de qualquer outro, sempre e simultaneamente como FIM e nunca simplesmente como MEIO\". Ademais, em \"À Paz Perpétua\" (1795), Kant projeta um direito público em três níveis (estatal republicano, direito das gentes federativo e direito cosmopolita de hospitalidade universal)."
+        "text": "Na \"Fundamentação da Metafísica dos Costumes\", Kant distingue no reino dos fins o que tem preço daquilo que está acima de todo preço e possui dignidade."
       },
       {
         "letter": "C",
-        "text": "Em \"À Paz Perpétua\", Kant defende a criação de uma única monarquia mundial tirânica concentrando todas as nações sob um só império."
+        "text": "Em \"à Paz Perpétua\", Kant defende a criação de uma única monarquia mundial tirânica concentrando todas as nações sob um só império, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "D",
-        "text": "Kant era entusiasta do utilitarismo consequencialista, aceitando o sacrifício de um inocente se isso trouxesse grande felicidade para a maioria."
+        "text": "Kant era entusiasta do utilitarismo consequencialista, aceitando o sacrifício de um inocente se isso trouxesse grande felicidade para a maioria, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "B",
@@ -1062,15 +1062,15 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na dialética hegeliana (\"O que é racional é real e o que é real é racional\"), o Direito como existência da liberdade evolui em três momentos: (1) DIREITO ABSTRATO (tese) — esfera formal da pessoa portadora de capacidade jurídica universal (\"sê uma pessoa e respeita os outros como pessoas\"), compreendendo propriedade, contrato e delito/pena; (2) MORALIDADE SUBJETIVA (antítese) — interiorização da liberdade na consciência moral, intenção e bem-estar individual; e (3) ETICIDADE (Sittlichkeit — síntese) — realização concreta e objetiva da liberdade nas instituições sociais históricas, desdobrada em FAMÍLIA (unidade afetiva), SOCIEDADE CIVIL-BURGUESA (sistema das necessidades econômicas e antagonismos privados) e ESTADO (realidade ética suprema que concilia o interesse universal e o particular)."
+        "text": "Na dialética hegeliana, o Direito como existência da liberdade evolui em três momentos: direito abstrato (tese); moralidade subjetiva (antítese)."
       },
       {
         "letter": "B",
-        "text": "Para Hegel, o Estado resulta de um mero contrato privado instrumental criado para proteger apenas interesses econômicos egoístas da sociedade civil."
+        "text": "Para Hegel, o Estado resulta de um mero contrato privado instrumental criado para proteger apenas interesses econômicos egoístas da sociedade civil, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
-        "text": "Na filosofia jurídica hegeliana, a pena criminal tem função puramente preventiva e utilitarista de intimidação psicológica de terceiros."
+        "text": "Na filosofia jurídica hegeliana, a pena criminal tem função puramente preventiva e utilitarista de intimidação psicológica de terceiros, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "D",
@@ -1117,11 +1117,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Trata-se da ESCOLA DA EXEGESE (positivismo legalista exegético do século XIX): caracterizou-se por (1) identificação absoluta entre Direito e LEI ESCRITA codificada (estatismo legalista); (2) dogma da COMPLETUDE e plenitude lógica do Código Civil (suposto livre de lacunas e contradições); (3) método estritamente DEDUTIVO-SILOGÍSTICO na decisão judicial (o juiz reduzido a aplicador mecânico da subsunção — premissa maior = lei, premissa menor = fato); e (4) interpretação vinculada exclusivamente à vontade psicológica do legislador histórico (mens legislatoris)."
+        "text": "Trata-se da escola da exegese: caracterizou-se por identificação absoluta entre Direito e lei escrita codificada; dogma da completude e plenitude lógica do Código Civil."
       },
       {
         "letter": "B",
-        "text": "A Escola da Exegese valorizava o costume popular espontâneo e a livre criação jurisprudencial acima dos códigos estatais promulgados."
+        "text": "A Escola da Exegese valorizava o costume popular espontâneo e a livre criação jurisprudencial acima dos códigos estatais promulgados, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "C",
@@ -1129,7 +1129,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A Escola da Exegese surgiu na Alemanha liderada por Savigny como reação contrária à codificação napoleônica."
+        "text": "A Escola da Exegese surgiu na Alemanha liderada por Savigny como reação contrária à codificação napoleônica, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       }
     ],
     "correctAnswer": "A",
@@ -1172,19 +1172,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Savigny funda a ESCOLA HISTÓRICA DO DIREITO (Historicismo Jurídico): contrapondo-se tanto ao jusnaturalismo racionalista a-histórico quanto ao legalismo exegético francês, sustenta que o Direito NÃO é um produto arbitrário nem racionalmente abstrato do legislador estatal, mas nasce organicamente da história, dos costumes e da consciência comum de cada nação — o VOLKSGEIST (Espírito do Povo)! Assim como a língua, o Direito evolui em duas forças: o elemento político (direito consuetudinário vivo na consciência do povo) e o elemento técnico-científico (elaborado pela dogmática dos juristas), condenando a codificação prematura que \"engessaria\" o desenvolvimento orgânico do Direito alemão."
+        "text": "Savigny funda a escola histórica do direito: contrapondo-se tanto ao jusnaturalismo racionalista a-histórico quanto ao legalismo exegético francês, sustenta que o Direito não é um produto arbitrário nem racionalmente abstrato do legislador estatal, mas nasce organicamente da história, dos costumes e da consciência comum de cada nação — o volksgeist (Espírito do Povo)."
       },
       {
         "letter": "B",
-        "text": "Para Savigny, o Direito positivo nasce exclusivamente da vontade arbitrária do legislador parlamentar e deve ignorar a tradição histórica e os costumes."
+        "text": "Para Savigny, o Direito positivo nasce exclusivamente da vontade arbitrária do legislador parlamentar e deve ignorar a tradição histórica e os costumes, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "C",
-        "text": "Savigny sustentava que as normas jurídicas devem ser deduzidas de princípios naturais eternos idênticos para todos os povos em todas as épocas, independentemente da cultura local."
+        "text": "Savigny sustentava que as normas jurídicas devem ser deduzidas de princípios naturais eternos idênticos para todos os povos em todas as épocas, independentemente da cultura local, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "D",
-        "text": "A Escola Histórica do Direito deu origem imediata ao realismo jurídico norte-americano empirista de Oliver Wendell Holmes."
+        "text": "A Escola Histórica do Direito deu origem imediata ao realismo jurídico norte-americano empirista de Oliver Wendell Holmes, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "A",
@@ -1227,7 +1227,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Combinam-se os dois pilares do UTILITARISMO CLÁSSICO anglo-saxão: (1) Jeremy Bentham formula o Princípio da Utilidade (consequencialismo hedonista quantitativo: uma ação ou lei é justa quando maximiza o prazer/felicidade e minimiza a dor para o MAIOR NÚMERO DE PESSOAS — cálculo felicífico, além de propor o Panóptico e defender o positivismo analítico distinguindo \"direito como é\" do \"direito como deve ser\"); e (2) John Stuart Mill (em \"Sobre a Liberdade\" e \"Utilitarismo\") qualifica qualitativamente os prazeres superiores/intelectuais e formula o PRINCÍPIO DO DANO (Harm Principle): o único fim pelo qual o poder do Estado pode ser legitimamente exercido sobre qualquer membro contra sua vontade é IMPEDIR DANO A OUTREM (não o mero paternalismo moral contra o próprio indivíduo)!"
+        "text": "Combinam-se os dois pilares do utilitarismo clássico anglo-saxão: Jeremy Bentham formula o Princípio da Utilidade."
       },
       {
         "letter": "B",
@@ -1239,7 +1239,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Jeremy Bentham rejeitava a codificação das leis, preferindo manter o direito costumeiro inglês obscuro e não escrito."
+        "text": "Jeremy Bentham rejeitava a codificação das leis, preferindo manter o direito costumeiro inglês obscuro e não escrito, com recusa à discricionariedade interpretativa do julgador diante de casos difíceis sem regra unívoca."
       }
     ],
     "correctAnswer": "A",
@@ -1282,11 +1282,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em sua segunda fase (virada teleológica/finalista), Rudolf von Ihering critica a Jurisprudência dos Conceitos (\"céu dos conceitos jurídicos\" desconectado da vida real) e sustenta duas teses centrais: (1) em \"A Finalidade no Direito\", o FIM (finalidade social/prática) é o criador de todo o Direito — definindo o direito subjetivo como \"interesse juridicamente protegido\" (base imediata para a posterior Jurisprudência dos Interesses de Philipp Heck!); e (2) em \"A Luta pelo Direito\", o Direito não brota pacificamente sem dor como queria Savigny, mas conquista-se historicamente mediante a LUTA constante, sendo a defesa do próprio direito violado um dever do indivíduo consigo mesmo e com a comunidade jurídica!"
+        "text": "Em sua segunda fase, Rudolf von Ihering critica a Jurisprudência dos Conceitos e sustenta duas teses centrais: em \"A Finalidade no Direito\", o fim é o criador de todo o Direito."
       },
       {
         "letter": "B",
-        "text": "Na obra \"A Luta pelo Direito\", Ihering adere integralmente à teoria de Savigny de que o direito nasce silenciosa e pacificamente do espírito do povo sem conflitos."
+        "text": "Na obra \"A Luta pelo Direito\", Ihering adere integralmente à teoria de Savigny de que o direito nasce silenciosa e pacificamente do espírito do povo sem conflitos, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
@@ -1294,7 +1294,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Em sua fase final, Ihering manteve a defesa intransigente da Jurisprudência dos Conceitos como método puramente lógico-matemático indiferente aos resultados sociais."
+        "text": "Em sua fase final, Ihering manteve a defesa intransigente da Jurisprudência dos Conceitos como método puramente lógico-matemático indiferente aos resultados sociais, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "A",
@@ -1337,19 +1337,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na célebre \"Fórmula de Radbruch\" (1946, em \"Arbitrariedade Legal e Direito Supralegal\"), o jurista alemão estabelece o critério de superação do positivismo legalista acrítico diante da barbárie estatal: embora em regra o conflito entre a JUSTIÇA e a SEGURANÇA JURÍDICA deva resolver-se em favor do direito positivo (por garantir a paz e certeza social mesmo quando a lei é imperfeita ou inconveniente), há um limiar extremo intransponível: quando a contradição da lei positiva com a justiça atinge uma medida TÃO INTOLERÁVEL (injustiça extrema) ou quando a lei nem sequer busca a justiça (negando conscientemente a igualdade essencial), tal \"lei\" é DIREITO INJUSTO (arbitrariedade legal) e carece de natureza jurídica (\"injustiça extrema não é Direito\")!"
+        "text": "Na célebre \"Fórmula de Radbruch\", o jurista alemão estabelece o critério de superação do positivismo legalista acrítico diante da barbárie estatal: embora em regra o conflito entre a justiça e a segurança jurídica deva resolver-se em favor do direito positivo, há um limiar extremo intransponível: quando a contradição da lei positiva com a justiça atinge uma medida tão intolerável (injustiça extrema) ou quando a lei nem sequer busca a justiça, tal \"lei\" é direito injusto e carece de natureza jurídica."
       },
       {
         "letter": "B",
-        "text": "Pela Fórmula de Radbruch, toda e qualquer lei positiva que apresente mínima imperfeição tributária ou injustiça leve perde imediatamente sua validade jurídica."
+        "text": "Pela Fórmula de Radbruch, toda e qualquer lei positiva que apresente mínima imperfeição tributária ou injustiça leve perde imediatamente sua validade jurídica, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "C",
-        "text": "Mesmo após a Segunda Guerra Mundial, Gustav Radbruch manteve a tese positivista radical de que \"lei é lei\" (Gesetz ist Gesetz) sem nenhuma exceção moral possível."
+        "text": "Mesmo após a Segunda Guerra Mundial, Gustav Radbruch manteve a tese positivista radical de que \"lei é lei\" (Gesetz ist Gesetz) sem nenhuma exceção moral possível, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "D",
-        "text": "A Fórmula de Radbruch afirma que a segurança jurídica não possui nenhum valor na filosofia do direito, devendo sempre ser ignorada pelo juiz."
+        "text": "A Fórmula de Radbruch afirma que a segurança jurídica não possui nenhum valor na filosofia do direito, devendo sempre ser ignorada pelo juiz, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       }
     ],
     "correctAnswer": "A",
@@ -1392,7 +1392,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na teoria imperativista de John Austin (Jurisprudência Analítica), o direito positivo reduz-se a um COMANDO (desejo de que outrem faça ou deixe de fazer algo apoiado na ameaça de um mal — SANÇÃO) emitido por um SOBERANO (pessoa ou corpo que recebe obediência habitual da maioria de uma sociedade independente e não presta obediência habitual a nenhum superior humano). Daí sua célebre separação analítica: \"A existência do direito é uma coisa; o seu mérito ou demérito é outra\"."
+        "text": "Na teoria imperativista de John Austin, o direito positivo reduz-se a um comando emitido por um soberano."
       },
       {
         "letter": "B",
@@ -1400,11 +1400,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "John Austin considerava o Direito Internacional Público plenamente equivalente ao direito estatal positivo como comando de um soberano mundial."
+        "text": "John Austin considerava o Direito Internacional Público plenamente equivalente ao direito estatal positivo como comando de um soberano mundial, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "D",
-        "text": "Austin fundia inseparavelmente direito e moralidade cristã, negando validade jurídica a qualquer comando soberano imoral."
+        "text": "Austin fundia inseparavelmente direito e moralidade cristã, negando validade jurídica a qualquer comando soberano imoral, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "A",
@@ -1447,7 +1447,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A \"pureza\" metodológica kelseniana significa depurar a CIÊNCIA DO DIREITO (não necessariamente o direito positivo em si enquanto produto político) de elementos estranhos das ciências naturais/sociais e da moral/jusnaturalismo. Kelsen situa o Direito no mundo do DEVER-SER (Sollen), regido pelo princípio da IMPUTAÇÃO (dado o ilícito A, deve ser a sanção B — vínculo normativo posto pela autoridade), em oposição ao mundo do SER (Sein) das ciências naturais, regido pelo princípio da CAUSALIDADE (dado A, necessariamente acontece B)."
+        "text": "A \"pureza\" metodológica kelseniana significa depurar a ciência do direito de elementos estranhos das ciências naturais/sociais e da moral/jusnaturalismo."
       },
       {
         "letter": "B",
@@ -1459,7 +1459,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Kelsen reduz o conceito de norma jurídica primária à regra moral que recomenda condutas virtuosas sem nenhuma previsão de sanção."
+        "text": "Kelsen reduz o conceito de norma jurídica primária à regra moral que recomenda condutas virtuosas sem nenhuma previsão de sanção, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "A",
@@ -1502,7 +1502,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na dinâmica jurídica kelseniana (estrutura escalonada — Stufenbau), uma norma inferior é válida porque foi criada conforme o procedimento e a competência previstos em uma norma superior (lei -> Constituição -> Constituição histórica). Para fechar a cadeia sem regressão ao infinito nem recorrer a Deus ou à Moral (jusnaturalismo), Kelsen postula a NORMA FUNDAMENTAL PRESSUPOSTA (Grundnorm): não uma norma posta por autoridade humana, mas um pressuposto lógico-transcendental do pensamento jurídico (\"deve-se obedecer à Constituição globalmente eficaz\"). Ademais, a EFICÁCIA global do ordenamento é CONDIÇÃO (conditio sine qua non) da validade das normas, embora não se confunda com a validade em si (conditio per quam)."
+        "text": "Na dinâmica jurídica kelseniana, uma norma inferior é válida porque foi criada conforme o procedimento e a competência previstos em uma norma superior."
       },
       {
         "letter": "B",
@@ -1510,7 +1510,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Na teoria de Kelsen, a eficácia social de uma lei isolada confunde-se totalmente com sua validade jurídica."
+        "text": "Na teoria de Kelsen, a eficácia social de uma lei isolada confunde-se totalmente com sua validade jurídica, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "D",
@@ -1557,19 +1557,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No célebre Capítulo VIII da \"Teoria Pura do Direito\", Kelsen afirma que toda norma superior determina apenas parcialmente a norma inferior, deixando um marco ou MOLDURA (Rahmen) dentro da qual cabem várias decisões possíveis juridicamente válidas. Assim: (1) a interpretação CIENTÍFICA (do jurista doutrinário) é um ATO DE CONHECIMENTO que apenas descreve e exibe todas as significações possíveis dentro da moldura (sem escolher uma como a única \"certa\"); e (2) a interpretação AUTÊNTICA (do juiz ou órgão aplicador) ao escolher uma dentre as possibilidades dentro da moldura (ou mesmo fora dela em decisões de última instância!) realiza um ATO DE VONTADE (político-decisório, criador de norma individual) — refutando a ilusão de uma única resposta certa!"
+        "text": "No célebre Capítulo VIII da \"Teoria Pura do Direito\", Kelsen afirma que toda norma superior determina apenas parcialmente a norma inferior, deixando um marco ou moldura (Rahmen) dentro da qual cabem várias decisões possíveis juridicamente válidas."
       },
       {
         "letter": "B",
-        "text": "Na teoria da interpretação de Kelsen, o texto legal possui sempre uma única interpretação verdadeira que o juiz apenas descobre mecanicamente sem ato de vontade."
+        "text": "Na teoria da interpretação de Kelsen, o texto legal possui sempre uma única interpretação verdadeira que o juiz apenas descobre mecanicamente sem ato de vontade, com superação crítica da literalidade legal em favor da equidade e da justiça material concreta."
       },
       {
         "letter": "C",
-        "text": "Para Hans Kelsen, o jurista teórico (ciência do direito) tem o dever de apontar qual interpretação dentro da moldura é moralmente a única correta."
+        "text": "Para Hans Kelsen, o jurista teórico (ciência do direito) tem o dever de apontar qual interpretação dentro da moldura é moralmente a única correta, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "D",
-        "text": "Segundo Kelsen, uma sentença judicial transitada em julgado que decida fora da moldura da lei é automaticamente inexistente no mundo jurídico positivo."
+        "text": "Segundo Kelsen, uma sentença judicial transitada em julgado que decida fora da moldura da lei é automaticamente inexistente no mundo jurídico positivo, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       }
     ],
     "correctAnswer": "A",
@@ -1612,19 +1612,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na teoria de H.L.A. Hart, todas as normas jurídicas válidas são redutíveis a comandos coercitivos que impõem deveres sob ameaça de sanção."
+        "text": "Na teoria de H.L.A. Hart, todas as normas jurídicas válidas são redutíveis a comandos coercitivos que impõem deveres sob ameaça de sanção, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "A Regra de Reconhecimento de Hart é um pressuposto lógico puramente abstrato e hipotético do jurista, idêntico à Grundnorm de Kelsen."
+        "text": "A Regra de Reconhecimento de Hart é um pressuposto lógico puramente abstrato e hipotético do jurista, idêntico à Grundnorm de Kelsen, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "C",
-        "text": "Para Hart, o ponto de vista interno das regras significa apenas o cálculo egoísta de medo da multa ou prisão pelo cidadão."
+        "text": "Para Hart, o ponto de vista interno das regras significa apenas o cálculo egoísta de medo da multa ou prisão pelo cidadão, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "D",
-        "text": "Hart define o Direito moderno como a UNIÃO DE REGRAS PRIMÁRIAS E REGRAS SECUNDÁRIAS: (1) REGRAS PRIMÁRIAS são regras de obrigação que impõem deveres de fazer ou não fazer aos cidadãos; (2) REGRAS SECUNDÁRIAS são regras de segundo grau sobre as próprias regras primárias, criadas para sanar três defeitos de uma sociedade primitiva apenas de regras primárias (incerteza, caráter estático e ineficiência da pressão social difusa): são elas a REGRA DE RECONHECIMENTO (remedia a incerteza, fornecendo os critérios de validade do sistema pela prática social convergente dos tribunais e autoridades), as REGRAS DE ALTERAÇÃO (remediam a estaticidade, conferindo poderes legislativos e privados de mudar regras) e as REGRAS DE JULGAMENTO (remediam a ineficiência, instituindo juízes e competências para declarar violações)!"
+        "text": "Hart define o Direito moderno como a união de regras primárias e regras secundárias: regras primárias são regras de obrigação que impõem deveres de fazer ou não fazer aos cidadãos."
       }
     ],
     "correctAnswer": "D",
@@ -1667,19 +1667,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para H.L.A. Hart, o ordenamento jurídico é semanticamente fechado e completo, nunca concedendo discricionariedade ao juiz mesmo em casos difíceis."
+        "text": "Para H.L.A. Hart, o ordenamento jurídico é semanticamente fechado e completo, nunca concedendo discricionariedade ao juiz mesmo em casos difíceis. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "B",
-        "text": "No caso de aplicação de regra geral, Hart defende que toda palavra legal é integralmente vaga e não possui nem sequer um núcleo mínimo de significado estável."
+        "text": "No caso de aplicação de regra geral, Hart defende que toda palavra legal é integralmente vaga e não possui nem sequer um núcleo mínimo de significado estável, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "C",
-        "text": "Segundo Hart, quando o juiz decide na zona de penumbra com discricionariedade, ele atua por mero palpite aleatório arbitrário sem ponderação de razões."
+        "text": "Segundo Hart, quando o juiz decide na zona de penumbra com discricionariedade, ele atua por mero palpite aleatório arbitrário sem ponderação de razões. A análise teórica evidencia o papel da argumentação racional na justificação das decisões."
       },
       {
         "letter": "D",
-        "text": "Hart desenvolve o célebre conceito de TEXTURA ABERTA DO DIREITO (Open Texture — inspirado na filosofia da linguagem de Waismann e Wittgenstein): toda regra jurídica expressa em linguagem natural possui um NÚCLEO DE CERTEZA (\"casos fáceis\", como o automóvel comum, resolvidos por aplicação direta da regra) e uma ZONA DE PENUMBRA ou incerteza (\"casos difíceis\" — como patinete ou bicicleta no parque). Nos casos situados na zona de penumbra, o direito vigente é parcialmente indeterminado, razão pela qual Hart reconhece que o juiz exerce um PODER DISCRICIONÁRIO (criação intersticial do Direito para o caso concreto), atuando de modo racional e responsável, mas sem uma resposta pré-determinada no sistema!"
+        "text": "Hart desenvolve o célebre conceito de textura aberta do direito: toda regra jurídica expressa em linguagem natural possui um núcleo de certeza e uma zona de penumbra ou incerteza (\"casos difíceis\" )."
       }
     ],
     "correctAnswer": "D",
@@ -1722,11 +1722,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Lon Fuller sustentava um jusnaturalismo puramente teológico e metafísico fundado em dogmas religiosos eternos."
+        "text": "Lon Fuller sustentava um jusnaturalismo puramente teológico e metafísico fundado em dogmas religiosos eternos, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "B",
-        "text": "No caso dos delatores nazistas, Hart recomendava que os tribunais alemães declarassem que as leis nazistas jamais tiveram validade jurídica com base na Fórmula de Radbruch."
+        "text": "No caso dos delatores nazistas, Hart recomendava que os tribunais alemães declarassem que as leis nazistas jamais tiveram validade jurídica com base na Fórmula de Radbruch, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
@@ -1734,7 +1734,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "No debate Hart-Fuller: (1) Hart defende a TESE DA SEPARAÇÃO (positivismo jurídico): as leis nazistas, embora moralmente monstruosas, ERAM direito válido pela regra de reconhecimento da época — devendo ser afastadas francamente por lei retroativa penal clara do pós-guerra (em vez de fingir que \"nunca foram direito\", como queria Radbruch); e (2) Lon Fuller propõe um JUSNATURALISMO PROCEDIMENTAL baseado na \"MORALIDADE INTERNA DO DIREITO\" (oito cânones da legalidade sem os quais não existe verdadeiro Direito: generalidade, publicidade, irretroatividade, clareza, não contradição, possibilidade de cumprimento, estabilidade e congruência entre regra declarada e aplicação oficial) — concluindo que o regime nazista, com leis secretas e retroativas, destruiu a própria moralidade interna do Direito!"
+        "text": "No debate Hart-Fuller: Hart defende a tese da separação: as leis nazistas, embora moralmente monstruosas, eram direito válido pela regra de reconhecimento da época."
       }
     ],
     "correctAnswer": "D",
@@ -1781,15 +1781,15 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Segundo Bobbio, uma norma jurídica injusta jamais pode ser considerada juridicamente válida dentro de um ordenamento positivo."
+        "text": "Segundo Bobbio, uma norma jurídica injusta jamais pode ser considerada juridicamente válida dentro de um ordenamento positivo, com afastamento da fundamentação jusnaturalista metafísica para legitimação da norma estatal."
       },
       {
         "letter": "C",
-        "text": "Na análise de Bobbio, o realismo jurídico reduz o conceito de validade jurídica exclusivamente ao critério de justiça moral."
+        "text": "Na análise de Bobbio, o realismo jurídico reduz o conceito de validade jurídica exclusivamente ao critério de justiça moral, com fundamentação da obrigatoriedade normativa na adesão racional e no consenso discursivo."
       },
       {
         "letter": "D",
-        "text": "Para Norberto Bobbio: (1) toda norma jurídica pode ser avaliada sob três critérios independentes — JUSTIÇA (correspondência a valores morais/ideais — problema deontológico), VALIDADE (existência jurídica da norma no ordenamento pela autoridade competente sem revogação/incompatibilidade — problema ontológico) e EFICÁCIA (efetivo cumprimento pelos destinatários — problema fenomenológico), advertindo contra os reducionismos (jusnaturalista, positivista extremo e realista); e (2) o Positivismo Jurídico desdobra-se em três planos: como METODOLOGIA científica avalorativa (estudo neutro do direito posto como fato — único que Bobbio defende!), como TEORIA estatal do direito (coação, lei, completude, coerência) e como IDEOLOGIA (dever moral absoluto de obedecer à lei pelo simples fato de ser lei — positivismo ético rejeitado por Bobbio!)."
+        "text": "Para Norberto Bobbio: toda norma jurídica pode ser avaliada sob três critérios independentes."
       }
     ],
     "correctAnswer": "D",
@@ -1840,11 +1840,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Para Bobbio, a autointegração das lacunas utiliza fontes externas ao ordenamento, como o direito natural ou o direito romano estrangeiro."
+        "text": "Para Bobbio, a autointegração das lacunas utiliza fontes externas ao ordenamento, como o direito natural ou o direito romano estrangeiro. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       },
       {
         "letter": "D",
-        "text": "Para Bobbio, um ordenamento jurídico articula-se em três propriedades: (1) UNIDADE — garantida pela norma fundamental escalonada; (2) COERÊNCIA — exige a eliminação de ANTINOMIAS (conflitos entre normas incompatíveis no mesmo sistema) mediante três critérios clássicos: CRONOLÓGICO (lex posterior derogat priori), HIERÁRQUICO (lex superior derogat inferiori) e da ESPECIALIDADE (lex specialis derogat generali) — prevalecendo o hierárquico sobre os demais e, entre normas igualmente fortes sem solução, aplicando-se o critério de interpretação favorável ou conflito de segunda ordem; e (3) COMPLETUDE — ausência de lacunas (ou possibilidade de autointegração via analogia e princípios gerais / heterointegração), superando o mito dogmático absoluto da inexistência de lacunas."
+        "text": "Para Bobbio, um ordenamento jurídico articula-se em três propriedades: unidade; coerência; e completude."
       }
     ],
     "correctAnswer": "D",
@@ -1887,19 +1887,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O positivismo jurídico exclusivo de Joseph Raz afirma que os princípios morais da Constituição integram sempre e necessariamente o critério de validade legal das normas."
+        "text": "O positivismo jurídico exclusivo de Joseph Raz afirma que os princípios morais da Constituição integram sempre e necessariamente o critério de validade legal das normas, com fundamentação da obrigatoriedade normativa na adesão racional e no consenso discursivo."
       },
       {
         "letter": "B",
-        "text": "O positivismo jurídico inclusivo defende a tese jusnaturalista de que todo ordenamento jurídico no mundo, necessariamente por sua própria essência, invalida leis imorais."
+        "text": "O positivismo jurídico inclusivo defende a tese jusnaturalista de que todo ordenamento jurídico no mundo, necessariamente por sua própria essência, invalida leis imorais. A análise teórica evidencia o papel da argumentação racional na justificação das decisões."
       },
       {
         "letter": "C",
-        "text": "No Pós-Escrito a \"O Conceito de Direito\", H.L.A. Hart aderiu integralmente ao positivismo exclusivo de Joseph Raz."
+        "text": "No Pós-Escrito a \"o Conceito de Direito\", H.L.A. Hart aderiu integralmente ao positivismo exclusivo de Joseph Raz, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       },
       {
         "letter": "D",
-        "text": "Trata-se da cisão contemporânea do positivismo analítico: (1) o POSITIVISMO INCLUSIVO ou \"brando\" (H.L.A. Hart no Pós-Escrito, Jules Coleman, Wilfrid Waluchow) admite que a Regra de Reconhecimento de um ordenamento específico PODE contingentemente incorporar critérios morais (como direitos fundamentais constitucionais) como condição de validade jurídica das normas, sem que isso torne a conexão Direito-Moral necessária em todo e qualquer ordenamento; e (2) o POSITIVISMO EXCLUSIVO ou \"duro\" (Joseph Raz) rejeita qualquer critério moral como teste de validade jurídica, sustentando que a própria natureza de AUTORIDADE do Direito exige que suas normas possam ser identificadas exclusivamente por FONTES SOCIAIS fáticas sem recurso ao raciocínio moral!"
+        "text": "Trata-se da cisão contemporânea do positivismo analítico: o positivismo inclusivo ou \"brando\" admite que a Regra de Reconhecimento de um ordenamento específico pode contingentemente incorporar critérios morais como condição de validade jurídica das normas, sem que isso torne a conexão Direito-Moral necessária em todo e qualquer ordenamento."
       }
     ],
     "correctAnswer": "D",
@@ -1942,19 +1942,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O realismo jurídico norte-americano considera que os juízes decidem exclusivamente por silogismo lógico neutro a partir da letra dos códigos, sem nenhuma influência psicológica ou fática."
+        "text": "O realismo jurídico norte-americano considera que os juízes decidem exclusivamente por silogismo lógico neutro a partir da letra dos códigos, sem nenhuma influência psicológica ou fática, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "B",
-        "text": "Para Oliver Wendell Holmes Jr., a perspectiva do \"homem mau\" (bad man) demonstra que o cidadão obedece às leis unicamente por devoção à moralidade religiosa interna."
+        "text": "Para Oliver Wendell Holmes Jr. a perspectiva do \"homem mau\" (bad man) demonstra que o cidadão obedece às leis unicamente por devoção à moralidade religiosa interna, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "C",
-        "text": "O realismo norte-americano concebe o Direito fundamentalmente como um sistema fechado de normas puras pressupostas sem contato com a sociologia."
+        "text": "O realismo norte-americano concebe o Direito fundamentalmente como um sistema fechado de normas puras pressupostas sem contato com a sociologia, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "D",
-        "text": "Trata-se do REALISMO JURÍDICO NORTE-AMERICANO (pragmatismo jurídico e empirismo judicial): reagindo contra o formalismo lógico-dedutivo (\"a vida do direito não tem sido lógica, tem sido experiência\"), sustenta que o Direito real não reside nos livros (\"law in books\"), mas na conduta concreta e previsível dos juízes (\"law in action\"). Para Holmes (\"teoria da predição\" / ponto de vista do \"homem mau\"), o cliente não quer saber de deduções morais ou axiomas abstratos, mas prever o que os tribunais efetivamente decidirão — linha radicalizada pelo ceticismo fático de Jerome Frank (influência de fatores psicológicos e intuitivos na sentença) e pelo ceticismo às regras de Karl Llewellyn."
+        "text": "Trata-se do realismo jurídico norte-americano: reagindo contra o formalismo lógico-dedutivo, sustenta que o Direito real não reside nos livros (\"law in books\"), mas na conduta concreta e previsível dos juízes (\"law in action\")."
       }
     ],
     "correctAnswer": "D",
@@ -1997,19 +1997,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Alf Ross, a expressão \"direito vigente\" refere-se a um dever-ser metafísico supratemporal completamente desconectado da prática dos juízes."
+        "text": "Para Alf Ross, a expressão \"direito vigente\" refere-se a um dever-ser metafísico supratemporal completamente desconectado da prática dos juízes, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "B",
-        "text": "Na célebre analogia do jogo de xadrez de Alf Ross, as regras do direito equivalem apenas aos movimentos físicos mecânicos sem nenhuma consciência compartilhada pelos jogadores."
+        "text": "Na célebre analogia do jogo de xadrez de Alf Ross, as regras do direito equivalem apenas aos movimentos físicos mecânicos sem nenhuma consciência compartilhada pelos jogadores, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "C",
-        "text": "O realismo escandinavo coincide inteiramente com o jusnaturalismo clássico ao afirmar que a palavra \"justiça\" expressa uma verdade objetiva racional absoluta."
+        "text": "O realismo escandinavo coincide inteiramente com o jusnaturalismo clássico ao afirmar que a palavra \"justiça\" expressa uma verdade objetiva racional absoluta, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "D",
-        "text": "No REALISMO JURÍDICO ESCANDINAVO (Axel Hägerström, Karl Olivecrona e Alf Ross), noções tradicionais como \"validade em si\", \"direito subjetivo\" ou \"norma fundamental\" sem correspondência empírica são criticadas como resquícios de pensamento mágico/metafísico. Para Alf Ross (\"Direito e Justiça\"), afirmar que uma norma pertence ao \"direito vigente\" significa formular uma PROGNOSE EMPÍRICA verificável de que essa norma será sentida como socialmente vinculante pelos JUÍZES e aplicada como fundamento de suas futuras decisões judiciais (ideologia normativa compartilhada pelos magistrados, comparada às regras de um jogo de xadrez)!"
+        "text": "No realismo jurídico escandinavo, noções tradicionais como \"validade em si\", \"direito subjetivo\" ou \"norma fundamental\" sem correspondência empírica são criticadas como resquícios de pensamento mágico/metafísico."
       }
     ],
     "correctAnswer": "D",
@@ -2064,7 +2064,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Trata-se do pluralismo sociológico e antiformalista: (1) Eugen Ehrlich cunhou o conceito de \"DIREITO VIVO\" (lebendes Recht) — o direito efetivamente praticado na vida cotidiana das associações sociais humanas (contratos reais, usos familiares, corporações), mesmo que não esteja positivado em leis estatais nem chegue aos tribunais; (2) Hermann Kantorowicz (sob o pseudônimo Gnaeus Flavius) lançou o MOVIMENTO DO DIREITO LIVRE (Freirechtsbewegung), reconhecendo a existência inevitável de lacunas e defendendo a livre criação judicial do direito quando a lei é omissa ou injusta; e (3) François Gény propôs na França o método da LIVRE INVESTIGAÇÃO CIENTÍFICA para superar a Escola da Exegese."
+        "text": "Trata-se do pluralismo sociológico e antiformalista: Eugen Ehrlich cunhou o conceito de \"direito vivo\" (lebendes Recht)."
       }
     ],
     "correctAnswer": "D",
@@ -2115,11 +2115,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A Jurisprudência das Valorações (Karl Larenz) rejeita a existência de princípios constitucionais ou valores objetivos no ordenamento jurídico."
+        "text": "A Jurisprudência das Valorações (Karl Larenz) rejeita a existência de princípios constitucionais ou valores objetivos no ordenamento jurídico, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "D",
-        "text": "Na metodologia alemã: (1) a JURISPRUDÊNCIA DOS INTERESSES (Philipp Heck, Escola de Tübingen) compreende a lei como a resultante (diagonal) de um conflito histórico entre interesses materiais, ideais e sociais; o juiz NÃO deve fazer mera subsunção lógica de conceitos abstratos (Jurisprudência dos Conceitos), mas realizar uma \"obediência pensante\", investigando os interesses em jogo avaliados pelo legislador e resolvendo lacunas conforme os juízos de valor legais; e (2) a JURISPRUDÊNCIA DAS VALORAÇÕES ou dos Valores (Karl Larenz, pós-Segunda Guerra) supera o empirismo causal dos interesses ao destacar que o Direito orienta-se por VALORES e PRINCÍPIOS ético-jurídicos objetivos (sobretudo constitucionais) que fundamentam a ponderação valorativa do aplicador."
+        "text": "Na metodologia alemã: a jurisprudência dos interesses compreende a lei como a resultante (diagonal) de um conflito histórico entre interesses materiais, ideais e sociais."
       }
     ],
     "correctAnswer": "D",
@@ -2162,19 +2162,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Theodor Viehweg, o Direito deve ser construído como um sistema axiomático-dedutivo fechado de premissas matemáticas sem qualquer consideração pelo problema concreto."
+        "text": "Para Theodor Viehweg, o Direito deve ser construído como um sistema axiomático-dedutivo fechado de premissas matemáticas sem qualquer consideração pelo problema concreto, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "B",
-        "text": "Na Nova Retórica de Chaïm Perelman, a decisão judicial é válida por mera demonstração silogística formal, sendo irrelevante a persuasão ou adesão de um auditório racional."
+        "text": "Na Nova Retórica de Chaïm Perelman, a decisão judicial é válida por mera demonstração silogística formal, sendo irrelevante a persuasão ou adesão de um auditório racional. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       },
       {
         "letter": "C",
-        "text": "Trata-se do giro argumentativo dos anos 1950: (1) Theodor Viehweg (\"Tópica e Jurisprudência\") contrapõe o pensamento SISTEMÁTICO-DEDUTIVO (que parte de axiomas fechados) ao pensamento TÓPICO ou PROBLEMÁTICO (ars inveniendi): a jurisprudência parte sempre de um PROBLEMA concreto (aporia) e busca pontos de vista argumentativos aceitos (topoi / lugares-comuns — ex.: \"ninguém pode transferir mais direitos do que tem\", boa-fé, proporcionalidade) para construir a decisão justa; e (2) Chaïm Perelman (\"Nova Retórica\") distingue a demonstração lógico-formal (necessária, impessoal) da ARGUMENTAÇÃO retórica jurídica (plausível, voltada a conquistar a adesão racional dos espíritos), propondo como critério regulador de objetividade o AUDITÓRIO UNIVERSAL (conjunto de todos os seres racionais competentes), distinto do auditório particular!"
+        "text": "Trata-se do giro argumentativo dos anos 1950: Theodor Viehweg contrapõe o pensamento sistemático-dedutivo ao pensamento tópico ou problemático (ars inveniendi): a jurisprudência parte sempre de um problema concreto (aporia) e busca pontos de vista argumentativos aceitos para construir a decisão justa."
       },
       {
         "letter": "D",
-        "text": "O \"auditório universal\" de Perelman designa apenas o público específico de um tribunal local composto por duas partes litigantes."
+        "text": "O \"auditório universal\" de Perelman designa apenas o público específico de um tribunal local composto por duas partes litigantes, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "C",
@@ -2225,7 +2225,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Neil MacCormick distingue dois níveis de justificação da decisão judicial: (1) JUSTIFICAÇÃO DE PRIMEIRA ORDEM (Interna / Dedutiva) — verifica se a conclusão decorre logicamente das premissas normativa e fática; e (2) JUSTIFICAÇÃO DE SEGUNDA ORDEM (Externa — indispensável nos casos difíceis de interpretação, relevância, prova ou qualificação), que se apoia em três pilares racionais: (a) UNIVERSALIZABILIDADE (o juiz deve fundamentar a decisão numa regra geral que aceitaria aplicar a qualquer caso futuro semelhante — justiça formal); (b) CONSISTÊNCIA (não contradição lógica com normas válidas do sistema) e COERÊNCIA (harmonia axiológica normativa e narrativa com princípios do direito); e (c) ARGUMENTO CONSEQUENCIALISTA (avaliação das consequências práticas aceitáveis da regra universalizada)!"
+        "text": "Neil MacCormick distingue dois níveis de justificação da decisão judicial: justificação de primeira ordem."
       },
       {
         "letter": "D",
@@ -2276,15 +2276,15 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Para Robert Alexy, o Direito positivo nunca formula qualquer pretensão de correção ou justiça, bastando a pura força arbitrária para constituir um sistema jurídico."
+        "text": "Para Robert Alexy, o Direito positivo nunca formula qualquer pretensão de correção ou justiça, bastando a pura força arbitrária para constituir um sistema jurídico. A análise teórica evidencia o papel da argumentação racional na justificação das decisões."
       },
       {
         "letter": "C",
-        "text": "Na \"Teoria da Argumentação Jurídica\" de Robert Alexy, a decisão judicial é submetida à racionalidade intersubjetiva mediante regras discursivas: (1) formula a TESE DO CASO ESPECIAL (Sonderfallthese) — o discurso jurídico é um caso especial do discurso prático racional geral porque ambos tratam da correção de enunciados normativos (pretensão de correção), mas o discurso jurídico sofre restrições institucionais específicas (sujeição obrigatória à lei vigente, aos precedentes judiciais e à dogmática jurídica, além dos limites temporais do processo); e (2) distingue a JUSTIFICAÇÃO INTERNA (correção lógica da inferência dedutiva das premissas) da JUSTIFICAÇÃO EXTERNA (fundamentação racional das próprias premissas escolhidas via regras empíricas, cânones interpretativos, dogmática, precedentes e ponderação)."
+        "text": "Na \"Teoria da Argumentação Jurídica\" de Robert Alexy, a decisão judicial é submetida à racionalidade intersubjetiva mediante regras discursivas: formula a tese do caso especial (Sonderfallthese)."
       },
       {
         "letter": "D",
-        "text": "Na teoria alexyana, a justificação interna consiste na fundamentação histórica e principiológica da validade moral da norma legal escolhida pelo juiz."
+        "text": "Na teoria alexyana, a justificação interna consiste na fundamentação histórica e principiológica da validade moral da norma legal escolhida pelo juiz, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       }
     ],
     "correctAnswer": "C",
@@ -2331,15 +2331,15 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Segundo Alexy, os três subprincípios da máxima da proporcionalidade são: subsunção, silogismo e irrecorribilidade."
+        "text": "Segundo Alexy, os três subprincípios da máxima da proporcionalidade são: subsunção, silogismo e irrecorribilidade. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "C",
-        "text": "Na \"Teoria dos Direitos Fundamentais\" de Robert Alexy: (1) REGRAS são mandamentos definitivos aplicáveis mediante SUBSUNÇÃO — havendo conflito entre duas regras, resolve-se na dimensão da VALIDADE (uma é declarada inválida ou cria-se cláusula de exceção); (2) PRINCÍPIOS são MANDAMENTOS DE OTIMIZAÇÃO (normas que ordenam que algo seja realizado na maior medida possível dentro das possibilidades jurídicas e fáticas existentes) — havendo colisão entre princípios, nenhum é invalidado, resolvendo-se na dimensão do PESO mediante PONDERAÇÃO (sopesamento) guiada pela máxima da PROPORCIONALIDADE (submáximas da adequação, necessidade e proporcionalidade em sentido estrito: \"quanto maior o grau de não satisfação de um princípio, tanto maior tem de ser a importância da satisfação do outro\")!"
+        "text": "Na \"Teoria dos Direitos Fundamentais\" de Robert Alexy: regras são mandamentos definitivos aplicáveis mediante subsunção."
       },
       {
         "letter": "D",
-        "text": "Para Robert Alexy, as regras jurídicas são mandamentos de otimização que comportam cumprimento gradual em diferentes graus."
+        "text": "Para Robert Alexy, as regras jurídicas são mandamentos de otimização que comportam cumprimento gradual em diferentes graus, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "C",
@@ -2390,11 +2390,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Na crítica pioneira a Hart em \"Levando os Direitos a Sério\" (Modelo de Regras I), Dworkin demonstra que o Direito não é composto apenas por REGRAS, mas também por PRINCÍPIOS (padrões que não são identificados por uma Regra de Reconhecimento formal de origem/pedigree, mas por sua pertinência moral institucional e dimensão de peso). Enquanto as REGRAS aplicam-se à maneira do \"TUDO OU NADA\" (all-or-nothing — se válida e aplicável ao fato, dita necessariamente o resultado), os PRINCÍPIOS possuem uma DIMENSÃO DE PESO OU IMPORTÂNCIA (como \"ninguém pode se beneficiar da própria torpeza\" em Riggs v. Palmer), fornecendo razões que inclinam a decisão numa direção sem se anularem quando superados e eliminando a discricionariedade forte do juiz nos casos difíceis!"
+        "text": "Na crítica pioneira a Hart em \"Levando os Direitos a Sério\", Dworkin demonstra que o Direito não é composto apenas por regras, mas também por princípios."
       },
       {
         "letter": "D",
-        "text": "No caso Riggs v. Palmer citado por Dworkin, o tribunal aplicou estritamente a regra literal do testamento permitindo ao neto assassino herdar os bens do avô."
+        "text": "No caso Riggs v. Palmer citado por Dworkin, o tribunal aplicou estritamente a regra literal do testamento permitindo ao neto assassino herdar os bens do avô, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       }
     ],
     "correctAnswer": "C",
@@ -2437,19 +2437,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na metáfora do \"romance em cadeia\" de Dworkin, o juiz atual tem liberdade absoluta para ignorar os capítulos anteriores (leis e precedentes) e inventar uma história totalmente nova."
+        "text": "Na metáfora do \"romance em cadeia\" de Dworkin, o juiz atual tem liberdade absoluta para ignorar os capítulos anteriores (leis e precedentes) e inventar uma história totalmente nova, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "Dworkin utiliza o personagem do \"Juiz Hércules\" para elogiar juízes autoritários que ignoram a Constituição e impõem seus valores pessoais acima da lei."
+        "text": "Dworkin utiliza o personagem do \"Juiz Hércules\" para elogiar juízes autoritários que ignoram a Constituição e impõem seus valores pessoais acima da lei, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
-        "text": "Para Ronald Dworkin (\"O Império do Direito\"): (1) o DIREITO COMO INTEGRIDADE exige que o Estado e os juízes tratem os cidadãos de forma coerente com um único esquema principiológico de justiça e equidade, superando tanto o Convencionalismo (positivismo preso ao passado) quanto o Pragmatismo (ceticismo utilitarista voltado apenas ao futuro sem respeito aos precedentes); (2) na metáfora do ROMANCE EM CADEIA (Chain Novel), cada juiz é como um romancista escrevendo o próximo capítulo de uma história iniciada por outros, devendo equilibrar DUAS dimensões na interpretação construtiva: ADEQUAÇÃO (fit — respeito coerente à história institucional, leis e precedentes já escritos) e JUSTIFICAÇÃO MORAL (justificativa — mostrar a prática jurídica à sua melhor luz moral); e (3) o JUIZ HÉRCULES simboliza o ideal regulativo capaz de reconstruir a melhor teoria coerente do sistema para alcançar a ÚNICA RESPOSTA CORRETA (One Right Answer) nos casos difíceis!"
+        "text": "Para Ronald Dworkin: o direito como integridade exige que o Estado e os juízes tratem os cidadãos de forma coerente com um único esquema principiológico de justiça e equidade, superando tanto o Convencionalismo quanto o Pragmatismo."
       },
       {
         "letter": "D",
-        "text": "O \"Direito como Integridade\" rejeita a coerência principiológica do ordenamento e defende que o juiz decida apenas visando consequências pragmáticas futuras."
+        "text": "O \"Direito como Integridade\" rejeita a coerência principiológica do ordenamento e defende que o juiz decida apenas visando consequências pragmáticas futuras, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "C",
@@ -2492,19 +2492,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Dworkin concorda com o \"aguilhão semântico\", sustentando que se dois juízes discordam sobre os critérios da validade jurídica, estão apenas falando de coisas diferentes por erro de vocabulário."
+        "text": "Dworkin concorda com o \"aguilhão semântico\", sustentando que se dois juízes discordam sobre os critérios da validade jurídica, estão apenas falando de coisas diferentes por erro de vocabulário. A análise teórica evidencia o papel da argumentação racional na justificação das decisões."
       },
       {
         "letter": "B",
-        "text": "Para Dworkin, os únicos desacordos possíveis entre juristas e advogados são desacordos empíricos sobre fatos do processo ou sobre o texto literal publicado no Diário Oficial."
+        "text": "Para Dworkin, os únicos desacordos possíveis entre juristas e advogados são desacordos empíricos sobre fatos do processo ou sobre o texto literal publicado no Diário Oficial, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "C",
-        "text": "Dworkin denomina \"AGUILHÃO SEMÂNTICO\" (Semantic Sting) o equívoco das teorias semânticas do direito (especialmente o positivismo jurídico) ao supor que os juristas só podem discutir significativamente o que é o Direito se compartilharem previamente os mesmos critérios linguísticos factuais (como uma Regra de Reconhecimento) para usar a palavra \"direito\". Para Dworkin, os verdadeiros casos jurídicos revelam DESACORDOS TEÓRICOS (divergências interpretativas sobre os melhores fundamentos morais e políticos que justificam a prática jurídica), porque \"direito\" é um CONCEITO INTERPRETATIVO (não meramente criterial nem natural)!"
+        "text": "Dworkin denomina \"aguilhão semântico\" (Semantic Sting) o equívoco das teorias semânticas do direito ao supor que os juristas só podem discutir significativamente o que é o Direito se compartilharem previamente os mesmos critérios linguísticos factuais para usar a palavra \"direito\"."
       },
       {
         "letter": "D",
-        "text": "O conceito de \"conceito interpretativo\" em Dworkin significa que o significado da justiça e do direito é fixado arbitrariamente pelo gosto subjetivo sem nenhuma prática compartilhada."
+        "text": "O conceito de \"conceito interpretativo\" em Dworkin significa que o significado da justiça e do direito é fixado arbitrariamente pelo gosto subjetivo sem nenhuma prática compartilhada, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "C",
@@ -2547,19 +2547,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Gadamer, o intérprete jurídico deve eliminar absolutamente todos os seus preconceitos e sua historicidade prévia para alcançar uma interpretação objetiva neutra fora do tempo."
+        "text": "Para Gadamer, o intérprete jurídico deve eliminar absolutamente todos os seus preconceitos e sua historicidade prévia para alcançar uma interpretação objetiva neutra fora do tempo, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "B",
-        "text": "Na hermenêutica gadameriana, primeiro o jurista descobre o sentido abstrato e eterno da norma e só numa segunda etapa totalmente autônoma e posterior faz a aplicação ao caso concreto."
+        "text": "Na hermenêutica gadameriana, primeiro o jurista descobre o sentido abstrato e eterno da norma e só numa segunda etapa totalmente autônoma e posterior faz a aplicação ao caso concreto, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "C",
-        "text": "Na hermenêutica filosófica de Gadamer: (1) compreender nunca parte de uma mente neutra e vazia (\"tabula rasa\"), mas sempre de PRÉ-CONCEITOS / PRÉ-COMPREENSÕES legítimos inseridos na história e na tradição linguística (\"O ser que pode ser compreendido é linguagem\"); (2) opera-se o CÍRCULO HERMENÊUTICO (movimento circular dinâmico entre o todo e as partes, e entre a pré-compreensão do intérprete e o texto, revendo os preconceitos inadequados diante da coisa mesma); (3) toda compreensão é uma FUSÃO DE HORIZONTES (entre o horizonte histórico do texto/norma e o horizonte presente do intérprete); e (4) interpretar e APLICAR (applicatio — inspirada na phronesis aristotélica) NÃO são etapas separadas: compreender uma lei já é sempre aplicá-la concretamente ao caso presente!"
+        "text": "Na hermenêutica filosófica de Gadamer: compreender nunca parte de uma mente neutra e vazia (\"tabula rasa\"), mas sempre de pré-conceitos / pré-compreensões legítimos inseridos na história e na tradição linguística."
       },
       {
         "letter": "D",
-        "text": "Gadamer reduz a linguagem jurídica a um mero instrumento técnico secundário posterior ao pensamento puro sem linguagem."
+        "text": "Gadamer reduz a linguagem jurídica a um mero instrumento técnico secundário posterior ao pensamento puro sem linguagem, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "C",
@@ -2610,7 +2610,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Na CRÍTICA HERMENÊUTICA DO DIREITO (CHD) formulada por Lenio Streck (articulando a hermenêutica filosófica de Heidegger/Gadamer com a integridade e coerência de Ronald Dworkin): (1) o Direito NÃO é o que o intérprete/juiz quer que seja (\"decido conforme minha consciência\" = SOLIPSISMO judicial / \"filosofia da consciência\" incompatível com a Constituição democrática!); (2) a interpretação exige RESPOSTA ADEQUADA À CONSTITUIÇÃO (fidelidade ao texto normativo como limite, sem confundir texto e norma — diferença ontológica — mas respeitando a tradição institucional democrática e os precedentes); e (3) critica o \"panprincipiologismo\" (criação arbitrária de pseudo-princípios ad hoc) e o uso subjetivista da ponderação como pretexto para ativismo e decisionismo judicial!"
+        "text": "Na crítica hermenêutica do direito (chd) formulada por Lenio Streck: o Direito não é o que o intérprete/juiz quer que seja."
       },
       {
         "letter": "D",
@@ -2661,11 +2661,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O garantismo de Luigi Ferrajoli defende a abolição total do Direito Penal e de todas as leis penais (abolicionismo penal radical)."
+        "text": "O garantismo de Luigi Ferrajoli defende a abolição total do Direito Penal e de todas as leis penais (abolicionismo penal radical), como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "C",
-        "text": "Na teoria do GARANTISMO JURÍDICO de Luigi Ferrajoli (\"Direito e Razão\"): (1) rompe-se com o positivismo formalista clássico ao distinguir VIGÊNCIA (existência formal da norma produzida pelo órgão competente segundo o rito procedimental = dimensão formal do \"ser\" do direito) de VALIDADE SUBSTANCIAL (coerência do conteúdo da norma com os direitos fundamentais e garantias constitucionais materiais = dimensão substancial do \"dever-ser\" jurídico interno); assim, uma lei formalmente promulgada que viole a Constituição é VIGENTE, porém INVÁLIDA (antinomia ilegítima que impõe ao juiz o dever crítico de afastá-la ou submetê-la ao controle de constitucionalidade); e (2) estrutura o Direito Penal Mínimo em 10 axiomas garantistas (nulla poena sine crimine, nullum crimen sine lege, sine necessitate, sine iniuria, sine culpa etc.) como proteção do mais fraco contra o arbítrio estatal e privado (\"lei do mais fraco\")."
+        "text": "Na teoria do garantismo jurídico de Luigi Ferrajoli (\"Direito e Razão\"): rompe-se com o positivismo formalista clássico ao distinguir vigência de validade substancial."
       },
       {
         "letter": "D",
@@ -2716,11 +2716,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na TEORIA TRIDIMENSIONAL DO DIREITO (tridimensionalismo concreto e dinâmico) de Miguel Reale, o fenômeno jurídico é sempre uma síntese integradora de TRÊS FATORES INDISSOCIÁVEIS — FATO, VALOR e NORMA — ligados por uma DIALÉTICA DE IMPLICAÇÃO E POLARIDADE (e não meramente justapostos como elementos estáticos): onde quer que haja um fenômeno jurídico, há sempre um FATO subjacente (acontecimento social, econômico, geográfico), um VALOR que confere significação a esse fato e uma NORMA que representa a medida ou relação integradora entre fato e valor (regra resultante do momento de poder/decisão dentro de um leque de possibilidades)!"
+        "text": "Na teoria tridimensional do direito de Miguel Reale, o fenômeno jurídico é sempre uma síntese integradora de três fatores indissociáveis."
       },
       {
         "letter": "C",
-        "text": "Para Miguel Reale, a norma jurídica reduz-se a uma pura forma lógica desvinculada da experiência histórica e dos valores sociais."
+        "text": "Para Miguel Reale, a norma jurídica reduz-se a uma pura forma lógica desvinculada da experiência histórica e dos valores sociais, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "D",
@@ -2767,19 +2767,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para John Rawls, na Posição Original sob o Véu da Ignorância os contratantes conhecem perfeitamente sua classe econômica e seus talentos naturais para negociar vantagens maiores."
+        "text": "Para John Rawls, na Posição Original sob o Véu da Ignorância os contratantes conhecem perfeitamente sua classe econômica e seus talentos naturais para negociar vantagens maiores, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "B",
-        "text": "Na teoria da \"JUSTIÇA COMO EQUIDADE\" (Justice as Fairness) de John Rawls, os princípios da justiça para a estrutura básica da sociedade são escolhidos por pessoas racionais e livres numa situação hipotética imparcial chamada POSIÇÃO ORIGINAL, sob um VÉU DA IGNORÂNCIA (Veil of Ignorance): as partes desconhecem sua classe social, fortuna, talentos naturais, inteligência, força, raça, gênero e até sua concepção pessoal de bem — de modo que ninguém possa desenhar regras enviesadas para favorecer a si mesmo, conduzindo racionalmente à regra maximin (maximizar a situação do grupo menos favorecido caso se venha a ocupar a pior posição social)!"
+        "text": "Na teoria da \"justiça como equidade\" de John Rawls, os princípios da justiça para a estrutura básica da sociedade são escolhidos por pessoas racionais e livres numa situação hipotética imparcial chamada posição original, sob um véu da ignorância (Veil of Ignorance): as partes desconhecem sua classe social, fortuna, talentos naturais, inteligência, força, raça, gênero e até sua concepção pessoal de bem."
       },
       {
         "letter": "C",
-        "text": "John Rawls formula a \"Justiça como Equidade\" para defender e aperfeiçoar o utilitarismo clássico de Bentham."
+        "text": "John Rawls formula a \"Justiça como Equidade\" para defender e aperfeiçoar o utilitarismo clássico de Bentham, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "D",
-        "text": "Na Posição Original, os indivíduos são motivados por altruísmo caritativo ilimitado que elimina qualquer preocupação com seus próprios bens primários."
+        "text": "Na Posição Original, os indivíduos são motivados por altruísmo caritativo ilimitado que elimina qualquer preocupação com seus próprios bens primários, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "B",
@@ -2826,7 +2826,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Os dois princípios da justiça de John Rawls são: (1º) PRINCÍPIO DA IGUAL LIBERDADE — cada pessoa deve ter um direito igual ao mais abrangente sistema total de liberdades básicas iguais compatível com um sistema semelhante para todos; e (2º) subdividido em IGUALDADE EQUITATIVA DE OPORTUNIDADES (cargos e posições abertos a todos com chances reais iguais) e PRINCÍPIO DA DIFERENÇA (as desigualdades econômicas e sociais só são justificáveis se resultarem em MAIOR BENEFÍCIO PARA OS MEMBROS MENOS FAVORECIDOS da sociedade!). Entre eles vigora uma PRIORIDADE LEXICAL: o 1º princípio (liberdades básicas) tem prioridade absoluta sobre o 2º, não podendo ser trocada liberdade fundamental por ganho econômico; e dentro do 2º, a igualdade equitativa de oportunidades precede o princípio da diferença."
+        "text": "Os dois princípios da justiça de John Rawls são: (1º) princípio da igual liberdade; e (2º) subdividido em igualdade equitativa de oportunidades e princípio da diferença."
       },
       {
         "letter": "C",
@@ -2834,7 +2834,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O Princípio da Diferença tem prioridade hierárquica absoluta sobre o Princípio da Igual Liberdade e sobre a Igualdade de Oportunidades."
+        "text": "O Princípio da Diferença tem prioridade hierárquica absoluta sobre o Princípio da Igual Liberdade e sobre a Igualdade de Oportunidades, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "B",
@@ -2877,19 +2877,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O \"consenso sobreposto\" de John Rawls exige que todos os cidadãos abandonem suas religiões e convicções morais para adotar uma única doutrina filosófica abrangente estatal."
+        "text": "O \"consenso sobreposto\" de John Rawls exige que todos os cidadãos abandonem suas religiões e convicções morais para adotar uma única doutrina filosófica abrangente estatal, com fundamentação da obrigatoriedade normativa na adesão racional e no consenso discursivo."
       },
       {
         "letter": "B",
-        "text": "Em \"O Liberalismo Político\", Rawls apresenta a justiça como equidade não como uma doutrina metafísica abrangente (como o kantismo completo), mas como uma CONCEPÇÃO POLÍTICA DE JUSTIÇA autônoma capaz de obter um CONSENSO SOBREPOSTO (Overlapping Consensus) entre diferentes doutrinas abrangentes razoáveis (religiosas ou seculares) que compartilham os valores constitucionais básicos por suas próprias razões internas. Nas deliberações sobre elementos constitucionais essenciais e justiça básica, cidadãos e juízes devem respeitar o dever da RAZÃO PÚBLICA (fundamentar decisões em razões políticas compartilháveis por todos como cidadãos livres e iguais, e não apenas em dogmas religiosos ou filosóficos privados — destacando os tribunais supremos como \"órgão exemplar da razão pública\")."
+        "text": "Em \"o Liberalismo Político\", Rawls apresenta a justiça como equidade não como uma doutrina metafísica abrangente, mas como uma concepção política de justiça autônoma capaz de obter um consenso sobreposto entre diferentes doutrinas abrangentes razoáveis que compartilham os valores constitucionais básicos por suas próprias razões internas."
       },
       {
         "letter": "C",
-        "text": "Para Rawls, o dever da Razão Pública significa que magistrados e legisladores devem decidir questões constitucionais essenciais exclusivamente com base em dogmas sectários privados sem traduzi-los em argumentos políticos acessíveis."
+        "text": "Para Rawls, o dever da Razão Pública significa que magistrados e legisladores devem decidir questões constitucionais essenciais exclusivamente com base em dogmas sectários privados sem traduzi-los em argumentos políticos acessíveis, com superação crítica da literalidade legal em favor da equidade e da justiça material concreta."
       },
       {
         "letter": "D",
-        "text": "Na obra \"O Liberalismo Político\", o consenso sobreposto equivale a um simples armistício provisório de conveniência chamado \"modus vivendi\"."
+        "text": "Na obra \"o Liberalismo Político\", o consenso sobreposto equivale a um simples armistício provisório de conveniência chamado \"modus vivendi\", com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       }
     ],
     "correctAnswer": "B",
@@ -2936,7 +2936,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Em \"Anarquia, Estado e Utopia\", Robert Nozick defende o LIBERTARIANISMO filosófico e o ESTADO MÍNIMO (\"Estado guarda-noturno\", restrito a proteger contra força, roubo, fraude e garantir cumprimento de contratos — qualquer Estado mais extenso viola direitos individuais de autopropriedade!). Contra os princípios padronizados de justiça distributiva (como o Princípio da Diferença de Rawls), Nozick propõe a TEORIA DA TITULAÇÃO HISTÓRICA (Entitlement Theory): uma distribuição de bens é justa se resultar de três princípios históricos: (1) Justiça na AQUISIÇÃO inicial legítima; (2) Justiça na TRANSFERÊNCIA voluntária (doação, troca livre); e (3) Princípio da RETIFICAÇÃO de injustiças históricas passadas!"
+        "text": "Em \"Anarquia, Estado e Utopia\", Robert Nozick defende o libertarianismo filosófico e o estado mínimo."
       },
       {
         "letter": "C",
@@ -2987,19 +2987,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O comunitarismo de Michael Sandel defende a neutralidade moral absoluta do Estado e a mercantilização irrestrita de todos os bens sociais pela lógica de mercado."
+        "text": "O comunitarismo de Michael Sandel defende a neutralidade moral absoluta do Estado e a mercantilização irrestrita de todos os bens sociais pela lógica de mercado, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "B",
-        "text": "O COMUNITARISMO contemporâneo (Michael Sandel, Charles Taylor, Alasdair MacIntyre, Michael Walzer) critica a antropologia atomista do liberalismo deontológico (\"eu desengajado\" ou \"não situado\" de Rawls/Kant): sustenta que a identidade moral e jurídica do sujeito é constituída por seus vínculos comunitários, tradições narrativas e pertença cultural (\"eu situado\"); por isso, o Estado e o Direito NÃO podem ser puramente \"neutros\" quanto às concepções de vida boa, devendo fomentar virtudes cívicas, bem comum, solidariedade e reconhecimento cultural (ex.: crítica de Sandel aos limites morais do mercado em \"O que o dinheiro não compra\")."
+        "text": "O comunitarismo contemporâneo critica a antropologia atomista do liberalismo deontológico: sustenta que a identidade moral e jurídica do sujeito é constituída por seus vínculos comunitários, tradições narrativas e pertença cultural (\"eu situado\")."
       },
       {
         "letter": "C",
-        "text": "Para os comunitaristas, o indivíduo racional antecede logicamente a sociedade e constrói sua identidade de forma totalmente independente da linguagem e tradição históricas."
+        "text": "Para os comunitaristas, o indivíduo racional antecede logicamente a sociedade e constrói sua identidade de forma totalmente independente da linguagem e tradição históricas, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "D",
-        "text": "Alasdair MacIntyre em \"Depois da Virtude\" celebra o sucesso completo do projeto iluminista moderno em fundamentar a moralidade sem tradições nem virtudes aristotélicas."
+        "text": "Alasdair MacIntyre em \"Depois da Virtude\" celebra o sucesso completo do projeto iluminista moderno em fundamentar a moralidade sem tradições nem virtudes aristotélicas, sem reconhecimento de força jurídica aos costumes sociais não positivados pelo reconhecimento formal."
       }
     ],
     "correctAnswer": "B",
@@ -3042,19 +3042,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Michael Walzer, todos os bens sociais devem ser distribuídos segundo um único critério universal rígido válido em todas as culturas e domínios da vida."
+        "text": "Para Michael Walzer, todos os bens sociais devem ser distribuídos segundo um único critério universal rígido válido em todas as culturas e domínios da vida, com reconhecimento da força normativa direta dos princípios morais na validade jurídica."
       },
       {
         "letter": "B",
-        "text": "Michael Walzer propõe uma teoria pluralista da justiça distributiva chamada IGUALDADE COMPLEXA: diferentes bens sociais (dinheiro/mercadorias, poder político, saúde, educação, cargos públicos, reconhecimento) pertencem a ESFERAS AUTÔNOMAS com significados sociais próprios e critérios distributivos internos distintos! Enquanto a \"igualdade simples\" tenta distribuir tudo igualmente (exigindo intervenção estatal tirânica contínua para impedir trocas), a IGUALDADE COMPLEXA permite que alguém tenha mais dinheiro na esfera econômica, MAS PROÍBE que um bem dominante (como o dinheiro ou o poder político) invada outras esferas para comprar bens alheios — pois essa conversão ilegítima entre esferas configura a TIRANIA!"
+        "text": "Michael Walzer propõe uma teoria pluralista da justiça distributiva chamada igualdade complexa: diferentes bens sociais pertencem a esferas autônomas com significados sociais próprios e critérios distributivos internos distintos."
       },
       {
         "letter": "C",
-        "text": "Na concepção de Igualdade Complexa de Walzer, quem acumula grande fortuna no mercado pode legitimamente convertê-la em poder político, isenção penal ou compra de votos."
+        "text": "Na concepção de Igualdade Complexa de Walzer, quem acumula grande fortuna no mercado pode legitimamente convertê-la em poder político, isenção penal ou compra de votos. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "D",
-        "text": "Michael Walzer defende a \"igualdade simples\" (igualitarismo material estrito de patrimônio idêntico para todos) como única forma viável de sociedade justa."
+        "text": "Michael Walzer defende a \"igualdade simples\" (igualitarismo material estrito de patrimônio idêntico para todos) como única forma viável de sociedade justa, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "B",
@@ -3097,19 +3097,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Amartya Sen, medir a justiça social exige unicamente comparar o PIB per capita e garantir a mesma quantia monetária nominal a cada cidadão."
+        "text": "Para Amartya Sen, medir a justiça social exige unicamente comparar o pib per capita e garantir a mesma quantia monetária nominal a cada cidadão, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "B",
-        "text": "Em \"Desenvolvimento como Liberdade\" e \"A Ideia de Justiça\", Amartya Sen propõe duas contribuições decisivas: (1) distingue o enfoque do \"institucionalismo transcendental\" (arranjo ideal perfeito de Rawls/contratualismo — niti) da abordagem \"comparativa de realizações sociais reais\" (comparar situações concretas para eliminar injustiças manifestas remediáveis — nyaya); e (2) formula a ABORDAGEM DAS CAPACITAÇÕES (Capability Approach): a justiça não se mede apenas pelo PIB ou pelos recursos entregues (bens primários), porque pessoas diferentes (ex.: pessoa com deficiência, gestante, morador de área endêmica) têm taxas diversas de conversão de renda em liberdade real — devendo-se avaliar as LIBERDADES SUBSTANTIVAS (CAPACITAÇÕES) de cada pessoa para alcançar os FUNCIONAMENTOS que tem razão de valorizar!"
+        "text": "Em \"Desenvolvimento como Liberdade\" e \"A Ideia de Justiça\", Amartya Sen propõe duas contribuições decisivas: distingue o enfoque do \"institucionalismo transcendental\" da abordagem \"comparativa de realizações sociais reais\"."
       },
       {
         "letter": "C",
-        "text": "Na obra \"A Ideia de Justiça\", Amartya Sen defende que é impossível combater qualquer injustiça real no mundo antes de construir primeiro uma teoria ideal perfeita das instituições."
+        "text": "Na obra \"A Ideia de Justiça\", Amartya Sen defende que é impossível combater qualquer injustiça real no mundo antes de construir primeiro uma teoria ideal perfeita das instituições, com recusa à discricionariedade interpretativa do julgador diante de casos difíceis sem regra unívoca."
       },
       {
         "letter": "D",
-        "text": "Amartya Sen distingue \"funcionamentos\" (functionings) e \"capacidades\" (capabilities) considerando que o Estado deve forçar o cidadão a exercer um modo de vida único sem liberdade de escolha."
+        "text": "Amartya Sen distingue \"funcionamentos\" (functionings) e \"capacidades\" (capabilities) considerando que o Estado deve forçar o cidadão a exercer um modo de vida único sem liberdade de escolha, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "B",
@@ -3152,19 +3152,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ao contrário de Amartya Sen, Martha Nussbaum rejeita a formulação de qualquer lista de capacidades básicas constitucionais, defendendo apenas critérios puramente econômicos."
+        "text": "Ao contrário de Amartya Sen, Martha Nussbaum rejeita a formulação de qualquer lista de capacidades básicas constitucionais, defendendo apenas critérios puramente econômicos. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "B",
-        "text": "Em \"Fronteiras da Justiça\", Martha Nussbaum demonstra que o contratualismo clássico (inclusive Rawls) exclui estruturalmente da barganha contratual originária quem não apresenta \"igualdade aproximada de poder físico/cognitivo e benefício mútuo\": (1) pessoas com DEFICIÊNCIAS FÍSICAS OU MENTAIS severas (exigindo inclusão plena na dignidade e cuidado); (2) a justiça transnacional para além das fronteiras nacionais (pobreza global); e (3) os ANIMAIS não humanos dotados de senciência e florescimento próprio! Para enfrentar essas fronteiras, Nussbaum elabora uma lista concreta de 10 CAPACIDADES HUMANAS CENTRAIS (vida, saúde corporal, integridade física, sentidos/imaginação, emoções, razão prática, afiliação, outras espécies, lazer, controle sobre o ambiente) como piso mínimo constitucional exigível para uma vida digna!"
+        "text": "Em \"Fronteiras da Justiça\", Martha Nussbaum demonstra que o contratualismo clássico (inclusive Rawls) exclui estruturalmente da barganha contratual originária quem não apresenta \"igualdade aproximada de poder físico/cognitivo e benefício mútuo\": pessoas com deficiências físicas ou mentais severas."
       },
       {
         "letter": "C",
-        "text": "Em \"Fronteiras da Justiça\", Martha Nussbaum reafirma que animais não humanos são meras coisas materiais incapazes de sofrer injustiça moral direta."
+        "text": "Em \"Fronteiras da Justiça\", Martha Nussbaum reafirma que animais não humanos são meras coisas materiais incapazes de sofrer injustiça moral direta, com rejeição de qualquer vinculação necessária entre validade formal e critérios morais materiais."
       },
       {
         "letter": "D",
-        "text": "Para Martha Nussbaum, o cuidado com pessoas com deficiência severa deve ser tratado apenas como caridade privada posterior, fora dos princípios primários da justiça política."
+        "text": "Para Martha Nussbaum, o cuidado com pessoas com deficiência severa deve ser tratado apenas como caridade privada posterior, fora dos princípios primários da justiça política. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       }
     ],
     "correctAnswer": "B",
@@ -3211,7 +3211,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na teoria crítica habermasiana: (1) distingue o AGIR ESTRATÉGICO/INSTRUMENTAL (orientado ao êxito egocêntrico sobre coisas ou pessoas como meios — colonizado por Dinheiro e Poder no \"Sistema\") do AGIR COMUNICATIVO (orientado ao ENTENDIMENTO MÚTUO intersubjetivo livre de coação no \"Mundo da Vida\", buscando pretensões de validade criticáveis: verdade, veracidade e correção normativa); e (2) formula a ÉTICA DO DISCURSO com o Princípio do Discurso (D) — \"são válidas apenas as normas de ação às quais todos os possíveis atingidos possam dar seu assentimento como participantes de discursos racionais\" — e o Princípio de Universalização (U) como regra argumentativa moral!"
+        "text": "Na teoria crítica habermasiana: distingue o agir estratégico/instrumental do agir comunicativo."
       },
       {
         "letter": "C",
@@ -3219,7 +3219,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A \"colonização do Mundo da Vida\" em Habermas significa a democratização benéfica da economia pela solidariedade comunicativa."
+        "text": "A \"colonização do Mundo da Vida\" em Habermas significa a democratização benéfica da economia pela solidariedade comunicativa, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       }
     ],
     "correctAnswer": "B",
@@ -3262,19 +3262,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em \"Entre Facticidade e Validade\" (Direito e Democracia), Habermas sustenta: (1) a TESE DA CO-ORIGINARIEDADE (equioriginariedade) entre AUTONOMIA PRIVADA (direitos humanos/fundamentais liberais) e AUTONOMIA PÚBLICA (soberania popular/democracia) — nem os direitos naturais antecedem a democracia aprisionando o povo (liberalismo), nem a maioria esmaga os direitos individuais (republicanismo comunitarista), pois ambos se pressupõem mutuamente no princípio democrático (os cidadãos só são autônomos se forem autores das leis às quais se submetem como destinatários); e (2) a CRÍTICA À CONCEPÇÃO DOS PRINCÍPIOS COMO VALORES/PONDRAÇÃO (Alexy) — direitos fundamentais têm estrutura DEONTOLÓGICA (código binário válido/inválido e não gradual como valores teleológicos otimizáveis!), alertando contra o risco de decisões judiciais irracionais (\"tirania dos valores\") quando tribunais ponderam valores acima do legislador democrático!"
+        "text": "Em \"Entre Facticidade e Validade\", Habermas sustenta: a tese da co-originariedade entre autonomia privada e autonomia pública — nem os direitos naturais antecedem a democracia aprisionando o povo (liberalismo), nem a maioria esmaga os direitos individuais, pois ambos se pressupõem mutuamente no princípio democrático."
       },
       {
         "letter": "B",
-        "text": "Para Habermas, os direitos humanos liberais (autonomia privada) são anteriores e superiores à soberania popular democrática (autonomia pública), subordinando o legislador."
+        "text": "Para Habermas, os direitos humanos liberais (autonomia privada) são anteriores e superiores à soberania popular democrática (autonomia pública), subordinando o legislador. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "C",
-        "text": "Habermas adere entusiasticamente à concepção de Robert Alexy dos direitos fundamentais como \"mandamentos de otimização graduais\" sujeitos à ponderação aberta pelos juízes."
+        "text": "Habermas adere entusiasticamente à concepção de Robert Alexy dos direitos fundamentais como \"mandamentos de otimização graduais\" sujeitos à ponderação aberta pelos juízes, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "D",
-        "text": "No modelo procedimentalista de jurisdição constitucional defendido por Habermas, o STF/Tribunal Constitucional deve atuar como tutor moral substancial da nação substituindo o Parlamento."
+        "text": "No modelo procedimentalista de jurisdição constitucional defendido por Habermas, o STF/Tribunal Constitucional deve atuar como tutor moral substancial da nação substituindo o Parlamento, com superação crítica da literalidade legal em favor da equidade e da justiça material concreta."
       }
     ],
     "correctAnswer": "A",
@@ -3317,11 +3317,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na teoria de Axel Honneth (\"Luta por Reconhecimento\"), a autorrealização humana e o progresso moral das instituições dependem de TRÊS ESFERAS DE RECONHECIMENTO intersubjetivo (e suas respectivas formas de desrespeito): (1) AMOR (relações afetivas primárias familiares/amizade — gera AUTOCONFIANÇA; seu desrespeito é o abuso físico/violação); (2) DIREITO (relação jurídica universal de sujeitos portadores de direitos iguais e imputáveis moralmente — gera AUTORRESPEITO; seu desrespeito é a privação de direitos e exclusão social); e (3) SOLIDARIEDADE / ESTIMA SOCIAL (valorização das capacidades e contribuições singulares do indivíduo na comunidade — gera AUTOESTIMA; seu desrespeito é a degradação e ofensa cultural)!"
+        "text": "Na teoria de Axel Honneth, a autorrealização humana e o progresso moral das instituições dependem de três esferas de reconhecimento intersubjetivo: amor; direito; e solidariedade / estima social."
       },
       {
         "letter": "B",
-        "text": "Para Axel Honneth, a esfera jurídica do reconhecimento corresponde ao afeto familiar íntimo e gera exclusivamente autoconfiança psicológica."
+        "text": "Para Axel Honneth, a esfera jurídica do reconhecimento corresponde ao afeto familiar íntimo e gera exclusivamente autoconfiança psicológica, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "C",
@@ -3329,7 +3329,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Na teoria do reconhecimento de Honneth, a exclusão jurídica de grupos minoritários do status de cidadania igual atinge apenas a esfera privada do amor, sem impacto sobre o autorrespeito."
+        "text": "Na teoria do reconhecimento de Honneth, a exclusão jurídica de grupos minoritários do status de cidadania igual atinge apenas a esfera privada do amor, sem impacto sobre o autorrespeito. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       }
     ],
     "correctAnswer": "A",
@@ -3372,7 +3372,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nancy Fraser propõe o conceito de PARIDADE DE PARTICIPAÇÃO (norma de justiça segundo a qual arranjos sociais devem permitir a todos os membros interagir como pares) estruturado em TRÊS DIMENSÕES irredutíveis (\"justiça tridimensional\"): (1) REDISTRIBUIÇÃO (dimensão econômica — combate à má distribuição, exploração e pobreza); (2) RECONHECIMENTO (dimensão cultural-simbólica — combate ao desrespeito e hierarquias de status, tratado por Fraser não como psicologia individual, mas como STATUS SOCIAL institucionalizado!); e (3) REPRESENTAÇÃO (dimensão política — combate à exclusão de voz e \"mau enquadramento\" nas fronteiras da comunidade política global). Ademais, distingue remédios AFIRMATIVOS (corrigem efeitos superficiais sem tocar nas estruturas geradoras) de remédios TRANSFORMATIVOS (reestruturam as causas profundas econômicas e culturais)!"
+        "text": "Nancy Fraser propõe o conceito de paridade de participação estruturado em três dimensões irredutíveis: redistribuição; reconhecimento; e representação."
       },
       {
         "letter": "B",
@@ -3380,7 +3380,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Nancy Fraser concorda integralmente com Axel Honneth ao fundamentar o reconhecimento na psicologia individual da autoestima ferida."
+        "text": "Nancy Fraser concorda integralmente com Axel Honneth ao fundamentar o reconhecimento na psicologia individual da autoestima ferida, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "D",
@@ -3427,7 +3427,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Niklas Luhmann, o Direito é um SUBSISTEMA SOCIAL AUTOPOIÉTICO (reproduz suas próprias operações jurídicas a partir de elementos próprios — normas e decisões — mediante o código binário exclusivo LÍCITO / ILÍCITO ou Direito / Não Direito — Recht/Unrecht): o sistema jurídico possui FECHAMENTO OPERACIONAL (normativo — só o próprio Direito decide o que é válido juridicamente, sem deixar que dinheiro da Economia ou poder da Política decidam diretamente a licitude, evitando corrupção sistêmica!) combinado com ABERTURA COGNITIVA (o sistema observa e aprende com as informações do ambiente social, econômico e tecnológico, traduzindo-as internamente por seus próprios programas normativos — ex.: Constituição como \"acoplamento estrutural\" entre Política e Direito)! A função do Direito é a ESTABILIZAÇÃO DE EXPECTATIVAS NORMATIVAS (contrafactuais, que não se desistem mesmo quando frustradas)!"
+        "text": "Para Niklas Luhmann, o Direito é um subsistema social autopoiético: o sistema jurídico possui fechamento operacional combinado com abertura cognitiva."
       },
       {
         "letter": "B",
@@ -3439,7 +3439,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Na teoria dos sistemas de Luhmann, o código binário específico do sistema jurídico é \"poder/não poder\" ou \"lucro/prejuízo\"."
+        "text": "Na teoria dos sistemas de Luhmann, o código binário específico do sistema jurídico é \"poder/não poder\" ou \"lucro/prejuízo\", conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "A",
@@ -3482,7 +3482,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para o marxismo jurídico — especialmente na teoria da forma-mercadoria de Evguiéni Pachukanis (\"Teoria Geral do Direito e Marxismo\"): o Direito NÃO é um instrumento neutro eterno nem mero conjunto arbitrário de ordens ideológicas da classe dominante (visão simplista do \"normativismo de classe\" que ele critica em Stutchka/Vishinski); a FORMA JURÍDICA (sujeito de direito abstrato, livre e igual perante o contrato e a lei) nasce estruturalmente da própria FORMA-MERCADORIA da sociedade capitalista produtora de mercadorias! Como as mercadorias não vão sozinhas ao mercado para serem trocadas por equivalente, exigem proprietários livres e juridicamente iguais que celebrem contratos — razão pela qual o Direito atinge sua plenitude apenas no capitalismo e definharia juntamente com a forma-mercadoria na sociedade comunista plenamente emancipada."
+        "text": "Para o marxismo jurídico; a forma jurídica nasce estruturalmente da própria forma-mercadoria da sociedade capitalista produtora de mercadorias."
       },
       {
         "letter": "B",
@@ -3537,7 +3537,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Roberto Lyra Filho (\"O que é Direito?\"): (1) Direito NÃO se confunde com a lei estatal posta pelas elites dominantes — \"Direito não é apenas a ordem estabelecida, mas a enunciação dos princípios de uma legítima organização social da liberdade\" (\"legislação sempre envolve um direito, mas o direito transborda da legislação\"); (2) opõe a \"lei injusta/antidireito\" estatal ao direito que emerge das lutas concretas dos movimentos sociais oprimidos por dignidade e liberdade — \"O DIREITO ACHADO NA RUA\" (sujeitos coletivos de direito produzindo juridicidade emancipatória na práxis social, em sintonia com o pluralismo jurídico libertário)!"
+        "text": "Para Roberto Lyra Filho: Direito não se confunde com a lei estatal posta pelas elites dominantes."
       },
       {
         "letter": "B",
@@ -3545,7 +3545,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A expressão \"O Direito Achado na Rua\" significa a defesa do linchamento popular violento e da abolição de todas as garantias constitucionais."
+        "text": "A expressão \"o Direito Achado na Rua\" significa a defesa do linchamento popular violento e da abolição de todas as garantias constitucionais, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "D",
@@ -3592,19 +3592,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Antonio Carlos Wolkmer formula o PLURALISMO JURÍDICO COMUNITÁRIO-PARTICIPATIVO: contra o monismo estatal clássico (que reconhece como Direito apenas as normas emanadas do Estado burguês), sustenta que coexistem num mesmo espaço geopolítico múltiplas manifestações jurídicas legítimas produzidas por novos sujeitos sociais coletivos (comunidades indígenas, quilombolas, associações comunitárias, movimentos populares) fundadas em necessidades humanas básicas fundamentais e ética da alteridade — distinguindo esse pluralismo crítico emancipatório (democrático e participativo) de um pluralismo conservador meramente neoliberal/desregulamentador!"
+        "text": "Antonio Carlos Wolkmer formula o pluralismo jurídico comunitário-participativo: contra o monismo estatal clássico, sustenta que coexistem num mesmo espaço geopolítico múltiplas manifestações jurídicas legítimas produzidas por novos sujeitos sociais coletivos fundadas em necessidades humanas básicas fundamentais e ética da alteridade."
       },
       {
         "letter": "B",
-        "text": "O pluralismo jurídico de Antonio Carlos Wolkmer identifica-se integralmente com o monismo jurídico kelseniano ao afirmar que somente o Estado pode criar normas jurídicas válidas."
+        "text": "O pluralismo jurídico de Antonio Carlos Wolkmer identifica-se integralmente com o monismo jurídico kelseniano ao afirmar que somente o Estado pode criar normas jurídicas válidas, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "C",
-        "text": "Para Wolkmer, todo pluralismo jurídico não estatal (inclusive aquele criado por corporações financeiras transnacionais ou milícias privadas autoritárias) é igualmente emancipatório."
+        "text": "Para Wolkmer, todo pluralismo jurídico não estatal (inclusive aquele criado por corporações financeiras transnacionais ou milícias privadas autoritárias) é igualmente emancipatório, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "D",
-        "text": "O pluralismo jurídico comunitário-participativo rejeita qualquer diálogo com o constitucionalismo pluralista latino-americano (como direitos indígenas e quilombolas)."
+        "text": "O pluralismo jurídico comunitário-participativo rejeita qualquer diálogo com o constitucionalismo pluralista latino-americano (como direitos indígenas e quilombolas), no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       }
     ],
     "correctAnswer": "A",
@@ -3647,19 +3647,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na genealogia foucaultiana do poder (\"Vigiar e Punir\" e cursos do Collège de France): (1) o poder NÃO é apenas uma posse jurídica negativa/repressiva concentrada no Estado ou na lei soberana, mas uma REDE RELACIONAL PRODUTIVA que atravessa todo o corpo social (\"microfísica do poder\", inseparável do saber — saber-poder); (2) no século XVIII/XIX surge o PODER DISCIPLINAR focado no adestramento individual de \"corpos dóceis\" nas instituições fechadas (prisão, escola, quartel, fábrica) sob o modelo arquitetônico do PANÓPTICO de Bentham (vigilância contínua internalizada que gera a \"sociedade disciplinar\" e normalização); e (3) no nível coletivo da espécie surge o BIOPODER / BIOPOLÍTICA (fazer viver e deixar morrer: regulação estatística da população, natalidade, saúde pública, higiene e sexualidade, em contraste com o antigo direito soberano de \"fazer morrer e deixar viver\")!"
+        "text": "Na genealogia foucaultiana do poder: o poder não é apenas uma posse jurídica negativa/repressiva concentrada no Estado ou na lei soberana, mas uma rede relacional produtiva que atravessa todo o corpo social."
       },
       {
         "letter": "B",
-        "text": "Para Michel Foucault, o poder existe exclusivamente na forma negativa de proibição jurídica concentrada no topo do Estado e das leis penais."
+        "text": "Para Michel Foucault, o poder existe exclusivamente na forma negativa de proibição jurídica concentrada no topo do Estado e das leis penais, com afastamento da fundamentação jusnaturalista metafísica para legitimação da norma estatal."
       },
       {
         "letter": "C",
-        "text": "Na análise foucaultiana, o poder soberano clássico resumia-se a \"fazer viver e deixar morrer\", enquanto a biopolítica moderna caracteriza-se por \"fazer morrer e deixar viver\"."
+        "text": "Na análise foucaultiana, o poder soberano clássico resumia-se a \"fazer viver e deixar morrer\", enquanto a biopolítica moderna caracteriza-se por \"fazer morrer e deixar viver\". Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "D",
-        "text": "Em \"Vigiar e Punir\", Foucault interpreta o modelo do Panóptico de Bentham como uma ferramenta humanitária neutra que aboliu toda vigilância disciplinar nas sociedades modernas."
+        "text": "Em \"Vigiar e Punir\", Foucault interpreta o modelo do Panóptico de Bentham como uma ferramenta humanitária neutra que aboliu toda vigilância disciplinar nas sociedades modernas, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "A",
@@ -3702,19 +3702,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na filosofia jurídico-política de Giorgio Agamben: (1) o ESTADO DE EXCEÇÃO deixou de ser uma medida provisória e excepcional prevista nas constituições para tornar-se o \"paradigma dominante de governo na política contemporânea\" (uma zona de anomia ou indiferenciação jurídica em que a lei se aplica desaplicando-se, suspendendo garantias constitucionais de modo contínuo); e (2) nessa zona de exceção produz-se a VIDA NUA (zoé reduzida e politizada pela exclusão inclusiva) encarnada na figura arcaica romana do HOMO SACER — aquele que pode ser morto por qualquer um sem que isso constitua homicídio punível e sem poder ser sacrificado ritualmente (vida humana despida de proteção jurídica política)!"
+        "text": "Na filosofia jurídico-política de Giorgio Agamben: o estado de exceção deixou de ser uma medida provisória e excepcional prevista nas constituições para tornar-se o \"paradigma dominante de governo na política contemporânea\"."
       },
       {
         "letter": "B",
-        "text": "Para Giorgio Agamben, o estado de exceção representa a plena realização normalizada das garantias processuais e dos direitos humanos constitucionais."
+        "text": "Para Giorgio Agamben, o estado de exceção representa a plena realização normalizada das garantias processuais e dos direitos humanos constitucionais, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
-        "text": "Na obra \"Homo Sacer\", o termo designa o cidadão soberano intocável que goza da máxima proteção constitucional e imunidade jurídica absoluta."
+        "text": "Na obra \"Homo Sacer\", o termo designa o cidadão soberano intocável que goza da máxima proteção constitucional e imunidade jurídica absoluta, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "D",
-        "text": "Agamben rejeita completamente a definição schmittiana da relação entre soberania e decisão sobre a exceção."
+        "text": "Agamben rejeita completamente a definição schmittiana da relação entre soberania e decisão sobre a exceção, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       }
     ],
     "correctAnswer": "A",
@@ -3757,19 +3757,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Achille Mbembe formula o conceito de NECROPOLÍTICA (e necropoder): dialogando com Foucault (biopoder) e Agamben (estado de exceção), sustenta que em contextos coloniais, pós-coloniais e periféricos contemporâneos a expressão máxima da soberania reside no poder e na capacidade de ditar QUEM PODE VIVER E QUEM DEVE MORRER! A necropolítica vai além da disciplina e da gestão biológica da vida: cria \"mundos da morte\" (formas novas e únicas de existência social nas quais vastas populações são submetidas a condições de vida que lhes conferem o estatuto de \"mortos-vivos\", mediante racialização, estado de sítio, enclaves territoriais e submissão da vida ao poder da morte)!"
+        "text": "Achille Mbembe formula o conceito de necropolítica (e necropoder): dialogando com Foucault (biopoder) e Agamben (estado de exceção), sustenta que em contextos coloniais, pós-coloniais e periféricos contemporâneos a expressão máxima da soberania reside no poder e na capacidade de ditar quem pode viver e quem deve morrer."
       },
       {
         "letter": "B",
-        "text": "O conceito de Necropolítica de Achille Mbembe significa exclusivamente a política pública de preservação ambiental de cemitérios e ritos funerários."
+        "text": "O conceito de Necropolítica de Achille Mbembe significa exclusivamente a política pública de preservação ambiental de cemitérios e ritos funerários, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "C",
-        "text": "Achille Mbembe afirma que o conceito foucaultiano de biopolítica explica integralmente o sistema colonial escravista e as guerras contemporâneas, sem necessidade de complementação."
+        "text": "Achille Mbembe afirma que o conceito foucaultiano de biopolítica explica integralmente o sistema colonial escravista e as guerras contemporâneas, sem necessidade de complementação, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "D",
-        "text": "Para Mbembe, a necropolítica desapareceu definitivamente com o fim formal do colonialismo europeu no século XX."
+        "text": "Para Mbembe, a necropolítica desapareceu definitivamente com o fim formal do colonialismo europeu no século XX, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       }
     ],
     "correctAnswer": "A",
@@ -3812,19 +3812,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Com a expressão \"banalidade do mal\", Hannah Arendt quis afirmar que os crimes do Holocausto eram banais e juridicamente irrelevantes ou escusáveis."
+        "text": "Com a expressão \"banalidade do mal\", Hannah Arendt quis afirmar que os crimes do Holocausto eram banais e juridicamente irrelevantes ou escusáveis, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "Para Hannah Arendt, os direitos humanos naturais do indivíduo são plenamente eficazes mesmo quando a pessoa é apátrida e não pertence a nenhuma comunidade política."
+        "text": "Para Hannah Arendt, os direitos humanos naturais do indivíduo são plenamente eficazes mesmo quando a pessoa é apátrida e não pertence a nenhuma comunidade política, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "C",
-        "text": "Na obra \"A Condição Humana\", Hannah Arendt reduz a política ao mero trabalho instrumental técnico ou à sobrevivência biológica (labor)."
+        "text": "Na obra \"A Condição Humana\", Hannah Arendt reduz a política ao mero trabalho instrumental técnico ou à sobrevivência biológica (labor), como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "D",
-        "text": "Nas obras de Hannah Arendt destacam-se três conceitos centrais: (1) em \"As Origens do Totalitarismo\", diante da impotência dos \"direitos humanos universais\" quando milhões de apátridas perderam a cidadania nacional, Arendt formula o \"DIREITO A TER DIREITOS\" — isto é, o direito prévio fundamental de pertencer a alguma comunidade política organizada onde suas ações e opiniões sejam significativas; (2) em \"Eichmann em Jerusalém\", cunha a expressão \"BANALIDADE DO MAL\" para descrever não um monstro sádico demoníaco, mas um burocrata medíocre incapaz de PENSAR reflexivamente e julgar moralmente, que apenas \"cumpria ordens\" e leis burocráticas sem se colocar no lugar do outro; e (3) em \"A Condição Humana\", distingue na Vita Activa o Labor (sobrevivência biológica), o Trabalho (produção de mundo durável) e a AÇÃO (esfera política plural da liberdade e do discurso entre iguais)!"
+        "text": "Nas obras de Hannah Arendt destacam-se três conceitos centrais: em \"As Origens do Totalitarismo\", diante da impotência dos \"direitos humanos universais\" quando milhões de apátridas perderam a cidadania nacional, Arendt formula o \"direito a ter direitos\"; em \"Eichmann em Jerusalém\", cunha a expressão \"banalidade do mal\" para descrever não um monstro sádico demoníaco, mas um burocrata medíocre incapaz de pensar reflexivamente e julgar moralmente, que apenas \"cumpria ordens\" e leis burocráticas sem se colocar no lugar do outro; e em \"A Condição Humana\", distingue na Vita Activa o Labor, o Trabalho e a ação."
       }
     ],
     "correctAnswer": "D",
@@ -3879,7 +3879,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Na filosofia da desconstrução e da alteridade: (1) Jacques Derrida (\"Força de Lei\") distingue radicalmente o DIREITO (sistema de regras positivas calculáveis, históricas, estabilizadas e essencialmente DESCONSTRUTÍVEIS pela crítica) da JUSTIÇA (experiência do incalculável, exigência infinita de singularidade perante o Outro, que É INDESCONSTRUTÍVEL — \"a desconstrução é a justiça\"!), apontando três aporias da decisão justa (como ser livre e seguir a regra ao mesmo tempo; o \"fantasma do indecidível\"; e a urgência sem saber absoluto); e (2) Emmanuel Lévinas funda a ÉTICA COMO FILOSOFIA PRIMEIRA na ALTERIDADE radical (\"o rosto do Outro\" me interpela com responsabilidade infinita e assimétrica: \"não matarás\", antes mesmo de qualquer contrato egoísta ou reciprocidade)!"
+        "text": "Na filosofia da desconstrução e da alteridade: Jacques Derrida (\"Força de Lei\") distingue radicalmente o direito da justiça, apontando três aporias da decisão justa."
       }
     ],
     "correctAnswer": "D",
@@ -3922,19 +3922,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O \"pensamento abissal\" descrito por Boaventura de Sousa Santos designa o diálogo igualitário e simétrico entre o conhecimento científico europeu e os saberes tradicionais indígenas."
+        "text": "O \"pensamento abissal\" descrito por Boaventura de Sousa Santos designa o diálogo igualitário e simétrico entre o conhecimento científico europeu e os saberes tradicionais indígenas, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "B",
-        "text": "Para Zygmunt Bauman, a \"Modernidade Líquida\" caracteriza-se pelo fortalecimento perene dos vínculos empregatícios estáveis para toda a vida e pelo declínio do individualismo consumista."
+        "text": "Para Zygmunt Bauman, a \"Modernidade Líquida\" caracteriza-se pelo fortalecimento perene dos vínculos empregatícios estáveis para toda a vida e pelo declínio do individualismo consumista, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
-        "text": "Boaventura de Sousa Santos defende o \"desperdício da experiência\" e a redução de todo direito legítimo apenas à codificação estatal europeia."
+        "text": "Boaventura de Sousa Santos defende o \"desperdício da experiência\" e a redução de todo direito legítimo apenas à codificação estatal europeia, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "D",
-        "text": "Dois diagnósticos críticos complementares: (1) Boaventura de Sousa Santos desenvolve as EPISTEMOLOGIAS DO SUL e denuncia o \"PENSAMENTO ABISSAL\" moderno: um sistema de distinções visíveis e invisíveis que traça uma linha radical dividindo a realidade entre o lado de cá (\"Norte metropolitano\" regido pela regulação/emancipação e pelo Direito válido) e o lado de lá (\"Sul colonial\", tornado inexistente — \"sociologia das ausências\" — onde vigoram apropriação e violência e \"fascismo social\" sem proteção jurídica real), propondo o cosmopolitismo subalterno e a ecologia de saberes; e (2) Zygmunt Bauman descreve a \"MODERNIDADE LÍQUIDA\" — passagem de instituições duráveis, sólidas e previsíveis para laços sociais, trabalhistas e normativos fluidos, precários e individualizados (\"consumismo\" e descartabilidade humana — \"vidas desperdiçadas\")!"
+        "text": "Dois diagnósticos críticos complementares: Boaventura de Sousa Santos desenvolve as epistemologias do sul e denuncia o \"pensamento abissal\" moderno: um sistema de distinções visíveis e invisíveis que traça uma linha radical dividindo a realidade entre o lado de cá e o lado de lá, propondo o cosmopolitismo subalterno e a ecologia de saberes."
       }
     ],
     "correctAnswer": "D",
@@ -3985,11 +3985,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A Análise Econômica do Direito rejeita completamente qualquer preocupação com incentivos futuros, limitando-se exclusivamente à justiça retributiva voltada ao passado."
+        "text": "A Análise Econômica do Direito rejeita completamente qualquer preocupação com incentivos futuros, limitando-se exclusivamente à justiça retributiva voltada ao passado, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "D",
-        "text": "Na Análise Econômica do Direito (Escola de Chicago — Posner e Coase; Yale — Calabresi): (1) emprega a microeconomia para analisar incentivos e custos das regras jurídicas (eficiência alocativa); (2) distingue a EFICIÊNCIA DE PARETO (uma mudança melhora a situação de ao menos uma pessoa sem piorar a de ninguém — ótimo de Pareto quando não há mais trocas que melhorem alguém sem piorar outrem) da EFICIÊNCIA DE KALDOR-HICKS (usada por Richard Posner como critério de maximização da riqueza: uma regra é eficiente se os ganhos totais dos vencedores forem suficientemente grandes para que pudessem compensar hipoteticamente os perdedores, mesmo sem compensação efetiva!); e (3) pelo TEOREMA DE COASE (\"O Problema do Custo Social\"), se os direitos de propriedade forem bem definidos e os CUSTOS DE TRANSAÇÃO forem ZERO (nulos), as partes negociarão privadamente alcançando a solução socialmente mais eficiente independentemente de quem detenha inicialmente o direito — logo, no mundo real com custos de transação positivos, cabe ao Direito atribuir os direitos de forma a minimizar esses custos!"
+        "text": "Na Análise Econômica do Direito: emprega a microeconomia para analisar incentivos e custos das regras jurídicas; distingue a eficiência de pareto da eficiência de kaldor-hicks."
       }
     ],
     "correctAnswer": "D",
@@ -4032,19 +4032,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "John Finnis rejeita a Lei de Hume e afirma que os preceitos morais derivam mecanicamente apenas de instintos biológicos animais sem participação da razão prática."
+        "text": "John Finnis rejeita a Lei de Hume e afirma que os preceitos morais derivam mecanicamente apenas de instintos biológicos animais sem participação da razão prática, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "Para John Finnis, os 7 bens humanos básicos são livremente sacrificáveis por cálculo utilitarista sempre que matar ou destruir um bem básico produza um bem maior depois."
+        "text": "Para John Finnis, os 7 bens humanos básicos são livremente sacrificáveis por cálculo utilitarista sempre que matar ou destruir um bem básico produza um bem maior depois, com primazia da racionalidade prática e da integridade interpretativa na reconstrução do direito."
       },
       {
         "letter": "C",
-        "text": "John Finnis nega que leis formalmente válidas mas injustas existam no sentido técnico-positivo para um observador sociológico."
+        "text": "John Finnis nega que leis formalmente válidas mas injustas existam no sentido técnico-positivo para um observador sociológico, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "D",
-        "text": "No NOVO JUSNATURALISMO (Teoria da Nova Lei Natural) de John Finnis: (1) não deriva o \"dever-ser\" diretamente de fatos biológicos da natureza (evitando a \"falácia naturalista\" de Hume!), pois os primeiros princípios da lei natural são EVIDENTES POR SI MESMOS na razão prática enquanto BENS HUMANOS BÁSICOS (7 bens fundamentais igualmente valiosos e incomensuráveis: vida, conhecimento, jogo/lazer, experiência estética, sociabilidade/amizade, razoabilidade prática e religião/transcendência); (2) guiado pelas 9 exigências da RAZOABILIDADE PRÁTICA (proibição absoluta de atacar diretamente qualquer bem humano básico — crítica ao consequencialismo utilitarista!), o direito positivo deriva por determinação prática visando ao bem comum; e (3) distingue a acepção focal (central) de Direito (justo e orientado ao bem comum) da acepção secundária/diluída de leis formalmente válidas mas injustas (que geram dever moral atenuado ou nulo, salvo para evitar colapso social)!"
+        "text": "No novo jusnaturalismo de John Finnis: não deriva o \"dever-ser\" diretamente de fatos biológicos da natureza, pois os primeiros princípios da lei natural são evidentes por si mesmos na razão prática enquanto bens humanos básicos."
       }
     ],
     "correctAnswer": "D",
@@ -4087,19 +4087,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Tércio Sampaio Ferraz Jr., a Filosofia do Direito e a Sociologia Jurídica são disciplinas estritamente dogmáticas, ao passo que o Direito Civil e o Direito Penal são ramos puramente zetéticos."
+        "text": "Para Tércio Sampaio Ferraz Jr. a Filosofia do Direito e a Sociologia Jurídica são disciplinas estritamente dogmáticas, ao passo que o Direito Civil e o Direito Penal são ramos puramente zetéticos, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "B",
-        "text": "Na teoria de Tércio Sampaio Ferraz Jr., dizer que a ciência jurídica é \"dogmática\" significa que ela proíbe totalmente qualquer interpretação criativa ou técnica argumentativa."
+        "text": "Na teoria de Tércio Sampaio Ferraz Jr. dizer que a ciência jurídica é \"dogmática\" significa que ela proíbe totalmente qualquer interpretação criativa ou técnica argumentativa, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
-        "text": "O princípio da \"inegabilidade dos pontos de partida\" caracteriza fundamentalmente a postura zetética da Filosofia do Direito."
+        "text": "O princípio da \"inegabilidade dos pontos de partida\" caracteriza fundamentalmente a postura zetética da Filosofia do Direito, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "D",
-        "text": "Tércio Sampaio Ferraz Jr. (inspirado em Theodor Viehweg e Niklas Luhmann) sistematiza a célebre distinção entre ZETÉTICA e DOGMÁTICA JURÍDICA: (1) o enfoque ZETÉTICO (do grego zetein — \"perquirir/questionar\") tem função especulativa e aberta: dissolve certezas, coloca em dúvida todas as premissas e questiona o porquê dos fundamentos (ex.: Filosofia do Direito, Sociologia do Direito, Psicologia Jurídica, História do Direito); e (2) o enfoque DOGMÁTICO tem função diretiva e pragmática orientada à DECIDIBILIDADE de conflitos sociais: parte de pontos de partida INEGÁVEIS (dogmas = normas positivadas pela Constituição/leis cuja validade não se questiona infinitamente no momento de julgar), operando mediante o \"princípio da inegabilidade dos pontos de partida\" e a \"proibição do non liquet\" para viabilizar decisões sociais vinculantes!"
+        "text": "Tércio Sampaio Ferraz Jr. sistematiza a célebre distinção entre zetética e dogmática jurídica: o enfoque zetético tem função especulativa e aberta: dissolve certezas, coloca em dúvida todas as premissas e questiona o porquê dos fundamentos."
       }
     ],
     "correctAnswer": "D",
@@ -4142,19 +4142,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na teoria de John Rawls, a desobediência civil é caracterizada pelo uso de violência armada secreta para derrubar integralmente a Constituição vigente."
+        "text": "Na teoria de John Rawls, a desobediência civil é caracterizada pelo uso de violência armada secreta para derrubar integralmente a Constituição vigente, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "B",
-        "text": "Para Jürgen Habermas, a desobediência civil é um crime comum antidemocrático que não possui qualquer papel legítimo no Estado Democrático de Direito."
+        "text": "Para Jürgen Habermas, a desobediência civil é um crime comum antidemocrático que não possui qualquer papel legítimo no Estado Democrático de Direito, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
-        "text": "Em Henry David Thoreau, a obediência cega à lei injusta é sempre moralmente superior ao dever da consciência individual justa."
+        "text": "Em Henry David Thoreau, a obediência cega à lei injusta é sempre moralmente superior ao dever da consciência individual justa, com superação crítica da literalidade legal em favor da equidade e da justiça material concreta."
       },
       {
         "letter": "D",
-        "text": "Trata-se do instituto jusfilosófico da DESOBEDIÊNCIA CIVIL (inaugurada por Henry David Thoreau ao recusar pagar imposto que financiava a escravidão e a guerra injusta, e sistematizada por John Rawls e Jürgen Habermas): segundo a definição clássica de Rawls (\"Uma Teoria da Justiça\"), a desobediência civil é um ato PÚBLICO, NÃO VIOLENTO, CONSCIENTE e POLÍTICO, contrário à lei, geralmente praticado com o objetivo de provocar mudança nas leis ou políticas governamentais, apelando ao senso de justiça da maioria dentro de uma sociedade quase justa e aceitando fielmente as sanções jurídicas (fidelidade ao Estado de Direito)!"
+        "text": "Trata-se do instituto jusfilosófico da desobediência civil: segundo a definição clássica de Rawls, a desobediência civil é um ato público, não violento, consciente e político, contrário à lei, geralmente praticado com o objetivo de provocar mudança nas leis ou políticas governamentais, apelando ao senso de justiça da maioria dentro de uma sociedade quase justa e aceitando fielmente as sanções jurídicas."
       }
     ],
     "correctAnswer": "D",
@@ -4197,19 +4197,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Objeção de consciência e desobediência civil são sinônimos perfeitos que exigem necessariamente manifestação política pública coletiva contra o governo."
+        "text": "Objeção de consciência e desobediência civil são sinônimos perfeitos que exigem necessariamente manifestação política pública coletiva contra o governo, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "B",
-        "text": "Pela Constituição Brasileira (Art. 5º, VIII), quem invoca escusa de consciência tem direito de recusar tanto a obrigação legal quanto qualquer prestação alternativa fixada em lei, sem nenhuma restrição."
+        "text": "Pela Constituição Brasileira, quem invoca escusa de consciência tem direito de recusar tanto a obrigação legal quanto qualquer prestação alternativa fixada em lei, sem nenhuma restrição. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       },
       {
         "letter": "C",
-        "text": "A recusa de testemunha de Jeová adulta e capaz a transfusão de sangue ou à guarda sabática em concurso público foge completamente do debate jusfilosófico sobre objeção de consciência."
+        "text": "A recusa de testemunha de Jeová adulta e capaz a transfusão de sangue ou à guarda sabática em concurso público foge completamente do debate jusfilosófico sobre objeção de consciência, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "D",
-        "text": "Trata-se de OBJEÇÃO DE CONSCIÊNCIA (ou escusa de consciência — Art. 5º, VIII, e Art. 143, § 1º, CF), e NÃO de desobediência civil: conforme distingue John Rawls (§ 56), a OBJEÇÃO DE CONSCIÊNCIA é o não cumprimento de uma injunção legal ou ordem administrativa mais ou menos direta, baseado em razões morais, filosóficas ou religiosas PRIVADAS/ÍNTIMAS da consciência individual (não necessariamente visando reformar a lei pública nem apelando politicamente à maioria — e frequentemente tutelada pelo próprio ordenamento jurídico constitucional); já a DESOBEDIÊNCIA CIVIL é ato político público coletivo voltado a mudar a lei injusta, e o DIREITO DE RESISTÊNCIA visa romper com um regime tirânico que destruiu a ordem constitucional."
+        "text": "Trata-se de objeção de consciência, e não de desobediência civil: conforme distingue John Rawls, a objeção de consciência é o não cumprimento de uma injunção legal ou ordem administrativa mais ou menos direta, baseado em razões morais, filosóficas ou religiosas privadas/íntimas da consciência individual."
       }
     ],
     "correctAnswer": "D",
@@ -4252,19 +4252,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No quadro de Hohfeld, o conceito correlativo de um \"Privilégio\" (liberdade jurídica de fazer algo) é um \"Dever\" imposto a terceiros."
+        "text": "No quadro de Hohfeld, o conceito correlativo de um \"Privilégio\" (liberdade jurídica de fazer algo) é um \"Dever\" imposto a terceiros, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "Para Hohfeld, uma imunidade constitucional (como a imunidade tributária de livros) tem como conceito correlativo a sujeição jurídica do cidadão."
+        "text": "Para Hohfeld, uma imunidade constitucional tem como conceito correlativo a sujeição jurídica do cidadão, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "C",
-        "text": "Hohfeld sustentava que a palavra \"direito\" possui apenas um único significado lógico unívoco, nunca gerando confusão entre pretensão, liberdade, poder e imunidade."
+        "text": "Hohfeld sustentava que a palavra \"direito\" possui apenas um único significado lógico unívoco, nunca gerando confusão entre pretensão, liberdade, poder e imunidade. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       },
       {
         "letter": "D",
-        "text": "Na matriz analítica hohfeldiana (8 conceitos fundamentais em 4 relações correlativas): (1) DIREITO-PRETENSÃO (Claim-right) de A correlaciona-se a um DEVER de B (ex.: A tem direito de cobrar dívida, B tem o dever de pagar); (2) PRIVILÉGIO ou LIBERDADE (Privilege/Liberty) de A correlaciona-se a um NÃO-DIREITO de B (A é livre para fazer ou omitir X, B não tem direito de impedi-lo); (3) PODER ou COMPETÊNCIA (Power) de A correlaciona-se a uma SUJEIÇÃO (Liability) de B (capacidade de A alterar relações jurídicas de B, ex.: fazer proposta contratual ou legislar); e (4) IMUNIDADE (Immunity) de A correlaciona-se a uma INCOMPETÊNCIA (Disability) de B (A está protegido contra alterações jurídicas por B, ex.: imunidade tributária ou cláusula pétrea)!"
+        "text": "Na matriz analítica hohfeldiana: direito-pretensão (Claim-right) de A correlaciona-se a um dever de B; privilégio ou liberdade (Privilege/Liberty) de A correlaciona-se a um não-direito de B."
       }
     ],
     "correctAnswer": "D",
@@ -4307,7 +4307,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Norberto Bobbio, sanção jurídica significa exclusivamente castigo, pena privativa de liberdade ou multa negativa aplicada a infratores."
+        "text": "Para Norberto Bobbio, sanção jurídica significa exclusivamente castigo, pena privativa de liberdade ou multa negativa aplicada a infratores. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       },
       {
         "letter": "B",
@@ -4315,11 +4315,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Na análise de Bobbio, o Estado Liberal clássico já utilizava predominantemente sanções positivas premiais para dirigir a economia."
+        "text": "Na análise de Bobbio, o Estado Liberal clássico já utilizava predominantemente sanções positivas premiais para dirigir a economia, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "D",
-        "text": "Norberto Bobbio aponta que a teoria tradicional (como a de Kelsen) concentrou-se exclusivamente na análise ESTRUTURAL do Direito como ordem repressivo-punitiva (sanções NEGATIVAS: penas e indenizações visando desestimular ilícitos — função protetora-repressiva do Estado liberal). Contudo, no Estado Social contemporâneo emerge a FUNÇÃO PROMOCIONAL DO DIREITO: o ordenamento passa a orientar a economia e a sociedade mediante técnicas de ENCORAJAMENTO e SANÇÕES POSITIVAS ou PREMIAIS (isenções fiscais, subvenções, benefícios previdenciários, redução de pena por colaboração — prêmios atribuídos a quem pratica condutas desejáveis)!"
+        "text": "Norberto Bobbio aponta que a teoria tradicional concentrou-se exclusivamente na análise estrutural do Direito como ordem repressivo-punitiva."
       }
     ],
     "correctAnswer": "D",
@@ -4362,19 +4362,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Konrad Hesse, a Constituição escrita é inteiramente submissa e impotente diante dos fatores reais de poder econômicos e militares, concordando integralmente com Lassalle."
+        "text": "Para Konrad Hesse, a Constituição escrita é inteiramente submissa e impotente diante dos fatores reais de poder econômicos e militares, concordando integralmente com Lassalle. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "B",
-        "text": "Segundo Ferdinand Lassalle, a Constituição escrita prevalece sempre de forma automática sobre os fatores reais de poder econômicos e militares sem depender da correlação política."
+        "text": "Segundo Ferdinand Lassalle, a Constituição escrita prevalece sempre de forma automática sobre os fatores reais de poder econômicos e militares sem depender da correlação política, com superação crítica da literalidade legal em favor da equidade e da justiça material concreta."
       },
       {
         "letter": "C",
-        "text": "Na oposição clássica entre determinismo fático e normatividade constitucional: (1) Ferdinand Lassalle (sentido sociológico) sustenta que a verdadeira Constituição (\"real e efetiva\") é a soma dos FATORES REAIS DE PODER que regem o país (forças militares, financeiras, aristocráticas, opinião pública), de modo que, se a Constituição jurídica escrita divergir deles, sucumbirá inevitavelmente como mera \"folha de papel\"; e (2) Konrad Hesse (\"A Força Normativa da Constituição\") rejeita o fatalismo sociológico de Lassalle: embora a Constituição jurídica não possa ignorar a realidade histórica, ela possui FORÇA NORMATIVA PRÓPRIA ativa capaz de conformar e transformar a realidade política — desde que exista na sociedade e nos governantes uma \"VONTADE DE CONSTITUIÇÃO\" (Wille zur Verfassung) além da mera \"vontade de poder\"!"
+        "text": "Na oposição clássica entre determinismo fático e normatividade constitucional: Ferdinand Lassalle sustenta que a verdadeira Constituição (\"real e efetiva\") é a soma dos fatores reais de poder que regem o país, de modo que, se a Constituição jurídica escrita divergir deles, sucumbirá inevitavelmente como mera \"folha de papel\"."
       },
       {
         "letter": "D",
-        "text": "Na teoria de Konrad Hesse, a expressão \"vontade de poder\" é o principal fundamento que garante a supremacia jurídica da Constituição."
+        "text": "Na teoria de Konrad Hesse, a expressão \"vontade de poder\" é o principal fundamento que garante a supremacia jurídica da Constituição, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       }
     ],
     "correctAnswer": "C",
@@ -4425,7 +4425,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O NEOCONSTITUCIONALISMO (filosoficamente ancorado no PÓS-POSITIVISMO) caracteriza-se por três marcos convergentes: (1) marco HISTÓRICO — redemocratização do pós-guerra e superação do legalismo positivista formalista após os regimes totalitários; (2) marco FILOSÓFICO — o pós-positivismo reaproxima Direito e Moral por meio dos princípios constitucionais e direitos fundamentais sem recair no jusnaturalismo metafísico; e (3) marco TEÓRICO — reconhecimento da FORÇA NORMATIVA da Constituição (que deixa de ser carta política meramente programática), expansão da JURISDIÇÃO CONSTITUCIONAL (controle de constitucionalidade ativo), rematerialização constitucional com força irradiante sobre todo o ordenamento (eficácia horizontal/irradiação — \"constitucionalização do direito\") e centralidade da argumentação e ponderação."
+        "text": "O neoconstitucionalismo caracteriza-se por três marcos convergentes: marco histórico; marco filosófico; e marco teórico."
       },
       {
         "letter": "D",
@@ -4480,11 +4480,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Na TEORIA ESTRUTURANTE DO DIREITO (pós-positivismo concretizador) de Friedrich Müller, o texto literal publicado no Diário Oficial NÃO é ainda a norma jurídica completa, mas apenas a \"ponta do iceberg\" (TEXTO NORMATIVO — dado linguístico inicial). A NORMA JURÍDICA é construída concretamente pelo intérprete no processo de concretização a partir da síntese de dois elementos inseparáveis: (1) o PROGRAMA DA NORMA (Normprogramm — o sentido obtido pela interpretação dos dados linguísticos do texto); e (2) o ÂMBITO DA NORMA (Normbereich — o recorte da realidade social fática estruturada que a norma regula e integra constitutivamente o conteúdo normativo), culminando na NORMA DE DECISÃO individual para o caso concreto!"
+        "text": "Na teoria estruturante do direito de Friedrich Müller, o texto literal publicado no Diário Oficial não é ainda a norma jurídica completa, mas apenas a \"ponta do iceberg\"."
       },
       {
         "letter": "D",
-        "text": "A Teoria Estruturante autoriza o juiz a decidir contra o texto da Constituição sempre que o âmbito fático social lhe parecer mais conveniente."
+        "text": "A Teoria Estruturante autoriza o juiz a decidir contra o texto da Constituição sempre que o âmbito fático social lhe parecer mais conveniente, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       }
     ],
     "correctAnswer": "C",
@@ -4527,19 +4527,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Peter Häberle defende que a interpretação da Constituição deve permanecer fechada exclusivamente aos ministros da Suprema Corte para evitar contaminação política da sociedade civil."
+        "text": "Peter Häberle defende que a interpretação da Constituição deve permanecer fechada exclusivamente aos ministros da Suprema Corte para evitar contaminação política da sociedade civil, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "B",
-        "text": "A teoria de Peter Häberle é incompatível com a participação de amici curiae (amigos da corte) e audiências públicas no STF."
+        "text": "A teoria de Peter Häberle é incompatível com a participação de amici curiae (amigos da corte) e audiências públicas no STF, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
-        "text": "Peter Häberle formula a tese da \"SOCIEDADE ABERTA DOS INTÉRPRETES DA CONSTITUIÇÃO\": numa democracia pluralista (\"quem vive a norma também a interpreta\"), o processo de interpretação constitucional não é monopólio fechado de uma corporação estatal de juízes e juristas dogmáticos — participam potencialmente dessa interpretação TODOS os órgãos estatais, todas as potências públicas, todos os CIDADÃOS e grupos sociais (associações, sindicatos, igrejas, imprensa, partidos políticos, requerentes de ações e amici curiae)! Esse modelo fundamenta diretamente instrumentos processuais participativos no Brasil como o AMICUS CURIAE e as AUDIÊNCIAS PÚBLICAS no controle de constitucionalidade (Leis nº 9.868/99 e 9.882/99)!"
+        "text": "Peter Häberle formula a tese da \"sociedade aberta dos intérpretes da constituição\": numa democracia pluralista, o processo de interpretação constitucional não é monopólio fechado de uma corporação estatal de juízes e juristas dogmáticos."
       },
       {
         "letter": "D",
-        "text": "Para Häberle, apenas os detentores de títulos doutorais em Direito Constitucional têm legitimidade hermenêutica para atribuir sentido às normas constitucionais."
+        "text": "Para Häberle, apenas os detentores de títulos doutorais em Direito Constitucional têm legitimidade hermenêutica para atribuir sentido às normas constitucionais, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       }
     ],
     "correctAnswer": "C",
@@ -4582,19 +4582,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para a teoria do racismo estrutural, o racismo explica-se exclusivamente como desvio moral patológico de indivíduos preconceituosos isolados, sem relação com o Direito ou a economia."
+        "text": "Para a teoria do racismo estrutural, o racismo explica-se exclusivamente como desvio moral patológico de indivíduos preconceituosos isolados, sem relação com o Direito ou a economia. A análise teórica evidencia o papel da argumentação racional na justificação das decisões."
       },
       {
         "letter": "B",
-        "text": "O conceito de interseccionalidade criado por Kimberlé Crenshaw significa que as discriminações de raça e de gênero devem sempre ser julgadas em processos separados sem jamais cruzar os dois fatores."
+        "text": "O conceito de interseccionalidade criado por Kimberlé Crenshaw significa que as discriminações de raça e de gênero devem sempre ser julgadas em processos separados sem jamais cruzar os dois fatores, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "C",
-        "text": "Articulam-se dois marcos teóricos fundamentais: (1) INTERSECCIONALIDADE (cunhada pela jurista norte-americana da Teoria Crítica da Raça Kimberlé Crenshaw ao analisar casos trabalhistas como DeGraffenreid v. General Motors): demonstra que eixos de opressão como RAÇA, GÊNERO, CLASSE e deficiência não atuam como camadas separadas simplesmente somadas, mas se ENTRECRUZAM produzindo vulnerabilidades específicas (ex.: a mulher negra sofre discriminações próprias irredutíveis à soma isolada do racismo contra homens negros e do sexismo contra mulheres brancas); e (2) RACISMO ESTRUTURAL (sistematizado no Brasil por Sílvio Almeida): o racismo não é mera anomalia psicológica individual nem apenas falha institucional isolada, mas decorre da própria ESTRUTURA econômica, política e jurídica normal da sociedade, exigindo políticas afirmativas e transformação estrutural (não apenas punição penal individual)!"
+        "text": "Articulam-se dois marcos teóricos fundamentais: interseccionalidade: demonstra que eixos de opressão como raça, gênero, classe e deficiência não atuam como camadas separadas simplesmente somadas, mas se entrecruzam produzindo vulnerabilidades específicas."
       },
       {
         "letter": "D",
-        "text": "A Teoria Crítica da Raça defende que o formalismo jurídico \"cego à cor\" (colorblindness) já é suficiente hoje para extinguir todas as desigualdades históricas raciais sem ações afirmativas."
+        "text": "A Teoria Crítica da Raça defende que o formalismo jurídico \"cego à cor\" (colorblindness) já é suficiente hoje para extinguir todas as desigualdades históricas raciais sem ações afirmativas, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       }
     ],
     "correctAnswer": "C",
@@ -4637,7 +4637,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Carol Gilligan, a \"ética do cuidado\" é moralmente inferior à \"ética da justiça\" abstrata e deve ser excluída do raciocínio jurídico."
+        "text": "Para Carol Gilligan, a \"ética do cuidado\" é moralmente inferior à \"ética da justiça\" abstrata e deve ser excluída do raciocínio jurídico, com reconhecimento da força normativa direta dos princípios morais na validade jurídica."
       },
       {
         "letter": "B",
@@ -4645,7 +4645,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Três contribuições centrais do pensamento feminista ao Direito: (1) Carol Gilligan (\"Uma Voz Diferente\") contrapõe à ÉTICA DA JUSTIÇA abstrata e impessoal (modelo masculino de direitos e regras universais formulado por Lawrence Kohlberg) a ÉTICA DO CUIDADO (moralidade relacional baseada na responsabilidade, empatia, atenção às necessidades concretas e preservação de vínculos — valorizando o trabalho de cuidado historicamente invisibilizado); (2) Catharine MacKinnon critica a abordagem liberal da \"igualdade formal por semelhança\" (que mede mulheres pelo padrão masculino) e propõe a abordagem da ANTISSUBORDINAÇÃO (combate à dominação estrutural de poder, pioneira no conceito jurídico de assédio sexual); e (3) Judith Butler problematiza o essencialismo biológico propondo a PERFORMATIVIDADE DE GÊNERO (gênero como construção discursivo-social reiterada por normas regulatórias)!"
+        "text": "Três contribuições centrais do pensamento feminista ao Direito: Carol Gilligan contrapõe à ética da justiça abstrata e impessoal a ética do cuidado."
       },
       {
         "letter": "D",
@@ -4700,7 +4700,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O movimento CRITICAL LEGAL STUDIES (Duncan Kennedy, Roberto Mangabeira Unger, Mark Tushnet) sustenta três teses centrais: (1) TESE DA INDETERMINAÇÃO DO DIREITO — os materiais jurídicos oficiais (regras, princípios e precedentes) possuem contradições estruturais internas (\"altruísmo vs. individualismo\"), nunca ditando uma única solução lógica neutra para casos controversos; (2) \"O DIREITO É POLÍTICA\" — sob o disfarce de neutralidade técnica científica, o raciocínio jurídico dogmático reproduz hierarquias sociais, econômicas e de poder (\"reificação\" e falsa necessidade institucional); e (3) Roberto Mangabeira Unger propõe o \"Desvio Desviacionista\" e o EXPERIMENTALISMO DEMOCRÁTICO institucional (imaginação institucional para reinventar formas democráticas de propriedade, mercado e direitos desestabilizadores contra a ditadura das instituições estabelecidas)!"
+        "text": "O movimento critical legal studies sustenta três teses centrais: tese da indeterminação do direito; \"o direito é política\"."
       },
       {
         "letter": "D",
@@ -4751,15 +4751,15 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A Justiça de Transição limita-se exclusivamente ao pagamento de indenizações financeiras em dinheiro às vítimas, dispensando apuração da verdade ou reforma das polícias."
+        "text": "A Justiça de Transição limita-se exclusivamente ao pagamento de indenizações financeiras em dinheiro às vítimas, dispensando apuração da verdade ou reforma das polícias, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "C",
-        "text": "Na filosofia jurídica da JUSTIÇA DE TRANSIÇÃO (sistematizada por Ruti Teitel e pelos princípios Joinet/ONU e Corte Interamericana de Direitos Humanos): a transição legítima de um regime autoritário ou conflito armado para a democracia exige a implementação integrada de QUATRO EIXOS/PILARES fundamentais: (1) DIREITO À VERDADE E À MEMÓRIA (comissões da verdade, abertura de arquivos e preservação histórica contra o esquecimento); (2) JUSTIÇA PENAL / RESPONSABILIZAÇÃO (investigação e punição de graves crimes contra a humanidade, vedadas autoanistias amplas perante o Direito Internacional — Corte IDH, Caso Gomes Lund vs. Brasil); (3) REPARAÇÃO INTEGRAL ÀS VÍTIMAS (econômica, moral e simbólica); e (4) REFORMA DAS INSTITUIÇÕES (depuração de órgãos repressivos e garantia de não repetição)!"
+        "text": "Na filosofia jurídica da justiça de transição: a transição legítima de um regime autoritário ou conflito armado para a democracia exige a implementação integrada de quatro eixos/pilares fundamentais: direito à verdade e à memória."
       },
       {
         "letter": "D",
-        "text": "Para a Justiça de Transição, o esquecimento oficial (\"apagar a história para reconciliar\") constitui o fundamento ético mais sólido da democracia."
+        "text": "Para a Justiça de Transição, o esquecimento oficial (\"apagar a história para reconciliar\") constitui o fundamento ético mais sólido da democracia, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "C",
@@ -4802,19 +4802,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O paradigma ecocêntrico afirma que a natureza e os rios possuem valor jurídico apenas na medida em que servem de matéria-prima lucrativa para o ser humano."
+        "text": "O paradigma ecocêntrico afirma que a natureza e os rios possuem valor jurídico apenas na medida em que servem de matéria-prima lucrativa para o ser humano, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "B",
-        "text": "Elinor Ostrom confirmou integralmente a \"tragédia dos comuns\", defendendo que a única solução para bens compartilhados é a privatização absoluta ou a estatização policial."
+        "text": "Elinor Ostrom confirmou integralmente a \"tragédia dos comuns\", defendendo que a única solução para bens compartilhados é a privatização absoluta ou a estatização policial, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "C",
-        "text": "Duas vertentes convergem na filosofia socioambiental contemporânea: (1) o ECOCENTRISMO JURÍDICO / BIOCENTRISMO (presente no Novo Constitucionalismo Latino-Americano — Constituição do Equador de 2008 reconhecendo a PACHAMAMA / Natureza como sujeito de direitos à existência e regeneração, e na filosofia do \"Bem Viver\" / Sumak Kawsay de Eduardo Gudynas e Alberto Acosta): rompe o antropocentrismo cartesiano ao reconhecer valor intrínseco e subjetividade jurídica a rios, florestas e ecossistemas independentemente de sua utilidade econômica humana; e (2) a teoria da GOVERNANÇA DOS BENS COMUNS de Elinor Ostrom (Prêmio Nobel de Economia), que refutou a fatalidade da \"tragédia dos comuns\" de Garrett Hardin mostrando que comunidades locais são capazes de autogerir sustentavelmente recursos comuns sem precisar privatizá-los nem estatizá-los centralmente!"
+        "text": "Duas vertentes convergem na filosofia socioambiental contemporânea: o ecocentrismo jurídico / biocentrismo: rompe o antropocentrismo cartesiano ao reconhecer valor intrínseco e subjetividade jurídica a rios, florestas e ecossistemas independentemente de sua utilidade econômica humana."
       },
       {
         "letter": "D",
-        "text": "O conceito andino de \"Bem Viver\" (Sumak Kawsay / Buen Vivir) significa o aumento ilimitado do consumo material e do PIB industrial acima dos limites ecológicos."
+        "text": "O conceito andino de \"Bem Viver\" (Sumak Kawsay / Buen Vivir) significa o aumento ilimitado do consumo material e do pib industrial acima dos limites ecológicos, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       }
     ],
     "correctAnswer": "C",
@@ -4857,19 +4857,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No modelo principialista de Beauchamp e Childress, o princípio da Autonomia tem sempre hierarquia absoluta prévia, anulando automaticamente a não maleficência e a justiça."
+        "text": "No modelo principialista de Beauchamp e Childress, o princípio da Autonomia tem sempre hierarquia absoluta prévia, anulando automaticamente a não maleficência e a justiça. A análise teórica evidencia o papel da argumentação racional na justificação das decisões."
       },
       {
         "letter": "B",
-        "text": "A \"heurística do medo\" proposta por Hans Jonas prega o pânico irracional e a proibição total de qualquer ciência médica."
+        "text": "A \"heurística do medo\" proposta por Hans Jonas prega o pânico irracional e a proibição total de qualquer ciência médica, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "C",
-        "text": "Dois paradigmas clássicos da Bioética e Biodireito: (1) o PRINCIPIALISMO de Tom Beauchamp e James Childress estrutura a bioética clínica em QUATRO PRINCÍPIOS prima facie não hierarquizados previamente: AUTONOMIA (consentimento livre e esclarecido do paciente), BENEFICÊNCIA (agir para o bem/saúde do paciente), NÃO MALEFICÊNCIA (\"primum non nocere\" — não causar dano intencional) e JUSTIÇA (distribuição equitativa de recursos e riscos); e (2) Hans Jonas (\"O Princípio Responsabilidade\") formula uma nova ética para a civilização tecnológica diante dos riscos irreversíveis à vida planetária e às GERAÇÕES FUTURAS — propondo a \"HEURÍSTICA DO MEDO\" (dar mais peso ao prognóstico catastrófico científico do que ao otimismo cego — base filosófica direta do PRINCÍPIO DA PRECAUÇÃO ambiental!) e o novo imperativo categórico: \"Age de modo que os efeitos da tua ação sejam compatíveis com a permanência de uma vida autêntica humana sobre a Terra\"!"
+        "text": "Dois paradigmas clássicos da Bioética e Biodireito: o principialismo de Tom Beauchamp e James Childress estrutura a bioética clínica em quatro princípios prima facie não hierarquizados previamente: Autonomia, beneficência, não maleficência e justiça."
       },
       {
         "letter": "D",
-        "text": "Hans Jonas afirma que os deveres morais e jurídicos existem apenas entre seres humanos contemporâneos vivos atualmente, não havendo obrigação para com as gerações futuras ainda não nascidas."
+        "text": "Hans Jonas afirma que os deveres morais e jurídicos existem apenas entre seres humanos contemporâneos vivos atualmente, não havendo obrigação para com as gerações futuras ainda não nascidas, com rejeição de qualquer vinculação necessária entre validade formal e critérios morais materiais."
       }
     ],
     "correctAnswer": "C",
@@ -4912,19 +4912,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Shoshana Zuboff, o \"capitalismo de vigilância\" limita-se exclusivamente ao controle estatal policial de câmeras de rua, não envolvendo corporações privadas de tecnologia."
+        "text": "Para Shoshana Zuboff, o \"capitalismo de vigilância\" limita-se exclusivamente ao controle estatal policial de câmeras de rua, não envolvendo corporações privadas de tecnologia. A análise teórica evidencia o papel da argumentação racional na justificação das decisões."
       },
       {
         "letter": "B",
-        "text": "Dois diagnósticos centrais da filosofia da informação aplicada ao Direito: (1) Shoshana Zuboff (\"A Era do Capitalismo de Vigilância\") demonstra que grandes corporações digitais não apenas coletam dados para melhorar serviços, mas apropriam-se unilateralmente da experiência humana como matéria-prima gratuita (\"superávit comportamental\") para fabricar produtos de predição e MODIFICAÇÃO DE COMPORTAMENTO (\"poder instrumentário\"), ameaçando a autonomia individual, a privacidade e a democracia (fundamentando a regulação de proteção de dados — LGPD/GDPR); e (2) Luciano Floridi desenvolve a INFOÉTICA e descreve a \"Quarta Revolução\" (vivemos na \"INFOSFERA\" de forma ONLIFE — sem separação entre online e offline), exigindo governança ética e jurídica da IA baseada em transparência, explicabilidade, não discriminação algorítmica e dignidade informacional!"
+        "text": "Dois diagnósticos centrais da filosofia da informação aplicada ao Direito: Shoshana Zuboff demonstra que grandes corporações digitais não apenas coletam dados para melhorar serviços, mas apropriam-se unilateralmente da experiência humana como matéria-prima gratuita para fabricar produtos de predição e modificação de comportamento, ameaçando a autonomia individual, a privacidade e a democracia."
       },
       {
         "letter": "C",
-        "text": "Luciano Floridi sustenta que o mundo online e o mundo físico real continuam completamente separados em duas esferas estanques, sem impacto recíproco no Direito."
+        "text": "Luciano Floridi sustenta que o mundo online e o mundo físico real continuam completamente separados em duas esferas estanques, sem impacto recíproco no Direito, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito. Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa."
       },
       {
         "letter": "D",
-        "text": "A exigência jurídica de \"explicabilidade\" algorítmica significa permitir que sistemas de caixa-preta tomem decisões penais ou creditícias opacas sem direito à revisão humana."
+        "text": "A exigência jurídica de \"explicabilidade\" algorítmica significa permitir que sistemas de caixa-preta tomem decisões penais ou creditícias opacas sem direito à revisão humana, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "B",
@@ -4967,19 +4967,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para Thomas Pogge, a erradicação da pobreza extrema global é apenas um ato opcional de caridade cristã sem qualquer dever negativo de justiça institucional."
+        "text": "Para Thomas Pogge, a erradicação da pobreza extrema global é apenas um ato opcional de caridade cristã sem qualquer dever negativo de justiça institucional, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       },
       {
         "letter": "B",
-        "text": "O debate sobre JUSTIÇA GLOBAL opõe duas posições principais: (1) o COSMOPOLITISMO DISTRIBUTIVO (Thomas Pogge, Charles Beitz, Darrel Moellendorf): sustenta que os princípios de justiça distributiva (como o de Rawls) devem aplicar-se GLOBALMENTE a todos os seres humanos em pé de igualdade, independentemente da nacionalidade — argumentando Pogge que a ordem econômica e institucional global imposta pelos países ricos (regras comerciais, empréstimos e reconhecimento de recursos naturais a ditadores) CAUSA ativamente a pobreza extrema, gerando dever negativo de justiça reparatória (não apenas caridade humanitária!); e (2) o ESTATISMO / NACIONALISMO POLÍTICO (Thomas Nagel e o próprio John Rawls em \"O Direito dos Povos\"): sustenta que deveres exigentes de justiça igualitária socioeconômica pressupõem a coação de um Estado soberano compartilhado onde cidadãos sejam coautores das leis, cabendo no plano internacional apenas deveres humanitários básicos e respeito aos direitos humanos mínimos!"
+        "text": "O debate sobre justiça global opõe duas posições principais: o cosmopolitismo distributivo: sustenta que os princípios de justiça distributiva devem aplicar-se globalmente a todos os seres humanos em pé de igualdade, independentemente da nacionalidade."
       },
       {
         "letter": "C",
-        "text": "Thomas Nagel defende a aplicação imediata do Princípio da Diferença de Rawls em escala mundial sem necessidade de instituições estatais globais coercitivas."
+        "text": "Thomas Nagel defende a aplicação imediata do Princípio da Diferença de Rawls em escala mundial sem necessidade de instituições estatais globais coercitivas, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "D",
-        "text": "Em \"O Direito dos Povos\", John Rawls estendeu integralmente seu Princípio da Diferença rawlsiano como obrigação redistributiva contínua entre todos os países do mundo."
+        "text": "Em \"o Direito dos Povos\", John Rawls estendeu integralmente seu Princípio da Diferença rawlsiano como obrigação redistributiva contínua entre todos os países do mundo, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "B",
@@ -5022,19 +5022,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na Justiça Restaurativa, o foco exclusivo do processo é infligir ao acusado o maior sofrimento punitivo retributivo possível em nome da autoridade estatal."
+        "text": "Na Justiça Restaurativa, o foco exclusivo do processo é infligir ao acusado o maior sofrimento punitivo retributivo possível em nome da autoridade estatal, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "Na teoria da JUSTIÇA RESTAURATIVA de Howard Zehr (\"Trocando as Lentes\", acolhida no Brasil pela Resolução CNJ nº 225/2016 e pela Lei do SINASE): (1) a JUSTIÇA RETRIBUTIVA tradicional vê o crime essencialmente como uma VIOLAÇÃO DA LEI E DO ESTADO (ofensa abstrata contra o ente estatal), perguntando \"qual lei foi quebrada, quem fez e qual castigo/dor merece?\", mantendo vítima e comunidade marginalizadas; (2) a JUSTIÇA RESTAURATIVA vê o crime fundamentalmente como uma VIOLAÇÃO DE PESSOAS E RELAÇÕES INTERPESSOAIS (um dano concreto), perguntando \"quem foi prejudicado, quais são suas necessidades e quem tem a obrigação de repará-las?\" — promovendo encontro voluntário (círculos restaurativos, conferências vítima-ofensor-comunidade), responsabilização ativa consciente do ofensor e reparação do dano!"
+        "text": "Na teoria da justiça restaurativa de Howard Zehr: a justiça retributiva tradicional vê o crime essencialmente como uma violação da lei e do estado, perguntando \"qual lei foi quebrada, quem fez e qual castigo/dor merece.\", mantendo vítima e comunidade marginalizadas."
       },
       {
         "letter": "C",
-        "text": "A Justiça Restaurativa exclui completamente a participação voluntária da vítima e da comunidade, concentrando tudo apenas entre juiz e promotor."
+        "text": "A Justiça Restaurativa exclui completamente a participação voluntária da vítima e da comunidade, concentrando tudo apenas entre juiz e promotor, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "D",
-        "text": "A aplicação de práticas restaurativas pressupõe que o acusado seja forçado coercitivamente a participar dos círculos contra sua vontade mesmo negando os fatos."
+        "text": "A aplicação de práticas restaurativas pressupõe que o acusado seja forçado coercitivamente a participar dos círculos contra sua vontade mesmo negando os fatos, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "B",
@@ -5077,19 +5077,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Luigi Ferrajoli sustenta que os problemas climáticos e financeiros globais devem ser deixados inteiramente à autorregulação espontânea dos mercados financeiros transnacionais sem constituição nem limites."
+        "text": "Luigi Ferrajoli sustenta que os problemas climáticos e financeiros globais devem ser deixados inteiramente à autorregulação espontânea dos mercados financeiros transnacionais sem constituição nem limites, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "B",
-        "text": "Na obra recente \"Por uma Constituição da Terra\", Luigi Ferrajoli defende a passagem do paradigma constitucional estatalista (vinculado à soberania absoluta dos Estados-nação, que hoje sucumbe aos poderes econômicos selvagens globais sem limites jurídicos) para um CONSTITUCIONALISMO GLOBAL GARANTISTA: propõe a criação de garantias supranacionais para proteger os BENS FUNDAMENTAIS (distintos dos bens patrimoniais mercantis — incluindo bens naturais comuns como água, clima e florestas, além de bens artificiais vitais como medicamentos essenciais e educação), proibindo armas nucleares, limitando poderes privados transnacionais (\"poderes selvagens\" do mercado) e instituindo um domínio público planetário garantido por instituições federais da humanidade!"
+        "text": "Na obra recente \"Por uma Constituição da Terra\", Luigi Ferrajoli defende a passagem do paradigma constitucional estatalista para um constitucionalismo global garantista: propõe a criação de garantias supranacionais para proteger os bens fundamentais, proibindo armas nucleares, limitando poderes privados transnacionais e instituindo um domínio público planetário garantido por instituições federais da humanidade."
       },
       {
         "letter": "C",
-        "text": "Na tipologia jurídica de Ferrajoli, os \"bens fundamentais\" equivalem integralmente aos \"bens patrimoniais\" disponíveis no comércio livre."
+        "text": "Na tipologia jurídica de Ferrajoli, os \"bens fundamentais\" equivalem integralmente aos \"bens patrimoniais\" disponíveis no comércio livre, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "D",
-        "text": "O projeto constitucional planetário de Ferrajoli propõe abolir todos os direitos sociais fundamentais dos trabalhadores para reduzir custos globais."
+        "text": "O projeto constitucional planetário de Ferrajoli propõe abolir todos os direitos sociais fundamentais dos trabalhadores para reduzir custos globais, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       }
     ],
     "correctAnswer": "B",
@@ -5132,19 +5132,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Jurisprudência das Virtudes afirma que o caráter ético e a prudência (phronesis) do juiz são totalmente irrelevantes, bastando um algoritmo formal mecânico."
+        "text": "A Jurisprudência das Virtudes afirma que o caráter ético e a prudência (phronesis) do juiz são totalmente irrelevantes, bastando um algoritmo formal mecânico, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       },
       {
         "letter": "B",
-        "text": "Trata-se da JURISPRUDÊNCIA DAS VIRTUDES (Virtue Jurisprudence — Lawrence Solum, Amália Amaya, Colin Farrelly): em vez de reduzir a decisão judicial a algoritmos lógicos (formalismo) ou apenas à ponderação de princípios e consequências (Dworkin/Alexy/Posner), sustenta que a qualidade da justiça depende constitutivamente das VIRTUDES JUDICIAIS do magistrado — em especial da SABEDORIA PRÁTICA (phronesis / prudência jurídica aristotélica para discernir o relevante no caso singular), da IMPARCIALIDADE, da TEMPERANÇA JUDICIAL, da CORAGEM cívica, da HUMILDADE epistêmica (saber ouvir) e da fidelidade à justiça (\"justiça como virtude\" para além do mero cumprimento técnico de regras)!"
+        "text": "Trata-se da jurisprudência das virtudes: em vez de reduzir a decisão judicial a algoritmos lógicos (formalismo) ou apenas à ponderação de princípios e consequências, sustenta que a qualidade da justiça depende constitutivamente das virtudes judiciais do magistrado — em especial da sabedoria prática, da imparcialidade, da temperança judicial, da coragem cívica, da humildade epistêmica (saber ouvir) e da fidelidade à justiça."
       },
       {
         "letter": "C",
-        "text": "Na Jurisprudência das Virtudes, um juiz \"virtuoso\" tem permissão livre para rasgar a lei escrita sempre que sentir empatia emocional momentânea por uma parte."
+        "text": "Na Jurisprudência das Virtudes, um juiz \"virtuoso\" tem permissão livre para rasgar a lei escrita sempre que sentir empatia emocional momentânea por uma parte, com superação crítica da literalidade legal em favor da equidade e da justiça material concreta."
       },
       {
         "letter": "D",
-        "text": "A Jurisprudência das Virtudes deriva diretamente do utilitarismo calculista de Jeremy Bentham, rejeitando qualquer referência a Aristóteles."
+        "text": "A Jurisprudência das Virtudes deriva diretamente do utilitarismo calculista de Jeremy Bentham, rejeitando qualquer referência a Aristóteles, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "B",
@@ -5191,7 +5191,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na metodologia jurídica contemporânea alemã (Karl Engisch e Claus-Wilhelm Canaris): (1) o ordenamento jurídico não é um sistema axiomático-dedutivo fechado (como queria a Jurisprudência dos Conceitos), mas um SISTEMA ABERTO E MÓVEL (Canaris: ordem axiológico-teleológica unitária baseada em princípios abertos à evolução histórica e novas valorações); e (2) segundo Karl Engisch, a diferença metodológica entre INTERPRETAÇÃO EXTENSIVA e ANALOGIA reside no limite semântico da lei: na interpretação extensiva, o intérprete ainda se move DENTRO do sentido possível (embora amplo) do texto legal (aplicação direta da norma); já na ANALOGIA (integração de lacunas — Art. 4º LINDB), reconhece-se uma LACUNA (incompletude contrária ao plano regulativo do sistema) e aplica-se a norma de um caso semelhante não abrangido pelo sentido literal (ubi eadem ratio, ibi idem ius) — vedada a analogia in malam partem no Direito Penal!"
+        "text": "Na metodologia jurídica contemporânea alemã: o ordenamento jurídico não é um sistema axiomático-dedutivo fechado, mas um sistema aberto e móvel."
       },
       {
         "letter": "C",
@@ -5199,7 +5199,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A analogia e a interpretação extensiva são operações idênticas, ambas proibidas inclusive para beneficiar o réu no Direito Penal."
+        "text": "A analogia e a interpretação extensiva são operações idênticas, ambas proibidas inclusive para beneficiar o réu no Direito Penal, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       }
     ],
     "correctAnswer": "B",
@@ -5242,19 +5242,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No segundo Wittgenstein (\"Investigações Filosóficas\"), o significado de todo termo jurídico encontra-se numa essência metafísica imutável independente do uso social."
+        "text": "No segundo Wittgenstein (\"Investigações Filosóficas\"), o significado de todo termo jurídico encontra-se numa essência metafísica imutável independente do uso social, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "B",
-        "text": "Duas contribuições fundamentais da filosofia analítica da linguagem ao Direito: (1) o segundo Ludwig Wittgenstein (\"Investigações Filosóficas\") abandona a teoria pictórica unívoca do \"Tractatus\" para afirmar que \"o significado de uma palavra é o seu USO na linguagem\" dentro de JOGOS DE LINGUAGEM (formas de vida sociais governadas por regras compartilhadas — influenciando diretamente Hart na \"textura aberta\" e Genaro Carrió na análise da vaguidade e ambiguidade jurídica!); e (2) John Langshaw Austin (\"Quando Dizer é Fazer\" / Teoria dos Atos de Fala) distingue enunciados constatativos (verdadeiros/falsos) de ENUNCIADOS PERFORMATIVOS (atos de fala em que dizer algo É FAZER algo institucional — ex.: \"Declaro aberta a sessão\", \"Prometo pagar\", \"Condeno o réu\" — que não são verdadeiros nem falsos, mas válidos/nulos ou felizes/infelizes segundo regras jurídicas convencionais)!"
+        "text": "Duas contribuições fundamentais da filosofia analítica da linguagem ao Direito: o segundo Ludwig Wittgenstein abandona a teoria pictórica unívoca do \"Tractatus\" para afirmar que \"o significado de uma palavra é o seu uso na linguagem\" dentro de jogos de linguagem."
       },
       {
         "letter": "C",
-        "text": "Na teoria dos atos de fala de J. L. Austin, uma sentença judicial condenatória ou a celebração de um casamento (\"Sim, aceito\") são enunciados meramente descritivos sujeitos ao teste empírico de verdadeiro ou falso."
+        "text": "Na teoria dos atos de fala de J. L. Austin, uma sentença judicial condenatória ou a celebração de um casamento (\"Sim, aceito\") são enunciados meramente descritivos sujeitos ao teste empírico de verdadeiro ou falso. Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral."
       },
       {
         "letter": "D",
-        "text": "A filosofia analítica da linguagem nega a existência de vaguidade e ambiguidade nos textos legais escritos."
+        "text": "A filosofia analítica da linguagem nega a existência de vaguidade e ambiguidade nos textos legais escritos, conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema."
       }
     ],
     "correctAnswer": "B",
@@ -5297,19 +5297,19 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na Teoria Egológica de Carlos Cossio, o objeto exclusivo da ciência jurídica são apenas as normas estatais escritas isoladas de toda conduta humana."
+        "text": "Na Teoria Egológica de Carlos Cossio, o objeto exclusivo da ciência jurídica são apenas as normas estatais escritas isoladas de toda conduta humana, como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça."
       },
       {
         "letter": "B",
-        "text": "Na TEORIA EGOLÓGICA DO DIREITO de Carlos Cossio (combinando fenomenologia de Husserl, existencialismo de Heidegger e normativismo kelseniano): o objeto próprio da Ciência do Direito NÃO são as normas jurídicas em si mesmas (como afirmava Kelsen!), mas a própria CONDUTA HUMANA EM INTERFERÊNCIA INTERSUBJETIVA (vida humana vivente — daí \"egológica\", do ego/sujeito agente)! Para Cossio, as NORMAS JURÍDICAS não são o objeto do direito, mas meros CONCEITOS / ESQUEMAS LÓGICOS DE INTERPRETAÇÃO por meio dos quais o jurista compreende e valora a conduta intersubjetiva (\"a norma está para a conduta como a palavra está para a coisa\", e o Direito é um objeto cultural egológico compreendido por compreensão empírico-dialética, e não explicação causal)!"
+        "text": "Na teoria egológica do direito de Carlos Cossio: o objeto próprio da Ciência do Direito não são as normas jurídicas em si mesmas, mas a própria conduta humana em interferência intersubjetiva."
       },
       {
         "letter": "C",
-        "text": "Carlos Cossio classifica o Direito como um objeto natural físico desprovido de liberdade ou valoração axiológica."
+        "text": "Carlos Cossio classifica o Direito como um objeto natural físico desprovido de liberdade ou valoração axiológica, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       },
       {
         "letter": "D",
-        "text": "Para Carlos Cossio, o juiz é um espectador externo neutro totalmente separado da realidade do direito que aplica normas de fora para dentro."
+        "text": "Para Carlos Cossio, o juiz é um espectador externo neutro totalmente separado da realidade do direito que aplica normas de fora para dentro, com articulação entre validade formal, eficácia social e legitimidade axiológica do direito."
       }
     ],
     "correctAnswer": "B",
@@ -5356,7 +5356,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Roscoe Pound cunhou duas fórmulas célebres da filosofia jurídica moderna: (1) celebrizou a distinção programática entre \"LAW IN BOOKS\" (direito estático nos livros, códigos e tratados) e \"LAW IN ACTION\" (direito efetivamente vivido e aplicado nos tribunais, delegacias e administrações); e (2) definiu a ordem jurídica como uma \"ENGENHARIA SOCIAL\" (Social Engineering) — tarefa pragmática pela qual juristas, legisladores e juízes conciliam, harmonizam e satisfazem o máximo possível de INTERESSES humanos conflitantes (individuais, públicos e sociais) com o mínimo de atrito e desperdício social!"
+        "text": "Roscoe Pound cunhou duas fórmulas célebres da filosofia jurídica moderna: celebrizou a distinção programática entre \"law IN books\" e \"law IN action\"."
       },
       {
         "letter": "C",
@@ -5364,7 +5364,7 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Para Roscoe Pound, \"Law in books\" e \"Law in action\" coincidem sempre perfeitamente em todas as sociedades modernas."
+        "text": "Para Roscoe Pound, \"Law in books\" e \"Law in action\" coincidem sempre perfeitamente em todas as sociedades modernas, no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo."
       }
     ],
     "correctAnswer": "B",
@@ -5407,11 +5407,11 @@ export const FILOSOFIA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O pós-positivismo rejeita inteiramente a Constituição escrita e defende o retorno integral ao direito natural teológico medieval sem leis positivas."
+        "text": "O pós-positivismo rejeita inteiramente a Constituição escrita e defende o retorno integral ao direito natural teológico medieval sem leis positivas, com primazia da racionalidade prática e da integridade interpretativa na reconstrução do direito."
       },
       {
         "letter": "B",
-        "text": "Os três grandes paradigmas históricos distinguem-se com clareza: (1) JUSNATURALISMO (antigo, teológico e racionalista moderno): afirma a existência de uma ordem superior universal e imutável (natureza/Deus/razão) vinculada à Moral; uma lei positiva injusta contraditória ao Direito Natural perde legitimidade ou validade (conexão necessária Direito-Moral); (2) POSITIVISMO JURÍDICO (clássico/normativista — Austin, Kelsen, Hart inicial, Bobbio metodológico): separa Direito e Moral (\"tese da separação\" e \"tese das fontes sociais\"); o Direito válido é apenas o posto/reconhecido por autoridades competentes segundo critérios formais/sociais, independente do conteúdo moral; princípios têm papel meramente supletivo nas lacunas; e (3) PÓS-POSITIVISMO / NEOCONSTITUCIONALISMO (Dworkin, Alexy, Ferrajoli, Radbruch tardio): supera a dicotomia mantendo a positividade das constituições democráticas, mas atribuindo NORMATIVIDADE PLENA aos PRINCÍPIOS constitucionais e direitos fundamentais (ponderação/integridade), restabelecendo uma conexão racional e axiológica crítica entre Direito, Moral e Justiça!"
+        "text": "Os três grandes paradigmas históricos distinguem-se com clareza: jusnaturalismo: afirma a existência de uma ordem superior universal e imutável vinculada à Moral."
       },
       {
         "letter": "C",

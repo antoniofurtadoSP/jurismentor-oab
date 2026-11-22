@@ -162,12 +162,18 @@ export interface LegalFlashcard {
   mastered: boolean;
 }
 
+export interface SubjectStudyGoal {
+  dailyQuestions: number;
+  dailyMinutes: number;
+}
+
 export interface UserStudyData {
   results: SimuladoResult[];
   cadernoErrosIds: string[]; // Question IDs wrong and not yet mastered
   bookmarkedQuestionIds: string[];
   completedScheduleDays: Record<string, boolean>; // key: `${planId}_day_${dayNumber}`
   flashcardStatus: Record<string, { mastered: boolean; reviews: number }>;
+  subjectGoals?: Record<string, SubjectStudyGoal>;
   activePlanId: string;
   lastActiveDate: string;
   streakDays: number;

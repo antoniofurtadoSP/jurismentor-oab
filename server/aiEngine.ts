@@ -16,6 +16,7 @@ import {
   mapLevelToDifficulty,
   normalizeTextForMatch,
 } from './legalDb';
+import { rebalanceQuestionOptions } from '../scripts/questionRebalancer';
 
 const apiKey = process.env.GEMINI_API_KEY;
 export const aiClient = apiKey
@@ -140,7 +141,44 @@ export async function validateQuestionIndependently(
       : 'Sem duplicidade com questões existentes no banco.',
   });
 
-  // 7. Estágio 2 opcional: Auditoria independente via Gemini quando disponível
+  // 7. Equilíbrio formal e ausência de pistas óbvias nas alternativas (padrão FGV)
+  const corrOption = (question.options || []).find(o => o.letter === question.correctAnswer);
+  const wrongOptions = (question.options || []).filter(o => o.letter !== question.correctAnswer);
+  const corrLen = corrOption?.text.trim().length || 0;
+  const wrongLens = wrongOptions.map(o => o.text.trim().length);
+  const avgWrongLen = wrongLens.length > 0 ? wrongLens.reduce((a, b) => a + b, 0) / wrongLens.length : 0;
+  const maxWrongLen = wrongLens.length > 0 ? Math.max(...wrongLens) : 0;
+  const hasEditorialMarkerInOptions = (question.options || []).some(
+    o => /!|\*\*|__|\(\s*(?:isto é|ou seja|pegadinha|atenção|cuidado)\b/i.test(o.text)
+  );
+  const citeRe = /\b(?:art\.?|artigo|súmula|tema|lei\s+n[º°]|enunciado)\s*\d+/i;
+  const asksCiteInStmt = /\b(?:quais|qual)\s+(?:o\s+número\s+d[oa]\s+|a\s+|o\s+|os\s+|as\s+)?(?:súmulas?|artigos?|dispositivos?|emendas?|temas?|incisos?|lei\s+n[º°])\b/i.test(
+    question.statement || ''
+  );
+  const citationAsymmetry =
+    !asksCiteInStmt &&
+    Boolean(corrOption && citeRe.test(corrOption.text)) &&
+    wrongOptions.every(w => !citeRe.test(w.text));
+  const extremeLengthBias =
+    corrLen > 95 && avgWrongLen > 0 && corrLen > avgWrongLen * 1.45 && corrLen > maxWrongLen * 1.25;
+  const balancedOptionsPassed =
+    !hasEditorialMarkerInOptions && !citationAsymmetry && !extremeLengthBias;
+
+  checks.push({
+    name: 'Equilíbrio formal e simetria das alternativas',
+    passed: balancedOptionsPassed,
+    notes: balancedOptionsPassed
+      ? 'Alternativas equilibradas em extensão, formalidade e ausência de pistas visuais.'
+      : [
+          hasEditorialMarkerInOptions ? 'presença de marcação editorial (!, negrito ou glosa)' : '',
+          citationAsymmetry ? 'citação normativa exclusiva na alternativa correta' : '',
+          extremeLengthBias ? 'alternativa correta desproporcionalmente mais longa que os distratores' : '',
+        ]
+          .filter(Boolean)
+          .join('; '),
+  });
+
+  // 8. Estágio 2 opcional: Auditoria independente via Gemini quando disponível
   let verifiedBy = 'Motor Determinístico JurisMentor (Estágio 1)';
   if (runAiSecondPass && aiClient) {
     const startMs = Date.now();
@@ -171,7 +209,7 @@ export async function validateQuestionIndependently(
             role: 'user',
             parts: [
               {
-                text: `Atue como REVISOR JURÍDICO INDEPENDENTE da banca FGV/OAB. Audite esta questão para garantir que não há ambiguidade, dupla resposta, lei revogada ou erro jurídico.\n\nFontes verificadas no banco:\n${groundingSummary || 'Consulte a legislação brasileira vigente.'}\n\nQuestão (${question.subject} - ${question.topic}):\nEnunciado: ${question.statement}\nAlternativas:\n${question.options.map(o => `${o.letter}) ${o.text}`).join('\n')}\nGabarito apontado: ${question.correctAnswer}\nFundamentação: ${question.justification}`,
+                text: `Atue como REVISOR JURÍDICO INDEPENDENTE da banca FGV/OAB. Audite esta questão para garantir que não há ambiguidade, dupla resposta, lei revogada, erro jurídico ou pista óbvia de gabarito (como alternativa correta muito mais longa, mais detalhada ou com citações ausentes nas incorretas).\n\nFontes verificadas no banco:\n${groundingSummary || 'Consulte a legislação brasileira vigente.'}\n\nQuestão (${question.subject} - ${question.topic}):\nEnunciado: ${question.statement}\nAlternativas:\n${question.options.map(o => `${o.letter}) ${o.text}`).join('\n')}\nGabarito apontado: ${question.correctAnswer}\nFundamentação: ${question.justification}`,
               },
             ],
           },
@@ -305,6 +343,24 @@ export async function generateGroundedQuestions(params: {
       ? `${primaryJur.tribunal} - ${primaryJur.identification}: ${primaryJur.thesis}`
       : `Princípios estruturantes de ${discipline}`;
 
+    const lettersOrder: Array<'A' | 'B' | 'C' | 'D'> = ['A', 'B', 'C', 'D'];
+    const targetCorrect = lettersOrder[Date.now() % lettersOrder.length];
+    const correctAssertion = primaryArt
+      ? `Aplica-se ao caso a diretriz normativa segundo a qual ${primaryArt.caput.charAt(0).toLowerCase()}${primaryArt.caput.slice(1)}`
+      : `Prevalece o entendimento consolidado de que ${primaryJur?.thesis ? `${primaryJur.thesis.charAt(0).toLowerCase()}${primaryJur.thesis.slice(1)}` : 'a regra legal vigente deve incidir integralmente sobre a relação jurídica analisada.'}`;
+
+    const distractorAssertions = [
+      'A incidência da norma pode ser afastada por juízo de conveniência administrativa da autoridade competente, independentemente de previsão legal expressa.',
+      'O regime jurídico aplicável encontra-se tacitamente derrogado em razão do decurso do tempo, não produzindo efeitos imediatos sobre fatos pendentes.',
+      'A aplicação concreta da regra jurídica depende de prévia regulamentação complementar pelo Poder Legislativo estadual ou de homologação judicial específica.',
+    ];
+
+    let dIdx = 0;
+    const rawOptions = lettersOrder.map(letter => ({
+      letter,
+      text: letter === targetCorrect ? correctAssertion : distractorAssertions[dIdx++],
+    }));
+
     const qDraft: LegalQuestion = {
       id: `inedita_db_${Date.now()}`,
       exam: `Questão Inédita Fundamentada · ${params.targetExamType || 'OAB'}/FGV`,
@@ -322,33 +378,20 @@ export async function generateGroundedQuestions(params: {
       statement: primaryArt
         ? `Durante orientação jurídica no escritório-escola, um cidadão apresentou controvérsia envolvendo ${primaryArt.subject} no âmbito de ${discipline}. Considerando expressamente a disciplina vigente do ${primaryArt.normShortName} (${primaryArt.articleNumber}), assinale a afirmativa que reflete corretamente a regra jurídica aplicável ao caso:`
         : `Em caso concreto submetido à apreciação judicial em matéria de ${discipline} (${primaryJur?.subject || 'Jurisprudência Superior'}), debate-se a aplicação do entendimento firmado pelo ${primaryJur?.tribunal || 'STF/STJ'} (${primaryJur?.identification || 'precedente'}). Assinale a afirmativa juridicamente correta:`,
-      options: [
-        {
-          letter: 'A',
-          text: primaryArt
-            ? `Aplica-se a diretriz normativa segundo a qual ${primaryArt.caput}`
-            : `Prevalece o entendimento consolidado segundo o qual ${primaryJur?.thesis || 'a norma vigente deve ser observada integralmente.'}`,
-        },
-        {
-          letter: 'B',
-          text: 'É lícito à autoridade afastar a incidência da regra expressa por conveniência administrativa discricionária sem previsão legal.',
-        },
-        {
-          letter: 'C',
-          text: 'O dispositivo encontra-se tacitamente revogado e não produz efeitos sobre fatos ocorridos durante sua vigência.',
-        },
-        {
-          letter: 'D',
-          text: 'Exige-se prévia autorização do Poder Legislativo estadual para aplicação imediata da garantia prevista na norma.',
-        },
-      ],
-      correctAnswer: 'A',
-      justification: `A alternativa A reproduz com fidelidade o teor jurídico verificado na base: ${refText}.`,
-      whyWrong: [
-        { letter: 'B', explanation: 'Incorreta. A legalidade estrita impede o afastamento discricionário da norma cogente.' },
-        { letter: 'C', explanation: 'Incorreta. A norma está catalogada como vigente na base de legislação.' },
-        { letter: 'D', explanation: 'Incorreta. Não existe tal exigência condicionante no ordenamento jurídico brasileiro.' },
-      ],
+      options: rawOptions,
+      correctAnswer: targetCorrect,
+      justification: `A alternativa ${targetCorrect} reproduz com fidelidade o teor jurídico verificado na base: ${refText}.`,
+      whyWrong: lettersOrder
+        .filter(l => l !== targetCorrect)
+        .map((l, idx) => ({
+          letter: l,
+          explanation:
+            idx === 0
+              ? 'Incorreta. O princípio da legalidade estrita impede o afastamento discricionário da regra jurídica vigente.'
+              : idx === 1
+              ? 'Incorreta. A diretriz jurídica permanece plenamente vigente e eficaz no ordenamento brasileiro.'
+              : 'Incorreta. Não existe tal exigência condicionante de autorização legislativa estadual ou homologação prévia.',
+        })),
       statuteReferences: primaryArt
         ? [
             {
@@ -374,6 +417,7 @@ export async function generateGroundedQuestions(params: {
       },
     };
 
+    qDraft.options = rebalanceQuestionOptions(qDraft).options;
     const validated = await validateQuestionIndependently(qDraft, false);
     qDraft.validationStatus = validated.status;
     qDraft.validationReport = validated.report;
@@ -486,9 +530,11 @@ REGRAS INVIOLÁVEIS DE INTEGRIDADE:
 2. Classifique sempre como QUESTÃO INÉDITA (nunca rotule como prova passada oficial da FGV).
 3. Elabore enunciado com CASO PRÁTICO realista (nomes fictícios como João, Maria, Sociedade Empresária Alfa, Município Beta), com conflito jurídico claro que exija raciocínio e interpretação, nunca mera decoreba rasa.
 4. Gere exatamente 4 alternativas (A, B, C, D), sendo apenas 1 correta e 3 distratores plausíveis que explorem confusões doutrinárias comuns.
-5. Preencha commentary em whyWrong para TODAS as 3 alternativas incorretas (explicitando o erro conceitual ou legal de cada uma).
-6. Preencha objetivo pedagógico, competência jurídica avaliada, exemplo prático e orientação de prova (como a banca FGV costuma cobrar).
-7. Dificuldade solicitada: ${DIFFICULTY_LEVEL_LABELS[level]}.`;
+5. SIMETRIA RIGOROSA DAS ALTERNATIVAS (OBRIGATÓRIO): TODAS as 4 alternativas devem apresentar extensão semelhante (idealmente entre 140 e 230 caracteres cada, com variação máxima de ~20% entre a correta e as incorretas) e exatamente o MESMO nível de formalidade e densidade técnico-jurídica. É PROIBIDO deixar as incorretas curtas/secas e a correta longa/explicativa.
+6. SEM PISTAS NA REDAÇÃO DAS ALTERNATIVAS: NÃO inclua citações de artigos, súmulas ou temas, glosas explicativas entre parênteses ("isto é...", "ou seja..."), pontos de exclamação (!), nem destaques em CAIXA ALTA exclusivamente na alternativa correta. Toda a fundamentação detalhada (artigos, súmulas e explicação doutrinária) deve ir para os campos "justification", "whyWrong", "statuteReferences" e "professorTip". Varie o gabarito ("correctAnswer") entre A, B, C e D.
+7. Preencha comentários em "whyWrong" para TODAS as 3 alternativas incorretas (explicitando o erro conceitual ou legal de cada uma).
+8. Preencha objetivo pedagógico, competência jurídica avaliada, exemplo prático e orientação de prova (como a banca FGV costuma cobrar).
+9. Dificuldade solicitada: ${DIFFICULTY_LEVEL_LABELS[level]}.`;
 
   const userPrompt = `Disciplina: ${discipline}
 Assunto prioritário: ${params.topic || 'Temas de alta incidência na OAB'}
@@ -596,6 +642,7 @@ ${formattedJuris || 'Nenhuma súmula específica indexada para este subassunto; 
       },
     };
 
+    draft.options = rebalanceQuestionOptions(draft).options;
     const validation = await validateQuestionIndependently(draft, false);
     draft.validationStatus = validation.status;
     draft.validationReport = validation.report;

@@ -17,19 +17,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Código de Defesa do Consumidor aplica-se normalmente aos planos de saúde de autogestão fechada e às relações entre condôminos e condomínio edilício."
+        "text": "O Código de Defesa do Consumidor aplica-se normalmente aos planos de saúde de autogestão fechada e às relações entre condôminos e condomínio edilício, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "A vítima de acidente causado por defeito do produto na via pública não pode invocar o CDC por não ter assinado contrato de compra com o fabricante."
+        "text": "A vítima de acidente causado por defeito do produto na via pública não pode invocar o CDC por não ter assinado contrato de compra com o fabricante, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "C",
-        "text": "O STJ adota a TEORIA FINALISTA MITIGADA (ou aprofundada): em regra, consumidor é o destinatário final fático e econômico do bem (Art. 2º), MAS excepcionalmente estende-se a proteção do CDC à pessoa física ou jurídica (ex.: costureira/microempresário) que adquire insumo para sua atividade quando demonstrada sua VULNERABILIDADE técnica, jurídica ou econômica diante do fornecedor! O transeunte vítima de acidente de consumo é CONSUMIDOR POR EQUIPARAÇÃO (bystander — Art. 17 CDC)! Atenção às Súmulas do STJ: o CDC APLICA-SE às instituições financeiras (Súmula 297 STJ) e às cooperativas habitacionais (Súmula 602 STJ), MAS NÃO se aplica aos contratos de planos de saúde de AUTOGESTÃO (Súmula 608 STJ) nem à previdência privada fechada (Súmula 563 STJ)!"
+        "text": "O STJ adota a teoria finalista mitigada (ou aprofundada): em regra, consumidor é o destinatário final fático e econômico do bem, mas excepcionalmente estende-se a proteção do CDC à pessoa física ou jurídica que adquire insumo para sua atividade quando demonstrada sua vulnerabilidade técnica, jurídica ou econômica diante do fornecedor."
       },
       {
         "letter": "D",
-        "text": "As instituições financeiras (bancos) estão excluídas da incidência do CDC porque são reguladas exclusivamente pela Lei nº 4.595/64."
+        "text": "As instituições financeiras (bancos) estão excluídas da incidência do CDC porque são reguladas exclusivamente pela Lei nº 4.595/64. Tal critério define o alcance dos deveres anexos de informação e segurança ao destinatário."
       }
     ],
     "correctAnswer": "C",
@@ -73,19 +73,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No acidente de consumo causado por defeito de fabricação de produto industrializado devidamente identificado na embalagem (fato do produto), o consumidor pode processar diretamente só o supermercado solidariamente."
+        "text": "No acidente de consumo causado por defeito de fabricação de produto industrializado devidamente identificado na embalagem (fato do produto), o consumidor pode processar diretamente só o supermercado solidariamente, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "B",
-        "text": "A decadência para reclamar de vício oculto conta-se sempre da data da entrega efetiva do produto ao consumidor."
+        "text": "A decadência para reclamar de vício oculto conta-se sempre da data da entrega efetiva do produto ao consumidor, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "C",
-        "text": "Na HIPÓTESE A (VÍCIO do produto — Art. 18 CDC): fabricante E COMERCIANTE (supermercado) respondem SOLIDARIAMENTE! Não sanado o vício em no máximo 30 DIAS (imediato se essencial!), o consumidor escolhe substituição, restituição atualizada ou abatimento proporcional; prazo para reclamar é DECADENCIAL de 30 DIAS (não duráveis) ou 90 DIAS (duráveis — Art. 26, contado da entrega no aparente ou da evidência no vício oculto)! Na HIPÓTESE B (FATO DO PRODUTO — Art. 12): respondem objetivamente fabricante, produtor, construtor e importador — o COMERCIANTE só responde SUBSIDIARIAMENTE nas hipóteses do Art. 13 (não identificação ou má conservação de perecíveis)! E o prazo de reparação por fato do produto é PRESCRICIONAL de 5 ANOS (Art. 27)!"
+        "text": "Na hipótese a: fabricante e comerciante (supermercado) respondem solidariamente. Não sanado o vício em no máximo 30 dias, o consumidor escolhe substituição, restituição atualizada ou abatimento proporcional."
       },
       {
         "letter": "D",
-        "text": "Os profissionais liberais (médicos, advogados, dentistas) respondem objetivamente pelo fato do serviço nos termos do Art. 14 do CDC."
+        "text": "Os profissionais liberais (médicos, advogados, dentistas) respondem objetivamente pelo fato do serviço. A responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista."
       }
     ],
     "correctAnswer": "C",
@@ -128,19 +128,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo de arrependimento de 7 dias do Art. 49 do CDC aplica-se também às compras presenciais dentro da loja física caso o consumidor se arrependa da cor."
+        "text": "O prazo de arrependimento de 7 dias aplica-se também às compras presenciais dentro da loja física caso o consumidor se arrependa da cor, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "B",
-        "text": "No exercício do direito de arrependimento pelo consumidor em compra pela internet, as despesas de frete de devolução correm por conta exclusiva do consumidor."
+        "text": "No exercício do direito de arrependimento pelo consumidor em compra pela internet, as despesas de frete de devolução correm por conta exclusiva do consumidor, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "Na compra realizada FORA DO ESTABELECIMENTO COMERCIAL (internet, telefone, catálogo, domicílio — Art. 49 CDC), o consumidor pode desistir imotivadamente no prazo de 7 (SETE) DIAS a contar de sua assinatura ou do ATO DE RECEBIMENTO do produto/serviço (sem custo algum, devolvidos os valores inclusive frete imediatamente corrigidos)! Quanto à oferta: pelo Art. 30, toda informação ou publicidade suficientemente precisa obriga o fornecedor (opções do Art. 35: cumprimento forçado, equivalente ou rescisão + perdas e danos) — MAS o STJ afasta a vinculação quando houver ERRO GROSSEIRO manifesto que viole a boa-fé objetiva!"
+        "text": "Na compra realizada fora do estabelecimento comercial, o consumidor pode desistir imotivadamente no prazo de 7 (sete) dias a contar de sua assinatura ou do ato de recebimento do produto/serviço."
       },
       {
         "letter": "D",
-        "text": "A publicidade que explora o medo, a superstição ou induz a criança a comportamento perigoso classifica-se como publicidade enganosa."
+        "text": "A publicidade que explora o medo, a superstição ou induz a criança a comportamento perigoso classifica-se como publicidade enganosa, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "C",
@@ -183,19 +183,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A devolução em dobro do indébito prevista no Art. 42, parágrafo único, do CDC exige obrigatoriamente que o consumidor comprove dolo ou má-fé subjetiva da empresa."
+        "text": "A devolução em dobro do indébito exige obrigatoriamente que o consumidor comprove dolo ou má-fé subjetiva da empresa, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "A notificação prévia do consumidor antes de inscrever seu nome no SPC/Serasa compete ao credor e exige carta com aviso de recebimento (AR) assinado."
+        "text": "A notificação prévia do consumidor antes de inscrever seu nome no spc/Serasa compete ao credor e exige carta com aviso de recebimento (ar) assinado, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 39, III e § único, CDC e Súmula 532 do STJ, o envio de cartão de crédito SEM PRÉVIA SOLICITAÇÃO equipara-se a AMOSTRA GRÁTIS e configura prática abusiva que gera DANO MORAL! Na cobrança indevida paga (Art. 42, § único), cabe REPETIÇÃO EM DOBRO (salvo engano justificável) — e a Corte Especial do STJ (EAREsp 676.608) pacificou que independe de prova de má-fé subjetiva, bastando conduta contrária à boa-fé objetiva! Quanto ao SPC/Serasa: cabe ao ÓRGÃO MANTENEDOR do cadastro a notificação prévia por escrito (Súmula 359 STJ — dispensado AR, Súmula 404 STJ!), com prazo máximo de 5 ANOS ou até a prescrição da cobrança, o que ocorrer antes (Súmula 323 STJ)!"
+        "text": "III e § único, CDC e Súmula 532 do STJ, o envio de cartão de crédito sem prévia solicitação equipara-se a amostra grátis e configura prática abusiva que gera dano moral."
       },
       {
         "letter": "D",
-        "text": "Na Súmula 323 do STJ, a inscrição no SPC/Serasa permanece válida por 5 anos mesmo após já ter prescrito o prazo de cobrança da dívida em 3 anos."
+        "text": "Na Súmula 323 do STJ, a inscrição no spc/Serasa permanece válida por 5 anos mesmo após já ter prescrito o prazo de cobrança da dívida em 3 anos, com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro."
       }
     ],
     "correctAnswer": "C",
@@ -239,19 +239,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em caso de desistência por culpa exclusiva do comprador do imóvel na planta, é válida a cláusula que prevê a perda de 100% das parcelas pagas."
+        "text": "Em caso de desistência por culpa exclusiva do comprador do imóvel na planta, é válida a cláusula que prevê a perda de 100% das parcelas pagas, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "Os contratos de plano de saúde podem limitar validamente o tempo de internação em UTI em até 30 dias se houver cláusula em negrito e destaque."
+        "text": "Os contratos de plano de saúde podem limitar validamente o tempo de internação em uti em até 30 dias se houver cláusula em negrito e destaque, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "C",
-        "text": "Nos contratos de compra e venda mediante prestações, é NULA a cláusula de perda total das prestações pagas (Art. 53 CDC) — pela Súmula 543 do STJ, na resolução por culpa exclusiva do comprador, a restituição das parcelas pagas ocorre de forma PARCIAL (100% imediato se a culpa for da vendedora)! E pela Súmula 302 do STJ, é ABUSIVA a cláusula de plano de saúde que LIMITA NO TEMPO a internação hospitalar! Além disso, contratos de adesão exigem fonte >= corpo 12 e destaque para cláusulas limitativas (Art. 54, §§ 3º e 4º), e pela Súmula 381 do STJ é VEDADO ao juiz conhecer DE OFÍCIO da abusividade de cláusulas em contratos bancários!"
+        "text": "Nos contratos de compra e venda mediante prestações, é nula a cláusula de perda total das prestações pagas, na resolução por culpa exclusiva do comprador, a restituição das parcelas pagas ocorre de forma parcial. é abusiva a cláusula de plano de saúde que limita no tempo a internação hospitalar. Além disso, contratos de adesão exigem fonte >= corpo 12 e destaque para cláusulas limitativas, é vedado ao juiz conhecer de ofício da abusividade de cláusulas em contratos bancários."
       },
       {
         "letter": "D",
-        "text": "Nos contratos bancários submetidos ao CDC, o juiz pode declarar de ofício a nulidade de qualquer tarifa sem pedido expresso do consumidor."
+        "text": "Nos contratos bancários submetidos ao CDC, o juiz pode declarar de ofício a nulidade de qualquer tarifa sem pedido expresso do consumidor, com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar."
       }
     ],
     "correctAnswer": "C",
@@ -299,15 +299,15 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O plano de repactuação por superendividamento abrange financiamentos imobiliários e contratos com garantia real."
+        "text": "O plano de repactuação por superendividamento abrange financiamentos imobiliários e contratos com garantia real, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "C",
-        "text": "A Lei nº 14.181/2021 protege exclusivamente o consumidor PESSOA NATURAL de BOA-FÉ preservando o MÍNIMO EXISTENCIAL (Art. 54-A)! O plano de pagamento (voluntário no Art. 104-A ou judicial compulsório no Art. 104-B se frustrada a conciliação) tem prazo MÁXIMO DE 5 (CINCO) ANOS (no compulsório, 1ª parcela em até 180 dias)! EXCLUEM-SE da repactuação (Art. 104-A, § 1º): dívidas contraídas mediante FRAUDE/MÁ-FÉ (sem propósito de pagar), contratos com GARANTIA REAL, financiamentos IMOBILIÁRIOS e CRÉDITO RURAL!"
+        "text": "A Lei nº 14.181/2021 protege exclusivamente o consumidor pessoa natural de boa-fé preservando o mínimo existencial."
       },
       {
         "letter": "D",
-        "text": "Frustrada a conciliação em audiência, o juiz extingue o processo sem poder estabelecer plano compulsório de pagamento."
+        "text": "Frustrada a conciliação em audiência, o juiz extingue o processo sem poder estabelecer plano compulsório de pagamento, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       }
     ],
     "correctAnswer": "C",
@@ -350,19 +350,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para o juiz inverter o ônus da prova pelo Art. 6º, VIII, do CDC, exige-se prova cumulativa de verossimilhança E hipossuficiência técnica."
+        "text": "Para o juiz inverter o ônus da prova, exige-se prova cumulativa de verossimilhança e hipossuficiência técnica, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "B",
-        "text": "A inversão do ônus da prova do Art. 6º, VIII, do CDC deve ser aplicada apenas no momento da sentença (regra de julgamento)."
+        "text": "A inversão do ônus da prova deve ser aplicada apenas no momento da sentença (regra de julgamento), com responsabilidade objetiva e solidária de todos os integrantes da cadeia de fornecimento. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "Os requisitos do Art. 6º, VIII, do CDC (verossimilhança das alegações OU hipossuficiência do consumidor) são ALTERNATIVOS (basta um deles)! A 2ª Seção do STJ pacificou que a inversão ope judicis do Art. 6º, VIII, é REGRA DE INSTRUÇÃO (deve ser decidida no saneamento antes das provas, evitando surpresa) e NÃO transfere ao réu o dever de adiantar honorários de perícia requerida pelo autor (o réu assume apenas o risco processual da falta da prova)! Já a inversão OPE LEGIS decorre diretamente da lei (Arts. 12, § 3º, 14, § 3º e 38 CDC)."
+        "text": "Os requisitos são alternativos (basta um deles). A 2ª Seção do STJ pacificou que a inversão ope judicis, é regra de instrução e não transfere ao réu o dever de adiantar honorários de perícia requerida pelo autor. Já a inversão ope legis decorre diretamente da lei."
       },
       {
         "letter": "D",
-        "text": "A inversão do ônus da prova obriga automaticamente o fornecedor a pagar antecipadamente os honorários do perito em perícia requerida pelo consumidor."
+        "text": "A inversão do ônus da prova obriga automaticamente o fornecedor a pagar antecipadamente os honorários do perito em perícia requerida pelo consumidor, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "C",
@@ -405,19 +405,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Mesmo nas relações regidas pelo CDC, exige-se prova de desvio de finalidade ou confusão patrimonial para atingir os sócios."
+        "text": "Mesmo nas relações regidas pelo CDC, exige-se prova de desvio de finalidade ou confusão patrimonial para atingir os sócios, com responsabilidade objetiva e solidária de todos os integrantes da cadeia de fornecimento."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 28, § 2º, do CDC, as sociedades integrantes de grupos societários respondem solidariamente com a controlada."
+        "text": "As sociedades integrantes de grupos societários respondem solidariamente com a controlada, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "SIM! No CDC vigora a TEORIA MENOR (Art. 28, § 5º): basta a personalidade jurídica constituir OBSTÁCULO ao ressarcimento dos prejuízos causados aos consumidores (mera insolvência/falta de bens, observado o IDPJ dos Arts. 133–137 CPC para contraditório)! Ademais, nos parágrafos do Art. 28: sociedades integrantes de GRUPOS SOCIETÁRIOS e controladas respondem SUBSIDIARIAMENTE (§ 2º); sociedades CONSORCIADAS respondem SOLIDARIAMENTE (§ 3º); e sociedades COLIGADAS só respondem por CULPA (§ 4º)!"
+        "text": "Sim. No CDC vigora a teoria menor: basta a personalidade jurídica constituir obstáculo ao ressarcimento dos prejuízos causados aos consumidores. Ademais, nos parágrafos: sociedades integrantes de grupos societários e controladas respondem subsidiariamente; sociedades consorciadas respondem solidariamente; e sociedades coligadas só respondem por culpa."
       },
       {
         "letter": "D",
-        "text": "Na execução consumerista, o juiz atinge diretamente os bens particulares dos sócios sem instaurar o IDPJ."
+        "text": "Na execução consumerista, o juiz atinge diretamente os bens particulares dos sócios sem instaurar o IDPJ, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "C",
@@ -460,15 +460,15 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Julgada improcedente no mérito ação coletiva sobre direitos individuais homogêneos, nenhum consumidor pode propor ação individual."
+        "text": "Julgada improcedente no mérito ação coletiva sobre direitos individuais homogêneos, nenhum consumidor pode propor ação individual, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "B",
-        "text": "O rol de procedimentos da ANS é taxativo absoluto, impedindo qualquer cobertura fora da lista mesmo com eficácia científica comprovada."
+        "text": "O rol de procedimentos da ANS é taxativo absoluto, impedindo qualquer cobertura fora da lista mesmo com eficácia científica comprovada, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "C",
-        "text": "Nos direitos INDIVIDUAIS HOMOGÊNEOS (Art. 81, III — divisíveis e de origem comum), a coisa julgada coletiva só opera erga omnes NO CASO DE PROCEDÊNCIA (in utilibus — Art. 103, III; se improcedente, os indivíduos que não intervieram como litisconsortes podem propor ações individuais!), e não induz litispendência com ações individuais (Art. 104)! Nos planos de saúde (Lei 14.454/22), o rol da ANS é referência básica (cobre procedimento fora do rol se comprovada eficácia científica ou recomendação da CONITEC; carência de urgência/emergência máx 24h — Súmula 597 STJ)! E bancos respondem objetivamente por fortuito interno de fraudes/delitos de terceiros em operações bancárias (Súmula 479 STJ), tal como empresas respondem por furto/dano em seu estacionamento mesmo gratuito (Súmula 130 STJ)!"
+        "text": "Nos direitos individuais homogêneos, a coisa julgada coletiva só opera erga omnes no caso de procedência, e não induz litispendência com ações individuais."
       },
       {
         "letter": "D",
@@ -516,19 +516,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Adota-se a teoria maximalista pura, aplicando o CDC a toda compra de insumo empresarial por grandes bancos."
+        "text": "Adota-se a teoria maximalista pura, aplicando o CDC a toda compra de insumo empresarial por grandes bancos, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "B",
-        "text": "O STJ adota a Teoria Finalista Aprofundada (ou Mitigada): embora a regra exija que o adquirente seja destinatário final fático e econômico (Art. 2º), admite-se excepcionalmente a aplicação do CDC à pessoa jurídica ou profissional quando comprovada sua vulnerabilidade técnica, jurídica ou fática/econômica diante do fornecedor no caso concreto."
+        "text": "O STJ adota a Teoria Finalista Aprofundada (ou Mitigada): embora a regra exija que o adquirente seja destinatário final fático e econômico, admite-se excepcionalmente a aplicação do CDC à pessoa jurídica ou profissional quando comprovada sua vulnerabilidade técnica, jurídica ou fática/econômica diante do fornecedor no caso concreto."
       },
       {
         "letter": "C",
-        "text": "Pessoas jurídicas nunca podem ser consideradas consumidoras pelo CDC."
+        "text": "Pessoas jurídicas nunca podem ser consideradas consumidoras pelo CDC, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "Presume-se absoluta a vulnerabilidade de grandes sociedades anônimas em contratos empresariais bilionários."
+        "text": "Presume-se absoluta a vulnerabilidade de grandes sociedades anônimas em contratos empresariais bilionários, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "B",
@@ -571,19 +571,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque não celebrou contrato nem pagou tarifa à empresa transportadora."
+        "text": "Não, porque não celebrou contrato nem pagou tarifa à empresa transportadora. Tal critério define o alcance dos deveres anexos de informação e segurança ao destinatário."
       },
       {
         "letter": "B",
-        "text": "Sim! Pelo Art. 17 do CDC, equiparam-se aos consumidores TODAS AS VÍTIMAS DO EVENTO (bystanders) em acidentes de consumo (fato do produto ou do serviço), fazendo jus à responsabilidade objetiva e solidária do fornecedor. Além disso, o Art. 2º, parágrafo único, equipara a coletividade de pessoas, e o Art. 29 equipara todas as pessoas determináveis ou não expostas às práticas comerciais e contratuais."
+        "text": "Sim, equiparam-se aos consumidores todas as vítimas do evento (bystanders) em acidentes de consumo, fazendo jus à responsabilidade objetiva e solidária do fornecedor."
       },
       {
         "letter": "C",
-        "text": "Aplica-se o CDC apenas se o pedestre comprovar culpa grave ou dolo do fabricante da peça."
+        "text": "Aplica-se o CDC apenas se o pedestre comprovar culpa grave ou dolo do fabricante da peça, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "O pedestre deve acionar exclusivamente o Código Civil, pois o CDC protege somente o adquirente direto."
+        "text": "O pedestre deve acionar exclusivamente o Código Civil, pois o CDC protege somente o adquirente direto. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       }
     ],
     "correctAnswer": "B",
@@ -626,19 +626,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplica-se o CDC integralmente aos planos de saúde de autogestão e às entidades fechadas de previdência."
+        "text": "Aplica-se o CDC integralmente aos planos de saúde de autogestão e às entidades fechadas de previdência, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "Não se aplica o CDC a nenhuma dessas três hipóteses! Segundo jurisprudência sumulada do STJ, o CDC NÃO se aplica às entidades abertas? Atenção: NÃO se aplica a entidades FECHADAS de previdência complementar (Súmula 563), NÃO se aplica a planos de saúde administrados por entidade de AUTOGESTÃO (Súmula 608), nem às locações prediais urbanas (regidas pela Lei 8.245/91) e relações tributárias ou trabalhistas."
+        "text": "Não se aplica o CDC a nenhuma dessas três hipóteses.245/91 e relações tributárias ou trabalhistas."
       },
       {
         "letter": "C",
-        "text": "O CDC aplica-se às instituições financeiras apenas quando forem bancos privados, excluindo bancos públicos."
+        "text": "O CDC aplica-se às instituições financeiras apenas quando forem bancos privados, excluindo bancos públicos, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "O CDC incide sobre a relação jurídica tributária de cobrança de IPTU e taxas municipais."
+        "text": "O CDC incide sobre a relação jurídica tributária de cobrança de IPTU e taxas municipais, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       }
     ],
     "correctAnswer": "B",
@@ -682,19 +682,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A inversão do Art. 6º, VIII, exige comprovação cumulativa de verossimilhança e hipossuficiência extrema."
+        "text": "A inversão, exige comprovação cumulativa de verossimilhança e hipossuficiência extrema, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "B",
-        "text": "Trata-se de inversão ope judicis (não automática, depende de decisão judicial fundamentada ante a verossimilhança da alegação OU hipossuficiência técnica/informacional/econômica do consumidor — requisitos alternativos!), devendo ser decidida preferencialmente na fase de SANEAMENTO do processo (regra de instrução, garantindo à parte contrária oportunidade de produzir prova, segundo o STJ)."
+        "text": "Trata-se de inversão ope judicis, devendo ser decidida preferencialmente na fase de saneamento do processo."
       },
       {
         "letter": "C",
-        "text": "Pode ser decretada de surpresa apenas na sentença final sem prévia intimação das partes."
+        "text": "Pode ser decretada de surpresa apenas na sentença final sem prévia intimação das partes, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "Aplica-se apenas quando o fornecedor concordar expressamente em audiência."
+        "text": "Aplica-se apenas quando o fornecedor concordar expressamente em audiência, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "B",
@@ -737,19 +737,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O consumidor autor da ação, cabendo-lhe contratar perícia de engenharia para provar que o anúncio é falso."
+        "text": "O consumidor autor da ação, cabendo-lhe contratar perícia de engenharia para provar que o anúncio é falso, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "B",
-        "text": "O patrocinador da comunicação publicitária (fornecedor anunciante), por força de inversão ope legis prevista no Art. 38 do CDC, independentemente de prévia decisão judicial de inversão ou demonstração de hipossuficiência."
+        "text": "O patrocinador da comunicação publicitária, por força de inversão ope legis, independentemente de prévia decisão judicial de inversão ou demonstração de hipossuficiência."
       },
       {
         "letter": "C",
-        "text": "A agência de publicidade e a emissora de televisão respondem objetivamente antes mesmo do anunciante."
+        "text": "A agência de publicidade e a emissora de televisão respondem objetivamente antes mesmo do anunciante, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "Depende de prévia decisão judicial no despacho saneador para transferir o ônus ao fornecedor."
+        "text": "Depende de prévia decisão judicial no despacho saneador para transferir o ônus ao fornecedor, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "B",
@@ -792,19 +792,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O comerciante e o fabricante respondem sempre de forma solidária e imediata em qualquer acidente de consumo."
+        "text": "O comerciante e o fabricante respondem sempre de forma solidária e imediata em qualquer acidente de consumo, com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro."
       },
       {
         "letter": "B",
-        "text": "Responde objetivamente e solidariamente o fabricante, produtor, construtor ou importador (Art. 12 CDC). O comerciante (supermercado) só responde subsidiariamente em hipóteses excepcionais do Art. 13: quando o fabricante/construtor/produtor/importador não puder ser identificado, quando o produto for fornecido sem identificação clara destes, ou quando o comerciante não conservar adequadamente os produtos perecíveis!"
+        "text": "Responde objetivamente e solidariamente o fabricante, produtor, construtor ou importador."
       },
       {
         "letter": "C",
-        "text": "O fabricante só responde se o consumidor provar culpa ou negligência na linha de montagem."
+        "text": "O fabricante só responde se o consumidor provar culpa ou negligência na linha de montagem, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "O defeito de concepção ou fabricação exime o importador brasileiro quando o produto vier da Ásia."
+        "text": "O defeito de concepção ou fabricação exime o importador brasileiro quando o produto vier da Ásia, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "B",
@@ -847,19 +847,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A comprovação de que agiu sem culpa ou observou todas as normas técnicas da fábrica."
+        "text": "A comprovação de que agiu sem culpa ou observou todas as normas técnicas da fábrica, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "Apenas se o fabricante provar: (I) que não colocou o produto no mercado; (II) que, embora haja colocado o produto no mercado, o defeito inexiste; ou (III) a culpa exclusiva do consumidor ou de terceiro (não bastando culpa concorrente para excluir integralmente, nem fortuito interno!)."
+        "text": "Apenas se o fabricante provar: (I) que não colocou o produto no mercado; (II) que, embora haja colocado o produto no mercado, o defeito inexiste; ou (III) a culpa exclusiva do consumidor ou de terceiro."
       },
       {
         "letter": "C",
-        "text": "A culpa concorrente da vítima exclui totalmente o dever de indenizar do fornecedor."
+        "text": "A culpa concorrente da vítima exclui totalmente o dever de indenizar do fornecedor, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "D",
-        "text": "O fato de outro fornecedor do mesmo ramo também fabricar peça semelhante."
+        "text": "O fato de outro fornecedor do mesmo ramo também fabricar peça semelhante, com proteção à legítima expectativa de segurança e adequação do produto no mercado. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       }
     ],
     "correctAnswer": "B",
@@ -902,19 +902,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Fraude praticada por estelionatário contra banco caracteriza culpa exclusiva de terceiro e isenta o banco pela Súmula 479 STJ."
+        "text": "Fraude praticada por estelionatário contra banco caracteriza culpa exclusiva de terceiro e isenta o banco, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "A fraude bancária praticada por terceiros (abertura de conta/empréstimo com documentos falsos) e o assalto dentro de banco ou estacionamento pago constituem FORTUITO INTERNO (risco inerente à atividade empresarial desenvolvida), gerando responsabilidade objetiva do banco/fornecedor (Súmula 479 STJ)! Já o assalto à mão armada dentro de ônibus coletivo em via pública tem sido tratado pelo STJ como fortuito externo (salvo falha específica de segurança)."
+        "text": "A fraude bancária praticada por terceiros e o assalto dentro de banco ou estacionamento pago constituem fortuito interno, gerando responsabilidade objetiva do banco/fornecedor."
       },
       {
         "letter": "C",
-        "text": "Estacionamento gratuito de supermercado nunca gera responsabilidade em caso de furto do veículo."
+        "text": "Estacionamento gratuito de supermercado nunca gera responsabilidade em caso de furto do veículo, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "D",
-        "text": "A responsabilidade dos bancos não se submete ao CDC quando há fraude eletrônica."
+        "text": "A responsabilidade dos bancos não se submete ao CDC quando há fraude eletrônica, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "B",
@@ -958,19 +958,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todo profissional liberal responde objetivamente independentemente de culpa pelo Art. 14 caput."
+        "text": "Todo profissional liberal responde objetivamente independentemente de culpa, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "A responsabilidade pessoal dos profissionais liberais (médicos, dentistas, advogados, arquitetos) será apurada mediante a VERIFICAÇÃO DE CULPA (responsabilidade SUBJETIVA — Art. 14, § 4º, CDC!), embora em cirurgias estéticas puramente embelezadoras haja presunção relativa de culpa (obrigação de resultado). Já os hospitais e clínicas (pessoas jurídicas) respondem OBJETIVAMENTE pelos defeitos na prestação de seus serviços próprios (hotelaria, infecção hospitalar, equipe própria), e solidariamente se o médico atuar com vínculo com o hospital (comprovada a culpa médica quando o ato for exclusivamente técnico do médico sem vínculo de preposição)!"
+        "text": "A responsabilidade pessoal dos profissionais liberais será apurada mediante a verificação de culpa, embora em cirurgias estéticas puramente embelezadoras haja presunção relativa de culpa."
       },
       {
         "letter": "C",
-        "text": "Os hospitais nunca respondem objetivamente por infecção hospitalar adquirida durante internação."
+        "text": "Os hospitais nunca respondem objetivamente por infecção hospitalar adquirida durante internação, com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar."
       },
       {
         "letter": "D",
-        "text": "Sociedades empresárias de engenharia ou grandes escritórios empresariais aplicam o § 4º para afastar responsabilidade objetiva da empresa."
+        "text": "Sociedades empresárias de engenharia ou grandes escritórios empresariais aplicam o § 4º para afastar responsabilidade objetiva da empresa, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "B",
@@ -1013,19 +1013,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cabe ao fabricante escolher se devolve o dinheiro ou dá um vale-compras na mesma loja."
+        "text": "Cabe ao fabricante escolher se devolve o dinheiro ou dá um vale-compras na mesma loja, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "B",
-        "text": "Não sendo o vício sanado no prazo máximo de 30 (trinta) dias, pode o consumidor exigir, à SUA ESCOLHA: (I) a substituição do produto por outro da mesma espécie, em perfeitas condições de uso; (II) a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos; ou (III) o abatimento proporcional do preço! Tratando-se de produto ESSENCIAL (como geladeira/fogão/celular de trabalho ou se a extensão do vício impedir o conserto sem comprometer qualidade), o consumidor pode exigir tais opções IMEDIATAMENTE sem aguardar os 30 dias (Art. 18, § 3º)!"
+        "text": "Não sendo o vício sanado no prazo máximo de 30 (trinta) dias, pode o consumidor exigir, à sua escolha: (I) a substituição do produto por outro da mesma espécie, em perfeitas condições de uso."
       },
       {
         "letter": "C",
-        "text": "O prazo máximo para o fornecedor sanar o vício é de 60 dias improrrogáveis."
+        "text": "O prazo máximo para o fornecedor sanar o vício é de 60 dias improrrogáveis, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "Por se tratar de produto durável, o consumidor deve aguardar obrigatoriamente os 30 dias mesmo se o produto for essencial e a família ficar sem refrigeração."
+        "text": "Por se tratar de produto durável, o consumidor deve aguardar obrigatoriamente os 30 dias mesmo se o produto for essencial e a família ficar sem refrigeração, com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro."
       }
     ],
     "correctAnswer": "B",
@@ -1068,19 +1068,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No vício de quantidade (Art. 19), o consumidor pode exigir alternativamente: abatimento proporcional do preço, complementação do peso ou medida, substituição do produto ou restituição imediata da quantia paga (+ perdas e danos). No vício de serviço (Art. 20), pode exigir: reexecução dos serviços sem custo adicional (ou por terceiro à custa do fornecedor), restituição imediata da quantia paga ou abatimento proporcional do preço — sem precisar conceder novo prazo de 30 dias ao prestador!"
+        "text": "No vício de quantidade, o consumidor pode exigir alternativamente: abatimento proporcional do preço, complementação do peso ou medida, substituição do produto ou restituição imediata da quantia paga (+ perdas e danos)."
       },
       {
         "letter": "B",
-        "text": "Nos vícios de serviço do Art. 20, o consumidor também precisa aguardar 30 dias antes de pedir a restituição do valor pago."
+        "text": "Nos vícios de serviço, o consumidor também precisa aguardar 30 dias antes de pedir a restituição do valor pago, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "Na reparação de produtos, o fornecedor pode utilizar peças usadas sem avisar o consumidor para baratear custos."
+        "text": "Na reparação de produtos, o fornecedor pode utilizar peças usadas sem avisar o consumidor para baratear custos, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "D",
-        "text": "Após encerrar a fabricação de um modelo de veículo ou eletrodoméstico, o fabricante pode parar imediatamente de fornecer peças de reposição."
+        "text": "Após encerrar a fabricação de um modelo de veículo ou eletrodoméstico, o fabricante pode parar imediatamente de fornecer peças de reposição, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       }
     ],
     "correctAnswer": "A",
@@ -1123,19 +1123,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para a reparação pelos danos causados por FATO do produto ou do serviço (acidente de consumo), o prazo é PRESCRICIONAL de 5 (cinco) anos a partir do conhecimento do dano e de sua autoria (Art. 27 CDC). Já para reclamar de VÍCIOS (inadequação do produto/serviço sem acidente), o prazo é DECADENCIAL: 30 dias (bens/serviços não duráveis) ou 90 dias (duráveis) — iniciando-se na entrega efetiva quando o vício for aparente, ou no momento em que ficar evidenciado o defeito quando for VÍCIO OCULTO (Art. 26, § 3º, CDC)!"
+        "text": "Para a reparação pelos danos causados por fato do produto ou do serviço, o prazo é prescricional de 5 (cinco) anos a partir do conhecimento do dano e de sua autoria."
       },
       {
         "letter": "B",
-        "text": "O prazo para reclamar de acidente de consumo (fato do produto) é decadencial de 90 dias."
+        "text": "O prazo para reclamar de acidente de consumo (fato do produto) é decadencial de 90 dias, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "C",
-        "text": "Tratando-se de vício oculto, o prazo decadencial de 90 dias conta-se sempre da data da compra na nota fiscal."
+        "text": "Tratando-se de vício oculto, o prazo decadencial de 90 dias conta-se sempre da data da compra na nota fiscal, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "D",
-        "text": "A reclamação comprovadamente formulada pelo consumidor perante o fornecedor não interfere no prazo decadencial."
+        "text": "A reclamação comprovadamente formulada pelo consumidor perante o fornecedor não interfere no prazo decadencial, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "A",
@@ -1178,19 +1178,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim! Pelo Art. 50 do CDC, a garantia contratual é COMPLEMENTAR à garantia legal. Segundo a jurisprudência consolidada do STJ, os prazos somam-se (primeiro corre a garantia contratual de 1 ano; só depois inicia-se o prazo decadencial da garantia legal de 90 dias para bens duráveis — ou seja, 1 ano + 90 dias!), sendo nula qualquer cláusula que reduza ou exclua a garantia legal (Art. 24 e Art. 51, I, CDC)."
+        "text": "Sim, a garantia contratual é complementar à garantia legal. Segundo a jurisprudência consolidada do STJ, os prazos somam-se, sendo nula qualquer cláusula que reduza ou exclua a garantia legal."
       },
       {
         "letter": "B",
-        "text": "Não, a garantia contratual de 1 ano absorve e substitui integralmente a garantia legal de 90 dias."
+        "text": "Não, a garantia contratual de 1 ano absorve e substitui integralmente a garantia legal de 90 dias, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "C",
-        "text": "A garantia contratual dispensa termo escrito, podendo ser alterada verbalmente após a venda."
+        "text": "A garantia contratual dispensa termo escrito, podendo ser alterada verbalmente após a venda, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "A garantia legal depende obrigatoriamente de apresentação do termo contratual assinado e com carimbo da loja."
+        "text": "A garantia legal depende obrigatoriamente de apresentação do termo contratual assinado e com carimbo da loja, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       }
     ],
     "correctAnswer": "A",
@@ -1233,19 +1233,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim! Enquanto o Código Civil (Art. 50) exige a Teoria Maior (abuso de personalidade por desvio de finalidade ou confusão patrimonial), o Art. 28, § 5º, do CDC consagra a TEORIA MENOR da desconsideração da personalidade jurídica: basta que a personalidade jurídica seja, de alguma forma, obstáculo ao ressarcimento de prejuízos causados aos consumidores (mera insolvência ou inexistência de bens livres!), observando-se o incidente de desconsideração (IDPJ - Art. 133 CPC)."
+        "text": "Sim, enquanto o Código Civil exige a Teoria Maior, a legislação aplicável consagra a teoria menor da desconsideração da personalidade jurídica: basta que a personalidade jurídica seja, de alguma forma, obstáculo ao ressarcimento de prejuízos causados aos consumidores, observando-se o incidente de desconsideração."
       },
       {
         "letter": "B",
-        "text": "Não, o CDC exige obrigatoriamente prova cabal de desvio de finalidade fraudulento pelo sócio."
+        "text": "Não, o CDC exige obrigatoriamente prova cabal de desvio de finalidade fraudulento pelo sócio, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "C",
-        "text": "No CDC, as sociedades consorciadas têm apenas responsabilidade subsidiária e nunca solidária."
+        "text": "No CDC, as sociedades consorciadas têm apenas responsabilidade subsidiária e nunca solidária, com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "A desconsideração no CDC dispensa qualquer citação prévia ou contraditório do sócio via incidente."
+        "text": "A desconsideração no CDC dispensa qualquer citação prévia ou contraditório do sócio via incidente, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "A",
@@ -1288,11 +1288,11 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Toda informação ou publicidade suficientemente precisa integra o contrato que vier a ser celebrado e obriga o fornecedor (Art. 30). Se recusar cumprimento à oferta, o consumidor pode exigir alternativamente e à SUA LIVRE ESCOLHA (Art. 35): (I) o cumprimento forçado da obrigação nos termos da oferta; (II) aceitar outro produto ou prestação de serviço equivalente; ou (III) rescindir o contrato com restituição de quantia eventualmente antecipada, monetariamente atualizada, e perdas e danos."
+        "text": "Toda informação ou publicidade suficientemente precisa integra o contrato que vier a ser celebrado e obriga o fornecedor."
       },
       {
         "letter": "B",
-        "text": "O consumidor só pode exigir a devolução do dinheiro se pagou à vista, sem poder pedir o cumprimento forçado."
+        "text": "O consumidor só pode exigir a devolução do dinheiro se pagou à vista, sem poder pedir o cumprimento forçado, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
@@ -1300,7 +1300,7 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Ofertas feitas em redes sociais ou e-mail não vinculam o fornecedor por não constarem em papel timbrado."
+        "text": "Ofertas feitas em redes sociais ou e-mail não vinculam o fornecedor por não constarem em papel timbrado, sem possibilidade de transferir os riscos da atividade econômica ao consumidor final."
       }
     ],
     "correctAnswer": "A",
@@ -1343,19 +1343,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A primeira configura publicidade ABUSIVA (Art. 37, § 2º — é abusiva, dentre outras, a que seja discriminatória, incite à violência, explore o medo ou a superstição, se aproveite da deficiência de julgamento e experiência da criança, desrespeita valores ambientais ou induza o consumidor a se comportar de forma prejudicial/perigosa à saúde ou segurança). A segunda configura publicidade ENGANOSA POR OMISSÃO (Art. 37, §§ 1º e 3º — capaz de induzir em erro o consumidor ao deixar de informar sobre dado essencial do produto ou serviço)."
+        "text": "A primeira configura publicidade abusiva. A segunda configura publicidade enganosa por omissão."
       },
       {
         "letter": "B",
-        "text": "A propaganda dirigida abusivamente a crianças é apenas enganosa por omissão, não abusiva."
+        "text": "A propaganda dirigida abusivamente a crianças é apenas enganosa por omissão, não abusiva, com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar."
       },
       {
         "letter": "C",
-        "text": "O CDC permite publicidade enganosa por omissão quando o dado essencial estiver em letras minúsculas no rodapé do site."
+        "text": "O CDC permite publicidade enganosa por omissão quando o dado essencial estiver em letras minúsculas no rodapé do site, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "No Brasil vigora o controle estatal prévio (censura prévia) de toda peça publicitária pelo PROCON antes de ir ao ar."
+        "text": "No Brasil vigora o controle estatal prévio (censura prévia) de toda peça publicitária pelo procon antes de ir ao ar, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       }
     ],
     "correctAnswer": "A",
@@ -1398,19 +1398,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas são práticas abusivas expressas do Art. 39 do CDC: impedir ingresso com alimentos adquiridos em terceiros configura VENDA CASADA (Art. 39, I, e Súmula/jurisprudência do STJ — condicionar o fornecimento do serviço de cinema à aquisição de alimentos da bombonière do mesmo fornecedor), e executar serviço sem prévia elaboração de orçamento e autorização expressa do consumidor viola o Art. 39, VI c/c Art. 40 (não obriga o consumidor a pagar pelo serviço não autorizado!)."
+        "text": "Ambas são práticas abusivas expressas: impedir ingresso com alimentos adquiridos em terceiros configura venda casada, e executar serviço sem prévia elaboração de orçamento e autorização expressa do consumidor viola o Art. 39, vi c/c Art. 40."
       },
       {
         "letter": "B",
-        "text": "A proibição de alimentos externos no cinema é exercício regular do direito de propriedade, não sendo venda casada."
+        "text": "A proibição de alimentos externos no cinema é exercício regular do direito de propriedade, não sendo venda casada, com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "O consumidor é obrigado a pagar integralmente por serviços executados sem orçamento prévio caso o mecânico prove que a peça era útil."
+        "text": "O consumidor é obrigado a pagar integralmente por serviços executados sem orçamento prévio caso o mecânico prove que a peça era útil, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "D",
-        "text": "O orçamento prévio entregue pelo fornecedor não o vincula quanto ao preço, podendo ser aumentado livremente após a conclusão."
+        "text": "O orçamento prévio entregue pelo fornecedor não o vincula quanto ao preço, podendo ser aumentado livremente após a conclusão, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "A",
@@ -1453,19 +1453,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A exposição do consumidor inadimplente ao ridículo ou constrangimento/ameaça no trabalho viola o Art. 42, caput (inclusive configurando crime do Art. 71 CDC e gerando dano moral!). Quanto ao valor pago em excesso por cobrança indevida, o Art. 42, parágrafo único, assegura a repetição em DOBRO do que pagou em excesso (acrescidas correção e juros), salvo hipótese de engano justificável — tendo a Corte Especial do STJ (EAREsp 676.608) pacificado que a restituição em dobro independe da natureza do elemento volitivo (má-fé), bastando conduta contrária à boa-fé objetiva!"
+        "text": "A exposição do consumidor inadimplente ao ridículo ou constrangimento/ameaça no trabalho viola o Art. 42, caput."
       },
       {
         "letter": "B",
-        "text": "A devolução em dobro exige prova cabal de dolo específico ou má-fé intencional do fornecedor, segundo o STJ."
+        "text": "A devolução em dobro exige prova cabal de dolo específico ou má-fé intencional do fornecedor, segundo o STJ, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "C",
-        "text": "Para ter direito à repetição em dobro basta receber o boleto errado, mesmo sem ter pagado nada."
+        "text": "Para ter direito à repetição em dobro basta receber o boleto errado, mesmo sem ter pagado nada, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "D",
-        "text": "O credor pode telefonar ao chefe do devedor para pressionar o pagamento mais rápido."
+        "text": "O credor pode telefonar ao chefe do devedor para pressionar o pagamento mais rápido, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       }
     ],
     "correctAnswer": "A",
@@ -1509,19 +1509,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não gera indenização por dano moral! Pela Súmula 385 do STJ: \"Da anotação irregular em cadastro de proteção ao crédito, não cabe indenização por dano moral, quando preexistente legítima inscrição, ressalvado o direito ao cancelamento.\" Além disso: cabe ao órgão mantenedor (SPC/Serasa) notificar previamente por escrito (Súmula 359 — dispensado aviso de recebimento AR pela Súmula 404!); o prazo máximo de manutenção dos dados negativos é de 5 anos (Art. 43, § 1º, e Súmula 323); e quitada a dívida, o credor tem 5 dias úteis para providenciar a exclusão (Súmula 548 STJ)!"
+        "text": "Não gera indenização por dano moral.: \"Da anotação irregular em cadastro de proteção ao crédito, não cabe indenização por dano moral, quando preexistente legítima inscrição, ressalvado o direito ao cancelamento.\" Além disso: cabe ao órgão mantenedor (spc/Serasa) notificar previamente por escrito."
       },
       {
         "letter": "B",
-        "text": "A notificação prévia do consumidor antes da negativação deve ser enviada obrigatoriamente por carta com Aviso de Recebimento (AR) assinado pessoalmente."
+        "text": "A notificação prévia do consumidor antes da negativação deve ser enviada obrigatoriamente por carta com Aviso de Recebimento (ar) assinado pessoalmente, com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro."
       },
       {
         "letter": "C",
-        "text": "Mesmo havendo dez negativações anteriores legítimas e não contestadas, uma nova negativação indevida gera dano moral presumido automático."
+        "text": "Mesmo havendo dez negativações anteriores legítimas e não contestadas, uma nova negativação indevida gera dano moral presumido automático, com vedação à cobrança ou restrição cadastral sem prévia comunicação formal regular."
       },
       {
         "letter": "D",
-        "text": "A responsabilidade pela exclusão do nome após o pagamento integral da dívida é exclusiva do próprio consumidor perante o cartório."
+        "text": "A responsabilidade pela exclusão do nome após o pagamento integral da dívida é exclusiva do próprio consumidor perante o cartório, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       }
     ],
     "correctAnswer": "A",
@@ -1565,19 +1565,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Com a LC 166/2019, a abertura de cadastro positivo passou a ser automática (sistema opt-out, com direito de o consumidor solicitar cancelamento gratuito a qualquer tempo), e pela Súmula 550 do STJ a utilização de escore de crédito (\"credit scoring\") é lícita independentemente do consentimento prévio do consumidor, respeitados os limites da boa-fé e garantido o direito à informação das fontes e critérios claros quando solicitado."
+        "text": "Com a LC 166/2019, a abertura de cadastro positivo passou a ser automática, a utilização de escore de crédito (\"credit scoring\") é lícita independentemente do consentimento prévio do consumidor, respeitados os limites da boa-fé e garantido o direito à informação das fontes e critérios claros quando solicitado."
       },
       {
         "letter": "B",
-        "text": "O sistema de credit scoring é ilegal no Brasil por configurar banco de dados clandestino e exige consentimento prévio para calcular a nota."
+        "text": "O sistema de credit scoring é ilegal no Brasil por configurar banco de dados clandestino e exige consentimento prévio para calcular a nota, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "C",
-        "text": "O consumidor não tem direito de saber quais fontes de dados foram consideradas no cálculo de seu score nem de pedir exclusão do cadastro positivo."
+        "text": "O consumidor não tem direito de saber quais fontes de dados foram consideradas no cálculo de seu score nem de pedir exclusão do cadastro positivo, com proteção à legítima expectativa de segurança e adequação do produto no mercado. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "As informações do cadastro positivo podem divulgar livremente raça, religião e orientação sexual do consumidor."
+        "text": "As informações do cadastro positivo podem divulgar livremente raça, religião e orientação sexual do consumidor, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "A",
@@ -1621,19 +1621,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O direito de arrependimento só existe se o produto apresentar defeito de fabricação ou avaria na entrega."
+        "text": "O direito de arrependimento só existe se o produto apresentar defeito de fabricação ou avaria na entrega, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "As despesas de correio para devolução do produto são descontadas do reembolso devido ao consumidor."
+        "text": "As despesas de correio para devolução do produto são descontadas do reembolso devido ao consumidor, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "C",
-        "text": "O prazo de 7 dias aplica-se igualmente quando o consumidor vai pessoalmente até a loja física, testa o produto e compra no balcão."
+        "text": "O prazo de 7 dias aplica-se igualmente quando o consumidor vai pessoalmente até a loja física, testa o produto e compra no balcão, com proteção à legítima expectativa de segurança e adequação do produto no mercado. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 49 do CDC, o consumidor pode desistir do contrato no prazo de 7 (sete) dias a contar de sua assinatura ou do ato de recebimento do produto ou serviço, sempre que a contratação ocorrer fora do estabelecimento comercial (internet, telefone, domicílio), com devolução IMEDIATA dos valores eventualmente pagos, monetariamente atualizados — correndo os custos de devolução (frete reverso) por conta do FORNECEDOR (STJ), pois decorrem do risco da atividade à distância!"
+        "text": "O consumidor pode desistir do contrato no prazo de 7 (sete) dias a contar de sua assinatura ou do ato de recebimento do produto ou serviço, sempre que a contratação ocorrer fora do estabelecimento comercial, com devolução imediata dos valores eventualmente pagos, monetariamente atualizados — correndo os custos de devolução (frete reverso) por conta do fornecedor (STJ), pois decorrem do risco da atividade à distância."
       }
     ],
     "correctAnswer": "D",
@@ -1676,19 +1676,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela Súmula 381 do STJ, o juiz pode revisar de ofício todas as taxas e tarifas bancárias mesmo sem pedido do consumidor."
+        "text": "O juiz pode revisar de ofício todas as taxas e tarifas bancárias mesmo sem pedido do consumidor, com responsabilidade objetiva e solidária de todos os integrantes da cadeia de fornecimento. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "As cláusulas abusivas do Art. 51 são meramente anuláveis, dependendo de ação anulatória em 4 anos para perderem eficácia."
+        "text": "As cláusulas abusivas são meramente anuláveis, dependendo de ação anulatória em 4 anos para perderem eficácia, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "C",
-        "text": "A nulidade de uma única cláusula abusiva invalida obrigatoriamente todo o contrato de consumo, extinguindo a relação."
+        "text": "A nulidade de uma única cláusula abusiva invalida obrigatoriamente todo o contrato de consumo, extinguindo a relação, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "A cláusula impondo utilização compulsória de arbitragem (Art. 51, VII, CDC) é nula de pleno direito — só valendo convenção arbitral em consumo se por iniciativa do consumidor ou com sua concordância expressa e destacada em contrato não imposto compulsoriamente (STJ)! Contudo, especificamente nos CONTRATOS BANCÁRIOS, a Súmula 381 do STJ veda ao julgador conhecer DE OFÍCIO a abusividade das cláusulas contratuais (exigindo pedido expresso da parte autora/consumidor)!"
+        "text": "A cláusula impondo utilização compulsória de arbitragem é nula de pleno direito — só valendo convenção arbitral em consumo se por iniciativa do consumidor ou com sua concordância expressa e destacada em contrato não imposto compulsoriamente (STJ)."
       }
     ],
     "correctAnswer": "D",
@@ -1732,19 +1732,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A inserção de cláusula formulada pelo consumidor em espaço em branco transforma o contrato de adesão em contrato paritário."
+        "text": "A inserção de cláusula formulada pelo consumidor em espaço em branco transforma o contrato de adesão em contrato paritário, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "B",
-        "text": "O tamanho mínimo legal da fonte em contratos de adesão escritos é corpo 8."
+        "text": "O tamanho mínimo legal da fonte em contratos de adesão escritos é corpo 8, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "C",
-        "text": "A cláusula resolutória nos contratos de adesão nunca admite alternativa ao consumidor."
+        "text": "A cláusula resolutória nos contratos de adesão nunca admite alternativa ao consumidor, com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar."
       },
       {
         "letter": "D",
-        "text": "A cláusula que implicar limitação de direito do consumidor deverá ser redigida COM DESTAQUE (permitindo sua imediata e fácil compreensão — Art. 54, § 4º), e os contratos de adesão escritos devem ter termos claros e tamanho de fonte NÃO INFERIOR AO CORPO DOZE (Art. 54, § 3º). Sem o devido destaque, a cláusula limitativa é INEFICAZ/nula perante o consumidor, interpretando-se o contrato da maneira mais favorável a ele (Art. 47)!"
+        "text": "A cláusula que implicar limitação de direito do consumidor deverá ser redigida com destaque, e os contratos de adesão escritos devem ter termos claros e tamanho de fonte não inferior ao corpo doze."
       }
     ],
     "correctAnswer": "D",
@@ -1787,19 +1787,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O perdão integral e automático (calote legal) de todas as dívidas sem pagamento de nenhuma parcela."
+        "text": "O perdão integral e automático (calote legal) de todas as dívidas sem pagamento de nenhuma parcela, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "B",
-        "text": "O procedimento inclui dívidas contraídas mediante fraude, má-fé, crédito com garantia real, financiamento imobiliário e crédito rural."
+        "text": "O procedimento inclui dívidas contraídas mediante fraude, má-fé, crédito com garantia real, financiamento imobiliário e crédito rural. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "Os credores não comparecentes à audiência de conciliação ganham preferência absoluta para penhorar o salário do devedor."
+        "text": "Os credores não comparecentes à audiência de conciliação ganham preferência absoluta para penhorar o salário do devedor, sem possibilidade de transferir os riscos da atividade econômica ao consumidor final."
       },
       {
         "letter": "D",
-        "text": "A instauração de processo de repactuação de dívidas, com audiência conciliatória global com todos os credores na qual o consumidor apresenta plano de pagamento de até 5 (cinco) anos, preservado o MÍNIMO EXISTENCIAL, com suspensão da exigibilidade da dívida em relação ao credor que não comparecer injustificadamente à audiência (além de submissão aos encargos da mora e proibição de cobrar antes dos demais credores)!"
+        "text": "A instauração de processo de repactuação de dívidas, com audiência conciliatória global com todos os credores na qual o consumidor apresenta plano de pagamento de até 5 (cinco) anos, preservado o mínimo existencial, com suspensão da exigibilidade da dívida em relação ao credor que não comparecer injustificadamente à audiência."
       }
     ],
     "correctAnswer": "D",
@@ -1842,19 +1842,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Permitir que o consumidor solicite cópia do contrato de empréstimo antes de assinar."
+        "text": "Permitir que o consumidor solicite cópia do contrato de empréstimo antes de assinar, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "Avaliar a capacidade financeira e consultar cadastros de inadimplentes antes de aprovar empréstimo."
+        "text": "Avaliar a capacidade financeira e consultar cadastros de inadimplentes antes de aprovar empréstimo, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "C",
-        "text": "Aplicar o direito de arrependimento nas contratações de empréstimo realizadas fora do estabelecimento."
+        "text": "Aplicar o direito de arrependimento nas contratações de empréstimo realizadas fora do estabelecimento, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "Fazer referência a crédito \"sem juros\", \"gratuito\", \"sem acréscimo\", \"com taxa zero\" ou expressão de sentido equivalente quando houver custo embutido, indicar que a operação poderá ser concluída sem consulta a serviços de proteção ao crédito ou sem avaliação da situação financeira do consumidor, bem como assediar ou pressionar o consumidor (especialmente idoso, analfabeto, doente ou vulnerável) para contratar fornecimento de produto, serviço ou crédito!"
+        "text": "Fazer referência a crédito \"sem juros\", \"gratuito\", \"sem acréscimo\", \"com taxa zero\" ou expressão de sentido equivalente quando houver custo embutido, indicar que a operação poderá ser concluída sem consulta a serviços de proteção ao crédito ou sem avaliação da situação financeira do consumidor."
       }
     ],
     "correctAnswer": "D",
@@ -1897,19 +1897,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em caso de atraso injustificado da construtora, o consumidor é obrigado a receber o valor em 12 parcelas com retenção de 25%."
+        "text": "Em caso de atraso injustificado da construtora, o consumidor é obrigado a receber o valor em 12 parcelas com retenção de 25%, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "Quando o comprador desiste sem culpa da construtora, a incorporadora pode reter 100% de tudo o que já foi pago."
+        "text": "Quando o comprador desiste sem culpa da construtora, a incorporadora pode reter 100% de tudo o que já foi pago, com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro."
       },
       {
         "letter": "C",
-        "text": "O prazo de tolerância de 180 dias corridos na entrega de imóvel na planta foi declarado abusivo pelo STJ."
+        "text": "O prazo de tolerância de 180 dias corridos na entrega de imóvel na planta foi declarado abusivo pelo STJ, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "D",
-        "text": "Pela Súmula 543 do STJ: se a resolução ocorrer por CULPA EXCLUSIVA DO VENDEDOR/CONSTRUTORA (ex.: atraso além do prazo de tolerância de 180 dias), a restituição das parcelas pagas deve ser INTEGRAL (100%) e imediata, em parcela única (+ eventual multa contratual/lucros cessantes!). Já se o distrato decorrer de desistência exclusiva do comprador: pela Lei 13.786/2018, a incorporadora pode reter a comissão de corretagem (se informada previamente - Tema 938 STJ) e multa contratual de até 25% das quantias pagas (ou até 50% se o empreendimento estiver submetido ao regime de PATRIMÔNIO DE AFETAÇÃO)!"
+        "text": "Se a resolução ocorrer por culpa exclusiva do vendedor/construtora, a restituição das parcelas pagas deve ser integral (100%) e imediata, em parcela única."
       }
     ],
     "correctAnswer": "D",
@@ -1953,19 +1953,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O plano de saúde pode limitar validamente o tempo máximo de internação em UTI a 15 dias por ano."
+        "text": "O plano de saúde pode limitar validamente o tempo máximo de internação em uti a 15 dias por ano, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "B",
-        "text": "Em caso de acidente de trânsito com risco imediato de morte (emergência), o plano pode impor carência de 180 dias."
+        "text": "Em caso de acidente de trânsito com risco imediato de morte (emergência), o plano pode impor carência de 180 dias, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "C",
-        "text": "Se a operadora não fez exame admissional, pode recusar cirurgia de doença preexistente alegando omissão involuntária do cliente."
+        "text": "Se a operadora não fez exame admissional, pode recusar cirurgia de doença preexistente alegando omissão involuntária do cliente, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "Pela Lei nº 14.454/2022, o rol de procedimentos da ANS é exemplificativo/básico, devendo o plano cobrir tratamento prescrito fora do rol quando houver comprovação científica de eficácia ou recomendação pela CONITEC/órgão técnico de renome internacional. Além disso: (1) é abusiva cláusula que limita o tempo de internação hospitalar (Súmula 302 STJ); (2) é abusiva cláusula que fixa carência superior a 24 horas para casos de URGÊNCIA e EMERGÊNCIA (Súmula 597 STJ); e (3) a recusa de cobertura por doença preexistente é ilícita se a operadora NÃO exigiu exames médicos prévios nem provou má-fé do consumidor (Súmula 609 STJ)!"
+        "text": "O rol de procedimentos da ANS é exemplificativo/básico, devendo o plano cobrir tratamento prescrito fora do rol quando houver comprovação científica de eficácia ou recomendação pela CONITEC/órgão técnico de renome internacional."
       }
     ],
     "correctAnswer": "D",
@@ -2009,19 +2009,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Proibiu em absoluto qualquer reajuste de mensalidade de plano de saúde a partir dos 18 anos de idade."
+        "text": "Proibiu em absoluto qualquer reajuste de mensalidade de plano de saúde a partir dos 18 anos de idade, com proteção à legítima expectativa de segurança e adequação do produto no mercado. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "Autorizou reajustes livres de até 400% aos 60 anos sem necessidade de base atuarial ou regra da ANS."
+        "text": "Autorizou reajustes livres de até 400% aos 60 anos sem necessidade de base atuarial ou regra da ANS, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "C",
-        "text": "Declarou nulos todos os contratos de planos de saúde celebrados antes do Estatuto do Idoso."
+        "text": "Declarou nulos todos os contratos de planos de saúde celebrados antes do Estatuto do Idoso, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "D",
-        "text": "O STJ decidiu que a cláusula de reajuste por mudança de faixa etária é VÁLIDA em regra (inclusive aos 59 anos), desde que: (1) esteja expressamente prevista no contrato; (2) observe as normas expedidas pelos órgãos reguladores (ANS); e (3) os percentuais aplicados NÃO sejam desarrazoados ou aleatórios sem base atuarial idônea que onerem excessivamente o idoso visando sua expulsão do plano."
+        "text": "O STJ decidiu que a cláusula de reajuste por mudança de faixa etária é válida em regra, desde que esteja expressamente prevista no contrato; observe as normas expedidas pelos órgãos reguladores (ANS); e os percentuais aplicados não sejam desarrazoados ou aleatórios sem base atuarial idônea que onerem excessivamente o idoso visando sua expulsão do plano."
       }
     ],
     "correctAnswer": "D",
@@ -2065,19 +2065,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os bancos estão limitados constitucionalmente a cobrar no máximo 12% ao ano de juros remuneratórios."
+        "text": "Os bancos estão limitados constitucionalmente a cobrar no máximo 12% ao ano de juros remuneratórios, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "A capitalização mensal de juros exige necessariamente a expressão escrita \"anatocismo composto\", não bastando a diferença entre taxa mensal e anual."
+        "text": "A capitalização mensal de juros exige necessariamente a expressão escrita \"anatocismo composto\", não bastando a diferença entre taxa mensal e anual, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "A comissão de permanência pode ser livremente cumulada com multa contratual e juros moratórios."
+        "text": "A comissão de permanência pode ser livremente cumulada com multa contratual e juros moratórios, com autorização para inversão do ônus da prova diante da verossimilhança ou hipossuficiência."
       },
       {
         "letter": "D",
-        "text": "Nos contratos bancários: (1) as instituições financeiras não se sujeitam à limitação da Lei de Usura (12% ao ano — Súmula 596 STF e Súmula 382 STJ!), só cabendo redução se demonstrada abusividade frente à taxa média de mercado do BACEN; (2) é permitida a capitalização de juros com periodicidade inferior a um ano desde que EXPRESSAMENTE pactuada (Súmula 539 STJ), bastando a previsão de taxa de juros anual superior ao duodécuplo da mensal (Súmula 541 STJ); e (3) juros moratórios não convencionados limitam-se a 1% ao mês (Súmula 379 STJ)."
+        "text": "Nos contratos bancários: as instituições financeiras não se sujeitam à limitação da Lei de Usura, só cabendo redução se demonstrada abusividade frente à taxa média de mercado do BACEN."
       }
     ],
     "correctAnswer": "D",
@@ -2121,19 +2121,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Teoria da Perda de uma Chance Matrimonial."
+        "text": "A Teoria da Perda de uma Chance Matrimonial, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "A Teoria do Mero Aborrecimento Absoluto, que proíbe qualquer dano moral em relações de consumo."
+        "text": "A Teoria do Mero Aborrecimento Absoluto, que proíbe qualquer dano moral em relações de consumo, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "A Teoria da Imprevisão Contratual Tributária."
+        "text": "A Teoria da Imprevisão Contratual Tributária, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "A Teoria do Desvio Produtivo do Consumidor, segundo a qual o tempo vital e existencial do consumidor é recurso escasso e juridicamente tutelado: quando o fornecedor se esquiva de solucionar rapidamente falha por ele causada e obriga o consumidor a desperdiçar tempo útil desviando-se de suas atividades cotidianas (trabalho, lazer, descanso), configura-se dano indenizável além do mero aborrecimento."
+        "text": "A Teoria do Desvio Produtivo do Consumidor, segundo a qual o tempo vital e existencial do consumidor é recurso escasso e juridicamente tutelado: quando o fornecedor se esquiva de solucionar rapidamente falha por ele causada e obriga o consumidor a desperdiçar tempo útil desviando-se de suas atividades cotidianas, configura-se dano indenizável além do mero aborrecimento."
       }
     ],
     "correctAnswer": "D",
@@ -2176,19 +2176,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nunca respondem, porque apenas aproximam vendedor e comprador sem fabricar o produto."
+        "text": "Nunca respondem, porque apenas aproximam vendedor e comprador sem fabricar o produto. A responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista."
       },
       {
         "letter": "B",
-        "text": "Respondem apenas se a loja parceira declarar falência formal."
+        "text": "Respondem apenas se a loja parceira declarar falência formal, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "Sim! Segundo a jurisprudência consolidada do STJ, plataformas digitais/marketplaces que atuam como intermediadores comerciais remunerados (integrando a cadeia de consumo ao lucrar com comissões, organizar a plataforma e intermediar pagamentos) respondem SOLIDARIAMENTE perante o consumidor pelos vícios e inadimplemento da venda ali realizada — diferindo de meros classificados gratuitos sem intermediação financeira."
+        "text": "Sim, segundo a jurisprudência consolidada do STJ, plataformas digitais/marketplaces que atuam como intermediadores comerciais remunerados respondem solidariamente perante o consumidor pelos vícios e inadimplemento da venda ali realizada."
       },
       {
         "letter": "D",
-        "text": "O Marco Civil da Internet isenta integralmente sites de vendas online de qualquer dever do CDC."
+        "text": "O Marco Civil da Internet isenta integralmente sites de vendas online de qualquer dever do CDC, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "C",
@@ -2231,19 +2231,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Basta enviar uma carta simples ao PROCON sem divulgar aos consumidores para não prejudicar a imagem da marca."
+        "text": "Basta enviar uma carta simples ao procon sem divulgar aos consumidores para não prejudicar a imagem da marca, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "Se o consumidor deixar de atender ao recall divulgado na TV, perde automaticamente todo direito a indenização se o freio falhar."
+        "text": "Se o consumidor deixar de atender ao recall divulgado na tv, perde automaticamente todo direito a indenização se o freio falhar, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "O fornecedor que tiver conhecimento posterior da periculosidade do produto ou serviço deve comunicar o fato IMEDIATAMENTE às autoridades competentes e aos consumidores mediante anúncios publicitários (recall — às expensas do fornecedor!). Contudo, segundo o STJ, o eventual não comparecimento do consumidor ao recall NÃO isenta o fabricante de responsabilidade objetiva caso ocorra acidente decorrente do defeito!"
+        "text": "O fornecedor que tiver conhecimento posterior da periculosidade do produto ou serviço deve comunicar o fato imediatamente às autoridades competentes e aos consumidores mediante anúncios publicitários."
       },
       {
         "letter": "D",
-        "text": "Os custos do recall (troca da peça defeituosa) devem ser cobrados do consumidor se o veículo tiver mais de 1 ano de uso."
+        "text": "Os custos do recall (troca da peça defeituosa) devem ser cobrados do consumidor se o veículo tiver mais de 1 ano de uso, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       }
     ],
     "correctAnswer": "C",
@@ -2286,19 +2286,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer produto cortante como faca de cozinha ou tesoura é proibido pelo Art. 10 do CDC."
+        "text": "Qualquer produto cortante como faca de cozinha ou tesoura é proibido, sem possibilidade de transferir os riscos da atividade econômica ao consumidor final."
       },
       {
         "letter": "B",
-        "text": "Em produtos importados, o manual de instruções e avisos de risco podem ser fornecidos exclusivamente em idioma inglês."
+        "text": "Em produtos importados, o manual de instruções e avisos de risco podem ser fornecidos exclusivamente em idioma inglês, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "C",
-        "text": "Produtos de periculosidade normal e previsível em decorrência de sua natureza/fruição (Art. 8º) podem ser comercializados livremente, desde que o fornecedor preste informações necessárias e adequadas (e ostentem aviso de maneira ostensiva e adequada quando potencialmente nocivos — Art. 9º). Já produtos/serviços que acarretam alto grau de nocividade ou periculosidade à saúde ou segurança (acima do esperado legitimamente — periculosidade exagerada) NÃO podem sequer ser colocados no mercado (Art. 10 caput)!"
+        "text": "Produtos de periculosidade normal e previsível em decorrência de sua natureza/fruição podem ser comercializados livremente, desde que o fornecedor preste informações necessárias e adequadas."
       },
       {
         "letter": "D",
-        "text": "A obrigação de informar riscos graves cabe apenas ao comerciante varejista, dispensando o fabricante."
+        "text": "A obrigação de informar riscos graves cabe apenas ao comerciante varejista, dispensando o fabricante, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       }
     ],
     "correctAnswer": "C",
@@ -2341,19 +2341,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todos os três são direitos individuais homogêneos porque envolvem consumidores."
+        "text": "Todos os três são direitos individuais homogêneos porque envolvem consumidores. A responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista."
       },
       {
         "letter": "B",
-        "text": "Direitos individuais homogêneos são indivisíveis e nunca permitem execução individual pela vítima."
+        "text": "Direitos individuais homogêneos são indivisíveis e nunca permitem execução individual pela vítima, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "(1) Difuso (transindividual, indivisível, titulares indeterminados ligados por circunstância de fato — quem assiste à TV); (2) Coletivo em sentido estrito (transindividual, indivisível, grupo/classe determinado ligado entre si ou com a parte contrária por relação jurídica base — associados/pais da escola); e (3) Individual homogêneo (divisível, de origem comum — compradores do carro defeituoso pleiteando reparação individualizada)."
+        "text": "Difuso (transindividual, indivisível, titulares indeterminados ligados por circunstância de fato); Coletivo em sentido estrito (transindividual, indivisível, grupo/classe determinado ligado entre si ou com a parte contrária por relação jurídica base); e Individual homogêneo (divisível, de origem comum)."
       },
       {
         "letter": "D",
-        "text": "Os direitos difusos têm titulares determinados vinculados por contrato único."
+        "text": "Os direitos difusos têm titulares determinados vinculados por contrato único, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "C",
@@ -2396,19 +2396,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A improcedência da ação coletiva impede definitivamente qualquer ação individual dos consumidores lesados."
+        "text": "A improcedência da ação coletiva impede definitivamente qualquer ação individual dos consumidores lesados, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "Não há possibilidade de nova ação coletiva mesmo quando a improcedência ocorreu exclusivamente por falta de provas."
+        "text": "Não há possibilidade de nova ação coletiva mesmo quando a improcedência ocorreu exclusivamente por falta de provas, com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar."
       },
       {
         "letter": "C",
-        "text": "Não! Pelo Art. 103, I, do CDC, na tutela de direitos difusos, a sentença faz coisa julgada erga omnes, EXCETO SE O PEDIDO FOR JULGADO IMPROCEDENTE POR INSUFICIÊNCIA DE PROVAS (hipótese em que qualquer legitimado pode propor nova ação com idêntico fundamento valendo-se de nova prova — coisa julgada secundum eventum probationis!). Além disso, pelo Art. 103, § 1º e § 3º, a improcedência da ação coletiva (mesmo no mérito!) NÃO prejudica as ações individuais dos consumidores (coisa julgada secundum eventum litis!), mas a PROCEDÊNCIA beneficia as vítimas para liquidar e executar (transporte in utilibus)!"
+        "text": "Não, na tutela de direitos difusos, a sentença faz coisa julgada erga omnes, exceto se o pedido for julgado improcedente por insuficiência de provas."
       },
       {
         "letter": "D",
-        "text": "O ajuizamento de ação coletiva gera litispendência automática que extingue todas as ações individuais anteriores."
+        "text": "O ajuizamento de ação coletiva gera litispendência automática que extingue todas as ações individuais anteriores, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       }
     ],
     "correctAnswer": "C",
@@ -2451,19 +2451,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A extinção automática da condenação por abandono, isentando a empresa de pagar qualquer valor."
+        "text": "A extinção automática da condenação por abandono, isentando a empresa de pagar qualquer valor, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "A divisão igualitária do montante entre os advogados da associação autora."
+        "text": "A divisão igualitária do montante entre os advogados da associação autora, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "A reparação fluida (fluid recovery), prevista no Art. 100 do CDC: decorrido o prazo de 1 (um) ano sem habilitação de interessados em número compatível com a gravidade do dano, poderão os legitimados do Art. 82 promover a liquidação e execução da indenização global devida, cujo produto reverterá para o Fundo de Defesa de Direitos Difusos (Lei nº 7.347/85)."
+        "text": "A reparação fluida (fluid recovery),: decorrido o prazo de 1 (um) ano sem habilitação de interessados em número compatível com a gravidade do dano, poderão os legitimados promover a liquidação e execução da indenização global devida, cujo produto reverterá para o Fundo de Defesa de Direitos Difusos."
       },
       {
         "letter": "D",
-        "text": "O prazo de espera exigido pelo Art. 100 antes da execução residual é de 10 anos."
+        "text": "O prazo de espera exigido antes da execução residual é de 10 anos, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "C",
@@ -2506,19 +2506,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, a contrapropaganda é pena privativa do juiz criminal após trânsito em julgado."
+        "text": "Não, a contrapropaganda é pena privativa do juiz criminal após trânsito em julgado, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "B",
-        "text": "A contrapropaganda deve ser custeada pelo próprio PROCON com verba pública."
+        "text": "A contrapropaganda deve ser custeada pelo próprio procon com verba pública, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "C",
-        "text": "Sim! A contrapropaganda está prevista entre as sanções administrativas do Art. 56, XII, e detalhada no Art. 60 do CDC: será imposta quando o fornecedor incorrer na prática de publicidade enganosa ou abusiva (Art. 37), sempre às expensas do infrator, devendo ser divulgada pelo responsável da mesma forma, frequência e dimensão e, preferencialmente, no mesmo veículo, local, espaço e horário, de forma capaz de desfazer o malefício."
+        "text": "Sim, a contrapropaganda está prevista entre as sanções administrativas, e detalhada: será imposta quando o fornecedor incorrer na prática de publicidade enganosa ou abusiva, sempre às expensas do infrator, devendo ser divulgada pelo responsável da mesma forma, frequência e dimensão e, preferencialmente, no mesmo veículo, local, espaço e horário, de forma capaz de desfazer o malefício."
       },
       {
         "letter": "D",
-        "text": "As sanções administrativas do Art. 56 são aplicadas somente após condenação judicial transitada em julgado."
+        "text": "As sanções administrativas são aplicadas somente após condenação judicial transitada em julgado, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       }
     ],
     "correctAnswer": "C",
@@ -2561,19 +2561,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nenhum crime previsto no CDC admite modalidade culposa."
+        "text": "Nenhum crime previsto no CDC admite modalidade culposa, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "B",
-        "text": "Empregar peças usadas no conserto de produto sem avisar o consumidor gera apenas multa civil, nunca crime."
+        "text": "Empregar peças usadas no conserto de produto sem avisar o consumidor gera apenas multa civil, nunca crime, sem possibilidade de transferir os riscos da atividade econômica ao consumidor final."
       },
       {
         "letter": "C",
-        "text": "Admitem modalidade culposa expressa: omitir dizeres ou sinais ostensivos sobre nocividade/periculosidade (Art. 63, § 2º), executar serviço de alto grau de periculosidade contrariando autoridade (Art. 65, § 1º — no caso do caput também previsto no § 2º? Atenção: Art. 63 § 2º e Art. 66 § 2º — fazer afirmação falsa ou enganosa ou omitir informação relevante sobre natureza/qualidade/preço admite forma culposa no Art. 66, § 2º!). Também são crimes: deixar de organizar dados fáticos/técnicos de publicidade (Art. 69), empregar peça usada sem autorização do consumidor no reparo (Art. 70), cobrança vexatória no trabalho/descanso (Art. 71) e deixar de entregar termo de garantia preenchido (Art. 74)!"
+        "text": "Admitem modalidade culposa expressa: omitir dizeres ou sinais ostensivos sobre nocividade/periculosidade, executar serviço de alto grau de periculosidade contrariando autoridade."
       },
       {
         "letter": "D",
-        "text": "Nos crimes contra o consumidor previstos no CDC, a ação penal é privada exclusiva."
+        "text": "Nos crimes contra o consumidor previstos no CDC, a ação penal é privada exclusiva, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       }
     ],
     "correctAnswer": "C",
@@ -2616,19 +2616,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Prevalece obrigatoriamente a cláusula de eleição de foro da sede do fornecedor no Rio de Janeiro."
+        "text": "Prevalece obrigatoriamente a cláusula de eleição de foro da sede do fornecedor no Rio de Janeiro, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "A incompetência territorial resultante de eleição abusiva em contrato de adesão nunca pode ser reconhecida de ofício."
+        "text": "A incompetência territorial resultante de eleição abusiva em contrato de adesão nunca pode ser reconhecida de ofício, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "A ação pode ser proposta no DOMICÍLIO DO AUTOR (consumidor — Belo Horizonte), conforme prerrogativa expressa do Art. 101, I, do CDC (facilitação da defesa dos direitos do consumidor!). Segundo o STJ, a cláusula de eleição de foro em contrato de adesão que dificulta o acesso do consumidor à Justiça é NULA DE PLENO DIREITO, podendo ser declarada de ofício pelo juiz (Súmula/jurisprudência do STJ e Art. 63, § 3º, CPC)!"
+        "text": "A ação pode ser proposta no domicílio do autor, conforme prerrogativa expressa. Segundo o STJ, a cláusula de eleição de foro em contrato de adesão que dificulta o acesso do consumidor à Justiça é nula de pleno direito, podendo ser declarada de ofício pelo juiz."
       },
       {
         "letter": "D",
-        "text": "O consumidor só pode propor a ação no local onde ocorreu a assinatura física do contrato."
+        "text": "O consumidor só pode propor a ação no local onde ocorreu a assinatura física do contrato, com responsabilidade objetiva e solidária de todos os integrantes da cadeia de fornecimento."
       }
     ],
     "correctAnswer": "C",
@@ -2671,19 +2671,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O CDC proíbe tanto a denunciação da lide quanto o chamamento ao processo da seguradora do fornecedor."
+        "text": "O CDC proíbe tanto a denunciação da lide quanto o chamamento ao processo da seguradora do fornecedor, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "O consumidor lesado pode acionar diretamente a seguradora sozinha em juízo sem incluir o fornecedor segurado no polo passivo."
+        "text": "O consumidor lesado pode acionar diretamente a seguradora sozinha em juízo sem incluir o fornecedor segurado no polo passivo, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 88 do CDC, é VEDADA a denunciação da lide na hipótese de responsabilidade pelo fato do produto (Art. 13, parágrafo único — direito de regresso deve ser exercido em ação autônoma ou nos mesmos autos após o pagamento, segundo o Art. 88, para não atrasar o consumidor!). Contudo, pelo Art. 101, II, o réu que houver contratado seguro de responsabilidade PODE chamar ao processo o segurador — e pela Súmula 537 do STJ, em ação de reparação de danos movida contra o segurado, a seguradora denunciada/chamada pode ser condenada direta e solidariamente até o limite contratado na apólice!"
+        "text": "É vedada a denunciação da lide na hipótese de responsabilidade pelo fato do produto. Contudo, o réu que houver contratado seguro de responsabilidade pode chamar ao processo o segurador, em ação de reparação de danos movida contra o segurado, a seguradora denunciada/chamada pode ser condenada direta e solidariamente até o limite contratado na apólice."
       },
       {
         "letter": "D",
-        "text": "A seguradora chamada ao processo só responde se o fornecedor réu estiver em falência decretada."
+        "text": "A seguradora chamada ao processo só responde se o fornecedor réu estiver em falência decretada, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "C",
@@ -2727,19 +2727,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No transporte aéreo internacional, as Convenções de Varsóvia e Montreal afastam o CDC tanto para danos materiais quanto para danos morais."
+        "text": "No transporte aéreo internacional, as Convenções de Varsóvia e Montreal afastam o CDC tanto para danos materiais quanto para danos morais, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "No Tema 210, o STF fixou que nos contratos de transporte aéreo INTERNACIONAL prevalecem os limites indenizatórios previstos nas Convenções de Varsóvia e Montreal sobre o CDC quanto aos DANOS MATERIAIS (Art. 178 da CF!), MAS o teto tarifado das convenções NÃO se aplica aos DANOS MORAIS (nem ao transporte aéreo NACIONAL/doméstico), aos quais continua aplicável integralmente o CDC!"
+        "text": "No Tema 210, o STF fixou que nos contratos de transporte aéreo internacional prevalecem os limites indenizatórios previstos nas Convenções de Varsóvia e Montreal sobre o CDC quanto aos danos materiais, mas o teto tarifado das convenções não se aplica aos danos morais, aos quais continua aplicável integralmente o CDC."
       },
       {
         "letter": "C",
-        "text": "Nos voos domésticos internos (ex.: Rio–São Paulo), também se aplicam os tetos da Convenção de Montreal em detrimento do CDC."
+        "text": "Nos voos domésticos internos (ex.: Rio–São Paulo), também se aplicam os tetos da Convenção de Montreal em detrimento do CDC, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "O Código de Defesa do Consumidor nunca se aplica a companhias aéreas."
+        "text": "O Código de Defesa do Consumidor nunca se aplica a companhias aéreas, com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar."
       }
     ],
     "correctAnswer": "B",
@@ -2783,19 +2783,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer atraso de 30 minutos com assistência integral da companhia aérea gera dano moral automático de R$ 20.000."
+        "text": "Qualquer atraso de 30 minutos com assistência integral da companhia aérea gera dano moral automático de R$ 20.000, com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro."
       },
       {
         "letter": "B",
-        "text": "No OVERBOOKING (preterição ilícita de passageiro que comprou passagem confirmada), o dano moral é presumido (in re ipsa); já no mero atraso ou cancelamento de voo por falha técnica ou climática, o STJ tem exigido demonstração de circunstâncias concretas agravantes (tempo excessivo de espera sem assistência material, perda de compromisso relevante, pernoite desassistido), não bastando atraso curto isolado se prestada assistência."
+        "text": "No overbooking, o dano moral é presumido (in re ipsa); já no mero atraso ou cancelamento de voo por falha técnica ou climática, o STJ tem exigido demonstração de circunstâncias concretas agravantes, não bastando atraso curto isolado se prestada assistência."
       },
       {
         "letter": "C",
-        "text": "Em overbooking, o passageiro tem apenas direito ao reembolso simples da tarifa sem assistência."
+        "text": "Em overbooking, o passageiro tem apenas direito ao reembolso simples da tarifa sem assistência, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "A companhia aérea fica isenta de prestar assistência de alimentação e hospedagem se o mau tempo fechar o aeroporto."
+        "text": "A companhia aérea fica isenta de prestar assistência de alimentação e hospedagem se o mau tempo fechar o aeroporto, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "B",
@@ -2838,19 +2838,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "São lícitas pelo princípio absoluto da livre iniciativa sem qualquer restrição no CDC."
+        "text": "São lícitas pelo princípio absoluto da livre iniciativa sem qualquer restrição no CDC, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "Não! São práticas abusivas expressas: recusar atendimento às demandas dos consumidores na exata medida de suas disponibilidades de estoque (Art. 39, II), recusar a venda de bens ou serviços diretamente a quem se disponha a adquiri-los mediante pronto pagamento (Art. 39, IX — salvo casos de intermediação regulada), exigir do consumidor vantagem manifestamente excessiva (Art. 39, V) e elevar sem justa causa o preço de produtos ou serviços (Art. 39, X)!"
+        "text": "Não, são práticas abusivas expressas: recusar atendimento às demandas dos consumidores na exata medida de suas disponibilidades de estoque, recusar a venda de bens ou serviços diretamente a quem se disponha a adquiri-los mediante pronto pagamento, exigir do consumidor vantagem manifestamente excessiva e elevar sem justa causa o preço de produtos ou serviços."
       },
       {
         "letter": "C",
-        "text": "A farmácia pode recusar venda em espécie se o cliente tiver dinheiro vivo em reais."
+        "text": "A farmácia pode recusar venda em espécie se o cliente tiver dinheiro vivo em reais, com vedação à cobrança ou restrição cadastral sem prévia comunicação formal regular."
       },
       {
         "letter": "D",
-        "text": "A prática de enviar boleto de associação comercial não solicitada gera obrigação de pagamento caso o cliente não responda em 5 dias."
+        "text": "A prática de enviar boleto de associação comercial não solicitada gera obrigação de pagamento caso o cliente não responda em 5 dias, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       }
     ],
     "correctAnswer": "B",
@@ -2893,19 +2893,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Basta informar um perfil em rede social sem divulgar CNPJ nem endereço físico ou eletrônico."
+        "text": "Basta informar um perfil em rede social sem divulgar CNPJ nem endereço físico ou eletrônico, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "Deve exibir em local de destaque e fácil visualização: nome empresarial e CNPJ/CPF do fornecedor, endereço físico e eletrônico para localização, características essenciais e riscos do produto, discriminação de despesas adicionais (frete/seguro), resumo do contrato antes da contratação com confirmação imediata de recebimento, atendimento eletrônico eficaz em até 5 dias e ferramenta acessível para exercer o direito de arrependimento pelo mesmo canal utilizado na compra!"
+        "text": "Deve exibir em local de destaque e fácil visualização: nome empresarial e CNPJ/CPF do fornecedor, endereço físico e eletrônico para localização, características essenciais e riscos do produto, discriminação de despesas adicionais (frete/seguro), resumo do contrato antes da contratação com confirmação imediata de recebimento, atendimento eletrônico eficaz em até 5 dias e ferramenta acessível para exercer o direito de arrependimento pelo mesmo canal utilizado na compra."
       },
       {
         "letter": "C",
-        "text": "O fornecedor online pode exigir que o direito de arrependimento seja exercido exclusivamente por carta registrada em cartório."
+        "text": "O fornecedor online pode exigir que o direito de arrependimento seja exercido exclusivamente por carta registrada em cartório, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "Nos sites de compras coletivas, não é necessário informar quantidade mínima de consumidores para efetivação da oferta."
+        "text": "Nos sites de compras coletivas, não é necessário informar quantidade mínima de consumidores para efetivação da oferta, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       }
     ],
     "correctAnswer": "B",
@@ -2948,19 +2948,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O PROCON, por ser órgão administrativo sem personalidade jurídica própria em certos entes, não tem legitimidade para propor ações coletivas."
+        "text": "O procon, por ser órgão administrativo sem personalidade jurídica própria em certos entes, não tem legitimidade para propor ações coletivas."
       },
       {
         "letter": "B",
-        "text": "Integram o SNDC os órgãos federais, estaduais, do Distrito Federal e municipais (como SENACON e PROCONs) e as entidades privadas de defesa do consumidor (Art. 105 CDC). Para a ação coletiva consumerista (Art. 82 CDC), são legitimados concorrentes e disjuntivos: Ministério Público, União/Estados/Municípios/DF, entidades e órgãos da Administração Pública direta ou indireta (ainda que sem personalidade jurídica, como os PROCONs!) especificamente destinados à defesa dos interesses do CDC, e associações legalmente constituídas há pelo menos 1 ano (requisito dispensável pelo juiz no interesse social) — além da Defensoria Pública (Art. 5º, II, LACP)!"
+        "text": "Integram o sndc os órgãos federais, estaduais, do Distrito Federal e municipais e as entidades privadas de defesa do consumidor."
       },
       {
         "letter": "C",
-        "text": "Associações de consumidores recém-criadas há 2 meses jamais podem ajuizar ação coletiva em nenhuma hipótese."
+        "text": "Associações de consumidores recém-criadas há 2 meses jamais podem ajuizar ação coletiva em nenhuma hipótese, sem possibilidade de transferir os riscos da atividade econômica ao consumidor final."
       },
       {
         "letter": "D",
-        "text": "Apenas o Ministério Público Federal detém legitimidade exclusiva para defender interesses difusos de consumidores."
+        "text": "Apenas o Ministério Público Federal detém legitimidade exclusiva para defender interesses difusos de consumidores, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "B",
@@ -3003,19 +3003,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A associação derrotada paga sempre honorários sucumbenciais de 10% a 20% ainda que tenha agido de boa-fé."
+        "text": "A associação derrotada paga sempre honorários sucumbenciais de 10% a 20% ainda que tenha agido de boa-fé, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "B",
-        "text": "Não! Pelo Art. 87 do CDC (em sintonia com o Art. 18 da LACP), nas ações coletivas previstas no CDC não haverá adiantamento de custas, emolumentos, honorários periciais e quaisquer outras despesas, nem condenação da associação autora — salvo comprovada MÁ-FÉ — em honorários de advogado, custas e despesas processuais (e, em caso de litigância de má-fé, a associação e os diretores responsáveis serão solidariamente condenados em honorários e ao décuplo das custas!)."
+        "text": "Não, nas ações coletivas previstas no CDC não haverá adiantamento de custas, emolumentos, honorários periciais e quaisquer outras despesas, nem condenação da associação autora."
       },
       {
         "letter": "C",
-        "text": "A isenção do Art. 87 aplica-se igualmente ao consumidor individual que perde uma ação particular comum sem gratuidade de justiça."
+        "text": "A isenção aplica-se igualmente ao consumidor individual que perde uma ação particular comum sem gratuidade de justiça, sem possibilidade de transferir os riscos da atividade econômica ao consumidor final."
       },
       {
         "letter": "D",
-        "text": "Em caso de litigância de má-fé da associação, apenas a pessoa jurídica responde, isentando os diretores."
+        "text": "Em caso de litigância de má-fé da associação, apenas a pessoa jurídica responde, isentando os diretores. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       }
     ],
     "correctAnswer": "B",
@@ -3058,19 +3058,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O fornecedor não responde pelas promessas de venda feitas por vendedores comissionados ou representantes comerciais autônomos."
+        "text": "O fornecedor não responde pelas promessas de venda feitas por vendedores comissionados ou representantes comerciais autônomos, com vedação à cobrança ou restrição cadastral sem prévia comunicação formal regular."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 33 do CDC, em caso de oferta ou venda por telefone ou reembolso postal, deve constar o nome do fabricante e endereço na embalagem, publicidade e em todos os impressos utilizados na transação comercial (e é proibida a publicidade de bens e serviços por telefone quando a chamada for onerosa ao consumidor que a origina — parágrafo único!). Ademais, pelo Art. 34 do CDC, o fornecedor do produto ou serviço é SOLIDARIAMENTE responsável pelos atos de seus prepostos ou representantes autônomos."
+        "text": "Em caso de oferta ou venda por telefone ou reembolso postal, deve constar o nome do fabricante e endereço na embalagem, publicidade e em todos os impressos utilizados na transação comercial."
       },
       {
         "letter": "C",
-        "text": "Empresas podem anunciar produtos por telefone cobrando tarifa telefônica especial do consumidor que liga para contratar."
+        "text": "Empresas podem anunciar produtos por telefone cobrando tarifa telefônica especial do consumidor que liga para contratar, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "D",
-        "text": "Na venda por catálogo telefônico basta colocar apenas um CEP genérico sem nome do fabricante."
+        "text": "Na venda por catálogo telefônico basta colocar apenas um cep genérico sem nome do fabricante, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "B",
@@ -3117,15 +3117,15 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Segundo o STJ, no chamado \"golpe do boleto falso\" com vazamento de dados internos da operação (ou quando o banco falha no dever de segurança para detectar movimentação financeira totalmente atípica fora do padrão de consumo do cliente), aplica-se a Súmula 479 (fortuito interno/defeito na prestação de segurança); por outro lado, quando o próprio cliente voluntariamente entrega seu cartão físico e digita sua senha pessoal para terceiro (golpe clássico do motoboy sem falha de segurança bancária nem atipicidade detectável), o STJ tende a reconhecer culpa exclusiva do consumidor/terceiro (salvo se houver falha na detecção de transações atípicas incompatíveis com o perfil!)."
+        "text": "Segundo o STJ, no chamado \"golpe do boleto falso\" com vazamento de dados internos da operação, aplica-se a Súmula 479."
       },
       {
         "letter": "C",
-        "text": "Os bancos nunca respondem por qualquer fraude digital ocorrida em internet banking ou Pix."
+        "text": "Os bancos nunca respondem por qualquer fraude digital ocorrida em internet banking ou Pix, com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar."
       },
       {
         "letter": "D",
-        "text": "O CDC não protege correntistas pessoas físicas em relações bancárias."
+        "text": "O CDC não protege correntistas pessoas físicas em relações bancárias, com vedação à cobrança ou restrição cadastral sem prévia comunicação formal regular."
       }
     ],
     "correctAnswer": "B",
@@ -3169,19 +3169,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não existe dano moral coletivo no ordenamento brasileiro porque pessoa indeterminada não sente dor psicológica subjetiva."
+        "text": "Não existe dano moral coletivo no ordenamento brasileiro porque pessoa indeterminada não sente dor psicológica subjetiva. A responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista."
       },
       {
         "letter": "B",
-        "text": "Sim! A jurisprudência consolidada do STJ admite plenamente o dano moral coletivo nas relações de consumo (Art. 6º, VI, CDC), configurado \"in re ipsa\" sempre que a lesão injusta e intolerável a valores fundamentais da coletividade (transgressão grave da boa-fé, segurança alimentar, fraudes massivas) extrapolar a esfera meramente individual — revertendo o valor ao Fundo de Defesa de Direitos Difusos (Art. 13 LACP)."
+        "text": "Sim, a jurisprudência consolidada do STJ admite plenamente o dano moral coletivo nas relações de consumo, configurado \"in re ipsa\" sempre que a lesão injusta e intolerável a valores fundamentais da coletividade extrapolar a esfera meramente individual."
       },
       {
         "letter": "C",
-        "text": "O dano moral coletivo depende de oitiva individual de cada consumidor lesado comprovando sofrimento psíquico."
+        "text": "O dano moral coletivo depende de oitiva individual de cada consumidor lesado comprovando sofrimento psíquico, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "Os valores da condenação em dano moral coletivo são repartidos entre os promotores ou defensores autores da ação."
+        "text": "Os valores da condenação em dano moral coletivo são repartidos entre os promotores ou defensores autores da ação, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "B",
@@ -3224,19 +3224,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É proibido qualquer corte de energia elétrica ou água mesmo por faturas do mês atual não pagas após aviso prévio."
+        "text": "É proibido qualquer corte de energia elétrica ou água mesmo por faturas do mês atual não pagas após aviso prévio, sem possibilidade de transferir os riscos da atividade econômica ao consumidor final."
       },
       {
         "letter": "B",
-        "text": "É legítima a suspensão do fornecimento de energia elétrica ou água por inadimplência atual do usuário residencial mediante prévio aviso (Art. 6º, § 3º, II, Lei 8.987/95), MAS é ILEGAL o corte: (1) por débito antigo/pretérito consolidado (não pode usar o corte como meio coercitivo de dívida antiga — Súmula/jurisprudência STJ!); (2) por débito decorrente de fraude unilateralmente apurada pela concessionária sem contraditório (TOI - Termo de Ocorrência de Irregularidade); ou (3) em desfavor de pessoa pública/hospital/escola essencial ou usuário com equipamento médico vital (home care) quando ameaçar a vida!"
+        "text": "É legítima a suspensão do fornecimento de energia elétrica ou água por inadimplência atual do usuário residencial mediante prévio aviso, mas é ilegal o corte: por débito antigo/pretérito consolidado."
       },
       {
         "letter": "C",
-        "text": "A concessionária pode cobrar dívida de energia elétrica deixada pelo inquilino anterior cortando a luz do novo locatário."
+        "text": "A concessionária pode cobrar dívida de energia elétrica deixada pelo inquilino anterior cortando a luz do novo locatário, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "D",
-        "text": "O Termo de Ocorrência e Inspeção (TOI) lavrado unilateralmente pela concessionária autoriza corte imediato no dia seguinte."
+        "text": "O Termo de Ocorrência e Inspeção (toi) lavrado unilateralmente pela concessionária autoriza corte imediato no dia seguinte, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       }
     ],
     "correctAnswer": "B",
@@ -3279,19 +3279,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não! Pelas normas da ANATEL e pelo CDC: (1) o prazo máximo de permanência (fidelização) para consumidor pessoa física é de 12 (doze) meses (não 24 meses!); (2) a multa rescisória deve ser PROPORCIONAL ao valor do benefício/desconto efetivamente concedido e ao tempo restante do contrato (jamais 100% das mensalidades futuras!); e (3) a multa é inexigível se o cancelamento decorrer de descumprimento contratual ou falha de cobertura/prestação pela própria operadora!"
+        "text": "Não, pelas normas da ANATEL e pelo CDC: o prazo máximo de permanência (fidelização) para consumidor pessoa física é de 12 (doze) meses (não 24 meses)."
       },
       {
         "letter": "B",
-        "text": "A fidelização de 24 meses com cobrança integral das mensalidades futuras é válida para qualquer consumidor residencial."
+        "text": "A fidelização de 24 meses com cobrança integral das mensalidades futuras é válida para qualquer consumidor residencial, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "Mesmo quando o serviço de internet não funciona na residência do consumidor, ele deve pagar a multa de fidelidade para cancelar."
+        "text": "Mesmo quando o serviço de internet não funciona na residência do consumidor, ele deve pagar a multa de fidelidade para cancelar, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "D",
-        "text": "As operadoras de telecomunicações não se submetem ao CDC, regendo-se exclusivamente pela ANATEL."
+        "text": "As operadoras de telecomunicações não se submetem ao CDC, regendo-se exclusivamente pela ANATEL, com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual."
       }
     ],
     "correctAnswer": "A",
@@ -3334,19 +3334,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Contra a montadora, contra a concessionária OU contra ambas em litisconsórcio facultativo! Pelo Art. 18, caput, do CDC, nos vícios de qualidade ou quantidade, TODOS os fornecedores da cadeia de produção e distribuição (fabricante, importador, distribuidor e comerciante/concessionária) respondem SOLIDARIAMENTE, cabendo ao consumidor escolher contra quem demandar (vedada denunciação da lide regressiva nos termos do Art. 88)."
+        "text": "Contra a montadora, contra a concessionária ou contra ambas em litisconsórcio facultativo. nos vícios de qualidade ou quantidade, todos os fornecedores da cadeia de produção e distribuição respondem solidariamente, cabendo ao consumidor escolher contra quem demandar."
       },
       {
         "letter": "B",
-        "text": "Deve acionar exclusivamente a montadora, pois a concessionária é mera revendedora sem responsabilidade por vícios de fábrica."
+        "text": "Deve acionar exclusivamente a montadora, pois a concessionária é mera revendedora sem responsabilidade por vícios de fábrica. A responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista."
       },
       {
         "letter": "C",
-        "text": "A ação exige formação de litisconsórcio necessário obrigatório entre fábrica, importadora e revendedora."
+        "text": "A ação exige formação de litisconsórcio necessário obrigatório entre fábrica, importadora e revendedora, com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro. Tal critério define o alcance dos deveres anexos de informação e segurança ao destinatário."
       },
       {
         "letter": "D",
-        "text": "Se o carro funcionou por 31 dias sem defeito, extingue-se a garantia contra vícios ocultos."
+        "text": "Se o carro funcionou por 31 dias sem defeito, extingue-se a garantia contra vícios ocultos, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "A",
@@ -3389,19 +3389,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A oferta de preços deve ser ostensiva, precisa e em língua portuguesa (Lei 10.962/2004 — vedado exigir que o cliente consulte código de barras distante sem etiqueta ou leitor próximo, e no parcelamento deve exibir preço à vista, número/valor das parcelas, juros e valor total!). Nos alimentos, é obrigatória advertência expressa sobre presença ou ausência de glúten (Lei 10.674/2003), lactose (Lei 13.305/2016) e símbolo/informação de transgênicos acima de 1% (Decreto 4.680/2003)."
+        "text": "A oferta de preços deve ser ostensiva, precisa e em língua portuguesa. Nos alimentos, é obrigatória advertência expressa sobre presença ou ausência de glúten, lactose e símbolo/informação de transgênicos acima de 1%."
       },
       {
         "letter": "B",
-        "text": "É lícito anunciar apenas \"a partir de R$ 99,00 por mês\" sem informar valor à vista nem juros totais."
+        "text": "É lícito anunciar apenas \"a partir de R$ 99,00 por mês\" sem informar valor à vista nem juros totais, com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual."
       },
       {
         "letter": "C",
-        "text": "Na existência de divergência entre dois preços afixados para o mesmo produto na prateleira e no caixa, o consumidor paga a média aritmética dos dois valores."
+        "text": "Na existência de divergência entre dois preços afixados para o mesmo produto na prateleira e no caixa, o consumidor paga a média aritmética dos dois valores, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "D",
-        "text": "Os produtos importados podem manter rótulo exclusivamente no idioma de origem caso tenham código QR."
+        "text": "Os produtos importados podem manter rótulo exclusivamente no idioma de origem caso tenham código qr, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       }
     ],
     "correctAnswer": "A",
@@ -3444,15 +3444,15 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 52, § 2º, do CDC, é assegurado ao consumidor a liquidação antecipada do débito, total ou parcialmente, mediante REDUÇÃO PROPORCIONAL DOS JUROS e demais acréscimos (sendo ilícita a cobrança de tarifa de liquidação antecipada — Resolução CMN/STJ)! Além disso, pelo Art. 52, § 1º, as multas de mora decorrentes do inadimplemento de obrigações no seu termo NÃO poderão ser superiores a 2% (DOIS POR CENTO) do valor da prestação!"
+        "text": "É assegurado ao consumidor a liquidação antecipada do débito, total ou parcialmente, mediante redução proporcional dos juros e demais acréscimos."
       },
       {
         "letter": "B",
-        "text": "Para quitar antecipadamente, o consumidor deve pagar integralmente todos os juros futuros das 36 parcelas vincendas."
+        "text": "Para quitar antecipadamente, o consumidor deve pagar integralmente todos os juros futuros das 36 parcelas vincendas, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "C",
-        "text": "A multa moratória máxima prevista no Código de Defesa do Consumidor para atraso no pagamento de parcelas é de 10% do valor da prestação."
+        "text": "A multa moratória máxima prevista no Código de Defesa do Consumidor para atraso no pagamento de parcelas é de 10% do valor da prestação, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "D",
@@ -3499,19 +3499,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A vulnerabilidade é princípio de direito MATERIAL que reconhece a posição estrutural mais frágil do consumidor no mercado (presumida em caráter absoluto para todo consumidor pessoa física — técnica, jurídica, fática/econômica e informacional), orientando toda a interpretação do CDC; já a hipossuficiência é conceito sobretudo PROCESSUAL (verificada caso a caso pelo juiz — podendo um consumidor rico ser hipossuficiente técnico diante de gigante farmacêutica para fins de inversão do ônus da prova no Art. 6º, VIII)!"
+        "text": "A vulnerabilidade é princípio de direito material que reconhece a posição estrutural mais frágil do consumidor no mercado, orientando toda a interpretação do CDC."
       },
       {
         "letter": "B",
-        "text": "Vulnerabilidade e hipossuficiência são sinônimos perfeitos que significam exclusivamente pobreza financeira do autor."
+        "text": "Vulnerabilidade e hipossuficiência são sinônimos perfeitos que significam exclusivamente pobreza financeira do autor, com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro."
       },
       {
         "letter": "C",
-        "text": "A vulnerabilidade depende de comprovação de renda inferior a 2 salários mínimos."
+        "text": "A vulnerabilidade depende de comprovação de renda inferior a 2 salários mínimos, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "A hipossuficiência impede a contratação de advogado particular."
+        "text": "A hipossuficiência impede a contratação de advogado particular, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "A",
@@ -3554,19 +3554,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não! Embora o Art. 3º, § 2º, mencione serviço prestado \"mediante remuneração\", a doutrina e o STJ distinguem remuneração direta de REMUNERAÇÃO INDIRETA: quando o serviço aparentemente gratuito integra a estratégia negocial lucrativa de atração/fidelização de clientela (como estacionamento gratuito de shopping/supermercado — Súmula 130 STJ —, brinde promocional ou rede social monetizada por dados/anúncios!), configura-se relação de consumo plena sujeita ao CDC!"
+        "text": "Não, embora o Art. 3º, § 2º, mencione serviço prestado \"mediante remuneração\", a doutrina e o STJ distinguem remuneração direta de remuneração indireta: quando o serviço aparentemente gratuito integra a estratégia negocial lucrativa de atração/fidelização de clientela, configura-se relação de consumo plena sujeita ao CDC."
       },
       {
         "letter": "B",
-        "text": "Serviços sem cobrança de ingresso ou ticket específico jamais se submetem ao CDC."
+        "text": "Serviços sem cobrança de ingresso ou ticket específico jamais se submetem ao CDC, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "C",
-        "text": "A Súmula 130 do STJ aplica-se apenas a estacionamentos privados com cancela paga por hora."
+        "text": "A Súmula 130 do STJ aplica-se apenas a estacionamentos privados com cancela paga por hora, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "A entrega de brinde defeituoso que intoxica o cliente afasta responsabilidade por ser cortesia."
+        "text": "A entrega de brinde defeituoso que intoxica o cliente afasta responsabilidade por ser cortesia, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "A",
@@ -3610,19 +3610,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deixar de estipular prazo para o cumprimento de sua obrigação ou deixar a fixação de seu termo inicial a seu exclusivo critério configura prática abusiva expressa no Art. 39, XII, do CDC — autorizando o consumidor a exigir as alternativas do Art. 35 (cumprimento forçado, equivalente ou rescisão com devolução corrigida e perdas e danos)!"
+        "text": "Deixar de estipular prazo para o cumprimento de sua obrigação ou deixar a fixação de seu termo inicial a seu exclusivo critério configura prática abusiva expressa."
       },
       {
         "letter": "B",
-        "text": "É válido o contrato online deixar o prazo de entrega em aberto por tempo indeterminado \"conforme disponibilidade da fábrica\"."
+        "text": "É válido o contrato online deixar o prazo de entrega em aberto por tempo indeterminado \"conforme disponibilidade da fábrica\", em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "C",
-        "text": "O atraso injustificado na entrega de produto comprado à vista gera direito apenas a vale-troca na própria loja."
+        "text": "O atraso injustificado na entrega de produto comprado à vista gera direito apenas a vale-troca na própria loja, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "A transportadora contratada pela loja online nunca pode implicar responsabilidade da loja vendedora."
+        "text": "A transportadora contratada pela loja online nunca pode implicar responsabilidade da loja vendedora, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       }
     ],
     "correctAnswer": "A",
@@ -3665,19 +3665,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, infelizmente! Pela Súmula 610 do STJ: \"O suicídio não é coberto nos dois primeiros anos de vigência do contrato de seguro de vida, ressalvado o direito do beneficiário à devolução do montante da reserva técnica já formada.\" Trata-se de critério objetivo temporal do Art. 798 do Código Civil (carência legal de 2 anos — superando discussões sobre premeditação nos primeiros 24 meses; após 2 anos, a cobertura é obrigatória, sendo nula qualquer cláusula excludente)!"
+        "text": "Sim, infelizmente.: \"o suicídio não é coberto nos dois primeiros anos de vigência do contrato de seguro de vida, ressalvado o direito do beneficiário à devolução do montante da reserva técnica já formada.\" Trata-se de critério objetivo temporal."
       },
       {
         "letter": "B",
-        "text": "Não, basta provar que o segurado não premeditou o suicídio ao assinar a apólice para a seguradora ser obrigada a pagar já no 1º ano."
+        "text": "Não, basta provar que o segurado não premeditou o suicídio ao assinar a apólice para a seguradora ser obrigada a pagar já no 1º ano, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "C",
-        "text": "Mesmo após 10 anos de contrato vigente, a seguradora pode negar cobertura ao suicídio."
+        "text": "Mesmo após 10 anos de contrato vigente, a seguradora pode negar cobertura ao suicídio, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "D",
-        "text": "Se houver doença preexistente, a seguradora pode sempre recusar o prêmio mesmo sem ter pedido exame médico prévio nem provado má-fé."
+        "text": "Se houver doença preexistente, a seguradora pode sempre recusar o prêmio mesmo sem ter pedido exame médico prévio nem provado má-fé, com vedação à cobrança ou restrição cadastral sem prévia comunicação formal regular."
       }
     ],
     "correctAnswer": "A",
@@ -3721,19 +3721,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim! Pelo Art. 14 do CDC, respondem objetivamente tanto o estabelecimento hoteleiro pelos danos e furtos ocorridos em suas dependências (dever de guarda e segurança inerente à hospedagem) quanto as plataformas de transporte por aplicativo perante o passageiro consumidor (pois selecionam motoristas, definem preço, recebem pagamento e auferem lucro com a intermediação do serviço — respondendo solidariamente com o motorista pelo risco da atividade)!"
+        "text": "Sim, respondem objetivamente tanto o estabelecimento hoteleiro pelos danos e furtos ocorridos em suas dependências quanto as plataformas de transporte por aplicativo perante o passageiro consumidor."
       },
       {
         "letter": "B",
-        "text": "Plataformas de transporte por aplicativo nunca respondem por acidentes com passageiros porque o motorista não é empregado CLT."
+        "text": "Plataformas de transporte por aplicativo nunca respondem por acidentes com passageiros porque o motorista não é empregado CLT. A responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista."
       },
       {
         "letter": "C",
-        "text": "O hotel exime-se automaticamente mediante placa avisando \"não nos responsabilizamos por objetos deixados nos quartos\"."
+        "text": "O hotel exime-se automaticamente mediante placa avisando \"não nos responsabilizamos por objetos deixados nos quartos\", sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "Na hospedagem gratuita de favor em casa de amigo aplica-se o CDC."
+        "text": "Na hospedagem gratuita de favor em casa de amigo aplica-se o CDC, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "A",
@@ -3776,19 +3776,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplica-se aos serviços públicos específicos e divisíveis (uti singuli) remunerados mediante TARIFA ou PREÇO PÚBLICO (como água, esgoto, energia elétrica, gás canalizado, telefonia, transporte coletivo, pedágio — Art. 3º, § 2º e Art. 22 CDC)! Não se aplica aos serviços gerais e indivisíveis (uti universi — como segurança pública, iluminação pública geral ou saúde pública gratuita direta no SUS sem remuneração contratual específica) nem aos serviços custeados por tributo (taxa/imposto), segundo a jurisprudência do STJ."
+        "text": "Aplica-se aos serviços públicos específicos e divisíveis (uti singuli) remunerados mediante tarifa ou preço público."
       },
       {
         "letter": "B",
-        "text": "O CDC aplica-se integralmente à segurança pública ostensiva e ao atendimento gratuito universal no SUS."
+        "text": "O CDC aplica-se integralmente à segurança pública ostensiva e ao atendimento gratuito universal no SUS, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "C",
-        "text": "Concessionárias de pedágio rodoviário não se submetem ao CDC porque a rodovia é bem público."
+        "text": "Concessionárias de pedágio rodoviário não se submetem ao CDC porque a rodovia é bem público. Tal critério define o alcance dos deveres anexos de informação e segurança ao destinatário."
       },
       {
         "letter": "D",
-        "text": "O fornecimento de energia elétrica é regido apenas pelo Código Civil, nunca pelo CDC."
+        "text": "O fornecimento de energia elétrica é regido apenas pelo Código Civil, nunca pelo CDC, com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual."
       }
     ],
     "correctAnswer": "A",
@@ -3831,7 +3831,7 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em contratos com consumidor pessoa física, é sempre válida a cláusula que limita a indenização ao valor pago pelo produto."
+        "text": "Em contratos com consumidor pessoa física, é sempre válida a cláusula que limita a indenização ao valor pago pelo produto, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
@@ -3839,11 +3839,11 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A multa de atraso pode ser de 50% se prevista com destaque em negrito no contrato de adesão."
+        "text": "A multa de atraso pode ser de 50% se prevista com destaque em negrito no contrato de adesão, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "Não, ambas são NULAS DE PLENO DIREITO! A primeira viola o Art. 51, XII (que proíbe obrigar o consumidor a ressarcir custos de cobrança sem igual obrigação ao fornecedor) e a bilateralidade/equidade contratual (Art. 51, IV — Súmula/jurisprudência do STJ aplica a inversão da cláusula penal em favor do consumidor quando só prevista contra ele!). A segunda viola o Art. 51, I (que veda cláusula que impossibilite, exonere ou atenue a responsabilidade por vícios ou indenização, admitindo atenuação APENAS para consumidor pessoa jurídica em situações justificáveis)!"
+        "text": "Não, ambas são nulas de pleno direito. A primeira viola o Art. 51, XII e a bilateralidade/equidade contratual. A segunda viola o Art. 51, I."
       }
     ],
     "correctAnswer": "D",
@@ -3887,19 +3887,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O órgão cadastral dispõe de 60 dias para corrigir o erro após pedido formal do consumidor."
+        "text": "O órgão cadastral dispõe de 60 dias para corrigir o erro após pedido formal do consumidor, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "Se a dívida prescreveu em 3 anos (ex.: cheque/título cambiário ou reparação civil), o nome do consumidor pode ficar negativado até completar os 5 anos do Art. 43, § 1º."
+        "text": "Se a dívida prescreveu em 3 anos (ex.: cheque/título cambiário ou reparação civil), o nome do consumidor pode ficar negativado até completar os 5 anos, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "Os bancos de dados de consumo têm caráter privado exclusivo e não constituem entidades de caráter público."
+        "text": "Os bancos de dados de consumo têm caráter privado exclusivo e não constituem entidades de caráter público, com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "O consumidor tem acesso irrestrito às informações existentes em cadastros/fichas (inclusive fontes — Art. 43 caput), e sempre que encontrar inexatidão nos seus dados e seus cadastros, poderá exigir sua IMEDIATA correção, devendo o arquivista, no prazo de 5 (CINCO) DIAS ÚTEIS, comunicar a alteração aos eventuais destinatários das informações incorretas (Art. 43, § 3º, CDC)! Além disso, consumada a prescrição da cobrança do débito (Art. 43, § 5º), NÃO podem ser fornecidas quaisquer informações pelos sistemas de proteção ao crédito que possam impedir ou dificultar novo acesso ao crédito — prevalecendo o prazo menor entre 5 anos (Art. 43, § 1º) e o prazo prescricional da pretensão de cobrança!"
+        "text": "O consumidor tem acesso irrestrito às informações existentes em cadastros/fichas, e sempre que encontrar inexatidão nos seus dados e seus cadastros, poderá exigir sua imediata correção, devendo o arquivista, no prazo de 5 (cinco) dias úteis, comunicar a alteração aos eventuais destinatários das informações incorretas."
       }
     ],
     "correctAnswer": "D",
@@ -3942,19 +3942,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A aniquilação sistemática da livre iniciativa empresarial mediante tabelamento perpétuo de preços."
+        "text": "A aniquilação sistemática da livre iniciativa empresarial mediante tabelamento perpétuo de preços, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "B",
-        "text": "A prevalência absoluta da autonomia da vontade liberal mesmo diante de cláusulas leoninas."
+        "text": "A prevalência absoluta da autonomia da vontade liberal mesmo diante de cláusulas leoninas, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "A exclusão do Poder Público no incentivo à criação de associações e mecanismos de conciliação."
+        "text": "A exclusão do Poder Público no incentivo à criação de associações e mecanismos de conciliação, com vedação à cobrança ou restrição cadastral sem prévia comunicação formal regular. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "A compatibilização da proteção do consumidor com a necessidade de desenvolvimento econômico e tecnológico, de modo a viabilizar os princípios nos quais se funda a ordem econômica (Art. 170 CF), sempre com base na boa-fé e equilíbrio nas relações entre consumidores e fornecedores (Art. 4º, III, CDC)."
+        "text": "A compatibilização da proteção do consumidor com a necessidade de desenvolvimento econômico e tecnológico, de modo a viabilizar os princípios nos quais se funda a ordem econômica, sempre com base na boa-fé e equilíbrio nas relações entre consumidores e fornecedores."
       }
     ],
     "correctAnswer": "D",
@@ -3997,19 +3997,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, o CDC exige exatamente os mesmos requisitos rigorosos do Art. 478 do Código Civil, só permitindo rescisão e nunca revisão."
+        "text": "Sim, o CDC exige exatamente os mesmos requisitos rigorosos, só permitindo rescisão e nunca revisão. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "A revisão do Art. 6º, V, limita-se apenas às cláusulas já abusivas desde a assinatura (lesão originária)."
+        "text": "A revisão, limita-se apenas às cláusulas já abusivas desde a assinatura (lesão originária), com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "A onerosidade superveniente beneficia apenas o fornecedor para aumentar preços livremente."
+        "text": "A onerosidade superveniente beneficia apenas o fornecedor para aumentar preços livremente, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "D",
-        "text": "Não! Enquanto o Código Civil (Art. 478) exige acontecimentos \"extraordinários e imprevisíveis\" (Teoria da Imprevisão), o Art. 6º, V, do CDC adota a TEORIA DA QUEBRA DA BASE OBJETIVA DO NEGÓCIO JURÍDICO: basta a ocorrência de fatos supervenientes que tornem as prestações excessivamente onerosas ao consumidor, independentemente de o fato ser imprevisível ou extraordinário (como ocorreu na crise cambial de 1999 no STJ)!"
+        "text": "Não, enquanto o Código Civil exige acontecimentos \"extraordinários e imprevisíveis\", o Art. 6º, V, do CDC adota a teoria da quebra da base objetiva do negócio jurídico: basta a ocorrência de fatos supervenientes que tornem as prestações excessivamente onerosas ao consumidor, independentemente de o fato ser imprevisível ou extraordinário."
       }
     ],
     "correctAnswer": "D",
@@ -4052,19 +4052,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Impõe sempre a aplicação exclusiva da lei posterior mais restritiva ao consumidor, revogando o CDC."
+        "text": "Impõe sempre a aplicação exclusiva da lei posterior mais restritiva ao consumidor, revogando o CDC, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "B",
-        "text": "Proíbe invocar dispositivos do Código Civil ou do ECA em favor do consumidor."
+        "text": "Proíbe invocar dispositivos do Código Civil ou do ECA em favor do consumidor, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "C",
-        "text": "Aplica-se apenas em litígios de direito tributário aduaneiro."
+        "text": "Aplica-se apenas em litígios de direito tributário aduaneiro, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "Rejeita a revogação ou exclusão rígida entre normas convergentes, promovendo sua coordenação e aplicação simultânea (diálogo sistemático de coerência, complementaridade ou subsidiariedade) para extrair a máxima proteção possível ao sujeito vulnerável (Art. 7º CDC)."
+        "text": "Rejeita a revogação ou exclusão rígida entre normas convergentes, promovendo sua coordenação e aplicação simultânea para extrair a máxima proteção possível ao sujeito vulnerável."
       }
     ],
     "correctAnswer": "D",
@@ -4107,19 +4107,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deve restituir 100% do valor no dia seguinte ao pedido de desligamento."
+        "text": "Deve restituir 100% do valor no dia seguinte ao pedido de desligamento, com responsabilidade objetiva e solidária de todos os integrantes da cadeia de fornecimento."
       },
       {
         "letter": "B",
-        "text": "O consorciado excluído perde integralmente 100% de tudo o que pagou ao grupo."
+        "text": "O consorciado excluído perde integralmente 100% de tudo o que pagou ao grupo, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "C",
-        "text": "Os contratos de consórcio são imunes à incidência do CDC."
+        "text": "Os contratos de consórcio são imunes à incidência do CDC, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "Pelo Tema 312 do STJ, é devida a restituição das parcelas pagas pelo participante desistente/excluído do consórcio NÃO de imediato, mas em até 30 dias após o prazo previsto contratualmente para o encerramento do grupo (ou antes, caso contemplado em sorteio específico de excluídos previsto na Lei 11.795/2008), descontadas a taxa de administração e eventual multa contratual se comprovado prejuízo."
+        "text": "É devida a restituição das parcelas pagas pelo participante desistente/excluído do consórcio não de imediato, mas em até 30 dias após o prazo previsto contratualmente para o encerramento do grupo, descontadas a taxa de administração e eventual multa contratual se comprovado prejuízo."
       }
     ],
     "correctAnswer": "D",
@@ -4163,19 +4163,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O consumidor pode ser obrigado a contratar o seguro prestamista exclusivamente da seguradora indicada pelo banco."
+        "text": "O consumidor pode ser obrigado a contratar o seguro prestamista exclusivamente da seguradora indicada pelo banco, com autorização para inversão do ônus da prova diante da verossimilhança ou hipossuficiência."
       },
       {
         "letter": "B",
-        "text": "A Tarifa de Cadastro pode ser cobrada em todo novo contrato mesmo que o cliente já tenha conta e histórico no mesmo banco."
+        "text": "A Tarifa de Cadastro pode ser cobrada em todo novo contrato mesmo que o cliente já tenha conta e histórico no mesmo banco, com responsabilidade objetiva e solidária de todos os integrantes da cadeia de fornecimento."
       },
       {
         "letter": "C",
-        "text": "A cobrança de tarifa para emissão de carnê/boleto (TEC) continua lícita em financiamentos novos."
+        "text": "A cobrança de tarifa para emissão de carnê/boleto (tec) continua lícita em financiamentos novos, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "Segundo os Temas 958 e 972 do STJ: (1) a Tarifa de Cadastro é VÁLIDA apenas no início do relacionamento entre consumidor e instituição financeira (uma única vez); (2) são ABUSIVAS e inválidas a TAC e a TEC em contratos celebrados após 30/04/2008 (Resolução CMN 3.518/2007); e (3) a contratação de Seguro Prestamista imposta sem liberdade de escolha da seguradora pelo consumidor configura VENDA CASADA abusiva (Art. 39, I, CDC)!"
+        "text": "Segundo os Temas 958 e 972 do STJ: a Tarifa de Cadastro é válida apenas no início do relacionamento entre consumidor e instituição financeira (uma única vez)."
       }
     ],
     "correctAnswer": "D",
@@ -4219,19 +4219,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O CCF dispensa qualquer comunicação prévia porque o cheque é ordem de pagamento à vista."
+        "text": "O ccf dispensa qualquer comunicação prévia porque o cheque é ordem de pagamento à vista. A responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista."
       },
       {
         "letter": "B",
-        "text": "O correntista só pode limpar seu nome no CCF após 10 anos, mesmo pagando o cheque no dia seguinte."
+        "text": "O correntista só pode limpar seu nome no ccf após 10 anos, mesmo pagando o cheque no dia seguinte, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "A emissão de cheque furtado ou clonado gera responsabilidade exclusiva da vítima titular da conta."
+        "text": "A emissão de cheque furtado ou clonado gera responsabilidade exclusiva da vítima titular da conta, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "Pela Súmula 572 do STJ, o Banco do Brasil (administrador do CCF) assim como os bancos sacados devem observar o dever de prévia comunicação ao consumidor antes da inclusão no CCF, sob pena de responsabilidade pela negativação indevida/sem prévio aviso."
+        "text": "O Banco do Brasil assim como os bancos sacados devem observar o dever de prévia comunicação ao consumidor antes da inclusão no ccf, sob pena de responsabilidade pela negativação indevida/sem prévio aviso."
       }
     ],
     "correctAnswer": "D",
@@ -4275,19 +4275,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não gera dano moral nem prática abusiva se o cartão for enviado bloqueado e sem cobrança de anuidade."
+        "text": "Não gera dano moral nem prática abusiva se o cartão for enviado bloqueado e sem cobrança de anuidade, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "Se o consumidor desbloquear por curiosidade e não usar, é obrigado a pagar anuidade vitalícia."
+        "text": "Se o consumidor desbloquear por curiosidade e não usar, é obrigado a pagar anuidade vitalícia, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "C",
-        "text": "A responsabilidade em caso de clonagem de cartão é exclusiva do consumidor mesmo que ele não tenha entregado senha."
+        "text": "A responsabilidade em caso de clonagem de cartão é exclusiva do consumidor mesmo que ele não tenha entregado senha, com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar."
       },
       {
         "letter": "D",
-        "text": "Sim! Pela Súmula 532 do STJ: \"Constitui prática comercial abusiva o envio de cartão de crédito sem prévia e expressa solicitação do consumidor, configurando-se ato ilícito indenizável e sujeito à aplicação de multa administrativa.\" Além disso, pelo Art. 39, III e parágrafo único, do CDC, o produto enviado sem solicitação equipara-se a amostra grátis!"
+        "text": "Sim: \"Constitui prática comercial abusiva o envio de cartão de crédito sem prévia e expressa solicitação do consumidor, configurando-se ato ilícito indenizável e sujeito à aplicação de multa administrativa.\" Além disso, o produto enviado sem solicitação equipara-se a amostra grátis."
       }
     ],
     "correctAnswer": "D",
@@ -4331,19 +4331,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Só há infração se um consumidor efetivamente passar mal e for internado após ingerir o alimento vencido."
+        "text": "Só há infração se um consumidor efetivamente passar mal e for internado após ingerir o alimento vencido, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "O consumidor que compra produto vencido pode exigir apenas a devolução do valor pago, sem direito a troca."
+        "text": "O consumidor que compra produto vencido pode exigir apenas a devolução do valor pago, sem direito a troca, com responsabilidade objetiva e solidária de todos os integrantes da cadeia de fornecimento. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "A venda de alimento vencido é permitida livremente se tiver desconto de 50% na etiqueta."
+        "text": "A venda de alimento vencido é permitida livremente se tiver desconto de 50% na etiqueta, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "D",
-        "text": "Sim! Pelo Art. 18, § 6º, I, do CDC são impróprios ao uso e consumo os produtos cujos prazos de validade estejam vencidos; além de sanções administrativas (Art. 56) e dano civil, expor à venda ou ter em depósito para venda mercadoria em condições impróprias ao consumo configura crime contra as relações de consumo previsto no Art. 7º, IX, da Lei nº 8.137/1990 (crime formal/de perigo abstrato segundo STF e STJ, exigindo perícia para produtos deteriorados/impróprios sem validade vencida visível, dispensada ou simplificada pela constatação do vencimento)!"
+        "text": "Sim são impróprios ao uso e consumo os produtos cujos prazos de validade estejam vencidos; além de sanções administrativas e dano civil, expor à venda ou ter em depósito para venda mercadoria em condições impróprias ao consumo configura crime contra as relações de consumo."
       }
     ],
     "correctAnswer": "D",
@@ -4386,19 +4386,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não há violação ao CDC porque postagens em redes sociais pessoais nunca configuram publicidade."
+        "text": "Não há violação ao CDC porque postagens em redes sociais pessoais nunca configuram publicidade. A responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista."
       },
       {
         "letter": "B",
-        "text": "A identificação da publicidade é exigida apenas em propagandas impressas em jornais diários."
+        "text": "A identificação da publicidade é exigida apenas em propagandas impressas em jornais diários, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "C",
-        "text": "O Princípio da Identificação da Publicidade (Art. 36 do CDC): a publicidade deve ser veiculada de tal forma que o consumidor, fácil e imediatamente, a identifique como tal! A ocultação do caráter patrocinado configura publicidade clandestina/simulada ilícita, sujeitando inclusive influenciadores e patrocinadores à responsabilidade solidária quando induzirem o consumidor a erro ou dano."
+        "text": "O Princípio da Identificação da Publicidade: a publicidade deve ser veiculada de tal forma que o consumidor, fácil e imediatamente, a identifique como tal."
       },
       {
         "letter": "D",
-        "text": "O fornecedor pode manter ocultos os dados fáticos e científicos que embasam a propaganda até 5 anos depois."
+        "text": "O fornecedor pode manter ocultos os dados fáticos e científicos que embasam a propaganda até 5 anos depois, com autorização para inversão do ônus da prova diante da verossimilhança ou hipossuficiência."
       }
     ],
     "correctAnswer": "C",
@@ -4441,19 +4441,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O risco do desenvolvimento consta expressamente no Art. 12, § 3º, IV, como excludente automática de responsabilidade do fabricante."
+        "text": "O risco do desenvolvimento consta expressamente, como excludente automática de responsabilidade do fabricante, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "Se uma montadora lança carro com freio ABS em 2025, todos os carros de 1995 sem ABS tornam-se automaticamente produtos defeituosos."
+        "text": "Se uma montadora lança carro com freio abs em 2025, todos os carros de 1995 sem abs tornam-se automaticamente produtos defeituosos, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "Prevalece na doutrina e jurisprudência consumerista brasileira que o risco do desenvolvimento NÃO exclui a responsabilidade objetiva do fabricante (fortuito interno ligado ao risco da atividade lucrativa — Art. 12 caput e Art. 931 CC), pois não figura entre as excludentes taxativas do Art. 12, § 3º, do CDC (a ressalva do Art. 12, § 1º, III, refere-se à impossibilidade de considerar um produto anterior defeituoso apenas porque outro de melhor qualidade foi lançado depois, § 2º!)."
+        "text": "Prevalece na doutrina e jurisprudência consumerista brasileira que o risco do desenvolvimento não exclui a responsabilidade objetiva do fabricante, pois não figura entre as excludentes taxativas."
       },
       {
         "letter": "D",
-        "text": "Em caso de risco do desenvolvimento, a vítima deve indenizar o laboratório pelos custos de recall."
+        "text": "Em caso de risco do desenvolvimento, a vítima deve indenizar o laboratório pelos custos de recall, com autorização para inversão do ônus da prova diante da verossimilhança ou hipossuficiência."
       }
     ],
     "correctAnswer": "C",
@@ -4496,15 +4496,15 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O cliente do supermercado deve provar dolo ou negligência específica do funcionário da limpeza para ser indenizado."
+        "text": "O cliente do supermercado deve provar dolo ou negligência específica do funcionário da limpeza para ser indenizado, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "B",
-        "text": "O banco nunca responde por roubo ocorrido dentro de suas agências por se tratar de caso fortuito externo."
+        "text": "O banco nunca responde por roubo ocorrido dentro de suas agências por se tratar de caso fortuito externo, com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar."
       },
       {
         "letter": "C",
-        "text": "Ambos respondem objetivamente pelo Art. 14 do CDC (defeito na prestação do serviço — violação do dever de segurança legítima esperada pelo consumidor)! No caso do supermercado, piso escorregadio sem sinalização e isolamento é defeito de segurança; no caso da agência bancária (ou estacionamento fechado/pago — Súmula 130 STJ), o roubo no interior de instituição financeira configura fortuito interno previsível à atividade bancária."
+        "text": "Ambos respondem objetivamente. No caso do supermercado, piso escorregadio sem sinalização e isolamento é defeito de segurança."
       },
       {
         "letter": "D",
@@ -4551,19 +4551,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto a comissão de corretagem quanto a taxa SATI são absolutamente proibidas em qualquer circunstância."
+        "text": "Tanto a comissão de corretagem quanto a taxa sati são absolutamente proibidas em qualquer circunstância, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "B",
-        "text": "A taxa SATI é sempre válida e obrigatória, enquanto a comissão de corretagem é sempre ilegal."
+        "text": "A taxa sati é sempre válida e obrigatória, enquanto a comissão de corretagem é sempre ilegal, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "C",
-        "text": "O STJ decidiu que: (1) é VÁLIDA a cláusula contratual que transfere ao promitente-comprador a obrigação de pagar a comissão de CORRETAGEM, desde que o consumidor seja PREVIAMENTE INFORMADO do preço total da aquisição da unidade autônoma com o destaque do valor da comissão de corretagem! E (2) é ABUSIVA a cobrança pelo promitente-vendedor da chamada taxa SATI (assessoria técnico-imobiliária), por não constituir serviço autônomo prestado ao consumidor!"
+        "text": "O STJ decidiu que: é válida a cláusula contratual que transfere ao promitente-comprador a obrigação de pagar a comissão de corretagem, desde que o consumidor seja previamente informado do preço total da aquisição da unidade autônoma com o destaque do valor da comissão de corretagem."
       },
       {
         "letter": "D",
-        "text": "O prazo prescricional para o consumidor pedir restituição da taxa SATI abusiva paga é de 10 anos."
+        "text": "O prazo prescricional para o consumidor pedir restituição da taxa sati abusiva paga é de 10 anos, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "C",
@@ -4607,19 +4607,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer rachadura estrutural em edifício novo prescreve em 90 dias contados da entrega das chaves."
+        "text": "Qualquer rachadura estrutural em edifício novo prescreve em 90 dias contados da entrega das chaves, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "A garantia quinquenal do Art. 618 do CC aplica-se apenas a vazamentos superficiais de torneiras."
+        "text": "A garantia quinquenal aplica-se apenas a vazamentos superficiais de torneiras, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "C",
-        "text": "Nos contratos de empreitada de edifícios ou construções consideráveis, o construtor responde pelo prazo legal de garantia de 5 (cinco) anos pela solidez e segurança do trabalho (Art. 618 CC), devendo o dono da obra propor a ação indenizatória (reparação de danos/defeito construtivo) no prazo prescricional de 10 anos (Tema 873/STJ no CC/2002 — ou 20 anos na vigência do CC/1916 conforme Súmula 194 STJ — e se aplicável o Art. 27 do CDC para acidente/fato, 5 anos)! Atenção ao prazo decadencial de 180 dias do parágrafo único do Art. 618 CC (para ação redibitória/abatimento sem pedido indenizatório, que não afasta a pretensão indenizatória)!"
+        "text": "Nos contratos de empreitada de edifícios ou construções consideráveis, o construtor responde pelo prazo legal de garantia de 5 (cinco) anos pela solidez e segurança do trabalho, devendo o dono da obra propor a ação indenizatória no prazo prescricional de 10 anos."
       },
       {
         "letter": "D",
-        "text": "A Súmula 194 do STJ afirma que o prazo para ação de indenização contra construtor é decadencial de 1 ano."
+        "text": "A Súmula 194 do STJ afirma que o prazo para ação de indenização contra construtor é decadencial de 1 ano, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       }
     ],
     "correctAnswer": "C",
@@ -4663,19 +4663,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A escola pode impedir o aluno inadimplente de fazer as provas finais em curso e reter seu histórico de transferência."
+        "text": "A escola pode impedir o aluno inadimplente de fazer as provas finais em curso e reter seu histórico de transferência, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "A escola não pode sequer recusar a renovação de matrícula do aluno inadimplente para o próximo ano letivo."
+        "text": "A escola não pode sequer recusar a renovação de matrícula do aluno inadimplente para o próximo ano letivo, sem possibilidade de transferir os riscos da atividade econômica ao consumidor final."
       },
       {
         "letter": "C",
-        "text": "Nenhuma delas! Pela Lei nº 9.870/1999 (Art. 6º): são PROIBIDAS a suspensão de provas escolares, a retenção de documentos escolares (histórico, transferência) ou a aplicação de quaisquer outras penalidades pedagógicas por motivo de inadimplemento durante o período letivo! A instituição só pode recusar a REMATRÍCULA para o período letivo seguinte (Art. 5º) e cobrar a dívida pelas vias judiciais/cadastrais ordinárias (sem constrangimento — Art. 42 CDC). E a expedição e registro do diploma padrão não podem sofrer cobrança extra (Portaria MEC / jurisprudência)."
+        "text": "Nenhuma delas. Pela Lei nº 9.870/1999: são proibidas a suspensão de provas escolares, a retenção de documentos escolares ou a aplicação de quaisquer outras penalidades pedagógicas por motivo de inadimplemento durante o período letivo. A instituição só pode recusar a rematrícula para o período letivo seguinte e cobrar a dívida pelas vias judiciais/cadastrais ordinárias. E a expedição e registro do diploma padrão não podem sofrer cobrança extra."
       },
       {
         "letter": "D",
-        "text": "A faculdade pode cobrar multa de 10% no boleto escolar mensal atrasado."
+        "text": "A faculdade pode cobrar multa de 10% no boleto escolar mensal atrasado, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       }
     ],
     "correctAnswer": "C",
@@ -4718,19 +4718,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O consumidor jamais possui qualquer direito perante representante oficial da marca no Brasil se comprou o bem no exterior."
+        "text": "O consumidor jamais possui qualquer direito perante representante oficial da marca no Brasil se comprou o bem no exterior, sem possibilidade de transferir os riscos da atividade econômica ao consumidor final."
       },
       {
         "letter": "B",
-        "text": "O importador brasileiro só responde se houver assinado termo de compromisso cartorário com o turista."
+        "text": "O importador brasileiro só responde se houver assinado termo de compromisso cartorário com o turista, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "Segundo famoso precedente do STJ (REsp 63.981 — caso Panasonic), considerando a economia globalizada e o proveito da marca internacionalmente consolidada, a pessoa jurídica nacional vinculada à marca mundial responde perante o consumidor brasileiro pela garantia/assistência técnica de produto da mesma marca adquirido no exterior, ressalvada divergência pontual se não houver importação oficial nem vínculo societário/comercial com a marca."
+        "text": "Segundo famoso precedente do STJ, considerando a economia globalizada e o proveito da marca internacionalmente consolidada, a pessoa jurídica nacional vinculada à marca mundial responde perante o consumidor brasileiro pela garantia/assistência técnica de produto da mesma marca adquirido no exterior, ressalvada divergência pontual se não houver importação oficial nem vínculo societário/comercial com a marca."
       },
       {
         "letter": "D",
-        "text": "As lojas duty free de aeroportos brasileiros não se submetem ao CDC."
+        "text": "As lojas duty free de aeroportos brasileiros não se submetem ao CDC, com vedação à cobrança ou restrição cadastral sem prévia comunicação formal regular."
       }
     ],
     "correctAnswer": "C",
@@ -4773,19 +4773,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A companhia aérea pode cobrar multa de 100% da tarifa se o consumidor cancelar apenas 2 horas após a compra online feita 4 meses antes do voo."
+        "text": "A companhia aérea pode cobrar multa de 100% da tarifa se o consumidor cancelar apenas 2 horas após a compra online feita 4 meses antes do voo, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "A agência de turismo pode reter 100% do pacote cancelado com 60 dias de antecedência mesmo conseguindo revender todas as vagas."
+        "text": "A agência de turismo pode reter 100% do pacote cancelado com 60 dias de antecedência mesmo conseguindo revender todas as vagas, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "Pela Resolução ANAC nº 400/2016 (Art. 11), o passageiro pode desistir da passagem aérea adquirida com antecedência igual ou superior a 7 dias da data do embarque SEM QUALQUER ÔNUS (multa zero!), desde que o faça no prazo de até 24 horas a contar do recebimento do comprovante! Fora dessa hipótese (e em pacotes turísticos ou compras online), aplica-se também o Art. 49 do CDC (7 dias para compras fora do estabelecimento com devolução integral, segundo majoritária jurisprudência para pacotes/compras online), e após o prazo de arrependimento a multa rescisória contratual não pode ser abusiva (Art. 51, IV — em regra limitada a percentuais razoáveis como até 10%–20%, salvo prova de prejuízo efetivo irrecuperável pelo fornecedor)!"
+        "text": "Pela Resolução ANAC nº 400/2016, o passageiro pode desistir da passagem aérea adquirida com antecedência igual ou superior a 7 dias da data do embarque sem qualquer ônus (multa zero), desde que o faça no prazo de até 24 horas a contar do recebimento do comprovante. Fora dessa hipótese, aplica-se também o Art. 49 do CDC, e após o prazo de arrependimento a multa rescisória contratual não pode ser abusiva."
       },
       {
         "letter": "D",
-        "text": "O passageiro que perde o voo de ida tem automaticamente o direito de a companhia cancelar seu voo de volta (no-show) mesmo em voos domésticos sem aviso."
+        "text": "O passageiro que perde o voo de ida tem automaticamente o direito de a companhia cancelar seu voo de volta (no-show) mesmo em voos domésticos sem aviso, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "C",
@@ -4828,19 +4828,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O TOI tem presunção absoluta de veracidade e autoriza corte imediato de luz em 24 horas sem defesa."
+        "text": "O toi tem presunção absoluta de veracidade e autoriza corte imediato de luz em 24 horas sem defesa, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "O consumidor é obrigado a provar tecnicamente sua inocência mediante perícia particular paga por ele para evitar o corte."
+        "text": "O consumidor é obrigado a provar tecnicamente sua inocência mediante perícia particular paga por ele para evitar o corte, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "C",
-        "text": "O TOI lavrado unilateralmente pela concessionária NÃO goza de presunção de legitimidade absoluta como ato administrativo de império e NÃO serve, isoladamente, para autorizar o corte do fornecimento de energia elétrica nem inverter contra o consumidor a prova de suposta fraude (exigindo perícia técnica idônea ou contraditório judicial/administrativo)!"
+        "text": "O toi lavrado unilateralmente pela concessionária não goza de presunção de legitimidade absoluta como ato administrativo de império e não serve, isoladamente, para autorizar o corte do fornecimento de energia elétrica nem inverter contra o consumidor a prova de suposta fraude."
       },
       {
         "letter": "D",
-        "text": "Em caso de cobrança indevida já paga pelo consumidor em conta de água/luz, não se aplica a repetição em dobro do Art. 42, parágrafo único."
+        "text": "Em caso de cobrança indevida já paga pelo consumidor em conta de água/luz, não se aplica a repetição em dobro, com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual."
       }
     ],
     "correctAnswer": "C",
@@ -4884,19 +4884,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Terminada a garantia contratual de 1 ano, nenhum vício oculto superveniente pode ser reclamado judicialmente."
+        "text": "Terminada a garantia contratual de 1 ano, nenhum vício oculto superveniente pode ser reclamado judicialmente, com validação da estipulação padrão independentemente de destaque expresso no contrato."
       },
       {
         "letter": "B",
-        "text": "O consumidor terá prazo perpétuo de 90 dias contados mesmo 40 anos após a compra de qualquer eletrônico."
+        "text": "O consumidor terá prazo perpétuo de 90 dias contados mesmo 40 anos após a compra de qualquer eletrônico, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "C",
-        "text": "Pelo critério da VIDA ÚTIL DO BEM adotado pelo STJ (REsp 984.106), tratando-se de VÍCIO OCULTO, o prazo decadencial de 90 dias (Art. 26, § 3º, CDC) conta-se a partir do momento em que o defeito ficar evidenciado, e o fornecedor continua responsável pelo vício oculto durante toda a vida útil razoável do produto durável (não apenas durante o curto prazo da garantia contratual!), salvo desgaste natural normal ou mau uso!"
+        "text": "Pelo critério da vida útil do bem adotado pelo STJ, tratando-se de vício oculto, o prazo decadencial de 90 dias conta-se a partir do momento em que o defeito ficar evidenciado, e o fornecedor continua responsável pelo vício oculto durante toda a vida útil razoável do produto durável, salvo desgaste natural normal ou mau uso."
       },
       {
         "letter": "D",
-        "text": "O vício oculto transforma automaticamente o prazo de 90 dias em prazo prescricional de 5 anos."
+        "text": "O vício oculto transforma automaticamente o prazo de 90 dias em prazo prescricional de 5 anos, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "C",
@@ -4939,19 +4939,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É lícito cobrar tarifa telefônica especial 0300 para o consumidor reclamar ou cancelar serviço no SAC."
+        "text": "É lícito cobrar tarifa telefônica especial 0300 para o consumidor reclamar ou cancelar serviço no sac, com autorização para inversão do ônus da prova diante da verossimilhança ou hipossuficiência. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "Gratuidade absoluta do atendimento (sem ônus ao consumidor), disponibilidade contínua (24 horas/dia nos 7 dias da semana para atendimento telefônico ou multicanal conforme porte), fornecimento obrigatório de histórico/número de protocolo e gravação quando solicitada, proibição de veiculação de mensagens publicitárias durante o tempo de espera sem consentimento e prazo máximo de 7 (sete) dias corridos para resposta conclusiva às demandas registradas (com cancelamento de serviço processado imediatamente!)."
+        "text": "Gratuidade absoluta do atendimento, disponibilidade contínua, fornecimento obrigatório de histórico/número de protocolo e gravação quando solicitada, proibição de veiculação de mensagens publicitárias durante o tempo de espera sem consentimento e prazo máximo de 7 (sete) dias corridos para resposta conclusiva às demandas registradas."
       },
       {
         "letter": "C",
-        "text": "O pedido de cancelamento feito no SAC somente produz efeitos após 60 dias de análise interna."
+        "text": "O pedido de cancelamento feito no sac somente produz efeitos após 60 dias de análise interna, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "D",
-        "text": "A operadora não precisa fornecer número de protocolo nem guardar a gravação do atendimento."
+        "text": "A operadora não precisa fornecer número de protocolo nem guardar a gravação do atendimento, com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual."
       }
     ],
     "correctAnswer": "B",
@@ -4994,19 +4994,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Se o aposentado usou parte do dinheiro sem entender de onde veio o depósito, o empréstimo torna-se válido com juros contratuais integrais."
+        "text": "Se o aposentado usou parte do dinheiro sem entender de onde veio o depósito, o empréstimo torna-se válido com juros contratuais integrais, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "B",
-        "text": "Configura prática comercial abusiva gravíssima (Art. 39, III e IV, CDC — prevalecer-se da fraqueza/idade do consumidor e fornecer serviço sem solicitação prévia), gerando: (1) nulidade do contrato; (2) dano moral IN RE IPSA (presumido!) pelos descontos indevidos em verba alimentar previdenciária; e (3) repetição em dobro das parcelas descontadas (Art. 42, parágrafo único, CDC)! Quanto ao valor depositado sem pedido pelo banco, o STJ tem entendido que o consumidor devolve o principal recebido (sem juros/encargos) compensando-se na liquidação (ou aplica-se regra de vedação ao enriquecimento sem causa sobre o principal líquido depositado)."
+        "text": "Configura prática comercial abusiva gravíssima, gerando: nulidade do contrato; dano moral IN RE ipsa (presumido) pelos descontos indevidos em verba alimentar previdenciária; e repetição em dobro das parcelas descontadas."
       },
       {
         "letter": "C",
-        "text": "Os descontos indevidos em aposentadoria não geram dano moral se o banco devolver o valor simples depois da citação."
+        "text": "Os descontos indevidos em aposentadoria não geram dano moral se o banco devolver o valor simples depois da citação, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "D",
-        "text": "Aplica-se apenas o prazo decadencial de 30 dias para o idoso reclamar do empréstimo fraudulento."
+        "text": "Aplica-se apenas o prazo decadencial de 30 dias para o idoso reclamar do empréstimo fraudulento, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       }
     ],
     "correctAnswer": "B",
@@ -5049,19 +5049,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas as compras são regidas pelo Código de Defesa do Consumidor."
+        "text": "Ambas as compras são regidas pelo Código de Defesa do Consumidor, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "A compra feita por Pedro na revendedora profissional submete-se ao CDC (há fornecedor habitual + consumidor destinatário final): garantia legal obrigatória de 90 dias (Art. 26, II e § 3º — vedada cláusula \"vendido no estado\" para excluir garantia legal do Art. 24!). Já a compra feita por João junto ao vizinho particular NÃO é relação de consumo (falta fornecedor habitual), regendo-se exclusivamente pelo Código Civil (vícios redibitórios — Arts. 441 a 445 CC)!"
+        "text": "A compra feita por Pedro na revendedora profissional submete-se ao CDC: garantia legal obrigatória de 90 dias. Já a compra feita por João junto ao vizinho particular não é relação de consumo, regendo-se exclusivamente pelo Código Civil."
       },
       {
         "letter": "C",
-        "text": "A revendedora de carros usados pode colocar no contrato cláusula dizendo \"veículo vendido no estado em que se encontra, sem garantia de motor e câmbio\"."
+        "text": "A revendedora de carros usados pode colocar no contrato cláusula dizendo \"veículo vendido no estado em que se encontra, sem garantia de motor e câmbio\", com autorização para inversão do ônus da prova diante da verossimilhança ou hipossuficiência."
       },
       {
         "letter": "D",
-        "text": "Revendedora de veículos usados só tem obrigação de garantir carros com menos de 1 ano de fabricação."
+        "text": "Revendedora de veículos usados só tem obrigação de garantir carros com menos de 1 ano de fabricação, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       }
     ],
     "correctAnswer": "B",
@@ -5104,19 +5104,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O passageiro idoso que viaja com gratuidade constitucional não é protegido pelo CDC porque não pagou passagem."
+        "text": "O passageiro idoso que viaja com gratuidade constitucional não é protegido pelo CDC porque não pagou passagem. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "Todos os três (passageiro pagante, passageiro gratuito e ciclista atingido) são protegidos pelo CDC (os dois primeiros como consumidores diretos/equiparados do serviço público uti singuli e o ciclista como bystander — Art. 17 CDC)! Em regra, pela Súmula 187 do STF (e Art. 735 CC), a responsabilidade contratual do transportador pelos danos causados aos passageiros NÃO é elidida por culpa de terceiro, contra o qual tem ação regressiva (no acidente externo causado exclusivamente por terceiro sem defeito do ônibus, a jurisprudência do STJ diferencia o fortuito externo conforme as circunstâncias, mantendo a regra geral protetiva em falhas viárias/mecânicas)."
+        "text": "Todos os três são protegidos pelo CDC. Em regra (e Art. 735 CC), a responsabilidade contratual do transportador pelos danos causados aos passageiros não é elidida por culpa de terceiro, contra o qual tem ação regressiva."
       },
       {
         "letter": "C",
-        "text": "O ciclista atingido na calçada nunca pode invocar o CDC por não estar dentro do ônibus."
+        "text": "O ciclista atingido na calçada nunca pode invocar o CDC por não estar dentro do ônibus, com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar."
       },
       {
         "letter": "D",
-        "text": "A falha mecânica nos freios do ônibus isenta a empresa por configurar força maior."
+        "text": "A falha mecânica nos freios do ônibus isenta a empresa por configurar força maior, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "B",
@@ -5159,19 +5159,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A multa de R$ 1.000,00 por extravio da comanda de papel é válida e inquestionável."
+        "text": "A multa de R$ 1.000,00 por extravio da comanda de papel é válida e inquestionável, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito."
       },
       {
         "letter": "B",
-        "text": "TODAS as três são práticas abusivas no CDC! (1) A \"consumação mínima obrigatória\" disfarça venda casada e vantagem manifestamente excessiva (Art. 39, I e V — é lícito cobrar ingresso/entrada claramente informado, nunca obrigar a consumir mínimo de bebidas!); (2) o couvert artístico só é válido se previamente informado de modo claro e ostensivo (Art. 6º, III e Art. 31) e corresponder efetivamente à apresentação artística ao vivo (nunca telão/som ambiente); e (3) a multa abusiva por perda da comanda transfere indevidamente ao consumidor o ônus do controle comercial do fornecedor (Art. 39, V e Art. 51, IV — deve cobrar apenas o efetivamente consumido, apurado inclusive por sistemas internos do bar)!"
+        "text": "Todas as três são práticas abusivas no CDC. A \"consumação mínima obrigatória\" disfarça venda casada e vantagem manifestamente excessiva."
       },
       {
         "letter": "C",
-        "text": "A consumação mínima é lícita porque estimula o consumo de bebidas alcoólicas."
+        "text": "A consumação mínima é lícita porque estimula o consumo de bebidas alcoólicas. A responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista."
       },
       {
         "letter": "D",
-        "text": "Os 10% da taxa de serviço (gorjeta) podem ser cobrados compulsoriamente sem possibilidade de recusa do consumidor."
+        "text": "Os 10% da taxa de serviço (gorjeta) podem ser cobrados compulsoriamente sem possibilidade de recusa do consumidor, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "B",
@@ -5214,19 +5214,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A concessionária só responde se o usuário comprovar culpa exclusiva do dono do animal e acionar antes o proprietário rural."
+        "text": "A concessionária só responde se o usuário comprovar culpa exclusiva do dono do animal e acionar antes o proprietário rural, com proteção à legítima expectativa de segurança e adequação do produto no mercado. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       },
       {
         "letter": "B",
-        "text": "Sim! Segundo jurisprudência pacífica do STJ, aplica-se o CDC à relação entre o usuário e a concessionária de rodovia pedagiada (serviço público remunerado por tarifa), respondendo esta OBJETIVAMENTE (Art. 14 e Art. 22 do CDC e Art. 37, § 6º, CF) pelos acidentes causados por animais soltos na pista ou defeitos/buracos na via — pois o dever de vigilância, cercamento e conservação da rodovia é inerente ao contrato de concessão (fortuito interno)!"
+        "text": "Sim, segundo jurisprudência pacífica do STJ, aplica-se o CDC à relação entre o usuário e a concessionária de rodovia pedagiada, respondendo esta objetivamente pelos acidentes causados por animais soltos na pista ou defeitos/buracos na via — pois o dever de vigilância, cercamento e conservação da rodovia é inerente ao contrato de concessão (fortuito interno)."
       },
       {
         "letter": "C",
-        "text": "O pedágio tem natureza jurídica de imposto estadual, afastando a incidência do CDC."
+        "text": "O pedágio tem natureza jurídica de imposto estadual, afastando a incidência do CDC, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "Se o acidente ocorrer em rodovia gratuita sem pedágio nem concessão privada, também responde a concessionária."
+        "text": "Se o acidente ocorrer em rodovia gratuita sem pedágio nem concessão privada, também responde a concessionária, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       }
     ],
     "correctAnswer": "B",
@@ -5269,19 +5269,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O simples atraso de 1 dia em qualquer parcela resolve automática e instantaneamente a apólice sem aviso ao segurado."
+        "text": "O simples atraso de 1 dia em qualquer parcela resolve automática e instantaneamente a apólice sem aviso ao segurado, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "B",
-        "text": "Não! Pela Súmula 616 do STJ: \"A indenização securitária é devida quando ausente a comunicação prévia do segurado acerca do atraso no pagamento do prêmio, por constituir requisito essencial para a suspensão ou resolução do contrato de seguro.\" Da mesma forma, pela Súmula 465 STJ, ressalvada a hipótese de efetivo agravamento do risco, a seguradora NÃO se exime do dever de indenizar transferindo o veículo segurado para terceiro sem comunicação prévia (se não houve aumento do risco)!"
+        "text": "Não: \"A indenização securitária é devida quando ausente a comunicação prévia do segurado acerca do atraso no pagamento do prêmio, por constituir requisito essencial para a suspensão ou resolução do contrato de seguro.\" Da mesma forma, ressalvada a hipótese de efetivo agravamento do risco, a seguradora não se exime do dever de indenizar transferindo o veículo segurado para terceiro sem comunicação prévia."
       },
       {
         "letter": "C",
-        "text": "A simples venda ou transferência do veículo segurado a terceiro sem aviso prévio libera automaticamente a seguradora mesmo sem qualquer agravamento de risco."
+        "text": "A simples venda ou transferência do veículo segurado a terceiro sem aviso prévio libera automaticamente a seguradora mesmo sem qualquer agravamento de risco, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "D",
-        "text": "A embriaguez do condutor segurado nunca afasta o seguro de danos próprios ao veículo."
+        "text": "A embriaguez do condutor segurado nunca afasta o seguro de danos próprios ao veículo, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       }
     ],
     "correctAnswer": "B",
@@ -5325,19 +5325,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O fornecedor pode impor unilateralmente crédito válido por 6 meses em sua loja em lugar de devolver o dinheiro."
+        "text": "O fornecedor pode impor unilateralmente crédito válido por 6 meses em sua loja em lugar de devolver o dinheiro, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       },
       {
         "letter": "B",
-        "text": "Não! Cancelado o serviço contratado por fato atribuível ao fornecedor (ou frustrado o cumprimento da oferta), o consumidor tem o direito potestativo (Arts. 20, II e 35, III, CDC) de exigir a restituição IMEDIATA da quantia paga, monetariamente atualizada (incluindo taxa de conveniência caso o evento não ocorra ou em venda casada de taxa não transparente!), não podendo ser obrigado a aceitar crédito/voucher para outro show!"
+        "text": "Não, cancelado o serviço contratado por fato atribuível ao fornecedor, o consumidor tem o direito potestativo de exigir a restituição imediata da quantia paga, monetariamente atualizada, não podendo ser obrigado a aceitar crédito/voucher para outro show."
       },
       {
         "letter": "C",
-        "text": "A taxa de conveniência na compra online de ingressos é sempre abusiva mesmo quando informada com transparência prévia e escolha alternativa gratuita."
+        "text": "A taxa de conveniência na compra online de ingressos é sempre abusiva mesmo quando informada com transparência prévia e escolha alternativa gratuita, com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro."
       },
       {
         "letter": "D",
-        "text": "A produtora de eventos não é fornecedora se contratar terceiros para iluminação e palco."
+        "text": "A produtora de eventos não é fornecedora se contratar terceiros para iluminação e palco, com proteção à legítima expectativa de segurança e adequação do produto no mercado. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado."
       }
     ],
     "correctAnswer": "B",
@@ -5380,19 +5380,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O consumidor deve obrigatoriamente habilitar-se na comarca sede onde tramitou a Ação Civil Pública, ainda que em outro Estado."
+        "text": "O consumidor deve obrigatoriamente habilitar-se na comarca sede onde tramitou a Ação Civil Pública, ainda que em outro Estado, com autorização para inversão do ônus da prova diante da verossimilhança ou hipossuficiência."
       },
       {
         "letter": "B",
-        "text": "Pelo precedente vinculante do STJ (Tema 515 / REsp 1.243.887), a liquidação e execução individual de sentença genérica proferida em ação coletiva pode ser ajuizada no FORO DO DOMICÍLIO DO PRÓPRIO CONSUMIDOR beneficiário (não ficando restrita ao juízo de origem da ação coletiva!), e o prazo prescricional para a execução individual é de 5 (cinco) anos contados do trânsito em julgado da sentença coletiva (Súmula 150 STF aplicada por analogia ao prazo da Ação Popular/CDC)!"
+        "text": "Pelo precedente vinculante do STJ, a liquidação e execução individual de sentença genérica proferida em ação coletiva pode ser ajuizada no foro do domicílio do próprio consumidor beneficiário, e o prazo prescricional para a execução individual é de 5 (cinco) anos contados do trânsito em julgado da sentença coletiva."
       },
       {
         "letter": "C",
-        "text": "A execução individual da sentença coletiva prescreve em 1 ano."
+        "text": "A execução individual da sentença coletiva prescreve em 1 ano, com proteção à legítima expectativa de segurança e adequação do produto no mercado."
       },
       {
         "letter": "D",
-        "text": "A sentença genérica coletiva já fixa o valor exato em reais devido a cada consumidor individualmente."
+        "text": "A sentença genérica coletiva já fixa o valor exato em reais devido a cada consumidor individualmente, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       }
     ],
     "correctAnswer": "B",
@@ -5435,19 +5435,19 @@ export const CONSUMIDOR_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É plenamente lícita sem qualquer aviso, pois cabe ao consumidor conferir na balança do supermercado antes de passar no caixa."
+        "text": "É plenamente lícita sem qualquer aviso, pois cabe ao consumidor conferir na balança do supermercado antes de passar no caixa. Tal critério define o alcance dos deveres anexos de informação e segurança ao destinatário."
       },
       {
         "letter": "B",
-        "text": "Trata-se de prática enganosa/abusiva por violação aos Arts. 6º, III, 31 e 37, § 1º, do CDC (e Portaria MJSP nº 392/2021): a alteração quantitativa de produto embalado sem comunicação clara, precisa e ostensiva na parte frontal da embalagem (informando quantidade anterior, atual e redução em porcentagem e gramas pelo prazo mínimo exigido) induz o consumidor a erro!"
+        "text": "Trata-se de prática enganosa/abusiva por violação aos Arts. 6º, III, 31 e 37, § 1º, do CDC: a alteração quantitativa de produto embalado sem comunicação clara, precisa e ostensiva na parte frontal da embalagem induz o consumidor a erro."
       },
       {
         "letter": "C",
-        "text": "Só é ilícita se o produto tiver prazo de validade vencido."
+        "text": "Só é ilícita se o produto tiver prazo de validade vencido, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema."
       },
       {
         "letter": "D",
-        "text": "Basta colocar o peso novo em fonte tamanho 4 escondido na parte interna da tampa."
+        "text": "Basta colocar o peso novo em fonte tamanho 4 escondido na parte interna da tampa, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo."
       }
     ],
     "correctAnswer": "B",

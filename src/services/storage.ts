@@ -1,4 +1,4 @@
-import { UserStudyData, SimuladoResult, LegalQuestion } from '../types';
+import { UserStudyData, SimuladoResult, LegalQuestion, SubjectStudyGoal } from '../types';
 import { getAllQuestions } from './questionsService';
 
 const STORAGE_KEY = 'jurismenor_user_study_data_v1';
@@ -9,6 +9,7 @@ const DEFAULT_DATA: UserStudyData = {
   bookmarkedQuestionIds: [],
   completedScheduleDays: {},
   flashcardStatus: {},
+  subjectGoals: {},
   activePlanId: 'oab_30_dias',
   lastActiveDate: new Date().toISOString().split('T')[0],
   streakDays: 1,
@@ -113,6 +114,77 @@ export const updateFlashcardMastery = (cardId: string, mastered: boolean): void 
     reviews: current.reviews + 1
   };
   saveStoredStudyData(data);
+};
+
+const CORE_OAB_SUBJECTS = new Set([
+  'Direito Constitucional',
+  'Direito Civil',
+  'Direito Processual Civil',
+  'Direito Penal',
+  'Direito Processual Penal',
+  'Direito Administrativo',
+  'Direito do Trabalho',
+]);
+
+export const getDefaultGoalForSubject = (subject: string): SubjectStudyGoal => {
+  if (subject === 'Ética Profissional e Estatuto da OAB') {
+    return { dailyQuestions: 20, dailyMinutes: 60 };
+  }
+  if (CORE_OAB_SUBJECTS.has(subject)) {
+    return { dailyQuestions: 15, dailyMinutes: 45 };
+  }
+  return { dailyQuestions: 10, dailyMinutes: 30 };
+};
+
+const clampGoal = (goal: SubjectStudyGoal): SubjectStudyGoal => ({
+  dailyQuestions: Math.max(1, Math.min(100, Math.round(Number(goal.dailyQuestions) || 10))),
+  dailyMinutes: Math.max(5, Math.min(360, Math.round(Number(goal.dailyMinutes) || 30))),
+});
+
+export const getEffectiveSubjectGoal = (data: UserStudyData, subject: string): SubjectStudyGoal => {
+  const custom = data.subjectGoals?.[subject];
+  if (custom) {
+    return clampGoal(custom);
+  }
+  return getDefaultGoalForSubject(subject);
+};
+
+export const saveSubjectGoal = (subject: string, goal: SubjectStudyGoal): UserStudyData => {
+  const data = getStoredStudyData();
+  const nextGoals = {
+    ...(data.subjectGoals || {}),
+    [subject]: clampGoal(goal),
+  };
+  const updated: UserStudyData = {
+    ...data,
+    subjectGoals: nextGoals,
+  };
+  saveStoredStudyData(updated);
+  return updated;
+};
+
+export const saveAllSubjectGoals = (goals: Record<string, SubjectStudyGoal>): UserStudyData => {
+  const data = getStoredStudyData();
+  const sanitized: Record<string, SubjectStudyGoal> = {};
+  Object.entries(goals).forEach(([subject, g]) => {
+    sanitized[subject] = clampGoal(g);
+  });
+  const updated: UserStudyData = {
+    ...data,
+    subjectGoals: sanitized,
+  };
+  saveStoredStudyData(updated);
+  return updated;
+};
+
+export const resetSubjectGoals = (): UserStudyData => {
+  const data = getStoredStudyData();
+  const updated: UserStudyData = {
+    ...data,
+    subjectGoals: {},
+  };
+  saveStoredStudyData(updated);
+  return updated;
 };
 
 export const getGlobalPerformanceStats = (data: UserStudyData) => {

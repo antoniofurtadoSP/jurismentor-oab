@@ -17,11 +17,11 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No silêncio da lei, ela entra em vigor imediatamente na data de sua publicação no Diário Oficial."
+        "text": "No silêncio da lei, ela entra em vigor imediatamente na data de sua publicação no Diário Oficial, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "B",
-        "text": "A republicação para correção após a lei já ter entrado em vigor não é considerada lei nova em relação às alterações substanciais."
+        "text": "A republicação para correção após a lei já ter entrado em vigor não é considerada lei nova em relação às alterações substanciais, com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores."
       },
       {
         "letter": "C",
@@ -29,7 +29,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Salvo disposição contrária, a lei começa a vigorar no país 45 dias depois de oficialmente publicada (e 3 meses após a publicação oficial nos Estados estrangeiros); havendo nova publicação de texto antes de entrar em vigor destinada à correção, o prazo de vacatio legis começa a correr da NOVA publicação quanto às disposições alteradas (Art. 1º, §§ 1º e 3º, LINDB)."
+        "text": "Salvo disposição contrária, a lei começa a vigorar no país 45 dias depois de oficialmente publicada."
       }
     ],
     "correctAnswer": "D",
@@ -72,19 +72,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O nascituro não possui direito à reparação por danos morais se o pai falecer antes do seu nascimento com vida."
+        "text": "O nascituro não possui direito à reparação por danos morais se o pai falecer antes do seu nascimento com vida, sem possibilidade de modificação unilateral das obrigações contratuais sem anuência expressa."
       },
       {
         "letter": "B",
-        "text": "A publicação de biografia de pessoa pública exige autorização prévia e escrita do biografado sob pena de censura judicial prévia pelo Art. 20 do CC."
+        "text": "A publicação de biografia de pessoa pública exige autorização prévia e escrita do biografado sob pena de censura judicial prévia, com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado."
       },
       {
         "letter": "C",
-        "text": "Os direitos da personalidade são livremente renunciáveis e transmissíveis por contrato oneroso entre maiores capazes."
+        "text": "Os direitos da personalidade são livremente renunciáveis e transmissíveis por contrato oneroso entre maiores capazes, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "D",
-        "text": "A personalidade civil começa do nascimento com vida, mas a lei põe a salvo desde a concepção os direitos do nascituro (reconhecendo o STJ legitimidade do nascituro para danos morais pela morte do pai e alimentos gravídicos); quanto às biografias, o STF na ADI 4.815 declarou INEXIGÍVEL a autorização prévia do biografado para publicação de obras biográficas literárias ou audiovisuais."
+        "text": "A personalidade civil começa do nascimento com vida, mas a lei põe a salvo desde a concepção os direitos do nascituro; quanto às biografias, o STF na ADI 4.815 declarou inexigível a autorização prévia do biografado para publicação de obras biográficas literárias ou audiovisuais."
       }
     ],
     "correctAnswer": "D",
@@ -128,19 +128,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os menores de 16 anos e as pessoas que, por enfermidade ou deficiência mental, não tiverem o necessário discernimento para os atos civis."
+        "text": "Os menores de 16 anos e as pessoas que, por enfermidade ou deficiência mental, não tiverem o necessário discernimento para os atos civis. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "B",
-        "text": "Os pródigos e os ébrios habituais continuam classificados como absolutamente incapazes no Código Civil."
+        "text": "Os pródigos e os ébrios habituais continuam classificados como absolutamente incapazes no Código Civil, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "C",
-        "text": "A pessoa com deficiência intelectual submetida à curatela perde também o direito de casar e de constituir união estável."
+        "text": "A pessoa com deficiência intelectual submetida à curatela perde também o direito de casar e de constituir união estável, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "D",
-        "text": "Apenas os menores de 16 anos são absolutamente incapazes (Art. 3º CC); pessoas com deficiência mental ou intelectual têm plena capacidade civil em regra (salvo eventual curatela restrita a atos patrimoniais e negociais como relativamente incapazes, se não puderem exprimir vontade — Art. 4º, III)."
+        "text": "Apenas os menores de 16 anos são absolutamente incapazes; pessoas com deficiência mental ou intelectual têm plena capacidade civil em regra."
       }
     ],
     "correctAnswer": "D",
@@ -183,19 +183,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, a emancipação voluntária extingue imediatamente toda e qualquer responsabilidade civil dos pais pelos atos ilícitos do menor."
+        "text": "Sim, a emancipação voluntária extingue imediatamente toda e qualquer responsabilidade civil dos pais pelos atos ilícitos do menor, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "B",
-        "text": "A colação de grau em curso de ensino superior ou o casamento válido só emancipam o menor se houver prévia concordância por escritura pública dos pais."
+        "text": "A colação de grau em curso de ensino superior ou o casamento válido só emancipam o menor se houver prévia concordância por escritura pública dos pais, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "C",
-        "text": "A emancipação voluntária exige necessariamente sentença judicial com oitiva do Ministério Público mesmo quando ambos os pais concordam e o menor tem 16 anos."
+        "text": "A emancipação voluntária exige necessariamente sentença judicial com oitiva do Ministério Público mesmo quando ambos os pais concordam e o menor tem 16 anos, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "D",
-        "text": "Não afasta, pois segundo jurisprudência pacífica do STJ e STF, a emancipação VOLUNTÁRIA concedida pelos pais não exclui a responsabilidade civil dos genitores pelos atos ilícitos praticados pelo filho menor emancipado (diferente da emancipação legal ou judicial, e sem prejuízo de continuar exigindo 18 anos para CNH)."
+        "text": "Não afasta, pois segundo jurisprudência pacífica do STJ e STF, a emancipação voluntária concedida pelos pais não exclui a responsabilidade civil dos genitores pelos atos ilícitos praticados pelo filho menor emancipado."
       }
     ],
     "correctAnswer": "D",
@@ -238,19 +238,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A sucessão definitiva só pode ser requerida após 20 anos contados da sentença da sucessão provisória."
+        "text": "A sucessão definitiva só pode ser requerida após 20 anos contados da sentença da sucessão provisória, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "B",
-        "text": "Se o ausente deixou procurador constituído antes de desaparecer, a sucessão provisória abre-se igualmente após 1 ano."
+        "text": "Se o ausente deixou procurador constituído antes de desaparecer, a sucessão provisória abre-se igualmente após 1 ano, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "C",
-        "text": "Na sucessão provisória, os herdeiros adquirem a propriedade plena imediata e podem vender livremente todos os imóveis do ausente sem garantia."
+        "text": "Na sucessão provisória, os herdeiros adquirem a propriedade plena imediata e podem vender livremente todos os imóveis do ausente sem garantia, com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado."
       },
       {
         "letter": "D",
-        "text": "Poderão requerer a sucessão definitiva 10 ANOS depois de passada em julgado a sentença que concedeu a abertura da sucessão provisória (Art. 37 CC), OU provando-se que o ausente conta 80 ANOS de idade e que de 5 anos datam as últimas notícias dele (Art. 38 CC)."
+        "text": "Poderão requerer a sucessão definitiva 10 anos depois de passada em julgado a sentença que concedeu a abertura da sucessão provisória, ou provando-se que o ausente conta 80 anos de idade e que de 5 anos datam as últimas notícias dele."
       }
     ],
     "correctAnswer": "D",
@@ -293,19 +293,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Procede, porque a simples insolvência da devedora já autoriza a desconsideração pela Teoria Maior do Art. 50 do Código Civil."
+        "text": "Procede, porque a simples insolvência da devedora já autoriza a desconsideração pela Teoria Maior. Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes."
       },
       {
         "letter": "B",
-        "text": "O desvio de finalidade caracteriza-se pela mera expansão legítima da empresa para novo ramo comercial não previsto originalmente."
+        "text": "O desvio de finalidade caracteriza-se pela mera expansão legítima da empresa para novo ramo comercial não previsto originalmente, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional. A solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias."
       },
       {
         "letter": "C",
-        "text": "Não se admite no ordenamento brasileiro a desconsideração inversa da personalidade jurídica para atingir bens da sociedade por dívida pessoal do sócio."
+        "text": "Não se admite no ordenamento brasileiro a desconsideração inversa da personalidade jurídica para atingir bens da sociedade por dívida pessoal do sócio, com impedimento à compensação ou repetição dos valores prestados na relação negocial."
       },
       {
         "letter": "D",
-        "text": "Não procede, pois a desconsideração da personalidade jurídica no Código Civil exige ABUSO DA PERSONALIDADE JURÍDICA, caracterizado pelo DESVIO DE FINALIDADE ou pela CONFUSÃO PATRIMONIAL (Art. 50, caput), declarando expressamente o § 4º que a mera existência de grupo econômico SEM a presença desses requisitos NÃO autoriza a desconsideração."
+        "text": "Não procede, pois a desconsideração da personalidade jurídica no Código Civil exige abuso da personalidade jurídica, caracterizado pelo desvio de finalidade ou pela confusão patrimonial, declarando expressamente o § 4º que a mera existência de grupo econômico sem a presença desses requisitos não autoriza a desconsideração."
       }
     ],
     "correctAnswer": "D",
@@ -348,19 +348,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os tratores acompanham automaticamente a venda da fazenda por força absoluta do princípio de que o acessório segue o principal."
+        "text": "Os tratores acompanham automaticamente a venda da fazenda por força absoluta do princípio de que o acessório segue o principal, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "B",
-        "text": "O direito à sucessão aberta (herança) composta exclusivamente por automóveis e dinheiro é classificado como bem móvel pelo Código Civil."
+        "text": "O direito à sucessão aberta (herança) composta exclusivamente por automóveis e dinheiro é classificado como bem móvel pelo Código Civil, com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado."
       },
       {
         "letter": "C",
-        "text": "A pintura artística decorativa feita para mero deleite na sede configura benfeitoria útil, garantindo direito de retenção ao possuidor de boa-fé."
+        "text": "A pintura artística decorativa feita para mero deleite na sede configura benfeitoria útil, garantindo direito de retenção ao possuidor de boa-fé, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "D",
-        "text": "Os tratores e máquinas agrícolas são PERTENÇAS (bens que, não constituindo partes integrantes, destinam-se de modo duradouro ao uso, serviço ou aformoseamento de outro — Art. 93 CC) e, em regra, os negócios jurídicos que dizem respeito ao bem principal NÃO abrangem as pertenças, salvo se o contrário resultar da lei, da manifestação de vontade ou das circunstâncias (Art. 94 CC — princípio da gravitação jurídica NÃO se aplica automaticamente às pertenças!)."
+        "text": "Os tratores e máquinas agrícolas são pertenças e, em regra, os negócios jurídicos que dizem respeito ao bem principal não abrangem as pertenças, salvo se o contrário resultar da lei, da manifestação de vontade ou das circunstâncias."
       }
     ],
     "correctAnswer": "D",
@@ -403,19 +403,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos os vícios (lesão e estado de perigo) acarretam a NULIDADE ABSOLUTA e imprescritível do negócio jurídico."
+        "text": "Ambos os vícios (lesão e estado de perigo) acarretam a nulidade absoluta e imprescritível do negócio jurídico, com impedimento à compensação ou repetição dos valores prestados na relação negocial. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "B",
-        "text": "A coação exercida por terceiro estranho ao negócio anula o negócio ainda que a parte beneficiada dela não tivesse nem devesse ter conhecimento."
+        "text": "A coação exercida por terceiro estranho ao negócio anula o negócio ainda que a parte beneficiada dela não tivesse nem devesse ter conhecimento, com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores."
       },
       {
         "letter": "C",
-        "text": "O dolo acidental (aquele sem o qual o negócio seria realizado, mas de outro modo) acarreta a anulação integral do negócio jurídico."
+        "text": "O dolo acidental (aquele sem o qual o negócio seria realizado, mas de outro modo) acarreta a anulação integral do negócio jurídico, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor."
       },
       {
         "letter": "D",
-        "text": "A situação (A) é LESÃO (Art. 157 — não exige conhecimento nem dolo de aproveitamento pela outra parte, apenas premente necessidade ou inexperiência); a situação (B) é ESTADO DE PERIGO (Art. 156 — exige risco de grave dano conhecido pela outra parte). Ambos tornam o negócio ANULÁVEL em 4 anos (Art. 178, II), e na Lesão não se decretará a anulação se for oferecido suplemento suficiente ou se a parte favorecida concordar com a redução do proveito (Art. 157, § 2º — aplicando-se também ao Estado de Perigo por enunciado doutrinário)."
+        "text": "A situação (A) é lesão; a situação (B) é estado de perigo. Ambos tornam o negócio anulável em 4 anos, e na Lesão não se decretará a anulação se for oferecido suplemento suficiente ou se a parte favorecida concordar com a redução do proveito."
       }
     ],
     "correctAnswer": "D",
@@ -458,19 +458,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na doação gratuita praticada por devedor insolvente, o credor deve provar a má-fé (consilium fraudis) do irmão donatário para anular o ato pela ação pauliana."
+        "text": "Na doação gratuita praticada por devedor insolvente, o credor deve provar a má-fé (consilium fraudis) do irmão donatário para anular o ato pela ação pauliana, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual."
       },
       {
         "letter": "B",
-        "text": "A ação pauliana exige que o crédito do credor quirografário tenha sido constituído após a doação fraudulenta."
+        "text": "A ação pauliana exige que o crédito do credor quirografário tenha sido constituído após a doação fraudulenta, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "C",
-        "text": "A sentença procedente da ação pauliana declara a nulidade absoluta erga omnes do negócio jurídico e devolve o imóvel ao patrimônio do credor vencedor."
+        "text": "A sentença procedente da ação pauliana declara a nulidade absoluta erga omnes do negócio jurídico e devolve o imóvel ao patrimônio do credor vencedor, sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral."
       },
       {
         "letter": "D",
-        "text": "O primeiro caso configura FRAUDE CONTRA CREDORES (vício social do Art. 158 CC, impugnável por AÇÃO PAULIANA em 4 anos, dispensando consilium fraudis por ser negócio gratuito/doação); no segundo caso, para caracterizar FRAUDE À EXECUÇÃO de bem imóvel não sujeito à penhora registrada, exige-se o registro da penhora na matrícula OU prova da má-fé do terceiro adquirente pelo exequente (Súmula 375 STJ)."
+        "text": "O primeiro caso configura fraude contra credores; no segundo caso, para caracterizar fraude à execução de bem imóvel não sujeito à penhora registrada, exige-se o registro da penhora na matrícula ou prova da má-fé do terceiro adquirente pelo exequente."
       }
     ],
     "correctAnswer": "D",
@@ -514,19 +514,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todas as ações de reparação civil — tanto contratuais quanto extracontratuais — prescrevem igualmente em 3 anos segundo a jurisprudência atual do STJ."
+        "text": "Todas as ações de reparação civil — tanto contratuais quanto extracontratuais — prescrevem igualmente em 3 anos segundo a jurisprudência atual do STJ, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "B",
-        "text": "A interrupção da prescrição pode ser renovada quantas vezes o credor desejar mediante novos protestos extrajudiciais sucessivos."
+        "text": "A interrupção da prescrição pode ser renovada quantas vezes o credor desejar mediante novos protestos extrajudiciais sucessivos, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "C",
-        "text": "Respectivamente: 3 anos para aluguéis (Art. 206, § 3º, I); 3 anos para reparação civil extracontratual ou contratual (Art. 206, § 3º, V — atenção: o STJ pacificou que reparação por inadimplemento contratual segue o prazo decenal do Art. 205, e responsabilidade extracontratual o trienal do Art. 206, § 3º, V!); 5 anos para cobrança de dívidas líquidas em instrumento público/particular (Art. 206, § 5º, I); e 10 anos quando a lei não fixar prazo menor (Art. 205 CC)."
+        "text": "Respectivamente: 3 anos para aluguéis; 3 anos para reparação civil extracontratual ou contratual; 5 anos para cobrança de dívidas líquidas em instrumento público/particular; e 10 anos quando a lei não fixar prazo menor."
       },
       {
         "letter": "D",
-        "text": "A prescrição corre normalmente contra os absolutamente incapazes e entre cônjuges durante a constância da sociedade conjugal."
+        "text": "A prescrição corre normalmente contra os absolutamente incapazes e entre cônjuges durante a constância da sociedade conjugal, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       }
     ],
     "correctAnswer": "C",
@@ -570,19 +570,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na solidariedade passiva, perdoada a dívida de um só devedor, o credor ainda pode cobrar os R$ 90.000,00 integrais dos outros dois devedores."
+        "text": "Na solidariedade passiva, perdoada a dívida de um só devedor, o credor ainda pode cobrar os R$ 90.000,00 integrais dos outros dois devedores. Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes."
       },
       {
         "letter": "B",
-        "text": "Impossibilitando-se a prestação por culpa de um dos devedores solidários, todos respondem solidariamente pelas perdas e danos suplementares."
+        "text": "Impossibilitando-se a prestação por culpa de um dos devedores solidários, todos respondem solidariamente pelas perdas e danos suplementares, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "C",
-        "text": "A remissão obtida por um codevedor só exonera a sua própria quota-parte (R$ 30.000,00), não podendo o credor cobrar os outros codevedores senão deduzindo a parte remitida (cobrando apenas R$ 60.000,00 — Art. 277 CC); quanto à mora/culpa de um dos devedores solidários, TODOS respondem pelos juros de mora (Art. 280), mas pelas PERDAS E DANOS suplementares responde APENAS O CULPADO (Art. 279 CC)!"
+        "text": "A remissão obtida por um codevedor só exonera a sua própria quota-parte (R$ 30.000,00), não podendo o credor cobrar os outros codevedores senão deduzindo a parte remitida."
       },
       {
         "letter": "D",
-        "text": "A solidariedade presume-se sempre que houver dois ou mais devedores no mesmo contrato de prestação de serviços."
+        "text": "A solidariedade presume-se sempre que houver dois ou mais devedores no mesmo contrato de prestação de serviços, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual."
       }
     ],
     "correctAnswer": "C",
@@ -625,7 +625,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O terceiro não interessado que paga em seu próprio nome sub-roga-se legalmente com todas as hipotecas e garantias do credor."
+        "text": "O terceiro não interessado que paga em seu próprio nome sub-roga-se legalmente com todas as hipotecas e garantias do credor, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "B",
@@ -633,7 +633,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O terceiro não interessado que paga em seu próprio nome tem direito apenas ao REEMBOLSO do que pagar, mas NÃO se sub-roga nos direitos/garantias do credor (Art. 305 CC — se pagar em nome e à conta do devedor, nada pode cobrar salvo liberalidade/gestão); já na DAÇÃO EM PAGAMENTO, se o credor for evicto da coisa recebida em pagamento, RESTABELECE-SE a obrigação primitiva, ficando sem efeito a quitação dada, ressalvados os direitos de terceiros (Art. 359 CC)."
+        "text": "O terceiro não interessado que paga em seu próprio nome tem direito apenas ao reembolso do que pagar, mas não se sub-roga nos direitos/garantias do credor."
       },
       {
         "letter": "D",
@@ -688,11 +688,11 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Não pode cumular integralmente ambos os institutos com idêntica função reparatória sob pena de bis in idem (STJ — deve optar pela cláusula penal ou pela devolução das arras em dobro, vedada a cumulação punitiva); ademais, pelo Art. 412 do CC, o valor da cominação imposta na cláusula penal NÃO pode exceder o da obrigação principal, devendo ser reduzida equitativamente se a obrigação foi cumprida em parte ou for manifestamente excessiva (Art. 413 CC)."
+        "text": "Não pode cumular integralmente ambos os institutos com idêntica função reparatória sob pena de bis in idem."
       },
       {
         "letter": "D",
-        "text": "A cláusula penal moratória impede o credor de exigir simultaneamente o cumprimento da obrigação principal."
+        "text": "A cláusula penal moratória impede o credor de exigir simultaneamente o cumprimento da obrigação principal, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       }
     ],
     "correctAnswer": "C",
@@ -735,19 +735,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Havendo cláusula expressa excluindo a garantia da evicção no contrato, o comprador que desconhecia o risco perde totalmente até o direito de receber de volta o preço pago."
+        "text": "Havendo cláusula expressa excluindo a garantia da evicção no contrato, o comprador que desconhecia o risco perde totalmente até o direito de receber de volta o preço pago, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "B",
-        "text": "O prazo decadencial para reclamar de vício redibitório em bens imóveis no Código Civil é de 30 dias a contar da entrega."
+        "text": "O prazo decadencial para reclamar de vício redibitório em bens imóveis no Código Civil é de 30 dias a contar da entrega, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "C",
-        "text": "No vício oculto do câmbio, configura VÍCIO REDIBITÓRIO (Art. 441 CC), cabendo ações edilícias (redibitória para rejeitar a coisa ou estimatória/quanti minoris para abatimento do preço) no prazo decadencial de 30 dias para bem móvel (ou 1 ano se imóvel — Art. 445, contando-se da ciência quando o vício só puder ser conhecido depois até o máximo de 180 dias para móvel); na EVICÇÃO, a cláusula que exclui a garantia sem que o evicto soubesse do risco específico ou o tenha assumido NÃO afasta o direito de receber de volta o preço pago (Art. 449 CC)."
+        "text": "No vício oculto do câmbio, configura vício redibitório, cabendo ações edilícias no prazo decadencial de 30 dias para bem móvel; na evicção, a cláusula que exclui a garantia sem que o evicto soubesse do risco específico ou o tenha assumido não afasta o direito de receber de volta o preço pago."
       },
       {
         "letter": "D",
-        "text": "A evicção só garante indenização se a perda da posse decorrer de sentença judicial proferida com trânsito em julgado, jamais por apreensão administrativa policial de veículo roubado."
+        "text": "A evicção só garante indenização se a perda da posse decorrer de sentença judicial proferida com trânsito em julgado, jamais por apreensão administrativa policial de veículo roubado, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       }
     ],
     "correctAnswer": "C",
@@ -790,19 +790,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A venda de ascendente a descendente sem anuência dos demais herdeiros é NULA de pleno direito e imprescritível."
+        "text": "A venda de ascendente a descendente sem anuência dos demais herdeiros é nula de pleno direito e imprescritível, sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral."
       },
       {
         "letter": "B",
-        "text": "O cônjuge do alienante precisa consentir na venda para o descendente ainda que o regime de bens seja o da separação obrigatória de bens."
+        "text": "O cônjuge do alienante precisa consentir na venda para o descendente ainda que o regime de bens seja o da separação obrigatória de bens, com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado."
       },
       {
         "letter": "C",
-        "text": "A venda de ascendente a descendente sem o expresso consentimento dos outros descendentes e do cônjuge do alienante é ANULÁVEL no prazo decadencial de 2 ANOS a contar da conclusão do ato (Art. 496 e Art. 179 CC + Súmula 494 STF); quanto à fazenda com área enunciada como meramente referencial e preço global, presume-se VENDA AD CORPUS (e ainda que fosse ad mensuram, a diferença de 4% estaria dentro da tolerância legal de 1/20 = 5% prevista no Art. 500, § 1º, do CC)."
+        "text": "A venda de ascendente a descendente sem o expresso consentimento dos outros descendentes e do cônjuge do alienante é anulável no prazo decadencial de 2 anos a contar da conclusão do ato; quanto à fazenda com área enunciada como meramente referencial e preço global, presume-se venda ad corpus."
       },
       {
         "letter": "D",
-        "text": "Na venda ad mensuram com área faltante superior a 5%, o comprador só pode exigir o desfazimento do negócio, não podendo pedir abatimento proporcional ou complemento da área."
+        "text": "Na venda ad mensuram com área faltante superior a 5%, o comprador só pode exigir o desfazimento do negócio, não podendo pedir abatimento proporcional ou complemento da área. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       }
     ],
     "correctAnswer": "C",
@@ -846,7 +846,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A doação inoficiosa torna integralmente nulo todo o contrato de doação, revertendo 100% do bem ao patrimônio do doador."
+        "text": "A doação inoficiosa torna integralmente nulo todo o contrato de doação, revertendo 100% do bem ao patrimônio do doador, com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores."
       },
       {
         "letter": "B",
@@ -854,11 +854,11 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A primeira doação é NULA quanto à parte que exceder a metade disponível que o doador poderia dispor em testamento no momento da liberalidade (20% excedente — DOAÇÃO INOFICIOSA, Art. 549 CC); na segunda hipótese, o doador pode REVOGAR a doação por INGRATIDÃO do donatário no prazo decadencial de 1 ANO a contar do conhecimento do fato (Arts. 555 e 559 CC — direito personalíssimo que não se renuncia antecipadamente)."
+        "text": "A primeira doação é nula quanto à parte que exceder a metade disponível que o doador poderia dispor em testamento no momento da liberalidade."
       },
       {
         "letter": "D",
-        "text": "O prazo para propor ação revocatória de doação por ingratidão é de 4 anos a contar da celebração da escritura pública."
+        "text": "O prazo para propor ação revocatória de doação por ingratidão é de 4 anos a contar da celebração da escritura pública, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       }
     ],
     "correctAnswer": "C",
@@ -901,19 +901,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É nula a cláusula contratual que proíbe a indenização ou retenção por benfeitorias necessárias em contratos de locação urbana."
+        "text": "É nula a cláusula contratual que proíbe a indenização ou retenção por benfeitorias necessárias em contratos de locação urbana, com impedimento à compensação ou repetição dos valores prestados na relação negocial."
       },
       {
         "letter": "B",
-        "text": "O bem de família pertencente ao fiador em contrato de locação comercial é absolutamente impenhorável por força do direito fundamental à moradia."
+        "text": "O bem de família pertencente ao fiador em contrato de locação comercial é absolutamente impenhorável por força do direito fundamental à moradia, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "C",
-        "text": "É PROIBIDA a exigência de mais de uma modalidade de garantia no mesmo contrato de locação (Art. 37, parágrafo único — nula a dupla garantia); a cláusula de renúncia à indenização e retenção por benfeitorias é VÁLIDA na locação (Súmula 335 STJ); a penhora do único imóvel residencial (bem de família) do FIADOR de locação residencial ou comercial é CONSTITUCIONAL (Tema 1127 STF e Súmula 549 STJ); e sem averbação do contrato na matrícula até 30 dias antes da alienação, o locatário preterido no direito de preferência só tem direito a PERDAS E DANOS, NÃO à adjudicação do imóvel (Art. 33 Lei 8.245/91)."
+        "text": "É proibida a exigência de mais de uma modalidade de garantia no mesmo contrato de locação; a cláusula de renúncia à indenização e retenção por benfeitorias é válida na locação; a penhora do único imóvel residencial (bem de família) do fiador de locação residencial ou comercial é constitucional; e sem averbação do contrato na matrícula até 30 dias antes da alienação, o locatário preterido no direito de preferência só tem direito a perdas e danos, não à adjudicação do imóvel."
       },
       {
         "letter": "D",
-        "text": "Mesmo sem registro ou averbação do contrato na matrícula imobiliária, o locatário preterido pode sempre anular a venda e adjudicar o imóvel depositando o preço em 6 meses."
+        "text": "Mesmo sem registro ou averbação do contrato na matrícula imobiliária, o locatário preterido pode sempre anular a venda e adjudicar o imóvel depositando o preço em 6 meses, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       }
     ],
     "correctAnswer": "C",
@@ -961,15 +961,15 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Na responsabilidade civil contratual, os juros moratórios fluem a partir da data do evento danoso conforme a Súmula 54 do STJ."
+        "text": "Na responsabilidade civil contratual, os juros moratórios fluem a partir da data do evento danoso, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "C",
-        "text": "No contrato de transporte de passageiros, o fato exclusivo de terceiro (motorista que avançou o sinal causando colisão externa) NÃO rompe a responsabilidade objetiva do transportador perante o passageiro (Súmula 187 STF — o transportador indeniza o passageiro e tem ação regressiva contra o terceiro causador, salvo se for evento totalmente alheio ao risco do transporte como pedra arremessada de fora); já fraudes internas bancárias configuram FORTUITO INTERNO, respondendo o banco objetivamente (Súmula 479 STJ)."
+        "text": "No contrato de transporte de passageiros, o fato exclusivo de terceiro não rompe a responsabilidade objetiva do transportador perante o passageiro."
       },
       {
         "letter": "D",
-        "text": "São inacumuláveis as indenizações por dano material, dano moral e dano estético oriundos do mesmo acidente."
+        "text": "São inacumuláveis as indenizações por dano material, dano moral e dano estético oriundos do mesmo acidente, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       }
     ],
     "correctAnswer": "C",
@@ -1017,15 +1017,15 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O possuidor de boa-fé tem direito de retenção pelas benfeitorias necessárias, úteis e voluptuárias enquanto não indenizado."
+        "text": "O possuidor de boa-fé tem direito de retenção pelas benfeitorias necessárias, úteis e voluptuárias enquanto não indenizado, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "C",
-        "text": "O possuidor de MÁ-FÉ tem direito APENAS ao ressarcimento das benfeitorias NECESSÁRIAS (sem direito de retenção por nenhuma delas, e nada recebe pelas úteis ou voluptuárias — Art. 1.220 CC), e responde por todos os frutos colhidos e percebidos, bem como pelos que por culpa sua deixou de perceber, desde o momento em que se constituiu de má-fé, tendo direito apenas às despesas de produção e custeio (Art. 1.216 CC)."
+        "text": "O possuidor de má-fé tem direito apenas ao ressarcimento das benfeitorias necessárias, e responde por todos os frutos colhidos e percebidos."
       },
       {
         "letter": "D",
-        "text": "Na usucapião familiar (Art. 1.240-A CC), exige-se posse exclusiva direta de imóvel urbano de até 250m² por 5 anos após abandono do lar pelo ex-cônjuge."
+        "text": "Na usucapião familiar, exige-se posse exclusiva direta de imóvel urbano de até 250m² por 5 anos após abandono do lar pelo ex-cônjuge."
       }
     ],
     "correctAnswer": "C",
@@ -1069,19 +1069,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O titular do direito real de laje passa a ser automaticamente coproprietário em condomínio edilício de metade da fração ideal do terreno do solo."
+        "text": "O titular do direito real de laje passa a ser automaticamente coproprietário em condomínio edilício de metade da fração ideal do terreno do solo, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "B",
-        "text": "A laje configura DIREITO REAL DE LAJE (Art. 1.510-A CC — unidade autônoma titularizada em matrícula própria, não gerando fração ideal do terreno nem atribuição automática de área já edificada sem acordo, com direito de preferência recíproco em caso de alienação); a MULTIPROPRIEDADE (time-sharing — Art. 1.358-B e ss. CC) é condomínio especial em que cada multiproprietário é titular de fração de tempo indivisível (mínimo de 7 dias por período anual), com matrícula própria para cada fração de tempo."
+        "text": "A laje configura direito real de laje; a multipropriedade é condomínio especial em que cada multiproprietário é titular de fração de tempo indivisível, com matrícula própria para cada fração de tempo."
       },
       {
         "letter": "C",
-        "text": "Na multipropriedade imobiliária, cada fração de tempo pode ser estipulada por prazo mínimo de apenas 2 dias corridos por ano."
+        "text": "Na multipropriedade imobiliária, cada fração de tempo pode ser estipulada por prazo mínimo de apenas 2 dias corridos por ano, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "D",
-        "text": "O direito de superfície (Art. 1.369 CC) abrange automaticamente obras no subsolo em todas as hipóteses, mesmo sem relação com o objeto da concessão."
+        "text": "O direito de superfície abrange automaticamente obras no subsolo em todas as hipóteses, mesmo sem relação com o objeto da concessão, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       }
     ],
     "correctAnswer": "B",
@@ -1124,19 +1124,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A mudança da destinação do edifício ou da unidade imobiliária exige ainda unanimidade absoluta (100%) de todos os condôminos pelo Código Civil."
+        "text": "A mudança da destinação do edifício ou da unidade imobiliária exige ainda unanimidade absoluta (100%) de todos os condôminos pelo Código Civil, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "B",
-        "text": "Obra necessária urgente pode ser realizada independentemente de autorização (dando ciência imediata à assembleia se despesa excessiva — Art. 1.341, §§ 1º e 3º); obra útil exige voto da MAIORIA dos condôminos (50% + 1 do todo — Art. 1.341, II); obra voluptuária exige voto de 2/3 dos condôminos (Art. 1.341, I); e após a Lei nº 14.405/2022, a mudança de destinação do edifício ou da unidade imobiliária exige voto de 2/3 dos condôminos (não mais unanimidade!)."
+        "text": "Obra necessária urgente pode ser realizada independentemente de autorização; obra útil exige voto da maioria dos condôminos; obra voluptuária exige voto de 2/3 dos condôminos; e após a Lei nº 14.405/2022, a mudança de destinação do edifício ou da unidade imobiliária exige voto de 2/3 dos condôminos."
       },
       {
         "letter": "C",
-        "text": "As obras voluptuárias em condomínio edilício exigem aprovação de apenas maioria simples dos presentes na assembleia."
+        "text": "As obras voluptuárias em condomínio edilício exigem aprovação de apenas maioria simples dos presentes na assembleia, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "D",
-        "text": "O condômino que não cumpre reiteradamente seus deveres perante o condomínio só pode sofrer multa de até duas vezes o valor da taxa condominial."
+        "text": "O condômino que não cumpre reiteradamente seus deveres perante o condomínio só pode sofrer multa de até duas vezes o valor da taxa condominial, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       }
     ],
     "correctAnswer": "B",
@@ -1179,19 +1179,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A fiança prestada pelo cônjuge sem outorga uxória é válida ao menos quanto à sua própria meação de 50% nos bens comuns."
+        "text": "A fiança prestada pelo cônjuge sem outorga uxória é válida ao menos quanto à sua própria meação de 50% nos bens comuns, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor."
       },
       {
         "letter": "B",
-        "text": "A fiança prestada sem vênia conjugal é INEFICAZ TOTALMENTE (Súmula 332 do STJ — não alcança sequer a meação do cônjuge fiador, exceto na separação absoluta ou união estável não formalizada conforme STJ/Art. 1.647, I e III); e quanto ao Art. 1.641, II, do CC (maiores de 70 anos), o STF no Tema 1236 decidiu que a separação obrigatória aos 70+ anos é FACULTATIVA/afastável mediante manifestação expressa das partes em escritura pública!"
+        "text": "A fiança prestada sem vênia conjugal é ineficaz totalmente; e quanto ao Art. 1.641, II, do CC, o STF no Tema 1236 decidiu que a separação obrigatória aos 70+ anos é facultativa/afastável mediante manifestação expressa das partes em escritura pública."
       },
       {
         "letter": "C",
-        "text": "Na comunhão parcial de bens, exigem outorga conjugal a alienação de imóveis particulares, a fiança e o aval — salvo no regime da separação absoluta."
+        "text": "Na comunhão parcial de bens, exigem outorga conjugal a alienação de imóveis particulares, a fiança e o aval — salvo no regime da separação absoluta. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "D",
-        "text": "Segundo o Tema 1236 do STF, os maiores de 70 anos permanecem absolutamente proibidos de optar pelo regime da comunhão parcial de bens."
+        "text": "Segundo o Tema 1236 do STF, os maiores de 70 anos permanecem absolutamente proibidos de optar pelo regime da comunhão parcial de bens, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       }
     ],
     "correctAnswer": "B",
@@ -1235,11 +1235,11 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A prisão civil pelo inadimplemento de pensão alimentícia pode abranger todas as parcelas vencidas nos últimos dois anos anteriores à execução."
+        "text": "A prisão civil pelo inadimplemento de pensão alimentícia pode abranger todas as parcelas vencidas nos últimos dois anos anteriores à execução, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual."
       },
       {
         "letter": "B",
-        "text": "O débito alimentar que autoriza a PRISÃO CIVIL compreende apenas as 3 prestações ANTERIORES ao ajuizamento da execução e as que se vencerem no curso do processo (Súmula 309 STJ — as mais antigas cobram-se por penhora/expropriação); e a obrigação alimentar dos AVÓS tem natureza SUBSIDIÁRIA e COMPLEMENTAR (Súmula 596 STJ — só respondem quando esgotados ou impossibilitados os meios contra os genitores)."
+        "text": "O débito alimentar que autoriza a prisão civil compreende apenas as 3 prestações anteriores ao ajuizamento da execução e as que se vencerem no curso do processo."
       },
       {
         "letter": "C",
@@ -1247,7 +1247,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A redução ou exoneração de pensão alimentícia fixada em sentença anterior retroage à data da citação mesmo para exigir restituição de parcelas já pagas."
+        "text": "A redução ou exoneração de pensão alimentícia fixada em sentença anterior retroage à data da citação mesmo para exigir restituição de parcelas já pagas, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       }
     ],
     "correctAnswer": "B",
@@ -1295,11 +1295,11 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A viúva tem direito à MEAÇÃO (50%) do apartamento comum adquirido onerosamente no casamento (por direito de família, não herança), NÃO concorrendo como herdeira sobre esse bem comum; porém, quanto à casa particular (recebida por herança antes do casamento), a viúva CONCORRE como herdeira em igualdade de condições com os dois filhos (1/3 para cada — Tema 809 STF e Tema 809/STJ REsp 1.368.123 sobre Art. 1.829, I, CC)."
+        "text": "A viúva tem direito à meação (50%) do apartamento comum adquirido onerosamente no casamento, não concorrendo como herdeira sobre esse bem comum."
       },
       {
         "letter": "C",
-        "text": "O companheiro sobrevivente em união estável herda menos que o cônjuge por aplicação do Art. 1.790 do Código Civil."
+        "text": "O companheiro sobrevivente em união estável herda menos que o cônjuge por aplicação, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "D",
@@ -1347,19 +1347,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O nascimento superveniente de filho apenas reduz em 50% as disposições do testamento anterior, mantendo válida a outra metade."
+        "text": "O nascimento superveniente de filho apenas reduz em 50% as disposições do testamento anterior, mantendo válida a outra metade, com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado."
       },
       {
         "letter": "B",
-        "text": "O nascimento de descendente sucessível que não tinha ou não conhecia quando testou ROMPE integralmente o testamento em todas as suas disposições (rompimento do testamento — Art. 1.973 CC); e o testamento cerrado aberto ou dilacerado pelo testador, ou com seu consentimento, presume-se REVOGADO (Art. 1.972 CC)."
+        "text": "O nascimento de descendente sucessível que não tinha ou não conhecia quando testou rompe integralmente o testamento em todas as suas disposições; e o testamento cerrado aberto ou dilacerado pelo testador, ou com seu consentimento, presume-se revogado."
       },
       {
         "letter": "C",
-        "text": "A capacidade ativa para fazer testamento válido no Brasil inicia-se apenas aos 18 anos completos com plena capacidade civil."
+        "text": "A capacidade ativa para fazer testamento válido no Brasil inicia-se apenas aos 18 anos completos com plena capacidade civil, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "D",
-        "text": "O testamento conjuntivo (simultâneo ou recíproco feito por marido e mulher no mesmo instrumento) é válido no Brasil para economia cartorária."
+        "text": "O testamento conjuntivo (simultâneo ou recíproco feito por marido e mulher no mesmo instrumento) é válido no Brasil para economia cartorária, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual."
       }
     ],
     "correctAnswer": "B",
@@ -1402,19 +1402,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Mesmo após condenação criminal definitiva por homicídio doloso contra o pai, a exclusão por indignidade sempre depende obrigatoriamente de ação civil autônoma proposta em até 4 anos."
+        "text": "Mesmo após condenação criminal definitiva por homicídio doloso contra o pai, a exclusão por indignidade sempre depende obrigatoriamente de ação civil autônoma proposta em até 4 anos, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "B",
-        "text": "Nos termos do Art. 1.815-A do CC (incluído pela Lei nº 14.661/2023), em casos de homicídio doloso ou tentativa contra o autor da herança, cônjuge, companheiro, ascendente ou descendente, a exclusão por indignidade ocorrerá AUTOMATICAMENTE na sentença penal condenatória transitada em julgado (sem precisar de nova ação cível autônoma de indignidade); quanto à RENÚNCIA à herança, ninguém pode suceder representando herdeiro renunciante (Art. 1.811 CC — os netos só herdam por direito próprio se não houver nenhum outro herdeiro da mesma classe dos filhos!)."
+        "text": "Nos termos, em casos de homicídio doloso ou tentativa contra o autor da herança, cônjuge, companheiro, ascendente ou descendente, a exclusão por indignidade ocorrerá automaticamente na sentença penal condenatória transitada em julgado; quanto à renúncia à herança, ninguém pode suceder representando herdeiro renunciante."
       },
       {
         "letter": "C",
-        "text": "Se o filho renunciar à herança do pai, seus filhos (netos do falecido) assumem o lugar dele por representação automaticamente, dividindo com os tios."
+        "text": "Se o filho renunciar à herança do pai, seus filhos (netos do falecido) assumem o lugar dele por representação automaticamente, dividindo com os tios. Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes."
       },
       {
         "letter": "D",
-        "text": "É lícito aceitar a herança apenas quanto aos imóveis e renunciar às dívidas ou aos bens móveis do espólio."
+        "text": "É lícito aceitar a herança apenas quanto aos imóveis e renunciar às dívidas ou aos bens móveis do espólio, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor."
       }
     ],
     "correctAnswer": "B",
@@ -1457,19 +1457,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto o endosso parcial quanto o endosso condicional tornam integralmente nulo todo o título de crédito original."
+        "text": "Tanto o endosso parcial quanto o endosso condicional tornam integralmente nulo todo o título de crédito original, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "B",
-        "text": "Pelo Código Civil (Art. 912, parágrafo único), é NULO o endosso parcial, e qualquer condição lançada no endosso considera-se NÃO ESCRITA (Art. 912, caput); quanto ao aval no Art. 1.647, III, do CC, embora exija outorga conjugal em tese no CC, o STJ consolidou (REsp 1.526.560) que a ausência de vênia conjugal em AVAL de título de crédito típico regido por lei especial cambial (como LUG/Cheque/Duplicata) NÃO invalida o aval em razão da proteção à circulação cambial (restringindo a exigência de outorga a títulos atípicos do Código Civil!)."
+        "text": "Pelo Código Civil, é nulo o endosso parcial, e qualquer condição lançada no endosso considera-se não escrita."
       },
       {
         "letter": "C",
-        "text": "No regime geral do Código Civil (Art. 914), o endossante responde automaticamente pelo cumprimento da prestação pelo devedor principal, salvo cláusula em contrário."
+        "text": "No regime geral do Código Civil, o endossante responde automaticamente pelo cumprimento da prestação pelo devedor principal, salvo cláusula em contrário."
       },
       {
         "letter": "D",
-        "text": "O aval parcial (por parte da soma do título) é sempre proibido pelo Código Civil em qualquer circunstância."
+        "text": "O aval parcial (por parte da soma do título) é sempre proibido pelo Código Civil em qualquer circunstância, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       }
     ],
     "correctAnswer": "B",
@@ -1513,11 +1513,11 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O empregador só responde civilmente pelos danos causados por seus empregados se a vítima provar culpa in eligendo ou culpa in vigilando do patrão."
+        "text": "O empregador só responde civilmente pelos danos causados por seus empregados se a vítima provar culpa in eligendo ou culpa in vigilando do patrão, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "B",
-        "text": "A farmácia empregadora responde OBJETIVAMENTE pelo ato culposo do seu empregado no exercício do trabalho (Arts. 932, III e 933 CC — responsabilidade objetiva indireta, solidária com o empregado e com direito de regresso contra este pelo Art. 934); o hotel responde objetivamente pelos furtos/danos aos hóspedes (Art. 932, IV); e pelo dano de coisa caída ou lançada de prédio (effusis et deiectis — Art. 938), responde o habitante da unidade causadora ou, sendo impossível identificar qual unidade daquela prumada/condomínio, todo o condomínio responde solidariamente (STJ)."
+        "text": "A farmácia empregadora responde objetivamente pelo ato culposo do seu empregado no exercício do trabalho; o hotel responde objetivamente pelos furtos/danos aos hóspedes."
       },
       {
         "letter": "C",
@@ -1568,19 +1568,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer mandato comum ou com cláusula em causa própria extingue-se automaticamente com a morte do mandante."
+        "text": "Qualquer mandato comum ou com cláusula em causa própria extingue-se automaticamente com a morte do mandante, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "B",
-        "text": "Na gestão de negócios úteis ou necessários, o dono do negócio deve reembolsar o gestor das despesas necessárias ou úteis que houver feito e indenizá-lo dos prejuízos sofridos em razão da gestão (Art. 869 CC); já o mandato com cláusula EM CAUSA PRÓPRIA (Art. 685 CC) NÃO SE EXTINGUE pela morte ou interdição de qualquer das partes nem pode ser revogado pelo mandante (sendo verdadeiro instrumento de alienação definitiva!)."
+        "text": "Na gestão de negócios úteis ou necessários, o dono do negócio deve reembolsar o gestor das despesas necessárias ou úteis que houver feito e indenizá-lo dos prejuízos sofridos em razão da gestão."
       },
       {
         "letter": "C",
-        "text": "A ação de enriquecimento sem causa (in rem verso) pode ser proposta livremente mesmo quando houver outra ação contratual ou legal específica para o lesado cobrar seu prejuízo."
+        "text": "A ação de enriquecimento sem causa (in rem verso) pode ser proposta livremente mesmo quando houver outra ação contratual ou legal específica para o lesado cobrar seu prejuízo, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "D",
-        "text": "O mandatário que substabelece poderes sem autorização expressa no mandato não responde pelos atos do substabelecido se este agir com boa-fé."
+        "text": "O mandatário que substabelece poderes sem autorização expressa no mandato não responde pelos atos do substabelecido se este agir com boa-fé, sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral."
       }
     ],
     "correctAnswer": "B",
@@ -1623,7 +1623,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No seguro de vida, o suicídio ocorrido nos PRIMEIROS DOIS ANOS (24 meses) de vigência inicial do contrato NÃO é coberto (critério objetivo da Súmula 610 STJ e Art. 798 CC — logo 14 meses exclui o capital, garantindo apenas devolução da reserva técnica); na ação direta contra a seguradora do causador, a Súmula 529 do STJ PROÍBE ajuizar ação exclusivamente contra a seguradora sem litisconsórcio com o segurado (no DPVAT é diferente); e a embriaguez de terceiro condutor (filho) não afasta a cobertura de terceiro sem prova de que o segurado agravou intencionalmente o risco (Súmula 620 STJ para seguro de vida em embriaguez!)."
+        "text": "No seguro de vida, o suicídio ocorrido nos primeiros dois anos (24 meses) de vigência inicial do contrato não é coberto."
       },
       {
         "letter": "B",
@@ -1631,11 +1631,11 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A embriaguez do segurado ao volante afasta automaticamente a indenização do seguro de vida devida aos beneficiários."
+        "text": "A embriaguez do segurado ao volante afasta automaticamente a indenização do seguro de vida devida aos beneficiários, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "D",
-        "text": "A vítima de acidente de trânsito pode processar diretamente apenas a seguradora facultativa (RCF-V) do motorista culpado, dispensando o segurado na lide."
+        "text": "A vítima de acidente de trânsito pode processar diretamente apenas a seguradora facultativa (rcf-V) do motorista culpado, dispensando o segurado na lide."
       }
     ],
     "correctAnswer": "A",
@@ -1679,11 +1679,11 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não prospera, pois nos termos da Súmula 308 do STJ, a hipoteca firmada entre a construtora e o agente financeiro, anterior ou posterior à celebração da promessa de compra e venda, NÃO tem eficácia perante os adquirentes do imóvel."
+        "text": "Não prospera, pois a hipoteca firmada entre a construtora e o agente financeiro, anterior ou posterior à celebração da promessa de compra e venda, não tem eficácia perante os adquirentes do imóvel."
       },
       {
         "letter": "B",
-        "text": "Prospera, porque a hipoteca regularmente registrada na matrícula possui sequela erga omnes absoluta sobre o imóvel vendido."
+        "text": "Prospera, porque a hipoteca regularmente registrada na matrícula possui sequela erga omnes absoluta sobre o imóvel vendido. A solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias."
       },
       {
         "letter": "C",
@@ -1691,7 +1691,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Na alienação fiduciária de bem imóvel (Lei 9.514/97), se o leilão público extrajudicial atingir valor inferior ao saldo devedor no 2º leilão, o banco pode cobrar a diferença residual do devedor nos financiamentos habitacionais."
+        "text": "Na alienação fiduciária de bem imóvel, se o leilão público extrajudicial atingir valor inferior ao saldo devedor no 2º leilão, o banco pode cobrar a diferença residual do devedor nos financiamentos habitacionais."
       }
     ],
     "correctAnswer": "A",
@@ -1735,19 +1735,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O primeiro caso configura NAMORO QUALIFICADO (não gera direitos sucessórios nem partilha automática de bens, pois falta o elemento subjetivo essencial — animus familiae, objetivo atual de constituir família); o segundo caso configura UNIÃO ESTÁVEL válida (pois a pessoa casada, porém SEPARADA DE FATO ou judicialmente, pode constituir união estável — Art. 1.723, § 1º, CC), aplicando-se na ausência de contrato escrito o regime da COMUNHÃO PARCIAL de bens (Art. 1.725 CC), sem retroatividade caso haja escritura ulterior (STJ)."
+        "text": "O primeiro caso configura namoro qualificado; o segundo caso configura união estável válida, aplicando-se na ausência de contrato escrito o regime da comunhão parcial de bens, sem retroatividade caso haja escritura ulterior (STJ)."
       },
       {
         "letter": "B",
-        "text": "Qualquer relacionamento público, contínuo e duradouro por mais de dois anos converte-se automaticamente em união estável mesmo sem intenção de constituir família."
+        "text": "Qualquer relacionamento público, contínuo e duradouro por mais de dois anos converte-se automaticamente em união estável mesmo sem intenção de constituir família, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "C",
-        "text": "Pessoa legalmente casada mas separada de fato há cinco anos está impedida de constituir união estável válida até a decretação formal do divórcio."
+        "text": "Pessoa legalmente casada mas separada de fato há cinco anos está impedida de constituir união estável válida até a decretação formal do divórcio, com produção imediata de efeitos patrimoniais e pessoais independentemente de averbação registral."
       },
       {
         "letter": "D",
-        "text": "O contrato escrito de união estável escolhendo separação total de bens pode produzir efeitos retroativos para excluir bens adquiridos onerosamente antes do documento durante a convivência."
+        "text": "O contrato escrito de união estável escolhendo separação total de bens pode produzir efeitos retroativos para excluir bens adquiridos onerosamente antes do documento durante a convivência, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor."
       }
     ],
     "correctAnswer": "A",
@@ -1791,19 +1791,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A GUARDA COMPARTILHADA é a regra obrigatória mesmo sem acordo entre os genitores, salvo se um deles declarar ao magistrado que não deseja a guarda da criança OU se houver elementos que evidenciem a probabilidade de risco de violência doméstica ou familiar (Art. 1.584, § 2º, CC, alterado pela Lei nº 14.713/2023)."
+        "text": "A guarda compartilhada é a regra obrigatória mesmo sem acordo entre os genitores, salvo se um deles declarar ao magistrado que não deseja a guarda da criança ou se houver elementos que evidenciem a probabilidade de risco de violência doméstica ou familiar."
       },
       {
         "letter": "B",
-        "text": "Sem consenso amigável entre os pais, o juiz deve fixar obrigatoriamente a guarda unilateral materna."
+        "text": "Sem consenso amigável entre os pais, o juiz deve fixar obrigatoriamente a guarda unilateral materna, com produção imediata de efeitos patrimoniais e pessoais independentemente de averbação registral. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "C",
-        "text": "Na guarda compartilhada, fica absolutamente proibido fixar pensão alimentícia entre os genitores e a residência física da criança deve alternar semanalmente entre as duas casas."
+        "text": "Na guarda compartilhada, fica absolutamente proibido fixar pensão alimentícia entre os genitores e a residência física da criança deve alternar semanalmente entre as duas casas, sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral."
       },
       {
         "letter": "D",
-        "text": "Constatada prática reiterada de alienação parental (Lei nº 12.318/2010), o juiz deve decretar diretamente a perda imediata e definitiva do poder familiar do alienador na primeira decisão liminar."
+        "text": "Constatada prática reiterada de alienação parental, o juiz deve decretar diretamente a perda imediata e definitiva do poder familiar do alienador na primeira decisão liminar, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor."
       }
     ],
     "correctAnswer": "A",
@@ -1846,19 +1846,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O fiador de contrato prorrogado por prazo indeterminado pode exonerar-se da fiança mediante notificação ao credor, ficando obrigado por todos os efeitos da fiança durante 120 DIAS após a notificação (Art. 835 CC — e tem direito ao benefício de ordem de exigir primeiro os bens do devedor se não renunciou — Art. 827); na corretagem sem exclusividade, a comissão só é devida se o negócio se concluir como resultado útil do trabalho do corretor (Art. 725 CC — sendo devida se o dono concluir diretamente após o prazo graças exclusivamente ao fruto do trabalho anterior do corretor, Art. 727)."
+        "text": "O fiador de contrato prorrogado por prazo indeterminado pode exonerar-se da fiança mediante notificação ao credor, ficando obrigado por todos os efeitos da fiança durante 120 dias após a notificação; na corretagem sem exclusividade, a comissão só é devida se o negócio se concluir como resultado útil do trabalho do corretor."
       },
       {
         "letter": "B",
-        "text": "O fiador que notifica sua exoneração na fiança por prazo indeterminado desobriga-se no exato dia do recebimento da notificação pelo locador."
+        "text": "O fiador que notifica sua exoneração na fiança por prazo indeterminado desobriga-se no exato dia do recebimento da notificação pelo locador, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "C",
-        "text": "Se a fiança for prestada em contrato de locação de prazo determinado, a prorrogação legal por prazo indeterminado exonera automaticamente o fiador mesmo havendo cláusula expressa garantindo até a entrega das chaves."
+        "text": "Se a fiança for prestada em contrato de locação de prazo determinado, a prorrogação legal por prazo indeterminado exonera automaticamente o fiador mesmo havendo cláusula expressa garantindo até a entrega das chaves, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "D",
-        "text": "Na corretagem com cláusula de exclusividade escrita, se o dono vender o imóvel diretamente sozinho dentro do prazo sem auxílio do corretor, não deve nenhuma comissão."
+        "text": "Na corretagem com cláusula de exclusividade escrita, se o dono vender o imóvel diretamente sozinho dentro do prazo sem auxílio do corretor, não deve nenhuma comissão. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       }
     ],
     "correctAnswer": "A",
@@ -1902,19 +1902,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O advogado responde civilmente pela teoria da PERDA DE UMA CHANCE (responsabilidade por dano autônomo decorrente da frustração de chance séria e real de obter vantagem ou evitar prejuízo — STJ, indenizando proporcionalmente a probabilidade perdida, não o valor total do pedido); quanto ao cirurgião plástico em cirurgia estética puramente EMBELEZADORA (diferente da cirurgia reparadora/obrigação de meio), o STJ considera tratar-se de OBRIGAÇÃO DE RESULTADO, com presunção de culpa se o resultado prometido não for alcançado."
+        "text": "O advogado responde civilmente pela teoria da perda de uma chance; quanto ao cirurgião plástico em cirurgia estética puramente embelezadora, o STJ considera tratar-se de obrigação de resultado, com presunção de culpa se o resultado prometido não for alcançado."
       },
       {
         "letter": "B",
-        "text": "A perda de uma chance nunca gera dever de indenizar no Brasil por configurar mero dano hipotético eventual."
+        "text": "A perda de uma chance nunca gera dever de indenizar no Brasil por configurar mero dano hipotético eventual, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "C",
-        "text": "Todo médico, em qualquer especialidade cirúrgica ou clínica, assume obrigação de resultado com responsabilidade objetiva pelo Código Civil."
+        "text": "Todo médico, em qualquer especialidade cirúrgica ou clínica, assume obrigação de resultado com responsabilidade objetiva pelo Código Civil. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "D",
-        "text": "No cálculo da indenização pela perda de uma chance contra o advogado negligente, o juiz deve condenar sempre em 100% do valor integral da causa perdida."
+        "text": "No cálculo da indenização pela perda de uma chance contra o advogado negligente, o juiz deve condenar sempre em 100% do valor integral da causa perdida, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       }
     ],
     "correctAnswer": "A",
@@ -1957,19 +1957,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na omissão do texto legal, a lei começa a vigorar no Brasil em 45 dias após oficialmente publicada (e 3 meses nos Estados estrangeiros quando admitida); e a Lei A NÃO voltou a vigorar, pois a repristinação automática é vedada no ordenamento brasileiro, exigindo disposição expressa da lei revogadora (Art. 2º, § 3º, LINDB)."
+        "text": "Na omissão do texto legal, a lei começa a vigorar no Brasil em 45 dias após oficialmente publicada."
       },
       {
         "letter": "B",
-        "text": "A lei entra em vigor na data de sua publicação e a Lei A volta a viger automaticamente com a revogação da Lei B."
+        "text": "A lei entra em vigor na data de sua publicação e a Lei A volta a viger automaticamente com a revogação da Lei B, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "C",
-        "text": "A vacatio legis no Brasil é de 30 dias úteis e a repristinação é presumida sempre que houver lacuna legislativa."
+        "text": "A vacatio legis no Brasil é de 30 dias úteis e a repristinação é presumida sempre que houver lacuna legislativa, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual."
       },
       {
         "letter": "D",
-        "text": "A lei posterior só revoga a anterior quando declarar expressamente os artigos revogados."
+        "text": "A lei posterior só revoga a anterior quando declarar expressamente os artigos revogados, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       }
     ],
     "correctAnswer": "A",
@@ -2012,19 +2012,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A colação de grau em curso de ensino superior emancipa automaticamente o menor de 16 a 18 anos independentemente de concordância dos pais (Art. 5º, parágrafo único, IV); na emancipação voluntária pelos pais, exige-se concessão de ambos (ou de um na falta do outro), não bastando a vontade unilateral de um deles havendo divergência sem suprimento judicial; e no acidente aplica-se a comoriência (Art. 8º — presumem-se simultaneamente mortos, não havendo transmissão de herança entre eles)."
+        "text": "A colação de grau em curso de ensino superior emancipa automaticamente o menor de 16 a 18 anos independentemente de concordância dos pais; na emancipação voluntária pelos pais, exige-se concessão de ambos, não bastando a vontade unilateral de um deles havendo divergência sem suprimento judicial; e no acidente aplica-se a comoriência."
       },
       {
         "letter": "B",
-        "text": "A colação de grau emancipa apenas aos 18 anos e na comoriência presume-se que o mais velho morreu primeiro."
+        "text": "A colação de grau emancipa apenas aos 18 anos e na comoriência presume-se que o mais velho morreu primeiro, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "C",
-        "text": "A emancipação voluntária outorgada por escritura pública pelos pais dispensa homologação judicial, mas torna os pais isentos de responsabilidade civil por ato ilícito anterior do filho."
+        "text": "A emancipação voluntária outorgada por escritura pública pelos pais dispensa homologação judicial, mas torna os pais isentos de responsabilidade civil por ato ilícito anterior do filho, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "D",
-        "text": "Os pródigos e ébrios habituais são considerados absolutamente incapazes no Código Civil atual."
+        "text": "Os pródigos e ébrios habituais são considerados absolutamente incapazes no Código Civil atual, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       }
     ],
     "correctAnswer": "A",
@@ -2067,19 +2067,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O mero encerramento irregular ou simples inadimplemento (insolvência) NÃO autoriza a desconsideração no Direito Civil (Teoria Maior — Art. 50 CC): exige-se abuso da personalidade jurídica, caracterizado pelo desvio de finalidade ou pela confusão patrimonial, estendendo os efeitos apenas aos sócios/administradores beneficiados direta ou indiretamente pelo abuso (inclusive na forma inversa)."
+        "text": "O mero encerramento irregular ou simples inadimplemento (insolvência) não autoriza a desconsideração no Direito Civil: exige-se abuso da personalidade jurídica, caracterizado pelo desvio de finalidade ou pela confusão patrimonial, estendendo os efeitos apenas aos sócios/administradores beneficiados direta ou indiretamente pelo abuso."
       },
       {
         "letter": "B",
-        "text": "No Código Civil adota-se a Teoria Menor, bastando o inadimplemento ou a falência da sociedade para atingir o patrimônio dos sócios."
+        "text": "No Código Civil adota-se a Teoria Menor, bastando o inadimplemento ou a falência da sociedade para atingir o patrimônio dos sócios, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "C",
-        "text": "A desconsideração da personalidade jurídica extingue definitivamente a pessoa jurídica e cancela seu registro na Junta Comercial."
+        "text": "A desconsideração da personalidade jurídica extingue definitivamente a pessoa jurídica e cancela seu registro na Junta Comercial, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "D",
-        "text": "A mera existência de grupo econômico autoriza automaticamente a desconsideração da personalidade jurídica entre as empresas."
+        "text": "A mera existência de grupo econômico autoriza automaticamente a desconsideração da personalidade jurídica entre as empresas, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       }
     ],
     "correctAnswer": "A",
@@ -2122,19 +2122,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não. A vaga de garagem que possui matrícula própria no registro de imóveis NÃO constitui bem de família para efeito de penhora (Súmula 449 STJ); e o único imóvel residencial do FIADOR em contrato de locação (seja residencial ou comercial — STF Tema 1127) É PENHORÁVEL (Art. 3º, VII, da Lei 8.009/90 e Súmula 549 STJ)."
+        "text": "Não, a vaga de garagem que possui matrícula própria no registro de imóveis não constitui bem de família para efeito de penhora; e o único imóvel residencial do fiador em contrato de locação é penhorável."
       },
       {
         "letter": "B",
-        "text": "Ambos são impenhoráveis, pois a proteção do bem de família alcança o fiador de locação comercial."
+        "text": "Ambos são impenhoráveis, pois a proteção do bem de família alcança o fiador de locação comercial. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "C",
-        "text": "O imóvel residencial do devedor solteiro que mora sozinho não goza da proteção do bem de família legal."
+        "text": "O imóvel residencial do devedor solteiro que mora sozinho não goza da proteção do bem de família legal, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "D",
-        "text": "O bem de família legal previsto na Lei nº 8.009/1990 depende de registro prévio em cartório para existir."
+        "text": "O bem de família legal previsto na Lei nº 8.009/1990 depende de registro prévio em cartório para existir, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       }
     ],
     "correctAnswer": "A",
@@ -2178,19 +2178,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Lesão no primeiro caso, erro substancial no segundo e simulação nula no terceiro."
+        "text": "Lesão no primeiro caso, erro substancial no segundo e simulação nula no terceiro, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "B",
-        "text": "Os negócios celebrados em fraude contra credores são absolutamente nulos e imprescritíveis."
+        "text": "Os negócios celebrados em fraude contra credores são absolutamente nulos e imprescritíveis, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "C",
-        "text": "Na lesão e no estado de perigo, nunca é possível revisar o negócio para mantê-lo válido."
+        "text": "Na lesão e no estado de perigo, nunca é possível revisar o negócio para mantê-lo válido, com impedimento à compensação ou repetição dos valores prestados na relação negocial."
       },
       {
         "letter": "D",
-        "text": "Respectivamente: estado de perigo (Art. 156 — salvar-se/familiar de grave dano conhecido + obrigação excessivamente onerosa); dolo (Art. 145 — artifício malicioso induzindo erro); e fraude contra credores (Art. 158 — transmissão gratuita reduzindo o devedor à insolvência, atacável por ação pauliana, mesmo sem provar má-fé do donatário). Todos são ANULÁVEIS no prazo decadencial de 4 anos."
+        "text": "Respectivamente: estado de perigo; dolo; e fraude contra credores. Todos são anuláveis no prazo decadencial de 4 anos."
       }
     ],
     "correctAnswer": "D",
@@ -2233,19 +2233,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo prescricional de 3 anos aplica-se indistintamente à responsabilidade civil extracontratual e ao inadimplemento contratual."
+        "text": "O prazo prescricional de 3 anos aplica-se indistintamente à responsabilidade civil extracontratual e ao inadimplemento contratual, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "B",
-        "text": "A prescrição não pode ser reconhecida de ofício pelo juiz, diferentemente da decadência convencional."
+        "text": "A prescrição não pode ser reconhecida de ofício pelo juiz, diferentemente da decadência convencional, com impedimento à compensação ou repetição dos valores prestados na relação negocial."
       },
       {
         "letter": "C",
-        "text": "Os prazos de prescrição podem ser alterados livremente por acordo contratual das partes."
+        "text": "Os prazos de prescrição podem ser alterados livremente por acordo contratual das partes, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "D",
-        "text": "Não corre prescrição entre cônjuges na constância da sociedade conjugal, entre ascendentes e descendentes durante o poder familiar e contra absolutamente incapazes (Art. 197–198). O prazo para cobrar dívida líquida em instrumento público/particular é de 5 anos (Art. 206, § 5º, I), e para reparação civil é de 3 anos (Art. 206, § 3º, V) na extracontratual e 10 anos (Art. 205) na responsabilidade contratual segundo o STJ (EREsp 1.280.825)."
+        "text": "Não corre prescrição entre cônjuges na constância da sociedade conjugal, entre ascendentes e descendentes durante o poder familiar e contra absolutamente incapazes."
       }
     ],
     "correctAnswer": "D",
@@ -2289,19 +2289,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Bruno responde ainda pelos R$ 90.000,00 integrais porque a solidariedade não se altera com o perdão parcial."
+        "text": "Bruno responde ainda pelos R$ 90.000,00 integrais porque a solidariedade não se altera com o perdão parcial. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "B",
-        "text": "A solidariedade presume-se sempre em contratos civis celebrados por mais de dois devedores."
+        "text": "A solidariedade presume-se sempre em contratos civis celebrados por mais de dois devedores, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "C",
-        "text": "Se morrer um dos devedores solidários deixando dois herdeiros, cada herdeiro responde pela dívida inteira mesmo antes da partilha."
+        "text": "Se morrer um dos devedores solidários deixando dois herdeiros, cada herdeiro responde pela dívida inteira mesmo antes da partilha, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "D",
-        "text": "Bruno responde apenas por R$ 60.000,00, pois a remissão concedida pelo credor a um dos codevedores extingue a solidariedade com relação a ele e abate sua quota da dívida comum (Art. 277 CC); quanto aos juros da mora, todos os codevedores respondem perante o credor, mas se a prestação se impossibilitar por culpa de um só, subsiste para todos o encargo pelo equivalente, respondendo pelas perdas e danos apenas o culpado (Art. 279 CC)."
+        "text": "Bruno responde apenas por R$ 60.000,00, pois a remissão concedida pelo credor a um dos codevedores extingue a solidariedade com relação a ele e abate sua quota da dívida comum."
       }
     ],
     "correctAnswer": "D",
@@ -2344,19 +2344,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas dependem de consentimento expresso da outra parte (devedor na cessão de crédito e credor na assunção)."
+        "text": "Ambas dependem de consentimento expresso da outra parte (devedor na cessão de crédito e credor na assunção), com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "B",
-        "text": "Na cessão de crédito onerosa, o cedente responde sempre pela solvência do devedor cedido."
+        "text": "Na cessão de crédito onerosa, o cedente responde sempre pela solvência do devedor cedido, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "C",
-        "text": "Na assunção de dívida com consentimento do credor, o novo devedor sempre exonera o antigo, ainda que insolvente o substituto ao tempo da assunção e isso fosse ignorado pelo credor."
+        "text": "Na assunção de dívida com consentimento do credor, o novo devedor sempre exonera o antigo, ainda que insolvente o substituto ao tempo da assunção e isso fosse ignorado pelo credor. Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes."
       },
       {
         "letter": "D",
-        "text": "A cessão de crédito independe da anuência do devedor (basta notificá-lo para produzir eficácia quanto a ele — Art. 290 CC); já a assunção de dívida exige CONSENTIMENTO EXPRESSO do credor, sendo que o silêncio do credor notificado equivale em regra à recusa (Art. 299, parágrafo único, CC — salvo exceção específica da hipoteca no Art. 303)."
+        "text": "A cessão de crédito independe da anuência do devedor; já a assunção de dívida exige consentimento expresso do credor, sendo que o silêncio do credor notificado equivale em regra à recusa."
       }
     ],
     "correctAnswer": "D",
@@ -2399,19 +2399,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Imputa-se obrigatoriamente primeiro na dívida de maior valor principal, independentemente dos juros."
+        "text": "Imputa-se obrigatoriamente primeiro na dívida de maior valor principal, independentemente dos juros, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "B",
-        "text": "Se todas as dívidas venceram na mesma data, imputa-se na menos onerosa ao devedor."
+        "text": "Se todas as dívidas venceram na mesma data, imputa-se na menos onerosa ao devedor, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "C",
-        "text": "Na dação em pagamento, o credor é obrigado a aceitar prestação diversa da devida se ela for mais valiosa."
+        "text": "Na dação em pagamento, o credor é obrigado a aceitar prestação diversa da devida se ela for mais valiosa, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "D",
-        "text": "A imputação do pagamento faz-se primeiro nos juros vencidos e depois no capital (Art. 354 CC); havendo várias dívidas líquidas e vencidas sem indicação pelo devedor nem pelo credor no recibo, imputa-se primeiro na mais antiga (vencida há mais tempo) e, se todas venceram na mesma data, na mais onerosa (Art. 355 CC)."
+        "text": "A imputação do pagamento faz-se primeiro nos juros vencidos e depois no capital; havendo várias dívidas líquidas e vencidas sem indicação pelo devedor nem pelo credor no recibo, imputa-se primeiro na mais antiga e, se todas venceram na mesma data, na mais onerosa."
       }
     ],
     "correctAnswer": "D",
@@ -2454,7 +2454,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deve restituir apenas o valor simples de R$ 50.000,00 sem equivalente porque se trata de arras confirmatórias."
+        "text": "Deve restituir apenas o valor simples de R$ 50.000,00 sem equivalente porque se trata de arras confirmatórias. Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes."
       },
       {
         "letter": "B",
@@ -2462,11 +2462,11 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A cláusula penal moratória não pode ser cumulada com a exigência do cumprimento da obrigação principal."
+        "text": "A cláusula penal moratória não pode ser cumulada com a exigência do cumprimento da obrigação principal, sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral."
       },
       {
         "letter": "D",
-        "text": "Nas arras confirmatórias, quem as recebeu (vendedor) dando causa à inexecução deve restituí-las MAIS o equivalente (devolve os R$ 50 mil em dobro = R$ 100 mil), com atualização monetária, juros e honorários; e se o comprador preferir perdas e danos maiores, as arras servem de indenização mínima (não se acumulando automaticamente multa compensatória e arras confirmatórias pelo mesmo fato, segundo o STJ)."
+        "text": "Nas arras confirmatórias, quem as recebeu (vendedor) dando causa à inexecução deve restituí-las mais o equivalente, com atualização monetária, juros e honorários."
       }
     ],
     "correctAnswer": "D",
@@ -2509,19 +2509,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não cabe evicção quando o bem foi adquirido em hasta pública (leilão judicial)."
+        "text": "Não cabe evicção quando o bem foi adquirido em hasta pública (leilão judicial), sem possibilidade de modificação unilateral das obrigações contratuais sem anuência expressa."
       },
       {
         "letter": "B",
-        "text": "Nos vícios redibitórios de bem móvel oculto que só se revela depois, o prazo decadencial para o adquirente reclamar é de 1 ano contado da ciência."
+        "text": "Nos vícios redibitórios de bem móvel oculto que só se revela depois, o prazo decadencial para o adquirente reclamar é de 1 ano contado da ciência, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "C",
-        "text": "Para exercer o direito da evicção no CPC atual, é obrigatória a denunciação da lide ao alienante na ação reivindicatória."
+        "text": "Para exercer o direito da evicção no CPC atual, é obrigatória a denunciação da lide ao alienante na ação reivindicatória, com produção imediata de efeitos patrimoniais e pessoais independentemente de averbação registral."
       },
       {
         "letter": "D",
-        "text": "No motor com defeito oculto aplica-se o regime dos VÍCIOS REDIBITÓRIOS (ações edilícias: redibitória para rejeitar a coisa ou estimatória/quanti minoris para abatimento do preço — prazo decadencial de 30 dias para bem móvel e 1 ano para imóvel, contados da entrega ou ciência se só perceptível depois — Art. 445 CC); na perda do bem adquirido em hasta pública por sentença judicial aplica-se a EVICÇÃO (Art. 447 CC — subsiste mesmo em aquisição em hasta pública!)."
+        "text": "No motor com defeito oculto aplica-se o regime dos vícios redibitórios; na perda do bem adquirido em hasta pública por sentença judicial aplica-se a evicção."
       }
     ],
     "correctAnswer": "D",
@@ -2564,11 +2564,11 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A retrovenda aplica-se a bens móveis e imóveis pelo prazo máximo de 5 anos."
+        "text": "A retrovenda aplica-se a bens móveis e imóveis pelo prazo máximo de 5 anos, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "B",
-        "text": "A venda de ascendente a descendente sem anuência dos demais descendentes é nula de pleno direito e imprescritível."
+        "text": "A venda de ascendente a descendente sem anuência dos demais descendentes é nula de pleno direito e imprescritível, com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores."
       },
       {
         "letter": "C",
@@ -2576,7 +2576,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A retrovenda só é admitida para bens IMÓVEIS no prazo decadencial máximo de 3 anos para resgate (Art. 505 CC); e a venda de ascendente a descendente sem o consentimento expresso dos outros descendentes e do cônjuge do alienante (salvo se casados no regime de separação obrigatória) é ANULÁVEL no prazo decadencial de 2 anos a contar da conclusão do ato (Art. 496 c/c Art. 179 CC e Súmula 494 STF)."
+        "text": "A retrovenda só é admitida para bens imóveis no prazo decadencial máximo de 3 anos para resgate."
       }
     ],
     "correctAnswer": "D",
@@ -2619,19 +2619,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A doação universal é válida sempre que o doador não possuir filhos ou pais vivos."
+        "text": "A doação universal é válida sempre que o doador não possuir filhos ou pais vivos, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "B",
-        "text": "A doação inoficiosa (que excede a parte disponível havendo herdeiros necessários) anula integralmente todo o contrato de doação."
+        "text": "A doação inoficiosa (que excede a parte disponível havendo herdeiros necessários) anula integralmente todo o contrato de doação, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "C",
-        "text": "A revogação da doação por ingratidão do donatário pode ser alegada mesmo nas doações puramente remuneratórias e com encargo já cumprido."
+        "text": "A revogação da doação por ingratidão do donatário pode ser alegada mesmo nas doações puramente remuneratórias e com encargo já cumprido, com produção imediata de efeitos patrimoniais e pessoais independentemente de averbação registral."
       },
       {
         "letter": "D",
-        "text": "A primeira configura doação UNIVERSAL (nula — Art. 548 CC — por não reservar parte ou renda suficiente à subsistência do doador); a segunda é anulável pelo cônjuge ou herdeiros necessários até dois anos depois de dissolvida a sociedade conjugal (Art. 550 CC), e seria nula na parte excedente à legítima se fosse doação INOFICIOSA (Art. 549 CC)."
+        "text": "A primeira configura doação universal; a segunda é anulável pelo cônjuge ou herdeiros necessários até dois anos depois de dissolvida a sociedade conjugal, e seria nula na parte excedente à legítima se fosse doação inoficiosa."
       }
     ],
     "correctAnswer": "D",
@@ -2678,7 +2678,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "São permitidas até duas modalidades de garantia locatícia cumulativamente em locações comerciais de grande porte."
+        "text": "São permitidas até duas modalidades de garantia locatícia cumulativamente em locações comerciais de grande porte, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "C",
@@ -2686,7 +2686,7 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A exigência de mais de uma modalidade de garantia num mesmo contrato de locação é nula e constitui contravenção penal (Art. 37, parágrafo único, e Art. 43, II); quanto à venda sem preferência, sem cláusula de vigência averbada na matrícula do imóvel há pelo menos 30 dias antes da alienação, o locatário NÃO pode exigir a adjudicação do imóvel (Súmula 442 STF/Art. 33), cabendo apenas perdas e danos, e o adquirente pode denunciar a locação dando prazo de 90 dias para desocupação (Art. 8º)."
+        "text": "A exigência de mais de uma modalidade de garantia num mesmo contrato de locação é nula e constitui contravenção penal."
       }
     ],
     "correctAnswer": "D",
@@ -2729,19 +2729,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em ambos os empréstimos os riscos correm sempre por conta de quem recebeu a coisa emprestada."
+        "text": "Em ambos os empréstimos os riscos correm sempre por conta de quem recebeu a coisa emprestada, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "B",
-        "text": "O comodatário em mora pode cobrar aluguel ao comodante pelas despesas ordinárias de uso e gozo do bem."
+        "text": "O comodatário em mora pode cobrar aluguel ao comodante pelas despesas ordinárias de uso e gozo do bem, com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado."
       },
       {
         "letter": "C",
-        "text": "No comodato (coisa infungível), res perit domino — o proprietário comodante suporta o caso fortuito sem culpa do comodatário (salvo se o comodatário preferir salvar seus próprios bens abandonando o bem emprestado — Art. 583 CC); no mútuo (coisa fungível), transfere-se o domínio ao mutuário (Art. 587 CC), correndo por conta do MUTUÁRIO todos os riscos da coisa desde a tradição."
+        "text": "No comodato (coisa infungível), res perit domino; no mútuo (coisa fungível), transfere-se o domínio ao mutuário, correndo por conta do mutuário todos os riscos da coisa desde a tradição."
       },
       {
         "letter": "D",
-        "text": "A fiança pode ser prestada verbalmente e interpreta-se extensivamente em favor do credor."
+        "text": "A fiança pode ser prestada verbalmente e interpreta-se extensivamente em favor do credor, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       }
     ],
     "correctAnswer": "C",
@@ -2784,19 +2784,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O dono do animal só responde se comprovada negligência na guarda da coleira ou do portão."
+        "text": "O dono do animal só responde se comprovada negligência na guarda da coleira ou do portão, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "B",
-        "text": "A perda de uma chance exige que a probabilidade de vitória fosse 100% certa e indeniza integralmente o valor total da causa."
+        "text": "A perda de uma chance exige que a probabilidade de vitória fosse 100% certa e indeniza integralmente o valor total da causa, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual."
       },
       {
         "letter": "C",
-        "text": "No ataque do animal aplica-se a responsabilidade OBJETIVA do dono ou detentor (Art. 936 CC — só se exonera provando culpa exclusiva da vítima ou força maior); na perda do prazo pelo advogado aplica-se a teoria da PERDA DE UMA CHANCE (indenização proporcional à probabilidade real/séria perdida, nunca do valor integral automático do benefício final esperado)."
+        "text": "No ataque do animal aplica-se a responsabilidade objetiva do dono ou detentor; na perda do prazo pelo advogado aplica-se a teoria da perda de uma chance."
       },
       {
         "letter": "D",
-        "text": "Pessoa jurídica não pode sofrer dano moral por ausência de honra subjetiva."
+        "text": "Pessoa jurídica não pode sofrer dano moral por ausência de honra subjetiva, com impedimento à compensação ou repetição dos valores prestados na relação negocial."
       }
     ],
     "correctAnswer": "C",
@@ -2840,19 +2840,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, respondem apenas subjetivamente, podendo exonerar-se provando que educaram e fiscalizaram diligentemente o menor ou o empregado."
+        "text": "Não, respondem apenas subjetivamente, podendo exonerar-se provando que educaram e fiscalizaram diligentemente o menor ou o empregado. A solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias."
       },
       {
         "letter": "B",
-        "text": "O empregador nunca tem direito de regresso contra o empregado que causou o dano culposamente."
+        "text": "O empregador nunca tem direito de regresso contra o empregado que causou o dano culposamente, sem possibilidade de modificação unilateral das obrigações contratuais sem anuência expressa."
       },
       {
         "letter": "C",
-        "text": "Sim. Pelo Art. 932 combinado com o Art. 933 do Código Civil, os pais (pelos filhos menores sob sua autoridade e em sua companhia) e o empregador/comitente (por seus empregados/prepostos no exercício do trabalho ou em razão dele) respondem OBJETIVAMENTE pelos atos de terceiros, independentemente de culpa de sua parte."
+        "text": "Sim combinado com o Art. 933 do Código Civil, os pais e o empregador/comitente respondem objetivamente pelos atos de terceiros, independentemente de culpa de sua parte."
       },
       {
         "letter": "D",
-        "text": "Os pais têm direito de regresso contra o filho menor de 15 anos após indenizarem o vizinho."
+        "text": "Os pais têm direito de regresso contra o filho menor de 15 anos após indenizarem o vizinho, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       }
     ],
     "correctAnswer": "C",
@@ -2895,19 +2895,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O possuidor de boa-fé tem direito de retenção apenas pelas benfeitorias necessárias, nunca pelas úteis."
+        "text": "O possuidor de boa-fé tem direito de retenção apenas pelas benfeitorias necessárias, nunca pelas úteis, com impedimento à compensação ou repetição dos valores prestados na relação negocial."
       },
       {
         "letter": "B",
-        "text": "O possuidor de má-fé não tem direito sequer ao ressarcimento das benfeitorias necessárias realizadas para evitar a ruína do bem."
+        "text": "O possuidor de má-fé não tem direito sequer ao ressarcimento das benfeitorias necessárias realizadas para evitar a ruína do bem, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "C",
-        "text": "O possuidor de boa-fé tem direito aos frutos percebidos durante a boa-fé (Art. 1.214), à indenização das benfeitorias NECESSÁRIAS e ÚTEIS (com direito de RETENÇÃO pelo valor delas — Art. 1.219) e a levantar as VOLUPTUÁRIAS se não lhe forem pagas e puder fazê-lo sem detrimento da coisa; diferente do possuidor de má-fé, que só tem direito às necessárias, SEM direito de retenção nem levantamento das voluptuárias."
+        "text": "O possuidor de boa-fé tem direito aos frutos percebidos durante a boa-fé, à indenização das benfeitorias necessárias e úteis e a levantar as voluptuárias se não lhe forem pagas e puder fazê-lo sem detrimento da coisa."
       },
       {
         "letter": "D",
-        "text": "O possuidor de boa-fé responde pela perda ou deterioração da coisa mesmo que não lhe tenha dado causa."
+        "text": "O possuidor de boa-fé responde pela perda ou deterioração da coisa mesmo que não lhe tenha dado causa, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       }
     ],
     "correctAnswer": "C",
@@ -2950,19 +2950,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No primeiro caso já se consumou a usucapião especial urbana constitucional de 5 anos por ter o imóvel menos de 250 m²."
+        "text": "No primeiro caso já se consumou a usucapião especial urbana constitucional de 5 anos por ter o imóvel menos de 250 m², com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "B",
-        "text": "Na usucapião extraordinária de 15 anos exige-se justo título e boa-fé."
+        "text": "Na usucapião extraordinária de 15 anos exige-se justo título e boa-fé, com produção imediata de efeitos patrimoniais e pessoais independentemente de averbação registral."
       },
       {
         "letter": "C",
-        "text": "No primeiro caso cabe usucapião ORDINÁRIA (10 anos como regra, reduzida para 5 anos quando adquirido onerosamente com base em registro cancelado e estabelecido moradia/investimentos — Art. 1.242, p.u.; no caso com 6 anos, não cabe ainda a ordinária de 10 anos nem a constitucional urbana de 5 anos porque já possui outro imóvel!); no segundo caso cabe usucapião FAMILIAR / por abandono de lar (Art. 1.240-A CC — 2 anos sobre imóvel até 250 m² dividido com ex-cônjuge que abandonou o lar, desde que não tenha outro imóvel)."
+        "text": "No primeiro caso cabe usucapião ordinária; no segundo caso cabe usucapião familiar / por abandono de lar."
       },
       {
         "letter": "D",
-        "text": "A usucapião familiar do Art. 1.240-A exige prazo de 5 anos de posse exclusiva após a separação de fato."
+        "text": "A usucapião familiar exige prazo de 5 anos de posse exclusiva após a separação de fato, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual."
       }
     ],
     "correctAnswer": "C",
@@ -3005,19 +3005,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A cláusula de pacto comissório é válida desde que celebrada por escritura pública com advogado."
+        "text": "A cláusula de pacto comissório é válida desde que celebrada por escritura pública com advogado, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "B",
-        "text": "A hipoteca registrada pela construtora em favor do banco prevalece sobre os compradores das unidades do edifício por ser anterior."
+        "text": "A hipoteca registrada pela construtora em favor do banco prevalece sobre os compradores das unidades do edifício por ser anterior, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "C",
-        "text": "A cláusula que autoriza o credor pignoratício, anticrético ou hipotecário a ficar com o objeto da garantia se a dívida não for paga no vencimento (pacto comissório) é NULA (Art. 1.428 CC); e, conforme a Súmula 308 do STJ, a hipoteca firmada entre a construtora e o agente financeiro, anterior ou posterior à celebração da promessa de compra e venda, NÃO tem eficácia perante os adquirentes do imóvel."
+        "text": "A cláusula que autoriza o credor pignoratício, anticrético ou hipotecário a ficar com o objeto da garantia se a dívida não for paga no vencimento (pacto comissório) é nula."
       },
       {
         "letter": "D",
-        "text": "Na alienação fiduciária em garantia de bens imóveis (Lei 9.514/97), a execução da garantia exige obrigatoriamente ação judicial de execução hipotecária."
+        "text": "Na alienação fiduciária em garantia de bens imóveis, a execução da garantia exige obrigatoriamente ação judicial de execução hipotecária, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       }
     ],
     "correctAnswer": "C",
@@ -3061,19 +3061,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A assembleia condominial pode expulsar definitivamente o proprietário antissocial proibindo-o de entrar em sua unidade sem intervenção judicial."
+        "text": "A assembleia condominial pode expulsar definitivamente o proprietário antissocial proibindo-o de entrar em sua unidade sem intervenção judicial, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "B",
-        "text": "O crédito hipotecário do banco prefere ao crédito das despesas condominiais na execução."
+        "text": "O crédito hipotecário do banco prefere ao crédito das despesas condominiais na execução, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "C",
-        "text": "Ao condômino com reiterado comportamento antissocial que gera incompatibilidade de convivência, a assembleia por 3/4 dos condôminos restantes pode aplicar multa de até 10 vezes o valor da contribuição mensal (Art. 1.337, parágrafo único — garantido contraditório/ampla defesa); e, pela natureza propter rem das despesas condominiais, o adquirente em arrematação ou venda responde pelos débitos do imóvel (Art. 1.345), porém o crédito de condomínio NÃO prefere ao crédito tributário na preferência do produto da arrematação? Atenção: na Súmula 478 STJ, o crédito condominial tem preferência sobre o crédito HIPOTECÁRIO (não sobre o tributário, que tem preferência legal pelo Art. 186 CTN)!"
+        "text": "Ao condômino com reiterado comportamento antissocial que gera incompatibilidade de convivência, a assembleia por 3/4 dos condôminos restantes pode aplicar multa de até 10 vezes o valor da contribuição mensal; e, pela natureza propter rem das despesas condominiais, o adquirente em arrematação ou venda responde pelos débitos do imóvel. 186 CTN."
       },
       {
         "letter": "D",
-        "text": "A convenção de condomínio sem registro no Cartório de Registro de Imóveis não obriga sequer os próprios condôminos que a assinaram."
+        "text": "A convenção de condomínio sem registro no Cartório de Registro de Imóveis não obriga sequer os próprios condôminos que a assinaram, sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral."
       }
     ],
     "correctAnswer": "C",
@@ -3117,19 +3117,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Foi constituído condomínio edilício comum, atribuindo-se ao titular da laje 50% de fração ideal do solo."
+        "text": "Foi constituído condomínio edilício comum, atribuindo-se ao titular da laje 50% de fração ideal do solo, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "B",
-        "text": "O titular da laje pode vender livremente sua laje a terceiro sem oferecer direito de preferência ao titular da construção-base."
+        "text": "O titular da laje pode vender livremente sua laje a terceiro sem oferecer direito de preferência ao titular da construção-base, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor."
       },
       {
         "letter": "C",
-        "text": "Foi constituído o DIREITO REAL DE LAJE (Art. 1.510-A CC), que permite a abertura de matrícula própria distinta da matrícula da construção-base; porém, o titular da laje NÃO adquire direito à fração ideal do terreno nem às demais áreas edificadas, respondendo apenas pelas despesas da área de uso comum na proporção ajustada."
+        "text": "Foi constituído o direito real de laje, que permite a abertura de matrícula própria distinta da matrícula da construção-base."
       },
       {
         "letter": "D",
-        "text": "A ruína da construção-base não extingue o direito real de laje em hipótese alguma."
+        "text": "A ruína da construção-base não extingue o direito real de laje em hipótese alguma, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       }
     ],
     "correctAnswer": "C",
@@ -3172,19 +3172,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para pessoa maior de 70 anos, a separação obrigatória de bens continua sendo absoluta e irrenunciável, proibindo qualquer pacto antenupcial."
+        "text": "Para pessoa maior de 70 anos, a separação obrigatória de bens continua sendo absoluta e irrenunciável, proibindo qualquer pacto antenupcial. Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes."
       },
       {
         "letter": "B",
-        "text": "Na comunhão parcial de bens, o cônjuge pode vender sozinho um imóvel particular adquirido antes do casamento sem outorga do outro."
+        "text": "Na comunhão parcial de bens, o cônjuge pode vender sozinho um imóvel particular adquirido antes do casamento sem outorga do outro, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "C",
-        "text": "No julgamento do Tema 1236 (ARE 1.309.642), o STF decidiu que nos casamentos e uniões estáveis envolvendo pessoa maior de 70 anos, o regime de separação obrigatória de bens (Art. 1.641, II, CC) pode ser AFASTADO por expressa manifestação de vontade das partes mediante escritura pública (sendo supletivo se nada pactuarem); já na comunhão parcial, a alienação ou gravação de ônus real de QUALQUER bem imóvel (mesmo particular!) exige outorga conjugal (Art. 1.647, I, CC), dispensada apenas na separação absoluta."
+        "text": "No julgamento do Tema 1236, o STF decidiu que nos casamentos e uniões estáveis envolvendo pessoa maior de 70 anos, o regime de separação obrigatória de bens pode ser afastado por expressa manifestação de vontade das partes mediante escritura pública."
       },
       {
         "letter": "D",
-        "text": "A Súmula 377 do STF veda qualquer comunicação de bens adquiridos onerosamente durante o casamento na separação obrigatória."
+        "text": "A Súmula 377 do STF veda qualquer comunicação de bens adquiridos onerosamente durante o casamento na separação obrigatória, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor."
       }
     ],
     "correctAnswer": "C",
@@ -3228,19 +3228,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todas as 12 parcelas vencidas autorizam a prisão civil do devedor por até 90 dias."
+        "text": "Todas as 12 parcelas vencidas autorizam a prisão civil do devedor por até 90 dias, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "B",
-        "text": "A sentença que reduz os alimentos permite compensar ou cobrar de volta todas as diferenças pagas desde a citação."
+        "text": "A sentença que reduz os alimentos permite compensar ou cobrar de volta todas as diferenças pagas desde a citação, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "C",
-        "text": "A execução pelo rito da prisão civil só compreende as 3 prestações anteriores ao ajuizamento da execução e as que vencerem no curso do processo (Súmula 309 STJ e Art. 528, § 7º, CPC — as demais 9 anteriores seguem rito da penhora); quanto à revisional, os efeitos da sentença que reduz, majora ou exonera os alimentos retroagem à data da CITAÇÃO, porém é vedada a repetição/devolução de valores já pagos a maior (irrepetibilidade dos alimentos — Súmula 621 STJ)."
+        "text": "A execução pelo rito da prisão civil só compreende as 3 prestações anteriores ao ajuizamento da execução e as que vencerem no curso do processo."
       },
       {
         "letter": "D",
-        "text": "A obrigação de prestar alimentos é intransmissível e jamais obriga os avós."
+        "text": "A obrigação de prestar alimentos é intransmissível e jamais obriga os avós, sem possibilidade de modificação unilateral das obrigações contratuais sem anuência expressa."
       }
     ],
     "correctAnswer": "C",
@@ -3284,19 +3284,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na comunhão parcial, a esposa herda 50% dos bens particulares e concorre com os filhos nos bens comuns."
+        "text": "Na comunhão parcial, a esposa herda 50% dos bens particulares e concorre com os filhos nos bens comuns, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "B",
-        "text": "Na comunhão parcial, a esposa é MEEIRA dos bens comuns (50% pela meação, não herda nos comuns) e CONCORRE como HERDEIRA com os dois filhos exclusivos do falecido EXCLUSIVAMENTE sobre os bens PARTICULARES (REsp 1.368.123 STJ), recebendo 1/3 dos bens particulares (sem reserva de 1/4, pois não é ascendente comum dos filhos exclusivos do de cujus!)."
+        "text": "Na comunhão parcial, a esposa é meeira dos bens comuns e concorre como herdeira com os dois filhos exclusivos do falecido exclusivamente sobre os bens particulares, recebendo 1/3 dos bens particulares."
       },
       {
         "letter": "C",
-        "text": "Por concorrer com descendentes, a esposa tem garantia legal de receber no mínimo 1/4 da herança dos bens particulares."
+        "text": "Por concorrer com descendentes, a esposa tem garantia legal de receber no mínimo 1/4 da herança dos bens particulares, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "D",
-        "text": "O companheiro em união estável segue regras sucessórias mais restritivas previstas no Art. 1.790 do Código Civil."
+        "text": "O companheiro em união estável segue regras sucessórias mais restritivas previstas, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       }
     ],
     "correctAnswer": "B",
@@ -3340,19 +3340,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, a indignidade opera automaticamente com a condenação penal e impede os netos de herdarem por representação."
+        "text": "Sim, a indignidade opera automaticamente com a condenação penal e impede os netos de herdarem por representação, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "B",
-        "text": "Não. A exclusão por indignidade exige sentença judicial declaratória em ação própria proposta no prazo decadencial de 4 anos da abertura da sucessão (por interessado ou MP em caso de homicídio doloso — Art. 1.815, § 2º), e são PESSOAIS os efeitos da exclusão: os descendentes do herdeiro excluído (netos) sucedem por representação, como se o indigno morto fosse antes da abertura da sucessão (Art. 1.816 CC)."
+        "text": "Não, a exclusão por indignidade exige sentença judicial declaratória em ação própria proposta no prazo decadencial de 4 anos da abertura da sucessão, e são pessoais os efeitos da exclusão: os descendentes do herdeiro excluído (netos) sucedem por representação, como se o indigno morto fosse antes da abertura da sucessão."
       },
       {
         "letter": "C",
-        "text": "O indigno excluído pode posteriormente renunciar à herança para transferir seus bens a terceiro escolhido."
+        "text": "O indigno excluído pode posteriormente renunciar à herança para transferir seus bens a terceiro escolhido, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "D",
-        "text": "Para a deserdação de herdeiro necessário, basta escritura pública isolada sem indicação de causa."
+        "text": "Para a deserdação de herdeiro necessário, basta escritura pública isolada sem indicação de causa, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       }
     ],
     "correctAnswer": "B",
@@ -3395,19 +3395,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, pois menor de 18 anos é relativamente incapaz e depende de assistência dos pais para testar."
+        "text": "Não, pois menor de 18 anos é relativamente incapaz e depende de assistência dos pais para testar. Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes."
       },
       {
         "letter": "B",
-        "text": "Sim. Podem testar os maiores de 16 anos independentemente de assistência dos pais (Art. 1.860, parágrafo único, CC); havendo descendentes (herdeiros necessários), pode dispor livremente de até 50% (parte disponível — 40% respeita a legítima); e o codicilo (escrito particular datado e assinado — Art. 1.881 CC) serve justamente para disposições especiais sobre enterro, esmolas de pouca monta e móveis/roupas/joias de pouco valor."
+        "text": "Sim, podem testar os maiores de 16 anos independentemente de assistência dos pais; havendo descendentes, pode dispor livremente de até 50%; e o codicilo serve justamente para disposições especiais sobre enterro, esmolas de pouca monta e móveis/roupas/joias de pouco valor."
       },
       {
         "letter": "C",
-        "text": "O testamento cerrado (místico) pode ser lido publicamente pelo tabelião antes de ser aprovado e cerrado."
+        "text": "O testamento cerrado (místico) pode ser lido publicamente pelo tabelião antes de ser aprovado e cerrado, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual. A solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias."
       },
       {
         "letter": "D",
-        "text": "O codicilo exige reconhecimento de firma e registro em cartório de notas com cinco testemunhas."
+        "text": "O codicilo exige reconhecimento de firma e registro em cartório de notas com cinco testemunhas, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       }
     ],
     "correctAnswer": "B",
@@ -3450,19 +3450,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No primeiro caso há novação objetiva automática, e no segundo ocorre transação hereditária."
+        "text": "No primeiro caso há novação objetiva automática, e no segundo ocorre transação hereditária, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "B",
-        "text": "No primeiro caso opera-se a COMPENSAÇÃO legal (extinção recíproca até onde se compensarem, pois há dívidas líquidas, vencidas e fungíveis entre si — Arts. 368–369 CC); no segundo caso opera-se a CONFUSÃO (reunião na mesma pessoa das qualidades de credor e devedor — Art. 381 CC)."
+        "text": "No primeiro caso opera-se a compensação legal; no segundo caso opera-se a confusão."
       },
       {
         "letter": "C",
-        "text": "A compensação legal opera-se mesmo quando uma das dívidas decorre de esbulho, furto ou pensão alimentícia."
+        "text": "A compensação legal opera-se mesmo quando uma das dívidas decorre de esbulho, furto ou pensão alimentícia, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "D",
-        "text": "Na novação por substituição do devedor (expromissão), exige-se sempre o consentimento do devedor originário."
+        "text": "Na novação por substituição do devedor (expromissão), exige-se sempre o consentimento do devedor originário, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual."
       }
     ],
     "correctAnswer": "B",
@@ -3505,19 +3505,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Como o estado de necessidade exclui a ilicitude, o motorista não precisa indenizar o proprietário do muro atingido."
+        "text": "Como o estado de necessidade exclui a ilicitude, o motorista não precisa indenizar o proprietário do muro atingido, sem possibilidade de modificação unilateral das obrigações contratuais sem anuência expressa. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "B",
-        "text": "Sim, a esposa e a filha têm legitimidade própria por dano moral em ricochete (dano reflexo) e pensão alimentícia indenizatória (Art. 948, II, CC — devida em regra até os 25 anos aos filhos ou sobrevida provável da vítima ao cônjuge); e no estado de necessidade contra terceiro inocente (dono do muro), o ato é lícito (Art. 188, II), MAS o motorista deve indenizar o dono do muro inocente, cabendo-lhe ação regressiva contra o culpado pelo perigo (Arts. 929 e 930 CC)."
+        "text": "Sim, a esposa e a filha têm legitimidade própria por dano moral em ricochete (dano reflexo) e pensão alimentícia indenizatória; e no estado de necessidade contra terceiro inocente (dono do muro), o ato é lícito, mas o motorista deve indenizar o dono do muro inocente, cabendo-lhe ação regressiva contra o culpado pelo perigo."
       },
       {
         "letter": "C",
-        "text": "Apenas o espólio da vítima falecida pode pleitear indenização por danos morais decorrentes do óbito."
+        "text": "Apenas o espólio da vítima falecida pode pleitear indenização por danos morais decorrentes do óbito, com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado."
       },
       {
         "letter": "D",
-        "text": "Na legítima defesa real em que o agente atinge exatamente o agressor injusto sem excesso, subsiste o dever de indenizar o agressor."
+        "text": "Na legítima defesa real em que o agente atinge exatamente o agressor injusto sem excesso, subsiste o dever de indenizar o agressor, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       }
     ],
     "correctAnswer": "B",
@@ -3560,19 +3560,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O cidadão tem direito de exigir integralmente a recompensa de R$ 10.000,00 mesmo após a revogação válida antes do achado."
+        "text": "O cidadão tem direito de exigir integralmente a recompensa de R$ 10.000,00 mesmo após a revogação válida antes do achado, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "B",
-        "text": "A revogação antes da execução da tarefa é válida (se feita com a mesma publicidade — Art. 856 CC), mas o candidato que tiver feito despesas de boa-fé terá direito ao REEMBOLSO das despesas realizadas (Art. 856, parágrafo único, CC), salvo se quem prometeu provar a impossibilidade de obtenção do resultado."
+        "text": "A revogação antes da execução da tarefa é válida, mas o candidato que tiver feito despesas de boa-fé terá direito ao reembolso das despesas realizadas, salvo se quem prometeu provar a impossibilidade de obtenção do resultado."
       },
       {
         "letter": "C",
-        "text": "A promessa de recompensa é irrevogável desde o primeiro instante de sua publicação."
+        "text": "A promessa de recompensa é irrevogável desde o primeiro instante de sua publicação, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "D",
-        "text": "A ação de enriquecimento sem causa pode ser proposta livremente mesmo quando a lei conferir outro meio específico de ressarcimento."
+        "text": "A ação de enriquecimento sem causa pode ser proposta livremente mesmo quando a lei conferir outro meio específico de ressarcimento, com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado."
       }
     ],
     "correctAnswer": "B",
@@ -3615,19 +3615,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos já adquiriram a propriedade, pois o prazo único da usucapião de bens móveis é de 3 anos."
+        "text": "Ambos já adquiriram a propriedade, pois o prazo único da usucapião de bens móveis é de 3 anos. A solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias."
       },
       {
         "letter": "B",
-        "text": "O primeiro colecionador adquiriu a propriedade por usucapião ordinária de bem móvel (3 anos com justo título e boa-fé — Art. 1.260 CC); o segundo NÃO adquiriu ainda, pois a usucapião extraordinária de bem móvel (sem título nem boa-fé) exige posse contínua e incontestada por 5 anos (Art. 1.261 CC)."
+        "text": "O primeiro colecionador adquiriu a propriedade por usucapião ordinária de bem móvel; o segundo não adquiriu ainda, pois a usucapião extraordinária de bem móvel exige posse contínua e incontestada por 5 anos."
       },
       {
         "letter": "C",
-        "text": "Não existe usucapião para bens móveis no Código Civil brasileiro."
+        "text": "Não existe usucapião para bens móveis no Código Civil brasileiro, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "D",
-        "text": "Na descoberta (achado de coisa alheia perdida — Art. 1.233 CC), quem encontra tem direito automático à propriedade imediata se o dono não aparecer em 15 dias."
+        "text": "Na descoberta, quem encontra tem direito automático à propriedade imediata se o dono não aparecer em 15 dias, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       }
     ],
     "correctAnswer": "B",
@@ -3670,19 +3670,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A perda do poder familiar é apenas sanção temporária (suspensão) e jamais ocorre por crime contra o outro genitor."
+        "text": "A perda do poder familiar é apenas sanção temporária (suspensão) e jamais ocorre por crime contra o outro genitor, com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 1.638, parágrafo único, I, do Código Civil (incluído pela Lei 13.715/2018), perderá por ato judicial o poder familiar aquele que praticar homicídio, feminicídio ou lesão corporal grave/seguida de morte contra outrem igualmente titular do mesmo poder familiar (ou contra filho/neto); e o STF (Tema 622) firmou que a paternidade socioafetiva, declarada ou não em registro público, NÃO impede o reconhecimento do vínculo biológico concomitante (multiparentalidade), com todos os efeitos jurídicos."
+        "text": "Do Código Civil, perderá por ato judicial o poder familiar aquele que praticar homicídio, feminicídio ou lesão corporal grave/seguida de morte contra outrem igualmente titular do mesmo poder familiar."
       },
       {
         "letter": "C",
-        "text": "A existência de pai registral socioafetivo exclui juridicamente a possibilidade de reconhecimento da paternidade biológica (vedada multiparentalidade)."
+        "text": "A existência de pai registral socioafetivo exclui juridicamente a possibilidade de reconhecimento da paternidade biológica (vedada multiparentalidade), em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "D",
-        "text": "O reconhecimento voluntário de filho havido fora do casamento pode ser revogado livremente por arrependimento em escritura pública."
+        "text": "O reconhecimento voluntário de filho havido fora do casamento pode ser revogado livremente por arrependimento em escritura pública, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       }
     ],
     "correctAnswer": "B",
@@ -3726,19 +3726,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O banco se exonera integralmente alegando culpa exclusiva de terceiro hacker."
+        "text": "O banco se exonera integralmente alegando culpa exclusiva de terceiro hacker, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       },
       {
         "letter": "B",
-        "text": "A instituição financeira responde OBJETIVAMENTE pelos danos gerados por fortuito interno relativo a fraudes e delitos praticados por terceiros no âmbito de operações bancárias (Súmula 479 STJ); quanto ao provedor de aplicações de internet, nos termos do Art. 19 do Marco Civil da Internet, só responde civilmente por conteúdo gerado por terceiros se descumprir ordem JUDICIAL específica de remoção (ressalvada a regra excepcional do Art. 21 para cenas de nudez/atos sexuais privados sem autorização, que exige mera notificação extrajudicial, e observada a modulação/debate de repercussão geral no STF sobre o Art. 19)."
+        "text": "A instituição financeira responde objetivamente pelos danos gerados por fortuito interno relativo a fraudes e delitos praticados por terceiros no âmbito de operações bancárias."
       },
       {
         "letter": "C",
-        "text": "Pelo texto vigente do Art. 21 do Marco Civil, mesmo a divulgação não consentida de vídeo íntimo exige ordem judicial prévia para responsabilizar o provedor."
+        "text": "Pelo texto vigente do Marco Civil, mesmo a divulgação não consentida de vídeo íntimo exige ordem judicial prévia para responsabilizar o provedor, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional."
       },
       {
         "letter": "D",
-        "text": "A responsabilidade civil do banco por fortuito externo (como assalto à mão armada fora das dependências bancárias) também é objetiva pela Súmula 479 STJ."
+        "text": "A responsabilidade civil do banco por fortuito externo (como assalto à mão armada fora das dependências bancárias) também é objetiva, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       }
     ],
     "correctAnswer": "B",
@@ -3782,19 +3782,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o pagamento de obrigação prescrita configura pagamento indevido restituível com juros."
+        "text": "Sim, pois o pagamento de obrigação prescrita configura pagamento indevido restituível com juros. A solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias."
       },
       {
         "letter": "B",
-        "text": "Não procede. Pelo Art. 882 do Código Civil, não se pode repetir o que se pagou para solver dívida prescrita, ou cumprir obrigação judicialmente inexigível (como dívida de jogo/aposta não autorizada ou obrigação natural)."
+        "text": "Não procede. não se pode repetir o que se pagou para solver dívida prescrita, ou cumprir obrigação judicialmente inexigível."
       },
       {
         "letter": "C",
-        "text": "Quem pagou dívida condicional antes de implementada a condição suspensiva jamais pode repetir o valor."
+        "text": "Quem pagou dívida condicional antes de implementada a condição suspensiva jamais pode repetir o valor, com impedimento à compensação ou repetição dos valores prestados na relação negocial."
       },
       {
         "letter": "D",
-        "text": "Não é permitida a restituição do pagamento indevido mesmo quando quem pagou provar erro essencial sobre a existência da dívida."
+        "text": "Não é permitida a restituição do pagamento indevido mesmo quando quem pagou provar erro essencial sobre a existência da dívida, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       }
     ],
     "correctAnswer": "B",
@@ -3837,19 +3837,19 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela Súmula 403 do STJ, independe de prova do prejuízo a indenização pela publicação não autorizada de imagem de pessoa com fins econômicos ou comerciais (dano in re ipsa); já quanto ao \"direito ao esquecimento\" em matéria jornalística/histórica lícita, o STF decidiu no RE 1.010.606 (Tema 786) que ele é INCOMPATÍVEL com a Constituição Federal, analisando-se eventuais excessos pontualmente."
+        "text": "Independe de prova do prejuízo a indenização pela publicação não autorizada de imagem de pessoa com fins econômicos ou comerciais (dano in re ipsa)."
       },
       {
         "letter": "B",
-        "text": "No uso comercial da foto sem autorização, não cabe indenização se não houver ofensa vexatória ou prova concreta de prejuízo financeiro."
+        "text": "No uso comercial da foto sem autorização, não cabe indenização se não houver ofensa vexatória ou prova concreta de prejuízo financeiro, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais."
       },
       {
         "letter": "C",
-        "text": "O STF consagrou o direito ao esquecimento como direito fundamental absoluto para apagar todos os registros jornalísticos após 10 anos."
+        "text": "O STF consagrou o direito ao esquecimento como direito fundamental absoluto para apagar todos os registros jornalísticos após 10 anos, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "D",
-        "text": "O pseudônimo adotado para atividades lícitas não goza da proteção legal atribuída ao nome civil."
+        "text": "O pseudônimo adotado para atividades lícitas não goza da proteção legal atribuída ao nome civil, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato."
       }
     ],
     "correctAnswer": "A",
@@ -3893,15 +3893,15 @@ export const CIVIL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Direito real de HABITAÇÃO (Art. 1.831 do Código Civil — vitalício e gratuito, independentemente do regime de bens e mesmo que concorra com filhos exclusivos do falecido segundo o STJ, extinguindo-se apenas com o falecimento da viúva/companheira sobrevivente, sem cessar por novo casamento no CC/2002); já o USUFRUTO convencional extingue-se sempre com a morte do usufrutuário ou termo ajustado, sendo inalienável."
+        "text": "Direito real de habitação; já o usufruto convencional extingue-se sempre com a morte do usufrutuário ou termo ajustado, sendo inalienável."
       },
       {
         "letter": "B",
-        "text": "A viúva só tem direito real de habitação se tiver sido casada pelo regime de comunhão universal de bens."
+        "text": "A viúva só tem direito real de habitação se tiver sido casada pelo regime de comunhão universal de bens, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação."
       },
       {
         "letter": "C",
-        "text": "O direito de usufruto pode ser transmitido aos herdeiros do usufrutuário por testamento após sua morte."
+        "text": "O direito de usufruto pode ser transmitido aos herdeiros do usufrutuário por testamento após sua morte, com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado."
       },
       {
         "letter": "D",

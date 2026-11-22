@@ -14,10 +14,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Uma editora passou a comercializar exclusivamente livros digitais (e-books) e leitores digitais dedicados exclusivamente à leitura (e-readers), além de importar papel especial destinado à impressão de periódicos. O Fisco estadual exigiu o recolhimento de ICMS sobre a circulação dos e-books e e-readers sob a alegação de que a imunidade constitucional exige suporte físico em papel. À luz da Súmula Vinculante nº 57 do STF:`,
     options: [
-      { letter: 'A', text: 'A cobrança do ICMS é legítima porque a imunidade cultural restringe-se ao papel impresso.' },
-      { letter: 'B', text: 'A imunidade tributária constante do Art. 150, VI, d, da CF/88 aplica-se à importação e comercialização, no mercado interno, do livro eletrônico (e-book) e dos suportes exclusivamente utilizados para fixá-los, como os leitores de livros eletrônicos (e-readers).' },
-      { letter: 'C', text: 'A imunidade dos livros digitais alcança também o Imposto de Renda sobre o lucro da editora e as contribuições sociais.' },
-      { letter: 'D', text: 'Tablets multifuncionais com acesso amplo à internet e aplicativos também gozam integralmente da imunidade de livros.' }
+      { letter: 'A', text: 'A cobrança do ICMS é legítima porque a imunidade cultural restringe-se ao papel impresso. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.' },
+      { letter: 'B', text: 'A imunidade tributária aplica-se à importação e comercialização, no mercado interno, do livro eletrônico (e-book) e dos suportes exclusivamente utilizados para fixá-los, como os leitores de livros eletrônicos (e-readers).' },
+      { letter: 'C', text: 'A imunidade dos livros digitais alcança também o Imposto de Renda sobre o lucro da editora e as contribuições sociais, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.' },
+      { letter: 'D', text: 'Tablets multifuncionais com acesso amplo à internet e aplicativos também gozam integralmente da imunidade de livros, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.' }
     ],
     correctAnswer: 'B',
     justification: `A Súmula Vinculante nº 57 do STF estendeu a imunidade objetiva do art. 150, VI, "d", da CF/88 aos livros eletrônicos (e-books) e aos aparelhos leitores confeccionados exclusivamente para essa finalidade (e-readers), ainda que equipados com funcionalidades acessórias. Contudo, trata-se de imunidade apenas a IMPOSTOS (não alcança contribuições nem o IR da editora, pois é imunidade objetiva do produto/insumo, não subjetiva da empresa).`,
@@ -45,10 +45,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Em 20 de dezembro de determinado ano, foi publicada lei ordinária federal majorando a alíquota do Imposto sobre a Renda (IR) e outra lei aumentando a alíquota do IPI. Considerando o princípio da anterioridade tributária (anual e nonagesimal) previsto no Art. 150, III, b e c, e § 1º, da CF/88:`,
     options: [
-      { letter: 'A', text: 'O aumento do IR poderá ser exigido já em 1º de janeiro do ano seguinte (submete-se apenas à anterioridade anual, sendo exceção à noventena); o aumento do IPI poderá ser exigido após 90 dias da publicação (submete-se à noventena, sendo exceção à anual).' },
-      { letter: 'B', text: 'Tanto o IR quanto o IPI devem respeitar cumulativamente a anterioridade anual e a nonagesimal.' },
-      { letter: 'C', text: 'Ambos os impostos podem ser cobrados imediatamente no dia seguinte à publicação por força da urgência fiscal.' },
-      { letter: 'D', text: 'A fixação da base de cálculo do IPVA e do IPTU também se submete à anterioridade nonagesimal.' }
+      { letter: 'A', text: 'O aumento do IR poderá ser exigido já em 1º de janeiro do ano seguinte; o aumento do IPI poderá ser exigido após 90 dias da publicação.' },
+      { letter: 'B', text: 'Tanto o IR quanto o IPI devem respeitar cumulativamente a anterioridade anual e a nonagesimal, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.' },
+      { letter: 'C', text: 'Ambos os impostos podem ser cobrados imediatamente no dia seguinte à publicação por força da urgência fiscal, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.' },
+      { letter: 'D', text: 'A fixação da base de cálculo do IPVA e do IPTU também se submete à anterioridade nonagesimal, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.' }
     ],
     correctAnswer: 'A',
     justification: `Nos termos do art. 150, § 1º, da CF/88: o Imposto de Renda (IR) é exceção à NOVENTENA (vale apenas a anterioridade anual — publicado em 20/dez, já vale em 1º/jan!). Já o IPI é exceção à ANTERIORIDADE ANUAL (respeita apenas a noventena de 90 dias). Somente II, IE, IOF, Imposto Extraordinário de Guerra e Empréstimo Compulsório por calamidade/guerra têm cobrança imediata sem anual e sem noventena.`,
@@ -75,10 +75,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Um contribuinte realizou o fato gerador do ICMS em 15/03/2018, mas apresentou declaração a menor (apenas parte do tributo) e efetuou pagamento parcial antecipado de boa-fé, sem dolo, fraude ou simulação. Não houve lançamento de ofício complementar pelo Fisco estadual até 20/04/2023. À luz da Súmula 555 do STJ e do CTN:`,
     options: [
-      { letter: 'A', text: 'Aplica-se o prazo de 5 anos contado do primeiro dia do exercício seguinte (Art. 173, I, CTN), não tendo ocorrido decadência.' },
-      { letter: 'B', text: 'Havendo pagamento antecipado parcial sem dolo, fraude ou simulação, aplica-se a regra do Art. 150, § 4º, do CTN (5 anos contados da data do fato gerador), operando-se a decadência em 15/03/2023.' },
-      { letter: 'C', text: 'A declaração a menor autoriza a cobrança imprescritível da diferença a qualquer tempo.' },
-      { letter: 'D', text: 'O prazo decadencial no lançamento por homologação é sempre de 10 anos (tese dos 5 + 5).' }
+      { letter: 'A', text: 'Aplica-se o prazo de 5 anos contado do primeiro dia do exercício seguinte, não tendo ocorrido decadência, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.' },
+      { letter: 'B', text: 'Havendo pagamento antecipado parcial sem dolo, fraude ou simulação, aplica-se a regra (5 anos contados da data do fato gerador), operando-se a decadência em 15/03/2023.' },
+      { letter: 'C', text: 'A declaração a menor autoriza a cobrança imprescritível da diferença a qualquer tempo, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.' },
+      { letter: 'D', text: 'O prazo decadencial no lançamento por homologação é sempre de 10 anos (tese dos 5 + 5), com legitimação do lançamento de ofício e inscrição imediata do débito em dívida ativa. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo o STJ (REsp 973.733 e Súmula 555): se houve pagamento antecipado (mesmo que parcial ou a menor) sem dolo, fraude ou simulação, o prazo decadencial para o Fisco constituir eventual diferença segue o Art. 150, § 4º, do CTN: 5 anos contados DO FATO GERADOR (logo decaiu em 15/03/2023). Só vai para o Art. 173, I (5 anos do 1º dia do exercício seguinte) quando NÃO há nenhum pagamento antecipado ou há dolo/fraude/simulação.`,
@@ -106,10 +106,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Determinada empresa entregou tempestivamente a Guia de Informação e Apuração do ICMS (GIA) confessando um débito tributário de R$ 100.000,00, mas não realizou qualquer pagamento na data de vencimento. Um ano depois, sem que o Fisco tenha emitido qualquer notificação formal de lançamento de ofício, a Procuradoria inscreveu o valor em dívida ativa e ajuizou execução fiscal. Segundo a Súmula 436 do STJ:`,
     options: [
-      { letter: 'A', text: 'A execução fiscal é nula porque faltou prévio processo administrativo e notificação de lançamento.' },
+      { letter: 'A', text: 'A execução fiscal é nula porque faltou prévio processo administrativo e notificação de lançamento. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.' },
       { letter: 'B', text: 'A entrega de declaração pelo contribuinte reconhecendo débito fiscal constitui o crédito tributário, dispensada qualquer outra providência por parte do Fisco.' },
-      { letter: 'C', text: 'A confissão em GIA gera apenas presunção relativa, impedindo inscrição imediata em dívida ativa.' },
-      { letter: 'D', text: 'O contribuinte tem direito à expedição de Certidão Negativa de Débitos enquanto não houver lançamento de ofício.' }
+      { letter: 'C', text: 'A confissão em gia gera apenas presunção relativa, impedindo inscrição imediata em dívida ativa, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.' },
+      { letter: 'D', text: 'O contribuinte tem direito à expedição de Certidão Negativa de Débitos enquanto não houver lançamento de ofício, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.' }
     ],
     correctAnswer: 'B',
     justification: `Nos termos da Súmula 436 do STJ: "A entrega de declaração pelo contribuinte reconhecendo débito fiscal constitui o crédito tributário, dispensada qualquer outra providência por parte do Fisco". Com isso, não há mais falar em decadência (o crédito já está constituído!), iniciando-se imediatamente a contagem do prazo prescricional de 5 anos para a execução fiscal a partir do vencimento ou da entrega da declaração (o que ocorrer por último).`,
@@ -137,10 +137,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Execução fiscal foi proposta contra sociedade limitada comercial para cobrança de ICMS declarado e não pago. Durante a tramitação, o oficial de justiça certificou que a empresa fechou as portas sem comunicar aos órgãos competentes nem deixar bens, caracterizando encerramento irregular de atividades. Diante das Súmulas 430 e 435 do STJ:`,
     options: [
-      { letter: 'A', text: 'O simples inadimplemento da obrigação tributária basta para responsabilizar pessoalmente os sócios gerentes.' },
-      { letter: 'B', text: 'O inadimplemento por si só não gera responsabilidade solidária do sócio-gerente (Súmula 430), mas presume-se dissolvida irregularmente a empresa que deixar de funcionar no seu domicílio fiscal sem comunicação aos órgãos competentes, legitimando o redirecionamento da execução fiscal para o sócio-gerente (Súmula 435).' },
-      { letter: 'C', text: 'O redirecionamento atinge inclusive sócios meramente cotistas sem poderes de gerência.' },
-      { letter: 'D', text: 'Para redirecionar a execução fiscal por dissolução irregular é necessária a instauração prévia de IDPJ do CPC em todos os casos de redirecionamento de sócio-gerente constante na CDA ou por art. 135 CTN.' }
+      { letter: 'A', text: 'O simples inadimplemento da obrigação tributária basta para responsabilizar pessoalmente os sócios gerentes, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.' },
+      { letter: 'B', text: 'O inadimplemento por si só não gera responsabilidade solidária do sócio-gerente, mas presume-se dissolvida irregularmente a empresa que deixar de funcionar no seu domicílio fiscal sem comunicação aos órgãos competentes, legitimando o redirecionamento da execução fiscal para o sócio-gerente.' },
+      { letter: 'C', text: 'O redirecionamento atinge inclusive sócios meramente cotistas sem poderes de gerência, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.' },
+      { letter: 'D', text: 'Para redirecionar a execução fiscal por dissolução irregular é necessária a instauração prévia de IDPJ do CPC em todos os casos de redirecionamento de sócio-gerente constante na CDA ou por art. 135 CTN, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.' }
     ],
     correctAnswer: 'B',
     justification: `O binômio clássico das Súmulas do STJ no art. 135, III, do CTN: pela Súmula 430, "O inadimplemento da obrigação tributária pela sociedade não gera, por si só, a responsabilidade solidária do sócio-gerente"; contudo, pela Súmula 435, "Presume-se dissolvida irregularmente a empresa que deixar de funcionar no seu domicílio fiscal, sem comunicação aos órgãos competentes, legitimando o redirecionamento da execução fiscal para o sócio-gerente" (que exercia a administração na época da dissolução irregular — Tema 981 STJ).`,
@@ -168,10 +168,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Um contribuinte que questiona judicialmente determinado imposto federal pretende obter Certidão Positiva com Efeitos de Negativa (CPEN) para participar de licitação pública. Para suspender a exigibilidade do crédito tributário com base no Art. 151 do CTN e Súmula 112 do STJ, o contribuinte deverá:`,
     options: [
-      { letter: 'A', text: 'Apresentar fiança bancária ou seguro garantia no processo judicial, o que já suspende a exigibilidade do crédito tributário.' },
+      { letter: 'A', text: 'Apresentar fiança bancária ou seguro garantia no processo judicial, o que já suspende a exigibilidade do crédito tributário, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.' },
       { letter: 'B', text: 'Realizar o depósito do montante integral em dinheiro, ou obter concessão de medida liminar em mandado de segurança ou tutela provisória em outra ação judicial, além das hipóteses de parcelamento ou moratória.' },
-      { letter: 'C', text: 'Requerer anistia judicial mediante simples petição inicial.' },
-      { letter: 'D', text: 'Ajuizar ação anulatória sem tutela liminar nem depósito integral.' }
+      { letter: 'C', text: 'Requerer anistia judicial mediante simples petição inicial, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.' },
+      { letter: 'D', text: 'Ajuizar ação anulatória sem tutela liminar nem depósito integral, com impedimento à fruição imediata de imunidade ou isenção condicionada no caso concreto.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 151 do CTN traz rol taxativo de causas de suspensão da exigibilidade ("MO.DE.RE.CO.PA"): Moratória; Depósito do seu montante integral; Reclamações e recursos administrativos; Concessão de liminar em MS; Concessão de liminar/tutela em outras ações; Parcelamento. Pela Súmula 112 do STJ, o depósito somente suspende a exigibilidade se for INTEGRAL e EM DINHEIRO (fiança bancária e seguro garantia apenas garantem a execução fiscal para fins de CPEN do art. 206, mas NÃO suspendem a exigibilidade!).`,
@@ -199,10 +199,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'AUTORAL_PROFESSOR',
     statement: `Pedro firmou compromisso particular de compra e venda de imóvel urbano pelo valor real de mercado de R$ 600.000,00. O Município exigiu o pagamento antecipado do ITBI já na lavratura do contrato particular, arbitrando unilateralmente como base de cálculo o valor venal de referência de R$ 850.000,00 fixado em decreto municipal, superior ao declarado por Pedro e superior ao valor do IPTU. À luz da jurisprudência do STF e do STJ (Tema 1113):`,
     options: [
-      { letter: 'A', text: 'O fato gerador do ITBI ocorre no momento da assinatura da escritura pública ou contrato de gaveta, antes mesmo do registro imobiliário.' },
-      { letter: 'B', text: 'O fato gerador do ITBI ocorre somente com a efetiva transferência da propriedade imobiliária mediante registro no Cartório de Registro de Imóveis, e a base de cálculo é o valor do imóvel transmitido em condições normais de mercado (presumindo-se verídico o valor declarado pelo contribuinte, não vinculado ao IPTU nem a pauta prévia unilateral).' },
-      { letter: 'C', text: 'A base de cálculo do ITBI deve ser obrigatoriamente idêntica ao valor venal do IPTU.' },
-      { letter: 'D', text: 'O Município pode arbitrar unilateralmente o valor de referência sem processo administrativo contraditório (art. 148 CTN).' }
+      { letter: 'A', text: 'O fato gerador do ITBI ocorre no momento da assinatura da escritura pública ou contrato de gaveta, antes mesmo do registro imobiliário, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.' },
+      { letter: 'B', text: 'O fato gerador do ITBI ocorre somente com a efetiva transferência da propriedade imobiliária mediante registro no Cartório de Registro de Imóveis, e a base de cálculo é o valor do imóvel transmitido em condições normais de mercado.' },
+      { letter: 'C', text: 'A base de cálculo do ITBI deve ser obrigatoriamente idêntica ao valor venal do IPTU, com exigibilidade imediata do tributo no mesmo exercício financeiro sem anterioridade.' },
+      { letter: 'D', text: 'O Município pode arbitrar unilateralmente o valor de referência sem processo administrativo contraditório, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.' }
     ],
     correctAnswer: 'B',
     justification: `O STF (ARE 1.294.969 - Tema 1124) consolidou que o fato gerador do ITBI somente ocorre com a efetiva transferência da propriedade imobiliária, que se dá pelo REGISTRO em cartório (não no compromisso particular). E o STJ (REsp 1.937.821 - Tema 1113) fixou que: (a) a base de cálculo do ITBI é o valor venal de mercado real do negócio; (b) não está vinculada à base do IPTU; (c) presume-se verdadeiro o valor declarado pelo contribuinte, só podendo o Fisco afastá-lo via processo administrativo individualizado (art. 148 CTN), sendo ilegal a tabela prévia unilateral ("valor venal de referência").`,
@@ -230,10 +230,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Um posto de combustíveis adquire gasolina submetida ao regime de substituição tributária progressiva ("para frente"), tendo sido o ICMS retido antecipadamente pela refinaria com base em uma pauta fiscal presumida de R$ 6,50 por litro. Na venda ao consumidor final, porém, o posto praticou preço efetivo menor, de R$ 5,80 por litro. Conforme a tese de Repercussão Geral do STF (RE 593.849 - Tema 201):`,
     options: [
-      { letter: 'A', text: 'A base de cálculo presumida é definitiva, cabendo restituição apenas se a operação final jamais se realizar.' },
+      { letter: 'A', text: 'A base de cálculo presumida é definitiva, cabendo restituição apenas se a operação final jamais se realizar, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.' },
       { letter: 'B', text: 'É devida a restituição da diferença do ICMS pago a mais no regime de substituição tributária para a frente se a base de cálculo efetiva da operação for inferior à presumida.' },
-      { letter: 'C', text: 'O regime de substituição tributária para frente foi declarado inconstitucional pelo STF.' },
-      { letter: 'D', text: 'Somente a refinaria substituta pode pleitear a restituição, nunca o posto substituído.' }
+      { letter: 'C', text: 'O regime de substituição tributária para frente foi declarado inconstitucional pelo STF, com impedimento à fruição imediata de imunidade ou isenção condicionada no caso concreto. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.' },
+      { letter: 'D', text: 'Somente a refinaria substituta pode pleitear a restituição, nunca o posto substituído, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.' }
     ],
     correctAnswer: 'B',
     justification: `No RE 593.849 (Tema 201), o STF superou antigo precedente e firmou que: "É devida a restituição da diferença do Imposto sobre Circulação de Mercadorias e Serviços (ICMS) pago a mais no regime de substituição tributária para a frente se a base de cálculo efetiva da operação for inferior à presumida".`,
@@ -261,10 +261,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Sobre a repartição constitucional das receitas tributárias entre os entes federativos prevista nos Arts. 157 e 158 da Constituição Federal de 1988, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Pertence aos Municípios 50% do produto da arrecadação do ITR (Imposto Territorial Rural) em regra geral, podendo chegar a 100% caso o Município opte por fiscalizá-lo e cobrá-lo na forma da lei.' },
-      { letter: 'B', text: 'Pertence aos Municípios 25% do IPVA arrecadado pelo Estado.' },
-      { letter: 'C', text: 'Pertence aos Estados 50% do ICMS arrecadado e 50% aos Municípios.' },
-      { letter: 'D', text: 'O imposto de renda retido na fonte pelos Municípios sobre rendimentos pagos a seus servidores pertence integralmente à União.' }
+      { letter: 'A', text: 'Pertence aos Municípios 50% do produto da arrecadação do ITR em regra geral, podendo chegar a 100% caso o Município opte por fiscalizá-lo e cobrá-lo na forma da lei.' },
+      { letter: 'B', text: 'Pertence aos Municípios 25% do IPVA arrecadado pelo Estado, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.' },
+      { letter: 'C', text: 'Pertence aos Estados 50% do ICMS arrecadado e 50% aos Municípios, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.' },
+      { letter: 'D', text: 'O imposto de renda retido na fonte pelos Municípios sobre rendimentos pagos a seus servidores pertence integralmente à União, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.' }
     ],
     correctAnswer: 'A',
     justification: `Nos termos do art. 158, II, da CF/88: pertence aos Municípios 50% do produto da arrecadação do ITR relativamente aos imóveis neles situados — cabendo a TOTALIDADE (100%) na hipótese da opção do art. 153, § 4º, III (quando o Município fiscaliza e cobra o ITR). Já o IPVA reparte-se 50% ao Município do licenciamento (art. 158, III), o ICMS 25% aos Municípios (art. 158, IV) e o IRRF de servidores estaduais/municipais pertence integralmente ao respectivo Estado/Município (art. 157, I e 158, I).`,
@@ -291,10 +291,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Em execução fiscal, não foram localizados o devedor nem bens penhoráveis. O juiz determinou a suspensão do processo pelo prazo de 1 ano (Art. 40, § 2º, da Lei nº 6.830/80). Decorrido o prazo de 1 ano de suspensão sem manifestação da Fazenda Pública nem localização de bens, e transcorridos mais 5 anos de arquivamento provisório, o juiz decretou a prescrição intercorrente. Segundo a Súmula 314 do STJ e os Temas 566-571:`,
     options: [
-      { letter: 'A', text: 'O juiz não pode reconhecer de ofício a prescrição intercorrente na execução fiscal.' },
+      { letter: 'A', text: 'O juiz não pode reconhecer de ofício a prescrição intercorrente na execução fiscal, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.' },
       { letter: 'B', text: 'Em execução fiscal, não localizados bens penhoráveis, suspende-se o processo por um ano, findo o qual se inicia o prazo da prescrição quinquenal intercorrente automaticamente, independentemente de intimação ou despacho formal de arquivamento.' },
-      { letter: 'C', text: 'A apresentação de pedido de nova tentativa de penhora infrutífera sem encontrar bens interrompe o prazo da prescrição intercorrente.' },
-      { letter: 'D', text: 'A prescrição intercorrente tributária é de 3 anos.' }
+      { letter: 'C', text: 'A apresentação de pedido de nova tentativa de penhora infrutífera sem encontrar bens interrompe o prazo da prescrição intercorrente, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.' },
+      { letter: 'D', text: 'A prescrição intercorrente tributária é de 3 anos, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo a Súmula 314 do STJ e a tese vinculante do REsp 1.340.553/RS (Temas 566-571): o prazo de 1 ano de suspensão inicia-se automaticamente com a ciência da Fazenda da não localização do devedor ou bens; findo 1 ano, inicia-se AUTOMATICAMENTE o prazo prescricional de 5 anos (sem depender de despacho de arquivamento!). Ademais, petições com diligências infrutíferas não interrompem a prescrição intercorrente — somente a efetiva constrição patrimonial ou citação válida tem esse efeito — e o juiz pode declará-la de ofício, ouvida previamente a Fazenda (art. 40, § 4º, LEF).`,
@@ -322,10 +322,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Executado fiscalmente por débito de IPTU de exercício já prescrito há sete anos, o contribuinte não possui bens para oferecer em garantia do juízo visando aos embargos à execução. Diante disso, pretende arguir a prescrição diretamente nos autos sem garantir o juízo. À luz da Súmula 393 do STJ:`,
     options: [
-      { letter: 'A', text: 'Toda e qualquer defesa em execução fiscal depende de garantia prévia do juízo.' },
+      { letter: 'A', text: 'Toda e qualquer defesa em execução fiscal depende de garantia prévia do juízo, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador.' },
       { letter: 'B', text: 'A exceção de pré-executividade é admissível na execução fiscal relativamente às matérias conhecíveis de ofício que não demandem dilação probatória, dispensando a garantia do juízo.' },
-      { letter: 'C', text: 'A prescrição exige perícia contábil complexa, não cabendo em exceção de pré-executividade.' },
-      { letter: 'D', text: 'Se acolhida a exceção de pré-executividade, a Fazenda Pública fica isenta de honorários advocatícios.' }
+      { letter: 'C', text: 'A prescrição exige perícia contábil complexa, não cabendo em exceção de pré-executividade, em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal.' },
+      { letter: 'D', text: 'Se acolhida a exceção de pré-executividade, a Fazenda Pública fica isenta de honorários advocatícios, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.' }
     ],
     correctAnswer: 'B',
     justification: `Consoante a Súmula 393 do STJ: "A exceção de pré-executividade é admissível na execução fiscal relativamente às matérias conhecíveis de ofício que não demandem dilação probatória". Prescrição, decadência, ilegitimidade passiva evidente e imunidade documental patente dispensam garantia do juízo e desafiam EPE.`,
@@ -353,10 +353,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Um contribuinte percebeu que deixou de declarar e recolher determinado imposto estadual antes de qualquer procedimento fiscalizatório da Secretaria da Fazenda. Decidiu apresentar declaração retificadora e pagar integralmente o tributo atualizado com juros moratórios, mas o Fisco exigiu ainda a multa moratória de 20%. À luz do Art. 138 do CTN e da Súmula 360 do STJ:`,
     options: [
-      { letter: 'A', text: 'A denúncia espontânea exclui exclusivamente a multa punitiva, mantendo-se a multa moratória.' },
+      { letter: 'A', text: 'A denúncia espontânea exclui exclusivamente a multa punitiva, mantendo-se a multa moratória, com responsabilidade solidária automática dos sócios e administradores da pessoa jurídica.' },
       { letter: 'B', text: 'Se o tributo não havia sido declarado previamente e foi integralmente pago com juros antes do início de qualquer procedimento administrativo ou medida de fiscalização, a denúncia espontânea afasta tanto a multa punitiva quanto a multa moratória.' },
-      { letter: 'C', text: 'O benefício da denúncia espontânea aplica-se mesmo quando o débito já estava declarado em GIA/DCTF e pago em atraso.' },
-      { letter: 'D', text: 'O parcelamento do débito também produz os efeitos da denúncia espontânea para afastar multas.' }
+      { letter: 'C', text: 'O benefício da denúncia espontânea aplica-se mesmo quando o débito já estava declarado em gia/dctf e pago em atraso, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.' },
+      { letter: 'D', text: 'O parcelamento do débito também produz os efeitos da denúncia espontânea para afastar multas, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo art. 138 do CTN e jurisprudência do STJ, quando o contribuinte confessa infração desconhecida pelo Fisco (tributo NÃO declarado antes) e paga integralmente o tributo + juros antes de qualquer fiscalização, há denúncia espontânea que afasta TODAS as multas (punitiva e moratória). Contudo, pela Súmula 360 do STJ, "O benefício da denúncia espontânea não se aplica aos tributos sujeitos a lançamento por homologação regularmente declarados, mas pagos a destempo" (e o parcelamento não equivale a pagamento integral, art. 155-A, § 1º CTN).`,
@@ -384,10 +384,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Um Município editou lei ordinária instituindo alíquotas progressivas do IPTU em razão do valor do imóvel, além de alíquotas diferentes conforme a localização e o uso (residencial ou comercial) do imóvel, sem se tratar de sanção urbanística pelo não cumprimento da função social da propriedade. À luz do Art. 156, § 1º, da CF/88 (após EC 29/2000):`,
     options: [
-      { letter: 'A', text: 'É inconstitucional qualquer progressividade fiscal de IPTU baseada no valor do imóvel.' },
-      { letter: 'B', text: 'Sem prejuízo da progressividade extrafiscal no tempo do art. 182, § 4º, II, o IPTU pode ser progressivo em razão do valor do imóvel e ter alíquotas diferentes de acordo com a localização e o uso do imóvel.' },
-      { letter: 'C', text: 'O Município pode atualizar a base de cálculo do IPTU por simples decreto muito acima dos índices oficiais de correção monetária.' },
-      { letter: 'D', text: 'A progressividade no tempo (extrafiscal) exige apenas decreto do prefeito, dispensando plano diretor.' }
+      { letter: 'A', text: 'É inconstitucional qualquer progressividade fiscal de IPTU baseada no valor do imóvel, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte.' },
+      { letter: 'B', text: 'Sem prejuízo da progressividade extrafiscal no tempo, o IPTU pode ser progressivo em razão do valor do imóvel e ter alíquotas diferentes de acordo com a localização e o uso do imóvel.' },
+      { letter: 'C', text: 'O Município pode atualizar a base de cálculo do IPTU por simples decreto muito acima dos índices oficiais de correção monetária, com possibilidade de instituição ou majoração de alíquota mediante ato normativo infralegal.' },
+      { letter: 'D', text: 'A progressividade no tempo (extrafiscal) exige apenas decreto do prefeito, dispensando plano diretor, com exigibilidade imediata do tributo no mesmo exercício financeiro sem anterioridade.' }
     ],
     correctAnswer: 'B',
     justification: `Desde a Emenda Constitucional 29/2000 (que alterou o art. 156, § 1º, da CF/88), o IPTU admite expressamente: (i) progressividade fiscal em razão do valor do imóvel (inciso I); e (ii) alíquotas diferenciadas por localização e uso (inciso II), além da progressividade extrafiscal no tempo (art. 182, § 4º, II). A Súmula 668 do STF refere-se apenas às leis ANTERIORES à EC 29/2000! Quanto à base de cálculo, a Súmula 160 do STJ proíbe atualização por decreto acima da correção monetária oficial (exige lei).`,
@@ -415,10 +415,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'AUTORAL_PROFESSOR',
     statement: `A Emenda Constitucional nº 132/2023 promoveu ampla reforma do sistema tributário nacional sobre o consumo, instituindo o Imposto sobre Bens e Serviços (IBS), a Contribuição sobre Bens e Serviços (CBS) e o Imposto Seletivo (IS). Com base no texto constitucional reformado:`,
     options: [
-      { letter: 'A', text: 'O IBS terá competência compartilhada entre Estados, Distrito Federal e Municípios, regido por lei complementar única e baseado no princípio da não cumulatividade plena e tributação no destino.' },
-      { letter: 'B', text: 'A CBS será instituída pelos Municípios em substituição ao IPTU e ao ITBI.' },
-      { letter: 'C', text: 'O Imposto Seletivo incidirá cumulativamente sobre exportações e energia elétrica essencial.' },
-      { letter: 'D', text: 'A EC 132/2023 extinguiu imediatamente o ICMS e o ISS no mesmo ano de 2023 sem período de transição.' }
+      { letter: 'A', text: 'O ibs terá competência compartilhada entre Estados, Distrito Federal e Municípios, regido por lei complementar única e baseado no princípio da não cumulatividade plena e tributação no destino.' },
+      { letter: 'B', text: 'A cbs será instituída pelos Municípios em substituição ao IPTU e ao ITBI, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais.' },
+      { letter: 'C', text: 'O Imposto Seletivo incidirá cumulativamente sobre exportações e energia elétrica essencial, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte.' },
+      { letter: 'D', text: 'A EC 132/2023 extinguiu imediatamente o ICMS e o ISS no mesmo ano de 2023 sem período de transição, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.' }
     ],
     correctAnswer: 'A',
     justification: `A EC 132/2023 criou o IVA Dual brasileiro: (i) IBS (art. 156-A CF/88), de competência compartilhada entre Estados, DF e Municípios, substituindo gradualmente o ICMS e o ISS com legislação uniforme, não cumulatividade plena e cobrança no local de destino; (ii) CBS federal (substituindo PIS/COFINS); e (iii) Imposto Seletivo federal sobre bens e serviços prejudiciais à saúde ou ao meio ambiente (art. 153, VIII), não incidente sobre exportações nem sobre energia elétrica/telecomunicações.`,
@@ -445,10 +445,10 @@ export const TRIBUTARIO_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Um contribuinte pagou indevidamente um tributo sujeito a lançamento por homologação em 10/06/2020 por erro na interpretação da lei fiscal. Desejando ajuizar ação de repetição de indébito tributário, deve observar o prazo prescricional do Art. 168 do CTN e da Lei Complementar nº 118/2005, que é de:`,
     options: [
-      { letter: 'A', text: '10 anos contados da data do pagamento indevido.' },
+      { letter: 'A', text: '10 anos contados da data do pagamento indevido, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.' },
       { letter: 'B', text: '5 anos contados da data da extinção do crédito tributário, que no tributo sujeito a lançamento por homologação ocorre no momento do pagamento antecipado.' },
-      { letter: 'C', text: '2 anos contados da decisão administrativa que indeferir a restituição em qualquer hipótese.' },
-      { letter: 'D', text: '3 anos segundo o Código Civil para enriquecimento sem causa.' }
+      { letter: 'C', text: '2 anos contados da decisão administrativa que indeferir a restituição em qualquer hipótese, sujeita à repartição constitucional de receitas e à competência tributária do ente federado.' },
+      { letter: 'D', text: '3 anos segundo o Código Civil para enriquecimento sem causa, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo o art. 168, I, do CTN c/c art. 3º da LC 118/2005 (e tese do STF no RE 566.621), o direito de pleitear a restituição extingue-se com o decurso do prazo de 5 (cinco) anos contados da extinção do crédito tributário — considerando-se extinto o crédito no tributo sujeito a lançamento por homologação NO MOMENTO DO PAGAMENTO ANTECIPADO. (Obs.: 2 anos do art. 169 aplicam-se à ação anulatória de decisão administrativa que denegar restituição).`,

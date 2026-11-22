@@ -17,19 +17,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A competência legislativa sobre Direito Financeiro e Orçamentos Públicos é privativa da União (Art. 22 CF), não podendo os Estados legislar sobre a matéria nem mesmo suplementarmente."
+        "text": "A competência legislativa sobre Direito Financeiro e Orçamentos Públicos é privativa da União, não podendo os Estados legislar sobre a matéria nem mesmo suplementarmente, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
-        "text": "A lei estadual é INCONSTITUCIONAL: nos termos do Art. 24, I, §§ 1º e 2º, c/c Art. 163 e Art. 165, § 9º, da Constituição Federal, compete à União legislar sobre NORMAS GERAIS de Direito Financeiro e Finanças Públicas (papel exercido pela Lei nº 4.320/1964 — recepcionada com status material de lei complementar — e pela LC nº 101/2000 - LRF), cabendo aos Estados apenas a competência SUPLEMENTAR para atender às suas peculiaridades sem contrariar as normas gerais nacionais."
+        "text": "A lei estadual é inconstitucional: /c Art. 163 e Art. 165, § 9º, da Constituição Federal, compete à União legislar sobre normas gerais de Direito Financeiro e Finanças Públicas, cabendo aos Estados apenas a competência suplementar para atender às suas peculiaridades sem contrariar as normas gerais nacionais."
       },
       {
         "letter": "C",
-        "text": "A Lei nº 4.320/1964 foi promulgada como lei ordinária e, portanto, pode ser livremente alterada ou revogada por medida provisória federal ou por lei ordinária estadual."
+        "text": "A Lei nº 4.320/1964 foi promulgada como lei ordinária e, portanto, pode ser livremente alterada ou revogada por medida provisória federal ou por lei ordinária estadual. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "D",
-        "text": "Na omissão da União em editar norma geral financeira específica, os Estados ficam impedidos de exercer competência legislativa plena sobre suas finanças."
+        "text": "Na omissão da União em editar norma geral financeira específica, os Estados ficam impedidos de exercer competência legislativa plena sobre suas finanças, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "B",
@@ -72,11 +72,11 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O princípio da anualidade impede que o Brasil adote planejamento governamental plurianual para despesas de capital superiores a um exercício."
+        "text": "O princípio da anualidade impede que o Brasil adote planejamento governamental plurianual para despesas de capital superiores a um exercício, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "B",
-        "text": "Ambas as medidas são INVÁLIDAS: pelo princípio da ANUALIDADE (periodicidade) previsto no Art. 165, III e § 5º, da Constituição Federal, o orçamento público tem vigência estritamente ANUAL (12 meses), e nos termos do Art. 34 da Lei nº 4.320/1964, no Brasil o exercício financeiro COINCIDE COM O ANO CIVIL (de 1º de janeiro a 31 de dezembro) — admitindo-se como exceções plurianuais à regra da anualidade apenas os créditos especiais e extraordinários abertos nos últimos 4 meses do exercício (Art. 167, § 2º, CF)."
+        "text": "Ambas as medidas são inválidas: pelo princípio da anualidade (periodicidade), o orçamento público tem vigência estritamente anual (12 meses), no Brasil o exercício financeiro coincide com o ano civil."
       },
       {
         "letter": "C",
@@ -84,7 +84,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Os créditos suplementares abertos em novembro podem ser reabertos automaticamente nos limites dos seus saldos no exercício seguinte."
+        "text": "Os créditos suplementares abertos em novembro podem ser reabertos automaticamente nos limites dos seus saldos no exercício seguinte, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       }
     ],
     "correctAnswer": "B",
@@ -128,19 +128,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As receitas arrecadadas por autarquias e fundações públicas possuem orçamento paralelo e não integram a Lei Orçamentária Anual do ente federado."
+        "text": "As receitas arrecadadas por autarquias e fundações públicas possuem orçamento paralelo e não integram a Lei Orçamentária Anual do ente federado, em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal."
       },
       {
         "letter": "B",
-        "text": "Há dupla violação orçamentária: (1) deixou de observar o princípio da UNIVERSALIDADE (Arts. 2º, 3º e 4º da Lei nº 4.320/1964 e Art. 165, § 5º, CF), segundo o qual a LOA deve compreender TODAS as receitas e TODAS as despesas de todos os Poderes, órgãos, fundos, autarquias e fundações da Administração; e (2) violou o princípio do ORÇAMENTO BRUTO (Art. 6º da Lei nº 4.320/1964), pelo qual todas as receitas e despesas devem constar na LOA pelos seus valores TOTAIS e brutos, vedadas quaisquer deduções."
+        "text": "Há dupla violação orçamentária: deixou de observar o princípio da universalidade, segundo o qual a LOA deve compreender todas as receitas e todas as despesas de todos os Poderes, órgãos, fundos, autarquias e fundações da Administração."
       },
       {
         "letter": "C",
-        "text": "O princípio da unidade orçamentária exige que União, Estados e Municípios aprovem um único documento orçamentário nacional consolidado."
+        "text": "O princípio da unidade orçamentária exige que União, Estados e Municípios aprovem um único documento orçamentário nacional consolidado, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal."
       },
       {
         "letter": "D",
-        "text": "O orçamento de investimentos das empresas estatais inclui todas as despesas de custeio de pessoal e insumos das sociedades de economia mista independentes."
+        "text": "O orçamento de investimentos das empresas estatais inclui todas as despesas de custeio de pessoal e insumos das sociedades de economia mista independentes, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       }
     ],
     "correctAnswer": "B",
@@ -183,19 +183,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A LOA pode criar cargos públicos efetivos e alterar alíquotas tributárias sempre que houver previsão de receita suficiente para custear o aumento."
+        "text": "A LOA pode criar cargos públicos efetivos e alterar alíquotas tributárias sempre que houver previsão de receita suficiente para custear o aumento, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
-        "text": "Os dispositivos I e II são CONSTITUCIONAIS, enquanto o dispositivo III é INCONSTITUCIONAL (\"cauda orçamentária\"): nos termos do Art. 165, § 8º, da Constituição Federal, o princípio da EXCLUSIVIDADE estabelece que a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa, NÃO se incluindo na proibição EXCLUSIVAMENTE duas exceções: (1) a autorização para abertura de créditos suplementares e (2) a contratação de operações de crédito, ainda que por antecipação de receita (ARO)."
+        "text": "Os dispositivos I e II são constitucionais, enquanto o dispositivo III é inconstitucional:, o princípio da exclusividade estabelece que a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa, não se incluindo na proibição exclusivamente duas exceções: a autorização para abertura de créditos suplementares e a contratação de operações de crédito, ainda que por antecipação de receita (aro)."
       },
       {
         "letter": "C",
-        "text": "A LOA pode conter autorização genérica prévia para abertura de créditos especiais e extraordinários pelo Poder Executivo."
+        "text": "A LOA pode conter autorização genérica prévia para abertura de créditos especiais e extraordinários pelo Poder Executivo, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "A autorização de abertura de crédito suplementar na LOA pode ser ilimitada em valor percentual para dar flexibilidade ao Presidente ou Prefeito."
+        "text": "A autorização de abertura de crédito suplementar na LOA pode ser ilimitada em valor percentual para dar flexibilidade ao Presidente ou Prefeito, com execução integral da despesa pública independentemente de prévio empenho e liquidação."
       }
     ],
     "correctAnswer": "B",
@@ -238,19 +238,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O princípio da não afetação previsto no Art. 167, IV, da CF proíbe também a vinculação de receitas de taxas e contribuições especiais a fundos específicos."
+        "text": "O princípio da não afetação proíbe também a vinculação de receitas de taxas e contribuições especiais a fundos específicos, sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais."
       },
       {
         "letter": "B",
-        "text": "A lei estadual é INCONSTITUCIONAL por violar o princípio da NÃO AFETAÇÃO (não vinculação) da receita de IMPOSTOS previsto no Art. 167, IV, da Constituição Federal, que VEDA a vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas EXCLUSIVAMENTE as exceções previstas no próprio texto constitucional (como repartição constitucional de receitas, ações de saúde e manutenção/desenvolvimento do ensino, atividades da administração tributária, garantia às operações de crédito por ARO e contragarantia à União — além da autorização temporária para investimentos/cultura/infraestrutura em hipóteses expressas da CF)."
+        "text": "A lei estadual é inconstitucional por violar o princípio da não afetação (não vinculação) da receita de impostos, que veda a vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas exclusivamente as exceções previstas no próprio texto constitucional."
       },
       {
         "letter": "C",
-        "text": "Os Estados e Municípios podem vincular livremente parte da receita do ICMS e do ISS à segurança pública estadual ou municipal por meio de lei complementar local."
+        "text": "Os Estados e Municípios podem vincular livremente parte da receita do ICMS e do ISS à segurança pública estadual ou municipal por meio de lei complementar local, com execução integral da despesa pública independentemente de prévio empenho e liquidação."
       },
       {
         "letter": "D",
-        "text": "O Art. 167, IV, da CF proíbe inclusive que receitas de impostos sejam oferecidas como garantia em operações de crédito por antecipação de receita orçamentária (ARO) ou contragarantia à União."
+        "text": "A legislação aplicável proíbe inclusive que receitas de impostos sejam oferecidas como garantia em operações de crédito por antecipação de receita orçamentária (aro) ou contragarantia à União, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       }
     ],
     "correctAnswer": "B",
@@ -297,7 +297,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Há dois equívocos constitucionais: (1) pelo Art. 35, § 2º, I, do ADCT, o PPA tem vigência de 4 anos de forma DESLOCADA em relação ao mandato do Chefe do Executivo — vigendo do SEGUNDO ano do mandato do chefe eleito até o término do PRIMEIRO ano do mandato subsequente (no caso, será encaminhado até 31 de agosto de 2025 para vigorar de 2026 a 2029, executando-se em 2025 o último ano do PPA da gestão anterior!); e (2) nos termos do Art. 165, § 1º, da CF, o PPA estabelece diretrizes, objetivos e metas apenas para as DESPESAS DE CAPITAL e outras delas decorrentes e para as relativas aos programas de duração continuada."
+        "text": "Há dois equívocos constitucionais:, do adct, o PPA tem vigência de 4 anos de forma deslocada em relação ao mandato do Chefe do Executivo."
       },
       {
         "letter": "C",
@@ -348,11 +348,11 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cabe diretamente à LDO instituir e majorar tributos federais, dispensando lei tributária específica para aumento de alíquotas."
+        "text": "Cabe diretamente à LDO instituir e majorar tributos federais, dispensando lei tributária específica para aumento de alíquotas, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "B",
-        "text": "Nos termos do Art. 165, § 2º, da CF (com redação da EC nº 109/2021) e do Art. 4º da LRF, a LDO: (1) compreende as metas e prioridades da administração federal, estabelece as diretrizes de política fiscal e respectivas metas em trajetória sustentável da dívida pública; (2) orienta a elaboração da LOA; (3) dispõe sobre ALTERAÇÕES NA LEGISLAÇÃO TRIBUTÁRIA; (4) estabelece a política de aplicação das agências financeiras oficiais de fomento; e (5) na LRF, contém o Anexo de Metas Fiscais e o Anexo de Riscos Fiscais."
+        "text": "Da CF e, a LDO: compreende as metas e prioridades da administração federal, estabelece as diretrizes de política fiscal e respectivas metas em trajetória sustentável da dívida pública."
       },
       {
         "letter": "C",
@@ -360,7 +360,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Na União, o projeto da LDO deve ser encaminhado ao Congresso Nacional até 31 de agosto de cada ano."
+        "text": "Na União, o projeto da LDO deve ser encaminhado ao Congresso Nacional até 31 de agosto de cada ano, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "B",
@@ -403,19 +403,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O orçamento da seguridade social abrange apenas as despesas previdenciárias do INSS, excluindo as áreas de saúde e assistência social."
+        "text": "O orçamento da seguridade social abrange apenas as despesas previdenciárias do INSS, excluindo as áreas de saúde e assistência social, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
-        "text": "Está em plena conformidade com o Art. 165, §§ 5º, 6º e 7º, da Constituição Federal: a LOA compreende os três suborçamentos integrados (Fiscal, Investimento das estatais em que a União detenha maioria do capital com direito a voto, e Seguridade Social), deve ser acompanhada de demonstrativo regionalizado do efeito sobre receitas e despesas decorrente de isenções, anistias, remissões, subsídios e benefícios de natureza financeira, tributária e creditícia (gastos tributários - § 6º), e os orçamentos fiscal e de investimento têm entre suas funções a de reduzir desigualdades inter-regionais segundo critério populacional (§ 7º)."
+        "text": "Está em plena conformidade com o Art. 165, §§ 5º, 6º e 7º, da Constituição Federal: a LOA compreende os três suborçamentos integrados, deve ser acompanhada de demonstrativo regionalizado do efeito sobre receitas e despesas decorrente de isenções, anistias, remissões, subsídios e benefícios de natureza financeira, tributária e creditícia, e os orçamentos fiscal e de investimento têm entre suas funções a de reduzir desigualdades inter-regionais segundo critério populacional."
       },
       {
         "letter": "C",
-        "text": "Segundo a doutrina constitucional majoritária e o STF, a LOA gera direito subjetivo absoluto para o particular exigir judicialmente a realização automática de toda e qualquer despesa nela prevista."
+        "text": "Segundo a doutrina constitucional majoritária e o STF, a LOA gera direito subjetivo absoluto para o particular exigir judicialmente a realização automática de toda e qualquer despesa nela prevista, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "D",
-        "text": "A função constitucional de reduzir desigualdades inter-regionais segundo o critério populacional (Art. 165, § 7º) aplica-se ao orçamento da seguridade social, mas não ao orçamento fiscal."
+        "text": "A função constitucional de reduzir desigualdades inter-regionais segundo o critério populacional aplica-se ao orçamento da seguridade social, mas não ao orçamento fiscal, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "B",
@@ -458,19 +458,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As emendas parlamentares à LOA podem indicar livremente como fonte de recursos o excesso de arrecadação estimado pelos parlamentares, sem anular outras despesas."
+        "text": "As emendas parlamentares à LOA podem indicar livremente como fonte de recursos o excesso de arrecadação estimado pelos parlamentares, sem anular outras despesas, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
-        "text": "A emenda parlamentar é INCONSTITUCIONAL: pelo Art. 166, § 3º, II, da Constituição Federal, as emendas ao projeto da LOA somente podem ser aprovadas caso indiquem os recursos necessários, admitidos APENAS os provenientes de anulação de despesa, EXCLUÍDAS expressamente as dotações que incidam sobre: (a) dotações para PESSOAL e seus encargos; (b) SERVIÇO DA DÍVIDA; e (c) TRANSFERÊNCIAS TRIBUTÁRIAS CONSTITUCIONAIS para Estados, Municípios e DF!"
+        "text": "A emenda parlamentar é inconstitucional:, as emendas ao projeto da LOA somente podem ser aprovadas caso indiquem os recursos necessários, admitidos apenas os provenientes de anulação de despesa, excluídas expressamente as dotações que incidam sobre: (a) dotações para pessoal e seus encargos."
       },
       {
         "letter": "C",
-        "text": "O Poder Legislativo pode tomar a iniciativa de enviar projeto de lei orçamentária substitutivo caso o Chefe do Executivo deixe de enviar a LOA no prazo constitucional."
+        "text": "O Poder Legislativo pode tomar a iniciativa de enviar projeto de lei orçamentária substitutivo caso o Chefe do Executivo deixe de enviar a LOA no prazo constitucional, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "D",
-        "text": "As emendas ao projeto da Lei de Diretrizes Orçamentárias (LDO) podem ser aprovadas mesmo quando incompatíveis com o Plano Plurianual (PPA)."
+        "text": "As emendas ao projeto da Lei de Diretrizes Orçamentárias (LDO) podem ser aprovadas mesmo quando incompatíveis com o Plano Plurianual (PPA), com remanejamento e suplementação orçamentária direta por ato exclusivo do Poder Executivo. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "B",
@@ -513,19 +513,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O procedimento está em consonância com o Art. 166, §§ 9º e 11, da Constituição Federal (com redação da EC nº 126/2022): as emendas individuais ao projeto de lei orçamentária serão aprovadas no limite de 2% da RCL do exercício anterior (sendo 1,55% para deputados e 0,45% para senadores), destinando-se obrigatoriamente METADE desse percentual (50%) para ações e serviços públicos de SAÚDE, e possuem execução orçamentária e financeira OBRIGATÓRIA (impositiva), salvo impedimentos de ordem técnica."
+        "text": "O procedimento está em consonância com o Art. 166, §§ 9º e 11, da Constituição Federal: as emendas individuais ao projeto de lei orçamentária serão aprovadas no limite de 2% da rcl do exercício anterior, destinando-se obrigatoriamente metade desse percentual (50%) para ações e serviços públicos de saúde, e possuem execução orçamentária e financeira obrigatória (impositiva), salvo impedimentos de ordem técnica."
       },
       {
         "letter": "B",
-        "text": "A totalidade dos recursos das emendas individuais destinadas à saúde pode ser utilizada livremente pelos municípios beneficiados para pagamento de folha salarial de médicos ativos e inativos."
+        "text": "A totalidade dos recursos das emendas individuais destinadas à saúde pode ser utilizada livremente pelos municípios beneficiados para pagamento de folha salarial de médicos ativos e inativos, com remanejamento e suplementação orçamentária direta por ato exclusivo do Poder Executivo."
       },
       {
         "letter": "C",
-        "text": "As emendas de iniciativa de bancada de parlamentares de Estado ou do Distrito Federal possuem limite máximo de 2% da RCL e não têm execução obrigatória."
+        "text": "As emendas de iniciativa de bancada de parlamentares de Estado ou do Distrito Federal possuem limite máximo de 2% da rcl e não têm execução obrigatória, com vedação à realização de despesa ou abertura de crédito sem autorização legislativa prévia. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "D",
-        "text": "Havendo frustração de receita e necessidade de contingenciamento (limitação de empenho), as emendas impositivas ficam integralmente blindadas e não sofrem qualquer redução proporcional."
+        "text": "Havendo frustração de receita e necessidade de contingenciamento (limitação de empenho), as emendas impositivas ficam integralmente blindadas e não sofrem qualquer redução proporcional, sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais."
       }
     ],
     "correctAnswer": "A",
@@ -568,19 +568,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na transferência especial (Art. 166-A, I e §§ 1º a 5º, CF), os recursos são repassados diretamente ao ente federado beneficiado independentemente de celebração de convênio, PERTENCENDO ao ente receptor no ato da transferência financeira, sendo VEDADA sua aplicação em despesas com pessoal/encargos e serviço da dívida, e devendo pelo menos 70% ser aplicada em despesas de CAPITAL; ademais, o STF (ADPF 854) reafirmou que sua execução exige critérios rigorosos de TRANSPARÊNCIA, rastreabilidade e prestação de contas plena perante os órgãos de controle (inclusive TCU)!"
+        "text": "Na transferência especial, os recursos são repassados diretamente ao ente federado beneficiado independentemente de celebração de convênio, pertencendo ao ente receptor no ato da transferência financeira, sendo vedada sua aplicação em despesas com pessoal/encargos e serviço da dívida, e devendo pelo menos 70% ser aplicada em despesas de capital."
       },
       {
         "letter": "B",
-        "text": "Por passarem a pertencer ao patrimônio do Município no ato do repasse, as \"emendas Pix\" dispensam transparência prévia e não se submetem à fiscalização do Tribunal de Contas da União (TCU)."
+        "text": "Por passarem a pertencer ao patrimônio do Município no ato do repasse, as \"emendas Pix\" dispensam transparência prévia e não se submetem à fiscalização do Tribunal de Contas da União (TCU), em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "Os valores recebidos mediante transferência especial podem ser aplicados livremente pelo prefeito no pagamento do 13º salário do funcionalismo municipal."
+        "text": "Os valores recebidos mediante transferência especial podem ser aplicados livremente pelo prefeito no pagamento do 13º salário do funcionalismo municipal, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "D",
-        "text": "Na modalidade de transferência com finalidade definida (Art. 166-A, II, CF), o dinheiro passa imediatamente a pertencer ao Município independentemente de vinculação a projeto específico."
+        "text": "Na modalidade de transferência com finalidade definida, o dinheiro passa imediatamente a pertencer ao Município independentemente de vinculação a projeto específico, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       }
     ],
     "correctAnswer": "A",
@@ -624,15 +624,15 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cada hipótese exige uma espécie distinta de crédito adicional (Art. 41 da Lei nº 4.320/1964): (I) crédito SUPLEMENTAR, destinado a reforço de dotação orçamentária já existente na LOA (pode ter autorização prévia na LOA e é aberto por decreto); (II) crédito ESPECIAL, destinado a despesas para as quais NÃO haja dotação orçamentária específica (exige lei específica prévia + indicação de fonte de recursos e decreto de abertura); e (III) crédito EXTRAORDINÁRIO, para despesas urgentes e imprevisíveis (guerra, comoção interna ou calamidade pública), aberto diretamente por MEDIDA PROVISÓRIA (União) ou decreto com imediata ciência ao Legislativo (Art. 167, § 3º, CF), dispensando indicação prévia de fonte de recursos!"
+        "text": "Cada hipótese exige uma espécie distinta de crédito adicional: (I) crédito suplementar, destinado a reforço de dotação orçamentária já existente na LOA."
       },
       {
         "letter": "B",
-        "text": "Os créditos suplementares e os créditos especiais dispensam indicação prévia de fonte de recursos disponíveis para sua abertura."
+        "text": "Os créditos suplementares e os créditos especiais dispensam indicação prévia de fonte de recursos disponíveis para sua abertura, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "C",
-        "text": "A abertura de crédito extraordinário pela União mediante Medida Provisória é inconstitucional, pois o Art. 62, § 1º, I, \"d\", da CF proíbe MPs sobre matéria orçamentária."
+        "text": "A abertura de crédito extraordinário pela União mediante Medida Provisória é inconstitucional, pois a legislação aplicável proíbe MPs sobre matéria orçamentária."
       },
       {
         "letter": "D",
@@ -679,7 +679,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos termos do Art. 43, § 1º, da Lei nº 4.320/1964, consideram-se recursos disponíveis para abrir créditos suplementares e especiais (desde que não comprometidos): (I) o SUPERÁVIT FINANCEIRO apurado em balanço patrimonial do exercício anterior (diferença positiva entre ativo financeiro e passivo financeiro); (II) os provenientes de EXCESSO DE ARRECADAÇÃO; (III) os resultantes de ANULAÇÃO parcial ou total de dotações orçamentárias ou de créditos adicionais autorizados em lei; e (IV) o produto de OPERAÇÕES DE CRÉDITO autorizadas, em forma que juridicamente possibilite ao Executivo realizá-las."
+        "text": "Consideram-se recursos disponíveis para abrir créditos suplementares e especiais: (I) o superávit financeiro apurado em balanço patrimonial do exercício anterior."
       },
       {
         "letter": "B",
@@ -687,7 +687,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O simples superávit de caixa momentâneo em um único mês caracteriza automaticamente o excesso de arrecadação previsto no Art. 43, § 3º."
+        "text": "O simples superávit de caixa momentâneo em um único mês caracteriza automaticamente o excesso de arrecadação, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
@@ -734,19 +734,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A primeira realocação por decreto é INCONSTITUCIONAL, enquanto a segunda é válida se ligada a Ciência, Tecnologia e Inovação: pelo Art. 167, VI, da CF, é VEDADA a transposição, o remanejamento ou a transferência de recursos de uma categoria de programação para outra ou de um órgão para outro SEM PRÉVIA AUTORIZAÇÃO LEGISLATIVA; porém, o Art. 167, § 5º (EC nº 85/2015), abre EXCEÇÃO expressa permitindo ao Poder Executivo realizar transposição, remanejamento ou transferência por ato próprio (decreto) SEM prévia autorização legislativa quando destinada a atividades de CIÊNCIA, TECNOLOGIA E INOVAÇÃO visando viabilizar resultados de projetos restritos a essas funções!"
+        "text": "A primeira realocação por decreto é inconstitucional, enquanto a segunda é válida se ligada a Ciência, Tecnologia e Inovação:, é vedada a transposição, o remanejamento ou a transferência de recursos de uma categoria de programação para outra ou de um órgão para outro sem prévia autorização legislativa."
       },
       {
         "letter": "B",
-        "text": "O Poder Executivo pode realizar livremente remanejamentos de recursos entre diferentes secretarias ou ministérios por mero decreto regulamentar, pois se trata de gestão administrativa interna."
+        "text": "O Poder Executivo pode realizar livremente remanejamentos de recursos entre diferentes secretarias ou ministérios por mero decreto regulamentar, pois se trata de gestão administrativa interna. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "Transposição, remanejamento e transferência são expressões sinônimas de créditos adicionais suplementares e dispensam registro contábil."
+        "text": "Transposição, remanejamento e transferência são expressões sinônimas de créditos adicionais suplementares e dispensam registro contábil, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "D",
-        "text": "A autorização legislativa para transposição, remanejamento ou transferência pode constar genericamente na própria LOA sem limitação ou vinculação."
+        "text": "A autorização legislativa para transposição, remanejamento ou transferência pode constar genericamente na própria LOA sem limitação ou vinculação, com remanejamento e suplementação orçamentária direta por ato exclusivo do Poder Executivo."
       }
     ],
     "correctAnswer": "A",
@@ -789,7 +789,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Configura violação à REGRA DE OURO orçamentária prevista no Art. 167, III, da Constituição Federal, que VEDA a realização de operações de créditos que excedam o montante das DESPESAS DE CAPITAL; contudo, a própria Constituição permite ressalvar essa vedação mediante aprovação de créditos suplementares ou especiais com finalidade precisa pelo Poder Legislativo por MAIORIA ABSOLUTA."
+        "text": "Configura violação à regra de ouro orçamentária, que veda a realização de operações de créditos que excedam o montante das despesas de capital."
       },
       {
         "letter": "B",
@@ -801,7 +801,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A exceção legislativa à Regra de Ouro exige aprovação por maioria de três quintos (3/5) em dois turnos nas duas Casas do Congresso."
+        "text": "A exceção legislativa à Regra de Ouro exige aprovação por maioria de três quintos (3/5) em dois turnos nas duas Casas do Congresso, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal."
       }
     ],
     "correctAnswer": "A",
@@ -844,19 +844,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "AMBAS as condutas são expressamente VEDADAS pelo Art. 167 da Constituição Federal: (I) o inciso XII (incluído pela EC nº 103/2019) e a legislação previdenciária proíbem a utilização de recursos dos regimes próprios de previdência social (inclusive receitas de contribuições dos entes e segurados) para finalidade diversa do pagamento de benefícios previdenciários e taxa de administração do respectivo regime; e (II) o inciso VIII VEDA a utilização, sem autorização legislativa específica, de recursos dos orçamentos fiscal e da seguridade social para suprir necessidade ou cobrir déficit de empresas, fundações e fundos."
+        "text": "Ambas as condutas são expressamente vedadas: (I) o inciso XII e a legislação previdenciária proíbem a utilização de recursos dos regimes próprios de previdência social para finalidade diversa do pagamento de benefícios previdenciários e taxa de administração do respectivo regime."
       },
       {
         "letter": "B",
-        "text": "É permitida a instituição livre de fundos especiais pelo Poder Executivo mediante decreto, independentemente de prévia autorização legislativa."
+        "text": "É permitida a instituição livre de fundos especiais pelo Poder Executivo mediante decreto, independentemente de prévia autorização legislativa, com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal."
       },
       {
         "letter": "C",
-        "text": "O Governo Federal pode conceder empréstimo do Tesouro Nacional a Estado ou Município para pagamento de despesas com pessoal ativo, inativo e pensionista desde que com juros baixos."
+        "text": "O Governo Federal pode conceder empréstimo do Tesouro Nacional a Estado ou Município para pagamento de despesas com pessoal ativo, inativo e pensionista desde que com juros baixos, com remanejamento e suplementação orçamentária direta por ato exclusivo do Poder Executivo."
       },
       {
         "letter": "D",
-        "text": "Na hipótese de aprovação de medida que crie despesa obrigatória sem impacto orçamentário, o Art. 167 admite o início de programa não incluído na LOA por mero despacho do Secretário de Fazenda."
+        "text": "Na hipótese de aprovação de medida que crie despesa obrigatória sem impacto orçamentário, a legislação aplicável admite o início de programa não incluído na LOA por mero despacho do Secretário de Fazenda, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       }
     ],
     "correctAnswer": "A",
@@ -899,19 +899,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos termos do Art. 9º da LRF, se verificado ao final de um bimestre que a realização da receita poderá não comportar o cumprimento das metas fiscais, os Poderes e o Ministério Público promoverão, por ato próprio e nos montantes necessários, nos 30 dias subsequentes, LIMITAÇÃO DE EMPENHO e movimentação financeira (contingenciamento), não podendo ser objeto de limitação as despesas constitucionais/legais obrigatórias, as destinadas ao pagamento do serviço da dívida, às emendas de inovação/pesquisa ressalvadas e às ressalvadas pela LDO (Art. 9º, § 2º, LRF)."
+        "text": "Se verificado ao final de um bimestre que a realização da receita poderá não comportar o cumprimento das metas fiscais, os Poderes e o Ministério Público promoverão, por ato próprio e nos montantes necessários, nos 30 dias subsequentes, limitação de empenho e movimentação financeira (contingenciamento), não podendo ser objeto de limitação as despesas constitucionais/legais obrigatórias, as destinadas ao pagamento do serviço da dívida, às emendas de inovação/pesquisa ressalvadas e às ressalvadas pela LDO."
       },
       {
         "letter": "B",
-        "text": "O Poder Executivo federal detém competência para promover unilateralmente a limitação de empenho sobre os orçamentos dos Poderes Legislativo, Judiciário e do Ministério Público caso eles permaneçam omissos."
+        "text": "O Poder Executivo federal detém competência para promover unilateralmente a limitação de empenho sobre os orçamentos dos Poderes Legislativo, Judiciário e do Ministério Público caso eles permaneçam omissos, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "As despesas com o pagamento de benefícios previdenciários do RGPS e com a transferência do FUNDEB podem ser contingenciadas pelo Presidente em caso de queda de arrecadação."
+        "text": "As despesas com o pagamento de benefícios previdenciários do RGPS e com a transferência do FUNDEB podem ser contingenciadas pelo Presidente em caso de queda de arrecadação, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "A Reserva de Contingência prevista na LOA destina-se livremente ao pagamento de despesas correntes rotineiras de gabinete no início do ano."
+        "text": "A Reserva de Contingência prevista na LOA destina-se livremente ao pagamento de despesas correntes rotineiras de gabinete no início do ano, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "A",
@@ -955,19 +955,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não se prorroga automaticamente a lei orçamentária do ano anterior por ausência de previsão na CF/88 (diferente de constituições pretéritas): na ausência de aprovação da LOA até 31 de dezembro, aplica-se a regra supletiva prevista na própria LDO vigente (normalmente autorizando a execução mensal em DUODÉCIMOS — 1/12 avos das dotações propostas no PLOA para despesas inadiáveis, obrigatórias, pessoal, serviço da dívida e ações continuadas), até a promulgação da nova LOA."
+        "text": "Não se prorroga automaticamente a lei orçamentária do ano anterior por ausência de previsão na CF/88: na ausência de aprovação da LOA até 31 de dezembro, aplica-se a regra supletiva prevista na própria LDO vigente, até a promulgação da nova LOA."
       },
       {
         "letter": "B",
-        "text": "Caso a LOA não seja aprovada até 31 de dezembro, vigora automaticamente como lei definitiva durante todo o ano seguinte o projeto de lei orçamentária original enviado pelo Executivo, sem possibilidade de alteração parlamentar."
+        "text": "Caso a LOA não seja aprovada até 31 de dezembro, vigora automaticamente como lei definitiva durante todo o ano seguinte o projeto de lei orçamentária original enviado pelo Executivo, sem possibilidade de alteração parlamentar. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       },
       {
         "letter": "C",
-        "text": "Sem a aprovação da LOA até 31 de dezembro, o Poder Executivo fica proibido de pagar vencimentos de servidores, aposentadorias e parcela da dívida pública até que a lei seja publicada."
+        "text": "Sem a aprovação da LOA até 31 de dezembro, o Poder Executivo fica proibido de pagar vencimentos de servidores, aposentadorias e parcela da dívida pública até que a lei seja publicada. A execução orçamentária deve observar os estágios legais e os limites de endividamento."
       },
       {
         "letter": "D",
-        "text": "O Congresso Nacional pode entrar normalmente em recesso parlamentar em dezembro mesmo sem ter votado a LOA ou a LDO."
+        "text": "O Congresso Nacional pode entrar normalmente em recesso parlamentar em dezembro mesmo sem ter votado a LOA ou a LDO, com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal."
       }
     ],
     "correctAnswer": "A",
@@ -1010,19 +1010,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas as condutas são INCONSTITUCIONAIS e ILEGAIS: (1) pelo Art. 164, § 3º, da CF, as disponibilidades de caixa da União serão depositadas no Banco Central e as dos Estados, do DF, dos Municípios e dos órgãos ou entidades do Poder Público e empresas controladas, em INSTITUIÇÕES FINANCEIRAS OFICIAIS (salvo casos excepcionais previstos em lei nacional — como folha de pagamento negociada em banco privado conforme jurisprudência do STF); e (2) pelo princípio da UNIDADE DE TESOURARIA (Art. 56 da Lei nº 4.320/1964), o recolhimento de todas as receitas far-se-á em estrita observância ao princípio de unidade de tesouraria, vedada qualquer fragmentação para criação de caixas especiais."
+        "text": "Ambas as condutas são inconstitucionais e ilegais:, as disponibilidades de caixa da União serão depositadas no Banco Central e as dos Estados, do DF, dos Municípios e dos órgãos ou entidades do Poder Público e empresas controladas, em instituições financeiras oficiais."
       },
       {
         "letter": "B",
-        "text": "A contratação de banco privado por licitação para gerenciar a folha de pagamento dos servidores municipais torna lícito transferir para ele também todas as reservas e disponibilidades de caixa do Município."
+        "text": "A contratação de banco privado por licitação para gerenciar a folha de pagamento dos servidores municipais torna lícito transferir para ele também todas as reservas e disponibilidades de caixa do Município, com execução integral da despesa pública independentemente de prévio empenho e liquidação."
       },
       {
         "letter": "C",
-        "text": "Estados e Municípios podem editar leis locais autorizando que suas disponibilidades de caixa fiquem em qualquer banco privado comercial de sua preferência."
+        "text": "Estados e Municípios podem editar leis locais autorizando que suas disponibilidades de caixa fiquem em qualquer banco privado comercial de sua preferência, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal."
       },
       {
         "letter": "D",
-        "text": "As empresas públicas e sociedades de economia mista controladas pelo Estado estão dispensadas da regra de depósito em bancos oficiais prevista no Art. 164, § 3º, da CF."
+        "text": "As empresas públicas e sociedades de economia mista controladas pelo Estado estão dispensadas da regra de depósito em bancos oficiais, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       }
     ],
     "correctAnswer": "A",
@@ -1066,19 +1066,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O STF mantém até hoje o entendimento absoluto de que leis orçamentárias são atos administrativos concretos insuscetíveis de controle por ADI."
+        "text": "O STF mantém até hoje o entendimento absoluto de que leis orçamentárias são atos administrativos concretos insuscetíveis de controle por ADI, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "B",
-        "text": "Caso o exercício financeiro se encerre antes do julgamento final da ADI contra a LOA, a ação não sofre nenhum impacto processual mesmo que não haja efeito residual."
+        "text": "Caso o exercício financeiro se encerre antes do julgamento final da ADI contra a LOA, a ação não sofre nenhum impacto processual mesmo que não haja efeito residual, com vedação à realização de despesa ou abertura de crédito sem autorização legislativa prévia."
       },
       {
         "letter": "C",
-        "text": "Os requisitos de imprevisibilidade e urgência da Medida Provisória de crédito extraordinário (Art. 167, § 3º, CF) são juízos políticos exclusivos do Presidente, vedada apreciação pelo Judiciário."
+        "text": "Os requisitos de imprevisibilidade e urgência da Medida Provisória de crédito extraordinário são juízos políticos exclusivos do Presidente, vedada apreciação pelo Judiciário, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "A preliminar deve ser REJEITADA e a ADI É CABÍVEL: em histórica mudança jurisprudencial (ADI 4.048 e consolidada na ADI 5.468), o Supremo Tribunal Federal superou a antiga tese da impossibilidade de controle abstrato de leis orçamentárias, passando a admitir ADI contra leis orçamentárias (LOA, LDO, PPA e MPs de crédito extraordinário), ainda que dotadas de efeitos concretos ou vigência anual, por constituírem normas autônomas dotadas de força jurídica vinculante sujeitas aos limites constitucionais."
+        "text": "A preliminar deve ser rejeitada e a ADI é cabível: em histórica mudança jurisprudencial, o Supremo Tribunal Federal superou a antiga tese da impossibilidade de controle abstrato de leis orçamentárias, passando a admitir ADI contra leis orçamentárias, ainda que dotadas de efeitos concretos ou vigência anual, por constituírem normas autônomas dotadas de força jurídica vinculante sujeitas aos limites constitucionais."
       }
     ],
     "correctAnswer": "D",
@@ -1122,7 +1122,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A DRU permite ao Presidente da República desvincular 30% da arrecadação das contribuições previdenciárias dos trabalhadores e empregadores do RGPS para gastar livremente."
+        "text": "A dru permite ao Presidente da República desvincular 30% da arrecadação das contribuições previdenciárias dos trabalhadores e empregadores do RGPS para gastar livremente."
       },
       {
         "letter": "B",
@@ -1130,11 +1130,11 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O instituto da desvinculação (DRU/DRE/DRM) tem aplicação restrita exclusivamente à União Federal, inexistindo previsão constitucional para Estados e Municípios."
+        "text": "O instituto da desvinculação (dru/dre/drm) tem aplicação restrita exclusivamente à União Federal, inexistindo previsão constitucional para Estados e Municípios."
       },
       {
         "letter": "D",
-        "text": "Nos termos dos Arts. 76, 76-A e 76-B do ADCT (prorrogados sucessivamente até 2032 pela EC nº 132/2023), são desvinculados de órgão, fundo ou despesa até o percentual de 30% as receitas da União relativas a contribuições sociais, CIDE e taxas, bem como 30% das receitas dos Estados/DF e Municípios relativas a impostos, taxas e multas (observadas as exclusões expressas: ficam EXCLUÍDOS da desvinculação os recursos destinados à saúde, à educação/FUNDEB, à repartição tributária constitucional, às contribuições previdenciárias do RGPS/RPPS e ao salário-educação/FAT na União)."
+        "text": "76-a e 76-B do adct, são desvinculados de órgão, fundo ou despesa até o percentual de 30% as receitas da União relativas a contribuições sociais, CIDE e taxas."
       }
     ],
     "correctAnswer": "D",
@@ -1177,19 +1177,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Receita Corrente Líquida (RCL) apura-se exclusivamente com base no ano civil encerrado (janeiro a dezembro), não podendo ser calculada mensalmente por média móvel."
+        "text": "A Receita Corrente Líquida (rcl) apura-se exclusivamente com base no ano civil encerrado (janeiro a dezembro), não podendo ser calculada mensalmente por média móvel, com vedação à realização de despesa ou abertura de crédito sem autorização legislativa prévia."
       },
       {
         "letter": "B",
-        "text": "As receitas provenientes de operações de crédito (empréstimos) e da alienação de bens imóveis municipais integram o conceito de Receita Corrente Líquida."
+        "text": "As receitas provenientes de operações de crédito (empréstimos) e da alienação de bens imóveis municipais integram o conceito de Receita Corrente Líquida, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "C",
-        "text": "Na União, os valores do Imposto de Renda e do IPI constitucionalmente repassados ao Fundo de Participação dos Estados (FPE) e dos Municípios (FPM) integram a RCL da própria União."
+        "text": "Na União, os valores do Imposto de Renda e do IPI constitucionalmente repassados ao Fundo de Participação dos Estados (fpe) e dos Municípios (fpm) integram a rcl da própria União, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 2º, IV e § 3º, da LRF, a RCL corresponde ao somatório das receitas tributárias, de contribuições, patrimoniais, industriais, agropecuárias, de serviços, transferências correntes e outras receitas também correntes, apurado somando-se as receitas arrecadadas no MÊS EM REFERÊNCIA E NOS ONZE ANTERIORES (janela móvel de 12 meses), excluídas as duplicidades — deduzindo-se nos Municípios, por exemplo, a contribuição dos servidores ao custeio do seu sistema de previdência e assistência social e as receitas provenientes da compensação financeira (Art. 201, § 9º, CF), e na União os valores transferidos a Estados/Municípios por repartição constitucional/legal e PIS/PASEP/previdência RGPS."
+        "text": "A rcl corresponde ao somatório das receitas tributárias, de contribuições, patrimoniais, industriais, agropecuárias, de serviços, transferências correntes e outras receitas também correntes, apurado somando-se as receitas arrecadadas no mês em referência e nos onze anteriores, excluídas as duplicidades."
       }
     ],
     "correctAnswer": "D",
@@ -1232,7 +1232,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As multas administrativas de trânsito e os tributos classificam-se como receitas públicas originárias."
+        "text": "As multas administrativas de trânsito e os tributos classificam-se como receitas públicas originárias, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
@@ -1240,11 +1240,11 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Todas as receitas públicas, inclusive as originárias de aluguéis e doações em dinheiro, passam obrigatoriamente pelo estágio do lançamento tributário do Art. 53 da Lei 4.320/64."
+        "text": "Todas as receitas públicas, inclusive as originárias de aluguéis e doações em dinheiro, passam obrigatoriamente pelo estágio do lançamento tributário."
       },
       {
         "letter": "D",
-        "text": "O IPTU é receita DERIVADA (obtida mediante poder de império estatal coercitivo), enquanto o aluguel patrimonial e os dividendos são receitas ORIGINÁRIAS (obtidas pela exploração do próprio patrimônio público ou atividade econômica estatal em regime de igualdade/contratual); quanto aos estágios da receita orçamentária na doutrina e Lei nº 4.320/1964, a ordem cronológica clássica é: PREVISÃO (na LOA) -> LANÇAMENTO -> ARRECADAÇÃO (pagamento pelos agentes arrecadadores) -> RECOLHIMENTO (entrega ao Tesouro / conta única)."
+        "text": "O IPTU é receita derivada, enquanto o aluguel patrimonial e os dividendos são receitas originárias."
       }
     ],
     "correctAnswer": "D",
@@ -1287,11 +1287,11 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As receitas provenientes de empréstimos compulsórios e de operações de crédito classificam-se como receitas correntes tributárias."
+        "text": "As receitas provenientes de empréstimos compulsórios e de operações de crédito classificam-se como receitas correntes tributárias, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "B",
-        "text": "A venda de bens imóveis públicos (alienação de bens) é classificada como receita corrente patrimonial para custear folha de salários."
+        "text": "A venda de bens imóveis públicos (alienação de bens) é classificada como receita corrente patrimonial para custear folha de salários, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "C",
@@ -1299,7 +1299,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Nos termos do Art. 11, §§ 1º e 2º, da Lei nº 4.320/1964: o item (I) é RECEITA CORRENTE (receita tributária); já os itens (II) operação de crédito, (III) alienação de bens e (IV) amortização de empréstimos concedidos são RECEITAS DE CAPITAL — além da importante regra de que o superávit do Orçamento Corrente resultante do balanceamento dos totais das receitas e despesas correntes constituirá item da Receita de Capital (Art. 11, § 3º), sem constituir item da receita orçamentária!"
+        "text": "O item (I) é receita corrente; já os itens (II) operação de crédito, (III) alienação de bens e (IV) amortização de empréstimos concedidos são receitas de capital."
       }
     ],
     "correctAnswer": "D",
@@ -1342,19 +1342,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 35 da Lei nº 4.320/1964, tanto a receita quanto a despesa orçamentária adotam exclusivamente o regime de caixa puro."
+        "text": "Tanto a receita quanto a despesa orçamentária adotam exclusivamente o regime de caixa puro, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "B",
-        "text": "A despesa regularmente empenhada em dezembro de 2024, mas ainda não paga até 31 de dezembro, pertence orçamentariamente ao exercício de 2025 em que ocorrer o pagamento."
+        "text": "A despesa regularmente empenhada em dezembro de 2024, mas ainda não paga até 31 de dezembro, pertence orçamentariamente ao exercício de 2025 em que ocorrer o pagamento. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "O regime contábil patrimonial instituído pela LRF (Art. 50, II) também segue o critério de caixa puro para a receita tributária lançada e ainda não recebida."
+        "text": "O regime contábil patrimonial instituído pela LRF também segue o critério de caixa puro para a receita tributária lançada e ainda não recebida, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "Nos termos do Art. 35 da Lei nº 4.320/1964, a contabilidade orçamentária pública brasileira adota o REGIME MISTO (caixa para receita e competência para despesa): pertencem ao exercício financeiro (I) as receitas nele ARRECADADAS (regime de caixa — logo, se arrecadada em dezembro/2024, pertence a 2024, ou ao exercício de efetiva arrecadação financeira) e (II) as despesas nele legalmente EMPENHADAS (regime de competência orçamentária — logo, a despesa empenhada em dezembro/2024 pertence ao orçamento de 2024, inscrevendo-se em Restos a Pagar se não paga até 31/12)! Contudo, sob o enfoque PATRIMONIAL (Art. 50, II, LRF e NBC TSP), aplica-se o regime de competência integral para receitas e despesas."
+        "text": "A contabilidade orçamentária pública brasileira adota o regime misto: pertencem ao exercício financeiro (I) as receitas nele arrecadadas e (II) as despesas nele legalmente empenhadas."
       }
     ],
     "correctAnswer": "D",
@@ -1401,15 +1401,15 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O ato de empenho equivale ao pagamento efetivo em conta bancária, extinguindo imediatamente a obrigação estatal perante o credor."
+        "text": "O ato de empenho equivale ao pagamento efetivo em conta bancária, extinguindo imediatamente a obrigação estatal perante o credor, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "C",
-        "text": "A verificação da entrega material do bem e da conformidade da nota fiscal pelo fiscal do contrato integra o estágio do empenho."
+        "text": "A verificação da entrega material do bem e da conformidade da nota fiscal pelo fiscal do contrato integra o estágio do empenho, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "D",
-        "text": "Os atos correspondem fielmente aos três estágios obrigatórios da despesa orçamentária (Arts. 58 a 64 da Lei nº 4.320/1964): (1) EMPENHO — ato emanado de autoridade competente que cria para o Estado obrigação de pagamento pendente ou não de implemento de condição (Art. 58); (2) LIQUIDAÇÃO — verificação do direito adquirido pelo credor tendo por base os títulos e documentos comprobatórios do respectivo crédito, apurando a entrega do bem/serviço e o valor exato a pagar (Art. 63); e (3) PAGAMENTO — despacho exarado por autoridade competente determinando que a despesa seja paga mediante ordem bancária após regular liquidação (Arts. 62 e 64)."
+        "text": "Os atos correspondem fielmente aos três estágios obrigatórios da despesa orçamentária: empenho; liquidação; e pagamento."
       }
     ],
     "correctAnswer": "D",
@@ -1452,7 +1452,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O empenho por estimativa aplica-se aos contratos de aluguel com valor mensal fixo e determinado em contrato anual."
+        "text": "O empenho por estimativa aplica-se aos contratos de aluguel com valor mensal fixo e determinado em contrato anual, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
@@ -1460,11 +1460,11 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Quando o valor efetivo da conta de energia elétrica ultrapassar o empenho por estimativa inicial, a diferença nunca pode ser paga no mesmo exercício."
+        "text": "Quando o valor efetivo da conta de energia elétrica ultrapassar o empenho por estimativa inicial, a diferença nunca pode ser paga no mesmo exercício, com vedação à realização de despesa ou abertura de crédito sem autorização legislativa prévia."
       },
       {
         "letter": "D",
-        "text": "Nos termos do Art. 60, §§ 1º a 3º, da Lei nº 4.320/1964 e da técnica orçamentária (MCASP), utilizam-se respectivamente: (I) EMPENHO ORDINÁRIO (para despesas de valor fixo e pagamento de uma só vez); (II) EMPENHO POR ESTIMATIVA (para despesas cujo montante não se possa determinar previamente com exatidão, como água, luz, telefone e diárias); e (III) EMPENHO GLOBAL (para despesas contratuais de valor determinado sujeitas a parcelamento, como aluguéis e obras parceladas)."
+        "text": "Da Lei nº 4.320/1964 e da técnica orçamentária (MCASP), utilizam-se respectivamente: (I) empenho ordinário; (II) empenho por estimativa; e (III) empenho global."
       }
     ],
     "correctAnswer": "D",
@@ -1507,19 +1507,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Art. 42 da LRF proíbe contrair novas obrigações nos últimos dois quadrimestres do mandato apenas se faltarem recursos nos últimos 30 dias do governo."
+        "text": "A legislação aplicável proíbe contrair novas obrigações nos últimos dois quadrimestres do mandato apenas se faltarem recursos nos últimos 30 dias do governo, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "B",
-        "text": "Restos a Pagar Não Processados são as despesas que já foram devidamente liquidadas pelo credor até 31 de dezembro, faltando apenas o pagamento."
+        "text": "Restos a Pagar Não Processados são as despesas que já foram devidamente liquidadas pelo credor até 31 de dezembro, faltando apenas o pagamento, em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "Um contrato contínuo de limpeza firmado há 3 anos (no início do mandato) é ilegalmente interrompido pelo Art. 42 da LRF se tiver parcelas no primeiro ano do próximo prefeito."
+        "text": "Um contrato contínuo de limpeza firmado há 3 anos (no início do mandato) é ilegalmente interrompido se tiver parcelas no primeiro ano do próximo prefeito, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "O Prefeito violou o Art. 42 da LRF, que VEDA expressamente ao titular de Poder ou órgão, nos últimos DOIS QUADRIMESTRES do seu mandato (1º de maio a 31 de dezembro do último ano), contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, OU que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito — devendo ser inscritos em Restos a Pagar (Art. 36 da Lei 4.320/64) apenas os compromissos com lastro financeiro."
+        "text": "O Prefeito violou o Art. 42 da LRF, que veda expressamente ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito."
       }
     ],
     "correctAnswer": "D",
@@ -1562,19 +1562,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O regime de adiantamento (suprimento de fundos) dispensa a emissão prévia de nota de empenho, pois o dinheiro é entregue diretamente nas mãos do servidor."
+        "text": "O regime de adiantamento (suprimento de fundos) dispensa a emissão prévia de nota de empenho, pois o dinheiro é entregue diretamente nas mãos do servidor. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       },
       {
         "letter": "B",
-        "text": "Pode receber adiantamento (suprimento de fundos) qualquer servidor público, inclusive o servidor que já esteja em alcance ou com duas prestações de contas pendentes."
+        "text": "Pode receber adiantamento (suprimento de fundos) qualquer servidor público, inclusive o servidor que já esteja em alcance ou com duas prestações de contas pendentes, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal."
       },
       {
         "letter": "C",
-        "text": "Despesas de Exercícios Anteriores (Art. 37) confundem-se com Restos a Pagar, sendo pagas com o saldo do orçamento do exercício anterior em que nasceu a dívida."
+        "text": "Despesas de Exercícios Anteriores confundem-se com Restos a Pagar, sendo pagas com o saldo do orçamento do exercício anterior em que nasceu a dívida, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas. A execução orçamentária deve observar os estágios legais e os limites de endividamento."
       },
       {
         "letter": "D",
-        "text": "Aplicam-se dois regimes distintos da Lei nº 4.320/1964: (1) para o servidor em despesas excepcionais/miúdas de pronto pagamento, utiliza-se o REGIME DE ADIANTAMENTO (Suprimento de Fundos — Arts. 68 e 69), que consiste na entrega de numerário a servidor SEMPRE PRECEDIDA DE EMPENHO na dotação própria para realização de despesas que não possam subordinar-se ao processo normal; e (2) para o credor legítimo cujo direito foi reconhecido após o encerramento do exercício sem cobertura de Restos a Pagar, paga-se à conta de DESPESAS DE EXERCÍCIOS ANTERIORES - DEA (Art. 37) no orçamento vigente."
+        "text": "Aplicam-se dois regimes distintos da Lei nº 4.320/1964: para o servidor em despesas excepcionais/miúdas de pronto pagamento, utiliza-se o regime de adiantamento, que consiste na entrega de numerário a servidor sempre precedida de empenho na dotação própria para realização de despesas que não possam subordinar-se ao processo normal."
       }
     ],
     "correctAnswer": "D",
@@ -1617,19 +1617,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A compra de um prédio particular já construído e pronto para instalar uma secretaria municipal classifica-se como Investimento na Lei nº 4.320/1964."
+        "text": "A compra de um prédio particular já construído e pronto para instalar uma secretaria municipal classifica-se como Investimento na Lei nº 4.320/1964, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
-        "text": "O pagamento dos juros da dívida pública e o pagamento da amortização (principal) da dívida pública pertencem ambos às despesas de capital."
+        "text": "O pagamento dos juros da dívida pública e o pagamento da amortização (principal) da dívida pública pertencem ambos às despesas de capital, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "C",
-        "text": "Nos termos do Art. 12 da Lei nº 4.320/1964: (I) vencimentos de pessoal e material de consumo classificam-se como DESPESAS CORRENTES (despesas de custeio); (II) aquisição de imóvel já construído (em utilização) e aquisição de títulos representativos de capital de empresas classificam-se como DESPESAS DE CAPITAL na subcategoria INVERSÕES FINANCEIRAS (§ 5º); e (III) construção de nova escola pública (execução de obras) classifica-se como DESPESA DE CAPITAL na subcategoria INVESTIMENTOS (§ 4º)!"
+        "text": "(I) vencimentos de pessoal e material de consumo classificam-se como despesas correntes; (II) aquisição de imóvel já construído (em utilização) e aquisição de títulos representativos de capital de empresas classificam-se como despesas de capital na subcategoria inversões financeiras; e (III) construção de nova escola pública (execução de obras) classifica-se como despesa de capital na subcategoria investimentos."
       },
       {
         "letter": "D",
-        "text": "Subvenções sociais repassadas a entidades privadas sem fins lucrativos para custeio de saúde e assistência classificam-se como investimentos de capital."
+        "text": "Subvenções sociais repassadas a entidades privadas sem fins lucrativos para custeio de saúde e assistência classificam-se como investimentos de capital, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "C",
@@ -1672,19 +1672,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Caracteriza-se como despesa obrigatória de caráter continuado qualquer despesa de investimento em obras que dure mais de um exercício financeiro."
+        "text": "Caracteriza-se como despesa obrigatória de caráter continuado qualquer despesa de investimento em obras que dure mais de um exercício financeiro, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
-        "text": "Para compensar uma nova despesa obrigatória de caráter continuado, basta indicar redução temporária de gastos apenas no primeiro ano ou reserva de contingência."
+        "text": "Para compensar uma nova despesa obrigatória de caráter continuado, basta indicar redução temporária de gastos apenas no primeiro ano ou reserva de contingência, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "O ato legislativo gera despesa NÃO AUTORIZADA, IRREGULAR E LESIVA ao patrimônio público (Art. 15 da LRF): por se tratar de DESPESA OBRIGATÓRIA DE CARÁTER CONTINUADO (despesa corrente derivada de lei, MP ou ato administrativo normativo que fixe para o ente obrigação legal de execução por período superior a DOIS EXERCÍCIOS — Art. 17), exige-se estimativa do impacto orçamentário-financeiro no exercício de vigência e nos DOIS SUBSEQUENTES (trienal), declaração do ordenador de adequação com a LOA e compatibilidade com PPA/LDO (Art. 16) E demonstração da origem dos recursos mediante aumento permanente de receita ou redução permanente de despesa (Art. 17, §§ 1º e 2º)!"
+        "text": "O ato legislativo gera despesa não autorizada, irregular e lesiva ao patrimônio público: por se tratar de despesa obrigatória de caráter continuado, exige-se estimativa do impacto orçamentário-financeiro no exercício de vigência e nos dois subsequentes (trienal), declaração do ordenador de adequação com a LOA e compatibilidade com PPA/LDO e demonstração da origem dos recursos mediante aumento permanente de receita ou redução permanente de despesa."
       },
       {
         "letter": "D",
-        "text": "A criação de despesa para cumprimento do serviço da dívida pública e o reajustamento geral anual de remuneração de pessoal (Art. 37, X, CF) submetem-se à compensação do Art. 17."
+        "text": "A criação de despesa para cumprimento do serviço da dívida pública e o reajustamento geral anual de remuneração de pessoal submetem-se à compensação, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "C",
@@ -1727,19 +1727,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Art. 113 do ADCT, inserido pela EC nº 95/2016, aplica-se exclusivamente às proposições legislativas federais da União, não vinculando leis estaduais e municipais."
+        "text": "O Art. 113 do adct, inserido pela EC nº 95/2016, aplica-se exclusivamente às proposições legislativas federais da União, não vinculando leis estaduais e municipais. A execução orçamentária deve observar os estágios legais e os limites de endividamento."
       },
       {
         "letter": "B",
-        "text": "A alteração de alíquota dos impostos regulatórios (II, IE, IPI e IOF) também se submete integralmente às travas de compensação do Art. 14 da LRF."
+        "text": "A alteração de alíquota dos impostos regulatórios (II, IE, IPI e IOF) também se submete integralmente às travas de compensação. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       },
       {
         "letter": "C",
-        "text": "A lei estadual é FORMALMENTE INCONSTITUCIONAL por violar o Art. 113 do ADCT e ILEGAL perante o Art. 14 da LRF: nos termos do Art. 113 do ADCT (conforme jurisprudência reiterada do STF para TODOS os entes federativos!), a proposição legislativa que crie ou altere despesa obrigatória ou RENÚNCIA DE RECEITA deverá ser acompanhada da estimativa do seu impacto orçamentário e financeiro; ademais, o Art. 14 da LRF exige demonstração de que a renúncia foi considerada na estimativa de receita da LOA (não afetando metas fiscais) OU medidas de compensação por elevação de alíquotas, ampliação de base ou criação de tributo."
+        "text": "A lei estadual é formalmente inconstitucional por violar o Art. 113 do adct e ilegal perante o Art. 14 da LRF: do adct, a proposição legislativa que crie ou altere despesa obrigatória ou renúncia de receita deverá ser acompanhada da estimativa do seu impacto orçamentário e financeiro."
       },
       {
         "letter": "D",
-        "text": "A simples concessão de benefício fiscal pelo Poder Público que não envolva desembolso de dinheiro do caixa estatal nunca configura renúncia de receita."
+        "text": "A simples concessão de benefício fiscal pelo Poder Público que não envolva desembolso de dinheiro do caixa estatal nunca configura renúncia de receita, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       }
     ],
     "correctAnswer": "C",
@@ -1783,19 +1783,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O limite global máximo de despesa total com pessoal para a União é de 60% da Receita Corrente Líquida."
+        "text": "O limite global máximo de despesa total com pessoal para a União é de 60% da Receita Corrente Líquida, com respeito à ordem cronológica constitucional para quitação de débitos em precatório. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "B",
-        "text": "As despesas com inativos e pensionistas custeadas integralmente com recursos vinculados arrecadados do próprio segurado ou compensação previdenciária entram integralmente no cômputo do limite de pessoal."
+        "text": "As despesas com inativos e pensionistas custeadas integralmente com recursos vinculados arrecadados do próprio segurado ou compensação previdenciária entram integralmente no cômputo do limite de pessoal, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "C",
-        "text": "O limite global estadual foi ULTRAPASSADO e a inclusão da terceirização substitutiva está CORRETA: pelo Art. 19 da LRF, a despesa total com pessoal em cada período de apuração não poderá exceder os percentuais da RCL de 50% para a UNIÃO, 60% para os ESTADOS e 60% para os MUNICÍPIOS; ademais, pelo Art. 18, § 1º, os valores dos contratos de terceirização de mão de obra que se referem à SUBSTITUIÇÃO de servidores e empregados públicos serão contabilizados como \"Outras Despesas de Pessoal\" no cômputo desse teto."
+        "text": "O limite global estadual foi ultrapassado e a inclusão da terceirização substitutiva está correta:, a despesa total com pessoal em cada período de apuração não poderá exceder os percentuais da rcl de 50% para a união, 60% para os estados e 60% para os municípios."
       },
       {
         "letter": "D",
-        "text": "O cálculo dos limites de despesa total com pessoal da LRF é apurado mensalmente sobre o valor da receita do mês anterior apenas."
+        "text": "O cálculo dos limites de despesa total com pessoal da LRF é apurado mensalmente sobre o valor da receita do mês anterior apenas, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       }
     ],
     "correctAnswer": "C",
@@ -1838,15 +1838,15 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos Municípios, o limite de 60% da RCL é dividido igualmente em 30% para a Prefeitura e 30% para a Câmara de Vereadores."
+        "text": "Nos Municípios, o limite de 60% da rcl é dividido igualmente em 30% para a Prefeitura e 30% para a Câmara de Vereadores."
       },
       {
         "letter": "B",
-        "text": "Nos Estados, o Ministério Público Estadual possui teto de 6% da RCL, idêntico ao do Poder Judiciário Estadual."
+        "text": "Nos Estados, o Ministério Público Estadual possui teto de 6% da rcl, idêntico ao do Poder Judiciário Estadual. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       },
       {
         "letter": "C",
-        "text": "Nos termos do Art. 20, III, da LRF, o limite municipal de 60% da RCL reparte-se exatamente em: 6% para o LEGISLATIVO (incluído o Tribunal de Contas do Município, quando houver) e 54% para o EXECUTIVO! Na esfera ESTADUAL (60% — Art. 20, II), divide-se em: 3% Legislativo (incluído TCE), 6% Judiciário, 49% Executivo e 2% Ministério Público Estadual. Na UNIÃO (50% — Art. 20, I): 2,5% Legislativo (incluído TCU), 6% Judiciário, 40,9% Executivo e 0,6% Ministério Público da União."
+        "text": "O limite municipal de 60% da rcl reparte-se exatamente em: 6% para o legislativo e 54% para o executivo."
       },
       {
         "letter": "D",
@@ -1893,7 +1893,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ao atingir o limite prudencial (95%), o Poder Executivo é obrigado a exonerar imediatamente servidores estáveis para voltar abaixo de 90%."
+        "text": "Ao atingir o limite prudencial (95%), o Poder Executivo é obrigado a exonerar imediatamente servidores estáveis para voltar abaixo de 90%, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
@@ -1901,7 +1901,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Atingido o LIMITE PRUDENCIAL (95% do limite máximo — Art. 22, parágrafo único, da LRF), ficam imediatamente VEDADOS ao Poder ou órgão infrator: (I) concessão de vantagem, aumento, reajuste ou adequação de remuneração (salvo sentença judicial, determinação legal anterior ou revisão geral anual do Art. 37, X, CF); (II) criação de cargo, emprego ou função; (III) alteração de estrutura de carreira que implique aumento de despesa; (IV) provimento de cargo público, admissão ou contratação de pessoal (ressalvada reposição de aposentadoria ou falecimento apenas nas áreas de EDUCAÇÃO, SAÚDE e SEGURANÇA); e (V) contratação de hora extra (salvo convocação extraordinária do Legislativo ou LDO)."
+        "text": "Atingido o limite prudencial, ficam imediatamente vedados ao Poder ou órgão infrator: (I) concessão de vantagem, aumento, reajuste ou adequação de remuneração."
       },
       {
         "letter": "D",
@@ -1948,19 +1948,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os precatórios judiciais não pagos durante a execução do orçamento em que foram incluídos classificam-se eternamente fora da dívida consolidada, apenas como dívida flutuante."
+        "text": "Os precatórios judiciais não pagos durante a execução do orçamento em que foram incluídos classificam-se eternamente fora da dívida consolidada, apenas como dívida flutuante, em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal."
       },
       {
         "letter": "B",
-        "text": "As operações de crédito de prazo inferior a 12 meses cujas receitas tenham constado do orçamento não integram a dívida consolidada."
+        "text": "As operações de crédito de prazo inferior a 12 meses cujas receitas tenham constado do orçamento não integram a dívida consolidada, sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais."
       },
       {
         "letter": "C",
-        "text": "Nos termos do Art. 29, I, e Art. 30, § 7º, da LRF c/c Art. 92 da Lei nº 4.320/1964: os itens (I) obrigações com prazo de amortização superior a 12 meses e (II) precatórios judiciais não pagos durante a execução do orçamento em que houverem sido incluídos integram a DÍVIDA PÚBLICA CONSOLIDADA (ou FUNDADA); já o item (III) Restos a Pagar, serviços da dívida a pagar, depósitos e ARO de curto prazo inferior a 12 meses integram a DÍVIDA FLUTUANTE!"
+        "text": "E Art. 30, § 7º, da LRF c/c Art. 92 da Lei nº 4.320/1964: os itens (I) obrigações com prazo de amortização superior a 12 meses e (II) precatórios judiciais não pagos durante a execução do orçamento em que houverem sido incluídos integram a dívida pública consolidada (ou fundada)."
       },
       {
         "letter": "D",
-        "text": "Dívida pública mobiliária corresponde exclusivamente aos empréstimos contratados perante organismos internacionais como o Banco Mundial ou FMI."
+        "text": "Dívida pública mobiliária corresponde exclusivamente aos empréstimos contratados perante organismos internacionais como o Banco Mundial ou fmi, com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "C",
@@ -2011,7 +2011,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Compete PRIVATIVAMENTE ao SENADO FEDERAL (Art. 52, V a IX, da Constituição Federal): (V) autorizar operações externas de natureza financeira de interesse da União, Estados, DF, Territórios e Municípios; (VI) fixar, por proposta do Presidente da República, limites globais para o montante da dívida consolidada da União, dos Estados, do DF e dos Municípios; (VII) dispor sobre limites globais e condições para operações de crédito externo e interno dos entes; (VIII) dispor sobre limites e condições para concessão de garantia da União; e (IX) estabelecer limites globais e condições para o montante da DÍVIDA MOBILIÁRIA dos Estados, do DF e dos Municípios."
+        "text": "Compete privativamente ao senado federal: (V) autorizar operações externas de natureza financeira de interesse da União, Estados, DF, Territórios e Municípios."
       },
       {
         "letter": "D",
@@ -2058,19 +2058,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A ARO pode ser contratada no último ano de mandato do Prefeito desde que quitada até 31 de dezembro."
+        "text": "A aro pode ser contratada no último ano de mandato do Prefeito desde que quitada até 31 de dezembro, com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal."
       },
       {
         "letter": "B",
-        "text": "Por ter natureza extraorçamentária de curto prazo, o prazo final de liquidação da ARO é 31 de dezembro do próprio exercício em que foi contratada."
+        "text": "Por ter natureza extraorçamentária de curto prazo, o prazo final de liquidação da aro é 31 de dezembro do próprio exercício em que foi contratada, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "C",
-        "text": "A contratação é DUPLAMENTE ILEGAL perante o Art. 38 da LRF: a ARO destina-se exclusivamente a atender insuficiência de caixa durante o exercício financeiro, devendo ser INTEGRALMENTE LIQUIDADA (com juros e outros encargos incidentes) ATÉ O DIA 10 DE DEZEMBRO de cada ano (inciso II), e é EXPRESSAMENTE PROIBIDA no ÚLTIMO ANO DE MANDATO do Presidente, Governador ou Prefeito (inciso IV, \"b\") — além de exigir abertura de crédito mediante processo competitivo eletrônico no Banco Central e vedar contratação enquanto existir outra ARO não resgatada!"
+        "text": "A contratação é duplamente ilegal perante o Art. 38 da LRF: a aro destina-se exclusivamente a atender insuficiência de caixa durante o exercício financeiro, devendo ser integralmente liquidada até o dia 10 de dezembro de cada ano, e é expressamente proibida no último ano de mandato do Presidente, Governador ou Prefeito."
       },
       {
         "letter": "D",
-        "text": "A contratação de ARO independe de previsão na LOA ou de autorização legislativa, pois não constitui operação de crédito para fins constitucionais."
+        "text": "A contratação de aro independe de previsão na LOA ou de autorização legislativa, pois não constitui operação de crédito para fins constitucionais. A execução orçamentária deve observar os estágios legais e os limites de endividamento."
       }
     ],
     "correctAnswer": "C",
@@ -2113,19 +2113,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O banco público federal pode conceder empréstimo ou adiantar recursos diretamente ao Tesouro Nacional que o controla sempre que houver autorização por decreto presidencial."
+        "text": "O banco público federal pode conceder empréstimo ou adiantar recursos diretamente ao Tesouro Nacional que o controla sempre que houver autorização por decreto presidencial, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
-        "text": "É lícita a concessão de empréstimo ou financiamento financeiro direto da União para cobrir déficit orçamentário ordinário de um Estado ou Município em dificuldades."
+        "text": "É lícita a concessão de empréstimo ou financiamento financeiro direto da União para cobrir déficit orçamentário ordinário de um Estado ou Município em dificuldades, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "C",
-        "text": "A prática configura operação de crédito ilegalmente disfarçada (\"pedalada fiscal\"), vedada expressamente pelos Arts. 36 e 37 da LRF: o Art. 36 PROÍBE a operação de crédito entre uma instituição financeira estatal e o ente da Federação que a controle, na qualidade de beneficiário do empréstimo; e o Art. 37, IV, equipara a operação de crédito PROIBIDA a assunção direta de compromisso, confissão de dívida ou operação assemelhada com fornecedor de bens, mercadorias ou serviços mediante emissão/aceite de título ou atraso/financiamento junto a instituição controlada."
+        "text": "A prática configura operação de crédito ilegalmente disfarçada (\"pedalada fiscal\"), vedada expressamente pelos Arts. 36 e 37 da LRF: a legislação aplicável proíbe a operação de crédito entre uma instituição financeira estatal e o ente da Federação que a controle, na qualidade de beneficiário do empréstimo."
       },
       {
         "letter": "D",
-        "text": "O Banco Central do Brasil pode comprar títulos do Tesouro Nacional diretamente no leilão primário para financiar o déficit do orçamento federal."
+        "text": "O Banco Central do Brasil pode comprar títulos do Tesouro Nacional diretamente no leilão primário para financiar o déficit do orçamento federal, com execução integral da despesa pública independentemente de prévio empenho e liquidação. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "C",
@@ -2168,19 +2168,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Poder Executivo pode socorrer financeiramente entidade privada em crise por simples convênio administrativo assinado pelo Prefeito, sem lei específica autorizadora."
+        "text": "O Poder Executivo pode socorrer financeiramente entidade privada em crise por simples convênio administrativo assinado pelo Prefeito, sem lei específica autorizadora, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
-        "text": "Ambas as medidas exigem requisitos estritos da LRF: (1) pelo Art. 26 da LRF, a destinação de recursos para cobrir necessidades de pessoas físicas ou déficits de pessoas jurídicas deverá ser autorizada por LEI ESPECÍFICA, atender às condições estabelecidas na LDO e estar prevista no orçamento ou em seus créditos adicionais (incluindo concessão de empréstimos/financiamentos e subvenções econômicas); e (2) pelo Art. 40 da LRF, a concessão de GARANTIA pelos entes públicos exige o oferecimento de CONTRAGARANTIA em valor igual ou superior ao da garantia prestada (dispensada contragarantia apenas se concedida a outra entidade controlada ou se o ente não estiver inadimplente com a União, observados os limites do Senado)."
+        "text": "Ambas as medidas exigem requisitos estritos da LRF:, a destinação de recursos para cobrir necessidades de pessoas físicas ou déficits de pessoas jurídicas deverá ser autorizada por lei específica, atender às condições estabelecidas na LDO e estar prevista no orçamento ou em seus créditos adicionais."
       },
       {
         "letter": "C",
-        "text": "Salvo autorização na LOA, os recursos públicos nunca podem ser utilizados para socorrer instituições financeiras privadas integrantes do Sistema Financeiro Nacional."
+        "text": "Salvo autorização na LOA, os recursos públicos nunca podem ser utilizados para socorrer instituições financeiras privadas integrantes do Sistema Financeiro Nacional, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "D",
-        "text": "Os Estados e Municípios podem prestar garantias em favor de entidades sem exigir contragarantia do beneficiário."
+        "text": "Os Estados e Municípios podem prestar garantias em favor de entidades sem exigir contragarantia do beneficiário, com execução integral da despesa pública independentemente de prévio empenho e liquidação."
       }
     ],
     "correctAnswer": "B",
@@ -2223,19 +2223,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A superpreferência constitucional do Art. 100, § 2º, da CF aplica-se a qualquer crédito comum (como indenização por desapropriação) desde que o credor tenha mais de 60 anos."
+        "text": "A superpreferência constitucional aplica-se a qualquer crédito comum (como indenização por desapropriação) desde que o credor tenha mais de 60 anos, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
-        "text": "Ambos possuem direito à SUPERPREFERÊNCIA constitucional (Art. 100, § 2º, CF): os débitos de natureza ALIMENTÍCIA (salários, vencimentos, proventos, pensões, benefícios previdenciários e indenizações por morte ou invalidez) cujos titulares, originários ou por sucessão hereditária, tenham 60 ANOS de idade, ou sejam portadores de DOENÇA GRAVE, ou pessoas com DEFICIÊNCIA (assim definidos na forma da lei), serão pagos COM PREFERÊNCIA SOBRE TODOS OS DEMAIS DÉBITOS (inclusive sobre os alimentares comuns!), até o valor equivalente ao TRIPLO (3x) do fixado em lei para a RPV, admitido o fracionamento para essa finalidade, sendo o restante pago na ordem cronológica de apresentação do precatório alimentar."
+        "text": "Ambos possuem direito à superpreferência constitucional: os débitos de natureza alimentícia cujos titulares, originários ou por sucessão hereditária, tenham 60 anos de idade, ou sejam portadores de doença grave, ou pessoas com deficiência, serão pagos com preferência sobre todos OS demais débitos, até o valor equivalente ao triplo (3x) do fixado em lei para a RPV, admitido o fracionamento para essa finalidade, sendo o restante pago na ordem cronológica de apresentação do precatório alimentar."
       },
       {
         "letter": "C",
-        "text": "Caso o credor idoso venha a falecer no curso do precatório, seus herdeiros nunca podem usufruir da superpreferência, ainda que tenham mais de 60 anos."
+        "text": "Caso o credor idoso venha a falecer no curso do precatório, seus herdeiros nunca podem usufruir da superpreferência, ainda que tenham mais de 60 anos. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       },
       {
         "letter": "D",
-        "text": "O pagamento da parcela superpreferencial até o triplo da RPV é proibido porque o Art. 100, § 8º, da CF veda qualquer fracionamento de execução."
+        "text": "O pagamento da parcela superpreferencial até o triplo da RPV é proibido porque a legislação aplicável veda qualquer fracionamento de execução. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "B",
@@ -2278,19 +2278,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Mesmo editando lei própria, o Município não pode fixar o limite da sua RPV abaixo de 30 salários mínimos."
+        "text": "Mesmo editando lei própria, o Município não pode fixar o limite da sua RPV abaixo de 30 salários mínimos, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "B",
-        "text": "A lei municipal é CONSTITUCIONAL e o litisconsórcio permite RPVs individuais: (1) pelo Art. 100, §§ 3º e 4º, da CF, Estados e Municípios podem fixar por lei própria limites para RPV segundo suas capacidades econômicas, sendo o PISO MÍNIMO constitucional correspondente ao valor do MAIOR BENEFÍCIO DO RGPS (teto do INSS); somente na omissão legislativa do ente aplicam-se os tetos subsidiários de 40 SMs (Estados/DF) e 30 SMs (Municípios) do Art. 87 do ADCT (na União é 60 SMs pela Lei 10.259/01); e (2) no litisconsórcio ativo facultativo, o STF (Tema 148) decidiu que o valor de cada exequente deve ser considerado INDIVIDUALMENTE para fins de RPV, não caracterizando fracionamento vedado pelo § 8º!"
+        "text": "A lei municipal é constitucional e o litisconsórcio permite RPVs individuais:, Estados e Municípios podem fixar por lei própria limites para RPV segundo suas capacidades econômicas, sendo o piso mínimo constitucional correspondente ao valor do maior benefício do RGPS (teto do INSS)."
       },
       {
         "letter": "C",
-        "text": "Em processo movido por um único advogado e um único cliente, o advogado não pode requerer a expedição de RPV autônoma para seus honorários sucumbenciais se o crédito principal do cliente superar o teto e for por precatório."
+        "text": "Em processo movido por um único advogado e um único cliente, o advogado não pode requerer a expedição de RPV autônoma para seus honorários sucumbenciais se o crédito principal do cliente superar o teto e for por precatório, com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais."
       },
       {
         "letter": "D",
-        "text": "Os créditos pagos mediante Requisição de Pequeno Valor (RPV) submetem-se à mesma espera orçamentária anual de 02 de abril dos precatórios."
+        "text": "Os créditos pagos mediante Requisição de Pequeno Valor (RPV) submetem-se à mesma espera orçamentária anual de 02 de abril dos precatórios, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       }
     ],
     "correctAnswer": "B",
@@ -2338,7 +2338,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Após a EC nº 114/2021 (Art. 100, § 5º, da CF), os precatórios apresentados até 02 DE ABRIL serão incluídos no orçamento do exercício seguinte (se apresentado em 15 de maio de 2024 — após 02 de abril — só entrará na LOA de 2026!); ademais, pelo Art. 3º da EC nº 113/2021, nas discussões e condenações que envolvam a Fazenda Pública, independentemente da natureza, para fins de atualização monetária, remuneração do capital e compensação da mora, aplica-se uma única vez, até o efetivo pagamento, o índice da TAXA REFERENCIAL DO SISTEMA ESPECIAL DE LIQUIDAÇÃO E DE CUSTÓDIA (SELIC), acumulado mensalmente!"
+        "text": "Após a EC nº 114/2021, os precatórios apresentados até 02 de abril serão incluídos no orçamento do exercício seguinte."
       },
       {
         "letter": "C",
@@ -2389,19 +2389,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O sequestro de verbas públicas para pagamento de precatório pode ser determinado por qualquer juiz de 1º grau em caso de simples demora superior a 60 dias no pagamento ordinário."
+        "text": "O sequestro de verbas públicas para pagamento de precatório pode ser determinado por qualquer juiz de 1º grau em caso de simples demora superior a 60 dias no pagamento ordinário, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal."
       },
       {
         "letter": "B",
-        "text": "Duas respostas consolidadas na Constituição e no STF: (1) havendo PRETERIÇÃO do direito de precedência ou não alocação orçamentária do valor necessário à satisfação do débito, o Presidente do Tribunal que proferiu a decisão exequenda determinará o SEQUESTRO da quantia respectiva (Art. 100, § 6º, CF); e (2) nas ADIs 4.357 e 4.425, o STF declarou INCONSTITUCIONAL o antigo regime de compensação obrigatória unilateral pela Fazenda Pública antes da expedição do precatório prevista nos §§ 9º e 10 do Art. 100 da CF (por violar a isonomia e a coisa julgada — cabendo apenas encontro voluntário/facultativo previsto no § 11)!"
+        "text": "Duas respostas consolidadas na Constituição e no STF: havendo preterição do direito de precedência ou não alocação orçamentária do valor necessário à satisfação do débito, o Presidente do Tribunal que proferiu a decisão exequenda determinará o sequestro da quantia respectiva."
       },
       {
         "letter": "C",
-        "text": "O sequestro de quantia em precatório é ato de jurisdição contenciosa ordinária do juiz da execução fiscal."
+        "text": "O sequestro de quantia em precatório é ato de jurisdição contenciosa ordinária do juiz da execução fiscal, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "A inclusão obrigatória da compensação unilateral de débitos tributários prevista pela EC 62/2009 nos §§ 9º e 10 do Art. 100 foi mantida plenamente válida pelo STF."
+        "text": "A inclusão obrigatória da compensação unilateral de débitos tributários prevista pela EC 62/2009 nos §§ 9º e 10 foi mantida plenamente válida pelo STF, com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal."
       }
     ],
     "correctAnswer": "B",
@@ -2445,19 +2445,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Novo Arcabouço Fiscal (LC nº 200/2023) congelou integralmente os gastos primários federais em 0% de crescimento real acima da inflação por vinte anos."
+        "text": "O Novo Arcabouço Fiscal congelou integralmente os gastos primários federais em 0% de crescimento real acima da inflação por vinte anos, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
-        "text": "Pela LC nº 200/2023 (Art. 3º a 5º), o crescimento real da despesa primária da União fica vinculado a 70% da variação real da receita primária líquida apurada nos 12 meses até junho do exercício anterior (ou 50% caso a meta de resultado primário não tenha sido cumprida dentro do intervalo de tolerância), sujeito obrigatoriamente a uma banda anual de crescimento real entre o PISO mínimo de 0,6% ao ano e o TETO máximo de 2,5% ao ano acima da inflação (IPCA), além de piso mínimo obrigatório para investimentos."
+        "text": "Pela LC nº 200/2023, o crescimento real da despesa primária da União fica vinculado a 70% da variação real da receita primária líquida apurada nos 12 meses até junho do exercício anterior, sujeito obrigatoriamente a uma banda anual de crescimento real entre o piso mínimo de 0,6% ao ano e o teto máximo de 2,5% ao ano acima da inflação (ipca)."
       },
       {
         "letter": "C",
-        "text": "Caso o governo federal descumpra a meta de resultado primário em determinado ano, o único efeito é manter o crescimento da despesa no máximo de 2,5% ao ano."
+        "text": "Caso o governo federal descumpra a meta de resultado primário em determinado ano, o único efeito é manter o crescimento da despesa no máximo de 2,5% ao ano. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "D",
-        "text": "Os gastos constitucionais mínimos com saúde, educação e o pagamento do FUNDEB também são cortados livremente abaixo do mínimo constitucional caso o limite de despesas da LC 200 seja atingido."
+        "text": "Os gastos constitucionais mínimos com saúde, educação e o pagamento do FUNDEB também são cortados livremente abaixo do mínimo constitucional caso o limite de despesas da LC 200 seja atingido, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "B",
@@ -2500,19 +2500,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Atingidos os 95% de despesas correntes sobre receitas correntes no Art. 167-A da CF, o município sofre intervenção federal imediata e extinção de cargos estáveis."
+        "text": "Atingidos os 95% de despesas correntes sobre receitas correntes, o município sofre intervenção federal imediata e extinção de cargos estáveis, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "B",
-        "text": "Nos termos do Art. 167-A da Constituição Federal (incluído pela EC nº 109/2021), quando a relação entre despesas correntes e receitas correntes superar 95% no período de 12 meses, é FACULTADO aos Poderes Executivo, Legislativo e Judiciário, ao Ministério Público, ao Tribunal de Contas e à Defensoria Pública do ente aplicar o mecanismo de ajuste fiscal (vedação de reajustes salariais, criação de cargos, concursos não destinados a reposição de vacância, criação de auxílios, criação/expansão de despesas obrigatórias etc.) — tornando-se OBRIGATÓRIO para a União nos casos previstos em lei complementar e como condição para a União prestar garantias ou operações de refinanciamento ao ente subnacional (§ 4º)!"
+        "text": "Nos termos, quando a relação entre despesas correntes e receitas correntes superar 95% no período de 12 meses, é facultado aos Poderes Executivo, Legislativo e Judiciário, ao Ministério Público, ao Tribunal de Contas e à Defensoria Pública do ente aplicar o mecanismo de ajuste fiscal."
       },
       {
         "letter": "C",
-        "text": "No caso de decretação de estado de calamidade pública de âmbito nacional pelo Congresso Nacional (Art. 167-B da CF), continuam integralmente proibidas as operações de crédito que excedam as despesas de capital (Regra de Ouro)."
+        "text": "No caso de decretação de estado de calamidade pública de âmbito nacional pelo Congresso Nacional, continuam integralmente proibidas as operações de crédito que excedam as despesas de capital (Regra de Ouro), sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "D",
-        "text": "Durante o estado de calamidade pública nacional previsto nos Arts. 167-B a 167-G da CF, todas as contratações de despesas temporárias criadas para a calamidade tornam-se automaticamente despesas permanentes incorporadas aos orçamentos futuros."
+        "text": "Durante o estado de calamidade pública nacional previsto nos Arts. 167-B a 167-G da CF, todas as contratações de despesas temporárias criadas para a calamidade tornam-se automaticamente despesas permanentes incorporadas aos orçamentos futuros, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       }
     ],
     "correctAnswer": "B",
@@ -2555,19 +2555,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto o RREO quanto o RGF são publicados bimestralmente exclusivamente pelo Poder Executivo em nome de todos os Poderes."
+        "text": "Tanto o rreo quanto o rgf são publicados bimestralmente exclusivamente pelo Poder Executivo em nome de todos os Poderes, com remanejamento e suplementação orçamentária direta por ato exclusivo do Poder Executivo."
       },
       {
         "letter": "B",
-        "text": "Nos termos da LRF: (1) o RREO (Arts. 52 e 53) abrange todos os Poderes e o Ministério Público, é publicado apenas pelo PODER EXECUTIVO até 30 dias após o encerramento de cada BIMESTRE (inclusive previsto diretamente no Art. 165, § 3º, da CF!), contendo balanço orçamentário e demonstrativos de receita/despesa/RCL/previdência; e (2) o RGF (Arts. 54 e 55) é emitido SEPARADAMENTE pelos titulares de cada Poder e órgão (Executivo, Legislativo, Judiciário, MP e Defensoria) ao final de cada QUADRIMESTRE (publicado até 30 dias após o encerramento do período — facultado semestre para Municípios < 50 mil hab. no Art. 63), demonstrando os limites de pessoal, dívida consolidada, garantias e operações de crédito."
+        "text": "Nos termos da LRF: o rreo abrange todos os Poderes e o Ministério Público, é publicado apenas pelo poder executivo até 30 dias após o encerramento de cada bimestre, contendo balanço orçamentário e demonstrativos de receita/despesa/rcl/previdência."
       },
       {
         "letter": "C",
-        "text": "Os Municípios com população inferior a 50 mil habitantes estão integralmente dispensados de publicar tanto o RREO quanto o RGF."
+        "text": "Os Municípios com população inferior a 50 mil habitantes estão integralmente dispensados de publicar tanto o rreo quanto o rgf, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "D",
-        "text": "A transparência fiscal em tempo real por meio eletrônico (Portal da Transparência) é exigida apenas para a União e os Estados, não alcançando Municípios."
+        "text": "A transparência fiscal em tempo real por meio eletrônico (Portal da Transparência) é exigida apenas para a União e os Estados, não alcançando Municípios, sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais."
       }
     ],
     "correctAnswer": "B",
@@ -2610,19 +2610,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O parecer prévio do Tribunal de Contas que rejeita as contas anuais do Prefeito torna-o automaticamente inelegível mesmo se a Câmara Municipal aprovar as contas posteriormente."
+        "text": "O parecer prévio do Tribunal de Contas que rejeita as contas anuais do Prefeito torna-o automaticamente inelegível mesmo se a Câmara Municipal aprovar as contas posteriormente, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
-        "text": "Aplicam-se regras constitucionais distintas conforme fixado pelo STF no Tema 835 (RE 848.826) e no Art. 71 da CF: para fins de INELEGIBILIDADE (Art. 1º, I, \"g\", LC 64/90), a competência para JULGAR as contas de governo (e mesmo de gestão, segundo o Tema 835/STF) do Chefe do Poder Executivo Municipal (Prefeito) é EXCLUSIVA DA CÂMARA MUNICIPAL, mediante parecer prévio do Tribunal de Contas que só deixará de prevalecer por decisão de DOIS TERÇOS (2/3) dos vereadores (Art. 31, § 2º, CF); contudo, quanto à IMPUTAÇÃO DE DÉBITO e MULTA ao prefeito ordenador de despesa (Art. 71, II e VIII, CF), o STF (Tema 157/RE 729.744 e evolução) distingue a eficácia de título executivo das decisões dos TCs sobre contas de gestão de administradores públicos em geral (que são julgadas diretamente pelos TCs, não apenas com parecer prévio)."
+        "text": "Aplicam-se regras constitucionais distintas conforme fixado pelo STF no Tema 835 e: para fins de inelegibilidade, a competência para julgar as contas de governo do Chefe do Poder Executivo Municipal (Prefeito) é exclusiva da câmara municipal, mediante parecer prévio do Tribunal de Contas que só deixará de prevalecer por decisão de dois terços (2/3) dos vereadores."
       },
       {
         "letter": "C",
-        "text": "As decisões dos Tribunais de Contas que imputam débito ou multa a gestores públicos precisam ser previamente homologadas pelo Poder Judiciário antes de constituírem título executivo."
+        "text": "As decisões dos Tribunais de Contas que imputam débito ou multa a gestores públicos precisam ser previamente homologadas pelo Poder Judiciário antes de constituírem título executivo, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "D",
-        "text": "A Constituição Federal autoriza os Municípios que desejarem criar novos Tribunais de Contas Municipais próprios a instituí-los mediante emenda à Lei Orgânica."
+        "text": "A Constituição Federal autoriza os Municípios que desejarem criar novos Tribunais de Contas Municipais próprios a instituí-los mediante emenda à Lei Orgânica, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "B",
@@ -2666,19 +2666,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A inscrição em Restos a Pagar de despesa não previamente empenhada constitui mera irregularidade contábil administrativa sem tipificação penal."
+        "text": "A inscrição em Restos a Pagar de despesa não previamente empenhada constitui mera irregularidade contábil administrativa sem tipificação penal, sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais."
       },
       {
         "letter": "B",
-        "text": "As condutas configuram CRIMES CONTRA AS FINANÇAS PÚBLICAS tipificados no Capítulo IV do Título XI do Código Penal (Lei nº 10.028/2000): (1) ordenar, autorizar ou executar ato que acarrete aumento de despesa total com pessoal nos 180 dias anteriores ao final do mandato (Art. 359-G); (2) ordenar ou autorizar inscrição em Restos a Pagar de despesa que não tenha sido previamente empenhada ou que exceda limite estabelecido em lei (Art. 359-B); (3) ordenar ou autorizar a abertura ou realização de operação de crédito sem prévia autorização legislativa (Art. 359-A); e (4) ordenar despesa não autorizada por lei (Art. 359-D)!"
+        "text": "As condutas configuram crimes contra as finanças públicas tipificados no Capítulo IV do Título XI do Código Penal: ordenar, autorizar ou executar ato que acarrete aumento de despesa total com pessoal nos 180 dias anteriores ao final do mandato."
       },
       {
         "letter": "C",
-        "text": "O aumento de despesa total com pessoal expedido nos 180 dias anteriores ao final do mandato só é crime se envolver contratação de servidores efetivos concursados."
+        "text": "O aumento de despesa total com pessoal expedido nos 180 dias anteriores ao final do mandato só é crime se envolver contratação de servidores efetivos concursados, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "D",
-        "text": "A Lei nº 10.028/2000 prevê que todos os crimes contra as finanças públicas são apenados exclusivamente com multa fiscal aplicada pelo Tribunal de Contas."
+        "text": "A Lei nº 10.028/2000 prevê que todos os crimes contra as finanças públicas são apenados exclusivamente com multa fiscal aplicada pelo Tribunal de Contas, com remanejamento e suplementação orçamentária direta por ato exclusivo do Poder Executivo."
       }
     ],
     "correctAnswer": "B",
@@ -2721,19 +2721,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Governador praticou dupla inconstitucionalidade: (1) se a proposta orçamentária do Judiciário/MP/Defensoria foi elaborada dentro dos limites estipulados conjuntamente na LDO, o Chefe do Executivo NÃO pode cortá-la nem alterá-la unilateralmente (cabendo apenas ao Poder Executivo consolidá-la no projeto da LOA, podendo fazer ajustes apenas se encaminhada em desacordo com a LDO — Art. 99, §§ 3º e 4º, CF); e (2) nos termos do Art. 168 da CF, os recursos correspondentes às dotações orçamentárias, compreendidos os créditos suplementares e especiais, destinados aos órgãos dos Poderes Legislativo e Judiciário, do Ministério Público e da Defensoria Pública, ser-lhes-ão entregues em DUODÉCIMOS ATÉ O DIA 20 DE CADA MÊS!"
+        "text": "O Governador praticou dupla inconstitucionalidade: se a proposta orçamentária do Judiciário/MP/Defensoria foi elaborada dentro dos limites estipulados conjuntamente na LDO, o Chefe do Executivo não pode cortá-la nem alterá-la unilateralmente."
       },
       {
         "letter": "B",
-        "text": "O Chefe do Poder Executivo tem discricionariedade para reduzir a proposta orçamentária do Poder Judiciário e do Ministério Público ao consolidar a LOA mesmo quando observados os limites da LDO."
+        "text": "O Chefe do Poder Executivo tem discricionariedade para reduzir a proposta orçamentária do Poder Judiciário e do Ministério Público ao consolidar a LOA mesmo quando observados os limites da LDO, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "C",
-        "text": "Os duodécimos dos Poderes Legislativo, Judiciário, MP e Defensoria Pública devem ser repassados até o último dia útil de cada mês."
+        "text": "Os duodécimos dos Poderes Legislativo, Judiciário, MP e Defensoria Pública devem ser repassados até o último dia útil de cada mês. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       },
       {
         "letter": "D",
-        "text": "Os saldos financeiros de duodécimos não utilizados pela Câmara Municipal ou Tribunal ao final do exercício incorporam-se definitivamente em conta bancária própria sem retornar ao Tesouro."
+        "text": "Os saldos financeiros de duodécimos não utilizados pela Câmara Municipal ou Tribunal ao final do exercício incorporam-se definitivamente em conta bancária própria sem retornar ao Tesouro, com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais."
       }
     ],
     "correctAnswer": "A",
@@ -2776,19 +2776,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O ato do Governador é INCONSTITUCIONAL e configura crime de responsabilidade (Art. 85, VI, CF — atentar contra a lei orçamentária): conforme jurisprudência consolidada do STF (MS 34.483 e ADPF 387), o Executivo não possui discricionariedade para reter ou contingenciar unilateralmente os repasses duodecimais dos demais Poderes e órgãos autônomos previstos no Art. 168 da CF (cuja frustração de receita exige limitação de empenho pelo próprio Poder ou procedimento legal específico), sendo cabível mandado de segurança e até sequestro/bloqueio judicial nas contas do Tesouro para assegurar o repasse até o dia 20."
+        "text": "O ato do Governador é inconstitucional e configura crime de responsabilidade: conforme jurisprudência consolidada do STF, o Executivo não possui discricionariedade para reter ou contingenciar unilateralmente os repasses duodecimais dos demais Poderes e órgãos autônomos previstos, sendo cabível mandado de segurança e até sequestro/bloqueio judicial nas contas do Tesouro para assegurar o repasse até o dia 20."
       },
       {
         "letter": "B",
-        "text": "Em caso de queda de receita arrecadada, o Governador pode reter unilateralmente o percentual que julgar justo dos duodécimos do Tribunal de Justiça para priorizar despesas do Executivo."
+        "text": "Em caso de queda de receita arrecadada, o Governador pode reter unilateralmente o percentual que julgar justo dos duodécimos do Tribunal de Justiça para priorizar despesas do Executivo, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "C",
-        "text": "Não cabe mandado de segurança nem intervenção judicial para compelir o Executivo a repassar duodécimos atrasados por se tratar de questão interna corporis política."
+        "text": "Não cabe mandado de segurança nem intervenção judicial para compelir o Executivo a repassar duodécimos atrasados por se tratar de questão interna corporis política, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "D",
-        "text": "A retenção dolosa dos duodécimos gera apenas multa administrativa do Tribunal de Contas, não caracterizando crime de responsabilidade do Chefe do Executivo."
+        "text": "A retenção dolosa dos duodécimos gera apenas multa administrativa do Tribunal de Contas, não caracterizando crime de responsabilidade do Chefe do Executivo, com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "A",
@@ -2832,19 +2832,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos termos dos Arts. 157 a 159 da Constituição Federal, pertencem DIRETAMENTE aos Municípios (Art. 158): (I) 100% do IRRF incidente na fonte sobre rendimentos pagos pelo próprio Município e suas autarquias/fundações; (II) 50% do ITR (ou 100% se o Município optar por fiscalizar e cobrar — Art. 153, § 4º, III); (III) 50% do IPVA estadual sobre veículos licenciados em seu território; e (IV) 25% do ICMS arrecadado no Estado (além de 25% do IBS estadual após a EC 132/2023). Já os repasses INDIRETOS via fundos vêm do Art. 159 (FPM = parcela do IR + IPI)."
+        "text": "Nos termos dos Arts. 157 a 159 da Constituição Federal, pertencem diretamente aos Municípios: (I) 100% do irrf incidente na fonte sobre rendimentos pagos pelo próprio Município e suas autarquias/fundações."
       },
       {
         "letter": "B",
-        "text": "Pertence integralmente (100%) aos Municípios o produto da arrecadação do IPVA referente aos veículos licenciados no respectivo território municipal."
+        "text": "Pertence integralmente (100%) aos Municípios o produto da arrecadação do IPVA referente aos veículos licenciados no respectivo território municipal, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "C",
-        "text": "O produto da arrecadação do Imposto de Renda retido na fonte sobre os salários dos servidores públicos municipais pertence à União por se tratar de imposto federal."
+        "text": "O produto da arrecadação do Imposto de Renda retido na fonte sobre os salários dos servidores públicos municipais pertence à União por se tratar de imposto federal, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "D",
-        "text": "Os recursos recebidos pelos Municípios a título de FPM e cota-parte do ICMS classificam-se na LOA federal ou estadual como transferências voluntárias discricionárias."
+        "text": "Os recursos recebidos pelos Municípios a título de fpm e cota-parte do ICMS classificam-se na LOA federal ou estadual como transferências voluntárias discricionárias, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "A",
@@ -2888,19 +2888,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A lei estadual é INCONSTITUCIONAL por violar os percentuais alterados pela EC nº 108/2020 no Art. 158, parágrafo único, da Constituição Federal: as parcelas de receita pertencentes aos Municípios serão creditadas conforme os seguintes critérios: (I) 65%, NO MÍNIMO, na proporção do Valor Adicionado nas operações relativas à circulação de mercadorias e prestações de serviços realizadas em seus territórios; e (II) ATÉ 35%, de acordo com o que dispuser lei estadual, observada, OBRIGATORIAMENTE, a distribuição de, NO MÍNIMO, 10 (dez) pontos percentuais com base em INDICADORES DE MELHORIA NOS RESULTADOS DE APRENDIZAGEM e de aumento da equidade (nível socioeconômico)!"
+        "text": "A lei estadual é inconstitucional por violar os percentuais alterados pela EC nº 108/2020: as parcelas de receita pertencentes aos Municípios serão creditadas conforme os seguintes critérios: (I) 65%, no mínimo, na proporção do Valor Adicionado nas operações relativas à circulação de mercadorias e prestações de serviços realizadas em seus territórios."
       },
       {
         "letter": "B",
-        "text": "Pelo texto constitucional vigente, o Valor Adicionado Fiscal (VAF) continua respondendo obrigatoriamente por no mínimo 75% da cota-parte municipal do ICMS."
+        "text": "Pelo texto constitucional vigente, o Valor Adicionado Fiscal (vaf) continua respondendo obrigatoriamente por no mínimo 75% da cota-parte municipal do ICMS, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "A destinação de 10 pontos percentuais por indicadores educacionais na cota-parte do ICMS é meramente facultativa ao legislador estadual."
+        "text": "A destinação de 10 pontos percentuais por indicadores educacionais na cota-parte do ICMS é meramente facultativa ao legislador estadual, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "D",
-        "text": "Após o cálculo do rateio da cota-parte de 25% do ICMS municipal, os valores integram integralmente a receita corrente estadual antes do repasse voluntário no ano seguinte."
+        "text": "Após o cálculo do rateio da cota-parte de 25% do ICMS municipal, os valores integram integralmente a receita corrente estadual antes do repasse voluntário no ano seguinte, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       }
     ],
     "correctAnswer": "A",
@@ -2944,19 +2944,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O bloqueio é CONSTITUCIONAL nessas duas hipóteses excepcionais: embora o Art. 160, caput, da Constituição Federal VEDE a retenção ou qualquer restrição à entrega e ao emprego dos recursos atribuídos aos Estados, DF e Municípios na repartição de receitas (inclusive adicionais e acréscimos), o PARÁGRAFO ÚNICO do Art. 160 autoriza EXPRESSAMENTE a União e os Estados a condicionarem a entrega dos recursos: (I) ao pagamento de seus créditos, inclusive de suas autarquias; e (II) ao cumprimento do disposto no Art. 198, § 2º, II e III (aplicação mínima constitucional em ações e serviços públicos de SAÚDE)!"
+        "text": "O bloqueio é constitucional nessas duas hipóteses excepcionais: embora o Art. 160, caput, da Constituição Federal vede a retenção ou qualquer restrição à entrega e ao emprego dos recursos atribuídos aos Estados, DF e Municípios na repartição de receitas, o parágrafo único autoriza expressamente a União e os Estados a condicionarem a entrega dos recursos: (I) ao pagamento de seus créditos, inclusive de suas autarquias."
       },
       {
         "letter": "B",
-        "text": "Mesmo quando um Município deixa de pagar dívida vencida junto à União ou a autarquia federal (como INSS), a União está absolutamente proibida de reter cotas do FPM."
+        "text": "Mesmo quando um Município deixa de pagar dívida vencida junto à União ou a autarquia federal (como INSS), a União está absolutamente proibida de reter cotas do fpm, em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal."
       },
       {
         "letter": "C",
-        "text": "O descumprimento da aplicação mínima constitucional em Educação (Art. 212 CF) também autoriza diretamente o bloqueio do FPM nos termos literais do Art. 160, parágrafo único, II, da CF."
+        "text": "O descumprimento da aplicação mínima constitucional em Educação também autoriza diretamente o bloqueio do fpm nos termos literais, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "D",
-        "text": "A concessão de isenção tributária de ICMS pelo Estado pode reduzir livremente a parcela de 25% que caberia aos Municípios sobre o imposto efetivamente não arrecadado sem nenhuma exceção."
+        "text": "A concessão de isenção tributária de ICMS pelo Estado pode reduzir livremente a parcela de 25% que caberia aos Municípios sobre o imposto efetivamente não arrecadado sem nenhuma exceção, com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais."
       }
     ],
     "correctAnswer": "A",
@@ -3000,19 +3000,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A União NÃO pode realizar o repasse para o estádio municipal, mas PODE realizar a transferência voluntária para o hospital do SUS: pelo Art. 25, caput e § 1º, da LRF, transferência voluntária é a entrega de recursos correntes ou de capital a outro ente a título de cooperação, auxílio ou assistência financeira, que não decorra de determinação constitucional, legal ou os destinados ao SUS, exigindo adimplência com tributos/empréstimos, prestação de contas e observância de limites constitucionais/LRF; porém, o Art. 25, § 3º, da LRF EXCETUA expressamente das sanções de suspensão de transferências voluntárias as ações de EDUCAÇÃO, SAÚDE e ASSISTÊNCIA SOCIAL!"
+        "text": "A União não pode realizar o repasse para o estádio municipal, mas pode realizar a transferência voluntária para o hospital do SUS:, transferência voluntária é a entrega de recursos correntes ou de capital a outro ente a título de cooperação, auxílio ou assistência financeira, que não decorra de determinação constitucional, legal ou os destinados ao SUS, exigindo adimplência com tributos/empréstimos, prestação de contas e observância de limites constitucionais/LRF."
       },
       {
         "letter": "B",
-        "text": "As transferências constitucionais de FPM e FUNDEB ficam automaticamente suspensas caso o município descumpra o prazo do RGF ou tenha débito no CAUC."
+        "text": "As transferências constitucionais de fpm e FUNDEB ficam automaticamente suspensas caso o município descumpra o prazo do rgf ou tenha débito no cauc, com respeito à ordem cronológica constitucional para quitação de débitos em precatório. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "A proibição de receber transferências voluntárias por inadimplência no CAUC abrange também convênios para construção de creches municipais e postos de saúde."
+        "text": "A proibição de receber transferências voluntárias por inadimplência no cauc abrange também convênios para construção de creches municipais e postos de saúde, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "Os recursos recebidos mediante transferência voluntária podem ser aplicados livremente pelo Município no pagamento de despesas correntes de outra secretaria caso sobre saldo."
+        "text": "Os recursos recebidos mediante transferência voluntária podem ser aplicados livremente pelo Município no pagamento de despesas correntes de outra secretaria caso sobre saldo, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal."
       }
     ],
     "correctAnswer": "A",
@@ -3055,19 +3055,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Município tem direito à suspensão da restrição cadastral: nos termos da Súmula 615 do STJ (e jurisprudência pacífica do STF sobre o princípio da intranscendência subjetiva das sanções), não pode o Município sofrer restrição em cadastros de inadimplentes (CAUC/SIAFI/CADIN) por irregularidade ou omissão praticada por GESTÃO ANTERIOR quando o atual gestor comprovar que adotou as providências cabíveis para ressarcimento ao erário e responsabilização do ex-administrador (respeitada a exigência de prestação de contas na forma do Art. 26-A da Lei 10.522/2002 / jurisprudência)."
+        "text": "O Município tem direito à suspensão da restrição cadastral:, não pode o Município sofrer restrição em cadastros de inadimplentes (cauc/siafi/cadin) por irregularidade ou omissão praticada por gestão anterior quando o atual gestor comprovar que adotou as providências cabíveis para ressarcimento ao erário e responsabilização do ex-administrador."
       },
       {
         "letter": "B",
-        "text": "Pelo princípio da continuidade administrativa, a nova gestão municipal responde objetivamente pelas contas não prestadas do ex-prefeito, mantendo-se o bloqueio no CAUC mesmo após tomada de contas especial."
+        "text": "Pelo princípio da continuidade administrativa, a nova gestão municipal responde objetivamente pelas contas não prestadas do ex-prefeito, mantendo-se o bloqueio no cauc mesmo após tomada de contas especial. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       },
       {
         "letter": "C",
-        "text": "A inscrição no cadastro federal de inadimplentes (CAUC) pode ocorrer sem necessidade de prévia instauração de tomada de contas especial ou notificação com contraditório."
+        "text": "A inscrição no cadastro federal de inadimplentes (cauc) pode ocorrer sem necessidade de prévia instauração de tomada de contas especial ou notificação com contraditório, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "D",
-        "text": "Mesmo em transferências obrigatórias constitucionais (FPE/FPM), a União pode bloqueá-las sempre que o Estado atrasar o pagamento de um convênio voluntário."
+        "text": "Mesmo em transferências obrigatórias constitucionais (fpe/fpm), a União pode bloqueá-las sempre que o Estado atrasar o pagamento de um convênio voluntário, com remanejamento e suplementação orçamentária direta por ato exclusivo do Poder Executivo. A execução orçamentária deve observar os estágios legais e os limites de endividamento."
       }
     ],
     "correctAnswer": "A",
@@ -3111,19 +3111,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos termos do Art. 212 da Constituição Federal, a União aplicará anualmente nunca menos de 18%, e os Estados, o Distrito Federal e os Municípios 25%, NO MÍNIMO, da receita resultante de impostos, compreendida a proveniente de transferências, na manutenção e desenvolvimento do ensino (MDE) — logo, o Município deve aplicar no mínimo R$ 25 milhões; ademais, pelo Art. 212-A da CF (EC nº 108/2020), o FUNDEB tornou-se PERMANENTE, com complementação progressiva da União elevada até 23% (VAAF, VAAT e VAAR) e destinação mínima de 70% dos recursos anuais totais do Fundo para remuneração dos profissionais da educação básica em efetivo exercício!"
+        "text": "A União aplicará anualmente nunca menos de 18%, e os Estados, o Distrito Federal e os Municípios 25%, no mínimo, da receita resultante de impostos, compreendida a proveniente de transferências, na manutenção e desenvolvimento do ensino (mde)."
       },
       {
         "letter": "B",
-        "text": "Os percentuais mínimos constitucionais de gasto obrigatório com educação são de 15% para os Municípios e 12% para os Estados."
+        "text": "Os percentuais mínimos constitucionais de gasto obrigatório com educação são de 15% para os Municípios e 12% para os Estados, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal."
       },
       {
         "letter": "C",
-        "text": "Os recursos constitucionalmente vinculados à Educação (Art. 212) podem ser contabilizados para pagar o vale-alimentação dos professores aposentados e pensões previdenciárias de inativos."
+        "text": "Os recursos constitucionalmente vinculados à Educação podem ser contabilizados para pagar o vale-alimentação dos professores aposentados e pensões previdenciárias de inativos, com execução integral da despesa pública independentemente de prévio empenho e liquidação."
       },
       {
         "letter": "D",
-        "text": "Na distribuição dos recursos do FUNDEB, apenas 50% do total anual é vinculado ao pagamento dos salários dos profissionais do magistério."
+        "text": "Na distribuição dos recursos do FUNDEB, apenas 50% do total anual é vinculado ao pagamento dos salários dos profissionais do magistério, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "A",
@@ -3166,19 +3166,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A contabilização está INCORRETA: pelo Art. 198, § 2º, da Constituição Federal e pela LC nº 141/2012 (Arts. 3º e 4º), os pisos constitucionais obrigatórios em Ações e Serviços Públicos de Saúde (ASPS) são de: 15% da Receita Corrente Líquida na UNIÃO (EC nº 86/2015), 12% da receita de impostos/transferências nos ESTADOS/DF e 15% nos MUNICÍPIOS; ademais, o Art. 4º da LC nº 141/2012 PROÍBE computar como ASPS o pagamento de inativos e pensionistas, saneamento básico não voltado especificamente a populações indígenas/pequenas comunidades ou obras de infraestrutura urbana genérica."
+        "text": "A contabilização está incorreta: e pela LC nº 141/2012, os pisos constitucionais obrigatórios em Ações e Serviços Públicos de Saúde (asps) são de: 15% da Receita Corrente Líquida na união, 12% da receita de impostos/transferências nos estados/DF e 15% nos municípios."
       },
       {
         "letter": "B",
-        "text": "Após a EC nº 86/2015, o piso constitucional de aplicação da União em saúde pública foi fixado em 18% da receita de impostos."
+        "text": "Após a EC nº 86/2015, o piso constitucional de aplicação da União em saúde pública foi fixado em 18% da receita de impostos, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "As despesas com merenda escolar e limpeza urbana municipal podem ser computadas no mínimo constitucional de 15% da Saúde por contribuírem para a prevenção de doenças."
+        "text": "As despesas com merenda escolar e limpeza urbana municipal podem ser computadas no mínimo constitucional de 15% da Saúde por contribuírem para a prevenção de doenças, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "D",
-        "text": "Caso o Município não atinja o mínimo constitucional da Saúde em um exercício, não precisa compensar a diferença no orçamento do exercício seguinte."
+        "text": "Caso o Município não atinja o mínimo constitucional da Saúde em um exercício, não precisa compensar a diferença no orçamento do exercício seguinte, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       }
     ],
     "correctAnswer": "A",
@@ -3221,19 +3221,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O saldo positivo NÃO desaparece nem volta automaticamente ao Tesouro Geral salvo previsão contrária na lei criadora: nos termos do Art. 73 da Lei nº 4.320/1964, o saldo positivo do fundo especial apurado em balanço será transferido para o exercício seguinte, a CRÉDITO DO MESMO FUNDO (salvo determinação em contrário da lei que o instituiu); ademais, a criação do fundo exigiu necessariamente LEI prévia (Art. 167, IX, CF), definindo receitas especificadas vinculadas a objetivos determinados (Art. 71 Lei 4.320/64)."
+        "text": "O saldo positivo não desaparece nem volta automaticamente ao Tesouro Geral salvo previsão contrária na lei criadora:, o saldo positivo do fundo especial apurado em balanço será transferido para o exercício seguinte, a crédito do mesmo fundo."
       },
       {
         "letter": "B",
-        "text": "Todo fundo especial criado por decreto do Executivo possui personalidade jurídica própria de autarquia autônoma distinta do ente federado."
+        "text": "Todo fundo especial criado por decreto do Executivo possui personalidade jurídica própria de autarquia autônoma distinta do ente federado, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "C",
-        "text": "Ao encerrar o exercício financeiro em 31 de dezembro, o saldo positivo do fundo especial caduca automaticamente e se extingue, não podendo ser transferido para o exercício seguinte."
+        "text": "Ao encerrar o exercício financeiro em 31 de dezembro, o saldo positivo do fundo especial caduca automaticamente e se extingue, não podendo ser transferido para o exercício seguinte. A execução orçamentária deve observar os estágios legais e os limites de endividamento."
       },
       {
         "letter": "D",
-        "text": "A criação de fundos públicos especiais exige obrigatoriamente a edição de lei complementar nacional ou estadual em todos os casos."
+        "text": "A criação de fundos públicos especiais exige obrigatoriamente a edição de lei complementar nacional ou estadual em todos os casos, com remanejamento e suplementação orçamentária direta por ato exclusivo do Poder Executivo."
       }
     ],
     "correctAnswer": "A",
@@ -3276,7 +3276,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Orçamento Base Zero (OBZ), cada órgão público parte automaticamente do orçamento do exercício anterior corrigido pela inflação, justificando apenas novos acréscimos."
+        "text": "No Orçamento Base Zero (obz), cada órgão público parte automaticamente do orçamento do exercício anterior corrigido pela inflação, justificando apenas novos acréscimos."
       },
       {
         "letter": "B",
@@ -3288,7 +3288,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Trata-se da passagem do ORÇAMENTO TRADICIONAL (focado apenas no objeto do gasto — \"o que se compra\", neutro quanto ao planejamento e incremental) para o ORÇAMENTO-PROGRAMA (adotado no Brasil desde a Lei nº 4.320/1964 e DL 200/1967, que integra planejamento e orçamento — focado nos objetivos e metas a alcançar, \"para que se gasta\", mensurando custos e resultados). Diferencia-se ainda do Orçamento Base Zero (OBZ, que exige rejustificar cada despesa a partir do zero todo ano sem direitos adquiridos do orçamento anterior) e do Orçamento Participativo (que envolve audiência/deliberação direta da população)."
+        "text": "Trata-se da passagem do orçamento tradicional para o orçamento-programa. Diferencia-se ainda do Orçamento Base Zero e do Orçamento Participativo."
       }
     ],
     "correctAnswer": "D",
@@ -3331,19 +3331,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A manutenção anual contínua da merenda escolar e da folha de pagamento das escolas já existentes classifica-se tecnicamente como Projeto."
+        "text": "A manutenção anual contínua da merenda escolar e da folha de pagamento das escolas já existentes classifica-se tecnicamente como Projeto, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "B",
-        "text": "As Operações Especiais geram diretamente novos bens públicos ou serviços diretos à população, contribuindo para a expansão patrimonial do Estado."
+        "text": "As Operações Especiais geram diretamente novos bens públicos ou serviços diretos à população, contribuindo para a expansão patrimonial do Estado, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "C",
-        "text": "Na classificação funcional da despesa, a \"Função\" representa o menor nível de detalhamento do gasto, indicando se a compra é de canetas ou combustíveis."
+        "text": "Na classificação funcional da despesa, a \"Função\" representa o menor nível de detalhamento do gasto, indicando se a compra é de canetas ou combustíveis. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       },
       {
         "letter": "D",
-        "text": "Nos termos da Portaria MOG nº 42/1999 e do MCASP: (I) a construção da nova escola constitui um PROJETO (instrumento de programação para alcançar objetivo de um programa envolvendo um conjunto de operações limitadas no tempo, das quais resulta um produto que concorre para a expansão ou aperfeiçoamento da ação de governo); (II) a manutenção contínua da rede hospitalar constitui uma ATIVIDADE (operações que se realizam de modo contínuo e permanente para manutenção da ação de governo); e (III) amortização/juros da dívida e precatórios constituem OPERAÇÕES ESPECIAIS (despesas que não contribuem diretamente para manutenção, expansão ou aperfeiçoamento das ações de governo, não gerando contraprestação direta sob a forma de bem ou serviço)."
+        "text": "Nos termos da Portaria mog nº 42/1999 e do MCASP: (I) a construção da nova escola constitui um projeto; (II) a manutenção contínua da rede hospitalar constitui uma atividade."
       }
     ],
     "correctAnswer": "D",
@@ -3386,19 +3386,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por ingressar nos cofres públicos, o depósito em caução feito por empresa licitante integra o orçamento anual como receita corrente patrimonial."
+        "text": "Por ingressar nos cofres públicos, o depósito em caução feito por empresa licitante integra o orçamento anual como receita corrente patrimonial, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
-        "text": "O pagamento de Restos a Pagar inscritos no exercício anterior executa-se como despesa orçamentária nova dentro da LOA do exercício atual."
+        "text": "O pagamento de Restos a Pagar inscritos no exercício anterior executa-se como despesa orçamentária nova dentro da LOA do exercício atual, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "C",
-        "text": "A operação de crédito de longo prazo contratada para construção de obras viárias classifica-se como receita extraorçamentária fora da LOA."
+        "text": "A operação de crédito de longo prazo contratada para construção de obras viárias classifica-se como receita extraorçamentária fora da LOA, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "D",
-        "text": "Os itens (1) caução em garantia contratual e (2) operação de crédito por ARO são RECEITAS EXTRAORÇAMENTÁRIAS (não pertencem em definitivo ao patrimônio público — o Estado é mero depositário transitório ou tomador de curto prazo que devolverá no mesmo exercício — e por isso NÃO integram a LOA, nos termos do Art. 3º, parágrafo único, da Lei nº 4.320/1964, registrando-se no passivo financeiro como Dívida Flutuante e sendo restituídas como despesas extraorçamentárias); já o item (3) empréstimo de longo prazo é RECEITA ORÇAMENTÁRIA de Capital!"
+        "text": "Os itens caução em garantia contratual e operação de crédito por aro são receitas extraorçamentárias; já o item empréstimo de longo prazo é receita orçamentária de Capital."
       }
     ],
     "correctAnswer": "D",
@@ -3441,19 +3441,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As subvenções sociais e econômicas classificam-se orçamentariamente como despesas de capital na categoria de investimentos."
+        "text": "As subvenções sociais e econômicas classificam-se orçamentariamente como despesas de capital na categoria de investimentos, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
-        "text": "Qualquer entidade privada comercial com fins lucrativos pode receber subvenções sociais caso preste serviços relevantes à comunidade."
+        "text": "Qualquer entidade privada comercial com fins lucrativos pode receber subvenções sociais caso preste serviços relevantes à comunidade, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "C",
-        "text": "A concessão de subvenção econômica a empresa privada dispensa autorização legislativa específica desde que exista saldo na reserva de contingência."
+        "text": "A concessão de subvenção econômica a empresa privada dispensa autorização legislativa específica desde que exista saldo na reserva de contingência, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "D",
-        "text": "Nos termos dos Arts. 12 e 16 a 21 da Lei nº 4.320/1964: (I) o repasse para custeio de instituição privada sem fins lucrativos de caráter assistencial/médico/educacional é SUBVENÇÃO SOCIAL (Transferência Corrente — Art. 16); (II) o repasse de custeio a empresas (públicas ou privadas) de caráter comercial/agrícola/pastoril para cobertura de déficits ou diferença de preço é SUBVENÇÃO ECONÔMICA (Transferência Corrente — Art. 18); e (III) o repasse destinado a despesas de CAPITAL (investimento/obra) sem contraprestação direta em bens ou serviços é AUXÍLIO (Transferência de Capital — Art. 12, § 6º)!"
+        "text": "Nos termos dos Arts. 12 e 16 a 21 da Lei nº 4.320/1964: (I) o repasse para custeio de instituição privada sem fins lucrativos de caráter assistencial/médico/educacional é subvenção social."
       }
     ],
     "correctAnswer": "D",
@@ -3496,19 +3496,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os empréstimos compulsórios podem ser instituídos pelos Estados e Municípios mediante lei ordinária em caso de calamidade pública local."
+        "text": "Os empréstimos compulsórios podem ser instituídos pelos Estados e Municípios mediante lei ordinária em caso de calamidade pública local, com execução integral da despesa pública independentemente de prévio empenho e liquidação."
       },
       {
         "letter": "B",
-        "text": "O produto da arrecadação do empréstimo compulsório pode ser utilizado pela União em qualquer despesa geral do orçamento sem vinculação."
+        "text": "O produto da arrecadação do empréstimo compulsório pode ser utilizado pela União em qualquer despesa geral do orçamento sem vinculação, com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal."
       },
       {
         "letter": "C",
-        "text": "As operações de crédito voluntárias (emissão de títulos do Tesouro Direto) têm natureza tributária por serem emitidas pelo Estado."
+        "text": "As operações de crédito voluntárias (emissão de títulos do Tesouro Direto) têm natureza tributária por serem emitidas pelo Estado, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "D",
-        "text": "Os empréstimos públicos voluntários (operações de crédito — Art. 29, III, LRF) têm natureza CONTRATUAL bilateral, submetendo-se ao regime financeiro da dívida pública e à Regra de Ouro (Art. 167, III, CF), sem constituírem tributos; em contrapartida, os empréstimos compulsórios do Art. 148 da CF possuem natureza TRIBUTÁRIA (exação unilateral instituída exclusivamente pela União mediante LEI COMPLEMENTAR, para calamidade pública, guerra externa ou investimento público urgente e de relevante interesse nacional, com devolução vinculada ao contribuinte)."
+        "text": "Os empréstimos públicos voluntários têm natureza contratual bilateral, submetendo-se ao regime financeiro da dívida pública e à Regra de Ouro, sem constituírem tributos."
       }
     ],
     "correctAnswer": "D",
@@ -3551,19 +3551,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Balanço Orçamentário registra as entradas e saídas extraorçamentárias (como cauções e depósitos de terceiros) e os saldos em caixa de um ano para outro."
+        "text": "O Balanço Orçamentário registra as entradas e saídas extraorçamentárias (como cauções e depósitos de terceiros) e os saldos em caixa de um ano para outro, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "B",
-        "text": "O superávit financeiro utilizado para abrir créditos adicionais suplementares é apurado diretamente no Balanço Orçamentário."
+        "text": "O superávit financeiro utilizado para abrir créditos adicionais suplementares é apurado diretamente no Balanço Orçamentário, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "C",
-        "text": "A inscrição de restos a pagar não pagos no ano aparece exclusivamente no Passivo Permanente do Balanço Patrimonial."
+        "text": "A inscrição de restos a pagar não pagos no ano aparece exclusivamente no Passivo Permanente do Balanço Patrimonial, em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal."
       },
       {
         "letter": "D",
-        "text": "Cada balanço cumpre função específica nos Arts. 102 a 105 da Lei nº 4.320/1964: (1) BALANÇO ORÇAMENTÁRIO (Art. 102) confronta receitas e despesas PREVISTAS com as REALIZADAS por categoria econômica; (2) BALANÇO FINANCEIRO (Art. 103) demonstra a receita e despesa orçamentárias bem como os RECEBIMENTOS e PAGAMENTOS EXTRAORÇAMENTÁRIOS, conjugados com os saldos em espécie (disponibilidades) do exercício anterior e para o seguinte; (3) BALANÇO PATRIMONIAL (Art. 105) evidencia Ativo Financeiro, Ativo Permanente, Passivo Financeiro, Passivo Permanente, Saldo Patrimonial e Contas de Compensação (permitindo apurar o Superávit Financeiro!); e (4) DVP (Art. 104) evidencia as alterações verificadas no patrimônio resultantes ou independentes da execução orçamentária."
+        "text": "Cada balanço cumpre função específica nos Arts. 102 a 105 da Lei nº 4.320/1964: balanço orçamentário confronta receitas e despesas previstas com as realizadas por categoria econômica."
       }
     ],
     "correctAnswer": "D",
@@ -3606,19 +3606,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No cálculo do Resultado Primário das metas fiscais da LDO, incluem-se integralmente as receitas de empréstimos e os gastos com juros da dívida pública."
+        "text": "No cálculo do Resultado Primário das metas fiscais da LDO, incluem-se integralmente as receitas de empréstimos e os gastos com juros da dívida pública, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
-        "text": "O Superávit Orçamentário (receita orçamentária realizada maior que despesa executada no Balanço Orçamentário) é idêntico ao Superávit Financeiro do Balanço Patrimonial."
+        "text": "O Superávit Orçamentário (receita orçamentária realizada maior que despesa executada no Balanço Orçamentário) é idêntico ao Superávit Financeiro do Balanço Patrimonial, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "C",
-        "text": "O Resultado Nominal (necessidade de financiamento do setor público) desconsidera completamente o impacto dos juros da dívida pública."
+        "text": "O Resultado Nominal (necessidade de financiamento do setor público) desconsidera completamente o impacto dos juros da dívida pública, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "D",
-        "text": "Trata-se de grandezas distintas e complementares: (I) a diferença positiva entre receitas não financeiras (primárias) e despesas não financeiras (primárias), EXCLUÍDOS os juros da dívida pública e operações de crédito, configura o SUPERÁVIT PRIMÁRIO (medido nas metas fiscais da LDO); já quando se incluem na conta os juros da dívida pública recebidos e pagos, apura-se o RESULTADO NOMINAL; e (II) a diferença positiva entre Ativo Financeiro e Passivo Financeiro no Balanço Patrimonial do exercício anterior configura o SUPERÁVIT FINANCEIRO (fonte para créditos adicionais do Art. 43, § 1º, I, Lei 4.320/64)."
+        "text": "Trata-se de grandezas distintas e complementares: (I) a diferença positiva entre receitas não financeiras (primárias) e despesas não financeiras (primárias), excluídos os juros da dívida pública e operações de crédito, configura o superávit primário."
       }
     ],
     "correctAnswer": "D",
@@ -3673,7 +3673,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Ambas as medidas violam a Constituição e a LRF: pelo Art. 40, caput, da Constituição Federal (com redação da EC nº 103/2019), o RPPS dos servidores titulares de cargos efetivos deve observar critérios que preservem o EQUILÍBRIO FINANCEIRO E ATUARIAL; ademais, pelo Art. 69 da LRF, o ente da Federação que mantiver ou vier a instituir regime próprio de previdência social para seus servidores conferir-lhe-á caráter CONTRIBUTIVO e o organizará com base em normas de contabilidade e atuária que preservem seu equilíbrio financeiro e atuarial (vedado pelo Art. 167, XII, CF utilizar recursos do RPPS para outra finalidade que não benefícios previdenciários e taxa de administração)."
+        "text": "Ambas as medidas violam a Constituição e a LRF:, o RPPS dos servidores titulares de cargos efetivos deve observar critérios que preservem o equilíbrio financeiro e atuarial."
       }
     ],
     "correctAnswer": "D",
@@ -3716,19 +3716,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os percentuais do Art. 29-A da CF calculam-se sobre a estimativa orçamentária de receita projetada para o ano corrente, incluídos os empréstimos tomados pelo município."
+        "text": "Os percentuais calculam-se sobre a estimativa orçamentária de receita projetada para o ano corrente, incluídos os empréstimos tomados pelo município, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "B",
-        "text": "Os gastos com servidores inativos e pensionistas vinculados ao Poder Legislativo entram no teto percentual de 7% a 3,5% previsto no Art. 29-A da CF."
+        "text": "Os gastos com servidores inativos e pensionistas vinculados ao Poder Legislativo entram no teto percentual de 7% a 3,5%, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "C",
-        "text": "O descumprimento dos tetos do Art. 29-A pelo Prefeito (repassando a mais ou a menos) ou pelo Presidente da Câmara gera apenas sanção eleitoral sem crime de responsabilidade."
+        "text": "O descumprimento dos tetos pelo Prefeito (repassando a mais ou a menos) ou pelo Presidente da Câmara gera apenas sanção eleitoral sem crime de responsabilidade, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "Há dupla inconstitucionalidade perante o Art. 29-A da Constituição Federal: (1) em Município com população entre 100.001 e 300.000 habitantes, o teto máximo do total da despesa da Câmara (incluídos subsídios dos vereadores e excluídos inativos e pensionistas) é de 6% (não 7%, reservado apenas a municípios até 100 mil hab.!), incidente sobre a receita tributária e transferências efetivamente realizadas no exercício anterior; e (2) pelo § 1º do Art. 29-A, a Câmara Municipal NÃO gastará mais de 70% de sua receita com folha de pagamento, incluído o gasto com o subsídio de seus Vereadores!"
+        "text": "Há dupla inconstitucionalidade perante o Art. 29-A da Constituição Federal: em Município com população entre 100.001 e 300.000 habitantes, o teto máximo do total da despesa da Câmara é de 6%, incidente sobre a receita tributária e transferências efetivamente realizadas no exercício anterior."
       }
     ],
     "correctAnswer": "D",
@@ -3771,19 +3771,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A nulidade dos 180 dias finais de mandato prevista no Art. 21 da LRF aplica-se apenas ao Chefe do Poder Executivo, não alcançando o Presidente do Tribunal de Justiça ou do Legislativo."
+        "text": "A nulidade dos 180 dias finais de mandato aplica-se apenas ao Chefe do Poder Executivo, não alcançando o Presidente do Tribunal de Justiça ou do Legislativo, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "B",
-        "text": "Caso a lei estadual crie aumento de pessoal dentro dos 180 dias finais de mandato prevendo sua implantação apenas para o ano seguinte (gestão sucessora), escapa à nulidade do Art. 21."
+        "text": "Caso a lei estadual crie aumento de pessoal dentro dos 180 dias finais de mandato prevendo sua implantação apenas para o ano seguinte (gestão sucessora), escapa à nulidade."
       },
       {
         "letter": "C",
-        "text": "O ato de aumento de despesa com pessoal expedido nos últimos 180 dias de mandato é apenas anulável, convalescendo se houver disponibilidade de caixa na conta única."
+        "text": "O ato de aumento de despesa com pessoal expedido nos últimos 180 dias de mandato é apenas anulável, convalescendo se houver disponibilidade de caixa na conta única, com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais."
       },
       {
         "letter": "D",
-        "text": "O ato é NULO DE PLENO DIRETO nos termos do Art. 21 da LRF (com redação ampliada pela LC nº 173/2020): são nulos de pleno direito o ato que provoque aumento da despesa com pessoal sem atendimento aos Arts. 16 e 17 da LRF e art. 169 da CF (inciso I); o ato de que resulte aumento da despesa com pessoal nos 180 DIAS ANTERIORES AO FINAL DO MANDATO do titular de Poder ou órgão (inciso II); e também o ato que preveja PARCELAS A SEREM IMPLEMENTADAS EM PERÍODOS POSTERIORES AO FINAL DO MANDATO do titular de Poder ou órgão (inciso III)!"
+        "text": "O ato é nulo de pleno direto: são nulos de pleno direito o ato que provoque aumento da despesa com pessoal sem atendimento aos Arts. 16 e 17 da LRF e art. 169 da CF."
       }
     ],
     "correctAnswer": "D",
@@ -3826,19 +3826,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Prefeito pode declarar estado de calamidade pública por decreto municipal próprio, suspendendo imediatamente sem intervenção da Assembleia Legislativa os prazos da LRF."
+        "text": "O Prefeito pode declarar estado de calamidade pública por decreto municipal próprio, suspendendo imediatamente sem intervenção da Assembleia Legislativa os prazos da LRF, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
-        "text": "Reconhecida a calamidade pública nos termos do Art. 65 da LRF, ficam suspensas por tempo indeterminado todas as regras de transparência e publicação de RREO e RGF."
+        "text": "Reconhecida a calamidade pública, ficam suspensas por tempo indeterminado todas as regras de transparência e publicação de rreo e rgf, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "Nos termos do Art. 65 da LRF, na ocorrência de calamidade pública reconhecida pelo Congresso Nacional (no caso da União) ou pelas Assembleias Legislativas (na hipótese dos Estados e Municípios), enquanto perdurar a situação: (I) serão SUSPENSOS a contagem dos prazos de recondução dos limites de despesa com pessoal (Art. 23) e de dívida consolidada (Art. 31), bem como as disposições do Art. 23 (restrições por excesso de pessoal); e (II) serão DISPENSADOS o atingimento dos resultados fiscais e a limitação de empenho (contingenciamento do Art. 9º). Ademais, na calamidade pública NACIONAL (congresso nacional), aplica-se o regime extraordinário dos §§ 1º e 2º (afastando inclusive limites de dívida/renúncia no combate à calamidade)."
+        "text": "Na ocorrência de calamidade pública reconhecida pelo Congresso Nacional (no caso da União) ou pelas Assembleias Legislativas, enquanto perdurar a situação: (I) serão suspensos a contagem dos prazos de recondução dos limites de despesa com pessoal e de dívida consolidada, bem como as disposições."
       },
       {
         "letter": "D",
-        "text": "Na calamidade pública reconhecida, o prazo de pagamento dos precatórios judiciais alimentares fica automaticamente suspenso por 5 anos."
+        "text": "Na calamidade pública reconhecida, o prazo de pagamento dos precatórios judiciais alimentares fica automaticamente suspenso por 5 anos, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       }
     ],
     "correctAnswer": "C",
@@ -3881,19 +3881,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No regime especial de precatórios do Art. 101 do ADCT, o prazo limite para quitação integral de todo o estoque de precatórios em atraso permaneceu encerrado em 2020."
+        "text": "No regime especial de precatórios do adct, o prazo limite para quitação integral de todo o estoque de precatórios em atraso permaneceu encerrado em 2020, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "B",
-        "text": "Os recursos de depósitos judiciais em que o ente público não seja parte nunca podem ser utilizados provisoriamente no regime especial de precatórios, nem mesmo mediante fundo garantidor."
+        "text": "Os recursos de depósitos judiciais em que o ente público não seja parte nunca podem ser utilizados provisoriamente no regime especial de precatórios, nem mesmo mediante fundo garantidor, sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais."
       },
       {
         "letter": "C",
-        "text": "O deságio de 50% é INCONSTITUCIONAL: nos termos do Art. 102, § 1º, do ADCT, os entes submetidos ao regime especial devem destinar 50% dos recursos depositados em conta especial à ordem cronológica e podem destinar até 50% ao pagamento mediante acordos diretos perante Juízos Auxiliares de Conciliação de Precatórios, observada a ordem de preferência e com redução máxima de até 40% (quarenta por cento) do valor do crédito atualizado — nunca 50%!"
+        "text": "O deságio de 50% é inconstitucional:, do adct, os entes submetidos ao regime especial devem destinar 50% dos recursos depositados em conta especial à ordem cronológica e podem destinar até 50% ao pagamento mediante acordos diretos perante Juízos Auxiliares de Conciliação de Precatórios, observada a ordem de preferência e com redução máxima de até 40% do valor do crédito atualizado — nunca 50%."
       },
       {
         "letter": "D",
-        "text": "Os acordos diretos em câmaras de conciliação de precatórios dispensam a existência de recursos vinculados na conta especial e permitem deságio livre até 70% se o credor aceitar."
+        "text": "Os acordos diretos em câmaras de conciliação de precatórios dispensam a existência de recursos vinculados na conta especial e permitem deságio livre até 70% se o credor aceitar, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "C",
@@ -3936,19 +3936,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O teto legal de comprometimento contínuo da RCL com contratos de Parcerias Público-Privadas (PPPs) previsto na Lei nº 11.079/2004 é de 15% da RCL."
+        "text": "O teto legal de comprometimento contínuo da rcl com contratos de Parcerias Público-Privadas (PPPs) previsto na Lei nº 11.079/2004 é de 15% da rcl, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "B",
-        "text": "Na União, o limite máximo das despesas continuadas com PPPs federais (Art. 22 da Lei 11.079/2004) é igualmente de 5% da Receita Corrente Líquida."
+        "text": "Na União, o limite máximo das despesas continuadas com PPPs federais é igualmente de 5% da Receita Corrente Líquida, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "C",
-        "text": "A União fica VEDADA de conceder garantia e de realizar transferências voluntárias ao Estado caso o novo contrato ultrapasse o teto legal: nos termos do Art. 28 da Lei nº 11.079/2004, a União não poderá conceder garantia nem realizar transferência voluntária aos Estados, ao DF e aos Municípios se a soma das despesas de caráter continuado derivadas do conjunto das parcerias já contratadas por esses entes tiver excedido, no ano anterior, a 5% (cinco por cento) da RECEITA CORRENTE LÍQUIDA do exercício ou se as despesas anuais dos contratos vigentes nos 10 anos subsequentes excederem a 5% da RCL projetada para os respectivos exercícios!"
+        "text": "A União fica vedada de conceder garantia e de realizar transferências voluntárias ao Estado caso o novo contrato ultrapasse o teto legal:, a União não poderá conceder garantia nem realizar transferência voluntária aos Estados, ao DF e aos Municípios se a soma das despesas de caráter continuado derivadas do conjunto das parcerias já contratadas por esses entes tiver excedido, no ano anterior, a 5% (cinco por cento) da receita corrente líquida do exercício ou se as despesas anuais dos contratos vigentes nos 10 anos subsequentes excederem a 5% da rcl projetada para os respectivos exercícios."
       },
       {
         "letter": "D",
-        "text": "As contraprestações devidas pelo parceiro público na PPP nunca se submetem ao registro da LRF nem exigem impacto orçamentário trienal do Art. 16."
+        "text": "As contraprestações devidas pelo parceiro público na PPP nunca se submetem ao registro da LRF nem exigem impacto orçamentário trienal, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       }
     ],
     "correctAnswer": "C",
@@ -3991,19 +3991,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por não estarem afetados a um serviço público específico, os bens públicos dominicais do Município podem ser livremente penhorados em execução fiscal ou comum contra a Fazenda."
+        "text": "Por não estarem afetados a um serviço público específico, os bens públicos dominicais do Município podem ser livremente penhorados em execução fiscal ou comum contra a Fazenda, com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais."
       },
       {
         "letter": "B",
-        "text": "As ações pessoais de cobrança contra a Fazenda Pública submetem-se ao prazo prescricional geral de 10 anos do Art. 205 do Código Civil."
+        "text": "As ações pessoais de cobrança contra a Fazenda Pública submetem-se ao prazo prescricional geral de 10 anos, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "C",
-        "text": "Ambas as pretensões são INVIÁVEIS: (1) conforme jurisprudência pacífica do STJ (Tema 646/Súmula e precedentes sobre apólices da dívida pública do início do século XX) e o Art. 1º do Decreto nº 20.910/1932, as dívidas passivas da União, Estados e Municípios, bem assim todo e qualquer direito ou ação contra a Fazenda Pública, prescrevem em CINCO ANOS contados da data do ato ou fato (ou vencimento/resgate), não gozando as antigas apólices de imprescritibilidade; e (2) todos os BENS PÚBLICOS (inclusive os dominicais!) são IMPENHORÁVEIS, devendo a execução contra a Fazenda Pública seguir o rito constitucional de precatório ou RPV (Art. 100 CF e Art. 535 CPC)!"
+        "text": "Ambas as pretensões são inviáveis: conforme jurisprudência pacífica do STJ e o Art. 1º do Decreto nº 20.910/1932, as dívidas passivas da União, Estados e Municípios, bem assim todo e qualquer direito ou ação contra a Fazenda Pública, prescrevem em cinco anos contados da data do ato ou fato, não gozando as antigas apólices de imprescritibilidade."
       },
       {
         "letter": "D",
-        "text": "A prescrição quinquenal em favor da Fazenda Pública é interrompida por tempo ilimitado pelo protesto administrativo, recomeçando do zero por mais 5 anos após o término."
+        "text": "A prescrição quinquenal em favor da Fazenda Pública é interrompida por tempo ilimitado pelo protesto administrativo, recomeçando do zero por mais 5 anos após o término, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "C",
@@ -4047,19 +4047,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Fundo de Participação dos Municípios (FPM) é formado pela arrecadação do Imposto de Importação e do IOF."
+        "text": "O Fundo de Participação dos Municípios (fpm) é formado pela arrecadação do Imposto de Importação e do IOF, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
-        "text": "O rateio do Fundo de Participação dos Estados (FPE) continua regido pelos critérios fixos de 1989 declarados intocáveis pelo STF."
+        "text": "O rateio do Fundo de Participação dos Estados (fpe) continua regido pelos critérios fixos de 1989 declarados intocáveis pelo STF, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "C",
-        "text": "Nos termos do Art. 159, I, da Constituição Federal (com redação atualizada até a EC nº 112/2021), a União entregará do produto da arrecadação dos impostos sobre a renda (IR) e sobre produtos industrializados (IPI) o total de 50%: sendo 21,5% ao FPE; 22,5% ao FPM ordinário; 3% aos Fundos Regionais (Norte, Nordeste e Centro-Oeste); e mais 3% adicionais ao FPM entregues em parcelas anuais de 1% em dezembro, 1% em julho e 1% em setembro (EC nº 55/2007, EC nº 84/2014 e EC nº 112/2021)!"
+        "text": "Da Constituição Federal, a União entregará do produto da arrecadação dos impostos sobre a renda (IR) e sobre produtos industrializados (IPI) o total de 50%: sendo 21,5% ao fpe."
       },
       {
         "letter": "D",
-        "text": "Os valores entregues pela União ao FPE e ao FPM têm destinação integralmente vinculada ao custeio exclusivo da infraestrutura rodoviária estadual e municipal."
+        "text": "Os valores entregues pela União ao fpe e ao fpm têm destinação integralmente vinculada ao custeio exclusivo da infraestrutura rodoviária estadual e municipal."
       }
     ],
     "correctAnswer": "C",
@@ -4103,7 +4103,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A parcela de 29% da CIDE-Combustíveis entregue aos Estados fica integralmente nos cofres estaduais sem repasse aos Municípios."
+        "text": "A parcela de 29% da CIDE-Combustíveis entregue aos Estados fica integralmente nos cofres estaduais sem repasse aos Municípios, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
@@ -4111,11 +4111,11 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Nos termos da Constituição Federal: (1) da CIDE-Combustíveis (Art. 159, III e § 4º), a União entrega 29% aos Estados e ao DF (para financiamento de programas de infraestrutura de transportes), devendo os Estados repassar 25% dessa parcela aos seus Municípios; (2) do IPI arrecadado (Art. 159, II e § 3º), entrega 10% aos Estados e DF proporcionalmente às exportações de produtos industrializados (limitado a 20% por Estado, repassando-se 25% aos respectivos Municípios); e (3) do IOF-Ouro ativo financeiro (Art. 153, § 5º), pertencem 30% ao Estado/DF de origem e 70% ao Município de origem!"
+        "text": "Nos termos da Constituição Federal: da CIDE-Combustíveis, a União entrega 29% aos Estados e ao DF, devendo os Estados repassar 25% dessa parcela aos seus Municípios."
       },
       {
         "letter": "D",
-        "text": "Os recursos dos fundos regionais (FNO, FNE, FCO — 3% de IR+IPI) podem ser utilizados indistintamente pelos Estados de todo o país, inclusive Sul e Sudeste."
+        "text": "Os recursos dos fundos regionais (fno, fne, fco — 3% de IR+IPI) podem ser utilizados indistintamente pelos Estados de todo o país, inclusive Sul e Sudeste. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "C",
@@ -4158,19 +4158,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Fundo Nacional de Desenvolvimento Regional (FNDR), instituído pela EC nº 132/2023, será financiado por retenção direta de 10% do IPTU dos Municípios."
+        "text": "O Fundo Nacional de Desenvolvimento Regional (fndr), instituído pela EC nº 132/2023, será financiado por retenção direta de 10% do IPTU dos Municípios. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       },
       {
         "letter": "B",
-        "text": "Na transição tributária da EC nº 132/2023, os Municípios perderam a cota-parte equivalente aos 25% do ICMS sobre o novo IBS estadual."
+        "text": "Na transição tributária da EC nº 132/2023, os Municípios perderam a cota-parte equivalente aos 25% do ICMS sobre o novo ibs estadual, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "C",
-        "text": "A EC nº 132/2023 trouxe três marcos financeiros centrais: (1) criou o Fundo Nacional de Desenvolvimento Regional - FNDR (Art. 159-A CF), custeado com recursos da União para reduzir desigualdades regionais e sociais mediante entregas aos Estados e ao DF (vedada sua apropriação direta como tributo estadual ou pagamento de dívida/pessoal ordinário conforme regras); (2) instituiu o Fundo de Compensação de Benefícios Fiscais ou Financeiro-Fiscais do ICMS para compensar empresas titulares de benefícios onerosos até 2032; e (3) determinou que o novo Imposto Seletivo (IS — Art. 153, VIII) terá 50% de sua arrecadação (ou 60% na estrutura do Art. 159, I e II após transição) repartida nos moldes do IPI aos entes subnacionais (FPE, FPM, fundos regionais e cota exportadora), além de 25% do IBS estadual aos Municípios!"
+        "text": "A EC nº 132/2023 trouxe três marcos financeiros centrais: criou o Fundo Nacional de Desenvolvimento Regional - fndr, custeado com recursos da União para reduzir desigualdades regionais e sociais mediante entregas aos Estados e ao DF."
       },
       {
         "letter": "D",
-        "text": "O Imposto Seletivo (IS) federal criado pela EC nº 132/2023 ficará integralmente (100%) nos cofres da União, sem qualquer repartição aos Estados ou Municípios."
+        "text": "O Imposto Seletivo (is) federal criado pela EC nº 132/2023 ficará integralmente (100%) nos cofres da União, sem qualquer repartição aos Estados ou Municípios, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       }
     ],
     "correctAnswer": "C",
@@ -4213,19 +4213,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Lei Complementar nº 179/2021, que estabeleceu a autonomia do Banco Central e mandatos não coincidentes de seus dirigentes, foi declarada inconstitucional pelo STF por vício de iniciativa."
+        "text": "A Lei Complementar nº 179/2021, que estabeleceu a autonomia do Banco Central e mandatos não coincidentes de seus dirigentes, foi declarada inconstitucional pelo STF por vício de iniciativa. A execução orçamentária deve observar os estágios legais e os limites de endividamento."
       },
       {
         "letter": "B",
-        "text": "Para cobrir déficit previdenciário urgente, o Presidente da República pode determinar que o Banco Central imprima moeda e transfira diretamente ao Tesouro Nacional por decreto."
+        "text": "Para cobrir déficit previdenciário urgente, o Presidente da República pode determinar que o Banco Central imprima moeda e transfira diretamente ao Tesouro Nacional por decreto, com remanejamento e suplementação orçamentária direta por ato exclusivo do Poder Executivo."
       },
       {
         "letter": "C",
-        "text": "Nos termos do Art. 164 da Constituição Federal, a competência da União para emitir moeda será exercida EXCLUSIVAMENTE pelo Banco Central, sendo vedado ao BACEN conceder empréstimos ao Tesouro Nacional (§ 1º), mas permitido comprar e vender títulos de emissão do Tesouro para regular a oferta de moeda ou a taxa de juros (§ 2º). Ademais, a LC nº 179/2021 (declarada constitucional pelo STF na ADI 6.696) conferiu AUTONOMIA técnica, operacional, administrativa e financeira ao Banco Central (autarquia de natureza especial sem vinculação a Ministério), com mandatos fixos de 4 anos não coincidentes com o do Presidente da República e exoneração restrita a hipóteses taxativas."
+        "text": "A competência da União para emitir moeda será exercida exclusivamente pelo Banco Central, sendo vedado ao BACEN conceder empréstimos ao Tesouro Nacional, mas permitido comprar e vender títulos de emissão do Tesouro para regular a oferta de moeda ou a taxa de juros."
       },
       {
         "letter": "D",
-        "text": "Pela LC nº 179/2021, o Presidente do Banco Central tem como único objetivo institucional fomentar o emprego pleno, ainda que isso sacrifique indefinidamente a estabilidade de preços."
+        "text": "Pela LC nº 179/2021, o Presidente do Banco Central tem como único objetivo institucional fomentar o emprego pleno, ainda que isso sacrifique indefinidamente a estabilidade de preços. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       }
     ],
     "correctAnswer": "C",
@@ -4273,15 +4273,15 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O cancelamento de Restos a Pagar inscritos de exercícios anteriores altera diretamente a receita orçamentária do exercício corrente."
+        "text": "O cancelamento de Restos a Pagar inscritos de exercícios anteriores altera diretamente a receita orçamentária do exercício corrente, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "C",
-        "text": "Tratamentos distintos: (1) os Restos a Pagar NÃO PROCESSADOS (não liquidados) inscritos há mais de um exercício sem execução efetiva devem ser CANCELADOS nos termos dos regulamentos financeiros (ex.: no âmbito federal, Art. 68 do Decreto nº 93.872/1986 estabelece validade até 30 de junho do segundo ano subsequente ao da inscrição, salvo se em execução ou liquidação); e (2) quanto aos Restos a Pagar PROCESSADOS (já liquidados, com direito líquido do credor), não se cancelam arbitrariamente para fraudar credores, extinguindo-se apenas quando operada a PRESCRIÇÃO QUINQUENAL de 5 anos prevista no Decreto nº 20.910/1932!"
+        "text": "Tratamentos distintos: os Restos a Pagar não processados (não liquidados) inscritos há mais de um exercício sem execução efetiva devem ser cancelados nos termos dos regulamentos financeiros."
       },
       {
         "letter": "D",
-        "text": "Os Restos a Pagar Não Processados prescrevem em apenas 30 dias após o encerramento do exercício em 31 de dezembro."
+        "text": "Os Restos a Pagar Não Processados prescrevem em apenas 30 dias após o encerramento do exercício em 31 de dezembro, com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais."
       }
     ],
     "correctAnswer": "C",
@@ -4324,19 +4324,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por força da autonomia estadual, cada Assembleia Legislativa pode fixar livremente o percentual impositivo de suas emendas individuais em até 10% da receita estadual."
+        "text": "Por força da autonomia estadual, cada Assembleia Legislativa pode fixar livremente o percentual impositivo de suas emendas individuais em até 10% da receita estadual, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal."
       },
       {
         "letter": "B",
-        "text": "É absolutamente proibido aos Estados e Municípios adotar o modelo de emendas parlamentares impositivas em suas Constituições Estaduais ou Leis Orgânicas."
+        "text": "É absolutamente proibido aos Estados e Municípios adotar o modelo de emendas parlamentares impositivas em suas Constituições Estaduais ou Leis Orgânicas, sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais."
       },
       {
         "letter": "C",
-        "text": "A emenda à Constituição Estadual é INCONSTITUCIONAL por violar o princípio da SIMETRIA ORÇAMENTÁRIA: conforme jurisprudência consolidada do STF (ADI 5.899 e ADI 6.308), os Estados-membros podem instituir o modelo de orçamento impositivo para emendas parlamentares, porém devem respeitar rigorosamente os parâmetros e TETOS máximos estabelecidos na Constituição Federal (Art. 166, §§ 9º e seguintes — atualmente 2% da RCL para individuais e 1% para bancada, com destinação obrigatória de metade das individuais para a saúde e vedação ao pagamento de pessoal), sendo inconstitucional ampliar esse percentual para 5%!"
+        "text": "A emenda à Constituição Estadual é inconstitucional por violar o princípio da simetria orçamentária: conforme jurisprudência consolidada do STF, os Estados-membros podem instituir o modelo de orçamento impositivo para emendas parlamentares, porém devem respeitar rigorosamente os parâmetros e tetos máximos estabelecidos na Constituição Federal, sendo inconstitucional ampliar esse percentual para 5%."
       },
       {
         "letter": "D",
-        "text": "Emendas parlamentares estaduais impositivas podem ser apresentadas no projeto da LOA sem correlação alguma com o Plano Plurianual (PPA) e a LDO estadual."
+        "text": "Emendas parlamentares estaduais impositivas podem ser apresentadas no projeto da LOA sem correlação alguma com o Plano Plurianual (PPA) e a LDO estadual, com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal."
       }
     ],
     "correctAnswer": "C",
@@ -4380,19 +4380,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ultrapassado o limite da dívida consolidada, o prazo para recondução é de 2 quadrimestres, devendo reduzir 1/3 no primeiro — idêntico ao prazo do excesso de pessoal."
+        "text": "Ultrapassado o limite da dívida consolidada, o prazo para recondução é de 2 quadrimestres, devendo reduzir 1/3 no primeiro — idêntico ao prazo do excesso de pessoal. A execução orçamentária deve observar os estágios legais e os limites de endividamento."
       },
       {
         "letter": "B",
-        "text": "Nos termos do Art. 31 da LRF, se a dívida consolidada de um ente da Federação ultrapassar o respectivo limite ao final de um quadrimestre, deverá ser a ele reconduzida até o término dos TRÊS QUADRIMESTRES SUBSEQUENTES, reduzindo o excedente em pelo menos 25% (vinte e cinco por cento) no primeiro quadrimestre! Enquanto perdurar o excesso, o ente (Art. 31, § 1º): (I) estará PROIBIDO de realizar operação de crédito interna ou externa, INCLUSIVE por antecipação de receita (ARO), ressalvado apenas o refinanciamento do principal atualizado da dívida mobiliária; e (II) obterá resultado primário necessário à recondução da dívida ao limite (inclusive promovendo limitação de empenho)!"
+        "text": "Se a dívida consolidada de um ente da Federação ultrapassar o respectivo limite ao final de um quadrimestre, deverá ser a ele reconduzida até o término dos três quadrimestres subsequentes, reduzindo o excedente em pelo menos 25% no primeiro quadrimestre."
       },
       {
         "letter": "C",
-        "text": "Mesmo com a dívida consolidada acima do limite do Senado Federal, o Município pode contratar normalmente operação de crédito por antecipação de receita orçamentária (ARO) para pagar despesas correntes."
+        "text": "Mesmo com a dívida consolidada acima do limite do Senado Federal, o Município pode contratar normalmente operação de crédito por antecipação de receita orçamentária (aro) para pagar despesas correntes, com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal."
       },
       {
         "letter": "D",
-        "text": "Se o excesso da dívida não for eliminado dentro dos três quadrimestres seguintes, não há impacto sobre o recebimento de transferências voluntárias da União."
+        "text": "Se o excesso da dívida não for eliminado dentro dos três quadrimestres seguintes, não há impacto sobre o recebimento de transferências voluntárias da União, com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais."
       }
     ],
     "correctAnswer": "B",
@@ -4435,19 +4435,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Poder Público municipal pode receber adiantamento de receitas futuras de sociedade de economia mista controlada por ele a título de antecipação de caixa sem configurar operação de crédito."
+        "text": "O Poder Público municipal pode receber adiantamento de receitas futuras de sociedade de economia mista controlada por ele a título de antecipação de caixa sem configurar operação de crédito, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
-        "text": "AMBAS as condutas configuram operações equiparadas a OPERAÇÃO DE CRÉDITO PROIBIDAS pelo Art. 37 da LRF: o dispositivo equipara a operação de crédito e VEDA expressamente: (I) captação de recursos a título de antecipação de receita de tributo ou contribuição cujo fato gerador ainda não tenha ocorrido; (II) recebimento antecipado de valores de empresa em que o Poder Público detenha a maioria do capital com direito a voto, salvo lucros e dividendos; (III) assunção direta de compromisso, confissão de dívida ou operação assemelhada com fornecedor de bens/serviços mediante emissão/aceite de título de crédito; e (IV) assunção de obrigação, sem autorização orçamentária, com fornecedores para pagamento a posteriori."
+        "text": "Ambas as condutas configuram operações equiparadas a operação de crédito proibidas: o dispositivo equipara a operação de crédito e veda expressamente: (I) captação de recursos a título de antecipação de receita de tributo ou contribuição cujo fato gerador ainda não tenha ocorrido."
       },
       {
         "letter": "C",
-        "text": "A emissão de notas promissórias pelo Município em acordo de confissão de dívida com fornecedor privado é válida para contornar o limite de operações de crédito."
+        "text": "A emissão de notas promissórias pelo Município em acordo de confissão de dívida com fornecedor privado é válida para contornar o limite de operações de crédito, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal."
       },
       {
         "letter": "D",
-        "text": "O ente público pode antecipar a cobrança de IPTU de um ano futuro cujo fato gerador ainda não tenha ocorrido para suprir déficit do ano corrente."
+        "text": "O ente público pode antecipar a cobrança de IPTU de um ano futuro cujo fato gerador ainda não tenha ocorrido para suprir déficit do ano corrente, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "B",
@@ -4490,19 +4490,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Poder Judiciário pode condenar o Estado a recompor automaticamente a inflação anual nos salários dos servidores com base no Art. 37, X, da CF, independentemente de lei específica e de limites da LRF."
+        "text": "O Poder Judiciário pode condenar o Estado a recompor automaticamente a inflação anual nos salários dos servidores, independentemente de lei específica e de limites da LRF, com execução integral da despesa pública independentemente de prévio empenho e liquidação. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "B",
-        "text": "A indenização NÃO é devida automaticamente pelo Judiciário: no Tema 624 de repercussão geral (RE 905.357), o STF fixou que o não encaminhamento de projeto de lei de revisão geral anual dos vencimentos dos servidores públicos previsto no Art. 37, X, da CF NÃO gera direito subjetivo à indenização, devendo o Poder Executivo, no entanto, se pronunciar de forma fundamentada acerca das razões pelas quais não propôs a revisão — em respeito à reserva legal (Súmula Vinculante 37), à LDO e aos limites fiscais do Art. 169 da CF e da LRF!"
+        "text": "A indenização não é devida automaticamente pelo Judiciário: no Tema 624 de repercussão geral, o STF fixou que o não encaminhamento de projeto de lei de revisão geral anual dos vencimentos dos servidores públicos não gera direito subjetivo à indenização, devendo o Poder Executivo, no entanto, se pronunciar de forma fundamentada acerca das razões pelas quais não propôs a revisão."
       },
       {
         "letter": "C",
-        "text": "Quando o ente público atinge o limite prudencial (95% da LRF), fica proibida até mesmo a revisão geral anual prevista no Art. 37, X, da CF, caso o Executivo deseje enviá-la com dotação."
+        "text": "Quando o ente público atinge o limite prudencial (95% da LRF), fica proibida até mesmo a revisão geral anual, caso o Executivo deseje enviá-la com dotação. A execução orçamentária deve observar os estágios legais e os limites de endividamento."
       },
       {
         "letter": "D",
-        "text": "O Chefe do Executivo pode deixar de propor a revisão geral anual sem apresentar nenhuma justificativa ou prestação de contas ao Legislativo e aos servidores."
+        "text": "O Chefe do Executivo pode deixar de propor a revisão geral anual sem apresentar nenhuma justificativa ou prestação de contas ao Legislativo e aos servidores, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "B",
@@ -4546,19 +4546,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O sistema de controle interno é exclusivo do Poder Executivo, não existindo no âmbito dos Poderes Legislativo e Judiciário."
+        "text": "O sistema de controle interno é exclusivo do Poder Executivo, não existindo no âmbito dos Poderes Legislativo e Judiciário, em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal."
       },
       {
         "letter": "B",
-        "text": "O controlador interno incorre em RESPONSABILIDADE SOLIDÁRIA pela irregularidade: nos termos do Art. 74, § 1º, da Constituição Federal, os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela DARÃO CIÊNCIA AO TRIBUNAL DE CONTAS DA UNIÃO, SOB PENA DE RESPONSABILIDADE SOLIDÁRIA! Ademais, pelo Art. 74, caput, os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, sistema de controle interno."
+        "text": "O controlador interno incorre em responsabilidade solidária pela irregularidade:, os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao tribunal de contas da união, sob pena de responsabilidade solidária."
       },
       {
         "letter": "C",
-        "text": "Caso omita a comunicação ao Tribunal de Contas sobre fraude descoberta, o agente do controle interno responde apenas por advertência disciplinar interna sem solidariedade pelo débito."
+        "text": "Caso omita a comunicação ao Tribunal de Contas sobre fraude descoberta, o agente do controle interno responde apenas por advertência disciplinar interna sem solidariedade pelo débito, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "D",
-        "text": "A fiscalização da aplicação de recursos públicos no controle interno restringe-se apenas ao exame formal da legalidade documental, sendo vedada avaliação de eficiência ou economicidade."
+        "text": "A fiscalização da aplicação de recursos públicos no controle interno restringe-se apenas ao exame formal da legalidade documental, sendo vedada avaliação de eficiência ou economicidade, com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais."
       }
     ],
     "correctAnswer": "B",
@@ -4601,19 +4601,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por força do Art. 37, § 5º, da CF, toda e qualquer ação de ressarcimento ao erário decorrente de acórdão de Tribunal de Contas continua absolutamente imprescritível."
+        "text": "Por força, toda e qualquer ação de ressarcimento ao erário decorrente de acórdão de Tribunal de Contas continua absolutamente imprescritível, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "B",
-        "text": "É PRESCRITÍVEL a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas: no Tema 899 de repercussão geral (RE 636.886), o STF decidiu que é PRESCRITÍVEL no prazo de 5 ANOS (aplicando-se a Lei de Execução Fiscal / Lei nº 9.873/1999 e Decreto nº 20.910/1932) a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas — e posteriormente (ADI 5.509 e Resolução TCU nº 344/2022) consolidou-se que tanto a pretensão punitiva quanto a ressarcitória dentro do próprio processo de contas nos Tribunais de Contas prescrevem em 5 ANOS (com prescrição intercorrente de 3 anos)!"
+        "text": "É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas: no Tema 899 de repercussão geral, o STF decidiu que é prescritível no prazo de 5 anos a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas."
       },
       {
         "letter": "C",
-        "text": "A Tomada de Contas Especial (TCE) instaurada pelo Tribunal de Contas só pode apurar fatos dolosos tipificados como crime penal, não alcançando omissão de prestar contas ou dano culposo."
+        "text": "A Tomada de Contas Especial (TCE) instaurada pelo Tribunal de Contas só pode apurar fatos dolosos tipificados como crime penal, não alcançando omissão de prestar contas ou dano culposo, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "Na execução judicial da certidão de débito do Tribunal de Contas, o Ministério Público junto ao TCU possui legitimidade ativa ordinária para promover a execução fiscal em juízo."
+        "text": "Na execução judicial da certidão de débito do Tribunal de Contas, o Ministério Público junto ao TCU possui legitimidade ativa ordinária para promover a execução fiscal em juízo, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "B",
@@ -4657,19 +4657,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A simples subscrição de aumento de capital social pelo Estado em empresa estatal superavitária transforma automaticamente a estatal em empresa dependente."
+        "text": "A simples subscrição de aumento de capital social pelo Estado em empresa estatal superavitária transforma automaticamente a estatal em empresa dependente, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "B",
-        "text": "O tratamento orçamentário e fiscal é oposto: a Empresa B é EMPRESA ESTATAL DEPENDENTE (Art. 2º, III, da LRF — empresa controlada que receba do ente controlador recursos financeiros para pagamento de despesas com pessoal ou de custeio em geral ou de capital, excluídos neste último caso os provenientes de aumento de participação acionária) e por isso integra integralmente o ORÇAMENTO FISCAL e da Seguridade Social da LOA e tem suas despesas com pessoal e dívida somadas aos tetos do controlador na LRF; já a Empresa A é NÃO DEPENDENTE (independente), figurando na LOA apenas no ORÇAMENTO DE INVESTIMENTO das estatais (Art. 165, § 5º, II, CF) e fora do teto de pessoal do Art. 19 LRF!"
+        "text": "O tratamento orçamentário e fiscal é oposto: a Empresa B é empresa estatal dependente e por isso integra integralmente o orçamento fiscal e da Seguridade Social da LOA e tem suas despesas com pessoal e dívida somadas aos tetos do controlador na LRF."
       },
       {
         "letter": "C",
-        "text": "Todas as empresas públicas e sociedades de economia mista estaduais, independentemente de receberem recursos para custeio, submetem-se integralmente ao teto de despesa com pessoal do Poder Executivo (49% RCL)."
+        "text": "Todas as empresas públicas e sociedades de economia mista estaduais, independentemente de receberem recursos para custeio, submetem-se integralmente ao teto de despesa com pessoal do Poder Executivo (49% rcl). Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "D",
-        "text": "Os empregados públicos de empresas estatais não dependentes sujeitam-se integralmente ao teto remuneratório constitucional do Art. 37, XI, da CF mesmo que a empresa não receba recursos de custeio."
+        "text": "Os empregados públicos de empresas estatais não dependentes sujeitam-se integralmente ao teto remuneratório constitucional mesmo que a empresa não receba recursos de custeio, com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais."
       }
     ],
     "correctAnswer": "B",
@@ -4712,19 +4712,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os royalties de petróleo e a CFEM possuem natureza jurídica de imposto federal extraordinário sujeito às regras da anterioridade tributária."
+        "text": "Os royalties de petróleo e a cfem possuem natureza jurídica de imposto federal extraordinário sujeito às regras da anterioridade tributária, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "B",
-        "text": "Conforme jurisprudência consolidada do STF (RE 228.800 e ADI 4.917), os royalties do petróleo/gás e a Compensação Financeira pela Exploração de Recursos Minerais (CFEM) NÃO têm natureza tributária, constituindo RECEITAS ORIGINÁRIAS PATRIMONIAIS (compensação financeira ou participação no resultado da exploração de recursos naturais pertencentes à União — Art. 20, § 1º, CF); ademais, no julgamento da ADI 4.917, o STF assentou que tais recursos pertencem originariamente à União (que os reparte por lei ordinária como compensação financeira aos Estados, DF e Municípios produtores/confrontantes e fundos especiais), não se aplicando as travas do Art. 157/158 (impostos)."
+        "text": "Conforme jurisprudência consolidada do STF, os royalties do petróleo/gás e a Compensação Financeira pela Exploração de Recursos Minerais (cfem) não têm natureza tributária, constituindo receitas originárias patrimoniais."
       },
       {
         "letter": "C",
-        "text": "Os valores recebidos por Estados e Municípios a título de royalties do petróleo podem ser livremente utilizados para contratar e pagar folha salarial permanente de servidores públicos efetivos."
+        "text": "Os valores recebidos por Estados e Municípios a título de royalties do petróleo podem ser livremente utilizados para contratar e pagar folha salarial permanente de servidores públicos efetivos, com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal."
       },
       {
         "letter": "D",
-        "text": "Por constituírem receitas patrimoniais da União, os royalties repassados aos Municípios ficam excluídos da base de cálculo da Receita Corrente Líquida (RCL) municipal."
+        "text": "Por constituírem receitas patrimoniais da União, os royalties repassados aos Municípios ficam excluídos da base de cálculo da Receita Corrente Líquida (rcl) municipal, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       }
     ],
     "correctAnswer": "B",
@@ -4768,19 +4768,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Assim como os impostos, as contribuições de intervenção no domínio econômico (CIDE) têm destinação livre no orçamento fiscal sem qualquer vinculação de gasto."
+        "text": "Assim como os impostos, as contribuições de intervenção no domínio econômico (CIDE) têm destinação livre no orçamento fiscal sem qualquer vinculação de gasto, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "B",
-        "text": "A lei é INCONSTITUCIONAL: diferentemente dos impostos (cuja característica é a não vinculação — Art. 167, IV, CF e Art. 16 CTN), as CONTRIBUIÇÕES ESPECIAIS (sociais, CIDE, interesse de categorias e COSIP — Arts. 149 e 149-A CF) legitimam-se constitucionalmente pela REFERIBILIDADE/FINALIDADE ESPECÍFICA da despesa que motivou sua instituição; segundo o STF (RE 566.007 e ADIs), a tredestinação integral que desvirtua a finalidade constitucional da contribuição especial torna inconstitucional sua exigência ou aplicação (salvo a hipótese excepcional de desvinculação expressamente autorizada no texto constitucional pela DRU no ADCT)!"
+        "text": "A lei é inconstitucional: diferentemente dos impostos, as contribuições especiais legitimam-se constitucionalmente pela referibilidade/finalidade específica da despesa que motivou sua instituição."
       },
       {
         "letter": "C",
-        "text": "Caso a União arrecade uma contribuição de melhoria ou taxa de polícia com superávit, o desvio da finalidade para custear programa completamente alheio nunca encontra limite constitucional."
+        "text": "Caso a União arrecade uma contribuição de melhoria ou taxa de polícia com superávit, o desvio da finalidade para custear programa completamente alheio nunca encontra limite constitucional, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "D",
-        "text": "A Emenda Constitucional nº 132/2023 extinguiu a COSIP municipal e proibiu seu uso em sistemas de monitoramento para segurança e preservação de logradouros públicos."
+        "text": "A Emenda Constitucional nº 132/2023 extinguiu a COSIP municipal e proibiu seu uso em sistemas de monitoramento para segurança e preservação de logradouros públicos, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "B",
@@ -4823,19 +4823,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por ingressar como receita orçamentária livre no Tesouro, o produto da venda de imóveis públicos pode financiar normalmente salários e material de consumo."
+        "text": "Por ingressar como receita orçamentária livre no Tesouro, o produto da venda de imóveis públicos pode financiar normalmente salários e material de consumo, sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "B",
-        "text": "A destinação pretendida pelo Prefeito é ILEGAL perante o Art. 44 da LRF: é VEDADA a aplicação da receita de capital derivada da alienação de bens e direitos que integram o patrimônio público para o financiamento de DESPESA CORRENTE (como salários e combustíveis/custeio), SALVO SE DESTINADA POR LEI AOS REGIMES DE PREVIDÊNCIA SOCIAL, geral e próprio dos servidores públicos! Logo, o produto da venda só pode financiar DESPESAS DE CAPITAL (investimentos/obras/amortização de dívida) ou, mediante lei específica, o RPPS/RGPS."
+        "text": "A destinação pretendida pelo Prefeito é ilegal perante o Art. 44 da LRF: é vedada a aplicação da receita de capital derivada da alienação de bens e direitos que integram o patrimônio público para o financiamento de despesa corrente, salvo se destinada por lei aos regimes de previdência social, geral e próprio dos servidores públicos."
       },
       {
         "letter": "C",
-        "text": "Mesmo havendo autorização expressa em lei municipal específica, nunca é permitido utilizar o produto da venda de imóveis públicos para capitalizar o Regime Próprio de Previdência Social (RPPS)."
+        "text": "Mesmo havendo autorização expressa em lei municipal específica, nunca é permitido utilizar o produto da venda de imóveis públicos para capitalizar o Regime Próprio de Previdência Social (RPPS), sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais."
       },
       {
         "letter": "D",
-        "text": "A receita derivada da venda de imóveis públicos é classificada contabilmente na LOA como Receita Corrente Patrimonial."
+        "text": "A receita derivada da venda de imóveis públicos é classificada contabilmente na LOA como Receita Corrente Patrimonial, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "B",
@@ -4882,7 +4882,7 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "As despesas OBRIGATÓRIAS decorrem de mandamento constitucional ou legal e vinculam o gestor quanto ao pagamento (ex.: benefícios previdenciários, BPC/LOAS, pessoal ativo/inativo, abono/seguro-desemprego, repasses constitucionais), não podendo ser contingenciadas nos termos do Art. 9º, § 2º, da LRF; já as despesas DISCRICIONÁRIAS permitem juízo de oportunidade e conveniência do gestor na execução ou contingenciamento (ex.: investimentos em novas obras, custeio administrativo não obrigatório). Ademais, crédito ORÇAMENTÁRIO é a autorização de despesa consignada inicialmente na própria LOA, enquanto crédito ADICIONAL é autorização não computada ou insuficientemente dotada na LOA (Art. 40 Lei 4.320/64)."
+        "text": "As despesas obrigatórias decorrem de mandamento constitucional ou legal e vinculam o gestor quanto ao pagamento, não podendo ser contingenciadas."
       },
       {
         "letter": "C",
@@ -4933,19 +4933,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A recusa perante o TCU é INCONSTITUCIONAL: embora a Constituição e a Lei de Acesso à Informação (Lei nº 12.527/2011) admitam a classificação excepcional de despesas sigilosas/reservadas imprescindíveis à segurança da sociedade e do Estado (Art. 5º, XXXIII, CF), NENHUMA despesa pública é imune à fiscalização do controle externo pelos Tribunais de Contas (Art. 70, parágrafo único, e Art. 71, IV, CF)! O TCU possui plena competência constitucional para realizar auditorias e tomar contas inclusive de despesas sigilosas, mantendo em relação a terceiros a chancela de sigilo legalmente decretada."
+        "text": "A recusa perante o TCU é inconstitucional: embora a Constituição e a Lei de Acesso à Informação admitam a classificação excepcional de despesas sigilosas/reservadas imprescindíveis à segurança da sociedade e do Estado, nenhuma despesa pública é imune à fiscalização do controle externo pelos Tribunais de Contas."
       },
       {
         "letter": "B",
-        "text": "As despesas classificadas como ultrassecretas ou reservadas por decreto presidencial ficam absolutamente excluídas da jurisdição fiscalizatória do TCU e da CGU."
+        "text": "As despesas classificadas como ultrassecretas ou reservadas por decreto presidencial ficam absolutamente excluídas da jurisdição fiscalizatória do TCU e da CGU, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "C",
-        "text": "O suprimento de fundos operacionalizado via Cartão de Pagamento do Governo Federal (CPGF) dispensa a prestação de contas formal e o prévio empenho na dotação."
+        "text": "O suprimento de fundos operacionalizado via Cartão de Pagamento do Governo Federal dispensa a prestação de contas formal e o prévio empenho na dotação, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "Segundo o STF, despesas sigilosas da Presidência da República nunca podem perder o sigilo mesmo após o término do prazo legal máximo de classificação da LAI."
+        "text": "Segundo o STF, despesas sigilosas da Presidência da República nunca podem perder o sigilo mesmo após o término do prazo legal máximo de classificação da LAI, em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "A",
@@ -4988,19 +4988,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os valores pagos pelo contrato de terceirização destinados à remuneração de mão de obra que SUBSTITUI servidores e empregados públicos DEVEM ser contabilizados como \"Outras Despesas de Pessoal\" no limite da LRF (Art. 18, § 1º, da LRF)! Contudo, segundo a jurisprudência fiscal dos Tribunais de Contas e da STN, terceirizações legítimas de atividades-meio acessórias não previstas em plano de cargos (como vigilância armada, limpeza predial ou manutenção de elevadores) não entram como substituição de servidores se não houver cargo equivalente extinto ou vago."
+        "text": "Os valores pagos pelo contrato de terceirização destinados à remuneração de mão de obra que substitui servidores e empregados públicos devem ser contabilizados como \"Outras Despesas de Pessoal\" no limite da LRF."
       },
       {
         "letter": "B",
-        "text": "Nenhuma despesa paga a empresa privada contratada ou organização social entra no limite de despesa total com pessoal previsto nos Arts. 18 a 20 da LRF."
+        "text": "Nenhuma despesa paga a empresa privada contratada ou organização social entra no limite de despesa total com pessoal previsto nos Arts. 18 a 20 da LRF, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas."
       },
       {
         "letter": "C",
-        "text": "A terceirização de serviços de limpeza e vigilância predial sem cargo público correspondente no quadro também é sempre contabilizada no teto de pessoal do Art. 18, § 1º."
+        "text": "A terceirização de serviços de limpeza e vigilância predial sem cargo público correspondente no quadro também é sempre contabilizada no teto de pessoal, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "D",
-        "text": "Os gastos com estagiários regularmente contratados pela Lei nº 11.788/2008 e com diaristas eventuais ficam equiparados a servidores efetivos na conta da terceirização do Art. 18, § 1º."
+        "text": "Os gastos com estagiários regularmente contratados pela Lei nº 11.788/2008 e com diaristas eventuais ficam equiparados a servidores efetivos na conta da terceirização, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "A",
@@ -5043,19 +5043,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "NÃO se exige dotação na LOA atual para todos os 5 anos de uma só vez: nos termos dos Arts. 105 e 106 da Nova Lei de Licitações (Lei nº 14.133/2021), a Administração poderá celebrar contratos com prazo de até 5 anos para serviços e fornecimentos contínuos (prorrogáveis decenalmente até 10 anos — Art. 107), devendo a autoridade competente atestar no início da contratação E A CADA EXERCÍCIO FINANCEIRO a existência de créditos orçamentários vinculados à contratação e a vantagem de sua manutenção (empenhando-se anualmente apenas a parcela executada no respectivo exercício pelo princípio da anualidade)! Se o contrato configurar investimento > 1 exercício, exige inclusão prévia no PPA (Art. 167, § 1º, CF)."
+        "text": "Não se exige dotação na LOA atual para todos os 5 anos de uma só vez: nos termos dos Arts. 105 e 106 da Nova Lei de Licitações, a Administração poderá celebrar contratos com prazo de até 5 anos para serviços e fornecimentos contínuos, devendo a autoridade competente atestar no início da contratação e a cada exercício financeiro a existência de créditos orçamentários vinculados à contratação e a vantagem de sua manutenção."
       },
       {
         "letter": "B",
-        "text": "Em qualquer contrato administrativo com vigência de 5 anos, toda a verba dos 60 meses deve ser empenhada integralmente no primeiro exercício financeiro na conta de Restos a Pagar."
+        "text": "Em qualquer contrato administrativo com vigência de 5 anos, toda a verba dos 60 meses deve ser empenhada integralmente no primeiro exercício financeiro na conta de Restos a Pagar, com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas."
       },
       {
         "letter": "C",
-        "text": "Na Nova Lei de Licitações (Lei nº 14.133/2021), caso falte dotação orçamentária no segundo ou terceiro ano de um contrato contínuo de 5 anos, a empresa contratada é obrigada a continuar prestando gratuitamente o serviço sem direito à rescisão."
+        "text": "Na Nova Lei de Licitações, caso falte dotação orçamentária no segundo ou terceiro ano de um contrato contínuo de 5 anos, a empresa contratada é obrigada a continuar prestando gratuitamente o serviço sem direito à rescisão. Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas."
       },
       {
         "letter": "D",
-        "text": "A celebração de contrato administrativo com duração prevista de 6 meses dentro do mesmo exercício financeiro exige prévia inclusão específica no Plano Plurianual (PPA)."
+        "text": "A celebração de contrato administrativo com duração prevista de 6 meses dentro do mesmo exercício financeiro exige prévia inclusão específica no Plano Plurianual (PPA), com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       }
     ],
     "correctAnswer": "A",
@@ -5098,19 +5098,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A União PODE reter diretamente as contragarantias pactuadas (FPE e receitas próprias vinculadas): nos termos do Art. 167, § 4º, da Constituição Federal, é expressamente PERMITIDA a vinculação de receitas próprias geradas pelos impostos estaduais/municipais e dos recursos de repartição constitucional (FPE/FPM/Arts. 157, 158 e 159) para a prestação de GARANTIA ou CONTRAGARANTIA à UNIÃO e para pagamento de débitos para com esta — devendo o Tesouro Nacional reter os repasses de FPE/FPM para ressarcir-se do valor honrado como avalista (Art. 40, § 6º, LRF)!"
+        "text": "A União pode reter diretamente as contragarantias pactuadas:, é expressamente permitida a vinculação de receitas próprias geradas pelos impostos estaduais/municipais e dos recursos de repartição constitucional para a prestação de garantia ou contragarantia à união e para pagamento de débitos para com esta."
       },
       {
         "letter": "B",
-        "text": "Por força do princípio da não afetação dos impostos (Art. 167, IV, CF), é absolutamente inconstitucional oferecer cotas do FPE ou receita de ICMS como contragarantia à União."
+        "text": "Por força do princípio da não afetação dos impostos, é absolutamente inconstitucional oferecer cotas do fpe ou receita de ICMS como contragarantia à União, com vedação à realização de despesa ou abertura de crédito sem autorização legislativa prévia."
       },
       {
         "letter": "C",
-        "text": "Caso a União honre uma dívida garantida de Município inadimplente, não poderá descontar das parcelas futuras do FPM, tendo de ingressar com ação de execução fiscal ordinária por precatório contra o Município."
+        "text": "Caso a União honre uma dívida garantida de Município inadimplente, não poderá descontar das parcelas futuras do fpm, tendo de ingressar com ação de execução fiscal ordinária por precatório contra o Município. A execução orçamentária deve observar os estágios legais e os limites de endividamento."
       },
       {
         "letter": "D",
-        "text": "Um Estado-membro também pode exigir de outro Estado vizinho a vinculação de receitas de impostos sem observância dos limites do Senado Federal."
+        "text": "Um Estado-membro também pode exigir de outro Estado vizinho a vinculação de receitas de impostos sem observância dos limites do Senado Federal, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "A",
@@ -5153,19 +5153,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O STF declarou INCONSTITUCIONAL a limitação/postergação de pagamento de precatórios federais prevista no Art. 107-A do ADCT (introduzido pelas ECs 113 e 114/2021): na decisão das ADIs 7.047 e 7.064 (novembro/2023), a Corte assentou que o adiamento compulsório do pagamento de requisições judiciais transitadas em julgado pela União viola a garantia da coisa julgada, a separação dos Poderes e o direito fundamental à tutela jurisdicional efetiva, autorizando a quitação imediata do passivo acumulado fora dos limites fiscais anuais ordinários (crédito extraordinário para regularizar o estoque)!"
+        "text": "O STF declarou inconstitucional a limitação/postergação de pagamento de precatórios federais do adct: na decisão das ADIs 7.047 e 7.064 (novembro/2023), a Corte assentou que o adiamento compulsório do pagamento de requisições judiciais transitadas em julgado pela União viola a garantia da coisa julgada, a separação dos Poderes e o direito fundamental à tutela jurisdicional efetiva, autorizando a quitação imediata do passivo acumulado fora dos limites fiscais anuais ordinários."
       },
       {
         "letter": "B",
-        "text": "O STF confirmou integralmente a validade permanente do subteto de precatórios federais do Art. 107-A do ADCT até 2026 sem necessidade de regularização do estoque atrasado."
+        "text": "O STF confirmou integralmente a validade permanente do subteto de precatórios federais do adct até 2026 sem necessidade de regularização do estoque atrasado, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "C",
-        "text": "Com a declaração de inconstitucionalidade do Art. 107-A do ADCT nas ADIs 7.047 e 7.064, o STF também revogou o pagamento de RPVs em até 60 dias pela União."
+        "text": "Com a declaração de inconstitucionalidade do adct nas ADIs 7.047 e 7.064, o STF também revogou o pagamento de RPVs em até 60 dias pela União, sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "D",
-        "text": "Nas ADIs 7.047 e 7.064, o STF manteve a proibição de abertura de crédito extraordinário para quitar o estoque de precatórios federais em atraso."
+        "text": "Nas ADIs 7.047 e 7.064, o STF manteve a proibição de abertura de crédito extraordinário para quitar o estoque de precatórios federais em atraso, sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais."
       }
     ],
     "correctAnswer": "A",
@@ -5209,19 +5209,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A lei ordinária é flagrantemente INCONSTITUCIONAL por violar o Art. 167, XI, da Constituição Federal: é VEDADA expressamente a utilização dos recursos provenientes das contribuições sociais de que trata o Art. 195, I, \"a\" (empregador sobre folha de salários) e II (trabalhador e demais segurados) para a realização de despesas distintas do pagamento de BENEFÍCIOS DO REGIME GERAL DE PREVIDÊNCIA SOCIAL (RGPS)! (Observado ainda o inciso XII do Art. 167, incluído pela EC 103/2019, que protege igualmente os recursos dos RPPS)."
+        "text": "A lei ordinária é flagrantemente inconstitucional por violar o Art. 167, xi, da Constituição Federal: é vedada expressamente a utilização dos recursos provenientes das contribuições sociais de que trata o Art. 195, I, \"a\" e II para a realização de despesas distintas do pagamento de benefícios do regime geral de previdência social (RGPS)."
       },
       {
         "letter": "B",
-        "text": "As contribuições previdenciárias incidentes sobre a folha de salários podem ser utilizadas livremente para pagar despesas de assistência social (BPC/LOAS) e saúde (SUS), pois tudo integra a Seguridade Social."
+        "text": "As contribuições previdenciárias incidentes sobre a folha de salários podem ser utilizadas livremente para pagar despesas de assistência social (BPC/LOAS) e saúde (SUS), pois tudo integra a Seguridade Social. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       },
       {
         "letter": "C",
-        "text": "A desvinculação de receitas da União (DRU — Art. 76 ADCT) permite desviar 30% das contribuições previdenciárias sobre a folha de salários para pagar obras e dívida pública."
+        "text": "A desvinculação de receitas da União (dru — Art. 76 adct) permite desviar 30% das contribuições previdenciárias sobre a folha de salários para pagar obras e dívida pública, observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual."
       },
       {
         "letter": "D",
-        "text": "A proibição do Art. 167, XI, da CF aplica-se apenas ao RGPS federal, não havendo vedação constitucional equivalente protegendo os recursos previdenciários dos RPPS estaduais e municipais."
+        "text": "A proibição aplica-se apenas ao RGPS federal, não havendo vedação constitucional equivalente protegendo os recursos previdenciários dos RPPS estaduais e municipais, em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal."
       }
     ],
     "correctAnswer": "A",
@@ -5264,19 +5264,19 @@ export const FINANCEIRO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As três métricas possuem escopos progressivos na política fiscal: (1) DÉFICIT PRIMÁRIO ocorre quando as despesas não financeiras (primárias) superam as receitas não financeiras (primárias), desconsiderando os juros da dívida pública (mede o esforço fiscal puro da gestão atual); (2) DÉFICIT OPERACIONAL acrescenta ao resultado primário o pagamento dos JUROS REAIS da dívida pública (descontada a inflação/correção monetária); e (3) DÉFICIT NOMINAL (Necessidade de Financiamento do Setor Público - NFSP no conceito nominal) soma ao resultado primário o pagamento dos JUROS NOMINAIS TOTAIS da dívida (juros reais + atualização monetária)!"
+        "text": "As três métricas possuem escopos progressivos na política fiscal: déficit primário ocorre quando as despesas não financeiras (primárias) superam as receitas não financeiras (primárias), desconsiderando os juros da dívida pública."
       },
       {
         "letter": "B",
-        "text": "O Déficit Primário representa o saldo negativo total das contas públicas já incluído o pagamento integral dos juros nominais e da correção monetária da dívida pública."
+        "text": "O Déficit Primário representa o saldo negativo total das contas públicas já incluído o pagamento integral dos juros nominais e da correção monetária da dívida pública, com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal."
       },
       {
         "letter": "C",
-        "text": "Quando um país obtém Superávit Primário em determinado ano, isso garante automaticamente que sua dívida pública total diminuiu em termos nominais."
+        "text": "Quando um país obtém Superávit Primário em determinado ano, isso garante automaticamente que sua dívida pública total diminuiu em termos nominais, com respeito à ordem cronológica constitucional para quitação de débitos em precatório."
       },
       {
         "letter": "D",
-        "text": "Na LRF (Art. 4º, § 1º), o Anexo de Metas Fiscais da LDO fixa metas anuais apenas para a inflação oficial (IPCA), dispensando metas de resultado primário ou nominal."
+        "text": "Na LRF, o Anexo de Metas Fiscais da LDO fixa metas anuais apenas para a inflação oficial (ipca), dispensando metas de resultado primário ou nominal. Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos."
       }
     ],
     "correctAnswer": "A",

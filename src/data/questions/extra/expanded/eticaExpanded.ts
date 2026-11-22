@@ -17,11 +17,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Basta apresentar declaração de conclusão de todas as disciplinas cursadas, dispensando-se a colação de grau."
+        "text": "Basta apresentar declaração de conclusão de todas as disciplinas cursadas, dispensando-se a colação de grau, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "B",
-        "text": "A inscrição pode ser deferida provisoriamente antes da aprovação no Exame de Ordem mediante compromisso de realizá-lo em 1 ano."
+        "text": "A inscrição pode ser deferida provisoriamente antes da aprovação no Exame de Ordem mediante compromisso de realizá-lo em 1 ano, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "C",
@@ -29,7 +29,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Caso tenha exercido cargo policial há mais de cinco anos, fica dispensada da prova de idoneidade moral."
+        "text": "Caso tenha exercido cargo policial há mais de cinco anos, fica dispensada da prova de idoneidade moral, em observância rigorosa aos deveres institucionais e às normas disciplinares da categoria."
       }
     ],
     "correctAnswer": "C",
@@ -72,11 +72,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Basta comunicar por ofício a OAB/PR, pois a inscrição principal em São Paulo confere atuação ilimitada em todo o país."
+        "text": "Basta comunicar por ofício a OAB/PR, pois a inscrição principal em São Paulo confere atuação ilimitada em todo o país. A observância desse parâmetro é fiscalizada diretamente pelo Conselho Seccional competente."
       },
       {
         "letter": "B",
-        "text": "Ele deve cancelar obrigatoriamente sua inscrição na OAB/SP e requerer transferência definitiva para o Paraná."
+        "text": "Ele deve cancelar obrigatoriamente sua inscrição na OAB/SP e requerer transferência definitiva para o Paraná, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       },
       {
         "letter": "C",
@@ -84,7 +84,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A exigência de inscrição suplementar aplica-se apenas a causas criminais e trabalhistas acima de 10 ações anuais."
+        "text": "A exigência de inscrição suplementar aplica-se apenas a causas criminais e trabalhistas acima de 10 ações anuais, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       }
     ],
     "correctAnswer": "C",
@@ -127,11 +127,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Luciana ficará apenas licenciada, mantendo seu número original suspenso até eventual exoneração."
+        "text": "Luciana ficará apenas licenciada, mantendo seu número original suspenso até eventual exoneração, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "B",
-        "text": "Poderá continuar advogando exclusivamente em causas de família, em razão de impedimento parcial."
+        "text": "Poderá continuar advogando exclusivamente em causas de família, em razão de impedimento parcial, com validação imediata dos atos profissionais independentemente de formalidade complementar."
       },
       {
         "letter": "C",
@@ -139,7 +139,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O cancelamento somente ocorre a pedido da interessada, sendo vedado o cancelamento de ofício pelo Conselho Seccional."
+        "text": "O cancelamento somente ocorre a pedido da interessada, sendo vedado o cancelamento de ofício pelo Conselho Seccional, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       }
     ],
     "correctAnswer": "C",
@@ -182,11 +182,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O visto de advogado é meramente facultativo em qualquer tipo societário desde a Lei da Liberdade Econômica."
+        "text": "O visto de advogado é meramente facultativo em qualquer tipo societário desde a Lei da Liberdade Econômica, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "B",
-        "text": "A exigência do visto aplica-se exclusivamente às sociedades anônimas de capital aberto registradas na CVM."
+        "text": "A exigência do visto aplica-se exclusivamente às sociedades anônimas de capital aberto registradas na CVM, com validação imediata dos atos profissionais independentemente de formalidade complementar. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "C",
@@ -194,7 +194,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "É permitida a assinatura do próprio sócio contador no lugar do advogado para suprir o visto estatutário."
+        "text": "É permitida a assinatura do próprio sócio contador no lugar do advogado para suprir o visto estatutário, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       }
     ],
     "correctAnswer": "C",
@@ -237,11 +237,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pode assinar pessoalmente o recurso inominado, pois o valor da causa permanece inferior a 20 salários mínimos."
+        "text": "Pode assinar pessoalmente o recurso inominado, pois o valor da causa permanece inferior a 20 salários mínimos. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "B",
-        "text": "No Juizado Especial Federal, a dispensa de advogado também não existe em primeiro grau para causas até 60 salários mínimos."
+        "text": "No Juizado Especial Federal, a dispensa de advogado também não existe em primeiro grau para causas até 60 salários mínimos, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "C",
@@ -249,7 +249,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O STF declarou inconstitucional a dispensa de advogado até 20 salários mínimos no Juizado Especial Cível."
+        "text": "O STF declarou inconstitucional a dispensa de advogado até 20 salários mínimos no Juizado Especial Cível, em observância rigorosa aos deveres institucionais e às normas disciplinares da categoria."
       }
     ],
     "correctAnswer": "C",
@@ -292,11 +292,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Assinar contestação e sustentar oralmente agravo de instrumento no Tribunal, desde que autorizada por escrito pelo sócio."
+        "text": "Assinar contestação e sustentar oralmente agravo de instrumento no Tribunal, desde que autorizada por escrito pelo sócio, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "B",
-        "text": "Comparecer sozinha à audiência de instrução e julgamento no Juizado Especial representando o cliente."
+        "text": "Comparecer sozinha à audiência de instrução e julgamento no Juizado Especial representando o cliente, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "C",
@@ -304,7 +304,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Assinar petição inicial de valor inferior a 10 salários mínimos, independentemente de revisão do advogado."
+        "text": "Assinar petição inicial de valor inferior a 10 salários mínimos, independentemente de revisão do advogado, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       }
     ],
     "correctAnswer": "C",
@@ -347,11 +347,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, porque a procuração padrão sempre autoriza o substabelecimento sem reserva independentemente de aviso ao outorgante."
+        "text": "Sim, porque a procuração padrão sempre autoriza o substabelecimento sem reserva independentemente de aviso ao outorgante. A observância desse parâmetro é fiscalizada diretamente pelo Conselho Seccional competente."
       },
       {
         "letter": "B",
-        "text": "O substabelecimento com reserva de poderes também exige prévia autorização escrita do cliente e quitação imediata dos honorários."
+        "text": "O substabelecimento com reserva de poderes também exige prévia autorização escrita do cliente e quitação imediata dos honorários, com validação imediata dos atos profissionais independentemente de formalidade complementar."
       },
       {
         "letter": "C",
@@ -359,7 +359,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Após substabelecer com reserva de poderes, o advogado substabelecido tem direito exclusivo à integralidade dos honorários contratuais."
+        "text": "Após substabelecer com reserva de poderes, o advogado substabelecido tem direito exclusivo à integralidade dos honorários contratuais, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       }
     ],
     "correctAnswer": "C",
@@ -402,11 +402,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Fica imediatamente desobrigada no instante em que protocolar a carta de renúncia no processo."
+        "text": "Fica imediatamente desobrigada no instante em que protocolar a carta de renúncia no processo, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "B",
-        "text": "Deve permanecer obrigada ao patrocínio até a sentença de mérito, mesmo após decorridos os 10 dias."
+        "text": "Deve permanecer obrigada ao patrocínio até a sentença de mérito, mesmo após decorridos os 10 dias, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       },
       {
         "letter": "C",
@@ -414,7 +414,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Deve explicitar na petição de renúncia os motivos íntimos da quebra de confiança para justificar o desligamento perante o juiz."
+        "text": "Deve explicitar na petição de renúncia os motivos íntimos da quebra de confiança para justificar o desligamento perante o juiz, com autonomia plena do exercício profissional dentro do regime estatutário da advocacia."
       }
     ],
     "correctAnswer": "C",
@@ -457,11 +457,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A revogação extingue imediatamente todos os honorários contratuais ainda não vencidos e impede a cobrança proporcional da sucumbência."
+        "text": "A revogação extingue imediatamente todos os honorários contratuais ainda não vencidos e impede a cobrança proporcional da sucumbência, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "B",
-        "text": "O novo advogado não pode aceitar a causa enquanto o antigo advogado não assinar termo de quitação plena nos autos."
+        "text": "O novo advogado não pode aceitar a causa enquanto o antigo advogado não assinar termo de quitação plena nos autos, com vedação expressa à mercantilização da atividade e à captação indevida de clientela. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "C",
@@ -469,7 +469,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O advogado destituído perde o direito de executar seus honorários nos próprios autos, devendo ingressar com ação autônoma."
+        "text": "O advogado destituído perde o direito de executar seus honorários nos próprios autos, devendo ingressar com ação autônoma, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       }
     ],
     "correctAnswer": "C",
@@ -512,19 +512,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "João sofre apenas impedimento contra o município mesmo na Presidência da Câmara Municipal."
+        "text": "João sofre apenas impedimento contra o município mesmo na Presidência da Câmara Municipal, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "B",
-        "text": "João, por ocupar cargo de direção do Poder Legislativo (Presidente da Câmara), torna-se incompatível para a advocacia; se fosse apenas Vereador sem cargo de mesa diretora, estaria apenas impedido contra a Fazenda que o remunere. Paulo sofre incompatibilidade total."
+        "text": "João, por ocupar cargo de direção do Poder Legislativo, torna-se incompatível para a advocacia."
       },
       {
         "letter": "C",
-        "text": "Vereadores sem cargo na Mesa Diretora não sofrem qualquer restrição estatutária para advogar contra pessoas jurídicas de direito público."
+        "text": "Vereadores sem cargo na Mesa Diretora não sofrem qualquer restrição estatutária para advogar contra pessoas jurídicas de direito público, em observância rigorosa aos deveres institucionais e às normas disciplinares da categoria."
       },
       {
         "letter": "D",
-        "text": "Promotores de Justiça podem advogar apenas em causas próprias ou de familiares em até terceiro grau."
+        "text": "Promotores de Justiça podem advogar apenas em causas próprias ou de familiares em até terceiro grau, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       }
     ],
     "correctAnswer": "B",
@@ -567,7 +567,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deferido com restrição de impedimento, vedando-se apenas a atuação na esfera criminal e administrativa militar."
+        "text": "Deferido com restrição de impedimento, vedando-se apenas a atuação na esfera criminal e administrativa militar, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "B",
@@ -575,11 +575,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Deferido, desde que o comandante do batalhão autorize expressamente o exercício paralelo da advocacia."
+        "text": "Deferido, desde que o comandante do batalhão autorize expressamente o exercício paralelo da advocacia, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "D",
-        "text": "Deferido provisoriamente como estagiário especial até sua transferência para a reserva remunerada."
+        "text": "Deferido provisoriamente como estagiário especial até sua transferência para a reserva remunerada, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       }
     ],
     "correctAnswer": "B",
@@ -622,7 +622,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O contador pode figurar como sócio minoritário sem poder de gestão jurídica, mantendo-se o registro na OAB."
+        "text": "O contador pode figurar como sócio minoritário sem poder de gestão jurídica, mantendo-se o registro na OAB, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "B",
@@ -630,11 +630,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O registro deve ocorrer primeiramente na Junta Comercial para obtenção do CNPJ e depois averbado na OAB."
+        "text": "O registro deve ocorrer primeiramente na Junta Comercial para obtenção do CNPJ e depois averbado na OAB, com autonomia plena do exercício profissional dentro do regime estatutário da advocacia."
       },
       {
         "letter": "D",
-        "text": "É admitido o uso de nome fantasia desde que acompanhado da expressão \"Sociedade de Advogados\"."
+        "text": "É admitido o uso de nome fantasia desde que acompanhado da expressão \"Sociedade de Advogados\", observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       }
     ],
     "correctAnswer": "B",
@@ -677,19 +677,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É permitido integrar uma sociedade pluripessoal e manter uma unipessoal na mesma seccional desde que atuem em áreas distintas."
+        "text": "É permitido integrar uma sociedade pluripessoal e manter uma unipessoal na mesma seccional desde que atuem em áreas distintas, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "B",
-        "text": "Nenhum advogado pode integrar mais de uma sociedade de advogados, constituir mais de uma sociedade unipessoal ou integrar simultaneamente uma sociedade de advogados e uma unipessoal na mesma base territorial do Conselho Seccional; ademais, Sofia responde subsidiária e ilimitadamente pelos danos causados ao cliente."
+        "text": "Nenhum advogado pode integrar mais de uma sociedade de advogados, constituir mais de uma sociedade unipessoal ou integrar simultaneamente uma sociedade de advogados e uma unipessoal na mesma base territorial do Conselho Seccional."
       },
       {
         "letter": "C",
-        "text": "A responsabilidade da advogada pelos danos causados aos clientes é limitada exclusivamente ao capital social integralizado da sociedade."
+        "text": "A responsabilidade da advogada pelos danos causados aos clientes é limitada exclusivamente ao capital social integralizado da sociedade, com validação imediata dos atos profissionais independentemente de formalidade complementar."
       },
       {
         "letter": "D",
-        "text": "As sociedades unipessoais de advocacia são isentas de registro na OAB, bastando requerer inscrição de empresário individual na Receita Federal."
+        "text": "As sociedades unipessoais de advocacia são isentas de registro na OAB, bastando requerer inscrição de empresário individual na Receita Federal, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       }
     ],
     "correctAnswer": "B",
@@ -732,11 +732,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A jornada padrão do advogado empregado sem dedicação exclusiva é de 8 horas diárias, não havendo horas extras no caso narrado."
+        "text": "A jornada padrão do advogado empregado sem dedicação exclusiva é de 8 horas diárias, não havendo horas extras no caso narrado, com vedação expressa à mercantilização da atividade e à captação indevida de clientela."
       },
       {
         "letter": "B",
-        "text": "A jornada legal ordinária sem dedicação exclusiva é de 4 horas diárias contínuas e 20 semanais; as horas excedentes devem ser remuneradas com adicional não inferior a 100% sobre o valor da hora normal, incidindo ainda adicional noturno após as 20h."
+        "text": "A jornada legal ordinária sem dedicação exclusiva é de 4 horas diárias contínuas e 20 semanais."
       },
       {
         "letter": "C",
@@ -744,7 +744,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O trabalho prestado entre 20h e 21h não gera adicional noturno estatutário, que só se inicia às 22h como na CLT."
+        "text": "O trabalho prestado entre 20h e 21h não gera adicional noturno estatutário, que só se inicia às 22h como na CLT, sob pena de configuração de infração ético-disciplinar apurável no órgão competente."
       }
     ],
     "correctAnswer": "B",
@@ -787,7 +787,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os honorários de sucumbência pertencem ao empregador sempre que o salário fixo mensal superar cinco pisos salariais."
+        "text": "Os honorários de sucumbência pertencem ao empregador sempre que o salário fixo mensal superar cinco pisos salariais, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "B",
@@ -795,11 +795,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Pelo poder diretivo da CLT, a advogada é obrigada a assinar petições cujo conteúdo técnico desaprove integralmente."
+        "text": "Pelo poder diretivo da CLT, a advogada é obrigada a assinar petições cujo conteúdo técnico desaprove integralmente, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "D",
-        "text": "Se a sociedade empregadora for de advogados, os honorários de sucumbência integram integralmente o salário para fins de FGTS e férias."
+        "text": "Se a sociedade empregadora for de advogados, os honorários de sucumbência integram integralmente o salário para fins de FGTS e férias, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       }
     ],
     "correctAnswer": "B",
@@ -842,19 +842,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Prescreve em 3 anos, conforme regra geral do Código Civil para pretensões de reparação civil e cobrança de serviços liberais."
+        "text": "Prescreve em 3 anos, conforme regra geral do Código Civil para pretensões de reparação civil e cobrança de serviços liberais, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "B",
-        "text": "Prescreve em 5 anos a ação de cobrança de honorários de advogado, contado o prazo, respectivamente, da decisão que os fixar (ou vencimento do contrato) e da ultimação do serviço extrajudicial, da desistência/transação, da renúncia ou revogação do mandato."
+        "text": "Prescreve em 5 anos a ação de cobrança de honorários de advogado, contado o prazo, respectivamente, da decisão que os fixar e da ultimação do serviço extrajudicial, da desistência/transação, da renúncia ou revogação do mandato."
       },
       {
         "letter": "C",
-        "text": "O prazo para execução de honorários sucumbenciais conta-se da data de distribuição da petição inicial."
+        "text": "O prazo para execução de honorários sucumbenciais conta-se da data de distribuição da petição inicial, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "D",
-        "text": "A ação de prestação de contas pelo cliente contra o advogado prescreve em 10 anos."
+        "text": "A ação de prestação de contas pelo cliente contra o advogado prescreve em 10 anos, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       }
     ],
     "correctAnswer": "B",
@@ -897,19 +897,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O contrato particular de honorários só pode ser descontado nos autos se o cliente assinar concordância específica no momento da expedição do alvará."
+        "text": "O contrato particular de honorários só pode ser descontado nos autos se o cliente assinar concordância específica no momento da expedição do alvará, com autonomia plena do exercício profissional dentro do regime estatutário da advocacia."
       },
       {
         "letter": "B",
-        "text": "O juiz deve determinar a dedução direta da quantia do cliente antes do levantamento (salvo se o cliente provar que já pagou), e os honorários advocatícios possuem natureza alimentar, gozando dos mesmos privilégios dos créditos oriundos da legislação do trabalho."
+        "text": "O juiz deve determinar a dedução direta da quantia do cliente antes do levantamento, e os honorários advocatícios possuem natureza alimentar, gozando dos mesmos privilégios dos créditos oriundos da legislação do trabalho."
       },
       {
         "letter": "C",
-        "text": "Apenas os honorários contratuais têm natureza alimentar, excluindo-se os sucumbenciais da preferência trabalhista."
+        "text": "Apenas os honorários contratuais têm natureza alimentar, excluindo-se os sucumbenciais da preferência trabalhista, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "D",
-        "text": "Na execução contra a Fazenda Pública, não é permitido o destaque dos honorários contratuais no precatório."
+        "text": "Na execução contra a Fazenda Pública, não é permitido o destaque dos honorários contratuais no precatório, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       }
     ],
     "correctAnswer": "B",
@@ -953,19 +953,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o princípio da liberdade contratual permite qualquer percentual acima de 50% quando há risco de sucumbência."
+        "text": "Sim, pois o princípio da liberdade contratual permite qualquer percentual acima de 50% quando há risco de sucumbência. Tal conduta repercute na regularidade estatutária dos atos praticados pelo profissional."
       },
       {
         "letter": "B",
-        "text": "Não, pois na cláusula quota litis, os honorários acrescidos dos de sucumbência não podem ser superiores às vantagens advindas em favor do cliente, além de exigir contrato escrito com pecúnia e vedar, como regra, que o advogado assuma os riscos/custas."
+        "text": "Não, pois na cláusula quota litis, os honorários acrescidos dos de sucumbência não podem ser superiores às vantagens advindas em favor do cliente."
       },
       {
         "letter": "C",
-        "text": "A cláusula quota litis permite estipular o pagamento mediante entrega de bem imóvel litigioso do cliente sem caráter excepcional."
+        "text": "A cláusula quota litis permite estipular o pagamento mediante entrega de bem imóvel litigioso do cliente sem caráter excepcional, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "D",
-        "text": "O contrato verbal com cláusula quota litis é plenamente válido desde que confirmado por duas testemunhas."
+        "text": "O contrato verbal com cláusula quota litis é plenamente válido desde que confirmado por duas testemunhas, sem necessidade de prévia autorização da Seccional competente ou deliberação do conselho."
       }
     ],
     "correctAnswer": "B",
@@ -1008,15 +1008,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É permitida a emissão de duplicata mercantil de prestação de serviços advocatícios e seu imediato protesto cambial."
+        "text": "É permitida a emissão de duplicata mercantil de prestação de serviços advocatícios e seu imediato protesto cambial, com validação imediata dos atos profissionais independentemente de formalidade complementar."
       },
       {
         "letter": "B",
-        "text": "É lícito receber honorários por meio de cartão de crédito, mas é vedada a emissão de duplicata ou outro título de crédito de natureza mercantil; quanto ao protesto, o CED veda o protesto de cheque ou nota promissória emitida pelo cliente em certas hipóteses e proíbe mercantilização."
+        "text": "É lícito receber honorários por meio de cartão de crédito, mas é vedada a emissão de duplicata ou outro título de crédito de natureza mercantil."
       },
       {
         "letter": "C",
-        "text": "É proibido aceitar cartão de crédito ou débito na advocacia por configurar captação de clientela."
+        "text": "É proibido aceitar cartão de crédito ou débito na advocacia por configurar captação de clientela, sob pena de configuração de infração ético-disciplinar apurável no órgão competente."
       },
       {
         "letter": "D",
@@ -1067,15 +1067,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Todas as três práticas são totalmente proibidas pela OAB, inclusive o impulsionamento pago de vídeos educativos."
+        "text": "Todas as três práticas são totalmente proibidas pela OAB, inclusive o impulsionamento pago de vídeos educativos, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "C",
-        "text": "Oferecer primeira consulta gratuita é incentivado pelo CED como forma de acesso à justiça."
+        "text": "Oferecer primeira consulta gratuita é incentivado pelo CED como forma de acesso à justiça, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "D",
-        "text": "É permitida a divulgação de valores promocionais abaixo da tabela da seccional para atrair clientes de baixa renda."
+        "text": "É permitida a divulgação de valores promocionais abaixo da tabela da seccional para atrair clientes de baixa renda, com validação imediata dos atos profissionais independentemente de formalidade complementar."
       }
     ],
     "correctAnswer": "A",
@@ -1122,15 +1122,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Com a autorização expressa do cliente, o advogado torna-se obrigado a depor sob pena de crime de desobediência."
+        "text": "Com a autorização expressa do cliente, o advogado torna-se obrigado a depor sob pena de crime de desobediência, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "C",
-        "text": "O sigilo profissional cede automaticamente diante de qualquer requisição judicial em processo penal."
+        "text": "O sigilo profissional cede automaticamente diante de qualquer requisição judicial em processo penal, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "D",
-        "text": "O advogado deve depor normalmente se os fatos não constarem de contrato escrito de honorários."
+        "text": "O advogado deve depor normalmente se os fatos não constarem de contrato escrito de honorários, com vedação expressa à mercantilização da atividade e à captação indevida de clientela."
       }
     ],
     "correctAnswer": "A",
@@ -1181,11 +1181,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A exceção aplica-se apenas quando o advogado estiver sendo processado criminalmente pelo cliente."
+        "text": "A exceção aplica-se apenas quando o advogado estiver sendo processado criminalmente pelo cliente, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "D",
-        "text": "Para revelar o fato à polícia, a advogada precisa obter prévia autorização da Presidente do Tribunal de Ética e Disciplina."
+        "text": "Para revelar o fato à polícia, a advogada precisa obter prévia autorização da Presidente do Tribunal de Ética e Disciplina, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       }
     ],
     "correctAnswer": "A",
@@ -1232,15 +1232,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Deve ser encaminhado para cela comum separada apenas se houver autorização prévia da Seccional da OAB."
+        "text": "Deve ser encaminhado para cela comum separada apenas se houver autorização prévia da Seccional da OAB, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       },
       {
         "letter": "C",
-        "text": "A prerrogativa de sala de Estado-Maior subsiste mesmo após o trânsito em julgado da condenação criminal definitiva."
+        "text": "A prerrogativa de sala de Estado-Maior subsiste mesmo após o trânsito em julgado da condenação criminal definitiva, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "D",
-        "text": "A expressão \"assim reconhecidas pela OAB\" no Art. 7º, V foi declarada plenamente constitucional pelo STF."
+        "text": "A expressão \"assim reconhecidas pela OAB\" foi declarada plenamente constitucional pelo STF, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       }
     ],
     "correctAnswer": "A",
@@ -1287,15 +1287,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O advogado pode interromper o relator para sustentar oralmente as teses de mérito por mais 15 minutos após iniciado o voto."
+        "text": "O advogado pode interromper o relator para sustentar oralmente as teses de mérito por mais 15 minutos após iniciado o voto, com validação imediata dos atos profissionais independentemente de formalidade complementar."
       },
       {
         "letter": "C",
-        "text": "O advogado tem direito de sustentar oralmente suas razões após o voto do relator na votação do recurso."
+        "text": "O advogado tem direito de sustentar oralmente suas razões após o voto do relator na votação do recurso, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       },
       {
         "letter": "D",
-        "text": "O pedido de palavra pela ordem depende de concordância prévia da parte contrária presente na sessão."
+        "text": "O pedido de palavra pela ordem depende de concordância prévia da parte contrária presente na sessão, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       }
     ],
     "correctAnswer": "A",
@@ -1338,19 +1338,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas as negativas são ilegais: sem sigilo decretado, o advogado pode examinar autos de flagrante e investigações mesmo sem procuração; e com procuração, tem acesso aos elementos de prova já documentados mesmo em inquérito sigiloso, ressalvadas diligências em andamento."
+        "text": "Ambas as negativas são ilegais: sem sigilo decretado, o advogado pode examinar autos de flagrante e investigações mesmo sem procuração."
       },
       {
         "letter": "B",
-        "text": "Nos inquéritos policiais sem procuração juntada, a autoridade policial pode exigir autorização judicial prévia para vista."
+        "text": "Nos inquéritos policiais sem procuração juntada, a autoridade policial pode exigir autorização judicial prévia para vista, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "C",
-        "text": "Mesmo com procuração nos autos sigilosos, o defensor não tem direito de copiar peças antes da denúncia pelo Ministério Público."
+        "text": "Mesmo com procuração nos autos sigilosos, o defensor não tem direito de copiar peças antes da denúncia pelo Ministério Público, sob pena de configuração de infração ético-disciplinar apurável no órgão competente."
       },
       {
         "letter": "D",
-        "text": "A negativa de acesso pelo delegado constitui apenas falta funcional administrativa, sem reflexo ético-penal."
+        "text": "A negativa de acesso pelo delegado constitui apenas falta funcional administrativa, sem reflexo ético-penal, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       }
     ],
     "correctAnswer": "A",
@@ -1398,15 +1398,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "É válida porque, sendo o próprio advogado investigado, perde integralmente a inviolabilidade do local de trabalho."
+        "text": "É válida porque, sendo o próprio advogado investigado, perde integralmente a inviolabilidade do local de trabalho. Tal conduta repercute na regularidade estatutária dos atos praticados pelo profissional."
       },
       {
         "letter": "C",
-        "text": "O representante da OAB pode ser substituído por dois policiais civis testemunhas caso a diligência ocorra às 6h da manhã."
+        "text": "O representante da OAB pode ser substituído por dois policiais civis testemunhas caso a diligência ocorra às 6h da manhã, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "D",
-        "text": "É permitida a colheita integral do HD do servidor do escritório para triagem posterior pela polícia sem presença da OAB."
+        "text": "É permitida a colheita integral do HD do servidor do escritório para triagem posterior pela polícia sem presença da OAB, com validação imediata dos atos profissionais independentemente de formalidade complementar."
       }
     ],
     "correctAnswer": "A",
@@ -1449,19 +1449,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O desagravo público independe da concordância do advogado ofendido (quando não requerido por ele, pois visa defender toda a classe) e não pode ser dispensado pelo ofendido, devendo ser promovido pelo Conselho competente após instrução sumária."
+        "text": "O desagravo público independe da concordância do advogado ofendido e não pode ser dispensado pelo ofendido, devendo ser promovido pelo Conselho competente após instrução sumária."
       },
       {
         "letter": "B",
-        "text": "O desagravo público só pode ocorrer se a Dra. Helena ajuizar previamente queixa-crime por injúria contra o Secretário."
+        "text": "O desagravo público só pode ocorrer se a Dra. Helena ajuizar previamente queixa-crime por injúria contra o Secretário, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "C",
-        "text": "Caso Helena celebre acordo financeiro com o Secretário e peça o arquivamento, o Conselho da OAB é obrigado a cancelar o desagravo."
+        "text": "Caso Helena celebre acordo financeiro com o Secretário e peça o arquivamento, o Conselho da OAB é obrigado a cancelar o desagravo, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "D",
-        "text": "O pedido de desagravo deve ser julgado no prazo máximo de 180 dias, sem caráter urgente."
+        "text": "O pedido de desagravo deve ser julgado no prazo máximo de 180 dias, sem caráter urgente, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       }
     ],
     "correctAnswer": "A",
@@ -1508,15 +1508,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Suspensão automática de todos os processos em que atue por 180 dias, mesmo havendo outros advogados substabelecidos na procuração."
+        "text": "Suspensão automática de todos os processos em que atue por 180 dias, mesmo havendo outros advogados substabelecidos na procuração, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "C",
-        "text": "Apenas preferência em audiências durante a gestação, sem extensão à adotante ou ao período pós-parto."
+        "text": "Apenas preferência em audiências durante a gestação, sem extensão à adotante ou ao período pós-parto, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "D",
-        "text": "Dispensa de passar por aparelhos de raios X e detectores de metais aplica-se apenas à gestante, jamais à lactante."
+        "text": "Dispensa de passar por aparelhos de raios X e detectores de metais aplica-se apenas à gestante, jamais à lactante, sob pena de configuração de infração ético-disciplinar apurável no órgão competente. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       }
     ],
     "correctAnswer": "A",
@@ -1559,19 +1559,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto o locupletamento à custa do cliente/recusa injustificada de prestar contas quanto a retenção abusiva ou extravio culposo de autos são puníveis com pena de SUSPENSÃO, prorrogável no caso de falta de prestação de contas até que satisfaça integralmente a dívida."
+        "text": "Tanto o locupletamento à custa do cliente/recusa injustificada de prestar contas quanto a retenção abusiva ou extravio culposo de autos são puníveis com pena de suspensão, prorrogável no caso de falta de prestação de contas até que satisfaça integralmente a dívida."
       },
       {
         "letter": "B",
-        "text": "Ambas as condutas são puníveis apenas com censura convertida em advertência reservada por se tratar de primariedade."
+        "text": "Ambas as condutas são puníveis apenas com censura convertida em advertência reservada por se tratar de primariedade, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "C",
-        "text": "O locupletamento ilícito acarreta exclusão imediata na primeira condenação disciplinar, dispensando reincidência."
+        "text": "O locupletamento ilícito acarreta exclusão imediata na primeira condenação disciplinar, dispensando reincidência, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "D",
-        "text": "Na falta de prestação de contas, a suspensão tem prazo máximo improrrogável de 12 meses, cessando automaticamente mesmo sem pagamento."
+        "text": "Na falta de prestação de contas, a suspensão tem prazo máximo improrrogável de 12 meses, cessando automaticamente mesmo sem pagamento. Tal conduta repercute na regularidade estatutária dos atos praticados pelo profissional."
       }
     ],
     "correctAnswer": "A",
@@ -1614,19 +1614,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A terceira suspensão é apenas convertida em suspensão por 24 meses, não gerando exclusão sem crime infamante."
+        "text": "A terceira suspensão é apenas convertida em suspensão por 24 meses, não gerando exclusão sem crime infamante, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "B",
-        "text": "A reabilitação disciplinar é vedada nos casos de exclusão, tratando-se de sanção perpétua."
+        "text": "A reabilitação disciplinar é vedada nos casos de exclusão, tratando-se de sanção perpétua, sem possibilidade de atuação concomitante diante do impedimento estatutário aplicável."
       },
       {
         "letter": "C",
-        "text": "A pena de exclusão pode ser aplicada por maioria simples de uma das Turmas do Tribunal de Ética e Disciplina."
+        "text": "A pena de exclusão pode ser aplicada por maioria simples de uma das Turmas do Tribunal de Ética e Disciplina, com vedação expressa à mercantilização da atividade e à captação indevida de clientela."
       },
       {
         "letter": "D",
-        "text": "Com a terceira suspensão, cabe a pena de EXCLUSÃO (mediante manifestação favorável de 2/3 dos membros do Conselho Seccional competente); a reabilitação pode ser requerida após 1 ano do cumprimento da sanção mediante provas efetivas de bom comportamento."
+        "text": "Com a terceira suspensão, cabe a pena de exclusão; a reabilitação pode ser requerida após 1 ano do cumprimento da sanção mediante provas efetivas de bom comportamento."
       }
     ],
     "correctAnswer": "D",
@@ -1669,15 +1669,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não houve prescrição, porque o prazo prescricional disciplinar da OAB é sempre de cinco anos, sem prescrição intercorrente."
+        "text": "Não houve prescrição, porque o prazo prescricional disciplinar da OAB é sempre de cinco anos, sem prescrição intercorrente. A observância desse parâmetro é fiscalizada diretamente pelo Conselho Seccional competente."
       },
       {
         "letter": "B",
-        "text": "O prazo quinquenal da pretensão punitiva começa a correr da data da prática da infração, mesmo que ignorada pela OAB."
+        "text": "O prazo quinquenal da pretensão punitiva começa a correr da data da prática da infração, mesmo que ignorada pela OAB, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "C",
-        "text": "A notificação inicial válida feita diretamente ao advogado não interrompe o prazo prescricional quinquenal."
+        "text": "A notificação inicial válida feita diretamente ao advogado não interrompe o prazo prescricional quinquenal, sob pena de configuração de infração ético-disciplinar apurável no órgão competente."
       },
       {
         "letter": "D",
@@ -1724,15 +1724,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A suspensão preventiva pode ser decretada liminarmente inaudita altera parte sem qualquer intimação prévia do acusado."
+        "text": "A suspensão preventiva pode ser decretada liminarmente inaudita altera parte sem qualquer intimação prévia do acusado, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "B",
-        "text": "A suspensão preventiva dura por prazo indeterminado até o trânsito em julgado final do processo criminal paralelo."
+        "text": "A suspensão preventiva dura por prazo indeterminado até o trânsito em julgado final do processo criminal paralelo, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "C",
-        "text": "A competência para decretar suspensão preventiva é do Conselho Seccional do local da infração, ainda que diverso da inscrição principal."
+        "text": "A competência para decretar suspensão preventiva é do Conselho Seccional do local da infração, ainda que diverso da inscrição principal, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "D",
@@ -1779,15 +1779,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Exclusivamente o Conselho Seccional de São Paulo, por ser o da inscrição principal do advogado."
+        "text": "Exclusivamente o Conselho Seccional de São Paulo, por ser o da inscrição principal do advogado, com validação imediata dos atos profissionais independentemente de formalidade complementar."
       },
       {
         "letter": "B",
-        "text": "O Conselho Federal da OAB diretamente, por envolver dois Estados distintos da Federação."
+        "text": "O Conselho Federal da OAB diretamente, por envolver dois Estados distintos da Federação, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "C",
-        "text": "A Subseção de Salvador julga definitivamente e aplica a pena de suspensão sem submeter ao TED estadual."
+        "text": "A Subseção de Salvador julga definitivamente e aplica a pena de suspensão sem submeter ao TED estadual, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "D",
@@ -1834,19 +1834,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A OAB é uma autarquia federal corporativa comum, sujeita ao regime jurídico único de seus servidores e à fiscalização contábil do TCU."
+        "text": "A OAB é uma autarquia federal corporativa comum, sujeita ao regime jurídico único de seus servidores e à fiscalização contábil do TCU, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "B",
-        "text": "A imunidade tributária da OAB restringe-se exclusivamente às anuidades recebidas de seus inscritos, incidindo IPTU sobre prédios alugados para finalidades da entidade."
+        "text": "A imunidade tributária da OAB restringe-se exclusivamente às anuidades recebidas de seus inscritos, incidindo IPTU sobre prédios alugados para finalidades da entidade, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       },
       {
         "letter": "C",
-        "text": "Por administrar contribuições anuais compulsórias, a OAB deve realizar licitações pela Lei nº 14.133/2021 para qualquer contratação."
+        "text": "Por administrar contribuições anuais compulsórias, a OAB deve realizar licitações pela Lei nº 14.133/2021 para qualquer contratação, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "D",
-        "text": "A OAB constitui serviço público independente, categoria ímpar, dotada de personalidade jurídica própria e forma federativa, não mantendo vínculo funcional ou hierárquico com a Administração Pública; goza de imunidade tributária total em seus bens/rendas/serviços e não se submete a concurso público (ADI 3.026) nem ao controle do TCU."
+        "text": "A OAB constitui serviço público independente, categoria ímpar, dotada de personalidade jurídica própria e forma federativa, não mantendo vínculo funcional ou hierárquico com a Administração Pública."
       }
     ],
     "correctAnswer": "D",
@@ -1890,11 +1890,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não é possível criar Subseção com menos de 50 advogados com inscrição principal na comarca."
+        "text": "Não é possível criar Subseção com menos de 50 advogados com inscrição principal na comarca, sob pena de configuração de infração ético-disciplinar apurável no órgão competente."
       },
       {
         "letter": "B",
-        "text": "Toda Subseção criada adquire personalidade jurídica própria no Cartório de Registro Civil das Pessoas Jurídicas."
+        "text": "Toda Subseção criada adquire personalidade jurídica própria no Cartório de Registro Civil das Pessoas Jurídicas, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "C",
@@ -1902,7 +1902,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Sim quanto à criação da Subseção, pois o mínimo estatutário é de 15 advogados domiciliados; contudo, a Subseção não possui personalidade jurídica própria nem orçamento totalmente desconectado (depende de dotação do Conselho Seccional), e o TED pertence ao Conselho Seccional, embora a Subseção possa instruir processos."
+        "text": "Sim quanto à criação da Subseção, pois o mínimo estatutário é de 15 advogados domiciliados."
       }
     ],
     "correctAnswer": "D",
@@ -1945,19 +1945,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O voto nas eleições da OAB é facultativo, aplicando-se multa apenas a membros de diretórios."
+        "text": "O voto nas eleições da OAB é facultativo, aplicando-se multa apenas a membros de diretórios, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "B",
-        "text": "Qualquer advogado com mais de 2 anos de inscrição pode candidatar-se a Presidente de Conselho Seccional."
+        "text": "Qualquer advogado com mais de 2 anos de inscrição pode candidatar-se a Presidente de Conselho Seccional, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "C",
-        "text": "A posse dos eleitos para o Conselho Federal ocorre na primeira quinzena de janeiro."
+        "text": "A posse dos eleitos para o Conselho Federal ocorre na primeira quinzena de janeiro, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "D",
-        "text": "O voto na OAB é obrigatório para todos os inscritos sob pena de multa de 20% do valor da anuidade (salvo ausência justificada por escrito); quanto à candidatura, exige-se situação regular junto à Tesouraria e mínimo de 3 anos de exercício efetivo para Conselheiro Seccional ou Subseção (e 5 anos para Diretoria/Conselheiro Federal)."
+        "text": "O voto na OAB é obrigatório para todos os inscritos sob pena de multa de 20% do valor da anuidade."
       }
     ],
     "correctAnswer": "D",
@@ -2000,19 +2000,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A conduta é punida exclusivamente com multa pecuniária de até dez anuidades, sem restrição ao exercício profissional."
+        "text": "A conduta é punida exclusivamente com multa pecuniária de até dez anuidades, sem restrição ao exercício profissional, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "B",
-        "text": "Como houve assinatura do cliente no termo de acordo por indução a erro, o TED fica impedido de instaurar processo ético."
+        "text": "Como houve assinatura do cliente no termo de acordo por indução a erro, o TED fica impedido de instaurar processo ético, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "C",
-        "text": "Não há concurso possível entre processo ético na OAB e ação penal por patrocínio infiel por configurar bis in idem."
+        "text": "Não há concurso possível entre processo ético na OAB e ação penal por patrocínio infiel por configurar bis in idem, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "D",
-        "text": "Configura infração disciplinar de prejudicar, por culpa grave, interesse confiado ao seu patrocínio ou locupletar-se/conluio com a parte contrária (Art. 34, IX e XVII), sujeita à pena de censura (culpa grave) ou suspensão (se houver locupletamento/conluio doloso), além de eventual exclusão por crime infamante após condenação."
+        "text": "Configura infração disciplinar de prejudicar, por culpa grave, interesse confiado ao seu patrocínio ou locupletar-se/conluio com a parte contrária, sujeita à pena de censura (culpa grave) ou suspensão."
       }
     ],
     "correctAnswer": "D",
@@ -2055,15 +2055,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A imunidade profissional do advogado abrange também os crimes de calúnia e desacato em audiência."
+        "text": "A imunidade profissional do advogado abrange também os crimes de calúnia e desacato em audiência, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "B",
-        "text": "A imunidade profissional protege apenas manifestações orais em audiência, não alcançando peças escritas ou pareceres extrajudiciais."
+        "text": "A imunidade profissional protege apenas manifestações orais em audiência, não alcançando peças escritas ou pareceres extrajudiciais, sob pena de configuração de infração ético-disciplinar apurável no órgão competente."
       },
       {
         "letter": "C",
-        "text": "Havendo excesso verbal contra a parte contrária, o próprio juiz da causa aplica pena disciplinar de suspensão da OAB diretamente na sentença."
+        "text": "Havendo excesso verbal contra a parte contrária, o próprio juiz da causa aplica pena disciplinar de suspensão da OAB diretamente na sentença, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "D",
@@ -2110,15 +2110,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É válida a exigência de procuração escrita prévia para entrevista em estabelecimento prisional de segurança máxima."
+        "text": "É válida a exigência de procuração escrita prévia para entrevista em estabelecimento prisional de segurança máxima, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "B",
-        "text": "Se o preso estiver submetido ao Regime Disciplinar Diferenciado (RDD), o direito de entrevista reservada passa a depender de monitoramento por áudio."
+        "text": "Se o preso estiver submetido ao Regime Disciplinar Diferenciado (rdd), o direito de entrevista reservada passa a depender de monitoramento por áudio, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "C",
-        "text": "Em estabelecimentos militares, a prerrogativa de atendimento sem procuração não se aplica por força da disciplina castrense."
+        "text": "Em estabelecimentos militares, a prerrogativa de atendimento sem procuração não se aplica por força da disciplina castrense, sob pena de configuração de infração ético-disciplinar apurável no órgão competente. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "D",
@@ -2165,11 +2165,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não fere prerrogativa, pois a organização administrativa de cada vara pode restringir despachos a apenas um dia da semana."
+        "text": "Não fere prerrogativa, pois a organização administrativa de cada vara pode restringir despachos a apenas um dia da semana. A observância desse parâmetro é fiscalizada diretamente pelo Conselho Seccional competente."
       },
       {
         "letter": "B",
-        "text": "O advogado só tem direito de entrar no gabinete do juiz se estiver acompanhado do escrivão ou de oficial de justiça."
+        "text": "O advogado só tem direito de entrar no gabinete do juiz se estiver acompanhado do escrivão ou de oficial de justiça, sem necessidade de prévia autorização da Seccional competente ou deliberação do conselho. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "C",
@@ -2177,7 +2177,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A prerrogativa de ingresso livre permite ao advogado entrar sem autorização na sala reservada do cartório de distribuição sem respeitar o balcão."
+        "text": "A prerrogativa de ingresso livre permite ao advogado entrar sem autorização na sala reservada do cartório de distribuição sem respeitar o balcão, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       }
     ],
     "correctAnswer": "C",
@@ -2220,11 +2220,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Retirar-se imediatamente após 15 minutos de atraso sem necessidade de qualquer protocolo escrito."
+        "text": "Retirar-se imediatamente após 15 minutos de atraso sem necessidade de qualquer protocolo escrito, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "B",
-        "text": "Aplicar o direito de retirada mesmo quando o juiz já estiver presente na sala realizando a audiência anterior atrasada."
+        "text": "Aplicar o direito de retirada mesmo quando o juiz já estiver presente na sala realizando a audiência anterior atrasada, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "C",
@@ -2232,7 +2232,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A retirada gera revelia automática da parte defendida se o juiz chegar 40 minutos depois."
+        "text": "A retirada gera revelia automática da parte defendida se o juiz chegar 40 minutos depois, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       }
     ],
     "correctAnswer": "C",
@@ -2275,19 +2275,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pode aceitar livremente desde que o processo novo não seja o mesmo em que atuou anteriormente."
+        "text": "Pode aceitar livremente desde que o processo novo não seja o mesmo em que atuou anteriormente, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "B",
-        "text": "A vedação ética de advogar contra ex-cliente dura apenas seis meses após o término do contrato anterior."
+        "text": "A vedação ética de advogar contra ex-cliente dura apenas seis meses após o término do contrato anterior, sem possibilidade de atuação concomitante diante do impedimento estatutário aplicável."
       },
       {
         "letter": "C",
-        "text": "Não pode aceitar, pois sobrevindo conflito de interesses entre seus constituintes e não estando acordes os interessados, não deve aceitar o patrocínio, além de dever resguardar o segredo profissional obtido no vínculo anterior (\"advocacia contra ex-cliente\" em matéria conexa ou com uso de informações privilegiadas)."
+        "text": "Não pode aceitar, pois sobrevindo conflito de interesses entre seus constituintes e não estando acordes os interessados, não deve aceitar o patrocínio."
       },
       {
         "letter": "D",
-        "text": "Pode aceitar desde que substabeleça o mandato no mesmo dia para um colega de seu próprio escritório."
+        "text": "Pode aceitar desde que substabeleça o mandato no mesmo dia para um colega de seu próprio escritório, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       }
     ],
     "correctAnswer": "C",
@@ -2330,19 +2330,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É plenamente lícito que o mesmo advogado atue como patrono nos autos e deponha como testemunha compromissada em favor do próprio cliente."
+        "text": "É plenamente lícito que o mesmo advogado atue como patrono nos autos e deponha como testemunha compromissada em favor do próprio cliente, sem necessidade de prévia autorização da Seccional competente ou deliberação do conselho."
       },
       {
         "letter": "B",
-        "text": "O advogado é obrigado a aceitar a imposição do cliente de trabalhar em conjunto com advogado indicado por este contra sua vontade."
+        "text": "O advogado é obrigado a aceitar a imposição do cliente de trabalhar em conjunto com advogado indicado por este contra sua vontade, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "C",
-        "text": "O advogado não é obrigado a aceitar a imposição de seu cliente que pretenda ver com ele atuando outros advogados, nem aceitar a indicação de outro profissional para com ele trabalhar no processo; ademais, não pode funcionar simultaneamente como patrono e testemunha no mesmo processo."
+        "text": "O advogado não é obrigado a aceitar a imposição de seu cliente que pretenda ver com ele atuando outros advogados, nem aceitar a indicação de outro profissional para com ele trabalhar no processo."
       },
       {
         "letter": "D",
-        "text": "Ao atuar como advogado em acordo extrajudicial entre cônjuges, pode posteriormente defender apenas um deles em ação litigiosa sobre o mesmo ajuste."
+        "text": "Ao atuar como advogado em acordo extrajudicial entre cônjuges, pode posteriormente defender apenas um deles em ação litigiosa sobre o mesmo ajuste, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       }
     ],
     "correctAnswer": "C",
@@ -2385,19 +2385,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A comissão paga a terceiros configura mera despesa comercial lícita se declarada na contabilidade do escritório."
+        "text": "A comissão paga a terceiros configura mera despesa comercial lícita se declarada na contabilidade do escritório, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "B",
-        "text": "Essas condutas acarretam diretamente pena de exclusão imediata dos quadros da Ordem."
+        "text": "Essas condutas acarretam diretamente pena de exclusão imediata dos quadros da Ordem, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "C",
-        "text": "Valer-se de agenciador de causas mediante participação nos honorários e angariar ou captar causas com ou sem intervenção de terceiros são infrações disciplinares puníveis com CENSURA."
+        "text": "Valer-se de agenciador de causas mediante participação nos honorários e angariar ou captar causas com ou sem intervenção de terceiros são infrações disciplinares puníveis com censura."
       },
       {
         "letter": "D",
-        "text": "Instalar ponto de atendimento dentro de repartição pública sem vínculo contratual é permitido se atender apenas idosos."
+        "text": "Instalar ponto de atendimento dentro de repartição pública sem vínculo contratual é permitido se atender apenas idosos, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       }
     ],
     "correctAnswer": "C",
@@ -2440,11 +2440,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A advertência em ofício reservado sempre fica averbada publicamente na carteira da OAB por 5 anos."
+        "text": "A advertência em ofício reservado sempre fica averbada publicamente na carteira da OAB por 5 anos, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "B",
-        "text": "Também a pena de suspensão de 30 dias pode ser convertida em advertência reservada caso o advogado seja primário."
+        "text": "Também a pena de suspensão de 30 dias pode ser convertida em advertência reservada caso o advogado seja primário, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       },
       {
         "letter": "C",
@@ -2452,7 +2452,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A presença de atenuante extingue a punibilidade do advogado primário, impondo absolvição sumária."
+        "text": "A presença de atenuante extingue a punibilidade do advogado primário, impondo absolvição sumária, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       }
     ],
     "correctAnswer": "C",
@@ -2495,11 +2495,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Primariedade apenas nos últimos dois anos e confissão espontânea com delação de colega do mesmo escritório."
+        "text": "Primariedade apenas nos últimos dois anos e confissão espontânea com delação de colega do mesmo escritório, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "B",
-        "text": "Idade superior a 60 anos e atuação exclusiva na advocacia pública ou dativa."
+        "text": "Idade superior a 60 anos e atuação exclusiva na advocacia pública ou dativa, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "C",
@@ -2507,7 +2507,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Ter obtido vitória final no mérito da ação judicial em que ocorreu a falta ética."
+        "text": "Ter obtido vitória final no mérito da ação judicial em que ocorreu a falta ética, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       }
     ],
     "correctAnswer": "C",
@@ -2550,11 +2550,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A multa pode ser aplicada em valor equivalente a até 50 anuidades nos casos de locupletamento grave."
+        "text": "A multa pode ser aplicada em valor equivalente a até 50 anuidades nos casos de locupletamento grave, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "B",
-        "text": "A multa pode ser aplicada cumulativamente com a pena de exclusão ou isoladamente como pena autônoma."
+        "text": "A multa pode ser aplicada cumulativamente com a pena de exclusão ou isoladamente como pena autônoma, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "C",
@@ -2562,7 +2562,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Os recursos contra decisões do TED não possuem efeito suspensivo em nenhuma hipótese, executando-se a suspensão imediatamente."
+        "text": "Os recursos contra decisões do TED não possuem efeito suspensivo em nenhuma hipótese, executando-se a suspensão imediatamente, com vedação expressa à mercantilização da atividade e à captação indevida de clientela."
       }
     ],
     "correctAnswer": "C",
@@ -2605,11 +2605,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os atos praticados por advogado suspenso são válidos se o cliente não tiver sido notificado da punição disciplinar."
+        "text": "Os atos praticados por advogado suspenso são válidos se o cliente não tiver sido notificado da punição disciplinar, sob pena de configuração de infração ético-disciplinar apurável no órgão competente."
       },
       {
         "letter": "B",
-        "text": "Os atos praticados pelo bacharel não inscrito são convalidados automaticamente no dia de sua futura inscrição na OAB."
+        "text": "Os atos praticados pelo bacharel não inscrito são convalidados automaticamente no dia de sua futura inscrição na OAB, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "C",
@@ -2617,7 +2617,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A nulidade atinge exclusivamente os atos processuais na Justiça Federal, sendo meramente anuláveis na Justiça Estadual."
+        "text": "A nulidade atinge exclusivamente os atos processuais na Justiça Federal, sendo meramente anuláveis na Justiça Estadual, com vedação expressa à mercantilização da atividade e à captação indevida de clientela. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       }
     ],
     "correctAnswer": "C",
@@ -2660,11 +2660,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Mesmo em causa própria, o advogado deve outorgar procuração a si mesmo e registrá-la em cartório."
+        "text": "Mesmo em causa própria, o advogado deve outorgar procuração a si mesmo e registrá-la em cartório, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       },
       {
         "letter": "B",
-        "text": "Em caso de urgência para terceiro, o prazo improrrogável para juntar o instrumento de mandato é de 5 dias."
+        "text": "Em caso de urgência para terceiro, o prazo improrrogável para juntar o instrumento de mandato é de 5 dias, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "C",
@@ -2672,7 +2672,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Para impetrar Habeas Corpus em favor de terceiro, o advogado precisa apresentar procuração em até 15 dias sob pena de extinção."
+        "text": "Para impetrar Habeas Corpus em favor de terceiro, o advogado precisa apresentar procuração em até 15 dias sob pena de extinção, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       }
     ],
     "correctAnswer": "C",
@@ -2715,7 +2715,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tem validade se o advogado atuar há mais de cinco anos para o mesmo cliente em causas semelhantes."
+        "text": "Tem validade se o advogado atuar há mais de cinco anos para o mesmo cliente em causas semelhantes, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "B",
@@ -2723,11 +2723,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A cláusula \"et extra\" supre automaticamente o poder de dar quitação e transigir em acordos judiciais."
+        "text": "A cláusula \"et extra\" supre automaticamente o poder de dar quitação e transigir em acordos judiciais, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "D",
-        "text": "Para interpor recurso de apelação, também se exige procuração com poder especial expresso."
+        "text": "Para interpor recurso de apelação, também se exige procuração com poder especial expresso, sem necessidade de prévia autorização da Seccional competente ou deliberação do conselho."
       }
     ],
     "correctAnswer": "B",
@@ -2770,7 +2770,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A advocacia pro bono só pode ser prestada a pessoas físicas em ações de família, sendo vedada a pessoas jurídicas sem fins lucrativos."
+        "text": "A advocacia pro bono só pode ser prestada a pessoas físicas em ações de família, sendo vedada a pessoas jurídicas sem fins lucrativos, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "B",
@@ -2778,11 +2778,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O advogado que atuar pro bono em favor de pessoa natural fica autorizado a cobrar honorários contratuais no mesmo processo caso o cliente ganhe."
+        "text": "O advogado que atuar pro bono em favor de pessoa natural fica autorizado a cobrar honorários contratuais no mesmo processo caso o cliente ganhe, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "D",
-        "text": "É lícita a utilização da atuação pro bono em propaganda eleitoral para demonstrar engajamento comunitário."
+        "text": "É lícita a utilização da atuação pro bono em propaganda eleitoral para demonstrar engajamento comunitário, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       }
     ],
     "correctAnswer": "B",
@@ -2825,7 +2825,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Correta apenas em relação aos Defensores Públicos, pois quanto aos Procuradores Municipais há isenção de inscrição."
+        "text": "Correta apenas em relação aos Defensores Públicos, pois quanto aos Procuradores Municipais há isenção de inscrição. Tal conduta repercute na regularidade estatutária dos atos praticados pelo profissional."
       },
       {
         "letter": "B",
@@ -2833,11 +2833,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Procuradores municipais são dispensados da anuidade por exercerem advocacia exclusivamente pública sem clientela privada."
+        "text": "Procuradores municipais são dispensados da anuidade por exercerem advocacia exclusivamente pública sem clientela privada, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "D",
-        "text": "O Procurador Municipal sofre incompatibilidade total para atuar até mesmo em favor do Município que o remunera."
+        "text": "O Procurador Municipal sofre incompatibilidade total para atuar até mesmo em favor do Município que o remunera, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       }
     ],
     "correctAnswer": "B",
@@ -2881,7 +2881,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Caixa de Assistência dos Advogados é órgão vinculado diretamente ao Ministério do Trabalho e Emprego."
+        "text": "A Caixa de Assistência dos Advogados é órgão vinculado diretamente ao Ministério do Trabalho e Emprego, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "B",
@@ -2889,11 +2889,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A assistência da CAA restringe-se exclusivamente a advogados aposentados com mais de 30 anos de inscrição."
+        "text": "A assistência da caa restringe-se exclusivamente a advogados aposentados com mais de 30 anos de inscrição, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       },
       {
         "letter": "D",
-        "text": "A CAA é criada automaticamente em toda Subseção que conte com pelo menos 15 advogados inscritos."
+        "text": "A caa é criada automaticamente em toda Subseção que conte com pelo menos 15 advogados inscritos, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       }
     ],
     "correctAnswer": "B",
@@ -2936,19 +2936,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A OAB deve primeiro propor ação ordinária de cobrança porque sua certidão não é título executivo extrajudicial."
+        "text": "A OAB deve primeiro propor ação ordinária de cobrança porque sua certidão não é título executivo extrajudicial. Tal conduta repercute na regularidade estatutária dos atos praticados pelo profissional."
       },
       {
         "letter": "B",
-        "text": "A certidão passada pela diretoria do Conselho competente constitui título executivo extrajudicial para cobrança das contribuições, multas e preços de serviços; ademais, a inadimplência reiterada à OAB enseja suspensão até a quitação integral, e não exclusão imediata."
+        "text": "A certidão passada pela diretoria do Conselho competente constitui título executivo extrajudicial para cobrança das contribuições, multas e preços de serviços."
       },
       {
         "letter": "C",
-        "text": "A cobrança judicial de anuidades da OAB tramita obrigatoriamente por execução fiscal na Justiça Federal sob o rito da Lei 6.830/80."
+        "text": "A cobrança judicial de anuidades da OAB tramita obrigatoriamente por execução fiscal na Justiça Federal sob o rito da Lei 6.830/80, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "D",
-        "text": "O advogado suspenso por falta de pagamento das anuidades permanece suspenso pelo prazo fixo de 12 meses, liberando-se mesmo sem pagar."
+        "text": "O advogado suspenso por falta de pagamento das anuidades permanece suspenso pelo prazo fixo de 12 meses, liberando-se mesmo sem pagar, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       }
     ],
     "correctAnswer": "B",
@@ -2991,7 +2991,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois a tabela de honorários da OAB é meramente sugestiva e não vincula o arbitramento de honorários dativos."
+        "text": "Sim, pois a tabela de honorários da OAB é meramente sugestiva e não vincula o arbitramento de honorários dativos. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "B",
@@ -2999,11 +2999,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O pagamento dos honorários dativos será custeado diretamente pela própria Seccional da OAB da comarca."
+        "text": "O pagamento dos honorários dativos será custeado diretamente pela própria Seccional da OAB da comarca, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão."
       },
       {
         "letter": "D",
-        "text": "Se houver acordo ou condenação em valor irrisório, o advogado dativo pode cobrar diferença diretamente do assistido beneficiário de justiça gratuita."
+        "text": "Se houver acordo ou condenação em valor irrisório, o advogado dativo pode cobrar diferença diretamente do assistido beneficiário de justiça gratuita, sem necessidade de prévia autorização da Seccional competente ou deliberação do conselho."
       }
     ],
     "correctAnswer": "B",
@@ -3046,7 +3046,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, porque o advogado tem direito real de retenção sobre documentos pessoais originais do cliente até quitação de qualquer crédito no escritório."
+        "text": "Sim, porque o advogado tem direito real de retenção sobre documentos pessoais originais do cliente até quitação de qualquer crédito no escritório. A observância desse parâmetro é fiscalizada diretamente pelo Conselho Seccional competente."
       },
       {
         "letter": "B",
@@ -3054,11 +3054,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A prestação de contas somente é exigível quando o valor levantado superar cem salários mínimos."
+        "text": "A prestação de contas somente é exigível quando o valor levantado superar cem salários mínimos, com autonomia plena do exercício profissional dentro do regime estatutário da advocacia."
       },
       {
         "letter": "D",
-        "text": "O mandato não se presume extinto após o arquivamento definitivo do processo, continuando o advogado obrigado a intimar o cliente anualmente."
+        "text": "O mandato não se presume extinto após o arquivamento definitivo do processo, continuando o advogado obrigado a intimar o cliente anualmente, com vedação expressa à mercantilização da atividade e à captação indevida de clientela."
       }
     ],
     "correctAnswer": "B",
@@ -3101,7 +3101,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pode protocolar nova procuração imediatamente e pedir a desabilitação do colega sem qualquer aviso prévio."
+        "text": "Pode protocolar nova procuração imediatamente e pedir a desabilitação do colega sem qualquer aviso prévio, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "B",
@@ -3109,11 +3109,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Somente pode assumir a causa se pagar ao advogado anterior a multa contratual devida pelo cliente."
+        "text": "Somente pode assumir a causa se pagar ao advogado anterior a multa contratual devida pelo cliente, com validação imediata dos atos profissionais independentemente de formalidade complementar."
       },
       {
         "letter": "D",
-        "text": "Deve exigir que o cliente primeiro renuncie à causa em cartório antes de consultar uma segunda opinião jurídica."
+        "text": "Deve exigir que o cliente primeiro renuncie à causa em cartório antes de consultar uma segunda opinião jurídica, com autonomia plena do exercício profissional dentro do regime estatutário da advocacia. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       }
     ],
     "correctAnswer": "B",
@@ -3156,19 +3156,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É proibido em qualquer hipótese manter o nome de sócio falecido na razão social da sociedade de advogados."
+        "text": "É proibido em qualquer hipótese manter o nome de sócio falecido na razão social da sociedade de advogados, com vedação expressa à mercantilização da atividade e à captação indevida de clientela."
       },
       {
         "letter": "B",
-        "text": "A razão social deve conter o nome de pelo menos um advogado responsável (podendo permanecer o de sócio falecido apenas se previsto no ato constitutivo), e toda publicidade profissional ou papel timbrado deve indicar o nome completo ou razão social e o número de inscrição na OAB."
+        "text": "A razão social deve conter o nome de pelo menos um advogado responsável, e toda publicidade profissional ou papel timbrado deve indicar o nome completo ou razão social e o número de inscrição na OAB."
       },
       {
         "letter": "C",
-        "text": "Não há exigência de informar o número de inscrição na OAB em cartões de visita ou sites profissionais."
+        "text": "Não há exigência de informar o número de inscrição na OAB em cartões de visita ou sites profissionais, em observância rigorosa aos deveres institucionais e às normas disciplinares da categoria. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "D",
-        "text": "É lícito incluir na placa do escritório o brasão da República e títulos de \"ex-juiz\" para credibilidade técnica."
+        "text": "É lícito incluir na placa do escritório o brasão da República e títulos de \"ex-juiz\" para credibilidade técnica, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       }
     ],
     "correctAnswer": "B",
@@ -3211,7 +3211,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Advogados são proibidos de participar de qualquer programa de televisão, rádio ou podcast jurídico."
+        "text": "Advogados são proibidos de participar de qualquer programa de televisão, rádio ou podcast jurídico, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "B",
@@ -3219,11 +3219,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O advogado pode comentar livremente nos meios de comunicação detalhes estratégicos de ações em andamento sob seu patrocínio para esclarecer a opinião pública."
+        "text": "O advogado pode comentar livremente nos meios de comunicação detalhes estratégicos de ações em andamento sob seu patrocínio para esclarecer a opinião pública, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       },
       {
         "letter": "D",
-        "text": "Pode divulgar em entrevista ao vivo lista nominal dos seus maiores clientes empresariais para atestar sua experiência."
+        "text": "Pode divulgar em entrevista ao vivo lista nominal dos seus maiores clientes empresariais para atestar sua experiência, com autonomia plena do exercício profissional dentro do regime estatutário da advocacia."
       }
     ],
     "correctAnswer": "B",
@@ -3266,19 +3266,19 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Compete ao Conselho Federal velar pela dignidade, independência, prerrogativas e valorização da advocacia, editar e alterar o Regulamento Geral, o Código de Ética e Disciplina e os Provimentos, além de julgar recursos e uniformizar a interpretação estatutária em todo o território nacional."
+        "text": "Compete ao Conselho Federal velar pela dignidade, independência, prerrogativas e valorização da advocacia, editar e alterar o Regulamento Geral, o Código de Ética e Disciplina e os Provimentos."
       },
       {
         "letter": "B",
-        "text": "O Conselho Federal atua apenas como órgão consultivo sem poder normativo sobre os Conselhos Seccionais."
+        "text": "O Conselho Federal atua apenas como órgão consultivo sem poder normativo sobre os Conselhos Seccionais, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "C",
-        "text": "Compete ao Ministério da Justiça homologar as alterações do Código de Ética aprovadas pelo CFOAB."
+        "text": "Compete ao Ministério da Justiça homologar as alterações do Código de Ética aprovadas pelo CFOAB, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "D",
-        "text": "Os recursos disciplinares ao Conselho Federal são julgados sempre pelo Supremo Tribunal Federal em última instância."
+        "text": "Os recursos disciplinares ao Conselho Federal são julgados sempre pelo Supremo Tribunal Federal em última instância, com autonomia plena do exercício profissional dentro do regime estatutário da advocacia."
       }
     ],
     "correctAnswer": "A",
@@ -3325,15 +3325,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O juiz da própria ação declaratória condena imediatamente o advogado solidariamente na mesma sentença por perdas e danos."
+        "text": "O juiz da própria ação declaratória condena imediatamente o advogado solidariamente na mesma sentença por perdas e danos, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "C",
-        "text": "O advogado jamais responde civilmente por lide temerária se o cliente tiver assinado a petição inicial em conjunto."
+        "text": "O advogado jamais responde civilmente por lide temerária se o cliente tiver assinado a petição inicial em conjunto, com vedação expressa à mercantilização da atividade e à captação indevida de clientela."
       },
       {
         "letter": "D",
-        "text": "O juiz deve declarar a suspensão automática da OAB do advogado na sentença que reconhecer a má-fé."
+        "text": "O juiz deve declarar a suspensão automática da OAB do advogado na sentença que reconhecer a má-fé, observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional."
       }
     ],
     "correctAnswer": "A",
@@ -3380,15 +3380,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Sim, porque a prerrogativa do Art. 7º, XIII, aplica-se apenas a processos judiciais do Poder Judiciário."
+        "text": "Sim, porque a prerrogativa, aplica-se apenas a processos judiciais do Poder Judiciário. A observância desse parâmetro é fiscalizada diretamente pelo Conselho Seccional competente."
       },
       {
         "letter": "C",
-        "text": "A obtenção de fotografias ou cópias pelo próprio advogado com aparelho celular depende sempre de procuração nos autos não sigilosos."
+        "text": "A obtenção de fotografias ou cópias pelo próprio advogado com aparelho celular depende sempre de procuração nos autos não sigilosos, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "D",
-        "text": "Em processos findos sob sigilo, o advogado com procuração pode retirar os autos em carga rápida por 24 horas sem autorização."
+        "text": "Em processos findos sob sigilo, o advogado com procuração pode retirar os autos em carga rápida por 24 horas sem autorização, com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar."
       }
     ],
     "correctAnswer": "A",
@@ -3435,15 +3435,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A presença do advogado no inquérito policial tem caráter estritamente passivo, não podendo formular quesitos nem apresentar razões."
+        "text": "A presença do advogado no inquérito policial tem caráter estritamente passivo, não podendo formular quesitos nem apresentar razões, em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       },
       {
         "letter": "C",
-        "text": "A violação dessa prerrogativa gera apenas nulidade relativa, exigindo prova de prejuízo econômico para anulação do ato."
+        "text": "A violação dessa prerrogativa gera apenas nulidade relativa, exigindo prova de prejuízo econômico para anulação do ato, em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local."
       },
       {
         "letter": "D",
-        "text": "O advogado não pode assistir o cliente em inquérito civil público ou procedimento administrativo disciplinar sob o mesmo fundamento."
+        "text": "O advogado não pode assistir o cliente em inquérito civil público ou procedimento administrativo disciplinar sob o mesmo fundamento, em observância rigorosa aos deveres institucionais e às normas disciplinares da categoria."
       }
     ],
     "correctAnswer": "A",
@@ -3486,11 +3486,11 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todos os prazos necessários à manifestação de advogados, estagiários e terceiros nos processos em geral da OAB são de 15 dias úteis; da decisão não unânime do Conselho Seccional (ou quando contrariar o Estatuto/CED/Provimentos/decisão de outro Conselho), cabe recurso ao Conselho Federal."
+        "text": "Todos os prazos necessários à manifestação de advogados, estagiários e terceiros nos processos em geral da OAB são de 15 dias úteis."
       },
       {
         "letter": "B",
-        "text": "O prazo recursal nos processos disciplinares da OAB é de 5 dias corridos a contar da juntada do mandado."
+        "text": "O prazo recursal nos processos disciplinares da OAB é de 5 dias corridos a contar da juntada do mandado, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente."
       },
       {
         "letter": "C",
@@ -3498,7 +3498,7 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A contagem dos prazos processuais da OAB inicia-se sempre no mesmo dia da publicação eletrônica."
+        "text": "A contagem dos prazos processuais da OAB inicia-se sempre no mesmo dia da publicação eletrônica, com autonomia plena do exercício profissional dentro do regime estatutário da advocacia."
       }
     ],
     "correctAnswer": "A",
@@ -3545,15 +3545,15 @@ export const ETICA_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Basta averbar a filial na OAB/SP, sem necessidade de arquivamento em Minas Gerais nem de inscrição suplementar dos sócios."
+        "text": "Basta averbar a filial na OAB/SP, sem necessidade de arquivamento em Minas Gerais nem de inscrição suplementar dos sócios, com vedação expressa à mercantilização da atividade e à captação indevida de clientela."
       },
       {
         "letter": "C",
-        "text": "Apenas o sócio gerente precisa de inscrição suplementar em Minas Gerais; os demais sócios permanecem inscritos apenas em São Paulo."
+        "text": "Apenas o sócio gerente precisa de inscrição suplementar em Minas Gerais; os demais sócios permanecem inscritos apenas em São Paulo. A observância desse parâmetro é fiscalizada diretamente pelo Conselho Seccional competente."
       },
       {
         "letter": "D",
-        "text": "Uma sociedade unipessoal de advocacia não pode abrir filial em outra unidade da federação."
+        "text": "Uma sociedade unipessoal de advocacia não pode abrir filial em outra unidade da federação, sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente. Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito."
       }
     ],
     "correctAnswer": "A",

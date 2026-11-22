@@ -17,19 +17,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, porque toda prestação pecuniária compulsória instituída em lei e cobrada mediante atividade vinculada é tributo."
+        "text": "Sim, porque toda prestação pecuniária compulsória instituída em lei e cobrada mediante atividade vinculada é tributo. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "B",
-        "text": "Não configura tributo, pois o Art. 3º do CTN define tributo como prestação pecuniária compulsória que NÃO constitua sanção de ato ilícito."
+        "text": "Não configura tributo, pois o Art. 3º do CTN define tributo como prestação pecuniária compulsória que não constitua sanção de ato ilícito."
       },
       {
         "letter": "C",
-        "text": "Configura tributo apenas se puder ser quitada mediante dação em pagamento de bens móveis."
+        "text": "Configura tributo apenas se puder ser quitada mediante dação em pagamento de bens móveis, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "D",
-        "text": "Configura tributo municipal atípico desde que sua arrecadação seja vinculada a fundo ambiental."
+        "text": "Configura tributo municipal atípico desde que sua arrecadação seja vinculada a fundo ambiental, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       }
     ],
     "correctAnswer": "B",
@@ -72,7 +72,7 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A denominação conferida pelo legislador (\"Taxa\") vincula o Poder Judiciário na classificação tributária."
+        "text": "A denominação conferida pelo legislador (\"Taxa\") vincula o Poder Judiciário na classificação tributária, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "B",
@@ -80,11 +80,11 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A destinação integral para segurança pública valida a cobrança como contribuição de melhoria estadual."
+        "text": "A destinação integral para segurança pública valida a cobrança como contribuição de melhoria estadual, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "D",
-        "text": "Como segurança pública é serviço público divisível, admite cobrança por taxa vinculada ao valor venal do imóvel."
+        "text": "Como segurança pública é serviço público divisível, admite cobrança por taxa vinculada ao valor venal do imóvel, sujeita à repartição constitucional de receitas e à competência tributária do ente federado. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       }
     ],
     "correctAnswer": "B",
@@ -127,19 +127,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto a competência tributária quanto a capacidade tributária ativa são livremente delegáveis por convênio entre entes federados."
+        "text": "Tanto a competência tributária quanto a capacidade tributária ativa são livremente delegáveis por convênio entre entes federados, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "B",
-        "text": "A transferência da competência tributária (poder de instituir e legislar) é nula por ser indelegável, mas o cometimento a pessoa jurídica de direito privado do encargo ou função de arrecadar tributos é plenamente válido e não constitui delegação de competência."
+        "text": "A transferência da competência tributária é nula por ser indelegável, mas o cometimento a pessoa jurídica de direito privado do encargo ou função de arrecadar tributos é plenamente válido e não constitui delegação de competência."
       },
       {
         "letter": "C",
-        "text": "É nulo o cometimento da simples função de arrecadar tributos a banco privado por violar o monopólio estatal da capacidade ativa."
+        "text": "É nulo o cometimento da simples função de arrecadar tributos a banco privado por violar o monopólio estatal da capacidade ativa, sem configuração de hipótese de suspensão da exigibilidade nem de exclusão do crédito fiscal."
       },
       {
         "letter": "D",
-        "text": "O não exercício da competência tributária pelo Estado autoriza a União a exercê-la subsidiariamente em seu território."
+        "text": "O não exercício da competência tributária pelo Estado autoriza a União a exercê-la subsidiariamente em seu território, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       }
     ],
     "correctAnswer": "B",
@@ -182,19 +182,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas as taxas são inconstitucionais porque a área construída é elemento típico da base de cálculo do IPTU."
+        "text": "Ambas as taxas são inconstitucionais porque a área construída é elemento típico da base de cálculo do IPTU. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "B",
-        "text": "A taxa de coleta de lixo domiciliar calculada em função da área do imóvel é constitucional (Súmula Vinculante 29), mas a taxa de iluminação pública é inconstitucional porque o serviço de iluminação pública é indivisível (Súmula Vinculante 41), devendo ser custeado por contribuição específica (COSIP)."
+        "text": "A taxa de coleta de lixo domiciliar calculada em função da área do imóvel é constitucional, mas a taxa de iluminação pública é inconstitucional porque o serviço de iluminação pública é indivisível, devendo ser custeado por contribuição específica (COSIP)."
       },
       {
         "letter": "C",
-        "text": "A taxa de iluminação pública é constitucional porque beneficia diretamente os moradores da rua iluminada."
+        "text": "A taxa de iluminação pública é constitucional porque beneficia diretamente os moradores da rua iluminada. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "D",
-        "text": "A taxa de fiscalização pelo exercício do poder de polícia exige comprovação de visita presencial anual em cada estabelecimento."
+        "text": "A taxa de fiscalização pelo exercício do poder de polícia exige comprovação de visita presencial anual em cada estabelecimento, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       }
     ],
     "correctAnswer": "B",
@@ -238,19 +238,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É válido porque o ente público deve recuperar 100% do custo total da obra rateado igualmente entre os imóveis lindeiros."
+        "text": "É válido porque o ente público deve recuperar 100% do custo total da obra rateado igualmente entre os imóveis lindeiros. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "B",
-        "text": "É inválido por dupla razão: o limite individual da contribuição de melhoria é o acréscimo de valor que da obra resultar para cada imóvel (R$ 30.000,00, e não R$ 40.000,00), além de exigir publicação prévia do memorial descritivo e orçamento do custo antes da cobrança."
+        "text": "É inválido por dupla razão: o limite individual da contribuição de melhoria é o acréscimo de valor que da obra resultar para cada imóvel."
       },
       {
         "letter": "C",
-        "text": "A contribuição de melhoria dispensa publicação de edital prévio se a obra for declarada urgente pelo prefeito."
+        "text": "A contribuição de melhoria dispensa publicação de edital prévio se a obra for declarada urgente pelo prefeito, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "D",
-        "text": "A mera realização de obra pública gera presunção absoluta de valorização imobiliária para fins de lançamento."
+        "text": "A mera realização de obra pública gera presunção absoluta de valorização imobiliária para fins de lançamento, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       }
     ],
     "correctAnswer": "B",
@@ -293,19 +293,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É constitucional quanto à Medida Provisória porque o Art. 148, I, dispensa anterioridade em calamidade pública."
+        "text": "É constitucional quanto à Medida Provisória porque o Art. 148, I, dispensa anterioridade em calamidade pública. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "B",
-        "text": "É inconstitucional por duas razões: o empréstimo compulsório exige obrigatoriamente Lei Complementar da União (vedada Medida Provisória), e sua restituição deve ocorrer na mesma espécie em que foi recolhido (moeda), conforme jurisprudência do STF; por outro lado, o caso de calamidade pública dispensa anterioridade."
+        "text": "É inconstitucional por duas razões: o empréstimo compulsório exige obrigatoriamente Lei Complementar da União, e sua restituição deve ocorrer na mesma espécie em que foi recolhido (moeda), conforme jurisprudência do STF."
       },
       {
         "letter": "C",
-        "text": "Os Estados atingidos pela enchente poderiam instituir empréstimo compulsório estadual caso a União permanecesse inerte."
+        "text": "Os Estados atingidos pela enchente poderiam instituir empréstimo compulsório estadual caso a União permanecesse inerte, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "D",
-        "text": "A arrecadação do empréstimo compulsório não fica vinculada à despesa que fundamentou sua instituição."
+        "text": "A arrecadação do empréstimo compulsório não fica vinculada à despesa que fundamentou sua instituição, com impedimento à fruição imediata de imunidade ou isenção condicionada no caso concreto."
       }
     ],
     "correctAnswer": "B",
@@ -348,7 +348,7 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Estados podem instituir Contribuição de Intervenção no Domínio Econômico (CIDE) sobre combustíveis vendidos em seu território."
+        "text": "Os Estados podem instituir Contribuição de Intervenção no Domínio Econômico (CIDE) sobre combustíveis vendidos em seu território, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "B",
@@ -356,11 +356,11 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A COSIP pode ser cobrada apenas na fatura de consumo de energia elétrica residencial, vedada a inclusão de sistemas de monitoramento de logradouros públicos."
+        "text": "A COSIP pode ser cobrada apenas na fatura de consumo de energia elétrica residencial, vedada a inclusão de sistemas de monitoramento de logradouros públicos, com vedação à analogia ou equidade para exigir tributo ou dispensar crédito sem previsão legal. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "D",
-        "text": "As contribuições sociais sobre o faturamento sujeitam-se exclusivamente à anterioridade anual do exercício financeiro seguinte."
+        "text": "As contribuições sociais sobre o faturamento sujeitam-se exclusivamente à anterioridade anual do exercício financeiro seguinte, com possibilidade de instituição ou majoração de alíquota mediante ato normativo infralegal."
       }
     ],
     "correctAnswer": "B",
@@ -403,19 +403,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nenhum imposto pode ter sua alíquota alterada por decreto do Executivo em hipótese alguma."
+        "text": "Nenhum imposto pode ter sua alíquota alterada por decreto do Executivo em hipótese alguma, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "B",
-        "text": "O decreto que aumentou alíquotas de II e IOF é constitucional (exceção à legalidade estrita prevista no Art. 153, § 1º, da CF), mas a atualização da base de cálculo acima dos índices oficiais de correção monetária equivale a majoração de tributo e exige lei formal (Art. 97, § 2º, CTN e Súmula 160 STJ)."
+        "text": "O decreto que aumentou alíquotas de II e IOF é constitucional, mas a atualização da base de cálculo acima dos índices oficiais de correção monetária equivale a majoração de tributo e exige lei formal."
       },
       {
         "letter": "C",
-        "text": "A simples fixação do prazo de vencimento e pagamento do tributo também se submete à reserva absoluta de lei formal."
+        "text": "A simples fixação do prazo de vencimento e pagamento do tributo também se submete à reserva absoluta de lei formal, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "D",
-        "text": "Apenas o IPI e a CIDE-Combustíveis podem ser reduzidos e restabelecidos por decreto presidencial; II e IOF exigem lei ordinária."
+        "text": "Apenas o IPI e a CIDE-Combustíveis podem ser reduzidos e restabelecidos por decreto presidencial; II e IOF exigem lei ordinária. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       }
     ],
     "correctAnswer": "B",
@@ -463,15 +463,15 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O IR pode ser exigido já em 1º de janeiro de 2025 (submete-se apenas à anterioridade anual, não à nonagesimal); o IPI após 90 dias da publicação (submete-se apenas à nonagesimal, não à anual); e a CSLL igualmente após 90 dias (contribuição da seguridade social tem anterioridade mitigada nonagesimal do Art. 195, § 6º)."
+        "text": "O IR pode ser exigido já em 1º de janeiro de 2025; o IPI após 90 dias da publicação; e a CSLL igualmente após 90 dias."
       },
       {
         "letter": "C",
-        "text": "A majoração do Imposto de Renda publicada em 15 de dezembro só entra em vigor em 15 de março do ano seguinte por força da noventena."
+        "text": "A majoração do Imposto de Renda publicada em 15 de dezembro só entra em vigor em 15 de março do ano seguinte por força da noventena, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "D",
-        "text": "A mera antecipação do prazo de recolhimento do tributo sem aumento de valor exige respeito à noventena e à anterioridade anual."
+        "text": "A mera antecipação do prazo de recolhimento do tributo sem aumento de valor exige respeito à noventena e à anterioridade anual, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       }
     ],
     "correctAnswer": "B",
@@ -515,19 +515,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A lei que reduziu a multa aplica-se retroativamente ao ato pretérito ainda não definitivamente julgado (retroatividade benigna do Art. 106, II, \"c\", CTN), enquanto a criação do novo imposto não pode retroagir para atingir fatos passados."
+        "text": "A lei que reduziu a multa aplica-se retroativamente ao ato pretérito ainda não definitivamente julgado, enquanto a criação do novo imposto não pode retroagir para atingir fatos passados."
       },
       {
         "letter": "B",
-        "text": "Nenhuma lei tributária pode retroagir em hipótese alguma, inclusive quanto a multas mais benéficas em processos em andamento."
+        "text": "Nenhuma lei tributária pode retroagir em hipótese alguma, inclusive quanto a multas mais benéficas em processos em andamento, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "C",
-        "text": "A redução da alíquota do imposto (e não da multa) também retroage aos processos administrativos pendentes pelo Art. 106 do CTN."
+        "text": "A redução da alíquota do imposto (e não da multa) também retroage aos processos administrativos pendentes, sem configuração de hipótese de suspensão da exigibilidade nem de exclusão do crédito fiscal."
       },
       {
         "letter": "D",
-        "text": "Se a multa de 100% já havia sido quitada pelo contribuinte ou objeto de decisão judicial transitada em julgado, a lei nova obriga à restituição da diferença de 70%."
+        "text": "Se a multa de 100% já havia sido quitada pelo contribuinte ou objeto de decisão judicial transitada em julgado, a lei nova obriga à restituição da diferença de 70%, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       }
     ],
     "correctAnswer": "A",
@@ -570,15 +570,15 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas a empresa pública delegatária de serviço público obrigatório e exclusivo do Estado sem intuito lucrativo concorrencial faz jus à imunidade recíproca (jurisprudência do STF); a sociedade de economia mista com ações em bolsa e finalidade lucrativa não goza de imunidade."
+        "text": "Apenas a empresa pública delegatária de serviço público obrigatório e exclusivo do Estado sem intuito lucrativo concorrencial faz jus à imunidade recíproca."
       },
       {
         "letter": "B",
-        "text": "Nenhuma empresa pública ou sociedade de economia mista goza de imunidade recíproca, que é exclusiva dos entes políticos e suas autarquias."
+        "text": "Nenhuma empresa pública ou sociedade de economia mista goza de imunidade recíproca, que é exclusiva dos entes políticos e suas autarquias, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "C",
-        "text": "Ambas as entidades têm direito automático à imunidade recíproca porque pertencem indiretamente à União."
+        "text": "Ambas as entidades têm direito automático à imunidade recíproca porque pertencem indiretamente à União. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "D",
@@ -626,15 +626,15 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O imóvel próprio da igreja alugado a terceiro continua imune ao IPTU desde que o valor dos aluguéis seja aplicado nas finalidades essenciais da entidade (Súmula Vinculante 52); já o templo alugado de proprietário particular também recebeu imunidade específica de IPTU pela EC nº 116/2022 (Art. 156, § 1º-A, CF)."
+        "text": "O imóvel próprio da igreja alugado a terceiro continua imune ao IPTU desde que o valor dos aluguéis seja aplicado nas finalidades essenciais da entidade."
       },
       {
         "letter": "B",
-        "text": "O imóvel da igreja alugado a terceiros perde a imunidade do IPTU por caracterizar exploração comercial."
+        "text": "O imóvel da igreja alugado a terceiros perde a imunidade do IPTU por caracterizar exploração comercial, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       },
       {
         "letter": "C",
-        "text": "A imunidade tributária religiosa abrange também taxas municipais de coleta de lixo e contribuições previdenciárias patronais."
+        "text": "A imunidade tributária religiosa abrange também taxas municipais de coleta de lixo e contribuições previdenciárias patronais, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "D",
@@ -682,19 +682,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A imunidade cultural de livros, jornais, periódicos e papel destinado à sua impressão abrange também os livros eletrônicos (e-books) e os suportes exclusivamente utilizados para fixá-los (como e-readers dedicados), conforme Súmula Vinculante 57 do STF, não alcançando filmes cinematográficos."
+        "text": "A imunidade cultural de livros, jornais, periódicos e papel destinado à sua impressão abrange também os livros eletrônicos (e-books) e os suportes exclusivamente utilizados para fixá-los, pois não alcançando filmes cinematográficos."
       },
       {
         "letter": "B",
-        "text": "A imunidade do Art. 150, VI, \"d\", restringe-se exclusivamente a livros impressos em papel, tributando-se e-books."
+        "text": "A imunidade, restringe-se exclusivamente a livros impressos em papel, tributando-se e-books. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "C",
-        "text": "A imunidade cultural estende-se também ao Imposto de Renda sobre os lucros da editora e ao IPTU do galpão da gráfica."
+        "text": "A imunidade cultural estende-se também ao Imposto de Renda sobre os lucros da editora e ao IPTU do galpão da gráfica, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       },
       {
         "letter": "D",
-        "text": "Tablets multifuncionais comuns de uso genérico são igualmente abrangidos pela imunidade cultural por permitirem leitura de PDF."
+        "text": "Tablets multifuncionais comuns de uso genérico são igualmente abrangidos pela imunidade cultural por permitirem leitura de pdf, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       }
     ],
     "correctAnswer": "A",
@@ -738,19 +738,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Gozam de imunidade os fonogramas e videofonogramas musicais produzidos no Brasil contendo obras musicais ou literomusicais de autores brasileiros e/ou obras em geral interpretadas por artistas brasileiros, bem como os suportes materiais ou arquivos digitais que os contenham, SALVO na etapa de replicação industrial de mídias ópticas de leitura a laser."
+        "text": "Gozam de imunidade os fonogramas e videofonogramas musicais produzidos no Brasil contendo obras musicais ou literomusicais de autores brasileiros e/ou obras em geral interpretadas por artistas brasileiros."
       },
       {
         "letter": "B",
-        "text": "A imunidade protege inclusive a etapa de replicação industrial de mídias ópticas de leitura a laser em todo o país."
+        "text": "A imunidade protege inclusive a etapa de replicação industrial de mídias ópticas de leitura a laser em todo o país, sujeita à repartição constitucional de receitas e à competência tributária do ente federado. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte."
       },
       {
         "letter": "C",
-        "text": "A imunidade abrange músicas instrumentais estrangeiras executadas por orquestras internacionais gravadas no exterior."
+        "text": "A imunidade abrange músicas instrumentais estrangeiras executadas por orquestras internacionais gravadas no exterior, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "D",
-        "text": "Arquivos digitais baixados pela internet ficam excluídos da imunidade musical, restrita a CDs e vinis."
+        "text": "Arquivos digitais baixados pela internet ficam excluídos da imunidade musical, restrita a CDs e vinis, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       }
     ],
     "correctAnswer": "A",
@@ -793,19 +793,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "São inconstitucionais, pois cabe exclusivamente à Lei Complementar da União estabelecer normas gerais em matéria de legislação tributária, especialmente sobre obrigação, lançamento, crédito, prescrição e decadência tributários (Súmula Vinculante 8)."
+        "text": "São inconstitucionais, pois cabe exclusivamente à Lei Complementar da União estabelecer normas gerais em matéria de legislação tributária, especialmente sobre obrigação, lançamento, crédito, prescrição e decadência tributários."
       },
       {
         "letter": "B",
-        "text": "São válidas porque cada ente federado tem autonomia legislativa para fixar prazos de decadência de seus próprios tributos por lei ordinária."
+        "text": "São válidas porque cada ente federado tem autonomia legislativa para fixar prazos de decadência de seus próprios tributos por lei ordinária. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "C",
-        "text": "Apenas os prazos de prescrição exigem Lei Complementar; os prazos de decadência podem ser alterados por lei ordinária estadual."
+        "text": "Apenas os prazos de prescrição exigem Lei Complementar; os prazos de decadência podem ser alterados por lei ordinária estadual. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "D",
-        "text": "O Código Tributário Nacional foi recepcionado formalmente com status de mera lei ordinária federal."
+        "text": "O Código Tributário Nacional foi recepcionado formalmente com status de mera lei ordinária federal, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte."
       }
     ],
     "correctAnswer": "A",
@@ -849,11 +849,11 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, conforme tese de repercussão geral do STF (Tema 201), é devida a restituição da diferença do ICMS pago a mais no regime de substituição tributária para frente se a base de cálculo efetiva da operação for inferior à presumida."
+        "text": "Sim, pois é devida a restituição da diferença do ICMS pago a mais no regime de substituição tributária para frente se a base de cálculo efetiva da operação for inferior à presumida."
       },
       {
         "letter": "B",
-        "text": "Não, pois a restituição prevista no Art. 150, § 7º, só ocorre se o fato gerador presumido não se realizar de forma alguma (perda total da mercadoria)."
+        "text": "Não, pois a restituição, só ocorre se o fato gerador presumido não se realizar de forma alguma (perda total da mercadoria). Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "C",
@@ -861,7 +861,7 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A substituição tributária para frente foi declarada inconstitucional pelo STF por presumir fato gerador futuro."
+        "text": "A substituição tributária para frente foi declarada inconstitucional pelo STF por presumir fato gerador futuro, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       }
     ],
     "correctAnswer": "A",
@@ -909,15 +909,15 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Em ambas as hipóteses, o fato gerador ocorre apenas no momento do implemento final da condição."
+        "text": "Em ambas as hipóteses, o fato gerador ocorre apenas no momento do implemento final da condição, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "C",
-        "text": "Se o negócio jurídico envolver compra de mercadoria ilícita (contrabando), o tributo não pode incidir por vedação moral."
+        "text": "Se o negócio jurídico envolver compra de mercadoria ilícita (contrabando), o tributo não pode incidir por vedação moral, em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal."
       },
       {
         "letter": "D",
-        "text": "Na condição suspensiva, o tributo deve ser recolhido antecipadamente em janeiro sob pena de mora."
+        "text": "Na condição suspensiva, o tributo deve ser recolhido antecipadamente em janeiro sob pena de mora, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       }
     ],
     "correctAnswer": "A",
@@ -960,19 +960,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois embora o contribuinte possa eleger seu domicílio tributário, a autoridade administrativa pode recusar o domicílio eleito quando impossibilite ou dificulte a arrecadação ou a fiscalização do tributo, aplicando-se as regras subsidiárias do Art. 127."
+        "text": "Sim, pois embora o contribuinte possa eleger seu domicílio tributário, a autoridade administrativa pode recusar o domicílio eleito quando impossibilite ou dificulte a arrecadação ou a fiscalização do tributo, aplicando-se as regras subsidiárias."
       },
       {
         "letter": "B",
-        "text": "Não, porque a liberdade de escolha do domicílio tributário pelo contribuinte é absoluta e vincula o Fisco."
+        "text": "Não, porque a liberdade de escolha do domicílio tributário pelo contribuinte é absoluta e vincula o Fisco. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "C",
-        "text": "Caso o contribuinte pessoa física não faça eleição de domicílio, aplica-se sempre o local da sede da Receita Federal mais próxima."
+        "text": "Caso o contribuinte pessoa física não faça eleição de domicílio, aplica-se sempre o local da sede da Receita Federal mais próxima, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "D",
-        "text": "Quando o domicílio eleito é recusado pelo Fisco, considera-se automaticamente como domicílio o endereço residencial do sócio minoritário."
+        "text": "Quando o domicílio eleito é recusado pelo Fisco, considera-se automaticamente como domicílio o endereço residencial do sócio minoritário, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       }
     ],
     "correctAnswer": "A",
@@ -1015,19 +1015,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Beta responde INTEGRALMENTE pelos tributos devidos até a data do ato, relativos ao estabelecimento adquirido, porque o alienante (Alfa) cessou a exploração do comércio, indústria ou atividade."
+        "text": "Beta responde integralmente pelos tributos devidos até a data do ato, relativos ao estabelecimento adquirido, porque o alienante (Alfa) cessou a exploração do comércio, indústria ou atividade."
       },
       {
         "letter": "B",
-        "text": "Beta responde apenas subsidiariamente com Alfa, mesmo após o encerramento total das atividades da vendedora."
+        "text": "Beta responde apenas subsidiariamente com Alfa, mesmo após o encerramento total das atividades da vendedora, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "C",
-        "text": "Mesmo que Beta tivesse adquirido o estabelecimento em leilão judicial de falência ou recuperação judicial (sem fraude nem vínculo societário), responderia integralmente."
+        "text": "Mesmo que Beta tivesse adquirido o estabelecimento em leilão judicial de falência ou recuperação judicial (sem fraude nem vínculo societário), responderia integralmente, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       },
       {
         "letter": "D",
-        "text": "A cláusula contratual particular prevendo que Alfa assumirá todas as dívidas passadas exclui a cobrança fiscal contra Beta."
+        "text": "A cláusula contratual particular prevendo que Alfa assumirá todas as dívidas passadas exclui a cobrança fiscal contra Beta, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       }
     ],
     "correctAnswer": "A",
@@ -1070,19 +1070,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque apenas o simples inadimplemento de tributo declarado já basta para redirecionar a execução fiscal contra todos os sócios."
+        "text": "Não, porque apenas o simples inadimplemento de tributo declarado já basta para redirecionar a execução fiscal contra todos os sócios. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "B",
-        "text": "O redirecionamento por dissolução irregular atinge inclusive o sócio cotista minoritário sem poderes de administração nem gerência na época dos fatos."
+        "text": "O redirecionamento por dissolução irregular atinge inclusive o sócio cotista minoritário sem poderes de administração nem gerência na época dos fatos, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "C",
-        "text": "O redirecionamento exige prévia instauração de Incidente de Desconsideração da Personalidade Jurídica (IDPJ) previsto no CPC na execução fiscal fundada no Art. 135 CTN."
+        "text": "O redirecionamento exige prévia instauração de Incidente de Desconsideração da Personalidade Jurídica (IDPJ) previsto no CPC na execução fiscal fundada, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       },
       {
         "letter": "D",
-        "text": "Sim, pois embora o mero inadimplemento do tributo não gere responsabilidade solidária do sócio-gerente (Súmula 430 STJ), a dissolução irregular da sociedade presume-se ocorrida quando deixa de funcionar no domicílio fiscal sem comunicação, autorizando o redirecionamento (Súmula 435 STJ)."
+        "text": "Sim, pois embora o mero inadimplemento do tributo não gere responsabilidade solidária do sócio-gerente, a dissolução irregular da sociedade presume-se ocorrida quando deixa de funcionar no domicílio fiscal sem comunicação, autorizando o redirecionamento."
       }
     ],
     "correctAnswer": "D",
@@ -1126,19 +1126,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos configuram denúncia espontânea porque não havia auto de infração lavrado no momento do requerimento."
+        "text": "Ambos configuram denúncia espontânea porque não havia auto de infração lavrado no momento do requerimento. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte."
       },
       {
         "letter": "B",
-        "text": "Apenas o parcelamento afasta a denúncia espontânea, sendo cabível no pagamento à vista do tributo já declarado em DCTF."
+        "text": "Apenas o parcelamento afasta a denúncia espontânea, sendo cabível no pagamento à vista do tributo já declarado em dctf, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "C",
-        "text": "A denúncia espontânea exclui até mesmo os juros de mora e a correção monetária devidos pelo atraso."
+        "text": "A denúncia espontânea exclui até mesmo os juros de mora e a correção monetária devidos pelo atraso, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "D",
-        "text": "Nenhum dos dois casos configura denúncia espontânea: o benefício do Art. 138 não se aplica aos tributos sujeitos a lançamento por homologação regularmente declarados e pagos a destempo (Súmula 360 STJ), nem quando o contribuinte obtém mero parcelamento em vez de pagamento integral."
+        "text": "Nenhum dos dois casos configura denúncia espontânea: o benefício não se aplica aos tributos sujeitos a lançamento por homologação regularmente declarados e pagos a destempo, nem quando o contribuinte obtém mero parcelamento em vez de pagamento integral."
       }
     ],
     "correctAnswer": "D",
@@ -1182,19 +1182,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos os lançamentos podem ser revistos retroativamente de ofício enquanto não prescrita a execução fiscal."
+        "text": "Ambos os lançamentos podem ser revistos retroativamente de ofício enquanto não prescrita a execução fiscal, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "B",
-        "text": "O lançamento regularmente notificado não pode ser alterado em nenhuma hipótese pela autoridade administrativa."
+        "text": "O lançamento regularmente notificado não pode ser alterado em nenhuma hipótese pela autoridade administrativa, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "C",
-        "text": "Erro de direito do próprio agente fiscal autoriza cobrança complementar retroativa de cinco anos com multa de ofício."
+        "text": "Erro de direito do próprio agente fiscal autoriza cobrança complementar retroativa de cinco anos com multa de ofício, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "D",
-        "text": "A revisão por erro de fato (desconhecimento da edificação existente) é admitida no Art. 149, VIII, do CTN dentro do prazo decadencial; já a modificação nos critérios jurídicos adotados pela autoridade no exercício do lançamento somente pode ser efetivada quanto a fatos geradores posteriores à sua introdução (Art. 146 CTN)."
+        "text": "A revisão por erro de fato é admitida dentro do prazo decadencial; já a modificação nos critérios jurídicos adotados pela autoridade no exercício do lançamento somente pode ser efetivada quanto a fatos geradores posteriores à sua introdução."
       }
     ],
     "correctAnswer": "D",
@@ -1237,15 +1237,15 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deferido, porque o ingresso em juízo questionando o tributo já impede automaticamente a Fazenda de exigir o crédito até o trânsito em julgado."
+        "text": "Deferido, porque o ingresso em juízo questionando o tributo já impede automaticamente a Fazenda de exigir o crédito até o trânsito em julgado. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "B",
-        "text": "O oferecimento de fiança bancária ou seguro garantia no bojo da ação anulatória suspende automaticamente a exigibilidade do crédito tributário nos termos do Art. 151."
+        "text": "O oferecimento de fiança bancária ou seguro garantia no bojo da ação anulatória suspende automaticamente a exigibilidade do crédito tributário, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "C",
-        "text": "É legítimo exigir depósito prévio obrigatório como condição de admissibilidade para discutir judicialmente qualquer tributo."
+        "text": "É legítimo exigir depósito prévio obrigatório como condição de admissibilidade para discutir judicialmente qualquer tributo, com possibilidade de instituição ou majoração de alíquota mediante ato normativo infralegal."
       },
       {
         "letter": "D",
@@ -1293,19 +1293,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o mandado de segurança é via inadequada apenas para declaração de direito à compensação, mas a liminar autoriza o encontro de contas imediato."
+        "text": "Sim, pois o mandado de segurança é via inadequada apenas para declaração de direito à compensação, mas a liminar autoriza o encontro de contas imediato. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte."
       },
       {
         "letter": "B",
-        "text": "A compensação de créditos tributários decorre automaticamente do Código Civil, dispensando autorização legal específica de cada ente tributante."
+        "text": "A compensação de créditos tributários decorre automaticamente do Código Civil, dispensando autorização legal específica de cada ente tributante, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "C",
-        "text": "A compensação de débitos tributários com precatórios vencidos é automática em qualquer ente federado sem lei autorizativa local."
+        "text": "A compensação de débitos tributários com precatórios vencidos é automática em qualquer ente federado sem lei autorizativa local, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "D",
-        "text": "Não, pois o Art. 170-A do CTN veda expressamente a compensação mediante o aproveitamento de tributo, objeto de contestação judicial pelo sujeito passivo, antes do trânsito em julgado da respectiva decisão judicial (Súmula 212 do STJ)."
+        "text": "Não, pois a legislação aplicável veda expressamente a compensação mediante o aproveitamento de tributo, objeto de contestação judicial pelo sujeito passivo, antes do trânsito em julgado da respectiva decisão judicial."
       }
     ],
     "correctAnswer": "D",
@@ -1349,19 +1349,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em ambos os meses, conta-se sempre da data do fato gerador por se tratar de tributo sujeito a lançamento por homologação."
+        "text": "Em ambos os meses, conta-se sempre da data do fato gerador por se tratar de tributo sujeito a lançamento por homologação, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "B",
-        "text": "Caso o contribuinte tenha declarado o débito em GIA/DCTF sem pagar, inicia-se prazo decadencial de 5 anos para o Fisco lançar de ofício."
+        "text": "Caso o contribuinte tenha declarado o débito em gia/dctf sem pagar, inicia-se prazo decadencial de 5 anos para o Fisco lançar de ofício, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "C",
-        "text": "Existindo dolo, fraude ou simulação com pagamento parcial, aplica-se a contagem mais benéfica da data do fato gerador."
+        "text": "Existindo dolo, fraude ou simulação com pagamento parcial, aplica-se a contagem mais benéfica da data do fato gerador. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "D",
-        "text": "Para março de 2019 (nenhum pagamento antecipado e sem declaração), o prazo de 5 anos conta-se do primeiro dia do exercício seguinte àquele em que o lançamento poderia ter sido efetuado (1º/01/2020, vencendo em 31/12/2024 — Art. 173, I e Súmula 555 STJ); para maio de 2019 (pagamento parcial a menor sem fraude), conta-se da data do fato gerador (Art. 150, § 4º)."
+        "text": "Para março de 2019, o prazo de 5 anos conta-se do primeiro dia do exercício seguinte àquele em que o lançamento poderia ter sido efetuado; para maio de 2019, conta-se da data do fato gerador."
       }
     ],
     "correctAnswer": "D",
@@ -1405,19 +1405,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ocorreu prescrição consumada em 10/04/2023 porque a citação pessoal do devedor não ocorreu dentro de cinco anos."
+        "text": "Ocorreu prescrição consumada em 10/04/2023 porque a citação pessoal do devedor não ocorreu dentro de cinco anos. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "B",
-        "text": "O protesto extrajudicial da Certidão de Dívida Ativa não interrompe a prescrição tributária em nenhuma hipótese."
+        "text": "O protesto extrajudicial da Certidão de Dívida Ativa não interrompe a prescrição tributária em nenhuma hipótese, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       },
       {
         "letter": "C",
-        "text": "A inscrição em dívida ativa suspende a prescrição por 180 dias mesmo para créditos de natureza estritamente tributária."
+        "text": "A inscrição em dívida ativa suspende a prescrição por 180 dias mesmo para créditos de natureza estritamente tributária, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "D",
-        "text": "Não ocorreu prescrição, desde que a demora não seja imputável à Fazenda, pois conforme o Art. 174, parágrafo único, I, do CTN (após LC 118/2005) e Súmula 106 do STJ, o despacho do juiz que ordenar a citação interrompe a prescrição retroagindo à data da propositura da ação (Art. 240, § 1º, CPC)."
+        "text": "Não ocorreu prescrição, desde que a demora não seja imputável à Fazenda, pois (após LC 118/2005) e Súmula 106 do STJ, o despacho do juiz que ordenar a citação interrompe a prescrição retroagindo à data da propositura da ação."
       }
     ],
     "correctAnswer": "D",
@@ -1461,7 +1461,7 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não ocorreu, porque o prazo de 5 anos só começa após a publicação de decisão formal declarando o arquivamento provisório."
+        "text": "Não ocorreu, porque o prazo de 5 anos só começa após a publicação de decisão formal declarando o arquivamento provisório. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte."
       },
       {
         "letter": "B",
@@ -1469,11 +1469,11 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Qualquer petição da Fazenda pedindo nova consulta ao Sisbajud sem encontrar bens interrompe a prescrição intercorrente."
+        "text": "Qualquer petição da Fazenda pedindo nova consulta ao Sisbajud sem encontrar bens interrompe a prescrição intercorrente, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "D",
-        "text": "Sim, pois o prazo de 1 ano de suspensão inicia-se automaticamente da ciência da Fazenda acerca da não localização do devedor ou de bens penhoráveis; findo 1 ano, inicia-se automaticamente o prazo quinquenal da prescrição intercorrente, independentemente de intimação ou despacho formal de arquivamento (Tema 566/567 STJ e Súmula 314)."
+        "text": "Sim, pois o prazo de 1 ano de suspensão inicia-se automaticamente da ciência da Fazenda acerca da não localização do devedor ou de bens penhoráveis."
       }
     ],
     "correctAnswer": "D",
@@ -1517,19 +1517,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois toda isenção tributária é precária e pode ser revogada a qualquer tempo por lei superveniente, observada apenas a anterioridade."
+        "text": "Sim, pois toda isenção tributária é precária e pode ser revogada a qualquer tempo por lei superveniente, observada apenas a anterioridade. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "B",
-        "text": "A revogação imediata da isenção obriga ao respeito à anterioridade nonagesimal em qualquer espécie tributária."
+        "text": "A revogação imediata da isenção obriga ao respeito à anterioridade nonagesimal em qualquer espécie tributária, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "C",
-        "text": "A isenção tributária dispensa o contribuinte também do cumprimento de obrigações acessórias, como emissão de notas fiscais."
+        "text": "A isenção tributária dispensa o contribuinte também do cumprimento de obrigações acessórias, como emissão de notas fiscais, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "D",
-        "text": "Não, pois a isenção concedida por prazo certo e em função de determinadas condições não pode ser revogada ou modificada por lei a qualquer tempo (Art. 178 CTN e Súmula 544 STF), gerando direito adquirido até o fim dos 10 anos."
+        "text": "Não, pois a isenção concedida por prazo certo e em função de determinadas condições não pode ser revogada ou modificada por lei a qualquer tempo, gerando direito adquirido até o fim dos 10 anos."
       }
     ],
     "correctAnswer": "D",
@@ -1573,19 +1573,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Lei A concedeu anistia e a Lei B concedeu remissão fiscal."
+        "text": "A Lei A concedeu anistia e a Lei B concedeu remissão fiscal, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "B",
-        "text": "A anistia abrange inclusive os crimes de sonegação fiscal e infrações praticadas com dolo, fraude ou simulação sem exceção legal."
+        "text": "A anistia abrange inclusive os crimes de sonegação fiscal e infrações praticadas com dolo, fraude ou simulação sem exceção legal, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "C",
-        "text": "Tanto a remissão quanto a anistia são causas de suspensão da exigibilidade do crédito tributário."
+        "text": "Tanto a remissão quanto a anistia são causas de suspensão da exigibilidade do crédito tributário, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       },
       {
         "letter": "D",
-        "text": "A Lei A concedeu REMISSÃO (causa de extinção do crédito tributário que alcança o débito tributário em si); a Lei B concedeu ANISTIA (causa de exclusão do crédito tributário que abrange exclusivamente as infrações/penalidades pecuniárias cometidas antes da lei)."
+        "text": "A Lei A concedeu remissão (causa de extinção do crédito tributário que alcança o débito tributário em si)."
       }
     ],
     "correctAnswer": "D",
@@ -1628,19 +1628,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O contribuinte de direito sempre tem legitimidade automática para receber a restituição mesmo tendo repassado integralmente o tributo ao consumidor sem autorização."
+        "text": "O contribuinte de direito sempre tem legitimidade automática para receber a restituição mesmo tendo repassado integralmente o tributo ao consumidor sem autorização, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       },
       {
         "letter": "B",
-        "text": "O prazo para pleitear a restituição judicial nos tributos sujeitos a lançamento por homologação é de 10 anos (tese dos 5 + 5)."
+        "text": "O prazo para pleitear a restituição judicial nos tributos sujeitos a lançamento por homologação é de 10 anos (tese dos 5 + 5), com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte."
       },
       {
         "letter": "C",
-        "text": "A restituição de tributos indiretos que comportem transferência do encargo financeiro somente será feita a quem prove haver assumido o referido encargo, ou, no caso de tê-lo transferido a terceiro, estar por este expressamente autorizado a recebê-la (Art. 166 CTN); no caso de consumidor final de energia elétrica, o STJ reconhece excepcionalmente a legitimidade do usuário (contribuinte de fato) na TUST/TUSD/demanda contratada."
+        "text": "A restituição de tributos indiretos que comportem transferência do encargo financeiro somente será feita a quem prove haver assumido o referido encargo, ou, no caso de tê-lo transferido a terceiro, estar por este expressamente autorizado a recebê-la."
       },
       {
         "letter": "D",
-        "text": "Os juros de mora na repetição de indébito tributário são devidos desde a data do pagamento indevido."
+        "text": "Os juros de mora na repetição de indébito tributário são devidos desde a data do pagamento indevido, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       }
     ],
     "correctAnswer": "C",
@@ -1684,19 +1684,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na execução fora da falência, o crédito com garantia real hipotecária prefere ao crédito tributário."
+        "text": "Na execução fora da falência, o crédito com garantia real hipotecária prefere ao crédito tributário, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "B",
-        "text": "Mantém-se plenamente válida a ordem do Art. 187, parágrafo único, dando preferência absoluta da União sobre Estados e destes sobre Municípios."
+        "text": "Mantém-se plenamente válida a ordem, dando preferência absoluta da União sobre Estados e destes sobre Municípios, com legitimação do lançamento de ofício e inscrição imediata do débito em dívida ativa."
       },
       {
         "letter": "C",
-        "text": "O crédito tributário prefere a qualquer outro (inclusive hipoteca), ressalvados os créditos decorrentes da legislação do trabalho ou de acidente de trabalho; ademais, o STF na ADPF 357 declarou NÃO recepcionada pela CF/88 a ordem hierárquica entre entes políticos (União > Estados > Municípios), inexistindo preferência de ente sobre ente."
+        "text": "O crédito tributário prefere a qualquer outro, ressalvados os créditos decorrentes da legislação do trabalho ou de acidente de trabalho."
       },
       {
         "letter": "D",
-        "text": "Na falência, a multa tributária prefere a todos os créditos quirografários e aos créditos com garantia real."
+        "text": "Na falência, a multa tributária prefere a todos os créditos quirografários e aos créditos com garantia real, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       }
     ],
     "correctAnswer": "C",
@@ -1740,19 +1740,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O ICMS tem seletividade absolutamente obrigatória como o IPI, mas permite alíquota máxima de 35% sobre energia elétrica pelo consumo supérfluo."
+        "text": "O ICMS tem seletividade absolutamente obrigatória como o IPI, mas permite alíquota máxima de 35% sobre energia elétrica pelo consumo supérfluo, com responsabilidade solidária automática dos sócios e administradores da pessoa jurídica."
       },
       {
         "letter": "B",
-        "text": "O STF determinou a devolução automática e irrestrita de todas as diferenças pagas nos últimos 20 anos sem modulação de efeitos."
+        "text": "O STF determinou a devolução automática e irrestrita de todas as diferenças pagas nos últimos 20 anos sem modulação de efeitos, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "C",
-        "text": "Adotada a técnica da seletividade no ICMS, as alíquotas sobre as operações com energia elétrica e serviços de telecomunicação não podem ser superiores às das operações em geral, em razão de sua essencialidade (Tema 745 do STF e LC 194/2022)."
+        "text": "Adotada a técnica da seletividade no ICMS, as alíquotas sobre as operações com energia elétrica e serviços de telecomunicação não podem ser superiores às das operações em geral, em razão de sua essencialidade."
       },
       {
         "letter": "D",
-        "text": "A essencialidade impede a cobrança de qualquer ICMS sobre energia elétrica acima de 200 kWh."
+        "text": "A essencialidade impede a cobrança de qualquer ICMS sobre energia elétrica acima de 200 kWh, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       }
     ],
     "correctAnswer": "C",
@@ -1796,19 +1796,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É devida apenas quando a transferência ocorrer entre filiais situadas em Estados diferentes (operação interestadual)."
+        "text": "É devida apenas quando a transferência ocorrer entre filiais situadas em Estados diferentes (operação interestadual), com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "B",
-        "text": "Sem incidência de ICMS na saída interestadual, todos os créditos fiscais das etapas anteriores devem ser obrigatoriamente estornados."
+        "text": "Sem incidência de ICMS na saída interestadual, todos os créditos fiscais das etapas anteriores devem ser obrigatoriamente estornados, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       },
       {
         "letter": "C",
-        "text": "Não é devida, pois não constitui fato gerador do ICMS o simples deslocamento de mercadoria de um para outro estabelecimento do mesmo contribuinte (Súmula 166 STJ e ADC 49 do STF), assegurada a manutenção e transferência dos créditos na forma da LC 204/2023."
+        "text": "Não é devida, pois não constitui fato gerador do ICMS o simples deslocamento de mercadoria de um para outro estabelecimento do mesmo contribuinte, assegurada a manutenção e transferência dos créditos."
       },
       {
         "letter": "D",
-        "text": "A não incidência aplica-se apenas quando o transporte for realizado por frota própria da empresa."
+        "text": "A não incidência aplica-se apenas quando o transporte for realizado por frota própria da empresa, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       }
     ],
     "correctAnswer": "C",
@@ -1852,19 +1852,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sobre software padronizado vendido por download incide exclusivamente ICMS estadual por ser mercadoria."
+        "text": "Sobre software padronizado vendido por download incide exclusivamente ICMS estadual por ser mercadoria, com legitimação do lançamento de ofício e inscrição imediata do débito em dívida ativa."
       },
       {
         "letter": "B",
-        "text": "A locação de máquinas e veículos sem motorista sofre incidência de ISS porque consta da lista anexa da LC 116/2003."
+        "text": "A locação de máquinas e veículos sem motorista sofre incidência de ISS porque consta da lista anexa da LC 116/2003. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte."
       },
       {
         "letter": "C",
-        "text": "Incide ISS sobre software (padronizado ou sob encomenda e SaaS - ADI 5659 STF), sobre franquia (Tema 300 STF) e sobre leasing financeiro (Tema 125 STF); NÃO incide ISS sobre locação pura de bens móveis sem fornecimento de serviço (Súmula Vinculante 31 STF)."
+        "text": "Incide ISS sobre software, sobre franquia e sobre leasing financeiro; não incide ISS sobre locação pura de bens móveis sem fornecimento de serviço."
       },
       {
         "letter": "D",
-        "text": "O contrato de franquia empresarial é isento de ISS por envolver cessão de marca e know-how."
+        "text": "O contrato de franquia empresarial é isento de ISS por envolver cessão de marca e know-how, com vedação à analogia ou equidade para exigir tributo ou dispensar crédito sem previsão legal."
       }
     ],
     "correctAnswer": "C",
@@ -1908,19 +1908,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Lei 1 é inconstitucional porque a Súmula 668 do STF proíbe qualquer forma de progressividade fiscal no IPTU mesmo após a EC 29/2000."
+        "text": "A Lei 1 é inconstitucional porque a Súmula 668 do STF proíbe qualquer forma de progressividade fiscal no IPTU mesmo após a EC 29/2000. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte."
       },
       {
         "letter": "B",
-        "text": "A progressividade no tempo pode ser aplicada diretamente pelo prefeito por decreto independentemente de Plano Diretor."
+        "text": "A progressividade no tempo pode ser aplicada diretamente pelo prefeito por decreto independentemente de Plano Diretor, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "C",
-        "text": "A Lei 1 é constitucional (Art. 156, § 1º, I e II, CF pós-EC 29/2000), enquanto a Lei 2 é inconstitucional porque a progressividade extrafiscal no tempo exige prévia inclusão em área definida no Plano Diretor, parcelamento/edificação compulsórios e descumprimento prévio de notificação (Art. 182, § 4º)."
+        "text": "A Lei 1 é constitucional, enquanto a Lei 2 é inconstitucional porque a progressividade extrafiscal no tempo exige prévia inclusão em área definida no Plano Diretor, parcelamento/edificação compulsórios e descumprimento prévio de notificação."
       },
       {
         "letter": "D",
-        "text": "A diferenciação de alíquotas conforme o uso residencial ou comercial do imóvel é vedada pelo princípio da isonomia."
+        "text": "A diferenciação de alíquotas conforme o uso residencial ou comercial do imóvel é vedada pelo princípio da isonomia, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       }
     ],
     "correctAnswer": "C",
@@ -1964,19 +1964,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A imunidade do ITBI cobre o valor total do imóvel independentemente do capital subscrito, ainda que a atividade preponderante da empresa seja compra e venda de imóveis."
+        "text": "A imunidade do ITBI cobre o valor total do imóvel independentemente do capital subscrito, ainda que a atividade preponderante da empresa seja compra e venda de imóveis, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "B",
-        "text": "O Município pode fixar unilateralmente pauta fiscal (valor venal de referência) vinculante para o ITBI superior ao valor declarado pelo comprador sem processo administrativo."
+        "text": "O Município pode fixar unilateralmente pauta fiscal (valor venal de referência) vinculante para o ITBI superior ao valor declarado pelo comprador sem processo administrativo, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "C",
-        "text": "A imunidade do ITBI na integralização de bens ao capital social (Art. 156, § 2º, I) não alcança o valor dos bens que exceder o limite do capital social a ser integralizado (Tema 796 STF), incidindo ITBI sobre os R$ 300.000,00 excedentes; ademais, a base de cálculo ordinária do ITBI é o valor da transação em condições normais de mercado (Tema 1113 STJ), não vinculado à base do IPTU."
+        "text": "A imunidade do ITBI na integralização de bens ao capital social não alcança o valor dos bens que exceder o limite do capital social a ser integralizado, incidindo ITBI sobre os R$ 300.000,00 excedentes."
       },
       {
         "letter": "D",
-        "text": "O ITBI incide já na assinatura de compromisso particular de compra e venda irretratável, antes do registro no Cartório de Imóveis."
+        "text": "O ITBI incide já na assinatura de compromisso particular de compra e venda irretratável, antes do registro no Cartório de Imóveis, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       }
     ],
     "correctAnswer": "C",
@@ -2020,19 +2020,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Estados continuam proibidos pela EC 132/2023 de adotar alíquotas progressivas no ITCMD."
+        "text": "Os Estados continuam proibidos pela EC 132/2023 de adotar alíquotas progressivas no ITCMD, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "B",
-        "text": "Na sucessão de bens imóveis situados no Brasil, o ITCMD compete ao Estado do domicílio do herdeiro beneficiado."
+        "text": "Na sucessão de bens imóveis situados no Brasil, o ITCMD compete ao Estado do domicílio do herdeiro beneficiado, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "C",
-        "text": "A EC nº 132/2023 tornou obrigatória a progressividade do ITCMD em razão do valor do quinhão/doação, fixou a competência para bens móveis/títulos/créditos no Estado onde era domiciliado o de cujus (ou doador), e autorizou provisoriamente a cobrança quando o falecido/doador ou bens estejam no exterior até edição de Lei Complementar (superando para frente o Tema 825 STF)."
+        "text": "A EC nº 132/2023 tornou obrigatória a progressividade do ITCMD em razão do valor do quinhão/doação, fixou a competência para bens móveis/títulos/créditos no Estado onde era domiciliado o de cujus (ou doador), e autorizou provisoriamente a cobrança quando o falecido/doador ou bens estejam no exterior até edição de Lei Complementar."
       },
       {
         "letter": "D",
-        "text": "Para doação de bens móveis, títulos e créditos no território nacional, o ITCMD compete ao Estado onde se processou o inventário do doador falecido."
+        "text": "Para doação de bens móveis, títulos e créditos no território nacional, o ITCMD compete ao Estado onde se processou o inventário do doador falecido. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       }
     ],
     "correctAnswer": "C",
@@ -2076,11 +2076,11 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A EC 132/2023 manteve a proibição absoluta de incidência de IPVA sobre iates, lanchas e jatinhos particulares."
+        "text": "A EC 132/2023 manteve a proibição absoluta de incidência de IPVA sobre iates, lanchas e jatinhos particulares, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "B",
-        "text": "A EC 132/2023 tornou obrigatório o IPVA sobre tratores e colheitadeiras agrícolas em todo o território nacional."
+        "text": "A EC 132/2023 tornou obrigatório o IPVA sobre tratores e colheitadeiras agrícolas em todo o território nacional, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "C",
@@ -2088,7 +2088,7 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O IPVA sobre aeronaves privadas pertence integralmente aos Municípios onde o aeroporto estiver situado."
+        "text": "O IPVA sobre aeronaves privadas pertence integralmente aos Municípios onde o aeroporto estiver situado, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       }
     ],
     "correctAnswer": "C",
@@ -2131,19 +2131,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O IBS federal (substituindo IPI e IRPJ) e a CBS municipal (substituindo IPTU e ITBI)."
+        "text": "O ibs federal (substituindo IPI e IRPJ) e a cbs municipal (substituindo IPTU e ITBI), com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "B",
-        "text": "O IBS será instituído livremente por leis ordinárias independentes de cada um dos 5.570 municípios brasileiros com alíquotas próprias e fatos geradores distintos."
+        "text": "O ibs será instituído livremente por leis ordinárias independentes de cada um dos 5.570 municípios brasileiros com alíquotas próprias e fatos geradores distintos, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "C",
-        "text": "A Contribuição sobre Bens e Serviços (CBS), de competência da União (substituindo PIS e Cofins), e o Imposto sobre Bens e Serviços (IBS), de competência compartilhada entre Estados, Distrito Federal e Municípios (substituindo ICMS e ISS), ambos regidos por não cumulatividade plena e cobrança no destino."
+        "text": "A Contribuição sobre Bens e Serviços (cbs), de competência da União, e o Imposto sobre Bens e Serviços (ibs), de competência compartilhada entre Estados, Distrito Federal e Municípios, ambos regidos por não cumulatividade plena e cobrança no destino."
       },
       {
         "letter": "D",
-        "text": "Tanto o IBS quanto a CBS adotam o princípio da cobrança na origem (Estado produtor da mercadoria)."
+        "text": "Tanto o ibs quanto a cbs adotam o princípio da cobrança na origem (Estado produtor da mercadoria), sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       }
     ],
     "correctAnswer": "C",
@@ -2186,19 +2186,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O lançamento é válido porque a imunidade de pequena gleba rural abrange apenas terras pertencentes a cooperativas."
+        "text": "O lançamento é válido porque a imunidade de pequena gleba rural abrange apenas terras pertencentes a cooperativas. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "B",
-        "text": "O lançamento é inconstitucional porque são imunes ao ITR as pequenas glebas rurais definidas em lei quando as explore o proprietário que não possua outro imóvel; contudo, o convênio de fiscalização e cobrança do ITR pelo Município é válido e garante ao Município 100% da arrecadação."
+        "text": "O lançamento é inconstitucional porque são imunes ao ITR as pequenas glebas rurais definidas em lei quando as explore o proprietário que não possua outro imóvel."
       },
       {
         "letter": "C",
-        "text": "Mesmo celebrando convênio de fiscalização e cobrança com a União, o Município fica apenas com 50% do ITR arrecadado."
+        "text": "Mesmo celebrando convênio de fiscalização e cobrança com a União, o Município fica apenas com 50% do ITR arrecadado, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       },
       {
         "letter": "D",
-        "text": "O ITR tem alíquota única fixa por hectare, vedada sua utilização para desestimular propriedades improdutivas."
+        "text": "O ITR tem alíquota única fixa por hectare, vedada sua utilização para desestimular propriedades improdutivas, em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal."
       }
     ],
     "correctAnswer": "B",
@@ -2241,19 +2241,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não incide IPI na importação para uso próprio, pois o STF equiparou a hipótese à antiga súmula sobre ICMS antes da EC 33/2001."
+        "text": "Não incide IPI na importação para uso próprio, pois o STF equiparou a hipótese à antiga súmula sobre ICMS antes da EC 33/2001. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "B",
-        "text": "Sim, pois segundo tese firmada pelo STF em repercussão geral (Tema 643 / RE 723.651), incide o IPI na importação de bens por pessoa física ou pessoa jurídica não contribuinte habitual, mesmo para uso próprio."
+        "text": "Sim, pois segundo tese firmada pelo STF em repercussão geral, incide o IPI na importação de bens por pessoa física ou pessoa jurídica não contribuinte habitual, mesmo para uso próprio."
       },
       {
         "letter": "C",
-        "text": "A simples saída de mercadoria importada do estabelecimento do importador para venda no mercado interno nunca sofre nova incidência de IPI."
+        "text": "A simples saída de mercadoria importada do estabelecimento do importador para venda no mercado interno nunca sofre nova incidência de IPI, sem configuração de hipótese de suspensão da exigibilidade nem de exclusão do crédito fiscal."
       },
       {
         "letter": "D",
-        "text": "O IPI não se submete ao princípio da não cumulatividade, gerando incidência em cascata."
+        "text": "O IPI não se submete ao princípio da não cumulatividade, gerando incidência em cascata, com impedimento à fruição imediata de imunidade ou isenção condicionada no caso concreto."
       }
     ],
     "correctAnswer": "B",
@@ -2297,19 +2297,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todas as verbas trabalhistas recebidas por ocasião da rescisão ou durante o contrato são isentas de Imposto de Renda."
+        "text": "Todas as verbas trabalhistas recebidas por ocasião da rescisão ou durante o contrato são isentas de Imposto de Renda, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "B",
-        "text": "Não incide Imposto de Renda sobre o aviso prévio indenizado e sobre as férias não gozadas convertidas em pecúnia por necessidade de serviço (Súmula 125 e 386 STJ), por ostentarem caráter indenizatório de reparação; já a PLR e o terço constitucional de férias gozadas (caráter remuneratório) sofrem incidência de IRPF."
+        "text": "Não incide Imposto de Renda sobre o aviso prévio indenizado e sobre as férias não gozadas convertidas em pecúnia por necessidade de serviço, por ostentarem caráter indenizatório de reparação."
       },
       {
         "letter": "C",
-        "text": "A indenização por danos morais recebida por pessoa física sofre incidência integral de Imposto de Renda na alíquota de 27,5%."
+        "text": "A indenização por danos morais recebida por pessoa física sofre incidência integral de Imposto de Renda na alíquota de 27,5%, com legitimação do lançamento de ofício e inscrição imediata do débito em dívida ativa."
       },
       {
         "letter": "D",
-        "text": "A ajuda de custo e o PDV (Programa de Demissão Voluntária) sofrem incidência integral de IRPF por constituírem acréscimo patrimonial."
+        "text": "A ajuda de custo e o pdv (Programa de Demissão Voluntária) sofrem incidência integral de IRPF por constituírem acréscimo patrimonial, com responsabilidade solidária automática dos sócios e administradores da pessoa jurídica."
       }
     ],
     "correctAnswer": "B",
@@ -2353,19 +2353,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pertencem aos Municípios 50% do ICMS estadual e 25% do IPVA dos veículos licenciados em seu território."
+        "text": "Pertencem aos Municípios 50% do ICMS estadual e 25% do IPVA dos veículos licenciados em seu território, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "B",
-        "text": "Pertencem aos Municípios: 100% do IRRF incidente sobre rendimentos pagos por eles e suas autarquias/fundações; 50% do ITR (ou 100% se optarem por fiscalizar e cobrar); 50% do IPVA dos veículos licenciados em seu território; e 25% do ICMS arrecadado pelo Estado."
+        "text": "Pertencem aos Municípios: 100% do irrf incidente sobre rendimentos pagos por eles e suas autarquias/fundações; 50% do ITR."
       },
       {
         "letter": "C",
-        "text": "O produto da arrecadação do IR retido na fonte pelo Município sobre seus servidores deve ser repassado à União e depois devolvido via FPM."
+        "text": "O produto da arrecadação do IR retido na fonte pelo Município sobre seus servidores deve ser repassado à União e depois devolvido via fpm."
       },
       {
         "letter": "D",
-        "text": "A União repassa diretamente aos Municípios 25% da arrecadação total do Imposto de Importação."
+        "text": "A União repassa diretamente aos Municípios 25% da arrecadação total do Imposto de Importação, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       }
     ],
     "correctAnswer": "B",
@@ -2409,19 +2409,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Receita Federal não pode obter dados bancários sem prévia autorização judicial de juiz federal competente."
+        "text": "A Receita Federal não pode obter dados bancários sem prévia autorização judicial de juiz federal competente, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "B",
-        "text": "Ambos os atos são válidos: o STF (ADI 2859 e Tema 990) declarou constitucional a requisição direta de dados bancários pelo Fisco no bojo de processo administrativo fiscal regular com sigilo fiscal protegido (LC 105/2001), bem como o compartilhamento de dados fiscais/bancários com o MP para fins penais mediante representação fiscal para fins penais."
+        "text": "Ambos os atos são válidos: o STF declarou constitucional a requisição direta de dados bancários pelo Fisco no bojo de processo administrativo fiscal regular com sigilo fiscal protegido."
       },
       {
         "letter": "C",
-        "text": "É vedado o compartilhamento de informações protegidas por sigilo fiscal em representações fiscais para fins penais destinadas ao Ministério Público."
+        "text": "É vedado o compartilhamento de informações protegidas por sigilo fiscal em representações fiscais para fins penais destinadas ao Ministério Público, com impedimento à fruição imediata de imunidade ou isenção condicionada no caso concreto."
       },
       {
         "letter": "D",
-        "text": "O Fisco também pode divulgar publicamente em lista na imprensa o valor exato da dívida tributária parcelada de qualquer contribuinte antes de inscrição em dívida ativa."
+        "text": "O Fisco também pode divulgar publicamente em lista na imprensa o valor exato da dívida tributária parcelada de qualquer contribuinte antes de inscrição em dívida ativa, com exigibilidade imediata do tributo no mesmo exercício financeiro sem anterioridade."
       }
     ],
     "correctAnswer": "B",
@@ -2465,19 +2465,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deve ser emitida Certidão Negativa plena (CND), pois débitos parcelados equivalem a créditos extintos."
+        "text": "Deve ser emitida Certidão Negativa plena (cnd), pois débitos parcelados equivalem a créditos extintos. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "B",
-        "text": "Não pode negar, pois a empresa tem direito à Certidão Positiva com Efeitos de Negativa (CPEN), que produz os mesmos efeitos da CND quando constam créditos com exigibilidade suspensa (parcelamento) ou garantidos por penhora em execução fiscal."
+        "text": "Não pode negar, pois a empresa tem direito à Certidão Positiva com Efeitos de Negativa, que produz os mesmos efeitos da cnd quando constam créditos com exigibilidade suspensa (parcelamento) ou garantidos por penhora em execução fiscal."
       },
       {
         "letter": "C",
-        "text": "A penhora em execução fiscal não autoriza emissão de CPEN enquanto não forem julgados os embargos à execução."
+        "text": "A penhora em execução fiscal não autoriza emissão de cpen enquanto não forem julgados os embargos à execução, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "D",
-        "text": "O prazo máximo para expedição de certidão negativa requerida pelo contribuinte é de 30 dias úteis."
+        "text": "O prazo máximo para expedição de certidão negativa requerida pelo contribuinte é de 30 dias úteis, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte."
       }
     ],
     "correctAnswer": "B",
@@ -2520,19 +2520,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É obrigada a depositar o valor integral ou penhorar bens primeiro, pois a Lei de Execuções Fiscais só admite embargos à execução após garantia do juízo."
+        "text": "É obrigada a depositar o valor integral ou penhorar bens primeiro, pois a Lei de Execuções Fiscais só admite embargos à execução após garantia do juízo. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "B",
-        "text": "Pode opor Exceção de Pré-Executividade independentemente de garantia do juízo, pois a prescrição é matéria de ordem pública cognoscível de ofício que não demanda dilação probatória (Súmula 393 do STJ)."
+        "text": "Pode opor Exceção de Pré-Executividade independentemente de garantia do juízo, pois a prescrição é matéria de ordem pública cognoscível de ofício que não demanda dilação probatória."
       },
       {
         "letter": "C",
-        "text": "Na Exceção de Pré-Executividade, a parte pode requerer perícia contábil e oitiva de testemunhas para comprovar erro na alíquota aplicada."
+        "text": "Na Exceção de Pré-Executividade, a parte pode requerer perícia contábil e oitiva de testemunhas para comprovar erro na alíquota aplicada, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "D",
-        "text": "Caso a exceção de pré-executividade acolha a prescrição e extinga a execução fiscal, a Fazenda Pública fica isenta de honorários advocatícios."
+        "text": "Caso a exceção de pré-executividade acolha a prescrição e extinga a execução fiscal, a Fazenda Pública fica isenta de honorários advocatícios, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       }
     ],
     "correctAnswer": "B",
@@ -2576,19 +2576,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto o IGF quanto o imposto residual podem ser instituídos por lei ordinária da União ou medida provisória."
+        "text": "Tanto o IGF quanto o imposto residual podem ser instituídos por lei ordinária da União ou medida provisória, com responsabilidade solidária automática dos sócios e administradores da pessoa jurídica. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "B",
-        "text": "O IGF exige Lei Complementar (não precisa ser não cumulativo pelo Art. 153, VII); já o imposto residual exige obrigatoriamente Lei Complementar, deve ser não cumulativo e NÃO pode ter fato gerador ou base de cálculo próprios dos impostos discriminados na Constituição (logo, não pode copiar o IOF)."
+        "text": "O IGF exige Lei Complementar; já o imposto residual exige obrigatoriamente Lei Complementar, deve ser não cumulativo e não pode ter fato gerador ou base de cálculo próprios dos impostos discriminados na Constituição."
       },
       {
         "letter": "C",
-        "text": "O imposto residual da União pode repetir o fato gerador do ICMS estadual desde que reparta 20% da arrecadação com os Estados."
+        "text": "O imposto residual da União pode repetir o fato gerador do ICMS estadual desde que reparta 20% da arrecadação com os Estados, com exigibilidade imediata do tributo no mesmo exercício financeiro sem anterioridade."
       },
       {
         "letter": "D",
-        "text": "O Imposto Extraordinário de Guerra (Art. 154, II) também exige Lei Complementar e não pode invadir competência estadual."
+        "text": "O Imposto Extraordinário de Guerra também exige Lei Complementar e não pode invadir competência estadual, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       }
     ],
     "correctAnswer": "B",
@@ -2631,19 +2631,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A imunidade das receitas de exportação abrange inclusive a CSLL e o IRPJ sobre os lucros auferidos nas operações de exportação."
+        "text": "A imunidade das receitas de exportação abrange inclusive a CSLL e o IRPJ sobre os lucros auferidos nas operações de exportação, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "B",
-        "text": "Não incidem PIS/COFINS (contribuições sociais/CIDE) sobre receitas decorrentes de exportação (Art. 149, § 2º, I), nem IPI (Art. 153, § 3º, III), nem ICMS (Art. 155, § 2º, X, \"a\"); entretanto, INCIDE normalmente a CSLL (e o IRPJ) sobre o LUCRO líquido obtido nas exportações, pois a imunidade restringe-se às receitas, não ao lucro (Súmula Vinculante 47 não se aplica aqui; STF RE 564.413)."
+        "text": "Não incidem PIS/COFINS sobre receitas decorrentes de exportação, nem IPI, nem ICMS; entretanto, incide normalmente a CSLL (e o IRPJ) sobre o lucro líquido obtido nas exportações, pois a imunidade restringe-se às receitas, não ao lucro."
       },
       {
         "letter": "C",
-        "text": "Na exportação de mercadorias, incide ICMS na alíquota reduzida de 4%, sem manutenção dos créditos das entradas."
+        "text": "Na exportação de mercadorias, incide ICMS na alíquota reduzida de 4%, sem manutenção dos créditos das entradas. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "D",
-        "text": "A imunidade de PIS/COFINS abrange também a importação de máquinas industriais utilizadas para fabricar produtos destinados à exportação."
+        "text": "A imunidade de PIS/COFINS abrange também a importação de máquinas industriais utilizadas para fabricar produtos destinados à exportação, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       }
     ],
     "correctAnswer": "B",
@@ -2687,19 +2687,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O fornecimento de água e esgoto encanados é sempre taxa tributária por envolver saúde pública."
+        "text": "O fornecimento de água e esgoto encanados é sempre taxa tributária por envolver saúde pública, com legitimação do lançamento de ofício e inscrição imediata do débito em dívida ativa."
       },
       {
         "letter": "B",
-        "text": "A remuneração pelo transporte e água fornecidos por concessionária mediante contratação/utilização facultativa efetiva é preço público (tarifa), não sujeita às limitações tributárias (Súmula 545 STF); já a exação compulsória pelo licenciamento anual de funcionamento decorre do poder de polícia, sendo verdadeira TAXA sujeita à legalidade e anterioridade."
+        "text": "A remuneração pelo transporte e água fornecidos por concessionária mediante contratação/utilização facultativa efetiva é preço público (tarifa), não sujeita às limitações tributárias."
       },
       {
         "letter": "C",
-        "text": "O serviço público específico e divisível utilizado apenas potencialmente (colocado à disposição sem uso efetivo) pode ser cobrado por tarifa contratual."
+        "text": "O serviço público específico e divisível utilizado apenas potencialmente (colocado à disposição sem uso efetivo) pode ser cobrado por tarifa contratual, com responsabilidade solidária automática dos sócios e administradores da pessoa jurídica."
       },
       {
         "letter": "D",
-        "text": "As tarifas de água e transporte público se submetem obrigatoriamente aos princípios da anterioridade tributária anual e nonagesimal."
+        "text": "As tarifas de água e transporte público se submetem obrigatoriamente aos princípios da anterioridade tributária anual e nonagesimal, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       }
     ],
     "correctAnswer": "B",
@@ -2743,19 +2743,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O regime único de arrecadação é instituído por Lei Complementar da União (LC 123/2006), é opcional para o contribuinte, permite aos Estados adotarem sublimites para recolhimento de ICMS e ISS, e a cobrança judicial/fiscalização pode ser realizada de forma compartilhada ou delegada por convênio entre PGFN e Procuradorias estaduais/municipais."
+        "text": "O regime único de arrecadação é instituído por Lei Complementar da União, é opcional para o contribuinte, permite aos Estados adotarem sublimites para recolhimento de ICMS e ISS, e a cobrança judicial/fiscalização pode ser realizada de forma compartilhada ou delegada por convênio entre PGFN e Procuradorias estaduais/municipais."
       },
       {
         "letter": "B",
-        "text": "O regime do Simples Nacional é obrigatório para toda microempresa cuja receita bruta anual seja inferior a R$ 360.000,00."
+        "text": "O regime do Simples Nacional é obrigatório para toda microempresa cuja receita bruta anual seja inferior a R$ 360.000,00, com responsabilidade solidária automática dos sócios e administradores da pessoa jurídica. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "C",
-        "text": "O Simples Nacional engloba todos os tributos existentes, inclusive IOF, Imposto de Importação e FGTS dos empregados."
+        "text": "O Simples Nacional engloba todos os tributos existentes, inclusive IOF, Imposto de Importação e FGTS dos empregados. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "D",
-        "text": "A inclusão no Simples Nacional dispensa a microempresa de escrituração fiscal e emissão de notas fiscais de venda."
+        "text": "A inclusão no Simples Nacional dispensa a microempresa de escrituração fiscal e emissão de notas fiscais de venda, observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais."
       }
     ],
     "correctAnswer": "A",
@@ -2798,11 +2798,11 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A empresa responde objetivamente pela infração fiscal da não emissão de notas, pois a responsabilidade por infrações independe da intenção do agente (Art. 136 CTN); já o contador que falsificou dolosamente as guias responde PESSOALMENTE pela infração tributária dolosa praticada contra o mandante (Art. 137, III, \"b\", CTN)."
+        "text": "A empresa responde objetivamente pela infração fiscal da não emissão de notas, pois a responsabilidade por infrações independe da intenção do agente."
       },
       {
         "letter": "B",
-        "text": "A ausência de dolo ou má-fé da empresa exclui integralmente a aplicação de multa fiscal pela falta de emissão de notas."
+        "text": "A ausência de dolo ou má-fé da empresa exclui integralmente a aplicação de multa fiscal pela falta de emissão de notas, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "C",
@@ -2853,19 +2853,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nenhuma delas é válida: o emprego da analogia não pode resultar na exigência de tributo não previsto em lei (Art. 108, § 1º); o emprego da equidade não pode resultar na dispensa do pagamento de tributo devido (Art. 108, § 2º); e interpreta-se LITERALMENTE a legislação que disponha sobre outorga de isenção (Art. 111, II)."
+        "text": "Nenhuma delas é válida: o emprego da analogia não pode resultar na exigência de tributo não previsto em lei; o emprego da equidade não pode resultar na dispensa do pagamento de tributo devido."
       },
       {
         "letter": "B",
-        "text": "Apenas a aplicação da analogia para cobrar tributo é proibida; a interpretação extensiva de isenções pelo juiz é admitida por analogia benéfica."
+        "text": "Apenas a aplicação da analogia para cobrar tributo é proibida; a interpretação extensiva de isenções pelo juiz é admitida por analogia benéfica. Tal critério determina a incidência tributária e a competência ativa do ente tributante."
       },
       {
         "letter": "C",
-        "text": "O princípio da equidade permite ao magistrado dispensar o tributo principal sempre que o contribuinte comprovar estado de insolvência."
+        "text": "O princípio da equidade permite ao magistrado dispensar o tributo principal sempre que o contribuinte comprovar estado de insolvência, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       },
       {
         "letter": "D",
-        "text": "A ordem obrigatória de integração da legislação tributária começa pelos princípios gerais do direito privado e termina na analogia."
+        "text": "A ordem obrigatória de integração da legislação tributária começa pelos princípios gerais do direito privado e termina na analogia, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       }
     ],
     "correctAnswer": "A",
@@ -2908,19 +2908,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não há benefício de ordem na solidariedade tributária (o Fisco pode cobrar R$ 4.000,00 de qualquer coproprietário); quanto à isenção de caráter pessoal concedida a um dos coobrigados, ela exonera apenas sua cota (R$ 2.000,00), subsistindo a solidariedade quanto ao saldo (R$ 2.000,00) em face do irmão mais jovem."
+        "text": "Não há benefício de ordem na solidariedade tributária; quanto à isenção de caráter pessoal concedida a um dos coobrigados, ela exonera apenas sua cota (R$ 2.000,00), subsistindo a solidariedade quanto ao saldo (R$ 2.000,00) em face do irmão mais jovem."
       },
       {
         "letter": "B",
-        "text": "O irmão executado tem direito ao benefício de ordem para responder apenas por sua cota ideal de 50%."
+        "text": "O irmão executado tem direito ao benefício de ordem para responder apenas por sua cota ideal de 50%, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "C",
-        "text": "A isenção pessoal concedida ao irmão idoso aproveita integralmente ao irmão mais jovem, extinguindo todo o IPTU do imóvel."
+        "text": "A isenção pessoal concedida ao irmão idoso aproveita integralmente ao irmão mais jovem, extinguindo todo o IPTU do imóvel, em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "D",
-        "text": "A interrupção da prescrição em favor ou contra um dos coproprietários não atinge o outro coobrigado solidário."
+        "text": "A interrupção da prescrição em favor ou contra um dos coproprietários não atinge o outro coobrigado solidário, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       }
     ],
     "correctAnswer": "A",
@@ -2967,15 +2967,15 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Procede, porque o absolutamente incapaz nos termos do Código Civil não pode figurar como contribuinte de impostos diretos."
+        "text": "Procede, porque o absolutamente incapaz não pode figurar como contribuinte de impostos diretos. A definição impacta diretamente os limites de cobrança e as garantias do contribuinte."
       },
       {
         "letter": "C",
-        "text": "Aplica-se apenas ao IPTU, mas o menor de 10 anos é isento de Imposto de Renda até completar 18 anos."
+        "text": "Aplica-se apenas ao IPTU, mas o menor de 10 anos é isento de Imposto de Renda até completar 18 anos, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       },
       {
         "letter": "D",
-        "text": "Sociedade empresária de fato sem registro na Junta Comercial também não possui capacidade tributária passiva perante o Fisco."
+        "text": "Sociedade empresária de fato sem registro na Junta Comercial também não possui capacidade tributária passiva perante o Fisco, com vedação à analogia ou equidade para exigir tributo ou dispensar crédito sem previsão legal."
       }
     ],
     "correctAnswer": "A",
@@ -3018,19 +3018,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, pois o mandado de segurança não é substitutivo de ação de cobrança (Súmula 269 STF) e a concessão de mandado de segurança não produz efeitos patrimoniais em relação a período pretérito, os quais devem ser reclamados administrativamente ou pela via judicial própria (Súmula 271 STF), podendo o contribuinte optar por compensação administrativa (Súmula 213 e 461 STJ)."
+        "text": "Não, pois o mandado de segurança não é substitutivo de ação de cobrança e a concessão de mandado de segurança não produz efeitos patrimoniais em relação a período pretérito, os quais devem ser reclamados administrativamente ou pela via judicial própria, podendo o contribuinte optar por compensação administrativa."
       },
       {
         "letter": "B",
-        "text": "Sim, porque a sentença do mandado de segurança executa automaticamente a restituição em dinheiro dos cinco anos anteriores à impetração."
+        "text": "Sim, porque a sentença do mandado de segurança executa automaticamente a restituição em dinheiro dos cinco anos anteriores à impetração. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "C",
-        "text": "O contribuinte que opta pela via do mandado de segurança perde definitivamente o direito à repetição do indébito em ação autônoma."
+        "text": "O contribuinte que opta pela via do mandado de segurança perde definitivamente o direito à repetição do indébito em ação autônoma, sujeita à repartição constitucional de receitas e à competência tributária do ente federado."
       },
       {
         "letter": "D",
-        "text": "A decadência para impetrar mandado de segurança preventivo contra lei tributária em tese é de 120 dias a contar da publicação da lei."
+        "text": "A decadência para impetrar mandado de segurança preventivo contra lei tributária em tese é de 120 dias a contar da publicação da lei, com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal."
       }
     ],
     "correctAnswer": "A",
@@ -3074,19 +3074,19 @@ export const TRIBUTARIO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Fazenda pode requerer Medida Cautelar Fiscal para indisponibilidade dos bens do requerido (Lei 8.397/92), e presume-se fraudulenta a alienação ou oneração de bens ou rendas por sujeito passivo em débito inscrito em dívida ativa, salvo se reservados bens ou rendas suficientes ao total pagamento da dívida (Art. 185 CTN)."
+        "text": "A Fazenda pode requerer Medida Cautelar Fiscal para indisponibilidade dos bens do requerido, e presume-se fraudulenta a alienação ou oneração de bens ou rendas por sujeito passivo em débito inscrito em dívida ativa, salvo se reservados bens ou rendas suficientes ao total pagamento da dívida."
       },
       {
         "letter": "B",
-        "text": "A alienação de bens antes da citação válida na execução fiscal nunca pode ser presumida fraudulenta contra o Fisco."
+        "text": "A alienação de bens antes da citação válida na execução fiscal nunca pode ser presumida fraudulenta contra o Fisco, em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal. Essa regra orienta a constituição regular do crédito e a fiscalização fazendária."
       },
       {
         "letter": "C",
-        "text": "A Medida Cautelar Fiscal exige sempre que a execução fiscal já esteja ajuizada há pelo menos seis meses."
+        "text": "A Medida Cautelar Fiscal exige sempre que a execução fiscal já esteja ajuizada há pelo menos seis meses, com exigibilidade imediata do tributo no mesmo exercício financeiro sem anterioridade."
       },
       {
         "letter": "D",
-        "text": "A indisponibilidade de bens na cautelar fiscal impede até mesmo a movimentação de contas bancárias operacionais quando não há risco de alienação imobiliária."
+        "text": "A indisponibilidade de bens na cautelar fiscal impede até mesmo a movimentação de contas bancárias operacionais quando não há risco de alienação imobiliária, com preservação da natureza jurídica específica determinada pelo respectivo fato gerador."
       }
     ],
     "correctAnswer": "A",

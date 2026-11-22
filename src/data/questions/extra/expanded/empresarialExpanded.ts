@@ -17,19 +17,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 966, parágrafo único, do CC, NÃO se considera empresário quem exerce profissão intelectual, de natureza científica, literária ou artística (médicos, advogados, engenheiros), ainda com o concurso de auxiliares ou colaboradores, SALVO se o exercício da profissão constituir ELEMENTO DE EMPRESA (isto é, quando a organização empresarial supera a atuação pessoal dos profissionais, como um grande hospital empresarial — aqui a clínica com atuação pessoal dos sócios médicos continua sociedade SIMPLES!). Já o produtor rural tem registro FACULTATIVO na Junta Comercial (Art. 971 CC): sem registro, NÃO é empresário (mas se registrar-se, equipara-se a empresário, inclusive podendo pedir Recuperação Judicial computando o tempo rural anterior pela Lei 14.112/20)!"
+        "text": "Não se considera empresário quem exerce profissão intelectual, de natureza científica, literária ou artística, ainda com o concurso de auxiliares ou colaboradores, salvo se o exercício da profissão constituir elemento de empresa."
       },
       {
         "letter": "B",
-        "text": "Qualquer consultório ou clínica médica que contrate secretárias e enfermeiros torna-se automaticamente empresário pela organização dos fatores de produção."
+        "text": "Qualquer consultório ou clínica médica que contrate secretárias e enfermeiros torna-se automaticamente empresário pela organização dos fatores de produção, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "C",
-        "text": "A inscrição do empresário na Junta Comercial antes do início da atividade tem natureza constitutiva, sem a qual o sujeito não é considerado empresário."
+        "text": "A inscrição do empresário na Junta Comercial antes do início da atividade tem natureza constitutiva, sem a qual o sujeito não é considerado empresário, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "D",
-        "text": "O empresário rural é obrigado a se inscrever na Junta Comercial antes de iniciar sua atividade agrícola."
+        "text": "O empresário rural é obrigado a se inscrever na Junta Comercial antes de iniciar sua atividade agrícola, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       }
     ],
     "correctAnswer": "A",
@@ -72,11 +72,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em regra, só podem exercer a atividade de empresário os que estiverem em pleno gozo da capacidade civil e NÃO forem legalmente impedidos (Art. 972 CC — menor de 16 não pode iniciar empresa nova, salvo emancipado dos 16 aos 18!); CONTUDO, pelo Art. 974 do CC, poderá o incapaz (por meio de representante ou devidamente assistido) CONTINUAR a empresa antes exercida por ele enquanto capaz, por seus pais ou pelo autor de herança, mediante AUTORIZAÇÃO JUDICIAL (que pode ser revogada a qualquer tempo sem prejuízo de direitos adquiridos por terceiros — os bens estranhos ao acervo da empresa na data da sucessão NÃO respondem pelo passivo empresarial, § 2º)! Já o magistrado/servidor público legalmente impedido que exercer atividade própria de empresário RESPONDERÁ pelas obrigações contraídas (Art. 973 CC — o ato é válido perante terceiros, sofrendo apenas sanção disciplinar/funcional)!"
+        "text": "Em regra, só podem exercer a atividade de empresário os que estiverem em pleno gozo da capacidade civil e não forem legalmente impedidos."
       },
       {
         "letter": "B",
-        "text": "O menor absolutamente incapaz nunca pode participar de sociedade limitada nem continuar empresa herdada de seus pais."
+        "text": "O menor absolutamente incapaz nunca pode participar de sociedade limitada nem continuar empresa herdada de seus pais, em proteção à autonomia patrimonial societária e à segurança das relações mercantis."
       },
       {
         "letter": "C",
@@ -127,19 +127,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A constituição da sociedade entre cônjuges casados em COMUNHÃO UNIVERSAL DE BENS (ou na SEPARAÇÃO OBRIGATÓRIA!) é VEDADA pelo Art. 977 do CC (\"Faculta-se aos cônjuges contratar sociedade, entre si ou com terceiros, desde que não tenham casado no regime da comunhão universal de bens, ou no da separação obrigatória\" — podendo apenas se casados na comunhão parcial, participação final nos aquestos ou separação CONVENCIONAL)! Já o empresário individual casado PODE, sem necessidade de outorga conjugal — QUALQUER QUE SEJA O REGIME DE BENS! — alienar os imóveis que integrem o patrimônio da empresa ou gravá-los de ônus real (Art. 978 CC — desde que averbado o patrimônio empresarial ou na matrícula imobiliária pelo Enunciado 58 CJF)!"
+        "text": "A constituição da sociedade entre cônjuges casados em comunhão universal de bens é vedada. Já o empresário individual casado pode, sem necessidade de outorga conjugal."
       },
       {
         "letter": "B",
-        "text": "Cônjuges casados no regime da separação convencional de bens também estão proibidos pelo Art. 977 do CC de serem sócios na mesma sociedade."
+        "text": "Cônjuges casados no regime da separação convencional de bens também estão proibidos de serem sócios na mesma sociedade, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "C",
-        "text": "O empresário individual casado na comunhão parcial de bens depende sempre da assinatura (outorga) do cônjuge para vender qualquer imóvel que integre o patrimônio da empresa."
+        "text": "O empresário individual casado na comunhão parcial de bens depende sempre da assinatura (outorga) do cônjuge para vender qualquer imóvel que integre o patrimônio da empresa, com livre alienação e circulação do título ou participação societária entre os interessados."
       },
       {
         "letter": "D",
-        "text": "A restrição do Art. 977 do CC impede também que cônjuges em comunhão universal adquiram ações de uma mesma Sociedade Anônima aberta em bolsa."
+        "text": "A restrição impede também que cônjuges em comunhão universal adquiram ações de uma mesma Sociedade Anônima aberta em bolsa, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       }
     ],
     "correctAnswer": "A",
@@ -182,19 +182,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os livros e fichas dos empresários gozam de SIGILO EMPRESARIAL (Art. 1.190 CC: nenhuma autoridade, juiz ou tribunal pode fazer ou ordenar diligência para verificar se o empresário observa as formalidades, salvo nos casos expressos em lei)! A EXIBIÇÃO INTEGRAL só pode ser ordenada pelo juiz para resolver questões relativas a: (1) SUCESSÃO, (2) COMUNHÃO OU SOCIEDADE, (3) ADMINISTRAÇÃO OU GESTÃO À CONTA DE OUTREM, ou em caso de (4) FALÊNCIA (Art. 1.191 CC)! Fora dessas 4 hipóteses (ex.: cobrança de credor comum ou ação trabalhista), cabe apenas o exame PARCIAL dos lançamentos referentes à questão litigiosa (Art. 1.191, § 1º)! Ressalva-se apenas a fiscalização tributária/previdenciária (Art. 1.193 CC e Súmula 439 STF — exame limitado aos pontos objeto da investigação fiscal)!"
+        "text": "Os livros e fichas dos empresários gozam de sigilo empresarial. A exibição integral só pode ser ordenada pelo juiz para resolver questões relativas a: sucessão, comunhão ou sociedade, administração ou gestão à conta de outrem, ou em caso de falência. Fora dessas 4 hipóteses, cabe apenas o exame parcial dos lançamentos referentes à questão litigiosa. Ressalva-se apenas a fiscalização tributária/previdenciária."
       },
       {
         "letter": "B",
-        "text": "O juiz pode determinar livremente a exibição integral de toda a contabilidade da empresa ré em qualquer ação de cobrança comercial."
+        "text": "O juiz pode determinar livremente a exibição integral de toda a contabilidade da empresa ré em qualquer ação de cobrança comercial, com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso."
       },
       {
         "letter": "C",
-        "text": "Os pequenos empresários (MEI e microempreendedores rurais/individuais previstos no Art. 970 e § 2º do Art. 1.179 CC) são igualmente obrigados a manter o Livro Diário completo e balanço patrimonial anual."
+        "text": "Os pequenos empresários são igualmente obrigados a manter o Livro Diário completo e balanço patrimonial anual, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "D",
-        "text": "O sigilo dos livros empresariais do Art. 1.190 do CC também impede a autoridade fiscal tributária de examinar os livros fiscais da empresa sem ordem judicial."
+        "text": "O sigilo dos livros empresariais também impede a autoridade fiscal tributária de examinar os livros fiscais da empresa sem ordem judicial, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       }
     ],
     "correctAnswer": "A",
@@ -238,19 +238,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 1.145 do CC, se ao alienante NÃO restarem bens suficientes para solver o seu passivo, a eficácia da alienação do estabelecimento depende do PAGAMENTO DE TODOS OS CREDORES, ou do CONSENTIMENTO destes, de modo expresso ou TÁCITO (em 30 DIAS a partir de sua notificação — silêncio = anuência tácita!) — além de exigir averbação na Junta Comercial e publicação na imprensa oficial para produzir efeitos perante terceiros (Art. 1.144)! Quanto às dívidas anteriores regularmente contabilizadas: o ADQUIRENTE responde pelo passivo contabilizado, e o ALIENANTE continua SOLIDARIAMENTE obrigado pelo prazo de 1 ANO (Art. 1.146 — da publicação para créditos vencidos, ou do vencimento para os vincendos)! E no silêncio do contrato, o alienante NÃO pode fazer concorrência ao adquirente nos 5 ANOS subsequentes à transferência (Art. 1.147 CC)!"
+        "text": "Se ao alienante não restarem bens suficientes para solver o seu passivo, a eficácia da alienação do estabelecimento depende do pagamento de todos OS credores, ou do consentimento destes, de modo expresso ou tácito."
       },
       {
         "letter": "B",
-        "text": "Na alienação do estabelecimento (trespasse), se os credores notificados permanecerem silentes por 30 dias, presume-se recusa automática e nulidade da venda."
+        "text": "Na alienação do estabelecimento (trespasse), se os credores notificados permanecerem silentes por 30 dias, presume-se recusa automática e nulidade da venda. Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso."
       },
       {
         "letter": "C",
-        "text": "Se o contrato de trespasse nada dispuser sobre concorrência, o vendedor pode abrir loja idêntica na mesma rua no dia seguinte à venda."
+        "text": "Se o contrato de trespasse nada dispuser sobre concorrência, o vendedor pode abrir loja idêntica na mesma rua no dia seguinte à venda, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "D",
-        "text": "O adquirente do estabelecimento empresarial responde apenas pelas dívidas futuras, nunca pelas dívidas anteriores mesmo regularmente contabilizadas."
+        "text": "O adquirente do estabelecimento empresarial responde apenas pelas dívidas futuras, nunca pelas dívidas anteriores mesmo regularmente contabilizadas, com afastamento da responsabilidade pessoal dos sócios sem prévia demonstração de abuso."
       }
     ],
     "correctAnswer": "A",
@@ -293,7 +293,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Requisitos cumulativos da Ação Renovatória (Art. 51 da Lei nº 8.245/91): (1) contrato a renovar celebrado POR ESCRITO e com PRAZO DETERMINADO; (2) prazo mínimo do contrato ou soma dos prazos ININTERRUPTOS dos contratos escritos de 5 (CINCO) ANOS (aqui 3 + 2 = 5 anos -> atende!); (3) exploração do mesmo ramo de comércio/indústria pelo prazo mínimo e ininterrupto de 3 (TRÊS) ANOS; e (4) propositura da Ação Renovatória no prazo DECADENCIAL de 1 (UM) ANO no máximo até 6 (SEIS) MESES no mínimo ANTERIORES à data da finalização do prazo do contrato em vigor (Art. 51, § 5º — logo, faltando 8 meses está exatamente dentro da janela de 12 a 6 meses antes do fim!)."
+        "text": "Requisitos cumulativos da Ação Renovatória: contrato a renovar celebrado por escrito e com prazo determinado."
       },
       {
         "letter": "B",
@@ -301,7 +301,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A Ação Renovatória pode ser proposta a qualquer tempo até o último dia da vigência do contrato de locação comercial."
+        "text": "A Ação Renovatória pode ser proposta a qualquer tempo até o último dia da vigência do contrato de locação comercial, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "D",
@@ -348,11 +348,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A SOCIEDADE LIMITADA pode adotar FIRMA ou DENOMINAÇÃO (seguida da palavra \"limitada\" ou \"Ltda.\" — Art. 1.158 CC; e pela Lei 14.195/21, pode usar inclusive o próprio número do CNPJ seguido da partícula identificadora!); a SOCIEDADE ANÔNIMA só usa DENOMINAÇÃO (com \"S/A\" ou \"Companhia\" — Art. 1.160 CC); a Sociedade em Nome Coletivo e Comandita Simples só usam FIRMA (Art. 1.157). Pelo PRINCÍPIO DA VERACIDADE, o nome de sócio que vier a falecer, for excluído ou se retirar NÃO PODE SER CONSERVADO na firma social (Art. 1.165 CC)! E pelo Art. 1.166 CC, a inscrição do empresário ou dos atos constitutivos na Junta Comercial assegura o uso exclusivo do nome nos limites do RESPECTIVO ESTADO (só se estende a todo o território nacional se registrado na forma de lei especial / demais Juntas — diferente da MARCA no INPI, que tem proteção NACIONAL)!"
+        "text": "A sociedade limitada pode adotar firma ou denominação; a sociedade anônima só usa denominação; a Sociedade em Nome Coletivo e Comandita Simples só usam firma."
       },
       {
         "letter": "B",
-        "text": "A Sociedade Anônima (S/A) pode adotar firma social contendo o sobrenome de seus acionistas controladores."
+        "text": "A Sociedade Anônima (S/A) pode adotar firma social contendo o sobrenome de seus acionistas controladores, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "C",
@@ -403,19 +403,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "NÃO! No Código Civil vigora a TEORIA MAIOR da desconsideração da personalidade jurídica (Art. 50 CC, reforçado pela Lei nº 13.874/2019!), segundo a qual o mero encerramento irregular ou mera insolvência sem patrimônio NÃO bastam: exige-se comprovação de ABUSO DA PERSONALIDADE JURÍDICA, caracterizado pelo DESVIO DE FINALIDADE (utilização dolosa da PJ com propósito de lesar credores ou atos ilícitos — § 1º) OU pela CONFUSÃO PATRIMONIAL (ausência de separação de fato entre os patrimônios — §§ 2º e 4º)! Ademais, a desconsideração atinge APENAS os bens particulares de administradores ou sócios BENEFICIADOS direta ou indiretamente pelo abuso (Art. 50, caput), admitida também a desconsideração INVERSA (§ 3º)!"
+        "text": "Não. No Código Civil vigora a teoria maior da desconsideração da personalidade jurídica, segundo a qual o mero encerramento irregular ou mera insolvência sem patrimônio não bastam: exige-se comprovação de abuso da personalidade jurídica, caracterizado pelo desvio de finalidade ou pela confusão patrimonial. Ademais, a desconsideração atinge apenas os bens particulares de administradores ou sócios beneficiados direta ou indiretamente pelo abuso, admitida também a desconsideração inversa."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 50 do Código Civil, basta a ausência de bens penhoráveis da sociedade devedora para autorizar a desconsideração e atingir todos os sócios indistintamente."
+        "text": "Basta a ausência de bens penhoráveis da sociedade devedora para autorizar a desconsideração e atingir todos os sócios indistintamente, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "C",
-        "text": "A simples existência de grupo econômico entre duas sociedades autoriza por si só a desconsideração da personalidade jurídica para cobrar dívida de uma na outra."
+        "text": "A simples existência de grupo econômico entre duas sociedades autoriza por si só a desconsideração da personalidade jurídica para cobrar dívida de uma na outra, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "D",
-        "text": "A mera alteração ou expansão da finalidade original da sociedade constitui desvio de finalidade automático para fins do Art. 50 do CC."
+        "text": "A mera alteração ou expansão da finalidade original da sociedade constitui desvio de finalidade automático para fins, em consonância com a preservação da empresa e a função social da atividade econômica."
       }
     ],
     "correctAnswer": "A",
@@ -458,19 +458,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas são sociedades NÃO PERSONIFICADAS! Na SOCIEDADE EM COMUM (Arts. 986–990 CC), os bens sociais formam patrimônio especial de titularidade comum dos sócios e TODOS os sócios respondem SOLIDÁRIA E ILIMITADAMENTE pelas obrigações sociais — excluído do benefício de ordem (Art. 1.024) aquele que contratou pela sociedade (Art. 990 CC)! Já na SOCIEDADE EM CONTA DE PARTICIPAÇÃO (SCP — Arts. 991–996 CC), a atividade constitutiva do objeto social é exercida UNICAMENTE pelo SÓCIO OSTENSIVO, em seu nome individual e sob sua própria e exclusiva responsabilidade, participando os demais (sócios participantes) apenas dos resultados correspondentes — logo, perante terceiros obriga-se exclusivamente o sócio ostensivo (salvo se o sócio participante tomar parte nas relações com terceiros, caso em que responde SOLIDARIAMENTE — Art. 993, parágrafo único)!"
+        "text": "Ambas são sociedades não personificadas. Na sociedade em comum, os bens sociais formam patrimônio especial de titularidade comum dos sócios e todos os sócios respondem solidária e ilimitadamente pelas obrigações sociais. Já na sociedade em conta de participação, a atividade constitutiva do objeto social é exercida unicamente pelo sócio ostensivo, em seu nome individual e sob sua própria e exclusiva responsabilidade, participando os demais apenas dos resultados correspondentes."
       },
       {
         "letter": "B",
-        "text": "A Sociedade em Conta de Participação (SCP) adquire personalidade jurídica própria assim que seu contrato é registrado no Cartório ou na Junta Comercial."
+        "text": "A Sociedade em Conta de Participação (scp) adquire personalidade jurídica própria assim que seu contrato é registrado no Cartório ou na Junta Comercial, em consonância com a preservação da empresa e a função social da atividade econômica. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "C",
-        "text": "Na Sociedade em Comum, o sócio que contratou em nome da sociedade goza sempre do benefício de ordem exigindo que sejam excutidos antes todos os bens sociais."
+        "text": "Na Sociedade em Comum, o sócio que contratou em nome da sociedade goza sempre do benefício de ordem exigindo que sejam excutidos antes todos os bens sociais, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "D",
-        "text": "Na Sociedade em Conta de Participação, a falência do sócio participante acarreta sempre a dissolução imediata da sociedade."
+        "text": "Na Sociedade em Conta de Participação, a falência do sócio participante acarreta sempre a dissolução imediata da sociedade, com desconsideração direta da personalidade jurídica sem instauração prévia de incidente."
       }
     ],
     "correctAnswer": "A",
@@ -517,15 +517,15 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A EIRELI continua existindo e exige capital mínimo integralizado de 100 salários mínimos para quem deseja abrir empresa limitada sozinho."
+        "text": "A EIRELI continua existindo e exige capital mínimo integralizado de 100 salários mínimos para quem deseja abrir empresa limitada sozinho, com produção de efeitos cambiários autônomos e literais para execução contra coobrigados."
       },
       {
         "letter": "C",
-        "text": "Na Sociedade Limitada admite-se que o sócio integralize suas quotas sociais mediante mera prestação de serviços futuros."
+        "text": "Na Sociedade Limitada admite-se que o sócio integralize suas quotas sociais mediante mera prestação de serviços futuros, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "D",
-        "text": "Na Sociedade Limitada (Art. 1.052, caput, CC), a responsabilidade de cada sócio é restrita ao valor de suas quotas, MAS TODOS RESPONDEM SOLIDARIAMENTE PELA INTEGRALIZAÇÃO DO CAPITAL SOCIAL (logo, os dois sócios que já quitaram suas quotas respondem solidariamente pelos R$ 60.000,00 que faltam integralizar do terceiro sócio)! Quanto à SLU: o Art. 1.052, §§ 1º e 2º, permite expressamente a Sociedade Limitada Unipessoal (1 único sócio, pessoa física ou jurídica, SEM capital mínimo — diferente da antiga EIRELI que exigia 100 salários mínimos e foi EXTINTA/transformada automaticamente em SLU pela Lei nº 14.195/2021 e Lei nº 14.382/2022)!"
+        "text": "Na Sociedade Limitada, a responsabilidade de cada sócio é restrita ao valor de suas quotas, mas todos respondem solidariamente pela integralização do capital social."
       }
     ],
     "correctAnswer": "D",
@@ -568,19 +568,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A alteração do contrato social e a incorporação na Sociedade Limitada continuam exigindo o quórum qualificado de 3/4 (75%) do capital social."
+        "text": "A alteração do contrato social e a incorporação na Sociedade Limitada continuam exigindo o quórum qualificado de 3/4 (75%) do capital social, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "B",
-        "text": "Se o capital social da Ltda não estiver totalmente integralizado, a nomeação de administrador não sócio exige aprovação pela unanimidade dos sócios."
+        "text": "Se o capital social da Ltda não estiver totalmente integralizado, a nomeação de administrador não sócio exige aprovação pela unanimidade dos sócios, com afastamento da responsabilidade pessoal dos sócios sem prévia demonstração de abuso."
       },
       {
         "letter": "C",
-        "text": "A aprovação das contas dos administradores e a nomeação de liquidante na Ltda continuam exigindo 3/4 do capital social."
+        "text": "A aprovação das contas dos administradores e a nomeação de liquidante na Ltda continuam exigindo 3/4 do capital social, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "D",
-        "text": "Atenção máxima às mudanças históricas da Lei nº 14.451/2022! (1) O quórum qualificado de 3/4 (75%) do capital social para alteração do contrato social, incorporação, fusão e dissolução FOI REVOGADO — hoje exige-se apenas MAIORIA ABSOLUTA (votos correspondentes a MAIS DA METADE do capital social — Art. 1.076, I e II, CC)! (2) A designação de administrador NÃO SÓCIO (Art. 1.061 CC): antes exigia unanimidade (não integralizado) ou 2/3 (integralizado) — hoje, se o capital estiver TOTALMENTE integralizado exige apenas MAIS DA METADE DO CAPITAL (se NÃO integralizado, exige 2/3 no mínimo — fim da unanimidade!); e (3) a destituição de administrador sócio nomeado no contrato social exige aprovação de titulares de quotas correspondentes a MAIS DA METADE do capital social (Art. 1.063, § 1º — salvo disposição contratual diversa)!"
+        "text": "Atenção máxima às mudanças históricas da Lei nº 14.451/2022. o quórum qualificado de 3/4 (75%) do capital social para alteração do contrato social, incorporação, fusão e dissolução foi revogado."
       }
     ],
     "correctAnswer": "D",
@@ -623,7 +623,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na omissão do contrato social da Limitada, a cessão de quotas a terceiro estranho exige concordância unânime de 100% do capital social."
+        "text": "Na omissão do contrato social da Limitada, a cessão de quotas a terceiro estranho exige concordância unânime de 100% do capital social, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "B",
@@ -635,7 +635,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Na omissão do contrato social: (1) CESSÃO DE QUOTAS a estranho (Art. 1.057 CC) é lícita desde que NÃO haja oposição de titulares de MAIS DE 1/4 (25%) do capital social (entre sócios é livre!); (2) DIREITO DE RETIRADA (Art. 1.029 CC) na sociedade por prazo INDETERMINADO faz-se mediante notificação aos demais sócios com antecedência mínima de 60 DIAS (e em caso de modificação do contrato, fusão ou incorporação — Art. 1.077 — no prazo de 30 dias da reunião!); e (3) EXCLUSÃO EXTRAJUDICIAL do minoritário por justa causa (Art. 1.085 CC) exige cumulativamente: (a) previsão expressa de exclusão por justa causa no CONTRATO SOCIAL, (b) deliberação da maioria dos sócios representativa de MAIS DA METADE do capital social por ato de inegável gravidade, e (c) REUNIÃO OU ASSEMBLEIA especialmente convocada com ciência em tempo hábil para direito de defesa (salvo sociedade com apenas 2 sócios, que DISPENSA reunião/assembleia pelo parágrafo único do Art. 1.085)!"
+        "text": "Na omissão do contrato social: cessão de quotas a estranho é lícita desde que não haja oposição de titulares de mais de 1/4 (25%) do capital social."
       }
     ],
     "correctAnswer": "D",
@@ -678,19 +678,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na transformação de Sociedade Limitada em Sociedade Anônima há extinção da personalidade jurídica anterior e necessidade de liquidação prévia de todo o patrimônio."
+        "text": "Na transformação de Sociedade Limitada em Sociedade Anônima há extinção da personalidade jurídica anterior e necessidade de liquidação prévia de todo o patrimônio, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "B",
-        "text": "Na fusão de duas sociedades, a sociedade maior permanece intacta com seu próprio CNPJ e absorve o patrimônio da menor que se extingue."
+        "text": "Na fusão de duas sociedades, a sociedade maior permanece intacta com seu próprio CNPJ e absorve o patrimônio da menor que se extingue, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "C",
-        "text": "Na cisão parcial de uma sociedade, a sociedade cindida extingue-se obrigatoriamente de pleno direito."
+        "text": "Na cisão parcial de uma sociedade, a sociedade cindida extingue-se obrigatoriamente de pleno direito, com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso."
       },
       {
         "letter": "D",
-        "text": "A mudança de tipo societário (Ltda -> S/A) sem dissolução ou liquidação é TRANSFORMAÇÃO (Art. 1.113 CC — exige unanimidade dos sócios salvo previsão no contrato, assegurado direito de retirada ao dissidente!); a união de duas ou mais sociedades (A + B) que se extinguem para formar uma sociedade NOVA (C) é FUSÃO (Art. 1.119 CC — diferente da INCORPORAÇÃO, onde uma absorve outra e só a incorporada se extingue, e da CISÃO, onde há transferência total ou parcial de patrimônio para outra)! E pelo Art. 1.122 do CC, até 90 (NOVENTA) DIAS após publicados os atos relativos à incorporação, fusão ou cisão, o credor anterior por ela prejudicado poderá promover judicialmente a ANULAÇÃO deles (sendo de 60 dias na Lei das S/A — Art. 232 LSA)!"
+        "text": "A mudança de tipo societário (Ltda -> S/A) sem dissolução ou liquidação é transformação; a união de duas ou mais sociedades (A + B) que se extinguem para formar uma sociedade nova (C) é fusão. E, até 90 (noventa) dias após publicados os atos relativos à incorporação, fusão ou cisão, o credor anterior por ela prejudicado poderá promover judicialmente a anulação deles."
       }
     ],
     "correctAnswer": "D",
@@ -733,7 +733,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O estatuto social da Sociedade Anônima pode emitir até 2/3 (66,6%) do capital social em ações preferenciais sem direito a voto."
+        "text": "O estatuto social da Sociedade Anônima pode emitir até 2/3 (66,6%) do capital social em ações preferenciais sem direito a voto, com livre alienação e circulação do título ou participação societária entre os interessados."
       },
       {
         "letter": "B",
@@ -745,7 +745,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O limite máximo de ações PREFERENCIAIS sem direito a voto ou sujeitas a restrição no exercício desse direito NÃO pode ultrapassar 50% (CINQUENTA POR CENTO) do total das ações emitidas (Art. 15, § 2º, LSA — logo, 60% é ILEGAL! E se a companhia deixar de pagar dividendos fixos/mínimos pelo prazo previsto no estatuto, nunca superior a 3 EXERCÍCIOS consecutivos, as preferenciais sem voto ADQUIREM o direito de voto — Art. 111, § 1º)! Quanto ao VOTO PLURAL (Art. 110-A LSA, inserido pela Lei nº 14.195/2021): admite-se até 10 VOTOS por ação ordinária de classe especial, DESDE QUE criado ANTES da negociação das ações em mercado organizado (proibida criação após IPO/listagem em bolsa e com vigência inicial de até 7 anos prorrogável)! E o Acordo de Acionistas arquivado na sede vincula a companhia (Art. 118 LSA — com execução específica e bloqueio de voto contrário pelo presidente da assembleia)!"
+        "text": "O limite máximo de ações preferenciais sem direito a voto ou sujeitas a restrição no exercício desse direito não pode ultrapassar 50% do total das ações emitidas."
       }
     ],
     "correctAnswer": "D",
@@ -796,11 +796,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "As debêntures só podem ser emitidas por companhias abertas e nunca podem ser convertidas em ações da emissora."
+        "text": "As debêntures só podem ser emitidas por companhias abertas e nunca podem ser convertidas em ações da emissora, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada."
       },
       {
         "letter": "D",
-        "text": "O título representativo de empréstimo que confere direito de crédito contra a companhia com garantia real/flutuante/quirografária/subordinada é a DEBÊNTURE (Arts. 52–74 LSA)! Já o título negociável sem valor nominal e estranho ao capital social que confere direito de crédito eventual de participação nos lucros anuais (máximo de 10% dos lucros — Art. 46, § 2º) chama-se PARTE BENEFICIÁRIA (Arts. 46–51 LSA) — e atenção: pelo Art. 47, parágrafo único, da LSA, É VEDADO ÀS COMPANHIAS ABERTAS EMITIR PARTES BENEFICIÁRIAS (só companhias FECHADAS podem emitir partes beneficiárias)!"
+        "text": "O título representativo de empréstimo que confere direito de crédito contra a companhia com garantia real/flutuante/quirografária/subordinada é a debênture."
       }
     ],
     "correctAnswer": "D",
@@ -843,7 +843,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Conselho de Administração é facultativo nas companhias abertas, podendo ser substituído apenas pelo Conselho Fiscal."
+        "text": "O Conselho de Administração é facultativo nas companhias abertas, podendo ser substituído apenas pelo Conselho Fiscal, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "B",
@@ -855,7 +855,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Nas companhias ABERTAS e nas de CAPITAL AUTORIZADO (bem como nas sociedades de economia mista — Art. 239), o CONSELHO DE ADMINISTRAÇÃO é OBRIGATÓRIO (Art. 138, § 2º, LSA — nas companhias fechadas comuns é facultativo, e tanto o Conselho quanto a Diretoria não precisam mais que diretores residam no Brasil desde a Lei 14.195/21, exigindo apenas procurador residente se morar fora)! Quanto à responsabilidade do administrador (Art. 158 LSA): ele NÃO é pessoalmente responsável pelas obrigações que contrair em nome da sociedade e em virtude de ATO REGULAR DE GESTÃO (Business Judgment Rule — Art. 159, § 6º LSA!), respondendo civilmente pelos prejuízos apenas quando proceder com culpa ou dolo dentro de suas atribuições, ou com violação da lei ou do estatuto!"
+        "text": "Nas companhias abertas e nas de capital autorizado, o conselho de administração é obrigatório."
       }
     ],
     "correctAnswer": "D",
@@ -898,19 +898,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Tag Along obrigatório do Art. 254-A da Lei das S/A garante 100% do preço pago ao controlador inclusive para todos os titulares de ações preferenciais sem direito a voto."
+        "text": "O Tag Along obrigatório da Lei das S/A garante 100% do preço pago ao controlador inclusive para todos os titulares de ações preferenciais sem direito a voto, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "B",
-        "text": "A regra do Tag Along do Art. 254-A aplica-se indistintamente tanto às companhias abertas quanto às companhias fechadas."
+        "text": "A regra do Tag Along aplica-se indistintamente tanto às companhias abertas quanto às companhias fechadas, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "C",
-        "text": "Para ser caracterizado acionista controlador pelo Art. 116 da LSA, basta possuir maioria absoluta das ações votantes, mesmo que o sócio jamais use efetivamente seu poder para dirigir as atividades sociais."
+        "text": "Para ser caracterizado acionista controlador, basta possuir maioria absoluta das ações votantes, mesmo que o sócio jamais use efetivamente seu poder para dirigir as atividades sociais. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "D",
-        "text": "SIM! Pelo Art. 254-A da Lei nº 6.404/1976, a alienação, direta ou indireta, do controle de companhia ABERTA somente poderá ser contratada sob a condição, suspensiva ou resolutiva, de que o adquirente se obrigue a fazer OFERTA PÚBLICA DE AQUISIÇÃO (OPA / Tag Along) das ações COM DIREITO A VOTO de propriedade dos demais acionistas da companhia, de modo a lhes assegurar o preço no mínimo igual a 80% (OITENTA POR CENTO) DO VALOR PAGO POR AÇÃO COM DIREITO A VOTO INTEGRANTE DO BLOCO DE CONTROLE! (No Novo Mercado da B3 o estatuto eleva voluntariamente o Tag Along para 100%, mas o piso legal da LSA é 80% apenas para ações com direito a voto)!"
+        "text": "Sim. a alienação, direta ou indireta, do controle de companhia aberta somente poderá ser contratada sob a condição, suspensiva ou resolutiva, de que o adquirente se obrigue a fazer oferta pública de aquisição (opa / Tag Along) das ações com direito a voto de propriedade dos demais acionistas da companhia, de modo a lhes assegurar o preço no mínimo igual a 80% (oitenta por cento) do valor pago por ação com direito a voto integrante do bloco de controle."
       }
     ],
     "correctAnswer": "D",
@@ -953,19 +953,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As empresas podem consumar a fusão imediatamente e protocolar a notificação ao CADE em até 15 dias úteis após o fechamento do negócio."
+        "text": "As empresas podem consumar a fusão imediatamente e protocolar a notificação ao CADE em até 15 dias úteis após o fechamento do negócio, com manutenção da estrutura de governança societária e da limitação de responsabilidade. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "B",
-        "text": "A simples conquista natural de mercado fundada na maior eficiência de um agente econômico perante seus concorrentes constitui infração à ordem econômica no Art. 36."
+        "text": "A simples conquista natural de mercado fundada na maior eficiência de um agente econômico perante seus concorrentes constitui infração à ordem econômica, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "C",
-        "text": "Os prazos de análise do ato de concentração pelo CADE são ilimitados; se o CADE não julgar em 1 ano, a operação permanece bloqueada."
+        "text": "Os prazos de análise do ato de concentração pelo CADE são ilimitados; se o CADE não julgar em 1 ano, a operação permanece bloqueada. Tal entendimento preserva o regime próprio das obrigações empresariais e cambiárias."
       },
       {
         "letter": "D",
-        "text": "NÃO! Desde a Lei nº 12.529/2011 vige no Brasil o controle PRÉVIO dos atos de concentração econômica (Art. 88, §§ 2º e 3º): a operação NÃO pode ser consumada antes da apreciação final pelo CADE (sob pena de nulidade dos atos + multa pecuniária de R$ 60 mil a R$ 60 milhões — \"gun jumping\"!), devendo ser mantidas intactas as condições concorrenciais até decisão do CADE no prazo máximo de 240 dias (prorrogável por +60 ou +90 dias)! E no Acordo de Leniência (Art. 86): a primeira empresa/pessoa participante de cartel que confessar a infração e colaborar efetivamente obtém EXTINÇÃO DA AÇÃO PUNITIVA da administração pública (ou redução de 1/3 a 2/3 se o CADE já tiver conhecimento prévio!) e suspensão/extinção da punibilidade penal dos crimes concorrenciais envolvidos!"
+        "text": "Não. Desde a Lei nº 12.529/2011 vige no Brasil o controle prévio dos atos de concentração econômica: a operação não pode ser consumada antes da apreciação final pelo CADE, devendo ser mantidas intactas as condições concorrenciais até decisão do CADE no prazo máximo de 240 dias. E no Acordo de Leniência: a primeira empresa/pessoa participante de cartel que confessar a infração e colaborar efetivamente obtém extinção da ação punitiva da administração pública e suspensão/extinção da punibilidade penal dos crimes concorrenciais envolvidos."
       }
     ],
     "correctAnswer": "D",
@@ -1008,7 +1008,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Se o INPI demorar mais de 10 anos para conceder a patente de invenção, o titular ainda tem garantia constitucional do prazo mínimo de 10 anos contados da concessão."
+        "text": "Se o inpi demorar mais de 10 anos para conceder a patente de invenção, o titular ainda tem garantia constitucional do prazo mínimo de 10 anos contados da concessão."
       },
       {
         "letter": "B",
@@ -1016,11 +1016,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A patente de modelo de utilidade vigora por 20 anos e exige o mesmo grau de atividade inventiva absoluta de uma patente de invenção."
+        "text": "A patente de modelo de utilidade vigora por 20 anos e exige o mesmo grau de atividade inventiva absoluta de uma patente de invenção, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "D",
-        "text": "A patente de INVENÇÃO vigora pelo prazo de 20 (VINTE) ANOS e a de MODELO DE UTILIDADE pelo prazo de 15 (QUINZE) ANOS contados da DATA DE DEPÓSITO (Art. 40, caput, da Lei 9.279/96)! Atenção máxima à ADI 5529 do STF (julgada em 2021): o STF declarou INCONSTITUCIONAL o parágrafo único do Art. 40 da LPI (que garantia prazo mínimo de 10 anos para invenção e 7 anos para modelo de utilidade a partir da concessão caso o INPI demorasse!), de modo que HOJE o prazo é estritamente fixo da data do depósito (20 anos / 15 anos — caindo em domínio público ao fim dos 20/15 anos do depósito, sem prorrogação automática pela demora do INPI)!"
+        "text": "A patente de invenção vigora pelo prazo de 20 (vinte) anos e a de modelo de utilidade pelo prazo de 15 (quinze) anos contados da data de depósito."
       }
     ],
     "correctAnswer": "D",
@@ -1064,7 +1064,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O registro da marca vigora por 10 anos e só pode ser prorrogado uma única vez por mais 10 anos (máximo de 20 anos)."
+        "text": "O registro da marca vigora por 10 anos e só pode ser prorrogado uma única vez por mais 10 anos (máximo de 20 anos), observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "B",
@@ -1072,11 +1072,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O registro de MARCA vigora por 10 (DEZ) ANOS contados da concessão, PRORROGÁVEL POR PERÍODOS IGUAIS E SUCESSIVOS (indefinidamente — Art. 133 LPI — diferente do Desenho Industrial, que dura 10 anos + até 3 prorrogações de 5 anos = teto 25 anos!); o não uso injustificado da marca por 5 ANOS da concessão (ou interrupção por mais de 5 anos seguidos) gera CADUCIDADE a requerimento de legítimo interessado (Art. 143)! E a diferença clássica: Marca de ALTO RENOME (Art. 125 — registrada no Brasil + reconhecida pelo INPI) tem proteção especial em TODOS OS RAMOS DE ATIVIDADE; já a Marca NOTORIAMENTE CONHECIDA (Art. 126 — Convenção de Paris) goza de proteção especial no SEU RAMO DE ATIVIDADE, INDEPENDENTEMENTE de estar previamente depositada ou registrada no Brasil!"
+        "text": "O registro de marca vigora por 10 (dez) anos contados da concessão, prorrogável por períodos iguais e sucessivos."
       },
       {
         "letter": "D",
-        "text": "A caducidade da marca por não uso ocorre automaticamente após 2 anos da concessão, sendo declarada de ofício pelo INPI sem provocação."
+        "text": "A caducidade da marca por não uso ocorre automaticamente após 2 anos da concessão, sendo declarada de ofício pelo inpi sem provocação."
       }
     ],
     "correctAnswer": "C",
@@ -1119,7 +1119,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A ausência de registro formal das cores e formato da embalagem no INPI impede qualquer proteção judicial contra imitação por concorrente."
+        "text": "A ausência de registro formal das cores e formato da embalagem no inpi impede qualquer proteção judicial contra imitação por concorrente, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "B",
@@ -1127,11 +1127,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Configura CONCORRÊNCIA DESLEAL mediante violação do TRADE DRESS (conjunto-imagem) do produto (Art. 195, III, e Art. 209 da Lei 9.279/96)! Mesmo sem registro específico de marca figurativa ou desenho industrial no INPI, o STJ protege o conjunto-imagem (trade dress) distintivo quando houver imitação capaz de causar confusão ou associação indevida ao público consumidor (exigindo prova pericial de distintividade e confusão — Tema/jurisprudência STJ)! E como a ação cível de concorrência desleal/violação de trade dress envolve apenas particulares sem pedido de anulação de registro contra o INPI, a competência é da JUSTIÇA ESTADUAL (só a ação de nulidade de registro de marca/patente com participação obrigatória do INPI tramita na Justiça Federal)!"
+        "text": "Configura concorrência desleal mediante violação do trade dress (conjunto-imagem) do produto."
       },
       {
         "letter": "D",
-        "text": "Nos termos do Art. 209 da LPI, a ação de abstenção de concorrência desleal não admite tutela liminar sem oitiva prévia do réu."
+        "text": "A ação de abstenção de concorrência desleal não admite tutela liminar sem oitiva prévia do réu, com inaplicabilidade automática dos efeitos falimentares fora das hipóteses legais taxativas."
       }
     ],
     "correctAnswer": "C",
@@ -1174,19 +1174,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo princípio da literalidade, o devedor pode opor contra qualquer endossatário de boa-fé todos os vícios do contrato de compra e venda que originou a nota promissória."
+        "text": "Pelo princípio da literalidade, o devedor pode opor contra qualquer endossatário de boa-fé todos os vícios do contrato de compra e venda que originou a nota promissória, com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso."
       },
       {
         "letter": "B",
-        "text": "O Código Civil proíbe expressamente a emissão de qualquer título de crédito criado a partir dos caracteres de computador ou meio eletrônico sem papel físico."
+        "text": "O Código Civil proíbe expressamente a emissão de qualquer título de crédito criado a partir dos caracteres de computador ou meio eletrônico sem papel físico, com manutenção da estrutura de governança societária e da limitação de responsabilidade. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "C",
-        "text": "NÃO! Pelo princípio da AUTONOMIA DAS OBRIGAÇÕES CAMBIÁRIAS (em seus dois subprincípios: ABSTRAÇÃO e INOPONIBILIDADE DAS EXCEÇÕES PESSOAIS AOS TERCEIROS DE BOA-FÉ — Arts. 915 e 916 do CC e Art. 17 da LUG!), uma vez circulado o título por endosso próprio a terceiro de boa-fé, o vínculo jurídico-cambiário desvincula-se da causa originária (abstração) e o devedor NÃO pode opor ao portador de boa-fé as exceções fundadas em suas relações pessoais com o sacador ou com os portadores anteriores (salvo se o portador, ao adquirir o título, tiver agido conscientemente em detrimento do devedor — má-fé)!"
+        "text": "Não. Pelo princípio da autonomia das obrigações cambiárias, uma vez circulado o título por endosso próprio a terceiro de boa-fé, o vínculo jurídico-cambiário desvincula-se da causa originária (abstração) e o devedor não pode opor ao portador de boa-fé as exceções fundadas em suas relações pessoais com o sacador ou com os portadores anteriores."
       },
       {
         "letter": "D",
-        "text": "A assinatura no título de crédito de uma pessoa incapaz ou falsa contamina e anula automaticamente as obrigações de todos os demais signatários capazes (avalistas e endossantes)."
+        "text": "A assinatura no título de crédito de uma pessoa incapaz ou falsa contamina e anula automaticamente as obrigações de todos os demais signatários capazes (avalistas e endossantes), sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       }
     ],
     "correctAnswer": "C",
@@ -1229,19 +1229,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A recusa de aceite pelo sacado na Letra de Câmbio torna o título nulo, impedindo o portador de cobrar do sacador antes da data futura do vencimento."
+        "text": "A recusa de aceite pelo sacado na Letra de Câmbio torna o título nulo, impedindo o portador de cobrar do sacador antes da data futura do vencimento, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "B",
-        "text": "O prazo prescricional da execução de Nota Promissória contra seu emitente (subscritor) e avalista é de 5 anos pelo Código Civil."
+        "text": "O prazo prescricional da execução de Nota Promissória contra seu emitente (subscritor) e avalista é de 5 anos pelo Código Civil, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "C",
-        "text": "Na Letra de Câmbio (ordem de pagamento entre sacador, sacado e tomador), o sacado NÃO é obrigado a aceitar: se RECUSAR o aceite (total ou parcialmente — Art. 26 LUG), ocorre o VENCIMENTO ANTECIPADO do título, podendo o portador cobrar imediatamente do SACADOR e dos demais coobrigados mediante prévio protesto por falta de aceite (Art. 43 LUG)! Já a Nota Promissória é PROMESSA DE PAGAMENTO direta do emitente (subscritor), logo NÃO comporta instituto do aceite! E os prazos prescricionais da LUG (Art. 70 — aplicáveis a Letra de Câmbio e Nota Promissória): 3 ANOS contra o aceitante/emitente (devedor principal) e seu avalista; 1 ANO do portador contra endossantes e sacador (contado do protesto ou do vencimento se cláusula sem despesas); e 6 MESES dos endossantes uns contra os outros e contra o sacador!"
+        "text": "Na Letra de Câmbio, o sacado não é obrigado a aceitar: se recusar o aceite, ocorre o vencimento antecipado do título, podendo o portador cobrar imediatamente do sacador e dos demais coobrigados mediante prévio protesto por falta de aceite."
       },
       {
         "letter": "D",
-        "text": "Na Letra de Câmbio, mesmo que o sacado aceite parcialmente o título (ex.: aceita apenas R$ 5 mil de uma letra de R$ 10 mil), o aceite parcial é considerado integralmente nulo."
+        "text": "Na Letra de Câmbio, mesmo que o sacado aceite parcialmente o título (ex.: aceita apenas R$ 5 mil de uma letra de R$ 10 mil), o aceite parcial é considerado integralmente nulo. Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso."
       }
     ],
     "correctAnswer": "C",
@@ -1285,19 +1285,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O endosso realizado após o vencimento do título, mesmo antes do protesto por falta de pagamento, sempre equivale a mera cessão civil de crédito."
+        "text": "O endosso realizado após o vencimento do título, mesmo antes do protesto por falta de pagamento, sempre equivale a mera cessão civil de crédito. Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso."
       },
       {
         "letter": "B",
-        "text": "No endosso-mandato, o banco endossatário responde objetivamente sempre por qualquer protesto indevido decorrente de título já quitado diretamente ao credor sem aviso ao banco."
+        "text": "No endosso-mandato, o banco endossatário responde objetivamente sempre por qualquer protesto indevido decorrente de título já quitado diretamente ao credor sem aviso ao banco, com desconsideração direta da personalidade jurídica sem instauração prévia de incidente."
       },
       {
         "letter": "C",
-        "text": "No ENDOSSO-MANDATO (\"valor em cobrança\", \"por procuração\" — Art. 18 LUG / Art. 917 CC), o endossatário (banco) NÃO adquire a titularidade do crédito — atua apenas como mandatário para cobrar, de modo que os obrigados só podem opor contra o banco as exceções que teriam contra o ENDOSSANTE (e pela Súmula 476 do STJ, o endossatário que recebe por endosso-mandato NÃO responde em regra pelo protesto indevido salvo se extrapolar os poderes ou mantiver o apontamento após ciência da quitação/vício)! Já o ENDOSSO PÓSTUMO OU TARDIO (feito APÓS o protesto por falta de pagamento ou após expirado o prazo do protesto — Art. 20 LUG) NÃO produz os efeitos de endosso cambiário, produzindo apenas os efeitos de uma CESSÃO ORDINÁRIA DE CRÉDITO (permitindo opor ao cessionário as exceções pessoais contra o cedente)!"
+        "text": "No endosso-mandato, o endossatário (banco) não adquire a titularidade do crédito. Já o endosso póstumo ou tardio não produz os efeitos de endosso cambiário, produzindo apenas os efeitos de uma cessão ordinária de crédito."
       },
       {
         "letter": "D",
-        "text": "É válido o endosso parcial de apenas metade do valor do título de crédito e o endosso riscado sem autorização equivale a título nulo."
+        "text": "É válido o endosso parcial de apenas metade do valor do título de crédito e o endosso riscado sem autorização equivale a título nulo, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada."
       }
     ],
     "correctAnswer": "C",
@@ -1341,19 +1341,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela Súmula 332 do STJ, o aval prestado em Nota Promissória ou Cheque sem autorização do cônjuge é totalmente ineficaz."
+        "text": "O aval prestado em Nota Promissória ou Cheque sem autorização do cônjuge é totalmente ineficaz, com manutenção da estrutura de governança societária e da limitação de responsabilidade. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "B",
-        "text": "O avalista goza do benefício de ordem (exigindo cobrança prévia contra o avalizado) e sua obrigação cai se a obrigação do avalizado for nula por vício substancial de incapacidade."
+        "text": "O avalista goza do benefício de ordem (exigindo cobrança prévia contra o avalizado) e sua obrigação cai se a obrigação do avalizado for nula por vício substancial de incapacidade, com afastamento da responsabilidade pessoal dos sócios sem prévia demonstração de abuso."
       },
       {
         "letter": "C",
-        "text": "NÃO! Atenção à consolidada jurisprudência do STJ (REsp 1.633.399 / 2ª Seção)! Embora o Art. 1.647, III, do Código Civil exija vênia conjugal para prestar fiança ou aval, o Art. 903 do CC dispõe que as normas do Código Civil aplicam-se apenas supletivamente se não contrariarem lei especial — e como os TÍTULOS DE CRÉDITO TÍPICOS (Nota Promissória, Letra de Câmbio, Cheque, Duplicata, CCB) são regidos por leis especiais (LUG, Lei do Cheque, Lei das Duplicatas) que NÃO exigem vênia conjugal para validade do aval, o STJ pacificou que a ausência de outorga conjugal NÃO invalida o aval em títulos típicos (só exige outorga nos títulos atípicos regidos puramente pelo Código Civil — e ainda que se aplique o Art. 1.647, III, em caso específico, protege apenas a meação do cônjuge que não anuiu)! Já na FIANÇA civil, aplica-se a Súmula 332 do STJ (fiança sem outorga conjugal é TOTALMENTE INEFICAZ)!"
+        "text": "Não. Atenção à consolidada jurisprudência do STJ. Embora o Art. 1.647, III, do Código Civil exija vênia conjugal para prestar fiança ou aval, a legislação aplicável dispõe que as normas do Código Civil aplicam-se apenas supletivamente se não contrariarem lei especial. Já na fiança civil, aplica-se a Súmula 332 do STJ."
       },
       {
         "letter": "D",
-        "text": "No Código Civil (Art. 897, parágrafo único), assim como na Lei Uniforme de Genebra (Art. 30 LUG), admite-se livremente o aval parcial."
+        "text": "No Código Civil, assim como na Lei Uniforme de Genebra, admite-se livremente o aval parcial. Tal entendimento preserva o regime próprio das obrigações empresariais e cambiárias."
       }
     ],
     "correctAnswer": "C",
@@ -1405,7 +1405,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O cheque é ordem de pagamento à vista (Art. 32 Lei 7.357/85), MAS pela Súmula 370 do STJ, caracteriza DANO MORAL (in re ipsa — inclusive Súmula 388 STJ para devolução indevida!) a apresentação ANTECIPADA de cheque pré-datado! Quanto aos prazos do cheque: apresentação ao banco = 30 DIAS (mesma praça) ou 60 DIAS (praça diferente — Art. 33); EXECUÇÃO cambiária prescreve em 6 MESES contados do TÉRMINO do prazo de apresentação (Art. 59); após esses 6 meses cabe AÇÃO DE ENRIQUECIMENTO SEM CAUSA em 2 ANOS (Art. 61) ou AÇÃO MONITÓRIA / COBRANÇA CAUSAL no prazo de 5 ANOS a contar do dia seguinte à data de emissão estampada no cheque (Súmula 503 STJ — dispensando demonstração do negócio jurídico subjacente pela Súmula 531 STJ)!"
+        "text": "O cheque é ordem de pagamento à vista, mas, caracteriza dano moral a apresentação antecipada de cheque pré-datado."
       },
       {
         "letter": "D",
@@ -1453,19 +1453,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A duplicata não assinada (sem aceite) pelo comprador nunca pode ser executada judicialmente, servindo apenas para ação monitória."
+        "text": "A duplicata não assinada (sem aceite) pelo comprador nunca pode ser executada judicialmente, servindo apenas para ação monitória, com afastamento da responsabilidade pessoal dos sócios sem prévia demonstração de abuso."
       },
       {
         "letter": "B",
-        "text": "O prazo para o portador da duplicata protestá-la e preservar o direito de cobrança contra os endossantes é de 1 dia útil após o vencimento."
+        "text": "O prazo para o portador da duplicata protestá-la e preservar o direito de cobrança contra os endossantes é de 1 dia útil após o vencimento, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "C",
-        "text": "A duplicata é título CAUSAL (só pode ser emitida em compra e venda mercantil ou prestação de serviços com fatura — emissão simulada configura crime do Art. 172 CP)! A duplicata NÃO ACEITA (sem assinatura do sacado) ainda assim constitui TÍTULO EXECUTIVO EXTRAJUDICIAL contra o sacado se preencher 3 requisitos cumulativos (Art. 15, II, Lei 5.474/68): (1) houver sido PROTESTADA (ou por indicações do protesto/boleto + comprovante de entrega!), (2) estiver acompanhada de DOCUMENTO HÁBIL COMPROBATÓRIO DA ENTREGA e recebimento da mercadoria (canhoto assinado), e (3) o sacado NÃO tiver recusado o aceite justificadamente (vícios/avaria/divergência nos prazos do Art. 7º e 8º)! E o portador que NÃO tirar o protesto em 30 (TRINTA) DIAS contados da data do vencimento perderá o direito de regresso contra os ENDOSSANTES e respectivos avalistas (Art. 13, § 4º — mantida a ação contra o sacado aceitante em 3 anos)!"
+        "text": "A duplicata é título causal. A duplicata não aceita ainda assim constitui título executivo extrajudicial contra o sacado se preencher 3 requisitos cumulativos: houver sido protestada, estiver acompanhada de documento hábil comprobatório da entrega e recebimento da mercadoria (canhoto assinado), e o sacado não tiver recusado o aceite justificadamente. E o portador que não tirar o protesto em 30 (trinta) dias contados da data do vencimento perderá o direito de regresso contra os endossantes e respectivos avalistas."
       },
       {
         "letter": "D",
-        "text": "Na Lei nº 13.775/2018 (Duplicata Escritural), a emissão em papel continua obrigatória mesmo quando escriturada em sistema eletrônico autorizado pelo Banco Central."
+        "text": "Na Lei nº 13.775/2018 (Duplicata Escritural), a emissão em papel continua obrigatória mesmo quando escriturada em sistema eletrônico autorizado pelo Banco Central, com produção de efeitos cambiários autônomos e literais para execução contra coobrigados."
       }
     ],
     "correctAnswer": "C",
@@ -1513,15 +1513,15 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A reunião ou assembleia de sócios na Limitada é obrigatória sempre que a sociedade tiver mais de 5 sócios."
+        "text": "A reunião ou assembleia de sócios na Limitada é obrigatória sempre que a sociedade tiver mais de 5 sócios, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "C",
-        "text": "A assembleia INSTALA-SE em 1ª convocação com titulares de no mínimo 3/4 (75%) do capital social e, em 2ª convocação, com QUALQUER NÚMERO (Art. 1.074 CC — logo, 60% NÃO instala a 1ª convocação, mas 25% instala perfeitamente a 2ª!) — e se todos os sócios comparecerem ou declararem por escrito ciência, dispensam-se anúncios de convocação (§ 2º)! Quanto à unipessoalidade superveniente: antes o Art. 1.033, IV, exigia recomposição da pluralidade em 180 dias sob pena de dissolução — MAS esse inciso IV FOI REVOGADO pela Lei nº 14.195/2021 (pois hoje a Sociedade Limitada Unipessoal — SLU — é permanente e lícita no Art. 1.052, §§ 1º e 2º)! Logo, NÃO se dissolve mais por falta de pluralidade de sócios!"
+        "text": "A assembleia instala-se em 1ª convocação com titulares de no mínimo 3/4 (75%) do capital social e, em 2ª convocação, com qualquer número."
       },
       {
         "letter": "D",
-        "text": "Em 1ª convocação, a Assembleia de Sócios na Ltda instala-se regularmente com presença da maioria absoluta (mais de 50%) do capital social."
+        "text": "Em 1ª convocação, a Assembleia de Sócios na Ltda instala-se regularmente com presença da maioria absoluta (mais de 50%) do capital social, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       }
     ],
     "correctAnswer": "C",
@@ -1568,11 +1568,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A Sociedade em Nome Coletivo pode ter pessoas jurídicas como sócias, desde que a administração caiba a pessoa natural."
+        "text": "A Sociedade em Nome Coletivo pode ter pessoas jurídicas como sócias, desde que a administração caiba a pessoa natural, com produção de efeitos cambiários autônomos e literais para execução contra coobrigados."
       },
       {
         "letter": "C",
-        "text": "Na SOCIEDADE EM NOME COLETIVO (Arts. 1.039–1.044 CC): somente PESSOAS FÍSICAS podem tomar parte e TODOS os sócios respondem SOLIDÁRIA E ILIMITADAMENTE pelas obrigações sociais — eventual cláusula contratual limitando a responsabilidade vale APENAS ENTRE OS SÓCIOS internamente, sendo INEFICAZ perante terceiros (Art. 1.039, parágrafo único)! Na COMANDITA SIMPLES (Arts. 1.045–1.051): sócios COMANDITADOS (somente pessoas físicas) respondem solidária e ilimitadamente; sócios COMANDITÁRIOS respondem apenas pelo valor de suas quotas — MAS se o sócio comanditário praticar qualquer ato de gestão ou tiver seu nome na firma social, passa a responder SOLIDÁRIA E ILIMITADAMENTE como comanditado (Art. 1.047, parágrafo único)!"
+        "text": "Na sociedade em nome coletivo: somente pessoas físicas podem tomar parte e todos os sócios respondem solidária e ilimitadamente pelas obrigações sociais."
       },
       {
         "letter": "D",
@@ -1623,7 +1623,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 982, parágrafo único, do Código Civil, INDEPENDENTEMENTE DE SEU OBJETO, a sociedade COOPERATIVA considera-se sempre SOCIEDADE SIMPLES (por determinação legal expressa — jamais sociedade empresária, razão pela qual NÃO se sujeita à falência pelo Art. 2º da LRF, embora seu registro ocorra na Junta Comercial por força da Lei 5.764/71 / Art. 1.093 CC!)! Suas características essenciais (Art. 1.094 CC): variabilidade ou dispensa do capital social; concurso de sócios em número mínimo necessário à administração (sem teto máximo); intransferibilidade das quotas-parte a terceiros estranhos (nem por herança!); quórum da assembleia baseado no NÚMERO DE SÓCIOS PRESENTES (e não no capital — cada sócio tem direito a UM SÓ VOTO = \"um homem, um voto\", Art. 1.094, VI)!"
+        "text": "Independentemente de seu objeto, a sociedade cooperativa considera-se sempre sociedade SIMPLES."
       },
       {
         "letter": "C",
@@ -1674,15 +1674,15 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As restrições impostas ao gerente no contrato interno particular valem automaticamente contra qualquer fornecedor mesmo sem averbação na Junta Comercial."
+        "text": "As restrições impostas ao gerente no contrato interno particular valem automaticamente contra qualquer fornecedor mesmo sem averbação na Junta Comercial, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "B",
-        "text": "Quanto ao GERENTE: pelo Art. 1.174 do CC, as limitações contidas na outorga de poderes, para serem opostas a TERCEIROS, dependem do ARQUIVAMENTO E AVERBAÇÃO do instrumento na Junta Comercial (salvo se provado que o terceiro as conhecia ao tempo do negócio)! Assim, não averbada a limitação interna, o contrato com terceiro de boa-fé VINCULA O PREPONENTE (empresário), sem prejuízo de regresso contra o gerente! Quanto ao CONTABILISTA (Art. 1.177, parágrafo único, CC): pelos atos CULPOSOS praticados pelos contabilistas/prepostos no exercício de suas funções respondem os PREPONENTES (empresa) perante terceiros (com regresso); já pelos atos DOLOSOS, os contabilistas respondem PESSOALMENTE E SOLIDARIAMENTE com os preponentes!"
+        "text": "Quanto ao gerente:, as limitações contidas na outorga de poderes, para serem opostas a terceiros, dependem do arquivamento e averbação do instrumento na Junta Comercial."
       },
       {
         "letter": "C",
-        "text": "O gerente nomeado pelo empresário pode, mesmo sem autorização escrita, fazer-se substituir no exercício de sua preposição por um auxiliar de sua escolha."
+        "text": "O gerente nomeado pelo empresário pode, mesmo sem autorização escrita, fazer-se substituir no exercício de sua preposição por um auxiliar de sua escolha. Tal entendimento preserva o regime próprio das obrigações empresariais e cambiárias."
       },
       {
         "letter": "D",
@@ -1729,19 +1729,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo mínimo para o acionista exercer o direito de preferência na subscrição de aumento de capital é de 15 dias úteis contados da assembleia."
+        "text": "O prazo mínimo para o acionista exercer o direito de preferência na subscrição de aumento de capital é de 15 dias úteis contados da assembleia, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "B",
-        "text": "O direito de preferência para subscrição de ações, partes beneficiárias conversíveis, debêntures conversíveis e bônus de subscrição (Art. 109, IV, e Art. 171 LSA) deve ser exercido no prazo de DECADÊNCIA fixado no estatuto ou pela assembleia, que NÃO poderá ser inferior a 30 (TRINTA) DIAS (§ 4º do Art. 171 — se as ações forem emitidas sem direito de voto e houver várias classes, observa-se proporcionalidade)! CONTUDO, pelo Art. 172 da LSA, o estatuto da companhia ABERTA que contiver autorização para o aumento do capital (capital autorizado) PODE prever a emissão, SEM DIREITO DE PREFERÊNCIA para os antigos acionistas (ou com redução do prazo!), de ações/debêntures conversíveis/bônus cuja colocação seja feita mediante: (I) venda em BOLSA DE VALORES ou subscrição pública, ou (II) permuta por ações em OFERTA PÚBLICA DE AQUISIÇÃO DE CONTROLE (OPA)!"
+        "text": "O direito de preferência para subscrição de ações, partes beneficiárias conversíveis, debêntures conversíveis e bônus de subscrição deve ser exercido no prazo de decadência fixado no estatuto ou pela assembleia, que não poderá ser inferior a 30 (trinta) dias. Contudo, o estatuto da companhia aberta que contiver autorização para o aumento do capital pode prever a emissão, sem direito de preferência para os antigos acionistas, de ações/debêntures conversíveis/bônus cuja colocação seja feita mediante: (I) venda em bolsa de valores ou subscrição pública, ou (II) permuta por ações em oferta pública de aquisição de controle (opa)."
       },
       {
         "letter": "C",
-        "text": "O direito de preferência do acionista na subscrição é absolutamente intangível e nunca pode ser excluído nem mesmo em aumento de capital via venda em bolsa de valores na companhia aberta de capital autorizado."
+        "text": "O direito de preferência do acionista na subscrição é absolutamente intangível e nunca pode ser excluído nem mesmo em aumento de capital via venda em bolsa de valores na companhia aberta de capital autorizado, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "D",
-        "text": "São direitos essenciais do acionista que podem ser suprimidos livremente pelo estatuto social ou assembleia geral: participação nos lucros e fiscalização da gestão."
+        "text": "São direitos essenciais do acionista que podem ser suprimidos livremente pelo estatuto social ou assembleia geral: participação nos lucros e fiscalização da gestão, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       }
     ],
     "correctAnswer": "B",
@@ -1784,19 +1784,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Mesmo que o consumidor ou empresário já possua dez inscrições anteriores legítimas no Serasa/SPC, um novo apontamento indevido gera automaticamente dano moral indenizável."
+        "text": "Mesmo que o consumidor ou empresário já possua dez inscrições anteriores legítimas no Serasa/spc, um novo apontamento indevido gera automaticamente dano moral indenizável."
       },
       {
         "letter": "B",
-        "text": "Pela Súmula 385 do STJ, da anotação irregular em cadastro de proteção ao crédito (e também estendida ao protesto irregular pelo STJ!) NÃO cabe indenização por dano moral quando preexistente legítima inscrição (ressalvado o direito ao cancelamento)! E quanto ao cancelamento após o pagamento: pela Súmula 548 do STJ, incumbe ao CREDOR (e não ao devedor!) a exclusão do registro da dívida em órgão de proteção ao crédito no prazo de 5 DIAS ÚTEIS a contar do integral e efetivo pagamento do débito — mas atenção ao PROTESTO EM CARTÓRIO regular antes da quitação: se o protesto era LEGÍTIMO quando tirado e depois o devedor pagou diretamente ao credor, o STJ distingue que incumbe ao DEVEDOR levar a carta de anuência ao cartório e pagar os emolumentos para cancelar o protesto (só cabe ao credor se o protesto já nasceu indevido)!"
+        "text": "Da anotação irregular em cadastro de proteção ao crédito não cabe indenização por dano moral quando preexistente legítima inscrição."
       },
       {
         "letter": "C",
-        "text": "A Cédula de Crédito Bancário (CCB — Lei nº 10.931/04) não constitui título executivo extrajudicial quando ligada a contrato de abertura de crédito em conta corrente com planilhas evolutivas."
+        "text": "A Cédula de Crédito Bancário não constitui título executivo extrajudicial quando ligada a contrato de abertura de crédito em conta corrente com planilhas evolutivas."
       },
       {
         "letter": "D",
-        "text": "Após o pagamento de dívida já inscrita no SPC/Serasa, o credor tem o prazo de 30 dias para providenciar a baixa do registro."
+        "text": "Após o pagamento de dívida já inscrita no spc/Serasa, o credor tem o prazo de 30 dias para providenciar a baixa do registro, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       }
     ],
     "correctAnswer": "B",
@@ -1840,19 +1840,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos contratos empresariais presume-se sempre a vulnerabilidade de uma das sociedades, autorizando ampla revisão judicial sempre que houver variação de preços de mercado."
+        "text": "Nos contratos empresariais presume-se sempre a vulnerabilidade de uma das sociedades, autorizando ampla revisão judicial sempre que houver variação de preços de mercado, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "B",
-        "text": "Pelos Arts. 421, parágrafo único, e 421-A do Código Civil (inseridos pela Lei da Liberdade Econômica nº 13.874/2019): nos contratos civis e empresariais prevalece o princípio da INTERVENÇÃO MÍNIMA e a EXCEPCIONALIDADE DA REVISÃO CONTRATUAL! Os contratos civis e empresariais PRESUMEM-SE PARITÁRIOS E SIMÉTRICOS até a presença de elementos concretos que justifiquem o afastamento dessa presunção, podendo as partes estabelecer parâmetros objetivos de interpretação, pressupostos de revisão/resolução, e devendo a ALOCAÇÃO DE RISCOS definida pelas partes ser RESPEITADA E OBSERVADA, tornando a revisão judicial medida EXCEPCIONAL E LIMITADA (incisos I a III)!"
+        "text": "Pelos Arts. 421, parágrafo único, e 421-A do Código Civil: nos contratos civis e empresariais prevalece o princípio da intervenção mínima e a excepcionalidade da revisão contratual."
       },
       {
         "letter": "C",
-        "text": "As partes em contrato empresarial não podem convencionar critérios próprios de interpretação ou requisitos contratuais distintos dos critérios supletivos do Código Civil."
+        "text": "As partes em contrato empresarial não podem convencionar critérios próprios de interpretação ou requisitos contratuais distintos dos critérios supletivos do Código Civil, em proteção à autonomia patrimonial societária e à segurança das relações mercantis."
       },
       {
         "letter": "D",
-        "text": "A revisão judicial de contrato empresarial paritário não encontra nenhum limite no princípio da preservação da alocação de riscos."
+        "text": "A revisão judicial de contrato empresarial paritário não encontra nenhum limite no princípio da preservação da alocação de riscos, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada."
       }
     ],
     "correctAnswer": "B",
@@ -1895,19 +1895,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Circular de Oferta de Franquia deve ser entregue com antecedência mínima de 30 dias antes da assinatura do contrato."
+        "text": "A Circular de Oferta de Franquia deve ser entregue com antecedência mínima de 30 dias antes da assinatura do contrato, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 2º, § 1º, da Nova Lei de Franquias (Lei nº 13.966/2019), a Circular de Oferta de Franquia (COF) deverá ser entregue ao candidato a franqueado, em língua portuguesa e linguagem clara, NO MÍNIMO 10 (DEZ) DIAS ANTES da assinatura do contrato ou pré-contrato de franquia, ou ainda do pagamento de qualquer tipo de taxa pelo franqueado! Descumprido esse prazo de 10 dias (ou veiculada informação falsa), pelo § 2º o franqueado poderá arguir ANULABILIDADE ou NULIDADE (conforme a lei: \"anulabilidade ou nulidade\") e exigir DEVOLUÇÃO DE TODAS AS QUANTIAS pagas ao franqueador/terceiros indicados a título de filiação ou royalties, devidamente corrigidas! Ademais, o Art. 1º esclarece expressamente que o sistema de franquia NÃO caracteriza relação de consumo nem vínculo empregatício entre franqueador e franqueado ou seus empregados (inclusive durante treinamento)!"
+        "text": "Da Nova Lei de Franquias, a Circular de Oferta de Franquia (cof) deverá ser entregue ao candidato a franqueado, em língua portuguesa e linguagem clara, no mínimo 10 (dez) dias antes da assinatura do contrato ou pré-contrato de franquia, ou ainda do pagamento de qualquer tipo de taxa pelo franqueado."
       },
       {
         "letter": "C",
-        "text": "Caso a franqueadora subloque o ponto comercial ao franqueado, o valor do aluguel cobrado do franqueado nunca pode ser superior ao pago pela franqueadora ao proprietário do imóvel."
+        "text": "Caso a franqueadora subloque o ponto comercial ao franqueado, o valor do aluguel cobrado do franqueado nunca pode ser superior ao pago pela franqueadora ao proprietário do imóvel, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "D",
-        "text": "O contrato de franquia submete-se integralmente ao Código de Defesa do Consumidor e veda cláusula arbitral."
+        "text": "O contrato de franquia submete-se integralmente ao Código de Defesa do Consumidor e veda cláusula arbitral, em consonância com a preservação da empresa e a função social da atividade econômica."
       }
     ],
     "correctAnswer": "B",
@@ -1950,19 +1950,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É lícita a cláusula del credere no contrato de representação comercial autônoma da Lei nº 4.886/65 para garantir o pagamento das comissões."
+        "text": "É lícita a cláusula del credere no contrato de representação comercial autônoma da Lei nº 4.886/65 para garantir o pagamento das comissões, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "B",
-        "text": "Na rescisão SEM JUSTO MOTIVO de contrato por prazo indeterminado pelo representado, o representante comercial tem direito a: (1) INDENIZAÇÃO NÃO INFERIOR A 1/12 (um doze avos) do total da retribuição auferida durante TODO o tempo em que exerceu a representação (Art. 27, \"j\", Lei 4.886/65 — corrigida monetariamente!); (2) AVISO PRÉVIO com antecedência mínima de 30 DIAS (ou pagamento de importância igual a 1/3 das comissões auferidas nos 3 últimos meses — Art. 34, aplicável nos contratos vigentes há mais de 6 meses)! Ademais, pelo Art. 43 da Lei 4.886/65, É VEDADA no contrato de representação comercial a inclusão de CLÁUSULA DEL CREDERE (o representante não pode ser responsabilizado solidariamente pela solvência do comprador)!"
+        "text": "Na rescisão sem justo motivo de contrato por prazo indeterminado pelo representado, o representante comercial tem direito a: indenização não inferior a 1/12 (um doze avos) do total da retribuição auferida durante todo o tempo em que exerceu a representação; aviso prévio com antecedência mínima de 30 dias. Ademais, é vedada no contrato de representação comercial a inclusão de cláusula del credere."
       },
       {
         "letter": "C",
-        "text": "A indenização rescisória na representação comercial por prazo indeterminado corresponde sempre a 1/12 das comissões dos últimos 12 meses."
+        "text": "A indenização rescisória na representação comercial por prazo indeterminado corresponde sempre a 1/12 das comissões dos últimos 12 meses, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "D",
-        "text": "Na Justiça do Trabalho são processadas e julgadas todas as ações de cobrança de comissões de representante comercial autônomo pessoa jurídica."
+        "text": "Na Justiça do Trabalho são processadas e julgadas todas as ações de cobrança de comissões de representante comercial autônomo pessoa jurídica, em consonância com a preservação da empresa e a função social da atividade econômica. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       }
     ],
     "correctAnswer": "B",
@@ -2006,19 +2006,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na alienação fiduciária de automóvel, após cumprida a liminar de busca e apreensão, basta o devedor depositar apenas as parcelas vencidas (sem o saldo vincendo) para reaver o bem."
+        "text": "Na alienação fiduciária de automóvel, após cumprida a liminar de busca e apreensão, basta o devedor depositar apenas as parcelas vencidas (sem o saldo vincendo) para reaver o bem. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "B",
-        "text": "NO FACTORING (fomento mercantil convencional), NÃO! Pela própria natureza do contrato (cessão pro soluto definitiva de créditos mediante deságio mais alto que remunera o risco!), a empresa faturizadora ASSUME O RISCO DA INADIMPLÊNCIA (insolvência) dos devedores sacados, NÃO possuindo direito de regresso contra o faturizado pela mera falta de pagamento — sendo NULA cláusula de recompra/aval garantidor da solvência em factoring puro (o faturizado responde apenas pela EXISTÊNCIA/VERACIDADE/VÍCIO do crédito — pro veritate — se emitir duplicata fria/simulada — Art. 295 CC)! (Diferente do DESCONTO BANCÁRIO, onde há endosso cambiário com regresso contra o descontário!). E na ALIENAÇÃO FIDUCIÁRIA de bens móveis (Dec.-Lei nº 911/69 — Art. 3º, § 2º, após Lei 10.931/04 e Tema 722 STJ!), para restituir o bem apreendido na busca e apreensão, o devedor deve pagar a INTEGRALIDADE DA DÍVIDA PENDENTE em 5 dias após a liminar (e não apenas as parcelas vencidas)!"
+        "text": "No factoring, não. Pela própria natureza do contrato, a empresa faturizadora assume o risco da inadimplência (insolvência) dos devedores sacados, não possuindo direito de regresso contra o faturizado pela mera falta de pagamento. E na alienação fiduciária de bens móveis, para restituir o bem apreendido na busca e apreensão, o devedor deve pagar a integralidade da dívida pendente em 5 dias após a liminar."
       },
       {
         "letter": "C",
-        "text": "No contrato de factoring (fomento mercantil), a faturizadora tem direito automático de regresso contra a faturizada sempre que o sacado simplesmente não pagar o título no vencimento."
+        "text": "No contrato de factoring (fomento mercantil), a faturizadora tem direito automático de regresso contra a faturizada sempre que o sacado simplesmente não pagar o título no vencimento, com afastamento da responsabilidade pessoal dos sócios sem prévia demonstração de abuso."
       },
       {
         "letter": "D",
-        "text": "As instituições financeiras (bancos) estão limitadas ao teto de juros de 12% ao ano previsto no Decreto nº 22.626/33 (Lei da Usura)."
+        "text": "As instituições financeiras (bancos) estão limitadas ao teto de juros de 12% ao ano previsto no Decreto nº 22.626/33 (Lei da Usura), sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       }
     ],
     "correctAnswer": "B",
@@ -2062,19 +2062,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O produtor rural pessoa física só pode pedir Recuperação Judicial após completar 2 anos ininterruptos contados exclusivamente da data de registro na Junta Comercial."
+        "text": "O produtor rural pessoa física só pode pedir Recuperação Judicial após completar 2 anos ininterruptos contados exclusivamente da data de registro na Junta Comercial, com produção de efeitos cambiários autônomos e literais para execução contra coobrigados."
       },
       {
         "letter": "B",
-        "text": "SIM, o produtor rural PODE requerer Recuperação Judicial! Pela Lei nº 14.112/2020 (Art. 48, §§ 2º e 3º, LRF — consolidando tese do STJ), para a comprovação do prazo mínimo de 2 (DOIS) ANOS de exercício regular de atividades, o PRODUTOR RURAL pessoa física ou jurídica pode somar o período de exercício ANTERIOR ao registro na Junta Comercial (comprovado por Escrituração Contábil Fiscal/Livro Caixa/DIRPF — sujeitando-se à RJ apenas os créditos decorrentes exclusivamente da atividade rural contabilizados, Art. 49, § 6º)! E são EXCLUÍDAS da falência e RJ (Art. 2º LRF): (I) empresa pública e sociedade de economia mista; e (II) instituição financeira, cooperativa de crédito, consórcio, previdência complementar, operadora de plano de saúde (atenção: cooperativa médica operadora de plano de saúde ganhou possibilidade específica no Art. 6º, § 13, LRF!), seguradora e capitalização!"
+        "text": "Sim, o produtor rural pode requerer Recuperação Judicial. Pela Lei nº 14.112/2020, para a comprovação do prazo mínimo de 2 (dois) anos de exercício regular de atividades, o produtor rural pessoa física ou jurídica pode somar o período de exercício anterior ao registro na Junta Comercial. E são excluídas da falência e RJ: (I) empresa pública e sociedade de economia mista; e (II) instituição financeira, cooperativa de crédito, consórcio, previdência complementar, operadora de plano de saúde, seguradora e capitalização."
       },
       {
         "letter": "C",
-        "text": "Sociedades de economia mista e empresas públicas exploradoras de atividade econômica podem requerer recuperação judicial ou ter sua falência decretada pelo Art. 2º da LRF."
+        "text": "Sociedades de economia mista e empresas públicas exploradoras de atividade econômica podem requerer recuperação judicial ou ter sua falência decretada, com desconsideração direta da personalidade jurídica sem instauração prévia de incidente."
       },
       {
         "letter": "D",
-        "text": "Para requerer nova Recuperação Judicial, o devedor que obteve concessão de recuperação anterior precisa aguardar apenas 2 anos do encerramento da primeira."
+        "text": "Para requerer nova Recuperação Judicial, o devedor que obteve concessão de recuperação anterior precisa aguardar apenas 2 anos do encerramento da primeira, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       }
     ],
     "correctAnswer": "B",
@@ -2122,7 +2122,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "NENHUM DOS TRÊS se submete aos efeitos do plano de Recuperação Judicial! (1) Apenas os créditos EXISTENTES na data do pedido (Art. 49, caput) sujeitam-se à RJ — créditos constituídos APÓS o pedido são extraconcursais (não sujeitos à RJ — Tema 1051 STJ considera a data do FATO GERADOR/evento danoso, não da sentença!); (2) créditos TRIBUTÁRIOS não se sujeitam à RJ (têm execução fiscal própria, salvo parcelamento especial e controle de constrições pelo juízo da RJ — Art. 6º, § 7º-B!); e (3) pelo Art. 49, §§ 3º e 4º, NÃO se sujeitam aos efeitos da RJ os créditos de titularidade fiduciária (alienação fiduciária de bens móveis/imóveis e cessão fiduciária de recebíveis — \"trava bancária\"), arrendador mercantil (leasing), proprietário em compra e venda com reserva de domínio/incorporação e Adiantamento a Contrato de Câmbio (ACC)! (Ressalva do § 3º: durante o stay period de 180 dias, NÃO se permite retirar bens de CAPITAL ESSENCIAIS à atividade empresarial!)."
+        "text": "Nenhum dos três se submete aos efeitos do plano de Recuperação Judicial. Apenas os créditos existentes na data do pedido sujeitam-se à RJ."
       },
       {
         "letter": "C",
@@ -2174,19 +2174,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 6º, § 4º, da LRF (reformado pela Lei nº 14.112/2020!), o stay period é de 180 (CENTO E OITENTA) DIAS contados do deferimento do processamento da RJ, PRORROGÁVEL POR IGUAL PERÍODO (+180 dias), UMA ÚNICA VEZ, em caráter excepcional, desde que o devedor não haja concorrido com a superação do lapso temporal! (Lembrando também da prorrogação/renovação se credores apresentarem plano alternativo — § 4º-A!). Quanto às ações em curso: (1) ações que demandarem QUANTIA ILÍQUIDA (inclusive reclamações trabalhistas na fase de conhecimento! — § 1º e § 2º) TERÃO PROSSEGUIMENTO no juízo de origem até apuração do crédito e habilitação na RJ; e (2) EXECUÇÕES FISCAIS NÃO SE SUSPENDEM pelo deferimento da RJ (§ 7º-B), MAS o juízo da recuperação judicial é competente para determinar a SUBSTITUIÇÃO DOS ATOS DE CONSTRIÇÃO que recaiam sobre bens de capital essenciais à manutenção da atividade até o encerramento da RJ!"
+        "text": "Da LRF, o stay period é de 180 (cento e oitenta) dias contados do deferimento do processamento da RJ, prorrogável por igual período (+180 dias), uma única vez, em caráter excepcional, desde que o devedor não haja concorrido com a superação do lapso temporal. Quanto às ações em curso: ações que demandarem quantia ilíquida terão prosseguimento no juízo de origem até apuração do crédito e habilitação na RJ; e execuções fiscais não se suspendem pelo deferimento da RJ, mas o juízo da recuperação judicial é competente para determinar a substituição dos atos de constrição que recaiam sobre bens de capital essenciais à manutenção da atividade até o encerramento da RJ."
       },
       {
         "letter": "B",
-        "text": "Com a Lei nº 14.112/2020, o stay period de 180 dias tornou-se absolutamente improrrogável em qualquer hipótese."
+        "text": "Com a Lei nº 14.112/2020, o stay period de 180 dias tornou-se absolutamente improrrogável em qualquer hipótese, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "C",
-        "text": "O deferimento da Recuperação Judicial suspende todas as ações trabalhistas em fase de conhecimento e todas as execuções fiscais por 180 dias."
+        "text": "O deferimento da Recuperação Judicial suspende todas as ações trabalhistas em fase de conhecimento e todas as execuções fiscais por 180 dias, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "D",
-        "text": "Todos os prazos previstos na Lei de Recuperação Judicial e Falência são contados em dias úteis por aplicação direta do CPC."
+        "text": "Todos os prazos previstos na Lei de Recuperação Judicial e Falência são contados em dias úteis por aplicação direta do CPC, em consonância com a preservação da empresa e a função social da atividade econômica."
       }
     ],
     "correctAnswer": "A",
@@ -2229,19 +2229,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo padrão do Art. 54, caput, da LRF para pagamento dos créditos trabalhistas (e acidentários) é de NO MÁXIMO 1 (UM) ANO — salvo salários estritamente vencidos nos 3 últimos meses antes do pedido até 5 salários mínimos/trabalhador, que devem ser pagos em até 30 DIAS (§ 1º)! Com a Lei nº 14.112/2020 (§ 2º do Art. 54), esse prazo de 1 ano PODE SER ESTENDIDO POR ATÉ MAIS 2 ANOS (teto máximo total = 3 ANOS!) DESDE QUE cumulativamente: (1) haja apresentação de GARANTIAS suficientes, (2) haja APROVAÇÃO pelos credores trabalhistas, e (3) seja garantido o pagamento INTEGRAL (100%, sem deságio!) dos créditos trabalhistas! Quanto à UPI (Art. 60, parágrafo único): o objeto da alienação judicial de filial ou UPI estará LIVRE DE QUALQUER ÔNUS e NÃO haverá sucessão do arrematante nas obrigações do devedor (inclusive ambientais, regulatórias, administrativas, penais, anticorrupção, tributárias e trabalhistas)!"
+        "text": "O prazo padrão para pagamento dos créditos trabalhistas (e acidentários) é de no máximo 1 (um) ano. Com a Lei nº 14.112/2020, esse prazo de 1 ano pode ser estendido por até mais 2 anos desde que cumulativamente: haja apresentação de garantias suficientes, haja aprovação pelos credores trabalhistas, e seja garantido o pagamento integral (100%, sem deságio) dos créditos trabalhistas. Quanto à upi: o objeto da alienação judicial de filial ou upi estará livre de qualquer ônus e não haverá sucessão do arrematante nas obrigações do devedor."
       },
       {
         "letter": "B",
-        "text": "O plano de recuperação judicial pode prever livremente pagamento dos créditos trabalhistas em até 5 anos com deságio de 70% aprovado apenas pela classe quirografária."
+        "text": "O plano de recuperação judicial pode prever livremente pagamento dos créditos trabalhistas em até 5 anos com deságio de 70% aprovado apenas pela classe quirografária, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "C",
-        "text": "O prazo de apresentação do Plano de Recuperação Judicial é de 30 dias contados da assembleia de credores."
+        "text": "O prazo de apresentação do Plano de Recuperação Judicial é de 30 dias contados da assembleia de credores, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "D",
-        "text": "Na venda de Unidade Produtiva Isolada (UPI) em recuperação judicial, o adquirente continua respondendo sucessoriamente pelas multas ambientais e tributárias anteriores da recuperanda."
+        "text": "Na venda de Unidade Produtiva Isolada (upi) em recuperação judicial, o adquirente continua respondendo sucessoriamente pelas multas ambientais e tributárias anteriores da recuperanda, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       }
     ],
     "correctAnswer": "A",
@@ -2284,19 +2284,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na votação do plano de RJ (Art. 45 LRF): nas classes II (Garantia Real) e III (Quirografários/privilégios/subordinados), exige-se DUPLA MAIORIA — aprovação por credores que representem MAIS DA METADE do valor total dos créditos presentes E pela MAIORIA SIMPLES (por cabeça) dos credores presentes! Já nas classes I (Trabalhistas) e IV (ME/EPP), o voto conta-se EXCLUSIVAMENTE POR CABEÇA (maioria simples dos credores presentes, independentemente do valor de seu crédito — Art. 45, § 2º)! Se o plano for rejeitado em uma classe, o juiz PODE concedê-lo por CRAM DOWN (Art. 58, § 1º) se cumulativamente obtiver: (1) voto favorável de credores > 1/2 do valor total de todos os créditos presentes; (2) aprovação de 3 das 4 classes (ou de 2 classes se só houver 3 votantes, ou de 1 se só houver 2); e (3) na classe que rejeitou, voto favorável de MAIS DE 1/3 dos credores (computados por cabeça e/ou valor conforme a classe) + sem tratamento diferenciado entre credores da classe que rejeitou!"
+        "text": "Na votação do plano de RJ: nas classes II (Garantia Real) e III, exige-se dupla maioria — aprovação por credores que representem mais da metade do valor total dos créditos presentes e pela maioria SIMPLES (por cabeça) dos credores presentes."
       },
       {
         "letter": "B",
-        "text": "Todas as quatro classes da Assembleia Geral de Credores votam simultaneamente pelo critério misto de maioria por valor do crédito e por cabeça."
+        "text": "Todas as quatro classes da Assembleia Geral de Credores votam simultaneamente pelo critério misto de maioria por valor do crédito e por cabeça, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "C",
-        "text": "Não se exige que os credores ME/EPP integrem uma classe autônoma na Assembleia Geral de Credores."
+        "text": "Não se exige que os credores ME/EPP integrem uma classe autônoma na Assembleia Geral de Credores, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "D",
-        "text": "Na rejeição do plano em todas as classes, o juiz ainda assim pode aplicar o cram down do Art. 58, § 1º, se achar o plano economicamente viável."
+        "text": "Na rejeição do plano em todas as classes, o juiz ainda assim pode aplicar o cram down, se achar o plano economicamente viável. Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso."
       }
     ],
     "correctAnswer": "A",
@@ -2339,19 +2339,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela Lei nº 14.112/2020: (1) Rejeitado o plano do devedor na AGC (Art. 56, § 4º) — ou decorrido o stay period sem deliberação (Art. 6º, § 4º-A) — o administrador judicial submeterá à votação imediata a concessão do prazo de 30 DIAS para apresentação de PLANO ALTERNATIVO PELOS CREDORES (aprovado por credores > 50% dos créditos presentes), não podendo tal plano alternativo impor sacrifício maior aos sócios do que teriam na falência nem novas obrigações sem concordância expressa (§ 6º)! (2) Quanto aos grupos de sociedades: a CONSOLIDAÇÃO PROCESSUAL (Art. 69-G) é o mero litisconsórcio ativo em processo único com separação de patrimônios e listas/votações independentes por empresa; já a CONSOLIDAÇÃO SUBSTANCIAL (Art. 69-J) é medida EXCEPCIONAL que unifica ativos e passivos de todas as devedoras em plano único, exigindo constatação de confusão/interconexão entre ativos ou passivos + pelo menos 2 de 4 requisitos (garantias cruzadas, controle/dependência, identidade total/parcial quadro societário, atuação conjunta)!"
+        "text": "Rejeitado o plano do devedor na agc. Quanto aos grupos de sociedades: a consolidação processual é o mero litisconsórcio ativo em processo único com separação de patrimônios e listas/votações independentes por empresa."
       },
       {
         "letter": "B",
-        "text": "Rejeitado o plano apresentado pelo devedor na Assembleia Geral de Credores, o juiz deve decretar imediata e obrigatoriamente a falência sem nenhuma alternativa aos credores."
+        "text": "Rejeitado o plano apresentado pelo devedor na Assembleia Geral de Credores, o juiz deve decretar imediata e obrigatoriamente a falência sem nenhuma alternativa aos credores, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "C",
-        "text": "A consolidação substancial (unificação de ativos e passivos de empresas do mesmo grupo) depende apenas do pedido unilateral das devedoras na petição inicial."
+        "text": "A consolidação substancial (unificação de ativos e passivos de empresas do mesmo grupo) depende apenas do pedido unilateral das devedoras na petição inicial, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "D",
-        "text": "Na mera consolidação processual, todas as empresas do grupo votam um único plano unificado misturando todos os credores do grupo."
+        "text": "Na mera consolidação processual, todas as empresas do grupo votam um único plano unificado misturando todos os credores do grupo, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       }
     ],
     "correctAnswer": "A",
@@ -2394,19 +2394,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "SIM! A Lei nº 14.112/2020 revolucionou os Arts. 161 e 163 da LRF em dois pontos essenciais: (1) REDUZIU o quórum para homologação do plano de recuperação extrajudicial com imposição aos dissidentes (Art. 163, caput) dos antigos 3/5 (60%) para MAIS DA METADE (50% + 1!) dos créditos de cada espécie abrangida pelo plano (admitindo ainda protocolo prévio já com 1/3 e prazo de 90 dias para completar > 1/2 no § 7º, com suspensão de ações por 180 dias — Art. 161, § 4º!); e (2) passou a PERMITIR a inclusão de créditos derivados da legislação do trabalho ou decorrentes de acidentes de trabalho na Recuperação Extrajudicial, DESDE QUE haja NEGOCIAÇÃO COLETIVA COM O SINDICATO da respectiva categoria profissional (Art. 161, § 1º)!"
+        "text": "Sim. A Lei nº 14.112/2020 revolucionou os Arts. 161 e 163 da LRF em dois pontos essenciais: reduziu o quórum para homologação do plano de recuperação extrajudicial com imposição aos dissidentes dos antigos 3/5 (60%) para mais da metade (50% + 1) dos créditos de cada espécie abrangida pelo plano."
       },
       {
         "letter": "B",
-        "text": "O plano de recuperação extrajudicial só obriga os credores dissidentes quando aprovado por pelo menos 3/5 (60%) de todos os créditos da espécie abrangida."
+        "text": "O plano de recuperação extrajudicial só obriga os credores dissidentes quando aprovado por pelo menos 3/5 (60%) de todos os créditos da espécie abrangida, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "C",
-        "text": "Os créditos trabalhistas continuam absolutamente proibidos de integrar qualquer plano de recuperação extrajudicial mesmo com participação sindical."
+        "text": "Os créditos trabalhistas continuam absolutamente proibidos de integrar qualquer plano de recuperação extrajudicial mesmo com participação sindical, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "D",
-        "text": "Na Recuperação Extrajudicial, o devedor pode incluir normalmente dívidas tributárias sem anuência da Fazenda Pública e pedir vencimento antecipado de contratos futuros."
+        "text": "Na Recuperação Extrajudicial, o devedor pode incluir normalmente dívidas tributárias sem anuência da Fazenda Pública e pedir vencimento antecipado de contratos futuros, com produção de efeitos cambiários autônomos e literais para execução contra coobrigados."
       }
     ],
     "correctAnswer": "A",
@@ -2449,19 +2449,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 94, I, da LRF, decreta-se a falência por impontualidade injustificada apenas se a obrigação líquida materializada em título(s) executivo(s) PROTESTADOS (inclusive protesto especial para fins falimentares — Súmula 361 STJ!) ultrapassar o equivalente a 40 (QUARENTA) SALÁRIOS MÍNIMOS na data do pedido (logo, 35 SM isolado NÃO cabe — mas o § 1º do Art. 94 PERMITE que credores se reúnam em litisconsórcio para somar seus títulos e ultrapassar 40 SM!)! Citado o devedor, tem prazo de 10 (DEZ) DIAS para contestar e, se quiser afastar totalmente a falência por impontualidade (ou execução frustrada), pode efetuar no prazo da contestação o DEPÓSITO ELISIVO correspondente ao total do crédito, acrescido de correção monetária, juros e honorários advocatícios (Art. 98, parágrafo único — impedindo a decretação da falência; se perder na defesa, o credor levanta o depósito)!"
+        "text": "Decreta-se a falência por impontualidade injustificada apenas se a obrigação líquida materializada em título(s) executivo(s) protestados ultrapassar o equivalente a 40 (quarenta) salários mínimos na data do pedido."
       },
       {
         "letter": "B",
-        "text": "Qualquer título protestado de valor igual ou superior a 20 salários mínimos autoriza o pedido de falência por impontualidade injustificada."
+        "text": "Qualquer título protestado de valor igual ou superior a 20 salários mínimos autoriza o pedido de falência por impontualidade injustificada, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "C",
-        "text": "O prazo para o devedor apresentar contestação e requerer recuperação judicial incidental ou efetuar o depósito elisivo é de 15 dias úteis."
+        "text": "O prazo para o devedor apresentar contestação e requerer recuperação judicial incidental ou efetuar o depósito elisivo é de 15 dias úteis, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "D",
-        "text": "Na citação do pedido de falência por protesto em cartório, o protesto realizado por entrega da intimação a funcionário da portaria sem identificação nominal é plenamente válido para decretar a falência."
+        "text": "Na citação do pedido de falência por protesto em cartório, o protesto realizado por entrega da intimação a funcionário da portaria sem identificação nominal é plenamente válido para decretar a falência, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       }
     ],
     "correctAnswer": "A",
@@ -2505,7 +2505,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O proprietário de bem arrecadado na massa falida (ou o vendedor de coisa vendida a crédito e entregue ao falido nos 15 DIAS ANTERIORES ao requerimento de sua falência, se ainda não alienada! — Art. 85, parágrafo único) tem direito ao PEDIDO DE RESTITUIÇÃO (e se o bem já não existir no ato da restituição, recebe restituição EM DINHEIRO pelo Art. 86, I, com preferência absoluta antes inclusive dos extraconcursais do Art. 84 — junto com ACC e INSS/tributos retidos descontados de terceiros!). Já o pagamento de dívida NÃO VENCIDA dentro do termo legal da falência (fixado pelo juiz até 90 dias antes do pedido/RJ/1º protesto — Art. 99, II) ou prática de atos a título gratuito desde 2 ANOS antes da quebra são INEFICAZES OBJETIVAMENTE perante a massa (Art. 129 — declarados inclusive de ofício pelo juiz, sem provar fraude!), enquanto atos com fraude subjetiva (conluio fraudulento entre devedor e terceiro) exigem AÇÃO REVOCATÓRIA no prazo decadencial de 3 ANOS da decretação da falência (Art. 130 e 132)!"
+        "text": "O proprietário de bem arrecadado na massa falida tem direito ao pedido de restituição."
       },
       {
         "letter": "B",
@@ -2513,11 +2513,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Para declarar a ineficácia do pagamento de dívida não vencida realizado dentro do termo legal da falência (Art. 129, I), a massa falida precisa provar o conluio fraudulento entre o falido e o credor."
+        "text": "Para declarar a ineficácia do pagamento de dívida não vencida realizado dentro do termo legal da falência, a massa falida precisa provar o conluio fraudulento entre o falido e o credor."
       },
       {
         "letter": "D",
-        "text": "Os créditos trabalhistas até 150 salários mínimos recebem na falência antes mesmo das restituições em dinheiro previstas no Art. 86 da LRF."
+        "text": "Os créditos trabalhistas até 150 salários mínimos recebem na falência antes mesmo das restituições em dinheiro previstas, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       }
     ],
     "correctAnswer": "A",
@@ -2560,7 +2560,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Lei nº 14.112/2020 reordenou os Arts. 83 e 84 da LRF: nos EXTRACONCURSAIS (Art. 84 — pagos ANTES dos concursais do Art. 83!), passaram a figurar em ordem: (I-A) valores do Art. 150/151 (despesas indispensáveis + salários 3 últimos meses até 5 SM); (I-B) financiamento ao devedor em RJ (DIP Financing!); (I-C) créditos em dinheiro objeto de restituição (Art. 86); (I-D) remuneração do administrador judicial e créditos trabalhistas/acidentários por serviços prestados após a falência; (I-E/II a V) quantias fornecidas à massa, custas, tributos após quebra! E nos CONCURSAIS (Art. 83): (I) Trabalhistas (até 150 SM/credor) e acidentários (sem teto!); (II) Garantia real (até limite do bem gravado); (III) Tributários (exceto multas!); (IV — REVOGADO! Os antigos privilégios especiais e gerais foram EXTINTOS e fundidos nos QUIROGRAFÁRIOS — inciso VI!); (VII) Multas contratuais e penas pecuniárias (inclusive multas tributárias!); (VIII) Subordinados (créditos de sócios/administradores sem vínculo empregatício); e (IX — NOVO!) Juros vencidos após a decretação da falência!"
+        "text": "A Lei nº 14.112/2020 reordenou os Arts. 83 e 84 da LRF: nos extraconcursais, passaram a figurar em ordem: (I-A) valores /151."
       },
       {
         "letter": "B",
@@ -2572,7 +2572,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "As multas tributárias gozam da mesma preferência do tributo principal no inciso III do Art. 83 da LRF."
+        "text": "As multas tributárias gozam da mesma preferência do tributo principal no inciso III, em consonância com a preservação da empresa e a função social da atividade econômica."
       }
     ],
     "correctAnswer": "A",
@@ -2615,7 +2615,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 158, V e VI, da LRF (reformado pela Lei nº 14.112/2020 — princípio do FRESH START!), extinguem-se as obrigações do falido pelo DECURSO DO PRAZO DE 3 (TRÊS) ANOS, contado da DECRETAÇÃO DA FALÊNCIA, ressalvada a utilização dos bens arrecadados anteriormente para fins da liquidação (inciso V — além da extinção imediata no encerramento da falência, inciso VI, ou após pagamento > 25% dos quirografários pelo inciso II — antes a Lei exigia mais de 50% ou espera de 5/10 anos após o encerramento!!)! Essa mudança reduziu drasticamente o tempo de reabilitação do empresário honesto para retornar rapidamente ao mercado!"
+        "text": "Da LRF, extinguem-se as obrigações do falido pelo decurso do prazo de 3 (três) anos, contado da decretação da falência, ressalvada a utilização dos bens arrecadados anteriormente para fins da liquidação."
       },
       {
         "letter": "B",
@@ -2623,11 +2623,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A inabilitação empresarial do falido para exercer qualquer atividade empresarial persiste por 10 anos após o trânsito em julgado da sentença de falência."
+        "text": "A inabilitação empresarial do falido para exercer qualquer atividade empresarial persiste por 10 anos após o trânsito em julgado da sentença de falência, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "D",
-        "text": "A extinção das obrigações do falido por decurso do prazo de 3 anos também libera automaticamente eventuais avalistas, fiadores e coobrigados solventes do falido."
+        "text": "A extinção das obrigações do falido por decurso do prazo de 3 anos também libera automaticamente eventuais avalistas, fiadores e coobrigados solventes do falido, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       }
     ],
     "correctAnswer": "A",
@@ -2670,7 +2670,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelos Arts. 20-A a 20-D da LRF (inseridos pela Lei nº 14.112/2020): incentivam-se a conciliação e a mediação em qualquer grau de jurisdição, inclusive ANTECEDENTES ao pedido de RJ! Comprovado o preenchimento dos requisitos para pedir RJ (Art. 48), a empresa pode obter TUTELA DE URGÊNCIA CAUTELAR junto ao juízo competente para SUSPENDER AS EXECUÇÕES contra si propostas pelo prazo de ATÉ 60 (SESSENTA) DIAS para tentativa de composição com seus credores em mediação/conciliação (Art. 20-B, § 1º)! Se a empresa vier a pedir RJ ou extrajudicial depois, esse período de suspensão cautelar de até 60 dias será DEDUZIDO do stay period de 180 dias (Art. 20-B, § 3º)! (Atenção: não cabem conciliação/mediação sobre natureza jurídica/classificação de créditos nem critérios de votação em AGC — Art. 20-B, § 2º)!"
+        "text": "Pelos Arts. 20-A a 20-D da LRF: incentivam-se a conciliação e a mediação em qualquer grau de jurisdição, inclusive antecedentes ao pedido de RJ."
       },
       {
         "letter": "B",
@@ -2682,7 +2682,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Obtida a composição em mediação antecedente com credores, a empresa fica proibida de desistir da futura Recuperação Judicial."
+        "text": "Obtida a composição em mediação antecedente com credores, a empresa fica proibida de desistir da futura Recuperação Judicial, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       }
     ],
     "correctAnswer": "A",
@@ -2725,19 +2725,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para se enquadrar como Startup no Marco Legal (LC 182/2021), a empresa precisa ter no máximo 5 anos no CNPJ e receita bruta anual de até R$ 4,8 milhões."
+        "text": "Para se enquadrar como Startup no Marco Legal, a empresa precisa ter no máximo 5 anos no CNPJ e receita bruta anual de até R$ 4,8 milhões. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "B",
-        "text": "O investidor-anjo que aporta recursos via contrato de participação na startup torna-se solidariamente responsável pelas dívidas trabalhistas da startup mesmo sem gerência."
+        "text": "O investidor-anjo que aporta recursos via contrato de participação na startup torna-se solidariamente responsável pelas dívidas trabalhistas da startup mesmo sem gerência, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "C",
-        "text": "Ao constituir uma SAF, todas as dívidas trabalhistas, cíveis e fiscais antigas da associação desportiva transferem-se integralmente e solidariamente de imediato ao patrimônio livre da SAF sem teto ou prazo."
+        "text": "Ao constituir uma saf, todas as dívidas trabalhistas, cíveis e fiscais antigas da associação desportiva transferem-se integralmente e solidariamente de imediato ao patrimônio livre da saf sem teto ou prazo. Tal entendimento preserva o regime próprio das obrigações empresariais e cambiárias."
       },
       {
         "letter": "D",
-        "text": "NO INVESTIDOR-ANJO (Art. 61-A LC 123/06 c/c Art. 8º LC 182/21): o investidor que realiza aporte ou contrato de investimento SEM ingressar formalmente no quadro societário NÃO é considerado sócio nem tem direito a gerência/voto e NÃO RESPONDE por qualquer dívida da empresa, inclusive em recuperação judicial (não se aplicando o Art. 50 CC — salvo dolo, fraude ou simulação)! E na SAF (Lei nº 14.193/2021 — Art. 9º): a SAF NÃO responde pelas obrigações do clube ou pessoa jurídica original que a constituiu, anteriores ou posteriores à data de sua constituição (exceto quanto às atividades específicas de seu objeto social transferidas com regime próprio — destinando 20% das receitas mensais ao Regime Centralizado de Execuções ou 50% de dividendos para pagar o passivo anterior do clube originário em 6 + 4 = 10 anos)!"
+        "text": "No investidor-anjo: o investidor que realiza aporte ou contrato de investimento sem ingressar formalmente no quadro societário não é considerado sócio nem tem direito a gerência/voto e não responde por qualquer dívida da empresa, inclusive em recuperação judicial."
       }
     ],
     "correctAnswer": "D",
@@ -2780,19 +2780,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No contrato de comissão mercantil, o comissário age em nome e representação direta do comitente, e a cláusula del credere é expressamente proibida pelo Código Civil."
+        "text": "No contrato de comissão mercantil, o comissário age em nome e representação direta do comitente, e a cláusula del credere é expressamente proibida pelo Código Civil. Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso."
       },
       {
         "letter": "B",
-        "text": "O atraso de 5 dias no pagamento de parcela do prêmio do contrato de seguro suspende automaticamente a cobertura securitária independentemente de notificação prévia."
+        "text": "O atraso de 5 dias no pagamento de parcela do prêmio do contrato de seguro suspende automaticamente a cobertura securitária independentemente de notificação prévia, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "C",
-        "text": "Na Súmula 620 do STJ, a embriaguez do segurado exime automaticamente a seguradora do pagamento da indenização no seguro de vida mesmo sem agravamento intencional."
+        "text": "Na Súmula 620 do STJ, a embriaguez do segurado exime automaticamente a seguradora do pagamento da indenização no seguro de vida mesmo sem agravamento intencional, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "D",
-        "text": "Na COMISSÃO MERCANTIL (Arts. 693–709 CC): o comissário adquire/vende bens em seu próprio nome à conta do comitente, e PODE pactuar CLÁUSULA DEL CREDERE (Art. 698 CC), respondendo solidariamente com as pessoas com que tratar, caso em que tem direito a remuneração MAIS ELEVADA (diferente da Representação Comercial, onde é proibida!)! Quanto ao SEGURO: pela Súmula 616 do STJ, a indenização securitária é devida quando ausente a comunicação prévia do segurado acerca do atraso no pagamento do prêmio (o mero atraso de parcela NÃO autoriza cancelamento automático sem prévia interpelação/constituição em mora — Art. 763 CC c/c Súmula 616 STJ)! E na Lei Ferrari (6.729/79), a concessão tem área operacional delimitada, prazo indeterminado (ou inicial mínimo de 5 anos) e exclusividade territorial/proibição de venda direta em regra!"
+        "text": "Na comissão mercantil: o comissário adquire/vende bens em seu próprio nome à conta do comitente, e pode pactuar cláusula del credere, respondendo solidariamente com as pessoas com que tratar, caso em que tem direito a remuneração mais elevada."
       }
     ],
     "correctAnswer": "D",
@@ -2836,19 +2836,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na ação de dissolução parcial por retirada imotivada, a data-base para apuração dos haveres é sempre a data da sentença final transitada em julgado."
+        "text": "Na ação de dissolução parcial por retirada imotivada, a data-base para apuração dos haveres é sempre a data da sentença final transitada em julgado, com desconsideração direta da personalidade jurídica sem instauração prévia de incidente."
       },
       {
         "letter": "B",
-        "text": "Na ação de dissolução parcial, se faltar a citação autônoma da pessoa jurídica (sociedade) apesar de todos os demais sócios terem sido citados, o processo é absolutamente nulo."
+        "text": "Na ação de dissolução parcial, se faltar a citação autônoma da pessoa jurídica (sociedade) apesar de todos os demais sócios terem sido citados, o processo é absolutamente nulo. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "C",
-        "text": "O contrato social nunca pode estipular método próprio de apuração de haveres diferente do balanço de determinação com fluxo de caixa descontado."
+        "text": "O contrato social nunca pode estipular método próprio de apuração de haveres diferente do balanço de determinação com fluxo de caixa descontado, com inaplicabilidade automática dos efeitos falimentares fora das hipóteses legais taxativas."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 601 do CPC, os sócios e a sociedade serão citados para concordar ou contestar em 15 dias — MAS a SOCIEDADE NÃO precisa ser citada se TODOS os demais sócios já forem citados (parágrafo único do Art. 601: a sociedade sofre os efeitos da decisão e da coisa julgada ainda que não citada se todos os sócios o forem)! E pelo Art. 605, II, do CPC, a DATA DA RESOLUÇÃO da sociedade na retirada imotivada é o SEXAGÉSIMO (60º) DIA seguinte ao do recebimento, pela sociedade, da notificação do sócio retirante (no falecimento = data do óbito; na exclusão judicial = data do trânsito em julgado)! Os haveres são apurados por BALANÇO DE DETERMINAÇÃO tomando por referência a data da resolução, avaliando bens/direitos e intangíveis (inclusive fundo de comércio/aviamento, se não houver critério contratual próprio — Art. 606 CPC)!"
+        "text": "Os sócios e a sociedade serão citados para concordar ou contestar em 15 dias. E, a data da resolução da sociedade na retirada imotivada é o sexagésimo (60º) dia seguinte ao do recebimento, pela sociedade, da notificação do sócio retirante. Os haveres são apurados por balanço de determinação tomando por referência a data da resolução, avaliando bens/direitos e intangíveis."
       }
     ],
     "correctAnswer": "D",
@@ -2891,7 +2891,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Cédula de Produto Rural Financeira (com liquidação financeira) não é título executivo extrajudicial, exigindo prévio processo de conhecimento."
+        "text": "A Cédula de Produto Rural Financeira (com liquidação financeira) não é título executivo extrajudicial, exigindo prévio processo de conhecimento, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "B",
@@ -2899,11 +2899,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Na falência do produtor rural emitente de CPR física, o credor perde automaticamente a garantia fiduciária constituída na cédula."
+        "text": "Na falência do produtor rural emitente de cpr física, o credor perde automaticamente a garantia fiduciária constituída na cédula, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "D",
-        "text": "A Cédula de Produto Rural (CPR — Lei nº 8.929/94, ampliada pela Lei do Agro 13.986/2020 e Lei 14.421/2022) é TÍTULO LÍQUIDO E CERTO EXIGÍVEL PELA QUANTIDADE E QUALIDADE DE PRODUTO (CPR Física) OU PELO VALOR FINANCEIRO nela previsto (CPR Financeira — Art. 4º e 4º-A), constituindo TÍTULO EXECUTIVO EXTRAJUDICIAL! (Pode inclusive ser emitida em formato cartular ou ESCRITURAL eletrônico, exigindo registro em entidade autorizada pelo Banco Central para validade e eficácia!). Quanto à Nota Promissória prescrita (passados 3 anos da LUG): dentro de 5 ANOS do vencimento (Art. 206, § 5º, I, CC), cabe AÇÃO MONITÓRIA (Súmula 504 STJ — sem precisar provar negócio subjacente se contra o emitente!) ou AÇÃO DE COBRANÇA CAUSAL / LOCUPLETAMENTO!"
+        "text": "A Cédula de Produto Rural é título líquido e certo exigível pela quantidade e qualidade de produto ou pelo valor financeiro nela previsto, constituindo título executivo extrajudicial."
       }
     ],
     "correctAnswer": "D",
@@ -2947,7 +2947,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo legal para lavratura e registro do protesto pelo tabelião no cartório é de 15 dias corridos após o recebimento do título."
+        "text": "O prazo legal para lavratura e registro do protesto pelo tabelião no cartório é de 15 dias corridos após o recebimento do título, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "B",
@@ -2955,11 +2955,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A Lei de Protesto impede o protesto de sentenças judiciais transitadas em julgado por ausência de natureza cambiária."
+        "text": "A Lei de Protesto impede o protesto de sentenças judiciais transitadas em julgado por ausência de natureza cambiária, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 12 da Lei nº 9.492/1997, o protesto será registrado dentro de 3 (TRÊS) DIAS ÚTEIS contados da protocolização do título ou documento de dívida (excluindo o dia da protocolização e incluindo o do vencimento — se a intimação ocorrer no último dia do tríduo ou além, o prazo prorroga-se para o 1º dia útil subsequente!). Antes de lavrado o protesto, o devedor pode requerer a SUSTAÇÃO JUDICIAL cautelar (Art. 17); lavrado o protesto indevidamente, requer-se seu CANCELAMENTO (Art. 26). E pela Súmula 475 do STJ, responde pelos danos decorrentes de protesto indevido o banco/faturizador endossatário que recebe por ENDOSSO TRANSLATIVO título de crédito contendo vício formal extrínseco ou intrínseco, ficando ressalvado seu direito de regresso contra os endossantes/avalistas!"
+        "text": "O protesto será registrado dentro de 3 (três) dias úteis contados da protocolização do título ou documento de dívida."
       }
     ],
     "correctAnswer": "D",
@@ -3003,19 +3003,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Reserva Legal na Sociedade Anônima consome obrigatoriamente 10% do lucro líquido anual até atingir o limite de 50% do capital social."
+        "text": "A Reserva Legal na Sociedade Anônima consome obrigatoriamente 10% do lucro líquido anual até atingir o limite de 50% do capital social, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "B",
-        "text": "Se o estatuto social da S/A for omisso quanto ao dividendo obrigatório, aplica-se o percentual mínimo de 25% do lucro líquido ajustado."
+        "text": "Se o estatuto social da S/A for omisso quanto ao dividendo obrigatório, aplica-se o percentual mínimo de 25% do lucro líquido ajustado, com desconsideração direta da personalidade jurídica sem instauração prévia de incidente."
       },
       {
         "letter": "C",
-        "text": "Os dividendos pagos de boa-fé aos acionistas podem ser exigidos de volta pela companhia se, dois anos depois, a empresa sofrer prejuízo operacional."
+        "text": "Os dividendos pagos de boa-fé aos acionistas podem ser exigidos de volta pela companhia se, dois anos depois, a empresa sofrer prejuízo operacional. Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 193 da Lei nº 6.404/76, do lucro líquido do exercício, 5% (CINCO POR CENTO) serão aplicados, ANTES de qualquer outra destinação, na constituição da RESERVA LEGAL, que NÃO excederá de 20% (VINTE POR CENTO) do capital social (podendo deixar de constituir-se quando somada às reservas de capital atingir 30% do capital — § 1º)! E quanto ao DIVIDENDO OBRIGATÓRIO (Art. 202 LSA): se o estatuto for omisso quanto ao percentual do lucro líquido ajustado a distribuir, os acionistas têm direito ao dividendo obrigatório correspondente a 50% (METADE — Art. 202, caput) do lucro líquido ajustado (se o estatuto vier a ser alterado posteriormente para fixar percentual menor, não poderá ser inferior a 25% — § 2º, dando direito de retirada aos dissidentes se abaixo)!"
+        "text": "Do lucro líquido do exercício, 5% (cinco por cento) serão aplicados, antes de qualquer outra destinação, na constituição da reserva legal, que não excederá de 20% (vinte por cento) do capital social."
       }
     ],
     "correctAnswer": "D",
@@ -3058,19 +3058,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para fechar o capital de uma companhia aberta na CVM basta aprovação por maioria simples em Assembleia Geral Extraordinária, sem oferta de compra aos minoritários."
+        "text": "Para fechar o capital de uma companhia aberta na CVM basta aprovação por maioria simples em Assembleia Geral Extraordinária, sem oferta de compra aos minoritários, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "B",
-        "text": "Na OPA por aumento de participação do controlador que reduz a liquidez abaixo do mínimo da CVM, o preço oferecido aos minoritários pode ser livremente arbitrado abaixo do valor patrimonial."
+        "text": "Na opa por aumento de participação do controlador que reduz a liquidez abaixo do mínimo da CVM, o preço oferecido aos minoritários pode ser livremente arbitrado abaixo do valor patrimonial, com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso."
       },
       {
         "letter": "C",
-        "text": "Se, após a OPA de fechamento de capital, remanescerem menos de 5% do total das ações da companhia com minoritários não aderentes, não há possibilidade de resgate compulsório (squeeze-out)."
+        "text": "Se, após a opa de fechamento de capital, remanescerem menos de 5% do total das ações da companhia com minoritários não aderentes, não há possibilidade de resgate compulsório (squeeze-out). Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 4º, § 4º, da Lei nº 6.404/1976, o cancelamento do registro de companhia aberta (\"fechamento de capital\") somente pode ser efetivado caso a companhia emissora ou o acionista controlador formule OFERTA PÚBLICA DE AQUISIÇÃO (OPA) da TOTALIDADE das ações em circulação no mercado, por PREÇO JUSTO (ao menos igual ao valor de avaliação da companhia apurado por critérios econômicos reconhecidos), E desde que os acionistas titulares de MAIS DE 2/3 (DOIS TERÇOS) das ações em circulação habilitadas aceitem a OPA ou concordem expressamente com o cancelamento (§ 4º, II)!"
+        "text": "O cancelamento do registro de companhia aberta somente pode ser efetivado caso a companhia emissora ou o acionista controlador formule oferta pública de aquisição (opa) da totalidade das ações em circulação no mercado, por preço justo, e desde que os acionistas titulares de mais de 2/3 (dois terços) das ações em circulação habilitadas aceitem a opa ou concordem expressamente com o cancelamento."
       }
     ],
     "correctAnswer": "D",
@@ -3113,19 +3113,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O sócio da Sociedade Limitada que recebeu distribuição de lucros fictícios com prejuízo ao capital social nunca é obrigado a restituí-los se houver previsão no contrato social."
+        "text": "O sócio da Sociedade Limitada que recebeu distribuição de lucros fictícios com prejuízo ao capital social nunca é obrigado a restituí-los se houver previsão no contrato social, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada."
       },
       {
         "letter": "B",
-        "text": "A redução voluntária do capital social por excesso em relação ao objeto da Ltda surte efeitos imediatos no dia da assinatura da ata, sem prazo de oposição para credores."
+        "text": "A redução voluntária do capital social por excesso em relação ao objeto da Ltda surte efeitos imediatos no dia da assinatura da ata, sem prazo de oposição para credores, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "C",
-        "text": "O capital social da Sociedade Limitada também pode ser reduzido após integralizado se houver perdas irreparáveis, exigindo igualmente oposição e pagamento de credores em 90 dias."
+        "text": "O capital social da Sociedade Limitada também pode ser reduzido após integralizado se houver perdas irreparáveis, exigindo igualmente oposição e pagamento de credores em 90 dias, com produção de efeitos cambiários autônomos e literais para execução contra coobrigados."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 1.059 do CC (c/c Art. 1.009), os sócios serão OBRIGADOS À REPOSIÇÃO DOS LUCROS E DAS QUANTIAS RETIRADAS, a qualquer título, ainda que autorizados pelo contrato, QUANDO TAIS LUCROS OU QUANTIA SE DISTRIBUÍREM COM PREJUÍZO DO CAPITAL SOCIAL (a distribuição fictícia com ciência da ilegitimidade obriga à reposição solidária — Art. 1.009 CC)! Já na redução do capital social por considerá-lo excessivo em relação ao objeto da sociedade (Art. 1.082, II, CC): ela depende de publicação da ata de deliberação, podendo o credor quirografário anterior OPOR-SE no prazo de 90 (NOVENTA) DIAS da publicação (Art. 1.084, § 1º — se houver oposição tempestiva, a redução não se torna eficaz até o pagamento ou depósito do crédito)!"
+        "text": "Os sócios serão obrigados à reposição dos lucros e das quantias retiradas, a qualquer título, ainda que autorizados pelo contrato, quando tais lucros ou quantia se distribuírem com prejuízo do capital social."
       }
     ],
     "correctAnswer": "D",
@@ -3168,11 +3168,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As instituições financeiras podem requerer Recuperação Judicial comum na Justiça Estadual assim como qualquer sociedade limitada."
+        "text": "As instituições financeiras podem requerer Recuperação Judicial comum na Justiça Estadual assim como qualquer sociedade limitada, com livre alienação e circulação do título ou participação societária entre os interessados."
       },
       {
         "letter": "B",
-        "text": "A intervenção decretada pelo Banco Central em instituição financeira pode durar indefinidamente por até 5 anos."
+        "text": "A intervenção decretada pelo Banco Central em instituição financeira pode durar indefinidamente por até 5 anos, com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso."
       },
       {
         "letter": "C",
@@ -3180,7 +3180,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "As instituições financeiras privadas submetem-se ao regime especial da Lei nº 6.024/1974 decretado pelo BANCO CENTRAL DO BRASIL: (1) INTERVENÇÃO (por prazo NÃO EXCEDENTE A 6 MESES, prorrogável uma única vez por até MAIS 6 MESES — Art. 4º — suspendendo exigibilidade de obrigações vencidas, fluência de prazo de obrigações vincendas e ações/execuções por dívidas anteriores, com nomeação de interventor!); ou (2) LIQUIDAÇÃO EXTRAJUDICIAL (ex officio ou a requerimento, com nomeação de liquidante — que só pode requerer a FALÊNCIA da instituição quando o ativo não for suficiente para cobrir pelo menos a METADE (50%) do valor dos créditos quirografários, ou houver fundados indícios de crimes falimentares — Art. 21, \"b\", Lei 6.024/74)!"
+        "text": "As instituições financeiras privadas submetem-se ao regime especial da Lei nº 6.024/1974 decretado pelo banco central do brasil: intervenção."
       }
     ],
     "correctAnswer": "D",
@@ -3223,19 +3223,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Código Civil (Art. 914), o endossante de título atípico responde automaticamente como coobrigado solidário pelo pagamento mesmo sem cláusula expressa."
+        "text": "Pelo Código Civil, o endossante de título atípico responde automaticamente como coobrigado solidário pelo pagamento mesmo sem cláusula expressa."
       },
       {
         "letter": "B",
-        "text": "O Art. 907 do Código Civil libera livremente qualquer empresário a emitir títulos ao portador independentemente de previsão legal específica."
+        "text": "O Art. 907 do Código Civil libera livremente qualquer empresário a emitir títulos ao portador independentemente de previsão legal específica, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "C",
-        "text": "O aval prestado em título atípico regido exclusivamente pelo Código Civil dispensa vênia conjugal em qualquer regime de bens."
+        "text": "O aval prestado em título atípico regido exclusivamente pelo Código Civil dispensa vênia conjugal em qualquer regime de bens, com produção de efeitos cambiários autônomos e literais para execução contra coobrigados."
       },
       {
         "letter": "D",
-        "text": "Atenção máxima às regras PRÓPRIAS do Código Civil (Arts. 887–926) para títulos atípicos — que DIVERGEM das leis cambiárias típicas (LUG/Cheque)! No CC: (1) título AO PORTADOR exige autorização expressa de lei especial (Art. 907 CC — nulo se emitido sem lei autorizadora!); (2) é VEDADO O AVAL PARCIAL (Art. 897, parágrafo único — na LUG/Cheque é permitido!); (3) no ENDOSSO EM BRANCO (sem indicar o nome do beneficiário — Art. 913 CC), o portador pode completá-lo com seu nome ou de terceiro, endossar novamente ou transferir por simples tradição manual; e (4) pelo Art. 914 do CC, RESSALVADA CLÁUSULA EXPRESSA EM CONTRÁRIO, o ENDOSSANTE NÃO RESPONDE pelo cumprimento da prestação constante do título (regra oposta à da LUG/Cheque/Duplicata, onde o endossante responde solidariamente salvo cláusula \"sem garantia\"!)!"
+        "text": "Atenção máxima às regras próprias do Código Civil para títulos atípicos — que divergem das leis cambiárias típicas (LUG/Cheque)."
       }
     ],
     "correctAnswer": "D",
@@ -3286,11 +3286,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "São títulos representativos de mercadorias emitidos unidos, mas negociáveis juntos ou separadamente! O CONHECIMENTO DE DEPÓSITO representa o direito de PROPRIEDADE sobre a mercadoria depositada no armazém geral; já o WARRANT representa o direito REAL DE GARANTIA (penhor) sobre a mesma mercadoria para obtenção de crédito! Endossado separadamente apenas o Warrant, cria-se direito de penhor sobre a mercadoria em favor do credor do Warrant — e quem possui apenas o Conhecimento de Depósito NÃO pode retirar a mercadoria do armazém geral antes do vencimento sem apresentar TAMBÉM o Warrant (ou consignar no armazém o valor principal e juros do crédito garantido pelo Warrant — Art. 22 do Dec. 1.102/1903)!"
+        "text": "São títulos representativos de mercadorias emitidos unidos, mas negociáveis juntos ou separadamente."
       },
       {
         "letter": "D",
-        "text": "Os Armazéns Gerais não possuem responsabilidade pela guarda e conservação das mercadorias depositadas se emitirem o Warrant."
+        "text": "Os Armazéns Gerais não possuem responsabilidade pela guarda e conservação das mercadorias depositadas se emitirem o Warrant, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada."
       }
     ],
     "correctAnswer": "C",
@@ -3341,11 +3341,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O Administrador Judicial (Art. 21 LRF) deve ser profissional idôneo, preferencialmente advogado, economista, administrador de empresas ou contador, ou PESSOA JURÍDICA ESPECIALIZADA (neste caso declarando o responsável pela condução)! Sua remuneração (Art. 24, §§ 1º e 5º): NÃO excederá 5% (CINCO POR CENTO) do valor devido aos credores na RJ ou do valor de venda dos bens na falência — caindo para o teto de 2% (DOIS POR CENTO) quando o devedor for MICROEMPRESA, EMPRESA DE PEQUENO PORTE ou PRODUTOR RURAL (Lei 14.112/20)! Os crimes falimentares (Arts. 168–178 LRF) são de ação penal PÚBLICA INCONDICIONADA, processados pelo JUIZ CRIMINAL da jurisdição onde foi decretada a falência ou concedida a RJ (Art. 183 LRF — não pelo juiz cível da falência!), e a sentença que decreta a falência ou concede a RJ/RE é CONDIÇÃO OBJETIVA DE PUNIBILIDADE (Art. 180 — começando a correr a prescrição penal do dia da decretação da falência ou concessão da RJ, ou do trânsito em julgado da sentença de encerramento se já havia inquérito? Art. 182: do dia da decretação da falência ou concessão da RJ/RE)!"
+        "text": "O Administrador Judicial deve ser profissional idôneo, preferencialmente advogado, economista, administrador de empresas ou contador, ou pessoa jurídica especializada."
       },
       {
         "letter": "D",
-        "text": "O Comitê de Credores é órgão de constituição absolutamente obrigatória em todo processo de recuperação judicial ou falência."
+        "text": "O Comitê de Credores é órgão de constituição absolutamente obrigatória em todo processo de recuperação judicial ou falência, em consonância com a preservação da empresa e a função social da atividade econômica."
       }
     ],
     "correctAnswer": "C",
@@ -3388,19 +3388,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As assembleias gerais de Sociedade Anônima e Sociedade Limitada exigem obrigatoriamente realização presencial física na sede social, sendo nula a modalidade exclusivamente digital."
+        "text": "As assembleias gerais de Sociedade Anônima e Sociedade Limitada exigem obrigatoriamente realização presencial física na sede social, sendo nula a modalidade exclusivamente digital, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "B",
-        "text": "Todas as Sociedades Anônimas fechadas, independentemente do faturamento, são obrigadas a publicar seus balanços e atas em jornal impresso de grande circulação."
+        "text": "Todas as Sociedades Anônimas fechadas, independentemente do faturamento, são obrigadas a publicar seus balanços e atas em jornal impresso de grande circulação. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 1.080-A do Código Civil e Arts. 121, § 1º, e 124, § 2º-A, da LSA (inseridos pela Lei nº 14.030/2020), os sócios e acionistas PODEM participar e votar a distância em reunião ou assembleia (inclusive em assembleia EXCLUSIVAMENTE DIGITAL!), e a sociedade pode substituir seus livros sociais por registros eletrônicos conforme normas do DREI/CVM! Ademais, pelo Art. 294 da LSA (reformado pela LC nº 182/2021 — Marco Legal das Startups!), a companhia FECHADA que tiver receita bruta anual de ATÉ R$ 78 MILHÕES poderá realizar suas publicações ordenadas pela LSA de forma ELETRÔNICA (na Central de Balanços do SPED e no site da companhia — dispensando jornal de grande circulação e podendo substituir livros por registros mecanizados/eletrônicos)!"
+        "text": "Pelo Art. 1.080-A do Código Civil e Arts. 121, § 1º, e 124, § 2º-A, da LSA, os sócios e acionistas podem participar e votar a distância em reunião ou assembleia, e a sociedade pode substituir seus livros sociais por registros eletrônicos conforme normas do drei/CVM."
       },
       {
         "letter": "D",
-        "text": "Os prazos de antecedência para publicação do primeiro anúncio de convocação da Assembleia Geral na S/A fechada e aberta são idênticos: sempre 30 dias."
+        "text": "Os prazos de antecedência para publicação do primeiro anúncio de convocação da Assembleia Geral na S/A fechada e aberta são idênticos: sempre 30 dias, com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso."
       }
     ],
     "correctAnswer": "C",
@@ -3443,19 +3443,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No endosso-caução (penhor do título), o credor pignoratício que recebe o título em garantia pode reendossá-lo livremente em endosso próprio translativo a qualquer terceiro."
+        "text": "No endosso-caução (penhor do título), o credor pignoratício que recebe o título em garantia pode reendossá-lo livremente em endosso próprio translativo a qualquer terceiro, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "B",
-        "text": "A Lei nº 13.775/2018 proibiu qualquer protesto de duplicata escritural, exigindo ação ordinária de cobrança em juízo."
+        "text": "A Lei nº 13.775/2018 proibiu qualquer protesto de duplicata escritural, exigindo ação ordinária de cobrança em juízo, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "C",
-        "text": "A Duplicata Escritural (Lei nº 13.775/2018) nasce e circula eletronicamente no sistema de escrituração autorizado pelo Banco Central, e sua execução/protesto baseia-se na CERTIDÃO/EXTRATO ELETRÔNICO expedido pelo sistema gestor (dispensando cártula física em papel — consolidando inclusive o Art. 889, § 3º, CC e Súmula 248 STJ / protesto por indicação eletrônica)! Já quanto ao ENDOSSO-CAUÇÃO (ou pignoratício — Art. 19 LUG / Art. 918 CC), o endossatário credor pignoratício pode exercer todos os direitos inerentes ao título (cobrar/protestar), MAS um eventual novo endosso feito por ele SÓ VALE COMO ENDOSSO-MANDATO (procuração para cobrança — jamais transfere a propriedade definitiva a terceiro antes da execução da garantia)!"
+        "text": "A Duplicata Escritural nasce e circula eletronicamente no sistema de escrituração autorizado pelo Banco Central, e sua execução/protesto baseia-se na certidão/extrato eletrônico expedido pelo sistema gestor."
       },
       {
         "letter": "D",
-        "text": "Na duplicata escritural, a recusa injustificada pelo sacado no sistema eletrônico dentro do prazo legal impede a execução judicial do título."
+        "text": "Na duplicata escritural, a recusa injustificada pelo sacado no sistema eletrônico dentro do prazo legal impede a execução judicial do título, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       }
     ],
     "correctAnswer": "C",
@@ -3502,11 +3502,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Os créditos trabalhistas também são parcelados em 36 meses no plano especial de Recuperação Judicial das ME/EPPs."
+        "text": "Os créditos trabalhistas também são parcelados em 36 meses no plano especial de Recuperação Judicial das ME/EPPs, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "C",
-        "text": "No Plano Especial de RJ para ME/EPP (Art. 71 LRF): (1) abrange todos os créditos existentes na data do pedido (exceto os decorrentes de repasse de recursos oficiais, fiscais e os do Art. 49, §§ 3º e 4º — fiduciário/leasing/ACC!); (2) prevê parcelamento em até 36 (TRINTA E SEIS) parcelas mensais iguais e sucessivas (acrescidas de juros SELIC e podendo propor abatimento do valor das dívidas!), vencendo a 1ª parcela em no máximo 180 DIAS do pedido; e (3) DISPENSA a convocação de Assembleia Geral de Credores (Art. 72 — o juiz julga improcedente e decreta falência apenas se houver objeções de credores titulares de MAIS DA METADE de qualquer uma das classes)!"
+        "text": "No Plano Especial de RJ para ME/EPP: abrange todos os créditos existentes na data do pedido."
       },
       {
         "letter": "D",
@@ -3561,7 +3561,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 73 da LRF (com redação da Lei nº 14.112/2020), o juiz decretará a falência durante o processo de RJ: (I) por deliberação da Assembleia Geral de Credores; (II) pela não apresentação do plano no prazo improrrogável de 60 dias (Art. 53); (III) quando não houver aprovação do plano do devedor nem plano alternativo dos credores (ou cram down); (IV) por descumprimento de qualquer obrigação assumida no plano dentro dos 2 anos de fiscalização judicial (Art. 61 — atenção: após a Lei 14.112/20 o prazo de fiscalização judicial de até 2 anos tornou-se FACULTATIVO a critério do juiz!); (V — NOVO!) por descumprimento dos parcelamentos fiscais ou de transação tributária (§ 5º do Art. 10-A Lei 10.522/02); e (VI — NOVO!) quando identificado esvaziamento patrimonial da devedora que implique liquidação substancial da empresa em prejuízo de credores!"
+        "text": "Pelo Art. 73 da LRF, o juiz decretará a falência durante o processo de RJ: (I) por deliberação da Assembleia Geral de Credores."
       },
       {
         "letter": "D",
@@ -3608,19 +3608,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O cheque com cruzamento geral pode ser descontado normalmente em dinheiro vivo diretamente na boca do caixa por qualquer portador desconhecido."
+        "text": "O cheque com cruzamento geral pode ser descontado normalmente em dinheiro vivo diretamente na boca do caixa por qualquer portador desconhecido, com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso."
       },
       {
         "letter": "B",
-        "text": "O cheque visado impede o emitente de cancelar o pagamento e garante que a reserva de fundos permaneça bloqueada por 1 ano."
+        "text": "O cheque visado impede o emitente de cancelar o pagamento e garante que a reserva de fundos permaneça bloqueada por 1 ano, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "C",
-        "text": "O CHEQUE CRUZADO (Arts. 44–45 Lei 7.357/85) possui dois traços transversais paralelos no anverso: no cruzamento GERAL (sem nome de banco entre os traços) só pode ser pago pelo banco sacado a um BANCO ou a CLIENTE DO SACADO mediante crédito em conta (impedindo saque direto na boca do caixa por desconhecido!); no cruzamento ESPECIAL (com nome de banco entre os traços), só pode ser pago ao banco designado! Quanto à sustação: a REVOGAÇÃO (contraordem — Art. 35) só produz efeito DEPOIS de expirado o prazo de apresentação (30/60 dias); já a OPOSIÇÃO (sustação fundada em motivo relevante como furto, roubo, extravio ou desacordo comercial — Art. 36) produz efeito IMEDIATO ainda durante o prazo de apresentação (sem que caiba ao banco julgar o mérito da justificativa, salvo crime de fraude no pagamento por cheque Art. 171, § 2º, VI, CP se sem justa causa)!"
+        "text": "O cheque cruzado possui dois traços transversais paralelos no anverso: no cruzamento geral só pode ser pago pelo banco sacado a um banco ou a cliente do sacado mediante crédito em conta."
       },
       {
         "letter": "D",
-        "text": "A contraordem (revogação sem motivo relevante do Art. 35) susta imediatamente o cheque mesmo antes de encerrado o prazo de 30 ou 60 dias de apresentação."
+        "text": "A contraordem susta imediatamente o cheque mesmo antes de encerrado o prazo de 30 ou 60 dias de apresentação, em consonância com a preservação da empresa e a função social da atividade econômica."
       }
     ],
     "correctAnswer": "C",
@@ -3663,19 +3663,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os membros do Conselho Fiscal da Sociedade Limitada devem ser obrigatoriamente escolhidos dentre os próprios sócios titulares de quotas."
+        "text": "Os membros do Conselho Fiscal da Sociedade Limitada devem ser obrigatoriamente escolhidos dentre os próprios sócios titulares de quotas, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "B",
-        "text": "Os administradores da Sociedade Limitada nunca respondem perante terceiros por atos culposos no exercício de suas funções, respondendo apenas por dolo perante os sócios."
+        "text": "Os administradores da Sociedade Limitada nunca respondem perante terceiros por atos culposos no exercício de suas funções, respondendo apenas por dolo perante os sócios, em proteção à autonomia patrimonial societária e à segurança das relações mercantis."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 1.066 do CC, o Conselho Fiscal na Sociedade Limitada é FACULTATIVO (se previsto no contrato, compõe-se de 3 ou mais membros e respectivos suplentes, SÓCIOS OU NÃO, residentes no País) — sendo assegurado aos sócios minoritários que representem pelo menos 1/5 (20%) do capital social o direito de eleger separadamente 1 dos membros e seu suplente (§ 2º)! Quanto à responsabilidade do administrador: pelo Art. 1.016 do CC, os administradores respondem SOLIDARIAMENTE perante a sociedade E perante os terceiros prejudicados, por CULPA no desempenho de suas funções (e no excesso de poderes quando não vinculados à sociedade pelo Art. 1.015, parágrafo único — atos ultra vires evidentes)! E prescreve em 3 ANOS a pretensão contra os sócios/administradores por violação da lei ou contrato social (Art. 206, § 3º, VII, CC)!"
+        "text": "O Conselho Fiscal na Sociedade Limitada é facultativo — sendo assegurado aos sócios minoritários que representem pelo menos 1/5 (20%) do capital social o direito de eleger separadamente 1 dos membros e seu suplente."
       },
       {
         "letter": "D",
-        "text": "Na Sociedade Limitada, a regra do Art. 1.015 do CC impede a empresa de se desvincular de ato praticado pelo administrador com excesso de poderes mesmo quando a limitação estava devidamente registrada na Junta Comercial."
+        "text": "Na Sociedade Limitada, a regra impede a empresa de se desvincular de ato praticado pelo administrador com excesso de poderes mesmo quando a limitação estava devidamente registrada na Junta Comercial."
       }
     ],
     "correctAnswer": "C",
@@ -3718,19 +3718,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas os acionistas titulares de ações ordinárias com direito a voto que votaram contra a deliberação têm direito de retirada (recesso) na S/A."
+        "text": "Apenas os acionistas titulares de ações ordinárias com direito a voto que votaram contra a deliberação têm direito de retirada (recesso) na S/A, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "B",
-        "text": "O prazo para o acionista dissidente requerer o reembolso de suas ações no direito de retirada é de 90 dias contados da assembleia."
+        "text": "O prazo para o acionista dissidente requerer o reembolso de suas ações no direito de retirada é de 90 dias contados da assembleia, em consonância com a preservação da empresa e a função social da atividade econômica. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 137 da Lei nº 6.404/1976, a aprovação das matérias previstas nos incisos I a VI e IX do Art. 136 (ex.: criação/alteração de preferenciais prejudiciais, redução do dividendo obrigatório, fusão/incorporação em outra companhia, participação em grupo de sociedades, mudança do objeto social) dá ao acionista dissidente — INCLUSIVE ao titular de ações sem direito a voto que tenha ficado prejudicado — o direito de RETIRAR-SE da companhia, mediante reembolso do valor de suas ações, desde que reclame no prazo DECADENCIAL de 30 (TRINTA) DIAS contados da publicação da ata da assembleia-geral (Art. 137, IV)! Se o estatuto for omisso quanto ao critério de cálculo, o valor do reembolso corresponderá no mínimo ao VALOR DE PATRIMÔNIO LÍQUIDO das ações constante do último balanço aprovado (Art. 45, § 1º — cabendo direito a balanço especial se a deliberação ocorrer mais de 60 dias depois do último balanço aprovado)!"
+        "text": "A aprovação das matérias previstas nos incisos I a vi e IX dá ao acionista dissidente — o direito de retirar-se da companhia, mediante reembolso do valor de suas ações, desde que reclame no prazo decadencial de 30 (trinta) dias contados da publicação da ata da assembleia-geral."
       },
       {
         "letter": "D",
-        "text": "Mesmo quando as ações da companhia aberta tenham liquidez e dispersão no mercado de capitais (Art. 137, II), o acionista dissidente tem sempre direito de retirada na fusão ou incorporação."
+        "text": "Mesmo quando as ações da companhia aberta tenham liquidez e dispersão no mercado de capitais, o acionista dissidente tem sempre direito de retirada na fusão ou incorporação, com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso."
       }
     ],
     "correctAnswer": "C",
@@ -3773,19 +3773,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A licença compulsória de patente confere exclusividade absoluta ao licenciado e transfere definitivamente a titularidade da patente para o Estado."
+        "text": "A licença compulsória de patente confere exclusividade absoluta ao licenciado e transfere definitivamente a titularidade da patente para o Estado, com manutenção da estrutura de governança societária e da limitação de responsabilidade."
       },
       {
         "letter": "B",
-        "text": "O registro de Indicação Geográfica no INPI vigora por 10 anos prorrogáveis por igual período e pertence individualmente a uma única empresa privada."
+        "text": "O registro de Indicação Geográfica no inpi vigora por 10 anos prorrogáveis por igual período e pertence individualmente a uma única empresa privada, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "C",
-        "text": "A LICENÇA COMPULSÓRIA de patente (Arts. 68–74 LPI — alterada pela Lei nº 14.200/2021!) pode ser concedida em caso de abuso dos direitos patentários, abuso de poder econômico, falta de exploração no Brasil após 3 anos da concessão, patente dependente ou emergência nacional / interesse público (sempre NÃO EXCLUSIVA e sem direito de sublicenciamento, mediante remuneração justa ao titular — na emergência nacional da Lei 14.200/21 fixada em 1,5% sobre preço líquido se não houver acordo!). Já a INDICAÇÃO GEOGRÁFICA (Arts. 176–182 LPI) divide-se em: (1) INDICAÇÃO DE PROCEDÊNCIA (IP — nome geográfico conhecido como centro de extração, produção ou fabricação do produto/serviço) e (2) DENOMINAÇÃO DE ORIGEM (DO — quando as qualidades ou características do produto/serviço se devam exclusiva ou essencialmente ao meio geográfico, incluídos fatores naturais e humanos) — sendo o registro de Indicação Geográfica de natureza DECLARATÓRIA e SEM PRAZO DE EXPIRAÇÃO!"
+        "text": "A licença compulsória de patente pode ser concedida em caso de abuso dos direitos patentários, abuso de poder econômico, falta de exploração no Brasil após 3 anos da concessão, patente dependente ou emergência nacional / interesse público."
       },
       {
         "letter": "D",
-        "text": "Na Indicação de Procedência exige-se comprovação científica de que o clima e o solo do local alteram as propriedades biológicas do produto."
+        "text": "Na Indicação de Procedência exige-se comprovação científica de que o clima e o solo do local alteram as propriedades biológicas do produto, com desconsideração direta da personalidade jurídica sem instauração prévia de incidente."
       }
     ],
     "correctAnswer": "C",
@@ -3828,19 +3828,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Consolidada a propriedade do imóvel alienado fiduciariamente no Cartório de Imóveis em nome do credor, o devedor perde imediatamente qualquer direito de preferência para reaver o bem antes do leilão."
+        "text": "Consolidada a propriedade do imóvel alienado fiduciariamente no Cartório de Imóveis em nome do credor, o devedor perde imediatamente qualquer direito de preferência para reaver o bem antes do leilão, em consonância com a preservação da empresa e a função social da atividade econômica."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 27, § 2º-B, da Lei nº 9.514/97, após a consolidação da propriedade no credor fiduciário, o devedor fiduciante tem DIREITO DE PREFERÊNCIA para adquirir o imóvel por preço correspondente ao valor da dívida + encargos + despesas cartorárias ATÉ A DATA DA REALIZAÇÃO DO 2º LEILÃO extrajudicial! Quanto ao saldo após o 2º leilão (atenção ao Marco Legal das Garantias — Lei nº 14.711/2023!): na regra tradicional do financiamento imobiliário residencial (Art. 27, § 5º), se no 2º leilão não houver lance igual ou superior à dívida, extingue-se a dívida dando quitação recíproca (sem saldo residual!); CONTUDO, a Lei nº 14.711/2023 (Art. 27, §§ 5º-A e 6º-A) passou a prever que em operações NÃO relacionadas ao financiamento habitacional residencial (como mútuos empresariais com garantia de imóvel!), o credor pode cobrar o SALDO REMANESCENTE excutido quando o imóvel leiloado não cobrir toda a dívida (salvo previsão contratual em contrário)!"
+        "text": "Após a consolidação da propriedade no credor fiduciário, o devedor fiduciante tem direito de preferência para adquirir o imóvel por preço correspondente ao valor da dívida + encargos + despesas cartorárias até a data da realização do 2º leilão extrajudicial. Quanto ao saldo após o 2º leilão: na regra tradicional do financiamento imobiliário residencial, se no 2º leilão não houver lance igual ou superior à dívida, extingue-se a dívida dando quitação recíproca; contudo, a Lei nº 14.711/2023 passou a prever que em operações não relacionadas ao financiamento habitacional residencial, o credor pode cobrar o saldo remanescente excutido quando o imóvel leiloado não cobrir toda a dívida."
       },
       {
         "letter": "C",
-        "text": "Na hipoteca firmada entre a construtora e o agente financeiro, o adquirente de boa-fé da unidade residencial pronta continua vinculado à hipoteca se a construtora não pagar o banco."
+        "text": "Na hipoteca firmada entre a construtora e o agente financeiro, o adquirente de boa-fé da unidade residencial pronta continua vinculado à hipoteca se a construtora não pagar o banco, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada."
       },
       {
         "letter": "D",
-        "text": "Na execução extrajudicial de alienação fiduciária de imóvel da Lei nº 9.514/97, o prazo para o devedor purgar a mora após a intimação do cartório de imóveis é de 30 dias."
+        "text": "Na execução extrajudicial de alienação fiduciária de imóvel da Lei nº 9.514/97, o prazo para o devedor purgar a mora após a intimação do cartório de imóveis é de 30 dias, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito."
       }
     ],
     "correctAnswer": "B",
@@ -3884,19 +3884,19 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O consórcio de empresas previsto na Lei das S/A adquire personalidade jurídica autônoma e responde com patrimônio próprio solidariamente por todas as dívidas."
+        "text": "O consórcio de empresas previsto na Lei das S/A adquire personalidade jurídica autônoma e responde com patrimônio próprio solidariamente por todas as dívidas, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal."
       },
       {
         "letter": "B",
-        "text": "NÃO para ambos! Pelo Art. 278, § 1º, da Lei nº 6.404/1976, o CONSÓRCIO NÃO TEM PERSONALIDADE JURÍDICA (embora tenha inscrição própria no CNPJ para fins fiscais!) e as consorciadas somente se obrigam nas condições previstas no respectivo contrato, RESPONDENDO CADA UMA POR SUAS OBRIGAÇÕES, SEM PRESUNÇÃO DE SOLIDARIEDADE! (Atenção: a solidariedade só existe quando prevista expressamente no contrato de consórcio ou imposta por lei especial de ordem pública — como em licitações públicas na Lei 14.133/21, Art. 15, V, perante a Administração Pública, ou no CDC Art. 28, § 3º, perante consumidores, ou dívida trabalhista em grupo econômico)!"
+        "text": "Não para ambos. o consórcio não tem personalidade jurídica e as consorciadas somente se obrigam nas condições previstas no respectivo contrato, respondendo cada uma por suas obrigações, sem presunção de solidariedade."
       },
       {
         "letter": "C",
-        "text": "Na relação de consumo (CDC) envolvendo fornecimento de produto/serviço por consórcio empresarial, aplica-se a ausência total de solidariedade do Art. 278 da LSA."
+        "text": "Na relação de consumo envolvendo fornecimento de produto/serviço por consórcio empresarial, aplica-se a ausência total de solidariedade, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações."
       },
       {
         "letter": "D",
-        "text": "A falência de uma das sociedades consorciadas estende-se automaticamente a todas as demais empresas integrantes do consórcio."
+        "text": "A falência de uma das sociedades consorciadas estende-se automaticamente a todas as demais empresas integrantes do consórcio, em consonância com a preservação da empresa e a função social da atividade econômica."
       }
     ],
     "correctAnswer": "B",
@@ -3943,7 +3943,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A sociedade em liquidação MANTÉM SUA PERSONALIDADE JURÍDICA até o cancelamento da inscrição (Art. 51 e Arts. 1.102–1.112 CC)! Dissolvida a sociedade, ela conserva a personalidade jurídica apenas para os fins de liquidação do ativo, pagamento do passivo e partilha do remanescente entre os sócios (sem iniciar novos negócios estranhos à liquidação — Art. 1.103, § único), passando a ser representada pelo LIQUIDANTE, com uso obrigatório da expressão \"em liquidação\" após o nome empresarial! Encerrada a liquidação, aprova-se a prestação de contas final e averba-se a ata na Junta Comercial, momento em que se EXTINGUE definitivamente a personalidade jurídica (Art. 1.109 CC)!"
+        "text": "A sociedade em liquidação mantém sua personalidade jurídica até o cancelamento da inscrição."
       },
       {
         "letter": "C",
@@ -3951,7 +3951,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A partilha antecipada do acervo patrimonial entre os sócios antes de pagos todos os credores torna o ato lícito se previsto no contrato social."
+        "text": "A partilha antecipada do acervo patrimonial entre os sócios antes de pagos todos os credores torna o ato lícito se previsto no contrato social, em consonância com a preservação da empresa e a função social da atividade econômica."
       }
     ],
     "correctAnswer": "B",
@@ -3994,11 +3994,11 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É absolutamente proibida a capitalização mensal de juros em contratos bancários celebrados com instituições financeiras após o ano 2000."
+        "text": "É absolutamente proibida a capitalização mensal de juros em contratos bancários celebrados com instituições financeiras após o ano 2000, em proteção à autonomia patrimonial societária e à segurança das relações mercantis."
       },
       {
         "letter": "B",
-        "text": "Pela Súmula Vinculante nº 7 do STF (e Súmula 648 STF), a norma do § 3º do Art. 192 da CF (revogada pela EC 40/03), que limitava a taxa de juros reais a 12% ao ano, tinha sua aplicabilidade condicionada à edição de lei complementar — logo, NÃO há teto constitucional de 12% ao ano para juros bancários (que só podem ser revistos judicialmente se demonstrada abusividade frente à taxa média de mercado do BACEN — Súmula 530/382 STJ)! E quanto à CAPITALIZAÇÃO MENSAL DE JUROS (anatocismo): pela Súmula 539 do STJ (e RE 592.377 STF — MP 2.170-36/2001!), É PERMITIDA a capitalização de juros com periodicidade inferior à anual em contratos celebrados com instituições integrantes do Sistema Financeiro Nacional após 31/3/2000, DESDE QUE EXPRESSAMENTE PACTUADA (bastando a previsão de taxa de juros ANUAL superior ao duodécuplo da taxa MENSAL — Súmula 541 STJ)!"
+        "text": "Pela Súmula Vinculante nº 7 do STF (e Súmula 648 STF), a norma do § 3º, que limitava a taxa de juros reais a 12% ao ano, tinha sua aplicabilidade condicionada à edição de lei complementar."
       },
       {
         "letter": "C",
@@ -4006,7 +4006,7 @@ export const EMPRESARIAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Nos contratos de mútuo entre particulares NÃO integrantes do Sistema Financeiro Nacional (empréstimo civil/empresarial privado), também vigora a liberação irrestrita dos juros acima do limite legal."
+        "text": "Nos contratos de mútuo entre particulares não integrantes do Sistema Financeiro Nacional (empréstimo civil/empresarial privado), também vigora a liberação irrestrita dos juros acima do limite legal."
       }
     ],
     "correctAnswer": "B",

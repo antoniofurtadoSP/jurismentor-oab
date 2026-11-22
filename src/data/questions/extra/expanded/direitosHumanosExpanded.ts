@@ -17,19 +17,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo entendimento consolidado do STF (RE 466.343 e SV 25): (1) tratados de direitos humanos aprovados pelo rito qualificado do Art. 5º, § 3º, da CF (3/5 dos votos em dois turnos em cada Casa — como a Convenção da ONU sobre PcD, o Tratado de Marraqueche, a Convenção Interamericana contra o Racismo e o Protocolo Facultativo da PcD) equivalem às EMENDAS CONSTITUCIONAIS (status constitucional, servindo de parâmetro de controle concentrado!); e (2) tratados de direitos humanos ratificados pelo rito comum sem o quórum do § 3º (como o Pacto de São José da Costa Rica!) possuem status SUPRALEGAL (acima das leis ordinárias e abaixo da Constituição, paralisando a eficácia das leis contrárias como a prisão civil do depositário infiel)!"
+        "text": "Tratados de direitos humanos aprovados pelo rito qualificado equivalem às emendas constitucionais; e tratados de direitos humanos ratificados pelo rito comum sem o quórum do § 3º possuem status supralegal."
       },
       {
         "letter": "B",
-        "text": "Todos os tratados internacionais de direitos humanos ratificados pelo Brasil possuem automaticamente status equivalente a emenda constitucional desde a promulgação da CF/88."
+        "text": "Todos os tratados internacionais de direitos humanos ratificados pelo Brasil possuem automaticamente status equivalente a emenda constitucional desde a promulgação da CF/88, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Tratados internacionais comuns sobre matéria tributária ou comercial têm o mesmo status supralegal dos tratados de direitos humanos não qualificados."
+        "text": "Tratados internacionais comuns sobre matéria tributária ou comercial têm o mesmo status supralegal dos tratados de direitos humanos não qualificados, sem admissão de norma interna posterior para descumprir obrigação internacional assumida."
       },
       {
         "letter": "D",
-        "text": "A Convenção sobre os Direitos das Pessoas com Deficiência possui status meramente supralegal no Brasil."
+        "text": "A Convenção sobre os Direitos das Pessoas com Deficiência possui status meramente supralegal no Brasil, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "A",
@@ -73,19 +73,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "NÃO! No Sistema Interamericano de Direitos Humanos (Art. 61, 1, do Pacto de São José), SOMENTE OS ESTADOS-PARTES E A COMISSÃO INTERAMERICANA DE DIREITOS HUMANOS (CIDH) têm direito de submeter um caso à decisão da Corte IDH! O indivíduo, grupo de pessoas ou ONG (Art. 44) deve apresentar sua petição primeiramente à COMISSÃO INTERAMERICANA (prazo de 6 meses da notificação da decisão interna definitiva após esgotamento dos recursos internos — Art. 46!), e só a Comissão ou Estado pode levar o caso à Corte IDH (caso o Estado reconheça a jurisdição contenciosa — o Brasil reconheceu em 1998)!"
+        "text": "Não. No Sistema Interamericano de Direitos Humanos, somente OS estados-partes e a comissão interamericana de direitos humanos (CIDH) têm direito de submeter um caso à decisão da Corte idh."
       },
       {
         "letter": "B",
-        "text": "Qualquer cidadão ou ONG legitimada pode ajuizar ação diretamente na Corte Interamericana de Direitos Humanos em San José."
+        "text": "Qualquer cidadão ou ONG legitimada pode ajuizar ação diretamente na Corte Interamericana de Direitos Humanos em San José, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "O prazo para apresentar petição à Comissão Interamericana após o esgotamento dos recursos internos é de 2 anos."
+        "text": "O prazo para apresentar petição à Comissão Interamericana após o esgotamento dos recursos internos é de 2 anos, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "As sentenças condenatórias da Corte IDH dependem de homologação pelo Superior Tribunal de Justiça (STJ) para produzir efeitos no Brasil."
+        "text": "As sentenças condenatórias da Corte idh dependem de homologação pelo Superior Tribunal de Justiça (STJ) para produzir efeitos no Brasil, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "A",
@@ -128,19 +128,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 109, § 5º, da CF (inserido pela EC 45/2004), nas hipóteses de grave violação de direitos humanos, o PROCURADOR-GERAL DA REPÚBLICA (PGR) — com legitimidade EXCLUSIVA! — poderá suscitar, perante o SUPERIOR TRIBUNAL DE JUSTIÇA (STJ), em qualquer fase do inquérito ou processo, incidente de deslocamento de competência para a JUSTIÇA FEDERAL, com a finalidade de assegurar o cumprimento de obrigações decorrentes de tratados internacionais de direitos humanos!"
+        "text": "Da CF, nas hipóteses de grave violação de direitos humanos, o procurador-geral da república (PGR). — poderá suscitar, perante o superior tribunal de justiça (STJ), em qualquer fase do inquérito ou processo, incidente de deslocamento de competência para a justiça federal, com a finalidade de assegurar o cumprimento de obrigações decorrentes de tratados internacionais de direitos humanos."
       },
       {
         "letter": "B",
-        "text": "O Incidente de Deslocamento de Competência pode ser suscitado pelo Procurador-Geral de Justiça do Estado ou pela Defensoria Pública da União diretamente ao STF."
+        "text": "O Incidente de Deslocamento de Competência pode ser suscitado pelo Procurador-Geral de Justiça do Estado ou pela Defensoria Pública da União diretamente ao STF, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "O IDC só pode ser proposto após o oferecimento da denúncia criminal na Justiça Estadual."
+        "text": "O idc só pode ser proposto após o oferecimento da denúncia criminal na Justiça Estadual, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Para deferir a federalização pelo IDC, basta demonstrar que o crime teve grande repercussão na imprensa local."
+        "text": "Para deferir a federalização pelo idc, basta demonstrar que o crime teve grande repercussão na imprensa local, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "A",
@@ -183,19 +183,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Lei Brasileira de Inclusão (LBI — Lei nº 13.146/2015, Art. 6º e reforma dos Arts. 3º e 4º CC) rompeu com a incapacidade automática: a DEFICIÊNCIA NÃO AFETA A PLENA CAPACIDADE CIVIL da pessoa, inclusive para casar-se, constituir união estável, exercer direitos sexuais/reprodutivos e exercer guarda/adoção (hoje só os menores de 16 anos são absolutamente incapazes no Art. 3º CC)! A CURATELA é medida extraordinária (Art. 84) que afeta TÃO SOMENTE OS ATOS RELACIONADOS AOS DIREITOS DE NATUREZA PATRIMONIAL E NEGOCIAL (jamais alcança direito ao próprio corpo, sexualidade, matrimônio, privacidade, educação, saúde, trabalho e voto — Art. 85)! E quem mantém discernimento pode optar pela TOMADA DE DECISÃO APOIADA (Art. 1.783-A CC), elegendo pelo menos 2 (DUAS) pessoas idôneas para apoio!"
+        "text": "A Lei Brasileira de Inclusão rompeu com a incapacidade automática: a deficiência não afeta a plena capacidade civil da pessoa, inclusive para casar-se, constituir união estável, exercer direitos sexuais/reprodutivos e exercer guarda/adoção."
       },
       {
         "letter": "B",
-        "text": "A pessoa com deficiência mental ou intelectual severa continua classificada como absolutamente incapaz no Art. 3º do Código Civil."
+        "text": "A pessoa com deficiência mental ou intelectual severa continua classificada como absolutamente incapaz, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "A curatela decretada judicialmente para pessoa com deficiência transfere ao curador o poder de decidir sobre casamento, voto e esterilização do curatelado."
+        "text": "A curatela decretada judicialmente para pessoa com deficiência transfere ao curador o poder de decidir sobre casamento, voto e esterilização do curatelado, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "D",
-        "text": "Na Tomada de Decisão Apoiada (Art. 1.783-A CC), basta o juiz ou o Ministério Público requerer unilateralmente a nomeação de um único apoiador contra a vontade da pessoa com deficiência."
+        "text": "Na Tomada de Decisão Apoiada, basta o juiz ou o Ministério Público requerer unilateralmente a nomeação de um único apoiador contra a vontade da pessoa com deficiência, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "A",
@@ -238,19 +238,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O princípio do NON-REFOULEMENT (não devolução — Art. 7º, § 1º, Lei 9.474/97 e Art. 33 da Convenção de 1951) PROÍBE a devolução/deportação/expulsão do solicitante de refúgio ou refugiado para fronteiras de território onde sua vida ou liberdade esteja ameaçada! O ingresso irregular em território brasileiro NÃO impede o pedido de refúgio ao CONARE (suspendendo eventual procedimento de extradição ou de deportação pendente — Art. 8º e Art. 34 Lei 9.474/97)! E atenção à Lei de Migração (Lei 13.445/17 — Arts. 54–55): é vedada a expulsão coletiva, bem como a expulsão de quem tiver filho brasileiro sob sua guarda/dependência econômica ou cônjuge/companheiro residente no Brasil há mais de 5 anos (sem prejuízo da exceção de crime contra humanidade/terrorismo)!"
+        "text": "O princípio do non-refoulement proíbe a devolução/deportação/expulsão do solicitante de refúgio ou refugiado para fronteiras de território onde sua vida ou liberdade esteja ameaçada."
       },
       {
         "letter": "B",
-        "text": "O ingresso clandestino ou irregular do estrangeiro no Brasil impede a formalização do pedido de refúgio e obriga sua deportação sumária na fronteira."
+        "text": "O ingresso clandestino ou irregular do estrangeiro no Brasil impede a formalização do pedido de refúgio e obriga sua deportação sumária na fronteira, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "O Brasil pode conceder extradição de brasileiro naturalizado por crime comum praticado após a naturalização, bem como de estrangeiro por crime político."
+        "text": "O Brasil pode conceder extradição de brasileiro naturalizado por crime comum praticado após a naturalização, bem como de estrangeiro por crime político, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar."
       },
       {
         "letter": "D",
-        "text": "O reconhecimento do status de refugiado cabe ao Presidente da República mediante decreto discricionário."
+        "text": "O reconhecimento do status de refugiado cabe ao Presidente da República mediante decreto discricionário, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "A",
@@ -293,19 +293,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Denomina-se CONTROLE DE CONVENCIONALIDADE DIFUSO (ou matriz nacional/interna), que pode — e DEVE, segundo a Corte IDH no Caso Almonacid Arellano — ser exercido DE OFÍCIO por QUALQUER JUÍZ OU TRIBUNAL no caso concreto para compatibilizar as leis internas com os tratados internacionais de direitos humanos ratificados pelo Brasil! Já o CONTROLE DE CONVENCIONALIDADE CONCENTRADO (em ADI/ADC/ADPF perante o STF) somente é cabível quando o tratado de direitos humanos tiver sido incorporado com STATUS CONSTITUCIONAL pelo rito do Art. 5º, § 3º, da CF (pois tratados supralegais não integram o bloco de constitucionalidade formal para ADI, embora paralisem leis ordinárias no controle difuso)!"
+        "text": "Denomina-se controle de convencionalidade difuso, que pode. Já o controle de convencionalidade concentrado somente é cabível quando o tratado de direitos humanos tiver sido incorporado com status constitucional pelo rito."
       },
       {
         "letter": "B",
-        "text": "O controle de convencionalidade difuso é privativo do Supremo Tribunal Federal, sendo vedado aos juízes de 1º grau afastar lei federal com base em tratado."
+        "text": "O controle de convencionalidade difuso é privativo do Supremo Tribunal Federal, sendo vedado aos juízes de 1º grau afastar lei federal com base em tratado, em observância à vedação ao retrocesso e aos tratados internacionais de proteção ratificados."
       },
       {
         "letter": "C",
-        "text": "Qualquer tratado de direitos humanos, mesmo ratificado sem o quórum do Art. 5º, § 3º, CF, pode servir de parâmetro para Ação Direta de Inconstitucionalidade (ADI) no STF."
+        "text": "Qualquer tratado de direitos humanos, mesmo ratificado sem o quórum, pode servir de parâmetro para Ação Direta de Inconstitucionalidade (ADI) no STF. Tal obrigação vincula os três Poderes da República no cumprimento de tratados vigentes."
       },
       {
         "letter": "D",
-        "text": "A Corte IDH no Caso Gomes Lund (Guerrilha do Araguaia) validou integralmente a interpretação da Lei de Anistia brasileira dada pelo STF na ADPF 153."
+        "text": "A Corte idh no Caso Gomes Lund (Guerrilha do Araguaia) validou integralmente a interpretação da Lei de Anistia brasileira dada pelo STF na ADPF 153, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "A",
@@ -348,19 +348,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Convenção Interamericana contra o Racismo foi aprovada pelo quórum qualificado do Art. 5º, § 3º, da CF, possuindo STATUS DE EMENDA CONSTITUCIONAL no Brasil! E quanto à INJÚRIA RACIAL: primeiro o STF (HC 154.248) reconheceu ser espécie de racismo (imprescritível e inafiançável) e, em seguida, a Lei nº 14.532/2023 TRANSFERIU a injúria racial do Código Penal para o Art. 2º-A da Lei nº 7.716/1989 (Lei do Racismo), com pena de reclusão de 2 a 5 anos, ação penal PÚBLICA INCONDICIONADA, IMPRESCRITÍVEL e INAFIANÇÁVEL!"
+        "text": "A Convenção Interamericana contra o Racismo foi aprovada pelo quórum qualificado, possuindo status de emenda constitucional no Brasil."
       },
       {
         "letter": "B",
-        "text": "A injúria racial continua tipificada no Art. 140, § 3º, do Código Penal, dependendo de representação da vítima e sujeita a prescrição penal comum."
+        "text": "A injúria racial continua tipificada, dependendo de representação da vítima e sujeita a prescrição penal comum, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "A Convenção Interamericana contra o Racismo tem status meramente legal ordinário no ordenamento jurídico brasileiro."
+        "text": "A Convenção Interamericana contra o Racismo tem status meramente legal ordinário no ordenamento jurídico brasileiro, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "O Estatuto da Igualdade Racial veda qualquer política de ação afirmativa ou cota por ferir o princípio da igualdade formal."
+        "text": "O Estatuto da Igualdade Racial veda qualquer política de ação afirmativa ou cota por ferir o princípio da igualdade formal, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "A",
@@ -404,19 +404,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Estatuto da Pessoa Idosa (Lei nº 10.741/2003): (1) considera-se pessoa idosa quem tem >= 60 anos, MAS dentre os idosos é assegurada PRIORIDADE ESPECIAL aos MAIORES DE 80 (OITENTA) ANOS, atendendo-se suas necessidades sempre preferencialmente em relação aos demais idosos (Art. 3º, § 2º e Art. 71, § 5º — salvo emergência médica!); (2) a obrigação alimentar aos idosos é SOLIDÁRIA, podendo o idoso OPTAR livremente entre os prestadores (acionar só um dos filhos solventes sem litisconsórcio necessário — Art. 12!); e (3) é VEDADA a discriminação do idoso nos planos de saúde pela cobrança de valores diferenciados em razão da idade (Art. 15, § 3º)!"
+        "text": "Pelo Estatuto da Pessoa Idosa: considera-se pessoa idosa quem tem >= 60 anos, mas dentre os idosos é assegurada prioridade especial aos maiores de 80 (oitenta) anos, atendendo-se suas necessidades sempre preferencialmente em relação aos demais idosos."
       },
       {
         "letter": "B",
-        "text": "Na obrigação alimentar em favor de pessoa idosa, ela deve acionar obrigatoriamente todos os filhos juntos em litisconsórcio necessário."
+        "text": "Na obrigação alimentar em favor de pessoa idosa, ela deve acionar obrigatoriamente todos os filhos juntos em litisconsórcio necessário, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo."
       },
       {
         "letter": "C",
-        "text": "A gratuidade nos transportes coletivos públicos urbanos e semiurbanos assegurada pela Constituição e pelo Estatuto do Idoso começa apenas aos 70 anos."
+        "text": "A gratuidade nos transportes coletivos públicos urbanos e semiurbanos assegurada pela Constituição e pelo Estatuto do Idoso começa apenas aos 70 anos, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "Entre um idoso de 82 anos e um idoso de 64 anos, aplica-se exclusivamente a ordem de chegada sem preferência etária interna."
+        "text": "Entre um idoso de 82 anos e um idoso de 64 anos, aplica-se exclusivamente a ordem de chegada sem preferência etária interna, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar."
       }
     ],
     "correctAnswer": "A",
@@ -460,19 +460,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As REGRAS DE BANGKOK (Regras da ONU para o tratamento de mulheres presas e medidas não privativas de liberdade — incorporadas nos Arts. 318 e 318-A do CPP e HC coletivo 143.641 STF!) priorizam medidas não privativas de liberdade e garantem PRISÃO DOMICILIAR à mulher presa preventiva que seja GESTANTE ou MÃE/responsável por criança de até 12 ANOS incompletos ou PcD (salvo crime com violência/grave ameaça contra pessoa ou contra o próprio filho — Art. 318-A)! As REGRAS DE MANDELA proíbem absolutamente o confinamento solitário prolongado (> 15 dias consecutivos) e o uso de algemas durante o parto/pós-parto imediato (Art. 292, § único CPP)! E o Pacto de São José (Art. 7.5) + Art. 310 do CPP exigem AUDIÊNCIA DE CUSTÓDIA em até 24 HORAS!"
+        "text": "As regras de bangkok priorizam medidas não privativas de liberdade e garantem prisão domiciliar à mulher presa preventiva que seja gestante ou mãe/responsável por criança de até 12 anos incompletos ou PcD."
       },
       {
         "letter": "B",
-        "text": "As Regras de Bangkok referem-se às diretrizes mínimas da ONU para proteção trabalhista de crianças e adolescentes em países em desenvolvimento."
+        "text": "As Regras de Bangkok referem-se às diretrizes mínimas da ONU para proteção trabalhista de crianças e adolescentes em países em desenvolvimento, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Pelas Regras de Mandela da ONU, admite-se o isolamento solitário disciplinar por até 60 dias contínuos como punição grave."
+        "text": "Pelas Regras de Mandela da ONU, admite-se o isolamento solitário disciplinar por até 60 dias contínuos como punição grave, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "A Lei brasileira admite normalmente o uso de algemas em mulheres durante o trabalho de parto e no período de puerpério imediato para evitar fuga hospitalar."
+        "text": "A Lei brasileira admite normalmente o uso de algemas em mulheres durante o trabalho de parto e no período de puerpério imediato para evitar fuga hospitalar, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "A",
@@ -516,19 +516,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Sistema Interamericano, assim como no Sistema Europeu pós-Protocolo 11, o indivíduo tem acesso direto à Corte sem passar pela Comissão."
+        "text": "No Sistema Interamericano, assim como no Sistema Europeu pós-Protocolo 11, o indivíduo tem acesso direto à Corte sem passar pela Comissão. Tal obrigação vincula os três Poderes da República no cumprimento de tratados vigentes."
       },
       {
         "letter": "B",
-        "text": "A consulta prévia prevista na Convenção nº 169 da OIT é facultativa e pode ser substituída por audiência pública posterior à conclusão da obra."
+        "text": "A consulta prévia prevista na Convenção nº 169 da OIT é facultativa e pode ser substituída por audiência pública posterior à conclusão da obra, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "C",
-        "text": "A Revisão Periódica Universal (RPU) avalia apenas os países que assinaram o Pacto Internacional sobre Direitos Civis e Políticos."
+        "text": "A Revisão Periódica Universal (rpu) avalia apenas os países que assinaram o Pacto Internacional sobre Direitos Civis e Políticos, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "No SISTEMA EUROPEU DE DIREITOS HUMANOS (Protocolo nº 11 de 1998), a antiga Comissão Europeia foi extinta e o INDIVÍDUO passou a ter ACESSO DIRETO à Corte Europeia de Direitos Humanos (diferente do Sistema Interamericano, onde o indivíduo peticiona primeiro à Comissão IDH)! Na ONU, o Conselho de Direitos Humanos (47 Estados eleitos pela AGNU) realiza a REVISÃO PERIÓDICA UNIVERSAL (RPU) de todos os Estados-membros da ONU! E a Convenção nº 169 da OIT exige CONSULTA PRÉVIA, LIVRE E INFORMADA aos povos indígenas e tribais/quilombolas interessados sempre que medidas legislativas ou administrativas forem suscetíveis de afetá-los diretamente (Art. 6º)!"
+        "text": "No sistema europeu de direitos humanos, a antiga Comissão Europeia foi extinta e o indivíduo passou a ter acesso direto à Corte Europeia de Direitos Humanos. Na ONU, o Conselho de Direitos Humanos realiza a revisão periódica universal (rpu) de todos os Estados-membros da ONU. E a Convenção nº 169 da OIT exige consulta prévia, livre e informada aos povos indígenas e tribais/quilombolas interessados sempre que medidas legislativas ou administrativas forem suscetíveis de afetá-los diretamente."
       }
     ],
     "correctAnswer": "D",
@@ -571,15 +571,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o princípio da autonomia da vontade prevalece sobre garantias fundamentais quando há termo escrito."
+        "text": "Sim, pois o princípio da autonomia da vontade prevalece sobre garantias fundamentais quando há termo escrito. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "Sim, desde que homologada pelo juízo da execução penal."
+        "text": "Sim, desde que homologada pelo juízo da execução penal, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Não, porque direitos humanos aplicam-se apenas a cidadãos não condenados criminalmente."
+        "text": "Não, porque direitos humanos aplicam-se apenas a cidadãos não condenados criminalmente. A interpretação conforme a dignidade humana prevalece na colisão aparente de normas."
       },
       {
         "letter": "D",
@@ -626,19 +626,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Saúde integra a 1ª dimensão e liberdade de expressão a 2ª dimensão."
+        "text": "Saúde integra a 1ª dimensão e liberdade de expressão a 2ª dimensão, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "O meio ambiente equilibrado pertence à 2ª dimensão, ligada à Revolução Industrial."
+        "text": "O meio ambiente equilibrado pertence à 2ª dimensão, ligada à Revolução Industrial, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "As gerações de direitos humanos sucedem-se por revogação, substituindo a anterior pela posterior."
+        "text": "As gerações de direitos humanos sucedem-se por revogação, substituindo a anterior pela posterior, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Liberdade de expressão integra a 1ª dimensão (direitos civis e políticos/liberdades negativas); saúde pública integra a 2ª dimensão (direitos sociais, econômicos e culturais); e meio ambiente equilibrado integra a 3ª dimensão (direitos difusos de fraternidade/solidariedade)."
+        "text": "Liberdade de expressão integra a 1ª dimensão; saúde pública integra a 2ª dimensão; e meio ambiente equilibrado integra a 3ª dimensão."
       }
     ],
     "correctAnswer": "D",
@@ -681,15 +681,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os direitos trabalhistas e previdenciários conquistados no pós-Primeira Guerra Mundial."
+        "text": "Os direitos trabalhistas e previdenciários conquistados no pós-Primeira Guerra Mundial, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
-        "text": "O direito ao meio ambiente equilibrado e à autodeterminação dos povos."
+        "text": "O direito ao meio ambiente equilibrado e à autodeterminação dos povos, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "Exclusivamente o direito à propriedade privada e à livre iniciativa."
+        "text": "Exclusivamente o direito à propriedade privada e à livre iniciativa, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo."
       },
       {
         "letter": "D",
@@ -736,19 +736,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas a Carta da ONU de 1945 e o Tratado de Versalhes de 1919."
+        "text": "Apenas a Carta da ONU de 1945 e o Tratado de Versalhes de 1919, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "A Convenção Americana de Direitos Humanos e a Carta Africana dos Direitos Humanos."
+        "text": "A Convenção Americana de Direitos Humanos e a Carta Africana dos Direitos Humanos, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "Exclusivamente a Convenção de Genebra de 1949 e o Estatuto de Roma de 1998."
+        "text": "Exclusivamente a Convenção de Genebra de 1949 e o Estatuto de Roma de 1998, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "A Declaração Universal dos Direitos Humanos (1948), o Pacto Internacional dos Direitos Civis e Políticos (1966, com seus Protocolos Facultativos) e o Pacto Internacional dos Direitos Econômicos, Sociais e Culturais (1966)."
+        "text": "A Declaração Universal dos Direitos Humanos (1948), o Pacto Internacional dos Direitos Civis e Políticos e o Pacto Internacional dos Direitos Econômicos, Sociais e Culturais (1966)."
       }
     ],
     "correctAnswer": "D",
@@ -791,19 +791,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É tratado internacional clássico submetido a referendo do Congresso Nacional brasileiro em 1949."
+        "text": "É tratado internacional clássico submetido a referendo do Congresso Nacional brasileiro em 1949, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "Não possui qualquer relevância jurídica atual, valendo apenas como manifesto filosófico sem aplicação judicial."
+        "text": "Não possui qualquer relevância jurídica atual, valendo apenas como manifesto filosófico sem aplicação judicial, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Foi revogada pela entrada em vigor dos Pactos de 1966."
+        "text": "Foi revogada pela entrada em vigor dos Pactos de 1966, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Embora nascida formalmente como resolução (soft law, sem formato de tratado), consolidou-se como norma de direito internacional costumeiro e interpretação autêntica da Carta da ONU, com força vinculante reconhecida inclusive como núcleo de jus cogens."
+        "text": "Embora nascida formalmente como resolução, consolidou-se como norma de direito internacional costumeiro e interpretação autêntica da Carta da ONU, com força vinculante reconhecida inclusive como núcleo de jus cogens."
       }
     ],
     "correctAnswer": "D",
@@ -846,19 +846,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todos os direitos previstos no pacto podem ser suspensos mediante decreto presidencial sem exceção."
+        "text": "Todos os direitos previstos no pacto podem ser suspensos mediante decreto presidencial sem exceção, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "Apenas o direito de propriedade e a liberdade de locomoção são inderrogáveis."
+        "text": "Apenas o direito de propriedade e a liberdade de locomoção são inderrogáveis, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "Apenas os direitos políticos eleitorais permanecem intocáveis."
+        "text": "Apenas os direitos políticos eleitorais permanecem intocáveis, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "O direito à vida, a proibição da tortura e de penas cruéis, a proibição da escravidão e da servidão, a proibição de prisão por dívida contratual, o princípio da legalidade penal (irretroatividade da lei penal mais gravosa), o reconhecimento da personalidade jurídica e a liberdade de pensamento, consciência e religião."
+        "text": "O direito à vida, a proibição da tortura e de penas cruéis, a proibição da escravidão e da servidão, a proibição de prisão por dívida contratual, o princípio da legalidade penal, o reconhecimento da personalidade jurídica e a liberdade de pensamento, consciência e religião."
       }
     ],
     "correctAnswer": "D",
@@ -901,15 +901,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Obrigação meramente facultativa, podendo o Estado reduzir livremente verbas sociais essenciais a zero."
+        "text": "Obrigação meramente facultativa, podendo o Estado reduzir livremente verbas sociais essenciais a zero, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "Exige implementação imediata e integral de todos os direitos sociais em 24 horas após a ratificação."
+        "text": "Exige implementação imediata e integral de todos os direitos sociais em 24 horas após a ratificação, com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno."
       },
       {
         "letter": "C",
-        "text": "Impede qualquer atuação de órgãos internacionais de monitoramento sobre políticas sociais."
+        "text": "Impede qualquer atuação de órgãos internacionais de monitoramento sobre políticas sociais, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
@@ -956,19 +956,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Conceder proteção exclusivamente a migrantes econômicos em tempo de paz."
+        "text": "Conceder proteção exclusivamente a migrantes econômicos em tempo de paz, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar."
       },
       {
         "letter": "B",
-        "text": "Julgar apenas delitos financeiros praticados por empresas multinacionais."
+        "text": "Julgar apenas delitos financeiros praticados por empresas multinacionais, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "C",
-        "text": "Substituir os direitos humanos em situações de normalidade democrática."
+        "text": "Substituir os direitos humanos em situações de normalidade democrática, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "Regular a condução das hostilidades e proteger as vítimas de conflitos armados internacionais ou não internacionais (combatentes feridos, prisioneiros de guerra e civis), limitando meios e métodos de combate (Direito de Genebra e Direito de Haia)."
+        "text": "Regular a condução das hostilidades e proteger as vítimas de conflitos armados internacionais ou não internacionais, limitando meios e métodos de combate."
       }
     ],
     "correctAnswer": "D",
@@ -1011,19 +1011,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Conselho de Segurança da ONU, composto por 15 membros permanentes."
+        "text": "O Conselho de Segurança da ONU, composto por 15 membros permanentes, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "A Corte Internacional de Justiça, sediada em Haia."
+        "text": "A Corte Internacional de Justiça, sediada em Haia, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "O Tribunal Penal Internacional, órgão integrante da estrutura da OEA."
+        "text": "O Tribunal Penal Internacional, órgão integrante da estrutura da oea, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "O Conselho de Direitos Humanos da ONU (CDH), órgão subsidiário da Assembleia Geral composto por 47 Estados eleitos e sediado em Genebra."
+        "text": "O Conselho de Direitos Humanos da ONU (cdh), órgão subsidiário da Assembleia Geral composto por 47 Estados eleitos e sediado em Genebra."
       }
     ],
     "correctAnswer": "D",
@@ -1066,19 +1066,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Mecanismos convencionais aplicam-se apenas a ONGs privadas, e os extraconvencionais apenas a empresas."
+        "text": "Mecanismos convencionais aplicam-se apenas a ONGs privadas, e os extraconvencionais apenas a empresas, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "Mecanismos convencionais dispensam ratificação de qualquer tratado pelo Estado."
+        "text": "Mecanismos convencionais dispensam ratificação de qualquer tratado pelo Estado, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "Mecanismos convencionais decorrem de tratados específicos ratificados pelo Estado (relatórios periódicos, comunicações interestatais e petições individuais); mecanismos extraconvencionais derivam da própria Carta da ONU (como a RPU e as Relatorias Especiais do Conselho de Direitos Humanos), aplicando-se a qualquer Estado-membro."
+        "text": "Mecanismos convencionais decorrem de tratados específicos ratificados pelo Estado; mecanismos extraconvencionais derivam da própria Carta da ONU, aplicando-se a qualquer Estado-membro."
       },
       {
         "letter": "D",
-        "text": "Mecanismos extraconvencionais proferem sentenças condenatórias penais contra Presidentes."
+        "text": "Mecanismos extraconvencionais proferem sentenças condenatórias penais contra Presidentes, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "C",
@@ -1121,19 +1121,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Brasil rejeitou ambos os protocolos porque a Constituição admite pena de morte para crimes hediondos em tempo de paz."
+        "text": "O Brasil rejeitou ambos os protocolos porque a Constituição admite pena de morte para crimes hediondos em tempo de paz. A interpretação conforme a dignidade humana prevalece na colisão aparente de normas."
       },
       {
         "letter": "B",
-        "text": "O 1º Protocolo permite apenas que Estados denunciem outros Estados, vedando petições de indivíduos."
+        "text": "O 1º Protocolo permite apenas que Estados denunciem outros Estados, vedando petições de indivíduos, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "C",
-        "text": "O Brasil aderiu ao 1º Protocolo Facultativo (que autoriza o Comitê de Direitos Humanos da ONU a receber comunicações individuais) e ao 2º Protocolo Facultativo (visando à abolição da pena de morte, com reserva para guerra declarada nos termos da CF/88)."
+        "text": "O Brasil aderiu ao 1º Protocolo Facultativo (que autoriza o Comitê de Direitos Humanos da ONU a receber comunicações individuais) e ao 2º Protocolo Facultativo."
       },
       {
         "letter": "D",
-        "text": "O 2º Protocolo trata exclusivamente de direitos trabalhistas rurais."
+        "text": "O 2º Protocolo trata exclusivamente de direitos trabalhistas rurais, com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno."
       }
     ],
     "correctAnswer": "C",
@@ -1176,19 +1176,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Substituir o Ministério Público na propositura da ação penal pública por crime de tortura."
+        "text": "Substituir o Ministério Público na propositura da ação penal pública por crime de tortura, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
-        "text": "Autorizar excepcionalmente técnicas de interrogatório intensivo em crimes de terrorismo."
+        "text": "Autorizar excepcionalmente técnicas de interrogatório intensivo em crimes de terrorismo, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "Realizar visitas regulares e de acesso irrestrito (sem aviso prévio) a espaços de privação de liberdade (presídios, socioeducativos, hospitais psiquiátricos) para prevenir a tortura e recomendar medidas às autoridades."
+        "text": "Realizar visitas regulares e de acesso irrestrito (sem aviso prévio) a espaços de privação de liberdade para prevenir a tortura e recomendar medidas às autoridades."
       },
       {
         "letter": "D",
-        "text": "Exigir autorização prévia de 30 dias do diretor do presídio para ingressar na unidade prisional."
+        "text": "Exigir autorização prévia de 30 dias do diretor do presídio para ingressar na unidade prisional, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "C",
@@ -1231,19 +1231,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "São consideradas discriminação reversa ilícita pela Convenção."
+        "text": "São consideradas discriminação reversa ilícita pela Convenção, com incompatibilidade entre restrição estatal desproporcional e controle de convencionalidade."
       },
       {
         "letter": "B",
-        "text": "Devem vigorar perpetuamente mesmo após superada a desigualdade estrutural."
+        "text": "Devem vigorar perpetuamente mesmo após superada a desigualdade estrutural, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "Não serão consideradas discriminação, devendo cessar quando alcançados os objetivos de igualdade de oportunidade e tratamento (como as cotas de gênero em candidaturas eleitorais)."
+        "text": "Não serão consideradas discriminação, devendo cessar quando alcançados os objetivos de igualdade de oportunidade e tratamento."
       },
       {
         "letter": "D",
-        "text": "Aplicam-se apenas a mulheres servidoras públicas federais."
+        "text": "Aplicam-se apenas a mulheres servidoras públicas federais, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "C",
@@ -1286,11 +1286,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Convenção de Viena sobre Relações Diplomáticas (1961)."
+        "text": "A Convenção de Viena sobre Relações Diplomáticas (1961), observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "O Tratado de Assunção (1991)."
+        "text": "O Tratado de Assunção (1991), em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
@@ -1298,7 +1298,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O Pacto Internacional de Direitos Econômicos, Sociais e Culturais (1966)."
+        "text": "O Pacto Internacional de Direitos Econômicos, Sociais e Culturais (1966), sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "C",
@@ -1341,11 +1341,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Porque agentes policiais brasileiros praticaram diretamente os disparos contra a vítima."
+        "text": "Porque agentes policiais brasileiros praticaram diretamente os disparos contra a vítima. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "Pela ausência de ratificação da Declaração Universal de 1948."
+        "text": "Pela ausência de ratificação da Declaração Universal de 1948, em observância à vedação ao retrocesso e aos tratados internacionais de proteção ratificados."
       },
       {
         "letter": "C",
@@ -1353,7 +1353,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Porque a Corte IDH aplicou pena de prisão perpétua ao então governador estadual."
+        "text": "Porque a Corte idh aplicou pena de prisão perpétua ao então governador estadual. Tal obrigação vincula os três Poderes da República no cumprimento de tratados vigentes."
       }
     ],
     "correctAnswer": "C",
@@ -1396,11 +1396,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Caso Gomes Lund vs. Brasil (2010), sobre a Guerrilha do Araguaia."
+        "text": "Caso Gomes Lund vs. Brasil (2010), sobre a Guerrilha do Araguaia, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
-        "text": "Caso Herzog vs. Brasil (2018), sobre crimes contra a humanidade."
+        "text": "Caso Herzog vs. Brasil (2018), sobre crimes contra a humanidade, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
@@ -1408,7 +1408,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Caso Escher vs. Brasil (2009), sobre interceptação telefônica ilegal."
+        "text": "Caso Escher vs. Brasil (2009), sobre interceptação telefônica ilegal, em observância à vedação ao retrocesso e aos tratados internacionais de proteção ratificados. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "C",
@@ -1452,11 +1452,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Entendeu que a escravidão só se configura se houver correntes físicas e matrícula formal de propriedade."
+        "text": "Entendeu que a escravidão só se configura se houver correntes físicas e matrícula formal de propriedade, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "Absolveu o Brasil por entender que o trabalho rural degradante é questão exclusivamente trabalhista sem violação a direitos humanos."
+        "text": "Absolveu o Brasil por entender que o trabalho rural degradante é questão exclusivamente trabalhista sem violação a direitos humanos, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
@@ -1464,7 +1464,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Fixou que o crime de redução à condição análoga à de escravo prescreve em 2 anos na esfera internacional."
+        "text": "Fixou que o crime de redução à condição análoga à de escravo prescreve em 2 anos na esfera internacional, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "C",
@@ -1508,11 +1508,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Autorização para que a própria guarnição policial envolvida no confronto conclua o inquérito por arquivamento sumário."
+        "text": "Autorização para que a própria guarnição policial envolvida no confronto conclua o inquérito por arquivamento sumário, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "Validação irrestrita do registro sumário como \"resistência seguida de morte\" sem perícia de local."
+        "text": "Validação irrestrita do registro sumário como \"resistência seguida de morte\" sem perícia de local, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
@@ -1520,7 +1520,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Impossibilidade de responsabilizar o Estado se as vítimas residirem em área de conflito armado urbano."
+        "text": "Impossibilidade de responsabilizar o Estado se as vítimas residirem em área de conflito armado urbano, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "C",
@@ -1564,19 +1564,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Reconheceu tratar-se de crime comum prescrito desde 1995."
+        "text": "Reconheceu tratar-se de crime comum prescrito desde 1995, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "Confirmou a tese da ADPF 153 para encerrar definitivamente qualquer investigação criminal."
+        "text": "Confirmou a tese da ADPF 153 para encerrar definitivamente qualquer investigação criminal, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Qualificou o fato como crime contra a humanidade (ataque generalizado e sistemático contra a população civil), reafirmando a invalidade da Lei de Anistia (Lei 6.683/1979) e a inaplicabilidade da prescrição para impedir investigação e punição dos responsáveis."
+        "text": "Qualificou o fato como crime contra a humanidade, reafirmando a invalidade da Lei de Anistia e a inaplicabilidade da prescrição para impedir investigação e punição dos responsáveis."
       },
       {
         "letter": "D",
-        "text": "Condenou apenas o pagamento de multa simbólica sem obrigação de reabrir investigações."
+        "text": "Condenou apenas o pagamento de multa simbólica sem obrigação de reabrir investigações, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "C",
@@ -1620,19 +1620,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas o direito à propriedade individual privada registrada em cartório por cada indígena isolado."
+        "text": "Apenas o direito à propriedade individual privada registrada em cartório por cada indígena isolado, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "O direito à propriedade coletiva ancestral sobre terras tradicionais (Art. 21 da CADH), condenando o Brasil pela demora excessiva (mais de 16 anos) na conclusão da demarcação, titulação e desintrusão de ocupantes não indígenas."
+        "text": "O direito à propriedade coletiva ancestral sobre terras tradicionais, condenando o Brasil pela demora excessiva (mais de 16 anos) na conclusão da demarcação, titulação e desintrusão de ocupantes não indígenas."
       },
       {
         "letter": "C",
-        "text": "O direito de exploração mineral sem consulta prévia às comunidades afetadas."
+        "text": "O direito de exploração mineral sem consulta prévia às comunidades afetadas, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "A extinção automática da posse indígena caso haja invasão prolongada de terceiros."
+        "text": "A extinção automática da posse indígena caso haja invasão prolongada de terceiros, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       }
     ],
     "correctAnswer": "B",
@@ -1676,7 +1676,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas a publicação de edital no Diário Oficial após o início das obras."
+        "text": "Apenas a publicação de edital no Diário Oficial após o início das obras, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
@@ -1684,11 +1684,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A obtenção de autorização exclusiva do prefeito municipal sem ouvir as lideranças locais."
+        "text": "A obtenção de autorização exclusiva do prefeito municipal sem ouvir as lideranças locais, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "Sua aplicação restringe-se exclusivamente a povos indígenas da Amazônia, excluindo quilombolas."
+        "text": "Sua aplicação restringe-se exclusivamente a povos indígenas da Amazônia, excluindo quilombolas, com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno."
       }
     ],
     "correctAnswer": "B",
@@ -1731,19 +1731,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Status de simples lei ordinária federal, revogável por medida provisória."
+        "text": "Status de simples lei ordinária federal, revogável por medida provisória, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "Status equivalente ao de Emenda Constitucional, por ter sido aprovada pelo quórum qualificado de 3/5 em dois turnos em ambas as Casas do Congresso Nacional (Art. 5º, § 3º, da CF)."
+        "text": "Status equivalente ao de Emenda Constitucional, por ter sido aprovada pelo quórum qualificado de 3/5 em dois turnos em ambas as Casas do Congresso Nacional."
       },
       {
         "letter": "C",
-        "text": "Status supralegal, inferior à Constituição e insuscetível de controle concentrado."
+        "text": "Status supralegal, inferior à Constituição e insuscetível de controle concentrado, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Não possui vigência no Brasil por ausência de decreto presidencial."
+        "text": "Não possui vigência no Brasil por ausência de decreto presidencial, com incompatibilidade entre restrição estatal desproporcional e controle de convencionalidade."
       }
     ],
     "correctAnswer": "B",
@@ -1786,19 +1786,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Proibir a digitalização de livros didáticos mesmo sem fins lucrativos."
+        "text": "Proibir a digitalização de livros didáticos mesmo sem fins lucrativos, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "Facilitar o acesso a obras publicadas às pessoas cegas, com deficiência visual ou com outras dificuldades para acessar texto impresso, criando limitações e exceções aos direitos autorais para produção e circulação de formatos acessíveis (braille, áudio, digital acessível)."
+        "text": "Facilitar o acesso a obras publicadas às pessoas cegas, com deficiência visual ou com outras dificuldades para acessar texto impresso, criando limitações e exceções aos direitos autorais para produção e circulação de formatos acessíveis."
       },
       {
         "letter": "C",
-        "text": "Regulamentar exclusivamente o direito autoral de obras audiovisuais cinematográficas comerciais."
+        "text": "Regulamentar exclusivamente o direito autoral de obras audiovisuais cinematográficas comerciais, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Criar tributo internacional sobre editoras de livros."
+        "text": "Criar tributo internacional sobre editoras de livros, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "B",
@@ -1845,7 +1845,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Apenas os direitos sindicais (Art. 8º, alínea \"a\" — liberdade de organizar sindicatos e filiar-se) e o direito à educação (Art. 13)."
+        "text": "Apenas os direitos sindicais e o direito à educação."
       },
       {
         "letter": "C",
@@ -1896,19 +1896,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A injúria racial prescreve em 3 anos por ser mera ofensa privada à honra subjetiva."
+        "text": "A injúria racial prescreve em 3 anos por ser mera ofensa privada à honra subjetiva, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
-        "text": "A injúria racial constitui espécie do gênero racismo, sendo imprescritível e inafiançável (Art. 5º, XLII, CF), entendimento posteriormente positivado pela Lei nº 14.532/2023 que inseriu a injúria racial na Lei nº 7.716/1989."
+        "text": "A injúria racial constitui espécie do gênero racismo, sendo imprescritível e inafiançável, entendimento posteriormente positivado pela Lei nº 14.532/2023 que inseriu a injúria racial na Lei nº 7.716/1989."
       },
       {
         "letter": "C",
-        "text": "A ação penal na injúria racial permanece exclusivamente privada, sujeita à queixa-crime em 6 meses."
+        "text": "A ação penal na injúria racial permanece exclusivamente privada, sujeita à queixa-crime em 6 meses, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "A Constituição admite fiança na injúria racial desde que recolhida em dobro."
+        "text": "A Constituição admite fiança na injúria racial desde que recolhida em dobro, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "B",
@@ -1952,7 +1952,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos possuem exatamente o mesmo grau de preferência, decidindo-se apenas pela ordem cronológica do protocolo."
+        "text": "Ambos possuem exatamente o mesmo grau de preferência, decidindo-se apenas pela ordem cronológica do protocolo, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
@@ -1960,11 +1960,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A prioridade judicial aplica-se somente a maiores de 70 anos."
+        "text": "A prioridade judicial aplica-se somente a maiores de 70 anos, com autorização de acionamento direto das cortes internacionais sem requisito prévio."
       },
       {
         "letter": "D",
-        "text": "A prioridade processual do idoso cessa automaticamente caso ele constitua advogado particular."
+        "text": "A prioridade processual do idoso cessa automaticamente caso ele constitua advogado particular, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "B",
@@ -2007,19 +2007,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Declarou inconstitucionais as cotas por violarem o princípio da igualdade formal do Art. 5º caput."
+        "text": "Declarou inconstitucionais as cotas por violarem o princípio da igualdade formal, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "O STF julgou constitucionais tanto as cotas étnico-raciais no ensino superior (ADPF 186) quanto a reserva de 20% de vagas em concursos públicos federais (ADC 41), legitimando a autodeclaração combinada com heteroidentificação complementar para evitar fraudes."
+        "text": "O STF julgou constitucionais tanto as cotas étnico-raciais no ensino superior quanto a reserva de 20% de vagas em concursos públicos federais, legitimando a autodeclaração combinada com heteroidentificação complementar para evitar fraudes."
       },
       {
         "letter": "C",
-        "text": "Admitiu cotas apenas com base em critério econômico, proibindo critérios raciais."
+        "text": "Admitiu cotas apenas com base em critério econômico, proibindo critérios raciais, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "Proibiu qualquer comissão de heteroidentificação por violar a intimidade do candidato."
+        "text": "Proibiu qualquer comissão de heteroidentificação por violar a intimidade do candidato, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "B",
@@ -2063,19 +2063,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Adaptação facultativa sujeita à exclusiva conveniência financeira do empregador privado, sem consequência jurídica."
+        "text": "Adaptação facultativa sujeita à exclusiva conveniência financeira do empregador privado, sem consequência jurídica, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "Adaptações, modificações e ajustes necessários e adequados que não acarretem ônus desproporcional e indevido, requeridos em cada caso para assegurar direitos à pessoa com deficiência; sua recusa configura discriminação em razão da deficiência (Art. 4º, § 1º, LBI)."
+        "text": "Adaptações, modificações e ajustes necessários e adequados que não acarretem ônus desproporcional e indevido, requeridos em cada caso para assegurar direitos à pessoa com deficiência."
       },
       {
         "letter": "C",
-        "text": "Exige demolição integral de qualquer edifício histórico tombado independentemente de viabilidade."
+        "text": "Exige demolição integral de qualquer edifício histórico tombado independentemente de viabilidade, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar."
       },
       {
         "letter": "D",
-        "text": "Aplica-se apenas a barreiras físicas de locomoção em escadas."
+        "text": "Aplica-se apenas a barreiras físicas de locomoção em escadas, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "B",
@@ -2118,19 +2118,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A teoria da reserva do possível absoluta, isentando o Estado de investir em presídios."
+        "text": "A teoria da reserva do possível absoluta, isentando o Estado de investir em presídios, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "O \"Estado de Coisas Inconstitucional\" (ECI), diante de violação generalizada e sistêmica de direitos fundamentais decorrente de omissão estrutural dos Poderes Públicos, exigindo planos de enfrentamento e controle judicial."
+        "text": "O \"Estado de Coisas Inconstitucional\" (eci), diante de violação generalizada e sistêmica de direitos fundamentais decorrente de omissão estrutural dos Poderes Públicos, exigindo planos de enfrentamento e controle judicial."
       },
       {
         "letter": "C",
-        "text": "A imunidade soberana do Poder Executivo para manter celas superlotadas."
+        "text": "A imunidade soberana do Poder Executivo para manter celas superlotadas, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "A privatização compulsória de todas as unidades prisionais."
+        "text": "A privatização compulsória de todas as unidades prisionais, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "B",
@@ -2178,15 +2178,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Proibição absoluta de prisão domiciliar para qualquer crime punido com reclusão."
+        "text": "Proibição absoluta de prisão domiciliar para qualquer crime punido com reclusão, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "Aplicação restrita apenas a gestantes no nono mês de gravidez."
+        "text": "Aplicação restrita apenas a gestantes no nono mês de gravidez, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "D",
-        "text": "Exigência de pagamento prévio de fiança mínima de 10 salários mínimos."
+        "text": "Exigência de pagamento prévio de fiança mínima de 10 salários mínimos, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "A",
@@ -2230,19 +2230,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sua jurisdição é complementar às jurisdições penais nacionais (só atua se o Estado for incapaz ou não quiser investigar/julgar), abrangendo crimes de genocídio, contra a humanidade, de guerra e de agressão, que são imprescritíveis."
+        "text": "Sua jurisdição é complementar às jurisdições penais nacionais, abrangendo crimes de genocídio, contra a humanidade, de guerra e de agressão, que são imprescritíveis."
       },
       {
         "letter": "B",
-        "text": "Possui primazia absoluta sobre o STF, podendo avocar qualquer processo criminal comum brasileiro."
+        "text": "Possui primazia absoluta sobre o STF, podendo avocar qualquer processo criminal comum brasileiro, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Julga tanto Estados soberanos quanto pessoas jurídicas privadas."
+        "text": "Julga tanto Estados soberanos quanto pessoas jurídicas privadas, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "Os crimes sob sua jurisdição prescrevem em 20 anos."
+        "text": "Os crimes sob sua jurisdição prescrevem em 20 anos, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "A",
@@ -2285,19 +2285,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Segundo a doutrina majoritária e o Art. 102 do Estatuto de Roma, a \"entrega\" ao TPI (tribunal internacional cuja jurisdição o Brasil reconheceu pelo Art. 5º, § 4º, CF) não se confunde com \"extradição\" (que ocorre entre Estados soberanos), sendo juridicamente compatível com a Constituição."
+        "text": "Segundo a doutrina majoritária e o Art. 102 do Estatuto de Roma, a \"entrega\" ao TPI não se confunde com \"extradição\", sendo juridicamente compatível com a Constituição."
       },
       {
         "letter": "B",
-        "text": "Sim, pois o Art. 5º, LI, proíbe qualquer envio de brasileiro nato a tribunal fora do território nacional."
+        "text": "Sim, pois o Art. 5º, li, proíbe qualquer envio de brasileiro nato a tribunal fora do território nacional. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "O TPI pode determinar diretamente a prisão perpétua sem possibilidade de revisão da pena."
+        "text": "O TPI pode determinar diretamente a prisão perpétua sem possibilidade de revisão da pena, com autorização de acionamento direto das cortes internacionais sem requisito prévio."
       },
       {
         "letter": "D",
-        "text": "A entrega ao TPI dispensa prévia ratificação do Estatuto de Roma."
+        "text": "A entrega ao TPI dispensa prévia ratificação do Estatuto de Roma, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "A",
@@ -2344,15 +2344,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Aplicar diretamente penas privativas de liberdade aos agentes acusados."
+        "text": "Aplicar diretamente penas privativas de liberdade aos agentes acusados, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "Investigar exclusivamente crimes ocorridos após a Emenda Constitucional nº 45/2004."
+        "text": "Investigar exclusivamente crimes ocorridos após a Emenda Constitucional nº 45/2004, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo."
       },
       {
         "letter": "D",
-        "text": "Substituir o Poder Judiciário na indenização civil dos perseguidos políticos."
+        "text": "Substituir o Poder Judiciário na indenização civil dos perseguidos políticos, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "A",
@@ -2395,19 +2395,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Sistema Europeu, o Protocolo nº 11 extinguiu a antiga Comissão Europeia e instituiu acesso direto dos indivíduos à Corte Europeia de Direitos Humanos (Estrasburgo), ao passo que no Sistema Interamericano o acesso direto à Corte IDH permanece restrito aos Estados e à Comissão (CIDH)."
+        "text": "No Sistema Europeu, o Protocolo nº 11 extinguiu a antiga Comissão Europeia e instituiu acesso direto dos indivíduos à Corte Europeia de Direitos Humanos (Estrasburgo), ao passo que no Sistema Interamericano o acesso direto à Corte idh permanece restrito aos Estados e à Comissão (CIDH)."
       },
       {
         "letter": "B",
-        "text": "No Sistema Interamericano qualquer vítima ajuíza petição diretamente na Corte IDH sem passar pela CIDH."
+        "text": "No Sistema Interamericano qualquer vítima ajuíza petição diretamente na Corte idh sem passar pela CIDH, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "A Carta Africana protege apenas direitos civis e políticos, omitindo deveres individuais e direitos dos povos."
+        "text": "A Carta Africana protege apenas direitos civis e políticos, omitindo deveres individuais e direitos dos povos, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "O Tribunal Europeu funciona como quarta instância revisora para anular qualquer sentença cível nacional."
+        "text": "O Tribunal Europeu funciona como quarta instância revisora para anular qualquer sentença cível nacional, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "A",
@@ -2450,19 +2450,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Comissão (CIDH) pode solicitar ao Estado a adoção de medidas cautelares em casos graves e urgentes; já a Corte IDH pode ordenar medidas provisórias vinculantes, inclusive em assuntos ainda não submetidos ao seu conhecimento, a pedido da Comissão."
+        "text": "A Comissão (CIDH) pode solicitar ao Estado a adoção de medidas cautelares em casos graves e urgentes."
       },
       {
         "letter": "B",
-        "text": "Apenas após o trânsito em julgado da sentença de mérito internacional pode ser concedida medida de urgência."
+        "text": "Apenas após o trânsito em julgado da sentença de mérito internacional pode ser concedida medida de urgência, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "A Corte IDH não pode decretar medidas provisórias em casos que ainda tramitam na Comissão."
+        "text": "A Corte idh não pode decretar medidas provisórias em casos que ainda tramitam na Comissão, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "D",
-        "text": "Medidas provisórias da Corte IDH são meras sugestões políticas sem força jurídica obrigatória."
+        "text": "Medidas provisórias da Corte idh são meras sugestões políticas sem força jurídica obrigatória, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar."
       }
     ],
     "correctAnswer": "A",
@@ -2505,19 +2505,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Estados-membros da OEA (mesmo que ainda não tenham ratificado a CADH ou aceito a jurisdição contenciosa) e os órgãos da OEA enumerados no capítulo respectivo da Carta da OEA (como a própria CIDH), sobre interpretação da Convenção ou de outros tratados de DH nos Estados americanos, ou compatibilidade de leis internas."
+        "text": "Os Estados-membros da oea e os órgãos da oea enumerados no capítulo respectivo da Carta da oea, sobre interpretação da Convenção ou de outros tratados de dh nos Estados americanos, ou compatibilidade de leis internas."
       },
       {
         "letter": "B",
-        "text": "Qualquer cidadão ou advogado particular residente nas Américas."
+        "text": "Qualquer cidadão ou advogado particular residente nas Américas, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "C",
-        "text": "Apenas os Estados que aceitaram formalmente a cláusula facultativa de jurisdição contenciosa."
+        "text": "Apenas os Estados que aceitaram formalmente a cláusula facultativa de jurisdição contenciosa, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Exclusivamente a Organização das Nações Unidas e o Conselho de Segurança."
+        "text": "Exclusivamente a Organização das Nações Unidas e o Conselho de Segurança, com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "A",
@@ -2560,19 +2560,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Estabelecem requisitos de autonomia financeira e administrativa, pluralismo na composição, mandato amplo de promoção/proteção de direitos humanos e independência frente ao governo — parâmetros que orientaram a criação do Conselho Nacional dos Direitos Humanos (CNDH - Lei nº 12.986/2014)."
+        "text": "Estabelecem requisitos de autonomia financeira e administrativa, pluralismo na composição, mandato amplo de promoção/proteção de direitos humanos e independência frente ao governo."
       },
       {
         "letter": "B",
-        "text": "Determinam que as instituições de direitos humanos sejam subordinadas diretamente às forças armadas nacionais."
+        "text": "Determinam que as instituições de direitos humanos sejam subordinadas diretamente às forças armadas nacionais, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "Tratam exclusivamente de regras urbanísticas da capital francesa."
+        "text": "Tratam exclusivamente de regras urbanísticas da capital francesa, com autorização de acionamento direto das cortes internacionais sem requisito prévio. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Proíbem participação da sociedade civil em conselhos nacionais de direitos humanos."
+        "text": "Proíbem participação da sociedade civil em conselhos nacionais de direitos humanos, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "A",
@@ -2615,19 +2615,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O STF julgou constitucional a LBI, assentando que as instituições privadas de ensino são obrigadas a oferecer atendimento educacional inclusivo e recursos de acessibilidade, sendo expressamente vedada a cobrança de valores adicionais de qualquer natureza nas mensalidades, anuidades ou matrículas."
+        "text": "O STF julgou constitucional a lbi, assentando que as instituições privadas de ensino são obrigadas a oferecer atendimento educacional inclusivo e recursos de acessibilidade, sendo expressamente vedada a cobrança de valores adicionais de qualquer natureza nas mensalidades, anuidades ou matrículas."
       },
       {
         "letter": "B",
-        "text": "Permitiu a cobrança de taxa extra de 30% na mensalidade para custear o mediador escolar."
+        "text": "Permitiu a cobrança de taxa extra de 30% na mensalidade para custear o mediador escolar, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "Autorizou escolas particulares a recusarem alunos com deficiência mediante devolução da matrícula."
+        "text": "Autorizou escolas particulares a recusarem alunos com deficiência mediante devolução da matrícula, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "Restringiu a educação inclusiva exclusivamente às escolas públicas municipais."
+        "text": "Restringiu a educação inclusiva exclusivamente às escolas públicas municipais, com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "A",
@@ -2671,19 +2671,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Foi a primeira decisão de órgão do sistema global da ONU responsabilizando um Estado por morte materna evitável, reconhecendo a discriminação interseccional (gênero, raça e condição socioeconômica) e o dever estatal de assegurar saúde materna adequada mesmo em rede privada conveniada."
+        "text": "Foi a primeira decisão de órgão do sistema global da ONU responsabilizando um Estado por morte materna evitável, reconhecendo a discriminação interseccional e o dever estatal de assegurar saúde materna adequada mesmo em rede privada conveniada."
       },
       {
         "letter": "B",
-        "text": "Versou sobre liberdade de imprensa de jornalistas estrangeiros no Brasil."
+        "text": "Versou sobre liberdade de imprensa de jornalistas estrangeiros no Brasil, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Absolveu o Brasil sob o argumento de que clínicas privadas conveniadas não geram responsabilidade estatal."
+        "text": "Absolveu o Brasil sob o argumento de que clínicas privadas conveniadas não geram responsabilidade estatal, com impedimento à aplicação de sanções ou medidas contrárias à dignidade da pessoa humana. Tal obrigação vincula os três Poderes da República no cumprimento de tratados vigentes."
       },
       {
         "letter": "D",
-        "text": "Foi julgado pela Corte Internacional de Justiça mediante pedido da vítima."
+        "text": "Foi julgado pela Corte Internacional de Justiça mediante pedido da vítima, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       }
     ],
     "correctAnswer": "A",
@@ -2726,19 +2726,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Princípios de Yogyakarta são tratado vinculante da OEA sobre refugiados climáticos."
+        "text": "Os Princípios de Yogyakarta são tratado vinculante da oea sobre refugiados climáticos, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "O STF exigiu prévia cirurgia de transgenitalização e laudo médico para alteração de prenome e gênero no registro civil."
+        "text": "O STF exigiu prévia cirurgia de transgenitalização e laudo médico para alteração de prenome e gênero no registro civil, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "C",
-        "text": "Na ADO 26, o STF declarou impossível punir a homofobia até que o Congresso edite lei específica."
+        "text": "Na ADO 26, o STF declarou impossível punir a homofobia até que o Congresso edite lei específica, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Os Princípios de Yogyakarta sistematizam a aplicação da legislação internacional de direitos humanos em relação à orientação sexual e identidade de gênero; no Brasil, o STF reconheceu a união homoafetiva (ADPF 132), o direito de retificação de prenome e sexo sem cirurgia (ADI 4.275) e equiparou a homotransfobia ao racismo (ADO 26)."
+        "text": "Os Princípios de Yogyakarta sistematizam a aplicação da legislação internacional de direitos humanos em relação à orientação sexual e identidade de gênero."
       }
     ],
     "correctAnswer": "D",
@@ -2782,19 +2782,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, bastando autorização verbal do cônjuge ou do diretor clínico do hospital público."
+        "text": "Sim, bastando autorização verbal do cônjuge ou do diretor clínico do hospital público, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "Sim, sempre que o médico entender que a mulher não possui renda suficiente."
+        "text": "Sim, sempre que o médico entender que a mulher não possui renda suficiente, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "É lícita se houver determinação administrativa da Secretaria Estadual de Saúde."
+        "text": "É lícita se houver determinação administrativa da Secretaria Estadual de Saúde, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Não. A esterilização forçada ou sem consentimento livre e esclarecido viola gravemente a integridade física, a autonomia reprodutiva e a proibição de tratamento desumano ou degradante (Art. 23 da Convenção PcD e Art. 6º, IV, da LBI)."
+        "text": "Não, a esterilização forçada ou sem consentimento livre e esclarecido viola gravemente a integridade física, a autonomia reprodutiva e a proibição de tratamento desumano ou degradante."
       }
     ],
     "correctAnswer": "D",
@@ -2837,19 +2837,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Comissão Interamericana de Direitos Humanos (CIDH), cujos relatórios valem como título executivo judicial imediato."
+        "text": "A Comissão Interamericana de Direitos Humanos (CIDH), cujos relatórios valem como título executivo judicial imediato, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "O Conselho Permanente da OEA, mediante votação por maioria simples."
+        "text": "O Conselho Permanente da oea, mediante votação por maioria simples, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "O Comitê de Direitos Humanos da ONU (PIDCP)."
+        "text": "O Comitê de Direitos Humanos da ONU (PIDCP), com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Exclusivamente a Corte Interamericana de Direitos Humanos (Corte IDH), em face dos Estados que reconheceram sua jurisdição contenciosa (Art. 62 e Art. 68 da CADH)."
+        "text": "Exclusivamente a Corte Interamericana de Direitos Humanos (Corte idh), em face dos Estados que reconheceram sua jurisdição contenciosa."
       }
     ],
     "correctAnswer": "D",
@@ -2892,15 +2892,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Declarou inconstitucional o Pacto de São José por violar o Art. 5º, LXVII, da CF."
+        "text": "Declarou inconstitucional o Pacto de São José por violar o Art. 5º, LXVII, da CF. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "Manteve a prisão civil apenas para o depositário judicial de bens penhorados."
+        "text": "Manteve a prisão civil apenas para o depositário judicial de bens penhorados, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "Estendeu a ilicitude também à prisão do devedor de alimentos."
+        "text": "Estendeu a ilicitude também à prisão do devedor de alimentos, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
@@ -2948,19 +2948,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Decorre exclusivamente de portaria do Ministério da Justiça, com prazo facultativo de 15 dias."
+        "text": "Decorre exclusivamente de portaria do Ministério da Justiça, com prazo facultativo de 15 dias, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar."
       },
       {
         "letter": "B",
-        "text": "Aplica-se apenas a prisões preventivas, sendo dispensada nas prisões em flagrante."
+        "text": "Aplica-se apenas a prisões preventivas, sendo dispensada nas prisões em flagrante, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "C",
-        "text": "Pode ser substituída definitivamente por comunicação escrita enviada pelo delegado em 5 dias."
+        "text": "Pode ser substituída definitivamente por comunicação escrita enviada pelo delegado em 5 dias, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Decorre do Art. 7º, item 5, da Convenção Americana (Pacto de São José) e do Art. 9º, item 3, do PIDCP, sendo implementada no Brasil pela Resolução CNJ nº 213/2015, pela ADPF 347/STF e pelo Art. 310 do CPP no prazo máximo de 24 horas após a realização da prisão."
+        "text": "Decorre, item 5, da Convenção Americana (Pacto de São José) e, item 3, do PIDCP, sendo implementada no Brasil pela Resolução CNJ nº 213/2015, pela ADPF 347/STF e no prazo máximo de 24 horas após a realização da prisão."
       }
     ],
     "correctAnswer": "D",
@@ -3004,19 +3004,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Determina a deportação imediata do apátrida ao último aeroporto de embarque."
+        "text": "Determina a deportação imediata do apátrida ao último aeroporto de embarque, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "Impede qualquer acesso ao mercado de trabalho até completar 15 anos de residência."
+        "text": "Impede qualquer acesso ao mercado de trabalho até completar 15 anos de residência, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "Proíbe a naturalização de apátridas no Brasil."
+        "text": "Proíbe a naturalização de apátridas no Brasil, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "Assegura procedimento especial de proteção e, após o reconhecimento da condição de apátrida, permite a naturalização facilitada (redução de prazos e dispensa de exigências burocráticas excessivas), além de garantir o princípio da não devolução."
+        "text": "Assegura procedimento especial de proteção e, após o reconhecimento da condição de apátrida, permite a naturalização facilitada, além de garantir o princípio da não devolução."
       }
     ],
     "correctAnswer": "D",
@@ -3059,19 +3059,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A supremacia absoluta dos direitos civis e políticos sobre os direitos econômicos e sociais."
+        "text": "A supremacia absoluta dos direitos civis e políticos sobre os direitos econômicos e sociais, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "O relativismo cultural absoluto que autoriza violar direitos humanos com base em costumes locais."
+        "text": "O relativismo cultural absoluto que autoriza violar direitos humanos com base em costumes locais, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "A restrição da proteção internacional apenas a países ocidentais."
+        "text": "A restrição da proteção internacional apenas a países ocidentais, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Todos os direitos humanos são universais, indivisíveis, interdependentes e inter-relacionados, devendo ser tratados pela comunidade internacional de forma justa e equitativa, com a mesma ênfase (superando a dicotomia entre direitos civis/políticos e sociais/econômicos)."
+        "text": "Todos os direitos humanos são universais, indivisíveis, interdependentes e inter-relacionados, devendo ser tratados pela comunidade internacional de forma justa e equitativa, com a mesma ênfase."
       }
     ],
     "correctAnswer": "D",
@@ -3114,19 +3114,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O crime de racismo aplica-se apenas a discriminação contra raças biologicamente distintas, absolvendo o réu."
+        "text": "O crime de racismo aplica-se apenas a discriminação contra raças biologicamente distintas, absolvendo o réu, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
-        "text": "A liberdade de expressão protege integralmente publicações editoriais mesmo que incitem ódio racial."
+        "text": "A liberdade de expressão protege integralmente publicações editoriais mesmo que incitem ódio racial, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "C",
-        "text": "O crime foi declarado prescrito por ter ocorrido por meio de livro impresso."
+        "text": "O crime foi declarado prescrito por ter ocorrido por meio de livro impresso, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "A liberdade de expressão não é absoluta e não acoberta o discurso de ódio nem manifestações racistas (antissemitismo configura racismo — conceito jurídico-político e social, não biológico!), mantendo-se a imprescritibilidade do delito."
+        "text": "A liberdade de expressão não é absoluta e não acoberta o discurso de ódio nem manifestações racistas, mantendo-se a imprescritibilidade do delito."
       }
     ],
     "correctAnswer": "D",
@@ -3170,19 +3170,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo fechamento de emissoras de rádio comunitária na Região Norte."
+        "text": "Pelo fechamento de emissoras de rádio comunitária na Região Norte, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "Por prisão perpétua aplicada pelo Tribunal do Júri estadual."
+        "text": "Por prisão perpétua aplicada pelo Tribunal do Júri estadual, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Pela recusa em demarcar reservas indígenas no Nordeste."
+        "text": "Pela recusa em demarcar reservas indígenas no Nordeste, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Pela interceptação telefônica ilegal de membros de organizações sociais ligadas a trabalhadores rurais (MST) no Paraná e pela divulgação indevida dos áudios à imprensa por agentes públicos, violando privacidade, honra, liberdade de associação e garantias judiciais."
+        "text": "Pela interceptação telefônica ilegal de membros de organizações sociais ligadas a trabalhadores rurais (mst) no Paraná e pela divulgação indevida dos áudios à imprensa por agentes públicos, violando privacidade, honra, liberdade de associação e garantias judiciais."
       }
     ],
     "correctAnswer": "D",
@@ -3226,19 +3226,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A isenção estatal absoluta por se tratar de empresa privada sem vínculo com o poder público."
+        "text": "A isenção estatal absoluta por se tratar de empresa privada sem vínculo com o poder público, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "A limitação do dever estatal apenas à esfera trabalhista interna sem repercussão em direitos humanos."
+        "text": "A limitação do dever estatal apenas à esfera trabalhista interna sem repercussão em direitos humanos, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "A impossibilidade de aplicar o Art. 26 da CADH (direitos econômicos e sociais) no sistema interamericano."
+        "text": "A impossibilidade de aplicar o Art. 26 da CADH (direitos econômicos e sociais) no sistema interamericano, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "A responsabilidade internacional do Estado pela omissão no dever de fiscalizar, regular e prevenir acidentes em atividade privada extremamente perigosa (produção de fogos de artifício com trabalho infantil e precário), agravada pela discriminação interseccional contra mulheres negras em situação de pobreza."
+        "text": "A responsabilidade internacional do Estado pela omissão no dever de fiscalizar, regular e prevenir acidentes em atividade privada extremamente perigosa, agravada pela discriminação interseccional contra mulheres negras em situação de pobreza."
       }
     ],
     "correctAnswer": "D",
@@ -3282,19 +3282,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A garantia constitucional do tribunal do júri popular."
+        "text": "A garantia constitucional do tribunal do júri popular, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "O princípio da irretroatividade da lei penal benéfica."
+        "text": "O princípio da irretroatividade da lei penal benéfica, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "A antiga regra da imunidade parlamentar formal (licença prévia da Casa Legislativa para processar criminalmente deputado estadual antes da EC nº 35/2001), que permitiu impunidade prolongada e violou o dever de devida diligência na violência contra a mulher."
+        "text": "A antiga regra da imunidade parlamentar formal, que permitiu impunidade prolongada e violou o dever de devida diligência na violência contra a mulher."
       },
       {
         "letter": "D",
-        "text": "A impossibilidade de recurso especial ao STJ em matéria criminal."
+        "text": "A impossibilidade de recurso especial ao STJ em matéria criminal, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "C",
@@ -3338,19 +3338,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Protocolo de Istambul regula emissões de carbono e o de Minnesota regula comércio exterior."
+        "text": "O Protocolo de Istambul regula emissões de carbono e o de Minnesota regula comércio exterior, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "Ambos aplicam-se exclusivamente a crimes financeiros transnacionais."
+        "text": "Ambos aplicam-se exclusivamente a crimes financeiros transnacionais, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "O Protocolo de Istambul estabelece diretrizes para investigação e documentação eficazes de tortura e outros tratamentos cruéis; o Protocolo de Minnesota orienta a investigação de mortes potencialmente ilícitas (execuções extrajudiciais, sumárias ou arbitrárias)."
+        "text": "O Protocolo de Istambul estabelece diretrizes para investigação e documentação eficazes de tortura e outros tratamentos cruéis; o Protocolo de Minnesota orienta a investigação de mortes potencialmente ilícitas."
       },
       {
         "letter": "D",
-        "text": "Substituem o Código de Processo Penal brasileiro revogando a cadeia de custódia."
+        "text": "Substituem o Código de Processo Penal brasileiro revogando a cadeia de custódia, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "C",
@@ -3393,19 +3393,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Transfere integralmente às empresas privadas o poder de polícia penal do Estado."
+        "text": "Transfere integralmente às empresas privadas o poder de polícia penal do Estado, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
-        "text": "Isenta empresas transnacionais de responsabilidade caso atuem por meio de subsidiárias locais."
+        "text": "Isenta empresas transnacionais de responsabilidade caso atuem por meio de subsidiárias locais, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Três pilares complementares: (1) dever do Estado de PROTEGER contra abusos de direitos humanos cometidos por terceiros, inclusive empresas; (2) responsabilidade das empresas de RESPEITAR os direitos humanos com devida diligência (due diligence); e (3) acesso efetivo das vítimas a mecanismos de REPARAÇÃO."
+        "text": "Três pilares complementares: dever do Estado de proteger contra abusos de direitos humanos cometidos por terceiros, inclusive empresas."
       },
       {
         "letter": "D",
-        "text": "Substitui todas as leis trabalhistas nacionais por códigos voluntários sem reparação."
+        "text": "Substitui todas as leis trabalhistas nacionais por códigos voluntários sem reparação, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "C",
@@ -3448,11 +3448,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Reconheceu o direito ao esquecimento absoluto para apagar qualquer notícia policial após 5 anos."
+        "text": "Reconheceu o direito ao esquecimento absoluto para apagar qualquer notícia policial após 5 anos, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "Autorizou censura prévia a documentários criminais sempre que a família da vítima discordar."
+        "text": "Autorizou censura prévia a documentários criminais sempre que a família da vítima discordar, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
@@ -3460,7 +3460,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Limitou a liberdade de imprensa exclusivamente a fatos ocorridos nos últimos 12 meses."
+        "text": "Limitou a liberdade de imprensa exclusivamente a fatos ocorridos nos últimos 12 meses, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       }
     ],
     "correctAnswer": "C",
@@ -3504,11 +3504,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A configuração de trabalho análogo ao de escravo exige obrigatoriamente cárcere privado com cadeados e violência física."
+        "text": "A configuração de trabalho análogo ao de escravo exige obrigatoriamente cárcere privado com cadeados e violência física, com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno."
       },
       {
         "letter": "B",
-        "text": "O STF julgou inconstitucional a \"Lista Suja\" por violar a honra empresarial."
+        "text": "O STF julgou inconstitucional a \"Lista Suja\" por violar a honra empresarial, com incompatibilidade entre restrição estatal desproporcional e controle de convencionalidade."
       },
       {
         "letter": "C",
@@ -3516,7 +3516,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A competência penal para julgar redução à condição análoga à de escravo é da Justiça Estadual."
+        "text": "A competência penal para julgar redução à condição análoga à de escravo é da Justiça Estadual, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "C",
@@ -3560,19 +3560,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, se adolescente de 16 anos consentir em viajar para exploração sexual ou remoção de órgãos, o fato é atípico."
+        "text": "Sim, se adolescente de 16 anos consentir em viajar para exploração sexual ou remoção de órgãos, o fato é atípico. A interpretação conforme a dignidade humana prevalece na colisão aparente de normas."
       },
       {
         "letter": "B",
-        "text": "O crime de tráfico de pessoas exige obrigatoriamente a travessia de fronteira internacional."
+        "text": "O crime de tráfico de pessoas exige obrigatoriamente a travessia de fronteira internacional, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Tal obrigação vincula os três Poderes da República no cumprimento de tratados vigentes."
       },
       {
         "letter": "C",
-        "text": "Não! Conforme o Protocolo de Palermo e o Art. 149-A, § 1º, II, do CP, tratando-se de criança ou adolescente (e também para adultos quando usados meios fraudulentos/coativos), o consentimento da vítima não afasta o crime nem exige emprego de grave ameaça ou fraude quando a vítima for menor de 18 anos."
+        "text": "Não, conforme o Protocolo de Palermo e o Art. 149-A, § 1º, II, do CP, tratando-se de criança ou adolescente, o consentimento da vítima não afasta o crime nem exige emprego de grave ameaça ou fraude quando a vítima for menor de 18 anos."
       },
       {
         "letter": "D",
-        "text": "A Lei 13.344/2016 limita o tráfico de pessoas apenas à exploração sexual de mulheres."
+        "text": "A Lei 13.344/2016 limita o tráfico de pessoas apenas à exploração sexual de mulheres, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       }
     ],
     "correctAnswer": "C",
@@ -3615,19 +3615,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A criação de abrigos públicos gratuitos com vagas noturnas."
+        "text": "A criação de abrigos públicos gratuitos com vagas noturnas, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "A busca ativa realizada por equipes de assistência social para oferecer acolhimento voluntário."
+        "text": "A busca ativa realizada por equipes de assistência social para oferecer acolhimento voluntário, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "A remoção e o transporte compulsório de pessoas em situação de rua, bem como o recolhimento forçado de bens e pertences pessoais e o emprego de arquitetura hostil (como espetos, pedras pontiagudas ou barreiras físicas que impeçam permanência em espaços públicos)."
+        "text": "A remoção e o transporte compulsório de pessoas em situação de rua, bem como o recolhimento forçado de bens e pertences pessoais e o emprego de arquitetura hostil."
       },
       {
         "letter": "D",
-        "text": "O cadastramento de pessoas em situação de rua em programas de transferência de renda."
+        "text": "O cadastramento de pessoas em situação de rua em programas de transferência de renda, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "C",
@@ -3671,19 +3671,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A internação involuntária depende exclusivamente da vontade da polícia militar sem laudo médico."
+        "text": "A internação involuntária depende exclusivamente da vontade da polícia militar sem laudo médico, com autorização de acionamento direto das cortes internacionais sem requisito prévio."
       },
       {
         "letter": "B",
-        "text": "São admitidos hospitais com características asilares perpétuas sem acompanhamento familiar."
+        "text": "São admitidos hospitais com características asilares perpétuas sem acompanhamento familiar, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "Internação voluntária (com consentimento do usuário), involuntária (a pedido de terceiro sem consentimento do usuário) e compulsória (determinada pela Justiça). A internação involuntária deve ser comunicada ao Ministério Público Estadual em até 72 horas, prazo aplicável também na alta."
+        "text": "Internação voluntária, involuntária e compulsória. A internação involuntária deve ser comunicada ao Ministério Público Estadual em até 72 horas, prazo aplicável também na alta."
       },
       {
         "letter": "D",
-        "text": "A internação compulsória é decidida pelo secretário municipal de saúde sem intervenção judicial."
+        "text": "A internação compulsória é decidida pelo secretário municipal de saúde sem intervenção judicial, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "C",
@@ -3726,11 +3726,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A execução imediata de despejo noturno sem prévia oitiva das famílias ou órgãos de proteção."
+        "text": "A execução imediata de despejo noturno sem prévia oitiva das famílias ou órgãos de proteção, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "A anistia automática do proprietário de toda cobrança tributária indefinidamente."
+        "text": "A anistia automática do proprietário de toda cobrança tributária indefinidamente, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
@@ -3738,7 +3738,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A proibição definitiva de qualquer ação possessória no Poder Judiciário."
+        "text": "A proibição definitiva de qualquer ação possessória no Poder Judiciário, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "C",
@@ -3782,11 +3782,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Proibiu qualquer abate ritual religioso no território nacional por equiparar à rinha de animais."
+        "text": "Proibiu qualquer abate ritual religioso no território nacional por equiparar à rinha de animais, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "Restringiu a permissão apenas a templos católicos e protestantes."
+        "text": "Restringiu a permissão apenas a templos católicos e protestantes, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
@@ -3794,7 +3794,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Exigiu autorização individual da Polícia Federal para cada culto realizado."
+        "text": "Exigiu autorização individual da Polícia Federal para cada culto realizado, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "C",
@@ -3838,19 +3838,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Foi rebaixada a direito administrativo disponível sujeito a decreto municipal."
+        "text": "Foi rebaixada a direito administrativo disponível sujeito a decreto municipal, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "Foi elevada expressamente à condição de direito e garantia fundamental autônoma no Art. 5º, LXXIX, inclusive nos meios digitais, com competência privativa da União para legislar sobre proteção e tratamento de dados pessoais."
+        "text": "Foi elevada expressamente à condição de direito e garantia fundamental autônoma, inclusive nos meios digitais, com competência privativa da União para legislar sobre proteção e tratamento de dados pessoais."
       },
       {
         "letter": "C",
-        "text": "Aplica-se apenas a dados bancários de pessoas jurídicas, excluindo pessoas naturais."
+        "text": "Aplica-se apenas a dados bancários de pessoas jurídicas, excluindo pessoas naturais, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "Permite ao Executivo compartilhar irrestritamente todos os dados sigilosos sem finalidade pública ou proteção."
+        "text": "Permite ao Executivo compartilhar irrestritamente todos os dados sigilosos sem finalidade pública ou proteção, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "B",
@@ -3894,19 +3894,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Proteger exclusivamente membros vitalícios da magistratura e do Ministério Público."
+        "text": "Proteger exclusivamente membros vitalícios da magistratura e do Ministério Público, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo."
       },
       {
         "letter": "B",
-        "text": "Articular medidas de proteção policial e institucional a pessoas físicas ou jurídicas ameaçadas em razão da atuação legítima na defesa dos direitos humanos, comunicadores sociais ou ambientalistas — independentemente de formação acadêmica em Direito ou vínculo formal com o Estado."
+        "text": "Articular medidas de proteção policial e institucional a pessoas físicas ou jurídicas ameaçadas em razão da atuação legítima na defesa dos direitos humanos, comunicadores sociais ou ambientalistas."
       },
       {
         "letter": "C",
-        "text": "Exigir que o defensor seja inscrito nos quadros da OAB há pelo menos 10 anos."
+        "text": "Exigir que o defensor seja inscrito nos quadros da OAB há pelo menos 10 anos, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Substituir a ação penal contra os autores das ameaças."
+        "text": "Substituir a ação penal contra os autores das ameaças, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "B",
@@ -3949,19 +3949,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas o sequestro comum praticado por particular sem qualquer participação ou ciência estatal para pedido de resgate."
+        "text": "Apenas o sequestro comum praticado por particular sem qualquer participação ou ciência estatal para pedido de resgate, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "A prisão, detenção, sequestro ou qualquer outra forma de privação de liberdade praticada por agentes do Estado (ou com sua autorização, apoio ou aquiescência), seguida da recusa em reconhecer a privação de liberdade ou do ocultamento do destino ou paradeiro da pessoa, subtraindo-a à proteção da lei."
+        "text": "A prisão, detenção, sequestro ou qualquer outra forma de privação de liberdade praticada por agentes do Estado, seguida da recusa em reconhecer a privação de liberdade ou do ocultamento do destino ou paradeiro da pessoa, subtraindo-a à proteção da lei."
       },
       {
         "letter": "C",
-        "text": "O desaparecimento voluntário de adulto maior de idade sem comunicação familiar."
+        "text": "O desaparecimento voluntário de adulto maior de idade sem comunicação familiar, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "Crime instantâneo que prescreve em 2 anos a partir do momento da prisão."
+        "text": "Crime instantâneo que prescreve em 2 anos a partir do momento da prisão, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "B",
@@ -4004,19 +4004,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A gratuidade constitucional no transporte coletivo urbano inicia-se aos 55 anos."
+        "text": "A gratuidade constitucional no transporte coletivo urbano inicia-se aos 55 anos, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "Para gratuidade nos transportes coletivos públicos urbanos/semiurbanos (Art. 230, § 2º, CF e Art. 39 do Estatuto) e para o BPC/LOAS ao idoso miserável (Art. 34 do Estatuto c/c Art. 20 da LOAS): 65 (sessenta e cinco) anos de idade! A partir dos 60 anos aplicam-se as demais proteções do Estatuto (como prioridade em atendimento, saúde e processos, e reserva no transporte interestadual)."
+        "text": "Para gratuidade nos transportes coletivos públicos urbanos/semiurbanos e para o BPC/LOAS ao idoso miserável: 65 (sessenta e cinco) anos de idade."
       },
       {
         "letter": "C",
-        "text": "O BPC/LOAS exige 70 anos de idade e pelo menos 15 anos de contribuição ao INSS."
+        "text": "O BPC/LOAS exige 70 anos de idade e pelo menos 15 anos de contribuição ao INSS, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "O Estatuto da Pessoa Idosa só protege quem tiver mais de 65 anos em todas as suas regras."
+        "text": "O Estatuto da Pessoa Idosa só protege quem tiver mais de 65 anos em todas as suas regras, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "B",
@@ -4059,7 +4059,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas agressão física praticada dentro de seção eleitoral no dia da votação."
+        "text": "Apenas agressão física praticada dentro de seção eleitoral no dia da votação, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
@@ -4067,11 +4067,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Crítica política respeitosa sobre projetos de lei apresentados por parlamentar mulher."
+        "text": "Crítica política respeitosa sobre projetos de lei apresentados por parlamentar mulher, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Aplica-se exclusivamente a mulheres candidatas à Presidência da República."
+        "text": "Aplica-se exclusivamente a mulheres candidatas à Presidência da República, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       }
     ],
     "correctAnswer": "B",
@@ -4114,19 +4114,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Secretariado-Geral, por decreto unilateral do Secretário-Geral."
+        "text": "O Secretariado-Geral, por decreto unilateral do Secretário-Geral, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
-        "text": "O Conselho Econômico e Social (ECOSOC), conforme o Art. 68 da Carta da ONU (que originalmente criou a antiga Comissão de Direitos Humanos em 1946, substituída em 2006 pelo Conselho de Direitos Humanos vinculado à Assembleia Geral)."
+        "text": "O Conselho Econômico e Social (ecosoc) da Carta da ONU (que originalmente criou a antiga Comissão de Direitos Humanos em 1946, substituída em 2006 pelo Conselho de Direitos Humanos vinculado à Assembleia Geral)."
       },
       {
         "letter": "C",
-        "text": "A Corte Internacional de Justiça."
+        "text": "A Corte Internacional de Justiça, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "O Conselho de Tutela em caráter permanente."
+        "text": "O Conselho de Tutela em caráter permanente, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "B",
@@ -4169,7 +4169,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Confirmou o marco temporal de 5 de outubro de 1988 como requisito absoluto para qualquer demarcação indígena."
+        "text": "Confirmou o marco temporal de 5 de outubro de 1988 como requisito absoluto para qualquer demarcação indígena, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
@@ -4177,11 +4177,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Declarou que todas as terras indígenas pertencem privativamente aos municípios."
+        "text": "Declarou que todas as terras indígenas pertencem privativamente aos municípios, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Autorizou a venda livre de terras indígenas demarcadas por seus ocupantes."
+        "text": "Autorizou a venda livre de terras indígenas demarcadas por seus ocupantes, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "B",
@@ -4225,19 +4225,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Anula automaticamente qualquer condenação criminal proferida pelo STF em ação penal originária."
+        "text": "Anula automaticamente qualquer condenação criminal proferida pelo STF em ação penal originária, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "O STF reconhece o direito ao duplo grau como garantia convencional relevante (e a Corte IDH reforçou-o no Caso Mohamed vs. Argentina), mas entende que nos processos penais de competência originária dos tribunais superiores (como STF por prerrogativa de função) não há violação constitucional absoluta pela ausência de duplo grau recursal ordinário."
+        "text": "O STF reconhece o direito ao duplo grau como garantia convencional relevante, mas entende que nos processos penais de competência originária dos tribunais superiores não há violação constitucional absoluta pela ausência de duplo grau recursal ordinário."
       },
       {
         "letter": "C",
-        "text": "O Pacto de São José garante duplo grau apenas para ações cíveis tributárias."
+        "text": "O Pacto de São José garante duplo grau apenas para ações cíveis tributárias, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Proíbe a interposição de apelação pelo réu condenado no Tribunal do Júri."
+        "text": "Proíbe a interposição de apelação pelo réu condenado no Tribunal do Júri, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "B",
@@ -4280,19 +4280,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A redução da maioridade penal internacional para 10 anos de idade."
+        "text": "A redução da maioridade penal internacional para 10 anos de idade, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "A substituição da antiga \"doutrina da situação irregular\" (que tratava o menor como objeto de tutela repressiva) pela \"doutrina da proteção integral\", reconhecendo crianças e adolescentes como sujeitos de direitos com prioridade absoluta e respeito ao melhor interesse."
+        "text": "A substituição da antiga \"doutrina da situação irregular\" pela \"doutrina da proteção integral\", reconhecendo crianças e adolescentes como sujeitos de direitos com prioridade absoluta e respeito ao melhor interesse."
       },
       {
         "letter": "C",
-        "text": "A restrição de direitos humanos apenas a menores em situação de abandono material."
+        "text": "A restrição de direitos humanos apenas a menores em situação de abandono material, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "A permissão do trabalho infantil pleno a partir dos 10 anos para complementar a renda."
+        "text": "A permissão do trabalho infantil pleno a partir dos 10 anos para complementar a renda, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "B",
@@ -4335,19 +4335,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A declaração de que o Brasil deveria pagar apenas um pedido formal de desculpas sem obrigação investigativa."
+        "text": "A declaração de que o Brasil deveria pagar apenas um pedido formal de desculpas sem obrigação investigativa, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "O reconhecimento de que as disposições da Lei de Anistia (Lei nº 6.683/1979) que impedem a investigação e punição de graves violações de direitos humanos (desaparecimento forçado, tortura e execuções sumárias) são manifestamente incompatíveis com a Convenção Americana, carecendo de efeitos jurídicos e obrigando o Brasil a investigar, localizar restos mortais e punir responsáveis."
+        "text": "O reconhecimento de que as disposições da Lei de Anistia que impedem a investigação e punição de graves violações de direitos humanos são manifestamente incompatíveis com a Convenção Americana, carecendo de efeitos jurídicos e obrigando o Brasil a investigar, localizar restos mortais e punir responsáveis."
       },
       {
         "letter": "C",
-        "text": "A anulação da Constituição Federal de 1988 pela Corte IDH."
+        "text": "A anulação da Constituição Federal de 1988 pela Corte idh, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "A transferência da sede do STF para Brasília."
+        "text": "A transferência da sede do STF para Brasília, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "B",
@@ -4391,19 +4391,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A liberdade de reunião tem caráter episódico/transitório, devendo ser pacífica e sem armas (dispensando autorização prévia, bastando prévio aviso segundo a CF — flexibilizado pelo STF na ADI 1.969); já a associação pressupõe vínculo estável e duradouro com fins lícitos, vedada a de caráter paramilitar."
+        "text": "A liberdade de reunião tem caráter episódico/transitório, devendo ser pacífica e sem armas; já a associação pressupõe vínculo estável e duradouro com fins lícitos, vedada a de caráter paramilitar."
       },
       {
         "letter": "B",
-        "text": "Reuniões públicas pacíficas dependem de alvará discricionário prévio do governador estadual."
+        "text": "Reuniões públicas pacíficas dependem de alvará discricionário prévio do governador estadual, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "A associação sindical é compulsória para todo trabalhador brasileiro."
+        "text": "A associação sindical é compulsória para todo trabalhador brasileiro, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Associações civis podem ser dissolvidas compulsoriamente por decreto administrativo do prefeito."
+        "text": "Associações civis podem ser dissolvidas compulsoriamente por decreto administrativo do prefeito, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo."
       }
     ],
     "correctAnswer": "A",
@@ -4447,19 +4447,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Descriminalizou o porte de maconha para uso pessoal (mantendo a ilicitude administrativa/extrapenal sem repercussão penal nem registro de antecedentes criminais), fixando o critério quantitativo referencial de até 40 gramas ou 6 plantas fêmeas para presumir usuário até que o Legislativo disponha diversamente."
+        "text": "Descriminalizou o porte de maconha para uso pessoal, fixando o critério quantitativo referencial de até 40 gramas ou 6 plantas fêmeas para presumir usuário até que o Legislativo disponha diversamente."
       },
       {
         "letter": "B",
-        "text": "Legalizou integralmente o comércio e tráfico de maconha em todo o país."
+        "text": "Legalizou integralmente o comércio e tráfico de maconha em todo o país, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "Determinou pena mínima de 2 anos de reclusão ao usuário com menos de 40 gramas."
+        "text": "Determinou pena mínima de 2 anos de reclusão ao usuário com menos de 40 gramas, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "Declarou inconstitucional toda a Lei de Drogas inclusive para tráfico internacional."
+        "text": "Declarou inconstitucional toda a Lei de Drogas inclusive para tráfico internacional, com incompatibilidade entre restrição estatal desproporcional e controle de convencionalidade."
       }
     ],
     "correctAnswer": "A",
@@ -4507,15 +4507,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O direito ao acesso gratuito e ilimitado à energia nuclear doméstica."
+        "text": "O direito ao acesso gratuito e ilimitado à energia nuclear doméstica, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "O direito à isenção total de tarifas portuárias internacionais."
+        "text": "O direito à isenção total de tarifas portuárias internacionais, com impedimento à aplicação de sanções ou medidas contrárias à dignidade da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "O direito exclusivo de navegação marítima militar."
+        "text": "O direito exclusivo de navegação marítima militar, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "A",
@@ -4558,19 +4558,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher (CEDAW), a Convenção contra a Tortura (CAT), a Convenção Internacional sobre a Eliminação de Todas as Formas de Discriminação Racial (ICERD), a Convenção sobre os Direitos das Pessoas com Deficiência (CRPD) e a Convenção dos Direitos da Criança (3º Protocolo Facultativo)."
+        "text": "A Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher, a Convenção contra a Tortura (CAT), a Convenção Internacional sobre a Eliminação de Todas as Formas de Discriminação Racial (icerd), a Convenção sobre os Direitos das Pessoas com Deficiência (crpd) e a Convenção dos Direitos da Criança."
       },
       {
         "letter": "B",
-        "text": "Nenhum tratado da ONU aceita comunicações individuais no Brasil."
+        "text": "Nenhum tratado da ONU aceita comunicações individuais no Brasil, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "Apenas a Declaração Universal de 1948 possui comitê próprio para petições individuais vinculantes."
+        "text": "Apenas a Declaração Universal de 1948 possui comitê próprio para petições individuais vinculantes, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "As petições aos comitês dispensam em absoluto o esgotamento prévio das instâncias internas em qualquer hipótese."
+        "text": "As petições aos comitês dispensam em absoluto o esgotamento prévio das instâncias internas em qualquer hipótese, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "A",
@@ -4613,19 +4613,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Caso Barrios Altos vs. Peru (2001), no qual a Corte IDH assentou que são inadmissíveis as disposições de anistia, prescrição e excludentes de responsabilidade que pretendam impedir a investigação e sanção de graves violações de direitos humanos (tortura, execuções sumárias e desaparecimentos forçados)."
+        "text": "O Caso Barrios Altos vs. Peru (2001), no qual a Corte idh assentou que são inadmissíveis as disposições de anistia, prescrição e excludentes de responsabilidade que pretendam impedir a investigação e sanção de graves violações de direitos humanos."
       },
       {
         "letter": "B",
-        "text": "O Caso Marbury vs. Madison (1803)."
+        "text": "O Caso Marbury vs. Madison (1803), sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "O Caso Lochner vs. Nova York (1905)."
+        "text": "O Caso Lochner vs. Nova York (1905), em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "O Caso Damião Ximenes Lopes (2006)."
+        "text": "O Caso Damião Ximenes Lopes (2006), observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "A",
@@ -4673,15 +4673,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Deve prevalecer automaticamente a lei interna mais recente pelo critério cronológico clássico, ainda que reduza direitos."
+        "text": "Deve prevalecer automaticamente a lei interna mais recente pelo critério cronológico clássico, ainda que reduza direitos, com autorização de acionamento direto das cortes internacionais sem requisito prévio."
       },
       {
         "letter": "C",
-        "text": "Deve prevalecer sempre o tratado internacional mesmo quando a Constituição brasileira for mais protetiva."
+        "text": "Deve prevalecer sempre o tratado internacional mesmo quando a Constituição brasileira for mais protetiva, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Aplica-se sempre a interpretação mais restritiva em favor da soberania estatal."
+        "text": "Aplica-se sempre a interpretação mais restritiva em favor da soberania estatal, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       }
     ],
     "correctAnswer": "A",
@@ -4724,19 +4724,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O STF julgou constitucional o Decreto nº 4.887/2003, validando o critério da autoatribuição (autoidentificação étnico-racial) pelas próprias comunidades remanescentes de quilombos (em consonância com a Convenção 169 da OIT), devendo o Estado emitir títulos coletivos e pró-indiviso em nome da associação comunitária."
+        "text": "O STF julgou constitucional o Decreto nº 4.887/2003, validando o critério da autoatribuição pelas próprias comunidades remanescentes de quilombos, devendo o Estado emitir títulos coletivos e pró-indiviso em nome da associação comunitária."
       },
       {
         "letter": "B",
-        "text": "Exigiu comprovação documental cartorial contínua desde o século XVIII sob pena de perda do território."
+        "text": "Exigiu comprovação documental cartorial contínua desde o século XVIII sob pena de perda do território, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "C",
-        "text": "Determinou que cada morador receba escritura individual passível de venda imediata a terceiros estranhos."
+        "text": "Determinou que cada morador receba escritura individual passível de venda imediata a terceiros estranhos, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Declarou inconstitucional a desapropriação de imóveis particulares titulados em áreas quilombolas."
+        "text": "Declarou inconstitucional a desapropriação de imóveis particulares titulados em áreas quilombolas, sem admissão de norma interna posterior para descumprir obrigação internacional assumida."
       }
     ],
     "correctAnswer": "A",
@@ -4780,19 +4780,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O ensino religioso é disciplina de oferta obrigatória pelos horários normais das escolas públicas de ensino fundamental, mas de MATRÍCULA FACULTATIVA ao aluno, tendo o STF julgado possível sua oferta em caráter confessional (desde que sem proselitismo compulsório e com respeito à matrícula facultativa)."
+        "text": "O ensino religioso é disciplina de oferta obrigatória pelos horários normais das escolas públicas de ensino fundamental, mas de matrícula facultativa ao aluno, tendo o STF julgado possível sua oferta em caráter confessional."
       },
       {
         "letter": "B",
-        "text": "A matrícula no ensino religioso é obrigatória para todos os alunos do ensino médio público."
+        "text": "A matrícula no ensino religioso é obrigatória para todos os alunos do ensino médio público, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "O Estado laico brasileiro proíbe qualquer disciplina de ensino religioso nas escolas públicas."
+        "text": "O Estado laico brasileiro proíbe qualquer disciplina de ensino religioso nas escolas públicas, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "D",
-        "text": "Apenas uma religião oficial pode ser ministrada nas redes públicas estaduais."
+        "text": "Apenas uma religião oficial pode ser ministrada nas redes públicas estaduais, com autorização de acionamento direto das cortes internacionais sem requisito prévio."
       }
     ],
     "correctAnswer": "A",
@@ -4836,19 +4836,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, em regra a ausência de incorporação administrativa pela CONITEC impede o fornecimento judicial, salvo concessão excepcionalíssima quando o autor comprovar cumulativamente requisitos rigorosos (como negativa administrativa prévia, ilegalidade/mora na incorporação, impossibilidade de substituição por fármaco do SUS, evidência científica robusta de eficácia/segurança e incapacidade financeira)."
+        "text": "Não, em regra a ausência de incorporação administrativa pela CONITEC impede o fornecimento judicial, salvo concessão excepcionalíssima quando o autor comprovar cumulativamente requisitos rigorosos."
       },
       {
         "letter": "B",
-        "text": "Sim, basta receita de médico particular solicitando qualquer remédio experimental estrangeiro."
+        "text": "Sim, basta receita de médico particular solicitando qualquer remédio experimental estrangeiro, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "O Município sozinho suporta integralmente todos os medicamentos de alto custo sem ressarcimento da União."
+        "text": "O Município sozinho suporta integralmente todos os medicamentos de alto custo sem ressarcimento da União, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "O Judiciário nunca pode determinar fornecimento de medicamento em nenhuma hipótese."
+        "text": "O Judiciário nunca pode determinar fornecimento de medicamento em nenhuma hipótese, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "A",
@@ -4892,19 +4892,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os candidatos egressos de escola pública continuam com reserva mínima de 50% das vagas, passando a concorrer primeiramente na ampla concorrência (e só usando a cota se não alcançarem nota na ampla!), incluindo-se expressamente os quilombolas ao lado de pretos, pardos, indígenas e pessoas com deficiência, e ajustando o teto de baixa renda para 1 salário mínimo per capita."
+        "text": "Os candidatos egressos de escola pública continuam com reserva mínima de 50% das vagas, passando a concorrer primeiramente na ampla concorrência, incluindo-se expressamente os quilombolas ao lado de pretos, pardos, indígenas e pessoas com deficiência, e ajustando o teto de baixa renda para 1 salário mínimo per capita."
       },
       {
         "letter": "B",
-        "text": "As cotas foram extintas definitivamente em 2023."
+        "text": "As cotas foram extintas definitivamente em 2023, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Os cotistas ficaram impedidos de concorrer às vagas de ampla concorrência caso obtenham nota alta no ENEM."
+        "text": "Os cotistas ficaram impedidos de concorrer às vagas de ampla concorrência caso obtenham nota alta no enem, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Passou a exigir que metade do ensino médio tenha sido cursada em escola privada com bolsa."
+        "text": "Passou a exigir que metade do ensino médio tenha sido cursada em escola privada com bolsa, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "A",
@@ -4947,19 +4947,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, qualquer limitação legal ao discurso racista ou nazista viola o Pacto de São José."
+        "text": "Sim, qualquer limitação legal ao discurso racista ou nazista viola o Pacto de São José, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "O Pacto de São José permite censura prévia estatal ordinária sobre jornais políticos de oposição."
+        "text": "O Pacto de São José permite censura prévia estatal ordinária sobre jornais políticos de oposição, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "A liberdade de expressão exclui a liberdade de buscar e receber informações."
+        "text": "A liberdade de expressão exclui a liberdade de buscar e receber informações, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Não. Tanto o Art. 13, item 5, do Pacto de São José quanto o Art. 20 do PIDCP determinam que a lei deve proibir toda propaganda a favor da guerra e toda apologia ao ódio nacional, racial ou religioso que constitua incitação à discriminação, hostilidade ou violência."
+        "text": "Não, tanto o Art. 13, item 5, do Pacto de São José quanto o Art. 20 do PIDCP determinam que a lei deve proibir toda propaganda a favor da guerra e toda apologia ao ódio nacional, racial ou religioso que constitua incitação à discriminação, hostilidade ou violência."
       }
     ],
     "correctAnswer": "D",
@@ -5002,15 +5002,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Abrange exclusivamente jovens entre 18 e 24 anos."
+        "text": "Abrange exclusivamente jovens entre 18 e 24 anos, com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "Revogou integralmente o ECA para maiores de 15 anos, inclusive permitindo prisão comum."
+        "text": "Revogou integralmente o ECA para maiores de 15 anos, inclusive permitindo prisão comum, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Garante apenas direito à meia-entrada em eventos esportivos, excluindo transporte interestadual."
+        "text": "Garante apenas direito à meia-entrada em eventos esportivos, excluindo transporte interestadual, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
@@ -5057,19 +5057,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Passou a perder automaticamente a nacionalidade brasileira qualquer pessoa que obtiver dupla cidadania europeia."
+        "text": "Passou a perder automaticamente a nacionalidade brasileira qualquer pessoa que obtiver dupla cidadania europeia, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "Passou a permitir o banimento perpétuo e a apatridia forçada de brasileiros natos."
+        "text": "Passou a permitir o banimento perpétuo e a apatridia forçada de brasileiros natos, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "Cancelamento da naturalização pode ser feito por portaria simples do delegado da Polícia Federal."
+        "text": "Cancelamento da naturalização pode ser feito por portaria simples do delegado da Polícia Federal, com autorização de acionamento direto das cortes internacionais sem requisito prévio."
       },
       {
         "letter": "D",
-        "text": "O brasileiro não perde mais a nacionalidade pelo simples fato de adquirir voluntariamente outra nacionalidade! Pela nova redação do Art. 12, § 4º, II, da CF (EC 131/2023), a perda só ocorre mediante pedido expresso de perda da nacionalidade brasileira perante autoridade competente (ressalvada a hipótese de não gerar apatridia), além da hipótese anterior de cancelamento da naturalização por sentença judicial em razão de fraude ou atentado contra a ordem constitucional."
+        "text": "O brasileiro não perde mais a nacionalidade pelo simples fato de adquirir voluntariamente outra nacionalidade."
       }
     ],
     "correctAnswer": "D",
@@ -5112,19 +5112,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Brasil, somente policiais e agentes penitenciários podem responder pelo crime de tortura."
+        "text": "No Brasil, somente policiais e agentes penitenciários podem responder pelo crime de tortura, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
-        "text": "O crime de tortura no Brasil admite anistia, graça e fiança."
+        "text": "O crime de tortura no Brasil admite anistia, graça e fiança, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "A tortura cometida por brasileiro no exterior contra estrangeiro nunca se submete à lei penal brasileira."
+        "text": "A tortura cometida por brasileiro no exterior contra estrangeiro nunca se submete à lei penal brasileira, sem admissão de norma interna posterior para descumprir obrigação internacional assumida."
       },
       {
         "letter": "D",
-        "text": "Diferentemente da Convenção da ONU (que exige participação, instigação ou aquiescência de agente público), a Lei brasileira nº 9.455/1997 tipifica a tortura como crime COMUM, podendo ser praticada também por particular sem vínculo estatal (como na tortura-castigo familiar ou empregatícia), aumentando a pena se cometida por agente público."
+        "text": "Diferentemente da Convenção da ONU, a Lei brasileira nº 9.455/1997 tipifica a tortura como crime comum, podendo ser praticada também por particular sem vínculo estatal, aumentando a pena se cometida por agente público."
       }
     ],
     "correctAnswer": "D",
@@ -5167,19 +5167,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Determinou que todas as pessoas trans sejam mantidas em isolamento solitário absoluto sem visitas."
+        "text": "Determinou que todas as pessoas trans sejam mantidas em isolamento solitário absoluto sem visitas, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "Exigiu comprovação prévia de cirurgia de redesignação sexual concluída para escolha da unidade."
+        "text": "Exigiu comprovação prévia de cirurgia de redesignação sexual concluída para escolha da unidade, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "Proibiu o uso do nome social dentro de unidades prisionais."
+        "text": "Proibiu o uso do nome social dentro de unidades prisionais, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Assegurando às mulheres transexuais e travestis (com identidade de gênero feminina autodeclarada) o direito de optar por cumprir prisão em estabelecimento prisional feminino (ou em ala específica que garanta sua segurança e dignidade), vedando exposição vexatória e violência transfóbica em presídios masculinos comuns."
+        "text": "Assegurando às mulheres transexuais e travestis o direito de optar por cumprir prisão em estabelecimento prisional feminino, vedando exposição vexatória e violência transfóbica em presídios masculinos comuns."
       }
     ],
     "correctAnswer": "D",
@@ -5223,15 +5223,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A criminalização penal automática da entrada irregular com pena de reclusão de 2 anos."
+        "text": "A criminalização penal automática da entrada irregular com pena de reclusão de 2 anos, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "A proibição de migrantes participarem de manifestações pacíficas ou sindicatos."
+        "text": "A proibição de migrantes participarem de manifestações pacíficas ou sindicatos, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "A exigência de regularidade migratória prévia para atendimento médico de emergência no SUS."
+        "text": "A exigência de regularidade migratória prévia para atendimento médico de emergência no SUS, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
@@ -5278,19 +5278,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Entendeu que o recrutador privado (\"gato\") responde sozinho, eximindo o Estado por falta de vínculo funcional."
+        "text": "Entendeu que o recrutador privado (\"gato\") responde sozinho, eximindo o Estado por falta de vínculo funcional, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "Limitou a proteção da Convenção Americana apenas a trabalhadores estrangeiros com visto."
+        "text": "Limitou a proteção da Convenção Americana apenas a trabalhadores estrangeiros com visto, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "Declarou que a pobreza não possui relevância jurídica na análise de discriminação estrutural."
+        "text": "Declarou que a pobreza não possui relevância jurídica na análise de discriminação estrutural, com impedimento à aplicação de sanções ou medidas contrárias à dignidade da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Reconheceu que o aliciamento mediante engano e endividamento ilícito de trabalhadores vulneráveis vindos de regiões pobres configura também servidão por dívida e tráfico de pessoas (Art. 6º.1 CADH), impondo ao Brasil o dever de prevenir, fiscalizar ativamente e reparar integralmente as vítimas com proteção contra discriminação baseada na condição econômica."
+        "text": "Reconheceu que o aliciamento mediante engano e endividamento ilícito de trabalhadores vulneráveis vindos de regiões pobres configura também servidão por dívida e tráfico de pessoas, impondo ao Brasil o dever de prevenir, fiscalizar ativamente e reparar integralmente as vítimas com proteção contra discriminação baseada na condição econômica."
       }
     ],
     "correctAnswer": "D",
@@ -5334,19 +5334,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A perda definitiva e irreversível do BPC sem possibilidade de retorno caso seja demitida no mês seguinte."
+        "text": "A perda definitiva e irreversível do BPC sem possibilidade de retorno caso seja demitida no mês seguinte, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
-        "text": "O pagamento automático de aposentadoria integral vitalícia acumulada com qualquer salário empresarial."
+        "text": "O pagamento automático de aposentadoria integral vitalícia acumulada com qualquer salário empresarial, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo."
       },
       {
         "letter": "C",
-        "text": "A obrigação exclusiva da empresa privada custear do próprio caixa o auxílio assistencial."
+        "text": "A obrigação exclusiva da empresa privada custear do próprio caixa o auxílio assistencial, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "O auxílio-inclusão, no valor de meio salário mínimo mensal, pago à pessoa com deficiência moderada ou grave que recebia BPC e ingressa no mercado de trabalho formal (com remuneração de até 2 salários mínimos), permanecendo o BPC original suspenso (podendo ser reativado imediatamente caso deixe o emprego!)."
+        "text": "O auxílio-inclusão, no valor de meio salário mínimo mensal, pago à pessoa com deficiência moderada ou grave que recebia BPC e ingressa no mercado de trabalho formal, permanecendo o BPC original suspenso."
       }
     ],
     "correctAnswer": "D",
@@ -5389,19 +5389,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A partir de 10 empregados, na proporção fixa de 20%."
+        "text": "A partir de 10 empregados, na proporção fixa de 20%, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "O empregador pode dispensar imotivadamente o empregado com deficiência sem contratar outro substituto, mesmo abaixo da cota."
+        "text": "O empregador pode dispensar imotivadamente o empregado com deficiência sem contratar outro substituto, mesmo abaixo da cota, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar."
       },
       {
         "letter": "C",
-        "text": "A obrigação restringe-se exclusivamente a empresas públicas e autarquias."
+        "text": "A obrigação restringe-se exclusivamente a empresas públicas e autarquias, com autorização de acionamento direto das cortes internacionais sem requisito prévio."
       },
       {
         "letter": "D",
-        "text": "A partir de 100 (cem) ou mais empregados, na seguinte proporção: até 200 empregados (2%); de 201 a 500 (3%); de 501 a 1.000 (4%); de 1.001 em diante (5%). Além disso, a dispensa de trabalhador reabilitado ou com deficiência ao final de contrato por prazo determinado de mais de 90 dias (ou imotivada no indeterminado) só pode ocorrer após a contratação de substituto em condição semelhante!"
+        "text": "A partir de 100 (cem) ou mais empregados, na seguinte proporção: até 200 empregados (2%); de 201 a 500 (3%); de 501 a 1.000 (4%); de 1.001 em diante (5%)."
       }
     ],
     "correctAnswer": "D",
@@ -5444,19 +5444,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Dependem obrigatoriamente de prévio oferecimento de denúncia pelo Ministério Público."
+        "text": "Dependem obrigatoriamente de prévio oferecimento de denúncia pelo Ministério Público, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "Caducam automaticamente em 30 dias se não houver condenação penal definitiva."
+        "text": "Caducam automaticamente em 30 dias se não houver condenação penal definitiva, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "Aplicam-se exclusivamente a mulheres casadas civilmente com o agressor."
+        "text": "Aplicam-se exclusivamente a mulheres casadas civilmente com o agressor, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo."
       },
       {
         "letter": "D",
-        "text": "Não! Pela nova redação do Art. 19, § 5º, da Lei Maria da Penha, as medidas protetivas de urgência serão concedidas independentemente da tipificação penal da violência, do ajuizamento de ação penal ou cível, da existência de inquérito policial ou do registro de boletim de ocorrência — bastando o depoimento da ofendida perante autoridade policial ou apresentação de suas alegações escritas (Art. 19, § 4º), e vigorarão enquanto persistir risco à integridade da mulher."
+        "text": "Não, pela nova redação, da Lei Maria da Penha, as medidas protetivas de urgência serão concedidas independentemente da tipificação penal da violência, do ajuizamento de ação penal ou cível, da existência de inquérito policial ou do registro de boletim de ocorrência."
       }
     ],
     "correctAnswer": "D",
@@ -5499,19 +5499,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O direito ao acompanhante aplica-se apenas à sala de parto cesáreo em hospitais privados."
+        "text": "O direito ao acompanhante aplica-se apenas à sala de parto cesáreo em hospitais privados, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "Em consultas, exames e procedimentos realizados em unidades de saúde públicas ou privadas, toda mulher tem direito de fazer-se acompanhar por pessoa maior de idade por ela indicada durante todo o período do atendimento (inclusive no trabalho de parto, parto e pós-parto imediato), independentemente de notificação prévia."
+        "text": "Em consultas, exames e procedimentos realizados em unidades de saúde públicas ou privadas, toda mulher tem direito de fazer-se acompanhar por pessoa maior de idade por ela indicada durante todo o período do atendimento, independentemente de notificação prévia."
       },
       {
         "letter": "C",
-        "text": "O acompanhante deve obrigatoriamente ser o marido ou o pai da criança."
+        "text": "O acompanhante deve obrigatoriamente ser o marido ou o pai da criança, com autorização de acionamento direto das cortes internacionais sem requisito prévio."
       },
       {
         "letter": "D",
-        "text": "Nos procedimentos com sedação ou rebaixamento do nível de consciência, a mulher perde o direito a acompanhante se não o tiver indicado antes."
+        "text": "Nos procedimentos com sedação ou rebaixamento do nível de consciência, a mulher perde o direito a acompanhante se não o tiver indicado antes, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "B",
@@ -5554,19 +5554,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Validou a proibição de qualquer abordagem sobre direitos humanos, gênero e diversidade nas escolas públicas."
+        "text": "Validou a proibição de qualquer abordagem sobre direitos humanos, gênero e diversidade nas escolas públicas, sem admissão de norma interna posterior para descumprir obrigação internacional assumida."
       },
       {
         "letter": "B",
-        "text": "Declarou inconstitucionais as restrições à liberdade de cátedra e ao pluralismo de ideias e concepções pedagógicas (ADI 5.537), bem como vedou a censura e apreensão policial de manifestações estudantis/docentes em universidades públicas (ADPF 548), reafirmando a autonomia universitária e o ensino crítico emancipador."
+        "text": "Declarou inconstitucionais as restrições à liberdade de cátedra e ao pluralismo de ideias e concepções pedagógicas."
       },
       {
         "letter": "C",
-        "text": "Subordinou o conteúdo de aulas universitárias à aprovação prévia de delegacias eleitorais."
+        "text": "Subordinou o conteúdo de aulas universitárias à aprovação prévia de delegacias eleitorais, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "Limitou a liberdade de aprender apenas a escolas particulares."
+        "text": "Limitou a liberdade de aprender apenas a escolas particulares, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "B",
@@ -5610,19 +5610,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Somente a ofensa verbal explícita e intencional dirigida individualmente contra uma vítima."
+        "text": "Somente a ofensa verbal explícita e intencional dirigida individualmente contra uma vítima, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "Ocorre quando uma disposição, critério ou prática aparentemente neutra tem probabilidade de acarretar uma desvantagem particular para pessoas pertencentes a grupo específico (por raça, gênero, deficiência, religião, etc.) ou as coloca em desvantagem, a menos que o critério tenha justificativa objetiva e razoável com finalidade legítima."
+        "text": "Ocorre quando uma disposição, critério ou prática aparentemente neutra tem probabilidade de acarretar uma desvantagem particular para pessoas pertencentes a grupo específico ou as coloca em desvantagem, a menos que o critério tenha justificativa objetiva e razoável com finalidade legítima."
       },
       {
         "letter": "C",
-        "text": "A criação de políticas de ação afirmativa temporárias em favor de minorias."
+        "text": "A criação de políticas de ação afirmativa temporárias em favor de minorias, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "A exclusão contratual fundada apenas na ausência de qualificação técnica comprovada para o cargo."
+        "text": "A exclusão contratual fundada apenas na ausência de qualificação técnica comprovada para o cargo, com impedimento à aplicação de sanções ou medidas contrárias à dignidade da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "B",
@@ -5665,19 +5665,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, quem obtém direito de resposta perde automaticamente o direito à indenização moral."
+        "text": "Sim, quem obtém direito de resposta perde automaticamente o direito à indenização moral, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "Não! O exercício do direito de resposta ou retificação gratuito e proporcional não exclui nem prejudica o direito de pleitear reparação por danos materiais e morais decorrentes da publicação ofensiva."
+        "text": "Não, o exercício do direito de resposta ou retificação gratuito e proporcional não exclui nem prejudica o direito de pleitear reparação por danos materiais e morais decorrentes da publicação ofensiva."
       },
       {
         "letter": "C",
-        "text": "O prazo decadencial para exercer o direito de resposta é de 5 anos."
+        "text": "O prazo decadencial para exercer o direito de resposta é de 5 anos, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "Um juiz singular nunca pode revogar liminar de direito de resposta sem decisão colegiada."
+        "text": "Um juiz singular nunca pode revogar liminar de direito de resposta sem decisão colegiada, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "B",
@@ -5721,19 +5721,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Validou o abate preventivo de suspeitos sem iminência de risco real à vida de terceiros ou agentes."
+        "text": "Validou o abate preventivo de suspeitos sem iminência de risco real à vida de terceiros ou agentes, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "A Corte IDH condenou o Brasil por execuções extrajudiciais praticadas em operação policial planejada com uso desproporcional da força letal e simulação de confronto, reiterando que o uso da força pelo Estado deve ser excepcional, estritamente necessário, proporcional, com prestação de contas (accountability) e investigação independente."
+        "text": "A Corte idh condenou o Brasil por execuções extrajudiciais praticadas em operação policial planejada com uso desproporcional da força letal e simulação de confronto, reiterando que o uso da força pelo Estado deve ser excepcional, estritamente necessário, proporcional, com prestação de contas (accountability) e investigação independente."
       },
       {
         "letter": "C",
-        "text": "Entendeu que a investigação militar interna basta mesmo quando conclui sem perícia de balística."
+        "text": "Entendeu que a investigação militar interna basta mesmo quando conclui sem perícia de balística, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Aplicou pena de multa apenas contra os policiais, isentando a União."
+        "text": "Aplicou pena de multa apenas contra os policiais, isentando a União, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       }
     ],
     "correctAnswer": "B",
@@ -5777,19 +5777,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todo preso deve permanecer algemado obrigatoriamente durante toda a audiência de instrução e durante o trabalho de parto."
+        "text": "Todo preso deve permanecer algemado obrigatoriamente durante toda a audiência de instrução e durante o trabalho de parto, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "B",
-        "text": "Só é lícito o uso de algemas em casos de resistência, fundado receio de fuga ou perigo à integridade física própria ou alheia, por parte do preso ou de terceiros, justificada a excepcionalidade por escrito; além disso, é expressamente vedado o uso de algemas em mulheres grávidas durante o parto e puerpério imediato (Art. 292, parágrafo único, CPP)."
+        "text": "Só é lícito o uso de algemas em casos de resistência, fundado receio de fuga ou perigo à integridade física própria ou alheia, por parte do preso ou de terceiros, justificada a excepcionalidade por escrito."
       },
       {
         "letter": "C",
-        "text": "O desrespeito injustificado à Súmula Vinculante nº 11 não gera nulidade nem responsabilidade disciplinar alguma."
+        "text": "O desrespeito injustificado à Súmula Vinculante nº 11 não gera nulidade nem responsabilidade disciplinar alguma, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "D",
-        "text": "É lícita a revista íntima vexatória com desnudamento completo de visitantes em presídios sempre que houver suspeita abstrata."
+        "text": "É lícita a revista íntima vexatória com desnudamento completo de visitantes em presídios sempre que houver suspeita abstrata, com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno."
       }
     ],
     "correctAnswer": "B",
@@ -5833,19 +5833,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os direitos fundamentais vinculam exclusivamente o Poder Executivo estatal, nunca atingindo contratos ou associações privadas."
+        "text": "Os direitos fundamentais vinculam exclusivamente o Poder Executivo estatal, nunca atingindo contratos ou associações privadas, com impedimento à aplicação de sanções ou medidas contrárias à dignidade da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "A eficácia horizontal (ou entre particulares) direta e imediata dos direitos fundamentais: associações privadas e particulares também devem observar garantias como o devido processo legal, ampla defesa e não discriminação ao aplicar sanções ou excluir associados/contratantes."
+        "text": "A eficácia horizontal direta e imediata dos direitos fundamentais: associações privadas e particulares também devem observar garantias como o devido processo legal, ampla defesa e não discriminação ao aplicar sanções ou excluir associados/contratantes."
       },
       {
         "letter": "C",
-        "text": "Apenas empresas estatais observam o contraditório na exclusão de associados."
+        "text": "Apenas empresas estatais observam o contraditório na exclusão de associados, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "O particular pode discriminar livremente por raça ou religião em contratos de consumo invocando autonomia privada."
+        "text": "O particular pode discriminar livremente por raça ou religião em contratos de consumo invocando autonomia privada, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo."
       }
     ],
     "correctAnswer": "B",
@@ -5889,19 +5889,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Decidiu que a reserva do possível impede absolutamente qualquer decisão judicial determinando gasto público em saúde ou creches."
+        "text": "Decidiu que a reserva do possível impede absolutamente qualquer decisão judicial determinando gasto público em saúde ou creches, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "Assentou que, embora a formulação de políticas públicas caiba primariamente ao Legislativo e Executivo, o Judiciário pode determiná-las excepcionalmente para resguardar o \"mínimo existencial\" diante de omissão estatal abusiva — não podendo a reserva do possível ser invocada pelo Estado de forma genérica sem comprovação objetiva de incapacidade orçamentária."
+        "text": "Assentou que, embora a formulação de políticas públicas caiba primariamente ao Legislativo e Executivo, o Judiciário pode determiná-las excepcionalmente para resguardar o \"mínimo existencial\" diante de omissão estatal abusiva."
       },
       {
         "letter": "C",
-        "text": "Transferiu integralmente a elaboração do orçamento anual da União ao STF."
+        "text": "Transferiu integralmente a elaboração do orçamento anual da União ao STF, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Declarou que direitos sociais previstos no Art. 6º da CF são meras promessas políticas sem eficácia jurídica."
+        "text": "Declarou que direitos sociais previstos são meras promessas políticas sem eficácia jurídica, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "B",
@@ -5945,19 +5945,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A simples intenção de obter vantagem patrimonial em roubo seguido de morte contra qualquer pessoa isolada."
+        "text": "A simples intenção de obter vantagem patrimonial em roubo seguido de morte contra qualquer pessoa isolada, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "B",
-        "text": "A intenção de destruir, no todo ou em parte, grupo nacional, étnico, racial ou religioso, como tal (mediante homicídios, lesões graves físicas ou mentais, condições destrutivas de existência, impedimento de nascimentos ou transferência forçada de crianças)."
+        "text": "A intenção de destruir, no todo ou em parte, grupo nacional, étnico, racial ou religioso, como tal."
       },
       {
         "letter": "C",
-        "text": "Apenas a destruição de grupo político ou partidário sem recorte nacional, étnico, racial ou religioso."
+        "text": "Apenas a destruição de grupo político ou partidário sem recorte nacional, étnico, racial ou religioso. A interpretação conforme a dignidade humana prevalece na colisão aparente de normas."
       },
       {
         "letter": "D",
-        "text": "Exige obrigatoriamente a morte de mais de 1 milhão de pessoas para se consumar."
+        "text": "Exige obrigatoriamente a morte de mais de 1 milhão de pessoas para se consumar, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       }
     ],
     "correctAnswer": "B",
@@ -6001,19 +6001,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A redução obrigatória dos salários masculinos para equiparar à média inferior."
+        "text": "A redução obrigatória dos salários masculinos para equiparar à média inferior, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "A publicação semestral de relatórios de transparência salarial e de critérios remuneratórios (garantida a anonimização de dados pessoais conforme a LGPD), sob pena de multa administrativa e elaboração obrigatória de Plano de Ação para Mitigação da Desigualdade Salarial quando identificada disparidade injustificada."
+        "text": "A publicação semestral de relatórios de transparência salarial e de critérios remuneratórios, sob pena de multa administrativa e elaboração obrigatória de Plano de Ação para Mitigação da Desigualdade Salarial quando identificada disparidade injustificada."
       },
       {
         "letter": "C",
-        "text": "O pagamento da diferença salarial limitado apenas às trabalhadoras sindicalizadas."
+        "text": "O pagamento da diferença salarial limitado apenas às trabalhadoras sindicalizadas, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "A aplicação apenas a empresas com mais de 5.000 empregados."
+        "text": "A aplicação apenas a empresas com mais de 5.000 empregados, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "B",
@@ -6056,19 +6056,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O STF decidiu que é dever do Poder Público/administrador estabelecer critérios alternativos para o exercício de direitos (como datas/horários alternativos em concursos e estágio probatório para guardadores do sábado), desde que respeitada a igualdade de condições e sem ônus desproporcional à Administração — caso haja recusa tanto da obrigação principal quanto da prestação alternativa prevista em lei, ocorre perda de direitos políticos (Art. 15, IV, CF)."
+        "text": "O STF decidiu que é dever do Poder Público/administrador estabelecer critérios alternativos para o exercício de direitos, desde que respeitada a igualdade de condições e sem ônus desproporcional à Administração."
       },
       {
         "letter": "B",
-        "text": "O Estado deve isentar o cidadão de toda obrigação legal sem exigir nenhuma prestação alternativa."
+        "text": "O Estado deve isentar o cidadão de toda obrigação legal sem exigir nenhuma prestação alternativa, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "C",
-        "text": "É proibido realizar provas de concursos públicos com horário especial para sabatistas em qualquer hipótese."
+        "text": "É proibido realizar provas de concursos públicos com horário especial para sabatistas em qualquer hipótese, sem admissão de norma interna posterior para descumprir obrigação internacional assumida. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "A escusa de consciência aplica-se apenas ao serviço militar obrigatório."
+        "text": "A escusa de consciência aplica-se apenas ao serviço militar obrigatório, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "A",
@@ -6112,19 +6112,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A pessoa com TEA é considerada pessoa com deficiência para todos os efeitos legais (Art. 1º, § 2º, da Lei nº 12.764/2012), tendo direito a acompanhante especializado nas classes comuns de ensino regular quando comprovada a necessidade, atendimento prioritário em serviços públicos e privados e Carteira de Identificação da Pessoa com Transtorno do Espectro Autista (CIPTEA)."
+        "text": "A pessoa com tea é considerada pessoa com deficiência para todos os efeitos legais, tendo direito a acompanhante especializado nas classes comuns de ensino regular quando comprovada a necessidade, atendimento prioritário em serviços públicos e privados e Carteira de Identificação da Pessoa com Transtorno do Espectro Autista (ciptea)."
       },
       {
         "letter": "B",
-        "text": "O autista só é considerado pessoa com deficiência para fins de estacionamento, não abrangendo concursos, BPC ou educação inclusiva."
+        "text": "O autista só é considerado pessoa com deficiência para fins de estacionamento, não abrangendo concursos, BPC ou educação inclusiva. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "A escola regular pode recusar matrícula de criança autista indicando necessariamente ensino segregado."
+        "text": "A escola regular pode recusar matrícula de criança autista indicando necessariamente ensino segregado, em observância à vedação ao retrocesso e aos tratados internacionais de proteção ratificados."
       },
       {
         "letter": "D",
-        "text": "A emissão da CIPTEA é paga e condicionada a processo judicial."
+        "text": "A emissão da ciptea é paga e condicionada a processo judicial, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       }
     ],
     "correctAnswer": "A",
@@ -6167,19 +6167,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Reservada: até 5 anos; Secreta: até 15 anos; Ultrassecreta: até 25 anos (sendo vedada exigência de que o cidadão justifique os motivos determinantes do pedido de informação pública — Art. 10, § 3º, LAI!). Informações sobre graves violações de direitos humanos praticadas por agentes públicos NÃO podem ser objeto de restrição de acesso (Art. 21, parágrafo único, LAI)!"
+        "text": "Reservada: até 5 anos; Secreta: até 15 anos; Ultrassecreta: até 25 anos. Informações sobre graves violações de direitos humanos praticadas por agentes públicos não podem ser objeto de restrição de acesso."
       },
       {
         "letter": "B",
-        "text": "Reservada: 10 anos; Secreta: 30 anos; Ultrassecreta: perpétua sem limite de prazo."
+        "text": "Reservada: 10 anos; Secreta: 30 anos; Ultrassecreta: perpétua sem limite de prazo. Tal obrigação vincula os três Poderes da República no cumprimento de tratados vigentes."
       },
       {
         "letter": "C",
-        "text": "O cidadão deve comprovar interesse jurídico processual específico e motivar o pedido de acesso à informação."
+        "text": "O cidadão deve comprovar interesse jurídico processual específico e motivar o pedido de acesso à informação, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar."
       },
       {
         "letter": "D",
-        "text": "Documentos envolvendo tortura e violações de direitos humanos da ditadura ficam automaticamente ultrassecretos por 100 anos."
+        "text": "Documentos envolvendo tortura e violações de direitos humanos da ditadura ficam automaticamente ultrassecretos por 100 anos, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "A",
@@ -6222,19 +6222,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Tema 592, assentou que em caso de inobservância de seu dever específico de proteção (Art. 5º, XLIX, CF), a responsabilidade civil do Estado por morte de detento é OBJETIVA (inclusive em suicídio se o Estado se omitiu em impedir o risco previsível); no Tema 365, reconheceu o dever do Estado de indenizar em dinheiro preso submetido a condições carcerárias degradantes e superlotadas."
+        "text": "No Tema 592, assentou que em caso de inobservância de seu dever específico de proteção, a responsabilidade civil do Estado por morte de detento é objetiva."
       },
       {
         "letter": "B",
-        "text": "Isentou o Estado de qualquer responsabilidade civil em suicídio ou homicídio dentro de presídio."
+        "text": "Isentou o Estado de qualquer responsabilidade civil em suicídio ou homicídio dentro de presídio, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Substituiu integralmente a indenização em dinheiro por redução automática de 10 dias de pena."
+        "text": "Substituiu integralmente a indenização em dinheiro por redução automática de 10 dias de pena, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "D",
-        "text": "Condicionou a indenização por morte de preso à condenação prévia do diretor do presídio por dolo."
+        "text": "Condicionou a indenização por morte de preso à condenação prévia do diretor do presídio por dolo, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       }
     ],
     "correctAnswer": "A",
@@ -6278,19 +6278,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O critério fenotípico (características físicas visíveis percebidas socialmente no Brasil), por meio da autodeclaração confirmada por procedimento complementar de heteroidentificação que garanta respeito à dignidade humana, contraditório e ampla defesa — afastando-se o critério de mera ancestralidade/genótipo."
+        "text": "O critério fenotípico, por meio da autodeclaração confirmada por procedimento complementar de heteroidentificação que garanta respeito à dignidade humana, contraditório e ampla defesa."
       },
       {
         "letter": "B",
-        "text": "Exame genético de DNA obrigatório exigido no edital do concurso."
+        "text": "Exame genético de dna obrigatório exigido no edital do concurso, com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno."
       },
       {
         "letter": "C",
-        "text": "Aceitação cega e irrevisável da autodeclaração sem qualquer possibilidade de comissão verificadora."
+        "text": "Aceitação cega e irrevisável da autodeclaração sem qualquer possibilidade de comissão verificadora, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "Substituição de toda autodeclaração por indicação exclusiva de parentes em cartório."
+        "text": "Substituição de toda autodeclaração por indicação exclusiva de parentes em cartório, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "A",
@@ -6334,19 +6334,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Emenda Constitucional nº 64/2010 inseriu a alimentação no Art. 6º da CF; e a LOSAN (Lei nº 11.346/2006) reconhece a alimentação adequada como direito humano inerente à dignidade, envolvendo disponibilidade física e econômica de alimentos seguros, culturalmente adequados e sustentáveis (não apenas ausência de fome extrema)."
+        "text": "A Emenda Constitucional nº 64/2010 inseriu a alimentação no Art. 6º da CF; e a losan reconhece a alimentação adequada como direito humano inerente à dignidade, envolvendo disponibilidade física e econômica de alimentos seguros, culturalmente adequados e sustentáveis."
       },
       {
         "letter": "B",
-        "text": "A EC 45/2004, restringindo o direito apenas à distribuição emergencial de cestas básicas."
+        "text": "A EC 45/2004, restringindo o direito apenas à distribuição emergencial de cestas básicas, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "A alimentação é direito exclusivamente privado que não gera deveres de políticas públicas ao Estado."
+        "text": "A alimentação é direito exclusivamente privado que não gera deveres de políticas públicas ao Estado, com incompatibilidade entre restrição estatal desproporcional e controle de convencionalidade. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "O PIDESC exclui o direito à alimentação do seu rol de proteção."
+        "text": "O PIDESC exclui o direito à alimentação do seu rol de proteção, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       }
     ],
     "correctAnswer": "A",
@@ -6389,19 +6389,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Quando o expulsando tiver filho brasileiro que esteja sob sua guarda ou dependência econômica ou socioafetiva (ou pessoa brasileira sob sua tutela), tiver cônjuge ou companheiro residente no Brasil há mais de 5 anos sem separação de fato/direito, tiver ingressado no Brasil até os 12 anos de idade residindo desde então, ou for maior de 70 anos residindo no país há mais de 10 anos (além da proibição absoluta de expulsão coletiva!)."
+        "text": "Quando o expulsando tiver filho brasileiro que esteja sob sua guarda ou dependência econômica ou socioafetiva, tiver cônjuge ou companheiro residente no Brasil há mais de 5 anos sem separação de fato/direito, tiver ingressado no Brasil até os 12 anos de idade residindo desde então, ou for maior de 70 anos residindo no país há mais de 10 anos."
       },
       {
         "letter": "B",
-        "text": "Quando o estrangeiro tiver cometido crime de genocídio ou crime contra a humanidade."
+        "text": "Quando o estrangeiro tiver cometido crime de genocídio ou crime contra a humanidade, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "A deportação exige prévia condenação criminal transitada em julgado por crime hediondo."
+        "text": "A deportação exige prévia condenação criminal transitada em julgado por crime hediondo, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "D",
-        "text": "A repatriação é aplicada apenas após 10 anos de residência permanente no país."
+        "text": "A repatriação é aplicada apenas após 10 anos de residência permanente no país, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       }
     ],
     "correctAnswer": "A",
@@ -6444,19 +6444,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não! Como assentou a Corte IDH (ex.: Caso \"A Última Tentação de Cristo\" vs. Chile e Caso Gelman vs. Uruguai), a obrigação de exercer o controle de convencionalidade e adequar o direito interno aos tratados de direitos humanos vincula TODOS os poderes do Estado — Executivo, Legislativo (inclusive constituinte derivado) e Judiciário."
+        "text": "Não, como assentou a Corte idh, a obrigação de exercer o controle de convencionalidade e adequar o direito interno aos tratados de direitos humanos vincula todos os poderes do Estado."
       },
       {
         "letter": "B",
-        "text": "Vincula apenas os juízes de segunda instância e tribunais superiores."
+        "text": "Vincula apenas os juízes de segunda instância e tribunais superiores, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "C",
-        "text": "Permite que o Parlamento aprove qualquer lei violadora de direitos humanos desde que em referendo popular."
+        "text": "Permite que o Parlamento aprove qualquer lei violadora de direitos humanos desde que em referendo popular, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "Exime o Estado federal caso a violação tenha sido praticada por lei estadual ou municipal."
+        "text": "Exime o Estado federal caso a violação tenha sido praticada por lei estadual ou municipal, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "A",
@@ -6499,7 +6499,7 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A obrigação alimentar é SOLIDÁRIA, podendo a pessoa idosa optar livremente entre os prestadores (por exemplo, acionar apenas o filho com maior capacidade financeira, sem precisar litigar contra todos simultaneamente!)."
+        "text": "A obrigação alimentar é solidária, podendo a pessoa idosa optar livremente entre os prestadores."
       },
       {
         "letter": "B",
@@ -6507,11 +6507,11 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "As transações sobre alimentos do idoso só podem ocorrer mediante processo judicial no STF."
+        "text": "As transações sobre alimentos do idoso só podem ocorrer mediante processo judicial no STF, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "Não constitui crime apropriar-se de cartão bancário e proventos de idoso sem seu consentimento."
+        "text": "Não constitui crime apropriar-se de cartão bancário e proventos de idoso sem seu consentimento, em observância à vedação ao retrocesso e aos tratados internacionais de proteção ratificados."
       }
     ],
     "correctAnswer": "A",
@@ -6554,19 +6554,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe, como expressão e instrumento do regime democrático, a orientação jurídica, a promoção dos direitos humanos e a defesa judicial e extrajudicial (individual e coletiva!) dos direitos dos necessitados, inclusive atuando perante sistemas internacionais de direitos humanos."
+        "text": "É instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe, como expressão e instrumento do regime democrático, a orientação jurídica, a promoção dos direitos humanos e a defesa judicial e extrajudicial dos direitos dos necessitados, inclusive atuando perante sistemas internacionais de direitos humanos."
       },
       {
         "letter": "B",
-        "text": "Sua atuação limita-se exclusivamente à defesa criminal de réus presos em flagrante."
+        "text": "Sua atuação limita-se exclusivamente à defesa criminal de réus presos em flagrante, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "Subordina-se hierarquicamente às Procuradorias-Gerais dos Estados."
+        "text": "Subordina-se hierarquicamente às Procuradorias-Gerais dos Estados, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "Não possui legitimidade para ajuizar Ação Civil Pública em tutela de direitos difusos."
+        "text": "Não possui legitimidade para ajuizar Ação Civil Pública em tutela de direitos difusos, com impedimento à aplicação de sanções ou medidas contrárias à dignidade da pessoa humana. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       }
     ],
     "correctAnswer": "A",
@@ -6610,19 +6610,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A CIJ julga indivíduos por crimes de genocídio e o TPI julga litígios territoriais entre Estados."
+        "text": "A CIJ julga indivíduos por crimes de genocídio e o TPI julga litígios territoriais entre Estados, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "A Corte IDH aplica penas privativas de liberdade diretamente contra governadores estaduais."
+        "text": "A Corte idh aplica penas privativas de liberdade diretamente contra governadores estaduais, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "C",
-        "text": "O TPI integra a estrutura judiciária da Organização dos Estados Americanos."
+        "text": "O TPI integra a estrutura judiciária da Organização dos Estados Americanos, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "D",
-        "text": "A CIJ julga exclusivamente litígios entre Estados soberanos; o TPI julga indivíduos acusados dos crimes internacionais mais graves; e a Corte IDH julga a responsabilidade internacional dos Estados americanos (que aceitaram sua jurisdição) por violações a direitos humanos garantidos na CADH."
+        "text": "A CIJ julga exclusivamente litígios entre Estados soberanos; o TPI julga indivíduos acusados dos crimes internacionais mais graves; e a Corte idh julga a responsabilidade internacional dos Estados americanos por violações a direitos humanos garantidos na CADH."
       }
     ],
     "correctAnswer": "D",
@@ -6665,15 +6665,15 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Impõem o ensino exclusivo da língua portuguesa, proibindo dialetos ou línguas indígenas em escolas."
+        "text": "Impõem o ensino exclusivo da língua portuguesa, proibindo dialetos ou línguas indígenas em escolas, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "B",
-        "text": "Exigem que indígenas renunciem às línguas nativas para obter registro civil."
+        "text": "Exigem que indígenas renunciem às línguas nativas para obter registro civil, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "Restringem o ensino bilíngue apenas a escolas privadas custeadas por ONGs estrangeiras."
+        "text": "Restringem o ensino bilíngue apenas a escolas privadas custeadas por ONGs estrangeiras, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
@@ -6720,19 +6720,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Decidiu que degradação ambiental jamais pode configurar violação à Convenção Americana de Direitos Humanos."
+        "text": "Decidiu que degradação ambiental jamais pode configurar violação à Convenção Americana de Direitos Humanos, com impedimento à aplicação de sanções ou medidas contrárias à dignidade da pessoa humana."
       },
       {
         "letter": "B",
-        "text": "Excluiu qualquer dever estatal de acesso à informação ambiental ou participação pública."
+        "text": "Excluiu qualquer dever estatal de acesso à informação ambiental ou participação pública, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes."
       },
       {
         "letter": "C",
-        "text": "Limitou a responsabilidade estatal apenas a danos ocorridos dentro da capital do país."
+        "text": "Limitou a responsabilidade estatal apenas a danos ocorridos dentro da capital do país, observada a complementariedade entre o sistema global e o sistema interamericano de proteção. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "D",
-        "text": "Reconheceu a relação de interdependência e indivisibilidade entre direitos humanos e meio ambiente, afirmando que o direito a um meio ambiente sadio é direito autônomo tutelado pelo Art. 26 da CADH e que os Estados respondem inclusive por danos ambientais transfronteiriços que afetem direitos humanos fora de seu território sob seu controle efetivo."
+        "text": "Reconheceu a relação de interdependência e indivisibilidade entre direitos humanos e meio ambiente, afirmando que o direito a um meio ambiente sadio é direito autônomo tutelado da CADH e que os Estados respondem inclusive por danos ambientais transfronteiriços que afetem direitos humanos fora de seu território sob seu controle efetivo."
       }
     ],
     "correctAnswer": "D",
@@ -6775,19 +6775,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Estados podem formular reservas que esvaziem o direito à vida e à proibição da tortura."
+        "text": "Estados podem formular reservas que esvaziem o direito à vida e à proibição da tortura, sem admissão de norma interna posterior para descumprir obrigação internacional assumida. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais."
       },
       {
         "letter": "B",
-        "text": "A denúncia de tratado de direitos humanos apaga retroativamente todas as condenações internacionais pendentes."
+        "text": "A denúncia de tratado de direitos humanos apaga retroativamente todas as condenações internacionais pendentes, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana."
       },
       {
         "letter": "C",
-        "text": "O Pacto de São José proíbe em absoluto qualquer denúncia desde 1969."
+        "text": "O Pacto de São José proíbe em absoluto qualquer denúncia desde 1969, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "Reservas somente são admitidas se não forem incompatíveis com o objeto e a finalidade do tratado (Art. 19 CVDT e Art. 75 CADH); quanto à denúncia na CADH (Art. 78), exige aviso prévio de 1 ano e só pode ocorrer após 5 anos da entrada em vigor do tratado para o Estado, não o desobrigando de violações praticadas antes da produção de efeitos da denúncia (e tratados com status de Emenda Constitucional no Brasil seguem vedação de retrocesso/cláusulas pétreas)."
+        "text": "Reservas somente são admitidas se não forem incompatíveis com o objeto e a finalidade do tratado; quanto à denúncia na CADH, exige aviso prévio de 1 ano e só pode ocorrer após 5 anos da entrada em vigor do tratado para o Estado, não o desobrigando de violações praticadas antes da produção de efeitos da denúncia."
       }
     ],
     "correctAnswer": "D",
@@ -6830,19 +6830,19 @@ export const DIREITOS_HUMANOS_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O trabalho prisional deve ser prestado gratuitamente sem remição de pena."
+        "text": "O trabalho prisional deve ser prestado gratuitamente sem remição de pena, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar."
       },
       {
         "letter": "B",
-        "text": "Os presos condenados estão regidos integralmente pela CLT com direito a FGTS e aviso prévio."
+        "text": "Os presos condenados estão regidos integralmente pela CLT com direito a FGTS e aviso prévio, observada a complementariedade entre o sistema global e o sistema interamericano de proteção."
       },
       {
         "letter": "C",
-        "text": "É lícita a aplicação de cela escura e redução de alimentação como sanção disciplinar."
+        "text": "É lícita a aplicação de cela escura e redução de alimentação como sanção disciplinar, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos."
       },
       {
         "letter": "D",
-        "text": "O trabalho do preso não está sujeito ao regime da CLT (Art. 28, § 2º, LEP), mas deve ser remunerado (não podendo a remuneração ser inferior a 3/4 do salário mínimo — Art. 29 LEP!) e assegura remição da pena (1 dia de pena a cada 3 dias trabalhados — Art. 126 LEP), vedando-se penas de trabalho forçado ou castigos cruéis."
+        "text": "O trabalho do preso não está sujeito ao regime da CLT, mas deve ser remunerado e assegura remição da pena, vedando-se penas de trabalho forçado ou castigos cruéis."
       }
     ],
     "correctAnswer": "D",

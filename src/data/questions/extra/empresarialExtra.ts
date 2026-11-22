@@ -14,10 +14,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Antônio explora profissionalmente atividade econômica organizada de cultivo de soja em larga escala em sua propriedade rural, há cinco anos, sem nunca ter se inscrito na Junta Comercial. Desejando acessar os institutos da Recuperação Judicial previstos na Lei nº 11.101/2005, Antônio consulta um advogado. À luz do Código Civil e da Lei 14.112/2020:`,
     options: [
-      { letter: 'A', text: 'O produtor rural é obrigado a registrar-se na Junta Comercial antes do início de suas atividades, sob pena de ser empresário irregular sem acesso à recuperação judicial.' },
+      { letter: 'A', text: 'O produtor rural é obrigado a registrar-se na Junta Comercial antes do início de suas atividades, sob pena de ser empresário irregular sem acesso à recuperação judicial, em consonância com a preservação da empresa e a função social da atividade econômica.' },
       { letter: 'B', text: 'O registro do empresário rural na Junta Comercial é facultativo; contudo, uma vez inscrito, equipara-se ao empresário sujeito a registro, podendo requerer recuperação judicial comprovando o exercício da atividade rural por mais de 2 anos mediante documentos contábeis e fiscais.' },
-      { letter: 'C', text: 'O produtor rural pessoa física nunca pode requerer recuperação judicial, apenas sociedades anônimas rurais.' },
-      { letter: 'D', text: 'O cômputo dos 2 anos para recuperação judicial do produtor rural exige obrigatoriamente que o registro na Junta Comercial tenha sido feito há mais de 2 anos.' }
+      { letter: 'C', text: 'O produtor rural pessoa física nunca pode requerer recuperação judicial, apenas sociedades anônimas rurais, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada.' },
+      { letter: 'D', text: 'O cômputo dos 2 anos para recuperação judicial do produtor rural exige obrigatoriamente que o registro na Junta Comercial tenha sido feito há mais de 2 anos, com desconsideração direta da personalidade jurídica sem instauração prévia de incidente.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo o art. 971 do Código Civil, o empresário cuja atividade rural constitua sua principal profissão pode requerer inscrição no Registro Público de Empresas Mercantis (Junta Comercial), caso em que ficará equiparado ao empresário comum. Ademais, a Lei 14.112/2020 alterou o art. 48, §§ 2º e 3º, da Lei 11.101/2005 para permitir que o produtor rural comprove o prazo de 2 anos de exercício regular da atividade por meio da Escrituração Contábil Fiscal (ECF) ou livro caixa/DIRPF, mesmo que tenha se registrado na Junta Comercial recentemente.`,
@@ -44,10 +44,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Camila pretende constituir sozinha uma sociedade empresária de responsabilidade limitada para abrir uma clínica veterinária, dispondo de capital inicial de R$ 20.000,00 para integralizar à vista. Considerando a legislação societária vigente após a Lei nº 13.874/2019 e a Lei nº 14.195/2021:`,
     options: [
-      { letter: 'A', text: 'Camila deverá constituir uma EIRELI e integralizar capital mínimo de 100 salários mínimos.' },
-      { letter: 'B', text: 'Camila poderá constituir uma Sociedade Limitada Unipessoal (SLU), não havendo exigência de capital social mínimo nem necessidade de segundo sócio.' },
-      { letter: 'C', text: 'A sociedade limitada unipessoal só pode existir temporariamente por até 180 dias até o ingresso de novo sócio.' },
-      { letter: 'D', text: 'Na SLU, a responsabilidade da única sócia é sempre ilimitada perante os credores.' }
+      { letter: 'A', text: 'Camila deverá constituir uma EIRELI e integralizar capital mínimo de 100 salários mínimos, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' },
+      { letter: 'B', text: 'Camila poderá constituir uma Sociedade Limitada Unipessoal (slu), não havendo exigência de capital social mínimo nem necessidade de segundo sócio.' },
+      { letter: 'C', text: 'A sociedade limitada unipessoal só pode existir temporariamente por até 180 dias até o ingresso de novo sócio, com desconsideração direta da personalidade jurídica sem instauração prévia de incidente.' },
+      { letter: 'D', text: 'Na slu, a responsabilidade da única sócia é sempre ilimitada perante os credores, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 1.052, §§ 1º e 2º, do Código Civil (incluído pela Lei da Liberdade Econômica) passou a admitir expressamente a Sociedade Limitada constituída por uma única pessoa (SLU), sem capital mínimo e com plena limitação de responsabilidade ao capital integralizado. Ademais, a Lei 14.195/2021 extinguiu a antiga EIRELI, transformando todas as existentes em SLUs.`,
@@ -74,10 +74,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Em uma sociedade limitada composta por três sócios, pretende-se deliberar sobre a alteração do contrato social para ampliar o objeto social da empresa e, ainda, sobre a designação de administrador não sócio quando o capital social já está totalmente integralizado. Considerando as alterações promovidas pela Lei nº 14.451/2022 no Código Civil (Arts. 1.061 e 1.076):`,
     options: [
-      { letter: 'A', text: 'A modificação do contrato social continua exigindo 3/4 do capital social e a nomeação de administrador não sócio exige unanimidade.' },
-      { letter: 'B', text: 'Tanto a modificação do contrato social quanto a designação de administrador não sócio (com capital integralizado) exigem aprovação por votos correspondentes a mais de metade do capital social.' },
-      { letter: 'C', text: 'A alteração do contrato social exige unanimidade dos sócios em qualquer hipótese.' },
-      { letter: 'D', text: 'O administrador não sócio não precisa de aprovação em reunião ou assembleia se o contrato for omisso.' }
+      { letter: 'A', text: 'A modificação do contrato social continua exigindo 3/4 do capital social e a nomeação de administrador não sócio exige unanimidade, com inaplicabilidade automática dos efeitos falimentares fora das hipóteses legais taxativas.' },
+      { letter: 'B', text: 'Tanto a modificação do contrato social quanto a designação de administrador não sócio exigem aprovação por votos correspondentes a mais de metade do capital social.' },
+      { letter: 'C', text: 'A alteração do contrato social exige unanimidade dos sócios em qualquer hipótese, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' },
+      { letter: 'D', text: 'O administrador não sócio não precisa de aprovação em reunião ou assembleia se o contrato for omisso, em consonância com a preservação da empresa e a função social da atividade econômica.' }
     ],
     correctAnswer: 'B',
     justification: `A Lei nº 14.451/2022 reduziu os quóruns societários da Sociedade Limitada no Código Civil: (i) a modificação do contrato social (art. 1.076, II, c/c art. 1.071, V), antes de 3/4, passou a exigir MAIORIA ABSOLUTA (mais da metade do capital social); (ii) a designação de administrador não sócio com capital totalmente integralizado (art. 1.061), antes de 2/3, também passou a exigir MAIS DA METADE do capital social (e 2/3 se o capital ainda não estiver integralizado).`,
@@ -104,10 +104,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Credor quirografário de uma sociedade limitada que encerrou suas atividades sem pagar dívidas pede a desconsideração da personalidade jurídica alegando apenas a insolvência da empresa e o fato de pertencer a um grupo econômico. Conforme o Art. 50 do Código Civil:`,
     options: [
-      { letter: 'A', text: 'A mera existência de grupo econômico ou o simples encerramento irregular sem desvio de finalidade autoriza imediatamente a desconsideração civil.' },
+      { letter: 'A', text: 'A mera existência de grupo econômico ou o simples encerramento irregular sem desvio de finalidade autoriza imediatamente a desconsideração civil, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' },
       { letter: 'B', text: 'A desconsideração civil exige abuso da personalidade jurídica, caracterizado pelo desvio de finalidade ou pela confusão patrimonial, não bastando a mera existência de grupo econômico sem a presença desses requisitos.' },
-      { letter: 'C', text: 'A desconsideração atinge inclusive sócios minoritários que não tenham sido beneficiados direta ou indiretamente pelo abuso.' },
-      { letter: 'D', text: 'Não existe desconsideração inversa da personalidade jurídica no Código Civil.' }
+      { letter: 'C', text: 'A desconsideração atinge inclusive sócios minoritários que não tenham sido beneficiados direta ou indiretamente pelo abuso, com inaplicabilidade automática dos efeitos falimentares fora das hipóteses legais taxativas.' },
+      { letter: 'D', text: 'Não existe desconsideração inversa da personalidade jurídica no Código Civil, em consonância com a preservação da empresa e a função social da atividade econômica.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 50 do CC adota a Teoria Maior da Desconsideração: é indispensável comprovar abuso da personalidade (desvio de finalidade ou confusão patrimonial), atingindo apenas os sócios ou administradores beneficiados direta ou indiretamente. O § 4º expressamente dispõe que a mera existência de grupo econômico sem tais requisitos não autoriza a desconsideração. O § 3º prevê a desconsideração inversa.`,
@@ -134,10 +134,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `João vendeu o estabelecimento empresarial (trespasse) de sua padaria para Marcos por instrumento averbado no Registro Público e publicado na imprensa oficial. Consta na escrituração contábil regular da padaria uma dívida de R$ 50.000,00 com o fornecedor de farinha, vencida há 30 dias. Acerca da responsabilidade pelo pagamento dessa dívida segundo o Art. 1.146 do Código Civil:`,
     options: [
-      { letter: 'A', text: 'Apenas João (alienante) responde, pois o contrato de trespasse não transmite passivo ao adquirente.' },
+      { letter: 'A', text: 'Apenas João (alienante) responde, pois o contrato de trespasse não transmite passivo ao adquirente. Tal entendimento preserva o regime próprio das obrigações empresariais e cambiárias.' },
       { letter: 'B', text: 'O adquirente (Marcos) responde pelo pagamento dos débitos anteriores à transferência, desde que regularmente contabilizados, continuando João solidariamente obrigado pelo prazo de um ano, contado da publicação quanto aos créditos vencidos.' },
-      { letter: 'C', text: 'Marcos responde mesmo pelas dívidas ocultas não lançadas na contabilidade.' },
-      { letter: 'D', text: 'A cláusula de não restabelecimento impede João de concorrer com Marcos pelo prazo legal de 10 anos, se omisso o contrato.' }
+      { letter: 'C', text: 'Marcos responde mesmo pelas dívidas ocultas não lançadas na contabilidade, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' },
+      { letter: 'D', text: 'A cláusula de não restabelecimento impede João de concorrer com Marcos pelo prazo legal de 10 anos, se omisso o contrato, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' }
     ],
     correctAnswer: 'B',
     justification: `Nos termos do art. 1.146 do CC, no trespasse o adquirente responde pelo pagamento dos débitos anteriores à transferência, DESDE QUE REGULARMENTE CONTABILIZADOS, continuando o devedor primitivo (alienante) SOLIDARIAMENTE obrigado pelo prazo de 1 ANO — contado, quanto aos créditos vencidos, da publicação, e, quanto aos outros, da data do vencimento.`,
@@ -195,10 +195,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Sobre as garantias e formas de transferência nos títulos de crédito típicos (Decreto nº 57.663/66 - LUG e Código Civil), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'O avalista goza do benefício de ordem previsto na fiança civil, respondendo apenas subsidiariamente após excutidos os bens do devedor principal.' },
+      { letter: 'A', text: 'O avalista goza do benefício de ordem previsto na fiança civil, respondendo apenas subsidiariamente após excutidos os bens do devedor principal, com manutenção da estrutura de governança societária e da limitação de responsabilidade.' },
       { letter: 'B', text: 'O aval é garantia cambiária autônoma cujo obrigado equipara-se àquele cujo nome indicar, sendo solidária sua responsabilidade e inoponíveis as exceções pessoais do avalizado.' },
-      { letter: 'C', text: 'O endosso parcial é válido até o limite expressamente lançado no verso do título.' },
-      { letter: 'D', text: 'O endosso posterior ao protesto por falta de pagamento produz os mesmos efeitos do endosso cambiário comum.' }
+      { letter: 'C', text: 'O endosso parcial é válido até o limite expressamente lançado no verso do título, em consonância com a preservação da empresa e a função social da atividade econômica. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
+      { letter: 'D', text: 'O endosso posterior ao protesto por falta de pagamento produz os mesmos efeitos do endosso cambiário comum, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' }
     ],
     correctAnswer: 'B',
     justification: `O aval (art. 32 da LUG) é garantia autônoma e solidária típica dos títulos de crédito: o dador de aval é responsável da mesma maneira que a pessoa por ele afiançada, mantendo-se sua obrigação mesmo que a obrigação garantida seja nula (salvo vício de forma). Não há benefício de ordem como na fiança.`,
@@ -225,10 +225,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Uma indústria vendeu mercadorias a prazo para uma loja varejista, entregou os produtos mediante assinatura no canhoto da nota fiscal e emitiu uma duplicata mercantil. A loja recebeu o título para aceite, porém reteve-o injustificadamente sem devolvê-lo nem pagar no vencimento. Para instruir a execução judicial contra a loja compradora, a indústria deverá:`,
     options: [
-      { letter: 'A', text: 'Ajuizar ação monitória exclusivamente, pois duplicata sem assinatura de aceite não pode ser executada.' },
+      { letter: 'A', text: 'Ajuizar ação monitória exclusivamente, pois duplicata sem assinatura de aceite não pode ser executada. Tal entendimento preserva o regime próprio das obrigações empresariais e cambiárias.' },
       { letter: 'B', text: 'Realizar o protesto por indicações do portador e instruir a execução com o instrumento de protesto acompanhado do comprovante de entrega e recebimento da mercadoria.' },
-      { letter: 'C', text: 'Ingressar com pedido de falência imediato sem necessidade de protesto.' },
-      { letter: 'D', text: 'Ajuizar execução baseada somente no boleto bancário sem comprovante de entrega.' }
+      { letter: 'C', text: 'Ingressar com pedido de falência imediato sem necessidade de protesto, com manutenção da estrutura de governança societária e da limitação de responsabilidade.' },
+      { letter: 'D', text: 'Ajuizar execução baseada somente no boleto bancário sem comprovante de entrega, em consonância com a preservação da empresa e a função social da atividade econômica. Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo o art. 15, II, da Lei das Duplicatas (Lei 5.474/68), a duplicata não aceita constitui título executivo extrajudicial desde que reúna três requisitos cumulativos: (i) haja sido protestada (inclusive por indicação quando retida ou escritural); (ii) esteja acompanhada de documento hábil comprobatório da entrega e recebimento da mercadoria; e (iii) o sacado não tenha recusado o aceite pelos motivos legais dos arts. 7º e 8º.`,
@@ -285,10 +285,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'AUTORAL_PROFESSOR',
     statement: `Sobre a estrutura administrativa e fiscalizatória das sociedades anônimas na Lei nº 6.404/76 (com as alterações da Lei 14.195/2021), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'O Conselho de Administração é órgão facultativo tanto nas companhias abertas quanto nas fechadas.' },
+      { letter: 'A', text: 'O Conselho de Administração é órgão facultativo tanto nas companhias abertas quanto nas fechadas, com manutenção da estrutura de governança societária e da limitação de responsabilidade. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
       { letter: 'B', text: 'O Conselho de Administração é obrigatório nas companhias abertas, nas de capital autorizado e nas sociedades de economia mista, enquanto a Diretoria pode ser composta por no mínimo 1 diretor.' },
-      { letter: 'C', text: 'O Conselho Fiscal é órgão de funcionamento permanente obrigatório em todas as companhias fechadas.' },
-      { letter: 'D', text: 'A diretoria da sociedade anônima precisa ser composta por no mínimo 3 diretores residentes no Brasil.' }
+      { letter: 'C', text: 'O Conselho Fiscal é órgão de funcionamento permanente obrigatório em todas as companhias fechadas, com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso.' },
+      { letter: 'D', text: 'A diretoria da sociedade anônima precisa ser composta por no mínimo 3 diretores residentes no Brasil, em consonância com a preservação da empresa e a função social da atividade econômica.' }
     ],
     correctAnswer: 'B',
     justification: `O Conselho de Administração é obrigatório nas companhias abertas, nas de capital autorizado (arts. 138, § 2º e 168) e nas sociedades de economia mista (art. 239). Ademais, a Lei 14.195/2021 alterou o art. 143 da LSA reduzindo o número mínimo de diretores de 2 para 1 (um) diretor e dispensou a exigência de residência no país (desde que mantenha procurador residente no Brasil para receber citações — art. 146, § 2º).`,
@@ -315,10 +315,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Deferido o processamento da recuperação judicial da sociedade empresária Beta, iniciou-se o chamado "stay period" (suspensão do curso da prescrição e de todas as ações e execuções em face do devedor). Segundo o Art. 6º, § 4º, da Lei nº 11.101/2005 (com redação dada pela Lei nº 14.112/2020):`,
     options: [
-      { letter: 'A', text: 'O stay period é de 180 dias improrrogáveis em qualquer circunstância.' },
+      { letter: 'A', text: 'O stay period é de 180 dias improrrogáveis em qualquer circunstância, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' },
       { letter: 'B', text: 'A suspensão perdurará pelo prazo de 180 dias, contado do deferimento do processamento da recuperação, prorrogável por igual período uma única vez em caráter excepcional, desde que o devedor não haja concorrido com a superação do lapso temporal.' },
-      { letter: 'C', text: 'O stay period suspende inclusive as execuções fiscais tributárias pelo mesmo prazo.' },
-      { letter: 'D', text: 'Durante o stay period ficam suspensas até mesmo as ações que demandarem quantia ilíquida em fase de conhecimento.' }
+      { letter: 'C', text: 'O stay period suspende inclusive as execuções fiscais tributárias pelo mesmo prazo, em consonância com a preservação da empresa e a função social da atividade econômica. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
+      { letter: 'D', text: 'Durante o stay period ficam suspensas até mesmo as ações que demandarem quantia ilíquida em fase de conhecimento, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 6º, § 4º, da Lei 11.101/2005 (alterado pela Lei 14.112/2020) fixa o stay period em 180 dias, prorrogável por igual período UMA ÚNICA VEZ em caráter excepcional, se o devedor não tiver dado causa ao atraso. Ações de quantia ilíquida continuam tramitando (§ 1º) e execuções fiscais não são suspensas pelo deferimento (§ 7º-B), embora o juízo da recuperação possa controlar atos de constrição sobre bens de capital essenciais.`,
@@ -345,10 +345,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Uma empresa em recuperação judicial adquiriu uma máquina industrial essencial à sua linha de produção mediante contrato de alienação fiduciária em garantia firmado com um banco, antes do pedido de recuperação. Sobre os efeitos da recuperação judicial em face desse crédito fiduciário (Art. 49, § 3º, LRF):`,
     options: [
-      { letter: 'A', text: 'O credor fiduciário submete-se integralmente ao plano de recuperação judicial como credor com garantia real.' },
+      { letter: 'A', text: 'O credor fiduciário submete-se integralmente ao plano de recuperação judicial como credor com garantia real, em consonância com a preservação da empresa e a função social da atividade econômica.' },
       { letter: 'B', text: 'O credor proprietário fiduciário não se submete aos efeitos da recuperação judicial; contudo, não é permitida durante o stay period a venda ou retirada do estabelecimento do devedor dos bens de capital essenciais a sua atividade empresarial.' },
-      { letter: 'C', text: 'A máquina pode ser apreendida pelo banco já no dia seguinte ao deferimento da recuperação judicial.' },
-      { letter: 'D', text: 'Créditos trabalhistas também ficam excluídos dos efeitos da recuperação judicial.' }
+      { letter: 'C', text: 'A máquina pode ser apreendida pelo banco já no dia seguinte ao deferimento da recuperação judicial, com produção de efeitos cambiários autônomos e literais para execução contra coobrigados. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
+      { letter: 'D', text: 'Créditos trabalhistas também ficam excluídos dos efeitos da recuperação judicial, com manutenção da estrutura de governança societária e da limitação de responsabilidade.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 49, § 3º, da LRF exclui da recuperação judicial o credor titular da posição de proprietário fiduciário de bens móveis ou imóveis, arrendador mercantil, proprietário/promitente vendedor com reserva de domínio e adiantamento a contrato de câmbio (ACC). Porém, em sua parte final, proíbe a retirada dos bens de capital essenciais à atividade durante o prazo de suspensão (stay period).`,
@@ -375,9 +375,9 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'AUTORAL_PROFESSOR',
     statement: `Decretada a falência de uma sociedade empresária, após pagos os créditos extraconcursais do Art. 84, inicia-se o pagamento dos créditos concursais conforme a ordem atual do Art. 83 da Lei nº 11.101/2005 (após a Lei 14.112/2020). Assinale a opção que apresenta corretamente a ordem dos créditos concursais:`,
     options: [
-      { letter: 'A', text: '1º Tributários; 2º Trabalhistas até 150 salários mínimos; 3º Garantia Real.' },
-      { letter: 'B', text: '1º Trabalhistas (até 150 salários mínimos por credor) e acidentários; 2º Garantia Real (até o limite do bem gravado); 3º Tributários; 4º Quirografários (que passaram a englobar os antigos privilégios especial e geral).' },
-      { letter: 'C', text: '1º Garantia Real; 2º Trabalhistas; 3º Quirografários; 4º Tributários.' },
+      { letter: 'A', text: '1º Tributários; 2º Trabalhistas até 150 salários mínimos; 3º Garantia Real. Tal entendimento preserva o regime próprio das obrigações empresariais e cambiárias.' },
+      { letter: 'B', text: '1º Trabalhistas e acidentários; 2º Garantia Real; 3º Tributários; 4º Quirografários.' },
+      { letter: 'C', text: '1º Garantia Real; 2º Trabalhistas; 3º Quirografários; 4º Tributários. Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso.' },
       { letter: 'D', text: 'As multas contratuais e penas pecuniárias possuem preferência sobre os créditos quirografários.' }
     ],
     correctAnswer: 'B',
@@ -405,10 +405,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Uma rede de cafeterias pretende expandir sua marca por meio do sistema de franquia empresarial. De acordo com a Lei de Franquias vigente (Lei nº 13.966/2019), a Circular de Oferta de Franquia (COF) deve ser entregue ao candidato a franqueado com antecedência mínima de:`,
     options: [
-      { letter: 'A', text: '30 dias antes da assinatura do contrato ou pagamento de qualquer taxa, gerando a inobservância nulidade absoluta insanável.' },
+      { letter: 'A', text: '30 dias antes da assinatura do contrato ou pagamento de qualquer taxa, gerando a inobservância nulidade absoluta insanável, com inaplicabilidade automática dos efeitos falimentares fora das hipóteses legais taxativas.' },
       { letter: 'B', text: '10 dias antes da assinatura do contrato ou pré-contrato de franquia ou do pagamento de qualquer tipo de taxa, sob pena de o franqueado poder arguir anulabilidade ou nulidade e exigir restituição corrigida das quantias pagas.' },
-      { letter: 'C', text: '5 dias antes da inauguração da loja franqueada.' },
-      { letter: 'D', text: 'O franqueador possui vínculo trabalhista presumido com os empregados contratados pelo franqueado.' }
+      { letter: 'C', text: '5 dias antes da inauguração da loja franqueada, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
+      { letter: 'D', text: 'O franqueador possui vínculo trabalhista presumido com os empregados contratados pelo franqueado, com manutenção da estrutura de governança societária e da limitação de responsabilidade.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 2º, §§ 1º e 2º, da Lei 13.966/2019 determina a entrega obrigatória da COF com no mínimo 10 dias de antecedência da assinatura de contrato/pré-contrato ou pagamento de taxa, sob pena de anulabilidade/nulidade e devolução corrigida dos valores pagos. Além disso, o art. 1º deixa expresso que a franquia não caracteriza relação de consumo nem vínculo empregatício entre franqueador e franqueado ou seus empregados.`,
@@ -435,10 +435,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Uma empresa farmacêutica brasileira desenvolveu uma molécula inédita de medicamento e depositou o pedido de patente de invenção junto ao INPI. Considerando a Lei nº 9.279/96 (LPI) e a decisão do STF na ADI 5529 sobre os prazos de vigência das patentes e das marcas:`,
     options: [
-      { letter: 'A', text: 'A patente de invenção vigora por 20 anos contados da data do depósito, não se aplicando mais o antigo prazo mínimo de 10 anos contados da concessão (parágrafo único do Art. 40 declarado inconstitucional pelo STF).' },
-      { letter: 'B', text: 'O registro de marca vigora pelo prazo de 15 anos improrrogáveis.' },
-      { letter: 'C', text: 'A patente de modelo de utilidade vigora por 20 anos contados da concessão.' },
-      { letter: 'D', text: 'Tanto a patente de invenção quanto o registro de marca são renováveis indefinidamente por períodos sucessivos.' }
+      { letter: 'A', text: 'A patente de invenção vigora por 20 anos contados da data do depósito, não se aplicando mais o antigo prazo mínimo de 10 anos contados da concessão.' },
+      { letter: 'B', text: 'O registro de marca vigora pelo prazo de 15 anos improrrogáveis, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' },
+      { letter: 'C', text: 'A patente de modelo de utilidade vigora por 20 anos contados da concessão, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' },
+      { letter: 'D', text: 'Tanto a patente de invenção quanto o registro de marca são renováveis indefinidamente por períodos sucessivos, em consonância com a preservação da empresa e a função social da atividade econômica.' }
     ],
     correctAnswer: 'A',
     justification: `Pelo art. 40 da LPI, a patente de invenção vigora por 20 anos e a de modelo de utilidade por 15 anos, contados da data do depósito. Na ADI 5529, o STF declarou inconstitucional o parágrafo único do art. 40 (que estendia o prazo para no mínimo 10 anos após a concessão), eliminando a prorrogação automática. Já a marca vigora por 10 anos da concessão, prorrogáveis por períodos iguais e sucessivos indefinidamente (art. 133).`,
@@ -466,10 +466,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Em financiamento de veículo garantido por alienação fiduciária, o devedor fiduciante atrasou três parcelas mensais consecutivas. Para constituir o devedor em mora e viabilizar a busca e apreensão do bem conforme o Decreto-Lei nº 911/69 e a Súmula 72 do STJ:`,
     options: [
-      { letter: 'A', text: 'A mora decorre automaticamente do vencimento, comprovada por carta registrada com aviso de recebimento enviada ao endereço do devedor no contrato (não se exigindo que a assinatura do AR seja do próprio destinatário) ou por protesto do título.' },
-      { letter: 'B', text: 'A comprovação da mora exige notificação pessoal exclusivamente por oficial do cartório, assinada de próprio punho pelo devedor.' },
-      { letter: 'C', text: 'Após a execução da liminar de busca e apreensão, o devedor tem 30 dias para purgar a mora pagando apenas as parcelas vencidas.' },
-      { letter: 'D', text: 'A propriedade resolúvel do bem pertence originalmente ao devedor fiduciante.' }
+      { letter: 'A', text: 'A mora decorre automaticamente do vencimento, comprovada por carta registrada com aviso de recebimento enviada ao endereço do devedor no contrato ou por protesto do título.' },
+      { letter: 'B', text: 'A comprovação da mora exige notificação pessoal exclusivamente por oficial do cartório, assinada de próprio punho pelo devedor, com desconsideração direta da personalidade jurídica sem instauração prévia de incidente.' },
+      { letter: 'C', text: 'Após a execução da liminar de busca e apreensão, o devedor tem 30 dias para purgar a mora pagando apenas as parcelas vencidas, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' },
+      { letter: 'D', text: 'A propriedade resolúvel do bem pertence originalmente ao devedor fiduciante, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' }
     ],
     correctAnswer: 'A',
     justification: `Segundo o art. 2º, § 2º, do DL 911/69, a mora decorre do simples vencimento do prazo para pagamento e poderá ser comprovada por carta registrada com aviso de recebimento, não se exigindo que a assinatura constante do AR seja a do próprio destinatário (ou por protesto). Após a execução da liminar, o devedor tem 5 dias para pagar a integralidade da dívida pendente (Súmula 72 STJ / Tema 722) para reaver o bem livre de ônus.`,
@@ -496,10 +496,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Um credor titular de nota promissória vencida no valor de R$ 42.000,00 (inferior a 40 salários mínimos vigentes à época) pretende requerer a falência de uma sociedade empresária devedora. Nos termos do Art. 94, I, da Lei nº 11.101/2005:`,
     options: [
-      { letter: 'A', text: 'Qualquer dívida protestada autoriza o pedido de falência por impontualidade, independentemente do valor.' },
+      { letter: 'A', text: 'Qualquer dívida protestada autoriza o pedido de falência por impontualidade, independentemente do valor, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
       { letter: 'B', text: 'O pedido de falência fundado na impontualidade injustificada exige obrigação líquida materializada em título executivo protestado cuja soma ultrapasse o equivalente a 40 salários mínimos na data do pedido.' },
-      { letter: 'C', text: 'Os credores não podem reunir-se em litisconsórcio para alcançar o piso de 40 salários mínimos.' },
-      { letter: 'D', text: 'A execução frustrada (Art. 94, II) também exige o piso mínimo de 40 salários mínimos.' }
+      { letter: 'C', text: 'Os credores não podem reunir-se em litisconsórcio para alcançar o piso de 40 salários mínimos, com afastamento da responsabilidade pessoal dos sócios sem prévia demonstração de abuso.' },
+      { letter: 'D', text: 'A execução frustrada também exige o piso mínimo de 40 salários mínimos, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 94, I, da LRF exige para o pedido de falência por impontualidade injustificada que a obrigação líquida materializada em título(s) executivo(s) protestado(s) ultrapasse o equivalente a 40 salários mínimos na data do pedido (admitido o litisconsórcio de credores no § 1º para somar o piso). Já a execução frustrada (inciso II) e os atos de falência (inciso III) NÃO dependem desse piso de 40 salários mínimos.`,
@@ -526,10 +526,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Na omissão do contrato social de uma sociedade limitada, um dos sócios deseja ceder suas quotas sociais a um terceiro estranho ao quadro societário. De acordo com o Art. 1.057 do Código Civil:`,
     options: [
-      { letter: 'A', text: 'Na omissão do contrato, a cessão de quotas a estranho é livre e independe de audiência dos demais sócios.' },
+      { letter: 'A', text: 'Na omissão do contrato, a cessão de quotas a estranho é livre e independe de audiência dos demais sócios, com manutenção da estrutura de governança societária e da limitação de responsabilidade.' },
       { letter: 'B', text: 'Na omissão do contrato, o sócio pode ceder sua quota, total ou parcialmente, a quem seja sócio independentemente de audiência dos outros, ou a estranho, se não houver oposição de titulares de mais de um quarto (1/4) do capital social.' },
-      { letter: 'C', text: 'A cessão a estranho exige unanimidade absoluta mesmo que o contrato seja omisso.' },
-      { letter: 'D', text: 'Após averbada a alteração da saída do sócio cedente, ele fica imediatamente livre de qualquer responsabilidade pelas obrigações sociais anteriores.' }
+      { letter: 'C', text: 'A cessão a estranho exige unanimidade absoluta mesmo que o contrato seja omisso, com produção de efeitos cambiários autônomos e literais para execução contra coobrigados. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
+      { letter: 'D', text: 'Após averbada a alteração da saída do sócio cedente, ele fica imediatamente livre de qualquer responsabilidade pelas obrigações sociais anteriores, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 1.057 do CC determina que, na omissão do contrato social: entre sócios a cessão é livre; para estranho, é permitida se NÃO houver oposição de titulares de mais de 1/4 (25%) do capital social. E quanto às obrigações sociais anteriores à averbação, o cedente responde solidariamente com o cessionário perante a sociedade e terceiros até 2 anos depois de averbada a modificação (art. 1.003, parágrafo único).`,
@@ -556,10 +556,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `A sociedade limitada "Horizonte Alimentos Ltda." registrou seu nome empresarial exclusivamente na Junta Comercial do Estado de Minas Gerais. Um ano depois, constatou que outra empresa registrou o mesmo nome "Horizonte Alimentos Ltda." na Junta Comercial do Estado de Pernambuco. Sobre a proteção jurídica do nome empresarial segundo o Código Civil:`,
     options: [
-      { letter: 'A', text: 'O registro na Junta Comercial de um Estado garante proteção automática e exclusiva ao nome empresarial em todo o território nacional.' },
-      { letter: 'B', text: 'A inscrição do empresário ou dos atos constitutivos das pessoas jurídicas na Junta Comercial assegura o uso exclusivo do nome nos limites do respectivo Estado, podendo o titular estender a proteção a todo o território nacional mediante registro especial ou registro de marca no INPI.' },
-      { letter: 'C', text: 'A sociedade limitada só pode usar denominação, sendo-lhe proibido adotar firma social.' },
-      { letter: 'D', text: 'O registro de marca no INPI confere proteção apenas municipal.' }
+      { letter: 'A', text: 'O registro na Junta Comercial de um Estado garante proteção automática e exclusiva ao nome empresarial em todo o território nacional, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' },
+      { letter: 'B', text: 'A inscrição do empresário ou dos atos constitutivos das pessoas jurídicas na Junta Comercial assegura o uso exclusivo do nome nos limites do respectivo Estado, podendo o titular estender a proteção a todo o território nacional mediante registro especial ou registro de marca no inpi.' },
+      { letter: 'C', text: 'A sociedade limitada só pode usar denominação, sendo-lhe proibido adotar firma social, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada.' },
+      { letter: 'D', text: 'O registro de marca no inpi confere proteção apenas municipal, em consonância com a preservação da empresa e a função social da atividade econômica. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' }
     ],
     correctAnswer: 'B',
     justification: `Conforme o art. 1.166 do Código Civil, a inscrição na Junta Comercial assegura o uso exclusivo do nome empresarial nos limites do respectivo Estado. Para estender a todo o país, deve requerer arquivamento nas demais Juntas (DNRC/DREI) ou registrar o sinal distintivo como marca no INPI (âmbito nacional — art. 129 da LPI). Além disso, a sociedade limitada pode adotar firma OU denominação (art. 1.158).`,
@@ -586,10 +586,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'AUTORAL_PROFESSOR',
     statement: `Submetido o Plano de Recuperação Judicial à Assembleia Geral de Credores, este obteve aprovação nas classes I (trabalhistas), II (garantia real) e IV (ME/EPP), mas foi rejeitado por pequena margem na classe III (quirografários), onde recebeu aprovação de 45% dos credores presentes por valor e por cabeça. O juiz poderá ainda assim conceder a recuperação judicial por "cramdown" (Art. 58, § 1º, LRF)?`,
     options: [
-      { letter: 'A', text: 'Não, pois a rejeição em uma única classe impõe sempre a decretação imediata da falência.' },
-      { letter: 'B', text: 'Sim, desde que cumpridos cumulativamente os requisitos do Art. 58, § 1º: voto favorável de credores que representem mais da metade do valor de todos os créditos presentes à assembleia, aprovação da maioria das classes, e na classe que rejeitou, voto favorável de mais de 1/3 dos credores.' },
-      { letter: 'C', text: 'Sim, independentemente da votação obtida na classe dissidente.' },
-      { letter: 'D', text: 'O cramdown é permitido inclusive quando o plano impõe tratamento diferenciado desfavorável à classe que o rejeitou.' }
+      { letter: 'A', text: 'Não, pois a rejeição em uma única classe impõe sempre a decretação imediata da falência. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
+      { letter: 'B', text: 'Sim, desde que cumpridos cumulativamente os requisitos: voto favorável de credores que representem mais da metade do valor de todos os créditos presentes à assembleia, aprovação da maioria das classes, e na classe que rejeitou, voto favorável de mais de 1/3 dos credores.' },
+      { letter: 'C', text: 'Sim, independentemente da votação obtida na classe dissidente, em consonância com a preservação da empresa e a função social da atividade econômica.' },
+      { letter: 'D', text: 'O cramdown é permitido inclusive quando o plano impõe tratamento diferenciado desfavorável à classe que o rejeitou, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' }
     ],
     correctAnswer: 'B',
     justification: `O art. 58, § 1º, da LRF autoriza o juiz a conceder a recuperação judicial mesmo sem aprovação em todas as classes (cramdown) quando cumulativamente: I - voto favorável de credores que representem mais da metade do valor de todos os créditos presentes, independentemente de classes; II - aprovação de 3 das classes (ou 2 se houver 3, ou ao menos 1 se houver 2); III - na classe que rejeitou, voto favorável de MAIS DE 1/3 dos credores (computados por valor e cabeça conforme art. 45), além de não implicar tratamento diferenciado entre credores da classe dissidente (§ 2º).`,
@@ -616,10 +616,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Pedro (investidor oculto) e Lucas (empreendedor) constituíram uma Sociedade em Conta de Participação (SCP) para realizar um empreendimento imobiliário específico, no qual apenas Lucas atua em seu próprio nome perante fornecedores e compradores. Com base no Código Civil (Arts. 991 a 996):`,
     options: [
-      { letter: 'A', text: 'A Sociedade em Conta de Participação adquire personalidade jurídica própria após registro obrigatório na Junta Comercial.' },
-      { letter: 'B', text: 'A atividade constitutiva do objeto social é exercida unicamente pelo sócio ostensivo (Lucas), em seu nome individual e sob sua própria e exclusiva responsabilidade, participando os demais (sócios participantes) dos resultados correspondentes.' },
-      { letter: 'C', text: 'O contrato social da SCP produz efeitos imediatos perante terceiros mesmo sem participação do sócio participante nas relações externas.' },
-      { letter: 'D', text: 'A falência do sócio participante acarreta automaticamente a falência do sócio ostensivo.' }
+      { letter: 'A', text: 'A Sociedade em Conta de Participação adquire personalidade jurídica própria após registro obrigatório na Junta Comercial, com livre alienação e circulação do título ou participação societária entre os interessados.' },
+      { letter: 'B', text: 'A atividade constitutiva do objeto social é exercida unicamente pelo sócio ostensivo (Lucas), em seu nome individual e sob sua própria e exclusiva responsabilidade, participando os demais dos resultados correspondentes.' },
+      { letter: 'C', text: 'O contrato social da scp produz efeitos imediatos perante terceiros mesmo sem participação do sócio participante nas relações externas, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' },
+      { letter: 'D', text: 'A falência do sócio participante acarreta automaticamente a falência do sócio ostensivo, em consonância com a preservação da empresa e a função social da atividade econômica.' }
     ],
     correctAnswer: 'B',
     justification: `A Sociedade em Conta de Participação (art. 991 do CC) é sociedade NÃO PERSONIFICADA: eventual registro de seu contrato social no cartório não lhe confere personalidade jurídica (art. 993). A atividade é exercida unicamente pelo sócio ostensivo em nome próprio e sob sua exclusiva responsabilidade; os sócios participantes (antigos ocultos) não se obrigam perante terceiros, salvo se tomarem parte nas relações do ostensivo com terceiros (art. 993, par. único).`,
@@ -646,10 +646,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'ACADEMICA',
     statement: `Um representante comercial autônomo com contrato por prazo indeterminado há 5 anos foi rescindido imotivadamente pela empresa representada sem justa causa nem aviso prévio de 30 dias. Conforme a Lei nº 4.886/65:`,
     options: [
-      { letter: 'A', text: 'Não há qualquer indenização mínima legal na rescisão sem justa causa de representante comercial.' },
-      { letter: 'B', text: 'É devida indenização mínima legal não inferior a 1/12 (um doze avos) do total da retribuição auferida durante o tempo em que exerceu a representação, além de aviso prévio de 30 dias (ou indenização correspondente a 1/3 das comissões dos últimos 3 meses).' },
-      { letter: 'C', text: 'É permitida a inclusão de cláusula del credere responsabilizando automaticamente o representante pelo inadimplemento do comprador.' },
-      { letter: 'D', text: 'As ações de cobrança de comissões prescrevem em 10 anos.' }
+      { letter: 'A', text: 'Não há qualquer indenização mínima legal na rescisão sem justa causa de representante comercial, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada.' },
+      { letter: 'B', text: 'É devida indenização mínima legal não inferior a 1/12 (um doze avos) do total da retribuição auferida durante o tempo em que exerceu a representação, além de aviso prévio de 30 dias.' },
+      { letter: 'C', text: 'É permitida a inclusão de cláusula del credere responsabilizando automaticamente o representante pelo inadimplemento do comprador, com livre alienação e circulação do título ou participação societária entre os interessados.' },
+      { letter: 'D', text: 'As ações de cobrança de comissões prescrevem em 10 anos, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo art. 27, "j", da Lei 4.886/65, na rescisão sem justa causa do contrato por tempo indeterminado, a indenização devida ao representante não poderá ser inferior a 1/12 do total das retribuições auferidas durante todo o contrato, somada ao aviso prévio de 30 dias ou 1/3 das comissões auferidas nos últimos 3 meses (art. 34). Além disso, o art. 43 PROÍBE expressamente a cláusula del credere.`,
@@ -676,10 +676,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Sobre a estrutura cambiária da Letra de Câmbio e da Nota Promissória regidas pelo Decreto nº 57.663/66 (Lei Uniforme de Genebra), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A nota promissória exige apresentação para aceite pelo beneficiário.' },
+      { letter: 'A', text: 'A nota promissória exige apresentação para aceite pelo beneficiário, em consonância com a preservação da empresa e a função social da atividade econômica. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
       { letter: 'B', text: 'A letra de câmbio é uma ordem de pagamento, na qual o sacado só se torna obrigado cambiário principal caso dê o aceite; já a nota promissória é uma promessa direta de pagamento que dispensa aceite.' },
-      { letter: 'C', text: 'A recusa de aceite na letra de câmbio pelo sacado impede o vencimento antecipado do título contra o sacador.' },
-      { letter: 'D', text: 'A cláusula "não à ordem" impede a circulação do título até mesmo por cessão ordinária.' }
+      { letter: 'C', text: 'A recusa de aceite na letra de câmbio pelo sacado impede o vencimento antecipado do título contra o sacador, com manutenção da estrutura de governança societária e da limitação de responsabilidade.' },
+      { letter: 'D', text: 'A cláusula "não à ordem" impede a circulação do título até mesmo por cessão ordinária, com afastamento da responsabilidade pessoal dos sócios sem prévia demonstração de abuso.' }
     ],
     correctAnswer: 'B',
     justification: `Na letra de câmbio há três figuras originárias (sacador, sacado e tomador), sendo uma ORDEM de pagamento: o sacado só ingressa na relação cambiária se aceitar (art. 28 LUG). Na nota promissória há apenas duas figuras (emitente/subscritor e beneficiário), configurando PROMESSA direta de pagamento, motivo pelo qual não comporta aceite (art. 78 LUG).`,
@@ -706,10 +706,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'OFICIAL_OAB',
     statement: `Uma faturizadora (empresa de factoring) adquiriu duplicatas mercantis sacadas por uma indústria contra um supermercado, pagando o valor com deságio. No vencimento, o supermercado tornou-se insolvente e deixou de pagar os títulos válidos e regulares. Desejando recuperar o valor, a faturizadora pretende cobrar regressivamente da indústria faturizada. Segundo a jurisprudência consolidada do STJ:`,
     options: [
-      { letter: 'A', text: 'A faturizadora possui direito de regresso irrestrito contra o faturizado em razão da simples inadimplência do sacado.' },
+      { letter: 'A', text: 'A faturizadora possui direito de regresso irrestrito contra o faturizado em razão da simples inadimplência do sacado, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' },
       { letter: 'B', text: 'No contrato de factoring, o risco pela solvência dos títulos adquiridos é assumido pela faturizadora, sendo nula a cláusula de regresso ou garantia pela simples inadimplência, salvo se o título for viciado ou inexistente (fria).' },
-      { letter: 'C', text: 'O contrato de factoring submete-se às taxas de juros bancárias reguladas pelo Banco Central.' },
-      { letter: 'D', text: 'A indústria faturizada responde solidariamente por aval em qualquer operação de fomento mercantil.' }
+      { letter: 'C', text: 'O contrato de factoring submete-se às taxas de juros bancárias reguladas pelo Banco Central, em consonância com a preservação da empresa e a função social da atividade econômica.' },
+      { letter: 'D', text: 'A indústria faturizada responde solidariamente por aval em qualquer operação de fomento mercantil, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' }
     ],
     correctAnswer: 'B',
     justification: `O STJ pacifica que é da essência do contrato de factoring a transferência definitiva do risco do inadimplemento (insolvência do sacado) à faturizadora — razão pela qual ela cobra o deságio (fator). Portanto, é nula estipulação que responsabilize o faturizado pela solvência do devedor; o faturizado só responde pela EXISTÊNCIA e LEGITIMIDADE (veritas nominis) do crédito cedido (ex.: duplicata simulada ou já quitada antes da cessão).`,
@@ -737,10 +737,10 @@ export const EMPRESARIAL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'AUTORAL_PROFESSOR',
     statement: `Independentemente do seu objeto social (mesmo que realize compra e venda de mercadorias ou serviços agrícolas em larga escala), a Sociedade Cooperativa classifica-se juridicamente no Direito Brasileiro como:`,
     options: [
-      { letter: 'A', text: 'Sociedade empresária sujeita à falência e recuperação judicial.' },
+      { letter: 'A', text: 'Sociedade empresária sujeita à falência e recuperação judicial, com manutenção da estrutura de governança societária e da limitação de responsabilidade. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
       { letter: 'B', text: 'Sociedade simples por força de lei, inscrita na Junta Comercial por previsão legal específica, salvo as cooperativas médicas sujeitas a regras próprias ou autorização especial na LRF.' },
-      { letter: 'C', text: 'Associação civil sem finalidade econômica.' },
-      { letter: 'D', text: 'Sociedade por ações de capital fechado.' }
+      { letter: 'C', text: 'Associação civil sem finalidade econômica, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' },
+      { letter: 'D', text: 'Sociedade por ações de capital fechado, em consonância com a preservação da empresa e a função social da atividade econômica.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo art. 982, parágrafo único, do CC: "Independentemente de seu objeto, considera-se empresária a sociedade por ações; e, simples, a cooperativa". Por expressa disposição da Lei 5.764/71, seus atos são arquivados na Junta Comercial (exceção procedimental à regra do RCPJ), e as cooperativas médicas operadoras de planos de saúde passaram a ter previsão especial de recuperação judicial no art. 6º, § 13, LRF (Lei 14.112/2020), mantendo a regra geral de não sujeição das cooperativas à falência.`,

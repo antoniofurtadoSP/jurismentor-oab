@@ -17,19 +17,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É vedada a analogia in malam partem para criar crimes ou agravar penas em razão do princípio da reserva legal estrita; contudo, admite-se a analogia in bonam partem para beneficiar o acusado em normas permissivas ou exculpantes."
+        "text": "É vedada a analogia in malam partem para criar crimes ou agravar penas em razão do princípio da reserva legal estrita."
       },
       {
         "letter": "B",
-        "text": "A analogia é integralmente proibida no Direito Penal, seja para prejudicar, seja para beneficiar o réu."
+        "text": "A analogia é integralmente proibida no Direito Penal, seja para prejudicar, seja para beneficiar o réu. A consequência jurídica se impõe de forma uniforme independentemente das circunstâncias posteriores."
       },
       {
         "letter": "C",
-        "text": "Admite-se a analogia in malam partem apenas nos crimes contra a ordem econômica e tributária."
+        "text": "Admite-se a analogia in malam partem apenas nos crimes contra a ordem econômica e tributária, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "D",
-        "text": "As medidas provisórias podem definir provisoriamente crimes e penas por 60 dias em situações de relevância e urgência."
+        "text": "As medidas provisórias podem definir provisoriamente crimes e penas por 60 dias em situações de relevância e urgência, com agravação automática da resposta penal já na primeira fase da dosimetria da pena."
       }
     ],
     "correctAnswer": "A",
@@ -72,19 +72,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplica-se a Lei B (mais grave) a João, pois em crime permanente ou continuado incide a lei nova mais severa se entrou em vigor antes de cessar a permanência (Súmula 711 STF); já a abolitio criminis faz cessar a execução e os efeitos PENAIS da sentença condenatória, subsistindo os efeitos civis de reparação do dano."
+        "text": "Aplica-se a Lei B (mais grave) a João, pois em crime permanente ou continuado incide a lei nova mais severa se entrou em vigor antes de cessar a permanência."
       },
       {
         "letter": "B",
-        "text": "Aplica-se obrigatoriamente a Lei A a João por ter sido a vigente no início da execução do sequestro, em respeito à irretroatividade."
+        "text": "Aplica-se obrigatoriamente a Lei A a João por ter sido a vigente no início da execução do sequestro, em respeito à irretroatividade, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "C",
-        "text": "A abolitio criminis apaga também a obrigação civil de indenizar a vítima fixada na sentença penal condenatória."
+        "text": "A abolitio criminis apaga também a obrigação civil de indenizar a vítima fixada na sentença penal condenatória, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "D",
-        "text": "A lei penal excepcional ou temporária deixa de se aplicar aos fatos praticados durante sua vigência assim que cessa o prazo ou circunstância excepcional."
+        "text": "A lei penal excepcional ou temporária deixa de se aplicar aos fatos praticados durante sua vigência assim que cessa o prazo ou circunstância excepcional, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       }
     ],
     "correctAnswer": "A",
@@ -128,7 +128,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para o TEMPO do crime, adota-se a teoria da ATIVIDADE (considera-se praticado no momento da ação em 10/05 — logo Caio é inimputável pelo ECA); para o LUGAR do crime, adota-se a teoria da UBIQUIDADE (considera-se praticado tanto no local da ação quanto no do resultado — logo aplica-se a lei brasileira)."
+        "text": "Para o tempo do crime, adota-se a teoria da atividade; para o lugar do crime, adota-se a teoria da ubiquidade."
       },
       {
         "letter": "B",
@@ -140,7 +140,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Nos crimes conexos de competência interna entre comarcas brasileiras, aplica-se também a regra da ubiquidade do Art. 6º do CP."
+        "text": "Nos crimes conexos de competência interna entre comarcas brasileiras, aplica-se também a regra da ubiquidade, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       }
     ],
     "correctAnswer": "A",
@@ -183,19 +183,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O crime contra a fé pública (moeda falsa) ou contra a vida/liberdade do Presidente da República sujeita-se à extraterritorialidade INCONDICIONADA (aplica-se a lei brasileira ainda que o agente seja absolvido ou condenado no estrangeiro); já o crime praticado por brasileiro no exterior submete-se à extraterritorialidade CONDICIONADA (exige entrada do agente no Brasil, dupla tipicidade etc.)."
+        "text": "O crime contra a fé pública (moeda falsa) ou contra a vida/liberdade do Presidente da República sujeita-se à extraterritorialidade incondicionada; já o crime praticado por brasileiro no exterior submete-se à extraterritorialidade condicionada."
       },
       {
         "letter": "B",
-        "text": "Em nenhum dos dois casos incide a lei penal brasileira por prevalecer o princípio absoluto da territorialidade."
+        "text": "Em nenhum dos dois casos incide a lei penal brasileira por prevalecer o princípio absoluto da territorialidade, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "C",
-        "text": "O crime de genocídio praticado por estrangeiro domiciliado no exterior contra vítimas não brasileiras submete-se apenas à extraterritorialidade condicionada."
+        "text": "O crime de genocídio praticado por estrangeiro domiciliado no exterior contra vítimas não brasileiras submete-se apenas à extraterritorialidade condicionada, com afastamento da tipicidade material da conduta por ausência de lesividade penal relevante."
       },
       {
         "letter": "D",
-        "text": "Na extraterritorialidade incondicionada, o cumprimento integral da pena no estrangeiro impede totalmente novo processo no Brasil por força do ne bis in idem."
+        "text": "Na extraterritorialidade incondicionada, o cumprimento integral da pena no estrangeiro impede totalmente novo processo no Brasil por força do ne bis in idem, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       }
     ],
     "correctAnswer": "A",
@@ -238,19 +238,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplica-se o princípio da CONSUNÇÃO (absorção), respondendo o agente exclusivamente pelo crime de estelionato, uma vez que o falso se exauriu no estelionato sem mais potencialidade lesiva (Súmula 17 do STJ)."
+        "text": "Aplica-se o princípio da consunção (absorção), respondendo o agente exclusivamente pelo crime de estelionato, uma vez que o falso se exauriu no estelionato sem mais potencialidade lesiva."
       },
       {
         "letter": "B",
-        "text": "O agente responde em concurso material pelos crimes de falsificação de documento público e estelionato."
+        "text": "O agente responde em concurso material pelos crimes de falsificação de documento público e estelionato, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "C",
-        "text": "Aplica-se exclusivamente o crime de falsificação de documento por possuir pena máxima mais grave pelo princípio da subsidiariedade."
+        "text": "Aplica-se exclusivamente o crime de falsificação de documento por possuir pena máxima mais grave pelo princípio da subsidiariedade, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "D",
-        "text": "Mesmo se o agente utilizasse o mesmo talão falso para enganar cinco vítimas diversas em semanas diferentes, o falso continuaria absorvido por um único estelionato."
+        "text": "Mesmo se o agente utilizasse o mesmo talão falso para enganar cinco vítimas diversas em semanas diferentes, o falso continuaria absorvido por um único estelionato, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       }
     ],
     "correctAnswer": "A",
@@ -294,15 +294,15 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Renato responde apenas pelos atos já praticados (lesão corporal ou tentativa de homicídio conforme seu dolo inicial, afastando a imputação pelo resultado morte consumada), pois o acidente rodoviário da ambulância configura causa superveniente relativamente independente que, POR SI SÓ, produziu o resultado morte (Art. 13, § 1º, CP)."
+        "text": "Renato responde apenas pelos atos já praticados, pois o acidente rodoviário da ambulância configura causa superveniente relativamente independente que, por si só, produziu o resultado morte."
       },
       {
         "letter": "B",
-        "text": "Renato responde por homicídio doloso consumado em virtude da teoria da equivalência dos antecedentes (conditio sine qua non)."
+        "text": "Renato responde por homicídio doloso consumado em virtude da teoria da equivalência dos antecedentes (conditio sine qua non), observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "C",
-        "text": "Na hipótese de infecção hospitalar decorrente diretamente da cirurgia para tratar a facada, o nexo causal também é sempre rompido pela culpa médica."
+        "text": "Na hipótese de infecção hospitalar decorrente diretamente da cirurgia para tratar a facada, o nexo causal também é sempre rompido pela culpa médica, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "D",
@@ -349,15 +349,15 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O salva-vidas responde por homicídio doloso consumado por omissão (crime omissivo impróprio / comissivo por omissão, pois assumiu a posição de garantidor do Art. 13, § 2º, \"b\", CP); o banhista comum responde por omissão de socorro (Art. 135 CP, crime omissivo próprio)."
+        "text": "O salva-vidas responde por homicídio doloso consumado por omissão; o banhista comum responde por omissão de socorro."
       },
       {
         "letter": "B",
-        "text": "Ambos respondem apenas pelo crime de omissão de socorro (Art. 135 CP) com pena aumentada pela morte."
+        "text": "Ambos respondem apenas pelo crime de omissão de socorro com pena aumentada pela morte, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
-        "text": "O crime omissivo próprio admite tentativa sempre que o omitente se arrepende momentos depois de omitir auxílio."
+        "text": "O crime omissivo próprio admite tentativa sempre que o omitente se arrepende momentos depois de omitir auxílio, com agravação automática da resposta penal já na primeira fase da dosimetria da pena."
       },
       {
         "letter": "D",
@@ -404,15 +404,15 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pedro beneficia-se da DESISTÊNCIA VOLUNTÁRIA (Art. 15 CP — responde apenas pela violação de domicílio já praticada, atípica a tentativa de furto); Caio beneficia-se do ARREPENDIMENTO POSTERIOR (Art. 16 CP — causa obrigatória de diminuição de pena de 1/3 a 2/3, pois o furto não teve violência ou grave ameaça e a restituição antecedeu o recebimento da denúncia)."
+        "text": "Pedro beneficia-se da desistência voluntária; Caio beneficia-se do arrependimento posterior."
       },
       {
         "letter": "B",
-        "text": "Ambos ficam isentos de qualquer pena porque nenhum resultado lesivo definitivo permaneceu."
+        "text": "Ambos ficam isentos de qualquer pena porque nenhum resultado lesivo definitivo permaneceu. A consequência jurídica se impõe de forma uniforme independentemente das circunstâncias posteriores."
       },
       {
         "letter": "C",
-        "text": "O arrependimento posterior pode ser aplicado até a prolação da sentença condenatória de primeiro grau."
+        "text": "O arrependimento posterior pode ser aplicado até a prolação da sentença condenatória de primeiro grau, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "D",
@@ -459,11 +459,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O disparo com arma sem munição ou o uso de farinha configura CRIME IMPOSSÍVEL por ineficácia absoluta do meio (Art. 17 CP — atipicidade da tentativa); já o sistema de vigilância em supermercado torna apenas relativa a impropriedade, NÃO configurando crime impossível, respondendo o agente por tentativa de furto (Súmula 567 STJ)."
+        "text": "O disparo com arma sem munição ou o uso de farinha configura crime impossível por ineficácia absoluta do meio."
       },
       {
         "letter": "B",
-        "text": "Em ambos os casos há crime impossível porque a vigilância por câmeras impede totalmente a consumação do furto."
+        "text": "Em ambos os casos há crime impossível porque a vigilância por câmeras impede totalmente a consumação do furto. Tal critério incide objetivamente na verificação da adequação típica da conduta."
       },
       {
         "letter": "C",
@@ -471,7 +471,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O crime de flagrante preparado (provocado pelo agente policial) é punido com pena reduzida pela tentativa."
+        "text": "O crime de flagrante preparado (provocado pelo agente policial) é punido com pena reduzida pela tentativa, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       }
     ],
     "correctAnswer": "A",
@@ -515,19 +515,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos incorreram em erro de proibição, respondendo por crime culposo na forma da lei."
+        "text": "Ambos incorreram em erro de proibição, respondendo por crime culposo na forma da lei, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "B",
-        "text": "O erro de tipo evitável (vencível) mantém a punição por crime doloso com redução de pena de 1/6 a 1/3."
+        "text": "O erro de tipo evitável (vencível) mantém a punição por crime doloso com redução de pena de 1/6 a 1/3, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "C",
-        "text": "No erro sobre a pessoa (aberratio personae - Art. 20, § 3º), consideram-se as qualidades da vítima efetivamente atingida (ex.: se matou um estranho pensando matar o próprio pai, não incide agravante contra ascendente)."
+        "text": "No erro sobre a pessoa, consideram-se as qualidades da vítima efetivamente atingida (ex.: se matou um estranho pensando matar o próprio pai, não incide agravante contra ascendente). Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "D",
-        "text": "Gabriel incidiu em ERRO DE TIPO essencial (Art. 20 CP), que exclui sempre o dolo (e como não há furto culposo, o fato é atípico); o estrangeiro incidiu em ERRO DE PROIBIÇÃO (Art. 21 CP — erro sobre a ilicitude do fato), que, se inevitável, isenta de pena e, se evitável, diminui a pena de 1/6 a 1/3."
+        "text": "Gabriel incidiu em erro de tipo essencial, que exclui sempre o dolo; o estrangeiro incidiu em erro de proibição, que, se inevitável, isenta de pena e, se evitável, diminui a pena de 1/6 a 1/3."
       }
     ],
     "correctAnswer": "D",
@@ -570,7 +570,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O agente responde sempre por homicídio doloso consumado com redução facultativa de 1/6 a 1/3 pela ilusão fática."
+        "text": "O agente responde sempre por homicídio doloso consumado com redução facultativa de 1/6 a 1/3 pela ilusão fática, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "B",
@@ -578,11 +578,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O excesso na legítima defesa real é sempre impunível se decorrer de emoção ou medo."
+        "text": "O excesso na legítima defesa real é sempre impunível se decorrer de emoção ou medo, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "D",
-        "text": "Trata-se de erro de tipo permissivo (descriminante putativa sobre pressuposto fático — Art. 20, § 1º, CP): se plenamente justificado pelas circunstâncias (inevitável), é isento de pena; se derivar de culpa (erro evitável/precipitação), responde por homicídio culposo (culpa imprópria), pois o crime culposo é punível em lei."
+        "text": "Trata-se de erro de tipo permissivo: se plenamente justificado pelas circunstâncias (inevitável), é isento de pena."
       }
     ],
     "correctAnswer": "D",
@@ -625,7 +625,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No naufrágio, há legítima defesa real contra agressão injusta da natureza."
+        "text": "No naufrágio, há legítima defesa real contra agressão injusta da natureza, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "B",
@@ -633,11 +633,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Em legítima defesa de bem patrimonial de pequeno valor, é impossível atuar de forma legítima sem prévio aviso ao agressor."
+        "text": "Em legítima defesa de bem patrimonial de pequeno valor, é impossível atuar de forma legítima sem prévio aviso ao agressor, em observância rigorosa ao princípio da legalidade estrita e da vedação à analogia prejudicial."
       },
       {
         "letter": "D",
-        "text": "O primeiro caso configura ESTADO DE NECESSIDADE justificante (Art. 24 CP — conflito de interesses lícitos ante perigo atual não provocado voluntariamente pelo agente, não havendo dever legal de enfrentar o perigo); o segundo configura LEGÍTIMA DEFESA de terceiro, expressamente reforçada pelo Art. 25, parágrafo único, do CP (agente de segurança pública que repele agressão ou risco de agressão a vítima mantida refém)."
+        "text": "O primeiro caso configura estado de necessidade justificante; o segundo configura legítima defesa de terceiro, expressamente reforçada."
       }
     ],
     "correctAnswer": "D",
@@ -680,19 +680,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A violenta paixão exclui a imputabilidade penal sempre que comprovada por laudo psicológico."
+        "text": "A violenta paixão exclui a imputabilidade penal sempre que comprovada por laudo psicológico, com consumação formal do delito independentemente da obtenção de vantagem ilícita efetiva."
       },
       {
         "letter": "B",
-        "text": "A embriaguez voluntária ou culposa completa exclui o dolo e isenta o agente de pena por incapacidade momentânea de compreensão."
+        "text": "A embriaguez voluntária ou culposa completa exclui o dolo e isenta o agente de pena por incapacidade momentânea de compreensão, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "C",
-        "text": "Se a embriaguez fortuita for apenas incompleta (reduzindo parcialmente a capacidade sem retirá-la por completo), não há qualquer redução de pena."
+        "text": "Se a embriaguez fortuita for apenas incompleta (reduzindo parcialmente a capacidade sem retirá-la por completo), não há qualquer redução de pena, sem configuração de causa interruptiva ou suspensiva do curso regular da pretensão punitiva."
       },
       {
         "letter": "D",
-        "text": "A emoção ou a paixão NÃO excluem a imputabilidade penal (Art. 28, I, CP); já a embriaguez completa proveniente de caso fortuito ou força maior ISENTA de pena o agente que era, ao tempo da ação, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se conforme esse entendimento (Art. 28, § 1º, CP)."
+        "text": "A emoção ou a paixão não excluem a imputabilidade penal; já a embriaguez completa proveniente de caso fortuito ou força maior isenta de pena o agente que era, ao tempo da ação, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se conforme esse entendimento."
       }
     ],
     "correctAnswer": "D",
@@ -735,19 +735,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela teoria monista absoluta do Art. 29, Marcos responde integralmente por latrocínio com a mesma pena de Tiago."
+        "text": "Pela teoria monista absoluta, Marcos responde integralmente por latrocínio com a mesma pena de Tiago, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "B",
-        "text": "A participação de menor importância prevista no Art. 29, § 1º, gera isenção total de pena ao partícipe."
+        "text": "A participação de menor importância, gera isenção total de pena ao partícipe, sem configuração de causa interruptiva ou suspensiva do curso regular da pretensão punitiva."
       },
       {
         "letter": "C",
-        "text": "As circunstâncias e condições de caráter pessoal comunicam-se automaticamente a todos os coautores, ainda que não sejam elementares do crime."
+        "text": "As circunstâncias e condições de caráter pessoal comunicam-se automaticamente a todos os coautores, ainda que não sejam elementares do crime, com afastamento da tipicidade material da conduta por ausência de lesividade penal relevante."
       },
       {
         "letter": "D",
-        "text": "Marcos responde exclusivamente pelo crime de FURTO (que quis participar), com a pena aumentada até metade caso o resultado mais grave (morte) lhe fosse previsível (cooperação dolosamente distinta — Art. 29, § 2º, CP), não respondendo pelo latrocínio ou homicídio doloso."
+        "text": "Marcos responde exclusivamente pelo crime de furto, com a pena aumentada até metade caso o resultado mais grave (morte) lhe fosse previsível, não respondendo pelo latrocínio ou homicídio doloso."
       }
     ],
     "correctAnswer": "D",
@@ -790,19 +790,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É cabível no roubo simples porque a pena aplicada ficou abaixo de 4 anos e o réu é primário."
+        "text": "É cabível no roubo simples porque a pena aplicada ficou abaixo de 4 anos e o réu é primário. Tal critério incide objetivamente na verificação da adequação típica da conduta."
       },
       {
         "letter": "B",
-        "text": "Nos crimes culposos com pena superior a 4 anos (ex.: 5 anos), a substituição por pena restritiva de direitos é absolutamente proibida."
+        "text": "Nos crimes culposos com pena superior a 4 anos (ex.: 5 anos), a substituição por pena restritiva de direitos é absolutamente proibida, com afastamento da tipicidade material da conduta por ausência de lesividade penal relevante."
       },
       {
         "letter": "C",
-        "text": "A reincidência em crime doloso impede sempre e em caráter absoluto a substituição da pena privativa de liberdade."
+        "text": "A reincidência em crime doloso impede sempre e em caráter absoluto a substituição da pena privativa de liberdade, com consumação formal do delito independentemente da obtenção de vantagem ilícita efetiva."
       },
       {
         "letter": "D",
-        "text": "A substituição por penas restritivas de direitos é cabível apenas no furto qualificado (pena <= 4 anos, crime sem violência/grave ameaça e requisitos subjetivos favoráveis), sendo VEDADA no roubo (por envolver violência ou grave ameaça à pessoa) e nos crimes praticados com violência ou grave ameaça contra a mulher no âmbito doméstico (Súmula 588 STJ)."
+        "text": "A substituição por penas restritivas de direitos é cabível apenas no furto qualificado, sendo vedada no roubo e nos crimes praticados com violência ou grave ameaça contra a mulher no âmbito doméstico."
       }
     ],
     "correctAnswer": "D",
@@ -846,19 +846,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Correta, pois a Lei dos Crimes Hediondos obriga o regime inicial fechado para qualquer pena no tráfico de drogas."
+        "text": "Correta, pois a Lei dos Crimes Hediondos obriga o regime inicial fechado para qualquer pena no tráfico de drogas. Tal critério incide objetivamente na verificação da adequação típica da conduta."
       },
       {
         "letter": "B",
-        "text": "Ao réu reincidente condenado a pena igual ou inferior a 4 anos não se pode aplicar o regime semiaberto em nenhuma hipótese."
+        "text": "Ao réu reincidente condenado a pena igual ou inferior a 4 anos não se pode aplicar o regime semiaberto em nenhuma hipótese, sem configuração de causa interruptiva ou suspensiva do curso regular da pretensão punitiva."
       },
       {
         "letter": "C",
-        "text": "Para a progressão de regime em crimes hediondos, exige-se em qualquer hipótese o exame criminológico obrigatório."
+        "text": "Para a progressão de regime em crimes hediondos, exige-se em qualquer hipótese o exame criminológico obrigatório, com agravação automática da resposta penal já na primeira fase da dosimetria da pena."
       },
       {
         "letter": "D",
-        "text": "Incorreta, pois o STF declarou inconstitucional a obrigatoriedade do regime inicial fechado para crimes hediondos/equiparados (HC 111.840), e a Súmula 440 do STJ proíbe impor regime mais gravoso apenas com base na gravidade abstrata do delito quando a pena-base foi fixada no mínimo legal (cabendo em regra o semiaberto para pena > 4 e <= 8 anos a réu primário)."
+        "text": "Incorreta, pois o STF declarou inconstitucional a obrigatoriedade do regime inicial fechado para crimes hediondos/equiparados, e a Súmula 440 do STJ proíbe impor regime mais gravoso apenas com base na gravidade abstrata do delito quando a pena-base foi fixada no mínimo legal."
       }
     ],
     "correctAnswer": "D",
@@ -902,19 +902,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Sursis exige o cumprimento prévio de pelo menos 1/3 da pena privativa de liberdade em regime fechado."
+        "text": "O Sursis exige o cumprimento prévio de pelo menos 1/3 da pena privativa de liberdade em regime fechado, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "B",
-        "text": "O Livramento Condicional pode ser concedido para condenações de 1 ano de detenção."
+        "text": "O Livramento Condicional pode ser concedido para condenações de 1 ano de detenção, com responsabilização direta pelo resultado naturalístico produzido pela conduta do agente."
       },
       {
         "letter": "C",
-        "text": "A condenação anterior a pena de multa impede terminantemente a concessão de Sursis ao réu."
+        "text": "A condenação anterior a pena de multa impede terminantemente a concessão de Sursis ao réu, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "D",
-        "text": "O Sursis suspende a execução da pena privativa de liberdade não superior a 2 anos (regra geral) por período de prova de 2 a 4 anos, quando incabível a substituição por restritiva de direitos; já o Livramento Condicional ocorre durante o cumprimento da pena privativa de liberdade igual ou superior a 2 anos após o cumprimento de fração legal (mais de 1/3 se não reincidente doloso e bons antecedentes, mais de 1/2 se reincidente doloso, ou mais de 2/3 se hediondo sem morte)."
+        "text": "O Sursis suspende a execução da pena privativa de liberdade não superior a 2 anos (regra geral) por período de prova de 2 a 4 anos, quando incabível a substituição por restritiva de direitos."
       }
     ],
     "correctAnswer": "D",
@@ -957,7 +957,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ao motorista aplica-se o concurso material (soma integral das duas penas de lesão culposa)."
+        "text": "Ao motorista aplica-se o concurso material (soma integral das duas penas de lesão culposa), sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "B",
@@ -969,7 +969,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O motorista incorreu em CONCURSO FORMAL próprio/perfeito (Art. 70, 1ª parte, CP — uma só ação e dois resultados sem desígnios autônomos), aplicando-se a pena de um só crime aumentada de 1/6 até metade (exasperação); o caixa praticou CRIME CONTINUADO (Art. 71 CP — mais de uma ação nas mesmas condições de tempo, lugar e maneira de execução), aplicando-se a pena de um só crime aumentada de 1/6 a 2/3."
+        "text": "O motorista incorreu em concurso formal próprio/perfeito, aplicando-se a pena de um só crime aumentada de 1/6 até metade (exasperação)."
       }
     ],
     "correctAnswer": "D",
@@ -1012,11 +1012,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não ocorreu prescrição, porque a redução pela metade do Art. 115 só vale se o réu tiver menos de 21 anos também na data da sentença."
+        "text": "Não ocorreu prescrição, porque a redução pela metade só vale se o réu tiver menos de 21 anos também na data da sentença. A consequência jurídica se impõe de forma uniforme independentemente das circunstâncias posteriores."
       },
       {
         "letter": "B",
-        "text": "A prescrição retroativa pode ser calculada entre a data do fato criminoso e a data do recebimento da denúncia."
+        "text": "A prescrição retroativa pode ser calculada entre a data do fato criminoso e a data do recebimento da denúncia, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "C",
@@ -1024,7 +1024,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Sim, pois sendo o agente menor de 21 anos na data do fato, reduzem-se pela METADE os prazos de prescrição (Art. 115 CP); aplicada a pena concreta de 1 ano, o prazo prescricional comum seria de 4 anos (Art. 109, V), caindo pela metade para 2 ANOS — e entre o recebimento da denúncia (março/2021) e a publicação da sentença (abril/2026) transcorreram mais de 5 anos."
+        "text": "Sim, pois sendo o agente menor de 21 anos na data do fato, reduzem-se pela metade os prazos de prescrição."
       }
     ],
     "correctAnswer": "D",
@@ -1068,15 +1068,15 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A reparação do dano antes da sentença apenas reduz a pena pela metade no peculato culposo."
+        "text": "A reparação do dano antes da sentença apenas reduz a pena pela metade no peculato culposo, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "B",
-        "text": "O mesmo benefício de extinção da punibilidade pela devolução do dinheiro antes da denúncia aplica-se ao peculato doloso."
+        "text": "O mesmo benefício de extinção da punibilidade pela devolução do dinheiro antes da denúncia aplica-se ao peculato doloso, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "C",
-        "text": "O servidor praticou PECULATO CULPOSO (Art. 312, § 2º, CP), e a reparação integral do dano antes da sentença irrecorrível EXTINGUE A PUNIBILIDADE (Art. 312, § 3º, 1ª parte, CP)."
+        "text": "O servidor praticou peculato culposo, e a reparação integral do dano antes da sentença irrecorrível extingue a punibilidade."
       },
       {
         "letter": "D",
@@ -1131,7 +1131,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Respectivamente: CONCUSSÃO (exigir vantagem indevida para si ou outrem, Art. 316, caput), CORRUPÇÃO PASSIVA (solicitar vantagem indevida, Art. 317, caput) e EXCESSO DE EXAÇÃO (exigir tributo ou contribuição social que sabe ou deveria saber indevido para os cofres públicos, Art. 316, § 1º)."
+        "text": "Respectivamente: Concussão, corrupção passiva e excesso de exação."
       },
       {
         "letter": "D",
@@ -1178,15 +1178,15 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O delegado praticou corrupção passiva privilegiada por ter agido por amizade política."
+        "text": "O delegado praticou corrupção passiva privilegiada por ter agido por amizade política, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "B",
-        "text": "O chefe de divisão praticou prevaricação culposa ao ter pena do subordinado."
+        "text": "O chefe de divisão praticou prevaricação culposa ao ter pena do subordinado, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
-        "text": "O delegado praticou PREVARICAÇÃO (Art. 319 CP — retardar ou deixar de praticar ato de ofício para satisfazer interesse ou sentimento pessoal); o chefe de divisão praticou CONDESCENDÊNCIA CRIMINOSA (Art. 320 CP — deixar, por indulgência, de responsabilizar subordinado ou não levar o fato ao conhecimento da autoridade competente)."
+        "text": "O delegado praticou prevaricação; o chefe de divisão praticou condescendência criminosa."
       },
       {
         "letter": "D",
@@ -1233,19 +1233,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto na calúnia quanto na difamação contra particulares admite-se amplamente a exceção da verdade."
+        "text": "Tanto na calúnia quanto na difamação contra particulares admite-se amplamente a exceção da verdade, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "B",
-        "text": "Na injúria qualificada pelo preconceito de raça ou cor, admite-se exceção da verdade."
+        "text": "Na injúria qualificada pelo preconceito de raça ou cor, admite-se exceção da verdade, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "C",
-        "text": "Na CALÚNIA (imputar falsamente fato definido como crime — 1ª postagem), admite-se a exceção da verdade como regra geral (salvo hipóteses do Art. 138, § 3º); na DIFAMAÇÃO (imputar fato ofensivo à reputação não criminoso — 2ª postagem), NÃO se admite exceção da verdade salvo se o ofendido for funcionário público e a ofensa for relativa às funções; na INJÚRIA (3ª postagem), NUNCA cabe exceção da verdade."
+        "text": "Na calúnia, admite-se a exceção da verdade como regra geral; na difamação, não se admite exceção da verdade salvo se o ofendido for funcionário público e a ofensa for relativa às funções; na injúria (3ª postagem), nunca cabe exceção da verdade."
       },
       {
         "letter": "D",
-        "text": "A retratação cabal antes da sentença isenta de pena o querelado tanto na calúnia e difamação quanto na injúria."
+        "text": "A retratação cabal antes da sentença isenta de pena o querelado tanto na calúnia e difamação quanto na injúria, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       }
     ],
     "correctAnswer": "C",
@@ -1288,19 +1288,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O estelionato simples e a fraude eletrônica permanecem submetidos à ação penal pública incondicionada em todas as hipóteses."
+        "text": "O estelionato simples e a fraude eletrônica permanecem submetidos à ação penal pública incondicionada em todas as hipóteses, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "B",
-        "text": "A representação da vítima no estelionato exige formalidade sacramental assinada por advogado em cartório criminal."
+        "text": "A representação da vítima no estelionato exige formalidade sacramental assinada por advogado em cartório criminal, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
-        "text": "A ação penal no estelionato passou a ser PÚBLICA CONDICIONADA À REPRESENTAÇÃO da vítima (Art. 171, § 5º, CP, incluído pela Lei nº 13.964/2019), salvo quando a vítima for a Administração Pública direta ou indireta, criança ou adolescente, pessoa com deficiência mental, ou maior de 70 anos de idade ou incapaz."
+        "text": "A ação penal no estelionato passou a ser pública condicionada à representação da vítima, salvo quando a vítima for a Administração Pública direta ou indireta, criança ou adolescente, pessoa com deficiência mental, ou maior de 70 anos de idade ou incapaz."
       },
       {
         "letter": "D",
-        "text": "Se a vítima tiver 65 anos de idade, a ação penal no estelionato será pública incondicionada pelo Estatuto da Pessoa Idosa."
+        "text": "Se a vítima tiver 65 anos de idade, a ação penal no estelionato será pública incondicionada pelo Estatuto da Pessoa Idosa, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       }
     ],
     "correctAnswer": "C",
@@ -1343,19 +1343,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Praticou furto tentado em concurso material com lesão corporal leve."
+        "text": "Praticou furto tentado em concurso material com lesão corporal leve, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "B",
-        "text": "O roubo com emprego de arma branca (faca) continua tendo aumento de pena de 1/3 até metade igual ao anterior a 2018, sem previsão específica."
+        "text": "O roubo com emprego de arma branca (faca) continua tendo aumento de pena de 1/3 até metade igual ao anterior a 2018, sem previsão específica, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "C",
-        "text": "Praticou ROUBO IMPRÓPRIO consumado (Art. 157, § 1º, CP), pois empregou violência contra a pessoa logo depois de subtraída a coisa, a fim de assegurar a impunidade do crime ou a detenção da coisa, consumando-se no momento em que o agente torna-se possuidor da coisa mediante o emprego da violência (Súmula 582 STJ)."
+        "text": "Praticou roubo impróprio consumado, pois empregou violência contra a pessoa logo depois de subtraída a coisa, a fim de assegurar a impunidade do crime ou a detenção da coisa, consumando-se no momento em que o agente torna-se possuidor da coisa mediante o emprego da violência."
       },
       {
         "letter": "D",
-        "text": "A subtração mediante fraude eletrônica ou informática configura roubo impróprio qualificado."
+        "text": "A subtração mediante fraude eletrônica ou informática configura roubo impróprio qualificado, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       }
     ],
     "correctAnswer": "C",
@@ -1399,19 +1399,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O feminicídio manteve-se como simples causa de aumento de 1/3 no homicídio simples com pena máxima de 20 anos."
+        "text": "O feminicídio manteve-se como simples causa de aumento de 1/3 no homicídio simples com pena máxima de 20 anos, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "B",
-        "text": "É juridicamente incompatível a coexistência do homicídio privilegiado com qualquer qualificadora objetiva (como emprego de fogo ou asfixia)."
+        "text": "É juridicamente incompatível a coexistência do homicídio privilegiado com qualquer qualificadora objetiva (como emprego de fogo ou asfixia), observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "C",
-        "text": "Passou a figurar como crime autônomo no Art. 121-A do Código Penal (\"Matar mulher por razões da condição do sexo feminino\"), com pena de reclusão de 20 a 40 anos, mantendo natureza hedionda e causas de aumento específicas."
+        "text": "Passou a figurar como crime autônomo, com pena de reclusão de 20 a 40 anos, mantendo natureza hedionda e causas de aumento específicas."
       },
       {
         "letter": "D",
-        "text": "Na conduta de induzimento, instigação ou auxílio a suicídio ou a automutilação (Art. 122 CP), o crime só se configura se a vítima efetivamente morrer."
+        "text": "Na conduta de induzimento, instigação ou auxílio a suicídio ou a automutilação, o crime só se configura se a vítima efetivamente morrer. A consequência jurídica se impõe de forma uniforme independentemente das circunstâncias posteriores."
       }
     ],
     "correctAnswer": "C",
@@ -1454,19 +1454,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O consentimento livre da jovem de 13 anos e o consentimento dos pais afastam a tipicidade do estupro de vulnerável."
+        "text": "O consentimento livre da jovem de 13 anos e o consentimento dos pais afastam a tipicidade do estupro de vulnerável, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "B",
-        "text": "A ação penal nos crimes contra a dignidade sexual continua sendo, como regra geral, condicionada à representação da vítima maior de idade."
+        "text": "A ação penal nos crimes contra a dignidade sexual continua sendo, como regra geral, condicionada à representação da vítima maior de idade. Tal critério incide objetivamente na verificação da adequação típica da conduta."
       },
       {
         "letter": "C",
-        "text": "A primeira conduta configura ESTUPRO DE VULNERÁVEL (Art. 217-A CP), pois o consentimento da vítima menor de 14 anos, eventual experiência sexual anterior ou relacionamento amoroso com o agente são irrelevantes (Súmula 593 STJ); a segunda configura crime autônomo de divulgação de cena de estupro ou de cena de sexo/pornografia sem consentimento (Art. 218-C CP, aumentado de 1/3 a 2/3 se o agente manteve relação íntima de afeto)."
+        "text": "A primeira conduta configura estupro de vulnerável, pois o consentimento da vítima menor de 14 anos, eventual experiência sexual anterior ou relacionamento amoroso com o agente são irrelevantes; a segunda configura crime autônomo de divulgação de cena de estupro ou de cena de sexo/pornografia sem consentimento."
       },
       {
         "letter": "D",
-        "text": "O beijo lascivo forçado em transporte público configura mera contravenção de importunação ofensiva ao pudor."
+        "text": "O beijo lascivo forçado em transporte público configura mera contravenção de importunação ofensiva ao pudor, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       }
     ],
     "correctAnswer": "C",
@@ -1510,19 +1510,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O tráfico privilegiado continua sendo crime equiparado a hediondo para fins de progressão de regime e indulto."
+        "text": "O tráfico privilegiado continua sendo crime equiparado a hediondo para fins de progressão de regime e indulto, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "B",
-        "text": "A existência de inquéritos policiais ou ações penais em andamento sem condenação definitiva basta por si só para afastar o privilégio do § 4º."
+        "text": "A existência de inquéritos policiais ou ações penais em andamento sem condenação definitiva basta por si só para afastar o privilégio do § 4º, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
-        "text": "O tráfico privilegiado do Art. 33, § 4º, NÃO tem natureza hedionda nem equiparada (Súmula Vinculante 59/jurisprudência STF e Art. 112, § 5º, LEP); quanto ao porte de maconha para consumo pessoal sem intuito comercial, o STF no RE 635.659 (Tema 506) descriminalizou a conduta como ilícito penal, mantendo-a como ilícito administrativo (observado o parâmetro de 40g ou 6 plantas fêmeas para presunção relativa de usuário)."
+        "text": "O tráfico privilegiado, não tem natureza hedionda nem equiparada; quanto ao porte de maconha para consumo pessoal sem intuito comercial, o STF no RE 635.659 descriminalizou a conduta como ilícito penal, mantendo-a como ilícito administrativo."
       },
       {
         "letter": "D",
-        "text": "No crime de associação para o tráfico (Art. 35 da Lei 11.343/06), basta o encontro eventual de duas pessoas para uma única venda conjunta de drogas."
+        "text": "No crime de associação para o tráfico, basta o encontro eventual de duas pessoas para uma única venda conjunta de drogas, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       }
     ],
     "correctAnswer": "C",
@@ -1566,19 +1566,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O furto qualificado pelo rompimento de obstáculo ou concurso de duas ou mais pessoas, por integrar o patrimônio privado."
+        "text": "O furto qualificado pelo rompimento de obstáculo ou concurso de duas ou mais pessoas, por integrar o patrimônio privado, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "B",
-        "text": "A associação criminosa simples (Art. 288 CP) e o homicídio culposo na direção de veículo automotor."
+        "text": "A associação criminosa simples e o homicídio culposo na direção de veículo automotor, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "C",
-        "text": "O homicídio qualificado (e o simples quando praticado em atividade típica de grupo de extermínio), o feminicídio (Art. 121-A), o roubo circunstanciado pela restrição de liberdade da vítima ou emprego de arma de fogo, a extorsão qualificada pela restrição de liberdade, o estupro, o estupro de vulnerável, o favorecimento da prostituição ou exploração sexual de criança/adolescente/vulnerável e o genocídio."
+        "text": "O homicídio qualificado, o feminicídio, o roubo circunstanciado pela restrição de liberdade da vítima ou emprego de arma de fogo, a extorsão qualificada pela restrição de liberdade, o estupro, o estupro de vulnerável, o favorecimento da prostituição ou exploração sexual de criança/adolescente/vulnerável e o genocídio."
       },
       {
         "letter": "D",
-        "text": "A lesão corporal dolosa grave contra qualquer cidadão comum em briga de trânsito."
+        "text": "A lesão corporal dolosa grave contra qualquer cidadão comum em briga de trânsito, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       }
     ],
     "correctAnswer": "C",
@@ -1621,19 +1621,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Procede quanto à exigência de representação da vítima na lesão corporal leve, cabendo retratação na delegacia de polícia."
+        "text": "Procede quanto à exigência de representação da vítima na lesão corporal leve, cabendo retratação na delegacia de polícia, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "B",
-        "text": "Não procede, pois a configuração da violência doméstica independe da coabitação entre autor e vítima (Súmula 600 STJ), a ação penal por lesão corporal resultante de violência doméstica contra a mulher é pública INCONDICIONADA (Súmula 542 STJ), e é inaplicável a Lei nº 9.099/95 (transação penal e suspensão condicional do processo) aos delitos sujeitos à Lei Maria da Penha (Art. 41 e Súmula 536 STJ)."
+        "text": "Não procede, pois a configuração da violência doméstica independe da coabitação entre autor e vítima, a ação penal por lesão corporal resultante de violência doméstica contra a mulher é pública incondicionada, e é inaplicável a Lei nº 9.099/95 aos delitos sujeitos à Lei Maria da Penha."
       },
       {
         "letter": "C",
-        "text": "É cabível o princípio da insignificância e a substituição da pena por cestas básicas (prestação pecuniária isolada) na Lei Maria da Penha."
+        "text": "É cabível o princípio da insignificância e a substituição da pena por cestas básicas (prestação pecuniária isolada) na Lei Maria da Penha, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "D",
-        "text": "A ausência de coabitação no momento da agressão afasta a competência do Juizado de Violência Doméstica."
+        "text": "A ausência de coabitação no momento da agressão afasta a competência do Juizado de Violência Doméstica, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       }
     ],
     "correctAnswer": "B",
@@ -1681,7 +1681,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "No furto simples dos pacotes de macarrão, aplica-se o princípio da insignificância (excludente da tipicidade material) diante dos 4 vetores do STF (MARI: mínima ofensividade, ausência de periculosidade social, reduzido grau de reprovabilidade e inexpressividade da lesão); já contra a Administração Pública, a Súmula 599 do STJ veda, como regra, a aplicação do princípio da insignificância (salvo casos excepcionalíssimos em tributários até R$ 20 mil)."
+        "text": "No furto simples dos pacotes de macarrão, aplica-se o princípio da insignificância diante dos 4 vetores do STF."
       },
       {
         "letter": "C",
@@ -1733,19 +1733,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É válida porque as esferas administrativa tributária e penal são absolutamente independentes."
+        "text": "É válida porque as esferas administrativa tributária e penal são absolutamente independentes. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "B",
-        "text": "Não é válida (falta justa causa), pois nos crimes materiais contra a ordem tributária previstos no Art. 1º, incisos I a IV, da Lei nº 8.137/90, não se tipifica crime antes do lançamento definitivo do tributo na esfera administrativa (Súmula Vinculante 24 do STF)."
+        "text": "Não é válida (falta justa causa), pois nos crimes materiais contra a ordem tributária previstos, não se tipifica crime antes do lançamento definitivo do tributo na esfera administrativa."
       },
       {
         "letter": "C",
-        "text": "Se o contribuinte pagar integralmente o tributo sonegado após o recebimento da denúncia, não ocorre extinção da punibilidade."
+        "text": "Se o contribuinte pagar integralmente o tributo sonegado após o recebimento da denúncia, não ocorre extinção da punibilidade, em observância rigorosa ao princípio da legalidade estrita e da vedação à analogia prejudicial."
       },
       {
         "letter": "D",
-        "text": "A Súmula Vinculante 24 exige lançamento definitivo inclusive para os crimes formais do Art. 2º da Lei 8.137/90 e para o crime de descaminho."
+        "text": "A Súmula Vinculante 24 exige lançamento definitivo inclusive para os crimes formais e para o crime de descaminho, com incidência imediata dos efeitos secundários da condenação desde o recebimento da inicial."
       }
     ],
     "correctAnswer": "B",
@@ -1789,19 +1789,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Manter arma de uso permitido sem registro dentro da própria casa configura porte ilegal de arma de fogo (Art. 14)."
+        "text": "Manter arma de uso permitido sem registro dentro da própria casa configura porte ilegal de arma de fogo, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "B",
-        "text": "O morador praticou POSSE irregular de arma de fogo de uso permitido (Art. 12 — manter no interior da residência ou local de trabalho sem registro); o filho praticou porte/posse de arma com numeração raspada ou suprimida (equiparado ao Art. 16, § 1º, IV — crime de maior gravidade, com pena de 3 a 6 anos de reclusão)."
+        "text": "O morador praticou posse irregular de arma de fogo de uso permitido; o filho praticou porte/posse de arma com numeração raspada ou suprimida."
       },
       {
         "letter": "C",
-        "text": "O porte de arma de fogo desmuniciada sem cartuchos é considerado fato materialmente atípico pelo STF e STJ."
+        "text": "O porte de arma de fogo desmuniciada sem cartuchos é considerado fato materialmente atípico pelo STF e STJ, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "D",
-        "text": "O porte ilegal de arma de fogo de uso permitido (Art. 14) é crime inafiançável perante o delegado e a autoridade judicial."
+        "text": "O porte ilegal de arma de fogo de uso permitido é crime inafiançável perante o delegado e a autoridade judicial, sem configuração de causa interruptiva ou suspensiva do curso regular da pretensão punitiva."
       }
     ],
     "correctAnswer": "B",
@@ -1844,19 +1844,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sem teste do bafômetro acima de 0,3 mg/L ou exame de sangue com 6 dg/L, é impossível condenar criminalmente pelo Art. 306 do CTB."
+        "text": "Sem teste do bafômetro acima de 0,3 mg/L ou exame de sangue com 6 dg/L, é impossível condenar criminalmente. A consequência jurídica se impõe de forma uniforme independentemente das circunstâncias posteriores."
       },
       {
         "letter": "B",
-        "text": "A embriaguez ao volante (Art. 306 CTB) é crime de perigo abstrato que prescinde de bafômetro/exame de sangue, podendo ser comprovada por vídeo, prova testemunhal ou sinais clínicos de alteração da capacidade psicomotora; e havendo homicídio culposo na direção sob influência de álcool, aplica-se a forma qualificada autônoma do Art. 302, § 3º, do CTB (pena de 5 a 8 anos), que absorve o crime de perigo do Art. 306."
+        "text": "A embriaguez ao volante é crime de perigo abstrato que prescinde de bafômetro/exame de sangue, podendo ser comprovada por vídeo, prova testemunhal ou sinais clínicos de alteração da capacidade psicomotora."
       },
       {
         "letter": "C",
-        "text": "Caso o motorista tenha praticado homicídio culposo sob efeito de álcool, responde em concurso material pelo homicídio culposo simples e pelo Art. 306."
+        "text": "Caso o motorista tenha praticado homicídio culposo sob efeito de álcool, responde em concurso material pelo homicídio culposo simples e, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "D",
-        "text": "É permitida a substituição por pena restritiva de direitos em qualquer homicídio culposo qualificado pela embriaguez ao volante do Art. 302, § 3º, mesmo com pena de 5 anos."
+        "text": "É permitida a substituição por pena restritiva de direitos em qualquer homicídio culposo qualificado pela embriaguez ao volante, mesmo com pena de 5 anos, com responsabilização direta pelo resultado naturalístico produzido pela conduta do agente."
       }
     ],
     "correctAnswer": "B",
@@ -1900,19 +1900,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Configura mera associação criminosa simples (Art. 288 CP), pois a Lei de Organização Criminosa exige no mínimo seis integrantes."
+        "text": "Configura mera associação criminosa simples, pois a Lei de Organização Criminosa exige no mínimo seis integrantes. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "B",
-        "text": "Praticaram o crime de ORGANIZAÇÃO CRIMINOSA (Art. 1º, § 1º e Art. 2º da Lei 12.850/2013 — 4 ou mais pessoas, estrutura ordenada e divisão de tarefas para infrações com pena máxima superior a 4 anos ou transnacionais); quanto à colaboração premiada, nenhuma sentença condenatória (nem medidas cautelares reais/pessoais ou recebimento de denúncia) poderá ser proferida com fundamento APENAS nas declarações do agente colaborador (Art. 4º, § 16)."
+        "text": "Praticaram o crime de organização criminosa; quanto à colaboração premiada, nenhuma sentença condenatória poderá ser proferida com fundamento apenas nas declarações do agente colaborador."
       },
       {
         "letter": "C",
-        "text": "O juiz participa diretamente das negociações da colaboração premiada junto com o delegado e o investigado para fixar os prêmios."
+        "text": "O juiz participa diretamente das negociações da colaboração premiada junto com o delegado e o investigado para fixar os prêmios, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "D",
-        "text": "O acordo de colaboração premiada pode ser celebrado apenas pelo Ministério Público, sendo vedado ao Delegado de Polícia celebrá-lo."
+        "text": "O acordo de colaboração premiada pode ser celebrado apenas pelo Ministério Público, sendo vedado ao Delegado de Polícia celebrá-lo, sem configuração de causa interruptiva ou suspensiva do curso regular da pretensão punitiva."
       }
     ],
     "correctAnswer": "B",
@@ -1956,19 +1956,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Procede quanto à necessidade de trânsito em julgado da condenação pelo crime antecedente antes de denunciar por lavagem."
+        "text": "Procede quanto à necessidade de trânsito em julgado da condenação pelo crime antecedente antes de denunciar por lavagem, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "B",
-        "text": "Não procede, pois a Lei nº 12.683/2012 extinguiu o rol taxativo de crimes antecedentes (qualquer infração penal — crime ou contravenção — pode ser antecedente da lavagem), e o processo e julgamento da lavagem de capitais independem do processo e julgamento das infrações penais antecedentes (autonomia processual — Art. 2º, II, bastando indícios suficientes da existência da infração antecedente)."
+        "text": "Não procede, pois a Lei nº 12.683/2012 extinguiu o rol taxativo de crimes antecedentes, e o processo e julgamento da lavagem de capitais independem do processo e julgamento das infrações penais antecedentes."
       },
       {
         "letter": "C",
-        "text": "A simples utilização aberta dos recursos provenientes de roubo para pagar despesas diárias no supermercado sem ocultação ou dissimulação já configura lavagem de dinheiro autônoma."
+        "text": "A simples utilização aberta dos recursos provenientes de roubo para pagar despesas diárias no supermercado sem ocultação ou dissimulação já configura lavagem de dinheiro autônoma, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "D",
-        "text": "Se a infração penal antecedente estiver com punibilidade extinta pela prescrição, torna-se impossível processar o delito de lavagem de dinheiro."
+        "text": "Se a infração penal antecedente estiver com punibilidade extinta pela prescrição, torna-se impossível processar o delito de lavagem de dinheiro, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       }
     ],
     "correctAnswer": "B",
@@ -2011,11 +2011,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O motorista responde em concurso material por falsificação de documento público e uso de documento falso."
+        "text": "O motorista responde em concurso material por falsificação de documento público e uso de documento falso, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "B",
-        "text": "O motorista que falsificou CNH (documento público) e a utilizou responde apenas por FALSIFICAÇÃO DE DOCUMENTO PÚBLICO (Art. 297 CP — o uso pelo próprio falsificador é pós-fato impunível absorvido); o sócio que inseriu declaração falsa em documento formalmente verdadeiro praticou FALSIDADE IDEOLÓGICA (Art. 299 CP)."
+        "text": "O motorista que falsificou CNH (documento público) e a utilizou responde apenas por falsificação de documento público."
       },
       {
         "letter": "C",
@@ -2066,19 +2066,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos praticaram o crime de calúnia simples contra a honra privada."
+        "text": "Ambos praticaram o crime de calúnia simples contra a honra privada, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "B",
-        "text": "O primeiro praticou DENUNCIAÇÃO CALUNIOSA (Art. 339 CP — imputação falsa de crime a pessoa certa e determinada dando causa a inquérito/investigação/processo); o segundo praticou COMUNICAÇÃO FALSA DE CRIME (Art. 340 CP — provocar a ação da autoridade comunicando crime que sabe não se ter verificado, sem imputar a pessoa determinada)."
+        "text": "O primeiro praticou denunciação caluniosa; o segundo praticou comunicação falsa de crime."
       },
       {
         "letter": "C",
-        "text": "A retratação do falso testemunho (Art. 342) após o trânsito em julgado da sentença no processo principal ainda extingue a punibilidade."
+        "text": "A retratação do falso testemunho após o trânsito em julgado da sentença no processo principal ainda extingue a punibilidade, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "D",
-        "text": "No crime de autoacusação falsa (Art. 341 CP), o advogado que assume falsamente crime praticado por terceiro para livrá-lo responde por favorecimento real."
+        "text": "No crime de autoacusação falsa, o advogado que assume falsamente crime praticado por terceiro para livrá-lo responde por favorecimento real."
       }
     ],
     "correctAnswer": "B",
@@ -2121,19 +2121,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Lucas responde normalmente por favorecimento pessoal com pena reduzida à metade pelo parentesco."
+        "text": "Lucas responde normalmente por favorecimento pessoal com pena reduzida à metade pelo parentesco, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "B",
-        "text": "Lucas praticou FAVORECIMENTO PESSOAL (Art. 348 CP), mas fica ISENTO DE PENA por ser irmão (ascendente, descendente, cônjuge ou irmão do criminoso — Art. 348, § 2º); o amigo praticou FAVORECIMENTO REAL (Art. 349 CP — prestar auxílio para tornar seguro o proveito do crime), que NÃO prevê escusa absolutória de parentesco nem isenção."
+        "text": "Lucas praticou favorecimento pessoal, mas fica isento de pena por ser irmão; o amigo praticou favorecimento real, que não prevê escusa absolutória de parentesco nem isenção."
       },
       {
         "letter": "C",
-        "text": "O amigo que guardou o ouro sem intuito de proveito próprio responde por receptação dolosa."
+        "text": "O amigo que guardou o ouro sem intuito de proveito próprio responde por receptação dolosa, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "D",
-        "text": "A escusa absolutória do parentesco prevista no § 2º do Art. 348 estende-se igualmente ao favorecimento real (Art. 349)."
+        "text": "A escusa absolutória do parentesco prevista no § 2º estende-se igualmente ao favorecimento real, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       }
     ],
     "correctAnswer": "B",
@@ -2176,19 +2176,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O primeiro praticou RESISTÊNCIA (Art. 329 CP — opor-se à execução de ato legal mediante violência ou ameaça a funcionário competente), respondendo pela pena da resistência CUMULADA com a pena correspondente à violência/lesão corporal (Art. 329, § 2º); o motorista praticou DESOBEDIÊNCIA (Art. 330) pela recusa passiva à ordem legal (salvo sanção administrativa sem ressalva penal) e DESACATO (Art. 331) pela ofensa direta à honra funcional na presença do servidor."
+        "text": "O primeiro praticou resistência, respondendo pela pena da resistência cumulada com a pena correspondente à violência/lesão corporal."
       },
       {
         "letter": "B",
-        "text": "No delito de resistência com lesão corporal leve ao policial, a pena da lesão é sempre absorvida pela resistência."
+        "text": "No delito de resistência com lesão corporal leve ao policial, a pena da lesão é sempre absorvida pela resistência, com consumação formal do delito independentemente da obtenção de vantagem ilícita efetiva."
       },
       {
         "letter": "C",
-        "text": "O Supremo Tribunal Federal e o STJ declararam abolido o crime de desacato do Art. 331 do CP por incompatibilidade com o Pacto de San José da Costa Rica."
+        "text": "O Supremo Tribunal Federal e o STJ declararam abolido o crime de desacato por incompatibilidade com o Pacto de San José da Costa Rica."
       },
       {
         "letter": "D",
-        "text": "Se a ordem policial ou o mandado de prisão for manifestamente ilegal, ainda assim configura-se o crime de resistência."
+        "text": "Se a ordem policial ou o mandado de prisão for manifestamente ilegal, ainda assim configura-se o crime de resistência, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       }
     ],
     "correctAnswer": "A",
@@ -2232,7 +2232,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O primeiro praticou CONTRABANDO (Art. 334-A CP — importar ou exportar mercadoria PROIBIDA, crime em que NÃO se aplica o princípio da insignificância segundo o STF/STJ); o segundo praticou DESCAMINHO (Art. 334 CP — iludir o pagamento de tributo sobre mercadoria permitida, aplicando-se a insignificância quando o tributo iludido não exceder R$ 20.000,00)."
+        "text": "O primeiro praticou contrabando; o segundo praticou descaminho."
       },
       {
         "letter": "B",
@@ -2240,7 +2240,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O pagamento integral dos tributos no descaminho antes do trânsito em julgado penal NÃO extingue a punibilidade por ter natureza exclusivamente aduaneira."
+        "text": "O pagamento integral dos tributos no descaminho antes do trânsito em julgado penal não extingue a punibilidade por ter natureza exclusivamente aduaneira."
       },
       {
         "letter": "D",
@@ -2287,19 +2287,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O não repasse das contribuições descontadas dos empregados configura APROPRIAÇÃO INDÉBITA PREVIDENCIÁRIA (Art. 168-A CP — crime omissivo próprio); quanto ao ICMS próprio declarado e não pago, o STF no RHC 163.334 decidiu que só configura crime do Art. 2º, II, da Lei 8.137/90 quando o contribuinte deixa de recolher de forma CONTUMAZ e com DOLO DE APROPRIAÇÃO (não bastando mero inadimplemento eventual)."
+        "text": "O não repasse das contribuições descontadas dos empregados configura apropriação indébita previdenciária."
       },
       {
         "letter": "B",
-        "text": "Qualquer atraso eventual de ICMS declarado em guia já configura automaticamente crime de apropriação indébita tributária."
+        "text": "Qualquer atraso eventual de ICMS declarado em guia já configura automaticamente crime de apropriação indébita tributária, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "C",
-        "text": "O crime de apropriação indébita previdenciária (Art. 168-A) exige comprovação de dolo específico de fraudar os livros fiscais (animus rem sibi habendi)."
+        "text": "O crime de apropriação indébita previdenciária exige comprovação de dolo específico de fraudar os livros fiscais (animus rem sibi habendi)."
       },
       {
         "letter": "D",
-        "text": "No Art. 168-A do CP, a extinção da punibilidade só ocorre com pagamento antes da ação fiscal."
+        "text": "No Art. 168-A do CP, a extinção da punibilidade só ocorre com pagamento antes da ação fiscal, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       }
     ],
     "correctAnswer": "A",
@@ -2343,19 +2343,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplica-se a causa de aumento de pena em TRIPLO prevista no Art. 141, § 2º, do Código Penal (incluído pela Lei nº 13.964/2019 — \"Se o crime é cometido ou divulgado em quaisquer modalidades das redes sociais da rede mundial de computadores, aplica-se em triplo a pena\")."
+        "text": "Aplica-se a causa de aumento de pena em triplo (incluído pela Lei nº 13.964/2019)."
       },
       {
         "letter": "B",
-        "text": "Aplica-se apenas o aumento de 1/3 previsto no inciso III do caput do Art. 141."
+        "text": "Aplica-se apenas o aumento de 1/3 previsto no inciso III do caput, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
-        "text": "A difamação em redes sociais transforma o crime em ação penal pública incondicionada."
+        "text": "A difamação em redes sociais transforma o crime em ação penal pública incondicionada, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "D",
-        "text": "Pessoas jurídicas não podem figurar como vítimas de difamação mesmo tendo sua reputação comercial atingida."
+        "text": "Pessoas jurídicas não podem figurar como vítimas de difamação mesmo tendo sua reputação comercial atingida, com afastamento da tipicidade material da conduta por ausência de lesividade penal relevante."
       }
     ],
     "correctAnswer": "A",
@@ -2398,19 +2398,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O aumento da pena-base com base em inquéritos ou ações em curso violou a Súmula 444 do STJ (é vedada sua utilização para agravar a pena-base); já a recusa de reduzir a pena abaixo do mínimo legal na 2ª fase está de acordo com a Súmula 231 do STJ (a incidência de circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal)."
+        "text": "O aumento da pena-base com base em inquéritos ou ações em curso violou a Súmula 444 do STJ; já a recusa de reduzir a pena abaixo do mínimo legal na 2ª fase está de acordo com a Súmula 231 do STJ."
       },
       {
         "letter": "B",
-        "text": "Ambos os atos são válidos: inquéritos em curso comprovam maus antecedentes e atenuantes nunca reduzem abaixo do mínimo."
+        "text": "Ambos os atos são válidos: inquéritos em curso comprovam maus antecedentes e atenuantes nunca reduzem abaixo do mínimo, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "C",
-        "text": "Ambos os atos são inválidos: a confissão espontânea permite reduzir a pena inclusive abaixo do mínimo legal na segunda fase."
+        "text": "Ambos os atos são inválidos: a confissão espontânea permite reduzir a pena inclusive abaixo do mínimo legal na segunda fase, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "D",
-        "text": "Se a confissão for usada apenas parcialmente para formar o convencimento condenatório do juiz, o réu perde o direito à atenuante da confissão espontânea."
+        "text": "Se a confissão for usada apenas parcialmente para formar o convencimento condenatório do juiz, o réu perde o direito à atenuante da confissão espontânea, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       }
     ],
     "correctAnswer": "A",
@@ -2454,19 +2454,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não é reincidente, pois entre a data do cumprimento ou extinção da pena anterior (10/03/2018) e a infração posterior (15/06/2023) decorreu período de tempo superior a 5 anos (sistema da temporariedade — Art. 64, I, CP), subsistindo no máximo maus antecedentes; ademais, para efeito de reincidência, NÃO se consideram os crimes militares próprios e políticos (Art. 64, II)."
+        "text": "Não é reincidente, pois entre a data do cumprimento ou extinção da pena anterior (10/03/2018) e a infração posterior (15/06/2023) decorreu período de tempo superior a 5 anos, subsistindo no máximo maus antecedentes; ademais, para efeito de reincidência, não se consideram os crimes militares próprios e políticos."
       },
       {
         "letter": "B",
-        "text": "Sim, pois o prazo de 5 anos para cessar a reincidência conta-se do trânsito em julgado da primeira condenação, e não da extinção da pena."
+        "text": "Sim, pois o prazo de 5 anos para cessar a reincidência conta-se do trânsito em julgado da primeira condenação, e não da extinção da pena. A consequência jurídica se impõe de forma uniforme independentemente das circunstâncias posteriores."
       },
       {
         "letter": "C",
-        "text": "Se uma contravenção penal anterior ocorrer no Brasil antes de um novo crime praticado no Brasil, gera reincidência nos termos do Art. 63 do CP."
+        "text": "Se uma contravenção penal anterior ocorrer no Brasil antes de um novo crime praticado no Brasil, gera reincidência, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "D",
-        "text": "Ultrapassado o período depurador de 5 anos, desaparecem automaticamente também os maus antecedentes na primeira fase da dosimetria segundo o STF."
+        "text": "Ultrapassado o período depurador de 5 anos, desaparecem automaticamente também os maus antecedentes na primeira fase da dosimetria segundo o STF, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       }
     ],
     "correctAnswer": "A",
@@ -2510,19 +2510,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Praticaram EXTORSÃO QUALIFICADA pela restrição da liberdade da vítima (\"sequestro relâmpago\" — Art. 158, § 3º, CP), pois a restrição da liberdade da vítima foi condição necessária para obtenção da vantagem econômica mediante seu comportamento forçado nos caixas eletrônicos (não havendo exigência de resgate a terceiros como na extorsão mediante sequestro do Art. 159)."
+        "text": "Praticaram extorsão qualificada pela restrição da liberdade da vítima, pois a restrição da liberdade da vítima foi condição necessária para obtenção da vantagem econômica mediante seu comportamento forçado nos caixas eletrônicos."
       },
       {
         "letter": "B",
-        "text": "Praticaram extorsão mediante sequestro (Art. 159 CP) por terem privado a vítima de sua liberdade por mais de uma hora."
+        "text": "Praticaram extorsão mediante sequestro por terem privado a vítima de sua liberdade por mais de uma hora, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "C",
-        "text": "A extorsão simples do Art. 158, caput, exige a efetiva obtenção da vantagem econômica indevida para consumar-se."
+        "text": "A extorsão simples, exige a efetiva obtenção da vantagem econômica indevida para consumar-se, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "D",
-        "text": "Caso os criminosos apenas tomassem o cartão e a senha já previamente obtidos e sacassem depois sem precisar restringir a vítima nem exigir comportamento dela, ainda seria extorsão."
+        "text": "Caso os criminosos apenas tomassem o cartão e a senha já previamente obtidos e sacassem depois sem precisar restringir a vítima nem exigir comportamento dela, ainda seria extorsão, em observância rigorosa ao princípio da legalidade estrita e da vedação à analogia prejudicial."
       }
     ],
     "correctAnswer": "A",
@@ -2566,19 +2566,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O filho é ISENTO DE PENA pela escusa absolutória do Art. 181, II, do CP (crime patrimonial sem violência/grave ameaça contra ascendente menor de 60 anos); entretanto, essa imunidade penal absoluta NÃO se estende ao amigo estranho que participou do furto (Art. 183, II, CP), o qual responde normalmente."
+        "text": "O filho é isento de pena pela escusa absolutória; entretanto, essa imunidade penal absoluta não se estende ao amigo estranho que participou do furto, o qual responde normalmente."
       },
       {
         "letter": "B",
-        "text": "Ambos ficam isentos de pena em razão da comunicabilidade da escusa absolutória no concurso de pessoas."
+        "text": "Ambos ficam isentos de pena em razão da comunicabilidade da escusa absolutória no concurso de pessoas, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
-        "text": "Mesmo que o pai tivesse 65 anos de idade, o filho ainda continuaria integralmente isento de pena pelo Art. 181."
+        "text": "Mesmo que o pai tivesse 65 anos de idade, o filho ainda continuaria integralmente isento de pena, sem configuração de causa interruptiva ou suspensiva do curso regular da pretensão punitiva."
       },
       {
         "letter": "D",
-        "text": "No crime de roubo simples contra o próprio cônjuge na constância do casamento, aplica-se a isenção de pena do Art. 181, I."
+        "text": "No crime de roubo simples contra o próprio cônjuge na constância do casamento, aplica-se a isenção de pena, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       }
     ],
     "correctAnswer": "A",
@@ -2621,7 +2621,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Respectivamente: (1) ESTELIONATO (Art. 171 — dolo antecedente com fraude induzindo a vítima a entregar o bem espontaneamente); (2) APROPRIAÇÃO INDÉBITA (Art. 168 — posse inicial lícita e legítima, com inversão ulterior do ânimo para assenhoreamento); (3) FURTO MEDIANTE FRAUDE (Art. 155, § 4º, II ou § 4º-B fraude eletrônica — fraude usada para diminuir a vigilância e subtrair contra a vontade da vítima)."
+        "text": "Respectivamente: estelionato; apropriação indébita; furto mediante fraude."
       },
       {
         "letter": "B",
@@ -2676,19 +2676,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Praticou RECEPTAÇÃO QUALIFICADA (Art. 180, § 1º, CP — reclusão de 3 a 8 anos), que abrange expressamente tanto o dolo direto (\"sabe\") quanto o dolo eventual (\"deve saber\") quando praticada no exercício de atividade comercial ou industrial (inclusive comércio irregular ou clandestino — § 2º)."
+        "text": "Praticou receptação qualificada, que abrange expressamente tanto o dolo direto (\"sabe\") quanto o dolo eventual (\"deve saber\") quando praticada no exercício de atividade comercial ou industrial."
       },
       {
         "letter": "B",
-        "text": "O comerciante responde apenas por receptação culposa (Art. 180, § 3º) se não houver prova de dolo direto (\"sabe\") de que as peças eram roubadas."
+        "text": "O comerciante responde apenas por receptação culposa se não houver prova de dolo direto (\"sabe\") de que as peças eram roubadas, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "C",
-        "text": "A receptação é punível apenas se o autor do furto/roubo antecedente já tiver sido identificado e condenado definitivamente."
+        "text": "A receptação é punível apenas se o autor do furto/roubo antecedente já tiver sido identificado e condenado definitivamente, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "D",
-        "text": "Se os bens receptados pertencerem ao patrimônio da União ou Município, aplica-se exatamente a mesma pena simples sem agravamento."
+        "text": "Se os bens receptados pertencerem ao patrimônio da União ou Município, aplica-se exatamente a mesma pena simples sem agravamento, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       }
     ],
     "correctAnswer": "A",
@@ -2732,11 +2732,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O advogado praticou tráfico de influência do Art. 332 CP."
+        "text": "O advogado praticou tráfico de influência, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "B",
-        "text": "Como o fiscal recusou a oferta do empresário, o crime de corrupção ativa restou apenas na forma tentada."
+        "text": "Como o fiscal recusou a oferta do empresário, o crime de corrupção ativa restou apenas na forma tentada, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "C",
@@ -2744,7 +2744,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O advogado praticou EXPLORAÇÃO DE PRESTÍGIO (Art. 357 CP — solicitar ou receber dinheiro a pretexto de influir em juiz, jurado, MP, funcionário da justiça, perito, tradutor ou intérprete, com aumento de 1/3 se alegar que o dinheiro também se destina a esses); o empresário praticou CORRUPÇÃO ATIVA consumada (Art. 333 CP — oferecer ou prometer vantagem indevida, crime formal que consuma independentemente da aceitação do fiscal)."
+        "text": "O advogado praticou exploração de prestígio; o empresário praticou corrupção ativa consumada."
       }
     ],
     "correctAnswer": "D",
@@ -2787,19 +2787,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer erro jurídico de juiz ou promotor reformado pelo Tribunal configura abuso de autoridade culposo."
+        "text": "Qualquer erro jurídico de juiz ou promotor reformado pelo Tribunal configura abuso de autoridade culposo, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "B",
-        "text": "Os crimes da Lei de Abuso de Autoridade são de ação penal privada exclusiva da vítima."
+        "text": "Os crimes da Lei de Abuso de Autoridade são de ação penal privada exclusiva da vítima, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "C",
-        "text": "A perda do cargo público como efeito da condenação por abuso de autoridade é sempre automática na primeira sentença condenatória."
+        "text": "A perda do cargo público como efeito da condenação por abuso de autoridade é sempre automática na primeira sentença condenatória, com consumação formal do delito independentemente da obtenção de vantagem ilícita efetiva."
       },
       {
         "letter": "D",
-        "text": "O agente que agiu com finalidade específica de prejudicar/humilhar praticou abuso de autoridade (Art. 1º, § 1º e Art. 10 da Lei 13.869/2019); já a divergência na interpretação de lei ou na avaliação de fatos e provas NÃO configura abuso de autoridade (Art. 1º, § 2º — vedação do crime de hermenêutica), exigindo-se sempre dolo específico (finalidade de prejudicar outrem, beneficiar a si/terceiro, ou agir por mero capricho ou satisfação pessoal)."
+        "text": "O agente que agiu com finalidade específica de prejudicar/humilhar praticou abuso de autoridade."
       }
     ],
     "correctAnswer": "D",
@@ -2842,19 +2842,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O caso do gerente constitui estupro simples por haver ameaça de demissão do emprego."
+        "text": "O caso do gerente constitui estupro simples por haver ameaça de demissão do emprego, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "B",
-        "text": "O crime de estupro exige conjunção carnal vaginal entre homem e mulher para consumar-se."
+        "text": "O crime de estupro exige conjunção carnal vaginal entre homem e mulher para consumar-se, com consumação formal do delito independentemente da obtenção de vantagem ilícita efetiva."
       },
       {
         "letter": "C",
-        "text": "No assédio sexual (Art. 216-A), é irrelevante existir relação hierárquica ou de ascendência de emprego, cargo ou função."
+        "text": "No assédio sexual, é irrelevante existir relação hierárquica ou de ascendência de emprego, cargo ou função. A consequência jurídica se impõe de forma uniforme independentemente das circunstâncias posteriores."
       },
       {
         "letter": "D",
-        "text": "Configuram, respectivamente: (1) VIOLAÇÃO SEXUAL MEDIANTE FRAUDE (Art. 215 CP — fraude que impede ou dificulta a livre manifestação de vontade da vítima sem violência); (2) ASSÉDIO SEXUAL (Art. 216-A CP — constranger com intuito de obter vantagem/favorecimento sexual prevalecendo-se da condição de superior hierárquico ou ascendência laboral); (3) ESTUPRO (Art. 213 CP — violência ou grave ameaça)."
+        "text": "Configuram, respectivamente: violação sexual mediante fraude; assédio sexual; estupro."
       }
     ],
     "correctAnswer": "D",
@@ -2897,19 +2897,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, pois vigora obrigatoriamente a teoria da dupla imputação, devendo sempre ser denunciada a pessoa física gestora sob pena de inépcia."
+        "text": "Não, pois vigora obrigatoriamente a teoria da dupla imputação, devendo sempre ser denunciada a pessoa física gestora sob pena de inépcia. A consequência jurídica se impõe de forma uniforme independentemente das circunstâncias posteriores."
       },
       {
         "letter": "B",
-        "text": "A pessoa jurídica somente pode ser responsabilizada penalmente por crimes ambientais culposos de menor potencial ofensivo."
+        "text": "A pessoa jurídica somente pode ser responsabilizada penalmente por crimes ambientais culposos de menor potencial ofensivo, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
-        "text": "As penas aplicáveis às pessoas jurídicas na Lei nº 9.605/98 limitam-se exclusivamente à multa pecuniária."
+        "text": "As penas aplicáveis às pessoas jurídicas na Lei nº 9.605/98 limitam-se exclusivamente à multa pecuniária, com responsabilização direta pelo resultado naturalístico produzido pela conduta do agente. Tal critério incide objetivamente na verificação da adequação típica da conduta."
       },
       {
         "letter": "D",
-        "text": "Sim, pois o STF (RE 548.181) e o STJ consolidaram o abandono da teoria da dupla imputação obrigatória, admitindo a responsabilização penal autônoma da pessoa jurídica por crimes ambientais mesmo sem a denúncia simultânea da pessoa física."
+        "text": "Sim, pois o STF e o STJ consolidaram o abandono da teoria da dupla imputação obrigatória, admitindo a responsabilização penal autônoma da pessoa jurídica por crimes ambientais mesmo sem a denúncia simultânea da pessoa física."
       }
     ],
     "correctAnswer": "D",
@@ -2953,19 +2953,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O ANPP aplica-se prioritariamente aos crimes de menor potencial ofensivo com pena máxima até 2 anos, substituindo a transação penal."
+        "text": "O ANPP aplica-se prioritariamente aos crimes de menor potencial ofensivo com pena máxima até 2 anos, substituindo a transação penal, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "B",
-        "text": "O ANPP exige que o investigado permaneça em silêncio sem confessar os fatos durante o acordo com o Ministério Público."
+        "text": "O ANPP exige que o investigado permaneça em silêncio sem confessar os fatos durante o acordo com o Ministério Público, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "C",
-        "text": "Na suspensão condicional do processo (Art. 89 da Lei 9.099/95), o critério legal é a pena MÁXIMA não superior a 4 anos."
+        "text": "Na suspensão condicional do processo, o critério legal é a pena máxima não superior a 4 anos, com impossibilidade de reconhecimento de concurso formal ou de majorante não prevista no tipo. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "D",
-        "text": "Ao furto simples (pena mínima < 4 anos, sem violência/grave ameaça, mediante confissão) aplica-se em regra o Acordo de Não Persecução Penal — ANPP (Art. 28-A CPP — além da possibilidade residual de suspensão condicional do processo se já oferecida a denúncia); à lesão corporal culposa no trânsito (pena máxima <= 2 anos — infração de menor potencial ofensivo) cabem Transação Penal (Art. 76 Lei 9.099/95) e Suspensão Condicional do Processo (Art. 89), sendo incabível ANPP quando couber transação penal (Art. 28-A, § 2º, I, CPP)."
+        "text": "Ao furto simples aplica-se em regra o Acordo de Não Persecução Penal — ANPP; à lesão corporal culposa no trânsito cabem Transação Penal e Suspensão Condicional do Processo, sendo incabível ANPP quando couber transação penal."
       }
     ],
     "correctAnswer": "D",
@@ -3008,19 +3008,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Permanece tipificado no Art. 140, § 3º, do Código Penal, submetido a ação penal pública condicionada à representação e prescritível."
+        "text": "Permanece tipificado, submetido a ação penal pública condicionada à representação e prescritível, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "B",
-        "text": "A pena é reduzida à metade quando o delito for cometido em contexto de descontração, recreação ou eventos esportivos."
+        "text": "A pena é reduzida à metade quando o delito for cometido em contexto de descontração, recreação ou eventos esportivos, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
-        "text": "A injúria por motivo religioso ou contra pessoa com deficiência também foi deslocada para o Art. 2º-A da Lei 7.716/89."
+        "text": "A injúria por motivo religioso ou contra pessoa com deficiência também foi deslocada para o Art. 2º-A da Lei 7.716/89, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "D",
-        "text": "Configura o crime de INJÚRIA RACIAL tipificado agora expressamente no Art. 2º-A da Lei nº 7.716/1989 (Lei do Racismo), com pena de reclusão de 2 a 5 anos e multa, submetido à ação penal pública INCONDICIONADA, sendo imprescritível e inafiançável por constituir espécie de racismo (Art. 5º, XLII, CF)."
+        "text": "Configura o crime de injúria racial tipificado agora expressamente (Lei do Racismo), com pena de reclusão de 2 a 5 anos e multa, submetido à ação penal pública incondicionada, sendo imprescritível e inafiançável por constituir espécie de racismo."
       }
     ],
     "correctAnswer": "D",
@@ -3064,11 +3064,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Configura sempre crime de moeda falsa de competência da Justiça Federal, ainda que a impressão em papel sulfite seja grosseira."
+        "text": "Configura sempre crime de moeda falsa de competência da Justiça Federal, ainda que a impressão em papel sulfite seja grosseira, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "B",
-        "text": "Se a falsificação for sofisticada e idônea a enganar o homem médio, ainda assim compete à Justiça Estadual por lesar patrimônio do comerciante."
+        "text": "Se a falsificação for sofisticada e idônea a enganar o homem médio, ainda assim compete à Justiça Estadual por lesar patrimônio do comerciante, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
@@ -3076,7 +3076,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Trata-se de falsificação GROSSEIRA, inapta a configurar o crime de moeda falsa (Art. 289 CP), respondendo o agente pelo crime de ESTELIONATO (Art. 171 CP), cujo processo e julgamento competem à JUSTIÇA ESTADUAL (Súmula 73 do STJ)."
+        "text": "Trata-se de falsificação grosseira, inapta a configurar o crime de moeda falsa, respondendo o agente pelo crime de estelionato, cujo processo e julgamento competem à justiça estadual."
       }
     ],
     "correctAnswer": "D",
@@ -3120,19 +3120,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A perseguição reiterada (stalking) continua sendo mera contravenção penal de perturbação da tranquilidade (Art. 65 da LCP)."
+        "text": "A perseguição reiterada (stalking) continua sendo mera contravenção penal de perturbação da tranquilidade, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "B",
-        "text": "O crime de perseguição (Art. 147-A) pode ser configurado por um único episódio isolado de mensagem incômoda sem habitualidade."
+        "text": "O crime de perseguição pode ser configurado por um único episódio isolado de mensagem incômoda sem habitualidade."
       },
       {
         "letter": "C",
-        "text": "No crime de perseguição (stalking), procede-se sempre mediante ação penal pública incondicionada."
+        "text": "No crime de perseguição (stalking), procede-se sempre mediante ação penal pública incondicionada, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "D",
-        "text": "Respectivamente: crime de PERSEGUIÇÃO / Stalking (Art. 147-A CP — perseguir alguém, reiteradamente e por qualquer meio, ameaçando-lhe a integridade física ou psicológica, restringindo-lhe a capacidade de locomoção ou invadindo/perturbando sua esfera de liberdade ou privacidade, de ação pública condicionada à representação) e crime de VIOLÊNCIA PSICOLÓGICA contra a mulher (Art. 147-B CP — ação penal pública incondicionada)."
+        "text": "Respectivamente: crime de perseguição / Stalking e crime de violência psicológica contra a mulher."
       }
     ],
     "correctAnswer": "D",
@@ -3175,7 +3175,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Procede integralmente, devendo o particular responder apenas por apropriação indébita comum."
+        "text": "Procede integralmente, devendo o particular responder apenas por apropriação indébita comum, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "B",
@@ -3183,11 +3183,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Em crimes próprios não se admite participação de terceiro estranho ao serviço público."
+        "text": "Em crimes próprios não se admite participação de terceiro estranho ao serviço público, em observância rigorosa ao princípio da legalidade estrita e da vedação à analogia prejudicial."
       },
       {
         "letter": "D",
-        "text": "Não procede, pois o Art. 30 do Código Penal determina que as circunstâncias e condições de caráter pessoal não se comunicam, salvo quando elementares do crime — e a condição de funcionário público é elementar do peculato."
+        "text": "Não procede, pois a legislação aplicável determina que as circunstâncias e condições de caráter pessoal não se comunicam, salvo quando elementares do crime."
       }
     ],
     "correctAnswer": "D",
@@ -3230,19 +3230,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos configuram erro de proibição inevitável, isentando ambos os agentes de qualquer responsabilidade."
+        "text": "Ambos configuram erro de proibição inevitável, isentando ambos os agentes de qualquer responsabilidade, em observância rigorosa ao princípio da legalidade estrita e da vedação à analogia prejudicial."
       },
       {
         "letter": "B",
-        "text": "O erro de tipo evitável exclui totalmente a tipicidade dolosa e culposa da conduta."
+        "text": "O erro de tipo evitável exclui totalmente a tipicidade dolosa e culposa da conduta, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "C",
-        "text": "O erro de proibição vencível exclui o dolo e converte o crime em modalidade culposa."
+        "text": "O erro de proibição vencível exclui o dolo e converte o crime em modalidade culposa, com afastamento da tipicidade material da conduta por ausência de lesividade penal relevante."
       },
       {
         "letter": "D",
-        "text": "O primeiro caso configura erro de tipo essencial (exclui o dolo, permitindo punição por culpa se prevista em lei); o segundo configura erro de proibição (exclui ou diminui a culpabilidade por ausência ou redução da potencial consciência da ilicitude)."
+        "text": "O primeiro caso configura erro de tipo essencial; o segundo configura erro de proibição."
       }
     ],
     "correctAnswer": "D",
@@ -3285,11 +3285,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Responderá por tentativa de homicídio com causa de diminuição de pena de 1/3 a 2/3."
+        "text": "Responderá por tentativa de homicídio com causa de diminuição de pena de 1/3 a 2/3, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "B",
-        "text": "Responderá por arrependimento posterior, com redução obrigatória da pena do homicídio tentado."
+        "text": "Responderá por arrependimento posterior, com redução obrigatória da pena do homicídio tentado, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "C",
@@ -3297,7 +3297,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O agente só fica isento da tentativa se sua desistência for espontânea, não bastando ser voluntária."
+        "text": "O agente só fica isento da tentativa se sua desistência for espontânea, não bastando ser voluntária, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       }
     ],
     "correctAnswer": "C",
@@ -3340,19 +3340,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Extingue-se a punibilidade do agente pela reparação integral do dano antes da denúncia."
+        "text": "Extingue-se a punibilidade do agente pela reparação integral do dano antes da denúncia, com agravação automática da resposta penal já na primeira fase da dosimetria da pena."
       },
       {
         "letter": "B",
-        "text": "A devolução do bem só gera redução de pena se ocorrer antes da instauração do inquérito policial."
+        "text": "A devolução do bem só gera redução de pena se ocorrer antes da instauração do inquérito policial, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "C",
-        "text": "Aplica-se o arrependimento posterior (Art. 16 do CP), causa obrigatória de diminuição de pena de um a dois terços, pois o crime foi cometido sem violência ou grave ameaça e o dano foi reparado antes do recebimento da denúncia."
+        "text": "Aplica-se o arrependimento posterior, causa obrigatória de diminuição de pena de um a dois terços, pois o crime foi cometido sem violência ou grave ameaça e o dano foi reparado antes do recebimento da denúncia."
       },
       {
         "letter": "D",
-        "text": "Não se aplica o benefício porque a restituição não foi feita pessoalmente ao delegado em auto formal."
+        "text": "Não se aplica o benefício porque a restituição não foi feita pessoalmente ao delegado em auto formal. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       }
     ],
     "correctAnswer": "C",
@@ -3395,11 +3395,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, configura crime impossível porque o monitoramento por vídeo torna absolutamente impropria a consumação."
+        "text": "Sim, configura crime impossível porque o monitoramento por vídeo torna absolutamente impropria a consumação. Tal critério incide objetivamente na verificação da adequação típica da conduta."
       },
       {
         "letter": "B",
-        "text": "Configura furto consumado desde o momento em que o cliente coloca o item dentro da mochila no corredor."
+        "text": "Configura furto consumado desde o momento em que o cliente coloca o item dentro da mochila no corredor, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "C",
@@ -3407,7 +3407,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O sistema de vigilância afasta a ilicitude por consentimento tácito do estabelecimento."
+        "text": "O sistema de vigilância afasta a ilicitude por consentimento tácito do estabelecimento, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       }
     ],
     "correctAnswer": "C",
@@ -3451,19 +3451,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os prazos prescricionais são reduzidos em um quarto, mas acumulam-se para atingir redução de 75%."
+        "text": "Os prazos prescricionais são reduzidos em um quarto, mas acumulam-se para atingir redução de 75%, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "B",
-        "text": "A sentença condenatória recorrível apenas suspende a prescrição durante o julgamento da apelação."
+        "text": "A sentença condenatória recorrível apenas suspende a prescrição durante o julgamento da apelação, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
-        "text": "Os prazos de prescrição são reduzidos pela metade porque o agente era menor de 21 anos na data do fato (ou maior de 70 na data da sentença), e a publicação da sentença condenatória recorrível interrompe a prescrição, reiniciando a contagem do zero."
+        "text": "Os prazos de prescrição são reduzidos pela metade porque o agente era menor de 21 anos na data do fato, e a publicação da sentença condenatória recorrível interrompe a prescrição, reiniciando a contagem do zero."
       },
       {
         "letter": "D",
-        "text": "O recebimento do recurso especial pelo STJ também interrompe o prazo da prescrição punitiva."
+        "text": "O recebimento do recurso especial pelo STJ também interrompe o prazo da prescrição punitiva, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       }
     ],
     "correctAnswer": "C",
@@ -3506,19 +3506,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Configura concurso material, somando-se integralmente as três penas de lesão corporal culposa."
+        "text": "Configura concurso material, somando-se integralmente as três penas de lesão corporal culposa, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "B",
-        "text": "Configura crime continuado, com aumento de 1/6 a 2/3 sobre a pena mais grave."
+        "text": "Configura crime continuado, com aumento de 1/6 a 2/3 sobre a pena mais grave, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "C",
-        "text": "Configura concurso formal próprio (perfeito), aplicando-se a pena de um só dos crimes (a mais grave, ou qualquer delas se idênticas) aumentada de 1/6 até a metade (sistema da exasperação), salvo se o cúmulo material for mais benéfico."
+        "text": "Configura concurso formal próprio (perfeito), aplicando-se a pena de um só dos crimes aumentada de 1/6 até a metade, salvo se o cúmulo material for mais benéfico."
       },
       {
         "letter": "D",
-        "text": "Configura concurso formal impróprio por ter atingido vítimas distintas."
+        "text": "Configura concurso formal impróprio por ter atingido vítimas distintas, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       }
     ],
     "correctAnswer": "C",
@@ -3561,11 +3561,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Três delitos autônomos de injúria qualificada pela publicidade."
+        "text": "Três delitos autônomos de injúria qualificada pela publicidade, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "B",
-        "text": "Calúnia nas duas primeiras falas, porque inadimplência contratual é crime de fraude civil."
+        "text": "Calúnia nas duas primeiras falas, porque inadimplência contratual é crime de fraude civil. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "C",
@@ -3573,7 +3573,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A exceção da verdade é admitida indistintamente nos três crimes contra a honra."
+        "text": "A exceção da verdade é admitida indistintamente nos três crimes contra a honra, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       }
     ],
     "correctAnswer": "C",
@@ -3616,11 +3616,11 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não se consumou, pois não houve exigência formal nem pagamento do valor do resgate."
+        "text": "Não se consumou, pois não houve exigência formal nem pagamento do valor do resgate. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "B",
-        "text": "O delator terá extinta sua punibilidade automaticamente ao apontar o paradeiro da vítima."
+        "text": "O delator terá extinta sua punibilidade automaticamente ao apontar o paradeiro da vítima, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       },
       {
         "letter": "C",
@@ -3628,7 +3628,7 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Na extorsão simples (Art. 158 CP), a consumação também depende da efetiva obtenção da vantagem indevida."
+        "text": "Na extorsão simples, a consumação também depende da efetiva obtenção da vantagem indevida, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       }
     ],
     "correctAnswer": "C",
@@ -3672,19 +3672,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O estelionato permanece submetido à ação penal pública incondicionada em todas as hipóteses."
+        "text": "O estelionato permanece submetido à ação penal pública incondicionada em todas as hipóteses, com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais."
       },
       {
         "letter": "B",
-        "text": "A condição de procedibilidade aplica-se inclusive quando a vítima é ente público ou pessoa com mais de 70 anos."
+        "text": "A condição de procedibilidade aplica-se inclusive quando a vítima é ente público ou pessoa com mais de 70 anos, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "C",
-        "text": "A ação penal no estelionato passou a ser pública condicionada à representação com a Lei 13.964/2019 (salvo exceções como vítima Administração Pública, criança/adolescente, incapaz ou maior de 70 anos), devendo ser rejeitada a denúncia pela ausência de condição de procedibilidade."
+        "text": "A ação penal no estelionato passou a ser pública condicionada à representação com a Lei 13.964/2019, devendo ser rejeitada a denúncia pela ausência de condição de procedibilidade."
       },
       {
         "letter": "D",
-        "text": "Caso a denúncia já tenha sido recebida antes do Pacote Anticrime, exige-se retratação imediata sob pena de nulidade."
+        "text": "Caso a denúncia já tenha sido recebida antes do Pacote Anticrime, exige-se retratação imediata sob pena de nulidade, com impossibilidade de reconhecimento de concurso formal ou de majorante não prevista no tipo."
       }
     ],
     "correctAnswer": "C",
@@ -3728,19 +3728,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos praticaram corrupção (passiva pelo policial e ativa pelo motorista) em concurso necessário."
+        "text": "Ambos praticaram corrupção (passiva pelo policial e ativa pelo motorista) em concurso necessário, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico."
       },
       {
         "letter": "B",
-        "text": "O policial praticou peculato-apropriação e o motorista responde por favorecimento real."
+        "text": "O policial praticou peculato-apropriação e o motorista responde por favorecimento real, em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude."
       },
       {
         "letter": "C",
-        "text": "O policial praticou concussão (Art. 316 CP — exigir vantagem indevida em razão da função) e o motorista não praticou corrupção ativa, pois o tipo do Art. 333 CP pune quem oferece ou promete vantagem indevida, não quem cede à exigência de concussão."
+        "text": "O policial praticou concussão e o motorista não praticou corrupção ativa, pois o tipo pune quem oferece ou promete vantagem indevida, não quem cede à exigência de concussão."
       },
       {
         "letter": "D",
-        "text": "A concussão exige o efetivo recebimento da vantagem indevida para se consumar."
+        "text": "A concussão exige o efetivo recebimento da vantagem indevida para se consumar, com responsabilização direta pelo resultado naturalístico produzido pela conduta do agente. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       }
     ],
     "correctAnswer": "C",
@@ -3783,19 +3783,19 @@ export const PENAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, a multa não paga deve ser convertida em detenção simples pelo prazo máximo de 1 ano."
+        "text": "Sim, a multa não paga deve ser convertida em detenção simples pelo prazo máximo de 1 ano, com impossibilidade de reconhecimento de concurso formal ou de majorante não prevista no tipo."
       },
       {
         "letter": "B",
-        "text": "A Fazenda Pública possui legitimidade exclusiva para executar a multa penal na Vara de Execuções Fiscais."
+        "text": "A Fazenda Pública possui legitimidade exclusiva para executar a multa penal na Vara de Execuções Fiscais, observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico. Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável."
       },
       {
         "letter": "C",
-        "text": "Não. Pelo Art. 51 do Código Penal, a multa é considerada dívida de valor, aplicando-se as normas da legislação relativa à dívida ativa da Fazenda Pública, não podendo ser convertida em detenção, cabendo prioritariamente ao Ministério Público a execução perante o juízo da execução penal."
+        "text": "Não, a multa é considerada dívida de valor, aplicando-se as normas da legislação relativa à dívida ativa da Fazenda Pública, não podendo ser convertida em detenção, cabendo prioritariamente ao Ministério Público a execução perante o juízo da execução penal."
       },
       {
         "letter": "D",
-        "text": "O inadimplemento da multa não impede a extinção da punibilidade após o cumprimento integral da pena de prisão."
+        "text": "O inadimplemento da multa não impede a extinção da punibilidade após o cumprimento integral da pena de prisão, sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração."
       }
     ],
     "correctAnswer": "C",

@@ -14,9 +14,9 @@ export const EMPRESARIAL_QUESTIONS: LegalQuestion[] = [
 Considerando a Lei nº 11.101/2005, com as alterações da Lei nº 14.112/2020:`,
     options: [
       { letter: 'A', text: 'O stay period poderá ser prorrogado por igual período, uma única vez, de forma excepcional, desde que o devedor não haja concorrido com culpa para a mora.' },
-      { letter: 'B', text: 'O stay period é improrrogável em qualquer hipótese, convolando-se automaticamente o processo em falência.' },
-      { letter: 'C', text: 'O prazo de suspensão pode ser renovado indefinidamente por decisão monocrática do Administrador Judicial.' },
-      { letter: 'D', text: 'As execuções trabalhistas e fiscais nunca são suspensas durante o stay period.' }
+      { letter: 'B', text: 'O stay period é improrrogável em qualquer hipótese, convolando-se automaticamente o processo em falência, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' },
+      { letter: 'C', text: 'O prazo de suspensão pode ser renovado indefinidamente por decisão monocrática do Administrador Judicial, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' },
+      { letter: 'D', text: 'As execuções trabalhistas e fiscais nunca são suspensas durante o stay period, em proteção à autonomia patrimonial societária e à segurança das relações mercantis. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' }
     ],
     correctAnswer: 'A',
     justification: `Com a reforma da Lei 14.112/2020, o art. 6º, § 4º da Lei nº 11.101/2005 passou a dispor expressamente que o prazo de suspensão de 180 dias (stay period) pode ser prorrogado por igual período (mais 180 dias), uma única vez, de forma excepcional, desde que o devedor não haja concorrido com culpa com o atraso no curso do procedimento.`,
@@ -43,9 +43,9 @@ Considerando a Lei nº 11.101/2005, com as alterações da Lei nº 14.112/2020:`
 À luz do princípio da autonomia das obrigações cambiais e do Art. 899, § 2º do Código Civil e Lei Uniforme de Genebra (LUG):`,
     options: [
       { letter: 'A', text: 'O avalista Roberto continua obrigado ao pagamento, pois o aval é garantia autônoma e subsiste mesmo que nula a obrigação garantida, salvo se a nulidade decorrer de vício de forma.' },
-      { letter: 'B', text: 'O aval segue a sorte do principal de forma acessória como a fiança, extinguindo-se a obrigação de Roberto em razão da falsidade originária.' },
-      { letter: 'C', text: 'O avalista goza do benefício de ordem obrigatório para exigir a penhora prévia de bens do devedor principal.' },
-      { letter: 'D', text: 'A nulidade da obrigação do emitente invalida integralmente o título cambial, exonerando todos os coobrigados.' }
+      { letter: 'B', text: 'O aval segue a sorte do principal de forma acessória como a fiança, extinguindo-se a obrigação de Roberto em razão da falsidade originária, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' },
+      { letter: 'C', text: 'O avalista goza do benefício de ordem obrigatório para exigir a penhora prévia de bens do devedor principal, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' },
+      { letter: 'D', text: 'A nulidade da obrigação do emitente invalida integralmente o título cambial, exonerando todos os coobrigados, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada.' }
     ],
     correctAnswer: 'A',
     justification: `Diferentemente da fiança (que é contrato acessório sujeito ao princípio da gravitação jurídica), o AVAL é declaração cambial unilateral, autônoma e substantiva. Conforme o art. 32 da Lei Uniforme de Genebra (LUG - Decreto 57.663/66) e o art. 899, § 2º do Código Civil, a obrigação do avalista mantém-se válida e eficaz mesmo quando a obrigação por ele garantida for nula por qualquer razão que não seja vício de forma intrínseco do título.`,
@@ -73,9 +73,9 @@ Considerando a Lei nº 11.101/2005, com as alterações da Lei nº 14.112/2020:`
 Segundo o Art. 1.057 do Código Civil:`,
     options: [
       { letter: 'A', text: 'A cessão para terceiro não poderá ser efetivada, pois o sócio com mais de um quarto (25%) do capital social manifestou oposição.' },
-      { letter: 'B', text: 'Marcelo pode ceder livremente suas quotas a qualquer terceiro, pois a titularidade da quota confere direito de disposição absoluta.' },
-      { letter: 'C', text: 'A oposição a terceiro exige unanimidade de todos os demais sócios.' },
-      { letter: 'D', text: 'Apenas sócios com mais de 75% do capital poderiam vetar a cessão.' }
+      { letter: 'B', text: 'Marcelo pode ceder livremente suas quotas a qualquer terceiro, pois a titularidade da quota confere direito de disposição absoluta. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
+      { letter: 'C', text: 'A oposição a terceiro exige unanimidade de todos os demais sócios, com livre alienação e circulação do título ou participação societária entre os interessados.' },
+      { letter: 'D', text: 'Apenas sócios com mais de 75% do capital poderiam vetar a cessão, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 1.057 do Código Civil preceitua que, na omissão do contrato social, o sócio pode ceder sua quota, total ou parcialmente, a quem seja sócio, independentemente de audiência dos outros, ou a ESTRANHO, se não houver oposição de titulares de mais de um quarto (mais de 25%) do capital social. Como o sócio que se opôs possui 55% do capital (muito superior a 25%), a cessão para o terceiro estranho é impedida.`,
@@ -102,9 +102,9 @@ Segundo o Art. 1.057 do Código Civil:`,
 De acordo com o Art. 1.147 do Código Civil:`,
     options: [
       { letter: 'A', text: 'Não havendo autorização expressa no contrato, o alienante do estabelecimento não pode fazer concorrência ao adquirente nos cinco anos subsequentes à transferência.' },
-      { letter: 'B', text: 'Como não havia cláusula de não concorrência, o alienante é livre para se restabelecer imediatamente em respeito à livre iniciativa.' },
-      { letter: 'C', text: 'A proibição legal de concorrência vigora pelo prazo perpétuo de 20 anos.' },
-      { letter: 'D', text: 'A vedação legal de concorrência aplica-se apenas no caso de arrendamento, mas não no trespasse definitivo.' }
+      { letter: 'B', text: 'Como não havia cláusula de não concorrência, o alienante é livre para se restabelecer imediatamente em respeito à livre iniciativa, com afastamento da responsabilidade pessoal dos sócios sem prévia demonstração de abuso.' },
+      { letter: 'C', text: 'A proibição legal de concorrência vigora pelo prazo perpétuo de 20 anos, com manutenção da estrutura de governança societária e da limitação de responsabilidade.' },
+      { letter: 'D', text: 'A vedação legal de concorrência aplica-se apenas no caso de arrendamento, mas não no trespasse definitivo, sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 1.147 do Código Civil consagra a cláusula implícita de não restabelecimento: "Não havendo autorização expressa, o alienante do estabelecimento não pode fazer concorrência ao adquirente, nos cinco anos subseqüentes à transferência". Portanto, a proibição de concorrência é a REGRA GERAL da lei pelo prazo de 5 anos, necessitando de autorização expressa para ser afastada.`,
@@ -131,9 +131,9 @@ De acordo com o Art. 1.147 do Código Civil:`,
 À luz do princípio da autonomia das obrigações cambiais e do Art. 899, § 2º do Código Civil (e Lei Uniforme de Genebra):`,
     options: [
       { letter: 'A', text: 'O aval mantém-se plenamente válido e eficaz, subsistindo a responsabilidade de Mariana, pois a obrigação do avalista é autônoma em relação à do avalizado, salvo vício de forma.' },
-      { letter: 'B', text: 'O aval é extinto imediatamente, por ser obrigação estritamente acessória que segue a sorte da dívida principal (princípio da gravitação jurídica).' },
-      { letter: 'C', text: 'Mariana pode invocar o benefício de ordem para que os bens do devedor principal sejam executados primeiro.' },
-      { letter: 'D', text: 'O aval transmuta-se de pleno direito em fiança civil subordinada às regras do Código Civil.' }
+      { letter: 'B', text: 'O aval é extinto imediatamente, por ser obrigação estritamente acessória que segue a sorte da dívida principal (princípio da gravitação jurídica), com manutenção da estrutura de governança societária e da limitação de responsabilidade.' },
+      { letter: 'C', text: 'Mariana pode invocar o benefício de ordem para que os bens do devedor principal sejam executados primeiro, em consonância com a preservação da empresa e a função social da atividade econômica.' },
+      { letter: 'D', text: 'O aval transmuta-se de pleno direito em fiança civil subordinada às regras do Código Civil, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.' }
     ],
     correctAnswer: 'A',
     justification: `O aval é dotado do atributo cambial da AUTONOMIA e SUBSTANTIAL INDEPENDÊNCIA (art. 899, § 2º do CC e art. 32 da LUG). A obrigação do avalista permanece válida ainda que a obrigação que ele garantiu seja nula por qualquer razão que não seja vício de forma intrínseco do próprio título. É a diferença fundamental em relação à fiança: a fiança é acessória (se a obrigação principal for nula, a fiança cai); o aval é autônomo (subsiste mesmo perante nulidade substancial da obrigação avalizada).`,
@@ -160,9 +160,9 @@ De acordo com o Art. 1.147 do Código Civil:`,
 De acordo com os requisitos legais da impontualidade falimentar:`,
     options: [
       { letter: 'A', text: 'O pedido de falência é juridicamente viável, pois o valor dos títulos protestados supera o limite legal mínimo de 40 salários mínimos exigido pela Lei nº 11.101/2005.' },
-      { letter: 'B', text: 'O pedido é nulo, pois a falência fundada em impontualidade exige valor mínimo superior a 100 salários mínimos.' },
-      { letter: 'C', text: 'O pedido é inviável porque a duplicata não é título de crédito apto a embasar pedido falimentar.' },
-      { letter: 'D', text: 'Apenas credores com garantia real podem ajuizar pedido de falência.' }
+      { letter: 'B', text: 'O pedido é nulo, pois a falência fundada em impontualidade exige valor mínimo superior a 100 salários mínimos. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.' },
+      { letter: 'C', text: 'O pedido é inviável porque a duplicata não é título de crédito apto a embasar pedido falimentar. Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso.' },
+      { letter: 'D', text: 'Apenas credores com garantia real podem ajuizar pedido de falência, com livre alienação e circulação do título ou participação societária entre os interessados.' }
     ],
     correctAnswer: 'A',
     justification: `O Art. 94, inciso I da Lei nº 11.101/2005 (LFRE) prevê que será decretada a falência do devedor que, sem relevante razão de direito, não paga, no vencimento, obrigação líquida materializada em título ou títulos executivos protestados cuja soma ultrapasse o equivalente a 40 (quarenta) salários mínimos na data do pedido. Como a dívida líquida protestada atinge 45 salários mínimos, preenche rigorosamente o pressuposto objetivo.`,
@@ -188,10 +188,10 @@ De acordo com os requisitos legais da impontualidade falimentar:`,
     statement: `Em uma Companhia Fechada, os acionistas pretendem emitir ações preferenciais sem direito de voto ou com voto restrito.
 Em consonância com a Lei das Sociedades por Ações (Lei nº 6.404/76):`,
     options: [
-      { letter: 'A', text: 'O número de ações preferenciais sem direito a voto, ou sujeitas a restrição no exercício desse direito, não pode ultrapassar 50% (cinquenta por cento) do total das ações emitidas.' },
-      { letter: 'B', text: 'É livre a emissão de ações preferenciais sem voto até o limite de 90% do capital social.' },
-      { letter: 'C', text: 'Toda e qualquer ação de sociedade anônima confere obrigatoriamente direito a voto pleno e irrevogável.' },
-      { letter: 'D', text: 'Apenas companhias abertas registradas na CVM podem emitir ações preferenciais.' }
+      { letter: 'A', text: 'O número de ações preferenciais sem direito a voto, ou sujeitas a restrição no exercício desse direito, não pode ultrapassar 50% do total das ações emitidas.' },
+      { letter: 'B', text: 'É livre a emissão de ações preferenciais sem voto até o limite de 90% do capital social, com manutenção da estrutura de governança societária e da limitação de responsabilidade.' },
+      { letter: 'C', text: 'Toda e qualquer ação de sociedade anônima confere obrigatoriamente direito a voto pleno e irrevogável, com desconsideração direta da personalidade jurídica sem instauração prévia de incidente.' },
+      { letter: 'D', text: 'Apenas companhias abertas registradas na CVM podem emitir ações preferenciais, com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso.' }
     ],
     correctAnswer: 'A',
     justification: `Nos termos do Art. 15, § 2º da Lei nº 6.404/76 (com redação dada pela Lei nº 10.303/2001), o número de ações preferenciais sem direito a voto, ou sujeitas a restrição no exercício desse direito, não pode ultrapassar 50% (cinquenta por cento) do total das ações emitidas. Essa regra visa impedir a concentração excessiva de controle societário com baixo percentual de capital votante.`,
@@ -223,15 +223,15 @@ De acordo com a Lei nº 11.101/2005 (com as alterações cruciais da Lei nº 14.
       },
       {
         letter: 'B',
-        text: 'A extinção imediata de todas as dívidas anteriores, exonerando os garantidores e avalistas dos títulos.'
+        text: 'A extinção imediata de todas as dívidas anteriores, exonerando os garantidores e avalistas dos títulos, observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações.'
       },
       {
         letter: 'C',
-        text: 'A suspensão definitiva e perpétua de quaisquer cobranças até a conclusão do plano sem prazo limite.'
+        text: 'A suspensão definitiva e perpétua de quaisquer cobranças até a conclusão do plano sem prazo limite, em consonância com a preservação da empresa e a função social da atividade econômica.'
       },
       {
         letter: 'D',
-        text: 'A conversão automática de todas as execuções cíveis em processos falimentares sumários.'
+        text: 'A conversão automática de todas as execuções cíveis em processos falimentares sumários, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.'
       }
     ],
     correctAnswer: 'A',
@@ -265,15 +265,15 @@ De acordo com a Lei nº 11.101/2005 (com as alterações cruciais da Lei nº 14.
       },
       {
         letter: 'B',
-        text: 'Mariana está isenta do pagamento, pois a causa debendi originária vincula todos os sucessivos portadores cambiais sem exceção.'
+        text: 'Mariana está isenta do pagamento, pois a causa debendi originária vincula todos os sucessivos portadores cambiais sem exceção. Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.'
       },
       {
         letter: 'C',
-        text: 'O endosso em branco é nulo no ordenamento jurídico brasileiro, desprovendo o título de eficácia executiva.'
+        text: 'O endosso em branco é nulo no ordenamento jurídico brasileiro, desprovendo o título de eficácia executiva, sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal.'
       },
       {
         letter: 'D',
-        text: 'Leonardo só pode cobrar a dívida mediante ação declaratória prévia com litisconsórcio passivo necessário com Roberto.'
+        text: 'Leonardo só pode cobrar a dívida mediante ação declaratória prévia com litisconsórcio passivo necessário com Roberto, com manutenção da estrutura de governança societária e da limitação de responsabilidade.'
       }
     ],
     correctAnswer: 'A',
@@ -303,19 +303,19 @@ De acordo com a Lei nº 11.101/2005 (com as alterações cruciais da Lei nº 14.
     options: [
       {
         letter: 'A',
-        text: 'A conduta de Guilherme é ilícita, pois, na omissão do contrato, o alienante não pode fazer concorrência ao adquirente nos 5 (cinco) anos subsequentes à transferência.'
+        text: 'A conduta de Guilherme é ilícita, pois na omissão do contrato, o alienante não pode fazer concorrência ao adquirente nos 5 (cinco) anos subsequentes à transferência.'
       },
       {
         letter: 'B',
-        text: 'A conduta de Guilherme é lícita, pois a vedação de concorrência exige cláusula contratual expressa e solene, inexistindo proibição legal tácita.'
+        text: 'A conduta de Guilherme é lícita, pois a vedação de concorrência exige cláusula contratual expressa e solene, inexistindo proibição legal tácita. Tal entendimento preserva o regime próprio das obrigações empresariais e cambiárias.'
       },
       {
         letter: 'C',
-        text: 'O prazo legal de proibição de concorrência é perpétuo e intransponível.'
+        text: 'O prazo legal de proibição de concorrência é perpétuo e intransponível, com manutenção da estrutura de governança societária e da limitação de responsabilidade.'
       },
       {
         letter: 'D',
-        text: 'O trespasse de padarias é nulo de pleno direito sem intervenção do Ministério Público.'
+        text: 'O trespasse de padarias é nulo de pleno direito sem intervenção do Ministério Público, em proteção à autonomia patrimonial societária e à segurança das relações mercantis. Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso.'
       }
     ],
     correctAnswer: 'A',

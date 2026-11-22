@@ -14,10 +14,10 @@ export const CIVIL_EXTRA_QUESTIONS: LegalQuestion[] = [
     originType: 'AUTORAL_PROFESSOR',
     statement: `Com as alterações promovidas pelo Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015) no Código Civil, assinale a afirmativa correta sobre incapacidade absoluta e relativa:`,
     options: [
-      { letter: 'A', text: 'São absolutamente incapazes os menores de 16 anos e as pessoas com deficiência mental severa.' },
+      { letter: 'A', text: 'São absolutamente incapazes os menores de 16 anos e as pessoas com deficiência mental severa, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' },
       { letter: 'B', text: 'São absolutamente incapazes apenas os menores de 16 anos; aqueles que, por causa transitória ou permanente, não puderem exprimir sua vontade são relativamente incapazes.' },
-      { letter: 'C', text: 'A pessoa com deficiência intelectual não pode contrair casamento ou exercer o poder familiar.' },
-      { letter: 'D', text: 'A tomada de decisão apoiada substituiu completamente a curatela em todos os casos.' }
+      { letter: 'C', text: 'A pessoa com deficiência intelectual não pode contrair casamento ou exercer o poder familiar, sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral.' },
+      { letter: 'D', text: 'A tomada de decisão apoiada substituiu completamente a curatela em todos os casos, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional.' }
     ],
     correctAnswer: 'B',
     justification: `Com a Lei nº 13.146/2015, o Art. 3º do Código Civil passou a prever como absolutamente incapazes APENAS os menores de 16 anos. Quem, por causa transitória ou permanente, não puder exprimir sua vontade é relativamente incapaz (Art. 4º, III).`,
@@ -77,9 +77,9 @@ Considerando o Art. 206, § 3º, V, do Código Civil, o prazo prescricional para
 Quanto aos defeitos desses dois negócios jurídicos no Código Civil, assinale a afirmativa correta:`,
     options: [
       { letter: 'A', text: 'A doação em fraude contra credores é anulável mediante ação pauliana (prazo decadencial de 4 anos); já o negócio simulado é nulo de pleno direito (sem prazo decadencial).' },
-      { letter: 'B', text: 'Ambos os negócios são nulos de pleno direito.' },
-      { letter: 'C', text: 'Ambos os negócios são anuláveis em 2 anos.' },
-      { letter: 'D', text: 'Na doação gratuita em fraude contra credores, exige-se prova de má-fé do donatário.' }
+      { letter: 'B', text: 'Ambos os negócios são nulos de pleno direito, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor.' },
+      { letter: 'C', text: 'Ambos os negócios são anuláveis em 2 anos, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' },
+      { letter: 'D', text: 'Na doação gratuita em fraude contra credores, exige-se prova de má-fé do donatário, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' }
     ],
     correctAnswer: 'A',
     justification: `Fraude contra credores (Arts. 158 a 165 CC) torna o negócio ANULÁVEL em 4 anos via Ação Pauliana (e em negócios gratuitos como doação basta a insolvência/eventus damni, dispensando prova de consilium fraudis). Já a simulação (Art. 167 CC) gera NULIDADE ABSOLUTA, não se convalescendo pelo decurso do tempo (Art. 169).`,
@@ -107,10 +107,10 @@ Quanto aos defeitos desses dois negócios jurídicos no Código Civil, assinale 
     statement: `Uma sociedade limitada fechou as portas deixando dívidas trabalhistas e cíveis por simples má gestão econômica, sem desvio de finalidade e sem confusão patrimonial entre bens dos sócios e da empresa. O credor cível requereu a desconsideração da personalidade jurídica nos termos do Art. 50 do Código Civil (alterado pela Lei da Liberdade Econômica).
 Esse pedido deve ser:`,
     options: [
-      { letter: 'A', text: 'Deferido, pois a mera insuficiência de patrimônio da empresa basta no Código Civil.' },
+      { letter: 'A', text: 'Deferido, pois a mera insuficiência de patrimônio da empresa basta no Código Civil. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' },
       { letter: 'B', text: 'Indeferido, pois no Código Civil vigora a Teoria Maior, exigindo abuso da personalidade jurídica caracterizado pelo desvio de finalidade ou pela confusão patrimonial.' },
-      { letter: 'C', text: 'Deferido contra todos os sócios, mesmo os que nunca exerceram administração e não se beneficiaram.' },
-      { letter: 'D', text: 'Indeferido apenas porque o Código Civil não admite desconsideração inversa.' }
+      { letter: 'C', text: 'Deferido contra todos os sócios, mesmo os que nunca exerceram administração e não se beneficiaram, com impedimento à compensação ou repetição dos valores prestados na relação negocial.' },
+      { letter: 'D', text: 'Indeferido apenas porque o Código Civil não admite desconsideração inversa. Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 50 do CC adota a TEORIA MAIOR da desconsideração: não basta o mero encerramento ou inadimplemento; exige-se abuso da personalidade jurídica caracterizado por desvio de finalidade ou confusão patrimonial (atingindo apenas os sócios/administradores beneficiados direta ou indiretamente).`,
@@ -169,10 +169,10 @@ Nos termos do Art. 277 e do Art. 388 do Código Civil, Davi poderá cobrar de Br
     statement: `Lucas comprou um veículo usado de um particular (sem relação de consumo) e, 20 dias após a entrega, descobriu um defeito oculto grave no motor preexistente à compra, que o tornava impróprio ao uso.
 De acordo com os Arts. 441 a 446 do Código Civil sobre vícios redibitórios, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Lucas só pode pedir devolução do dinheiro se provar que o vendedor sabia do defeito.' },
-      { letter: 'B', text: 'Lucas pode rejeitar o veículo, rescindindo o contrato (ação redibitória), ou reclamar abatimento no preço (ação estimatória / quanti minoris), dentro do prazo decadencial de 30 dias para bem móvel.' },
-      { letter: 'C', text: 'O prazo decadencial para vício redibitório de bem móvel no Código Civil é de 90 dias.' },
-      { letter: 'D', text: 'Não cabe responsabilidade por vício oculto entre particulares fora do CDC.' }
+      { letter: 'A', text: 'Lucas só pode pedir devolução do dinheiro se provar que o vendedor sabia do defeito, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' },
+      { letter: 'B', text: 'Lucas pode rejeitar o veículo, rescindindo o contrato (ação redibitória), ou reclamar abatimento no preço, dentro do prazo decadencial de 30 dias para bem móvel.' },
+      { letter: 'C', text: 'O prazo decadencial para vício redibitório de bem móvel no Código Civil é de 90 dias, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional.' },
+      { letter: 'D', text: 'Não cabe responsabilidade por vício oculto entre particulares fora do CDC, com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' }
     ],
     correctAnswer: 'B',
     justification: `Nos contratos comutativos regidos pelo Código Civil, o adquirente pode enjeitar a coisa (ação redibitória) ou pedir abatimento do preço (ação estimatória) em 30 dias se móvel e 1 ano se imóvel (Art. 445). O conhecimento prévio do alienante apenas o obriga a pagar também perdas e danos além da restituição (Art. 443).`,
@@ -200,10 +200,10 @@ De acordo com os Arts. 441 a 446 do Código Civil sobre vícios redibitórios, a
     statement: `Sr. Antônio, viúvo com três filhos maiores (Pedro, Maria e João), decidiu vender uma casa de sua propriedade exclusivamente ao filho Pedro por preço justo de mercado. Maria e João não concordaram e não assinaram a escritura.
 Nos termos do Art. 496 do Código Civil, essa venda é:`,
     options: [
-      { letter: 'A', text: 'Nula de pleno direito.' },
+      { letter: 'A', text: 'Nula de pleno direito, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação.' },
       { letter: 'B', text: 'Anulável, salvo se os outros descendentes (e o cônjuge do alienante, se houver, exceto regime de separação obrigatória) expressamente houverem consentido.' },
-      { letter: 'C', text: 'Plenamente válida sem anuência dos demais filhos se o preço for de mercado.' },
-      { letter: 'D', text: 'Inexistente juridicamente.' }
+      { letter: 'C', text: 'Plenamente válida sem anuência dos demais filhos se o preço for de mercado, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' },
+      { letter: 'D', text: 'Inexistente juridicamente, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 496 do Código Civil estabelece que é ANULÁVEL a venda de ascendente a descendente, salvo se os outros descendentes e o cônjuge do alienante expressamente houverem consentido (dispensado o consentimento do cônjuge se o regime de bens for o da separação obrigatória). O prazo decadencial para anular é de 2 anos a contar da conclusão do ato (Art. 179).`,
@@ -231,10 +231,10 @@ Nos termos do Art. 496 do Código Civil, essa venda é:`,
     statement: `Rafael, casado sob o regime da comunhão parcial de bens, prestou fiança em contrato de locação comercial de um amigo sem a autorização (outorga) de sua esposa, Camila.
 À luz do Código Civil (Art. 1.647, III) e da Súmula 332 do STJ, essa fiança é:`,
     options: [
-      { letter: 'A', text: 'Válida em relação à meação de Rafael.' },
+      { letter: 'A', text: 'Válida em relação à meação de Rafael, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional.' },
       { letter: 'B', text: 'Totalmente ineficaz (nula/ineficaz em sua integralidade), não respondendo sequer a meação do cônjuge que a prestou.' },
-      { letter: 'C', text: 'Válida, pois na comunhão parcial dispensa-se outorga conjugal.' },
-      { letter: 'D', text: 'Válida se o locador desconhecia que Rafael era casado.' }
+      { letter: 'C', text: 'Válida, pois na comunhão parcial dispensa-se outorga conjugal. Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes.' },
+      { letter: 'D', text: 'Válida se o locador desconhecia que Rafael era casado, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' }
     ],
     correctAnswer: 'B',
     justification: `Segundo a Súmula 332 do STJ: "A fiança prestada sem autorização de um dos cônjuges implica a ineficácia total da garantia." Apenas no regime de separação absoluta de bens (Art. 1.647 CC) é dispensada a outorga conjugal para fiança/aval.`,
@@ -263,10 +263,10 @@ Nos termos do Art. 496 do Código Civil, essa venda é:`,
     statement: `Enquanto caminhava pela calçada, uma criança de 10 anos (incapaz) arremessou uma pedra e quebrou o para-brisa de um automóvel estacionado. Em outro ponto da rua, o cachorro de grande porte de um morador escapou pelo portão aberto por descuido e mordeu um pedestre.
 De acordo com os Arts. 928, 932 e 936 do Código Civil, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Os pais respondem objetivamente pelos atos dos filhos menores que estiverem sob sua autoridade e em sua companhia; o dono do animal responde objetivamente pelo dano, salvo se provar culpa exclusiva da vítima ou força maior.' },
-      { letter: 'B', text: 'Os pais só respondem se o lesado comprovar que educaram mal o filho (culpa in vigilando provada pela vítima).' },
-      { letter: 'C', text: 'O incapaz responde solidariamente em igualdade de condições com os pais.' },
-      { letter: 'D', text: 'O dono do animal só responde se o animal já tivesse histórico de ataques.' }
+      { letter: 'A', text: 'Os pais respondem objetivamente pelos atos dos filhos menores que estiverem sob sua autoridade e em sua companhia.' },
+      { letter: 'B', text: 'Os pais só respondem se o lesado comprovar que educaram mal o filho (culpa in vigilando provada pela vítima), observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' },
+      { letter: 'C', text: 'O incapaz responde solidariamente em igualdade de condições com os pais, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' },
+      { letter: 'D', text: 'O dono do animal só responde se o animal já tivesse histórico de ataques, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação.' }
     ],
     correctAnswer: 'A',
     justification: `Os Arts. 932, I e 933 do CC estabelecem responsabilidade OBJETIVA (independente de culpa) dos pais pelos filhos menores sob sua autoridade e companhia. O incapaz só responde de forma subsidiária e equitativa se os responsáveis não tiverem obrigação ou meios suficientes (Art. 928). Já o dono/detentor de animal responde objetivamente (Art. 936), salvo culpa exclusiva da vítima ou força maior.`,
@@ -294,10 +294,10 @@ De acordo com os Arts. 928, 932 e 936 do Código Civil, assinale a afirmativa co
     statement: `Joana e Carlos eram coproprietários de um único imóvel urbano de 180 m², onde residiam com os filhos. Carlos abandonou o lar voluntariamente e desapareceu sem prestar assistência. Joana permaneceu residindo no imóvel de forma ininterrupta, sem oposição, por 2 anos e 4 meses, arcando sozinha com todas as despesas da moradia, e não possui nenhum outro imóvel.
 Nos termos do Art. 1.240-A do Código Civil, Joana:`,
     options: [
-      { letter: 'A', text: 'Não adquiriu a propriedade integral, pois o menor prazo de usucapião no Brasil é de 5 anos.' },
+      { letter: 'A', text: 'Não adquiriu a propriedade integral, pois o menor prazo de usucapião no Brasil é de 5 anos. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' },
       { letter: 'B', text: 'Adquiriu o domínio integral do imóvel por usucapião familiar (especial urbana por abandono de lar), preenchido o prazo de 2 anos de posse direta com exclusividade.' },
-      { letter: 'C', text: 'Precisa aguardar 10 anos por já ser coproprietária condômina do imóvel.' },
-      { letter: 'D', text: 'Só teria direito à usucapião se o imóvel tivesse até 100 m².' }
+      { letter: 'C', text: 'Precisa aguardar 10 anos por já ser coproprietária condômina do imóvel, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' },
+      { letter: 'D', text: 'Só teria direito à usucapião se o imóvel tivesse até 100 m², com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 1.240-A do Código Civil prevê a Usucapião Familiar: aquele que exercer, por 2 (dois) anos ininterruptamente e sem oposição, posse direta, com exclusividade, sobre imóvel urbano de até 250 m² cuja propriedade divida com ex-cônjuge ou ex-companheiro que abandonou o lar, utilizando-o para sua moradia ou de sua família, adquirir-lhe-á o domínio integral, desde que não seja proprietário de outro imóvel urbano ou rural.`,
@@ -325,10 +325,10 @@ Nos termos do Art. 1.240-A do Código Civil, Joana:`,
     statement: `Marcos faleceu deixando sua esposa Cláudia (casados pelo regime da comunhão parcial de bens) e dois filhos exclusivos do casal. Durante a constância do casamento, adquiriram onerosamente um apartamento avaliado em R$ 600.000,00 (bem comum). Marcos também possuía uma fazenda herdada de seu pai antes do casamento, avaliada em R$ 400.000,00 (bem particular).
 De acordo com o Art. 1.829, I, do Código Civil e o entendimento consolidado do STJ, como se dará a divisão desses bens para Cláudia?`,
     options: [
-      { letter: 'A', text: 'Cláudia é meeira e também herdeira sobre o apartamento, não herdando nada na fazenda.' },
-      { letter: 'B', text: 'No apartamento (bem comum), Cláudia é apenas MEEIRA (fica com 50% por meação, sem herdar na outra metade); na fazenda (bem particular), Cláudia concorre como HERDEIRA em igualdade com os dois filhos (1/3 para cada).' },
-      { letter: 'C', text: 'Cláudia não tem meação nem herança sobre a fazenda por ser bem particular.' },
-      { letter: 'D', text: 'Cláudia recebe meação nos dois bens e herança nos dois bens.' }
+      { letter: 'A', text: 'Cláudia é meeira e também herdeira sobre o apartamento, não herdando nada na fazenda, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' },
+      { letter: 'B', text: 'No apartamento (bem comum), Cláudia é apenas meeira; na fazenda (bem particular), Cláudia concorre como herdeira em igualdade com os dois filhos (1/3 para cada).' },
+      { letter: 'C', text: 'Cláudia não tem meação nem herança sobre a fazenda por ser bem particular, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' },
+      { letter: 'D', text: 'Cláudia recebe meação nos dois bens e herança nos dois bens, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' }
     ],
     correctAnswer: 'B',
     justification: `Na comunhão parcial de bens, quando o falecido deixa descendentes (Art. 1.829, I, CC + REsp 1.368.123 STJ): nos bens COMUNS, o cônjuge sobrevivente tem MEAÇÃO (50%) e NÃO concorre como herdeiro (os outros 50% vão só aos filhos). Nos bens PARTICULARES, o cônjuge NÃO tem meação, mas CONCORRE como herdeiro em igualdade com os descendentes (aqui 1/3 da fazenda para Cláudia e 1/3 para cada um dos 2 filhos)!`,
@@ -357,10 +357,10 @@ De acordo com o Art. 1.829, I, do Código Civil e o entendimento consolidado do 
     statement: `Após o falecimento de seu marido, com quem vivia no único imóvel residencial de propriedade exclusiva do falecido (que deixou filhos de um casamento anterior), a viúva Helena continuou morando na casa. Os filhos exclusivos do falecido exigem que Helena pague aluguel pela ocupação exclusiva ou desocupe o imóvel para venda e partilha imediata.
 À luz do Art. 1.831 do Código Civil e da jurisprudência do STJ, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Os filhos têm razão porque Helena era casada em separação de bens e o imóvel pertencia exclusivamente ao pai.' },
+      { letter: 'A', text: 'Os filhos têm razão porque Helena era casada em separação de bens e o imóvel pertencia exclusivamente ao pai. Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes.' },
       { letter: 'B', text: 'Ao cônjuge (ou companheiro) sobrevivente, qualquer que seja o regime de bens, é assegurado, sem prejuízo da participação que lhe caiba na herança, o direito real de habitação relativamente ao imóvel destinado à residência da família, desde que seja o único daquela natureza a inventariar, não podendo os herdeiros cobrar aluguel.' },
-      { letter: 'C', text: 'O direito real de habitação dura apenas 2 anos após o óbito.' },
-      { letter: 'D', text: 'Os filhos podem exigir aluguel proporcional à fração ideal deles enquanto durar a moradia da madrasta.' }
+      { letter: 'C', text: 'O direito real de habitação dura apenas 2 anos após o óbito, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional. A solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias.' },
+      { letter: 'D', text: 'Os filhos podem exigir aluguel proporcional à fração ideal deles enquanto durar a moradia da madrasta, com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 1.831 do CC garante ao cônjuge sobrevivente (e o STF/STJ estendem integralmente ao companheiro em união estável), QUALQUER QUE SEJA O REGIME DE BENS, o direito real de habitação vitalício e gratuito sobre o imóvel destinado à residência da família, desde que seja o único daquela natureza a inventariar — sem cobrança de aluguel pelos demais herdeiros.`,
@@ -388,10 +388,10 @@ De acordo com o Art. 1.829, I, do Código Civil e o entendimento consolidado do 
     statement: `Bruno e Fernanda passaram a viver em união estável pública, contínua e duradoura, com objetivo de constituir família, sem firmar contrato escrito de convivência. Durante a união, Bruno recebeu R$ 200.000,00 de herança de sua avó e comprou um veículo à vista com parte desse dinheiro, além de adquirirem juntos um apartamento com salário dos dois.
 Na dissolução da união estável, nos termos do Art. 1.725 do Código Civil:`,
     options: [
-      { letter: 'A', text: 'Aplica-se o regime da comunhão universal, partilhando-se o apartamento e a herança.' },
+      { letter: 'A', text: 'Aplica-se o regime da comunhão universal, partilhando-se o apartamento e a herança, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional.' },
       { letter: 'B', text: 'Aplica-se, no que couber, o regime da comunhão parcial de bens: partilha-se o apartamento adquirido onerosamente na constância da união, mas não se comunica a herança recebida por Bruno nem o bem sub-rogado exclusivamente com ela.' },
-      { letter: 'C', text: 'Sem contrato escrito, presume-se a separação total de bens.' },
-      { letter: 'D', text: 'Na união estável o companheiro não tem os mesmos direitos sucessórios do cônjuge.' }
+      { letter: 'C', text: 'Sem contrato escrito, presume-se a separação total de bens, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' },
+      { letter: 'D', text: 'Na união estável o companheiro não tem os mesmos direitos sucessórios do cônjuge, com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo Art. 1.725 do Código Civil, na união estável, salvo contrato escrito entre os companheiros, aplica-se às relações patrimoniais, no que couber, o regime da COMUNHÃO PARCIAL de bens. Nesse regime, excluem-se da comunhão os bens recebidos por doação ou sucessão (herança) e os sub-rogados em seu lugar (Art. 1.659, I e II).`,
@@ -419,10 +419,10 @@ Na dissolução da união estável, nos termos do Art. 1.725 do Código Civil:`,
     statement: `Um pai deixou de pagar a pensão alimentícia devida ao filho menor nos últimos 8 meses consecutivos. O advogado da criança pretende pedir a prisão civil do devedor pelo rito do Art. 528, § 3º, do CPC.
 De acordo com a Súmula 309 do STJ e o Art. 528, § 7º, do CPC, o débito alimentar que autoriza a prisão civil do alimentante é o que compreende:`,
     options: [
-      { letter: 'A', text: 'Todas as 8 prestações vencidas integralmente.' },
+      { letter: 'A', text: 'Todas as 8 prestações vencidas integralmente, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação.' },
       { letter: 'B', text: 'Até as 3 prestações anteriores ao ajuizamento da execução e as que se vencerem no curso do processo.' },
-      { letter: 'C', text: 'Apenas as prestações vencidas nos últimos 12 meses.' },
-      { letter: 'D', text: 'Somente prestações futuras, vedada prisão por parcelas anteriores ao ajuizamento.' }
+      { letter: 'C', text: 'Apenas as prestações vencidas nos últimos 12 meses, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' },
+      { letter: 'D', text: 'Somente prestações futuras, vedada prisão por parcelas anteriores ao ajuizamento, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional.' }
     ],
     correctAnswer: 'B',
     justification: `Conforme a Súmula 309 do STJ e o Art. 528, § 7º, do CPC, o débito alimentar que autoriza a prisão civil do alimentante é o que compreende até as **3 prestações anteriores ao ajuizamento da execução** e as que se vencerem no curso do processo. As parcelas mais antigas (os outros 5 meses) devem ser cobradas pelo rito da penhora/expropriação.`,
@@ -451,10 +451,10 @@ De acordo com a Súmula 309 do STJ e o Art. 528, § 7º, do CPC, o débito alime
     statement: `Um locador tolerou, por mais de quatro anos consecutivos, que o inquilino pagasse o aluguel todo dia 15 de cada mês em vez do dia 5 previsto em contrato, sem jamais aplicar multa ou reclamar. Repentinamente, no 50º mês, notificou o inquilino exigindo resolução contratual imediata e cobrança retroativa de todas as multas moratórias dos últimos quatro anos.
 A defesa do inquilino fundamentada na boa-fé objetiva (Art. 422 CC) invoca o instituto denominado:`,
     options: [
-      { letter: 'A', text: 'Exceptio non adimpleti contractus.' },
+      { letter: 'A', text: 'Exceptio non adimpleti contractus, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' },
       { letter: 'B', text: 'Supressio (perda de uma posição jurídica pelo não exercício prolongado que gerou legítima expectativa na contraparte) e Venire contra factum proprium (proibição de comportamento contraditório).' },
-      { letter: 'C', text: 'Cláusula rebus sic stantibus.' },
-      { letter: 'D', text: 'Duty to mitigate the loss.' }
+      { letter: 'C', text: 'Cláusula rebus sic stantibus, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional.' },
+      { letter: 'D', text: 'Duty to mitigate the loss, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' }
     ],
     correctAnswer: 'B',
     justification: `Na doutrina civilista da boa-fé objetiva (Art. 422 CC): **Supressio** (Verwirkung) é a perda de um direito/posição jurídica pelo seu não exercício durante lapso temporal prolongado, gerando na outra parte a legítima confiança de que não seria mais exercido (criando paralelamente a *surrectio* em favor do devedor). O rompimento brusco dessa confiança caracteriza também **venire contra factum proprium**.`,
@@ -482,10 +482,10 @@ A defesa do inquilino fundamentada na boa-fé objetiva (Art. 422 CC) invoca o in
     statement: `Em contrato de prestação de serviços de R$ 100.000,00, as partes pactuaram cláusula penal compensatória para o caso de inadimplemento total no valor de R$ 150.000,00. O contratado cumpriu 70% do serviço antes de se tornar inadimplente.
 À luz dos Arts. 412 e 413 do Código Civil, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A cláusula penal de R$ 150.000,00 é devida integralmente pelo princípio do pacta sunt servanda.' },
-      { letter: 'B', text: 'O valor da cominação imposta na cláusula penal não pode exceder o da obrigação principal (Art. 412), e a penalidade deve ser reduzida equitativamente pelo juiz tendo em vista que a obrigação principal foi cumprida em parte (Art. 413).' },
-      { letter: 'C', text: 'O juiz nunca pode reduzir de ofício o valor da cláusula penal.' },
-      { letter: 'D', text: 'Para exigir a cláusula penal compensatória, o credor deve provar o prejuízo efetivo.' }
+      { letter: 'A', text: 'A cláusula penal de R$ 150.000,00 é devida integralmente pelo princípio do pacta sunt servanda, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' },
+      { letter: 'B', text: 'O valor da cominação imposta na cláusula penal não pode exceder o da obrigação principal, e a penalidade deve ser reduzida equitativamente pelo juiz tendo em vista que a obrigação principal foi cumprida em parte.' },
+      { letter: 'C', text: 'O juiz nunca pode reduzir de ofício o valor da cláusula penal, com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores.' },
+      { letter: 'D', text: 'Para exigir a cláusula penal compensatória, o credor deve provar o prejuízo efetivo, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 412 do CC limita o teto da cláusula penal ao valor da obrigação principal (R$ 100.000,00). Além disso, o Art. 413 impõe ao juiz ("deverá ser reduzida equitativamente") reduzir a penalidade se a obrigação principal tiver sido cumprida em parte ou se o montante for manifestamente excessivo. E pelo Art. 416, para exigir a pena convencional não é necessário que o credor alegue prejuízo.`,
@@ -513,10 +513,10 @@ A defesa do inquilino fundamentada na boa-fé objetiva (Art. 422 CC) invoca o in
     statement: `Pedro, solteiro, sem filhos nem netos, possui mãe viva (herdeira necessária) e dois irmãos. Seu patrimônio líquido é de R$ 1.000.000,00. Pedro deseja fazer testamento público deixando toda a sua herança para uma instituição de caridade, sem contemplar sua mãe nem seus irmãos.
 Nos termos dos Arts. 1.789, 1.845 e 1.846 do Código Civil, esse testamento:`,
     options: [
-      { letter: 'A', text: 'É válido em relação a 100% do patrimônio, pois Pedro não tem filhos.' },
-      { letter: 'B', text: 'É válido apenas quanto à parte disponível (50% = R$ 500.000,00), devendo ser preservada a legítima de 50% da mãe (ascendente é herdeira necessária); os irmãos são colaterais e não têm legítima.' },
-      { letter: 'C', text: 'É nulo por completo porque herdeiro necessário impede qualquer testamento.' },
-      { letter: 'D', text: 'Deve reservar 25% para a mãe e 25% para os irmãos.' }
+      { letter: 'A', text: 'É válido em relação a 100% do patrimônio, pois Pedro não tem filhos. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' },
+      { letter: 'B', text: 'É válido apenas quanto à parte disponível, devendo ser preservada a legítima de 50% da mãe; os irmãos são colaterais e não têm legítima.' },
+      { letter: 'C', text: 'É nulo por completo porque herdeiro necessário impede qualquer testamento. A solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias.' },
+      { letter: 'D', text: 'Deve reservar 25% para a mãe e 25% para os irmãos, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual.' }
     ],
     correctAnswer: 'B',
     justification: `São herdeiros necessários (Art. 1.845 CC): os DESCENDENTES, os ASCENDENTES e o CÔNJUGE (e companheiro, conforme STF). A eles pertence de pleno direito a metade dos bens da herança, constituindo a LEGÍTIMA (Art. 1.846). Como Pedro tem mãe viva (ascendente), só pode dispor livremente por testamento de 50% (R$ 500.000,00), reduzindo-se a disposição testamentária excedente (Art. 1.967). Irmãos são colaterais e NÃO são herdeiros necessários.`,
@@ -544,10 +544,10 @@ Nos termos dos Arts. 1.789, 1.845 e 1.846 do Código Civil, esse testamento:`,
     statement: `Um imóvel rural tornou-se naturalmente encravado, sem qualquer saída para via pública, nascente ou porto. O proprietário pleiteia judicialmente acesso através do terreno vizinho mediante pagamento de indenização cabal.
 Nos termos do Art. 1.285 do Código Civil, esse instituto denomina-se:`,
     options: [
-      { letter: 'A', text: 'Servidão predial voluntária.' },
+      { letter: 'A', text: 'Servidão predial voluntária, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação.' },
       { letter: 'B', text: 'Passagem forçada (direito de vizinhança decorrente da lei, independentemente de registro, mediante indenização cabal).' },
-      { letter: 'C', text: 'Usucapião de trânsito.' },
-      { letter: 'D', text: 'Comodato imobiliário legal.' }
+      { letter: 'C', text: 'Usucapião de trânsito, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' },
+      { letter: 'D', text: 'Comodato imobiliário legal, com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional.' }
     ],
     correctAnswer: 'B',
     justification: `Passagem forçada (Art. 1.285 CC) é direito de vizinhança imposto por lei quando o prédio está encravado (sem acesso à via pública, nascente ou porto), impondo ao vizinho constranger-se a dar passagem mediante indenização cabal. Não se confunde com servidão de passagem (direito real sobre coisa alheia constituído por contrato/usucapião quando o imóvel já tem saída, mas quer uma mais cômoda).`,
@@ -575,10 +575,10 @@ Nos termos do Art. 1.285 do Código Civil, esse instituto denomina-se:`,
     statement: `Marcos reside com sua família em seu único imóvel residencial próprio, que possui valor elevado (R$ 3 milhões). Contra Marcos tramitam três execuções distintas: (1) cobrança de cotas condominiais do próprio imóvel; (2) cobrança de IPTU do próprio imóvel; e (3) dívida de empréstimo pessoal bancário comum sem garantia hipotecária.
 À luz da Lei nº 8.009/90 (Art. 3º), o imóvel de Marcos:`,
     options: [
-      { letter: 'A', text: 'É impenhorável nas três execuções, porque vale proteção absoluta da moradia.' },
-      { letter: 'B', text: 'Pode ser penhorado nas execuções de cotas condominiais e de IPTU (obrigações propter rem do próprio prédio), mas é impenhorável na execução do empréstimo pessoal comum (independentemente de seu alto valor).' },
-      { letter: 'C', text: 'É penhorável também no empréstimo bancário por valer mais de R$ 1 milhão.' },
-      { letter: 'D', text: 'Só é protegido se tiver sido instituído por escritura pública no Cartório de Imóveis.' }
+      { letter: 'A', text: 'É impenhorável nas três execuções, porque vale proteção absoluta da moradia. A solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias.' },
+      { letter: 'B', text: 'Pode ser penhorado nas execuções de cotas condominiais e de IPTU, mas é impenhorável na execução do empréstimo pessoal comum.' },
+      { letter: 'C', text: 'É penhorável também no empréstimo bancário por valer mais de R$ 1 milhão, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' },
+      { letter: 'D', text: 'Só é protegido se tiver sido instituído por escritura pública no Cartório de Imóveis, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' }
     ],
     correctAnswer: 'B',
     justification: `O bem de família legal da Lei nº 8.009/90 independe de escritura pública e não possui teto de valor (STJ protege até imóveis suntuosos!). Contudo, a impenhorabilidade não é oponível contra créditos de IPTU, taxas e contribuições devidas em função do próprio imóvel familiar (incluindo despesas condominiais, conforme Art. 3º, IV, da Lei 8.009/90).`,
@@ -605,10 +605,10 @@ Nos termos do Art. 1.285 do Código Civil, esse instituto denomina-se:`,
     originType: 'AUTORAL_PROFESSOR',
     statement: `Sobre o direito real de laje disciplinado nos Arts. 1.510-A a 1.510-E do Código Civil (incluído pela Lei nº 13.465/2017), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A instituição do direito real de laje atribui ao titular fração ideal do terreno subjacente.' },
-      { letter: 'B', text: 'O titular do direito real de laje responderá pelos encargos e tributos que incidirem sobre a sua unidade autônoma, podendo aliená-la livremente, mas o direito real de laje NÃO contempla atribuição de fração ideal de terreno.' },
-      { letter: 'C', text: 'O direito de laje só pode ser instituído sobre a superfície superior da construção-base, jamais no subsolo.' },
-      { letter: 'D', text: 'Não existe direito de preferência do titular da construção-base em caso de venda da laje.' }
+      { letter: 'A', text: 'A instituição do direito real de laje atribui ao titular fração ideal do terreno subjacente, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' },
+      { letter: 'B', text: 'O titular do direito real de laje responderá pelos encargos e tributos que incidirem sobre a sua unidade autônoma, podendo aliená-la livremente, mas o direito real de laje não contempla atribuição de fração ideal de terreno.' },
+      { letter: 'C', text: 'O direito de laje só pode ser instituído sobre a superfície superior da construção-base, jamais no subsolo, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' },
+      { letter: 'D', text: 'Não existe direito de preferência do titular da construção-base em caso de venda da laje, sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 1.510-A, §§ 2º e 3º, do CC dispõe que o direito real de laje abre matrícula própria, autoriza o titular a usar, gozar e dispor da unidade autônoma (suportando seus encargos/tributos), MAS a instituição do direito real de laje NÃO implica a atribuição de fração ideal de terreno ao titular da laje (diferenciando-se do condomínio edilício). Pode ser instituído sobre o espaço aéreo OU sobre o subsolo.`,
@@ -636,10 +636,10 @@ Nos termos do Art. 1.285 do Código Civil, esse instituto denomina-se:`,
     statement: `Gustavo alugou uma sala comercial pelo prazo determinado de 5 anos. O contrato escrito continha cláusula de vigência em caso de alienação do imóvel, mas NÃO foi averbado na matrícula do imóvel no Cartório de Registro de Imóveis. No 2º ano do contrato, o proprietário vendeu o imóvel a uma empresa compradora, que notificou Gustavo para desocupar em 90 dias.
 Segundo o Art. 8º da Lei de Locações (Lei nº 8.245/91), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A compradora deve respeitar os 5 anos porque o contrato contém cláusula de vigência.' },
+      { letter: 'A', text: 'A compradora deve respeitar os 5 anos porque o contrato contém cláusula de vigência. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' },
       { letter: 'B', text: 'A compradora poderá denunciar o contrato concedendo o prazo de 90 dias para desocupação, pois a oponibilidade da cláusula de vigência contra o adquirente exige que o contrato esteja averbado junto à matrícula do imóvel.' },
-      { letter: 'C', text: 'O prazo de desocupação nesse caso é de 30 dias.' },
-      { letter: 'D', text: 'A venda de imóvel alugado sem prévia consulta ao locatário sempre anula a compra e venda.' }
+      { letter: 'C', text: 'O prazo de desocupação nesse caso é de 30 dias, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais.' },
+      { letter: 'D', text: 'A venda de imóvel alugado sem prévia consulta ao locatário sempre anula a compra e venda, com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 8º da Lei nº 8.245/91 exige três requisitos cumulativos para que o novo adquirente seja obrigado a respeitar o contrato de locação: 1) prazo determinado; 2) cláusula de vigência em caso de alienação; e 3) estar AVERBADO junto à matrícula do imóvel no Registro de Imóveis. Sem a averbação na matrícula, o adquirente pode denunciar o contrato com prazo de 90 dias para desocupação.`,
@@ -667,10 +667,10 @@ Segundo o Art. 8º da Lei de Locações (Lei nº 8.245/91), assinale a afirmativ
     statement: `Em contrato de fornecimento de execução continuada, um evento extraordinário e imprevisível disparou o custo da matéria-prima em 300%, tornando a prestação excessivamente onerosa para o fornecedor e gerando extrema vantagem para a outra parte. O fornecedor pediu a resolução do contrato em juízo (Art. 478 CC), mas o comprador ofereceu modificar equitativamente as condições contratuais para restabelecer o equilíbrio.
 Nos termos do Art. 479 do Código Civil:`,
     options: [
-      { letter: 'A', text: 'O contrato deve ser obrigatoriamente resolvido, não cabendo revisão.' },
+      { letter: 'A', text: 'O contrato deve ser obrigatoriamente resolvido, não cabendo revisão, sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral.' },
       { letter: 'B', text: 'A resolução poderá ser evitada, oferecendo-se o réu a modificar equitativamente as condições do contrato.' },
-      { letter: 'C', text: 'A onerosidade excessiva aplica-se também aos contratos aleatórios de risco por natureza.' },
-      { letter: 'D', text: 'O devedor em mora também pode invocar a teoria da imprevisão para cancelar dívida antiga.' }
+      { letter: 'C', text: 'A onerosidade excessiva aplica-se também aos contratos aleatórios de risco por natureza, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação.' },
+      { letter: 'D', text: 'O devedor em mora também pode invocar a teoria da imprevisão para cancelar dívida antiga, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' }
     ],
     correctAnswer: 'B',
     justification: `Pelo Art. 479 do Código Civil, diante do pedido de resolução por onerosidade excessiva (Art. 478), a resolução poderá ser evitada oferecendo-se o réu a modificar equitativamente as condições do contrato (princípio da conservação dos negócios jurídicos).`,
@@ -698,10 +698,10 @@ Nos termos do Art. 479 do Código Civil:`,
     statement: `No divórcio litigioso de Paulo e Ana, não há consenso sobre a guarda da filha comum de 7 anos. Ambos estão aptos a exercer o poder familiar e moram na mesma cidade, sem histórico de violência doméstica. Ana pleiteia a guarda unilateral alegando que os pais não se dão bem.
 De acordo com o Art. 1.584, § 2º, do Código Civil, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A ausência de consenso amigável entre os pais impede a guarda compartilhada.' },
+      { letter: 'A', text: 'A ausência de consenso amigável entre os pais impede a guarda compartilhada, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' },
       { letter: 'B', text: 'Quando não houver acordo entre a mãe e o pai quanto à guarda do filho, encontrando-se ambos os genitores aptos a exercer o poder familiar, será aplicada a guarda compartilhada, salvo se um dos genitores declarar que não deseja a guarda ou se houver elementos de risco de violência doméstica/familiar.' },
-      { letter: 'C', text: 'A guarda compartilhada significa obrigatoriamente divisão exata de metade dos dias da semana em cada casa, extinguindo os alimentos.' },
-      { letter: 'D', text: 'A guarda unilateral é a regra legal sempre que houver litígio.' }
+      { letter: 'C', text: 'A guarda compartilhada significa obrigatoriamente divisão exata de metade dos dias da semana em cada casa, extinguindo os alimentos, em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' },
+      { letter: 'D', text: 'A guarda unilateral é a regra legal sempre que houver litígio, com manutenção da vinculação jurídica das partes até a extinção regular da obrigação.' }
     ],
     correctAnswer: 'B',
     justification: `O Art. 1.584, § 2º, do CC (com alteração da Lei 13.058/14 e Lei 14.713/23 sobre risco de violência doméstica) estabelece a GUARDA COMPARTILHADA como regra legal mesmo sem acordo entre os pais, bastando aptidão de ambos ao poder familiar, salvo se um deles não desejar a guarda ou houver probabilidade de risco de violência doméstica ou familiar.`,
@@ -729,10 +729,10 @@ De acordo com o Art. 1.584, § 2º, do Código Civil, assinale a afirmativa corr
     statement: `Uma pessoa jurídica teve seu nome empresarial protestado indevidamente por uma instituição financeira em razão de dívida inexistente, sofrendo abalo de crédito perante fornecedores. Além disso, após o falecimento de um escritor famoso, um jornal publicou falsidades ofensivas à sua memória.
 À luz dos Arts. 12, 20 e 52 do Código Civil e da Súmula 227 do STJ, assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'Pessoa jurídica não sofre dano moral por não possuir sentimentos íntimos.' },
-      { letter: 'B', text: 'Aplica-se às pessoas jurídicas, no que couber, a proteção dos direitos da personalidade (Súmula 227 do STJ admite dano moral à PJ); e os familiares próximos têm legitimidade para defender os direitos da personalidade do falecido.' },
-      { letter: 'C', text: 'Os direitos da personalidade extinguem-se totalmente com a morte, impedindo qualquer ação dos herdeiros.' },
-      { letter: 'D', text: 'Protesto indevido de pessoa jurídica não gera dano moral presumido (in re ipsa).' }
+      { letter: 'A', text: 'Pessoa jurídica não sofre dano moral por não possuir sentimentos íntimos, com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores.' },
+      { letter: 'B', text: 'Aplica-se às pessoas jurídicas, no que couber, a proteção dos direitos da personalidade; e os familiares próximos têm legitimidade para defender os direitos da personalidade do falecido.' },
+      { letter: 'C', text: 'Os direitos da personalidade extinguem-se totalmente com a morte, impedindo qualquer ação dos herdeiros, observada a distinção dogmática entre os planos da existência, validade e eficácia do ato.' },
+      { letter: 'D', text: 'Protesto indevido de pessoa jurídica não gera dano moral presumido (in re ipsa), sem possibilidade de modificação unilateral das obrigações contratuais sem anuência expressa.' }
     ],
     correctAnswer: 'B',
     justification: `Nos termos do Art. 52 do CC e da Súmula 227 do STJ, a pessoa jurídica pode sofrer dano moral (honra objetiva / reputação no mercado). E pelo Art. 12, parágrafo único, do CC, em se tratando de morto, terá legitimação para exigir reparação de lesão aos direitos da personalidade o cônjuge sobrevivente, ou qualquer parente em linha reta, ou colateral até o quarto grau.`,
@@ -760,10 +760,10 @@ De acordo com o Art. 1.584, § 2º, do Código Civil, assinale a afirmativa corr
     originType: 'AUTORAL_PROFESSOR',
     statement: `Comparando a cessão de crédito (Arts. 286 a 298 do CC) com a assunção de dívida (Arts. 299 a 303 do CC), assinale a afirmativa correta:`,
     options: [
-      { letter: 'A', text: 'A cessão de crédito exige consentimento expresso do devedor para ter validade.' },
-      { letter: 'B', text: 'Na cessão de crédito não se exige consentimento do devedor (basta notificá-lo para eficácia perante ele); já a assunção de dívida (transmissão do polo passivo) exige consentimento expresso do credor.' },
-      { letter: 'C', text: 'Na cessão de crédito a título oneroso, o cedente responde sempre pela solvência do devedor, mesmo sem estipulação.' },
-      { letter: 'D', text: 'O silêncio do credor na assunção de dívida importa aceitação tácita sempre.' }
+      { letter: 'A', text: 'A cessão de crédito exige consentimento expresso do devedor para ter validade, com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor.' },
+      { letter: 'B', text: 'Na cessão de crédito não se exige consentimento do devedor; já a assunção de dívida exige consentimento expresso do credor.' },
+      { letter: 'C', text: 'Na cessão de crédito a título oneroso, o cedente responde sempre pela solvência do devedor, mesmo sem estipulação. Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.' },
+      { letter: 'D', text: 'O silêncio do credor na assunção de dívida importa aceitação tácita sempre, com produção imediata de efeitos patrimoniais e pessoais independentemente de averbação registral.' }
     ],
     correctAnswer: 'B',
     justification: `Na cessão de crédito (Art. 290 CC), o credor troca de lugar sem precisar pedir autorização ao devedor (basta notificá-lo para que não pague ao credor primitivo). Já na assunção de dívida (Art. 299 CC), muda o devedor — portanto, é indispensável o consentimento EXPRESSO do credor (e o silêncio do credor, quando notificado para dizer em prazo assinado se aceita, interpreta-se como RECUSA!).`,

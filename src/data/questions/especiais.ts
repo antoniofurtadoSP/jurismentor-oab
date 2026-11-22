@@ -15,9 +15,9 @@ export const ESPECIAIS_QUESTIONS: LegalQuestion[] = [
 De acordo com a jurisprudência vinculante do Supremo Tribunal Federal (RE 466.343 e Súmula Vinculante nº 25):`,
     options: [
       { letter: 'A', text: 'Os tratados de direitos humanos ratificados sem rito de emenda possuem status supralegal, paralisando a eficácia de leis ordinárias que previam a prisão civil do depositário infiel.' },
-      { letter: 'B', text: 'Todos os tratados de direitos humanos possuem automaticamente hierarquia constitucional irrevogável independentemente do quórum de aprovação.' },
+      { letter: 'B', text: 'Todos os tratados de direitos humanos possuem automaticamente hierarquia constitucional irrevogável independentemente do quórum de aprovação, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes.' },
       { letter: 'C', text: 'O Pacto de San José tem hierarquia estritamente de lei ordinária, devendo prevalecer a literalidade do texto originário da CF/88 sobre o depositário infiel.' },
-      { letter: 'D', text: 'A prisão civil do depositário infiel continua admitida na alienação fiduciária em garantia.' }
+      { letter: 'D', text: 'A prisão civil do depositário infiel continua admitida na alienação fiduciária em garantia, com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais.' }
     ],
     correctAnswer: 'A',
     justification: `No julgamento histórico do RE 466.343/SP, o STF firmou a tese de que os tratados internacionais de direitos humanos ratificados pelo Brasil antes da EC 45/2004 (ou sem o rito do art. 5º, § 3º) possuem estatura SUPRALEGAL (abaixo da Constituição, mas acima de toda a legislação ordinária). Isso paralisou a eficácia do Código Civil e do Decreto-Lei 911/69 quanto à prisão do depositário infiel, culminando na Súmula Vinculante nº 25 do STF.`,
@@ -45,9 +45,9 @@ De acordo com a jurisprudência vinculante do Supremo Tribunal Federal (RE 466.3
 À luz da doutrina dos Direitos Humanos e da jurisprudência da Corte Interamericana de Direitos Humanos:`,
     options: [
       { letter: 'A', text: 'O juiz tem o poder-dever de exercer o controle difuso de convencionalidade ex officio, deixando de aplicar a lei interna que contrarie o tratado de direitos humanos.' },
-      { letter: 'B', text: 'O controle de convencionalidade no Brasil é de competência exclusiva do plenário do Supremo Tribunal Federal.' },
-      { letter: 'C', text: 'Os juízes nacionais devem sempre aplicar a lei ordinária interna mesmo que viole flagrantemente o tratado internacional ratificado.' },
-      { letter: 'D', text: 'O controle de convencionalidade depende de prévia consulta diplomática ao Ministério das Relações Exteriores.' }
+      { letter: 'B', text: 'O controle de convencionalidade no Brasil é de competência exclusiva do plenário do Supremo Tribunal Federal, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos.' },
+      { letter: 'C', text: 'Os juízes nacionais devem sempre aplicar a lei ordinária interna mesmo que viole flagrantemente o tratado internacional ratificado, com possibilidade de mitigação temporária da garantia por simples decreto regulamentar.' },
+      { letter: 'D', text: 'O controle de convencionalidade depende de prévia consulta diplomática ao Ministério das Relações Exteriores, sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes.' }
     ],
     correctAnswer: 'A',
     justification: `Conforme estabelecido pela Corte Interamericana de Direitos Humanos (Caso Almonacid Arellano vs. Chile e sedimentado no Brasil pelo STF e CNJ - Recomendação 123/2022), todos os juízes e tribunais nacionais exercem o CONTROLE DIFUSO DE CONVENCIONALIDADE, devendo zelar ex officio pela compatibilidade das normas domésticas com os tratados internacionais de direitos humanos vigentes no país.`,
@@ -77,9 +77,9 @@ De acordo com a jurisprudência vinculante do Supremo Tribunal Federal (RE 466.3
 Diante das normas de proteção e defesa do consumidor (Lei nº 8.078/90 - CDC):`,
     options: [
       { letter: 'A', text: 'Trata-se de acidente de consumo (fato do produto), respondendo o fabricante de forma objetiva pelos danos físicos e materiais causados pela falta de segurança do produto, com prazo prescricional de 5 anos.' },
-      { letter: 'B', text: 'Trata-se de mero vício do produto, devendo o consumidor conceder prazo de 30 dias para a assistência técnica consertar o aparelho sob pena de decadência em 90 dias.' },
-      { letter: 'C', text: 'A loja comerciante responde prioritariamente, ficando o fabricante isento de responsabilidade direta.' },
-      { letter: 'D', text: 'O dever de indenizar do fabricante depende da comprovação cabal de sua culpa ou dolo na fabricação da lâmina.' }
+      { letter: 'B', text: 'Trata-se de mero vício do produto, devendo o consumidor conceder prazo de 30 dias para a assistência técnica consertar o aparelho sob pena de decadência em 90 dias, observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito.' },
+      { letter: 'C', text: 'A loja comerciante responde prioritariamente, ficando o fabricante isento de responsabilidade direta, com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual.' },
+      { letter: 'D', text: 'O dever de indenizar do fabricante depende da comprovação cabal de sua culpa ou dolo na fabricação da lâmina, com proteção à legítima expectativa de segurança e adequação do produto no mercado.' }
     ],
     correctAnswer: 'A',
     justification: `Houve um acidente de consumo (FATO DO PRODUTO - Art. 12 do CDC), pois o defeito extrapolou o bem e atingiu a integridade física do consumidor (dano corporal/patrimonial intrínseco e extrínseco). A responsabilidade do fabricante é OBJETIVA (dispensa culpa) e o prazo para reparação dos danos é PRESCRICIONAL de 5 (cinco) anos (art. 27 do CDC). O comerciante só responderia subsidiariamente nas hipóteses do art. 13 do CDC.`,
@@ -106,9 +106,9 @@ Diante das normas de proteção e defesa do consumidor (Lei nº 8.078/90 - CDC):
 Segundo o Art. 28, § 5º do CDC e a jurisprudência consolidada do STJ:`,
     options: [
       { letter: 'A', text: 'Aplica-se a Teoria Menor da desconsideração, bastando a mera insolvência da pessoa jurídica ou que a personalidade seja obstáculo ao ressarcimento do consumidor.' },
-      { letter: 'B', text: 'Aplica-se a Teoria Maior, sendo indispensável a demonstração inequívoca de fraude, dolo e confusão patrimonial dolosa.' },
-      { letter: 'C', text: 'A desconsideração é vedada no processo de execução civil contra sociedades limitadas.' },
-      { letter: 'D', text: 'Apenas os administradores não-sócios podem ter seus patrimônios atingidos.' }
+      { letter: 'B', text: 'Aplica-se a Teoria Maior, sendo indispensável a demonstração inequívoca de fraude, dolo e confusão patrimonial dolosa. Tal critério define o alcance dos deveres anexos de informação e segurança ao destinatário.' },
+      { letter: 'C', text: 'A desconsideração é vedada no processo de execução civil contra sociedades limitadas, com proteção à legítima expectativa de segurança e adequação do produto no mercado.' },
+      { letter: 'D', text: 'Apenas os administradores não-sócios podem ter seus patrimônios atingidos, sem possibilidade de transferir os riscos da atividade econômica ao consumidor final.' }
     ],
     correctAnswer: 'A',
     justification: `Diferente do Código Civil (art. 50, que adota a Teoria Maior exigindo abuso, desvio de finalidade ou confusão patrimonial), o Direito do Consumidor adota a TEORIA MENOR da desconsideração (Art. 28, § 5º do CDC). Conforme reiterada jurisprudência do STJ, basta que a personalidade jurídica seja obstáculo ao ressarcimento dos prejuízos causados aos consumidores (mera insolvência ou falta de bens) para autorizar a constrição dos bens dos sócios.`,
@@ -137,10 +137,10 @@ Segundo o Art. 28, § 5º do CDC e a jurisprudência consolidada do STJ:`,
     statement: `Órgão ambiental competente indeferiu a licença para instalação de empreendimento agroindustrial que pretendia lançar efluente químico inédito em corpo hídrico de preservação, fundamentando a recusa no fato de que não existem ainda estudos científicos conclusivos que assegurem a ausência de riscos irreversíveis ao ecossistema local. O empreendedor impetrou Mandado de Segurança alegando que a ausência de certeza científica não pode justificar a proibição.
 À luz dos princípios estruturantes do Direito Ambiental consagrados pela Rio-92 e jurisprudência do STF/STJ:`,
     options: [
-      { letter: 'A', text: 'O indeferimento é legítimo com base no Princípio da Precaução, segundo o qual a incerteza científica sobre dano grave e irreversível milita em favor do meio ambiente (in dubio pro natura).' },
+      { letter: 'A', text: 'O indeferimento é legítimo com base no Princípio da Precaução, segundo o qual a incerteza científica sobre dano grave e irreversível milita em favor do meio ambiente.' },
       { letter: 'B', text: 'A autoridade ambiental agiu com desvio de poder, pois o princípio da prevenção só autoriza medidas restritivas quando há certeza científica absoluta prévia.' },
-      { letter: 'C', text: 'A livre iniciativa prepondera sempre sobre receios ambientais sem prova pericial imediata.' },
-      { letter: 'D', text: 'O princípio da precaução aplica-se exclusivamente a atividades nucleares e radiológicas.' }
+      { letter: 'C', text: 'A livre iniciativa prepondera sempre sobre receios ambientais sem prova pericial imediata, com validação da transferência do passivo ambiental ao poder público por declaração unilateral.' },
+      { letter: 'D', text: 'O princípio da precaução aplica-se exclusivamente a atividades nucleares e radiológicas, com responsabilidade civil ambiental objetiva e solidária sob a modalidade de risco integral.' }
     ],
     correctAnswer: 'A',
     justification: `O PRINCÍPIO DA PRECAUÇÃO (Princípio 15 da Declaração Rio-92) estabelece que, diante da ameaça de danos graves ou irreversíveis, a ausência de absoluta certeza científica não deve ser utilizada como razão para postergar a adoção de medidas eficazes para impedir a degradação ambiental. Incerteza científica = Precaução (in dubio pro natura). Já a Prevenção atua quando o perigo é conhecido e cientificamente mensurável.`,
@@ -168,9 +168,9 @@ Segundo o Art. 28, § 5º do CDC e a jurisprudência consolidada do STJ:`,
 Consoante o Art. 225, § 3º da CF/88 e a jurisprudência pacífica do Superior Tribunal de Justiça (STJ):`,
     options: [
       { letter: 'A', text: 'A responsabilidade civil por dano ambiental é informada pela Teoria do Risco Integral, não admitindo excludentes de culpabilidade ou de nexo de causalidade como o caso fortuito, força maior ou fato de terceiro.' },
-      { letter: 'B', text: 'O caso fortuito e a força maior são excludentes universais de responsabilidade civil, aplicáveis indistintamente ao direito ambiental.' },
-      { letter: 'C', text: 'A empresa só responde se a comunidade comprovar culpa exclusiva ou dolo de seus diretores.' },
-      { letter: 'D', text: 'A reparação ambiental submete-se ao prazo prescricional de 3 anos do Código Civil.' }
+      { letter: 'B', text: 'O caso fortuito e a força maior são excludentes universais de responsabilidade civil, aplicáveis indistintamente ao direito ambiental, com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental.' },
+      { letter: 'C', text: 'A empresa só responde se a comunidade comprovar culpa exclusiva ou dolo de seus diretores, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional.' },
+      { letter: 'D', text: 'A reparação ambiental submete-se ao prazo prescricional de 3 anos do Código Civil, com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico. Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público.' }
     ],
     correctAnswer: 'A',
     justification: `A responsabilidade civil por danos ambientais é OBJETIVA e lastreada na TEORIA DO RISCO INTEGRAL (Art. 14, § 1º da Lei 6.938/81 e Tema 681 do STJ). Por adotar o risco integral, NÃO são admitidas excludentes de nexo causal como caso fortuito, força maior ou fato de terceiro. Ademais, conforme o Tema 999 do STF (RE 654.833), a pretensão de reparação civil por dano ambiental é IMPRESCRITÍVEL.`,
@@ -198,9 +198,9 @@ Consoante o Art. 225, § 3º da CF/88 e a jurisprudência pacífica do Superior 
 À luz do Art. 49 do Código de Defesa do Consumidor e da jurisprudência consolidada do STJ:`,
     options: [
       { letter: 'A', text: 'Mariana tem o direito potestativo de desistir da compra no prazo de 7 dias a contar do recebimento do produto, com devolução imediata de todos os valores pagos, inclusive o frete, atualizados monetariamente.' },
-      { letter: 'B', text: 'O direito de arrependimento só existe se o consumidor comprovar defeito oculto de fabricação.' },
-      { letter: 'C', text: 'O fornecedor pode reter o valor do frete e aplicar taxa de reestocagem de 20% sobre o produto.' },
-      { letter: 'D', text: 'O direito de arrependimento aplica-se exclusivamente a compras de valor inferior a 1 salário mínimo.' }
+      { letter: 'B', text: 'O direito de arrependimento só existe se o consumidor comprovar defeito oculto de fabricação, sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema.' },
+      { letter: 'C', text: 'O fornecedor pode reter o valor do frete e aplicar taxa de reestocagem de 20% sobre o produto, em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo.' },
+      { letter: 'D', text: 'O direito de arrependimento aplica-se exclusivamente a compras de valor inferior a 1 salário mínimo, com validação da estipulação padrão independentemente de destaque expresso no contrato. Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado.' }
     ],
     correctAnswer: 'A',
     justification: `O art. 49 do CDC consagra o PRAZO DE REFLEXÃO ou DIREITO DE ARREPENDIMENTO: o consumidor pode desistir do contrato, no prazo de 7 (sete) dias a contar de sua assinatura ou do ato de recebimento do produto ou serviço, sempre que a contratação de fornecimento ocorrer fora do estabelecimento comercial (pela internet, telefone ou a domicílio). O parágrafo único assegura que os valores eventualmente pagos, a qualquer título (inclusive frete), serão devolvidos de imediato e monetariamente atualizados. Não é necessária qualquer justificativa ou defeito no produto.`,
@@ -227,9 +227,9 @@ Consoante o Art. 225, § 3º da CF/88 e a jurisprudência pacífica do Superior 
 De acordo com a Convenção Americana sobre Direitos Humanos (Pacto de São José da Costa Rica de 1969):`,
     options: [
       { letter: 'A', text: 'Somente os Estados Partes e a Comissão Interamericana de Direitos Humanos têm a faculdade de submeter um caso à decisão da Corte, não dispondo os indivíduos ou ONGs de legitimidade processual direta perante o tribunal internacional.' },
-      { letter: 'B', text: 'Qualquer indivíduo ou ONG tem legitimidade direta de acesso à Corte IDH sem necessidade de passar pela Comissão.' },
-      { letter: 'C', text: 'Apenas o Procurador-Geral da República tem legitimidade para acionar a Corte IDH em matéria de direitos humanos.' },
-      { letter: 'D', text: 'A Corte IDH só pode julgar controvérsias de natureza comercial internacional entre Estados signatários.' }
+      { letter: 'B', text: 'Qualquer indivíduo ou ONG tem legitimidade direta de acesso à Corte idh sem necessidade de passar pela Comissão, em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos. Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais.' },
+      { letter: 'C', text: 'Apenas o Procurador-Geral da República tem legitimidade para acionar a Corte idh em matéria de direitos humanos, com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana.' },
+      { letter: 'D', text: 'A Corte idh só pode julgar controvérsias de natureza comercial internacional entre Estados signatários, com autorização de acionamento direto das cortes internacionais sem requisito prévio.' }
     ],
     correctAnswer: 'A',
     justification: `O Art. 61, parágrafo 1 da Convenção Americana de Direitos Humanos (CADH) dispõe com clareza cristalina: 'Somente os Estados Partes e a Comissão têm direito de submeter um caso à decisão da Corte'. Os indivíduos, vítimas ou entidades não governamentais não possuem o chamado jus postulandi direto perante a Corte IDH; eles apresentam petições perante a COMISSÃO Interamericana (Art. 44). E é a Comissão que, após trâmite prévio e esgotamento das vias internas, decide submeter o caso a julgamento perante a Corte.`,
@@ -258,19 +258,19 @@ De acordo com a Convenção Americana sobre Direitos Humanos (Pacto de São Jos�
     options: [
       {
         letter: 'A',
-        text: 'Aplica-se o princípio da precaução, impondo-se a inversão do ônus da prova ao empreendedor poluidor (Súmula 618 do STJ), diante da incerteza científica sobre o perigo de dano grave e irreversível.'
+        text: 'Aplica-se o princípio da precaução, impondo-se a inversão do ônus da prova ao empreendedor poluidor, diante da incerteza científica sobre o perigo de dano grave e irreversível.'
       },
       {
         letter: 'B',
-        text: 'Na dúvida científica, vigora o princípio da livre iniciativa econômica, competindo ao Ministério Público provar cabalmente o dano futuro.'
+        text: 'Na dúvida científica, vigora o princípio da livre iniciativa econômica, competindo ao Ministério Público provar cabalmente o dano futuro. Tal regime jurídico reflete a proteção constitucional atribuída aos recursos ecológicos.'
       },
       {
         letter: 'C',
-        text: 'O princípio da precaução aplica-se apenas a desastres nucleares já consumados.'
+        text: 'O princípio da precaução aplica-se apenas a desastres nucleares já consumados, sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional.'
       },
       {
         letter: 'D',
-        text: 'A responsabilidade por dano ambiental é puramente subjetiva, dependendo de prova de dolo do empresário.'
+        text: 'A responsabilidade por dano ambiental é puramente subjetiva, dependendo de prova de dolo do empresário, observada a competência comum material dos entes federativos para fiscalização e proteção.'
       }
     ],
     correctAnswer: 'A',
@@ -300,19 +300,19 @@ De acordo com o Art. 122 do Estatuto da Criança e do Adolescente (Lei 8.069/90)
     options: [
       {
         letter: 'A',
-        text: 'A imposição de medida de internação é ilegal, pois o ato infracional análogo ao tráfico de drogas não envolve violência ou grave ameaça à pessoa, e Lucas não é reincidente em infrações graves (Súmula 492 do STJ).'
+        text: 'A imposição de medida de internação é ilegal, pois o ato infracional análogo ao tráfico de drogas não envolve violência ou grave ameaça à pessoa, e Lucas não é reincidente em infrações graves.'
       },
       {
         letter: 'B',
-        text: 'A internação é obrigatória em qualquer caso de tráfico de entorpecentes pela equiparação a crime hediondo.'
+        text: 'A internação é obrigatória em qualquer caso de tráfico de entorpecentes pela equiparação a crime hediondo, com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento. Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional.'
       },
       {
         letter: 'C',
-        text: 'A internação pode ser aplicada discricionariamente pelo juiz independentemente do rol do art. 122 do ECA.'
+        text: 'A internação pode ser aplicada discricionariamente pelo juiz independentemente do rol, observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário.'
       },
       {
         letter: 'D',
-        text: 'Lucas pode ser submetido a prisão temporária comum em presídio de adultos até completar 18 anos.'
+        text: 'Lucas pode ser submetido a prisão temporária comum em presídio de adultos até completar 18 anos, com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida.'
       }
     ],
     correctAnswer: 'A',

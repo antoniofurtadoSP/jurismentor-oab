@@ -17,15 +17,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Art. 38 estabelece hierarquia rígida e absoluta em que tratados sempre prevalecem sobre o costume internacional posterior."
+        "text": "A legislação aplicável estabelece hierarquia rígida e absoluta em que tratados sempre prevalecem sobre o costume internacional posterior, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "B",
-        "text": "A equidade (ex aequo et bono) pode ser aplicada de ofício pela Corte Internacional de Justiça mesmo diante da oposição expressa de um dos Estados litigantes."
+        "text": "A equidade (ex aequo et bono) pode ser aplicada de ofício pela Corte Internacional de Justiça mesmo diante da oposição expressa de um dos Estados litigantes, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "C",
-        "text": "O costume internacional forma-se apenas pelo elemento objetivo (prática reiterada dos Estados), dispensando a convicção jurídica (opinio juris)."
+        "text": "O costume internacional forma-se apenas pelo elemento objetivo (prática reiterada dos Estados), dispensando a convicção jurídica (opinio juris), observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "D",
@@ -72,15 +72,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em razão da soberania estatal e do princípio pacta sunt servanda, os tratados bilaterais podem afastar livremente a proibição internacional à tortura ou ao genocídio."
+        "text": "Em razão da soberania estatal e do princípio pacta sunt servanda, os tratados bilaterais podem afastar livremente a proibição internacional à tortura ou ao genocídio, em respeito à igualdade soberana dos Estados e ao princípio da não intervenção interna."
       },
       {
         "letter": "B",
-        "text": "Caso surja uma nova norma de jus cogens após a celebração de um tratado originalmente lícito, o tratado permanece válido e intocável pelo direito adquirido."
+        "text": "Caso surja uma nova norma de jus cogens após a celebração de um tratado originalmente lícito, o tratado permanece válido e intocável pelo direito adquirido, com eficácia jurídica imediata no território nacional independentemente de referendo legislativo."
       },
       {
         "letter": "C",
-        "text": "A denúncia de tratado conflitante com jus cogens gera indenização obrigatória pelo Estado que se recusa a executá-lo."
+        "text": "A denúncia de tratado conflitante com jus cogens gera indenização obrigatória pelo Estado que se recusa a executá-lo, com cooperação jurídica e extradição viabilizadas mediante simples solicitação diplomática direta."
       },
       {
         "letter": "D",
@@ -127,15 +127,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A simples assinatura do tratado pelo Presidente da República ou pelo Ministro das Relações Exteriores torna o tratado imediatamente obrigatório na ordem interna brasileira."
+        "text": "A simples assinatura do tratado pelo Presidente da República ou pelo Ministro das Relações Exteriores torna o tratado imediatamente obrigatório na ordem interna brasileira, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "B",
-        "text": "O Congresso Nacional aprova tratados internacionais por meio de lei complementar sancionada pelo Presidente da República."
+        "text": "O Congresso Nacional aprova tratados internacionais por meio de lei complementar sancionada pelo Presidente da República, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
-        "text": "Aprovado o tratado pelo Congresso Nacional por decreto legislativo, o Presidente da República fica juridicamente obrigado a ratificá-lo no plano externo."
+        "text": "Aprovado o tratado pelo Congresso Nacional por decreto legislativo, o Presidente da República fica juridicamente obrigado a ratificá-lo no plano externo, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "D",
@@ -186,7 +186,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O Pacto de San José da Costa Rica possui status supraconstitucional, prevalecendo até mesmo sobre cláusulas pétreas da Constituição de 1988."
+        "text": "O Pacto de San José da Costa Rica possui status supraconstitucional, prevalecendo até mesmo sobre cláusulas pétreas da Constituição de 1988, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
@@ -194,7 +194,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Respectivamente: (I) status de emenda constitucional; (II) status supralegal (acima das leis ordinárias e complementares, abaixo da Constituição); e (III) status de lei ordinária federal."
+        "text": "Respectivamente: (I) status de emenda constitucional; (II) status supralegal; e (III) status de lei ordinária federal."
       }
     ],
     "correctAnswer": "D",
@@ -238,19 +238,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tratados internacionais assinados pelo Presidente não podem jamais prever benefícios relativos a tributos estaduais ou municipais."
+        "text": "Tratados internacionais assinados pelo Presidente não podem jamais prever benefícios relativos a tributos estaduais ou municipais, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "B",
-        "text": "Uma lei ordinária superveniente editada pelo Congresso revoga tacitamente qualquer tratado tributário anterior por força do critério cronológico simples."
+        "text": "Uma lei ordinária superveniente editada pelo Congresso revoga tacitamente qualquer tratado tributário anterior por força do critério cronológico simples, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "C",
-        "text": "Somente tratado tributário aprovado por quórum de 3/5 em dois turnos pode dispor sobre tributo estadual."
+        "text": "Somente tratado tributário aprovado por quórum de 3/5 em dois turnos pode dispor sobre tributo estadual, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "D",
-        "text": "O tratado é constitucional, pois conforme decidido pelo STF no RE 229.096, a vedação à isenção heterônoma (Art. 151, III, CF) aplica-se apenas à União enquanto ente federativo interno, e não à República Federativa do Brasil atuando como sujeito de direito internacional soberano na celebração de tratados, aplicando-se o Art. 98 do CTN por especialidade."
+        "text": "O tratado é constitucional, pois conforme decidido pelo STF no RE 229.096, a vedação à isenção heterônoma aplica-se apenas à União enquanto ente federativo interno, e não à República Federativa do Brasil atuando como sujeito de direito internacional soberano na celebração de tratados, aplicando-se o Art. 98 do CTN por especialidade."
       }
     ],
     "correctAnswer": "D",
@@ -298,15 +298,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A denúncia de tratados no Brasil depende obrigatoriamente de referendo popular nacional convocado pelo TSE."
+        "text": "A denúncia de tratados no Brasil depende obrigatoriamente de referendo popular nacional convocado pelo TSE, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "C",
-        "text": "A denúncia unilateral presidencial produz efeito retroativo automático anulando todas as sentenças proferidas com base no tratado."
+        "text": "A denúncia unilateral presidencial produz efeito retroativo automático anulando todas as sentenças proferidas com base no tratado, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "Segundo o entendimento firmado pelo STF na ADI 1.625 (com modulação prospectiva de efeitos a partir da publicação da ata de julgamento), a denúncia pelo Presidente da República de tratados internacionais aprovados pelo Congresso Nacional exige a prévia anuência do Congresso Nacional."
+        "text": "Segundo o entendimento firmado pelo STF na ADI 1.625, a denúncia pelo Presidente da República de tratados internacionais aprovados pelo Congresso Nacional exige a prévia anuência do Congresso Nacional."
       }
     ],
     "correctAnswer": "D",
@@ -350,15 +350,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer Estado pode formular reserva a qualquer dispositivo de tratado bilateral ou multilateral mesmo que o tratado proíba expressamente reservas."
+        "text": "Qualquer Estado pode formular reserva a qualquer dispositivo de tratado bilateral ou multilateral mesmo que o tratado proíba expressamente reservas, com eficácia jurídica imediata no território nacional independentemente de referendo legislativo."
       },
       {
         "letter": "B",
-        "text": "A reserva impede a aplicação do tratado apenas para o Estado que a formulou, mantendo o dispositivo reservado vinculante contra ele pelos demais Estados."
+        "text": "A reserva impede a aplicação do tratado apenas para o Estado que a formulou, mantendo o dispositivo reservado vinculante contra ele pelos demais Estados, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
-        "text": "O Estado que formulou uma reserva não pode retirá-la posteriormente sem a concordância unânime de todos os demais Estados signatários."
+        "text": "O Estado que formulou uma reserva não pode retirá-la posteriormente sem a concordância unânime de todos os demais Estados signatários, com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública."
       },
       {
         "letter": "D",
@@ -405,19 +405,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Estado estrangeiro possui imunidade absoluta de jurisdição, não podendo sequer ser processado na fase de conhecimento trabalhista no Brasil."
+        "text": "O Estado estrangeiro possui imunidade absoluta de jurisdição, não podendo sequer ser processado na fase de conhecimento trabalhista no Brasil, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "B",
-        "text": "Obtida sentença condenatória trabalhista transitada em julgado, a Justiça do Trabalho pode penhorar livremente o prédio da Embaixada estrangeira."
+        "text": "Obtida sentença condenatória trabalhista transitada em julgado, a Justiça do Trabalho pode penhorar livremente o prédio da Embaixada estrangeira, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "C",
-        "text": "A competência para julgar reclamação trabalhista contra Estado estrangeiro pertence originariamente ao STF."
+        "text": "A competência para julgar reclamação trabalhista contra Estado estrangeiro pertence originariamente ao STF, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "O Estado estrangeiro não goza de imunidade de jurisdição na fase de conhecimento, pois a contratação trabalhista configura ato de gestão (relatividade da imunidade), mas goza de imunidade de execução quanto aos bens afetos à missão diplomática ou consular, salvo renúncia expressa."
+        "text": "O Estado estrangeiro não goza de imunidade de jurisdição na fase de conhecimento, pois a contratação trabalhista configura ato de gestão, mas goza de imunidade de execução quanto aos bens afetos à missão diplomática ou consular, salvo renúncia expressa."
       }
     ],
     "correctAnswer": "D",
@@ -468,7 +468,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A prescrição civil de 3 anos do Código Civil brasileiro impediria a análise da responsabilidade por crimes de guerra nazistas no Tema 944."
+        "text": "A prescrição civil de 3 anos do Código Civil brasileiro impediria a análise da responsabilidade por crimes de guerra nazistas no Tema 944, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "D",
@@ -516,19 +516,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto o diplomata quanto o cônsul possuem imunidade penal absoluta em relação a qualquer crime comum ou privado no país receptor."
+        "text": "Tanto o diplomata quanto o cônsul possuem imunidade penal absoluta em relação a qualquer crime comum ou privado no país receptor, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "B",
-        "text": "O Brasil pode prender e condenar criminalmente o embaixador estrangeiro mesmo sem renúncia do Estado acreditante se o crime for de trânsito."
+        "text": "O Brasil pode prender e condenar criminalmente o embaixador estrangeiro mesmo sem renúncia do Estado acreditante se o crime for de trânsito, com cooperação jurídica e extradição viabilizadas mediante simples solicitação diplomática direta."
       },
       {
         "letter": "C",
-        "text": "O agente diplomático goza de imunidade penal absoluta no Estado acreditado (inclusive por atos privados), enquanto o funcionário consular goza de imunidade de jurisdição apenas pelos atos praticados no exercício das funções consulares (imunidade funcional), respondendo por crimes comuns privados."
+        "text": "O agente diplomático goza de imunidade penal absoluta no Estado acreditado, enquanto o funcionário consular goza de imunidade de jurisdição apenas pelos atos praticados no exercício das funções consulares, respondendo por crimes comuns privados."
       },
       {
         "letter": "D",
-        "text": "Os arquivos e documentos da repartição consular não gozam de inviolabilidade, podendo ser apreendidos pela polícia local sem autorização."
+        "text": "Os arquivos e documentos da repartição consular não gozam de inviolabilidade, podendo ser apreendidos pela polícia local sem autorização, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       }
     ],
     "correctAnswer": "C",
@@ -579,11 +579,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Os locais da missão diplomática são invioláveis e agentes do Estado acreditado não podem neles ingressar sem consentimento do chefe da missão; já a declaração de persona non grata pelo Estado acreditado independe de motivação e obriga o Estado acreditante a retirar o diplomata."
+        "text": "Os locais da missão diplomática são invioláveis e agentes do Estado acreditado não podem neles ingressar sem consentimento do chefe da missão."
       },
       {
         "letter": "D",
-        "text": "A mala diplomática pode ser aberta na alfândega brasileira caso haja suspeita administrativa de contrabando."
+        "text": "A mala diplomática pode ser aberta na alfândega brasileira caso haja suspeita administrativa de contrabando, com cooperação jurídica e extradição viabilizadas mediante simples solicitação diplomática direta."
       }
     ],
     "correctAnswer": "C",
@@ -626,19 +626,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Apenas os Estados nacionais soberanos possuem personalidade jurídica no Direito Internacional Público contemporâneo, excluídas as organizações internacionais e os indivíduos."
+        "text": "Apenas os Estados nacionais soberanos possuem personalidade jurídica no Direito Internacional Público contemporâneo, excluídas as organizações internacionais e os indivíduos, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "B",
-        "text": "As empresas multinacionais e ONGs privadas possuem personalidade jurídica internacional idêntica e originária em pé de igualdade com os Estados na ONU."
+        "text": "As empresas multinacionais e ONGs privadas possuem personalidade jurídica internacional idêntica e originária em pé de igualdade com os Estados na ONU, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "C",
-        "text": "São sujeitos de Direito Internacional Público os Estados soberanos (sujeitos originários), as Organizações Internacionais intergovernamentais (sujeitos derivados), a Santa Sé, o Comitê Internacional da Cruz Vermelha e, contemporaneamente, os próprios indivíduos (notadamente no Direito Internacional dos Direitos Humanos e Direito Penal Internacional)."
+        "text": "São sujeitos de Direito Internacional Público os Estados soberanos, as Organizações Internacionais intergovernamentais, a Santa Sé, o Comitê Internacional da Cruz Vermelha e, contemporaneamente, os próprios indivíduos."
       },
       {
         "letter": "D",
-        "text": "A Santa Sé perdeu toda personalidade jurídica internacional após a celebração do Tratado de Latrão de 1929."
+        "text": "A Santa Sé perdeu toda personalidade jurídica internacional após a celebração do Tratado de Latrão de 1929, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       }
     ],
     "correctAnswer": "C",
@@ -681,15 +681,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O rompimento de relações diplomáticas ou a recusa em reconhecer o novo regime extingue automaticamente a condição de Estado soberano do país vizinho."
+        "text": "O rompimento de relações diplomáticas ou a recusa em reconhecer o novo regime extingue automaticamente a condição de Estado soberano do país vizinho, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "B",
-        "text": "São elementos constitutivos clássicos do Estado apenas o território delimitado e o reconhecimento unânime pelo Conselho de Segurança da ONU."
+        "text": "São elementos constitutivos clássicos do Estado apenas o território delimitado e o reconhecimento unânime pelo Conselho de Segurança da ONU, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "C",
-        "text": "Trata-se de não reconhecimento de GOVERNO (ato político unilateral frente a mudança institucional/constitucional na condução do poder), que não se confunde com reconhecimento de ESTADO, já que a personalidade internacional do Estado preexistente permanece intacta."
+        "text": "Trata-se de não reconhecimento de governo, que não se confunde com reconhecimento de estado, já que a personalidade internacional do Estado preexistente permanece intacta."
       },
       {
         "letter": "D",
@@ -740,11 +740,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Quem requerer expressamente a perda da nacionalidade brasileira nos termos da EC nº 131/2023 jamais poderá readquiri-la no futuro."
+        "text": "Quem requerer expressamente a perda da nacionalidade brasileira nos termos da EC nº 131/2023 jamais poderá readquiri-la no futuro, com eficácia interna condicionada à observância integral do rito constitucional de incorporação."
       },
       {
         "letter": "C",
-        "text": "A cidadã NÃO perde a nacionalidade brasileira, pois com a Emenda Constitucional nº 131/2023 foi extinta a perda automática pela aquisição voluntária de outra nacionalidade; hoje o brasileiro só perde a nacionalidade por cancelamento da naturalização (fraude/atentado) ou por pedido expresso de perda perante autoridade brasileira competente (ressalvada apatridia)."
+        "text": "A cidadã não perde a nacionalidade brasileira, pois com a Emenda Constitucional nº 131/2023 foi extinta a perda automática pela aquisição voluntária de outra nacionalidade."
       },
       {
         "letter": "D",
@@ -791,15 +791,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A deportação é a medida adequada para retirar o estrangeiro condenado por crime hediondo em território brasileiro."
+        "text": "A deportação é a medida adequada para retirar o estrangeiro condenado por crime hediondo em território brasileiro, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "B",
-        "text": "A repatriação e a deportação impedem perpetuamente o estrangeiro de retornar ao Brasil, ainda que obtenha visto regular posteriormente."
+        "text": "A repatriação e a deportação impedem perpetuamente o estrangeiro de retornar ao Brasil, ainda que obtenha visto regular posteriormente, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
-        "text": "Ao estrangeiro condenado por crime grave no Brasil aplica-se a EXPULSÃO (retirada compulsória com impedimento de reingresso), e ao impedido de ingressar já na fronteira/aeroporto aplica-se a REPATRIAÇÃO (devolução ao país de procedência ou origem)."
+        "text": "Ao estrangeiro condenado por crime grave no Brasil aplica-se a expulsão, e ao impedido de ingressar já na fronteira/aeroporto aplica-se a repatriação."
       },
       {
         "letter": "D",
@@ -846,19 +846,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O brasileiro naturalizado só pode ser extraditado por tráfico ilícito de drogas se o crime tiver sido praticado antes da naturalização."
+        "text": "O brasileiro naturalizado só pode ser extraditado por tráfico ilícito de drogas se o crime tiver sido praticado antes da naturalização, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "B",
-        "text": "Se um brasileiro nato cometer crime hediondo no exterior e possuir dupla nacionalidade originária, o Brasil é obrigado a extraditá-lo para o outro país de sua nacionalidade."
+        "text": "Se um brasileiro nato cometer crime hediondo no exterior e possuir dupla nacionalidade originária, o Brasil é obrigado a extraditá-lo para o outro país de sua nacionalidade, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
-        "text": "Nenhuma das três extradições pode ser deferida pelo STF no caso do brasileiro nato ou do crime político, mas a extradição do brasileiro naturalizado POR COMPROVADO ENVOLVIMENTO EM TRÁFICO ILÍCITO DE ENTORPECENTES é constitucionalmente admitida, mesmo que o fato tenha ocorrido após a naturalização."
+        "text": "Nenhuma das três extradições pode ser deferida pelo STF no caso do brasileiro nato ou do crime político, mas a extradição do brasileiro naturalizado por comprovado envolvimento em tráfico ilícito de entorpecentes é constitucionalmente admitida, mesmo que o fato tenha ocorrido após a naturalização."
       },
       {
         "letter": "D",
-        "text": "A decisão favorável do STF pela legalidade do pedido de extradição vincula absolutamente o Presidente da República, obrigando-o a entregar o extraditando."
+        "text": "A decisão favorável do STF pela legalidade do pedido de extradição vincula absolutamente o Presidente da República, obrigando-o a entregar o extraditando, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       }
     ],
     "correctAnswer": "C",
@@ -901,19 +901,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Com o aumento do limite de cumprimento de pena no Código Penal brasileiro para 40 anos pela Lei Anticrime, o STF passou a exigir comutação apenas se a pena estrangeira ultrapassar 50 anos."
+        "text": "Com o aumento do limite de cumprimento de pena no Código Penal brasileiro para 40 anos pela Lei Anticrime, o STF passou a exigir comutação apenas se a pena estrangeira ultrapassar 50 anos, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "B",
-        "text": "A extradição no Brasil prescinde do requisito da dupla tipicidade quando houver tratado bilateral de cooperação entre os países."
+        "text": "A extradição no Brasil prescinde do requisito da dupla tipicidade quando houver tratado bilateral de cooperação entre os países, com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública."
       },
       {
         "letter": "C",
-        "text": "O deferimento da extradição pelo STF condiciona-se ao compromisso formal do Estado requerente de comutar a pena de morte ou prisão perpétua em pena privativa de liberdade de no máximo 30 anos (conforme jurisprudência do STF/Art. 96, III) e à observância do princípio da especialidade (não processar por fato anterior não incluído no pedido)."
+        "text": "O deferimento da extradição pelo STF condiciona-se ao compromisso formal do Estado requerente de comutar a pena de morte ou prisão perpétua em pena privativa de liberdade de no máximo 30 anos e à observância do princípio da especialidade."
       },
       {
         "letter": "D",
-        "text": "Pelo princípio da especialidade, após entregue o extraditando, o país requerente pode processá-lo livremente por qualquer outro crime anterior sem anuência do Brasil."
+        "text": "Pelo princípio da especialidade, após entregue o extraditando, o país requerente pode processá-lo livremente por qualquer outro crime anterior sem anuência do Brasil. Tal critério orienta a aplicação das normas internacionais perante a jurisdição nacional."
       }
     ],
     "correctAnswer": "C",
@@ -956,19 +956,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O nascimento de filho brasileiro após a prática do crime autoriza sempre a expulsão, pois apenas filhos nascidos anteriormente ao delito impedem a medida."
+        "text": "O nascimento de filho brasileiro após a prática do crime autoriza sempre a expulsão, pois apenas filhos nascidos anteriormente ao delito impedem a medida. Tal critério orienta a aplicação das normas internacionais perante a jurisdição nacional."
       },
       {
         "letter": "B",
-        "text": "O impedimento familiar aplica-se exclusivamente ao casamento civil oficial, excluindo a união estável homoafetiva."
+        "text": "O impedimento familiar aplica-se exclusivamente ao casamento civil oficial, excluindo a união estável homoafetiva, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
-        "text": "Não se procederá à expulsão quando o expulsando tiver filho brasileiro que esteja sob sua guarda ou dependência econômica ou socioafetiva ou tiver pessoa brasileira sob sua tutela, bem como quando tiver cônjuge ou companheiro residente no Brasil, sem discriminação alguma, reconhecido judicial ou legalmente."
+        "text": "Não se procederá à expulsão quando o expulsando tiver filho brasileiro que esteja sob sua guarda ou dependência econômica ou socioafetiva ou tiver pessoa brasileira sob sua tutela."
       },
       {
         "letter": "D",
-        "text": "O estrangeiro que ingressou no Brasil com menos de 18 anos e aqui reside há mais de 10 anos pode ser expulso livremente por qualquer contravenção penal."
+        "text": "O estrangeiro que ingressou no Brasil com menos de 18 anos e aqui reside há mais de 10 anos pode ser expulso livremente por qualquer contravenção penal, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       }
     ],
     "correctAnswer": "C",
@@ -1011,19 +1011,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O refúgio e o asilo político são exatamente o mesmo instituto jurídico, ambos concedidos de forma discricionária exclusiva pelo Presidente da República."
+        "text": "O refúgio e o asilo político são exatamente o mesmo instituto jurídico, ambos concedidos de forma discricionária exclusiva pelo Presidente da República, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "B",
-        "text": "O estrangeiro que ingressar no Brasil de maneira irregular sem visto prévio perde o direito de solicitar refúgio e deve ser deportado na hora."
+        "text": "O estrangeiro que ingressar no Brasil de maneira irregular sem visto prévio perde o direito de solicitar refúgio e deve ser deportado na hora, com cooperação jurídica e extradição viabilizadas mediante simples solicitação diplomática direta."
       },
       {
         "letter": "C",
-        "text": "O pedido é processado administrativamente pelo CONARE (Comitê Nacional para os Refugiados), sendo aplicável o princípio do non-refoulement (não devolução), que proíbe devolver o solicitante ou refugiado para fronteiras onde sua vida ou liberdade esteja ameaçada."
+        "text": "O pedido é processado administrativamente pelo conare, sendo aplicável o princípio do non-refoulement (não devolução), que proíbe devolver o solicitante ou refugiado para fronteiras onde sua vida ou liberdade esteja ameaçada."
       },
       {
         "letter": "D",
-        "text": "O reconhecimento do refúgio exige que o solicitante tenha participado pessoalmente de crimes contra a humanidade em seu país de origem."
+        "text": "O reconhecimento do refúgio exige que o solicitante tenha participado pessoalmente de crimes contra a humanidade em seu país de origem, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "C",
@@ -1066,19 +1066,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O apátrida é equiparado ao estrangeiro em situação irregular e submetido à deportação imediata para o último país de trânsito."
+        "text": "O apátrida é equiparado ao estrangeiro em situação irregular e submetido à deportação imediata para o último país de trânsito, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "B",
-        "text": "A Lei de Migração prevê instituto protetivo especial para o apátrida: após o reconhecimento dessa condição, é assegurada a autorização de residência e o direito à naturalização facilitada se o apátrida residir no Brasil há pelo menos 2 anos (dispensado o prazo ordinário de 4 anos), ou residência provisória até a conclusão."
+        "text": "A Lei de Migração prevê instituto protetivo especial para o apátrida: após o reconhecimento dessa condição, é assegurada a autorização de residência e o direito à naturalização facilitada se o apátrida residir no Brasil há pelo menos 2 anos, ou residência provisória até a conclusão."
       },
       {
         "letter": "C",
-        "text": "Caso o apátrida não queira se naturalizar brasileiro, terá recusado o direito de trabalhar ou estudar no Brasil."
+        "text": "Caso o apátrida não queira se naturalizar brasileiro, terá recusado o direito de trabalhar ou estudar no Brasil, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "A condição de apátrida no Brasil impede que eventuais filhos seus nascidos em território brasileiro adquiram a nacionalidade brasileira nata."
+        "text": "A condição de apátrida no Brasil impede que eventuais filhos seus nascidos em território brasileiro adquiram a nacionalidade brasileira nata, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       }
     ],
     "correctAnswer": "B",
@@ -1121,7 +1121,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A soberania plena do Estado costeiro estende-se até 200 milhas náuticas, proibindo até mesmo a navegação inocente de qualquer navio mercante estrangeiro na ZEE."
+        "text": "A soberania plena do Estado costeiro estende-se até 200 milhas náuticas, proibindo até mesmo a navegação inocente de qualquer navio mercante estrangeiro na ZEE, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "B",
@@ -1129,11 +1129,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O Mar Territorial brasileiro compreende uma faixa de 24 milhas náuticas de largura medidas a partir da linha de baixa-mar."
+        "text": "O Mar Territorial brasileiro compreende uma faixa de 24 milhas náuticas de largura medidas a partir da linha de baixa-mar, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "Na Zona Contígua (12 a 24 milhas), o Estado costeiro exerce apenas direitos sobre pesca, sem poder fiscalizar infrações aduaneiras ou sanitárias."
+        "text": "Na Zona Contígua (12 a 24 milhas), o Estado costeiro exerce apenas direitos sobre pesca, sem poder fiscalizar infrações aduaneiras ou sanitárias. A eficácia territorial da medida observa os limites da soberania e da reciprocidade."
       }
     ],
     "correctAnswer": "B",
@@ -1176,7 +1176,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Navios e submarinos de guerra de qualquer país podem cruzar submersos o mar territorial estrangeiro realizando exercícios bélicos sem consentimento costeiro."
+        "text": "Navios e submarinos de guerra de qualquer país podem cruzar submersos o mar territorial estrangeiro realizando exercícios bélicos sem consentimento costeiro, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "B",
@@ -1184,11 +1184,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Em alto-mar, os navios mercantes não têm bandeira vinculante, podendo qualquer Estado exercer jurisdição penal policial sobre navio de outro pavilhão a qualquer título."
+        "text": "Em alto-mar, os navios mercantes não têm bandeira vinculante, podendo qualquer Estado exercer jurisdição penal policial sobre navio de outro pavilhão a qualquer título. Tal critério orienta a aplicação das normas internacionais perante a jurisdição nacional."
       },
       {
         "letter": "D",
-        "text": "O direito de passagem inocente inclui automaticamente a passagem de aeronaves militares pelo espaço aéreo sobrejacente ao mar territorial sem autorização."
+        "text": "O direito de passagem inocente inclui automaticamente a passagem de aeronaves militares pelo espaço aéreo sobrejacente ao mar territorial sem autorização, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "B",
@@ -1235,7 +1235,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A entrada da aeronave viola a soberania completa e exclusiva que cada Estado possui sobre o espaço aéreo correspondente ao seu território e mar territorial (Convenção de Chicago); já o espaço cósmico exterior não é suscetível de apropriação nacional por nenhum Estado (Tratado do Espaço de 1967)."
+        "text": "A entrada da aeronave viola a soberania completa e exclusiva que cada Estado possui sobre o espaço aéreo correspondente ao seu território e mar territorial."
       },
       {
         "letter": "C",
@@ -1286,19 +1286,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A União não responde internacionalmente por atos praticados por órgãos de Estados-membros ou Municípios em razão do pacto federativo interno."
+        "text": "A União não responde internacionalmente por atos praticados por órgãos de Estados-membros ou Municípios em razão do pacto federativo interno, com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública."
       },
       {
         "letter": "B",
-        "text": "O ato é atribuível à República Federativa do Brasil no plano internacional, pois respondem como atos do Estado as condutas de quaisquer de seus órgãos (Executivo, Legislativo, Judiciário e entes subnacionais federados), ainda que tenham excedido sua competência ou contrariado instruções internas."
+        "text": "O ato é atribuível à República Federativa do Brasil no plano internacional, pois respondem como atos do Estado as condutas de quaisquer de seus órgãos, ainda que tenham excedido sua competência ou contrariado instruções internas."
       },
       {
         "letter": "C",
-        "text": "Quando o agente estatal exorbita de suas instruções internas (ato ultra vires), o Estado fica isento de responsabilidade internacional."
+        "text": "Quando o agente estatal exorbita de suas instruções internas (ato ultra vires), o Estado fica isento de responsabilidade internacional, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "A única forma admitida de reparação internacional do ato ilícito estatal é o pagamento de indenização pecuniária."
+        "text": "A única forma admitida de reparação internacional do ato ilícito estatal é o pagamento de indenização pecuniária, com eficácia interna condicionada à observância integral do rito constitucional de incorporação."
       }
     ],
     "correctAnswer": "B",
@@ -1345,7 +1345,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Trata-se de MEDIAÇÃO (meio diplomático em que o terceiro participa ativamente propondo soluções não vinculantes), distinguindo-se dos bons ofícios (simples aproximação das partes sem propor termos) e da arbitragem/solução judicial (meios jurisdicionais com decisão obrigatória)."
+        "text": "Trata-se de mediação, distinguindo-se dos bons ofícios e da arbitragem/solução judicial."
       },
       {
         "letter": "C",
@@ -1353,7 +1353,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O Conselho de Segurança da ONU é considerado meio jurisdicional idêntico à Corte Internacional de Justiça."
+        "text": "O Conselho de Segurança da ONU é considerado meio jurisdicional idêntico à Corte Internacional de Justiça, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "B",
@@ -1396,19 +1396,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer cidadão ou ONG com atuação internacional comprovada pode acionar um Estado diretamente na jurisdição contenciosa da Corte Internacional de Justiça."
+        "text": "Qualquer cidadão ou ONG com atuação internacional comprovada pode acionar um Estado diretamente na jurisdição contenciosa da Corte Internacional de Justiça, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "B",
-        "text": "A ação é inadmissível por ilegitimidade ativa, pois somente os Estados podem ser partes em questões contenciosas perante a Corte Internacional de Justiça, cuja jurisdição depende ainda de consentimento estatal (tratado, compromisso ou cláusula facultativa de jurisdição obrigatória)."
+        "text": "A ação é inadmissível por ilegitimidade ativa, pois somente os Estados podem ser partes em questões contenciosas perante a Corte Internacional de Justiça, cuja jurisdição depende ainda de consentimento estatal."
       },
       {
         "letter": "C",
-        "text": "Os pareceres consultivos emitidos pela CIJ a pedido da Assembleia Geral ou do Conselho de Segurança possuem força de sentença condenatória executável automaticamente contra Estados específicos."
+        "text": "Os pareceres consultivos emitidos pela CIJ a pedido da Assembleia Geral ou do Conselho de Segurança possuem força de sentença condenatória executável automaticamente contra Estados específicos, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "D",
-        "text": "A simples ratificação da Carta da ONU torna obrigatória a jurisdição contenciosa da CIJ para todas as disputas futuras do Estado-membro sem necessidade de consentimento específico."
+        "text": "A simples ratificação da Carta da ONU torna obrigatória a jurisdição contenciosa da CIJ para todas as disputas futuras do Estado-membro sem necessidade de consentimento específico, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "B",
@@ -1455,7 +1455,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A remessa ao TPI denomina-se ENTREGA (surrender), instituto distinto da extradição (feita entre Estados soberanos), sendo o TPI regido pelo princípio da complementaridade (atua apenas quando o Estado nacional não quer ou não pode processar efetivamente os crimes graves de genocídio, contra a humanidade, de guerra e de agressão)."
+        "text": "A remessa ao TPI denomina-se entrega (surrender), instituto distinto da extradição, sendo o TPI regido pelo princípio da complementaridade."
       },
       {
         "letter": "C",
@@ -1463,7 +1463,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A vedação constitucional à extradição de brasileiro nato impede qualquer entrega de brasileiro ao Tribunal Penal Internacional."
+        "text": "A vedação constitucional à extradição de brasileiro nato impede qualquer entrega de brasileiro ao Tribunal Penal Internacional, em respeito à igualdade soberana dos Estados e ao princípio da não intervenção interna."
       }
     ],
     "correctAnswer": "B",
@@ -1506,19 +1506,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A abstenção voluntária de um dos cinco membros permanentes equivale automaticamente a veto e impede a aprovação da resolução."
+        "text": "A abstenção voluntária de um dos cinco membros permanentes equivale automaticamente a veto e impede a aprovação da resolução, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "B",
-        "text": "A resolução é rejeitada pelo exercício do poder de veto, pois decisões sobre questões não procedimentais no Conselho de Segurança exigem voto afirmativo de 9 membros, incluídos os votos concordantes de todos os cinco membros permanentes (China, Estados Unidos, França, Reino Unido e Rússia)."
+        "text": "A resolução é rejeitada pelo exercício do poder de veto, pois decisões sobre questões não procedimentais no Conselho de Segurança exigem voto afirmativo de 9 membros, incluídos os votos concordantes de todos os cinco membros permanentes."
       },
       {
         "letter": "C",
-        "text": "A Carta da ONU proíbe de modo absoluto o uso da força por qualquer Estado, mesmo para repelir ataque armado atual contra seu território antes de resolução do Conselho."
+        "text": "A Carta da ONU proíbe de modo absoluto o uso da força por qualquer Estado, mesmo para repelir ataque armado atual contra seu território antes de resolução do Conselho, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "D",
-        "text": "As resoluções da Assembleia Geral da ONU têm o mesmo poder coercitivo vinculante sobre os Estados que as resoluções do Conselho de Segurança sob o Capítulo VII."
+        "text": "As resoluções da Assembleia Geral da ONU têm o mesmo poder coercitivo vinculante sobre os Estados que as resoluções do Conselho de Segurança sob o Capítulo VII, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       }
     ],
     "correctAnswer": "B",
@@ -1561,19 +1561,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A cláusula da Nação Mais Favorecida exige que o país conceda tratamento tributário mais vantajoso aos produtos importados do que aos produtos nacionais similares."
+        "text": "A cláusula da Nação Mais Favorecida exige que o país conceda tratamento tributário mais vantajoso aos produtos importados do que aos produtos nacionais similares, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "B",
-        "text": "A medida viola a cláusula da Nação Mais Favorecida (NMF), princípio basilar da OMC segundo o qual qualquer vantagem, favor, privilégio ou imunidade concedido por um membro a produto originário de outro país deve ser estendida imediata e incondicionalmente aos produtos similares de todos os demais membros."
+        "text": "A medida viola a cláusula da Nação Mais Favorecida (nmf), princípio basilar da OMC segundo o qual qualquer vantagem, favor, privilégio ou imunidade concedido por um membro a produto originário de outro país deve ser estendida imediata e incondicionalmente aos produtos similares de todos os demais membros."
       },
       {
         "letter": "C",
-        "text": "As exceções de integração regional (como o MERCOSUL e a União Europeia) são proibidas pelas normas da OMC por ferirem a cláusula NMF."
+        "text": "As exceções de integração regional são proibidas pelas normas da OMC por ferirem a cláusula nmf, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "Na OMC, empresas exportadoras privadas podem abrir painéis contenciosos diretamente contra governos estrangeiros no Órgão de Solução de Controvérsias."
+        "text": "Na OMC, empresas exportadoras privadas podem abrir painéis contenciosos diretamente contra governos estrangeiros no Órgão de Solução de Controvérsias, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       }
     ],
     "correctAnswer": "B",
@@ -1616,15 +1616,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Protocolo de Olivos, após negociações diretas obrigatórias, a parte pode acionar um Tribunal Arbitral Ad Hoc (cujo laudo pode ser objeto de recurso de revisão perante o Tribunal Permanente de Revisão - TPR, com sede em Assunção), podendo inclusive recorrer diretamente perante o TPR por acordo."
+        "text": "Pelo Protocolo de Olivos, após negociações diretas obrigatórias, a parte pode acionar um Tribunal Arbitral Ad Hoc, podendo inclusive recorrer diretamente perante o tpr por acordo."
       },
       {
         "letter": "B",
-        "text": "O MERCOSUL possui uma Corte Supranacional permanente em Montevidéu com poder idêntico ao Tribunal de Justiça da União Europeia, à qual particulares recorrem diretamente."
+        "text": "O MERCOSUL possui uma Corte Supranacional permanente em Montevidéu com poder idêntico ao Tribunal de Justiça da União Europeia, à qual particulares recorrem diretamente, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
-        "text": "As normas emanadas dos órgãos decisórios do MERCOSUL (CMC, GMC e CCM) têm aplicabilidade imediata automática nos países membros, dispensando internalização legislativa ou executiva."
+        "text": "As normas emanadas dos órgãos decisórios do MERCOSUL (cmc, gmc e ccm) têm aplicabilidade imediata automática nos países membros, dispensando internalização legislativa ou executiva."
       },
       {
         "letter": "D",
@@ -1671,19 +1671,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplica-se a lei brasileira por ser a lei do país em que é domiciliada a pessoa (lex domicilii), a qual rege as regras sobre o começo e o fim da personalidade, o nome, a capacidade e os direitos de família (inclusive regime de bens, sendo o mesmo o domicílio dos nubentes)."
+        "text": "Aplica-se a lei brasileira por ser a lei do país em que é domiciliada a pessoa (lex domicilii), a qual rege as regras sobre o começo e o fim da personalidade, o nome, a capacidade e os direitos de família."
       },
       {
         "letter": "B",
-        "text": "Por força do critério da nacionalidade adotado pela LINDB, aplica-se obrigatoriamente a lei italiana a toda pessoa de cidadania italiana residente no Brasil."
+        "text": "Por força do critério da nacionalidade adotado pela LINDB, aplica-se obrigatoriamente a lei italiana a toda pessoa de cidadania italiana residente no Brasil, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
-        "text": "O regime de bens dos nubentes com domicílios diversos é regido sempre pela lei da nacionalidade do marido."
+        "text": "O regime de bens dos nubentes com domicílios diversos é regido sempre pela lei da nacionalidade do marido, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "D",
-        "text": "O estrangeiro casado domiciliado no Brasil que se naturalizar brasileiro não pode requerer a alteração do regime de bens no Brasil."
+        "text": "O estrangeiro casado domiciliado no Brasil que se naturalizar brasileiro não pode requerer a alteração do regime de bens no Brasil, com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública."
       }
     ],
     "correctAnswer": "A",
@@ -1726,7 +1726,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A sucessão por morte obedece, em regra, à lei do país em que era domiciliado o defunto (Alemanha); porém, nos termos do Art. 5º, XXXI, da Constituição Federal e do Art. 10, § 1º, da LINDB, a sucessão de bens de estrangeiros situados no País será regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros sempre que não lhes seja mais favorável a lei pessoal do de cujus."
+        "text": "A sucessão por morte obedece, em regra, à lei do país em que era domiciliado o defunto (Alemanha)."
       },
       {
         "letter": "B",
@@ -1781,19 +1781,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O procedimento está errado, pois nos termos do Art. 16 da LINDB, quando tiver de aplicar a lei estrangeira, o juiz terá em vista a disposição desta, sem considerar qualquer remissão por ela feita a outra lei — vedando expressamente o reenvio (devolução) de 1º ou 2º grau."
+        "text": "O procedimento está errado, pois quando tiver de aplicar a lei estrangeira, o juiz terá em vista a disposição desta, sem considerar qualquer remissão por ela feita a outra lei — vedando expressamente o reenvio (devolução) de 1º ou 2º grau."
       },
       {
         "letter": "B",
-        "text": "O Direito Internacional Privado brasileiro adota obrigatoriamente o reenvio de primeiro grau para aplicar a lei brasileira sempre que a norma estrangeira remeter de volta ao Brasil."
+        "text": "O Direito Internacional Privado brasileiro adota obrigatoriamente o reenvio de primeiro grau para aplicar a lei brasileira sempre que a norma estrangeira remeter de volta ao Brasil, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "C",
-        "text": "A proibição do reenvio aplica-se apenas a contratos comerciais, sendo obrigatória a aceitação da devolução em matéria de casamento e sucessão."
+        "text": "A proibição do reenvio aplica-se apenas a contratos comerciais, sendo obrigatória a aceitação da devolução em matéria de casamento e sucessão, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "D",
-        "text": "Caso o juiz brasileiro não conheça o teor do direito material estrangeiro aplicável, deve julgar o processo extinto sem resolução de mérito por impossibilidade jurídica."
+        "text": "Caso o juiz brasileiro não conheça o teor do direito material estrangeiro aplicável, deve julgar o processo extinto sem resolução de mérito por impossibilidade jurídica, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "A",
@@ -1836,7 +1836,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para qualificar os bens e regular as relações a eles concernentes, aplica-se a lei do país em que estiverem situados (lex rei sitae — lei brasileira); contudo, aplica-se a lei do país em que for domiciliado o proprietário quanto aos bens móveis que ele trouxer ou se destinarem a transporte para outros lugares, e ao penhor aplica-se a lei do domicílio da pessoa em cuja posse esteja a coisa apenhada."
+        "text": "Para qualificar os bens e regular as relações a eles concernentes, aplica-se a lei do país em que estiverem situados."
       },
       {
         "letter": "B",
@@ -1844,11 +1844,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Bens móveis em trânsito internacional ou de uso pessoal do viajante submetem-se sempre à lei do porto ou aeroporto de chegada."
+        "text": "Bens móveis em trânsito internacional ou de uso pessoal do viajante submetem-se sempre à lei do porto ou aeroporto de chegada, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "D",
-        "text": "No penhor, aplica-se sempre a lei do local onde o contrato de empréstimo bancário foi assinado."
+        "text": "No penhor, aplica-se sempre a lei do local onde o contrato de empréstimo bancário foi assinado, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       }
     ],
     "correctAnswer": "A",
@@ -1895,15 +1895,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Nos contratos internacionais entre ausentes regidos pela LINDB, aplica-se a lei do país onde o aceitante enviou a resposta positiva."
+        "text": "Nos contratos internacionais entre ausentes regidos pela LINDB, aplica-se a lei do país onde o aceitante enviou a resposta positiva, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
-        "text": "As partes podem escolher livremente qualquer lei estrangeira em contrato comum submetido exclusivamente ao Art. 9º da LINDB perante o Judiciário estatal brasileiro, sem cláusula arbitral."
+        "text": "As partes podem escolher livremente qualquer lei estrangeira em contrato comum submetido exclusivamente ao Art. 9º da LINDB perante o Judiciário estatal brasileiro, sem cláusula arbitral, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "D",
-        "text": "A forma extrínseca dos contratos celebrados no exterior deve seguir obrigatoriamente a forma da lei brasileira mesmo quando executados em parte fora do Brasil."
+        "text": "A forma extrínseca dos contratos celebrados no exterior deve seguir obrigatoriamente a forma da lei brasileira mesmo quando executados em parte fora do Brasil, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       }
     ],
     "correctAnswer": "A",
@@ -1946,19 +1946,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A cláusula é plenamente válida e eficaz, pois na arbitragem (Art. 2º, § 1º, da Lei nº 9.307/1996) as partes podem escolher livremente as regras de direito que serão aplicadas, inclusive princípios gerais de direito, usos e costumes e regras internacionais de comércio, desde que não haja violação aos bons costumes e à ordem pública."
+        "text": "A cláusula é plenamente válida e eficaz, pois na arbitragem as partes podem escolher livremente as regras de direito que serão aplicadas, inclusive princípios gerais de direito, usos e costumes e regras internacionais de comércio, desde que não haja violação aos bons costumes e à ordem pública."
       },
       {
         "letter": "B",
-        "text": "A escolha do Direito Suíço é nula porque o Art. 9º da LINDB proíbe a autonomia da vontade na escolha da lei até mesmo em procedimentos arbitrais."
+        "text": "A escolha do Direito Suíço é nula porque a legislação aplicável proíbe a autonomia da vontade na escolha da lei até mesmo em procedimentos arbitrais. A eficácia territorial da medida observa os limites da soberania e da reciprocidade."
       },
       {
         "letter": "C",
-        "text": "A sentença arbitral proferida no exterior produz efeitos executivos imediatos no Brasil sem necessidade de homologação pelo STJ."
+        "text": "A sentença arbitral proferida no exterior produz efeitos executivos imediatos no Brasil sem necessidade de homologação pelo STJ, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "D",
-        "text": "O Brasil não ratificou a Convenção de Nova Iorque de 1958 sobre reconhecimento e execução de sentenças arbitrais estrangeiras."
+        "text": "O Brasil não ratificou a Convenção de Nova Iorque de 1958 sobre reconhecimento e execução de sentenças arbitrais estrangeiras, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       }
     ],
     "correctAnswer": "A",
@@ -2001,7 +2001,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Compete ao Superior Tribunal de Justiça (STJ) a homologação de sentenças estrangeiras e a concessão de exequatur às cartas rogatórias; após homologada pelo STJ, a execução da sentença estrangeira compete aos juízes federais de primeira instância (Art. 109, X, CF)."
+        "text": "Compete ao Superior Tribunal de Justiça (STJ) a homologação de sentenças estrangeiras e a concessão de exequatur às cartas rogatórias."
       },
       {
         "letter": "B",
@@ -2013,7 +2013,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Decisão interlocutória estrangeira concessiva de tutela de urgência nunca pode ser efetivada no Brasil mediante carta rogatória."
+        "text": "Decisão interlocutória estrangeira concessiva de tutela de urgência nunca pode ser efetivada no Brasil mediante carta rogatória, com eficácia interna condicionada à observância integral do rito constitucional de incorporação."
       }
     ],
     "correctAnswer": "A",
@@ -2060,15 +2060,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Todo e qualquer divórcio realizado no exterior, inclusive o consensual simples sem filhos ou bens, exige prévia homologação pelo STJ para surtir efeitos civis no Brasil."
+        "text": "Todo e qualquer divórcio realizado no exterior, inclusive o consensual simples sem filhos ou bens, exige prévia homologação pelo STJ para surtir efeitos civis no Brasil. A eficácia territorial da medida observa os limites da soberania e da reciprocidade."
       },
       {
         "letter": "C",
-        "text": "A dispensa de homologação do Art. 961, § 5º, do CPC alcança também os divórcios litigiosos ou aqueles que contenham acordo de guarda de filhos e partilha de imóveis no Brasil."
+        "text": "A dispensa de homologação alcança também os divórcios litigiosos ou aqueles que contenham acordo de guarda de filhos e partilha de imóveis no Brasil, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "Para averbar o divórcio consensual simples no cartório brasileiro dispensa-se tradução juramentada ou apostilamento do documento estrangeiro."
+        "text": "Para averbar o divórcio consensual simples no cartório brasileiro dispensa-se tradução juramentada ou apostilamento do documento estrangeiro, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "A",
@@ -2111,19 +2111,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A aplicação de leis e a eficácia de atos/sentenças estrangeiros encontram limite absoluto no Art. 17 da LINDB (não terão eficácia no Brasil quando ofenderem a soberania nacional, a ordem pública e os bons costumes); contudo, o STJ tem homologado cobrança de dívida de jogo contraída legalmente em país onde é lícita (como Las Vegas), não ofendendo a ordem pública atual, diversamente da bigamia/poligamia."
+        "text": "A aplicação de leis e a eficácia de atos/sentenças estrangeiros encontram limite absoluto; contudo, o STJ tem homologado cobrança de dívida de jogo contraída legalmente em país onde é lícita (como Las Vegas), não ofendendo a ordem pública atual, diversamente da bigamia/poligamia."
       },
       {
         "letter": "B",
-        "text": "Toda norma estrangeira diferente da legislação civil brasileira ofende automaticamente a ordem pública e é inaplicável no Brasil."
+        "text": "Toda norma estrangeira diferente da legislação civil brasileira ofende automaticamente a ordem pública e é inaplicável no Brasil, com eficácia interna condicionada à observância integral do rito constitucional de incorporação."
       },
       {
         "letter": "C",
-        "text": "O conceito de ordem pública internacional previsto no Art. 17 da LINDB é estático e imutável desde 1942."
+        "text": "O conceito de ordem pública internacional é estático e imutável desde 1942, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "D",
-        "text": "A sentença estrangeira que ofender a ordem pública brasileira pode ser parcialmente adaptada e homologada se o autor renunciar aos juros moratórios."
+        "text": "A sentença estrangeira que ofender a ordem pública brasileira pode ser parcialmente adaptada e homologada se o autor renunciar aos juros moratórios, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       }
     ],
     "correctAnswer": "A",
@@ -2174,11 +2174,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A prova do direito estrangeiro só pode ser feita mediante parecer pago por embaixada estrangeira."
+        "text": "A prova do direito estrangeiro só pode ser feita mediante parecer pago por embaixada estrangeira, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "D",
-        "text": "Não conhecendo o juiz a lei estrangeira, poderá exigir de quem a invoca prova do texto e da vigência, nos termos do Art. 14 da LINDB e do Art. 376 do CPC."
+        "text": "Não conhecendo o juiz a lei estrangeira, poderá exigir de quem a invoca prova do texto e da vigência e."
       }
     ],
     "correctAnswer": "D",
@@ -2221,19 +2221,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todo pedido de cooperação jurídica internacional passivo, inclusive o auxílio direto baseado em tratado, exige obrigatoriamente concessão prévia de exequatur pelo STJ."
+        "text": "Todo pedido de cooperação jurídica internacional passivo, inclusive o auxílio direto baseado em tratado, exige obrigatoriamente concessão prévia de exequatur pelo STJ. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "B",
-        "text": "Na ausência de tratado bilateral ou multilateral específico, o Brasil fica absolutamente impedido de praticar cooperação jurídica internacional passiva ou ativa."
+        "text": "Na ausência de tratado bilateral ou multilateral específico, o Brasil fica absolutamente impedido de praticar cooperação jurídica internacional passiva ou ativa, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "C",
-        "text": "A carta rogatória ativa (expedida por juiz brasileiro ao exterior) precisa antes receber exequatur do STJ para ser enviada pelo Itamaraty."
+        "text": "A carta rogatória ativa (expedida por juiz brasileiro ao exterior) precisa antes receber exequatur do STJ para ser enviada pelo Itamaraty, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "O pedido tramita mediante AUXÍLIO DIRETO perante a Autoridade Central brasileira (em regra, o Ministério da Justiça e Segurança Pública - DRCI), cabendo ao juiz federal de 1º grau decidir caso o auxílio direto exija reserva de jurisdição, dispensado o exequatur do STJ que é próprio da carta rogatória."
+        "text": "O pedido tramita mediante auxílio direto perante a Autoridade Central brasileira, cabendo ao juiz federal de 1º grau decidir caso o auxílio direto exija reserva de jurisdição, dispensado o exequatur do STJ que é próprio da carta rogatória."
       }
     ],
     "correctAnswer": "D",
@@ -2276,19 +2276,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A existência de ação idêntica tramitando em tribunal estrangeiro gera litispendência internacional automática e obriga o juiz brasileiro a extinguir o processo nacional."
+        "text": "A existência de ação idêntica tramitando em tribunal estrangeiro gera litispendência internacional automática e obriga o juiz brasileiro a extinguir o processo nacional, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "B",
-        "text": "A competência internacional da Justiça brasileira em matéria de alimentos e de consumidor é exclusiva, impedindo que qualquer tribunal estrangeiro decida tais matérias envolvendo brasileiros."
+        "text": "A competência internacional da Justiça brasileira em matéria de alimentos e de consumidor é exclusiva, impedindo que qualquer tribunal estrangeiro decida tais matérias envolvendo brasileiros, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "C",
-        "text": "A sentença estrangeira proferida sobre imóvel situado no Brasil pode ser homologada pelo STJ se todas as partes forem estrangeiras."
+        "text": "A sentença estrangeira proferida sobre imóvel situado no Brasil pode ser homologada pelo STJ se todas as partes forem estrangeiras, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "D",
-        "text": "A alegação deve ser rejeitada por duplo fundamento: (1) compete à autoridade judiciária brasileira, com EXCLUSÃO de qualquer outra, conhecer de ações relativas a imóveis situados no Brasil e de inventário/partilha de bens situados no Brasil (Art. 23, I e II, CPC); e (2) a ação proposta perante tribunal estrangeiro NÃO induz litispendência (Art. 24 CPC)."
+        "text": "A alegação deve ser rejeitada por duplo fundamento: compete à autoridade judiciária brasileira, com exclusão de qualquer outra, conhecer de ações relativas a imóveis situados no Brasil e de inventário/partilha de bens situados no Brasil."
       }
     ],
     "correctAnswer": "D",
@@ -2331,15 +2331,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A cláusula de eleição de foro estrangeiro é sempre nula perante a Justiça brasileira por ferir a soberania da jurisdição nacional."
+        "text": "A cláusula de eleição de foro estrangeiro é sempre nula perante a Justiça brasileira por ferir a soberania da jurisdição nacional, em respeito à igualdade soberana dos Estados e ao princípio da não intervenção interna."
       },
       {
         "letter": "B",
-        "text": "O juiz brasileiro deve reconhecer de ofício a existência de cláusula de eleição de foro exclusivo estrangeiro logo ao receber a petição inicial."
+        "text": "O juiz brasileiro deve reconhecer de ofício a existência de cláusula de eleição de foro exclusivo estrangeiro logo ao receber a petição inicial, com cooperação jurídica e extradição viabilizadas mediante simples solicitação diplomática direta."
       },
       {
         "letter": "C",
-        "text": "Mesmo em ações envolvendo bens imóveis situados no Brasil, as partes podem eleger o foro exclusivo de tribunal de Paris."
+        "text": "Mesmo em ações envolvendo bens imóveis situados no Brasil, as partes podem eleger o foro exclusivo de tribunal de Paris, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "D",
@@ -2386,19 +2386,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ao apreciar pedido fundado na Convenção da Haia de 1980, o juiz brasileiro deve julgar primeiro o mérito definitivo de quem tem mais aptidão financeira para exercer a guarda da criança."
+        "text": "Ao apreciar pedido fundado na Convenção da Haia de 1980, o juiz brasileiro deve julgar primeiro o mérito definitivo de quem tem mais aptidão financeira para exercer a guarda da criança, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "B",
-        "text": "A competência para processar e julgar as ações fundadas na Convenção da Haia de 1980 no Brasil pertence às Varas de Família estaduais."
+        "text": "A competência para processar e julgar as ações fundadas na Convenção da Haia de 1980 no Brasil pertence às Varas de Família estaduais, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "C",
-        "text": "A oposição da própria criança de 4 anos ao retorno impede automaticamente a aplicação da Convenção da Haia de 1980."
+        "text": "A oposição da própria criança de 4 anos ao retorno impede automaticamente a aplicação da Convenção da Haia de 1980, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "Nos termos da Convenção da Haia de 1980, caracterizada a transferência ou retenção ilícita em violação ao direito de guarda efetivamente exercido no país de residência habitual, a autoridade brasileira (Justiça Federal) deve determinar o retorno imediato da criança à França, salvo exceções restritas (como grave risco físico/psíquico ou adaptação após mais de 1 ano)."
+        "text": "Nos termos da Convenção da Haia de 1980, caracterizada a transferência ou retenção ilícita em violação ao direito de guarda efetivamente exercido no país de residência habitual, a autoridade brasileira (Justiça Federal) deve determinar o retorno imediato da criança à França, salvo exceções restritas."
       }
     ],
     "correctAnswer": "D",
@@ -2441,7 +2441,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Apostila de Haia substitui inclusive a tradução oficial juramentada dos documentos estrangeiros para a língua portuguesa."
+        "text": "A Apostila de Haia substitui inclusive a tradução oficial juramentada dos documentos estrangeiros para a língua portuguesa, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "B",
@@ -2449,11 +2449,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Somente o Ministério das Relações Exteriores (Itamaraty) possui autorização para emitir a Apostila de Haia no Brasil."
+        "text": "Somente o Ministério das Relações Exteriores (Itamaraty) possui autorização para emitir a Apostila de Haia no Brasil, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "Fica dispensada a legalização consular diplomática, bastando que os documentos públicos estrangeiros contenham a \"Apostila\" emitida pela autoridade competente do país de origem (como no Brasil é feita pelos cartórios extrajudiciais autorizados sob regulamentação do CNJ)."
+        "text": "Fica dispensada a legalização consular diplomática, bastando que os documentos públicos estrangeiros contenham a \"Apostila\" emitida pela autoridade competente do país de origem."
       }
     ],
     "correctAnswer": "D",
@@ -2496,15 +2496,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na OIT, apenas representantes diplomáticos governamentais possuem direito a voto na aprovação das convenções trabalhistas."
+        "text": "Na OIT, apenas representantes diplomáticos governamentais possuem direito a voto na aprovação das convenções trabalhistas, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "B",
-        "text": "As convenções aprovadas pela Conferência Internacional do Trabalho tornam-se imediatamente obrigatórias no território de todos os Estados-membros, mesmo sem ratificação."
+        "text": "As convenções aprovadas pela Conferência Internacional do Trabalho tornam-se imediatamente obrigatórias no território de todos os Estados-membros, mesmo sem ratificação, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
-        "text": "As recomendações da OIT devem ser submetidas ao mesmo processo formal de ratificação parlamentar e promulgação que as convenções."
+        "text": "As recomendações da OIT devem ser submetidas ao mesmo processo formal de ratificação parlamentar e promulgação que as convenções, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
@@ -2551,19 +2551,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A imunidade tributária diplomática alcança até mesmo taxas remuneratórias por serviços públicos específicos e divisíveis, como água, energia elétrica e coleta de lixo."
+        "text": "A imunidade tributária diplomática alcança até mesmo taxas remuneratórias por serviços públicos específicos e divisíveis, como água, energia elétrica e coleta de lixo. A eficácia territorial da medida observa os limites da soberania e da reciprocidade."
       },
       {
         "letter": "B",
-        "text": "A isenção do IPTU aplica-se exclusivamente à sede da Embaixada, não alcançando a residência oficial do Embaixador nem os cônsules."
+        "text": "A isenção do IPTU aplica-se exclusivamente à sede da Embaixada, não alcançando a residência oficial do Embaixador nem os cônsules, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "C",
-        "text": "Os agentes diplomáticos estão isentos inclusive do pagamento do ICMS ou IPI embutido no preço de mercadorias compradas no varejo brasileiro sem regra especial."
+        "text": "Os agentes diplomáticos estão isentos inclusive do pagamento do ICMS ou IPI embutido no preço de mercadorias compradas no varejo brasileiro sem regra especial, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "O Estado acreditante e o chefe da missão estão isentos de todos os impostos e taxas nacionais, regionais ou municipais sobre os locais da missão de que sejam proprietários ou inquilinos (como o IPTU), EXCETO quanto a impostos e taxas que constituam remuneração por serviços específicos prestados."
+        "text": "O Estado acreditante e o chefe da missão estão isentos de todos os impostos e taxas nacionais, regionais ou municipais sobre os locais da missão de que sejam proprietários ou inquilinos (como o IPTU), exceto quanto a impostos e taxas que constituam remuneração por serviços específicos prestados."
       }
     ],
     "correctAnswer": "D",
@@ -2606,19 +2606,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Estado brasileiro é juridicamente obrigado pela Constituição a ajuizar ação internacional sempre que um cidadão seu sofrer prejuízo contratual no exterior."
+        "text": "O Estado brasileiro é juridicamente obrigado pela Constituição a ajuizar ação internacional sempre que um cidadão seu sofrer prejuízo contratual no exterior, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "B",
-        "text": "O particular pode exigir o exercício da proteção diplomática antes mesmo de tentar qualquer recurso administrativo ou judicial disponível no país estrangeiro."
+        "text": "O particular pode exigir o exercício da proteção diplomática antes mesmo de tentar qualquer recurso administrativo ou judicial disponível no país estrangeiro, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "C",
-        "text": "Um Estado pode exercer proteção diplomática em favor de pessoa que jamais possuiu sua nacionalidade apenas por simpatia política."
+        "text": "Um Estado pode exercer proteção diplomática em favor de pessoa que jamais possuiu sua nacionalidade apenas por simpatia política, sem execução forçada automática de decisão estrangeira antes de prévia homologação judicial."
       },
       {
         "letter": "D",
-        "text": "A proteção diplomática é direito discricionário do Estado nacional (não direito subjetivo exigível pelo particular contra seu próprio governo) e exige, em regra, dois requisitos clássicos: (1) nacionalidade contínua da vítima e (2) prévio esgotamento dos recursos internos do Estado violador."
+        "text": "A proteção diplomática é direito discricionário do Estado nacional e exige, em regra, dois requisitos clássicos: nacionalidade contínua da vítima e prévio esgotamento dos recursos internos do Estado violador."
       }
     ],
     "correctAnswer": "D",
@@ -2661,19 +2661,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O surgimento de um novo Estado por desmembramento ou independência anula automaticamente todas as fronteiras internacionais anteriormente delimitadas por tratado."
+        "text": "O surgimento de um novo Estado por desmembramento ou independência anula automaticamente todas as fronteiras internacionais anteriormente delimitadas por tratado, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "B",
-        "text": "O Estado sucessor nunca assume a condição de membro em tratado multilateral de direitos humanos, mesmo que manifeste formalmente sucessão."
+        "text": "O Estado sucessor nunca assume a condição de membro em tratado multilateral de direitos humanos, mesmo que manifeste formalmente sucessão, com eficácia interna condicionada à observância integral do rito constitucional de incorporação."
       },
       {
         "letter": "C",
-        "text": "A mudança violenta ou eleitoral do chefe de governo dentro de um mesmo país configura hipótese jurídica de sucessão de Estados."
+        "text": "A mudança violenta ou eleitoral do chefe de governo dentro de um mesmo país configura hipótese jurídica de sucessão de Estados, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "Enquanto os tratados políticos e de aliança militar geralmente se extinguem ou dependem de nova vinculação (tábula rasa para Estados recém-independentes), os tratados que estabelecem fronteiras ou regimes territoriais objetivos permanecem plenamente válidos e vinculantes para os Estados sucessores."
+        "text": "Enquanto os tratados políticos e de aliança militar geralmente se extinguem ou dependem de nova vinculação, os tratados que estabelecem fronteiras ou regimes territoriais objetivos permanecem plenamente válidos e vinculantes para os Estados sucessores."
       }
     ],
     "correctAnswer": "D",
@@ -2716,19 +2716,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer mudança econômica desfavorável ou alteração de governo interno autoriza um Estado a extinguir unilateralmente tratados sob a cláusula rebus sic stantibus."
+        "text": "Qualquer mudança econômica desfavorável ou alteração de governo interno autoriza um Estado a extinguir unilateralmente tratados sob a cláusula rebus sic stantibus, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "B",
-        "text": "A cláusula rebus sic stantibus pode ser invocada para rescindir tratados delimitadores de fronteiras sempre que houver alteração populacional na zona fronteiriça."
+        "text": "A cláusula rebus sic stantibus pode ser invocada para rescindir tratados delimitadores de fronteiras sempre que houver alteração populacional na zona fronteiriça, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "C",
-        "text": "A invocação da cláusula rebus sic stantibus (Art. 62 CVDT) é excepcionalmente admitida apenas quando a existência dessas circunstâncias constituiu condição essencial do consentimento das partes e a mudança teve por efeito transformar radicalmente o alcance das obrigações ainda pendentes — nunca sendo admitida para modificar tratado que estabeleça fronteira."
+        "text": "A invocação da cláusula rebus sic stantibus é excepcionalmente admitida apenas quando a existência dessas circunstâncias constituiu condição essencial do consentimento das partes e a mudança teve por efeito transformar radicalmente o alcance das obrigações ainda pendentes."
       },
       {
         "letter": "D",
-        "text": "O Estado pode invocar mudança fundamental das circunstâncias ainda que ela resulte da violação do próprio tratado por esse mesmo Estado."
+        "text": "O Estado pode invocar mudança fundamental das circunstâncias ainda que ela resulte da violação do próprio tratado por esse mesmo Estado, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "C",
@@ -2771,19 +2771,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer empresa estrangeira pode instalar filiais comerciais permanentes no Brasil mediante simples registro na Junta Comercial estadual sem autorização governamental."
+        "text": "Qualquer empresa estrangeira pode instalar filiais comerciais permanentes no Brasil mediante simples registro na Junta Comercial estadual sem autorização governamental, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "B",
-        "text": "Os governos estrangeiros e suas organizações estatais podem adquirir livremente bens imóveis urbanos e rurais em todo o território brasileiro."
+        "text": "Os governos estrangeiros e suas organizações estatais podem adquirir livremente bens imóveis urbanos e rurais em todo o território brasileiro, com eficácia jurídica imediata no território nacional independentemente de referendo legislativo."
       },
       {
         "letter": "C",
-        "text": "As organizações destinadas a fins de interesse coletivo, como as sociedades e as fundações, obedecem à lei do Estado em que se constituírem (Art. 11 LINDB), mas NÃO poderão ter no Brasil filiais, agências ou estabelecimentos antes de serem os atos constitutivos aprovados pelo Governo brasileiro, ficando sujeitas à lei brasileira."
+        "text": "As organizações destinadas a fins de interesse coletivo, como as sociedades e as fundações, obedecem à lei do Estado em que se constituírem, mas não poderão ter no Brasil filiais, agências ou estabelecimentos antes de serem os atos constitutivos aprovados pelo Governo brasileiro, ficando sujeitas à lei brasileira."
       },
       {
         "letter": "D",
-        "text": "Uma sociedade estrangeira não pode sequer figurar como acionista minoritária de sociedade anônima brasileira sem autorização presidencial."
+        "text": "Uma sociedade estrangeira não pode sequer figurar como acionista minoritária de sociedade anônima brasileira sem autorização presidencial, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       }
     ],
     "correctAnswer": "C",
@@ -2826,19 +2826,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O casamento celebrado no estrangeiro perante autoridade civil local estrangeira é juridicamente inexistente no Brasil enquanto não houver nova celebração no cartório brasileiro."
+        "text": "O casamento celebrado no estrangeiro perante autoridade civil local estrangeira é juridicamente inexistente no Brasil enquanto não houver nova celebração no cartório brasileiro, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "B",
-        "text": "O cônsul brasileiro no exterior pode celebrar casamento entre um brasileiro e um cidadão estrangeiro."
+        "text": "O cônsul brasileiro no exterior pode celebrar casamento entre um brasileiro e um cidadão estrangeiro, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "C",
-        "text": "O casamento realizado no exterior segundo a lei local francesa (locus regit actum) é válido no Brasil (salvo impedimentos absolutos ou ofensa à ordem pública), devendo ser trasladado em cartório do 1º Ofício do Registro Civil do domicílio no Brasil no prazo de 180 dias a contar da volta de um ou de ambos os cônjuges para produzir efeitos plenos perante terceiros."
+        "text": "O casamento realizado no exterior segundo a lei local francesa (locus regit actum) é válido no Brasil, devendo ser trasladado em cartório do 1º Ofício do Registro Civil do domicílio no Brasil no prazo de 180 dias a contar da volta de um ou de ambos os cônjuges para produzir efeitos plenos perante terceiros."
       },
       {
         "letter": "D",
-        "text": "O casamento realizado no exterior por brasileiro já casado no Brasil sem prévio divórcio é válido no país se o país estrangeiro admitir poligamia."
+        "text": "O casamento realizado no exterior por brasileiro já casado no Brasil sem prévio divórcio é válido no país se o país estrangeiro admitir poligamia, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       }
     ],
     "correctAnswer": "C",
@@ -2881,11 +2881,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As autoridades consulares brasileiras não detêm atribuição de tabelionato ou registro civil, limitando-se exclusivamente à emissão de passaportes."
+        "text": "As autoridades consulares brasileiras não detêm atribuição de tabelionato ou registro civil, limitando-se exclusivamente à emissão de passaportes, com eficácia interna condicionada à observância integral do rito constitucional de incorporação."
       },
       {
         "letter": "B",
-        "text": "Os cônsules brasileiros podem celebrar casamento entre um brasileiro e uma cidadã estrangeira dentro da repartição consular no exterior."
+        "text": "Os cônsules brasileiros podem celebrar casamento entre um brasileiro e uma cidadã estrangeira dentro da repartição consular no exterior, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "C",
@@ -2893,7 +2893,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O registro de nascimento de filho de pai ou mãe brasileira nascido no exterior feito no consulado brasileiro não confere nacionalidade brasileira nata."
+        "text": "O registro de nascimento de filho de pai ou mãe brasileira nascido no exterior feito no consulado brasileiro não confere nacionalidade brasileira nata, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       }
     ],
     "correctAnswer": "C",
@@ -2936,7 +2936,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por força da antiga Súmula 207 do TST, aplica-se sempre e exclusivamente a lei do pavilhão do navio estrangeiro ainda que o empregado tenha sido contratado no Brasil."
+        "text": "Por força da antiga Súmula 207 do TST, aplica-se sempre e exclusivamente a lei do pavilhão do navio estrangeiro ainda que o empregado tenha sido contratado no Brasil, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "B",
@@ -2944,11 +2944,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Aplica-se a lei mais favorável ao trabalhador (Lei nº 7.064/1982 e princípio do centro de gravidade / norma mais favorável), tendo o TST cancelado a antiga Súmula 207 (que adotava rigidamente a lex loci executionis) e afirmado a jurisdição e proteção da CLT quando há recrutamento no Brasil ou prestação preponderante em águas nacionais."
+        "text": "Aplica-se a lei mais favorável ao trabalhador, tendo o TST cancelado a antiga Súmula 207 e afirmado a jurisdição e proteção da CLT quando há recrutamento no Brasil ou prestação preponderante em águas nacionais."
       },
       {
         "letter": "D",
-        "text": "A cláusula contratual padronizada de adesão em site estrangeiro que elege foro exclusivo nas Ilhas Cayman sempre afasta a competência da Justiça brasileira para o consumidor brasileiro."
+        "text": "A cláusula contratual padronizada de adesão em site estrangeiro que elege foro exclusivo nas Ilhas Cayman sempre afasta a competência da Justiça brasileira para o consumidor brasileiro, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       }
     ],
     "correctAnswer": "C",
@@ -2991,19 +2991,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A CISG aplica-se também à compra e venda de mercadorias para uso pessoal, familiar ou doméstico do consumidor final."
+        "text": "A cisg aplica-se também à compra e venda de mercadorias para uso pessoal, familiar ou doméstico do consumidor final, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "B",
-        "text": "O contrato internacional de compra e venda regido pela CISG exige obrigatoriamente instrumento escrito assinado com duas testemunhas sob pena de nulidade."
+        "text": "O contrato internacional de compra e venda regido pela cisg exige obrigatoriamente instrumento escrito assinado com duas testemunhas sob pena de nulidade, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
-        "text": "Aplica-se automaticamente a Convenção das Nações Unidas sobre Contratos de Compra e Venda Internacional de Mercadorias (CISG), pois ambas as partes têm estabelecimentos em Estados contratantes distintos e não exerceram a faculdade de exclusão expressa (opt-out do Art. 6º)."
+        "text": "Aplica-se automaticamente a Convenção das Nações Unidas sobre Contratos de Compra e Venda Internacional de Mercadorias (cisg), pois ambas as partes têm estabelecimentos em Estados contratantes distintos e não exerceram a faculdade de exclusão expressa (opt-out )."
       },
       {
         "letter": "D",
-        "text": "Na CISG, as partes não podem jamais afastar ou derrogar a aplicação da convenção por acordo contratual."
+        "text": "Na cisg, as partes não podem jamais afastar ou derrogar a aplicação da convenção por acordo contratual, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       }
     ],
     "correctAnswer": "C",
@@ -3046,19 +3046,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em conflitos armados, se um Estado considerar a causa da guerra justa (jus ad bellum), fica dispensado de observar as Convenções de Genebra sobre proteção a civis e prisioneiros."
+        "text": "Em conflitos armados, se um Estado considerar a causa da guerra justa (jus ad bellum), fica dispensado de observar as Convenções de Genebra sobre proteção a civis e prisioneiros. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "B",
-        "text": "A proteção das Convenções de Genebra de 1949 aplica-se exclusivamente a guerras declaradas entre Estados, inexistindo regras para conflitos armados não internacionais (guerras civis)."
+        "text": "A proteção das Convenções de Genebra de 1949 aplica-se exclusivamente a guerras declaradas entre Estados, inexistindo regras para conflitos armados não internacionais (guerras civis), com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública."
       },
       {
         "letter": "C",
-        "text": "As condutas violam o Direito Internacional Humanitário (Jus in Bello / Direito de Genebra), especificamente os princípios da distinção (entre combatentes/objetivos militares e civis/bens civis), da proporcionalidade e a proteção absoluta aos combatentes fora de combate (feridos e prisioneiros de guerra), configurando crimes de guerra."
+        "text": "As condutas violam o Direito Internacional Humanitário, especificamente os princípios da distinção, da proporcionalidade e a proteção absoluta aos combatentes fora de combate, configurando crimes de guerra."
       },
       {
         "letter": "D",
-        "text": "O Direito de Haia e o Direito de Genebra são ramos opostos em que o primeiro permite armas químicas e o segundo apenas trata de comércio marítimo."
+        "text": "O Direito de Haia e o Direito de Genebra são ramos opostos em que o primeiro permite armas químicas e o segundo apenas trata de comércio marítimo, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       }
     ],
     "correctAnswer": "C",
@@ -3101,19 +3101,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Somente os Estados fundadores da ONU podem pleitear reparação internacional pela morte de um funcionário da organização, pois esta não tem personalidade jurídica."
+        "text": "Somente os Estados fundadores da ONU podem pleitear reparação internacional pela morte de um funcionário da organização, pois esta não tem personalidade jurídica. Tal critério orienta a aplicação das normas internacionais perante a jurisdição nacional."
       },
       {
         "letter": "B",
-        "text": "As Organizações Internacionais possuem exatamente a mesma plenitude de competências territoriais e populacionais que os Estados soberanos."
+        "text": "As Organizações Internacionais possuem exatamente a mesma plenitude de competências territoriais e populacionais que os Estados soberanos, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
-        "text": "Sim, a ONU (e as Organizações Internacionais em geral) possui personalidade jurídica internacional derivada e funcional, dotada inclusive de poderes implícitos necessários ao desempenho efetivo de seus propósitos e funções, podendo apresentar reclamações internacionais por danos causados à própria organização e aos seus agentes."
+        "text": "Sim, a ONU possui personalidade jurídica internacional derivada e funcional, dotada inclusive de poderes implícitos necessários ao desempenho efetivo de seus propósitos e funções, podendo apresentar reclamações internacionais por danos causados à própria organização e aos seus agentes."
       },
       {
         "letter": "D",
-        "text": "Os tratados constitutivos de Organizações Internacionais são sempre imunes a qualquer interpretação teleológica quanto aos meios para atingir seus fins."
+        "text": "Os tratados constitutivos de Organizações Internacionais são sempre imunes a qualquer interpretação teleológica quanto aos meios para atingir seus fins, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       }
     ],
     "correctAnswer": "C",
@@ -3156,19 +3156,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer cidadão ou ONG de Estado membro da OEA pode protocolar petição contenciosa diretamente na Corte Interamericana de Direitos Humanos sem passar pela Comissão."
+        "text": "Qualquer cidadão ou ONG de Estado membro da oea pode protocolar petição contenciosa diretamente na Corte Interamericana de Direitos Humanos sem passar pela Comissão, com eficácia jurídica imediata no território nacional independentemente de referendo legislativo."
       },
       {
         "letter": "B",
-        "text": "As sentenças condenatórias da Corte Interamericana de Direitos Humanos dependem de homologação prévia pelo STJ brasileiro para terem validade jurídica interna."
+        "text": "As sentenças condenatórias da Corte Interamericana de Direitos Humanos dependem de homologação prévia pelo STJ brasileiro para terem validade jurídica interna, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
-        "text": "O indivíduo não pode acionar diretamente a Corte IDH: deve primeiro apresentar petição à Comissão Interamericana de Direitos Humanos (CIDH, em Washington), cabendo apenas à Comissão ou a outro Estado-Parte submeter o caso contencioso à Corte IDH após tramitação inicial na Comissão."
+        "text": "O indivíduo não pode acionar diretamente a Corte idh: deve primeiro apresentar petição à Comissão Interamericana de Direitos Humanos, cabendo apenas à Comissão ou a outro Estado-Parte submeter o caso contencioso à Corte idh após tramitação inicial na Comissão."
       },
       {
         "letter": "D",
-        "text": "A regra do prévio esgotamento dos recursos internos aplica-se de forma absoluta mesmo quando não exista no país devido processo legal ou haja demora injustificada."
+        "text": "A regra do prévio esgotamento dos recursos internos aplica-se de forma absoluta mesmo quando não exista no país devido processo legal ou haja demora injustificada, com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública."
       }
     ],
     "correctAnswer": "C",
@@ -3211,19 +3211,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O controle de convencionalidade no Brasil só pode ser realizado pela Corte Interamericana de Direitos Humanos, sendo vedado aos juízes nacionais afastar leis internas incompatíveis com tratados."
+        "text": "O controle de convencionalidade no Brasil só pode ser realizado pela Corte Interamericana de Direitos Humanos, sendo vedado aos juízes nacionais afastar leis internas incompatíveis com tratados, em respeito à igualdade soberana dos Estados e ao princípio da não intervenção interna."
       },
       {
         "letter": "B",
-        "text": "A Constituição Federal de 1988 foi revogada na parte em que autorizava a prisão do depositário infiel pela simples supralegalidade do tratado."
+        "text": "A Constituição Federal de 1988 foi revogada na parte em que autorizava a prisão do depositário infiel pela simples supralegalidade do tratado, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "C",
-        "text": "Por força do controle de convencionalidade difuso e concentrado exercido pelos tribunais brasileiros diante do status supralegal (ou constitucional, se Art. 5º, § 3º) dos tratados de direitos humanos, a norma infraconstitucional incompatível perde eficácia/validade (Súmula Vinculante 25 do STF)."
+        "text": "Por força do controle de convencionalidade difuso e concentrado exercido pelos tribunais brasileiros diante do status supralegal dos tratados de direitos humanos, a norma infraconstitucional incompatível perde eficácia/validade."
       },
       {
         "letter": "D",
-        "text": "Tratados comerciais da OMC servem de parâmetro de controle concentrado de convencionalidade por meio de ADI perante o STF."
+        "text": "Tratados comerciais da OMC servem de parâmetro de controle concentrado de convencionalidade por meio de ADI perante o STF, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "C",
@@ -3267,19 +3267,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na cláusula FOB, o vendedor suporta integralmente os riscos do transporte marítimo internacional até a entrega final no porto de destino no exterior."
+        "text": "Na cláusula fob, o vendedor suporta integralmente os riscos do transporte marítimo internacional até a entrega final no porto de destino no exterior, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "B",
-        "text": "Sob a cláusula FOB, os custos e os riscos de perda ou dano da mercadoria transferem-se do vendedor para o comprador no exato momento em que a mercadoria é colocada a bordo do navio no porto de embarque indicado (Santos), respondendo o comprador pelo risco posterior ao embarque."
+        "text": "Sob a cláusula fob, os custos e os riscos de perda ou dano da mercadoria transferem-se do vendedor para o comprador no exato momento em que a mercadoria é colocada a bordo do navio no porto de embarque indicado (Santos), respondendo o comprador pelo risco posterior ao embarque."
       },
       {
         "letter": "C",
-        "text": "Os INCOTERMS são tratados públicos obrigatórios celebrados pela ONU que regulam a transferência da propriedade intelectual das mercadorias."
+        "text": "Os incoterms são tratados públicos obrigatórios celebrados pela ONU que regulam a transferência da propriedade intelectual das mercadorias, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "D",
-        "text": "Na cláusula EXW (Ex Works), cabe ao vendedor desembaraçar a mercadoria para exportação e arcar com todo o transporte até o porto estrangeiro."
+        "text": "Na cláusula exw (Ex Works), cabe ao vendedor desembaraçar a mercadoria para exportação e arcar com todo o transporte até o porto estrangeiro, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       }
     ],
     "correctAnswer": "B",
@@ -3326,7 +3326,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A conduta do Estado B configura RETORSÃO (ato lícito, porém inamistoso, adotado em resposta a outro ato igualmente lícito mas prejudicial de outro Estado), distinguindo-se da represália ou contramedida (ato originalmente ilícito que se torna legítimo em resposta a um ilícito internacional prévio, vedado o uso da força armada)."
+        "text": "A conduta do Estado B configura retorsão, distinguindo-se da represália ou contramedida."
       },
       {
         "letter": "C",
@@ -3334,7 +3334,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "As sanções econômicas, interrupção de comunicações e bloqueio econômico determinados pelo Conselho de Segurança da ONU nos termos do Art. 41 são ilegais se não envolverem força armada."
+        "text": "As sanções econômicas, interrupção de comunicações e bloqueio econômico determinados pelo Conselho de Segurança da ONU são ilegais se não envolverem força armada."
       }
     ],
     "correctAnswer": "B",
@@ -3381,11 +3381,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A União Europeia possui caráter supranacional (com órgãos independentes dos Estados, primazia do direito comunitário, aplicabilidade direta de regulamentos e Tribunal de Justiça supranacional), enquanto o MERCOSUL possui natureza estritamente intergovernamental (decisões por consenso e necessidade de incorporação interna das normas)."
+        "text": "A União Europeia possui caráter supranacional, enquanto o MERCOSUL possui natureza estritamente intergovernamental."
       },
       {
         "letter": "C",
-        "text": "O MERCOSUL já alcançou o estágio completo de União Econômica e Monetária com moeda única e Banco Central supranacional."
+        "text": "O MERCOSUL já alcançou o estágio completo de União Econômica e Monetária com moeda única e Banco Central supranacional, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "D",
@@ -3436,15 +3436,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "No Sistema Europeu (Protocolo nº 11 à Convenção Europeia), o indivíduo possui acesso direto à Corte Europeia de Direitos Humanos (Estrasburgo); diferentemente, no Sistema Interamericano o indivíduo só peticiona à Comissão (CIDH), não podendo ingressar diretamente na Corte IDH (San José)."
+        "text": "No Sistema Europeu, o indivíduo possui acesso direto à Corte Europeia de Direitos Humanos (Estrasburgo)."
       },
       {
         "letter": "C",
-        "text": "A sede da Corte Interamericana de Direitos Humanos localiza-se na cidade de Genebra, Suíça."
+        "text": "A sede da Corte Interamericana de Direitos Humanos localiza-se na cidade de Genebra, Suíça, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "Os Estados Unidos e o Canadá ratificaram integralmente o Pacto de San José da Costa Rica e submetem-se à jurisdição obrigatória da Corte IDH."
+        "text": "Os Estados Unidos e o Canadá ratificaram integralmente o Pacto de San José da Costa Rica e submetem-se à jurisdição obrigatória da Corte idh."
       }
     ],
     "correctAnswer": "B",
@@ -3487,7 +3487,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A OMC impõe diretamente sanções criminais contra empresas privadas que descumprirem convenções trabalhistas da OIT."
+        "text": "A OMC impõe diretamente sanções criminais contra empresas privadas que descumprirem convenções trabalhistas da OIT, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "B",
@@ -3495,11 +3495,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A Declaração sobre Princípios e Direitos Fundamentais no Trabalho de 1998 da OIT não inclui a eliminação do trabalho infantil entre suas categorias fundamentais."
+        "text": "A Declaração sobre Princípios e Direitos Fundamentais no Trabalho de 1998 da OIT não inclui a eliminação do trabalho infantil entre suas categorias fundamentais, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "As convenções fundamentais da OIT só produzem efeitos morais se o país tiver mais de 100 milhões de habitantes."
+        "text": "As convenções fundamentais da OIT só produzem efeitos morais se o país tiver mais de 100 milhões de habitantes, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       }
     ],
     "correctAnswer": "B",
@@ -3542,19 +3542,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Art. 49, I, da Constituição autoriza o Presidente a ratificar tratados comerciais que criem tributos ou dívidas bilionárias sem consulta ao Congresso Nacional."
+        "text": "O Art. 49, I, da Constituição autoriza o Presidente a ratificar tratados comerciais que criem tributos ou dívidas bilionárias sem consulta ao Congresso Nacional. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "B",
-        "text": "Embora a regra constitucional (Art. 49, I, CF) exija aprovação congressual para todos os tratados que acarretem encargos ou compromissos gravosos ao patrimônio nacional, a prática constitucional e doutrinária admite acordos executivos estritamente regulamentares ou complementares dentro de tratado já aprovado, desde que não criem obrigações novas nem modifiquem a legislação."
+        "text": "Embora a regra constitucional exija aprovação congressual para todos os tratados que acarretem encargos ou compromissos gravosos ao patrimônio nacional, a prática constitucional e doutrinária admite acordos executivos estritamente regulamentares ou complementares dentro de tratado já aprovado, desde que não criem obrigações novas nem modifiquem a legislação."
       },
       {
         "letter": "C",
-        "text": "Todo e qualquer memorando operacional de rotina entre secretarias técnicas de países vizinhos exige aprovação por emenda constitucional de 3/5."
+        "text": "Todo e qualquer memorando operacional de rotina entre secretarias técnicas de países vizinhos exige aprovação por emenda constitucional de 3/5, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "No Brasil, o Poder Judiciário participa da fase inicial de negociação internacional assinando tratados comerciais em nome da República."
+        "text": "No Brasil, o Poder Judiciário participa da fase inicial de negociação internacional assinando tratados comerciais em nome da República, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "B",
@@ -3597,19 +3597,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os navios mercantes privados gozam da mesma imunidade soberana absoluta dos navios de guerra dentro de portos estrangeiros, impedindo a polícia brasileira de ingressar a bordo."
+        "text": "Os navios mercantes privados gozam da mesma imunidade soberana absoluta dos navios de guerra dentro de portos estrangeiros, impedindo a polícia brasileira de ingressar a bordo, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "B",
-        "text": "Embora o navio tenha a nacionalidade de seu pavilhão (Panamá), como se trata de navio PRIVADO/MERCANTE em águas interiores ou mar territorial brasileiro, aplica-se em regra a jurisdição penal territorial do Estado costeiro (Brasil), especialmente quando o crime perturba a paz do porto ou envolve autoridades locais."
+        "text": "Embora o navio tenha a nacionalidade de seu pavilhão (Panamá), como se trata de navio privado/mercante em águas interiores ou mar territorial brasileiro, aplica-se em regra a jurisdição penal territorial do Estado costeiro (Brasil), especialmente quando o crime perturba a paz do porto ou envolve autoridades locais."
       },
       {
         "letter": "C",
-        "text": "Um navio pode navegar em alto-mar sob duas ou mais bandeiras simultaneamente, alternando-as conforme a conveniência tributária diária."
+        "text": "Um navio pode navegar em alto-mar sob duas ou mais bandeiras simultaneamente, alternando-as conforme a conveniência tributária diária, com cooperação jurídica e extradição viabilizadas mediante simples solicitação diplomática direta."
       },
       {
         "letter": "D",
-        "text": "A \"bandeira de conveniência\" dispensa o Estado de bandeira de exercer qualquer dever administrativo, técnico ou social sobre o navio em alto-mar."
+        "text": "A \"bandeira de conveniência\" dispensa o Estado de bandeira de exercer qualquer dever administrativo, técnico ou social sobre o navio em alto-mar, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "B",
@@ -3652,19 +3652,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nas ações internacionais de alimentos no âmbito da CIDIP IV aplica-se sempre e exclusivamente a lei do domicílio do devedor alimentante, mesmo que mais restritiva ao menor."
+        "text": "Nas ações internacionais de alimentos no âmbito da cidip IV aplica-se sempre e exclusivamente a lei do domicílio do devedor alimentante, mesmo que mais restritiva ao menor, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "B",
-        "text": "Nos termos do Art. 6º da Convenção Interamericana sobre Obrigação Alimentar (CIDIP IV), as obrigações alimentares são reguladas pela ordem jurídica do domicílio/residência habitual do credor OU do devedor — aplicando-se aquela que resultar MAIS FAVORÁVEL ao interesse do credor (criança), a juízo da autoridade competente."
+        "text": "Nos termos da Convenção Interamericana sobre Obrigação Alimentar (cidip IV), as obrigações alimentares são reguladas pela ordem jurídica do domicílio/residência habitual do credor ou do devedor — aplicando-se aquela que resultar mais favorável ao interesse do credor (criança), a juízo da autoridade competente."
       },
       {
         "letter": "C",
-        "text": "Não é possível pedir cooperação internacional para execução de alimentos no exterior antes do trânsito em julgado de ação de alimentos na ONU em Nova Iorque."
+        "text": "Não é possível pedir cooperação internacional para execução de alimentos no exterior antes do trânsito em julgado de ação de alimentos na ONU em Nova Iorque, com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "D",
-        "text": "A competência internacional brasileira não alcança ações de alimentos se o réu residir no exterior, ainda que o credor tenha domicílio no Brasil."
+        "text": "A competência internacional brasileira não alcança ações de alimentos se o réu residir no exterior, ainda que o credor tenha domicílio no Brasil, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       }
     ],
     "correctAnswer": "B",
@@ -3707,19 +3707,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O juiz brasileiro pode expedir mandado direto ao cartório imobiliário norte-americano transferindo a matrícula do imóvel em Miami."
+        "text": "O juiz brasileiro pode expedir mandado direto ao cartório imobiliário norte-americano transferindo a matrícula do imóvel em Miami, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "B",
-        "text": "O juiz brasileiro não possui jurisdição para partilhar diretamente bem imóvel situado no exterior (limitação do princípio da territorialidade/efetividade equivalente ao Art. 23 CPC), mas segundo o STJ, o juízo brasileiro pode considerar o valor desse bem situado no exterior para fins de compensação patrimonial na partilha dos bens situados no Brasil."
+        "text": "O juiz brasileiro não possui jurisdição para partilhar diretamente bem imóvel situado no exterior, mas segundo o STJ, o juízo brasileiro pode considerar o valor desse bem situado no exterior para fins de compensação patrimonial na partilha dos bens situados no Brasil."
       },
       {
         "letter": "C",
-        "text": "O imóvel situado no exterior deve ser completamente ignorado inclusive para fins de equilíbrio econômico e compensação de meação sobre os bens existentes no Brasil."
+        "text": "O imóvel situado no exterior deve ser completamente ignorado inclusive para fins de equilíbrio econômico e compensação de meação sobre os bens existentes no Brasil, com cooperação jurídica e extradição viabilizadas mediante simples solicitação diplomática direta."
       },
       {
         "letter": "D",
-        "text": "Bens móveis bancários no exterior também estão proibidos de serem sequer considerados ou declarados em inventário ou divórcio no Brasil."
+        "text": "Bens móveis bancários no exterior também estão proibidos de serem sequer considerados ou declarados em inventário ou divórcio no Brasil, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       }
     ],
     "correctAnswer": "B",
@@ -3762,19 +3762,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O princípio das responsabilidades comuns porém diferenciadas isenta totalmente os países em desenvolvimento de adotar qualquer meta nacional ou medida de proteção climática."
+        "text": "O princípio das responsabilidades comuns porém diferenciadas isenta totalmente os países em desenvolvimento de adotar qualquer meta nacional ou medida de proteção climática, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "B",
-        "text": "Aplica-se o princípio das responsabilidades comuns, porém diferenciadas (Princípio 7 da Rio-92), segundo o qual todos os Estados têm o dever comum de proteger o clima e o meio ambiente global, mas os países desenvolvidos assumem obrigações mais intensas de redução, financiamento e transferência de tecnologia em razão de sua contribuição histórica para as emissões e maior capacidade econômica."
+        "text": "Aplica-se o princípio das responsabilidades comuns, porém diferenciadas, segundo o qual todos os Estados têm o dever comum de proteger o clima e o meio ambiente global, mas os países desenvolvidos assumem obrigações mais intensas de redução, financiamento e transferência de tecnologia em razão de sua contribuição histórica para as emissões e maior capacidade econômica."
       },
       {
         "letter": "C",
-        "text": "Pelo Acordo de Paris de 2015, o Brasil não assume qualquer compromisso internacional de redução de emissões, aplicando-se metas apenas aos Estados Unidos e União Europeia."
+        "text": "Pelo Acordo de Paris de 2015, o Brasil não assume qualquer compromisso internacional de redução de emissões, aplicando-se metas apenas aos Estados Unidos e União Europeia. Tal critério orienta a aplicação das normas internacionais perante a jurisdição nacional."
       },
       {
         "letter": "D",
-        "text": "A regra do Direito Internacional Ambiental autoriza que um Estado em desenvolvimento despeje resíduos tóxicos livremente em rios transfronteiriços."
+        "text": "A regra do Direito Internacional Ambiental autoriza que um Estado em desenvolvimento despeje resíduos tóxicos livremente em rios transfronteiriços, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "B",
@@ -3817,19 +3817,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Embora os \"deslocados ambientais ou climáticos\" não se enquadrem estritamente na definição clássica de refugiado da Convenção de 1951 (que exige perseguição por raça, religião, nacionalidade, grupo social ou opinião política), a Lei de Migração brasileira prevê expressamente a concessão de visto temporário ou autorização de residência para ACOLHIDA HUMANITÁRIA em caso de grave calamidade ambiental ou crise humanitária."
+        "text": "Embora os \"deslocados ambientais ou climáticos\" não se enquadrem estritamente na definição clássica de refugiado da Convenção de 1951, a Lei de Migração brasileira prevê expressamente a concessão de visto temporário ou autorização de residência para acolhida humanitária em caso de grave calamidade ambiental ou crise humanitária."
       },
       {
         "letter": "B",
-        "text": "A Lei de Migração brasileira proíbe expressamente a concessão de visto de acolhida humanitária, reservando vistos apenas para trabalho formal ou investimento de capital."
+        "text": "A Lei de Migração brasileira proíbe expressamente a concessão de visto de acolhida humanitária, reservando vistos apenas para trabalho formal ou investimento de capital, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
-        "text": "A Convenção de Genebra de 1951 sobre Refugiados define expressamente o aquecimento global como causa clássica imediata de refúgio universal em todos os países."
+        "text": "A Convenção de Genebra de 1951 sobre Refugiados define expressamente o aquecimento global como causa clássica imediata de refúgio universal em todos os países, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "D",
-        "text": "Na entrada por calamidade ambiental extrema, a autoridade brasileira aplica sumariamente repatriação forçada sem análise humanitária."
+        "text": "Na entrada por calamidade ambiental extrema, a autoridade brasileira aplica sumariamente repatriação forçada sem análise humanitária, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       }
     ],
     "correctAnswer": "A",
@@ -3872,19 +3872,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Segundo a tese fixada pelo STF no Tema 947, o organismo internacional que tenha garantida a imunidade de jurisdição em tratado firmado pelo Brasil e internalizado não pode ser demandado em juízo brasileiro, salvo renúncia expressa — mantendo imunidade absoluta distinta da imunidade relativa dos Estados estrangeiros."
+        "text": "Segundo a tese fixada pelo STF no Tema 947, o organismo internacional que tenha garantida a imunidade de jurisdição em tratado firmado pelo Brasil e internalizado não pode ser demandado em juízo brasileiro, salvo renúncia expressa."
       },
       {
         "letter": "B",
-        "text": "As Organizações Internacionais têm exatamente a mesma imunidade relativa que os Estados estrangeiros nas ações trabalhistas, respondendo sempre pelos contratos de trabalho no Brasil."
+        "text": "As Organizações Internacionais têm exatamente a mesma imunidade relativa que os Estados estrangeiros nas ações trabalhistas, respondendo sempre pelos contratos de trabalho no Brasil, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
-        "text": "A imunidade de jurisdição garantida em tratado à ONU foi declarada inconstitucional pelo STF por violar o acesso à Justiça (Art. 5º, XXXV, CF)."
+        "text": "A imunidade de jurisdição garantida em tratado à ONU foi declarada inconstitucional pelo STF por violar o acesso à Justiça, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "D",
-        "text": "Aplica-se o Tema 947 do STF apenas à FIFA e ao COI, não abrangendo a ONU ou a OEA."
+        "text": "Aplica-se o Tema 947 do STF apenas à fifa e ao coi, não abrangendo a ONU ou a oea, com eficácia interna condicionada à observância integral do rito constitucional de incorporação."
       }
     ],
     "correctAnswer": "A",
@@ -3928,19 +3928,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A transferência de pessoa condenada (Art. 103 da Lei nº 13.445/2017) é modalidade de cooperação jurídica internacional que exige consentimento expresso do próprio condenado, concordância de ambos os Estados (sentenciante e executor), sentença transitada em julgado, dupla tipicidade e duração mínima remanescente (em regra 1 ano)."
+        "text": "A transferência de pessoa condenada é modalidade de cooperação jurídica internacional que exige consentimento expresso do próprio condenado, concordância de ambos os Estados, sentença transitada em julgado, dupla tipicidade e duração mínima remanescente."
       },
       {
         "letter": "B",
-        "text": "A transferência de pessoa condenada dispensa o consentimento do próprio condenado, bastando requerimento unilateral do governo do país onde foi preso."
+        "text": "A transferência de pessoa condenada dispensa o consentimento do próprio condenado, bastando requerimento unilateral do governo do país onde foi preso, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "C",
-        "text": "Após transferido ao Brasil, o juiz brasileiro deve absolver o condenado ou reduzir pela metade sua pena independentemente do tratado."
+        "text": "Após transferido ao Brasil, o juiz brasileiro deve absolver o condenado ou reduzir pela metade sua pena independentemente do tratado, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "O brasileiro nato jamais pode ter sua execução penal transferida para cumprir pena no Brasil quando condenado no exterior."
+        "text": "O brasileiro nato jamais pode ter sua execução penal transferida para cumprir pena no Brasil quando condenado no exterior, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       }
     ],
     "correctAnswer": "A",
@@ -3983,19 +3983,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Como o brasileiro nato não pode ser extraditado (Art. 5º, LI, CF), a Lei de Migração (Art. 100) autoriza a transferência da execução da pena para o Brasil desde que haja tratado ou reciprocidade, trânsito em julgado, dupla incriminação e homologação da sentença penal condenatória estrangeira pelo STJ (com competência de execução do Juiz Federal)."
+        "text": "Como o brasileiro nato não pode ser extraditado, a Lei de Migração autoriza a transferência da execução da pena para o Brasil desde que haja tratado ou reciprocidade, trânsito em julgado, dupla incriminação e homologação da sentença penal condenatória estrangeira pelo STJ."
       },
       {
         "letter": "B",
-        "text": "O brasileiro nato que comete homicídio no exterior e retorna ao Brasil goza de impunidade penal absoluta por vedação constitucional à extradição e à execução da pena estrangeira."
+        "text": "O brasileiro nato que comete homicídio no exterior e retorna ao Brasil goza de impunidade penal absoluta por vedação constitucional à extradição e à execução da pena estrangeira, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "C",
-        "text": "A homologação de sentença penal condenatória estrangeira para transferência da execução da pena dispensa intervenção do STJ, sendo decidida pelo Delegado da Polícia Federal."
+        "text": "A homologação de sentença penal condenatória estrangeira para transferência da execução da pena dispensa intervenção do STJ, sendo decidida pelo Delegado da Polícia Federal, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "Diferente da transferência de pessoa condenada, a transferência da execução da pena quando o condenado está foragido no Brasil exige seu consentimento prévio para não ir preso."
+        "text": "Diferente da transferência de pessoa condenada, a transferência da execução da pena quando o condenado está foragido no Brasil exige seu consentimento prévio para não ir preso, com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública."
       }
     ],
     "correctAnswer": "A",
@@ -4038,19 +4038,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O estrangeiro residente no Brasil goza da igualdade de direitos civis, sociais, trabalhistas e previdenciários previstos no Art. 5º da CF e Art. 4º da Lei de Migração (inclusive acesso a cargos públicos de professor/técnico/cientista em universidades públicas na forma do Art. 37, I e Art. 207, § 1º, CF), mas NÃO pode alistar-se como eleitor nem ser votado (Art. 14, § 2º, CF), salvo reciprocidade constitucional especial para portugueses equiparados."
+        "text": "O estrangeiro residente no Brasil goza da igualdade de direitos civis, sociais, trabalhistas e previdenciários previstos e Art. 4º da Lei de Migração, mas não pode alistar-se como eleitor nem ser votado, salvo reciprocidade constitucional especial para portugueses equiparados."
       },
       {
         "letter": "B",
-        "text": "O estrangeiro residente regular no Brasil adquire direito de votar nas eleições municipais após cinco anos contínuos de residência no município."
+        "text": "O estrangeiro residente regular no Brasil adquire direito de votar nas eleições municipais após cinco anos contínuos de residência no município, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
-        "text": "A Lei de Migração proíbe os estrangeiros residentes de exercerem o direito de reunião, associação sindical ou acesso ao SUS e assistência social."
+        "text": "A Lei de Migração proíbe os estrangeiros residentes de exercerem o direito de reunião, associação sindical ou acesso ao SUS e assistência social, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "O estrangeiro residente regular no Brasil pode candidatar-se livremente ao cargo de Presidente da República se morar no país há mais de 15 anos."
+        "text": "O estrangeiro residente regular no Brasil pode candidatar-se livremente ao cargo de Presidente da República se morar no país há mais de 15 anos, com eficácia jurídica imediata no território nacional independentemente de referendo legislativo."
       }
     ],
     "correctAnswer": "A",
@@ -4094,19 +4094,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aos portugueses com residência permanente no País, se houver reciprocidade em favor de brasileiros, serão atribuídos os direitos inerentes ao brasileiro, salvo os casos previstos na Constituição — mas tal equiparação NÃO transforma o português em brasileiro nato ou naturalizado (mantém sua nacionalidade originária portuguesa)."
+        "text": "Aos portugueses com residência permanente no País, se houver reciprocidade em favor de brasileiros, serão atribuídos os direitos inerentes ao brasileiro, salvo os casos previstos na Constituição."
       },
       {
         "letter": "B",
-        "text": "Concedido o Estatuto da Igualdade de Direitos Políticos, o cidadão português passa a ser considerado brasileiro naturalizado e pode assumir o cargo de Ministro do STF."
+        "text": "Concedido o Estatuto da Igualdade de Direitos Políticos, o cidadão português passa a ser considerado brasileiro naturalizado e pode assumir o cargo de Ministro do STF, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "C",
-        "text": "A equiparação de direitos políticos pelo Tratado de Amizade dispensa qualquer prazo mínimo de residência em Portugal ou no Brasil."
+        "text": "A equiparação de direitos políticos pelo Tratado de Amizade dispensa qualquer prazo mínimo de residência em Portugal ou no Brasil, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "D",
-        "text": "Uma vez equiparado no Brasil, o português pode continuar votando simultaneamente nas eleições portuguesas e brasileiras sem suspensão do exercício político na origem."
+        "text": "Uma vez equiparado no Brasil, o português pode continuar votando simultaneamente nas eleições portuguesas e brasileiras sem suspensão do exercício político na origem, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       }
     ],
     "correctAnswer": "A",
@@ -4149,7 +4149,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos rios contíguos navegáveis, adota-se em regra a linha do TALVEGUE (linha de maior profundidade do canal navegável) para traçar a fronteira, salvo estipulação diversa; nos rios sucessivos, cada Estado exerce soberania sobre seu trecho com dever de cooperação, vedado causar dano sensível aos Estados ribeirinhos a jusante."
+        "text": "Nos rios contíguos navegáveis, adota-se em regra a linha do talvegue para traçar a fronteira, salvo estipulação diversa."
       },
       {
         "letter": "B",
@@ -4157,11 +4157,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O princípio do uti possidetis juris impede que tratados posteriores alterem ou precisem fronteiras herdadas do período colonial."
+        "text": "O princípio do uti possidetis juris impede que tratados posteriores alterem ou precisem fronteiras herdadas do período colonial, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "Em um rio internacional sucessivo (como o Rio Paraná ou Amazonas), o Estado a montante pode desviar totalmente o curso do rio deixando o Estado vizinho sem água, no exercício de sua soberania absoluta."
+        "text": "Em um rio internacional sucessivo, o Estado a montante pode desviar totalmente o curso do rio deixando o Estado vizinho sem água, no exercício de sua soberania absoluta."
       }
     ],
     "correctAnswer": "A",
@@ -4204,7 +4204,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Aplica-se a lei penal brasileira por força da extraterritorialidade condicionada (princípio da nacionalidade ativa - Art. 7º, II, \"b\", CP), sujeita às condições legais (entrar o agente no território nacional, ser o fato punível também no país em que foi praticado, estar entre os crimes em que a lei brasileira autoriza extradição, não ter sido absolvido nem cumprido pena lá, nem extinta a punibilidade)."
+        "text": "Aplica-se a lei penal brasileira por força da extraterritorialidade condicionada, sujeita às condições legais."
       },
       {
         "letter": "B",
@@ -4216,7 +4216,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O processo penal por crime cometido por brasileiro no exterior tramita obrigatoriamente na Justiça Militar da União."
+        "text": "O processo penal por crime cometido por brasileiro no exterior tramita obrigatoriamente na Justiça Militar da União, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       }
     ],
     "correctAnswer": "A",
@@ -4263,15 +4263,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O princípio da não intervenção proíbe apenas invasões militares terrestres, permitindo coerção naval sobre políticas fiscais internas."
+        "text": "O princípio da não intervenção proíbe apenas invasões militares terrestres, permitindo coerção naval sobre políticas fiscais internas, sem execução forçada automática de decisão estrangeira antes de prévia homologação judicial."
       },
       {
         "letter": "C",
-        "text": "A autodeterminação dos povos autoriza intervenção militar unilateral de qualquer Estado sem respaldo do Conselho de Segurança."
+        "text": "A autodeterminação dos povos autoriza intervenção militar unilateral de qualquer Estado sem respaldo do Conselho de Segurança, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "Os princípios das relações internacionais previstos na Constituição de 1988 são meras recomendações sem vinculação ao Estado brasileiro."
+        "text": "Os princípios das relações internacionais previstos na Constituição de 1988 são meras recomendações sem vinculação ao Estado brasileiro, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       }
     ],
     "correctAnswer": "A",
@@ -4318,15 +4318,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Apenas o país de nascimento do passageiro agressor pode exercer jurisdição penal sobre crimes a bordo de aeronaves."
+        "text": "Apenas o país de nascimento do passageiro agressor pode exercer jurisdição penal sobre crimes a bordo de aeronaves, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
-        "text": "O comandante da aeronave civil não possui autoridade legal para conter passageiro violento durante o voo internacional."
+        "text": "O comandante da aeronave civil não possui autoridade legal para conter passageiro violento durante o voo internacional, com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "D",
-        "text": "Aeronaves militares estrangeiras autorizadas a pousar no Brasil perdem sua imunidade soberana e podem ser penhoradas por dívidas portuárias."
+        "text": "Aeronaves militares estrangeiras autorizadas a pousar no Brasil perdem sua imunidade soberana e podem ser penhoradas por dívidas portuárias, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       }
     ],
     "correctAnswer": "A",
@@ -4369,19 +4369,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O asilo diplomático é concedido permanentemente dentro de qualquer consulado ou residência particular de cidadão estrangeiro."
+        "text": "O asilo diplomático é concedido permanentemente dentro de qualquer consulado ou residência particular de cidadão estrangeiro, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "B",
-        "text": "A qualificação da natureza política da perseguição no asilo diplomático compete exclusivamente ao Estado territorial perseguidor."
+        "text": "A qualificação da natureza política da perseguição no asilo diplomático compete exclusivamente ao Estado territorial perseguidor, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "C",
-        "text": "Quem comete crime comum de lavagem de dinheiro ou homicídio doloso sem conotação política faz jus obrigatório ao asilo diplomático."
+        "text": "Quem comete crime comum de lavagem de dinheiro ou homicídio doloso sem conotação política faz jus obrigatório ao asilo diplomático, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "D",
-        "text": "Trata-se de asilo diplomático (modalidade provisória concedida fora do território do Estado asilante, dentro de missão diplomática, navio de guerra ou acampamento militar, em casos de urgência), devendo o Estado asilante qualificar a natureza política do delito e solicitar salvo-conduto para saída segura ao território asilante."
+        "text": "Trata-se de asilo diplomático, devendo o Estado asilante qualificar a natureza política do delito e solicitar salvo-conduto para saída segura ao território asilante."
       }
     ],
     "correctAnswer": "D",
@@ -4424,19 +4424,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A jurisdição penal de um Estado limita-se sempre e exclusivamente aos crimes praticados dentro de suas próprias fronteiras geográficas."
+        "text": "A jurisdição penal de um Estado limita-se sempre e exclusivamente aos crimes praticados dentro de suas próprias fronteiras geográficas, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "B",
-        "text": "A pirataria marítima praticada em alto-mar só pode ser reprimida pelo país de nacionalidade dos piratas."
+        "text": "A pirataria marítima praticada em alto-mar só pode ser reprimida pelo país de nacionalidade dos piratas, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
-        "text": "A jurisdição universal autoriza o julgamento à revelia mesmo que o acusado nunca tenha entrado no território nem exista previsão em tratado ou lei interna."
+        "text": "A jurisdição universal autoriza o julgamento à revelia mesmo que o acusado nunca tenha entrado no território nem exista previsão em tratado ou lei interna, com eficácia interna condicionada à observância integral do rito constitucional de incorporação."
       },
       {
         "letter": "D",
-        "text": "O princípio da jurisdição universal permite que qualquer Estado processe e julgue autores de crimes internacionais gravíssimos (como pirataria, tortura, genocídio e crimes de guerra), independentemente do local do crime e da nacionalidade do autor ou das vítimas."
+        "text": "O princípio da jurisdição universal permite que qualquer Estado processe e julgue autores de crimes internacionais gravíssimos, independentemente do local do crime e da nacionalidade do autor ou das vítimas."
       }
     ],
     "correctAnswer": "D",
@@ -4479,19 +4479,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todo tratado internacional ratificado pelo Brasil, mesmo comercial ou aduaneiro, prevalece hierarquicamente sobre a Constituição Federal."
+        "text": "Todo tratado internacional ratificado pelo Brasil, mesmo comercial ou aduaneiro, prevalece hierarquicamente sobre a Constituição Federal. A eficácia territorial da medida observa os limites da soberania e da reciprocidade."
       },
       {
         "letter": "B",
-        "text": "Quando lei ordinária posterior conflita com tratado comercial anterior, o tratado comercial anula automaticamente a lei interna por inconstitucionalidade."
+        "text": "Quando lei ordinária posterior conflita com tratado comercial anterior, o tratado comercial anula automaticamente a lei interna por inconstitucionalidade, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "C",
-        "text": "A revogação interna de efeitos de um tratado comum por lei posterior isenta o Brasil de qualquer ilícito internacional perante os demais Estados."
+        "text": "A revogação interna de efeitos de um tratado comum por lei posterior isenta o Brasil de qualquer ilícito internacional perante os demais Estados, com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública."
       },
       {
         "letter": "D",
-        "text": "Para tratados tradicionais (não versando sobre direitos humanos nem matéria tributária específica do Art. 98 CTN), o STF adota a paridade normativa com a lei ordinária: o tratado revoga/afasta lei anterior incompatível, e lei ordinária posterior interna prevalece no plano interno (sem afastar eventual responsabilidade internacional do Estado por descumprir o tratado)."
+        "text": "Para tratados tradicionais, o STF adota a paridade normativa com a lei ordinária: o tratado revoga/afasta lei anterior incompatível, e lei ordinária posterior interna prevalece no plano interno."
       }
     ],
     "correctAnswer": "D",
@@ -4534,15 +4534,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Antes do depósito do instrumento de ratificação, o Estado signatário pode destruir livremente o objeto do tratado sem violar qualquer dever de boa-fé."
+        "text": "Antes do depósito do instrumento de ratificação, o Estado signatário pode destruir livremente o objeto do tratado sem violar qualquer dever de boa-fé, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "B",
-        "text": "Um Estado pode justificar o descumprimento de tratado em vigor invocando diretamente uma alteração legislativa de seu parlamento interno."
+        "text": "Um Estado pode justificar o descumprimento de tratado em vigor invocando diretamente uma alteração legislativa de seu parlamento interno, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "C",
-        "text": "O princípio pacta sunt servanda aplica-se apenas a tratados bilaterais comerciais, não aos tratados multilaterais."
+        "text": "O princípio pacta sunt servanda aplica-se apenas a tratados bilaterais comerciais, não aos tratados multilaterais, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "D",
@@ -4589,11 +4589,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Um erro geográfico de delimitação provocado exclusivamente pela própria conduta negligente do Estado invocante anula automaticamente o tratado em seu benefício."
+        "text": "Um erro geográfico de delimitação provocado exclusivamente pela própria conduta negligente do Estado invocante anula automaticamente o tratado em seu benefício, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "B",
-        "text": "Tratado obtido mediante coação militar ilegal contra um Estado apenas permite redução proporcional de obrigações, mantendo-se plenamente válido."
+        "text": "Tratado obtido mediante coação militar ilegal contra um Estado apenas permite redução proporcional de obrigações, mantendo-se plenamente válido, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
@@ -4601,7 +4601,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "É nulo de pleno direito (nulidade absoluta) o tratado cuja conclusão foi obtida pela ameaça ou emprego de força em violação aos princípios da Carta da ONU (Art. 52), bem como por coação pessoal sobre o representante do Estado (Art. 51); já o erro essencial sobre fato existente que constituiu base essencial do consentimento (Art. 48) gera anulabilidade invocável pela parte prejudicada."
+        "text": "É nulo de pleno direito (nulidade absoluta) o tratado cuja conclusão foi obtida pela ameaça ou emprego de força em violação aos princípios da Carta da ONU."
       }
     ],
     "correctAnswer": "D",
@@ -4644,19 +4644,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A falta de registro no Secretariado da ONU torna o tratado automaticamente nulo e inexistente mesmo nas relações bilaterais diretas entre os dois signatários."
+        "text": "A falta de registro no Secretariado da ONU torna o tratado automaticamente nulo e inexistente mesmo nas relações bilaterais diretas entre os dois signatários, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "B",
-        "text": "O registro de tratados no Secretariado da ONU é exigido apenas para convenções assinadas por mais de dez países."
+        "text": "O registro de tratados no Secretariado da ONU é exigido apenas para convenções assinadas por mais de dez países, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "C",
-        "text": "A publicação dos tratados pela ONU depende de autorização prévia de cada parlamento nacional após a entrada em vigor."
+        "text": "A publicação dos tratados pela ONU depende de autorização prévia de cada parlamento nacional após a entrada em vigor, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "O tratado continua válido entre as partes, porém nenhuma das partes poderá invocá-lo perante qualquer órgão das Nações Unidas (como a Corte Internacional de Justiça ou o Conselho de Segurança) enquanto não for devidamente registrado e publicado pelo Secretariado."
+        "text": "O tratado continua válido entre as partes, porém nenhuma das partes poderá invocá-lo perante qualquer órgão das Nações Unidas enquanto não for devidamente registrado e publicado pelo Secretariado."
       }
     ],
     "correctAnswer": "D",
@@ -4699,19 +4699,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para o originário de país de língua portuguesa, a Constituição exige residência mínima de 5 anos ininterruptos para naturalização ordinária."
+        "text": "Para o originário de país de língua portuguesa, a Constituição exige residência mínima de 5 anos ininterruptos para naturalização ordinária, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "B",
-        "text": "Na naturalização extraordinária de mais de 15 anos de residência (Art. 12, II, \"b\", CF), exige-se ainda comprovação de aprovação em exame avançado de língua portuguesa e renda mínima."
+        "text": "Na naturalização extraordinária de mais de 15 anos de residência, exige-se ainda comprovação de aprovação em exame avançado de língua portuguesa e renda mínima, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "C",
-        "text": "O brasileiro naturalizado pode ser eleito Presidente da Câmara dos Deputados ou ocupar cargo de Ministro do Supremo Tribunal Federal após 10 anos de naturalização."
+        "text": "O brasileiro naturalizado pode ser eleito Presidente da Câmara dos Deputados ou ocupar cargo de Ministro do Supremo Tribunal Federal após 10 anos de naturalização, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "D",
-        "text": "O argentino preenche os requisitos da naturalização EXTRAORDINÁRIA constitucional (mais de 15 anos ininterruptos de residência no Brasil e ausência de condenação penal, sendo ato vinculado se requerida); já o angolano preenche o requisito temporal da naturalização ORDINÁRIA privilegiada para originários de países de língua portuguesa (apenas 1 ano de residência ininterrupta + idoneidade moral)."
+        "text": "O argentino preenche os requisitos da naturalização extraordinária constitucional; já o angolano preenche o requisito temporal da naturalização ordinária privilegiada para originários de países de língua portuguesa."
       }
     ],
     "correctAnswer": "D",
@@ -4754,19 +4754,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O cargo de Governador de Estado e o de Senador da República são privativos de brasileiro nato conforme o Art. 12, § 3º, da Constituição."
+        "text": "O cargo de Governador de Estado e o de Senador da República são privativos de brasileiro nato, da Constituição, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "B",
-        "text": "A lei ordinária pode criar novos cargos públicos privativos de brasileiro nato para proteger áreas estratégicas da administração."
+        "text": "A lei ordinária pode criar novos cargos públicos privativos de brasileiro nato para proteger áreas estratégicas da administração, com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais."
       },
       {
         "letter": "C",
-        "text": "O Conselho da República não possui nenhuma cadeira reservada a cidadãos brasileiros natos na Constituição."
+        "text": "O Conselho da República não possui nenhuma cadeira reservada a cidadãos brasileiros natos na Constituição, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "O brasileiro naturalizado PODE ser eleito Governador de Estado, Prefeito, Deputado ou Senador (cargos NÃO incluídos no rol taxativo do Art. 12, § 3º, CF), mas NÃO pode ser proprietário exclusivo de empresa jornalística ou de radiodifusão sonora antes de completar mais de 10 anos de naturalização (Art. 222 CF)."
+        "text": "O brasileiro naturalizado pode ser eleito Governador de Estado, Prefeito, Deputado ou Senador, mas não pode ser proprietário exclusivo de empresa jornalística ou de radiodifusão sonora antes de completar mais de 10 anos de naturalização."
       }
     ],
     "correctAnswer": "D",
@@ -4809,19 +4809,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Brasil é signatário histórico do ICSID (CIRDI) desde 1966 e submete automaticamente todas as concessões públicas à arbitragem investidor-Estado em Washington."
+        "text": "O Brasil é signatário histórico do icsid (cirdi) desde 1966 e submete automaticamente todas as concessões públicas à arbitragem investidor-Estado em Washington."
       },
       {
         "letter": "B",
-        "text": "A arbitragem comercial internacional envolvendo empresas estatais brasileiras (como a Petrobras) também é totalmente proibida pela legislação brasileira."
+        "text": "A arbitragem comercial internacional envolvendo empresas estatais brasileiras também é totalmente proibida pela legislação brasileira, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "C",
-        "text": "O Fundo Monetário Internacional (FMI) exerce função jurisdicional arbitral obrigatória sobre contratos de investimento privado estrangeiro."
+        "text": "O Fundo Monetário Internacional (fmi) exerce função jurisdicional arbitral obrigatória sobre contratos de investimento privado estrangeiro, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "D",
-        "text": "O Brasil não ratificou a Convenção de Washington (ICSID/CIRDI) nem os Tratados Bilaterais de Investimento (TBIs) tradicionais com cláusula automática investidor-Estado; o modelo brasileiro adotado nos Acordos de Cooperação e Facilitação de Investimentos (ACFIs) prioriza prevenção de litígios via Pontos Focais (Ombudsman), Comitê Conjunto e arbitragem apenas Estado-Estado."
+        "text": "O Brasil não ratificou a Convenção de Washington (icsid/cirdi) nem os Tratados Bilaterais de Investimento (TBIs) tradicionais com cláusula automática investidor-Estado."
       }
     ],
     "correctAnswer": "D",
@@ -4864,19 +4864,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Mesmo entre os países do MERCOSUL com tramitação via Autoridade Central prevista no Protocolo de Las Leñas, exige-se legalização diplomática dupla no Itamaraty e no consulado."
+        "text": "Mesmo entre os países do MERCOSUL com tramitação via Autoridade Central prevista no Protocolo de Las Leñas, exige-se legalização diplomática dupla no Itamaraty e no consulado, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "B",
-        "text": "No âmbito do Protocolo de Las Leñas, os nacionais e residentes permanentes de um Estado-Parte devem recolher caução judicial (cautio judicatum solvi) para litigar no outro país."
+        "text": "No âmbito do Protocolo de Las Leñas, os nacionais e residentes permanentes de um Estado-Parte devem recolher caução judicial (cautio judicatum solvi) para litigar no outro país, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "C",
-        "text": "Sentenças cíveis oriundas de países do MERCOSUL sob o Protocolo de Las Leñas têm eficácia automática imediata no Brasil sem passar pelo STJ."
+        "text": "Sentenças cíveis oriundas de países do MERCOSUL sob o Protocolo de Las Leñas têm eficácia automática imediata no Brasil sem passar pelo STJ, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "D",
-        "text": "Nos termos do Protocolo de Las Leñas (Cooperação e Assistência Jurisdicional em Matéria Civil, Comercial, Trabalhista e Administrativa no MERCOSUL), os documentos e cartas rogatórias tramitados por intermédio das Autoridades Centrais ficam dispensados de legalização, apostilamento ou formalidade análoga, exigindo apenas tradução para o idioma do Estado requerido."
+        "text": "Nos termos do Protocolo de Las Leñas, os documentos e cartas rogatórias tramitados por intermédio das Autoridades Centrais ficam dispensados de legalização, apostilamento ou formalidade análoga, exigindo apenas tradução para o idioma do Estado requerido."
       }
     ],
     "correctAnswer": "D",
@@ -4919,19 +4919,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A autodeterminação dos povos confere direito irrestrito de qualquer região ou município declarar secessão armada unilateral de um Estado constitucionalmente estruturado."
+        "text": "A autodeterminação dos povos confere direito irrestrito de qualquer região ou município declarar secessão armada unilateral de um Estado constitucionalmente estruturado, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "B",
-        "text": "O Brasil rejeita expressamente o princípio da autodeterminação dos povos em sua Constituição Federal por receio de fragmentação federativa."
+        "text": "O Brasil rejeita expressamente o princípio da autodeterminação dos povos em sua Constituição Federal por receio de fragmentação federativa, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "C",
-        "text": "O princípio da autodeterminação dos povos garante aos povos — notadamente aqueles submetidos a dominação colonial, ocupação estrangeira ou regimes racistas — o direito de determinar livremente seu estatuto político e desenvolvimento econômico, social e cultural, mas NÃO confere direito geral automático de secessão unilateral contra Estados democráticos íntegros que respeitam os direitos humanos."
+        "text": "O princípio da autodeterminação dos povos garante aos povos — notadamente aqueles submetidos a dominação colonial, ocupação estrangeira ou regimes racistas — o direito de determinar livremente seu estatuto político e desenvolvimento econômico, social e cultural, mas não confere direito geral automático de secessão unilateral contra Estados democráticos íntegros que respeitam os direitos humanos."
       },
       {
         "letter": "D",
-        "text": "Povos sob regime colonial clássico não têm proteção do Direito Internacional até conquistarem força militar suficiente para declarar guerra."
+        "text": "Povos sob regime colonial clássico não têm proteção do Direito Internacional até conquistarem força militar suficiente para declarar guerra, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       }
     ],
     "correctAnswer": "C",
@@ -4982,11 +4982,11 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "As três vertentes são complementares: o Direito Internacional dos Direitos Humanos (DIDH) aplica-se tanto em tempos de paz quanto de guerra (salvo derrogações estritas); o Direito Internacional Humanitário (DIH) aplica-se especificamente durante conflitos armados; e o Direito Internacional dos Refugiados (DIR) protege pessoas forçadas a cruzar fronteiras internacionais por fundado temor de perseguição ou grave violação de direitos humanos."
+        "text": "As três vertentes são complementares: o Direito Internacional dos Direitos Humanos (didh) aplica-se tanto em tempos de paz quanto de guerra."
       },
       {
         "letter": "D",
-        "text": "O Acnur (Alto Comissariado das Nações Unidas para Refugiados) não atua em cooperação com governos nacionais, limitando-se a tribunais penais."
+        "text": "O Acnur (Alto Comissariado das Nações Unidas para Refugiados) não atua em cooperação com governos nacionais, limitando-se a tribunais penais, com eficácia interna condicionada à observância integral do rito constitucional de incorporação."
       }
     ],
     "correctAnswer": "C",
@@ -5029,19 +5029,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O dumping caracteriza-se sempre por ajuda financeira direta do governo estrangeiro ao exportador, sendo combatido exclusivamente por medidas de salvaguarda."
+        "text": "O dumping caracteriza-se sempre por ajuda financeira direta do governo estrangeiro ao exportador, sendo combatido exclusivamente por medidas de salvaguarda, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "B",
-        "text": "As medidas de salvaguarda aplicadas na OMC podem ser direcionadas seletivamente contra um único país exportador específico que praticou preço baixo."
+        "text": "As medidas de salvaguarda aplicadas na OMC podem ser direcionadas seletivamente contra um único país exportador específico que praticou preço baixo, com eficácia jurídica imediata no território nacional independentemente de referendo legislativo."
       },
       {
         "letter": "C",
-        "text": "Contra a prática desleal privada de preços abaixo do valor normal cabe direito ANTIDUMPING; contra vantagens financeiras governamentais ilegais ao exportador cabe medida COMPENSATÓRIA; e contra surto imprevisto de importações absolutamente leais que cause prejuízo grave cabe medida de SALVAGUARDA (em regra não seletiva/erga omnes e temporária)."
+        "text": "Contra a prática desleal privada de preços abaixo do valor normal cabe direito antidumping; contra vantagens financeiras governamentais ilegais ao exportador cabe medida compensatória."
       },
       {
         "letter": "D",
-        "text": "Para aplicar direito antidumping na OMC basta provar a diferença de preço, dispensando demonstração de dano à indústria doméstica e nexo causal."
+        "text": "Para aplicar direito antidumping na OMC basta provar a diferença de preço, dispensando demonstração de dano à indústria doméstica e nexo causal, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       }
     ],
     "correctAnswer": "C",
@@ -5092,7 +5092,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Trata-se do problema clássico da QUESTÃO PRÉVIA (ou incidental) no Direito Internacional Privado, ao lado da qualificação (classificação da relação jurídica segundo a lex fori, ou seja, a lei brasileira no momento de enquadrar a categoria da regra de conexão — Art. 7º, 8º, 9º ou 10 da LINDB)."
+        "text": "Trata-se do problema clássico da questão prévia (ou incidental) no Direito Internacional Privado, ao lado da qualificação."
       },
       {
         "letter": "D",
@@ -5139,19 +5139,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Declaração Universal de 1948 foi aprovada sob a forma de tratado internacional solene submetido a assinatura e ratificação parlamentar obrigatória em todos os países."
+        "text": "A Declaração Universal de 1948 foi aprovada sob a forma de tratado internacional solene submetido a assinatura e ratificação parlamentar obrigatória em todos os países, com eficácia jurídica imediata no território nacional independentemente de referendo legislativo."
       },
       {
         "letter": "B",
-        "text": "Os dois Pactos de 1966 proíbem expressamente a existência de direitos trabalhistas ou previdenciários no sistema da ONU."
+        "text": "Os dois Pactos de 1966 proíbem expressamente a existência de direitos trabalhistas ou previdenciários no sistema da ONU, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito. Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal."
       },
       {
         "letter": "C",
-        "text": "A Declaração Universal de 1948 foi adotada como resolução da Assembleia Geral da ONU (formalmente soft law, hoje reconhecida amplamente como costume internacional/ius cogens em seu núcleo), ao passo que o Pacto Internacional sobre Direitos Civis e Políticos (PIDCP) e o Pacto sobre Direitos Econômicos, Sociais e Culturais (PIDESC) de 1966 são tratados internacionais juridicamente vinculantes com comitês próprios de supervisão."
+        "text": "A Declaração Universal de 1948 foi adotada como resolução da Assembleia Geral da ONU, ao passo que o Pacto Internacional sobre Direitos Civis e Políticos (PIDCP) e o Pacto sobre Direitos Econômicos, Sociais e Culturais (PIDESC) de 1966 são tratados internacionais juridicamente vinculantes com comitês próprios de supervisão."
       },
       {
         "letter": "D",
-        "text": "O Brasil ratificou apenas o Pacto de Direitos Civis e Políticos, recusando-se a aderir ao Pacto de Direitos Econômicos, Sociais e Culturais."
+        "text": "O Brasil ratificou apenas o Pacto de Direitos Civis e Políticos, recusando-se a aderir ao Pacto de Direitos Econômicos, Sociais e Culturais. A eficácia territorial da medida observa os limites da soberania e da reciprocidade."
       }
     ],
     "correctAnswer": "C",
@@ -5202,7 +5202,7 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Trata-se do Tribunal Internacional para o Direito do Mar (TIDM / ITLOS, com sede em Hamburgo, Alemanha), distinto da Corte Internacional de Justiça (órgão principal da ONU em Haia de competência geral) e da Corte Permanente de Arbitragem (instituição arbitral em Haia)."
+        "text": "Trata-se do Tribunal Internacional para o Direito do Mar, distinto da Corte Internacional de Justiça e da Corte Permanente de Arbitragem."
       },
       {
         "letter": "D",
@@ -5249,19 +5249,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O portador de visto de visita (turismo ou negócios) pode exercer emprego formal remunerado por fonte pagadora brasileira durante sua estada de 90 dias."
+        "text": "O portador de visto de visita (turismo ou negócios) pode exercer emprego formal remunerado por fonte pagadora brasileira durante sua estada de 90 dias, sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas."
       },
       {
         "letter": "B",
-        "text": "A concessão do visto pela repartição consular brasileira no exterior confere ao estrangeiro direito subjetivo absoluto e irrestrito ao ingresso no território nacional."
+        "text": "A concessão do visto pela repartição consular brasileira no exterior confere ao estrangeiro direito subjetivo absoluto e irrestrito ao ingresso no território nacional, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
-        "text": "Deve requerer VISTO TEMPORÁRIO (concedido ao imigrante que venha ao Brasil com intuito de estabelecer residência por tempo determinado para fins de pesquisa/ensino, trabalho, estudo, tratamento de saúde, acolhida humanitária ou reunião familiar), distinguindo-se do visto de visita (estada de curta duração sem intuito imigratório e sem exercer atividade remunerada no país)."
+        "text": "Deve requerer visto temporário (concedido ao imigrante que venha ao Brasil com intuito de estabelecer residência por tempo determinado para fins de pesquisa/ensino, trabalho, estudo, tratamento de saúde, acolhida humanitária ou reunião familiar), distinguindo-se do visto de visita (estada de curta duração sem intuito imigratório e sem exercer atividade remunerada no país)."
       },
       {
         "letter": "D",
-        "text": "O visto diplomático e o visto oficial destinam-se igualmente a qualquer turista estrangeiro aposentado que deseje passar férias no Brasil."
+        "text": "O visto diplomático e o visto oficial destinam-se igualmente a qualquer turista estrangeiro aposentado que deseje passar férias no Brasil, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       }
     ],
     "correctAnswer": "C",
@@ -5308,15 +5308,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A opção pela nacionalidade brasileira após os 18 anos deve ser requerida perante o Cartório Eleitoral estadual ou o Itamaraty."
+        "text": "A opção pela nacionalidade brasileira após os 18 anos deve ser requerida perante o Cartório Eleitoral estadual ou o Itamaraty, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "C",
-        "text": "A criança torna-se brasileira nata desde que venha a residir na República Federativa do Brasil e opte, em qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira (nacionalidade potestativa, julgada pela Justiça Federal com efeitos ex tunc após a opção)."
+        "text": "A criança torna-se brasileira nata desde que venha a residir na República Federativa do Brasil e opte, em qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira."
       },
       {
         "letter": "D",
-        "text": "O filho nascido na França de pai ou mãe brasileira que estava lá A SERVIÇO OFICIAL do Brasil só será brasileiro nato se vier residir no país após os 18 anos."
+        "text": "O filho nascido na França de pai ou mãe brasileira que estava lá a serviço oficial do Brasil só será brasileiro nato se vier residir no país após os 18 anos, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       }
     ],
     "correctAnswer": "C",
@@ -5359,15 +5359,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No FMI e no Banco Mundial todas as decisões exigem unanimidade absoluta e cada Estado detém exatamente o mesmo peso de voto."
+        "text": "No fmi e no Banco Mundial todas as decisões exigem unanimidade absoluta e cada Estado detém exatamente o mesmo peso de voto, observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria."
       },
       {
         "letter": "B",
-        "text": "O Banco Mundial e o FMI são órgãos privados norte-americanos sem vínculo institucional com a Organização das Nações Unidas."
+        "text": "O Banco Mundial e o fmi são órgãos privados norte-americanos sem vínculo institucional com a Organização das Nações Unidas, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       },
       {
         "letter": "C",
-        "text": "Enquanto na Assembleia Geral da ONU vigora o princípio \"um Estado, um voto\" (igualdade soberana formal), no FMI e no BIRD adota-se o sistema de voto ponderado (votos proporcionais às cotas financeiras subscritas por cada país membro)."
+        "text": "Enquanto na Assembleia Geral da ONU vigora o princípio \"um Estado, um voto\", no fmi e no bird adota-se o sistema de voto ponderado."
       },
       {
         "letter": "D",
@@ -5418,15 +5418,15 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Mesmo que o refugiado tenha obtido o status mediante falsidade comprovada de documentos essenciais, o CONARE jamais pode declarar a perda da condição de refugiado."
+        "text": "Mesmo que o refugiado tenha obtido o status mediante falsidade comprovada de documentos essenciais, o conare jamais pode declarar a perda da condição de refugiado."
       },
       {
         "letter": "C",
-        "text": "Em ambos os casos ocorre a CESSAÇÃO da condição de refugiado (Art. 38 da Lei nº 9.474/1997 — por recuperação voluntária da proteção do país de origem, aquisição de nova nacionalidade ou desaparecimento das circunstâncias que motivaram o refúgio), diferente da PERDA da condição de refugiado (Art. 39 — sanção decorrente de renúncia, prova de falsidade documental, exercício de atividade contrária à segurança nacional ou saída do país sem comunicação)."
+        "text": "Em ambos os casos ocorre a cessação da condição de refugiado, diferente da perda da condição de refugiado."
       },
       {
         "letter": "D",
-        "text": "Cessação ou perda declaradas pelo CONARE não comportam recurso administrativo algum ao Ministro da Justiça."
+        "text": "Cessação ou perda declaradas pelo conare não comportam recurso administrativo algum ao Ministro da Justiça, com eficácia interna condicionada à observância integral do rito constitucional de incorporação."
       }
     ],
     "correctAnswer": "C",
@@ -5469,19 +5469,19 @@ export const INTERNACIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O pedido pode ser formulado diretamente por meio de AUXÍLIO DIRETO ativo encaminhado pela Autoridade Central brasileira (Ministério da Justiça e Segurança Pública - DRCI) à Autoridade Central suíça, sendo instrumento mais célere que a carta rogatória tradicional por evitar a via diplomática ordinária e o exequatur."
+        "text": "O pedido pode ser formulado diretamente por meio de auxílio direto ativo encaminhado pela Autoridade Central brasileira à Autoridade Central suíça, sendo instrumento mais célere que a carta rogatória tradicional por evitar a via diplomática ordinária e o exequatur."
       },
       {
         "letter": "B",
-        "text": "Todo pedido de cooperação jurídica para oitiva de testemunha ou obtenção de prova financeira no exterior deve obrigatoriamente ser enviado pelo Presidente do STF diretamente ao embaixador estrangeiro."
+        "text": "Todo pedido de cooperação jurídica para oitiva de testemunha ou obtenção de prova financeira no exterior deve obrigatoriamente ser enviado pelo Presidente do STF diretamente ao embaixador estrangeiro, com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa."
       },
       {
         "letter": "C",
-        "text": "As cartas rogatórias em matéria penal ou cível enviadas do exterior para o Brasil dispensam análise de respeito à ordem pública brasileira."
+        "text": "As cartas rogatórias em matéria penal ou cível enviadas do exterior para o Brasil dispensam análise de respeito à ordem pública brasileira, com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros."
       },
       {
         "letter": "D",
-        "text": "A cooperação jurídica internacional rege-se pelo princípio da confidencialidade absoluta, proibindo que as autoridades brasileiras informem à parte o motivo da recusa de cumprimento."
+        "text": "A cooperação jurídica internacional rege-se pelo princípio da confidencialidade absoluta, proibindo que as autoridades brasileiras informem à parte o motivo da recusa de cumprimento, em harmonia com os costumes internacionais consolidados e os princípios gerais de direito."
       }
     ],
     "correctAnswer": "A",

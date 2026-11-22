@@ -1,5 +1,6 @@
 import type { Difficulty, ExamBoard, ExamType, LegalQuestion } from '../src/types';
 import type { DifficultyLevel, QuestionOriginType } from '../src/types/knowledgeBase';
+import { rebalanceQuestionOptions } from './questionRebalancer';
 
 export interface CompactLegalFact {
   id: string;
@@ -84,7 +85,7 @@ export function buildQuestionFromFact(fact: CompactLegalFact, index: number): Le
     }
   }
 
-  return {
+  const question: LegalQuestion = {
     id: fact.id,
     exam: mapExamLabel(examType, board, fact.subject),
     examType,
@@ -110,6 +111,9 @@ export function buildQuestionFromFact(fact: CompactLegalFact, index: number): Le
     ...(fact.jurisprudence ? { jurisprudence: fact.jurisprudence } : {}),
     professorTip: fact.tip,
   };
+
+  question.options = rebalanceQuestionOptions(question).options;
+  return question;
 }
 
 export type CompactTuple = [

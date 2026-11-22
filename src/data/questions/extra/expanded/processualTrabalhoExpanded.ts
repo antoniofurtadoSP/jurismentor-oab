@@ -17,19 +17,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O CPC/2015 revogou tacitamente as regras próprias da CLT sempre que prevê prazo mais benéfico às partes."
+        "text": "O CPC/2015 revogou tacitamente as regras próprias da CLT sempre que prevê prazo mais benéfico às partes, com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo."
       },
       {
         "letter": "B",
-        "text": "Na fase de execução trabalhista aplica-se prioritariamente a CLT e, na omissão, o CPC antes da Lei de Execuções Fiscais."
+        "text": "Na fase de execução trabalhista aplica-se prioritariamente a CLT e, na omissão, o CPC antes da Lei de Execuções Fiscais. O descumprimento da formalidade impede o exame do mérito pelo órgão recursal trabalhista."
       },
       {
         "letter": "C",
-        "text": "Os prazos recursais do CPC (15 dias) aplicam-se automaticamente aos recursos trabalhistas como recurso ordinário e agravo de petição."
+        "text": "Os prazos recursais do CPC (15 dias) aplicam-se automaticamente aos recursos trabalhistas como recurso ordinário e agravo de petição, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "NÃO! Pelo Art. 769 da CLT (c/c Art. 15 do CPC e IN 39/2016 TST), nos casos OMISSOS, o direito processual comum será fonte subsidiária do direito processual do trabalho, EXCETO naquilo em que for INCOMPATÍVEL com as normas deste Título — exigindo dois requisitos cumulativos: (1) omissão da CLT e (2) compatibilidade principiológica com o processo trabalhista (celeridade, oralidade, proteção)!"
+        "text": "Não. nos casos omissos, o direito processual comum será fonte subsidiária do direito processual do trabalho, exceto naquilo em que for incompatível com as normas deste Título."
       }
     ],
     "correctAnswer": "D",
@@ -72,19 +72,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O empregado pode escolher livremente entre o local da contratação, o de seu domicílio atual ou o da prestação de serviços."
+        "text": "O empregado pode escolher livremente entre o local da contratação, o de seu domicílio atual ou o da prestação de serviços, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução."
       },
       {
         "letter": "B",
-        "text": "Para empregado agente ou viajante comercial, a competência será exclusivamente do local de sua residência."
+        "text": "Para empregado agente ou viajante comercial, a competência será exclusivamente do local de sua residência, com reexame amplo de fatos, provas e pedidos não deduzidos na instância originária."
       },
       {
         "letter": "C",
-        "text": "É válida a cláusula de eleição de foro inserida no contrato de trabalho mesmo para empregado comum, pela aplicação subsidiária do CPC."
+        "text": "É válida a cláusula de eleição de foro inserida no contrato de trabalho mesmo para empregado comum, pela aplicação subsidiária do CPC, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "D",
-        "text": "Em regra, NÃO! Pelo Art. 651, caput, da CLT, a competência das Varas do Trabalho é determinada pela LOCALIDADE ONDE O EMPREGADO PRESTAR SERVIÇOS ao empregador (Belo Horizonte/MG), ainda que tenha sido contratado noutro local (São Paulo) ou no estrangeiro! O foro do domicílio do reclamante só é admitido excepcionalmente pela jurisprudência do TST quando a empresa atua nacionalmente em grande porte e o empregado foi recrutado naquele domicílio ou quando o acesso à justiça ficar absolutamente inviabilizado, NÃO bastando a simples mudança posterior de domicílio!"
+        "text": "Em regra, não. a competência das Varas do Trabalho é determinada pela localidade onde o empregado prestar serviços ao empregador (Belo Horizonte/MG), ainda que tenha sido contratado noutro local (São Paulo) ou no estrangeiro."
       }
     ],
     "correctAnswer": "D",
@@ -127,19 +127,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A ação de dano moral em ricochete ajuizada pela viúva e filhos em nome próprio tramita na Justiça Comum Estadual por envolver direito civil sucessório."
+        "text": "A ação de dano moral em ricochete ajuizada pela viúva e filhos em nome próprio tramita na Justiça Comum Estadual por envolver direito civil sucessório, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho. Tal disciplina reflete a autonomia procedimental própria do processo judiciário do trabalho."
       },
       {
         "letter": "B",
-        "text": "A Justiça do Trabalho é incompetente para julgar ação de execução fiscal de multas administrativas impostas aos empregadores pelos auditores fiscais do trabalho."
+        "text": "A Justiça do Trabalho é incompetente para julgar ação de execução fiscal de multas administrativas impostas aos empregadores pelos auditores fiscais do trabalho, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "Compete à Justiça do Trabalho processar e julgar os crimes contra a organização do trabalho, como redução à condição análoga à de escravo."
+        "text": "Compete à Justiça do Trabalho processar e julgar os crimes contra a organização do trabalho, como redução à condição análoga à de escravo, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "D",
-        "text": "Ambas pertencem à JUSTIÇA DO TRABALHO! Pela Súmula 392 do TST (e STF RE 600.091), nos termos do Art. 114, VI, da CF, a Justiça do Trabalho é competente para processar e julgar ações de indenização por dano moral e material decorrentes da relação de trabalho, INCLUSIVE quando ajuizadas pelos sucessores (viúva e filhos) do trabalhador falecido em acidente de trabalho! E pelo Art. 114, III, da CF, a JT também julga as ações sobre representação sindical, ENTRE SINDICATOS, entre sindicatos e trabalhadores, e entre sindicatos e empregadores!"
+        "text": "Ambas pertencem à justiça do trabalho. (e STF RE 600.091), a Justiça do Trabalho é competente para processar e julgar ações de indenização por dano moral e material decorrentes da relação de trabalho, inclusive quando ajuizadas pelos sucessores (viúva e filhos) do trabalhador falecido em acidente de trabalho. E, a jt também julga as ações sobre representação sindical, entre sindicatos, entre sindicatos e trabalhadores, e entre sindicatos e empregadores."
       }
     ],
     "correctAnswer": "D",
@@ -187,15 +187,15 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "No processo de homologação de acordo extrajudicial (Art. 855-B CLT), as partes podem atuar sem advogado ou representadas pelo mesmo advogado comum."
+        "text": "No processo de homologação de acordo extrajudicial, as partes podem atuar sem advogado ou representadas pelo mesmo advogado comum, com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo."
       },
       {
         "letter": "C",
-        "text": "Na execução trabalhista iniciada pela parte sem advogado, não cabe ao juiz promover a execução de ofício."
+        "text": "Na execução trabalhista iniciada pela parte sem advogado, não cabe ao juiz promover a execução de ofício, sem admissão de fracionamento de instância nem recurso imediato de decisão interlocutória."
       },
       {
         "letter": "D",
-        "text": "NÃO! Pelo Art. 791 da CLT, empregados e empregadores podem reclamar pessoalmente perante a Justiça do Trabalho e acompanhar suas reclamações até o final nas instâncias ordinárias (Vara do Trabalho e TRT — inclusive interpor Recurso Ordinário!); CONTUDO, pela Súmula 425 do TST, o jus postulandi das partes NÃO alcança a AÇÃO RESCISÓRIA, a AÇÃO CAUTELAR, o MANDADO DE SEGURANÇA e os RECURSOS DE COMPETÊNCIA DO TST (Recurso de Revista, Embargos no TST, Agravo de Instrumento para o TST) — nem o processo de homologação de acordo extrajudicial (Art. 855-B CLT, onde ambas as partes devem ter advogados distintos)!"
+        "text": "Não. empregados e empregadores podem reclamar pessoalmente perante a Justiça do Trabalho e acompanhar suas reclamações até o final nas instâncias ordinárias."
       }
     ],
     "correctAnswer": "D",
@@ -239,19 +239,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os honorários advocatícios de sucumbência trabalhista variam de 10% a 20%, conforme o Art. 85 do CPC."
+        "text": "Os honorários advocatícios de sucumbência trabalhista variam de 10% a 20%, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "B",
-        "text": "O beneficiário da justiça gratuita que falta injustificadamente à audiência inaugural está dispensado do pagamento das custas processuais pela ADI 5766."
+        "text": "O beneficiário da justiça gratuita que falta injustificadamente à audiência inaugural está dispensado do pagamento das custas processuais pela ADI 5766, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "A simples declaração de hipossuficiência assinada pelo trabalhador ou por seu advogado continua bastando automaticamente para concessão da justiça gratuita mesmo para quem ganha acima de 40% do teto do RGPS."
+        "text": "A simples declaração de hipossuficiência assinada pelo trabalhador ou por seu advogado continua bastando automaticamente para concessão da justiça gratuita mesmo para quem ganha acima de 40% do teto do RGPS, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "NÃO sofrerá desconto imediato automático sobre os créditos obtidos no processo! Na ADI 5766, o STF declarou INCONSTITUCIONAL a expressão do Art. 791-A, § 4º, da CLT que autorizava a cobrança automática dos honorários sucumbenciais contra o beneficiário da justiça gratuita usando créditos obtidos neste ou em outro processo, bem como declarou inconstitucional o Art. 790-B, caput e § 4º, que obrigava o beneficiário da justiça gratuita sucumbente na perícia a pagar honorários periciais! Mantém-se apenas a CONDIÇÃO SUSPENSIVA DE EXIGIBILIDADE por 2 ANOS após o trânsito em julgado (só executável se o credor provar que deixou de existir a situação de insuficiência de recursos)!"
+        "text": "Não sofrerá desconto imediato automático sobre os créditos obtidos no processo. Na ADI 5766, o STF declarou inconstitucional a expressão que autorizava a cobrança automática dos honorários sucumbenciais contra o beneficiário da justiça gratuita usando créditos obtidos neste ou em outro processo, bem como declarou inconstitucional o Art. 790-B, caput e § 4º, que obrigava o beneficiário da justiça gratuita sucumbente na perícia a pagar honorários periciais. Mantém-se apenas a condição suspensiva de exigibilidade por 2 anos após o trânsito em julgado."
       }
     ],
     "correctAnswer": "D",
@@ -295,19 +295,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "As empresas em recuperação judicial são isentas do pagamento de custas processuais e do depósito recursal pelo Art. 899, § 10, da CLT."
+        "text": "As empresas em recuperação judicial são isentas do pagamento de custas processuais e do depósito recursal, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "As custas processuais no Processo do Trabalho devem ser pagas antecipadamente no ato da distribuição da petição inicial."
+        "text": "As custas processuais no Processo do Trabalho devem ser pagas antecipadamente no ato da distribuição da petição inicial, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "O prazo para comprovar o recolhimento das custas em caso de recurso é de 5 dias após a interposição do apelo."
+        "text": "O prazo para comprovar o recolhimento das custas em caso de recurso é de 5 dias após a interposição do apelo, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "As custas nos processos de conhecimento são calculadas à razão de 2% sobre o valor da condenação, do acordo ou da causa (na improcedência total), observado o MÍNIMO de R$ 10,64 e o MÁXIMO de 4 vezes o limite máximo dos benefícios do RGPS (Art. 789, caput, CLT), pagas e comprovado o recolhimento dentro do PRAZO RECURSAL (8 dias — Art. 789, § 1º)! São ISENTOS de custas (Art. 790-A CLT): União, Estados, DF, Municípios, respectivas autarquias e fundações públicas não exploradoras de atividade econômica, MPT e beneficiários da justiça gratuita — MAS a MASSA FALIDA (embora isenta de custas na falência? Atenção: pela Súmula 86 do TST, NÃO ocorre deserção de recurso da massa falida por falta de pagamento de custas ou de depósito do valor da condenação; porém empresa em RECUPERAÇÃO JUDICIAL NÃO é isenta de custas nem pela Súmula 86 — apenas isenta de DEPÓSITO RECURSAL pelo Art. 899, § 10, CLT)!"
+        "text": "As custas nos processos de conhecimento são calculadas à razão de 2% sobre o valor da condenação, do acordo ou da causa, observado o mínimo de R$ 10,64 e o máximo de 4 vezes o limite máximo dos benefícios do RGPS, pagas e comprovado o recolhimento dentro do prazo recursal (8 dias )."
       }
     ],
     "correctAnswer": "D",
@@ -351,7 +351,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os prazos no Processo do Trabalho continuam sendo contados em dias corridos, inclusive após a Lei nº 13.467/2017."
+        "text": "Os prazos no Processo do Trabalho continuam sendo contados em dias corridos, inclusive após a Lei nº 13.467/2017, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "B",
@@ -359,11 +359,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O recesso forense da Justiça do Trabalho (20 de dezembro a 20 de janeiro — Art. 775-A CLT) não suspende os prazos processuais."
+        "text": "O recesso forense da Justiça do Trabalho não suspende os prazos processuais, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 775 da CLT (Reforma Trabalhista), os prazos processuais no Processo do Trabalho são contados EXCLUSIVAMENTE EM DIAS ÚTEIS, com exclusão do dia do começo e inclusão do dia do vencimento! Como a publicação no DEJT ocorreu na quinta (10), a disponibilização/publicação considera-se efetivada no dia 10 (ou conforme Lei 11.419/06: disponibilizado dia 10 -> publicado 1º dia útil seguinte = sexta 11 -> início da contagem no 1º dia útil subsequente!), e se segunda (14) for feriado nacional, o prazo começa a correr na terça (15), contando 8 dias úteis (excluídos sábados, domingos e feriados)! E para o Município (Fazenda Pública — DL 779/69 e Art. 183 CPC), o prazo recursal conta-se em DOBRO (16 dias úteis para RO)!"
+        "text": "Pelo Art. 775 da CLT, os prazos processuais no Processo do Trabalho são contados exclusivamente em dias úteis, com exclusão do dia do começo e inclusão do dia do vencimento."
       }
     ],
     "correctAnswer": "D",
@@ -419,7 +419,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 840, § 1º, da CLT (alterado pela Reforma Trabalhista), mesmo no rito ordinário, o pedido deverá ser CERTO, DETERMINADO E COM INDICAÇÃO DE SEU VALOR! Contudo, pelo Art. 321 do CPC c/c Súmula 263 do TST, o juiz NÃO pode indeferir de plano a petição inicial sem antes intimar o autor para EMENDAR a inicial no prazo de 15 DIAS (salvo no RITO SUMARÍSSIMO, onde o Art. 852-B, I e § 1º, CLT prevê expressamente o arquivamento imediato sem emenda quando faltar pedido certo/determinado com indicação do valor!); ademais, pela IN 41/2018 do TST (§ 2º do Art. 12), o valor indicado na inicial é mera ESTIMATIVA (não limita rigidamente a liquidação se ressalvado como estimativo, segundo jurisprudência predominante da SDI-1 TST)!"
+        "text": "Da CLT, mesmo no rito ordinário, o pedido deverá ser certo, determinado e com indicação de seu valor."
       }
     ],
     "correctAnswer": "D",
@@ -463,19 +463,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Empresas públicas e sociedades de economia mista também estão excluídas do procedimento sumaríssimo por força do Art. 852-A, parágrafo único."
+        "text": "Empresas públicas e sociedades de economia mista também estão excluídas do procedimento sumaríssimo por força, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "B",
-        "text": "No procedimento sumaríssimo cada parte pode ouvir até 3 testemunhas e a prova pericial é proibida."
+        "text": "No procedimento sumaríssimo cada parte pode ouvir até 3 testemunhas e a prova pericial é proibida, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "No rito sumário (alçada até 2 salários mínimos), cabe normalmente Recurso Ordinário para o TRT em qualquer hipótese."
+        "text": "No rito sumário (alçada até 2 salários mínimos), cabe normalmente Recurso Ordinário para o TRT em qualquer hipótese, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "NO PRIMEIRO CASO, NÃO tramitará pelo Sumaríssimo! Embora o valor de R$ 35.000,00 seja inferior a 40 salários mínimos (teto do Art. 852-A CLT), o parágrafo único do Art. 852-A EXCLUI expressamente do rito sumaríssimo as demandas em que é parte a ADMINISTRAÇÃO PÚBLICA DIRETA, AUTÁRQUICA E FUNDACIONAL (Fazenda Pública — atenção: empresa pública e sociedade de economia mista PODEM estar no sumaríssimo!) e o Art. 852-B, II, PROÍBE a citação por EDITAL no sumaríssimo! Já nas causas de até 2 SALÁRIOS MÍNIMOS (Rito Sumário / Dissídio de Alçada — Art. 2º, § 4º, Lei 5.584/70), NÃO cabe recurso algum da sentença, SALVO se versar sobre MATÉRIA CONSTITUCIONAL!"
+        "text": "No primeiro caso, não tramitará pelo Sumaríssimo. Embora o valor de R$ 35.000,00 seja inferior a 40 salários mínimos, o parágrafo único exclui expressamente do rito sumaríssimo as demandas em que é parte a administração pública direta, autárquica e fundacional e o Art. 852-B, II, proíbe a citação por edital no sumaríssimo. Já nas causas de até 2 salários mínimos, não cabe recurso algum da sentença, salvo se versar sobre matéria constitucional."
       }
     ],
     "correctAnswer": "D",
@@ -518,19 +518,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ausente o preposto da empresa na audiência inaugural, mesmo presente o advogado com defesa no PJe, o juiz deve decretar revelia e desentranhar/recusar a contestação e os documentos."
+        "text": "Ausente o preposto da empresa na audiência inaugural, mesmo presente o advogado com defesa no PJe, o juiz deve decretar revelia e desentranhar/recusar a contestação e os documentos. Tal disciplina reflete a autonomia procedimental própria do processo judiciário do trabalho."
       },
       {
         "letter": "B",
-        "text": "A ausência do reclamante na audiência inaugural acarreta improcedência liminar do pedido com coisa julgada material imediata."
+        "text": "A ausência do reclamante na audiência inaugural acarreta improcedência liminar do pedido com coisa julgada material imediata, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias."
       },
       {
         "letter": "C",
-        "text": "A ausência da reclamada gera REVELIA quanto à confissão ficta dos fatos (Art. 844, caput, CLT), MAS pelo Art. 844, § 5º, da CLT (inserido pela Reforma Trabalhista, superando em parte a antiga Súmula 122 TST!), ainda que ausente o reclamado, presente o ADVOGADO na audiência, SERÃO ACEITOS A CONTESTAÇÃO E OS DOCUMENTOS eventualmente apresentados! Ademais, a revelia NÃO produz o efeito de confissão ficta se houver pluralidade de réus e algum contestar, se o litígio versar sobre direitos indisponíveis, se a inicial não estiver acompanhada de instrumento indispensável ou se as alegações forem inverossímeis/contraditórias (§ 4º)!"
+        "text": "A ausência da reclamada gera revelia quanto à confissão ficta dos fatos, mas, ainda que ausente o reclamado, presente o advogado na audiência, serão aceitos a contestação e OS documentos eventualmente apresentados."
       },
       {
         "letter": "D",
-        "text": "Na revelia trabalhista, a confissão ficta do réu ausente é absoluta, mesmo que contradiga prova documental pré-constituída nos autos ou ocorra contra ente público."
+        "text": "Na revelia trabalhista, a confissão ficta do réu ausente é absoluta, mesmo que contradiga prova documental pré-constituída nos autos ou ocorra contra ente público. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       }
     ],
     "correctAnswer": "C",
@@ -578,11 +578,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O advogado da reclamada pode acumular simultaneamente na mesma audiência as funções de advogado e preposto da empresa."
+        "text": "O advogado da reclamada pode acumular simultaneamente na mesma audiência as funções de advogado e preposto da empresa, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "NÃO! Pelo Art. 843, § 3º, da CLT (inserido pela Lei nº 13.467/2017, superando a antiga Súmula 377 do TST!), o preposto a que se refere o § 1º NÃO PRECISA SER EMPREGADO da parte reclamada — bastando que tenha conhecimento dos fatos (cujas declarações obrigarão o proponente)!"
+        "text": "Não. o preposto a que se refere o § 1º não precisa ser empregado da parte reclamada — bastando que tenha conhecimento dos fatos (cujas declarações obrigarão o proponente)."
       },
       {
         "letter": "D",
@@ -629,19 +629,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A exceção de incompetência territorial deve ser apresentada oralmente ou em preliminar da contestação apenas no dia da audiência inaugural."
+        "text": "A exceção de incompetência territorial deve ser apresentada oralmente ou em preliminar da contestação apenas no dia da audiência inaugural, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "B",
-        "text": "Da decisão interlocutória do juiz do trabalho que acolhe a exceção de incompetência territorial e remete os autos a TRT distinto nunca cabe recurso imediato."
+        "text": "Da decisão interlocutória do juiz do trabalho que acolhe a exceção de incompetência territorial e remete os autos a TRT distinto nunca cabe recurso imediato, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "C",
-        "text": "A exceção de incompetência territorial deve ser oferecida em PEÇA SEPARADA que sinalize a existência dessa exceção, protocolada no prazo de 5 DIAS (úteis) a contar da NOTIFICAÇÃO (antes da audiência — Art. 800, caput, CLT)! Protocolada tempestivamente a exceção, SUSPENDE-SE o processo e NÃO se realiza a audiência designada até que se decida a exceção (§ 1º); abre-se vista ao excepto por 5 DIAS (§ 2º); se necessária prova testemunhal, realiza-se audiência para ouvir as testemunhas da exceção (inclusive por carta precatória/videoconferência no foro indicado pelo excipiente, § 4º); decidida, o processo retoma (§ 3º)!"
+        "text": "A exceção de incompetência territorial deve ser oferecida em peça separada que sinalize a existência dessa exceção, protocolada no prazo de 5 dias (úteis) a contar da notificação."
       },
       {
         "letter": "D",
-        "text": "A incompetência territorial pode ser declarada de ofício pelo juiz do trabalho em qualquer tempo e grau de jurisdição."
+        "text": "A incompetência territorial pode ser declarada de ofício pelo juiz do trabalho em qualquer tempo e grau de jurisdição, com prosseguimento regular da demanda mediante atuação pessoal das partes em qualquer grau."
       }
     ],
     "correctAnswer": "C",
@@ -685,19 +685,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A compensação pode ser arguida a qualquer tempo, inclusive nos embargos à execução trabalhista, e abrange qualquer crédito civil da empresa contra o ex-empregado."
+        "text": "A compensação pode ser arguida a qualquer tempo, inclusive nos embargos à execução trabalhista, e abrange qualquer crédito civil da empresa contra o ex-empregado. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "Não cabe reconvenção no Processo do Trabalho por incompatibilidade com a celeridade do rito trabalhista."
+        "text": "Não cabe reconvenção no Processo do Trabalho por incompatibilidade com a celeridade do rito trabalhista, com afastamento das normas processuais comuns diante da disciplina própria da execução laboral."
       },
       {
         "letter": "C",
-        "text": "A COMPENSAÇÃO na Justiça do Trabalho está restrita a DÍVIDAS DE NATUREZA TRABALHISTA (Súmula 18 do TST — não se pode compensar dívida trabalhista com dívida civil/comercial alheia ao contrato!) e só poderá ser arguida como matéria de defesa na CONTESTAÇÃO (Art. 767 CLT e Súmula 48 TST — preclui se alegada só na fase de execução!), assim como a RETENÇÃO/DEDUÇÃO de valores pagos sob o mesmo título; já a pretensão ativa da empresa de cobrar do empregado indenização por prejuízo doloso exige RECONVENÇÃO (no mesmo prazo da contestação — Art. 343 CPC aplicado subsidiariamente)!"
+        "text": "A compensação na Justiça do Trabalho está restrita a dívidas de natureza trabalhista e só poderá ser arguida como matéria de defesa na contestação, assim como a retenção/dedução de valores pagos sob o mesmo título."
       },
       {
         "letter": "D",
-        "text": "Dedução e compensação são institutos idênticos, de modo que o juiz não pode deduzir valores já pagos a idêntico título sem pedido expresso de compensação."
+        "text": "Dedução e compensação são institutos idênticos, de modo que o juiz não pode deduzir valores já pagos a idêntico título sem pedido expresso de compensação, sem admissão de fracionamento de instância nem recurso imediato de decisão interlocutória."
       }
     ],
     "correctAnswer": "C",
@@ -745,15 +745,15 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Os cartões de ponto com marcação britânica geram presunção absoluta e juris et de jure da jornada alegada pelo empregado na inicial."
+        "text": "Os cartões de ponto com marcação britânica geram presunção absoluta e juris et de jure da jornada alegada pelo empregado na inicial, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 74, § 2º, da CLT (alterado pela Lei da Liberdade Econômica nº 13.874/19!), é obrigatório o registro de jornada nos estabelecimentos com MAIS DE 20 TRABALHADORES (antigo limite era 10!). Se a empresa com > 20 empregados apresenta cartões de ponto com horários invariáveis (\"ponto britânico\"), eles são INVÁLIDOS como meio de prova, invertendo-se o ônus da prova relativo às horas extras para o EMPREGADOR (Súmula 338, III, TST — presunção relativa da jornada da inicial)! Quanto à extinção do contrato, o ônus de provar o término do contrato por abandono/pedido de demissão é do EMPREGADOR (princípio da continuidade da relação de emprego — Súmula 212 TST)!"
+        "text": "Da CLT, é obrigatório o registro de jornada nos estabelecimentos com mais de 20 trabalhadores."
       },
       {
         "letter": "D",
-        "text": "O juiz do trabalho não pode inverter ou distribuir dinamicamente o ônus da prova no curso do processo trabalhista."
+        "text": "O juiz do trabalho não pode inverter ou distribuir dinamicamente o ônus da prova no curso do processo trabalhista, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "C",
@@ -797,19 +797,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A testemunha que move ação trabalhista com objeto idêntico contra a mesma reclamada presume-se automaticamente suspeita e não pode depor."
+        "text": "A testemunha que move ação trabalhista com objeto idêntico contra a mesma reclamada presume-se automaticamente suspeita e não pode depor, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "B",
-        "text": "As testemunhas no Processo do Trabalho devem ser sempre previamente arroladas por escrito em até 15 dias antes da audiência."
+        "text": "As testemunhas no Processo do Trabalho devem ser sempre previamente arroladas por escrito em até 15 dias antes da audiência, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "NÃO! Pela Súmula 357 do TST, NÃO torna suspeita a testemunha o simples fato de estar litigando ou de ter litigado contra o mesmo empregador! Embora a mera propositura de ação idêntica ou testemunho recíproco por si só não configure suspeição, a testemunha só será impedida/suspeita (ouvindo-se apenas como informante sem compromisso — Art. 829 CLT) se efetivamente comprovada amizade íntima, inimizade capital, parentesco até 3º grau ou interesse real direto no desfecho do processo!"
+        "text": "Não. não torna suspeita a testemunha o simples fato de estar litigando ou de ter litigado contra o mesmo empregador."
       },
       {
         "letter": "D",
-        "text": "A testemunha que mentir ou alterar intencionalmente a verdade dos fatos em audiência trabalhista está sujeita apenas à remessa de ofício ao MPF por falso testemunho, sem multa processual do juiz do trabalho."
+        "text": "A testemunha que mentir ou alterar intencionalmente a verdade dos fatos em audiência trabalhista está sujeita apenas à remessa de ofício ao mpf por falso testemunho, sem multa processual do juiz do trabalho."
       }
     ],
     "correctAnswer": "C",
@@ -861,7 +861,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "NÃO! Há dois vícios graves e uma faculdade judicial: (1) pelo Art. 855-B, § 1º, da CLT, as partes NÃO podem ser representadas por advogado comum — é obrigatória a assistência por ADVOGADOS DISTINTOS; (2) pela jurisprudência do TST e Art. 855-C, não se pode dar quitação ampla de terceiros ou prazos de FGTS/INSS fraudulentos, e o juiz NÃO É OBRIGADO a homologar o acordo (a homologação judicial de acordo — inclusive extrajudicial — constitui FACULDADE do juiz por decisão fundamentada, não direito líquido e certo das partes, Súmula 418 do TST)!"
+        "text": "Não. Há dois vícios graves e uma faculdade judicial:, as partes não podem ser representadas por advogado comum."
       },
       {
         "letter": "D",
@@ -909,19 +909,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo de 30 dias previsto no Art. 853 da CLT tem natureza prescricional e só se aplica caso o empregador opte por não suspender o dirigente sindical."
+        "text": "O prazo de 30 dias tem natureza prescricional e só se aplica caso o empregador opte por não suspender o dirigente sindical, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias."
       },
       {
         "letter": "B",
-        "text": "No inquérito para apuração de falta grave cada parte pode indicar no máximo 3 testemunhas, igual ao rito ordinário."
+        "text": "No inquérito para apuração de falta grave cada parte pode indicar no máximo 3 testemunhas, igual ao rito ordinário, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "A reclamação/inquérito foi ajuizada FORA DO PRAZO DECADENCIAL! Pelo Art. 853 da CLT c/c Súmula 403 do STF e Súmula 62 do TST, para instauração do inquérito para apuração de falta grave contra empregado garantido com estabilidade (como o dirigente sindical — Súmula 379 TST), o empregador apresentará reclamação por escrito à Vara do Trabalho dentro de 30 DIAS (decadenciais!), contados da DATA DA SUSPENSÃO do empregado! Como o prazo de 30 dias é DECADENCIAL, não se suspende nem interrompe, gerando extinção do inquérito com resolução do mérito e reintegração com salários do período de suspensão!"
+        "text": "A reclamação/inquérito foi ajuizada fora do prazo decadencial. c/c Súmula 403 do STF e Súmula 62 do TST, para instauração do inquérito para apuração de falta grave contra empregado garantido com estabilidade, o empregador apresentará reclamação por escrito à Vara do Trabalho dentro de 30 dias (decadenciais), contados da data da suspensão do empregado."
       },
       {
         "letter": "D",
-        "text": "Julgado improcedente o inquérito por não provada a falta grave, o empregador fica obrigado apenas a pagar as verbas rescisórias sem salários do período de suspensão."
+        "text": "Julgado improcedente o inquérito por não provada a falta grave, o empregador fica obrigado apenas a pagar as verbas rescisórias sem salários do período de suspensão, sem admissão de fracionamento de instância nem recurso imediato de decisão interlocutória."
       }
     ],
     "correctAnswer": "C",
@@ -965,19 +965,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em qualquer caso de concessão de tutela antecipada na Justiça do Trabalho, mesmo quando proferida na própria sentença, o réu deve impetrar Mandado de Segurança."
+        "text": "Em qualquer caso de concessão de tutela antecipada na Justiça do Trabalho, mesmo quando proferida na própria sentença, o réu deve impetrar Mandado de Segurança. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "Contra a decisão interlocutória que concede ou indefere tutela provisória antes da sentença cabe imediatamente Agravo de Instrumento no Processo do Trabalho."
+        "text": "Contra a decisão interlocutória que concede ou indefere tutela provisória antes da sentença cabe imediatamente Agravo de Instrumento no Processo do Trabalho, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "Pela Súmula 414 do TST (atualizada ao CPC/2015): (1) quando a tutela provisória for concedida ou indeferida ANTES da sentença (decisão interlocutória — irrecorrível de imediato pelo Art. 893, § 1º, CLT), cabe a impetração de MANDADO DE SEGURANÇA para o TRT, por ausência de recurso específico imediato (Súmula 414, II, TST); já (2) quando a tutela provisória for concedida NA SENTENÇA, NÃO cabe Mandado de Segurança — o meio impugnativo cabível é o RECURSO ORDINÁRIO, podendo a parte requerer a obtenção de efeito suspensivo ao recurso mediante requerimento dirigido ao Tribunal/Relator (Súmula 414, I, TST)!"
+        "text": "Pela Súmula 414 do TST: quando a tutela provisória for concedida ou indeferida antes da sentença, cabe a impetração de mandado de segurança para o TRT, por ausência de recurso específico imediato."
       },
       {
         "letter": "D",
-        "text": "A superveniência da sentença de mérito no processo principal não prejudica o Mandado de Segurança anteriormente impetrado contra a decisão liminar."
+        "text": "A superveniência da sentença de mérito no processo principal não prejudica o Mandado de Segurança anteriormente impetrado contra a decisão liminar, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "C",
@@ -1021,19 +1021,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Processo do Trabalho cabe Agravo de Instrumento contra decisões interlocutórias que indeferem provas ou tutelas de urgência."
+        "text": "No Processo do Trabalho cabe Agravo de Instrumento contra decisões interlocutórias que indeferem provas ou tutelas de urgência, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "Quando o juiz acolhe exceção de incompetência territorial remetendo os autos para outra Vara do Trabalho vinculada ao mesmo TRT, cabe Recurso Ordinário imediato."
+        "text": "Quando o juiz acolhe exceção de incompetência territorial remetendo os autos para outra Vara do Trabalho vinculada ao mesmo TRT, cabe Recurso Ordinário imediato, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "Em regra, NÃO cabe recurso imediato contra decisões interlocutórias na Justiça do Trabalho (princípio da irrecorribilidade imediata das interlocutórias — Art. 893, § 1º, CLT — devendo a parte consignar seu PROTESTO em audiência para evitar preclusão e impugnar apenas no Recurso Ordinário contra a sentença definitiva!). As ÚNICAS exceções da Súmula 214 do TST (em que cabe recurso imediato) são decisão interlocutória: (a) de TRT contrária à Súmula ou OJ do TST; (b) suscetível de impugnação mediante recurso para o MESMO Tribunal (ex.: agravo interno contra decisão monocrática de relator); e (c) que acolhe exceção de incompetência territorial com remessa dos autos para Vara vinculada a TRT DISTINTO!"
+        "text": "Em regra, não cabe recurso imediato contra decisões interlocutórias na Justiça do Trabalho. As únicas exceções da Súmula 214 do TST são decisão interlocutória: (a) de TRT contrária à Súmula ou OJ do TST; (b) suscetível de impugnação mediante recurso para o mesmo Tribunal; e (c) que acolhe exceção de incompetência territorial com remessa dos autos para Vara vinculada a TRT distinto."
       },
       {
         "letter": "D",
-        "text": "A decisão do juiz do trabalho que decreta o indeferimento da prova testemunhal sem protesto imediato da parte em audiência pode ser alegada livremente pela primeira vez no Recurso Ordinário."
+        "text": "A decisão do juiz do trabalho que decreta o indeferimento da prova testemunhal sem protesto imediato da parte em audiência pode ser alegada livremente pela primeira vez no Recurso Ordinário, com reexame amplo de fatos, provas e pedidos não deduzidos na instância originária."
       }
     ],
     "correctAnswer": "C",
@@ -1077,19 +1077,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O depósito recursal também é exigido do empregado reclamante quando interpor Recurso Ordinário contra sentença de improcedência."
+        "text": "O depósito recursal também é exigido do empregado reclamante quando interpor Recurso Ordinário contra sentença de improcedência, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "O depósito recursal (que possui natureza de GARANTIA DO JUÍZO — só exigido do EMPREGADOR quando há condenação em PECÚNIA, Súmula 161 TST!) tem seu valor REDUZIDO PELA METADE (50%) para entidades sem fins lucrativos, empregadores domésticos, microempreendedores individuais (MEI), microempresas (ME) e empresas de pequeno porte (EPP — Art. 899, § 9º, CLT)! Além disso, o depósito recursal PODE ser substituído por fiança bancária ou SEGURO GARANTIA JUDICIAL (Art. 899, § 11, CLT — com acréscimo de 30% pelo Ato Conjunto TST/CSJT nº 1/2019)! E são TOTALMENTE ISENTOS do depósito recursal (Art. 899, § 10, CLT): beneficiários da justiça gratuita, entidades filantrópicas e empresas em RECUPERAÇÃO JUDICIAL (além da Fazenda Pública e massa falida pela Súmula 86)!"
+        "text": "O depósito recursal tem seu valor reduzido pela metade (50%) para entidades sem fins lucrativos, empregadores domésticos, microempreendedores individuais (MEI), microempresas (ME) e empresas de pequeno porte."
       },
       {
         "letter": "C",
-        "text": "As empresas em recuperação judicial devem recolher 50% do depósito recursal em dinheiro."
+        "text": "As empresas em recuperação judicial devem recolher 50% do depósito recursal em dinheiro, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "Havendo condenação solidária de duas empresas no polo passivo, o depósito recursal efetuado integralmente por uma delas nunca aproveita à outra."
+        "text": "Havendo condenação solidária de duas empresas no polo passivo, o depósito recursal efetuado integralmente por uma delas nunca aproveita à outra, com deserção imediata do apelo ou preclusão do direito de impugnação pela parte interessada."
       }
     ],
     "correctAnswer": "B",
@@ -1133,19 +1133,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Processo do Trabalho não se admite recurso adesivo, ou sua admissão restringe-se exclusivamente ao Recurso Ordinário."
+        "text": "No Processo do Trabalho não se admite recurso adesivo, ou sua admissão restringe-se exclusivamente ao Recurso Ordinário, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "Pela Súmula 283 do TST, o RECURSO ADESIVO é plenamente compatível com o Processo do Trabalho e cabe, no prazo de 8 DIAS das contrarrazões, nas hipóteses de interposição de RECURSO ORDINÁRIO, AGRAVO DE PETIÇÃO, RECURSO DE REVISTA e EMBARGOS NO TST — desde que haja sucumbência recíproca (a matéria do adesivo NÃO precisa estar relacionada à do recurso principal)! Ademais, pela Súmula 393 do TST, o efeito devolutivo em profundidade do Recurso Ordinário transfere ao Tribunal a apreciação de todos os fundamentos da inicial ou da defesa ainda que não examinados na sentença (desde que renovados ou contidos no capítulo impugnado), podendo o TRT julgar imediatamente o mérito se a causa estiver madura (§ 2º)!"
+        "text": "O recurso adesivo é plenamente compatível com o Processo do Trabalho e cabe, no prazo de 8 dias das contrarrazões, nas hipóteses de interposição de recurso ordinário, agravo de petição, recurso de revista e embargos no TST."
       },
       {
         "letter": "C",
-        "text": "O recurso adesivo trabalhista tem vida autônoma: se a empresa desistir do recurso principal, o recurso adesivo do empregado continua sendo julgado normalmente."
+        "text": "O recurso adesivo trabalhista tem vida autônoma: se a empresa desistir do recurso principal, o recurso adesivo do empregado continua sendo julgado normalmente, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "D",
-        "text": "O Recurso Ordinário em face de sentença proferida no rito sumaríssimo também é cabível das decisões definitivas de competência originária dos TRTs."
+        "text": "O Recurso Ordinário em face de sentença proferida no rito sumaríssimo também é cabível das decisões definitivas de competência originária dos TRTs, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "B",
@@ -1189,11 +1189,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Embargos de Declaração trabalhistas suspendem (não interrompem) o prazo para interposição do Recurso Ordinário."
+        "text": "Os Embargos de Declaração trabalhistas suspendem (não interrompem) o prazo para interposição do Recurso Ordinário, com afastamento das normas processuais comuns diante da disciplina própria da execução laboral."
       },
       {
         "letter": "B",
-        "text": "Os Embargos de Declaração são opostos no prazo de 5 DIAS ÚTEIS (10 dias para Fazenda Pública e MPT!) nas hipóteses de omissão, contradição, obscuridade e MANIFESTO EQUÍVOCO NO EXAME DOS PRESSUPOSTOS EXTRÍNSECOS DO RECURSO (Art. 897-A, caput, CLT)! Caso os embargos tenham eventual EFEITO MODIFICATIVO, é obrigatória a intimação prévia da parte contrária para manifestação em 5 DIAS (§ 2º e OJ 142 SDI-1)! Os ED tempestivos INTERROMPEM o prazo para interposição de outros recursos por qualquer das partes (§ 3º — salvo se intempestivos ou irregulares quanto à representação!), e os erros materiais podem ser corrigidos de ofício ou a requerimento (§ 1º)!"
+        "text": "Os Embargos de Declaração são opostos no prazo de 5 dias úteis nas hipóteses de omissão, contradição, obscuridade e manifesto equívoco no exame dos pressupostos extrínsecos do recurso."
       },
       {
         "letter": "C",
@@ -1245,11 +1245,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No rito sumaríssimo, cabe Recurso de Revista por violação literal de dispositivo da CLT e por Orientação Jurisprudencial (OJ) da SDI-1 do TST."
+        "text": "No rito sumaríssimo, cabe Recurso de Revista por violação literal de dispositivo da CLT e por Orientação Jurisprudencial (OJ) da SDI-1 do TST, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "B",
-        "text": "NENHUM DOS DOIS! Primeiro, não cabe Recurso de Revista para REEXAME DE FATOS E PROVAS (Súmula 126 do TST), nem por divergência jurisprudencial entre Turmas do MESMO TRT (OJ 111 SDI-1 TST — a divergência apta no Art. 896, \"a\", exige outro TRT, SDI do TST ou súmula/OJ do TST!). Segundo, nas causas sujeitas ao RITO SUMARÍSSIMO (Art. 896, § 9º, CLT), somente será admitido Recurso de Revista por contrariedade a SÚMULA DO TST, SÚMULA VINCULANTE DO STF ou por VIOLAÇÃO DIRETA DA CONSTITUIÇÃO FEDERAL (não cabe por violação de lei federal como a CLT, nem por divergência jurisprudencial nem por OJ — Súmula 442 TST)! Além disso, todo RR exige indicação da TRANSCENDÊNCIA (econômica, política, social ou jurídica — Art. 896-A) e transcrição do trecho prequestionado (§ 1º-A)!"
+        "text": "Nenhum dos dois. Primeiro, não cabe Recurso de Revista para reexame de fatos e provas, nem por divergência jurisprudencial entre Turmas do mesmo TRT."
       },
       {
         "letter": "C",
@@ -1301,19 +1301,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Agravo de Petição dispensa delimitação dos valores impugnados quando o agravante impugnar apenas parte da conta de liquidação."
+        "text": "O Agravo de Petição dispensa delimitação dos valores impugnados quando o agravante impugnar apenas parte da conta de liquidação, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "Contra a decisão que denega seguimento a recurso (RO, RR, AP etc.) cabe AGRAVO DE INSTRUMENTO no prazo de 8 DIAS ÚTEIS (Art. 897, \"b\", CLT), exigindo depósito recursal específico de 50% do valor do depósito do recurso que se pretende destrancar (§ 7º — salvo se o recurso destrancado já estiver integralmente garantido ou o recorrente for isento, Súmula 128, II, TST!). Já contra decisões do juiz na EXECUÇÃO (ex.: sentença de embargos à execução, liquidação impugnada, embargos de terceiro, incidente de desconsideração da PJ) cabe AGRAVO DE PETIÇÃO em 8 DIAS ÚTEIS (Art. 897, \"a\", CLT), o qual SÓ será recebido quando o agravante DELIMITAR JUSTIFICADAMENTE as matérias e os VALORES impugnados (§ 1º), permitindo a execução imediata da parte incontroversa!"
+        "text": "Contra a decisão que denega seguimento a recurso (RO, RR, ap etc.) cabe agravo de instrumento no prazo de 8 dias úteis, exigindo depósito recursal específico de 50% do valor do depósito do recurso que se pretende destrancar."
       },
       {
         "letter": "C",
-        "text": "O Agravo de Instrumento trabalhista exige pagamento de custas específicas prévias além do depósito de 50% para ser conhecido."
+        "text": "O Agravo de Instrumento trabalhista exige pagamento de custas específicas prévias além do depósito de 50% para ser conhecido, com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo."
       },
       {
         "letter": "D",
-        "text": "Se a empresa interpuser Agravo de Petição contra decisão que rejeitou Exceção de Pré-Executividade, o recurso é sempre inadmissível por ser decisão interlocutória."
+        "text": "Se a empresa interpuser Agravo de Petição contra decisão que rejeitou Exceção de Pré-Executividade, o recurso é sempre inadmissível por ser decisão interlocutória, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       }
     ],
     "correctAnswer": "B",
@@ -1357,19 +1357,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Contra decisão de Turma do TST que nega provimento a Agravo de Instrumento mantendo a ausência de pressupostos intrínsecos do RR cabem amplamente Embargos à SDI-1."
+        "text": "Contra decisão de Turma do TST que nega provimento a Agravo de Instrumento mantendo a ausência de pressupostos intrínsecos do RR cabem amplamente Embargos à SDI-1, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "B",
-        "text": "Contra decisão de Turma do TST que divergir de outra Turma ou da SDI, ou contrariar súmula/OJ do TST ou Súmula Vinculante do STF, cabem EMBARGOS DE DIVERGÊNCIA no prazo de 8 DIAS ÚTEIS para a SDI-1 do TST (Art. 894, II, CLT — também cabem Embargos Infringentes em 8 dias de decisão não unânime em dissídio coletivo de competência originária do TST, inciso I!); já o recurso que NÃO impugna os fundamentos da decisão recorrida (cópia pura da inicial/contestação) NÃO é conhecido por ausência de DIALETICIDADE, nos termos da Súmula 422, I, do TST!"
+        "text": "Contra decisão de Turma do TST que divergir de outra Turma ou da SDI, ou contrariar súmula/OJ do TST ou Súmula Vinculante do STF, cabem embargos de divergência no prazo de 8 dias úteis para a SDI-1 do TST."
       },
       {
         "letter": "C",
-        "text": "O prazo dos Embargos de Divergência para a SDI-1 do TST é de 15 dias úteis por força do CPC."
+        "text": "O prazo dos Embargos de Divergência para a SDI-1 do TST é de 15 dias úteis por força do CPC, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "A Súmula 422 do TST aplica-se inclusive no Recurso Ordinário ainda que a motivação do recurso não seja totalmente dissociada da sentença."
+        "text": "A Súmula 422 do TST aplica-se inclusive no Recurso Ordinário ainda que a motivação do recurso não seja totalmente dissociada da sentença, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       }
     ],
     "correctAnswer": "B",
@@ -1413,19 +1413,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Toda sentença condenatória proferida contra Município na Justiça do Trabalho está sujeita ao duplo grau obrigatório independentemente do valor da condenação."
+        "text": "Toda sentença condenatória proferida contra Município na Justiça do Trabalho está sujeita ao duplo grau obrigatório independentemente do valor da condenação, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "B",
-        "text": "NÃO! Pela Súmula 303, I, do TST (alinhada ao Art. 496, §§ 3º e 4º, do CPC!), nas decisões proferidas contra a Fazenda Pública NÃO se aplica a remessa necessária quando: (1) a condenação ou proveito econômico não ultrapassar 1.000 salários mínimos (União), 500 salários mínimos (Estados/DF/Capitais) ou 100 SALÁRIOS MÍNIMOS (Municípios — aqui R$ 45.000 é inferior a 100 SM!); OU (2) quando a decisão estiver em consonância com decisão plenária do STF, súmula do STF ou do TST ou tese em recurso repetitivo!"
+        "text": "Não. do TST, nas decisões proferidas contra a Fazenda Pública não se aplica a remessa necessária quando: a condenação ou proveito econômico não ultrapassar 1.000 salários mínimos (União), 500 salários mínimos ou 100 salários mínimos."
       },
       {
         "letter": "C",
-        "text": "Empresas públicas e sociedades de economia mista também têm direito à remessa necessária e ao prazo em dobro do DL 779/69."
+        "text": "Empresas públicas e sociedades de economia mista também têm direito à remessa necessária e ao prazo em dobro do DL 779/69, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "A Fazenda Pública, quando não interpõe Recurso Ordinário e o processo sobe por remessa necessária, pode interpor Recurso de Revista contra o acórdão do TRT que apenas confirmou a sentença."
+        "text": "A Fazenda Pública, quando não interpõe Recurso Ordinário e o processo sobe por remessa necessária, pode interpor Recurso de Revista contra o acórdão do TRT que apenas confirmou a sentença. Tal disciplina reflete a autonomia procedimental própria do processo judiciário do trabalho."
       }
     ],
     "correctAnswer": "B",
@@ -1469,19 +1469,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A exigência de \"comum acordo\" do Art. 114, § 2º, da CF foi declarada inconstitucional pelo STF por violar o acesso à jurisdição."
+        "text": "A exigência de \"comum acordo\" foi declarada inconstitucional pelo STF por violar o acesso à jurisdição, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "B",
-        "text": "No DISSÍDIO COLETIVO DE NATUREZA ECONÔMICA, o Art. 114, § 2º, da CF exige o COMUM ACORDO entre as partes como pressuposto processual constitucional (declarado plenamente CONSTITUCIONAL pelo STF na ADI 3423 e Súmula/OJ TST!), logo, havendo oposição expressa do sindicato patronal, o dissídio coletivo econômico deve ser EXTINTO SEM RESOLUÇÃO DO MÉRITO (o comum acordo NÃO é exigido no Dissídio Coletivo de GREVE em atividade essencial ajuizado pelo MPT pelo Art. 114, § 3º, nem no Dissídio Coletivo Jurídico/declaratório)! Já na AÇÃO DE CUMPRIMENTO (Art. 872, parágrafo único, CLT), ajuizada na Vara do Trabalho, NÃO precisa de comum acordo nem de trânsito em julgado da sentença normativa (Súmula 246 TST)!"
+        "text": "No dissídio coletivo de natureza econômica, a legislação aplicável exige o comum acordo entre as partes como pressuposto processual constitucional, logo, havendo oposição expressa do sindicato patronal, o dissídio coletivo econômico deve ser extinto sem resolução do mérito."
       },
       {
         "letter": "C",
-        "text": "A Ação de Cumprimento para executar cláusula de sentença normativa ou CCT deve ser ajuizada originariamente no TRT e aguardar o trânsito em julgado."
+        "text": "A Ação de Cumprimento para executar cláusula de sentença normativa ou CCT deve ser ajuizada originariamente no TRT e aguardar o trânsito em julgado, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "O Ministério Público do Trabalho não tem legitimidade para ajuizar dissídio coletivo nem mesmo em caso de greve em atividade essencial."
+        "text": "O Ministério Público do Trabalho não tem legitimidade para ajuizar dissídio coletivo nem mesmo em caso de greve em atividade essencial, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       }
     ],
     "correctAnswer": "B",
@@ -1525,19 +1525,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na Justiça do Trabalho o juiz continua obrigado a promover a execução trabalhista de ofício em todos os processos, inclusive quando há advogado."
+        "text": "Na Justiça do Trabalho o juiz continua obrigado a promover a execução trabalhista de ofício em todos os processos, inclusive quando há advogado, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "A execução de ofício quando a parte está assistida por advogado é INVÁLIDA após a Reforma Trabalhista! Pelo Art. 878 da CLT (com redação da Lei nº 13.467/17), a execução será promovida pelas partes, permitida a execução de ofício pelo juiz ou pelo Presidente do Tribunal APENAS NOS CASOS EM QUE AS PARTES NÃO ESTIVEREM REPRESENTADAS POR ADVOGADO (jus postulandi)! Já a execução do TAC do MPT e do termo de conciliação da CCP na Justiça do Trabalho é plenamente VÁLIDA por força do Art. 876, caput, da CLT (títulos executivos extrajudiciais — salvo o crédito previdenciário de ofício pelo Art. 876, parágrafo único)!"
+        "text": "A execução de ofício quando a parte está assistida por advogado é inválida após a Reforma Trabalhista. a execução será promovida pelas partes, permitida a execução de ofício pelo juiz ou pelo Presidente do Tribunal apenas nos casos em que as partes não estiverem representadas por advogado (jus postulandi). Já a execução do tac do MPT e do termo de conciliação da ccp na Justiça do Trabalho é plenamente válida por força."
       },
       {
         "letter": "C",
-        "text": "Os únicos títulos executivos admitidos na Justiça do Trabalho são as sentenças judiciais transitadas em julgado."
+        "text": "Os únicos títulos executivos admitidos na Justiça do Trabalho são as sentenças judiciais transitadas em julgado, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "Cheques e notas promissórias emitidos pelo empregador em favor do empregado fora de acordo homologado constituem títulos executivos extrajudiciais na Justiça do Trabalho."
+        "text": "Cheques e notas promissórias emitidos pelo empregador em favor do empregado fora de acordo homologado constituem títulos executivos extrajudiciais na Justiça do Trabalho, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "B",
@@ -1580,19 +1580,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na fase de liquidação trabalhista, o juiz tem mera faculdade de intimar as partes para impugnar a conta no prazo de 5 dias, sem gerar preclusão."
+        "text": "Na fase de liquidação trabalhista, o juiz tem mera faculdade de intimar as partes para impugnar a conta no prazo de 5 dias, sem gerar preclusão. Tal disciplina reflete a autonomia procedimental própria do processo judiciário do trabalho."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 879, § 2º, da CLT, elaborada a conta e tornada líquida, o juízo DEVERÁ abrir às partes prazo COMUM de 8 DIAS (úteis) para impugnação fundamentada com a indicação dos itens e valores objeto da discordância, SOB PENA DE PRECLUSÃO (diferente da antiga redação facultativa \"poderá\"!)! E quanto à atualização monetária e juros dos débitos trabalhistas (STF ADC 58 e Lei 14.905/2024!): na fase PRÉ-JUDICIAL aplica-se o IPCA-E (+ juros legais do Art. 39, caput, Lei 8.177/91 — TR acumulada) e, a partir do AJUIZAMENTO DA AÇÃO (ou citação conforme modulação/ADC 58: na JT = ajuizamento após Rcl/ED!), incide exclusivamente a taxa SELIC (que já engloba correção monetária e juros de mora — afastada a TR e afastada a cumulação de SELIC + juros de 1% ao mês do Art. 39, § 1º)!"
+        "text": "Elaborada a conta e tornada líquida, o juízo deverá abrir às partes prazo comum de 8 dias (úteis) para impugnação fundamentada com a indicação dos itens e valores objeto da discordância, sob pena de preclusão."
       },
       {
         "letter": "C",
-        "text": "Na Justiça do Trabalho, os créditos trabalhistas continuam corrigidos pela TR + juros de 1% ao mês somados à taxa SELIC após o ajuizamento."
+        "text": "Na Justiça do Trabalho, os créditos trabalhistas continuam corrigidos pela tr + juros de 1% ao mês somados à taxa SELIC após o ajuizamento, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "Na liquidação por cálculos na JT é permitido modificar ou inovar a sentença liquidanda para incluir parcela não constante do título."
+        "text": "Na liquidação por cálculos na jt é permitido modificar ou inovar a sentença liquidanda para incluir parcela não constante do título, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias."
       }
     ],
     "correctAnswer": "B",
@@ -1636,19 +1636,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O executado deve pagar ou garantir a execução em 48 HORAS (Art. 880 CLT); a ordem preferencial de penhora segue o Art. 835 do CPC (Art. 882 CLT), colocando DINHEIRO EM ESPÉCIE OU EM DEPÓSITO BANCÁRIO (SISBAJUD) em 1º LUGAR prioritário — sendo legítima e NÃO ofensiva a direito líquido e certo a penhora em dinheiro na execução definitiva (Súmula 417, I, do TST — já na execução PROVISÓRIA admite-se substituição se menos gravosa ou fiança/seguro!); e, garantida integralmente a execução ou penhorados os bens, o executado terá o prazo de 5 DIAS (úteis) para apresentar EMBARGOS À EXECUÇÃO (igual prazo tem o exequente para impugnação à sentença de liquidação — Art. 884, caput, CLT), dispensada a garantia apenas para entidades filantrópicas e seus diretores (§ 6º)!"
+        "text": "O executado deve pagar ou garantir a execução em 48 horas; a ordem preferencial de penhora segue o Art. 835 do CPC, colocando dinheiro em espécie ou em depósito bancário (sisbajud) em 1º lugar prioritário; e, garantida integralmente a execução ou penhorados os bens, o executado terá o prazo de 5 dias (úteis) para apresentar embargos à execução, dispensada a garantia apenas para entidades filantrópicas e seus diretores."
       },
       {
         "letter": "B",
-        "text": "O prazo para o executado pagar ou garantir a execução após a citação na Justiça do Trabalho é de 15 dias úteis, e o prazo dos embargos à execução é de 15 dias."
+        "text": "O prazo para o executado pagar ou garantir a execução após a citação na Justiça do Trabalho é de 15 dias úteis, e o prazo dos embargos à execução é de 15 dias, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "C",
-        "text": "Os embargos à execução na Justiça do Trabalho dispensam prévia garantia do juízo ou penhora de bens para qualquer empresa privada."
+        "text": "Os embargos à execução na Justiça do Trabalho dispensam prévia garantia do juízo ou penhora de bens para qualquer empresa privada, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "D",
-        "text": "Na execução provisória trabalhista, o exequente pode levantar imediatamente os valores depositados até o limite de 60 salários mínimos sem caução."
+        "text": "Na execução provisória trabalhista, o exequente pode levantar imediatamente os valores depositados até o limite de 60 salários mínimos sem caução, com prosseguimento regular da demanda mediante atuação pessoal das partes em qualquer grau."
       }
     ],
     "correctAnswer": "A",
@@ -1692,11 +1692,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A antiga Súmula 205 do TST (que proibia incluir na execução quem não participou da fase de conhecimento) foi CANCELADA em 2003, permitindo na prática trabalhista incluir empresas do grupo na execução; CONTUDO, o STF reconheceu repercussão geral no TEMA 1232 (RE 1.387.795 — com suspensão nacional de execuções até julgamento definitivo / analisando a aplicação do Art. 513, § 5º, do CPC que proíbe cumprimento de sentença contra quem não participou do conhecimento!), discutindo se a inclusão de empresa do grupo econômico na fase executiva sem contraditório na fase de conhecimento exige ao menos prévia instauração do IDPJ ou participação prévia no título!"
+        "text": "A antiga Súmula 205 do TST foi cancelada em 2003, permitindo na prática trabalhista incluir empresas do grupo na execução."
       },
       {
         "letter": "B",
-        "text": "A Súmula 205 do TST continua em pleno vigor proibindo qualquer discussão no STF sobre grupo econômico na execução."
+        "text": "A Súmula 205 do TST continua em pleno vigor proibindo qualquer discussão no STF sobre grupo econômico na execução, com reexame amplo de fatos, provas e pedidos não deduzidos na instância originária."
       },
       {
         "letter": "C",
@@ -1748,19 +1748,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 883-A da CLT (inserido pela Lei nº 13.467/2017), a decisão judicial transitada em julgado somente poderá ser levada a PROTESTO, gerar inscrição do nome do executado em órgãos de proteção ao crédito ou no Banco Nacional de Devedores Trabalhistas (BNDT), nos termos da lei, depois de transcorrido o prazo de 45 (QUARENTA E CINCO) DIAS a contar da CITAÇÃO do executado, se não houver garantia do juízo!"
+        "text": "Pelo Art. 883-A da CLT, a decisão judicial transitada em julgado somente poderá ser levada a protesto, gerar inscrição do nome do executado em órgãos de proteção ao crédito ou no Banco Nacional de Devedores Trabalhistas (bndt), nos termos da lei, depois de transcorrido o prazo de 45 (quarenta e cinco) dias a contar da citação do executado, se não houver garantia do juízo."
       },
       {
         "letter": "B",
-        "text": "O protesto e a inscrição no BNDT ocorrem automaticamente imediatamente após esgotado o prazo de 48 horas da citação na execução."
+        "text": "O protesto e a inscrição no bndt ocorrem automaticamente imediatamente após esgotado o prazo de 48 horas da citação na execução, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "A inscrição positiva no BNDT impede apenas a participação em licitações públicas, sem impedir o protesto extrajudicial em cartório."
+        "text": "A inscrição positiva no bndt impede apenas a participação em licitações públicas, sem impedir o protesto extrajudicial em cartório, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "D",
-        "text": "Mesmo que o executado apresente seguro garantia judicial ou depósito integral do valor executado dentro dos 45 dias, ainda assim será inscrito no BNDT com certidão positiva."
+        "text": "Mesmo que o executado apresente seguro garantia judicial ou depósito integral do valor executado dentro dos 45 dias, ainda assim será inscrito no bndt com certidão positiva, com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       }
     ],
     "correctAnswer": "A",
@@ -1803,7 +1803,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na PRIMEIRA empresa (recolhimento INSUFICIENTE de custas ou de depósito recursal — depositou a menor!), aplica-se a OJ 140 da SDI-1 do TST c/c Art. 1.007, § 2º, do CPC: só haverá deserção se, intimado o recorrente para complementar no prazo de 5 DIAS, não vier a suprir a diferença! Já na SEGUNDA empresa (AUSÊNCIA TOTAL de comprovação do pagamento de custas ou depósito no prazo recursal!), o TST entende que NÃO se aplica a dobra do § 4º do Art. 1.007 do CPC — ocorrendo DESERÇÃO IMEDIATA (conforme OJ 140 SDI-1 e Súmula 245 TST)!"
+        "text": "Na primeira empresa, aplica-se a OJ 140 da SDI-1 do TST c/c Art. 1.007, § 2º, do CPC: só haverá deserção se, intimado o recorrente para complementar no prazo de 5 dias, não vier a suprir a diferença."
       },
       {
         "letter": "B",
@@ -1811,11 +1811,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Qualquer diferença de centavos no depósito recursal gera deserção instantânea do recurso sem intimação prévia para complementação."
+        "text": "Qualquer diferença de centavos no depósito recursal gera deserção instantânea do recurso sem intimação prévia para complementação, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "Se a parte comprovar equívoco no preenchimento da guia de custas (GRU), o juiz decreta deserção sumária sem oportunidade de saneamento."
+        "text": "Se a parte comprovar equívoco no preenchimento da guia de custas (gru), o juiz decreta deserção sumária sem oportunidade de saneamento, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "A",
@@ -1859,19 +1859,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela Súmula 385, I, do TST (e Art. 1.003, § 6º, CPC — atenção à nova Lei nº 14.939/2024!), incumbe à parte o ônus de PROVAR, quando da interposição do recurso, a existência de feriado local que autorize a prorrogação do prazo recursal — mas atenção: pela Súmula 385, II e III, do TST, se a suspensão de expediente decorrer de ato do próprio Tribunal (portaria/resolução do TRT) ou for fato notório/recorrente no local, e no caso de dúvida razoável (itens II e III da Súmula 385 + Art. 932, § único CPC + Lei 14.939/24 que alterou o Art. 1.003, § 6º permitindo intimação em 5 dias para comprovar feriado local no CPC!), cabe observar a comprovação documental ou a intimação saneadora conforme a lei vigente!"
+        "text": "Do TST, incumbe à parte o ônus de provar, quando da interposição do recurso, a existência de feriado local que autorize a prorrogação do prazo recursal."
       },
       {
         "letter": "B",
-        "text": "Os feriados municipais e estaduais são sempre presumidos de ofício pelos Tribunais Superiores em Brasília sem necessidade de prova nos autos."
+        "text": "Os feriados municipais e estaduais são sempre presumidos de ofício pelos Tribunais Superiores em Brasília sem necessidade de prova nos autos, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "C",
-        "text": "A simples menção à existência do feriado local no texto da petição do recurso substitui o documento oficial comprobatório."
+        "text": "A simples menção à existência do feriado local no texto da petição do recurso substitui o documento oficial comprobatório, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "Se o dia final do prazo cair em sábado ou domingo, o prazo recursal vence antecipadamente na sexta-feira anterior."
+        "text": "Se o dia final do prazo cair em sábado ou domingo, o prazo recursal vence antecipadamente na sexta-feira anterior, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "A",
@@ -1915,11 +1915,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pode utilizar EXCEÇÃO DE PRÉ-EXECUTIVIDADE (EPE), independentemente de garantia do juízo! Embora não prevista expressamente na CLT, é amplamente admitida na Justiça do Trabalho para arguir matérias de ordem pública cognoscíveis de ofício ou fatos modificativos/extintivos (nulidade absoluta de citação, ilegitimidade manifesta/homônimo, pagamento comprovado por documento inequívoco, prescrição) que DISPENSEM DILAÇÃO PROBATÓRIA! Se acolhida extinguindo a execução, cabe Agravo de Petição; se rejeitada, é decisão interlocutória irrecorrível de imediato (Art. 893, § 1º, CLT)!"
+        "text": "Pode utilizar exceção de pré-executividade (epe), independentemente de garantia do juízo."
       },
       {
         "letter": "B",
-        "text": "A Exceção de Pré-Executividade exige depósito prévio integral do valor executado e permite ampla oitiva de testemunhas."
+        "text": "A Exceção de Pré-Executividade exige depósito prévio integral do valor executado e permite ampla oitiva de testemunhas, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
@@ -1927,7 +1927,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A Exceção de Pré-Executividade tem prazo decadencial de 5 dias após a citação para pagamento."
+        "text": "A Exceção de Pré-Executividade tem prazo decadencial de 5 dias após a citação para pagamento, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       }
     ],
     "correctAnswer": "A",
@@ -1970,19 +1970,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A medida cabível são os EMBARGOS DE TERCEIRO (Arts. 674 e ss. do CPC c/c Art. 769 CLT), no prazo de até 5 DIAS depois da arrematação, adjudicação ou alienação por iniciativa particular, mas sempre ANTES DA ASSINATURA DA RESPECTIVA CARTA (Art. 675 CPC)! E pela Súmula 419 do TST, na execução por CARTA PRECATÓRIA, os embargos de terceiro serão oferecidos no juízo DEPRECANTE ou no juízo DEPRECADO, mas a COMPETÊNCIA PARA JULGÁ-LOS é do juízo DEPRECANTE, SALVO se versarem unicamente sobre vícios ou irregularidades da penhora, avaliação ou alienação dos bens praticados pelo juízo deprecado (caso em que julga o deprecado)! Da sentença dos embargos de terceiro na JT cabe AGRAVO DE PETIÇÃO em 8 dias úteis!"
+        "text": "A medida cabível são os embargos de terceiro, no prazo de até 5 dias depois da arrematação, adjudicação ou alienação por iniciativa particular, mas sempre antes da assinatura da respectiva carta. na execução por carta precatória, os embargos de terceiro serão oferecidos no juízo deprecante ou no juízo deprecado, mas a competência para julgá-los é do juízo deprecante, salvo se versarem unicamente sobre vícios ou irregularidades da penhora, avaliação ou alienação dos bens praticados pelo juízo deprecado."
       },
       {
         "letter": "B",
-        "text": "Os Embargos de Terceiro na Justiça do Trabalho desafiam Recurso Ordinário contra a sentença que os julga improcedentes."
+        "text": "Os Embargos de Terceiro na Justiça do Trabalho desafiam Recurso Ordinário contra a sentença que os julga improcedentes, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "Na carta precatória executória, o juízo deprecado é sempre competente para julgar todos os Embargos de Terceiro independentemente da matéria alegada."
+        "text": "Na carta precatória executória, o juízo deprecado é sempre competente para julgar todos os Embargos de Terceiro independentemente da matéria alegada, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "O prazo para opor Embargos de Terceiro na fase de execução encerra-se 5 dias após a intimação da penhora."
+        "text": "O prazo para opor Embargos de Terceiro na fase de execução encerra-se 5 dias após a intimação da penhora, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "A",
@@ -2026,11 +2026,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Fazenda Pública NÃO se sujeita à penhora nem à garantia do juízo (Art. 100 CF) e tem prazo de 30 DIAS (úteis pelo CPC — Art. 535 CPC / Art. 1º-B da Lei 9.494/97 declarado constitucional pelo STF na ADC 11!) para opor Embargos à Execução / Impugnação! Não havendo oposição ou transitada em julgado a execução, se o valor não ultrapassar o teto definido em lei local do Município (ou, na omissão legislativa local, o teto mínimo constitucional do Art. 87 do ADCT = 30 SALÁRIOS MÍNIMOS para Municípios e 40 SM para Estados/DF; na União = 60 SM pela Lei 10.259/01!), o pagamento ocorre por REQUISIÇÃO DE PEQUENO VALOR (RPV) no prazo de 2 MESES (60 dias) da entrega da requisição (sob pena de sequestro!); acima do teto, expede-se PRECATÓRIO!"
+        "text": "A Fazenda Pública não se sujeita à penhora nem à garantia do juízo e tem prazo de 30 dias para opor Embargos à Execução / Impugnação."
       },
       {
         "letter": "B",
-        "text": "O prazo da Fazenda Pública para opor Embargos à Execução trabalhista é de 5 dias úteis, igual ao das empresas privadas."
+        "text": "O prazo da Fazenda Pública para opor Embargos à Execução trabalhista é de 5 dias úteis, igual ao das empresas privadas, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "C",
@@ -2082,7 +2082,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nos termos do Art. 832, §§ 3º e 4º, da CLT (e OJ 368 SDI-1 TST): se as partes discriminarem na conciliação a natureza indenizatória da parcela em sintonia com os pedidos da inicial, NÃO incide INSS (só incide sobre todo o valor se NÃO houver discriminação das parcelas ou se houver sentença condenatória líquida vinculada a parcelas salariais — OJ 376 SDI-1)! A União é intimada dos acordos/decisões e pode recorrer (RO no prazo em dobro de 16 dias úteis — Art. 832, § 4º)! E pela Súmula 368, IV e V, do TST, após a MP 449/2008 (a partir de 05/03/2009), o FATO GERADOR da contribuição previdenciária é a PRESTAÇÃO DE SERVIÇOS (incidindo juros Selic desde a prestação, e multa de mora só após o término do prazo de pagamento depois da liquidação)!"
+        "text": "Da CLT: se as partes discriminarem na conciliação a natureza indenizatória da parcela em sintonia com os pedidos da inicial, não incide INSS."
       },
       {
         "letter": "B",
@@ -2094,7 +2094,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Para a União (INSS), os prazos recursais nas decisões homologatórias de acordo são simples (8 dias), sem prerrogativa de prazo em dobro."
+        "text": "Para a União (INSS), os prazos recursais nas decisões homologatórias de acordo são simples (8 dias), sem prerrogativa de prazo em dobro. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       }
     ],
     "correctAnswer": "A",
@@ -2138,19 +2138,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo decadencial da Ação Rescisória é de 2 ANOS contados do dia imediatamente subsequente ao trânsito em julgado da ÚLTIMA decisão proferida no processo (Art. 975 CPC e Súmula 100, I, do TST — inclusive se houve recurso parcial, salvo recurso intempestivo, Súmula 100, III)! Na Justiça do Trabalho, o DEPÓSITO PRÉVIO obrigatório (Art. 836 da CLT — diferente dos 5% do CPC!) é de 20% (VINTE POR CENTO) DO VALOR DA CAUSA, salvo prova de miserabilidade jurídica (justiça gratuita)! E da decisão definitiva do TRT na Ação Rescisória (competência originária) cabe RECURSO ORDINÁRIO para o TST (8 dias úteis — Art. 895, II, CLT)!"
+        "text": "O prazo decadencial da Ação Rescisória é de 2 anos contados do dia imediatamente subsequente ao trânsito em julgado da última decisão proferida no processo."
       },
       {
         "letter": "B",
-        "text": "O depósito prévio da Ação Rescisória trabalhista é de 5% sobre o valor da causa, seguindo integralmente o CPC."
+        "text": "O depósito prévio da Ação Rescisória trabalhista é de 5% sobre o valor da causa, seguindo integralmente o CPC, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "Na Justiça do Trabalho não cabe Ação Rescisória contra termo de conciliação homologado judicialmente (acordo)."
+        "text": "Na Justiça do Trabalho não cabe Ação Rescisória contra termo de conciliação homologado judicialmente (acordo), com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias."
       },
       {
         "letter": "D",
-        "text": "A parte pode ajuizar pessoalmente Ação Rescisória no TRT utilizando o jus postulandi do Art. 791 da CLT."
+        "text": "A parte pode ajuizar pessoalmente Ação Rescisória no TRT utilizando o jus postulandi, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução."
       }
     ],
     "correctAnswer": "A",
@@ -2194,19 +2194,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A tentativa de conciliação na Justiça do Trabalho é obrigatória apenas na abertura da audiência, sendo facultativa após as razões finais."
+        "text": "A tentativa de conciliação na Justiça do Trabalho é obrigatória apenas na abertura da audiência, sendo facultativa após as razões finais, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "B",
-        "text": "O termo de conciliação homologado em juízo pela Justiça do Trabalho desafia Recurso Ordinário pelas partes se uma delas se arrepender em 8 dias."
+        "text": "O termo de conciliação homologado em juízo pela Justiça do Trabalho desafia Recurso Ordinário pelas partes se uma delas se arrepender em 8 dias, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "No Procedimento Sumaríssimo, o juiz do trabalho deve proferir sentença com relatório extenso detalhando todos os depoimentos."
+        "text": "No Procedimento Sumaríssimo, o juiz do trabalho deve proferir sentença com relatório extenso detalhando todos os depoimentos, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução."
       },
       {
         "letter": "D",
-        "text": "Pela CLT, há DOIS momentos obrigatórios de proposta de conciliação pelo juiz: (1) aberta a audiência, ANTES da apresentação da defesa (Art. 846 CLT); e (2) terminada a instrução e após aduzidas as razões finais, ANTES de proferida a sentença (Art. 850 CLT)! Segundo a jurisprudência consolidada do TST, a ausência da PRIMEIRA tentativa de conciliação não gera nulidade automática se renovada ao final sem prejuízo; já a ausência da SEGUNDA proposta conciliatória (após razões finais) pode ensejar NULIDADE da sentença SE houver prejuízo efetivo e arguição oportuna pela parte (Art. 794 CLT)!"
+        "text": "Pela CLT, há dois momentos obrigatórios de proposta de conciliação pelo juiz: aberta a audiência, antes da apresentação da defesa."
       }
     ],
     "correctAnswer": "D",
@@ -2250,19 +2250,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A multa por litigância de má-fé na CLT varia de 10% a 20% do valor da causa e não pode ser aplicada de ofício."
+        "text": "A multa por litigância de má-fé na CLT varia de 10% a 20% do valor da causa e não pode ser aplicada de ofício, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "Na Justiça do Trabalho, mesmo que duas ou mais pessoas litiguem de má-fé, a multa será obrigatoriamente solidária em todos os casos."
+        "text": "Na Justiça do Trabalho, mesmo que duas ou mais pessoas litiguem de má-fé, a multa será obrigatoriamente solidária em todos os casos. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "A testemunha compromissada não pode sofrer sanção financeira direta pelo juiz do trabalho no próprio processo."
+        "text": "A testemunha compromissada não pode sofrer sanção financeira direta pelo juiz do trabalho no próprio processo, com afastamento das normas processuais comuns diante da disciplina própria da execução laboral."
       },
       {
         "letter": "D",
-        "text": "Pelos Arts. 793-A a 793-C da CLT (inseridos pela Reforma Trabalhista), quem litiga de má-fé (autor, réu ou interveniente) será condenado, de ofício ou a requerimento, a pagar MULTA SUPERIOR A 1% E INFERIOR A 10% do valor corrigido da causa, além de indenizar a parte contrária pelos prejuízos, honorários e despesas! Se o valor da causa for irrisório ou inestimável, a multa poderá ser fixada em até 2 VEZES o limite máximo dos benefícios do RGPS (Art. 793-C, § 2º)! E pelo Art. 793-D da CLT, aplica-se a MESMA multa (> 1% e < 10%) à TESTEMUNHA que intencionalmente alterar a verdade dos fatos ou omitir fatos essenciais ao julgamento da causa!"
+        "text": "Pelos Arts. 793-A a 793-C da CLT, quem litiga de má-fé será condenado, de ofício ou a requerimento, a pagar multa superior A 1% e inferior a 10% do valor corrigido da causa."
       }
     ],
     "correctAnswer": "D",
@@ -2305,19 +2305,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 193 do Código Civil, a prescrição quinquenal pode ser alegada pela primeira vez no Recurso de Revista ao TST e deve ser declarada de ofício pelo juiz na fase de conhecimento."
+        "text": "A prescrição quinquenal pode ser alegada pela primeira vez no Recurso de Revista ao TST e deve ser declarada de ofício pelo juiz na fase de conhecimento, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "A prescrição só pode ser alegada na contestação de 1º grau, precluindo se suscitada pela primeira vez no Recurso Ordinário ao TRT."
+        "text": "A prescrição só pode ser alegada na contestação de 1º grau, precluindo se suscitada pela primeira vez no Recurso Ordinário ao TRT, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução."
       },
       {
         "letter": "C",
-        "text": "A prescrição intercorrente na execução trabalhista também depende de provocação expressa da parte executada, nunca podendo ser reconhecida de ofício."
+        "text": "A prescrição intercorrente na execução trabalhista também depende de provocação expressa da parte executada, nunca podendo ser reconhecida de ofício, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "NÃO! Pela Súmula 153 do TST, NÃO se conhece de prescrição NÃO arguida na INSTÂNCIA ORDINÁRIA (ou seja, precisa ser alegada na Vara do Trabalho — na contestação ou até razões finais — ou no Recurso Ordinário/contrarrazões perante o TRT)! É INVIÁVEL arguir a prescrição bienal/quinquenal pela primeira vez em sede de Recurso de Revista ou Embargos ao TST! Ademais, a jurisprudência predominante do TST entende incompatível com a proteção trabalhista a pronúncia DE OFÍCIO da prescrição bienal/quinquenal pelo juiz na fase de conhecimento (diferente da prescrição INTERCORRENTE na execução, que o Art. 11-A, § 2º, CLT autoriza declarar de ofício)!"
+        "text": "Não. não se conhece de prescrição não arguida na instância ordinária. É inviável arguir a prescrição bienal/quinquenal pela primeira vez em sede de Recurso de Revista ou Embargos ao TST."
       }
     ],
     "correctAnswer": "D",
@@ -2361,19 +2361,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para atuar como substituto processual na Justiça do Trabalho, o sindicato precisa apresentar procuração individual ou autorização expressa de cada trabalhador substituído."
+        "text": "Para atuar como substituto processual na Justiça do Trabalho, o sindicato precisa apresentar procuração individual ou autorização expressa de cada trabalhador substituído, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "A sentença proferida em Ação Civil Pública trabalhista limita seus efeitos obrigatoriamente aos limites geográficos da jurisdição da Vara do Trabalho prolatora."
+        "text": "A sentença proferida em Ação Civil Pública trabalhista limita seus efeitos obrigatoriamente aos limites geográficos da jurisdição da Vara do Trabalho prolatora, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "C",
-        "text": "A desistência da ação coletiva pelo sindicato ou associação acarreta a perda automática do prazo prescricional para as ações individuais dos trabalhadores."
+        "text": "A desistência da ação coletiva pelo sindicato ou associação acarreta a perda automática do prazo prescricional para as ações individuais dos trabalhadores, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 8º, III, da CF e Tema 823 do STF (Súmula 286 TST / cancelamento da Súmula 310), o SINDICATO possui legitimidade extraordinária AMPLA como substituto processual para defender direitos individuais homogêneos ou coletivos de TODA a categoria, DISPENSANDO autorização individual ou juntada de rol de substituídos! E quanto à Ação Civil Pública trabalhista: a competência territorial define-se pela extensão do dano (OJ 130 SDI-2 TST — dano local = Vara do local; dano regional/supramunicipal = qualquer Vara da Capital do Estado ou DF; dano nacional = Vara do DF ou da Capital!), e o STF no Tema 1075 declarou INCONSTITUCIONAL o Art. 16 da Lei 7.347/85 (logo, a coisa julgada na ACP tem eficácia nacional/erga omnes na extensão dos substituídos, sem limitação à competência territorial do órgão prolator)!"
+        "text": "Da CF e Tema 823 do STF, o sindicato possui legitimidade extraordinária ampla como substituto processual para defender direitos individuais homogêneos ou coletivos de toda a categoria, dispensando autorização individual ou juntada de rol de substituídos."
       }
     ],
     "correctAnswer": "D",
@@ -2417,19 +2417,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por força do Art. 15 do CPC, são obrigatórias na Justiça do Trabalho a denunciação da lide à seguradora e o chamamento ao processo em toda ação acidentária."
+        "text": "Por força, são obrigatórias na Justiça do Trabalho a denunciação da lide à seguradora e o chamamento ao processo em toda ação acidentária, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "B",
-        "text": "O amicus curiae não pode ser admitido em recursos repetitivos ou incidentes trabalhistas por ser instituto exclusivo do controle de constitucionalidade no STF."
+        "text": "O amicus curiae não pode ser admitido em recursos repetitivos ou incidentes trabalhistas por ser instituto exclusivo do controle de constitucionalidade no STF, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias."
       },
       {
         "letter": "C",
-        "text": "O IDPJ (Incidente de Desconsideração da Personalidade Jurídica) é inaplicável no Processo do Trabalho, seguindo o redirecionamento direto."
+        "text": "O IDPJ (Incidente de Desconsideração da Personalidade Jurídica) é inaplicável no Processo do Trabalho, seguindo o redirecionamento direto, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "Atenção à IN 39/2016 do TST e à jurisprudência após a EC 45/2004: admite-se na Justiça do Trabalho a ASSISTÊNCIA (simples e litisconsorcial), o INCIDENTE DE DESCONSIDERAÇÃO DA PERSONALIDADE JURÍDICA (IDPJ — Art. 855-A CLT) e o AMICUS CURIAE (Art. 138 CPC); CONTUDO, o TST continua rejeitando em regra a DENUNCIAÇÃO DA LIDE e o CHAMAMENTO AO PROCESSO quando introduzam relação jurídica estritamente civil/securitária alheia à competência material do Art. 114 da CF (ex.: seguradora privada), ou que atrasem injustificadamente a marcha processual do crédito alimentar do trabalhador!"
+        "text": "Atenção à IN 39/2016 do TST e à jurisprudência após a EC 45/2004: admite-se na Justiça do Trabalho a assistência, o incidente de desconsideração da personalidade jurídica e o amicus curiae."
       }
     ],
     "correctAnswer": "D",
@@ -2477,15 +2477,15 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O pedido de desistência da ação sem anuência do réu equivale à renúncia ao direito material e faz coisa julgada material."
+        "text": "O pedido de desistência da ação sem anuência do réu equivale à renúncia ao direito material e faz coisa julgada material, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "C",
-        "text": "A desistência do recurso já interposto também depende da anuência do recorrido na Justiça do Trabalho."
+        "text": "A desistência do recurso já interposto também depende da anuência do recorrido na Justiça do Trabalho, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "D",
-        "text": "NÃO! Pelo Art. 841, § 3º, da CLT (inserido pela Lei nº 13.467/2017), OFERECIDA A CONTESTAÇÃO, ainda que eletronicamente, o reclamante NÃO poderá, sem o CONSENTIMENTO DO RECLAMADO, desistir da ação!"
+        "text": "Não. (inserido pela Lei nº 13.467/2017), oferecida a contestação, ainda que eletronicamente, o reclamante não poderá, sem o consentimento do reclamado, desistir da ação."
       }
     ],
     "correctAnswer": "D",
@@ -2528,7 +2528,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A parte vencedora no objeto da perícia tem direito ao reembolso dos honorários de seu assistente técnico pela parte sucumbente."
+        "text": "A parte vencedora no objeto da perícia tem direito ao reembolso dos honorários de seu assistente técnico pela parte sucumbente, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução."
       },
       {
         "letter": "B",
@@ -2540,7 +2540,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A ausência injustificada da parte à audiência em prosseguimento na qual deveria depor (quando expressamente intimada sob essa cominação — Súmula 74, I, TST!) aplica a CONFISSÃO FICTA quanto à matéria de fato (a qual pode ser elidida pela prova pré-constituída nos autos — Súmula 74, II — vedada a produção de novas provas pela parte confessa, § III!); e quanto ao assistente técnico, pela Súmula 341 do TST, a indicação do perito assistente é FACULDADE da parte, a qual deve responder pelos respectivos honorários, AINDA QUE VENCEDORA no objeto da perícia!"
+        "text": "A ausência injustificada da parte à audiência em prosseguimento na qual deveria depor aplica a confissão ficta quanto à matéria de fato."
       }
     ],
     "correctAnswer": "D",
@@ -2584,19 +2584,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A vedação à decisão surpresa prevista nos Arts. 9º e 10 do CPC é totalmente incompatível com o Processo do Trabalho pela regra da informalidade."
+        "text": "A vedação à decisão surpresa prevista nos Arts. 9º e 10 do CPC é totalmente incompatível com o Processo do Trabalho pela regra da informalidade, sem admissão de fracionamento de instância nem recurso imediato de decisão interlocutória. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "Antes de indeferir qualquer tutela provisória de urgência em risco imediato, o juiz trabalhista é sempre obrigado a intimar o réu para contraditório prévio."
+        "text": "Antes de indeferir qualquer tutela provisória de urgência em risco imediato, o juiz trabalhista é sempre obrigado a intimar o réu para contraditório prévio, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "A sentença que extingue o processo por decadência de ofício sem ouvir as partes é convalidada automaticamente se a matéria for exclusivamente de direito."
+        "text": "A sentença que extingue o processo por decadência de ofício sem ouvir as partes é convalidada automaticamente se a matéria for exclusivamente de direito, com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo."
       },
       {
         "letter": "D",
-        "text": "SIM! Pelo Art. 4º da Instrução Normativa nº 39/2016 do TST, aplicam-se ao Processo do Trabalho os Arts. 9º e 10 do CPC (vedação à DECISÃO SURPRESA): em qualquer grau de jurisdição, o juiz NÃO pode decidir com base em fundamento a respeito do qual não se tenha dado às partes oportunidade de se manifestar, ainda que se trate de matéria sobre a qual deva decidir de ofício! (Apenas NÃO se considera decisão surpresa a aplicação de norma jurídica diversa aos mesmos fatos sob o brocardo iura novit curia quando os fatos e teses centrais já integraram o contraditório — § 2º do Art. 4º IN 39!)."
+        "text": "Sim. da Instrução Normativa nº 39/2016 do TST, aplicam-se ao Processo do Trabalho os Arts. 9º e 10 do CPC: em qualquer grau de jurisdição, o juiz não pode decidir com base em fundamento a respeito do qual não se tenha dado às partes oportunidade de se manifestar, ainda que se trate de matéria sobre a qual deva decidir de ofício."
       }
     ],
     "correctAnswer": "D",
@@ -2648,11 +2648,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Após assinada a carta de arrematação pelo juiz, o executado ainda pode remir a execução pagando a dívida e desfazendo a arrematação."
+        "text": "Após assinada a carta de arrematação pelo juiz, o executado ainda pode remir a execução pagando a dívida e desfazendo a arrematação, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 888, caput e §§ 1º a 4º, da CLT: o edital de hasta pública deve ser afixado e publicado em jornal local com antecedência mínima de 20 DIAS; NÃO havendo licitante em 1ª praça nem preço mínimo fixado pelo juiz, o Art. 891 do CPC considera PREÇO VIL o lance inferior a 50% do valor da avaliação (na CLT, o § 1º fala no maior lance possível, aplicando-se subsidiariamente o parâmetro de 50% do CPC conforme jurisprudência atual do TST para evitar enriquecimento ilícito); o arrematante deve garantir o lance com sinal correspondente a 20% do seu valor (§ 2º), tendo o prazo de 24 HORAS para completar o restante do preço (sob pena de perder o sinal em favor da execução — § 4º)! Além disso, é lícito ao exequente ADJUDICAR o bem em igualdade de condições com a melhor oferta (§ 1º)!"
+        "text": "O edital de hasta pública deve ser afixado e publicado em jornal local com antecedência mínima de 20 dias."
       }
     ],
     "correctAnswer": "D",
@@ -2707,7 +2707,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 896-C, §§ 11 a 13, da CLT, firmado o precedente no IRR pelo TST: os processos suspensos retomam o curso normal para aplicação da tese vinculante; os Recursos de Revista que versem sobre idêntica questão terão SEGUIMENTO DENEGADO se o acórdão do TRT coincidir com a tese do TST, ou retornarão ao TRT para juízo de RETRATAÇÃO se o acórdão regional divergir da tese firmada! Além disso, se a questão envolver norma legal idêntica com impacto na Administração Pública, a tese vinculante do IRR orienta os órgãos da Justiça do Trabalho em todo o país (e da decisão no IRDR do TRT cabe RR com presunção legal de transcendência e repercussão)!"
+        "text": "Firmado o precedente no IRR pelo TST: os processos suspensos retomam o curso normal para aplicação da tese vinculante."
       }
     ],
     "correctAnswer": "D",
@@ -2751,19 +2751,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No acordo trabalhista parcelado, o exequente deve aguardar o vencimento de todas as parcelas futuras uma a uma para poder executá-las."
+        "text": "No acordo trabalhista parcelado, o exequente deve aguardar o vencimento de todas as parcelas futuras uma a uma para poder executá-las, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "A cláusula penal estipulada em acordo homologado nunca pode incidir sobre as parcelas vencidas, apenas sobre as vincendas."
+        "text": "A cláusula penal estipulada em acordo homologado nunca pode incidir sobre as parcelas vencidas, apenas sobre as vincendas, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 891 da CLT, nas prestações sucessivas por tempo determinado, a execução pelo não pagamento de uma prestação compreenderá as que lhe sucederem (VENCIMENTO ANTECIPADO automático das parcelas vincendas!), executando-se imediatamente o saldo remanescente + a cláusula penal pactuada (observada eventual redução equitativa pelo Art. 413 CC apenas se manifestamente excessiva ou se o atraso for ínfimo de boa-fé segundo a jurisprudência, embora na JT prevaleça em regra o pactuado no título homologado sem ofensa à coisa julgada)!"
+        "text": "Nas prestações sucessivas por tempo determinado, a execução pelo não pagamento de uma prestação compreenderá as que lhe sucederem, executando-se imediatamente o saldo remanescente + a cláusula penal pactuada."
       },
       {
         "letter": "D",
-        "text": "Contra a decisão que homologou o acordo judicial na audiência cabe Agravo de Petição se a empresa atrasar a parcela por dificuldade financeira."
+        "text": "Contra a decisão que homologou o acordo judicial na audiência cabe Agravo de Petição se a empresa atrasar a parcela por dificuldade financeira, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "C",
@@ -2806,19 +2806,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Reclamação Constitucional ao STF contra acórdão de TRT por violação de Tema de Repercussão Geral dispensa o prévio esgotamento das instâncias trabalhistas (como RR/AIRR no TST)."
+        "text": "A Reclamação Constitucional ao STF contra acórdão de TRT por violação de Tema de Repercussão Geral dispensa o prévio esgotamento das instâncias trabalhistas, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "A Correição Parcial tem natureza de recurso ordinário e pode modificar o mérito da sentença definitiva."
+        "text": "A Correição Parcial tem natureza de recurso ordinário e pode modificar o mérito da sentença definitiva, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "Contra ato tumultuário ou omissivo do juiz de 1º grau que atenta contra a boa ordem processual e não possui recurso específico cabe CORREIÇÃO PARCIAL (Reclamação Correicional) perante o Corregedor Regional do TRT no prazo regimental de 5 dias (Art. 709, II, CLT c/c Regimento Interno)! Já para preservar a competência do Tribunal ou garantir a autoridade de súmula vinculante, acórdão em controle concentrado (ADI/ADC/ADPF) ou precedente obrigatório (IRR/IRDR/Tema RG após esgotadas as instâncias ordinárias!), cabe RECLAMAÇÃO (Art. 988 CPC e Art. 103-A, § 3º, CF)!"
+        "text": "Contra ato tumultuário ou omissivo do juiz de 1º grau que atenta contra a boa ordem processual e não possui recurso específico cabe correição parcial perante o Corregedor Regional do TRT no prazo regimental de 5 dias."
       },
       {
         "letter": "D",
-        "text": "É cabível Reclamação ao STF mesmo após o trânsito em julgado da decisão trabalhista atacada."
+        "text": "É cabível Reclamação ao STF mesmo após o trânsito em julgado da decisão trabalhista atacada, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "C",
@@ -2862,19 +2862,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na procedência parcial trabalhista, compensam-se automaticamente os honorários devidos ao advogado do autor com os devidos ao advogado do réu."
+        "text": "Na procedência parcial trabalhista, compensam-se automaticamente os honorários devidos ao advogado do autor com os devidos ao advogado do réu, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "B",
-        "text": "Não são devidos honorários advocatícios na reconvenção trabalhista nem nas ações contra a Fazenda Pública."
+        "text": "Não são devidos honorários advocatícios na reconvenção trabalhista nem nas ações contra a Fazenda Pública, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 791-A, § 3º, da CLT, na hipótese de PROCEDÊNCIA PARCIAL, o juízo arbitrará honorários de sucumbência RECÍPROCA (entre 5% e 15%), VEDADA A COMPENSAÇÃO entre os honorários (cada parte deve os honorários ao advogado da parte contrária sobre o que perdeu — observada a suspensão de 2 anos se o autor for beneficiário da justiça gratuita pela ADI 5766 STF!); e pelo Art. 791-A, § 5º, são devidos honorários de sucumbência TAMBÉM na RECONVENÇÃO!"
+        "text": "Na hipótese de procedência parcial, o juízo arbitrará honorários de sucumbência recíproca (entre 5% e 15%), vedada a compensação entre os honorários."
       },
       {
         "letter": "D",
-        "text": "Na execução de título extrajudicial (TAC/CCP) ou no cumprimento de sentença não cabe arbitramento de honorários sucumbenciais na JT."
+        "text": "Na execução de título extrajudicial (tac/ccp) ou no cumprimento de sentença não cabe arbitramento de honorários sucumbenciais na jt."
       }
     ],
     "correctAnswer": "C",
@@ -2918,19 +2918,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sendo julgada improcedente a Ação Civil Pública proposta pelo MPT ou por sindicato, o juiz deve condenar automaticamente o autor em honorários sucumbenciais de 5% a 15%."
+        "text": "Sendo julgada improcedente a Ação Civil Pública proposta pelo MPT ou por sindicato, o juiz deve condenar automaticamente o autor em honorários sucumbenciais de 5% a 15%, com reexame amplo de fatos, provas e pedidos não deduzidos na instância originária."
       },
       {
         "letter": "B",
-        "text": "O MPT tem legitimidade para recorrer como fiscal da lei apenas se houver concordância expressa do reclamante menor."
+        "text": "O MPT tem legitimidade para recorrer como fiscal da lei apenas se houver concordância expressa do reclamante menor, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 18 da Lei nº 7.347/85 (Lei da ACP) e Art. 790-A, II, da CLT, o Ministério Público do Trabalho é ISENTO de custas e despesas processuais e, em Ação Civil Pública, a parte autora (MPT/sindicato/associação) NÃO é condenada em honorários advocatícios, custas ou despesas processuais, SALVO COMPROVADA MÁ-FÉ! Além disso, o MPT atua obrigatoriamente como fiscal da ordem jurídica (custos legis) nas causas em que houver interesse de incapazes/menores, índios, interesse público/social relevante e nos recursos/dissídios coletivos nos Tribunais (Art. 83 LC 75/93), gozando de intimação pessoal e prazo em dobro (DL 779/69)!"
+        "text": "Pelo Art. 18 da Lei nº 7.347/85 (Lei da ACP) e Art. 790-A, II, da CLT, o Ministério Público do Trabalho é isento de custas e despesas processuais e, em Ação Civil Pública, a parte autora não é condenada em honorários advocatícios, custas ou despesas processuais, salvo comprovada má-fé."
       },
       {
         "letter": "D",
-        "text": "A intimação do Ministério Público do Trabalho ocorre exclusivamente pelo Diário Eletrônico (DEJT), sem necessidade de intimação pessoal."
+        "text": "A intimação do Ministério Público do Trabalho ocorre exclusivamente pelo Diário Eletrônico (DEJT), sem necessidade de intimação pessoal, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       }
     ],
     "correctAnswer": "C",
@@ -2977,15 +2977,15 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O Tribunal Superior do Trabalho é composto por 33 Ministros, seguindo a mesma composição numérica do Superior Tribunal de Justiça."
+        "text": "O Tribunal Superior do Trabalho é composto por 33 Ministros, seguindo a mesma composição numérica do Superior Tribunal de Justiça, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 111 da CF, são órgãos da Justiça do Trabalho: (I) o TST (composto por 27 Ministros, sendo 1/5 de advogados e membros do MPT pelo quinto constitucional, e o restante dentre juízes dos TRTs da magistratura de carreira — Art. 111-A CF), (II) os TRTs (mínimo de 7 juízes cada — Art. 115 CF) e (III) os Juízes do Trabalho (Varas do Trabalho — extinta a representação classista desde a EC 24/99!). Nas comarcas NÃO abrangidas por jurisdição de Vara do Trabalho, a competência trabalhista é atribuída ao JUIZ DE DIREITO estadual (Art. 112 CF), cabendo Recurso Ordinário para o respectivo TRT! E a supervisão administrativa, orçamentária, financeira e patrimonial da JT de 1º e 2º graus cabe ao CSJT (Conselho Superior da Justiça do Trabalho — Art. 111-A, § 2º, II, CF)!"
+        "text": "São órgãos da Justiça do Trabalho: (I) o TST, (II) os TRTs e (III) os Juízes do Trabalho."
       },
       {
         "letter": "D",
-        "text": "A Escola Nacional de Formação e Aperfeiçoamento de Magistrados do Trabalho (ENAMAT) e o CSJT integram a estrutura do CNJ, fora do TST."
+        "text": "A Escola Nacional de Formação e Aperfeiçoamento de Magistrados do Trabalho (enamat) e o csjt integram a estrutura do CNJ, fora do TST."
       }
     ],
     "correctAnswer": "C",
@@ -3028,19 +3028,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Estado estrangeiro goza de imunidade absoluta de jurisdição na Justiça do Trabalho, impedindo sequer o conhecimento de ação de verbas rescisórias."
+        "text": "O Estado estrangeiro goza de imunidade absoluta de jurisdição na Justiça do Trabalho, impedindo sequer o conhecimento de ação de verbas rescisórias, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "Os bens imóveis utilizados como sede da embaixada ou residência do embaixador podem ser livremente penhorados e levados a leilão na execução trabalhista."
+        "text": "Os bens imóveis utilizados como sede da embaixada ou residência do embaixador podem ser livremente penhorados e levados a leilão na execução trabalhista, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "C",
-        "text": "A imunidade de jurisdição de Estado estrangeiro é RELATIVA na fase de CONHECIMENTO: em relações trabalhistas (atos de gestão, e não atos de império!), a Justiça do Trabalho brasileira É COMPETENTE para processar e julgar a ação trabalhista (Art. 114, I, CF — salvo atos de império ligados à soberania diplomática/segurança externa segundo o STF no Tema 944, que manteve relativa a imunidade apenas para atos de império!); CONTUDO, na fase de EXECUÇÃO forçada, prevalece a IMUNIDADE DE EXECUÇÃO sobre bens afetados à missão diplomática ou consular (Convenções de Viena de 1961 e 1963), exigindo carta rogatória ou penhora apenas de bens privados não afetos à representação diplomática!"
+        "text": "A imunidade de jurisdição de Estado estrangeiro é relativa na fase de conhecimento: em relações trabalhistas, a Justiça do Trabalho brasileira é competente para processar e julgar a ação trabalhista."
       },
       {
         "letter": "D",
-        "text": "Das sentenças proferidas em reclamações trabalhistas contra Estado estrangeiro ou organismo internacional cabe Recurso Ordinário diretamente para o TST."
+        "text": "Das sentenças proferidas em reclamações trabalhistas contra Estado estrangeiro ou organismo internacional cabe Recurso Ordinário diretamente para o TST, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "C",
@@ -3088,15 +3088,15 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Pela Súmula 420 do TST, cabe suscitar conflito de competência entre uma Vara do Trabalho e o próprio TRT hierarquicamente superior a ela."
+        "text": "Cabe suscitar conflito de competência entre uma Vara do Trabalho e o próprio TRT hierarquicamente superior a ela, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "C",
-        "text": "Pela Súmula 420 do TST e Art. 808 da CLT: (1) conflito entre Varas do Trabalho vinculadas a TRTs DISTINTOS (ou entre dois TRTs) é julgado pelo TRIBUNAL SUPERIOR DO TRABALHO (TST — Art. 808, \"b\", CLT); (2) conflito entre Varas do Trabalho do MESMO TRT é julgado pelo respectivo TRT (\"a\"); (3) conflito entre Juiz de Direito investido de jurisdição trabalhista (Art. 112 CF) e Vara do Trabalho dentro da jurisdição do mesmo TRT é julgado pelo TRT (Súmula 180 TST: o TST já foi substituído pelo TRT ou STJ? Atenção: pela Súmula 180 STJ, conflito entre Juiz Estadual investido de jurisdição trabalhista e Junta/Vara do Trabalho compete ao TRT apenas se sujeito ao mesmo TRT? Não — na Súmula 180 do STJ, compete ao TRT dirimir conflito entre Juiz de Direito no exercício da jurisdição trabalhista e Vara do Trabalho, OU se de tribunais diferentes vai ao STJ pelo Art. 105, I, \"d\", CF! Quando o conflito envolve Vara Cível comum (matéria cível) vs Vara do Trabalho (matéria trabalhista), quem julga é o STJ pela CF Art. 105, I, \"d\")!"
+        "text": "Pela Súmula 420 do TST e Art. 808 da CLT: conflito entre Varas do Trabalho vinculadas a TRTs distintos é julgado pelo tribunal superior do trabalho."
       },
       {
         "letter": "D",
-        "text": "O conflito de competência trabalhista tem efeito meramente devolutivo e nunca permite designação de juízo provisório para medidas urgentes."
+        "text": "O conflito de competência trabalhista tem efeito meramente devolutivo e nunca permite designação de juízo provisório para medidas urgentes, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias."
       }
     ],
     "correctAnswer": "C",
@@ -3140,19 +3140,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O seguro garantia judicial para substituir depósito recursal deve ser contratado exatamente pelo valor nominal do depósito recursal sem qualquer acréscimo."
+        "text": "O seguro garantia judicial para substituir depósito recursal deve ser contratado exatamente pelo valor nominal do depósito recursal sem qualquer acréscimo, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "A substituição do depósito recursal por seguro garantia judicial só é admitida se o empregado reclamante concordar expressamente."
+        "text": "A substituição do depósito recursal por seguro garantia judicial só é admitida se o empregado reclamante concordar expressamente, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução."
       },
       {
         "letter": "C",
-        "text": "Nos termos do Art. 899, § 11, da CLT e do Ato Conjunto TST.CSJT.CGJT nº 1/2019 (com redação alterada pelo Ato Conjunto nº 1/2020 após decisão do CNJ!), a apólice de seguro garantia judicial em substituição ao depósito recursal deve observar: (1) acréscimo de no mínimo 30% sobre o valor do depósito recursal legal (Art. 3º, II); (2) vigência mínima de 3 anos (com cláusula de renovação automática enquanto durar o risco); (3) comprovação do registro da apólice na SUSEP e certidão de regularidade da sociedade seguradora junto à SUSEP (se faltar documentação regular/vigência ou houver irregularidade sanável na apólice apresentada tempestivamente, o relator deve intimar para regularização — OJ 140 / jurisprudência atual TST)!"
+        "text": "Da CLT e do Ato Conjunto TST.CSJT.CGJT nº 1/2019, a apólice de seguro garantia judicial em substituição ao depósito recursal deve observar: acréscimo de no mínimo 30% sobre o valor do depósito recursal legal."
       },
       {
         "letter": "D",
-        "text": "O seguro garantia judicial pode ser utilizado apenas na fase de execução trabalhista, sendo vedado na fase recursal."
+        "text": "O seguro garantia judicial pode ser utilizado apenas na fase de execução trabalhista, sendo vedado na fase recursal, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "C",
@@ -3195,19 +3195,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A simples menção ao nome do advogado na petição inicial ou recurso sem procuração nos autos configura mandato tácito no Processo do Trabalho."
+        "text": "A simples menção ao nome do advogado na petição inicial ou recurso sem procuração nos autos configura mandato tácito no Processo do Trabalho, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "Na Súmula 383 do TST, o advogado que apresenta procuração com prazo de validade vencido sofre o não conhecimento imediato do recurso sem chance de saneamento."
+        "text": "Na Súmula 383 do TST, o advogado que apresenta procuração com prazo de validade vencido sofre o não conhecimento imediato do recurso sem chance de saneamento, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "C",
-        "text": "Pela Súmula 383, I e II, do TST (adaptada ao CPC/2015!): é INADMISSÍVEL recurso firmado por advogado sem procuração juntada aos autos até o momento da sua interposição, salvo mandato tácito (OJ 286 SDI-1 — presença do advogado junto com a parte/preposto na ata de audiência!) — CONTUDO, verificada a irregularidade de representação na FASE RECURSAL (em procuração JÁ existente nos autos com defeito formal, como falta de assinatura ou prazo vencido — item II!), o relator designará prazo de 5 DIAS para que seja sanado o vício (Art. 76, § 2º, CPC); atenção: na AUSÊNCIA TOTAL de procuração e sem mandato tácito nem urgência do Art. 104 CPC, o item I da Súmula 383 não admite prazo saneador!"
+        "text": "I e II, do TST: é inadmissível recurso firmado por advogado sem procuração juntada aos autos até o momento da sua interposição, salvo mandato tácito. 104 CPC, o item I da Súmula 383 não admite prazo saneador."
       },
       {
         "letter": "D",
-        "text": "O advogado com mandato tácito pode substabelecer normalmente seus poderes a outro colega advogado sem procuração expressa."
+        "text": "O advogado com mandato tácito pode substabelecer normalmente seus poderes a outro colega advogado sem procuração expressa, com prosseguimento regular da demanda mediante atuação pessoal das partes em qualquer grau."
       }
     ],
     "correctAnswer": "C",
@@ -3251,19 +3251,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A perempção trabalhista ocorre somente após 3 arquivamentos seguidos e extingue definitivamente o direito de ação para sempre."
+        "text": "A perempção trabalhista ocorre somente após 3 arquivamentos seguidos e extingue definitivamente o direito de ação para sempre, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "O prazo para o reclamante que apresentou reclamação verbal comparecer à Vara do Trabalho para reduzi-la a termo é de 15 dias úteis."
+        "text": "O prazo para o reclamante que apresentou reclamação verbal comparecer à Vara do Trabalho para reduzi-la a termo é de 15 dias úteis, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "Em ambos os casos incide a PEREMPÇÃO TEMPORÁRIA TRABALHISTA de 6 (SEIS) MESES (Arts. 731 e 732 da CLT)! Aquele que, tendo apresentado ao distribuidor reclamação verbal, NÃO se apresentar no prazo de 5 DIAS à Vara para fazê-la tomar por termo incorrerá na pena de perda, pelo prazo de 6 MESES, do direito de reclamar perante a Justiça do Trabalho (Art. 731 CLT); na MESMA pena incorre o reclamante que, por 2 (DUAS) VEZES SEGUIDAS, der causa ao arquivamento por ausência injustificada à audiência inaugural (Art. 732 CLT — atenção: a perempção trabalhista atinge apenas o direito de AÇÃO por 6 meses, não extingue o direito material definitivo como no CPC após 3 abandonos)!"
+        "text": "Em ambos os casos incide a perempção temporária trabalhista de 6 (seis) meses. Aquele que, tendo apresentado ao distribuidor reclamação verbal, não se apresentar no prazo de 5 dias à Vara para fazê-la tomar por termo incorrerá na pena de perda, pelo prazo de 6 meses, do direito de reclamar perante a Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "Durante os 6 meses da perempção trabalhista do Art. 732 CLT, suspende-se automaticamente o curso do prazo prescricional de 2 anos do empregado."
+        "text": "Durante os 6 meses da perempção trabalhista, suspende-se automaticamente o curso do prazo prescricional de 2 anos do empregado, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "C",
@@ -3306,11 +3306,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A cobrança de depósitos não realizados de FGTS continua submetida à prescrição trintenária (30 anos) em qualquer contrato iniciado antes de 2014."
+        "text": "A cobrança de depósitos não realizados de FGTS continua submetida à prescrição trintenária (30 anos) em qualquer contrato iniciado antes de 2014, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias."
       },
       {
         "letter": "B",
-        "text": "Aplica-se a prescrição QUINQUENAL (5 anos retroativos ao ajuizamento, respeitado o limite bienal após o término do contrato)! Pela Súmula 362 do TST (após o julgamento pelo STF do ARE 709.212 em 13/11/2014, que declarou inconstitucional a antiga prescrição trintenária): (I) para os casos em que a ciência da lesão ocorreu a partir de 13/11/2014, aplica-se diretamente a prescrição de 5 ANOS (até 2 anos pós-extinção); (II) para os casos em que o prazo prescricional já estava em curso em 13/11/2014, aplica-se o que se consumar PRIMEIRO: 30 anos contados do termo inicial OU 5 anos contados a partir de 13/11/2014 (logo, a partir de 13/11/2019 TODA lesão antiga ao FGTS passou a estar submetida definitivamente aos 5 ANOS!) — lembrando que FGTS reflexo de verba principal prescrita segue a sorte do principal (Súmula 206 TST)!"
+        "text": "Aplica-se a prescrição quinquenal.: (I) para os casos em que a ciência da lesão ocorreu a partir de 13/11/2014, aplica-se diretamente a prescrição de 5 anos."
       },
       {
         "letter": "C",
@@ -3318,7 +3318,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A ausência de recolhimento do FGTS durante o contrato gera prescrição de 2 anos contados mês a mês de cada depósito omitido mesmo com o contrato ativo."
+        "text": "A ausência de recolhimento do FGTS durante o contrato gera prescrição de 2 anos contados mês a mês de cada depósito omitido mesmo com o contrato ativo, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "B",
@@ -3362,19 +3362,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Fechada a empresa ou demolido o estabelecimento antes da perícia, o pedido de adicional de insalubridade deve ser automaticamente julgado improcedente por impossibilidade da prova pericial obrigatória."
+        "text": "Fechada a empresa ou demolido o estabelecimento antes da perícia, o pedido de adicional de insalubridade deve ser automaticamente julgado improcedente por impossibilidade da prova pericial obrigatória, com prosseguimento regular da demanda mediante atuação pessoal das partes em qualquer grau."
       },
       {
         "letter": "B",
-        "text": "Nos termos da OJ 278 da SDI-1 do TST: a realização de perícia é obrigatória para verificação de insalubridade (Art. 195, § 2º, CLT), MAS quando NÃO for possível sua realização — como em caso de FECHAMENTO ou desativação do local de trabalho — poderá o julgador utilizar-se de OUTROS MEIOS DE PROVA (prova testemunhal, PPRA/LTCAT, laudos similares emprestados)! E pela Súmula 293 do TST, a verificação mediante perícia de prestação de serviços em condições nocivas, considerado AGENTE INSALUBRE DIVERSO do apontado na inicial, NÃO prejudica o pedido de adicional de insalubridade!"
+        "text": "A realização de perícia é obrigatória para verificação de insalubridade, mas quando não for possível sua realização. a verificação mediante perícia de prestação de serviços em condições nocivas, considerado agente insalubre diverso do apontado na inicial, não prejudica o pedido de adicional de insalubridade."
       },
       {
         "letter": "C",
-        "text": "Se o reclamante pediu adicional de insalubridade por ruído e o perito constatou insalubridade apenas por agente químico, o juiz não pode deferir o adicional sob pena de julgamento extra petita."
+        "text": "Se o reclamante pediu adicional de insalubridade por ruído e o perito constatou insalubridade apenas por agente químico, o juiz não pode deferir o adicional sob pena de julgamento extra petita, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "O juiz do trabalho fica absolutamente vinculado à conclusão do laudo pericial médico ou de engenharia, não podendo decidir contrariamente a ele."
+        "text": "O juiz do trabalho fica absolutamente vinculado à conclusão do laudo pericial médico ou de engenharia, não podendo decidir contrariamente a ele, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "B",
@@ -3418,19 +3418,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A prova emprestada no Processo do Trabalho somente pode ser admitida se houver concordância expressa de ambas as partes envolvidas."
+        "text": "A prova emprestada no Processo do Trabalho somente pode ser admitida se houver concordância expressa de ambas as partes envolvidas, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "B",
-        "text": "SIM! Pelo Art. 372 do CPC (aplicável subsidiariamente via Art. 769 CLT) e jurisprudência pacífica da SDI-1 do TST, o juiz poderá admitir a utilização de PROVA EMPRESTADA de outro processo, atribuindo-lhe o valor que considerar adequado, OBSERVADO O CONTRADITÓRIO! A jurisprudência trabalhista dispensa a concordância da parte adversa quando esta PARTICIPOU da produção da prova no processo originário (exercendo contraditório na origem) e tem oportunidade de manifestar-se sobre ela nos novos autos!"
+        "text": "Sim. e jurisprudência pacífica da SDI-1 do TST, o juiz poderá admitir a utilização de prova emprestada de outro processo, atribuindo-lhe o valor que considerar adequado, observado o contraditório."
       },
       {
         "letter": "C",
-        "text": "A prova emprestada só é válida entre processos que tenham exatamente o mesmo autor e o mesmo réu."
+        "text": "A prova emprestada só é válida entre processos que tenham exatamente o mesmo autor e o mesmo réu, com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "Mensagens de WhatsApp, registros de geolocalização ou e-mails corporativos são provas ilícitas na Justiça do Trabalho por violarem sempre a intimidade."
+        "text": "Mensagens de WhatsApp, registros de geolocalização ou e-mails corporativos são provas ilícitas na Justiça do Trabalho por violarem sempre a intimidade, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       }
     ],
     "correctAnswer": "B",
@@ -3473,19 +3473,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não cabe ação de consignação em pagamento na Justiça do Trabalho por incompatibilidade procedimental com a CLT."
+        "text": "Não cabe ação de consignação em pagamento na Justiça do Trabalho por incompatibilidade procedimental com a CLT, com afastamento das normas processuais comuns diante da disciplina própria da execução laboral."
       },
       {
         "letter": "B",
-        "text": "O empregador deve ajuizar AÇÃO DE CONSIGNAÇÃO EM PAGAMENTO perante a Vara do Trabalho competente (Arts. 539–549 do CPC c/c Art. 769 CLT — rito especial compatível com a JT!), requerendo autorização para depósito judicial do valor rescisório incontroverso DENTRO DO PRAZO DE 10 DIAS contados do término do contrato (Art. 477, § 6º, CLT)! Com o ajuizamento e depósito tempestivo nos 10 dias, o empregador elide a mora e afasta a multa de 1 salário do Art. 477, § 8º, CLT! (Se houver dúvida sobre quem legitimamente deve receber após o falecimento — Art. 547 CPC c/c Lei 6.858/80 — cita os possíveis dependentes habilitados no INSS!)."
+        "text": "O empregador deve ajuizar ação de consignação em pagamento perante a Vara do Trabalho competente, requerendo autorização para depósito judicial do valor rescisório incontroverso dentro do prazo de 10 dias contados do término do contrato."
       },
       {
         "letter": "C",
-        "text": "Na ação de consignação em pagamento por falecimento do empregado, os valores do FGTS e saldo salarial seguem exclusivamente a ordem de inventário civil do cônjuge separado de fato."
+        "text": "Na ação de consignação em pagamento por falecimento do empregado, os valores do FGTS e saldo salarial seguem exclusivamente a ordem de inventário civil do cônjuge separado de fato, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "D",
-        "text": "Se o empregador ajuizar a consignação no 9º dia após a demissão, mas só efetuar o depósito judicial 15 dias depois, ainda assim afasta a multa do Art. 477, § 8º."
+        "text": "Se o empregador ajuizar a consignação no 9º dia após a demissão, mas só efetuar o depósito judicial 15 dias depois, ainda assim afasta a multa. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       }
     ],
     "correctAnswer": "B",
@@ -3528,19 +3528,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Ação Monitória é vedada na Justiça do Trabalho porque o único título de cobrança documental trabalhista é a reclamação ordinária."
+        "text": "A Ação Monitória é vedada na Justiça do Trabalho porque o único título de cobrança documental trabalhista é a reclamação ordinária. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "SIM! A Ação Monitória (Arts. 700–702 do CPC) é compatível com o Processo do Trabalho (admitida pela jurisprudência do TST e prevista nos termos gerais da IN 39/16 sobre ritos compatíveis), permitindo ao credor munido de prova escrita sem eficácia de título executivo pleitear a expedição de mandado monitório para pagamento em 15 dias (ou oferecimento de embargos monitórios nos próprios autos sem necessidade de garantir o juízo)! Se o réu não pagar nem embargar, constitui-se de pleno direito o título executivo judicial!"
+        "text": "Sim. A Ação Monitória é compatível com o Processo do Trabalho, permitindo ao credor munido de prova escrita sem eficácia de título executivo pleitear a expedição de mandado monitório para pagamento em 15 dias. Se o réu não pagar nem embargar, constitui-se de pleno direito o título executivo judicial."
       },
       {
         "letter": "C",
-        "text": "Para oferecer Embargos Monitórios na Justiça do Trabalho, o réu é obrigado a depositar integralmente o valor cobrado como garantia do juízo."
+        "text": "Para oferecer Embargos Monitórios na Justiça do Trabalho, o réu é obrigado a depositar integralmente o valor cobrado como garantia do juízo, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "A Ação Monitória trabalhista não pode ser ajuizada contra a Fazenda Pública."
+        "text": "A Ação Monitória trabalhista não pode ser ajuizada contra a Fazenda Pública, sem admissão de fracionamento de instância nem recurso imediato de decisão interlocutória."
       }
     ],
     "correctAnswer": "B",
@@ -3584,19 +3584,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Ação Anulatória de cláusula de Convenção Coletiva de Trabalho é proposta perante a Vara do Trabalho de 1º grau pelo empregado individualmente."
+        "text": "A Ação Anulatória de cláusula de Convenção Coletiva de Trabalho é proposta perante a Vara do Trabalho de 1º grau pelo empregado individualmente, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "A medida cabível para desconstituir em abstrato cláusula ilegal de ACT ou CCT é a AÇÃO ANULATÓRIA DE CLÁUSULA CONVENCIONAL, de competência ORIGINÁRIA do TRIBUNAL REGIONAL DO TRABALHO (TRT — se o instrumento tiver abrangência regional) ou da SDC do TST (se tiver abrangência nacional/inter-regional)! Pelo Art. 83, IV, da LC 75/93, o MINISTÉRIO PÚBLICO DO TRABALHO possui legitimidade ativa para propor Ação Anulatória (além dos próprios sindicatos signatários em caso de vício de vontade), exigindo-se a formação de litisconsórcio passivo necessário com AMBOS os sindicatos/empresas convenentes!"
+        "text": "A medida cabível para desconstituir em abstrato cláusula ilegal de ACT ou CCT é a ação anulatória de cláusula convencional, de competência originária do tribunal regional do trabalho ou da SDC do TST. o ministério público do trabalho possui legitimidade ativa para propor Ação Anulatória, exigindo-se a formação de litisconsórcio passivo necessário com ambos os sindicatos/empresas convenentes."
       },
       {
         "letter": "C",
-        "text": "Na Ação Anulatória proposta pelo MPT contra cláusula de CCT, basta citar apenas o sindicato patronal no polo passivo."
+        "text": "Na Ação Anulatória proposta pelo MPT contra cláusula de CCT, basta citar apenas o sindicato patronal no polo passivo, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "D",
-        "text": "Da decisão definitiva proferida pelo TRT em Ação Anulatória originária cabe Recurso de Revista ao TST."
+        "text": "Da decisão definitiva proferida pelo TRT em Ação Anulatória originária cabe Recurso de Revista ao TST, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "B",
@@ -3639,11 +3639,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Se faltar documento indispensável na petição inicial de Mandado de Segurança na JT, o desembargador relator deve abrir prazo de 15 dias para emenda nos termos do Art. 321 do CPC."
+        "text": "Se faltar documento indispensável na petição inicial de Mandado de Segurança na jt, o desembargador relator deve abrir prazo de 15 dias para emenda."
       },
       {
         "letter": "B",
-        "text": "NÃO! Por DOIS motivos peremptórios: (1) o prazo para impetração do Mandado de Segurança é DECADENCIAL de 120 DIAS contados da ciência do ato impugnado (Art. 23 da Lei 12.016/2009 — já consumada a decadência no 125º dia!); e (2) pela Súmula 415 do TST, exigir-se prova documental pré-constituída na impetração do Mandado de Segurança torna INAPLICÁVEL o prazo de emenda do Art. 321 do CPC (a petição inicial do MS sem a prova documental indispensável do ato coator é INDEFERIDA DE PLANO sem abertura de prazo para juntada posterior)!"
+        "text": "Não. Por dois motivos peremptórios: o prazo para impetração do Mandado de Segurança é decadencial de 120 dias contados da ciência do ato impugnado."
       },
       {
         "letter": "C",
@@ -3699,7 +3699,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Compete à JUSTIÇA DO TRABALHO processar e julgar HABEAS CORPUS e HABEAS DATA quando o ato questionado envolver matéria sujeita à sua jurisdição (Art. 114, IV, da CF — ex.: prisão civil decretada por Juiz do Trabalho ou restrição ilegal de locomoção no processo trabalhista)! Quanto à prisão de depositário infiel, pela Súmula Vinculante nº 25 do STF, é ILÍCITA a prisão civil de depositário infiel, QUALQUER QUE SEJA A MODALIDADE DO DEPÓSITO (inclusive depositário judicial trabalhista!), devendo o TRT conceder a ordem de Habeas Corpus!"
+        "text": "Compete à justiça do trabalho processar e julgar habeas corpus e habeas data quando o ato questionado envolver matéria sujeita à sua jurisdição."
       },
       {
         "letter": "C",
@@ -3751,19 +3751,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Se a sentença trabalhista for ultra petita, o TRT deve obrigatoriamente anular todo o processo desde a audiência inaugural e devolver à Vara."
+        "text": "Se a sentença trabalhista for ultra petita, o TRT deve obrigatoriamente anular todo o processo desde a audiência inaugural e devolver à Vara, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "A condenação a parcela de natureza jurídica distinta NÃO pedida (deferir insalubridade quando só pediu periculosidade — diferente de deferir insalubridade por agente diverso na Súmula 293!) configura julgamento EXTRA PETITA (fora do pedido), enquanto conceder quantidade superior ao pedido certo/limitado configura julgamento ULTRA PETITA (Arts. 141 e 492 CPC)! No julgamento do Recurso Ordinário pelo TRT: se houver vício ULTRA petita ou EXTRA petita, o Tribunal NÃO anula toda a sentença se puder simplesmente DECOTAR (excluir) o excesso ou a parcela estranha; já no julgamento CITRA/INFRA PETITA (omissão de pedido), a parte deve opor Embargos de Declaração primeiro ou, em recurso, o TRT julga diretamente pela Súmula 393, II, TST (causa madura) sem retornar à Vara!"
+        "text": "A condenação a parcela de natureza jurídica distinta não pedida configura julgamento extra petita (fora do pedido), enquanto conceder quantidade superior ao pedido certo/limitado configura julgamento ultra petita."
       },
       {
         "letter": "C",
-        "text": "O juiz do trabalho pode condenar ao pagamento de adicional de periculosidade quando o empregado pediu exclusivamente adicional de insalubridade e o perito afastou a insalubridade."
+        "text": "O juiz do trabalho pode condenar ao pagamento de adicional de periculosidade quando o empregado pediu exclusivamente adicional de insalubridade e o perito afastou a insalubridade, com reexame amplo de fatos, provas e pedidos não deduzidos na instância originária."
       },
       {
         "letter": "D",
-        "text": "A condenação de ofício aos juros de mora, correção monetária e descontos previdenciários/fiscais sem pedido expresso na inicial configura julgamento extra petita."
+        "text": "A condenação de ofício aos juros de mora, correção monetária e descontos previdenciários/fiscais sem pedido expresso na inicial configura julgamento extra petita, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "B",
@@ -3807,19 +3807,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo para interposição do Recurso Extraordinário contra acórdão do TST é de 8 dias úteis, seguindo o padrão recursal da CLT."
+        "text": "O prazo para interposição do Recurso Extraordinário contra acórdão do TST é de 8 dias úteis, seguindo o padrão recursal da CLT, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "Cabe RECURSO EXTRAORDINÁRIO (RE) para o STF (Art. 102, III, CF), cujo prazo é de 15 DIAS ÚTEIS (prazo do CPC, NÃO de 8 dias da CLT! — Fazenda Pública/MPT têm 30 dias úteis!), exigindo demonstração de REPERCUSSÃO GERAL (Art. 1.035 CPC) e recolhimento de preparo segundo tabela do STF (NÃO exige depósito recursal trabalhista do Art. 899 CLT porque este já atingiu o teto/esgotou no RR/Embargos ou não se aplica ao RE segundo Súmula 128, I, TST salvo se ainda não atingido o valor da condenação — na prática o RE segue preparo do STF e Art. 899 só até RR/Embargos? Atenção: na Súmula 128, I, TST e jurisprudência do TST, o depósito recursal do Art. 899 CLT NÃO é exigido na interposição de Recurso Extraordinário ao STF, cabendo apenas preparo/custas do STF!). E pela Súmula 735 do STF, NÃO cabe RE contra acórdão que defere ou indefere medida liminar/tutela provisória!"
+        "text": "Cabe recurso extraordinário (RE) para o STF, cujo prazo é de 15 dias úteis, exigindo demonstração de repercussão geral e recolhimento de preparo segundo tabela do STF. não cabe RE contra acórdão que defere ou indefere medida liminar/tutela provisória."
       },
       {
         "letter": "C",
-        "text": "Na interposição do Recurso Extraordinário ao STF, o empregador é obrigado a recolher novo depósito recursal trabalhista da tabela do TST."
+        "text": "Na interposição do Recurso Extraordinário ao STF, o empregador é obrigado a recolher novo depósito recursal trabalhista da tabela do TST, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "D",
-        "text": "Quando o TST nega provimento ao Recurso de Revista por ausência de transcendência ou ausência de pressuposto intrínseco processual, o STF conhece amplamente do Recurso Extraordinário para reanalisar os pressupostos do RR."
+        "text": "Quando o TST nega provimento ao Recurso de Revista por ausência de transcendência ou ausência de pressuposto intrínseco processual, o STF conhece amplamente do Recurso Extraordinário para reanalisar os pressupostos do RR, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias."
       }
     ],
     "correctAnswer": "B",
@@ -3863,7 +3863,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cabe AGRAVO INTERNO (ou Agravo Regimental conforme regimento interno — Art. 1.021 CPC c/c IN 39/16 TST e Art. 265 RITST) dirigido ao próprio órgão colegiado (Turma/Seção) no prazo de 8 DIAS ÚTEIS (Art. 1º, § 2º, IN 39/16 TST e Lei 5.584/70 — diferente dos 15 dias do CPC!)! Se o relator ou Presidente do Tribunal negar seguimento ao Recurso Extraordinário aplicando tese de Repercussão Geral do STF (Art. 1.030, I, CPC), também cabe AGRAVO INTERNO no próprio TST (e não ARE ao STF — Art. 1.030, § 2º, CPC)! Se o agravo interno for declarado manifestamente inadmissível ou improcedente em votação unânime, o colegiado condenará o agravante a multa de 1% a 5% do valor atualizado da causa (Art. 1.021, § 4º, CPC)!"
+        "text": "Cabe agravo interno dirigido ao próprio órgão colegiado (Turma/Seção) no prazo de 8 dias úteis."
       },
       {
         "letter": "B",
@@ -3871,7 +3871,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Contra decisão do Vice-Presidente do TST que nega seguimento a Recurso Extraordinário com base em Tema de Repercussão Geral do STF, cabe Agravo em Recurso Extraordinário (Art. 1.042 CPC) diretamente ao STF."
+        "text": "Contra decisão do Vice-Presidente do TST que nega seguimento a Recurso Extraordinário com base em Tema de Repercussão Geral do STF, cabe Agravo em Recurso Extraordinário diretamente ao STF."
       },
       {
         "letter": "D",
@@ -3919,19 +3919,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É o INCIDENTE DE ASSUNÇÃO DE COMPETÊNCIA (IAC — Art. 947 do CPC aplicado ao Processo do Trabalho pelo Art. 8º da IN 39/2016 do TST)! Diferente do IRDR e do IRR (que exigem multiplicidade de processos repetitivos), o IAC é cabível quando o julgamento de recurso, remessa necessária ou processo de competência originária envolver relevante questão de direito, com grande repercussão social, SEM REPETIÇÃO EM MÚLTIPLOS PROCESSOS — deslocando o julgamento para o Tribunal Pleno / Seção Especializada e vinculando todos os juízes e órgãos fracionários (§ 3º)!"
+        "text": "É o incidente de assunção de competência. Diferente do IRDR e do IRR, o IAC é cabível quando o julgamento de recurso, remessa necessária ou processo de competência originária envolver relevante questão de direito, com grande repercussão social, sem repetição em múltiplos processos."
       },
       {
         "letter": "B",
-        "text": "O Incidente de Assunção de Competência exige a comprovação de pelo menos 100 processos idênticos em tramitação no Tribunal."
+        "text": "O Incidente de Assunção de Competência exige a comprovação de pelo menos 100 processos idênticos em tramitação no Tribunal, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "O acórdão proferido no Incidente de Assunção de Competência possui eficácia meramente persuasiva sobre as Varas do Trabalho vinculadas ao Tribunal."
+        "text": "O acórdão proferido no Incidente de Assunção de Competência possui eficácia meramente persuasiva sobre as Varas do Trabalho vinculadas ao Tribunal, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "D",
-        "text": "O IAC é instituto exclusivo da Justiça Comum, sendo inaplicável na Justiça do Trabalho por omissão da CLT."
+        "text": "O IAC é instituto exclusivo da Justiça Comum, sendo inaplicável na Justiça do Trabalho por omissão da CLT, sem admissão de fracionamento de instância nem recurso imediato de decisão interlocutória."
       }
     ],
     "correctAnswer": "A",
@@ -3975,11 +3975,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "NÃO! Pelo Art. 1.014 do CPC e Súmula 8 do TST, as questões DE FATO não propostas no juízo inferior só poderão ser suscitadas na apelação/Recurso Ordinário se a parte provar que deixou de fazê-lo por MOTIVO DE FORÇA MAIOR (e a juntada de documentos na fase recursal só se justifica quando provado o justo impedimento para sua oportuna apresentação ou se referir a fato POSTERIOR à sentença — Súmula 8 TST)! Diversamente, questões de ordem pública e prescrição (Súmula 153 TST) ou novos fundamentos jurídicos dentro do capítulo impugnado (Súmula 393, I) podem ser analisadas pelo TRT!"
+        "text": "Não. e Súmula 8 do TST, as questões de fato não propostas no juízo inferior só poderão ser suscitadas na apelação/Recurso Ordinário se a parte provar que deixou de fazê-lo por motivo de força maior."
       },
       {
         "letter": "B",
-        "text": "Pelo efeito devolutivo amplo do Recurso Ordinário trabalhista, as partes podem juntar livremente documentos antigos no TRT sem qualquer justificativa."
+        "text": "Pelo efeito devolutivo amplo do Recurso Ordinário trabalhista, as partes podem juntar livremente documentos antigos no TRT sem qualquer justificativa, com prosseguimento regular da demanda mediante atuação pessoal das partes em qualquer grau."
       },
       {
         "letter": "C",
@@ -3987,7 +3987,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Matérias de direito não analisadas na sentença, ainda que contidas na petição inicial, não podem ser apreciadas pelo TRT no recurso da parte."
+        "text": "Matérias de direito não analisadas na sentença, ainda que contidas na petição inicial, não podem ser apreciadas pelo TRT no recurso da parte. Tal disciplina reflete a autonomia procedimental própria do processo judiciário do trabalho."
       }
     ],
     "correctAnswer": "A",
@@ -4031,7 +4031,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela Súmula 25, I, do TST, a ausência de pagamento das custas que foram atribuídas ao vencedor em primeiro grau ou a inversão do ônus da sucumbência no TRT exige que a empresa (agora vencida no TRT!) comprove o recolhimento das custas fixadas no acórdão dentro do prazo do Recurso de Revista — MAS se o acórdão do TRT apenas inverteu o ônus da sucumbência sem alterar o valor já recolhido pelo autor na fase anterior e o reclamado não recolher? Atenção à Súmula 25, II e III, do TST: no caso de inversão do ônus da sucumbência em 2º grau, SEM ACRÉSCIMO ou atualização do valor das custas e se estas já foram devidamente recolhidas pela parte contrária antes, NÃO há deserção se a parte já sucumbente não recolher novamente para o Estado (deve apenas ressarcir o autor ao final — Súmula 25, II, TST)! Só há deserção se não houver nenhum recolhimento prévio aos cofres públicos ou se o TRT majorou o valor das custas sem recolhimento da diferença (Súmula 25, III)!"
+        "text": "Do TST, a ausência de pagamento das custas que foram atribuídas ao vencedor em primeiro grau ou a inversão do ônus da sucumbência no TRT exige que a empresa."
       },
       {
         "letter": "B",
@@ -4039,7 +4039,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Se a empresa pagou o depósito recursal em dobro por engano e teve sua condenação minorada, o juiz nunca restitui custas recolhidas."
+        "text": "Se a empresa pagou o depósito recursal em dobro por engano e teve sua condenação minorada, o juiz nunca restitui custas recolhidas, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
@@ -4087,19 +4087,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "SIM! Atenção à importantíssima exceção do Art. 896, § 10, da CLT! Embora na execução trabalhista comum (título judicial trabalhista entre empregado e empregador) o Recurso de Revista só caiba por violação direta à Constituição Federal (§ 2º e Súmula 266 TST), o § 10 do Art. 896 da CLT prevê expressamente que: \"Cabe recurso de revista por violação a lei federal, por divergência jurisprudencial e por ofensa à Constituição Federal nas EXECUÇÕES FISCAIS e nas controvérsias da fase de execução que envolvam a CERTIDÃO NEGATIVA DE DÉBITOS TRABALHISTAS (CNDT)\"!"
+        "text": "Sim. Atenção à importantíssima exceção. Embora na execução trabalhista comum o Recurso de Revista só caiba por violação direta à Constituição Federal, o § 10 prevê expressamente que: \"Cabe recurso de revista por violação a lei federal, por divergência jurisprudencial e por ofensa à Constituição Federal nas execuções fiscais e nas controvérsias da fase de execução que envolvam a certidão negativa de débitos trabalhistas (cndt)\"."
       },
       {
         "letter": "B",
-        "text": "Em qualquer processo de execução na Justiça do Trabalho, inclusive execução fiscal de multas administrativas, o Recurso de Revista limita-se exclusivamente à ofensa direta à CF."
+        "text": "Em qualquer processo de execução na Justiça do Trabalho, inclusive execução fiscal de multas administrativas, o Recurso de Revista limita-se exclusivamente à ofensa direta à CF. O descumprimento da formalidade impede o exame do mérito pelo órgão recursal trabalhista."
       },
       {
         "letter": "C",
-        "text": "As multas administrativas impostas pelos Auditores-Fiscais do Trabalho continuam sendo executadas na Justiça Federal comum."
+        "text": "As multas administrativas impostas pelos Auditores-Fiscais do Trabalho continuam sendo executadas na Justiça Federal comum, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "D",
-        "text": "Nas execuções de Termos de Ajustamento de Conduta (TAC) do MPT também se aplica a trava da Súmula 266 do TST."
+        "text": "Nas execuções de Termos de Ajustamento de Conduta (tac) do MPT também se aplica a trava da Súmula 266 do TST, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "A",
@@ -4143,19 +4143,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 1.026, § 2º, do CPC (aplicado subsidiariamente à CLT pela IN 39/2016 TST), quando manifestamente protelatórios os embargos de declaração, o juiz ou tribunal, em decisão fundamentada, condenará o embargante a pagar ao embargado multa NÃO EXCEDENTE A 2% (DOIS POR CENTO) sobre o valor atualizado da causa! Na REITERAÇÃO de embargos protelatórios (§ 3º), a multa é ELEVADA A ATÉ 10% (DEZ POR CENTO), e a interposição de qualquer recurso fica CONDICIONADA AO DEPÓSITO PRÉVIO do valor da multa (exceto Fazenda Pública e beneficiário da justiça gratuita, que recolhem ao final)! Além disso, NÃO serão admitidos novos embargos de declaração se os 2 anteriores houverem sido considerados protelatórios (§ 4º)!"
+        "text": "Quando manifestamente protelatórios os embargos de declaração, o juiz ou tribunal, em decisão fundamentada, condenará o embargante a pagar ao embargado multa não excedente A 2% (dois por cento) sobre o valor atualizado da causa."
       },
       {
         "letter": "B",
-        "text": "Na primeira oposição de embargos de declaração protelatórios, a interposição do Recurso Ordinário já fica condicionada ao pagamento prévio da multa de 2%."
+        "text": "Na primeira oposição de embargos de declaração protelatórios, a interposição do Recurso Ordinário já fica condicionada ao pagamento prévio da multa de 2%, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "Os embargos de declaração protelatórios nunca interrompem o prazo para o recurso principal."
+        "text": "Os embargos de declaração protelatórios nunca interrompem o prazo para o recurso principal, com afastamento das normas processuais comuns diante da disciplina própria da execução laboral."
       },
       {
         "letter": "D",
-        "text": "A multa por embargos protelatórios reverte sempre em favor da União (Cofres Públicos)."
+        "text": "A multa por embargos protelatórios reverte sempre em favor da União (Cofres Públicos), sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       }
     ],
     "correctAnswer": "A",
@@ -4199,19 +4199,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 2º da Lei nº 5.584/70, se o valor da causa não constar, o juiz o fixará antes de passar à instrução; se qualquer das partes impugnar o valor fixado pelo juiz e o juiz o mantiver, poderá a parte impugnante formular PEDIDO DE REVISÃO para o PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO (TRT), no prazo de 48 HORAS a contar da decisão em razões finais! (Lembrando que, após a Reforma Trabalhista — Art. 840, § 1º, CLT — o valor da causa corresponde hoje à soma dos valores indicados nos pedidos certos e determinados da petição inicial!)."
+        "text": "Se o valor da causa não constar, o juiz o fixará antes de passar à instrução; se qualquer das partes impugnar o valor fixado pelo juiz e o juiz o mantiver, poderá a parte impugnante formular pedido de revisão para o presidente do tribunal regional do trabalho (TRT), no prazo de 48 horas a contar da decisão em razões finais."
       },
       {
         "letter": "B",
-        "text": "Contra a decisão do juiz que fixa o valor da causa na audiência trabalhista cabe Agravo de Instrumento no prazo de 8 dias."
+        "text": "Contra a decisão do juiz que fixa o valor da causa na audiência trabalhista cabe Agravo de Instrumento no prazo de 8 dias, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "A alçada do rito sumário (até 2 salários mínimos) calcula-se com base no salário mínimo vigente na data da sentença final."
+        "text": "A alçada do rito sumário (até 2 salários mínimos) calcula-se com base no salário mínimo vigente na data da sentença final, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "D",
-        "text": "O valor da causa no Processo do Trabalho é sempre fixado livremente pelo autor por mera estimativa simbólica de R$ 1.000,00 mesmo quando há pedidos liquidados que somam R$ 80.000,00."
+        "text": "O valor da causa no Processo do Trabalho é sempre fixado livremente pelo autor por mera estimativa simbólica de R$ 1.000,00 mesmo quando há pedidos liquidados que somam R$ 80.000,00. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       }
     ],
     "correctAnswer": "A",
@@ -4255,19 +4255,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A notificação inicial no Processo do Trabalho NÃO precisa ser pessoal (é impessoal/postal — Art. 841, § 1º, CLT), bastando a entrega no endereço correto do destinatário (mesmo recebida por porteiro ou recepcionista)! Pela Súmula 16 do TST, PRESUME-SE RECEBIDA a notificação 48 (QUARENTA E OITO) HORAS depois de sua postagem — sendo seu NÃO recebimento ou a entrega após o decurso desse prazo ÔNUS DE PROVA do destinatário! Somente se o reclamado criar embaraços ou não for encontrado faz-se a notificação por EDITAL (proibida no rito sumaríssimo — Art. 852-B, II, CLT)!"
+        "text": "A notificação inicial no Processo do Trabalho não precisa ser pessoal, bastando a entrega no endereço correto do destinatário. presume-se recebida a notificação 48 (quarenta e oito) horas depois de sua postagem."
       },
       {
         "letter": "B",
-        "text": "A citação inicial da reclamada na Justiça do Trabalho exige entrega em mãos próprias do representante legal da empresa por Oficial de Justiça, sob pena de nulidade."
+        "text": "A citação inicial da reclamada na Justiça do Trabalho exige entrega em mãos próprias do representante legal da empresa por Oficial de Justiça, sob pena de nulidade, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "C",
-        "text": "Pela Súmula 16 do TST, o ônus de provar que o reclamado efetivamente recebeu a correspondência postal no prazo de 48 horas incumbe sempre ao reclamante."
+        "text": "O ônus de provar que o reclamado efetivamente recebeu a correspondência postal no prazo de 48 horas incumbe sempre ao reclamante, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "O prazo mínimo que deve mediar entre o recebimento da notificação inicial e a realização da audiência trabalhista é de 15 dias úteis para empresas privadas e 20 dias para a Fazenda Pública."
+        "text": "O prazo mínimo que deve mediar entre o recebimento da notificação inicial e a realização da audiência trabalhista é de 15 dias úteis para empresas privadas e 20 dias para a Fazenda Pública, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       }
     ],
     "correctAnswer": "A",
@@ -4311,15 +4311,15 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 39, §§ 1º e 2º, da CLT (e jurisprudência da SDI-1 TST), recusando-se o empregador a anotar a CTPS, a SECRETARIA DA VARA DO TRABALHO fará as devidas anotações (sem fazer qualquer referência vexatória ao processo judicial!); e a previsão legal da anotação pela Secretaria NÃO impede o juiz de fixar previamente MULTA DIÁRIA (astreintes — Art. 536–537 CPC) para compelir o próprio empregador a cumprir a obrigação de fazer, cujo valor reverte integralmente para o EXEQUENTE (Art. 537, § 2º, CPC)!"
+        "text": "Recusando-se o empregador a anotar a CTPS, a secretaria da vara do trabalho fará as devidas anotações."
       },
       {
         "letter": "B",
-        "text": "Havendo previsão na CLT de que a Secretaria da Vara pode anotar a CTPS, é ilícito ao juiz fixar multa diária (astreintes) contra o empregador."
+        "text": "Havendo previsão na CLT de que a Secretaria da Vara pode anotar a CTPS, é ilícito ao juiz fixar multa diária (astreintes) contra o empregador, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "C",
-        "text": "O valor acumulado das astreintes na Justiça do Trabalho reverte em favor do Fundo de Amparo ao Trabalhador (FAT) ou da União."
+        "text": "O valor acumulado das astreintes na Justiça do Trabalho reverte em favor do Fundo de Amparo ao Trabalhador (fat) ou da União, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
@@ -4366,19 +4366,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "SIM, dentro da razoabilidade! Embora a antiga redação da OJ 153 da SDI-2 do TST proibisse absolutamente qualquer penhora de salários/aposentadorias na vigência do CPC/1973, o TST ATUALIZOU a OJ 153 da SDI-2 para adequá-la ao Art. 833, § 2º, do CPC/2015: hoje, a regra de impenhorabilidade de vencimentos, salários e proventos de aposentadoria NÃO se aplica à hipótese de penhora para pagamento de PRESTAÇÃO ALIMENTÍCIA (independentemente de sua origem — incluindo CRÉDITO TRABALHISTA!), desde que preservada a dignidade/subsistência do devedor (em regra limitada a percentual razoável, como até 20% a 30% dos ganhos líquidos)!"
+        "text": "Sim, dentro da razoabilidade. Embora a antiga redação da OJ 153 da SDI-2 do TST proibisse absolutamente qualquer penhora de salários/aposentadorias na vigência do CPC/1973, o TST atualizou a OJ 153 da SDI-2 para adequá-la ao Art. 833, § 2º, do CPC/2015: hoje, a regra de impenhorabilidade de vencimentos, salários e proventos de aposentadoria não se aplica à hipótese de penhora para pagamento de prestação alimentícia, desde que preservada a dignidade/subsistência do devedor."
       },
       {
         "letter": "B",
-        "text": "Por força da OJ 153 da SDI-2 do TST, continua absolutamente proibido penhorar qualquer percentual de salário ou aposentadoria do sócio executado abaixo de 50 salários mínimos."
+        "text": "Por força da OJ 153 da SDI-2 do TST, continua absolutamente proibido penhorar qualquer percentual de salário ou aposentadoria do sócio executado abaixo de 50 salários mínimos, sem admissão de fracionamento de instância nem recurso imediato de decisão interlocutória."
       },
       {
         "letter": "C",
-        "text": "Os valores depositados em caderneta de poupança de até 40 salários mínimos também podem ser penhorados livremente para pagar qualquer dívida trabalhista comum sem exceção."
+        "text": "Os valores depositados em caderneta de poupança de até 40 salários mínimos também podem ser penhorados livremente para pagar qualquer dívida trabalhista comum sem exceção, com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "Contra a decisão do juiz na execução definitiva que determina penhora online em conta salarial bloqueando 100% da remuneração do executado, não cabe Mandado de Segurança."
+        "text": "Contra a decisão do juiz na execução definitiva que determina penhora online em conta salarial bloqueando 100% da remuneração do executado, não cabe Mandado de Segurança, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "A",
@@ -4422,19 +4422,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O único imóvel residencial do empregador continua penhorável para pagamento de créditos trabalhistas de empregados domésticos que trabalhavam na residência."
+        "text": "O único imóvel residencial do empregador continua penhorável para pagamento de créditos trabalhistas de empregados domésticos que trabalhavam na residência, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "B",
-        "text": "Para que o único imóvel residencial goze da proteção da Lei nº 8.009/90 contra penhora trabalhista, exige-se prévia escritura pública averbada no Registro de Imóveis."
+        "text": "Para que o único imóvel residencial goze da proteção da Lei nº 8.009/90 contra penhora trabalhista, exige-se prévia escritura pública averbada no Registro de Imóveis, com reexame amplo de fatos, provas e pedidos não deduzidos na instância originária."
       },
       {
         "letter": "C",
-        "text": "A vaga de garagem com matrícula autônoma no registro de imóveis também é absolutamente impenhorável junto com o apartamento residencial."
+        "text": "A vaga de garagem com matrícula autônoma no registro de imóveis também é absolutamente impenhorável junto com o apartamento residencial, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "D",
-        "text": "NÃO! A Lei Complementar nº 150/2015 (Art. 46) REVOGOU expressamente o inciso I do Art. 3º da Lei nº 8.009/1990 (que antigamente permitia penhorar o bem de família para pagar créditos de trabalhadores da própria residência — empregados domésticos)! Hoje, o único imóvel residencial da família NÃO pode mais ser penhorado nem para dívida trabalhista de empregado doméstico nem de empregado comum (só permanecem exceções como pensão alimentícia familiar, fiança em contrato de locação, crédito de financiamento do próprio imóvel, IPTU do imóvel, hipoteca e imóvel adquirido com produto de crime)!"
+        "text": "Não. A Lei Complementar nº 150/2015 revogou expressamente o inciso I. Hoje, o único imóvel residencial da família não pode mais ser penhorado nem para dívida trabalhista de empregado doméstico nem de empregado comum."
       }
     ],
     "correctAnswer": "D",
@@ -4478,19 +4478,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A penhora de faturamento da empresa pode ser decretada em 1º lugar antes mesmo da tentativa de bloqueio de dinheiro via SISBAJUD ou penhora de veículos."
+        "text": "A penhora de faturamento da empresa pode ser decretada em 1º lugar antes mesmo da tentativa de bloqueio de dinheiro via sisbajud ou penhora de veículos, com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "A OJ 93 da SDI-2 do TST permite penhorar até 80% do faturamento bruto da empresa mesmo que isso acarrete paralisação imediata e demissão de todos os trabalhadores."
+        "text": "A OJ 93 da SDI-2 do TST permite penhorar até 80% do faturamento bruto da empresa mesmo que isso acarrete paralisação imediata e demissão de todos os trabalhadores, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "C",
-        "text": "A penhora de estabelecimento comercial inteiro (empresa) é vedada sempre que houver faturamento positivo."
+        "text": "A penhora de estabelecimento comercial inteiro (empresa) é vedada sempre que houver faturamento positivo, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 866 do CPC e OJ 93 da SDI-2 do TST, é ADMISSÍVEL a penhora de renda/faturamento da empresa executada quando inexistirem outros bens passíveis de penhora (ou forem de difícil alienação — caráter subsidiário na ordem do Art. 835, X, CPC!), DESDE QUE: (1) seja fixado percentual que NÃO torne inviável o exercício da atividade empresarial (princípio da preservação da empresa e menor onerosidade — Art. 805 CPC); e (2) seja nomeado administrador-depositário que submeterá à aprovação judicial a forma de efetivação da constrição e prestará contas mensalmente (§ 2º)!"
+        "text": "Pelo Art. 866 do CPC e OJ 93 da SDI-2 do TST, é admissível a penhora de renda/faturamento da empresa executada quando inexistirem outros bens passíveis de penhora, desde que seja fixado percentual que não torne inviável o exercício da atividade empresarial; e seja nomeado administrador-depositário que submeterá à aprovação judicial a forma de efetivação da constrição e prestará contas mensalmente."
       }
     ],
     "correctAnswer": "D",
@@ -4534,19 +4534,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A fraude à execução trabalhista anula a compra e venda com efeito erga omnes e exige sempre o ajuizamento de ação pauliana autônoma na Vara Cível."
+        "text": "A fraude à execução trabalhista anula a compra e venda com efeito erga omnes e exige sempre o ajuizamento de ação pauliana autônoma na Vara Cível, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "Se a venda do imóvel pelo executado ocorreu antes mesmo do ajuizamento de qualquer reclamação trabalhista, ainda assim configura fraude à execução declarada de ofício."
+        "text": "Se a venda do imóvel pelo executado ocorreu antes mesmo do ajuizamento de qualquer reclamação trabalhista, ainda assim configura fraude à execução declarada de ofício, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "Antes de reconhecer a fraude à execução e desconstituir a venda contra o terceiro adquirente, o juiz deve dispensar sua intimação."
+        "text": "Antes de reconhecer a fraude à execução e desconstituir a venda contra o terceiro adquirente, o juiz deve dispensar sua intimação, com prosseguimento regular da demanda mediante atuação pessoal das partes em qualquer grau."
       },
       {
         "letter": "D",
-        "text": "Quando a alienação ocorre APÓS o ajuizamento/citação válida da demanda capaz de reduzir o devedor à insolvência, trata-se de FRAUDE À EXECUÇÃO (Art. 792, IV, CPC), ato processual INEFICAZ perante o exequente que pode ser declarado incidentalmente nos próprios autos da execução trabalhista (dispensando ação pauliana, diferentemente da fraude contra credores do Art. 158 CC, que ocorre ANTES da ação e exige ação pauliana autônoma!); CONTUDO, pela Súmula 375 do STJ (e Art. 792, § 2º, CPC), NÃO havendo registro de penhora ou averbação prévia na matrícula do bem sujeito a registro, incumbe ao EXEQUENTE o ônus de provar a MÁ-FÉ do terceiro adquirente (ou ao terceiro provar diligência por certidões conforme Art. 792, § 2º)!"
+        "text": "Quando a alienação ocorre após o ajuizamento/citação válida da demanda capaz de reduzir o devedor à insolvência, trata-se de fraude à execução, ato processual ineficaz perante o exequente que pode ser declarado incidentalmente nos próprios autos da execução trabalhista."
       }
     ],
     "correctAnswer": "D",
@@ -4590,19 +4590,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Certidão Negativa de Débitos Trabalhistas (CNDT) tem prazo de validade de 30 dias e custa taxa federal equivalente a 2% do salário mínimo."
+        "text": "A Certidão Negativa de Débitos Trabalhistas (cndt) tem prazo de validade de 30 dias e custa taxa federal equivalente a 2% do salário mínimo."
       },
       {
         "letter": "B",
-        "text": "A simples propositura de reclamação trabalhista ainda em fase de conhecimento impede automaticamente a empresa reclamada de obter a CNDT."
+        "text": "A simples propositura de reclamação trabalhista ainda em fase de conhecimento impede automaticamente a empresa reclamada de obter a cndt."
       },
       {
         "letter": "C",
-        "text": "Mesmo que a empresa garanta integralmente a execução com depósito ou penhora suficiente e oponha Embargos à Execução, continuará impedida de participar de licitações por constar no BNDT."
+        "text": "Mesmo que a empresa garanta integralmente a execução com depósito ou penhora suficiente e oponha Embargos à Execução, continuará impedida de participar de licitações por constar no bndt."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 642-A da CLT: (1) a CNDT é expedida gratuita e eletronicamente e tem prazo de validade de 180 (CENTO E OITENTA) DIAS contados de sua emissão (§ 4º); (2) será NEGADA (certidão positiva) quando o interessado possuir débito inadimplido em execução definitiva trabalhista (decorridos 45 dias da citação sem garantia — Art. 883-A), inadimplemento de obrigações estabelecidas em acordo judicial ou TAC/CCP, ou falência não garantida em certos termos; e (3) será expedida CERTIDÃO POSITIVA COM EFEITO DE NEGATIVA (CPEN — com os mesmos efeitos da CNDT para licitações!) quando o débito estiver GARANTIDO POR PENHORA SUFICIENTE, depósito integral ou com EXIGIBILIDADE SUSPENSA (§ 2º)!"
+        "text": "A cndt é expedida gratuita e eletronicamente e tem prazo de validade de 180 (cento e oitenta) dias contados de sua emissão."
       }
     ],
     "correctAnswer": "D",
@@ -4649,15 +4649,15 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O Imposto de Renda sobre condenações trabalhistas acumuladas de vários anos é calculado de uma só vez sobre o montante global recebido pelo regime de caixa."
+        "text": "O Imposto de Renda sobre condenações trabalhistas acumuladas de vários anos é calculado de uma só vez sobre o montante global recebido pelo regime de caixa, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "C",
-        "text": "Os juros de mora incidentes sobre as verbas salariais condenadas na Justiça do Trabalho sofrem incidência normal de Imposto de Renda."
+        "text": "Os juros de mora incidentes sobre as verbas salariais condenadas na Justiça do Trabalho sofrem incidência normal de Imposto de Renda, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "Pela Súmula 368, II, do TST, é do EMPREGADOR a responsabilidade pelo recolhimento das contribuições previdenciárias e fiscais resultantes de crédito do empregado oriundo de condenação judicial — devendo ser deduzida do crédito do empregado a quota-parte previdenciária e fiscal que lhe cabe (OJ 363 SDI-1 TST: a culpa do empregador pelo inadimplemento na época própria NÃO o obriga a assumir o IRPF/INSS do empregado)! Quanto à forma de cálculo do IRPF: incide mês a mês pelo critério de RENDIMENTOS RECEBIDOS ACUMULADAMENTE (RRA — Art. 12-A da Lei 7.713/88 e Súmula 368, VI, TST — tabela progressiva multiplicada pelo número de meses!), E os JUROS DE MORA NÃO sofrem incidência de Imposto de Renda (OJ 400 SDI-1 TST e STF RE 855.091 / Tema 808)!"
+        "text": "Do TST, é do empregador a responsabilidade pelo recolhimento das contribuições previdenciárias e fiscais resultantes de crédito do empregado oriundo de condenação judicial."
       }
     ],
     "correctAnswer": "D",
@@ -4701,19 +4701,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo em dobro do Art. 229 do CPC para litisconsortes com advogados distintos aplica-se normalmente aos processos trabalhistas físicos e eletrônicos."
+        "text": "O prazo em dobro para litisconsortes com advogados distintos aplica-se normalmente aos processos trabalhistas físicos e eletrônicos, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "B",
-        "text": "Quando uma empresa privada litiga em litisconsórcio com um Município, a empresa privada aproveita o prazo em dobro da Fazenda Pública para interpor seu próprio recurso."
+        "text": "Quando uma empresa privada litiga em litisconsórcio com um Município, a empresa privada aproveita o prazo em dobro da Fazenda Pública para interpor seu próprio recurso, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "Se apenas uma das empresas condenadas solidariamente recorrer pedindo exclusão da lide, seu depósito recursal aproveita automaticamente à outra empresa."
+        "text": "Se apenas uma das empresas condenadas solidariamente recorrer pedindo exclusão da lide, seu depósito recursal aproveita automaticamente à outra empresa, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "NÃO! É INTEMPESTIVO! Pela Orientação Jurisprudencial nº 310 da SDI-1 do TST (e pelo próprio Art. 229, § 2º, do CPC nos autos eletrônicos!), é INAPLICÁVEL ao Processo do Trabalho a norma do Art. 229 do CPC (prazo em dobro para litisconsortes com diferentes procuradores), por ser incompatível com a celeridade trabalhista — além de o Art. 229, § 2º, CPC já excluir o prazo em dobro nos processos em autos eletrônicos (PJe)! Logo, o prazo recursal permanece de 8 dias úteis!"
+        "text": "Não. É intempestivo. Pela Orientação Jurisprudencial nº 310 da SDI-1 do TST, é inaplicável ao Processo do Trabalho a norma, por ser incompatível com a celeridade trabalhista — além de o Art. 229, § 2º, CPC já excluir o prazo em dobro nos processos em autos eletrônicos (PJe). Logo, o prazo recursal permanece de 8 dias úteis."
       }
     ],
     "correctAnswer": "D",
@@ -4757,7 +4757,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Diário Eletrônico da Justiça do Trabalho (DEJT), a data de disponibilização já é considerada a data de publicação, começando o prazo no dia seguinte."
+        "text": "No Diário Eletrônico da Justiça do Trabalho (DEJT), a data de disponibilização já é considerada a data de publicação, começando o prazo no dia seguinte. Tal disciplina reflete a autonomia procedimental própria do processo judiciário do trabalho."
       },
       {
         "letter": "B",
@@ -4765,11 +4765,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "A petição eletrônica protocolada às 23h45 do último dia do prazo é intempestiva se o expediente físico da Vara encerrar às 18h."
+        "text": "A petição eletrônica protocolada às 23h45 do último dia do prazo é intempestiva se o expediente físico da Vara encerrar às 18h, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 4º, §§ 3º e 4º, da Lei nº 11.419/2006: considera-se como DATA DA PUBLICAÇÃO o 1º dia útil seguinte ao da disponibilização no DEJT (quinta-feira), e o PRAZO COMEÇA A CORRER no 1º dia útil seguinte ao da publicação (sexta-feira)! E quanto à indisponibilidade do PJe-JT no último dia do prazo (Resolução CSJT nº 185/2017 e Art. 10, § 2º, Lei 11.419/06): se o sistema ficar indisponível por motivo técnico por tempo superior a 60 minutos ininterruptos ou intermitentes (entre 6h e 23h) ou por qualquer período entre 23h e 24h no termo final, o prazo prorroga-se automaticamente para o 1º DIA ÚTIL SEGUINTE à resolução do problema!"
+        "text": "Considera-se como data da publicação o 1º dia útil seguinte ao da disponibilização no DEJT (quinta-feira), e o prazo começa a correr no 1º dia útil seguinte ao da publicação (sexta-feira)."
       }
     ],
     "correctAnswer": "D",
@@ -4812,19 +4812,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A fiança bancária e o seguro garantia judicial exigem apenas o valor nominal exato da dívida executada, sem acréscimo percentual."
+        "text": "A fiança bancária e o seguro garantia judicial exigem apenas o valor nominal exato da dívida executada, sem acréscimo percentual, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "Na execução trabalhista definitiva nunca se admite substituir penhora de dinheiro em conta corrente por seguro garantia judicial com +30%."
+        "text": "Na execução trabalhista definitiva nunca se admite substituir penhora de dinheiro em conta corrente por seguro garantia judicial com +30%, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "O executado pode substituir livremente o dinheiro bloqueado via SISBAJUD por veículo ou terreno bem localizado sem concordância do exequente."
+        "text": "O executado pode substituir livremente o dinheiro bloqueado via sisbajud por veículo ou terreno bem localizado sem concordância do exequente, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "D",
-        "text": "SIM! Pelo Art. 882 da CLT (c/c Art. 835, § 2º, do CPC e OJ 59 da SDI-2 do TST atualizada!), para fins de substituição da penhora (ou garantia originária do juízo na execução — Art. 882 CLT), EQUIPARAM-SE A DINHEIRO a fiança bancária e o seguro garantia judicial, desde que em valor NÃO INFERIOR ao do débito constante da inicial/execução, ACRESCIDO DE 30% (TRINTA POR CENTO)! (Inclusive em execução definitiva — a antiga restrição da Súmula 417 à execução definitiva referia-se à oferta de bens imóveis/móveis comuns em detrimento de dinheiro, não ao seguro garantia com +30% regulado pelo Ato Conjunto TST/CSJT 1/2019 e CNJ!)."
+        "text": "Sim. para fins de substituição da penhora, equiparam-se a dinheiro a fiança bancária e o seguro garantia judicial, desde que em valor não inferior ao do débito constante da inicial/execução, acrescido de 30% (trinta por cento)."
       }
     ],
     "correctAnswer": "D",
@@ -4868,19 +4868,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O depósito judicial integral em dinheiro para garantia do juízo nunca cessa os encargos moratórios do devedor até o efetivo levantamento pelo credor."
+        "text": "O depósito judicial integral em dinheiro para garantia do juízo nunca cessa os encargos moratórios do devedor até o efetivo levantamento pelo credor, com afastamento das normas processuais comuns diante da disciplina própria da execução laboral. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "Os juros moratórios trabalhistas incidem apenas sobre o salário nominal puro, excluindo a correção monetária."
+        "text": "Os juros moratórios trabalhistas incidem apenas sobre o salário nominal puro, excluindo a correção monetária, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "C",
-        "text": "Na condenação trabalhista contra a Fazenda Pública, os juros e correção seguem exatamente o Art. 39 da Lei 8.177/91 sem aplicação da EC 113/2021."
+        "text": "Na condenação trabalhista contra a Fazenda Pública, os juros e correção seguem exatamente o Art. 39 da Lei 8.177/91 sem aplicação da EC 113/2021, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "SIM, conforme entendimento pacificado do TST (e alinhado à jurisprudência trabalhista majoritária na Súmula/Tese do TST após superação parcial ou modulação, bem como Art. 9º, § 4º, da Lei 6.830/80 aplicado via Art. 889 CLT!), o depósito integral em dinheiro para garantia do juízo na execução faz CESSAR a responsabilidade do devedor pela atualização monetária e juros de mora futuros a partir do efetivo depósito à disposição do juízo, passando o valor depositado a render pelos índices bancários da conta judicial (salvo eventual diferença se depositado a menor)! Quanto aos juros na fase cognitiva, a Súmula 200 do TST (harmonizada com a ADC 58 STF -> SELIC a partir do ajuizamento!) prevê incidência desde a propositura da ação."
+        "text": "Sim, conforme entendimento pacificado do TST, o depósito integral em dinheiro para garantia do juízo na execução faz cessar a responsabilidade do devedor pela atualização monetária e juros de mora futuros a partir do efetivo depósito à disposição do juízo, passando o valor depositado a render pelos índices bancários da conta judicial."
       }
     ],
     "correctAnswer": "D",
@@ -4924,19 +4924,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A transcrição integral de todo o acórdão do TRT sem nenhum destaque supre perfeitamente o requisito do Art. 896, § 1º-A, I, da CLT."
+        "text": "A transcrição integral de todo o acórdão do TRT sem nenhum destaque supre perfeitamente o requisito, com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo."
       },
       {
         "letter": "B",
-        "text": "Na alegação de nulidade por negativa de prestação jurisdicional em Recurso de Revista, basta afirmar que o TRT foi omisso, dispensando qualquer transcrição."
+        "text": "Na alegação de nulidade por negativa de prestação jurisdicional em Recurso de Revista, basta afirmar que o TRT foi omisso, dispensando qualquer transcrição. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "Se a tese jurídica recorrida violar a lei desde a primeira vez em que surgiu no próprio acórdão do TRT, ainda assim é obrigatório opor Embargos de Declaração para prequestionamento."
+        "text": "Se a tese jurídica recorrida violar a lei desde a primeira vez em que surgiu no próprio acórdão do TRT, ainda assim é obrigatório opor Embargos de Declaração para prequestionamento, com prosseguimento regular da demanda mediante atuação pessoal das partes em qualquer grau."
       },
       {
         "letter": "D",
-        "text": "NÃO! Pelo Art. 896, § 1º-A, da CLT e jurisprudência pacífica da SDI-1 do TST: (1) sob pena de NÃO CONHECIMENTO, é ônus da parte indicar o TRECHO exato da decisão recorrida que consubstancia o prequestionamento da controvérsia (inciso I — a transcrição INTEGRAL e sem destaques de todo o acórdão regional NÃO atende ao requisito legal!); e (2) ao suscitar preliminar de nulidade por NEGATIVA DE PRESTAÇÃO JURISDICIONAL (inciso IV), a parte deve transcrever na peça recursal tanto o TRECHO DOS EMBARGOS DE DECLARAÇÃO em que pediu o pronunciamento quanto o trecho da DECISÃO REGIONAL que rejeitou os embargos!"
+        "text": "Não. e jurisprudência pacífica da SDI-1 do TST: sob pena de não conhecimento, é ônus da parte indicar o trecho exato da decisão recorrida que consubstancia o prequestionamento da controvérsia."
       }
     ],
     "correctAnswer": "D",
@@ -4980,19 +4980,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Admitido o Recurso de Revista por apenas um dos temas pelo Presidente do TRT, todo o recurso sobe integralmente ao TST pela antiga Súmula 285 do TST."
+        "text": "Admitido o Recurso de Revista por apenas um dos temas pelo Presidente do TRT, todo o recurso sobe integralmente ao TST pela antiga Súmula 285 do TST, com prosseguimento regular da demanda mediante atuação pessoal das partes em qualquer grau. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "B",
-        "text": "Se o Presidente do TRT silenciar totalmente sobre um dos temas do Recurso de Revista no despacho de admissibilidade, o TST o apreciará diretamente de ofício."
+        "text": "Se o Presidente do TRT silenciar totalmente sobre um dos temas do Recurso de Revista no despacho de admissibilidade, o TST o apreciará diretamente de ofício, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "NÃO! Ocorreu PRECLUSÃO quanto ao capítulo denegado! Pela Instrução Normativa nº 40/2016 do TST (Art. 1º — alinhada ao cancelamento da Súmula 285 TST!), admitido apenas parcialmente o Recurso de Revista, constitui ÔNUS DA PARTE impugnar, mediante AGRAVO DE INSTRUMENTO (em 8 dias úteis), o capítulo denegatório da decisão, SOB PENA DE PRECLUSÃO! (E se houver omissão total do despacho sobre algum capítulo, cabe oposição de Embargos de Declaração ao Presidente do TRT em 5 dias, sob pena de preclusão — § 1º!)."
+        "text": "Não. Ocorreu preclusão quanto ao capítulo denegado. Pela Instrução Normativa nº 40/2016 do TST, admitido apenas parcialmente o Recurso de Revista, constitui ônus da parte impugnar, mediante agravo de instrumento (em 8 dias úteis), o capítulo denegatório da decisão, sob pena de preclusão."
       },
       {
         "letter": "D",
-        "text": "No Agravo de Instrumento interposto contra despacho que trancou o Recurso de Revista, a empresa é dispensada de recolher qualquer depósito recursal mesmo sem ter atingido o valor total da condenação."
+        "text": "No Agravo de Instrumento interposto contra despacho que trancou o Recurso de Revista, a empresa é dispensada de recolher qualquer depósito recursal mesmo sem ter atingido o valor total da condenação, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "C",
@@ -5036,19 +5036,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer erro de dígito no número do processo ou código de receita na guia de custas gera deserção automática insanável do recurso trabalhista."
+        "text": "Qualquer erro de dígito no número do processo ou código de receita na guia de custas gera deserção automática insanável do recurso trabalhista, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "B",
-        "text": "Caso o recorrente pague as custas e o depósito no 9º dia útil (um dia após o fim do prazo recursal), poderá convalidar o atraso mediante intimação de 5 dias."
+        "text": "Caso o recorrente pague as custas e o depósito no 9º dia útil (um dia após o fim do prazo recursal), poderá convalidar o atraso mediante intimação de 5 dias, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "NÃO de imediato! Pelo Art. 1.007, § 7º, do CPC (aplicável ao Processo do Trabalho pela IN 39/2016 TST) e jurisprudência atualizada da SDI-1 do TST (superando o rigor excessivo da antiga OJ 158/Súmula 426 quando há mera irregularidade formal sanável!), o equívoco no preenchimento da guia de custas ou depósito recursal NÃO implica a pena de deserção imediata: cabe ao relator INTIMAR O RECORRENTE para, no prazo de 5 DIAS, sanar o vício (juntando comprovação da vinculação ao processo ou retificação)! Só ocorre deserção imediata se o recorrente NÃO realizou depósito/pagamento nenhum no prazo recursal (OJ 140 SDI-1) ou se, intimado em 5 dias, permanecer inerte!"
+        "text": "Não de imediato. e jurisprudência atualizada da SDI-1 do TST, o equívoco no preenchimento da guia de custas ou depósito recursal não implica a pena de deserção imediata: cabe ao relator intimar o recorrente para, no prazo de 5 dias, sanar o vício."
       },
       {
         "letter": "D",
-        "text": "Se a empresa interpuser dois recursos sucessivos sobre a mesma condenação após já ter garantido 100% do valor total da condenação no primeiro depósito, precisa depositar novamente o teto no segundo recurso."
+        "text": "Se a empresa interpuser dois recursos sucessivos sobre a mesma condenação após já ter garantido 100% do valor total da condenação no primeiro depósito, precisa depositar novamente o teto no segundo recurso, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "C",
@@ -5092,19 +5092,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por força da Súmula 136 do TST, o juiz que encerra a audiência de instrução fica absolutamente vinculado aos autos e obrigado a proferir a sentença mesmo após remoção para outra Vara."
+        "text": "Por força da Súmula 136 do TST, o juiz que encerra a audiência de instrução fica absolutamente vinculado aos autos e obrigado a proferir a sentença mesmo após remoção para outra Vara, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "B",
-        "text": "Na Justiça do Trabalho, a audiência deve ser obrigatoriamente fracionada em três atos distintos (conciliação, defesa e instrução), sob pena de nulidade."
+        "text": "Na Justiça do Trabalho, a audiência deve ser obrigatoriamente fracionada em três atos distintos (conciliação, defesa e instrução), sob pena de nulidade. O descumprimento da formalidade impede o exame do mérito pelo órgão recursal trabalhista."
       },
       {
         "letter": "C",
-        "text": "NÃO! Pela Súmula 136 do TST — e hoje reforçado também pelo próprio CPC/2015, que sequer reproduziu o antigo Art. 132 do CPC/73! — NÃO se aplica às Varas do Trabalho o princípio da identidade física do juiz! Assim, qualquer magistrado em exercício regular na Vara do Trabalho pode proferir a sentença validamente com base nas provas registradas em ata/gravação, ainda que não tenha colhido a instrução!"
+        "text": "Não. 132 do CPC/73. Assim, qualquer magistrado em exercício regular na Vara do Trabalho pode proferir a sentença validamente com base nas provas registradas em ata/gravação, ainda que não tenha colhido a instrução."
       },
       {
         "letter": "D",
-        "text": "Na audiência trabalhista, a defesa oral em sala tem duração máxima de 10 minutos e as razões finais orais têm duração de 20 minutos."
+        "text": "Na audiência trabalhista, a defesa oral em sala tem duração máxima de 10 minutos e as razões finais orais têm duração de 20 minutos, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "C",
@@ -5148,19 +5148,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para executar o devedor subsidiário que consta na sentença, o juiz do trabalho deve obrigatoriamente instaurar antes o IDPJ contra todos os sócios da devedora principal."
+        "text": "Para executar o devedor subsidiário que consta na sentença, o juiz do trabalho deve obrigatoriamente instaurar antes o IDPJ contra todos os sócios da devedora principal, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "B",
-        "text": "Mesmo que a tomadora de serviços não tenha participado da fase de conhecimento, pode ser incluída diretamente na execução como responsável subsidiária."
+        "text": "Mesmo que a tomadora de serviços não tenha participado da fase de conhecimento, pode ser incluída diretamente na execução como responsável subsidiária, com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "NÃO! Pela jurisprudência pacífica do TST, na execução trabalhista, frustrados os meios executórios contra a DEVEDORA PRINCIPAL (prestadora de serviços), a execução redireciona-se DIRETAMENTE contra a DEVEDORA SUBSIDIÁRIA (tomadora) constante do título executivo — NÃO se exigindo o prévio esgotamento da execução contra os SÓCIOS da devedora principal (desconsideração da personalidade jurídica em 3º grau), pois ambos são devedores subsidiários e o credor trabalhista tem prioridade alimentar!"
+        "text": "Não. Pela jurisprudência pacífica do TST, na execução trabalhista, frustrados os meios executórios contra a devedora principal, a execução redireciona-se diretamente contra a devedora subsidiária (tomadora) constante do título executivo, pois ambos são devedores subsidiários e o credor trabalhista tem prioridade alimentar."
       },
       {
         "letter": "D",
-        "text": "A devedora subsidiária que quita o débito na execução trabalhista não possui direito de regresso contra a prestadora na Justiça Comum."
+        "text": "A devedora subsidiária que quita o débito na execução trabalhista não possui direito de regresso contra a prestadora na Justiça Comum, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "C",
@@ -5212,11 +5212,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 11-A, § 1º, da CLT (inserido pela Reforma Trabalhista — e regulamentado pela IN 41/2018 do TST, Art. 2º, que veda aplicação retroativa antes de 11/11/2017!), a fluência do prazo prescricional intercorrente de 2 ANOS inicia-se quando o exequente DEIXA DE CUMPRIR DETERMINAÇÃO JUDICIAL no curso da execução (após intimação específica sob cominação — e observando-se pelo CPC/Art. 921 a suspensão de 1 ano quando não encontrados bens sem desídia do credor, segundo adaptação da jurisprudência trabalhista e Recomendação GCGJT nº 3/2018)! Declarada a prescrição intercorrente (inclusive de ofício — § 2º), cabe Agravo de Petição em 8 dias úteis!"
+        "text": "A fluência do prazo prescricional intercorrente de 2 anos inicia-se quando o exequente deixa de cumprir determinação judicial no curso da execução."
       },
       {
         "letter": "D",
-        "text": "Da sentença do juiz da execução que pronuncia de ofício a prescrição intercorrente e extingue a execução cabe Recurso Ordinário."
+        "text": "Da sentença do juiz da execução que pronuncia de ofício a prescrição intercorrente e extingue a execução cabe Recurso Ordinário, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       }
     ],
     "correctAnswer": "C",
@@ -5264,15 +5264,15 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O exequente que perde Impugnação à Sentença de Liquidação é condenado ao pagamento das custas fixas de R$ 44,26 do Art. 789-A."
+        "text": "O exequente que perde Impugnação à Sentença de Liquidação é condenado ao pagamento das custas fixas de R$ 44,26, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 789-A, caput, da CLT, no processo de execução são devidas custas (valores fixos previstos nos incisos I a IX, ex.: R$ 44,26 para agravo de petição e R$ 44,26 para embargos à execução/impugnação — sendo de 5% com mínimo R$ 10,64 e teto de R$ 1.915,38 nos atos de arrematação/adjudicação/remição!), de responsabilidade EXCLUSIVA DO EXECUTADO, e pagas AO FINAL (logo, NÃO se exige recolhimento prévio de custas nem para opor Embargos à Execução nem para interpor Agravo de Petição — Súmula/jurisprudência pacífica do TST baseada no Art. 789-A)!"
+        "text": "No processo de execução são devidas custas, de responsabilidade exclusiva do executado, e pagas ao final."
       },
       {
         "letter": "D",
-        "text": "Na execução trabalhista não existem emolumentos nem custas sobre carta de arrematação ou adjudicação."
+        "text": "Na execução trabalhista não existem emolumentos nem custas sobre carta de arrematação ou adjudicação, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       }
     ],
     "correctAnswer": "C",
@@ -5323,11 +5323,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "SIM! Pelo Art. 830 da CLT (e Art. 425, IV, CPC), o documento em cópia oferecido para prova poderá ser declarado AUTÊNTICO PELO PRÓPRIO ADVOGADO, sob sua responsabilidade pessoal! E pelo parágrafo único do Art. 830 CLT, impugnada a autenticidade da cópia, a parte que a produziu será intimada para apresentar cópias devidamente autenticadas ou o original, cabendo ao serventuário competente proceder à conferência e certificação da conformidade entre esses documentos!"
+        "text": "Sim. o documento em cópia oferecido para prova poderá ser declarado autêntico pelo próprio advogado, sob sua responsabilidade pessoal."
       },
       {
         "letter": "D",
-        "text": "A declaração de autenticidade pelo advogado do Art. 830 CLT é incompatível com a juntada de acórdãos para comprovação de divergência em Recurso de Revista."
+        "text": "A declaração de autenticidade pelo advogado é incompatível com a juntada de acórdãos para comprovação de divergência em Recurso de Revista."
       }
     ],
     "correctAnswer": "C",
@@ -5371,19 +5371,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Toda entidade sem fins lucrativos é totalmente isenta do depósito recursal e das custas processuais na Justiça do Trabalho."
+        "text": "Toda entidade sem fins lucrativos é totalmente isenta do depósito recursal e das custas processuais na Justiça do Trabalho, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "B",
-        "text": "As entidades filantrópicas também são obrigadas a garantir integralmente o juízo para poder opor Embargos à Execução no Art. 884 da CLT."
+        "text": "As entidades filantrópicas também são obrigadas a garantir integralmente o juízo para poder opor Embargos à Execução, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "C",
-        "text": "NÃO! Cuidado máximo com a distinção exata dos §§ 9º e 10 do Art. 899 da CLT! As entidades SEM FINS LUCRATIVOS em geral (como clubes, associações recreativas, sindicatos) têm apenas REDUÇÃO DE 50% do depósito recursal (§ 9º — junto com ME, EPP, MEI e empregador doméstico)! Já a ISENÇÃO TOTAL (100%) do depósito recursal do § 10 aplica-se APENAS às entidades FILANTRÓPICAS (certificadas como beneficentes de assistência social), aos beneficiários da justiça gratuita e às empresas em recuperação judicial! Como não recolheu os 50% nem custas, o recurso é DESERTO!"
+        "text": "Não. Cuidado máximo com a distinção exata dos §§ 9º e 10. As entidades sem fins lucrativos em geral têm apenas redução de 50% do depósito recursal. Já a isenção total (100%) do depósito recursal do § 10 aplica-se apenas às entidades filantrópicas, aos beneficiários da justiça gratuita e às empresas em recuperação judicial. Como não recolheu os 50% nem custas, o recurso é deserto."
       },
       {
         "letter": "D",
-        "text": "O microempreendedor individual (MEI) e a microempresa (ME) são totalmente isentos de depósito recursal pelo Art. 899, § 10, CLT."
+        "text": "O microempreendedor individual (MEI) e a microempresa (ME) são totalmente isentos de depósito recursal, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho. O descumprimento da formalidade impede o exame do mérito pelo órgão recursal trabalhista."
       }
     ],
     "correctAnswer": "C",
@@ -5426,19 +5426,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na Justiça do Trabalho é proibido o litisconsórcio ativo facultativo entre empregados da mesma empresa."
+        "text": "Na Justiça do Trabalho é proibido o litisconsórcio ativo facultativo entre empregados da mesma empresa, sem admissão de fracionamento de instância nem recurso imediato de decisão interlocutória."
       },
       {
         "letter": "B",
-        "text": "O juiz do trabalho não pode limitar o número de autores numa reclamação plúrima com 80 reclamantes nem determinar o desmembramento."
+        "text": "O juiz do trabalho não pode limitar o número de autores numa reclamação plúrima com 80 reclamantes nem determinar o desmembramento, com afastamento das normas processuais comuns diante da disciplina própria da execução laboral."
       },
       {
         "letter": "C",
-        "text": "SIM! Pelo Art. 842 da CLT, sendo várias as reclamações e havendo identidade de matéria, poderão ser acumuladas num só processo se se tratar de empregados da mesma empresa ou estabelecimento (litisconsórcio ativo facultativo); CONTUDO, pelo Art. 113, § 1º, do CPC (aplicado subsidiariamente via Art. 769 CLT), o juiz poderá LIMITAR o litisconsórcio facultativo quanto ao número de litigantes quando este comprometer a rápida solução do litígio ou dificultar a defesa/cumprimento da sentença (desmembrando em ações menores)! E quanto ao rito/alçada (Art. 2º Lei 5.584/70), verifica-se o valor GLOBAL da soma de todos os pedidos ou individual? Atenção à Súmula/OJ do TST: na reclamação plúrima, a ALÇADA é considerada em relação a CADA RECLAMANTE individualmente (ou soma para rito sumaríssimo? Cuidado: no sumaríssimo verifica-se a soma total da causa até 40 SM; na alçada da Lei 5.584/70, se cada reclamante pede < 2 SM, analisa-se o valor total atribuído à reclamação plúrima conforme OJ/jurisprudência se cumulação ou individual)!"
+        "text": "Sim. sendo várias as reclamações e havendo identidade de matéria, poderão ser acumuladas num só processo se se tratar de empregados da mesma empresa ou estabelecimento; contudo, o juiz poderá limitar o litisconsórcio facultativo quanto ao número de litigantes quando este comprometer a rápida solução do litígio ou dificultar a defesa/cumprimento da sentença. E quanto ao rito/alçada."
       },
       {
         "letter": "D",
-        "text": "Em caso de reclamação trabalhista plúrima com 5 autores, cada parte poderá ouvir até 15 testemunhas (3 por autor)."
+        "text": "Em caso de reclamação trabalhista plúrima com 5 autores, cada parte poderá ouvir até 15 testemunhas (3 por autor), observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       }
     ],
     "correctAnswer": "C",
@@ -5481,19 +5481,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Mesmo nas sentenças ilíquidas contra Municípios, presume-se sempre que o valor é inferior a 100 salários mínimos, dispensando a remessa necessária."
+        "text": "Mesmo nas sentenças ilíquidas contra Municípios, presume-se sempre que o valor é inferior a 100 salários mínimos, dispensando a remessa necessária. O descumprimento da formalidade impede o exame do mérito pelo órgão recursal trabalhista."
       },
       {
         "letter": "B",
-        "text": "Na remessa necessária trabalhista, o TRT pode agravar a condenação imposta à Fazenda Pública mesmo sem recurso do reclamante."
+        "text": "Na remessa necessária trabalhista, o TRT pode agravar a condenação imposta à Fazenda Pública mesmo sem recurso do reclamante, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "SIM! Pela Súmula 490 do STJ e jurisprudência pacífica do TST (interpretação da Súmula 303, I, do TST c/c Art. 496, § 3º, do CPC): a dispensa da remessa necessária fundada nos pisos de alçada (1.000 SM União / 500 SM Estados / 100 SM Municípios) pressupõe CONDENAÇÃO LÍQUIDA OU PROVEITO ECONÔMICO CERTO abaixo daqueles limites — logo, sendo a condenação contra a Fazenda Pública ILÍQUIDA (e não estando amparada em súmula/repetitivo), SUBMETE-SE À REMESSA NECESSÁRIA obrigatória ao TRT!"
+        "text": "Sim. e jurisprudência pacífica do TST: a dispensa da remessa necessária fundada nos pisos de alçada pressupõe condenação líquida ou proveito econômico certo abaixo daqueles limites."
       },
       {
         "letter": "D",
-        "text": "Se o juiz deixar de submeter a sentença sujeita a remessa necessária ao TRT, ela transita em julgado normalmente após 16 dias úteis."
+        "text": "Se o juiz deixar de submeter a sentença sujeita a remessa necessária ao TRT, ela transita em julgado normalmente após 16 dias úteis, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       }
     ],
     "correctAnswer": "C",
@@ -5537,11 +5537,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela regra geral do Art. 651, caput, da CLT (local da efetiva prestação de serviços!) e interpretação sistemática do TST sobre o Art. 75-B da CLT, a competência territorial pertence em regra ao local ONDE O EMPREGADO PRESTOU OS SERVIÇOS (Curitiba/PR, sua base residencial onde trabalhou remotamente)! Atenção ao detalhe da Lei nº 14.442/2022 (Art. 75-B, § 7º, CLT): ao contrato de teletrabalho aplicam-se as disposições da legislação local da BASE TERRITORIAL DO ESTABELECIMENTO DE LOTAÇÃO DO EMPREGADO (para normas coletivas/ACT/CCT — direito material!), sem prejuízo da regra processual protetiva do Art. 651 quanto ao foro da prestação fática ou flexibilização de acesso à justiça pelo TST!"
+        "text": "Pela regra geral e interpretação sistemática do TST sobre o Art. 75-B da CLT, a competência territorial pertence em regra ao local onde o empregado prestou OS serviços."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 75-B, § 7º, da CLT, o teletrabalhador só pode ajuizar reclamação trabalhista na cidade onde fica a matriz da empresa, sendo incompetente o foro de sua prestação remota."
+        "text": "O teletrabalhador só pode ajuizar reclamação trabalhista na cidade onde fica a matriz da empresa, sendo incompetente o foro de sua prestação remota, com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo."
       },
       {
         "letter": "C",
@@ -5549,7 +5549,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Se o empregador contratar o teletrabalhador no Brasil para atuar em sede estrangeira, a Justiça do Trabalho brasileira perde competência absoluta pelo Art. 651, § 2º, CLT."
+        "text": "Se o empregador contratar o teletrabalhador no Brasil para atuar em sede estrangeira, a Justiça do Trabalho brasileira perde competência absoluta, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       }
     ],
     "correctAnswer": "A",
@@ -5592,19 +5592,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "NÃO! O recurso da empresa Beta será considerado DESERTO! Pela Súmula 128, III, do TST, havendo condenação SOLIDÁRIA de duas ou mais empresas, o depósito recursal efetuado por uma delas SÓ APROVEITA às demais QUANDO a empresa que efetuou o depósito NÃO PLEITEIA SUA EXCLUSÃO DA LIDE! Como Alfa pediu sua própria exclusão da lide (se vencer no recurso, levará seu depósito de volta e deixará a execução sem garantia!), Beta não pode aproveitar o depósito de Alfa!"
+        "text": "Não. O recurso da empresa Beta será considerado deserto. do TST, havendo condenação solidária de duas ou mais empresas, o depósito recursal efetuado por uma delas só aproveita às demais quando a empresa que efetuou o depósito não pleiteia sua exclusão da lide. Como Alfa pediu sua própria exclusão da lide, Beta não pode aproveitar o depósito de Alfa."
       },
       {
         "letter": "B",
-        "text": "Em qualquer condenação solidária, o depósito recursal recolhido por uma empresa sempre aproveita às demais corréus independentemente dos pedidos formulados no recurso."
+        "text": "Em qualquer condenação solidária, o depósito recursal recolhido por uma empresa sempre aproveita às demais corréus independentemente dos pedidos formulados no recurso, com reexame amplo de fatos, provas e pedidos não deduzidos na instância originária."
       },
       {
         "letter": "C",
-        "text": "Mesmo quando duas empresas são condenadas de forma meramente SUBSIDIÁRIA (e não solidária), aplica-se a Súmula 128, III, permitindo à tomadora aproveitar o depósito se pedir exclusão."
+        "text": "Mesmo quando duas empresas são condenadas de forma meramente subsidiária (e não solidária), aplica-se a Súmula 128, III, permitindo à tomadora aproveitar o depósito se pedir exclusão. Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "Quando ambos os réus recorrem sem que nenhum peça exclusão da lide, os dois devem pagar integralmente 100% do depósito recursal mesmo que um já tenha garantido toda a condenação."
+        "text": "Quando ambos os réus recorrem sem que nenhum peça exclusão da lide, os dois devem pagar integralmente 100% do depósito recursal mesmo que um já tenha garantido toda a condenação, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       }
     ],
     "correctAnswer": "A",
@@ -5648,19 +5648,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 833, V, do CPC (aplicável à execução trabalhista via Art. 889 CLT c/c LEF), são IMPENHORÁVEIS os livros, as máquinas, as ferramentas, os utensílios, os instrumentos ou outros bens móveis necessários ou úteis ao exercício da profissão DO EXECUTADO PESSOA FÍSICA (jurisprudência do TST e STJ restringe essa proteção à PESSOA FÍSICA / profissional autônomo / MEI individual — não alcançando o parque industrial de pessoa jurídica societária, salvo inviabilização total sem outros bens)! Também são impenhoráveis os móveis e pertences da residência familiar, salvo os de elevado valor ou que ultrapassem as necessidades comuns (Art. 833, II)!"
+        "text": "São impenhoráveis os livros, as máquinas, as ferramentas, os utensílios, os instrumentos ou outros bens móveis necessários ou úteis ao exercício da profissão do executado pessoa física."
       },
       {
         "letter": "B",
-        "text": "A impenhorabilidade de máquinas e instrumentos de trabalho do Art. 833, V, do CPC impede sempre a penhora de quaisquer máquinas industriais de grandes sociedades anônimas."
+        "text": "A impenhorabilidade de máquinas e instrumentos de trabalho impede sempre a penhora de quaisquer máquinas industriais de grandes sociedades anônimas, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",
-        "text": "Na execução trabalhista, os valores recebidos a título de seguro de vida são livremente penhoráveis pelo inciso VI do Art. 833 do CPC."
+        "text": "Na execução trabalhista, os valores recebidos a título de seguro de vida são livremente penhoráveis pelo inciso VI, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "D",
-        "text": "O Art. 835 do CPC coloca os bens imóveis em 1º lugar na ordem preferencial de penhora trabalhista."
+        "text": "O Art. 835 do CPC coloca os bens imóveis em 1º lugar na ordem preferencial de penhora trabalhista, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       }
     ],
     "correctAnswer": "A",
@@ -5703,11 +5703,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No Processo do Trabalho, prefere-se hoje a oitiva por VIDEOCONFERÊNCIA (Art. 385, § 3º, e Art. 453, § 1º, CPC c/c Resolução CNJ 354/2020) — mas se necessária a expedição de CARTA PRECATÓRIA INQUIRITÓRIA, esta segue o rito do CPC (Art. 377 CPC): a expedição da carta precatória NÃO suspende a instrução nem o processo salvo quando requerida antes da audiência e considerada imprescindível a prova pelo juiz (podendo o juízo deprecante prosseguir até antes da sentença aguardando a devolução da carta se decisiva)! Se a testemunha da comarca local faltar após convite comprovado, o juiz adia uma vez e determina sua intimação; se intimada faltar injustificadamente, sofre CONDUÇÃO COERCITIVA e multa (Art. 825, parágrafo único, CLT)!"
+        "text": "No Processo do Trabalho, prefere-se hoje a oitiva por videoconferência. Se a testemunha da comarca local faltar após convite comprovado, o juiz adia uma vez e determina sua intimação."
       },
       {
         "letter": "B",
-        "text": "Na Justiça do Trabalho, a expedição de carta precatória inquiritória suspende automaticamente todo o curso do processo por 180 dias."
+        "text": "Na Justiça do Trabalho, a expedição de carta precatória inquiritória suspende automaticamente todo o curso do processo por 180 dias, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "C",
@@ -5715,7 +5715,7 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "No Processo do Trabalho, a testemunha que faltar após intimação judicial não pode ser conduzida coercitivamente."
+        "text": "No Processo do Trabalho, a testemunha que faltar após intimação judicial não pode ser conduzida coercitivamente, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       }
     ],
     "correctAnswer": "A",
@@ -5758,19 +5758,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "NÃO! Por três vícios cumulativos previstos na CLT e nas Súmulas do TST: (1) pela Súmula 296, I, do TST, a divergência jurisprudencial deve ser ESPECÍFICA, revelando teses diversas na interpretação de um mesmo dispositivo legal embora idênticos os fatos que as ensejaram (e o Art. 896, § 8º, CLT exige o COTEJO ANALÍTICO mencionando as circunstâncias que identifiquem ou assemelhem os casos!); (2) pela Súmula 333 do TST e Art. 896, § 7º, CLT, NÃO ensejam Recurso de Revista decisões superadas por iterativa, notória e atual jurisprudência do TST (Súmula/OJ/SDI); e (3) pela Súmula 337 do TST, exige-se indicação da fonte oficial ou repositório autorizado (ou URL/código autenticador se extraído da internet)!"
+        "text": "Não. Por três vícios cumulativos previstos na CLT e nas Súmulas do TST:, do TST, a divergência jurisprudencial deve ser específica, revelando teses diversas na interpretação de um mesmo dispositivo legal embora idênticos os fatos que as ensejaram."
       },
       {
         "letter": "B",
-        "text": "Para conhecer de Recurso de Revista por divergência jurisprudencial basta copiar a ementa do outro TRT sem demonstrar semelhança fática nem fazer cotejo analítico."
+        "text": "Para conhecer de Recurso de Revista por divergência jurisprudencial basta copiar a ementa do outro TRT sem demonstrar semelhança fática nem fazer cotejo analítico, observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa."
       },
       {
         "letter": "C",
-        "text": "Aresto de Turma do próprio TST serve perfeitamente como divergência jurisprudencial apta a fundamentar Recurso de Revista pelo Art. 896, \"a\", da CLT."
+        "text": "Aresto de Turma do próprio TST serve perfeitamente como divergência jurisprudencial apta a fundamentar Recurso de Revista, em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral."
       },
       {
         "letter": "D",
-        "text": "Quando o recurso funda-se em divergência extraída do site oficial do TRT na internet, a Súmula 337 do TST proíbe o aproveitamento sem certidão cartorária física."
+        "text": "Quando o recurso funda-se em divergência extraída do site oficial do TRT na internet, a Súmula 337 do TST proíbe o aproveitamento sem certidão cartorária física, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       }
     ],
     "correctAnswer": "A",
@@ -5814,19 +5814,19 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "SIM! Pelo Art. 651, § 3º, da CLT, em se tratando de empregador que promova realização de atividades FORA DO LUGAR DO CONTRATO DE TRABALHO (empresas itinerantes/sem estabelecimento fixo, como circos, feiras, grandes montagens), é assegurado ao empregado APRESENTAR RECLAMAÇÃO NO FORO DA CELEBRAÇÃO DO CONTRATO (Recife/PE) OU NO DA PRESTAÇÃO DOS RESPECTIVOS SERVIÇOS (Fortaleza/CE) — escolha exclusiva do trabalhador!"
+        "text": "Sim. em se tratando de empregador que promova realização de atividades fora do lugar do contrato de trabalho, é assegurado ao empregado apresentar reclamação no foro da celebração do contrato (Recife/PE) ou no da prestação dos respectivos serviços (Fortaleza/CE)."
       },
       {
         "letter": "B",
-        "text": "Mesmo quando o empregador realiza atividades fora do lugar do contrato (circo/eventos itinerantes), a competência continua exclusiva do último local de prestação."
+        "text": "Mesmo quando o empregador realiza atividades fora do lugar do contrato (circo/eventos itinerantes), a competência continua exclusiva do último local de prestação, com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal."
       },
       {
         "letter": "C",
-        "text": "Se empregado brasileiro for contratado no Brasil para trabalhar permanentemente em filial no exterior, aplica-se sempre exclusivamente a lei trabalhista estrangeira."
+        "text": "Se empregado brasileiro for contratado no Brasil para trabalhar permanentemente em filial no exterior, aplica-se sempre exclusivamente a lei trabalhista estrangeira, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "D",
-        "text": "Quando o empregado presta serviços sucessivamente em vários municípios distintos com transferência definitiva, deve propor uma ação separada em cada município."
+        "text": "Quando o empregado presta serviços sucessivamente em vários municípios distintos com transferência definitiva, deve propor uma ação separada em cada município, com processamento imediato do incidente nos mesmos autos e suspensão integral da execução."
       }
     ],
     "correctAnswer": "A",
@@ -5869,11 +5869,11 @@ export const PROCESSUAL_TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo Art. 791-A, § 1º, da CLT, os honorários advocatícios de sucumbência (5% a 15%) são DEVIDOS também nas ações contra a FAZENDA PÚBLICA (observados os critérios do § 2º: grau de zelo do profissional, lugar da prestação, natureza/importância da causa e trabalho/tempo exigidos — sem aplicação dos percentuais escalonados do Art. 85, § 3º, do CPC porque a CLT possui regra própria no Art. 791-A, § 1º!); e havendo acordo homologado judicialmente, a responsabilidade pelos honorários advocatícios rege-se pelo que as partes livremente ajustarem no acordo (ou se omisso o acordo, extingue-se sem sucumbência judicial se não houve condenação anterior)!"
+        "text": "Os honorários advocatícios de sucumbência (5% a 15%) são devidos também nas ações contra a fazenda pública."
       },
       {
         "letter": "B",
-        "text": "Nas ações trabalhistas contra a Fazenda Pública, aplicam-se os percentuais escalonados de 1% a 20% do Art. 85, § 3º, do CPC por omissão da CLT."
+        "text": "Nas ações trabalhistas contra a Fazenda Pública, aplicam-se os percentuais escalonados de 1% a 20% por omissão da CLT, sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho."
       },
       {
         "letter": "C",

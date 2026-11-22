@@ -17,19 +17,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, porque o princípio da autonomia da vontade permite redução salarial mediante acordo escrito individual com qualquer empregado."
+        "text": "Sim, porque o princípio da autonomia da vontade permite redução salarial mediante acordo escrito individual com qualquer empregado. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais."
       },
       {
         "letter": "B",
-        "text": "Não. Pelo princípio da irredutibilidade salarial (Art. 7º, VI, CF) e pelo princípio da inalterabilidade contratual lesiva (Art. 468 CLT), a redução salarial só é lícita mediante CONVENÇÃO OU ACORDO COLETIVO DE TRABALHO, sendo nula a cláusula individual prejudicial ao trabalhador ainda que formalmente consentida."
+        "text": "Não, pelo princípio da irredutibilidade salarial e pelo princípio da inalterabilidade contratual lesiva, a redução salarial só é lícita mediante convenção ou acordo coletivo de trabalho, sendo nula a cláusula individual prejudicial ao trabalhador ainda que formalmente consentida."
       },
       {
         "letter": "C",
-        "text": "Apenas empregados hipersuficientes (nível superior + salário >= 2x teto INSS) podem reduzir salário por acordo individual sem sindicato."
+        "text": "Apenas empregados hipersuficientes (nível superior + salário >= 2x teto INSS) podem reduzir salário por acordo individual sem sindicato, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "D",
-        "text": "Pelo princípio da norma mais favorável, havendo conflito entre convenção coletiva e acordo coletivo, prevalece sempre a convenção coletiva."
+        "text": "Pelo princípio da norma mais favorável, havendo conflito entre convenção coletiva e acordo coletivo, prevalece sempre a convenção coletiva. Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos."
       }
     ],
     "correctAnswer": "B",
@@ -72,19 +72,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não há vínculo de emprego porque o Art. 442-B da CLT veda o reconhecimento de emprego sempre que houver contrato de autônomo assinado."
+        "text": "Não há vínculo de emprego porque a legislação aplicável veda o reconhecimento de emprego sempre que houver contrato de autônomo assinado. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais."
       },
       {
         "letter": "B",
-        "text": "Vínculo de EMPREGO (Art. 3º CLT), pois estão presentes todos os 5 requisitos fático-jurídicos (SHOPP: Subordinação jurídica, Habitualidade/não eventualidade, Onerosidade, Pessoa física e Pessoalidade); pelo Art. 9º da CLT, são nulos os atos destinados a desvirtuar ou fraudar a aplicação da legislação trabalhista (mesmo que o Art. 442-B admita autônomo exclusivo e contínuo, a existência de SUBORDINAÇÃO descaracteriza a autonomia e reconhece o vínculo!)."
+        "text": "Vínculo de emprego, pois estão presentes todos os 5 requisitos fático-jurídicos; são nulos os atos destinados a desvirtuar ou fraudar a aplicação da legislação trabalhista."
       },
       {
         "letter": "C",
-        "text": "A exclusividade na prestação de serviços é requisito legal obrigatório previsto no Art. 3º da CLT para caracterizar o empregado."
+        "text": "A exclusividade na prestação de serviços é requisito legal obrigatório para caracterizar o empregado, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "D",
-        "text": "O trabalho prestado em domicílio ou em regime de teletrabalho exclui a relação de emprego por ausência de subordinação presencial."
+        "text": "O trabalho prestado em domicílio ou em regime de teletrabalho exclui a relação de emprego por ausência de subordinação presencial, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária."
       }
     ],
     "correctAnswer": "B",
@@ -127,19 +127,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O sócio retirante responde solidariamente por prazo indeterminado mesmo em ações propostas 4 anos após sua saída averbada."
+        "text": "O sócio retirante responde solidariamente por prazo indeterminado mesmo em ações propostas 4 anos após sua saída averbada, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "B",
-        "text": "O sócio retirante responde SUBSIDIARIAMENTE pelas obrigações relativas ao período em que figurou como sócio, SOMENTE em ações ajuizadas até 2 ANOS depois de averbada a modificação do contrato (Art. 10-A CLT — logo, após 3 anos NÃO responde, salvo comprovada fraude na alteração societária!); e a mera identidade de sócios NÃO caracteriza grupo econômico (Art. 2º, § 3º, CLT — exige demonstração do interesse integrado, efetiva comunhão de interesses e atuação conjunta das empresas integrantes!)."
+        "text": "O sócio retirante responde subsidiariamente pelas obrigações relativas ao período em que figurou como sócio, somente em ações ajuizadas até 2 anos depois de averbada a modificação do contrato; e a mera identidade de sócios não caracteriza grupo econômico."
       },
       {
         "letter": "C",
-        "text": "A simples presença dos mesmos sócios em duas empresas distintas já basta para caracterizar grupo econômico solidário pela CLT atual."
+        "text": "A simples presença dos mesmos sócios em duas empresas distintas já basta para caracterizar grupo econômico solidário pela CLT atual, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "D",
-        "text": "Na sucessão trabalhista lícita (Arts. 10, 448 e 448-A CLT), a empresa sucedida responde sempre solidariamente com a sucessora por todas as obrigações."
+        "text": "Na sucessão trabalhista lícita, a empresa sucedida responde sempre solidariamente com a sucessora por todas as obrigações, com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       }
     ],
     "correctAnswer": "B",
@@ -182,19 +182,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É ilícita a terceirização de atividade-fim da empresa contratante, gerando vínculo direto automático."
+        "text": "É ilícita a terceirização de atividade-fim da empresa contratante, gerando vínculo direto automático, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária."
       },
       {
         "letter": "B",
-        "text": "A terceirização de atividade-FIM é plenamente LÍCITA (Art. 4º-A Lei 6.019/74 e STF ADPF 324 / Tema 725); CONTUDO, é vedada a recontratação de ex-empregado demitido como empregado de empresa prestadora de serviços (terceirizada) antes do decurso do prazo de quarentena de 18 MESES contados da demissão (Art. 5º-D da Lei 6.019/74 — e também não pode figurar como titular/sócio de PJ contratada antes de 18 meses pelo Art. 5º-C, salvo aposentados)!"
+        "text": "A terceirização de atividade-fim é plenamente lícita; contudo, é vedada a recontratação de ex-empregado demitido como empregado de empresa prestadora de serviços (terceirizada) antes do decurso do prazo de quarentena de 18 meses contados da demissão."
       },
       {
         "letter": "C",
-        "text": "Não existe prazo de quarentena legal para recontratar ex-empregado por meio de empresa terceirizada."
+        "text": "Não existe prazo de quarentena legal para recontratar ex-empregado por meio de empresa terceirizada, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "D",
-        "text": "Na terceirização lícita privada, a tomadora responde solidariamente pelas verbas trabalhistas inadimplidas pela prestadora."
+        "text": "Na terceirização lícita privada, a tomadora responde solidariamente pelas verbas trabalhistas inadimplidas pela prestadora, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       }
     ],
     "correctAnswer": "B",
@@ -238,19 +238,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No trabalho intermitente, o silêncio do empregado após a convocação presume aceitação automática do serviço."
+        "text": "No trabalho intermitente, o silêncio do empregado após a convocação presume aceitação automática do serviço, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "B",
-        "text": "No contrato intermitente (sempre ESCRITO — Art. 452-A CLT): convocação com pelo menos 3 dias corridos de antecedência; empregado tem 1 dia útil para responder (silêncio presume recusa); aceita a oferta, a parte que descumprir sem justo motivo paga à outra, em 30 dias, multa de 50% da remuneração devida (Art. 452-A, § 4º); quanto ao teletrabalho (Lei 14.442/2022 — Art. 62, III, CLT), só estão excluídos do controle de jornada/horas extras os teletrabalhadores que prestam serviço POR PRODUÇÃO OU TAREFA (os contratados por jornada têm direito a horas extras!)."
+        "text": "No contrato intermitente: convocação com pelo menos 3 dias corridos de antecedência; empregado tem 1 dia útil para responder; aceita a oferta, a parte que descumprir sem justo motivo paga à outra, em 30 dias, multa de 50% da remuneração devida; quanto ao teletrabalho, só estão excluídos do controle de jornada/horas extras os teletrabalhadores que prestam serviço por produção ou tarefa."
       },
       {
         "letter": "C",
-        "text": "Todos os empregados em teletrabalho estão automaticamente excluídos das regras de duração do trabalho e horas extras."
+        "text": "Todos os empregados em teletrabalho estão automaticamente excluídos das regras de duração do trabalho e horas extras, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "D",
-        "text": "No teletrabalho, o empregador pode alterar livremente o regime presencial para o teletrabalho sem consentimento do empregado, mas também pode reverter imediatamente em 24 horas."
+        "text": "No teletrabalho, o empregador pode alterar livremente o regime presencial para o teletrabalho sem consentimento do empregado, mas também pode reverter imediatamente em 24 horas. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       }
     ],
     "correctAnswer": "B",
@@ -293,19 +293,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A jornada de 12x36 só pode ser instituída por convenção ou acordo coletivo de trabalho, sendo nulo o acordo individual escrito."
+        "text": "A jornada de 12x36 só pode ser instituída por convenção ou acordo coletivo de trabalho, sendo nulo o acordo individual escrito, com nulidade absoluta de qualquer estipulação voltada a reduzir patamares protetivos básicos."
       },
       {
         "letter": "B",
-        "text": "Sim! Pelo Art. 59-A da CLT (e validado pelo STF na ADI 5994!), é facultado às partes, mediante ACORDO INDIVIDUAL ESCRITO, convenção coletiva ou acordo coletivo, estabelecer horário de trabalho de 12x36 (observados os intervalos para repouso/alimentação ou indenizados — e abrangendo feriados e prorrogação noturna!); e o banco de horas pode ser pactuado por acordo individual escrito SE a compensação ocorrer no período máximo de 6 MESES (Art. 59, § 5º — se anual de 12 meses, exige ACT/CCT; se compensação no mesmo mês, pode até acordo tácito!)."
+        "text": "Sim, é facultado às partes, mediante acordo individual escrito, convenção coletiva ou acordo coletivo, estabelecer horário de trabalho de 12x36; e o banco de horas pode ser pactuado por acordo individual escrito se a compensação ocorrer no período máximo de 6 meses."
       },
       {
         "letter": "C",
-        "text": "Na jornada 12x36, os feriados trabalhados e as prorrogações do trabalho noturno devem ser pagos obrigatoriamente em dobro à parte."
+        "text": "Na jornada 12x36, os feriados trabalhados e as prorrogações do trabalho noturno devem ser pagos obrigatoriamente em dobro à parte, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "D",
-        "text": "O tempo despendido pelo empregado da portaria da empresa até o posto de trabalho ou em transporte fornecido pelo empregador (horas in itinere) continua computado na jornada."
+        "text": "O tempo despendido pelo empregado da portaria da empresa até o posto de trabalho ou em transporte fornecido pelo empregador (horas in itinere) continua computado na jornada, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       }
     ],
     "correctAnswer": "B",
@@ -349,19 +349,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deve pagar a hora integral (60 minutos) acrescida de 50% com natureza salarial e reflexos em férias, 13º e FGTS."
+        "text": "Deve pagar a hora integral (60 minutos) acrescida de 50% com natureza salarial e reflexos em férias, 13º e FGTS, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "A não concessão ou concessão PARCIAL do intervalo intrajornada implica o pagamento de NATUREZA INDENIZATÓRIA (não integra salário para reflexos!), com acréscimo de 50% sobre o valor da remuneração da hora normal, APENAS DO PERÍODO SUPRIMIDO (no caso, os 30 minutos faltantes — Art. 71, § 4º, CLT — diferente da antiga Súmula 437 do TST que pagava a hora cheia com natureza salarial!)."
+        "text": "A não concessão ou concessão parcial do intervalo intrajornada implica o pagamento de natureza indenizatória, com acréscimo de 50% sobre o valor da remuneração da hora normal, apenas do período suprimido."
       },
       {
         "letter": "C",
-        "text": "Por acordo individual escrito entre patrão e empregado com jornada de 8h, o intervalo intrajornada pode ser reduzido livremente para 30 minutos."
+        "text": "Por acordo individual escrito entre patrão e empregado com jornada de 8h, o intervalo intrajornada pode ser reduzido livremente para 30 minutos, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal."
       },
       {
         "letter": "D",
-        "text": "O simples uso de telefone celular corporativo fornecido pela empresa fora do expediente caracteriza automaticamente regime de sobreaviso."
+        "text": "O simples uso de telefone celular corporativo fornecido pela empresa fora do expediente caracteriza automaticamente regime de sobreaviso, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "B",
@@ -405,11 +405,11 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na zona rural (lavoura e pecuária), também se aplica a hora noturna reduzida de 52m30s e o mesmo horário das 22h às 5h."
+        "text": "Na zona rural (lavoura e pecuária), também se aplica a hora noturna reduzida de 52m30s e o mesmo horário das 22h às 5h, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "B",
-        "text": "Na zona urbana, o trabalho noturno ocorre das 22h às 5h com hora ficta reduzida de 52 minutos e 30 segundos e adicional mínimo de 20% (Art. 73, §§ 1º e 2º, CLT); e pela Súmula 60, II, do TST, cumprida integralmente a jornada no período noturno e prorrogada esta, É DEVIDO também o adicional noturno quanto às horas prorrogadas após as 5h da manhã (5h às 7h) — lembrando que o adicional noturno pago com habitualidade integra o salário para todos os efeitos (Súmula 60, I)!"
+        "text": "Na zona urbana, o trabalho noturno ocorre das 22h às 5h com hora ficta reduzida de 52 minutos e 30 segundos e adicional mínimo de 20%."
       },
       {
         "letter": "C",
@@ -461,19 +461,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Com 15 faltas injustificadas, o empregado perde integralmente o direito às férias."
+        "text": "Com 15 faltas injustificadas, o empregado perde integralmente o direito às férias, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "Com 15 faltas injustificadas, o empregado terá direito a 18 DIAS corridos de férias (Art. 130, III, CLT); pode fracionar em até 3 períodos se concordar (Art. 134, § 1º — um >= 14 dias e os outros >= 5 dias cada); É VEDADO iniciar férias no período de 2 dias que antecede feriado ou dia de repouso semanal remunerado (Art. 134, § 3º — logo, se DSR é domingo, quinta-feira não pode porque sexta/sábado são 2 dias antes do domingo!); e quanto ao atraso apenas no pagamento (sem atraso na concessão), o STF na ADPF 501 declarou INCONSTITUCIONAL a Súmula 450 do TST, afastando a dobra automática pelo mero atraso no pagamento antes da fruição!"
+        "text": "Com 15 faltas injustificadas, o empregado terá direito a 18 dias corridos de férias; pode fracionar em até 3 períodos se concordar; é vedado iniciar férias no período de 2 dias que antecede feriado ou dia de repouso semanal remunerado; e quanto ao atraso apenas no pagamento, o STF na ADPF 501 declarou inconstitucional a Súmula 450 do TST, afastando a dobra automática pelo mero atraso no pagamento antes da fruição."
       },
       {
         "letter": "C",
-        "text": "Mesmo após a ADPF 501 do STF, o atraso de 1 dia no pagamento antecipado das férias (quando gozadas na época certa) obriga o pagamento em dobro da Súmula 450 TST."
+        "text": "Mesmo após a ADPF 501 do STF, o atraso de 1 dia no pagamento antecipado das férias (quando gozadas na época certa) obriga o pagamento em dobro da Súmula 450 TST, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "D",
-        "text": "O fracionamento das férias em até 3 períodos exige obrigatoriamente autorização de sindicato ou restrição etária para menores de 18 e maiores de 50 anos."
+        "text": "O fracionamento das férias em até 3 períodos exige obrigatoriamente autorização de sindicato ou restrição etária para menores de 18 e maiores de 50 anos, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "B",
@@ -517,19 +517,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nenhuma dessas verbas integra o salário! Pelo Art. 457, § 2º, da CLT (Reforma Trabalhista), as importâncias pagas a título de ajuda de custo, auxílio-alimentação (vedado pagamento em dinheiro), diárias para viagem, prêmios e abonos NÃO integram a remuneração e não constituem base de incidência trabalhista ou previdenciária; e pelo Art. 458, § 2º, assistência médica/odontológica e veículo indispensável PARA o trabalho (Súmula 367 TST — mesmo se usado eventualmente nos fins de semana!) também NÃO configuram salário in natura!"
+        "text": "Nenhuma dessas verbas integra o salário. as importâncias pagas a título de ajuda de custo, auxílio-alimentação, diárias para viagem, prêmios e abonos não integram a remuneração e não constituem base de incidência trabalhista ou previdenciária."
       },
       {
         "letter": "B",
-        "text": "O prêmio habitual e as diárias para viagem que excederem 50% do salário integram integralmente o salário para todos os reflexos."
+        "text": "O prêmio habitual e as diárias para viagem que excederem 50% do salário integram integralmente o salário para todos os reflexos, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "C",
-        "text": "As gorjetas pagas espontaneamente pelos clientes integram a remuneração do empregado e servem de base de cálculo para aviso prévio, adicional noturno, horas extras e repouso semanal remunerado."
+        "text": "As gorjetas pagas espontaneamente pelos clientes integram a remuneração do empregado e servem de base de cálculo para aviso prévio, adicional noturno, horas extras e repouso semanal remunerado. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "D",
-        "text": "O vale-alimentação pago em dinheiro diretamente no contracheque sem previsão em norma coletiva tem natureza indenizatória pelo Art. 457, § 2º."
+        "text": "O vale-alimentação pago em dinheiro diretamente no contracheque sem previsão em norma coletiva tem natureza indenizatória, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       }
     ],
     "correctAnswer": "A",
@@ -573,19 +573,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não é devida a equiparação salarial! Com a Reforma Trabalhista (Art. 461, § 1º, CLT), além da diferença máxima de 2 anos NA FUNÇÃO, criou-se o requisito cumulativo de que a diferença de tempo DE SERVIÇO PARA O MESMO EMPREGADOR NÃO seja superior a 4 ANOS (aqui o paradigma tem 5 anos a mais na empresa!); ademais, pelo Art. 461, § 2º, o plano de cargos e salários ou quadro de carreira válido para obstar equiparação NÃO precisa mais de homologação em órgão público, bastando norma interna da empresa ou negociação coletiva!"
+        "text": "Não é devida a equiparação salarial. Com a Reforma Trabalhista, além da diferença máxima de 2 anos na função, criou-se o requisito cumulativo de que a diferença de tempo de serviço para o mesmo empregador não seja superior a 4 anos."
       },
       {
         "letter": "B",
-        "text": "É devida a equiparação salarial porque a diferença de tempo na mesma função é inferior a 2 anos e o quadro de carreira não foi homologado no Ministério do Trabalho."
+        "text": "É devida a equiparação salarial porque a diferença de tempo na mesma função é inferior a 2 anos e o quadro de carreira não foi homologado no Ministério do Trabalho. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "C",
-        "text": "A equiparação salarial continua admitindo paradigma remoto em outra cidade da mesma região metropolitana, mesmo após a Lei nº 13.467/2017."
+        "text": "A equiparação salarial continua admitindo paradigma remoto em outra cidade da mesma região metropolitana, mesmo após a Lei nº 13.467/2017, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "D",
-        "text": "Em caso de discriminação comprovada por motivo de sexo ou etnia na remuneração, o empregador paga apenas as diferenças salariais simples."
+        "text": "Em caso de discriminação comprovada por motivo de sexo ou etnia na remuneração, o empregador paga apenas as diferenças salariais simples, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "A",
@@ -629,19 +629,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "NÃO pode acumular os adicionais de insalubridade e periculosidade (Súmula/tese vinculante do TST no IRR-239-55.2011 e Art. 193, § 2º, CLT): o empregado deve optar pelo mais favorável; a INSALUBRIDADE (10%, 20% ou 40%) calcula-se sobre o SALÁRIO MÍNIMO (Súmula Vinculante nº 4 STF até nova lei), enquanto a PERICULOSIDADE (30%) calcula-se sobre o SALÁRIO-BASE (sem acréscimos de gratificações/prêmios — Súmula 191, I, TST); e atividades em motocicleta geram periculosidade (Art. 193, § 4º, CLT)!"
+        "text": "Não pode acumular os adicionais de insalubridade e periculosidade: o empregado deve optar pelo mais favorável; a insalubridade (10%, 20% ou 40%) calcula-se sobre o salário mínimo, enquanto a periculosidade (30%) calcula-se sobre o salário-base; e atividades em motocicleta geram periculosidade."
       },
       {
         "letter": "B",
-        "text": "O empregado pode receber cumulativamente o adicional de insalubridade (20%) e o de periculosidade (30%) quando exposto a fatos geradores distintos."
+        "text": "O empregado pode receber cumulativamente o adicional de insalubridade (20%) e o de periculosidade (30%) quando exposto a fatos geradores distintos, com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "C",
-        "text": "O adicional de insalubridade é calculado sobre o salário contratual base do empregado e incorpora-se definitivamente ao salário após 5 anos."
+        "text": "O adicional de insalubridade é calculado sobre o salário contratual base do empregado e incorpora-se definitivamente ao salário após 5 anos, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "D",
-        "text": "O contato eventual por tempo extremamente reduzido com inflamáveis ainda assim assegura integralmente o adicional de periculosidade de 30%."
+        "text": "O contato eventual por tempo extremamente reduzido com inflamáveis ainda assim assegura integralmente o adicional de periculosidade de 30%, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       }
     ],
     "correctAnswer": "A",
@@ -685,19 +685,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Afastamento por acidente de trabalho (após os 15 primeiros dias pagos pela empresa) gera regras próprias: embora não haja pagamento de salário pela empresa após o 15º dia, computa-se o tempo de serviço para indenização/estabilidade e é OBRIGATÓRIO o depósito mensal do FGTS pelo empregador durante todo o afastamento acidentário (Art. 15, § 5º, Lei 8.036/90) + manutenção do plano de saúde (Súmula 440 TST)! Já a licença não remunerada para mandato sindical (Art. 543, § 2º) configura SUSPENSÃO pura do contrato (sem salário, sem FGTS, sem cômputo de tempo de serviço, salvo norma coletiva)!"
+        "text": "Afastamento por acidente de trabalho gera regras próprias: embora não haja pagamento de salário pela empresa após o 15º dia, computa-se o tempo de serviço para indenização/estabilidade e é obrigatório o depósito mensal do FGTS pelo empregador durante todo o afastamento acidentário + manutenção do plano de saúde."
       },
       {
         "letter": "B",
-        "text": "Durante o auxílio-doença COMUM (doença não relacionada ao trabalho, após o 15º dia), o empregador também continua obrigado a depositar o FGTS mensal."
+        "text": "Durante o auxílio-doença comum (doença não relacionada ao trabalho, após o 15º dia), o empregador também continua obrigado a depositar o FGTS mensal. Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos."
       },
       {
         "letter": "C",
-        "text": "Os primeiros 15 dias de afastamento por doença ou acidente de trabalho caracterizam suspensão do contrato sem salário."
+        "text": "Os primeiros 15 dias de afastamento por doença ou acidente de trabalho caracterizam suspensão do contrato sem salário, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "D",
-        "text": "Na greve deflagrada legalmente, como regra da Lei 7.783/89 (Art. 7º), o contrato fica interrompido com obrigação incondicional de pagar os dias parados."
+        "text": "Na greve deflagrada legalmente, como regra da Lei 7.783/89, o contrato fica interrompido com obrigação incondicional de pagar os dias parados. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais."
       }
     ],
     "correctAnswer": "A",
@@ -741,19 +741,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A licença-paternidade é de 5 dias (Art. 7º, XIX, CF c/c Art. 10, § 1º, ADCT — ou 20 dias em empresa cidadã!); pode faltar até 6 vezes ao ano (Art. 473, X, CLT — ampliado pela Lei 14.457/2022!) para acompanhar esposa/companheira em consultas e exames complementares durante a gravidez (além de 1 dia por ano para acompanhar filho de até 6 anos em consulta médica — XI); e na transferência PROVISÓRIA com mudança de domicílio, o empregador deve pagar adicional mínimo de 25% sobre os salários enquanto durar a situação (Art. 469, § 3º, CLT — mesmo em cargo de confiança pela OJ 113 SDI-1 TST!)."
+        "text": "A licença-paternidade é de 5 dias; pode faltar até 6 vezes ao ano para acompanhar esposa/companheira em consultas e exames complementares durante a gravidez; e na transferência provisória com mudança de domicílio, o empregador deve pagar adicional mínimo de 25% sobre os salários enquanto durar a situação."
       },
       {
         "letter": "B",
-        "text": "O adicional de transferência de 25% é devido tanto na transferência provisória quanto na transferência definitiva com mudança de domicílio."
+        "text": "O adicional de transferência de 25% é devido tanto na transferência provisória quanto na transferência definitiva com mudança de domicílio, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "C",
-        "text": "Para acompanhar filho de até 6 anos ao médico, o empregado tem direito a 5 dias por ano de falta justificada."
+        "text": "Para acompanhar filho de até 6 anos ao médico, o empregado tem direito a 5 dias por ano de falta justificada, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "D",
-        "text": "Se a transferência não acarretar mudança de domicílio do empregado, o adicional de 25% ainda assim é devido se o trajeto aumentar em 30 minutos."
+        "text": "Se a transferência não acarretar mudança de domicílio do empregado, o adicional de 25% ainda assim é devido se o trajeto aumentar em 30 minutos, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "A",
@@ -797,19 +797,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim para AMBOS! Pela Súmula 244, III, do TST e STF (Tema 497 — RE 629.053), a empregada gestante tem direito à estabilidade provisória prevista no Art. 10, II, \"b\", do ADCT (da confirmação da gravidez até 5 meses após o parto) MESMO na hipótese de admissão mediante contrato por tempo determinado (experiência/prazo certo — e mesmo que o empregador desconhecesse a gravidez ou ocorresse durante o aviso prévio, Art. 391-A CLT!); e quanto à CIPA, a estabilidade estende-se tanto ao titular quanto ao SUPLENTE eleito dos empregados (Súmula 339, I, TST)!"
+        "text": "Sim para ambos. do TST e STF, a empregada gestante tem direito à estabilidade provisória, do adct mesmo na hipótese de admissão mediante contrato por tempo determinado; e quanto à CIPA, a estabilidade estende-se tanto ao titular quanto ao suplente eleito dos empregados."
       },
       {
         "letter": "B",
-        "text": "A empregada gestante não possui estabilidade em contrato de experiência por tratar-se de contrato por prazo determinado."
+        "text": "A empregada gestante não possui estabilidade em contrato de experiência por tratar-se de contrato por prazo determinado, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "C",
-        "text": "Na CIPA, apenas o membro titular e o presidente indicado pelo empregador possuem estabilidade provisória até 1 ano após o mandato."
+        "text": "Na CIPA, apenas o membro titular e o presidente indicado pelo empregador possuem estabilidade provisória até 1 ano após o mandato, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "D",
-        "text": "O dirigente sindical tem estabilidade mesmo se for o 9º suplente eleito pela chapa sindical."
+        "text": "O dirigente sindical tem estabilidade mesmo se for o 9º suplente eleito pela chapa sindical, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       }
     ],
     "correctAnswer": "A",
@@ -853,19 +853,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No DISTRATO por acordo (Art. 484-A CLT): são devidos pela METADE (50%) o aviso prévio (se indenizado) e a indenização sobre o saldo do FGTS (multa de 20% em vez de 40%), e na integralidade as demais verbas (saldo salário, férias + 1/3, 13º), permitindo movimentar até 80% do FGTS, MAS SEM direito ao Seguro-Desemprego!; já na RESCISÃO INDIRETA (Art. 483 CLT — justa causa do empregador), o empregado recebe TODAS as verbas idênticas à dispensa sem justa causa (100% aviso prévio, multa 40% FGTS, saque 100% FGTS, seguro-desemprego)!"
+        "text": "No distrato por acordo: são devidos pela metade (50%) o aviso prévio (se indenizado) e a indenização sobre o saldo do FGTS, e na integralidade as demais verbas, permitindo movimentar até 80% do FGTS, mas sem direito ao Seguro-Desemprego."
       },
       {
         "letter": "B",
-        "text": "No distrato do Art. 484-A, o empregado pode sacar 100% do FGTS e tem direito ao benefício do seguro-desemprego integral."
+        "text": "No distrato, o empregado pode sacar 100% do FGTS e tem direito ao benefício do seguro-desemprego integral, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "C",
-        "text": "Na culpa recíproca reconhecida em juízo (Art. 484 CLT e Súmula 14 TST), o empregado perde totalmente o direito ao 13º salário e às férias proporcionais."
+        "text": "Na culpa recíproca reconhecida em juízo, o empregado perde totalmente o direito ao 13º salário e às férias proporcionais, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "D",
-        "text": "A perda da habilitação profissional (CNH) exigida para o exercício da profissão por conduta dolosa do empregado (motorista) não pode ensejar justa causa na CLT."
+        "text": "A perda da habilitação profissional (CNH) exigida para o exercício da profissão por conduta dolosa do empregado (motorista) não pode ensejar justa causa na CLT, em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais."
       }
     ],
     "correctAnswer": "A",
@@ -909,7 +909,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O aviso prévio proporcional (Lei nº 12.506/2011) é de 30 dias base + 3 dias por ano completo de serviço prestado na mesma empresa (até o máximo de +60 dias = teto de 90 dias); logo, com 4 anos completos são 30 + (4x3) = 42 dias! Porém, segundo a jurisprudência consolidada do TST (SDI-1), a proporcionalidade da Lei 12.506/2011 aplica-se EXCLUSIVAMENTE EM BENEFÍCIO DO EMPREGADO (no pedido de demissão, o empregado cumpre apenas 30 dias)!"
+        "text": "O aviso prévio proporcional é de 30 dias base + 3 dias por ano completo de serviço prestado na mesma empresa; logo, com 4 anos completos são 30 + (4x3) = 42 dias."
       },
       {
         "letter": "B",
@@ -917,11 +917,11 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "É lícito substituir a redução de 2 horas diárias (ou 7 dias corridos) no aviso prévio trabalhado pelo pagamento equivalente dessas horas em dinheiro."
+        "text": "É lícito substituir a redução de 2 horas diárias (ou 7 dias corridos) no aviso prévio trabalhado pelo pagamento equivalente dessas horas em dinheiro, com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas."
       },
       {
         "letter": "D",
-        "text": "A obtenção de novo emprego pelo empregado durante o cumprimento do aviso prévio trabalhado na dispensa sem justa causa obriga-o a pagar multa ao ex-patrão."
+        "text": "A obtenção de novo emprego pelo empregado durante o cumprimento do aviso prévio trabalhado na dispensa sem justa causa obriga-o a pagar multa ao ex-patrão, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "A",
@@ -965,19 +965,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Com a Reforma Trabalhista (Art. 477, § 6º, CLT), o prazo foi UNIFICADO para 10 DIAS contados a partir do término do contrato (tanto no aviso prévio trabalhado quanto no indenizado ou pedido de demissão!) tanto para pagamento das verbas quanto para entrega dos documentos rescisórios, sob pena de multa equivalente a 1 salário do empregado (Art. 477, § 8º — cabível mesmo quando o vínculo é reconhecido apenas em juízo, Súmula 462 TST!); já a multa de 50% do Art. 467 incide sobre as verbas rescisórias INCONTROVERSAS não pagas na data do comparecimento à Justiça do Trabalho (1ª audiência)!"
+        "text": "Com a Reforma Trabalhista, o prazo foi unificado para 10 dias contados a partir do término do contrato tanto para pagamento das verbas quanto para entrega dos documentos rescisórios, sob pena de multa equivalente a 1 salário do empregado; já a multa de 50% incide sobre as verbas rescisórias incontroversas não pagas na data do comparecimento à Justiça do Trabalho (1ª audiência)."
       },
       {
         "letter": "B",
-        "text": "No aviso prévio trabalhado, o pagamento das verbas rescisórias deve ocorrer até o primeiro dia útil imediato ao término do contrato."
+        "text": "No aviso prévio trabalhado, o pagamento das verbas rescisórias deve ocorrer até o primeiro dia útil imediato ao término do contrato, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "C",
-        "text": "Se a empresa contestar integralmente o vínculo de emprego em juízo, o reconhecimento posterior da relação de emprego na sentença afasta a multa do Art. 477, § 8º."
+        "text": "Se a empresa contestar integralmente o vínculo de emprego em juízo, o reconhecimento posterior da relação de emprego na sentença afasta a multa, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "D",
-        "text": "A multa de 50% do Art. 467 da CLT aplica-se inclusive contra a União, Estados, Distrito Federal e Municípios."
+        "text": "A multa de 50% aplica-se inclusive contra a União, Estados, Distrito Federal e Municípios. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais."
       }
     ],
     "correctAnswer": "A",
@@ -1021,19 +1021,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A redução do intervalo intrajornada para até 30 minutos é VÁLIDA (Art. 611-A, III, CLT); já a supressão ou redução do 1/3 constitucional de férias e do FGTS é absolutamente ILÍCITA (Art. 611-B, III e XI, CLT — objeto ilícito!), pois o STF (Tema 1046) validou a prevalência de normas coletivas que restringem direitos trabalhistas infraconstitucionais, DESDE QUE respeitados os direitos absolutamente INDISPONÍVEIS assegurados na Constituição (Art. 611-B)!"
+        "text": "A redução do intervalo intrajornada para até 30 minutos é válida; já a supressão ou redução do 1/3 constitucional de férias e do FGTS é absolutamente ilícita, pois o STF validou a prevalência de normas coletivas que restringem direitos trabalhistas infraconstitucionais, desde que respeitados os direitos absolutamente indisponíveis assegurados na Constituição."
       },
       {
         "letter": "B",
-        "text": "Nenhuma cláusula coletiva pode reduzir intervalo intrajornada abaixo de 1 hora sem portaria prévia do Ministério do Trabalho."
+        "text": "Nenhuma cláusula coletiva pode reduzir intervalo intrajornada abaixo de 1 hora sem portaria prévia do Ministério do Trabalho, com autorização de compensação e flexibilização da jornada sem negociação sindical prévia."
       },
       {
         "letter": "C",
-        "text": "Por força do Tema 1046 do STF, acordo ou convenção coletiva pode suprimir inclusive o pagamento de FGTS, 13º salário e salário mínimo."
+        "text": "Por força do Tema 1046 do STF, acordo ou convenção coletiva pode suprimir inclusive o pagamento de FGTS, 13º salário e salário mínimo. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais."
       },
       {
         "letter": "D",
-        "text": "O prazo de vigência máxima de convenção ou acordo coletivo é de 2 anos, operando-se automaticamente a ultratividade enquanto não houver nova norma."
+        "text": "O prazo de vigência máxima de convenção ou acordo coletivo é de 2 anos, operando-se automaticamente a ultratividade enquanto não houver nova norma, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       }
     ],
     "correctAnswer": "A",
@@ -1077,19 +1077,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A prescrição bienal conta-se sempre do último dia efetivamente trabalhado na empresa, desconsiderando o aviso prévio indenizado."
+        "text": "A prescrição bienal conta-se sempre do último dia efetivamente trabalhado na empresa, desconsiderando o aviso prévio indenizado, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "B",
-        "text": "O prazo prescricional para cobrança de depósitos de FGTS não recolhidos continua sendo de 30 anos."
+        "text": "O prazo prescricional para cobrança de depósitos de FGTS não recolhidos continua sendo de 30 anos, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "C",
-        "text": "Contra trabalhadores menores de 18 anos e para ações declaratórias de reconhecimento de vínculo para fins previdenciários corre normalmente a prescrição bienal trabalhista."
+        "text": "Contra trabalhadores menores de 18 anos e para ações declaratórias de reconhecimento de vínculo para fins previdenciários corre normalmente a prescrição bienal trabalhista, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "D",
-        "text": "A ação NÃO está totalmente prescrita pela prescrição bienal porque a projeção do aviso prévio indenizado integra o tempo de serviço para todos os efeitos (logo, o contrato encerrou-se em 09/03/2023 -> prazo bienal vai até 09/03/2025 — OJ 83 SDI-1 TST!); contudo, pela prescrição quinquenal, alcançam-se apenas as parcelas dos 5 anos anteriores ao ajuizamento (de 20/02/2020 em diante — Súmula 308, I, TST)! Quanto ao FGTS, o STF no ARE 709.212 (Súmula 362 TST) definiu que a prescrição do FGTS é QUINQUENAL (5 anos, observada a modulação de 2014 já encerrada em 2019)!"
+        "text": "A ação não está totalmente prescrita pela prescrição bienal porque a projeção do aviso prévio indenizado integra o tempo de serviço para todos os efeitos; contudo, pela prescrição quinquenal, alcançam-se apenas as parcelas dos 5 anos anteriores ao ajuizamento. Quanto ao FGTS, o STF no ARE 709.212 definiu que a prescrição do FGTS é quinquenal."
       }
     ],
     "correctAnswer": "D",
@@ -1133,19 +1133,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, pois o STF julgou constitucional a tarifação estrita do Art. 223-G como teto máximo absoluto intransponível."
+        "text": "Não, pois o STF julgou constitucional a tarifação estrita como teto máximo absoluto intransponível. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "A pessoa jurídica empregadora não possui legitimidade para sofrer ou pleitear dano extrapatrimonial nas relações de trabalho."
+        "text": "A pessoa jurídica empregadora não possui legitimidade para sofrer ou pleitear dano extrapatrimonial nas relações de trabalho, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária."
       },
       {
         "letter": "C",
-        "text": "Na condenação por dano moral decorrente de acidente de trabalho que causou morte de empregado, é vedado à viúva e filhos pleitearem dano moral em ricochete na Justiça do Trabalho."
+        "text": "Na condenação por dano moral decorrente de acidente de trabalho que causou morte de empregado, é vedado à viúva e filhos pleitearem dano moral em ricochete na Justiça do Trabalho, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "D",
-        "text": "Sim! No julgamento das ADIs 6.050, 6.069 e 6.082 (2023), o STF decidiu que os critérios de quantificação do Art. 223-G, § 1º, da CLT (3x, 5x, 20x, 50x o último salário) são parâmetros meramente ORIENTADORES para o juiz, e NÃO tetos máximos vinculantes intransponíveis, podendo o magistrado fixar indenização superior mediante decisão fundamentada!"
+        "text": "Sim, no julgamento das ADIs 6.050, 6.069 e 6.082 (2023), o STF decidiu que os critérios de quantificação são parâmetros meramente orientadores para o juiz, e não tetos máximos vinculantes intransponíveis, podendo o magistrado fixar indenização superior mediante decisão fundamentada."
       }
     ],
     "correctAnswer": "D",
@@ -1189,19 +1189,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A gestante só deve ser afastada de atividades insalubres em grau médio ou mínimo se apresentar atestado médico particular recomendando o afastamento."
+        "text": "A gestante só deve ser afastada de atividades insalubres em grau médio ou mínimo se apresentar atestado médico particular recomendando o afastamento, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "B",
-        "text": "A empregada que adota criança com mais de 4 anos de idade tem licença-maternidade reduzida de apenas 30 dias."
+        "text": "A empregada que adota criança com mais de 4 anos de idade tem licença-maternidade reduzida de apenas 30 dias, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "C",
-        "text": "Para amamentar seu filho até os 6 meses de idade, a mulher tem direito a apenas um descanso diário de 15 minutos durante a jornada."
+        "text": "Para amamentar seu filho até os 6 meses de idade, a mulher tem direito a apenas um descanso diário de 15 minutos durante a jornada, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "D",
-        "text": "A empregada gestante deve ser AFASTADA de quaisquer atividades insalubres (graus máximo, médio e mínimo) durante a gestação — independentemente de atestado médico, com percepção integral do salário e adicional de insalubridade — e se não houver local salubre na empresa, aplica-se gravidez de risco com salário-maternidade pelo INSS (Art. 394-A CLT c/c STF ADI 5938!); a mãe ADOTANTE tem exatamente a mesma licença-maternidade de 120 dias e estabilidade da mãe biológica (Art. 392-A CLT); e no aborto NÃO criminoso tem direito a repouso remunerado de 2 semanas (Art. 395 CLT)!"
+        "text": "A empregada gestante deve ser afastada de quaisquer atividades insalubres durante a gestação; a mãe adotante tem exatamente a mesma licença-maternidade de 120 dias e estabilidade da mãe biológica."
       }
     ],
     "correctAnswer": "D",
@@ -1245,19 +1245,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O menor aprendiz entre 14 e 16 anos pode exercer atividade insalubre em grau mínimo desde que receba adicional e EPIs."
+        "text": "O menor aprendiz entre 14 e 16 anos pode exercer atividade insalubre em grau mínimo desde que receba adicional e EPIs, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "B",
-        "text": "A alíquota de FGTS recolhida no contrato de aprendizagem é a mesma de 8% aplicada aos demais contratos de trabalho."
+        "text": "A alíquota de FGTS recolhida no contrato de aprendizagem é a mesma de 8% aplicada aos demais contratos de trabalho, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "C",
-        "text": "O contrato de aprendizagem pode durar até 4 anos consecutivos para qualquer jovem sem deficiência, com jornada máxima de 8 horas prorrogáveis."
+        "text": "O contrato de aprendizagem pode durar até 4 anos consecutivos para qualquer jovem sem deficiência, com jornada máxima de 8 horas prorrogáveis, com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas."
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 7º, XXXIII, da CF/88, é proibido trabalho noturno, perigoso ou insalubre a menores de 18 anos e qualquer trabalho a menores de 16 anos, SALVO na condição de APRENDIZ a partir dos 14 anos; no contrato de aprendizagem (Art. 428 CLT — faixa de 14 a 24 anos, sem limite de 24 anos para PcD), o prazo máximo do contrato é de 2 ANOS (salvo PcD!), a alíquota do FGTS é reduzida para 2% (Art. 15, § 7º, Lei 8.036/90) e é vedada a compensação e a prorrogação de jornada (Art. 432)!"
+        "text": "É proibido trabalho noturno, perigoso ou insalubre a menores de 18 anos e qualquer trabalho a menores de 16 anos, salvo na condição de aprendiz a partir dos 14 anos."
       }
     ],
     "correctAnswer": "D",
@@ -1300,19 +1300,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Só se caracteriza vínculo de emprego doméstico quando o trabalho ocorre a partir de 4 dias por semana na mesma residência."
+        "text": "Só se caracteriza vínculo de emprego doméstico quando o trabalho ocorre a partir de 4 dias por semana na mesma residência, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "B",
-        "text": "O empregado doméstico não faz jus ao adicional noturno, ao FGTS obrigatório nem ao seguro-desemprego."
+        "text": "O empregado doméstico não faz jus ao adicional noturno, ao FGTS obrigatório nem ao seguro-desemprego, em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais."
       },
       {
         "letter": "C",
-        "text": "Ao empregado doméstico aplicam-se automaticamente os adicionais de insalubridade e periculosidade previstos na CLT."
+        "text": "Ao empregado doméstico aplicam-se automaticamente os adicionais de insalubridade e periculosidade previstos na CLT, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "D",
-        "text": "Configura vínculo de EMPREGO DOMÉSTICO! Pelo Art. 1º da LC nº 150/2015, é empregado doméstico aquele que presta serviços de forma contínua, subordinada, onerosa e pessoal e de finalidade não lucrativa à pessoa ou à família, no âmbito residencial destas, por MAIS DE 2 (DOIS) DIAS POR SEMANA (logo, 3 dias ou mais por semana = empregada doméstica; até 2 dias por semana = diarista autônoma)!"
+        "text": "Configura vínculo de emprego doméstico. é empregado doméstico aquele que presta serviços de forma contínua, subordinada, onerosa e pessoal e de finalidade não lucrativa à pessoa ou à família, no âmbito residencial destas, por mais de 2 (dois) dias por semana."
       }
     ],
     "correctAnswer": "D",
@@ -1359,7 +1359,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Ao trabalhador rural com contrato de trabalho por pequeno prazo (Art. 14-A da Lei 5.889/73) exige-se anotação formal em CTPS física mesmo para colheita de 15 dias."
+        "text": "Ao trabalhador rural com contrato de trabalho por pequeno prazo exige-se anotação formal em CTPS física mesmo para colheita de 15 dias."
       },
       {
         "letter": "C",
@@ -1367,7 +1367,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Pelo Art. 9º da Lei nº 5.889/1973, o desconto no salário pela moradia do trabalhador rural (com autorização prévia) limita-se a no máximo 20% do salário mínimo (e alimentação até 25% do salário mínimo); além disso, se a moradia for fornecida gratuitamente sem contrato de comodato salarial, NÃO integra o salário para nenhum efeito (Art. 9º, § 5º — bastando contrato escrito notificado ao sindicato!) e, rescindido o contrato, o trabalhador tem 30 dias para desocupar a moradia!"
+        "text": "O desconto no salário pela moradia do trabalhador rural limita-se a no máximo 20% do salário mínimo."
       }
     ],
     "correctAnswer": "D",
@@ -1410,19 +1410,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Tanto em atividades essenciais quanto em não essenciais, o aviso prévio da greve deve ser dado com 48 horas de antecedência."
+        "text": "Tanto em atividades essenciais quanto em não essenciais, o aviso prévio da greve deve ser dado com 48 horas de antecedência, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária."
       },
       {
         "letter": "B",
-        "text": "Durante a greve legítima, o empregador pode contratar trabalhadores substitutos livremente para substituir os grevistas na fábrica."
+        "text": "Durante a greve legítima, o empregador pode contratar trabalhadores substitutos livremente para substituir os grevistas na fábrica, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "C",
-        "text": "O lockout patronal é lícito se precedido de aviso prévio de 72 horas ao sindicato obreiro."
+        "text": "O lockout patronal é lícito se precedido de aviso prévio de 72 horas ao sindicato obreiro, com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "D",
-        "text": "Nas atividades ESSENCIAIS, a entidade sindical ou os trabalhadores ficam obrigados a comunicar a decisão aos empregadores e aos usuários com antecedência mínima de 72 HORAS da paralisação (Art. 13 Lei 7.783/89 — nas atividades não essenciais, o aviso prévio aos empregadores é de apenas 48 HORAS, Art. 3º, parágrafo único!), mantendo prestação dos serviços indispensáveis; quanto ao LOCKOUT (paralisação das atividades pelo próprio empregador para frustrar negociação), é EXPRESSAMENTE PROIBIDO pelo Art. 17 da Lei 7.783/89 (assegurando pagamento integral dos salários aos trabalhadores durante o lockout)!"
+        "text": "Nas atividades essenciais, a entidade sindical ou os trabalhadores ficam obrigados a comunicar a decisão aos empregadores e aos usuários com antecedência mínima de 72 horas da paralisação, mantendo prestação dos serviços indispensáveis."
       }
     ],
     "correctAnswer": "D",
@@ -1465,19 +1465,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na força maior que determine a extinção da empresa, a multa do FGTS permanece integral em 40%."
+        "text": "Na força maior que determine a extinção da empresa, a multa do FGTS permanece integral em 40%, com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "No término regular de contrato por prazo determinado (experiência), o empregado não saca os depósitos do FGTS."
+        "text": "No término regular de contrato por prazo determinado (experiência), o empregado não saca os depósitos do FGTS, com nulidade absoluta de qualquer estipulação voltada a reduzir patamares protetivos básicos."
       },
       {
         "letter": "C",
-        "text": "O empregado aposentado que continua trabalhando na mesma empresa não faz jus ao saque do FGTS nem à multa de 40% se for posteriormente dispensado sem justa causa."
+        "text": "O empregado aposentado que continua trabalhando na mesma empresa não faz jus ao saque do FGTS nem à multa de 40% se for posteriormente dispensado sem justa causa, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária."
       },
       {
         "letter": "D",
-        "text": "A multa do FGTS é de 40% na dispensa sem justa causa e na rescisão indireta (Art. 18, § 1º, Lei 8.036/90); cai para 20% na CULPA RECÍPROCA, na FORÇA MAIOR reconhecida (Art. 18, § 2º) e no DISTRATO por comum acordo (Art. 484-A CLT — além do empregado sacar até 80% no distrato); e é ZERO (não há multa nem saque!) no pedido de demissão, no término normal de contrato por prazo determinado e na dispensa por justa causa do empregado!"
+        "text": "A multa do FGTS é de 40% na dispensa sem justa causa e na rescisão indireta; cai para 20% na culpa recíproca, na força maior reconhecida e no distrato por comum acordo; e é zero no pedido de demissão, no término normal de contrato por prazo determinado e na dispensa por justa causa do empregado."
       }
     ],
     "correctAnswer": "D",
@@ -1521,19 +1521,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não pode suprimir a gratificação porque, após 10 anos de recebimento contínuo, há incorporação definitiva garantida pela Súmula 372 do TST."
+        "text": "Não pode suprimir a gratificação porque, após 10 anos de recebimento contínuo, há incorporação definitiva garantida. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "O salário complessivo (pagamento de verba única englobando salário + horas extras + adicional sem discriminação) é plenamente válido no contrato de trabalho."
+        "text": "O salário complessivo (pagamento de verba única englobando salário + horas extras + adicional sem discriminação) é plenamente válido no contrato de trabalho, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "C",
-        "text": "Em caso de venda a prazo realizada por empregado comissionista, se o comprador tornar-se inadimplente ou cancelar a compra, o empregado sempre perde o direito às comissões."
+        "text": "Em caso de venda a prazo realizada por empregado comissionista, se o comprador tornar-se inadimplente ou cancelar a compra, o empregado sempre perde o direito às comissões. Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos."
       },
       {
         "letter": "D",
-        "text": "Sim! A Reforma Trabalhista inseriu o Art. 468, § 2º, da CLT dispondo expressamente que a reversão ao cargo efetivo, COM OU SEM justo motivo, NÃO assegura ao empregado a manutenção do pagamento da gratificação correspondente, que NÃO será incorporada, INDEPENDENTEMENTE do tempo de exercício da respectiva função (superando a antiga Súmula 372, I, do TST para novos casos não completados antes de 11/11/2017)!"
+        "text": "Sim, a Reforma Trabalhista inseriu o Art. 468, § 2º, da CLT dispondo expressamente que a reversão ao cargo efetivo, com ou sem justo motivo, não assegura ao empregado a manutenção do pagamento da gratificação correspondente, que não será incorporada, independentemente do tempo de exercício da respectiva função."
       }
     ],
     "correctAnswer": "D",
@@ -1577,19 +1577,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o empregador pode descontar qualquer dano material causado culposamente pelo empregado no serviço independentemente de previsão contratual."
+        "text": "Sim, pois o empregador pode descontar qualquer dano material causado culposamente pelo empregado no serviço independentemente de previsão contratual. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais."
       },
       {
         "letter": "B",
-        "text": "Mesmo com autorização prévia por escrito do empregado, é ilegal qualquer desconto no salário para plano de saúde, seguro de vida ou associação recreativa."
+        "text": "Mesmo com autorização prévia por escrito do empregado, é ilegal qualquer desconto no salário para plano de saúde, seguro de vida ou associação recreativa. Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos."
       },
       {
         "letter": "C",
-        "text": "Na hipótese de recebimento de cheque sem fundos por frentista ou caixa que observou rigorosamente as normas da empresa, o empregado responde pelos prejuízos."
+        "text": "Na hipótese de recebimento de cheque sem fundos por frentista ou caixa que observou rigorosamente as normas da empresa, o empregado responde pelos prejuízos, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "D",
-        "text": "Não! Pelo Art. 462, § 1º, da CLT, em caso de dano causado pelo empregado, o desconto será lícito APENAS na ocorrência de DOLO do empregado ou quando essa possibilidade de desconto tiver sido PREVIAMENTE ACORDADA entre as partes (para dano culposo); sem acordo prévio, dano meramente culposo não autoriza desconto salarial!"
+        "text": "Não, em caso de dano causado pelo empregado, o desconto será lícito apenas na ocorrência de dolo do empregado ou quando essa possibilidade de desconto tiver sido previamente acordada entre as partes (para dano culposo); sem acordo prévio, dano meramente culposo não autoriza desconto salarial."
       }
     ],
     "correctAnswer": "D",
@@ -1633,19 +1633,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O contrato de experiência pode durar até 2 anos e ser prorrogado por até três vezes consecutivas."
+        "text": "O contrato de experiência pode durar até 2 anos e ser prorrogado por até três vezes consecutivas, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "Se for o empregado quem pede demissão antecipadamente no contrato por prazo determinado sem cláusula assecuratória, paga ao empregador metade dos dias restantes incondicionalmente."
+        "text": "Se for o empregado quem pede demissão antecipadamente no contrato por prazo determinado sem cláusula assecuratória, paga ao empregador metade dos dias restantes incondicionalmente, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "C",
-        "text": "A prorrogação de 45 + 45 dias é perfeitamente válida (Art. 445, parágrafo único, CLT: experiência máximo 90 dias; uma única prorrogação permitida pelo Art. 451 CLT!); na rescisão antecipada imotivada pelo empregador sem cláusula assecuratória, o empregador paga indenização correspondente à METADE (50%) da remuneração a que teria direito até o termo do contrato (no caso, 15 dias = metade dos 30 dias faltantes — Art. 479 CLT, SEM aviso prévio, mas com multa de 40% FGTS!); se houvesse cláusula assecuratória do Art. 481, aplicam-se os princípios do contrato indeterminado (inclusive aviso prévio — Súmula 163 TST)!"
+        "text": "A prorrogação de 45 + 45 dias é perfeitamente válida; na rescisão antecipada imotivada pelo empregador sem cláusula assecuratória, o empregador paga indenização correspondente à metade (50%) da remuneração a que teria direito até o termo do contrato; se houvesse cláusula assecuratória, aplicam-se os princípios do contrato indeterminado."
       },
       {
         "letter": "D",
-        "text": "Mesmo após o término de contrato por prazo determinado de 1 ano, o empregador pode celebrar novo contrato determinado com o mesmo empregado no dia seguinte."
+        "text": "Mesmo após o término de contrato por prazo determinado de 1 ano, o empregador pode celebrar novo contrato determinado com o mesmo empregado no dia seguinte, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "C",
@@ -1689,19 +1689,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para enquadramento no Art. 62, II, da CLT (exclusão de horas extras), basta possuir cargo intitulado \"gerente\" com gratificação mínima de 20%."
+        "text": "Para enquadramento (exclusão de horas extras), basta possuir cargo intitulado \"gerente\" com gratificação mínima de 20%, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "B",
-        "text": "O caixa bancário tem jornada normal de 8 horas diárias por lidar com numerário."
+        "text": "O caixa bancário tem jornada normal de 8 horas diárias por lidar com numerário, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 62, II e parágrafo único, da CLT, o cargo de confiança geral só exclui o controle de jornada e horas extras quando cumulativamente houver poderes de gestão E o acréscimo salarial da gratificação de função for NO MÍNIMO 40% do salário do cargo efetivo (logo, quem ganha apenas 30% TEM direito a horas extras!); já para BANCÁRIOS (Art. 224 CLT), a jornada padrão é de 6h diárias / 30h semanais (para quem exerce cargo de confiança bancário com fidúcia média — Art. 224, § 2º, gratificação >= 1/3 — a jornada é de 8h, recebendo horas extras apenas após a 8ª hora; e só o gerente-geral de agência com amplos poderes e >= 40% cai no Art. 62, II — Súmula 287 TST)!"
+        "text": "O cargo de confiança geral só exclui o controle de jornada e horas extras quando cumulativamente houver poderes de gestão e o acréscimo salarial da gratificação de função for no mínimo 40% do salário do cargo efetivo."
       },
       {
         "letter": "D",
-        "text": "O sábado do bancário é considerado dia de repouso semanal remunerado (DSR) para cálculo do divisor de horas extras."
+        "text": "O sábado do bancário é considerado dia de repouso semanal remunerado (dsr) para cálculo do divisor de horas extras, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       }
     ],
     "correctAnswer": "C",
@@ -1745,19 +1745,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No pedido de demissão, o empregado perde integralmente o direito ao 13º salário proporcional e às férias proporcionais."
+        "text": "No pedido de demissão, o empregado perde integralmente o direito ao 13º salário proporcional e às férias proporcionais, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "B",
-        "text": "O pagamento da primeira parcela do 13º salário deve ocorrer até 30 de dezembro, e a segunda parcela até 20 de janeiro."
+        "text": "O pagamento da primeira parcela do 13º salário deve ocorrer até 30 de dezembro, e a segunda parcela até 20 de janeiro, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "C",
-        "text": "Sim! Mesmo no PEDIDO DE DEMISSÃO, o empregado faz jus ao 13º salário proporcional (Súmula 157 TST — só perde na dispensa por JUSTA CAUSA!); conta-se 1/12 avos por mês trabalhado igual ou superior a 15 DIAS no mês (logo, saindo dia 14 de julho, trabalhou 14 dias em julho -> computa apenas 6/12 avos referentes a janeiro–junho!); quanto ao vale-transporte (Lei 7.418/85), o empregador desconta até 6% do salário-base (não tem natureza salarial!)."
+        "text": "Sim, mesmo no pedido de demissão, o empregado faz jus ao 13º salário proporcional; conta-se 1/12 avos por mês trabalhado igual ou superior a 15 dias no mês; quanto ao vale-transporte, o empregador desconta até 6% do salário-base."
       },
       {
         "letter": "D",
-        "text": "O vale-transporte pago em dinheiro habitualmente no contracheque possui natureza indenizatória automática segundo a lei."
+        "text": "O vale-transporte pago em dinheiro habitualmente no contracheque possui natureza indenizatória automática segundo a lei, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "C",
@@ -1801,19 +1801,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A arbitragem nos contratos individuais de trabalho é sempre proibida na CLT, mesmo para altos executivos."
+        "text": "A arbitragem nos contratos individuais de trabalho é sempre proibida na CLT, mesmo para altos executivos, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "B",
-        "text": "O termo de quitação anual (Art. 507-B CLT) pode ser firmado diretamente entre empregado e empregador com duas testemunhas, sem participação sindical."
+        "text": "O termo de quitação anual pode ser firmado diretamente entre empregado e empregador com duas testemunhas, sem participação sindical, com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período."
       },
       {
         "letter": "C",
-        "text": "A cláusula de arbitragem é VÁLIDA pelo Art. 507-A da CLT (exige remuneração > 2x o limite máximo dos benefícios do RGPS E pactuação por iniciativa do empregado ou mediante sua concordância expressa); já o TERMO DE QUITAÇÃO ANUAL DE OBRIGAÇÕES TRABALHISTAS (Art. 507-B CLT) exige obrigatoriamente que seja firmado PERANTE O SINDICATO DOS EMPREGADOS DA CATEGORIA (logo, sem o sindicato é NULO!) — lembrando ainda que a submissão à Comissão de Conciliação Prévia é FACULTATIVA (STF ADIs 2139/2160)!"
+        "text": "A cláusula de arbitragem é válida; já o termo de quitação anual de obrigações trabalhistas exige obrigatoriamente que seja firmado perante o sindicato dos empregados da categoria."
       },
       {
         "letter": "D",
-        "text": "O empregado é obrigado a submeter sua demanda primeiro à Comissão de Conciliação Prévia antes de ingressar com reclamação trabalhista."
+        "text": "O empregado é obrigado a submeter sua demanda primeiro à Comissão de Conciliação Prévia antes de ingressar com reclamação trabalhista, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       }
     ],
     "correctAnswer": "C",
@@ -1865,7 +1865,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O trabalho em domingos e feriados não compensado deve ser pago em DOBRO, sem prejuízo da remuneração relativa ao repouso semanal (Súmula 146 TST — e no comércio em geral, o repouso semanal deve coincidir com o domingo pelo menos uma vez a cada 3 semanas pela Lei 10.101/2000, mantendo-se a fruição após no máximo 6 dias consecutivos de trabalho — OJ 410 SDI-1 TST!); já a falta injustificada na terça-feira faz o empregado PERDER apenas a remuneração do DSR (domingo), MAS NÃO o direito ao descanso físico e nem o salário dos outros dias trabalhados (Art. 6º Lei 605/49)!"
+        "text": "O trabalho em domingos e feriados não compensado deve ser pago em dobro, sem prejuízo da remuneração relativa ao repouso semanal."
       },
       {
         "letter": "D",
@@ -1917,15 +1917,15 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "As cláusulas de convenção ou acordo coletivo vencidas mantêm sua eficácia indefinidamente até que novo instrumento seja assinado."
+        "text": "As cláusulas de convenção ou acordo coletivo vencidas mantêm sua eficácia indefinidamente até que novo instrumento seja assinado, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "C",
-        "text": "A Contribuição SINDICAL (Arts. 578/579 CLT — antigo imposto sindical de 1 dia de trabalho) tornou-se absolutamente FACULTATIVA dependendo de autorização prévia e expressa dos empregados (constitucionalizada pelo STF na ADI 5794); diversamente, a Contribuição ASSISTENCIAL prevista em acordo ou convenção coletiva de trabalho pode ser cobrada de todos os empregados da categoria (inclusive não sindicalizados), desde que assegurado o direito de OPOSIÇÃO (STF Tema 935 — ARE 1.018.459)!"
+        "text": "A Contribuição sindical tornou-se absolutamente facultativa dependendo de autorização prévia e expressa dos empregados."
       },
       {
         "letter": "D",
-        "text": "A contribuição sindical obrigatória continua vigente para os servidores públicos estatutários mesmo após a Lei 13.467/2017."
+        "text": "A contribuição sindical obrigatória continua vigente para os servidores públicos estatutários mesmo após a Lei 13.467/2017, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal."
       }
     ],
     "correctAnswer": "C",
@@ -1969,19 +1969,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O lay-off do Art. 476-A pode ser instituído por acordo individual escrito por até 12 meses sem participação sindical."
+        "text": "O lay-off pode ser instituído por acordo individual escrito por até 12 meses sem participação sindical, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "B",
-        "text": "A ajuda compensatória mensal paga pelo empregador durante o lay-off tem natureza salarial e integra o cálculo do FGTS e 13º."
+        "text": "A ajuda compensatória mensal paga pelo empregador durante o lay-off tem natureza salarial e integra o cálculo do FGTS e 13º, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 476-A da CLT, o lay-off (suspensão para qualificação profissional) tem prazo de 2 a 5 meses, exige previsão em CONVENÇÃO OU ACORDO COLETIVO DE TRABALHO, aquiescência formal do empregado e notificação ao sindicato com antecedência mínima de 15 dias da suspensão; além disso, se o empregado for dispensado durante a suspensão ou nos 3 meses subsequentes ao retorno, o empregador pagará multa prevista em norma coletiva de no mínimo 100% do último salário mensal, além das verbas rescisórias!"
+        "text": "O lay-off tem prazo de 2 a 5 meses, exige previsão em convenção ou acordo coletivo de trabalho, aquiescência formal do empregado e notificação ao sindicato com antecedência mínima de 15 dias da suspensão."
       },
       {
         "letter": "D",
-        "text": "Não existe qualquer penalidade adicional se a empresa demitir o empregado logo após o término do curso de qualificação profissional."
+        "text": "Não existe qualquer penalidade adicional se a empresa demitir o empregado logo após o término do curso de qualificação profissional, em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais."
       }
     ],
     "correctAnswer": "C",
@@ -2024,19 +2024,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o empregado reabilitado ou PcD contratado pela cota legal não possui qualquer proteção contra dispensa sem justa causa."
+        "text": "Sim, pois o empregado reabilitado ou PcD contratado pela cota legal não possui qualquer proteção contra dispensa sem justa causa. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais."
       },
       {
         "letter": "B",
-        "text": "A obrigação legal de reserva de cargos para PcD ou reabilitados (2% a 5%) aplica-se a todas as empresas a partir de 20 empregados."
+        "text": "A obrigação legal de reserva de cargos para PcD ou reabilitados (2% a 5%) aplica-se a todas as empresas a partir de 20 empregados, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual. Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos."
       },
       {
         "letter": "C",
-        "text": "Não! Pelo Art. 93, § 1º, da Lei nº 8.213/1991, a dispensa de pessoa com deficiência ou de beneficiário reabilitado da Previdência Social ao final de contrato por prazo determinado de mais de 90 dias e a dispensa imotivada em contrato por prazo indeterminado SOMENTE poderão ocorrer após a contratação de outro trabalhador com deficiência ou beneficiário reabilitado do INSS (garantia indireta de emprego que gera reintegração se descumprida, segundo o TST)!"
+        "text": "Não, a dispensa de pessoa com deficiência ou de beneficiário reabilitado da Previdência Social ao final de contrato por prazo determinado de mais de 90 dias e a dispensa imotivada em contrato por prazo indeterminado somente poderão ocorrer após a contratação de outro trabalhador com deficiência ou beneficiário reabilitado do INSS."
       },
       {
         "letter": "D",
-        "text": "O membro titular da CIPA eleito pelos empregados não pode ser dispensado nem mesmo por motivo econômico, técnico ou financeiro da empresa."
+        "text": "O membro titular da CIPA eleito pelos empregados não pode ser dispensado nem mesmo por motivo econômico, técnico ou financeiro da empresa, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       }
     ],
     "correctAnswer": "C",
@@ -2080,19 +2080,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O empregado hipersuficiente pode negociar livremente inclusive a supressão de FGTS e férias por acordo individual."
+        "text": "O empregado hipersuficiente pode negociar livremente inclusive a supressão de FGTS e férias por acordo individual, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "B",
-        "text": "Basta salário igual a 2x o teto do RGPS, sendo dispensável diploma de nível superior para caracterizar o hipersuficiente."
+        "text": "Basta salário igual a 2x o teto do RGPS, sendo dispensável diploma de nível superior para caracterizar o hipersuficiente, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "C",
-        "text": "O banco de horas anual e a cláusula compromissória de arbitragem SÃO válidos no acordo individual com o hipersuficiente (diploma superior + salário >= 2x teto RGPS — Arts. 444, parágrafo único, e 507-A CLT); porém a supressão do FGTS é NULA de pleno direito por violar o Art. 611-B da CLT (objeto ilícito mesmo em norma coletiva!)."
+        "text": "O banco de horas anual e a cláusula compromissória de arbitragem são válidos no acordo individual com o hipersuficiente."
       },
       {
         "letter": "D",
-        "text": "A cláusula compromissória de arbitragem prevista no Art. 507-A da CLT pode ser imposta unilateralmente pelo empregador a qualquer empregado."
+        "text": "A cláusula compromissória de arbitragem pode ser imposta unilateralmente pelo empregador a qualquer empregado, com autorização de compensação e flexibilização da jornada sem negociação sindical prévia."
       }
     ],
     "correctAnswer": "C",
@@ -2135,19 +2135,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todo período em que o empregado permanecer dentro das dependências físicas da empresa após o ponto conta como hora extra pela Súmula 366 TST."
+        "text": "Todo período em que o empregado permanecer dentro das dependências físicas da empresa após o ponto conta como hora extra, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "B",
-        "text": "As variações de horário no registro de ponto de até 10 minutos na entrada e 10 minutos na saída são sempre desprezadas."
+        "text": "As variações de horário no registro de ponto de até 10 minutos na entrada e 10 minutos na saída são sempre desprezadas, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "C",
-        "text": "Não! Pelo Art. 4º, § 2º, da CLT (Reforma Trabalhista), NÃO se considera tempo à disposição do empregador — e não será computado como período extraordinário — o tempo em que o empregado permanece nas dependências por escolha própria para buscar proteção pessoal contra insegurança ou condições climáticas desfavoráveis, nem para troca de roupa ou uniforme quando NÃO houver obrigatoriedade de realizar a troca na empresa."
+        "text": "Não, não se considera tempo à disposição do empregador — e não será computado como período extraordinário — o tempo em que o empregado permanece nas dependências por escolha própria para buscar proteção pessoal contra insegurança ou condições climáticas desfavoráveis, nem para troca de roupa ou uniforme quando não houver obrigatoriedade de realizar a troca na empresa."
       },
       {
         "letter": "D",
-        "text": "Se a empresa proibir que o empregado leve o uniforme para casa, exigindo a troca no vestiário, ainda assim esse tempo não entra na jornada."
+        "text": "Se a empresa proibir que o empregado leve o uniforme para casa, exigindo a troca no vestiário, ainda assim esse tempo não entra na jornada. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais."
       }
     ],
     "correctAnswer": "C",
@@ -2195,15 +2195,15 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Não descaracteriza integralmente o acordo de compensação! Pelo Art. 59-B, parágrafo único, da CLT (inserido pela Lei 13.467/2017, superando em parte a Súmula 85, IV, do TST), a prestação de horas extras habituais NÃO descaracteriza o acordo de compensação de jornada e o banco de horas; no entanto, o não atendimento das exigências legais para compensação gera pagamento apenas do ADICIONAL das horas destinadas à compensação, se não ultrapassada a duração máxima semanal (Art. 59-B, caput)!"
+        "text": "Não descaracteriza integralmente o acordo de compensação. a prestação de horas extras habituais não descaracteriza o acordo de compensação de jornada e o banco de horas."
       },
       {
         "letter": "C",
-        "text": "O acordo de compensação semanal de jornada exige obrigatoriamente convenção coletiva ou acordo coletivo, não cabendo acordo individual."
+        "text": "O acordo de compensação semanal de jornada exige obrigatoriamente convenção coletiva ou acordo coletivo, não cabendo acordo individual, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "D",
-        "text": "No banco de horas inválido, paga-se apenas o adicional de 50% sem o valor da hora normal."
+        "text": "No banco de horas inválido, paga-se apenas o adicional de 50% sem o valor da hora normal, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       }
     ],
     "correctAnswer": "B",
@@ -2247,19 +2247,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O tempo de espera de motorista para carga/descarga continua indenizado a 30% da hora normal e jamais integra a jornada."
+        "text": "O tempo de espera de motorista para carga/descarga continua indenizado a 30% da hora normal e jamais integra a jornada, em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais."
       },
       {
         "letter": "B",
-        "text": "O STF na ADI 5322 declarou INCONSTITUCIONAIS o fracionamento do intervalo interjornada de 11h (exigindo 11h contínuas sem parcelamento), o cômputo do \"tempo de espera\" fora da jornada (logo, o tempo de espera em carga/descarga/fiscalização DEVE integrar a jornada de trabalho e ser pago como hora normal ou extra se exceder a jornada!) e a possibilidade de gozar o descanso semanal de 35h dentro do veículo em movimento em dupla de motoristas!"
+        "text": "O STF na ADI 5322 declarou inconstitucionais o fracionamento do intervalo interjornada de 11h, o cômputo do \"tempo de espera\" fora da jornada e a possibilidade de gozar o descanso semanal de 35h dentro do veículo em movimento em dupla de motoristas."
       },
       {
         "letter": "C",
-        "text": "É válido o fracionamento do intervalo interjornada de 11 horas do motorista em 8 horas contínuas mais 3 horas no mesmo dia."
+        "text": "É válido o fracionamento do intervalo interjornada de 11 horas do motorista em 8 horas contínuas mais 3 horas no mesmo dia, com autorização de compensação e flexibilização da jornada sem negociação sindical prévia."
       },
       {
         "letter": "D",
-        "text": "É permitida a cumulação de descansos semanais remunerados em viagens de longa distância por até 4 semanas consecutivas."
+        "text": "É permitida a cumulação de descansos semanais remunerados em viagens de longa distância por até 4 semanas consecutivas, com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas."
       }
     ],
     "correctAnswer": "B",
@@ -2303,11 +2303,11 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambos possuem jornada de 6 horas diárias porque todo empregado bancário submete-se ao teto do Art. 224, caput, da CLT."
+        "text": "Ambos possuem jornada de 6 horas diárias porque todo empregado bancário submete-se ao teto. Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos."
       },
       {
         "letter": "B",
-        "text": "O supervisor com fidúcia especial e gratificação >= 1/3 (33,33%) enquadra-se no Art. 224, § 2º, da CLT e tem jornada de 8 HORAS diárias (faz jus a horas extras a partir da 8ª hora — Súmula 102 TST); já o Gerente-Geral de agência bancária enquadra-se no Art. 62, II, da CLT (Súmula 287 TST), NÃO estando sujeito a controle de jornada nem fazendo jus a horas extras!"
+        "text": "O supervisor com fidúcia especial e gratificação >= 1/3 (33,33%) enquadra-se e tem jornada de 8 horas diárias."
       },
       {
         "letter": "C",
@@ -2315,7 +2315,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O divisor de horas extras do bancário com jornada de 6 horas é 150 e o do bancário de 8 horas é 200."
+        "text": "O divisor de horas extras do bancário com jornada de 6 horas é 150 e o do bancário de 8 horas é 200, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       }
     ],
     "correctAnswer": "B",
@@ -2359,19 +2359,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque o Art. 7º, XXVIII, da CF exige sempre comprovação de dolo ou culpa do empregador em qualquer acidente de trabalho."
+        "text": "Não, porque a legislação aplicável exige sempre comprovação de dolo ou culpa do empregador em qualquer acidente de trabalho. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "Sim! No Tema 932 da Repercussão Geral (RE 828.040), o STF fixou tese de que o Art. 927, parágrafo único, do Código Civil é plenamente aplicável ao Direito do Trabalho: o empregador responde OBJETIVAMENTE (independentemente de culpa!) quando a atividade normalmente desenvolvida pelo autor do dano implicar, por sua natureza, risco especial/acentuado à integridade do trabalhador!"
+        "text": "Sim, no Tema 932 da Repercussão Geral, o STF fixou tese de que o Art. 927, parágrafo único, do Código Civil é plenamente aplicável ao Direito do Trabalho: o empregador responde objetivamente quando a atividade normalmente desenvolvida pelo autor do dano implicar, por sua natureza, risco especial/acentuado à integridade do trabalhador."
       },
       {
         "letter": "C",
-        "text": "O recebimento de benefício previdenciário acidentário pelo INSS abate ou exclui a indenização civil devida pelo empregador."
+        "text": "O recebimento de benefício previdenciário acidentário pelo INSS abate ou exclui a indenização civil devida pelo empregador, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "D",
-        "text": "Em caso de dano extrapatrimonial trabalhista, os tetos do Art. 223-G, § 1º, da CLT são absolutos e vinculam o juiz de forma insuperável."
+        "text": "Em caso de dano extrapatrimonial trabalhista, os tetos são absolutos e vinculam o juiz de forma insuperável, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "B",
@@ -2415,19 +2415,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Empregados de sociedades de economia mista que exploram atividade econômica têm exatamente a mesma estabilidade do Art. 41 da CF que os servidores estatutários."
+        "text": "Empregados de sociedades de economia mista que exploram atividade econômica têm exatamente a mesma estabilidade que os servidores estatutários, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "B",
-        "text": "Não! No Tema 1022 (RE 688.267, julgado em 2024 com modulação de efeitos para dispensas posteriores à publicação da ata), o STF decidiu que as empresas públicas e sociedades de economia mista (prestadoras de serviços públicos ou exploradoras de atividade econômica) têm o dever jurídico de MOTIVAR, em ato formal, a demissão de seus empregados concursados, embora não exija processo administrativo disciplinar completo nem confira estabilidade estatutária do Art. 41 CF!"
+        "text": "Não, no Tema 1022, o STF decidiu que as empresas públicas e sociedades de economia mista têm o dever jurídico de motivar, em ato formal, a demissão de seus empregados concursados, embora não exija processo administrativo disciplinar completo nem confira estabilidade estatutária."
       },
       {
         "letter": "C",
-        "text": "Por se submeterem ao regime próprio das empresas privadas (Art. 173, § 1º, II, CF), as estatais podem dispensar seus empregados concursados imotivadamente sem qualquer justificativa."
+        "text": "Por se submeterem ao regime próprio das empresas privadas, as estatais podem dispensar seus empregados concursados imotivadamente sem qualquer justificativa, com autorização de compensação e flexibilização da jornada sem negociação sindical prévia."
       },
       {
         "letter": "D",
-        "text": "Para empregado público de fundação pública de direito público ou autarquia contratado sob CLT, também não existe estabilidade do Art. 41 da CF."
+        "text": "Para empregado público de fundação pública de direito público ou autarquia contratado sob CLT, também não existe estabilidade, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       }
     ],
     "correctAnswer": "B",
@@ -2471,19 +2471,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A duração máxima do estágio para ensino superior é de 8 horas diárias e 40 horas semanais em qualquer período do ano."
+        "text": "A duração máxima do estágio para ensino superior é de 8 horas diárias e 40 horas semanais em qualquer período do ano, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "B",
-        "text": "Descaracteriza o estágio e gera VÍNCULO DE EMPREGO com a concedente (Art. 3º, § 2º, c/c Art. 15 da Lei nº 11.788/2008)! A jornada máxima de estágio para educação superior/ensino médio é de 6 HORAS diárias e 30 HORAS semanais (Art. 10, II — e 4h/20h para educação especial/fundamental); no estágio NÃO obrigatório são compulsórios a bolsa/contraprestação E o auxílio-transporte (Art. 12); e o prazo máximo na mesma parte concedente é de 2 anos (exceto estagiário PcD — Art. 11)!"
+        "text": "Descaracteriza o estágio e gera vínculo de emprego com a concedente. A jornada máxima de estágio para educação superior/ensino médio é de 6 horas diárias e 30 horas semanais."
       },
       {
         "letter": "C",
-        "text": "No estágio obrigatório (curricular), a concessão de bolsa-auxílio e auxílio-transporte é sempre obrigatória por lei."
+        "text": "No estágio obrigatório (curricular), a concessão de bolsa-auxílio e auxílio-transporte é sempre obrigatória por lei, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal."
       },
       {
         "letter": "D",
-        "text": "O estagiário pode permanecer vinculado à mesma empresa concedente pelo prazo máximo de 4 anos."
+        "text": "O estagiário pode permanecer vinculado à mesma empresa concedente pelo prazo máximo de 4 anos, com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período."
       }
     ],
     "correctAnswer": "B",
@@ -2526,19 +2526,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo máximo do contrato de trabalho temporário é de 180 dias improrrogáveis."
+        "text": "O prazo máximo do contrato de trabalho temporário é de 180 dias improrrogáveis, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "B",
-        "text": "Não quanto ao prazo nem à hipótese! Trabalho temporário (Art. 2º) só se admite para: (1) substituição transitória de pessoal permanente ou (2) demanda COMPLEMENTAR de serviços (imprevisível ou sazonal/intermitente, não permanente); o prazo máximo é de 180 DIAS (consecutivos ou não), prorrogável por até MAIS 90 DIAS (total máximo = 270 dias — Art. 10, §§ 1º e 2º), com quarentena de 90 dias para nova contratação do mesmo temporário na mesma tomadora!"
+        "text": "Não quanto ao prazo nem à hipótese. Trabalho temporário só se admite para: substituição transitória de pessoal permanente ou demanda complementar de serviços."
       },
       {
         "letter": "C",
-        "text": "O trabalhador temporário tem direito ao aviso prévio e à multa de 40% sobre o FGTS ao término regular do prazo."
+        "text": "O trabalhador temporário tem direito ao aviso prévio e à multa de 40% sobre o FGTS ao término regular do prazo, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "D",
-        "text": "Em caso de falência da empresa de trabalho temporário, a empresa tomadora responde subsidiariamente apenas pelo FGTS."
+        "text": "Em caso de falência da empresa de trabalho temporário, a empresa tomadora responde subsidiariamente apenas pelo FGTS, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       }
     ],
     "correctAnswer": "B",
@@ -2581,11 +2581,11 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A substituição durante as férias de 30 dias de um colega é considerada meramente eventual e não gera direito ao salário do substituído."
+        "text": "A substituição durante as férias de 30 dias de um colega é considerada meramente eventual e não gera direito ao salário do substituído, sem integração na base de cálculo das demais parcelas contratuais e rescisórias devidas."
       },
       {
         "letter": "B",
-        "text": "Enquanto perdurar a substituição que NÃO tenha caráter meramente eventual (inclusive nas férias!), o empregado substituto fará jus ao salário contratual do substituído (Súmula 159, I, do TST — não se aplicando apenas se o cargo estiver vago definitivamente, Súmula 159, II!); já a cláusula que engloba vários direitos num único pagamento global sem discriminar cada parcela configura SALÁRIO COMPLESSIVO, sendo NULA de pleno direito pela Súmula 91 do TST!"
+        "text": "Enquanto perdurar a substituição que não tenha caráter meramente eventual, o empregado substituto fará jus ao salário contratual do substituído."
       },
       {
         "letter": "C",
@@ -2593,7 +2593,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O salário complessivo é lícito sempre que o empregado concordar por escrito no momento da admissão."
+        "text": "O salário complessivo é lícito sempre que o empregado concordar por escrito no momento da admissão, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       }
     ],
     "correctAnswer": "B",
@@ -2637,19 +2637,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A equiparação salarial em cadeia continua permitida após a Reforma Trabalhista quando o paradigma remoto teve vantagem reconhecida por sentença judicial."
+        "text": "A equiparação salarial em cadeia continua permitida após a Reforma Trabalhista quando o paradigma remoto teve vantagem reconhecida por sentença judicial, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal."
       },
       {
         "letter": "B",
-        "text": "Cabe equiparação salarial no trabalho INTELECTUAL (desde que atendidos os requisitos de igual valor e produtividade — Súmula 6, VII, TST); CONTUDO, o Art. 461, § 5º, da CLT (inserido pela Reforma Trabalhista, superando a Súmula 6, VI, do TST!) PROIBIU expressamente a equiparação salarial EM CADEIA, determinando que a equiparação só será possível entre empregados contemporâneos no cargo ou função, vedada a indicação de paradigmas remotos mesmo que o paradigma contemporâneo tenha obtido vantagem em ação judicial!"
+        "text": "Cabe equiparação salarial no trabalho intelectual; contudo, o Art. 461, § 5º, da CLT proibiu expressamente a equiparação salarial em cadeia, determinando que a equiparação só será possível entre empregados contemporâneos no cargo ou função, vedada a indicação de paradigmas remotos mesmo que o paradigma contemporâneo tenha obtido vantagem em ação judicial."
       },
       {
         "letter": "C",
-        "text": "O trabalho predominantemente intelectual não comporta equiparação salarial por impossibilidade de aferição objetiva."
+        "text": "O trabalho predominantemente intelectual não comporta equiparação salarial por impossibilidade de aferição objetiva, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "D",
-        "text": "Na ação de equiparação salarial, incumbe ao empregado reclamante o ônus de provar os fatos impeditivos, modificativos ou extintivos alegados pela empresa."
+        "text": "Na ação de equiparação salarial, incumbe ao empregado reclamante o ônus de provar os fatos impeditivos, modificativos ou extintivos alegados pela empresa. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       }
     ],
     "correctAnswer": "B",
@@ -2693,19 +2693,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não é devida a indenização porque a comunicação da dispensa ocorreu em 20 de setembro, fora dos 30 dias anteriores a 1º de novembro."
+        "text": "Não é devida a indenização porque a comunicação da dispensa ocorreu em 20 de setembro, fora dos 30 dias anteriores a 1º de novembro. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "É devida a INDENIZAÇÃO ADICIONAL equivalente a 1 (um) salário mensal do empregado (Art. 9º da Lei nº 7.238/1984), porque o tempo do aviso prévio, mesmo INDENIZADO, conta-se para efeito da indenização adicional (Súmula 182 do TST) e, recaindo seu término dentro do trintídio anterior à data-base (02/10 a 31/10), incide a multa de 1 salário!"
+        "text": "É devida a indenização adicional equivalente a 1 (um) salário mensal do empregado, porque o tempo do aviso prévio, mesmo indenizado, conta-se para efeito da indenização adicional e, recaindo seu término dentro do trintídio anterior à data-base (02/10 a 31/10), incide a multa de 1 salário."
       },
       {
         "letter": "C",
-        "text": "Se a projeção do aviso prévio recair exatamente no mês da data-base (após 1º de novembro), o empregado terá direito cumulativo ao reajuste e à indenização adicional."
+        "text": "Se a projeção do aviso prévio recair exatamente no mês da data-base (após 1º de novembro), o empregado terá direito cumulativo ao reajuste e à indenização adicional, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "D",
-        "text": "A indenização adicional corresponde a 2 salários mensais acrescidos de FGTS e férias proporcionais."
+        "text": "A indenização adicional corresponde a 2 salários mensais acrescidos de FGTS e férias proporcionais, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       }
     ],
     "correctAnswer": "B",
@@ -2749,19 +2749,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não! A jurisprudência consolidada do TST (SDI-1) distingue: a REVISTA ÍNTIMA / corporal (com contato físico ou desnudamento) é expressamente PROIBIDA a mulheres e homens (Art. 373-A, VI, CLT e Lei 13.271/2016), gerando dano moral in re ipsa; já a revista meramente VISUAL de bolsas/mochilas/pertences, realizada de forma IMPESSOAL, geral, sem contato físico e sem caráter discriminatório ou vexatório, situa-se no poder diretivo/fiscalizador do empregador e NÃO configura dano moral!"
+        "text": "Não, a jurisprudência consolidada do TST (SDI-1) distingue: a revista íntima / corporal é expressamente proibida a mulheres e homens, gerando dano moral in re ipsa."
       },
       {
         "letter": "B",
-        "text": "Qualquer inspeção visual em bolsas ou mochilas de empregados é ilegal e gera dano moral automático independentemente de contato físico."
+        "text": "Qualquer inspeção visual em bolsas ou mochilas de empregados é ilegal e gera dano moral automático independentemente de contato físico, sem integração na base de cálculo das demais parcelas contratuais e rescisórias devidas."
       },
       {
         "letter": "C",
-        "text": "A proibição de revista íntima do Art. 373-A, VI, CLT restringe-se às mulheres, sendo permitida revista corporal com toque em empregados do sexo masculino."
+        "text": "A proibição de revista íntima restringe-se às mulheres, sendo permitida revista corporal com toque em empregados do sexo masculino, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária."
       },
       {
         "letter": "D",
-        "text": "A Lei nº 13.271/2016 autoriza revista íntima em trabalhadoras desde que realizada por segurança do mesmo sexo."
+        "text": "A Lei nº 13.271/2016 autoriza revista íntima em trabalhadoras desde que realizada por segurança do mesmo sexo, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       }
     ],
     "correctAnswer": "A",
@@ -2804,19 +2804,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O desconto pelo dano CULPOSO sem prévia previsão contratual é ILÍCITO (Art. 462, § 1º, CLT — no DOLO o desconto independe de previsão prévia; na CULPA, exige-se acordo prévio autorizando o desconto!); já o desconto em folha para plano de saúde/seguro/clube/previdência com autorização prévia e por escrito do empregado, sem comprovação de vício de consentimento, é plenamente VÁLIDO pela Súmula 342 do TST!"
+        "text": "O desconto pelo dano culposo sem prévia previsão contratual é ilícito; já o desconto em folha para plano de saúde/seguro/clube/previdência com autorização prévia e por escrito do empregado, sem comprovação de vício de consentimento, é plenamente válido."
       },
       {
         "letter": "B",
-        "text": "O empregador pode descontar livremente qualquer prejuízo causado por culpa simples do empregado mesmo sem previsão contratual anterior."
+        "text": "O empregador pode descontar livremente qualquer prejuízo causado por culpa simples do empregado mesmo sem previsão contratual anterior, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "C",
-        "text": "Os descontos para planos de saúde e seguros de vida são sempre ilícitos por violarem o princípio da intangibilidade salarial (Art. 462 CLT)."
+        "text": "Os descontos para planos de saúde e seguros de vida são sempre ilícitos por violarem o princípio da intangibilidade salarial, com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas."
       },
       {
         "letter": "D",
-        "text": "O empregado vendedor que recebe comissões assume o risco de inadimplência do cliente, podendo o empregador estornar a comissão se o comprador não pagar as parcelas após aceita a venda."
+        "text": "O empregado vendedor que recebe comissões assume o risco de inadimplência do cliente, podendo o empregador estornar a comissão se o comprador não pagar as parcelas após aceita a venda, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária."
       }
     ],
     "correctAnswer": "A",
@@ -2860,7 +2860,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Quando a invenção decorre de contrato de trabalho cuja natureza envolve pesquisa ou atividade inventiva (ou com natureza prevista no contrato), a propriedade da patente pertence EXCLUSIVAMENTE ao EMPREGADOR (Art. 88 da Lei 9.279/96 — salvo se desenvolvida sem relação com o contrato nem uso de recursos da empresa, quando é exclusiva do empregado pelo Art. 90, ou propriedade COMUM se fora do contrato mas com uso de recursos/instalações da empresa pelo Art. 91!); e a cláusula de não concorrência pós-contratual só é válida no Brasil se tiver limitação TEMPORAL (geralmente até 2 anos), limitação ESPACIAL/SEGMENTO e CONTRAPRESTAÇÃO FINANCEIRA compensatória!"
+        "text": "Quando a invenção decorre de contrato de trabalho cuja natureza envolve pesquisa ou atividade inventiva, a propriedade da patente pertence exclusivamente ao empregador."
       },
       {
         "letter": "B",
@@ -2915,19 +2915,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Na ADI 6327 (referendada pelo Plenário do STF), o Supremo Tribunal Federal fixou interpretação conforme a Constituição determinando que o termo inicial da licença-maternidade (120 dias) e do respectivo salário-maternidade deve ser a ALTA HOSPITALAR da mãe ou do recém-nascido — o que ocorrer POR ÚLTIMO — prorrogando o benefício quando a internação decorrente do parto exceder duas semanas!"
+        "text": "Na ADI 6327, o Supremo Tribunal Federal fixou interpretação conforme a Constituição determinando que o termo inicial da licença-maternidade (120 dias) e do respectivo salário-maternidade deve ser a alta hospitalar da mãe ou do recém-nascido."
       },
       {
         "letter": "B",
-        "text": "Os 120 dias da licença-maternidade contam-se sempre da data do parto ou do atestado médico anterior, sem qualquer ampliação por internação neonatal."
+        "text": "Os 120 dias da licença-maternidade contam-se sempre da data do parto ou do atestado médico anterior, sem qualquer ampliação por internação neonatal, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "C",
-        "text": "Em caso de aborto NÃO criminoso comprovado por atestado médico oficial, a empregada tem direito a 120 dias integrais de licença-maternidade."
+        "text": "Em caso de aborto não criminoso comprovado por atestado médico oficial, a empregada tem direito a 120 dias integrais de licença-maternidade, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "D",
-        "text": "A empregada que adota criança com 10 anos de idade não tem direito à licença-maternidade de 120 dias."
+        "text": "A empregada que adota criança com 10 anos de idade não tem direito à licença-maternidade de 120 dias, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       }
     ],
     "correctAnswer": "A",
@@ -2971,19 +2971,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "No trabalho rural: (1) a moradia fornecida para viabilizar o trabalho NÃO integra o salário (desde que pactuado em contrato escrito com notificação ao sindicato — Art. 9º, § 5º, Lei 5.889/73), e o teto de desconto por habitação (quando cabível) é de até 20% e por alimentação até 25% do SALÁRIO MÍNIMO (Art. 9º, \"a\" e \"b\" — não do salário contratual!); (2) no aviso prévio trabalhado dado pelo empregador rural, o empregado tem direito a faltar 1 DIA POR SEMANA sem prejuízo do salário (Art. 15 Lei 5.889/73 — diferente da opção de 2h/dia ou 7d corridos do urbano!); e (3) a prescrição rural foi equiparada à urbana pela EC 28/2000 (5 anos / 2 anos)!"
+        "text": "No trabalho rural: a moradia fornecida para viabilizar o trabalho não integra o salário, e o teto de desconto por habitação (quando cabível) é de até 20% e por alimentação até 25% do salário mínimo."
       },
       {
         "letter": "B",
-        "text": "O trabalhador rural continua imprescritível durante a vigência do contrato até 2 anos após a extinção, não se aplicando a prescrição quinquenal."
+        "text": "O trabalhador rural continua imprescritível durante a vigência do contrato até 2 anos após a extinção, não se aplicando a prescrição quinquenal, em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais."
       },
       {
         "letter": "C",
-        "text": "No aviso prévio trabalhado do rurícola demitido sem justa causa, aplica-se a redução de 2 horas diárias ou 7 dias corridos do Art. 488 da CLT."
+        "text": "No aviso prévio trabalhado do rurícola demitido sem justa causa, aplica-se a redução de 2 horas diárias ou 7 dias corridos, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "D",
-        "text": "O contrato de trabalho rural por pequeno prazo (até 2 meses dentro de 1 ano — Art. 14-A Lei 5.889/73) exige obrigatoriamente anotação tradicional na CTPS física e gera FGTS sem multa na saída."
+        "text": "O contrato de trabalho rural por pequeno prazo exige obrigatoriamente anotação tradicional na CTPS física e gera FGTS sem multa na saída, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       }
     ],
     "correctAnswer": "A",
@@ -3026,19 +3026,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O contrato de aprendizagem a partir dos 14 anos é VÁLIDO (até 24 anos, ou sem limite máximo para PcD — Art. 428, § 5º, CLT), com jornada máxima de 6 horas diárias para quem ainda não completou o ensino fundamental (podendo chegar a 8h para quem já concluiu o fundamental SE computadas horas de aprendizagem teórica — Art. 432 CLT!) e alíquota de FGTS de apenas 2% (Art. 15, § 7º, Lei 8.036/90)! Quanto ao menor de 18 anos: ele PODE assinar recibo de pagamento dos salários mensais (Art. 439 CLT), MAS É PROIBIDO dar quitação das indenizações/verbas na RESCISÃO sem assistência dos responsáveis legais!"
+        "text": "O contrato de aprendizagem a partir dos 14 anos é válido, com jornada máxima de 6 horas diárias para quem ainda não completou o ensino fundamental e alíquota de FGTS de apenas 2%."
       },
       {
         "letter": "B",
-        "text": "O aprendiz de 15 anos pode trabalhar normalmente em horário noturno (22h às 5h) desde que autorizado pelos pais."
+        "text": "O aprendiz de 15 anos pode trabalhar normalmente em horário noturno (22h às 5h) desde que autorizado pelos pais, com autorização de compensação e flexibilização da jornada sem negociação sindical prévia."
       },
       {
         "letter": "C",
-        "text": "O menor de 18 anos é absolutamente incapaz no Direito do Trabalho e não pode sequer assinar recibo de salário mensal."
+        "text": "O menor de 18 anos é absolutamente incapaz no Direito do Trabalho e não pode sequer assinar recibo de salário mensal, sem integração na base de cálculo das demais parcelas contratuais e rescisórias devidas."
       },
       {
         "letter": "D",
-        "text": "Contra o trabalhador menor de 18 anos corre normalmente a prescrição bienal e quinquenal trabalhista."
+        "text": "Contra o trabalhador menor de 18 anos corre normalmente a prescrição bienal e quinquenal trabalhista, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       }
     ],
     "correctAnswer": "A",
@@ -3081,19 +3081,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Há vínculo de EMPREGO DOMÉSTICO porque o serviço é prestado no âmbito residencial sem fins lucrativos por MAIS DE 2 DIAS POR SEMANA (Art. 1º da LC 150/2015 — até 2 dias/semana é diarista autônoma sem vínculo!); quanto ao acompanhamento em viagem, a remuneração-hora do serviço em viagem será, no mínimo, 25% SUPERIOR ao valor do salário-hora normal (Art. 11, § 2º — podendo alternativamente ser convertido em banco de horas mediante acordo escrito!); e o empregador recolhe mensalmente 8% de FGTS + 3,2% de depósito compensatório antecipado da perda do emprego (em substituição à multa de 40% — Art. 22 LC 150/15)!"
+        "text": "Há vínculo de emprego doméstico porque o serviço é prestado no âmbito residencial sem fins lucrativos por mais de 2 dias por semana."
       },
       {
         "letter": "B",
-        "text": "Caracteriza-se como diarista autônoma qualquer trabalhadora que preste serviços em residência até 3 dias por semana."
+        "text": "Caracteriza-se como diarista autônoma qualquer trabalhadora que preste serviços em residência até 3 dias por semana, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "C",
-        "text": "Ao ser dispensado sem justa causa, o empregado doméstico recebe multa rescisória de 40% sobre o FGTS paga integralmente no TRCT."
+        "text": "Ao ser dispensado sem justa causa, o empregado doméstico recebe multa rescisória de 40% sobre o FGTS paga integralmente no trct, em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais."
       },
       {
         "letter": "D",
-        "text": "A empregada doméstica gestante não possui estabilidade provisória prevista na LC 150/2015."
+        "text": "A empregada doméstica gestante não possui estabilidade provisória prevista na LC 150/2015, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       }
     ],
     "correctAnswer": "A",
@@ -3136,19 +3136,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela OJ 244 da SDI-1 do TST, a redução da carga horária do professor em virtude da diminuição do número de alunos NÃO constitui alteração contratual ilícita, uma vez que não implica redução do valor da hora-aula (mantém o valor unitário da hora-aula!); e quanto à dispensa ao término do ano letivo ou durante as férias escolares, pela Súmula 10 do TST, é assegurado ao professor o pagamento dos salários no período das férias escolares se despedido sem justa causa ao término do ano letivo ou no curso dessas férias!"
+        "text": "A redução da carga horária do professor em virtude da diminuição do número de alunos não constitui alteração contratual ilícita, uma vez que não implica redução do valor da hora-aula; e quanto à dispensa ao término do ano letivo ou durante as férias escolares, é assegurado ao professor o pagamento dos salários no período das férias escolares se despedido sem justa causa ao término do ano letivo ou no curso dessas férias."
       },
       {
         "letter": "B",
-        "text": "Qualquer redução de número de aulas do professor, mesmo por queda de matrículas, viola a irredutibilidade salarial e é nula."
+        "text": "Qualquer redução de número de aulas do professor, mesmo por queda de matrículas, viola a irredutibilidade salarial e é nula. Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos."
       },
       {
         "letter": "C",
-        "text": "Os professores têm direito a receber apenas as verbas rescisórias comuns sem garantia dos salários das férias escolares se dispensados em dezembro."
+        "text": "Os professores têm direito a receber apenas as verbas rescisórias comuns sem garantia dos salários das férias escolares se dispensados em dezembro, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "D",
-        "text": "No período de exames ou férias escolares, o professor pode prestar serviços de coordenação administrativa sem acréscimo salarial nem limite de horas."
+        "text": "No período de exames ou férias escolares, o professor pode prestar serviços de coordenação administrativa sem acréscimo salarial nem limite de horas, com nulidade absoluta de qualquer estipulação voltada a reduzir patamares protetivos básicos. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       }
     ],
     "correctAnswer": "A",
@@ -3192,19 +3192,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "NÃO! Pelos Arts. 60, parágrafo único, e 141, II, da Lei nº 11.101/2005 (declarados constitucionais pelo STF na ADI 3934!), o objeto da alienação judicial de unidade produtiva isolada (UPI) na recuperação judicial ou dos bens na falência estará LIVRE de qualquer ônus e NÃO haverá sucessão do arrematante nas obrigações do devedor, INCLUSIVE as de natureza tributária, derivadas da legislação do trabalho e decorrentes de acidentes de trabalho (salvo fraude/simulação em favor de sócio/parente prevista no § 1º do Art. 141)!"
+        "text": "Não. Pelos Arts. 60, parágrafo único, e 141, II, da Lei nº 11.101/2005, o objeto da alienação judicial de unidade produtiva isolada (upi) na recuperação judicial ou dos bens na falência estará livre de qualquer ônus e não haverá sucessão do arrematante nas obrigações do devedor, inclusive as de natureza tributária, derivadas da legislação do trabalho e decorrentes de acidentes de trabalho."
       },
       {
         "letter": "B",
-        "text": "No Direito do Trabalho vigora a responsabilidade objetiva absoluta, de modo que o adquirente de UPI em recuperação judicial sempre responde pelas dívidas trabalhistas."
+        "text": "No Direito do Trabalho vigora a responsabilidade objetiva absoluta, de modo que o adquirente de upi em recuperação judicial sempre responde pelas dívidas trabalhistas, com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período."
       },
       {
         "letter": "C",
-        "text": "A execução trabalhista pode redirecionar diretamente contra o patrimônio dos sócios sem instaurar o Incidente de Desconsideração da Personalidade Jurídica (IDPJ)."
+        "text": "A execução trabalhista pode redirecionar diretamente contra o patrimônio dos sócios sem instaurar o Incidente de Desconsideração da Personalidade Jurídica (IDPJ), com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "D",
-        "text": "O crédito trabalhista na falência não tem limite algum na classe privilegiada de pagamento."
+        "text": "O crédito trabalhista na falência não tem limite algum na classe privilegiada de pagamento, em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       }
     ],
     "correctAnswer": "A",
@@ -3248,19 +3248,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A multa do Art. 467 (acréscimo de 50% sobre as verbas rescisórias INCONTROVERSAS não pagas na primeira audiência) incide apenas na segunda empresa (que reconheceu dever R$ 4.000 e não pagou em audiência — NÃO incide quando há controvérsia séria sobre vínculo ou justa causa, nem à Fazenda Pública pelo parágrafo único, nem à massa falida pela Súmula 388 TST!); já a multa do Art. 477, § 8º (1 salário pelo atraso além de 10 dias do término do contrato) incide inclusive quando a relação de emprego ou reversão de justa causa for reconhecida apenas em juízo (Súmula 462 TST), NÃO se aplicando apenas à massa falida se a falência foi decretada ANTES da rescisão (Súmula 388)!"
+        "text": "A multa incide apenas na segunda empresa; já a multa incide inclusive quando a relação de emprego ou reversão de justa causa for reconhecida apenas em juízo, não se aplicando apenas à massa falida se a falência foi decretada antes da rescisão."
       },
       {
         "letter": "B",
-        "text": "A multa do Art. 467 da CLT (50%) aplica-se mesmo às verbas controvertidas quando a empresa perde a ação ao final."
+        "text": "A multa (50%) aplica-se mesmo às verbas controvertidas quando a empresa perde a ação ao final, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "C",
-        "text": "Reconhecida em juízo a nulidade de justa causa ou o vínculo de emprego antes negado, fica afastada a multa do Art. 477, § 8º, por existir controvérsia prévia."
+        "text": "Reconhecida em juízo a nulidade de justa causa ou o vínculo de emprego antes negado, fica afastada a multa, por existir controvérsia prévia. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "D",
-        "text": "A Fazenda Pública (União, Estados e Municípios) submete-se normalmente à multa de 50% do Art. 467 da CLT."
+        "text": "A Fazenda Pública (União, Estados e Municípios) submete-se normalmente à multa de 50%, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       }
     ],
     "correctAnswer": "A",
@@ -3308,15 +3308,15 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O contrato de trabalho do atleta profissional pode ser celebrado por prazo indeterminado."
+        "text": "O contrato de trabalho do atleta profissional pode ser celebrado por prazo indeterminado, com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período."
       },
       {
         "letter": "C",
-        "text": "O jogador profissional de futebol possui direito ao pagamento de aviso prévio se o contrato a termo terminar regularmente."
+        "text": "O jogador profissional de futebol possui direito ao pagamento de aviso prévio se o contrato a termo terminar regularmente, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "D",
-        "text": "O Direito de Arena (parcela de 5% da receita proveniente da exploração dos direitos desportivos audiovisuais repassada via sindicato aos atletas participantes do espetáculo) possui NATUREZA CIVIL (não salarial — Art. 42, § 1º, Lei 9.615/98 e Art. 160 Lei 14.597/2023, não refletindo em férias/13º/FGTS!); e o Direito de Imagem contratado civilmente também tem natureza civil (desde que limitado legalmente — até 50% da remuneração total pela Lei Geral do Esporte, antiga trava de 40% na Lei Pelé — e não usado como fraude para dissimular salário)!"
+        "text": "O Direito de Arena possui natureza civil; e o Direito de Imagem contratado civilmente também tem natureza civil."
       }
     ],
     "correctAnswer": "D",
@@ -3359,19 +3359,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A jornada de 12x36 horas em atividades insalubres exige sempre autorização prévia do Ministério do Trabalho sob pena de nulidade."
+        "text": "A jornada de 12x36 horas em atividades insalubres exige sempre autorização prévia do Ministério do Trabalho sob pena de nulidade, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "B",
-        "text": "A empregada gestante pode trabalhar normalmente em atividades insalubres em grau mínimo ou médio sem afastamento, desde que a empresa forneça EPI."
+        "text": "A empregada gestante pode trabalhar normalmente em atividades insalubres em grau mínimo ou médio sem afastamento, desde que a empresa forneça epi, com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "C",
-        "text": "O acordo individual escrito substitui a licença do MTE para prorrogação de jornada em ambiente insalubre fora do regime 12x36."
+        "text": "O acordo individual escrito substitui a licença do mte para prorrogação de jornada em ambiente insalubre fora do regime 12x36, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "D",
-        "text": "A jornada 12x36 em ambiente insalubre DISPENSA licença prévia das autoridades competentes do Ministério do Trabalho por autorização expressa do Art. 60, parágrafo único, da CLT (inserido pela Reforma Trabalhista — validado inclusive pelo STF na ADI 5994!); JÁ na jornada ordinária em atividades insalubres, quaisquer prorrogações (inclusive compensação de jornada comum!) só podem ser acordadas mediante LICENÇA PRÉVIA das autoridades competentes (Art. 60, caput, CLT), ou mediante CONVENÇÃO OU ACORDO COLETIVO DE TRABALHO (Art. 611-A, XIII, CLT — jamais por mero acordo individual)!"
+        "text": "A jornada 12x36 em ambiente insalubre dispensa licença prévia das autoridades competentes do Ministério do Trabalho por autorização expressa; já na jornada ordinária em atividades insalubres, quaisquer prorrogações só podem ser acordadas mediante licença prévia das autoridades competentes, ou mediante convenção ou acordo coletivo de trabalho."
       }
     ],
     "correctAnswer": "D",
@@ -3415,19 +3415,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Desobedecer à ordem direta do chefe caracteriza indisciplina, e violar regra geral do regulamento interno caracteriza insubordinação."
+        "text": "Desobedecer à ordem direta do chefe caracteriza indisciplina, e violar regra geral do regulamento interno caracteriza insubordinação, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "B",
-        "text": "Para aplicar justa causa por ato grave de improbidade (furto comprovado), o empregador deve obrigatoriamente aplicar antes advertência e suspensão."
+        "text": "Para aplicar justa causa por ato grave de improbidade (furto comprovado), o empregador deve obrigatoriamente aplicar antes advertência e suspensão, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "C",
-        "text": "O empregador pode aplicar suspensão disciplinar superior a 30 dias consecutivos sem rescindir o contrato."
+        "text": "O empregador pode aplicar suspensão disciplinar superior a 30 dias consecutivos sem rescindir o contrato, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "D",
-        "text": "O descumprimento de regra geral/norma impessoal do regulamento da empresa configura INDISCIPLINA, enquanto a desobediência à ordem direta e pessoal do superior hierárquico configura INSUBORDINAÇÃO (ambas no Art. 482, \"h\", CLT); já o ato desonesto que atenta contra o patrimônio (furto, fraude de ponto/atestados) configura IMPROBIDADE (\"a\"), e a repetição de faltas leves/negligência/atrasos reiterados caracteriza DESÍDIA (\"e\")!"
+        "text": "O descumprimento de regra geral/norma impessoal do regulamento da empresa configura indisciplina, enquanto a desobediência à ordem direta e pessoal do superior hierárquico configura insubordinação."
       }
     ],
     "correctAnswer": "D",
@@ -3470,19 +3470,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Bastam 15 dias consecutivos de faltas injustificadas para presumir automaticamente o abandono de emprego pela Súmula 32 do TST."
+        "text": "Bastam 15 dias consecutivos de faltas injustificadas para presumir automaticamente o abandono de emprego, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "A embriaguez habitual decorrente de dependência química alcoólica crônica autoriza justa causa imediata sem encaminhamento previdenciário."
+        "text": "A embriaguez habitual decorrente de dependência química alcoólica crônica autoriza justa causa imediata sem encaminhamento previdenciário, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "C",
-        "text": "Na condenação criminal com pena privativa de liberdade em regime aberto ou com sursis, o empregador pode dispensar por justa causa com base no Art. 482, \"d\"."
+        "text": "Na condenação criminal com pena privativa de liberdade em regime aberto ou com sursis, o empregador pode dispensar por justa causa, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "D",
-        "text": "Pela Súmula 32 do TST, presume-se o ABANDONO DE EMPREGO (Art. 482, \"i\", CLT) se o trabalhador não retornar ao serviço no prazo de 30 DIAS após a cessação do benefício previdenciário nem justificar o motivo de não o fazer (exigindo ânimo de abandonar + ausência prolongada > 30d); quanto à embriaguez habitual (Art. 482, \"f\"), a jurisprudência consolidada do TST entende que o alcoolismo crônico é DOENÇA (CID-10 F10.2), devendo o empregado ser encaminhado ao INSS/tratamento médico em vez de sofrer justa causa imediata (diferente da embriaguez em serviço eventual/episódica)!"
+        "text": "Presume-se o abandono de emprego se o trabalhador não retornar ao serviço no prazo de 30 dias após a cessação do benefício previdenciário nem justificar o motivo de não o fazer; quanto à embriaguez habitual, a jurisprudência consolidada do TST entende que o alcoolismo crônico é doença (cid-10 F10.2), devendo o empregado ser encaminhado ao INSS/tratamento médico em vez de sofrer justa causa imediata."
       }
     ],
     "correctAnswer": "D",
@@ -3526,19 +3526,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Em caso de fato do príncipe (Art. 486 CLT), a pessoa jurídica de direito público responde integralmente por todas as verbas rescisórias, inclusive saldo de salário, férias e 13º."
+        "text": "Em caso de fato do príncipe, a pessoa jurídica de direito público responde integralmente por todas as verbas rescisórias, inclusive saldo de salário, férias e 13º."
       },
       {
         "letter": "B",
-        "text": "Na força maior que leva à extinção da empresa, o empregador fica isento de pagar qualquer multa sobre o FGTS."
+        "text": "Na força maior que leva à extinção da empresa, o empregador fica isento de pagar qualquer multa sobre o FGTS, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "C",
-        "text": "A crise econômica financeira decorrente de má gestão ou retração de mercado configura força maior trabalhista para reduzir a multa do FGTS à metade."
+        "text": "A crise econômica financeira decorrente de má gestão ou retração de mercado configura força maior trabalhista para reduzir a multa do FGTS à metade, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "D",
-        "text": "No FATO DO PRÍNCIPE (factum principis — Art. 486 CLT: paralisação temporária ou definitiva do trabalho motivada por ato de autoridade municipal, estadual ou federal, ou promulgação de lei que impossibilite a continuação da atividade), prevalece o pagamento normal das verbas pelo empregador, MAS a INDENIZAÇÃO (multa do FGTS) ficará a cargo do GOVERNO responsável pelo ato (chamado ao processo na JT em defesa no prazo do § 1º)! Já na FORÇA MAIOR que extingue a empresa/estabelecimento (Arts. 501–502 CLT), a multa indenizatória do FGTS cai pela METADE (20% em vez de 40%)!"
+        "text": "No fato do príncipe, prevalece o pagamento normal das verbas pelo empregador, mas a indenização (multa do FGTS) ficará a cargo do governo responsável pelo ato."
       }
     ],
     "correctAnswer": "D",
@@ -3581,7 +3581,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O empregador pode reconsiderar unilateralmente o aviso prévio antes de expirado o prazo, obrigando o empregado a retornar ao trabalho."
+        "text": "O empregador pode reconsiderar unilateralmente o aviso prévio antes de expirado o prazo, obrigando o empregado a retornar ao trabalho, com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período."
       },
       {
         "letter": "B",
@@ -3593,7 +3593,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O \"aviso prévio cumprido em casa\" equivale ao aviso prévio INDENIZADO, obrigando o empregador a quitar as verbas rescisórias no prazo de 10 DIAS da notificação da dispensa (OJ 14 da SDI-1 do TST e Art. 477, § 6º, CLT — hoje unificado em 10 dias do término do contrato para ambos!); e se durante o aviso prévio o empregado cometer qualquer falta grave (salvo abandono de emprego!), o empregador pode converter a dispensa em JUSTA CAUSA (Súmula 73 TST), perdendo o empregado o direito ao restante do aviso prévio e às indenizações rescisórias (multa 40%, 13º e férias proporcionais)!"
+        "text": "O \"aviso prévio cumprido em casa\" equivale ao aviso prévio indenizado, obrigando o empregador a quitar as verbas rescisórias no prazo de 10 dias da notificação da dispensa."
       }
     ],
     "correctAnswer": "D",
@@ -3637,19 +3637,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A obrigatoriedade de preenchimento de cota PcD aplica-se a qualquer empresa com mais de 20 empregados."
+        "text": "A obrigatoriedade de preenchimento de cota PcD aplica-se a qualquer empresa com mais de 20 empregados, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "B",
-        "text": "Mesmo que a empresa mantenha a cota global cumprida ou não, pode demitir empregado PcD imotivadamente sem contratar substituto semelhante."
+        "text": "Mesmo que a empresa mantenha a cota global cumprida ou não, pode demitir empregado PcD imotivadamente sem contratar substituto semelhante, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "C",
-        "text": "O empregado com deficiência que seja demitido por justa causa grave também depende de contratação prévia de outro PcD antes da rescisão."
+        "text": "O empregado com deficiência que seja demitido por justa causa grave também depende de contratação prévia de outro PcD antes da rescisão, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "D",
-        "text": "NÃO! Pelo Art. 93, § 1º, da Lei nº 8.213/1991, a dispensa de pessoa com deficiência ou de beneficiário reabilitado da Previdência Social ao final de contrato por prazo determinado de mais de 90 dias e a dispensa imotivada em contrato por prazo indeterminado SOMENTE poderão ocorrer após a contratação de outro trabalhador com deficiência ou beneficiário reabilitado do INSS (em empresa com >= 100 empregados, nas cotas de 2% a 5%) — sob pena de nulidade da dispensa e REINTEGRAÇÃO (salvo comprovação de esforços frustrados de recrutamento segundo a SDI-1 TST)!"
+        "text": "Não. a dispensa de pessoa com deficiência ou de beneficiário reabilitado da Previdência Social ao final de contrato por prazo determinado de mais de 90 dias e a dispensa imotivada em contrato por prazo indeterminado somente poderão ocorrer após a contratação de outro trabalhador com deficiência ou beneficiário reabilitado do INSS."
       }
     ],
     "correctAnswer": "D",
@@ -3692,19 +3692,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Todo empregado de categoria profissional diferenciada (motorista, secretária, técnico de segurança) aplica automaticamente a CCT de seu sindicato mesmo sem participação da empresa."
+        "text": "Todo empregado de categoria profissional diferenciada (motorista, secretária, técnico de segurança) aplica automaticamente a CCT de seu sindicato mesmo sem participação da empresa. Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos."
       },
       {
         "letter": "B",
-        "text": "O enquadramento sindical do empregado comum é definido pela função individual que ele exerce dentro da empresa, e não pela atividade econômica do empregador."
+        "text": "O enquadramento sindical do empregado comum é definido pela função individual que ele exerce dentro da empresa, e não pela atividade econômica do empregador, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "C",
-        "text": "A contribuição sindical obrigatória anual voltou a ser compulsória para todos os trabalhadores em decorrência do Tema 935 do STF."
+        "text": "A contribuição sindical obrigatória anual voltou a ser compulsória para todos os trabalhadores em decorrência do Tema 935 do STF, com autorização de compensação e flexibilização da jornada sem negociação sindical prévia."
       },
       {
         "letter": "D",
-        "text": "NÃO! Pela Súmula 374 do TST, o empregado integrante de CATEGORIA PROFISSIONAL DIFERENCIADA NÃO tem o direito de haver de seu empregador vantagens previstas em instrumento coletivo no qual a empresa NÃO foi representada por órgão de classe de sua categoria! Quanto aos demais empregados da empresa, o enquadramento sindical define-se pela atividade econômica PREPONDERANTE do empregador (Art. 581, § 2º, CLT)!"
+        "text": "Não. o empregado integrante de categoria profissional diferenciada não tem o direito de haver de seu empregador vantagens previstas em instrumento coletivo no qual a empresa não foi representada por órgão de classe de sua categoria."
       }
     ],
     "correctAnswer": "D",
@@ -3748,19 +3748,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O prazo de aviso prévio de greve em serviços essenciais é de 48 horas, igual ao das demais categorias privadas."
+        "text": "O prazo de aviso prévio de greve em serviços essenciais é de 48 horas, igual ao das demais categorias privadas, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "B",
-        "text": "A ação possessória (interdito proibitório) proposta pelo empregador privado durante greve para proteger a posse da fábrica é de competência da Justiça Comum Estadual."
+        "text": "A ação possessória (interdito proibitório) proposta pelo empregador privado durante greve para proteger a posse da fábrica é de competência da Justiça Comum Estadual, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "C",
-        "text": "Durante greve legítima, o empregador pode contratar imediatamente trabalhadores substitutos para ocupar o lugar dos grevistas desde o primeiro dia."
+        "text": "Durante greve legítima, o empregador pode contratar imediatamente trabalhadores substitutos para ocupar o lugar dos grevistas desde o primeiro dia, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "D",
-        "text": "A greve é ABUSIVA porque em serviços ou atividades ESSENCIAIS (Art. 10) a comunicação prévia aos empregadores e aos usuários deve ocorrer com antecedência mínima de 72 HORAS (Art. 13 — diferente das 48h das atividades comuns!), além da manutenção obrigatória dos serviços indispensáveis às necessidades inadiáveis da comunidade (Art. 11) e vedação de bloqueio/violência ao livre acesso (Art. 6º, §§ 1º e 3º); e pela Súmula Vinculante nº 23 do STF, a JUSTIÇA DO TRABALHO é competente para processar e julgar ação possessória (interdito proibitório) ajuizada em decorrência do exercício do direito de greve pelos trabalhadores da iniciativa privada!"
+        "text": "A greve é abusiva porque em serviços ou atividades essenciais a comunicação prévia aos empregadores e aos usuários deve ocorrer com antecedência mínima de 72 horas, além da manutenção obrigatória dos serviços indispensáveis às necessidades inadiáveis da comunidade e vedação de bloqueio/violência ao livre acesso."
       }
     ],
     "correctAnswer": "D",
@@ -3804,19 +3804,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pela Súmula 277 do TST ainda vigente, as cláusulas benéficas de convenção coletiva integram definitivamente os contratos individuais até nova CCT."
+        "text": "Pela Súmula 277 do TST ainda vigente, as cláusulas benéficas de convenção coletiva integram definitivamente os contratos individuais até nova CCT, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "O prazo máximo de duração de uma convenção ou acordo coletivo de trabalho é de 4 anos."
+        "text": "O prazo máximo de duração de uma convenção ou acordo coletivo de trabalho é de 4 anos, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "C",
-        "text": "Pelo STF no Tema 1046, qualquer norma coletiva pode suprimir integralmente o pagamento de FGTS, 13º salário, férias e normas de medicina e segurança do trabalho."
+        "text": "Pelo STF no Tema 1046, qualquer norma coletiva pode suprimir integralmente o pagamento de FGTS, 13º salário, férias e normas de medicina e segurança do trabalho. A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais."
       },
       {
         "letter": "D",
-        "text": "As cláusulas da CCT expirada NÃO permanecem vigentes! O Art. 614, § 3º, da CLT proíbe expressamente a ULTRATIVIDADE (prazo máximo de vigência de ACT/CCT = 2 anos), e o STF na ADPF 323 julgou INCONSTITUCIONAL a Súmula 277 do TST, afastando qualquer prorrogação automática após o fim da vigência! Já a redução do intervalo intrajornada para 40 minutos por CCT é plenamente VÁLIDA (Art. 611-A, III, CLT — mínimo 30 min — e STF Tema 1046, que valida negociação coletiva que limita/afasta direitos trabalhistas não absolutamente indisponíveis mesmo sem contrapartida explícita individual)!"
+        "text": "As cláusulas da CCT expirada não permanecem vigentes. a legislação aplicável proíbe expressamente a ultratividade, e o STF na ADPF 323 julgou inconstitucional a Súmula 277 do TST, afastando qualquer prorrogação automática após o fim da vigência. Já a redução do intervalo intrajornada para 40 minutos por CCT é plenamente válida."
       }
     ],
     "correctAnswer": "D",
@@ -3860,19 +3860,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A submissão da demanda à Comissão de Conciliação Prévia é pressuposto processual obrigatório de admissibilidade da reclamação trabalhista onde houver CCP."
+        "text": "A submissão da demanda à Comissão de Conciliação Prévia é pressuposto processual obrigatório de admissibilidade da reclamação trabalhista onde houver ccp, com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas."
       },
       {
         "letter": "B",
-        "text": "O Termo de Quitação Anual do Art. 507-B da CLT pode ser validamente homologado apenas entre empregador e empregado na empresa sem assistência sindical."
+        "text": "O Termo de Quitação Anual pode ser validamente homologado apenas entre empregador e empregado na empresa sem assistência sindical, com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "C",
-        "text": "A reclamação trabalhista pode ser ajuizada DIRETAMENTE na Justiça do Trabalho! O STF (ADIs 2139 e 2160) conferiu interpretação conforme ao Art. 625-D da CLT tornando FACULTATIVA (não obrigatória) a passagem prévia pela CCP (garantia da inafastabilidade da jurisdição)! Quanto ao Termo de Quitação Anual (Art. 507-B CLT), é facultado na vigência ou não do contrato firmar termo perante o SINDICATO DOS EMPREGADOS da categoria discriminando as obrigações de dar e fazer cumpridas mensalmente, com eficácia liberatória das parcelas nele especificadas!"
+        "text": "A reclamação trabalhista pode ser ajuizada diretamente na Justiça do Trabalho. O STF (ADIs 2139 e 2160) conferiu interpretação conforme ao Art. 625-D da CLT tornando facultativa (não obrigatória) a passagem prévia pela ccp. Quanto ao Termo de Quitação Anual, é facultado na vigência ou não do contrato firmar termo perante o sindicato dos empregados da categoria discriminando as obrigações de dar e fazer cumpridas mensalmente, com eficácia liberatória das parcelas nele especificadas."
       },
       {
         "letter": "D",
-        "text": "O termo de conciliação firmado na CCP possui eficácia liberatória parcial e nunca constitui título executivo."
+        "text": "O termo de conciliação firmado na ccp possui eficácia liberatória parcial e nunca constitui título executivo, sem integração na base de cálculo das demais parcelas contratuais e rescisórias devidas."
       }
     ],
     "correctAnswer": "C",
@@ -3916,19 +3916,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A empregada lactante tem direito a apenas 1 intervalo diário de 30 minutos até o filho completar 1 ano de idade."
+        "text": "A empregada lactante tem direito a apenas 1 intervalo diário de 30 minutos até o filho completar 1 ano de idade, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal."
       },
       {
         "letter": "B",
-        "text": "O intervalo de 15 minutos do Art. 384 da CLT antes das horas extras da mulher continua obrigatório em 2023 e 2024 por decisão do STF no Tema 528."
+        "text": "O intervalo de 15 minutos antes das horas extras da mulher continua obrigatório em 2023 e 2024 por decisão do STF no Tema 528, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "C",
-        "text": "Para amamentar o filho (inclusive advindo de adoção!), até que complete 6 MESES de idade (prorrogável se exigir a saúde do filho), a mulher tem direito, durante a jornada de trabalho, a 2 (dois) descansos especiais de MEIA HORA (30 minutos) CADA UM, cujos horários são definidos em acordo individual entre a mulher e o empregador (Art. 396, §§ 1º e 2º, CLT)! Já o intervalo de 15 minutos antes das horas extras (antigo Art. 384 CLT) foi REVOGADO pela Reforma Trabalhista (11/11/2017) — o STF no RE 658.312 (Tema 528) manteve a constitucionalidade do Art. 384 APENAS para contratos/períodos anteriores à revogação pela Lei 13.467/2017!"
+        "text": "Para amamentar o filho, até que complete 6 meses de idade, a mulher tem direito, durante a jornada de trabalho, a 2 (dois) descansos especiais de meia hora (30 minutos) cada um, cujos horários são definidos em acordo individual entre a mulher e o empregador."
       },
       {
         "letter": "D",
-        "text": "O empregador pode exigir da empregada mulher força muscular contínua de até 40 quilos e trabalho eventual de até 50 quilos."
+        "text": "O empregador pode exigir da empregada mulher força muscular contínua de até 40 quilos e trabalho eventual de até 50 quilos, com autorização de compensação e flexibilização da jornada sem negociação sindical prévia."
       }
     ],
     "correctAnswer": "C",
@@ -3972,19 +3972,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O intervalo de recuperação térmica de 20 minutos a cada 1h40 não é computado na jornada nem remunerado como trabalho efetivo."
+        "text": "O intervalo de recuperação térmica de 20 minutos a cada 1h40 não é computado na jornada nem remunerado como trabalho efetivo, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "B",
-        "text": "A Súmula 438 do TST restringiu o direito à pausa do Art. 253 exclusivamente ao empregado que labora trancado dentro da câmara frigorífica fechada."
+        "text": "A Súmula 438 do TST restringiu o direito à pausa exclusivamente ao empregado que labora trancado dentro da câmara frigorífica fechada, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 253 da CLT e Súmula 438 do TST, os empregados que trabalham no interior de câmaras frigoríficas ou movimentam mercadorias de ambiente quente/normal para frio e vice-versa têm direito a uma PAUSA DE 20 MINUTOS DE REPOUSO A CADA 1 HORA E 40 MINUTOS de trabalho contínuo — computado esse intervalo como de TRABALHO EFETIVO para todos os efeitos (incluindo quem trabalha em ambiente artificialmente frio fora da câmara propriamente dita — Súmula 438 TST)!"
+        "text": "Pelo Art. 253 da CLT e Súmula 438 do TST, os empregados que trabalham no interior de câmaras frigoríficas ou movimentam mercadorias de ambiente quente/normal para frio e vice-versa têm direito a uma pausa de 20 minutos de repouso a cada 1 hora e 40 minutos de trabalho contínuo."
       },
       {
         "letter": "D",
-        "text": "Os digitadores e operadores de telemarketing possuem exatamente o mesmo intervalo de 20 minutos a cada 1h40."
+        "text": "Os digitadores e operadores de telemarketing possuem exatamente o mesmo intervalo de 20 minutos a cada 1h40, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       }
     ],
     "correctAnswer": "C",
@@ -4028,19 +4028,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A ação declaratória de vínculo de emprego para fins de prova junto à Previdência Social prescreve em 2 anos após o término do contrato."
+        "text": "A ação declaratória de vínculo de emprego para fins de prova junto à Previdência Social prescreve em 2 anos após o término do contrato, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "B",
-        "text": "A prescrição intercorrente na execução trabalhista é de 5 anos e nunca pode ser pronunciada de ofício pelo juiz."
+        "text": "A prescrição intercorrente na execução trabalhista é de 5 anos e nunca pode ser pronunciada de ofício pelo juiz, sem integração na base de cálculo das demais parcelas contratuais e rescisórias devidas. Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos."
       },
       {
         "letter": "C",
-        "text": "A pretensão meramente DECLARATÓRIA de vínculo empregatício (para fins de anotação na CTPS/INSS) é IMPRESCRITÍVEL (Art. 11, § 1º, CLT); porém, a cobrança condenatória das diferenças de horas extras está PRESCRITA (passaram mais de 2 anos da extinção do contrato — Art. 7º, XXIX, CF); e na execução, após a Reforma Trabalhista (Art. 11-A CLT), ocorre a PRESCRIÇÃO INTERCORRENTE no prazo de 2 ANOS quando o exequente deixa de cumprir determinação judicial no curso da execução (podendo ser declarada inclusive DE OFÍCIO em qualquer grau de jurisdição — superando a Súmula 114 do TST)!"
+        "text": "A pretensão meramente declaratória de vínculo empregatício é imprescritível; porém, a cobrança condenatória das diferenças de horas extras está prescrita; e na execução, após a Reforma Trabalhista, ocorre a prescrição intercorrente no prazo de 2 anos quando o exequente deixa de cumprir determinação judicial no curso da execução."
       },
       {
         "letter": "D",
-        "text": "No protesto interruptivo de prescrição ou em demanda trabalhista arquivada por ausência do reclamante, a interrupção só alcança os pedidos expressamente idênticos e pode ocorrer ilimitadas vezes."
+        "text": "No protesto interruptivo de prescrição ou em demanda trabalhista arquivada por ausência do reclamante, a interrupção só alcança os pedidos expressamente idênticos e pode ocorrer ilimitadas vezes, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       }
     ],
     "correctAnswer": "C",
@@ -4084,15 +4084,15 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Trabalhar 7 dias consecutivos e folgar apenas no 8º dia é válido desde que o empregador conceda duas folgas na semana seguinte."
+        "text": "Trabalhar 7 dias consecutivos e folgar apenas no 8º dia é válido desde que o empregador conceda duas folgas na semana seguinte, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "B",
-        "text": "O trabalho prestado em feriado nacional não compensado enseja adicional de apenas 50% (igual a hora extra comum)."
+        "text": "O trabalho prestado em feriado nacional não compensado enseja adicional de apenas 50% (igual a hora extra comum), em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais."
       },
       {
         "letter": "C",
-        "text": "Pela Súmula 146 do TST, o trabalho prestado em domingos e feriados NÃO compensado deve ser pago EM DOBRO (+100% sobre o dia normal), sem prejuízo da remuneração relativa ao repouso semanal; além disso, pela OJ 410 da SDI-1 do TST, viola o Art. 7º, XV, da CF a concessão de repouso semanal remunerado após o sétimo dia consecutivo de trabalho, importando no seu pagamento EM DOBRO; e no comércio em geral (Art. 6º, parágrafo único, Lei 10.101/2000), o repouso semanal remunerado deverá coincidir, pelo menos UMA VEZ no período máximo de TRÊS semanas, com o domingo (para trabalho da mulher em geral, Art. 386 CLT / STF reconheceu escala quinzenal — a cada 2 semanas — ou conforme setor!)."
+        "text": "O trabalho prestado em domingos e feriados não compensado deve ser pago em dobro, sem prejuízo da remuneração relativa ao repouso semanal."
       },
       {
         "letter": "D",
@@ -4140,7 +4140,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Qualquer tarefa acessória atribuída ao empregado além da descrição estrita de seu cargo gera automaticamente adicional salarial de 40% por acúmulo de função."
+        "text": "Qualquer tarefa acessória atribuída ao empregado além da descrição estrita de seu cargo gera automaticamente adicional salarial de 40% por acúmulo de função, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "B",
@@ -4148,11 +4148,11 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Pelo Art. 456, parágrafo único, da CLT, à falta de prova ou inexistindo cláusula expressa a tal respeito, entender-se-á que o empregado se obrigou a TODO E QUALQUER SERVIÇO COMPATÍVEL COM A SUA CONDIÇÃO PESSOAL (logo, pequenas tarefas correlatas na mesma jornada NÃO geram acúmulo de função nem adicional salarial — só há acúmulo ou desvio quando exigidas tarefas totalmente alheias/mais complexas que rompem o equilíbrio contratual!); já a exigência habitual de jornadas exaustivas que anulam o convívio familiar, descanso e lazer do trabalhador configura DANO EXISTENCIAL (embora a jurisprudência do TST exija demonstração do prejuízo concreto ao projeto de vida/convívio, não bastando mero inadimplemento eventual de horas extras)!"
+        "text": "À falta de prova ou inexistindo cláusula expressa a tal respeito, entender-se-á que o empregado se obrigou a todo e qualquer serviço compatível com a sua condição pessoal."
       },
       {
         "letter": "D",
-        "text": "O mero descumprimento pontual de horas extras ou atraso salarial de 5 dias gera automaticamente dano existencial in re ipsa."
+        "text": "O mero descumprimento pontual de horas extras ou atraso salarial de 5 dias gera automaticamente dano existencial in re ipsa, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       }
     ],
     "correctAnswer": "C",
@@ -4195,15 +4195,15 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A parcela \"quebra de caixa\" tem natureza meramente indenizatória e nunca integra o salário para cálculo de férias, 13º e FGTS."
+        "text": "A parcela \"quebra de caixa\" tem natureza meramente indenizatória e nunca integra o salário para cálculo de férias, 13º e FGTS, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "B",
-        "text": "O empregador pode descontar até 10% do salário do empregado para custear o vale-transporte fornecido."
+        "text": "O empregador pode descontar até 10% do salário do empregado para custear o vale-transporte fornecido, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal."
       },
       {
         "letter": "C",
-        "text": "A parcela \"quebra de caixa\" paga habitualmente tem NATUREZA SALARIAL e integra a remuneração do empregado para todos os efeitos (Súmula 247 TST); o vale-transporte custeado pelo empregado limita-se ao máximo de 6% de seu salário básico/vencimento (Art. 4º, parágrafo único, Lei 7.418/85 — o empregador arca com o excedente, e o benefício tem natureza NÃO salarial); e na dispensa POR JUSTA CAUSA, o empregado PERDE o direito ao 13º salário proporcional do ano (Art. 3º da Lei 4.090/62 — devendo inclusive devolver/compensar eventual 1ª parcela adiantada no TRCT até o limite de 1 mês de remuneração)!"
+        "text": "A parcela \"quebra de caixa\" paga habitualmente tem natureza salarial e integra a remuneração do empregado para todos os efeitos."
       },
       {
         "letter": "D",
@@ -4251,19 +4251,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Administração Pública responde objetiva e automaticamente de forma subsidiária pelo simples inadimplemento das verbas trabalhistas pela empresa terceirizada."
+        "text": "A Administração Pública responde objetiva e automaticamente de forma subsidiária pelo simples inadimplemento das verbas trabalhistas pela empresa terceirizada, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "B",
-        "text": "O trabalhador avulso portuário não tem direito a férias nem a 13º salário nem a FGTS por não possuir vínculo de emprego."
+        "text": "O trabalhador avulso portuário não tem direito a férias nem a 13º salário nem a FGTS por não possuir vínculo de emprego, com nulidade absoluta de qualquer estipulação voltada a reduzir patamares protetivos básicos."
       },
       {
         "letter": "C",
-        "text": "A Constituição garante IGUALDADE DE DIREITOS entre o trabalhador com vínculo empregatício permanente e o trabalhador avulso (Art. 7º, XXXIV, CF), respondendo o OGMO solidariamente com o operador portuário pela remuneração devida (Art. 33, § 2º, Lei 12.815/13); já na terceirização pela Administração Pública (Art. 71, § 1º, Lei 8.666/93 e Art. 121, § 2º, Lei 14.133/2021 c/c Súmula 331, V, TST e STF Tema 246), o inadimplemento da contratada NÃO transfere automaticamente a responsabilidade ao ente público — a responsabilidade subsidiária do ente público exige comprovação de CULPA IN VIGILANDO (omissão na fiscalização do contrato)!"
+        "text": "A Constituição garante igualdade de direitos entre o trabalhador com vínculo empregatício permanente e o trabalhador avulso, respondendo o ogmo solidariamente com o operador portuário pela remuneração devida."
       },
       {
         "letter": "D",
-        "text": "Nas cooperativas de trabalho reguladas pela Lei nº 12.690/2012, os sócios cooperados estão sujeitos à subordinação hierárquica da tomadora como regra lícita."
+        "text": "Nas cooperativas de trabalho reguladas pela Lei nº 12.690/2012, os sócios cooperados estão sujeitos à subordinação hierárquica da tomadora como regra lícita, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       }
     ],
     "correctAnswer": "C",
@@ -4307,19 +4307,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O lay-off (Art. 476-A CLT) pode ser imposto unilateralmente pelo empregador por até 12 meses sem negociação coletiva."
+        "text": "O lay-off pode ser imposto unilateralmente pelo empregador por até 12 meses sem negociação coletiva, com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "Durante o lay-off, o empregador continua obrigado a pagar integralmente o salário mensal com FGTS e 13º."
+        "text": "Durante o lay-off, o empregador continua obrigado a pagar integralmente o salário mensal com FGTS e 13º, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "C",
-        "text": "A suspensão do contrato para qualificação profissional (lay-off — Art. 476-A CLT) tem duração de 2 a 5 MESES, exige previsão em CONVENÇÃO OU ACORDO COLETIVO DE TRABALHO, aquiescência FORMAL (expressa) do empregado e notificação ao respectivo sindicato com antecedência mínima de 15 DIAS antes da suspensão! Se o empregado for dispensado durante a suspensão ou nos 3 MESES subsequentes ao retorno, o empregador pagará multa prevista em norma coletiva de no MÍNIMO 100% sobre a última remuneração mensal (além das parcelas rescisórias)!"
+        "text": "A suspensão do contrato para qualificação profissional tem duração de 2 a 5 meses, exige previsão em convenção ou acordo coletivo de trabalho, aquiescência formal (expressa) do empregado e notificação ao respectivo sindicato com antecedência mínima de 15 dias antes da suspensão."
       },
       {
         "letter": "D",
-        "text": "O contrato pode ser suspenso novamente para qualificação profissional do mesmo empregado após 6 meses do término da primeira suspensão."
+        "text": "O contrato pode ser suspenso novamente para qualificação profissional do mesmo empregado após 6 meses do término da primeira suspensão, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       }
     ],
     "correctAnswer": "C",
@@ -4362,19 +4362,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Extinto o estabelecimento onde atua o membro eleito da CIPA, ele conserva o direito pessoal à indenização integral dos salários até 1 ano após o mandato."
+        "text": "Extinto o estabelecimento onde atua o membro eleito da CIPA, ele conserva o direito pessoal à indenização integral dos salários até 1 ano após o mandato, com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal."
       },
       {
         "letter": "B",
-        "text": "Para dispensar membro da CIPA por falta grave, o empregador é obrigado a ajuizar prévio Inquérito para Apuração de Falta Grave."
+        "text": "Para dispensar membro da CIPA por falta grave, o empregador é obrigado a ajuizar prévio Inquérito para Apuração de Falta Grave, observados os princípios da continuidade da relação de emprego e da primazia da realidade."
       },
       {
         "letter": "C",
-        "text": "No primeiro caso a dispensa é NULA (garantia de emprego vai do registro da candidatura até 1 ANO após o final do mandato, e o Art. 165 CLT exige motivo disciplinar, técnico, econômico ou financeiro — ônus de prova do empregador no processo!); já no segundo caso (EXTINÇÃO DO ESTABELECIMENTO onde o cipeiro trabalha), pela Súmula 339, II, do TST, a estabilidade provisória do cipeiro NÃO constitui vantagem pessoal, mas garantia para as atividades dos membros da CIPA, que SOMENTE tem razão de ser quando em atividade a empresa — extinguindo-se o estabelecimento, NÃO se verifica a despedida arbitrária, sendo impossível a reintegração e INDEVIDA a indenização do período estabilitário!"
+        "text": "No primeiro caso a dispensa é nula; já no segundo caso, do TST, a estabilidade provisória do cipeiro não constitui vantagem pessoal, mas garantia para as atividades dos membros da CIPA, que somente tem razão de ser quando em atividade a empresa."
       },
       {
         "letter": "D",
-        "text": "Os empregados indicados pelo empregador para compor a CIPA (inclusive o presidente) possuem a mesma estabilidade até 1 ano após o mandato."
+        "text": "Os empregados indicados pelo empregador para compor a CIPA (inclusive o presidente) possuem a mesma estabilidade até 1 ano após o mandato, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "C",
@@ -4418,11 +4418,11 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Mudando-se para o exterior por decisão própria durante o teletrabalho, o contrato passa automaticamente a ser regido exclusivamente pela lei estrangeira local."
+        "text": "Mudando-se para o exterior por decisão própria durante o teletrabalho, o contrato passa automaticamente a ser regido exclusivamente pela lei estrangeira local, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "B",
-        "text": "Pelo Art. 75-B, § 8º, da CLT (inserido pela Lei 14.442/2022), ao contrato de trabalho do empregado admitido no Brasil que optar pela realização de teletrabalho fora do território nacional aplica-se a LEGISLAÇÃO BRASILEIRA (salvo disposição em contrário estipulada entre as partes e observada a Lei nº 7.064/82!); ademais, pelo Art. 75-D, parágrafo único, da CLT, as utilidades/equipamentos e reembolsos de infraestrutura fornecidos ao teletrabalhador NÃO integram a remuneração do empregado!"
+        "text": "Da CLT, ao contrato de trabalho do empregado admitido no Brasil que optar pela realização de teletrabalho fora do território nacional aplica-se a legislação brasileira."
       },
       {
         "letter": "C",
@@ -4430,7 +4430,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A CLT não prevê qualquer critério de preferência na alocação de vagas em teletrabalho."
+        "text": "A CLT não prevê qualquer critério de preferência na alocação de vagas em teletrabalho, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "B",
@@ -4473,19 +4473,19 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A exigência de local apropriado para guarda e amamentação aplica-se somente a empresas com mais de 100 empregados."
+        "text": "A exigência de local apropriado para guarda e amamentação aplica-se somente a empresas com mais de 100 empregados, observados os princípios da continuidade da relação de emprego e da primazia da realidade. Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador."
       },
       {
         "letter": "B",
-        "text": "Nos estabelecimentos em que trabalharem pelo menos 30 MULHERES com mais de 16 anos de idade, é obrigatório ter local apropriado onde seja permitido às empregadas guardar sob vigilância e assistência os seus filhos no período da amamentação (Art. 389, § 1º, CLT — podendo ser suprido por creches mantidas diretamente ou mediante convênios pelo § 2º, ou pelo benefício de REEMBOLSO-CRECHE previsto na Lei nº 14.457/2022 para crianças de até 5 anos e 11 meses sem natureza salarial quando pactuado por ACT/CCT ou acordo individual onde autorizado)!"
+        "text": "Nos estabelecimentos em que trabalharem pelo menos 30 mulheres com mais de 16 anos de idade, é obrigatório ter local apropriado onde seja permitido às empregadas guardar sob vigilância e assistência os seus filhos no período da amamentação."
       },
       {
         "letter": "C",
-        "text": "O reembolso-creche pago regularmente pelo empregador nos termos da Lei nº 14.457/2022 integra o salário para incidência de FGTS e INSS."
+        "text": "O reembolso-creche pago regularmente pelo empregador integra o salário para incidência de FGTS e INSS, em conformidade com o regime jurídico celetista e as garantias sociais constitucionais."
       },
       {
         "letter": "D",
-        "text": "A prorrogação da licença-maternidade (+60 dias = 180d) e da licença-paternidade (+15 dias = 20d) no Programa Empresa Cidadã é obrigatória para todas as empresas tributadas pelo Simples Nacional."
+        "text": "A prorrogação da licença-maternidade (+60 dias = 180d) e da licença-paternidade (+15 dias = 20d) no Programa Empresa Cidadã é obrigatória para todas as empresas tributadas pelo Simples Nacional, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       }
     ],
     "correctAnswer": "B",
@@ -4528,11 +4528,11 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Justiça do Trabalho julga as ações de servidores públicos estatutários contra a Administração Pública."
+        "text": "A Justiça do Trabalho julga as ações de servidores públicos estatutários contra a Administração Pública, com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários."
       },
       {
         "letter": "B",
-        "text": "Apenas a ação de indenização por acidente de trabalho proposta pelo empregado contra o empregador pertence à JUSTIÇA DO TRABALHO (Art. 114, VI, CF e Súmula Vinculante nº 22 do STF)! A ação de servidor estatutário pertence à Justiça Comum (STF ADI 3395 — inclusive quanto a contratações temporárias jurídico-administrativas ou cargos comissionados!); e a ação contra entidade fechada de previdência complementar visando complementação de aposentadoria também pertence à JUSTIÇA COMUM (STF RE 586.453 — Tema 190, salvo causas com sentença de mérito anterior a 20/02/2013)!"
+        "text": "Apenas a ação de indenização por acidente de trabalho proposta pelo empregado contra o empregador pertence à justiça do trabalho."
       },
       {
         "letter": "C",
@@ -4584,11 +4584,11 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A proporcionalidade de 3 dias por ano completo aplica-se também em desfavor do empregado quando este pede demissão."
+        "text": "A proporcionalidade de 3 dias por ano completo aplica-se também em desfavor do empregado quando este pede demissão, com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual."
       },
       {
         "letter": "B",
-        "text": "Pela Lei nº 12.506/2011 (nota técnica MTE nº 184/2012 e jurisprudência pacífica do TST): 30 dias no primeiro ano (ou até completar 1 ano) + 3 dias por ano COMPLETO de serviço prestado na mesma empresa até o máximo de +60 dias (teto total = 90 dias para >= 20 anos!). Com 6 anos completos, tem direito a 30 + (6 x 3) = 48 DIAS de aviso prévio! Esse aviso prévio projetado INTEGRA o tempo de serviço para todos os efeitos legais (férias, 13º, multa e depósitos do FGTS — Art. 487, § 1º, CLT, OJ 82 SDI-1 e Súmula 305 TST)!"
+        "text": "30 dias no primeiro ano + 3 dias por ano completo de serviço prestado na mesma empresa até o máximo de +60 dias."
       },
       {
         "letter": "C",
@@ -4596,7 +4596,7 @@ export const TRABALHO_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "Sobre o aviso prévio indenizado não incide FGTS nem projeção na CTPS."
+        "text": "Sobre o aviso prévio indenizado não incide FGTS nem projeção na CTPS, com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária."
       }
     ],
     "correctAnswer": "B",

@@ -17,11 +17,11 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A CF/88 é classificada como semirrígida ou flexível porque parte de suas normas pode ser modificada por lei complementar."
+        "text": "A CF/88 é classificada como semirrígida ou flexível porque parte de suas normas pode ser modificada por lei complementar. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "O Poder Constituinte Derivado Reformador é ilimitado e incondicionado, não sofrendo restrições materiais nem circunstanciais."
+        "text": "O Poder Constituinte Derivado Reformador é ilimitado e incondicionado, não sofrendo restrições materiais nem circunstanciais, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "C",
@@ -29,7 +29,7 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A CF/88 é classificada como promulgada (democrática), escrita, analítica (prolixa), formal, dogmática e rígida (ou super-rígida para parte da doutrina por conta das cláusulas pétreas); o Poder Constituinte Originário é inicial, ilimitado juridicamente, autônomo e incondicionado."
+        "text": "A CF/88 é classificada como promulgada (democrática), escrita, analítica (prolixa), formal, dogmática e rígida."
       }
     ],
     "correctAnswer": "D",
@@ -72,7 +72,7 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas são normas de eficácia limitada porque mencionam expressamente a palavra \"lei\"."
+        "text": "Ambas são normas de eficácia limitada porque mencionam expressamente a palavra \"lei\". Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
@@ -84,7 +84,7 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O Art. 5º, XIII, é norma de eficácia CONTIDA (aplicabilidade direta e imediata, mas passível de restrição posterior pelo legislador infraconstitucional); o Art. 7º, XXVII, é norma de eficácia LIMITADA de princípio programático (dependendo de legislação integrativa para produzir plenos efeitos, embora já tenha eficácia mínima negativa/interpretativa)."
+        "text": "O Art. 5º, XIII, é norma de eficácia contida; o Art. 7º, XXVII, é norma de eficácia limitada de princípio programático."
       }
     ],
     "correctAnswer": "D",
@@ -127,19 +127,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O CTN não foi recepcionado pela CF/88 porque foi editado como lei ordinária em 1966 e a CF/88 exige lei complementar."
+        "text": "O CTN não foi recepcionado pela CF/88 porque foi editado como lei ordinária em 1966 e a CF/88 exige lei complementar. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "No controle concentrado de constitucionalidade pelo STF, a declaração de inconstitucionalidade de lei que revogava lei anterior não gera efeito repristinatório tácito."
+        "text": "No controle concentrado de constitucionalidade pelo STF, a declaração de inconstitucionalidade de lei que revogava lei anterior não gera efeito repristinatório tácito, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "C",
-        "text": "A mutação constitucional exige obrigatoriamente a aprovação de Emenda Constitucional formal pelo Congresso Nacional."
+        "text": "A mutação constitucional exige obrigatoriamente a aprovação de Emenda Constitucional formal pelo Congresso Nacional, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "D",
-        "text": "O CTN foi RECEPCIONADO materialmente pela CF/88 com status de Lei Complementar (pois na recepção analisa-se a compatibilidade MATERIAL com a nova Constituição, irrelevante a forma originária); já a revogação da lei revogadora NÃO restaura automaticamente a lei anterior revogada, salvo disposição expressa (vedação à repristinação tácita — Art. 2º, § 3º, LINDB)."
+        "text": "O CTN foi recepcionado materialmente pela CF/88 com status de Lei Complementar; já a revogação da lei revogadora não restaura automaticamente a lei anterior revogada, salvo disposição expressa."
       }
     ],
     "correctAnswer": "D",
@@ -190,11 +190,11 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Todos os direitos fundamentais listados no Art. 5º possuem caráter absoluto, insuscetíveis de ponderação diante de outros princípios constitucionais."
+        "text": "Todos os direitos fundamentais listados possuem caráter absoluto, insuscetíveis de ponderação diante de outros princípios constitucionais."
       },
       {
         "letter": "D",
-        "text": "Não procede, pois os direitos fundamentais possuem eficácia HORIZONTAL (aplicam-se direta e imediatamente às relações privadas, especialmente quando há assimetria de poder, conforme decidiu o STF no RE 201.819 ao exigir ampla defesa e contraditório na exclusão de sócio da UBC)."
+        "text": "Não procede, pois os direitos fundamentais possuem eficácia horizontal."
       }
     ],
     "correctAnswer": "D",
@@ -238,19 +238,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É válida porque o crime de tráfico de drogas é permanente, legitimando o ingresso policial a qualquer hora independentemente de indícios prévios."
+        "text": "É válida porque o crime de tráfico de drogas é permanente, legitimando o ingresso policial a qualquer hora independentemente de indícios prévios. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "Mesmo com mandado judicial regularmente expedido, a polícia pode cumprir busca e apreensão domiciliar às 22h contra a vontade do morador."
+        "text": "Mesmo com mandado judicial regularmente expedido, a polícia pode cumprir busca e apreensão domiciliar às 22h contra a vontade do morador, com respaldo na autonomia federativa assegurada aos entes políticos para dispor sobre o tema."
       },
       {
         "letter": "C",
-        "text": "O conceito constitucional de \"casa\" abrange apenas a residência familiar permanente, excluindo quartos de hotel ocupados e escritórios profissionais fechados ao público."
+        "text": "O conceito constitucional de \"casa\" abrange apenas a residência familiar permanente, excluindo quartos de hotel ocupados e escritórios profissionais fechados ao público, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "D",
-        "text": "É inválida (ilicitude da prova e de todas as dela derivadas), pois embora o flagrante delito permita ingresso domiciliar inclusive à noite sem mandado, o STF no Tema 280 exige que a entrada forçada em domicílio sem mandado judicial esteja amparada em FUNDADAS RAZÕES devidamente justificadas a posteriori que indiquem situação de flagrante, não bastando denúncia anônima isolada ou atitude suspeita genérica."
+        "text": "É inválida, pois embora o flagrante delito permita ingresso domiciliar inclusive à noite sem mandado, o STF no Tema 280 exige que a entrada forçada em domicílio sem mandado judicial esteja amparada em fundadas razões devidamente justificadas a posteriori que indiquem situação de flagrante, não bastando denúncia anônima isolada ou atitude suspeita genérica."
       }
     ],
     "correctAnswer": "D",
@@ -294,19 +294,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A autoridade policial pode determinar interceptação telefônica urgente por até 48 horas, submetendo posteriormente ao juiz."
+        "text": "A autoridade policial pode determinar interceptação telefônica urgente por até 48 horas, submetendo posteriormente ao juiz, com respaldo na autonomia federativa assegurada aos entes políticos para dispor sobre o tema. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "A proteção de dados pessoais, inclusive nos meios digitais, é mero princípio infraconstitucional da LGPD sem previsão no Art. 5º da Constituição."
+        "text": "A proteção de dados pessoais, inclusive nos meios digitais, é mero princípio infraconstitucional da LGPD sem previsão da Constituição. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "C",
-        "text": "A quebra do sigilo de dados telefônicos (registro de chamadas já ocorridas no aparelho apreendido) prescinde de autorização judicial mesmo sem consentimento."
+        "text": "A quebra do sigilo de dados telefônicos (registro de chamadas já ocorridas no aparelho apreendido) prescinde de autorização judicial mesmo sem consentimento, com vedação à modulação ou relativização de efeitos por ato normativo infralegal superveniente."
       },
       {
         "letter": "D",
-        "text": "Ambas violam a Constituição: a interceptação das comunicações telefônicas exige obrigatoriamente ORDEM JUDICIAL para fins de investigação criminal ou instrução processual penal (Art. 5º, XII); e o direito de reunião pacífica sem armas em locais abertos ao público INDEPENDE DE AUTORIZAÇÃO, exigindo apenas prévio aviso (que segundo o STF no RE 806.339 não precisa sequer ser formal se houver divulgação pública equivalente que permita ao poder público zelar pela segurança)."
+        "text": "Ambas violam a Constituição: a interceptação das comunicações telefônicas exige obrigatoriamente ordem judicial para fins de investigação criminal ou instrução processual penal; e o direito de reunião pacífica sem armas em locais abertos ao público independe de autorização, exigindo apenas prévio aviso."
       }
     ],
     "correctAnswer": "D",
@@ -350,19 +350,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por ter adquirido voluntariamente nacionalidade estrangeira não imposta por norma estrangeira, João perdeu automaticamente a nacionalidade brasileira."
+        "text": "Por ter adquirido voluntariamente nacionalidade estrangeira não imposta por norma estrangeira, João perdeu automaticamente a nacionalidade brasileira, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "B",
-        "text": "O brasileiro naturalizado pode ser extraditado por qualquer crime comum cometido após a naturalização."
+        "text": "O brasileiro naturalizado pode ser extraditado por qualquer crime comum cometido após a naturalização, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários."
       },
       {
         "letter": "C",
-        "text": "É admitida a extradição de estrangeiro por crime político ou de opinião se houver tratado bilateral com o país requerente."
+        "text": "É admitida a extradição de estrangeiro por crime político ou de opinião se houver tratado bilateral com o país requerente, com produção regular de efeitos jurídicos independentemente de regulamentação complementar."
       },
       {
         "letter": "D",
-        "text": "Após a EC nº 131/2023, a aquisição voluntária de outra nacionalidade NÃO gera mais perda automática da nacionalidade brasileira: o brasileiro só perde a nacionalidade por cancelamento da naturalização por fraude/atentado contra a ordem constitucional ou por pedido EXPRESSO de perda perante autoridade brasileira competente (desde que não gere apatridia). Ademais, brasileiro NATO jamais pode ser extraditado (Art. 5º, LI)."
+        "text": "Após a EC nº 131/2023, a aquisição voluntária de outra nacionalidade não gera mais perda automática da nacionalidade brasileira: o brasileiro só perde a nacionalidade por cancelamento da naturalização por fraude/atentado contra a ordem constitucional ou por pedido expresso de perda perante autoridade brasileira competente."
       }
     ],
     "correctAnswer": "D",
@@ -405,19 +405,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O sindicato não pode impetrar MS Coletivo porque possui menos de 1 ano de existência legal."
+        "text": "O sindicato não pode impetrar MS Coletivo porque possui menos de 1 ano de existência legal. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "Para o MS Coletivo impetrado por sindicato ou associação, exige-se autorização expressa em assembleia de cada associado beneficiado (Tema 82 STF)."
+        "text": "Para o MS Coletivo impetrado por sindicato ou associação, exige-se autorização expressa em assembleia de cada associado beneficiado, diante da eficácia imediata e vinculante atribuída à regra constitucional de organização estatal."
       },
       {
         "letter": "C",
-        "text": "Cabe Habeas Data para exigir cópia de processo administrativo sancionador ou certidão negada injustamente por prefeito."
+        "text": "Cabe Habeas Data para exigir cópia de processo administrativo sancionador ou certidão negada injustamente por prefeito, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "D",
-        "text": "O Mandado de Segurança Coletivo pelo SINDICATO é perfeitamente cabível (o requisito de 1 ano de constituição legal exige-se apenas das ASSOCIAÇÕES, não dos partidos políticos nem de sindicatos/entidades de classe, e dispensa autorização expressa — Súmula 629 STF); já o Habeas Data deve ser julgado extinto por falta de interesse de agir, pois exige prévia recusa ou omissão administrativa da autoridade (Súmula 2 STJ)."
+        "text": "O Mandado de Segurança Coletivo pelo sindicato é perfeitamente cabível; já o Habeas Data deve ser julgado extinto por falta de interesse de agir, pois exige prévia recusa ou omissão administrativa da autoridade."
       }
     ],
     "correctAnswer": "D",
@@ -473,7 +473,7 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "A Ação Popular do partido político é inadmissível por ilegitimidade ativa, pois somente o CIDADÃO (pessoa física no pleno gozo dos direitos políticos — Súmula 365 STF) pode propor Ação Popular; já o Mandado de Injunção procede e, pela Lei nº 13.300/2016 (corrente concretista), o Judiciário fixa prazo razoável para o órgão editar a norma ou estabelece diretamente as condições para exercício do direito pelo impetrante."
+        "text": "A Ação Popular do partido político é inadmissível por ilegitimidade ativa, pois somente o cidadão pode propor Ação Popular."
       }
     ],
     "correctAnswer": "D",
@@ -517,7 +517,7 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A idade mínima de 30 anos para Governador e de 21 anos para Prefeito deve ser aferida na data do registro da candidatura."
+        "text": "A idade mínima de 30 anos para Governador e de 21 anos para Prefeito deve ser aferida na data do registro da candidatura, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "B",
@@ -525,7 +525,7 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "O ex-cônjuge divorciado/separado durante o mandato permanece INELEGÍVEL no mesmo território para o mandato subsequente (Súmula Vinculante 18 — a dissolução da sociedade conjugal no curso do mandato não afasta a inelegibilidade reflexa, salvo morte em situações específicas analisadas pelo STF com nuances — atenção: na SV 18 a dissolução do vínculo conjugal no curso do mandato NÃO afasta a inelegibilidade; quanto às idades mínimas: 18 anos basta para Vereador — logo 20 anos pode — mas Governador exige 30 anos completos na data da posse)."
+        "text": "O ex-cônjuge divorciado/separado durante o mandato permanece inelegível no mesmo território para o mandato subsequente."
       },
       {
         "letter": "D",
@@ -573,19 +573,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Estados podem legislar livremente sobre trânsito, telecomunicações e direito do trabalho por via de competência concorrente."
+        "text": "Os Estados podem legislar livremente sobre trânsito, telecomunicações e direito do trabalho por via de competência concorrente, com respaldo na autonomia federativa assegurada aos entes políticos para dispor sobre o tema."
       },
       {
         "letter": "B",
-        "text": "Na competência legislativa concorrente (Art. 24), a superveniência de lei federal sobre normas gerais revoga definitivamente a lei estadual contrária."
+        "text": "Na competência legislativa concorrente, a superveniência de lei federal sobre normas gerais revoga definitivamente a lei estadual contrária, mediante observância formal do devido processo legislativo ordinário aplicável à espécie. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "C",
-        "text": "A lei que proíbe bloqueadores de sinal de celular invade competência PRIVATIVA da União para legislar sobre telecomunicações (Art. 22, IV, CF), sendo formalmente inconstitucional (salvo autorização em Lei Complementar nos termos do parágrafo único); já a lei sobre direito penitenciário insere-se na competência CONCORRENTE (Art. 24, I, CF), podendo o Estado exercer competência suplementar ou plena na falta de lei federal."
+        "text": "A lei que proíbe bloqueadores de sinal de celular invade competência privativa da União para legislar sobre telecomunicações, sendo formalmente inconstitucional; já a lei sobre direito penitenciário insere-se na competência concorrente, podendo o Estado exercer competência suplementar ou plena na falta de lei federal."
       },
       {
         "letter": "D",
-        "text": "Os Municípios integram expressamente o rol do Art. 24 da Constituição como titulares originários da competência legislativa concorrente."
+        "text": "Os Municípios integram expressamente o rol da Constituição como titulares originários da competência legislativa concorrente, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       }
     ],
     "correctAnswer": "C",
@@ -628,19 +628,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O decreto presidencial de intervenção federal por descumprimento de decisão judicial sempre depende de aprovação prévia e posterior pelo Congresso Nacional em 24 horas."
+        "text": "O decreto presidencial de intervenção federal por descumprimento de decisão judicial sempre depende de aprovação prévia e posterior pelo Congresso Nacional em 24 horas, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários."
       },
       {
         "letter": "B",
-        "text": "Contra acórdão de Tribunal de Justiça que julga pedido de intervenção estadual em Município cabe Recurso Extraordinário ao Supremo Tribunal Federal."
+        "text": "Contra acórdão de Tribunal de Justiça que julga pedido de intervenção estadual em Município cabe Recurso Extraordinário ao Supremo Tribunal Federal, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "C",
-        "text": "A intervenção federal por desobediência a ordem ou decisão judicial depende de REQUISIÇÃO do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral (Art. 36, II, CF — logo, o Presidente do TJ local deve encaminhar o pedido ao STF/STJ, não diretamente ao Presidente da República), ficando dispensada a apreciação pelo Congresso Nacional (Art. 36, § 3º)."
+        "text": "A intervenção federal por desobediência a ordem ou decisão judicial depende de requisição do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do Tribunal Superior Eleitoral, ficando dispensada a apreciação pelo Congresso Nacional."
       },
       {
         "letter": "D",
-        "text": "O Presidente da República pode decretar intervenção federal espontânea em Estado para garantir a observância dos princípios constitucionais sensíveis independentemente de provocação do STF."
+        "text": "O Presidente da República pode decretar intervenção federal espontânea em Estado para garantir a observância dos princípios constitucionais sensíveis independentemente de provocação do STF, com produção regular de efeitos jurídicos independentemente de regulamentação complementar."
       }
     ],
     "correctAnswer": "C",
@@ -684,19 +684,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A matéria de PEC rejeitada pode ser reapresentada na mesma sessão legislativa desde que mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso."
+        "text": "A matéria de pec rejeitada pode ser reapresentada na mesma sessão legislativa desde que mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "Medida Provisória tem prazo inicial de vigência de 90 dias, prorrogável por mais 90 dias."
+        "text": "Medida Provisória tem prazo inicial de vigência de 90 dias, prorrogável por mais 90 dias, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "C",
-        "text": "Ambas são inconstitucionais: é vedada a edição de Medida Provisória sobre matéria relativa a nacionalidade, cidadania, direitos políticos, partidos políticos e DIREITO ELEITORAL, bem como sobre DIREITO PENAL, processual penal e processual civil (Art. 62, § 1º, I); e a matéria constante de PEC rejeitada ou havida por prejudicada NÃO pode ser objeto de nova proposta na MESMA sessão legislativa (Art. 60, § 5º — irrepetibilidade absoluta para PECs)."
+        "text": "Ambas são inconstitucionais: é vedada a edição de Medida Provisória sobre matéria relativa a nacionalidade, cidadania, direitos políticos, partidos políticos e direito eleitoral, bem como sobre direito penal, processual penal e processual civil; e a matéria constante de pec rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa."
       },
       {
         "letter": "D",
-        "text": "Emendas Constitucionais precisam ser sancionadas ou vetadas pelo Presidente da República no prazo de 15 dias úteis."
+        "text": "Emendas Constitucionais precisam ser sancionadas ou vetadas pelo Presidente da República no prazo de 15 dias úteis, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       }
     ],
     "correctAnswer": "C",
@@ -743,15 +743,15 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "Uma CPI municipal (Câmara de Vereadores) tem idêntico poder para decretar quebra de sigilo bancário e condução coercitiva de ministros de Estado."
+        "text": "Uma CPI municipal (Câmara de Vereadores) tem idêntico poder para decretar quebra de sigilo bancário e condução coercitiva de ministros de Estado, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "C",
-        "text": "A CPI pode decretar diretamente apenas a quebra de sigilo bancário, fiscal e de dados telefônicos (registros de chamadas passadas), desde que por decisão fundamentada da comissão; NÃO pode decretar interceptação telefônica, busca e apreensão domiciliar nem prisão preventiva (apenas prisão em flagrante), por estarem sob reserva constitucional de jurisdição."
+        "text": "A CPI pode decretar diretamente apenas a quebra de sigilo bancário, fiscal e de dados telefônicos, desde que por decisão fundamentada da comissão."
       },
       {
         "letter": "D",
-        "text": "A testemunha convocada por CPI tem direito constitucional de mentir sobre fatos criminosos de terceiros para não comprometer o partido político."
+        "text": "A testemunha convocada por CPI tem direito constitucional de mentir sobre fatos criminosos de terceiros para não comprometer o partido político, com fundamento na preservação do núcleo essencial da separação funcional dos Poderes."
       }
     ],
     "correctAnswer": "C",
@@ -794,19 +794,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A imunidade material protege qualquer declaração do parlamentar durante todo o mandato, mesmo em disputas estritamente privadas sem relação com a função."
+        "text": "A imunidade material protege qualquer declaração do parlamentar durante todo o mandato, mesmo em disputas estritamente privadas sem relação com a função, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "B",
-        "text": "Recebida denúncia pelo STF contra Deputado por crime ocorrido ANTES da diplomação, a Câmara dos Deputados pode sustar o andamento do processo penal."
+        "text": "Recebida denúncia pelo STF contra Deputado por crime ocorrido antes da diplomação, a Câmara dos Deputados pode sustar o andamento do processo penal, com produção regular de efeitos jurídicos independentemente de regulamentação complementar."
       },
       {
         "letter": "C",
-        "text": "O discurso na tribuna está coberto pela imunidade MATERIAL (inviolabilidade civil e penal por opiniões, palavras e votos no exercício do mandato); a ofensa em briga privada de condomínio sem nexo com o mandato NÃO tem imunidade material; e o Deputado só pode ser preso desde a expedição do diploma em FLAGRANTE DE CRIME INAFIANÇÁVEL (caso em que os autos vão em 24 horas à Câmara para decidir por maioria absoluta sobre a prisão)."
+        "text": "O discurso na tribuna está coberto pela imunidade material; a ofensa em briga privada de condomínio sem nexo com o mandato não tem imunidade material; e o Deputado só pode ser preso desde a expedição do diploma em flagrante de crime inafiançável."
       },
       {
         "letter": "D",
-        "text": "Por força da imunidade formal para prisão, nenhum Deputado ou Senador pode ser preso mesmo após sentença penal condenatória definitiva transitada em julgado."
+        "text": "Por força da imunidade formal para prisão, nenhum Deputado ou Senador pode ser preso mesmo após sentença penal condenatória definitiva transitada em julgado, com respaldo na autonomia federativa assegurada aos entes políticos para dispor sobre o tema."
       }
     ],
     "correctAnswer": "C",
@@ -849,19 +849,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Súmula Vinculante 10 exige reserva de plenário inclusive quando a Turma apenas declara que uma lei pré-constitucional (anterior a 1988) não foi recepcionada pela CF/88."
+        "text": "A Súmula Vinculante 10 exige reserva de plenário inclusive quando a Turma apenas declara que uma lei pré-constitucional (anterior a 1988) não foi recepcionada pela CF/88, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "Governadores de Estado são legitimados universais no Art. 103 da CF, dispensando demonstração de pertinência temática."
+        "text": "Governadores de Estado são legitimados universais, dispensando demonstração de pertinência temática, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "C",
-        "text": "O acórdão da Turma violou a Súmula Vinculante 10 do STF e a cláusula de reserva de plenário (Art. 97 CF), pois equivale a declaração de inconstitucionalidade afastar a incidência da norma no caso sem submissão ao Pleno/Órgão Especial (salvo se já houver pronunciamento do Pleno do TJ ou do STF); ademais, o Governador é legitimado ESPECIAL para ADI e DEVE demonstrar pertinência temática quando impugnar lei federal."
+        "text": "O acórdão da Turma violou a Súmula Vinculante 10 do STF e a cláusula de reserva de plenário, pois equivale a declaração de inconstitucionalidade afastar a incidência da norma no caso sem submissão ao Pleno/Órgão Especial; ademais, o Governador é legitimado especial para ADI e deve demonstrar pertinência temática quando impugnar lei federal."
       },
       {
         "letter": "D",
-        "text": "Contra lei municipal contrária à Constituição Federal cabe diretamente Ação Direta de Inconstitucionalidade (ADI) perante o STF."
+        "text": "Contra lei municipal contrária à Constituição Federal cabe diretamente Ação Direta de Inconstitucionalidade (ADI) perante o STF, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       }
     ],
     "correctAnswer": "C",
@@ -909,15 +909,15 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "O quórum mínimo para instalar a sessão de julgamento de ADI no STF é de 6 ministros, decidindo por maioria simples de 4 votos."
+        "text": "O quórum mínimo para instalar a sessão de julgamento de ADI no STF é de 6 ministros, decidindo por maioria simples de 4 votos, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "C",
-        "text": "A modulação temporal dos efeitos em ADI exige maioria de DOIS TERÇOS (2/3 — 8 ministros) dos membros do STF (Art. 27 da Lei 9.868/99); além disso, a decisão definitiva de mérito vincula os demais órgãos do Poder Judiciário e a Administração Pública direta e indireta, MAS NÃO VINCULA o Poder Legislativo em sua função típica de legislar (nem o próprio STF, que pode rever seu entendimento)."
+        "text": "A modulação temporal dos efeitos em ADI exige maioria de dois terços (2/3 — 8 ministros) dos membros do STF."
       },
       {
         "letter": "D",
-        "text": "Na ADI estadual perante o Tribunal de Justiça (Art. 125, § 2º), é vedado usar norma da Constituição Federal de reprodução obrigatória como parâmetro."
+        "text": "Na ADI estadual perante o Tribunal de Justiça, é vedado usar norma da Constituição Federal de reprodução obrigatória como parâmetro."
       }
     ],
     "correctAnswer": "C",
@@ -960,19 +960,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O CNJ só pode instaurar processo disciplinar contra magistrado após o arquivamento ou omissão da Corregedoria do Tribunal local."
+        "text": "O CNJ só pode instaurar processo disciplinar contra magistrado após o arquivamento ou omissão da Corregedoria do Tribunal local, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "B",
-        "text": "O CNJ exerce controle administrativo e financeiro sobre o Poder Judiciário e sobre o Ministério Público, incluindo o próprio STF."
+        "text": "O CNJ exerce controle administrativo e financeiro sobre o Poder Judiciário e sobre o Ministério Público, incluindo o próprio STF, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "C",
-        "text": "O CNJ possui competência disciplinar ORIGINÁRIA e CONCORRENTE com as corregedorias locais (não apenas subsidiária — ADI 4.638 STF), podendo aplicar aposentadoria compulsória com vencimentos proporcionais; entretanto, o CNJ é órgão de natureza administrativa sem função jurisdicional, NÃO podendo declarar a inconstitucionalidade de lei ou ato normativo (apenas afastar ato administrativo ilegal — STF)."
+        "text": "O CNJ possui competência disciplinar originária e concorrente com as corregedorias locais, podendo aplicar aposentadoria compulsória com vencimentos proporcionais; entretanto, o CNJ é órgão de natureza administrativa sem função jurisdicional, não podendo declarar a inconstitucionalidade de lei ou ato normativo."
       },
       {
         "letter": "D",
-        "text": "O CNJ pode proferir sentença demitindo definitivamente juiz vitalício por falta disciplinar grave."
+        "text": "O CNJ pode proferir sentença demitindo definitivamente juiz vitalício por falta disciplinar grave, diante da eficácia imediata e vinculante atribuída à regra constitucional de organização estatal."
       }
     ],
     "correctAnswer": "C",
@@ -1016,19 +1016,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Governador de Estado é julgado nos crimes comuns pelo Supremo Tribunal Federal e nos crimes de responsabilidade pelo Senado Federal."
+        "text": "O Governador de Estado é julgado nos crimes comuns pelo Supremo Tribunal Federal e nos crimes de responsabilidade pelo Senado Federal, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "B",
-        "text": "A vitaliciedade do magistrado de primeiro grau exige três anos de efetivo exercício no cargo, igual à estabilidade do servidor público."
+        "text": "A vitaliciedade do magistrado de primeiro grau exige três anos de efetivo exercício no cargo, igual à estabilidade do servidor público, com produção regular de efeitos jurídicos independentemente de regulamentação complementar."
       },
       {
         "letter": "C",
-        "text": "O juiz vitalício só perde o cargo por SENTENÇA JUDICIAL TRANSITADA EM JULGADO (Art. 95, I — a vitaliciedade na 1ª instância adquire-se após 2 anos de exercício; nos tribunais é imediata na posse); já o Governador de Estado nos crimes comuns responde perante o STJ (Art. 105, I, \"a\"), ressaltando-se que o STF limitou o foro privilegiado parlamentar aos crimes cometidos NO CARGO e EM RAZÃO DA FUNÇÃO (AP 937 — com recente extensão/discussão de manutenção após cessar o cargo)."
+        "text": "O juiz vitalício só perde o cargo por sentença judicial transitada em julgado; já o Governador de Estado nos crimes comuns responde perante o STJ, ressaltando-se que o STF limitou o foro privilegiado parlamentar aos crimes cometidos no cargo e em razão da função."
       },
       {
         "letter": "D",
-        "text": "A remoção por interesse público do magistrado exige voto de maioria simples da Turma disciplinar do Tribunal."
+        "text": "A remoção por interesse público do magistrado exige voto de maioria simples da Turma disciplinar do Tribunal, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       }
     ],
     "correctAnswer": "C",
@@ -1076,7 +1076,7 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "B",
-        "text": "A Seguridade Social compreende saúde (direito de todos e dever do Estado, sem exigência de contribuição), previdência social (caráter contributivo e filiação obrigatória) e assistência social (prestada a quem dela necessitar, INDEPENDENTEMENTE DE CONTRIBUIÇÃO, garantindo um salário mínimo mensal ao idoso >= 65 anos ou pessoa com deficiência hipossuficiente — Art. 203, V, CF)."
+        "text": "A Seguridade Social compreende saúde, previdência social e assistência social."
       },
       {
         "letter": "C",
@@ -1128,19 +1128,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o Estado pode livremente instituir empresas estatais lucrativas em qualquer setor concorrencial para gerar receitas não tributárias."
+        "text": "Sim, pois o Estado pode livremente instituir empresas estatais lucrativas em qualquer setor concorrencial para gerar receitas não tributárias. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "Não encontra amparo, pois ressalvados os casos previstos na Constituição, a exploração direta de atividade econômica pelo Estado só será permitida quando necessária aos imperativos da segurança nacional ou a relevante interesse coletivo, conforme definidos em lei; ademais, as estatais exploradoras de atividade econômica não podem gozar de privilégios fiscais não extensivos às privadas."
+        "text": "Não encontra amparo, pois ressalvados os casos previstos na Constituição, a exploração direta de atividade econômica pelo Estado só será permitida quando necessária aos imperativos da segurança nacional ou a relevante interesse coletivo, conforme definidos em lei."
       },
       {
         "letter": "C",
-        "text": "As empresas públicas e sociedades de economia mista exploradoras de atividade econômica são imunes à falência em toda e qualquer hipótese pela Lei 11.101/05."
+        "text": "As empresas públicas e sociedades de economia mista exploradoras de atividade econômica são imunes à falência em toda e qualquer hipótese pela Lei 11.101/05, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "D",
-        "text": "Na prestação de serviços públicos sob regime de concessão ou permissão (Art. 175 CF), dispensa-se licitação prévia quando houver urgência administrativa."
+        "text": "Na prestação de serviços públicos sob regime de concessão ou permissão, dispensa-se licitação prévia quando houver urgência administrativa, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       }
     ],
     "correctAnswer": "B",
@@ -1183,19 +1183,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Respeita a autonomia municipal, pois a fusão de municípios compete exclusivamente às Câmaras Municipais interessadas."
+        "text": "Respeita a autonomia municipal, pois a fusão de municípios compete exclusivamente às Câmaras Municipais interessadas. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "Não respeita, pois a criação, incorporação, fusão e desmembramento de Municípios far-se-ão por lei ESTADUAL, dentro do período determinado por LEI COMPLEMENTAR FEDERAL, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal (Art. 18, § 4º)."
+        "text": "Não respeita, pois a criação, incorporação, fusão e desmembramento de Municípios far-se-ão por lei estadual, dentro do período determinado por lei complementar federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal."
       },
       {
         "letter": "C",
-        "text": "Para a incorporação ou desmembramento de Estados-membros, o plebiscito restringe-se apenas à população da área a ser emancipada, não ouvindo a população do Estado remanescente."
+        "text": "Para a incorporação ou desmembramento de Estados-membros, o plebiscito restringe-se apenas à população da área a ser emancipada, não ouvindo a população do Estado remanescente. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "D",
-        "text": "Na criação de novos Estados, a decisão final concretiza-se mediante lei ordinária estadual da Assembleia Legislativa."
+        "text": "Na criação de novos Estados, a decisão final concretiza-se mediante lei ordinária estadual da Assembleia Legislativa, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       }
     ],
     "correctAnswer": "B",
@@ -1239,19 +1239,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas as nomeações violam a Súmula Vinculante 13 porque a vedação ao nepotismo abrange absolutamente todos os cargos políticos de Secretários e Ministros sem exceção."
+        "text": "Ambas as nomeações violam a Súmula Vinculante 13 porque a vedação ao nepotismo abrange absolutamente todos os cargos políticos de Secretários e Ministros sem exceção. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "A nomeação da esposa para cargo comissionado administrativo (Diretora de RH) viola a Súmula Vinculante 13 (nepotismo vedado para parentes até 3º grau em cargos em comissão/confiança); já a nomeação do irmão para cargo POLÍTICO de Secretário Municipal não é alcançada em regra pela SV 13, salvo comprovada fraude, nepotismo cruzado ou manifesta ausência de qualificação técnica (jurisprudência STF)."
+        "text": "A nomeação da esposa para cargo comissionado administrativo (Diretora de rh) viola a Súmula Vinculante 13; já a nomeação do irmão para cargo político de Secretário Municipal não é alcançada em regra, salvo comprovada fraude, nepotismo cruzado ou manifesta ausência de qualificação técnica."
       },
       {
         "letter": "C",
-        "text": "A Súmula Vinculante 13 alcança apenas parentes consanguíneos até o segundo grau, permitindo a nomeação de tios, sobrinhos e cunhados."
+        "text": "A Súmula Vinculante 13 alcança apenas parentes consanguíneos até o segundo grau, permitindo a nomeação de tios, sobrinhos e cunhados. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "D",
-        "text": "A vedação ao nepotismo depende da edição de lei ordinária específica de cada município para entrar em vigor."
+        "text": "A vedação ao nepotismo depende da edição de lei ordinária específica de cada município para entrar em vigor, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       }
     ],
     "correctAnswer": "B",
@@ -1295,19 +1295,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Deve-se somar os dois vencimentos e abater o excedente de R$ 16.000,00 via abate-teto constitucional."
+        "text": "Deve-se somar os dois vencimentos e abater o excedente de R$ 16.000,00 via abate-teto constitucional, com respaldo na autonomia federativa assegurada aos entes políticos para dispor sobre o tema."
       },
       {
         "letter": "B",
-        "text": "Nos casos constitucionalmente autorizados de acumulação lícita de cargos públicos (Art. 37, XVI), o teto remuneratório constitucional é aplicado ISOLADAMENTE a cada um dos vínculos funcionais, e não sobre a soma total (Temas 377 e 384 do STF), logo o médico recebe integralmente os R$ 28.000,00 de cada cargo."
+        "text": "Nos casos constitucionalmente autorizados de acumulação lícita de cargos públicos, o teto remuneratório constitucional é aplicado isoladamente a cada um dos vínculos funcionais, e não sobre a soma total, logo o médico recebe integralmente os R$ 28.000,00 de cada cargo."
       },
       {
         "letter": "C",
-        "text": "A acumulação remunerada de dois cargos de médico exige no máximo 60 horas semanais totais como limite legal absoluto rígido em qualquer tribunal."
+        "text": "A acumulação remunerada de dois cargos de médico exige no máximo 60 horas semanais totais como limite legal absoluto rígido em qualquer tribunal, com produção regular de efeitos jurídicos independentemente de regulamentação complementar. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "D",
-        "text": "Não é permitida a acumulação de dois cargos públicos privativos de profissionais de saúde se ambos forem da área de enfermagem ou fisioterapia."
+        "text": "Não é permitida a acumulação de dois cargos públicos privativos de profissionais de saúde se ambos forem da área de enfermagem ou fisioterapia, com vedação à modulação ou relativização de efeitos por ato normativo infralegal superveniente."
       }
     ],
     "correctAnswer": "B",
@@ -1351,19 +1351,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A greve de servidores públicos civis é proibida até que o Congresso Nacional edite lei específica para o setor público."
+        "text": "A greve de servidores públicos civis é proibida até que o Congresso Nacional edite lei específica para o setor público, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "B",
-        "text": "A greve dos servidores civis aplica analogicamente a Lei nº 7.783/1989 (Lei de Greve privada — MIs 670/708/712), devendo a Administração proceder ao DESCONTO dos dias de paralisação em virtude da suspensão do vínculo funcional, salvo se a greve tiver sido provocada por conduta ilícita do Poder Público (Tema 531 STF); já aos policiais civis e demais carreiras armadas da segurança pública é VEDADO o exercício do direito de greve (Tema 541 STF)."
+        "text": "A greve dos servidores civis aplica analogicamente a Lei nº 7.783/1989, devendo a Administração proceder ao desconto dos dias de paralisação em virtude da suspensão do vínculo funcional, salvo se a greve tiver sido provocada por conduta ilícita do Poder Público; já aos policiais civis e demais carreiras armadas da segurança pública é vedado o exercício do direito de greve."
       },
       {
         "letter": "C",
-        "text": "Servidores que aderem à greve pacífica têm direito automático à remuneração integral dos dias parados sem necessidade de compensação."
+        "text": "Servidores que aderem à greve pacífica têm direito automático à remuneração integral dos dias parados sem necessidade de compensação, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários."
       },
       {
         "letter": "D",
-        "text": "Apenas os militares das Forças Armadas estão proibidos de fazer greve; policiais civis e policiais penais têm direito irrestrito de greve."
+        "text": "Apenas os militares das Forças Armadas estão proibidos de fazer greve; policiais civis e policiais penais têm direito irrestrito de greve. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       }
     ],
     "correctAnswer": "B",
@@ -1407,19 +1407,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Nenhum decreto presidencial pode extinguir cargos públicos vagos sem autorização prévia por lei ordinária."
+        "text": "Nenhum decreto presidencial pode extinguir cargos públicos vagos sem autorização prévia por lei ordinária, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "O primeiro decreto é constitucional como DECRETO AUTÔNOMO (Art. 84, VI, \"a\" e \"b\", CF), pois pode dispor diretamente sobre organização e funcionamento da administração federal sem aumento de despesa nem criação/extinção de órgãos públicos, bem como extinguir funções ou cargos públicos quando VAGOS; o segundo decreto é inconstitucional porque a criação/extinção de órgãos públicos e cargos exige LEI formal (Art. 61, § 1º, II e Art. 88)."
+        "text": "O primeiro decreto é constitucional como decreto autônomo, pois pode dispor diretamente sobre organização e funcionamento da administração federal sem aumento de despesa nem criação/extinção de órgãos públicos, bem como extinguir funções ou cargos públicos quando vagos; o segundo decreto é inconstitucional porque a criação/extinção de órgãos públicos e cargos exige lei formal."
       },
       {
         "letter": "C",
-        "text": "A atribuição de editar decreto autônomo para extinguir cargo público vago do Art. 84, VI, \"b\", é indelegável a Ministros de Estado ou ao Advogado-Geral da União."
+        "text": "A atribuição de editar decreto autônomo para extinguir cargo público vago, é indelegável a Ministros de Estado ou ao Advogado-Geral da União, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "D",
-        "text": "O decreto autônomo pode extinguir ministérios e criar autarquias desde que não ultrapasse o orçamento anual."
+        "text": "O decreto autônomo pode extinguir ministérios e criar autarquias desde que não ultrapasse o orçamento anual, em observância estrita à reserva constitucional de competência legislativa privativa."
       }
     ],
     "correctAnswer": "B",
@@ -1462,19 +1462,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A definição dos crimes de responsabilidade e das normas de processo e julgamento compete concorrentemente às leis estaduais e distritais para seus governadores."
+        "text": "A definição dos crimes de responsabilidade e das normas de processo e julgamento compete concorrentemente às leis estaduais e distritais para seus governadores, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "Pelo crime comum estranho às funções (antes do mandato), o Presidente NÃO pode ser responsabilizado na vigência de seu mandato (imunidade temporária à persecução penal — Art. 86, § 4º, CF); já pelo crime de responsabilidade, a admissibilidade exige 2/3 da Câmara dos Deputados e o julgamento compete ao Senado Federal (sob presidência do Presidente do STF), não se sujeitando o Presidente à prisão enquanto não sobrevier sentença condenatória nas infrações penais comuns (§ 3º)."
+        "text": "Pelo crime comum estranho às funções (antes do mandato), o Presidente não pode ser responsabilizado na vigência de seu mandato; já pelo crime de responsabilidade, a admissibilidade exige 2/3 da Câmara dos Deputados e o julgamento compete ao Senado Federal, não se sujeitando o Presidente à prisão enquanto não sobrevier sentença condenatória nas infrações penais comuns."
       },
       {
         "letter": "C",
-        "text": "Nos crimes comuns praticados NO exercício do cargo e em razão das funções, o Presidente da República é julgado pelo Senado Federal após licença da Câmara."
+        "text": "Nos crimes comuns praticados no exercício do cargo e em razão das funções, o Presidente da República é julgado pelo Senado Federal após licença da Câmara, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "D",
-        "text": "Admitida a acusação pela Câmara dos Deputados, o Presidente da República é imediatamente afastado de forma definitiva do cargo até 360 dias."
+        "text": "Admitida a acusação pela Câmara dos Deputados, o Presidente da República é imediatamente afastado de forma definitiva do cargo até 360 dias, com produção regular de efeitos jurídicos independentemente de regulamentação complementar."
       }
     ],
     "correctAnswer": "B",
@@ -1518,19 +1518,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "É válida porque não existe prazo decadencial contra o TCU na apreciação inicial de aposentadorias, aplicando-se apenas a Súmula Vinculante 3 para dispensar contraditório indefinidamente."
+        "text": "É válida porque não existe prazo decadencial contra o TCU na apreciação inicial de aposentadorias, aplicando-se apenas a Súmula Vinculante 3 para dispensar contraditório indefinidamente. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "Não é válida, pois segundo tese de repercussão geral do STF (Tema 445 / RE 636.553), os Tribunais de Contas estão sujeitos ao prazo decadencial de CINCO ANOS para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, a contar da chegada do processo à respectiva Corte de Contas — após 5 anos, o ato considera-se tacitamente registrado! (E antes dos 5 anos, dispensa contraditório pela SV 3)."
+        "text": "Não é válida, pois os Tribunais de Contas estão sujeitos ao prazo decadencial de cinco anos para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, a contar da chegada do processo à respectiva Corte de Contas."
       },
       {
         "letter": "C",
-        "text": "O TCU tem competência para julgar as contas anuais prestadas pelo Presidente da República em caráter definitivo, dispensando o Congresso Nacional."
+        "text": "O TCU tem competência para julgar as contas anuais prestadas pelo Presidente da República em caráter definitivo, dispensando o Congresso Nacional, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "D",
-        "text": "O Tribunal de Contas pode sustar diretamente contrato administrativo celebrado pelo Poder Executivo antes de comunicar o Congresso Nacional."
+        "text": "O Tribunal de Contas pode sustar diretamente contrato administrativo celebrado pelo Poder Executivo antes de comunicar o Congresso Nacional, com respaldo na autonomia federativa assegurada aos entes políticos para dispor sobre o tema."
       }
     ],
     "correctAnswer": "B",
@@ -1574,19 +1574,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não é válido porque o princípio da unidade obriga todos os promotores a seguirem as orientações de mérito do Procurador-Geral de Justiça."
+        "text": "Não é válido porque o princípio da unidade obriga todos os promotores a seguirem as orientações de mérito do Procurador-Geral de Justiça. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "Sim, pois o Ministério Público rege-se pelos princípios institucionais da UNIDADE, da INDIVISIBILIDADE (que permite a substituição entre membros sem quebra institucional) e da INDEPENDÊNCIA FUNCIONAL (que garante a cada membro plena convicção jurídica livre de ordens hierárquicas de chefes administrativos quanto à atuação finalística)."
+        "text": "Sim, pois o Ministério Público rege-se pelos princípios institucionais da unidade, da indivisibilidade e da independência funcional."
       },
       {
         "letter": "C",
-        "text": "O Procurador-Geral de Justiça dos Estados é nomeado livremente pelo Governador entre qualquer cidadão com notável saber jurídico."
+        "text": "O Procurador-Geral de Justiça dos Estados é nomeado livremente pelo Governador entre qualquer cidadão com notável saber jurídico, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "D",
-        "text": "Os membros do Ministério Público são proibidos de exercer o magistério superior em universidades privadas."
+        "text": "Os membros do Ministério Público são proibidos de exercer o magistério superior em universidades privadas, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       }
     ],
     "correctAnswer": "B",
@@ -1629,19 +1629,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Defensoria Pública é instituição permanente, essencial à função jurisdicional do Estado, gozando de autonomia funcional e administrativa e iniciativa de sua proposta orçamentária (tanto nos Estados quanto na União — EC 74/2013), aplicando-se-lhe os princípios da unidade, indivisibilidade e independência funcional (Art. 134, § 4º), além de possuir plena legitimidade para Ação Civil Pública na tutela de necessitados (ADI 3.943)."
+        "text": "A Defensoria Pública é instituição permanente, essencial à função jurisdicional do Estado, gozando de autonomia funcional e administrativa e iniciativa de sua proposta orçamentária, aplicando-se-lhe os princípios da unidade, indivisibilidade e independência funcional."
       },
       {
         "letter": "B",
-        "text": "A Defensoria Pública da União permanece subordinada administrativamente ao Ministério da Justiça e vinculada à Advocacia-Geral da União."
+        "text": "A Defensoria Pública da União permanece subordinada administrativamente ao Ministério da Justiça e vinculada à Advocacia-Geral da União, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "C",
-        "text": "Os Defensores Públicos não possuem legitimidade ativa para propor Ação Civil Pública, privativa do Ministério Público."
+        "text": "Os Defensores Públicos não possuem legitimidade ativa para propor Ação Civil Pública, privativa do Ministério Público, em observância estrita à reserva constitucional de competência legislativa privativa."
       },
       {
         "letter": "D",
-        "text": "Os Procuradores dos Estados têm livre permissão constitucional para advogar privadamente contra o próprio Estado que os remunera."
+        "text": "Os Procuradores dos Estados têm livre permissão constitucional para advogar privadamente contra o próprio Estado que os remunera, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       }
     ],
     "correctAnswer": "A",
@@ -1685,11 +1685,11 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Para decretar Estado de Sítio, o Presidente deve primeiro ouvir os Conselhos da República e de Defesa Nacional e solicitar AUTORIZAÇÃO PRÉVIA do Congresso Nacional (decisão por maioria absoluta); no caso de comoção grave de repercussão nacional ou ineficácia de estado de defesa (Art. 137, I), a duração não poderá exceder 30 DIAS (prorrogável por igual período de cada vez)."
+        "text": "Para decretar Estado de Sítio, o Presidente deve primeiro ouvir os Conselhos da República e de Defesa Nacional e solicitar autorização prévia do Congresso Nacional."
       },
       {
         "letter": "B",
-        "text": "No Estado de Sítio, o Presidente decreta primeiro imediatamente e submete ao Congresso Nacional em até 10 dias para aprovação posterior."
+        "text": "No Estado de Sítio, o Presidente decreta primeiro imediatamente e submete ao Congresso Nacional em até 10 dias para aprovação posterior, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "C",
@@ -1697,7 +1697,7 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "D",
-        "text": "O Estado de Defesa pode ser prorrogado sucessivamente por quantas vezes forem necessárias até cessar a calamidade."
+        "text": "O Estado de Defesa pode ser prorrogado sucessivamente por quantas vezes forem necessárias até cessar a calamidade, com produção regular de efeitos jurídicos independentemente de regulamentação complementar."
       }
     ],
     "correctAnswer": "A",
@@ -1740,15 +1740,15 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A EC nº 104/2019 incluiu expressamente no rol do Art. 144 da CF as Polícias Penais Federal, Estaduais e Distrital (vinculadas ao órgão administrador do sistema penal); ademais, na ADPF 995, o STF reconheceu que as Guardas Municipais integram o Sistema Único de Segurança Pública (SUSP) na proteção de bens, serviços e instalações municipais, não podendo contudo usurpar atividade investigativa de polícia judiciária."
+        "text": "A EC nº 104/2019 incluiu expressamente no rol as Polícias Penais Federal, Estaduais e Distrital."
       },
       {
         "letter": "B",
-        "text": "As Guardas Municipais integram o rol taxativo do Art. 144, I a VI, exercendo livremente função investigativa de polícia judiciária em concorrência com a Polícia Civil."
+        "text": "As Guardas Municipais integram o rol taxativo, exercendo livremente função investigativa de polícia judiciária em concorrência com a Polícia Civil."
       },
       {
         "letter": "C",
-        "text": "À Polícia Federal cabe apurar exclusivamente crimes militares e infrações administrativas aduaneiras."
+        "text": "À Polícia Federal cabe apurar exclusivamente crimes militares e infrações administrativas aduaneiras, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários."
       },
       {
         "letter": "D",
@@ -1796,19 +1796,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não é válida, pois a Constituição veda expressamente qualquer censura de natureza política, ideológica e artística (Art. 220, § 2º) e assegura a plena liberdade de informação jornalística sem licença prévia ou censura judicial prévia (ADPF 130 e Reclamação Constitucional no STF), garantindo-se posteriormente o direito de resposta proporcional ao agravo e indenização por dano material, moral ou à imagem (Art. 5º, V)."
+        "text": "Não é válida, pois a Constituição veda expressamente qualquer censura de natureza política, ideológica e artística e assegura a plena liberdade de informação jornalística sem licença prévia ou censura judicial prévia, garantindo-se posteriormente o direito de resposta proporcional ao agravo e indenização por dano material, moral ou à imagem."
       },
       {
         "letter": "B",
-        "text": "É válida a censura judicial prévia para impedir qualquer matéria jornalística crítica sobre agentes públicos enquanto não julgado o mérito."
+        "text": "É válida a censura judicial prévia para impedir qualquer matéria jornalística crítica sobre agentes públicos enquanto não julgado o mérito, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "C",
-        "text": "A criação e circulação de veículo impresso de comunicação jornalística exige prévia licença concedida pelo Ministério das Comunicações."
+        "text": "A criação e circulação de veículo impresso de comunicação jornalística exige prévia licença concedida pelo Ministério das Comunicações, com produção regular de efeitos jurídicos independentemente de regulamentação complementar. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "D",
-        "text": "Os veículos de imprensa têm o direito de publicar denúncias anônimas garantindo sempre sigilo absoluto da fonte, ficando proibida qualquer responsabilização civil em caso de matéria comprovadamente falsa por culpa grave."
+        "text": "Os veículos de imprensa têm o direito de publicar denúncias anônimas garantindo sempre sigilo absoluto da fonte, ficando proibida qualquer responsabilização civil em caso de matéria comprovadamente falsa por culpa grave, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       }
     ],
     "correctAnswer": "A",
@@ -1852,19 +1852,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A propriedade PRODUTIVA é insuscetível de desapropriação para fins de reforma agrária (Art. 185, II, CF — já a desapropriação-sanção de imóvel rural improdutivo ocorre em TDA em até 20 anos, pagando-se apenas as benfeitorias úteis e necessárias em dinheiro); quanto ao uso transitório em iminente perigo público, configura REQUISIÇÃO ADMINISTRATIVA (Art. 5º, XXV), assegurada ao proprietário indenização ULTERIOR, SE HOUVER DANO."
+        "text": "A propriedade produtiva é insuscetível de desapropriação para fins de reforma agrária; quanto ao uso transitório em iminente perigo público, configura requisição administrativa, assegurada ao proprietário indenização ulterior, se houver dano."
       },
       {
         "letter": "B",
-        "text": "O imóvel rural produtivo pode ser desapropriado para reforma agrária mediante pagamento em Títulos da Dívida Agrária em 20 anos."
+        "text": "O imóvel rural produtivo pode ser desapropriado para reforma agrária mediante pagamento em Títulos da Dívida Agrária em 20 anos, diante da eficácia imediata e vinculante atribuída à regra constitucional de organização estatal."
       },
       {
         "letter": "C",
-        "text": "Na requisição administrativa em caso de perigo público iminente (Art. 5º, XXV), a indenização é sempre prévia e obrigatória em dinheiro antes de usar o bem."
+        "text": "Na requisição administrativa em caso de perigo público iminente, a indenização é sempre prévia e obrigatória em dinheiro antes de usar o bem, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários."
       },
       {
         "letter": "D",
-        "text": "Na desapropriação-sanção de imóvel rural improdutivo para reforma agrária, até as benfeitorias úteis e necessárias são pagas em títulos da dívida agrária."
+        "text": "Na desapropriação-sanção de imóvel rural improdutivo para reforma agrária, até as benfeitorias úteis e necessárias são pagas em títulos da dívida agrária, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       }
     ],
     "correctAnswer": "A",
@@ -1907,19 +1907,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O STF no Tema 1031 (RE 1.017.365) rejeitou a tese do \"marco temporal\" rígido, decidindo que a proteção constitucional aos direitos originários sobre as terras tradicionalmente ocupadas pelos indígenas independe da existência de um marco temporal estrito em 05/10/1988 ou da configuração do esbulho renitente como conflito físico contínuo (havendo ainda discussão sobre lei posterior — Lei 14.701/2023 em ADIs no STF)."
+        "text": "O STF no Tema 1031 rejeitou a tese do \"marco temporal\" rígido, decidindo que a proteção constitucional aos direitos originários sobre as terras tradicionalmente ocupadas pelos indígenas independe da existência de um marco temporal estrito em 05/10/1988 ou da configuração do esbulho renitente como conflito físico contínuo."
       },
       {
         "letter": "B",
-        "text": "As terras tradicionalmente ocupadas pelos índios integram o patrimônio privado dos Estados-membros onde se situam."
+        "text": "As terras tradicionalmente ocupadas pelos índios integram o patrimônio privado dos Estados-membros onde se situam, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "C",
-        "text": "Os indígenas não têm legitimidade processual ativa para ingressar em juízo em defesa de seus direitos e interesses, cabendo exclusivamente à FUNAI representá-los."
+        "text": "Os indígenas não têm legitimidade processual ativa para ingressar em juízo em defesa de seus direitos e interesses, cabendo exclusivamente à funai representá-los, com fundamento na preservação do núcleo essencial da separação funcional dos Poderes. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "D",
-        "text": "As terras ocupadas por remanescentes das comunidades dos quilombos continuam sob posse precária sem direito à propriedade definitiva."
+        "text": "As terras ocupadas por remanescentes das comunidades dos quilombos continuam sob posse precária sem direito à propriedade definitiva, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       }
     ],
     "correctAnswer": "A",
@@ -1963,19 +1963,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os débitos de natureza alimentícia têm preferência sobre os demais, e dentre eles os titulares com 60 anos ou mais, portadores de doença grave ou com deficiência têm superpreferência até o valor equivalente ao triplo do limite de RPV (Art. 100, § 2º); ademais, durante o período de graça constitucional (da expedição até o final do exercício seguinte), NÃO incidem juros de mora (Súmula Vinculante 17), e é vedado o fracionamento de execução para burlar o limite de RPV (§ 8º)."
+        "text": "Os débitos de natureza alimentícia têm preferência sobre os demais, e dentre eles os titulares com 60 anos ou mais, portadores de doença grave ou com deficiência têm superpreferência até o valor equivalente ao triplo do limite de RPV."
       },
       {
         "letter": "B",
-        "text": "É permitido fracionar o crédito único do mesmo autor em duas execuções distintas para receber integralmente por Requisição de Pequeno Valor (RPV) sem precatório."
+        "text": "É permitido fracionar o crédito único do mesmo autor em duas execuções distintas para receber integralmente por Requisição de Pequeno Valor (RPV) sem precatório, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "C",
-        "text": "Os honorários advocatícios sucumbenciais pertencentes ao advogado não podem ser destacados em RPV autônoma em relação ao crédito principal do cliente."
+        "text": "Os honorários advocatícios sucumbenciais pertencentes ao advogado não podem ser destacados em RPV autônoma em relação ao crédito principal do cliente, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "D",
-        "text": "A ordem cronológica de precatórios abrange igualmente os créditos de pequeno valor (RPV), que também aguardam inclusão no orçamento do ano seguinte."
+        "text": "A ordem cronológica de precatórios abrange igualmente os créditos de pequeno valor (RPV), que também aguardam inclusão no orçamento do ano seguinte, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       }
     ],
     "correctAnswer": "A",
@@ -2019,19 +2019,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A edição, revisão ou cancelamento de Súmula Vinculante pelo STF exige decisão de DOIS TERÇOS (2/3 — 8 ministros) dos seus membros após REITERADAS decisões sobre matéria constitucional; e possuem legitimidade para propor edição/revisão/cancelamento TODOS os legitimados da ADI (Art. 103 — inclusive CFOAB e confederação sindical/entidade de classe nacional), além dos órgãos específicos da Lei nº 11.417/2006 (Defensor Público-Geral, Tribunais Superiores e TJ/TRF), MAS NÃO um Conselho Seccional isolado da OAB."
+        "text": "A edição, revisão ou cancelamento de Súmula Vinculante pelo STF exige decisão de dois terços (2/3 — 8 ministros) dos seus membros após reiteradas decisões sobre matéria constitucional."
       },
       {
         "letter": "B",
-        "text": "Basta a maioria absoluta de 6 ministros do STF após uma única decisão em recurso extraordinário para aprovar Súmula Vinculante."
+        "text": "Basta a maioria absoluta de 6 ministros do STF após uma única decisão em recurso extraordinário para aprovar Súmula Vinculante, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "C",
-        "text": "Em caso de descumprimento de Súmula Vinculante por ato administrativo ou decisão judicial, o único meio cabível é ação rescisória após o trânsito em julgado."
+        "text": "Em caso de descumprimento de Súmula Vinculante por ato administrativo ou decisão judicial, o único meio cabível é ação rescisória após o trânsito em julgado, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "D",
-        "text": "A Súmula Vinculante vincula o Poder Legislativo federal na edição de novas leis em sentido contrário."
+        "text": "A Súmula Vinculante vincula o Poder Legislativo federal na edição de novas leis em sentido contrário, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       }
     ],
     "correctAnswer": "A",
@@ -2074,19 +2074,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Conselho da República é órgão superior de consulta do Presidente da República (integrado por Vice-Presidente, Presidentes da Câmara e Senado, líderes da maioria e minoria na Câmara e Senado, Ministro da Justiça e 6 cidadãos brasileiros natos > 35 anos) e opina sobre intervenção federal, estado de defesa, estado de sítio e estabilidade das instituições; o Conselho de Defesa Nacional é órgão de consulta em assuntos de soberania nacional e defesa do Estado democrático (integrado também pelos Ministros da Defesa, Relações Exteriores, Planejamento e Comandantes das Forças Armadas), opinando sobre guerra/paz, estado de defesa/sítio, intervenção e utilização de áreas indispensáveis à segurança do território (faixa de fronteira)."
+        "text": "O Conselho da República é órgão superior de consulta do Presidente da República e opina sobre intervenção federal, estado de defesa, estado de sítio e estabilidade das instituições."
       },
       {
         "letter": "B",
-        "text": "Os pareceres emitidos pelo Conselho da República e pelo Conselho de Defesa Nacional têm caráter vinculante e impedem o Presidente de decretar estado de defesa."
+        "text": "Os pareceres emitidos pelo Conselho da República e pelo Conselho de Defesa Nacional têm caráter vinculante e impedem o Presidente de decretar estado de defesa, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "C",
-        "text": "Os seis cidadãos integrantes do Conselho da República podem ser brasileiros naturalizados com mais de 30 anos."
+        "text": "Os seis cidadãos integrantes do Conselho da República podem ser brasileiros naturalizados com mais de 30 anos, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "D",
-        "text": "O Ministro da Defesa e os Comandantes da Marinha, Exército e Aeronáutica integram ambos os Conselhos (da República e de Defesa Nacional)."
+        "text": "O Ministro da Defesa e os Comandantes da Marinha, Exército e Aeronáutica integram ambos os Conselhos (da República e de Defesa Nacional), consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       }
     ],
     "correctAnswer": "A",
@@ -2129,7 +2129,7 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A competência constitucional do Tribunal do Júri prevalece sobre o foro por prerrogativa de função estabelecido exclusivamente na Constituição Estadual (Súmula Vinculante 45 — mas não sobre foro previsto na própria Constituição Federal); e no Tema 1068 (RE 1.235.340), o STF decidiu que a SOBERANIA DOS VEREDICTOS autoriza a execução IMEDIATA da condenação imposta pelo corpo de jurados, independentemente do total da pena aplicada."
+        "text": "A competência constitucional do Tribunal do Júri prevalece sobre o foro por prerrogativa de função estabelecido exclusivamente na Constituição Estadual."
       },
       {
         "letter": "B",
@@ -2137,11 +2137,11 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
       },
       {
         "letter": "C",
-        "text": "Nos termos do Art. 492, I, \"e\", do CPP, somente penas iguais ou superiores a 15 anos de reclusão admitem execução provisória imediata no Tribunal do Júri."
+        "text": "Somente penas iguais ou superiores a 15 anos de reclusão admitem execução provisória imediata no Tribunal do Júri, diante da eficácia imediata e vinculante atribuída à regra constitucional de organização estatal."
       },
       {
         "letter": "D",
-        "text": "O crime de latrocínio (roubo seguido de morte) é julgado pelo Tribunal do Júri por envolver morte dolosa da vítima."
+        "text": "O crime de latrocínio (roubo seguido de morte) é julgado pelo Tribunal do Júri por envolver morte dolosa da vítima, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       }
     ],
     "correctAnswer": "A",
@@ -2185,15 +2185,15 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e pluralismo político."
+        "text": "Soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e pluralismo político. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "Independência nacional, prevalência dos direitos humanos, autodeterminação dos povos e não intervenção."
+        "text": "Independência nacional, prevalência dos direitos humanos, autodeterminação dos povos e não intervenção. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "C",
-        "text": "Repúdio ao terrorismo e ao racismo, solução pacífica dos conflitos e cooperação entre os povos."
+        "text": "Repúdio ao terrorismo e ao racismo, solução pacífica dos conflitos e cooperação entre os povos, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "D",
@@ -2240,19 +2240,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, porque o tráfico de drogas é crime permanente, autorizando ingresso policial a qualquer hora independentemente de indícios prévios."
+        "text": "Sim, porque o tráfico de drogas é crime permanente, autorizando ingresso policial a qualquer hora independentemente de indícios prévios. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "Sim, pois o consentimento presumido do morador dispensa mandado judicial durante a noite."
+        "text": "Sim, pois o consentimento presumido do morador dispensa mandado judicial durante a noite. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "C",
-        "text": "A ilicitude da busca domiciliar não contamina as provas materiais colhidas no interior do imóvel."
+        "text": "A ilicitude da busca domiciliar não contamina as provas materiais colhidas no interior do imóvel, sem admitir interpretação extensiva que amplie restrições não previstas na ordem constitucional."
       },
       {
         "letter": "D",
-        "text": "Não. Segundo o STF (Tema 280), o ingresso forçado em domicílio sem mandado judicial apenas se revela legítimo quando amparado em fundadas razões, devidamente justificadas a posteriori, que indiquem que dentro da casa ocorre situação de flagrante delito."
+        "text": "Não, segundo o STF, o ingresso forçado em domicílio sem mandado judicial apenas se revela legítimo quando amparado em fundadas razões, devidamente justificadas a posteriori, que indiquem que dentro da casa ocorre situação de flagrante delito."
       }
     ],
     "correctAnswer": "D",
@@ -2296,19 +2296,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A CPI pode decretar ambas as medidas porque possui poderes de investigação próprios das autoridades judiciais."
+        "text": "A CPI pode decretar ambas as medidas porque possui poderes de investigação próprios das autoridades judiciais. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "A CPI não pode decretar sequer a quebra de sigilo bancário, fiscal ou de registros telefônicos."
+        "text": "A CPI não pode decretar sequer a quebra de sigilo bancário, fiscal ou de registros telefônicos, sem admitir interpretação extensiva que amplie restrições não previstas na ordem constitucional."
       },
       {
         "letter": "C",
-        "text": "A interceptação telefônica pode ser autorizada por delegado em inquérito policial de crime hediondo."
+        "text": "A interceptação telefônica pode ser autorizada por delegado em inquérito policial de crime hediondo, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários."
       },
       {
         "letter": "D",
-        "text": "A CPI pode decretar diretamente a quebra do sigilo de dados telefônicos (extratos/registros pretéritos), mas NÃO pode decretar interceptação telefônica em tempo real, pois esta está sujeita à cláusula constitucional de reserva de jurisdição (Art. 5º, XII)."
+        "text": "A CPI pode decretar diretamente a quebra do sigilo de dados telefônicos, mas não pode decretar interceptação telefônica em tempo real, pois esta está sujeita à cláusula constitucional de reserva de jurisdição."
       }
     ],
     "correctAnswer": "D",
@@ -2351,19 +2351,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o Art. 5º, XVI, impõe autorização prévia da polícia militar para reuniões em logradouros."
+        "text": "Sim, pois o Art. 5º, XVI, impõe autorização prévia da polícia militar para reuniões em logradouros. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "Sim, pois a ausência de protocolo formal escrito na delegacia torna a reunião ilegal."
+        "text": "Sim, pois a ausência de protocolo formal escrito na delegacia torna a reunião ilegal. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "C",
-        "text": "O direito de reunião protege inclusive passeatas com porte de armas de uso permitido registradas."
+        "text": "O direito de reunião protege inclusive passeatas com porte de armas de uso permitido registradas, diante da eficácia imediata e vinculante atribuída à regra constitucional de organização estatal."
       },
       {
         "letter": "D",
-        "text": "Não. O direito de reunião independe de autorização estatal, exigindo apenas prévio aviso à autoridade competente para não frustrar outra reunião já marcada; além disso, o STF (Tema 855) decidiu que a exigência de aviso prévio se satisfaz com qualquer meio que permita ao poder público zelar pela segurança e fluidez, como divulgação prévia pública."
+        "text": "Não, o direito de reunião independe de autorização estatal, exigindo apenas prévio aviso à autoridade competente para não frustrar outra reunião já marcada."
       }
     ],
     "correctAnswer": "D",
@@ -2407,19 +2407,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque o sindicato precisa de pelo menos 1 ano de funcionamento e autorização expressa de cada substituído."
+        "text": "Não, porque o sindicato precisa de pelo menos 1 ano de funcionamento e autorização expressa de cada substituído. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "Não, pois o MS coletivo só pode defender direito que atinja a totalidade absoluta da categoria (100% dos membros)."
+        "text": "Não, pois o MS coletivo só pode defender direito que atinja a totalidade absoluta da categoria (100% dos membros). Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "C",
-        "text": "Em qualquer caso de MS coletivo contra ato normativo em tese, admite-se impetração preventiva para revogar lei."
+        "text": "Em qualquer caso de MS coletivo contra ato normativo em tese, admite-se impetração preventiva para revogar lei, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "D",
-        "text": "Sim. Diferentemente das associações (que precisam de constituição há pelo menos 1 ano), os partidos políticos, entidades de classe e organizações sindicais não estão sujeitos ao requisito temporal de 1 ano para impetrar MS coletivo, e atuam por substituição processual, dispensando autorização expressa dos filiados (Súmula 629 STF)."
+        "text": "Sim, diferentemente das associações, os partidos políticos, entidades de classe e organizações sindicais não estão sujeitos ao requisito temporal de 1 ano para impetrar MS coletivo, e atuam por substituição processual, dispensando autorização expressa dos filiados."
       }
     ],
     "correctAnswer": "D",
@@ -2463,15 +2463,15 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A decisão do mandado de injunção limita-se sempre a comunicar o legislador sobre sua omissão, vedada a concretização provisória do direito."
+        "text": "A decisão do mandado de injunção limita-se sempre a comunicar o legislador sobre sua omissão, vedada a concretização provisória do direito, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "O mandado de injunção serve igualmente para exigir a alteração de decreto presidencial já existente que contrarie a lei."
+        "text": "O mandado de injunção serve igualmente para exigir a alteração de decreto presidencial já existente que contrarie a lei, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "C",
-        "text": "Admite-se mandado de injunção mesmo para suprir lacuna de lei infraconstitucional sem previsão constitucional."
+        "text": "Admite-se mandado de injunção mesmo para suprir lacuna de lei infraconstitucional sem previsão constitucional, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "D",
@@ -2518,19 +2518,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não, porque qualquer contribuição sindical ou assistencial a não sindicalizados é absolutamente inconstitucional após a Reforma Trabalhista."
+        "text": "Não, porque qualquer contribuição sindical ou assistencial a não sindicalizados é absolutamente inconstitucional após a Reforma Trabalhista. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "É constitucional independentemente de garantia de direito de oposição ao empregado não filiado."
+        "text": "É constitucional independentemente de garantia de direito de oposição ao empregado não filiado, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "C",
-        "text": "Empregados de empresas privadas não podem exercer direito de greve em atividades essenciais sem lei complementar."
+        "text": "Empregados de empresas privadas não podem exercer direito de greve em atividades essenciais sem lei complementar, com fundamento na preservação do núcleo essencial da separação funcional dos Poderes."
       },
       {
         "letter": "D",
-        "text": "Sim. O STF, em revisão de tese no ARE 1.018.459 (Tema 935), julgou constitucional a instituição, por acordo ou convenção coletiva, de contribuições assistenciais impostas a todos os empregados da categoria (mesmo não sindicalizados), desde que assegurado o direito de oposição."
+        "text": "Sim, o STF, em revisão de tese no ARE 1.018.459, julgou constitucional a instituição, por acordo ou convenção coletiva, de contribuições assistenciais impostas a todos os empregados da categoria, desde que assegurado o direito de oposição."
       }
     ],
     "correctAnswer": "D",
@@ -2574,19 +2574,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O nascido no Brasil é estrangeiro porque seus pais são turistas estrangeiros sem residência permanente."
+        "text": "O nascido no Brasil é estrangeiro porque seus pais são turistas estrangeiros sem residência permanente. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "O naturalizado pode ocupar o cargo de Presidente da Câmara dos Deputados, embora vedado para Presidente da República."
+        "text": "O naturalizado pode ocupar o cargo de Presidente da Câmara dos Deputados, embora vedado para Presidente da República, com vedação à modulação ou relativização de efeitos por ato normativo infralegal superveniente."
       },
       {
         "letter": "C",
-        "text": "Cidadãos de países de língua portuguesa precisam de 15 anos de residência para naturalização ordinária."
+        "text": "Cidadãos de países de língua portuguesa precisam de 15 anos de residência para naturalização ordinária, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "D",
-        "text": "O nascido no Brasil é brasileiro nato (critério jus soli, pois os pais não estavam a serviço de seu país), podendo ocupar ambos os cargos; o português naturalizado NÃO pode ocupar nenhum dos dois cargos, que são privativos de brasileiro nato."
+        "text": "O nascido no Brasil é brasileiro nato, podendo ocupar ambos os cargos; o português naturalizado não pode ocupar nenhum dos dois cargos, que são privativos de brasileiro nato."
       }
     ],
     "correctAnswer": "D",
@@ -2629,19 +2629,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, porque o divórcio dissolveu formalmente o vínculo conjugal antes das convenções partidárias."
+        "text": "Sim, porque o divórcio dissolveu formalmente o vínculo conjugal antes das convenções partidárias. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "Não, mas ela poderia concorrer ao cargo de Governadora do Estado mesmo sem o divórcio."
+        "text": "Não, mas ela poderia concorrer ao cargo de Governadora do Estado mesmo sem o divórcio, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "C",
-        "text": "A inelegibilidade reflexa é absoluta, impedindo o cônjuge de disputar reeleição mesmo quando já detinha mandato eletivo anterior."
+        "text": "A inelegibilidade reflexa é absoluta, impedindo o cônjuge de disputar reeleição mesmo quando já detinha mandato eletivo anterior, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "D",
-        "text": "Não. Conforme a Súmula Vinculante nº 18 do STF, a dissolução da sociedade ou do vínculo conjugal no curso do mandato não afasta a inelegibilidade reflexa prevista no Art. 14, § 7º, da Constituição Federal."
+        "text": "Não, a dissolução da sociedade ou do vínculo conjugal no curso do mandato não afasta a inelegibilidade reflexa."
       }
     ],
     "correctAnswer": "D",
@@ -2685,19 +2685,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Manterá o mandato livremente porque a fidelidade partidária aplica-se apenas a Senadores e Prefeitos."
+        "text": "Manterá o mandato livremente porque a fidelidade partidária aplica-se apenas a Senadores e Prefeitos. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "O partido que não atingir a cláusula de desempenho perderá automaticamente o registro no TSE e será extinto."
+        "text": "O partido que não atingir a cláusula de desempenho perderá automaticamente o registro no TSE e será extinto, em observância estrita à reserva constitucional de competência legislativa privativa. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "C",
-        "text": "O Deputado pode migrar na janela partidária apenas nos 30 dias do primeiro ano de mandato."
+        "text": "O Deputado pode migrar na janela partidária apenas nos 30 dias do primeiro ano de mandato, com produção regular de efeitos jurídicos independentemente de regulamentação complementar."
       },
       {
         "letter": "D",
-        "text": "Perderá o mandato eletivo por infidelidade partidária (Súmula TSE / Art. 17, § 6º CF), salvo se obtiver anuência expressa do partido ou configurar justa causa legal, pois os mandatos proporcionais pertencem ao partido/federação."
+        "text": "Perderá o mandato eletivo por infidelidade partidária, salvo se obtiver anuência expressa do partido ou configurar justa causa legal, pois os mandatos proporcionais pertencem ao partido/federação."
       }
     ],
     "correctAnswer": "D",
@@ -2741,19 +2741,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas são inconstitucionais, pois horário de funcionamento do comércio é competência privativa da União."
+        "text": "Ambas são inconstitucionais, pois horário de funcionamento do comércio é competência privativa da União. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "A lei estadual sobre crimes tributários é válida com base na competência concorrente sobre direito tributário."
+        "text": "A lei estadual sobre crimes tributários é válida com base na competência concorrente sobre direito tributário, em consonância com a presunção relativa de constitucionalidade dos atos normativos primários."
       },
       {
         "letter": "C",
-        "text": "A lei municipal sobre horário de comércio local é constitucional (interesse local — Art. 30, I, e Súmula Vinculante 38 STF); já a lei estadual sobre crimes tributários e sorteios é formalmente inconstitucional por invadir competência privativa da União (Art. 22, I e XX)."
+        "text": "A lei municipal sobre horário de comércio local é constitucional; já a lei estadual sobre crimes tributários e sorteios é formalmente inconstitucional por invadir competência privativa da União."
       },
       {
         "letter": "D",
-        "text": "A lei municipal seria constitucional mesmo se disciplinasse horário de atendimento bancário nas agências locais."
+        "text": "A lei municipal seria constitucional mesmo se disciplinasse horário de atendimento bancário nas agências locais, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       }
     ],
     "correctAnswer": "C",
@@ -2797,19 +2797,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A lei estadual era nula ab initio, pois o Estado não pode legislar sem prévia autorização de norma geral federal."
+        "text": "A lei estadual era nula ab initio, pois o Estado não pode legislar sem prévia autorização de norma geral federal. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "A lei federal superveniente revoga integralmente toda a lei estadual anterior."
+        "text": "A lei federal superveniente revoga integralmente toda a lei estadual anterior, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "C",
-        "text": "O Estado exerceu legitimamente a competência legislativa plena (§ 3º); porém, com a superveniência da lei federal de normas gerais, a lei estadual tem sua eficácia suspensa exclusivamente no que lhe for contrária (§ 4º), sem ser revogada."
+        "text": "O Estado exerceu legitimamente a competência legislativa plena; porém, com a superveniência da lei federal de normas gerais, a lei estadual tem sua eficácia suspensa exclusivamente no que lhe for contrária, sem ser revogada."
       },
       {
         "letter": "D",
-        "text": "Os Municípios integram o caput do Art. 24 ao lado da União, Estados e Distrito Federal."
+        "text": "Os Municípios integram o caput ao lado da União, Estados e Distrito Federal, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       }
     ],
     "correctAnswer": "C",
@@ -2852,19 +2852,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Pelo discurso na tribuna pode ser condenado apenas civilmente em indenização por danos morais."
+        "text": "Pelo discurso na tribuna pode ser condenado apenas civilmente em indenização por danos morais, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "Não pode ser preso em flagrante nem por crime inafiançável durante o mandato sem prévia licença da Câmara."
+        "text": "Não pode ser preso em flagrante nem por crime inafiançável durante o mandato sem prévia licença da Câmara, com vedação à modulação ou relativização de efeitos por ato normativo infralegal superveniente."
       },
       {
         "letter": "C",
-        "text": "Pelo discurso na tribuna é materialmente inviolável (imunidade material — não responde civil nem penalmente); pelo crime comum alheio ao mandato, pode ser preso em flagrante por crime inafiançável, devendo os autos ser remetidos em 24h à Câmara dos Deputados para deliberar sobre a prisão pelo voto da maioria de seus membros."
+        "text": "Pelo discurso na tribuna é materialmente inviolável; pelo crime comum alheio ao mandato, pode ser preso em flagrante por crime inafiançável, devendo os autos ser remetidos em 24h à Câmara dos Deputados para deliberar sobre a prisão pelo voto da maioria de seus membros."
       },
       {
         "letter": "D",
-        "text": "O processo criminal por crime praticado após a diplomação exige prévia autorização da Câmara para o STF receber a denúncia."
+        "text": "O processo criminal por crime praticado após a diplomação exige prévia autorização da Câmara para o STF receber a denúncia, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       }
     ],
     "correctAnswer": "C",
@@ -2907,19 +2907,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Toda a medida provisória é válida, exceto a abertura de crédito extraordinário, que exige lei complementar."
+        "text": "Toda a medida provisória é válida, exceto a abertura de crédito extraordinário, que exige lei complementar. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "Nenhuma matéria tributária pode ser tratada por medida provisória em razão do princípio da legalidade."
+        "text": "Nenhuma matéria tributária pode ser tratada por medida provisória em razão do princípio da legalidade, diante da eficácia imediata e vinculante atribuída à regra constitucional de organização estatal."
       },
       {
         "letter": "C",
-        "text": "Apenas a abertura de crédito extraordinário para calamidade pública e a majoração do Imposto de Renda são constitucionalmente admissíveis via MP (observado quanto ao IR o princípio da anterioridade); a criação de tipo penal por MP é expressamente vedada (Art. 62, § 1º, I, \"b\")."
+        "text": "Apenas a abertura de crédito extraordinário para calamidade pública e a majoração do Imposto de Renda são constitucionalmente admissíveis via MP."
       },
       {
         "letter": "D",
-        "text": "Caso o Congresso rejeite a MP, é possível reeditá-la no mês seguinte da mesma sessão legislativa."
+        "text": "Caso o Congresso rejeite a MP, é possível reeditá-la no mês seguinte da mesma sessão legislativa, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       }
     ],
     "correctAnswer": "C",
@@ -2962,19 +2962,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o poder de emendar é inerente à atividade parlamentar em qualquer projeto de lei."
+        "text": "Sim, pois o poder de emendar é inerente à atividade parlamentar em qualquer projeto de lei. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "A sanção presidencial posterior convalida o vício formal de iniciativa e torna constitucional a emenda."
+        "text": "A sanção presidencial posterior convalida o vício formal de iniciativa e torna constitucional a emenda, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "C",
-        "text": "Não. Nos projetos de iniciativa exclusiva do Presidente da República, não é admitido aumento da despesa prevista (Art. 63, I, da CF/88), tornando inconstitucional a emenda parlamentar que amplia a remuneração."
+        "text": "Não, nos projetos de iniciativa exclusiva do Presidente da República, não é admitido aumento da despesa prevista, tornando inconstitucional a emenda parlamentar que amplia a remuneração."
       },
       {
         "letter": "D",
-        "text": "A vedação ao aumento de despesa impede inclusive que o Congresso emende projetos de lei orçamentária anual."
+        "text": "A vedação ao aumento de despesa impede inclusive que o Congresso emende projetos de lei orçamentária anual, com vedação à modulação ou relativização de efeitos por ato normativo infralegal superveniente."
       }
     ],
     "correctAnswer": "C",
@@ -3017,19 +3017,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O único vício é o desrespeito ao estado de sítio, pois o Presidente promulga emendas constitucionais."
+        "text": "O único vício é o desrespeito ao estado de sítio, pois o Presidente promulga emendas constitucionais. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "As cláusulas pétreas proíbem apenas a extinção do voto direto e secreto, não protegendo a forma federativa."
+        "text": "As cláusulas pétreas proíbem apenas a extinção do voto direto e secreto, não protegendo a forma federativa, sem admitir interpretação extensiva que amplie restrições não previstas na ordem constitucional."
       },
       {
         "letter": "C",
-        "text": "Vários vícios graves: não pode haver emenda na vigência de estado de sítio (limite circunstancial — § 1º), não pode tender a abolir a forma federativa (cláusula pétrea — § 4º, I), e a promulgação compete às Mesas da Câmara e do Senado, nunca ao Presidente da República (§ 3º)."
+        "text": "Vários vícios graves: não pode haver emenda na vigência de estado de sítio, não pode tender a abolir a forma federativa, e a promulgação compete às Mesas da Câmara e do Senado, nunca ao Presidente da República."
       },
       {
         "letter": "D",
-        "text": "Caso rejeitada, a PEC poderá ser reapresentada imediatamente mediante assinatura de um terço da Câmara."
+        "text": "Caso rejeitada, a pec poderá ser reapresentada imediatamente mediante assinatura de um terço da Câmara, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       }
     ],
     "correctAnswer": "C",
@@ -3072,19 +3072,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Por crime comum alheio ao cargo responde imediatamente perante o juízo criminal de primeira instância."
+        "text": "Por crime comum alheio ao cargo responde imediatamente perante o juízo criminal de primeira instância, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "A definição dos crimes de responsabilidade e seu rito pode ser estabelecida por lei estadual se envolver governador."
+        "text": "A definição dos crimes de responsabilidade e seu rito pode ser estabelecida por lei estadual se envolver governador, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "C",
-        "text": "Pelo crime comum praticado antes do mandato (estranho às funções), não pode ser responsabilizado na vigência do mandato (§ 4º — imunidade penal temporária); pelo crime de responsabilidade, após juízo de admissibilidade de 2/3 da Câmara dos Deputados, será julgado pelo Senado Federal sob presidência do Presidente do STF."
+        "text": "Pelo crime comum praticado antes do mandato, não pode ser responsabilizado na vigência do mandato."
       },
       {
         "letter": "D",
-        "text": "No julgamento pelo Senado Federal, a condenação depende de maioria simples e pode impor pena de reclusão."
+        "text": "No julgamento pelo Senado Federal, a condenação depende de maioria simples e pode impor pena de reclusão, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       }
     ],
     "correctAnswer": "C",
@@ -3128,19 +3128,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Cabe Ação Direta de Inconstitucionalidade (ADI), sendo desnecessária pertinência temática."
+        "text": "Cabe Ação Direta de Inconstitucionalidade (ADI), sendo desnecessária pertinência temática, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "B",
-        "text": "Cabe Ação Declaratória de Constitucionalidade (ADC) para declarar a não recepção da lei municipal."
+        "text": "Cabe Ação Declaratória de Constitucionalidade (ADC) para declarar a não recepção da lei municipal, sem admitir interpretação extensiva que amplie restrições não previstas na ordem constitucional."
       },
       {
         "letter": "C",
-        "text": "Cabe Arguição de Descumprimento de Preceito Fundamental (ADPF), por força do princípio da subsidiariedade (lei municipal e direito pré-constitucional não são objeto de ADI), devendo a entidade de classe de âmbito nacional demonstrar pertinência temática e atuar por advogado."
+        "text": "Cabe Arguição de Descumprimento de Preceito Fundamental (ADPF), por força do princípio da subsidiariedade, devendo a entidade de classe de âmbito nacional demonstrar pertinência temática e atuar por advogado."
       },
       {
         "letter": "D",
-        "text": "Como legitimada universal, a entidade de classe de âmbito nacional possui capacidade postulatória própria, dispensando advogado."
+        "text": "Como legitimada universal, a entidade de classe de âmbito nacional possui capacidade postulatória própria, dispensando advogado. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       }
     ],
     "correctAnswer": "C",
@@ -3183,19 +3183,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois no controle difuso qualquer câmara isolada pode afastar a aplicação de lei sem declarar formalmente sua inconstitucionalidade."
+        "text": "Sim, pois no controle difuso qualquer câmara isolada pode afastar a aplicação de lei sem declarar formalmente sua inconstitucionalidade. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "A reserva de plenário aplica-se inclusive para declarações de constitucionalidade e para interpretação conforme a Constituição."
+        "text": "A reserva de plenário aplica-se inclusive para declarações de constitucionalidade e para interpretação conforme a Constituição, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "C",
-        "text": "Não. Viola a cláusula de reserva de plenário (Art. 97 CF) e a Súmula Vinculante nº 10 do STF, pois órgão fracionário não pode declarar inconstitucionalidade nem afastar a incidência da norma, no todo ou em parte, sem observar o quórum da maioria absoluta do pleno ou órgão especial."
+        "text": "Não, viola a cláusula de reserva de plenário e a Súmula Vinculante nº 10 do STF, pois órgão fracionário não pode declarar inconstitucionalidade nem afastar a incidência da norma, no todo ou em parte, sem observar o quórum da maioria absoluta do pleno ou órgão especial."
       },
       {
         "letter": "D",
-        "text": "O juiz de primeiro grau também está proibido de declarar inconstitucionalidade no controle difuso por força do Art. 97."
+        "text": "O juiz de primeiro grau também está proibido de declarar inconstitucionalidade no controle difuso por força, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       }
     ],
     "correctAnswer": "C",
@@ -3239,19 +3239,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois a afronta direta a súmula vinculante autoriza reclamação imediata contra qualquer ato administrativo ou judicial."
+        "text": "Sim, pois a afronta direta a súmula vinculante autoriza reclamação imediata contra qualquer ato administrativo ou judicial. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "As súmulas vinculantes vinculam também o Poder Legislativo em sua função típica de legislar."
+        "text": "As súmulas vinculantes vinculam também o Poder Legislativo em sua função típica de legislar, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "C",
-        "text": "Não. Tratando-se de ato administrativo que contrarie Súmula Vinculante, a reclamação ao STF só será admitida após o esgotamento das vias administrativas (Art. 7º, § 1º, da Lei nº 11.417/2006)."
+        "text": "Não, tratando-se de ato administrativo que contrarie Súmula Vinculante, a reclamação ao STF só será admitida após o esgotamento das vias administrativas."
       },
       {
         "letter": "D",
-        "text": "O quórum para edição, revisão ou cancelamento de súmula vinculante pelo STF é de maioria absoluta de seus ministros."
+        "text": "O quórum para edição, revisão ou cancelamento de súmula vinculante pelo STF é de maioria absoluta de seus ministros, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       }
     ],
     "correctAnswer": "C",
@@ -3294,19 +3294,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Ministério Público possui autonomia funcional, mas suas propostas orçamentárias são elaboradas livremente pelo Governador sem vínculo com a LDO."
+        "text": "O Ministério Público possui autonomia funcional, mas suas propostas orçamentárias são elaboradas livremente pelo Governador sem vínculo com a LDO, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "B",
-        "text": "Os membros do Ministério Público gozam das garantias de vitaliciedade (após 2 anos), inamovibilidade e irredutibilidade de subsídios, sendo-lhes vedado exercer atividade político-partidária ou a advocacia; e à Defensoria Pública estadual é assegurada autonomia funcional, administrativa e iniciativa de proposta orçamentária."
+        "text": "Os membros do Ministério Público gozam das garantias de vitaliciedade (após 2 anos), inamovibilidade e irredutibilidade de subsídios, sendo-lhes vedado exercer atividade político-partidária ou a advocacia."
       },
       {
         "letter": "C",
-        "text": "Os membros do MP podem exercer a advocacia privada fora do horário de expediente mediante autorização do Procurador-Geral."
+        "text": "Os membros do MP podem exercer a advocacia privada fora do horário de expediente mediante autorização do Procurador-Geral, diante da eficácia imediata e vinculante atribuída à regra constitucional de organização estatal."
       },
       {
         "letter": "D",
-        "text": "A Advocacia-Geral da União representa judicialmente tanto a União quanto as entidades da Administração Indireta de todos os Estados."
+        "text": "A Advocacia-Geral da União representa judicialmente tanto a União quanto as entidades da Administração Indireta de todos os Estados, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       }
     ],
     "correctAnswer": "B",
@@ -3349,19 +3349,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Estado de Sítio (Art. 137 CF), pois em casos de comoção grave prescinde de prévia autorização congressual."
+        "text": "O Estado de Sítio, pois em casos de comoção grave prescinde de prévia autorização congressual. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "O Estado de Defesa (Art. 136 CF), decretado pelo Presidente da República em locais restritos e determinados após ouvir o Conselho da República e o Conselho de Defesa Nacional, submetido ao Congresso Nacional em 24 horas para apreciação em 10 dias."
+        "text": "O Estado de Defesa, decretado pelo Presidente da República em locais restritos e determinados após ouvir o Conselho da República e o Conselho de Defesa Nacional, submetido ao Congresso Nacional em 24 horas para apreciação em 10 dias."
       },
       {
         "letter": "C",
-        "text": "A Intervenção Federal em município por desordem financeira, independentemente de decreto estadual."
+        "text": "A Intervenção Federal em município por desordem financeira, independentemente de decreto estadual, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "D",
-        "text": "O Estado de Defesa autoriza a suspensão indefinida do direito de habeas corpus em todo o território nacional."
+        "text": "O Estado de Defesa autoriza a suspensão indefinida do direito de habeas corpus em todo o território nacional, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       }
     ],
     "correctAnswer": "B",
@@ -3404,19 +3404,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Depende de provimento de representação do Procurador-Geral da República pelo STJ e posterior aprovação do Senado em 24 horas."
+        "text": "Depende de provimento de representação do Procurador-Geral da República pelo STJ e posterior aprovação do Senado em 24 horas, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "B",
-        "text": "Depende de requisição do Supremo Tribunal Federal (Art. 36, II, da CF/88), dispensando-se a apreciação posterior pelo Congresso Nacional, limitando-se o decreto presidencial a suspender a execução do ato impugnado se essa medida bastar ao restabelecimento da normalidade."
+        "text": "Depende de requisição do Supremo Tribunal Federal, dispensando-se a apreciação posterior pelo Congresso Nacional, limitando-se o decreto presidencial a suspender a execução do ato impugnado se essa medida bastar ao restabelecimento da normalidade."
       },
       {
         "letter": "C",
-        "text": "Pode ser decretada de ofício pelo Presidente da República sem atuação de qualquer tribunal."
+        "text": "Pode ser decretada de ofício pelo Presidente da República sem atuação de qualquer tribunal, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "D",
-        "text": "A União pode intervir diretamente em Município localizado em Estado-membro quando o Prefeito descumprir decisão judicial."
+        "text": "A União pode intervir diretamente em Município localizado em Estado-membro quando o Prefeito descumprir decisão judicial, com respaldo na autonomia federativa assegurada aos entes políticos para dispor sobre o tema."
       }
     ],
     "correctAnswer": "B",
@@ -3459,19 +3459,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O STF acolheu integralmente a tese do marco temporal, exigindo prova documental cartorária da posse em 5/10/1988."
+        "text": "O STF acolheu integralmente a tese do marco temporal, exigindo prova documental cartorária da posse em 5/10/1988, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "B",
-        "text": "O STF rejeitou a tese do marco temporal absoluto no RE 1.017.365 (Tema 1031), afirmando que a proteção constitucional aos direitos originários sobre as terras tradicionalmente ocupadas independe da existência de marco temporal em 5/10/1988 ou da configuração de conflito possessório naquela data."
+        "text": "O STF rejeitou a tese do marco temporal absoluto no RE 1.017.365, afirmando que a proteção constitucional aos direitos originários sobre as terras tradicionalmente ocupadas independe da existência de marco temporal em 5/10/1988 ou da configuração de conflito possessório naquela data."
       },
       {
         "letter": "C",
-        "text": "As terras tradicionalmente ocupadas pelos índios pertencem em domínio pleno privado às próprias comunidades indígenas, podendo ser vendidas."
+        "text": "As terras tradicionalmente ocupadas pelos índios pertencem em domínio pleno privado às próprias comunidades indígenas, podendo ser vendidas, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "D",
-        "text": "O aproveitamento dos recursos hídricos e minerais em terras indígenas independe de autorização do Congresso Nacional."
+        "text": "O aproveitamento dos recursos hídricos e minerais em terras indígenas independe de autorização do Congresso Nacional, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       }
     ],
     "correctAnswer": "B",
@@ -3515,19 +3515,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Os Estados e Municípios respondem subsidiariamente e jamais podem ser demandados isoladamente sem citação prévia da União."
+        "text": "Os Estados e Municípios respondem subsidiariamente e jamais podem ser demandados isoladamente sem citação prévia da União, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "B",
-        "text": "A responsabilidade dos entes federados é solidária (Tema 793), devendo a União figurar no polo passivo quando o medicamento não for incorporado ao SUS ou for oncológico de alta complexidade (Temas 6 e 1234), e a concessão excepcional de fármaco não incorporado exige comprovação cumulativa de incapacidade financeira, imprescindibilidade clínica, inexistência de substituto no SUS e registro na ANVISA."
+        "text": "A responsabilidade dos entes federados é solidária, devendo a União figurar no polo passivo quando o medicamento não for incorporado ao SUS ou for oncológico de alta complexidade (Temas 6 e 1234), e a concessão excepcional de fármaco não incorporado exige comprovação cumulativa de incapacidade financeira, imprescindibilidade clínica, inexistência de substituto no SUS e registro na ANVISA."
       },
       {
         "letter": "C",
-        "text": "É absolutamente vedado ao Judiciário determinar o fornecimento de qualquer medicamento sem registro na ANVISA em qualquer hipótese."
+        "text": "É absolutamente vedado ao Judiciário determinar o fornecimento de qualquer medicamento sem registro na ANVISA em qualquer hipótese, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "D",
-        "text": "O direito à saúde impõe o fornecimento gratuito mesmo quando o paciente possui plena capacidade financeira para custear o tratamento."
+        "text": "O direito à saúde impõe o fornecimento gratuito mesmo quando o paciente possui plena capacidade financeira para custear o tratamento, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       }
     ],
     "correctAnswer": "B",
@@ -3571,19 +3571,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "A Mesa Diretora pode impedir qualquer CPI por deliberação discricionária do plenário, mesmo quando presentes todos os requisitos."
+        "text": "A Mesa Diretora pode impedir qualquer CPI por deliberação discricionária do plenário, mesmo quando presentes todos os requisitos, com produção regular de efeitos jurídicos independentemente de regulamentação complementar."
       },
       {
         "letter": "B",
-        "text": "A instalação de CPI é direito público subjetivo das minorias parlamentares, mas exige o preenchimento simultâneo de três requisitos constitucionais: requerimento de 1/3 dos membros, apuração de FATO DETERMINADO e PRAZO CERTO; faltando fato determinado e prazo certo, não estão preenchidos os pressupostos do Art. 58, § 3º."
+        "text": "A instalação de CPI é direito público subjetivo das minorias parlamentares, mas exige o preenchimento simultâneo de três requisitos constitucionais: requerimento de 1/3 dos membros, apuração de fato determinado e prazo certo."
       },
       {
         "letter": "C",
-        "text": "O requisito de prazo certo impede qualquer prorrogação da CPI além do prazo inicial fixado."
+        "text": "O requisito de prazo certo impede qualquer prorrogação da CPI além do prazo inicial fixado, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "D",
-        "text": "A CPI possui poder condenatório para decretar indisponibilidade de bens e perda de mandato diretamente."
+        "text": "A CPI possui poder condenatório para decretar indisponibilidade de bens e perda de mandato diretamente, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       }
     ],
     "correctAnswer": "B",
@@ -3626,19 +3626,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Sim, pois o princípio da não afetação aplica-se apenas a impostos federais."
+        "text": "Sim, pois o princípio da não afetação aplica-se apenas a impostos federais. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "Não. É vedada a vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas as hipóteses expressamente previstas na própria Constituição (repartição constitucional, saúde, educação, administração tributária e garantia de operações de crédito por ARO)."
+        "text": "Não, é vedada a vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas as hipóteses expressamente previstas na própria Constituição."
       },
       {
         "letter": "C",
-        "text": "Sim, porque a Constituição permite vincular impostos a qualquer órgão autônomo como o Judiciário e o Ministério Público."
+        "text": "Sim, porque a Constituição permite vincular impostos a qualquer órgão autônomo como o Judiciário e o Ministério Público. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "D",
-        "text": "A vedação do Art. 167, IV, abrange igualmente taxas e contribuições de melhoria."
+        "text": "A vedação, abrange igualmente taxas e contribuições de melhoria, em observância estrita à reserva constitucional de competência legislativa privativa. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       }
     ],
     "correctAnswer": "B",
@@ -3681,19 +3681,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Desapropriação comum por utilidade pública, paga obrigatoriamente em dinheiro de forma prévia e justa."
+        "text": "Desapropriação comum por utilidade pública, paga obrigatoriamente em dinheiro de forma prévia e justa, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "Desapropriação urbanística sancionatória (Art. 182, § 4º, III, da CF/88), de competência municipal, com indenização paga mediante títulos da dívida pública de emissão previamente aprovada pelo Senado Federal, resgatáveis em até 10 anos em parcelas anuais, iguais e sucessivas."
+        "text": "Desapropriação urbanística sancionatória, de competência municipal, com indenização paga mediante títulos da dívida pública de emissão previamente aprovada pelo Senado Federal, resgatáveis em até 10 anos em parcelas anuais, iguais e sucessivas."
       },
       {
         "letter": "C",
-        "text": "Desapropriação rural para fins de reforma agrária, paga em títulos da dívida agrária resgatáveis em até 20 anos."
+        "text": "Desapropriação rural para fins de reforma agrária, paga em títulos da dívida agrária resgatáveis em até 20 anos, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "D",
-        "text": "Confisco sem qualquer indenização, com destinação à reforma urbana."
+        "text": "Confisco sem qualquer indenização, com destinação à reforma urbana, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       }
     ],
     "correctAnswer": "B",
@@ -3736,19 +3736,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O CNJ possui competência recursal para reformar sentenças judiciais proferidas com erro grosseiro de direito material."
+        "text": "O CNJ possui competência recursal para reformar sentenças judiciais proferidas com erro grosseiro de direito material, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "B",
-        "text": "O CNJ compõe-se de 15 membros com mandato de 2 anos (admitida uma recondução), é presidido pelo Presidente do STF e exerce controle administrativo, financeiro e disciplinar, podendo avocar processos disciplinares em curso e rever atos administrativos, sem jamais exercer controle de conteúdo jurisdicional ou controle concentrado de constitucionalidade."
+        "text": "O CNJ compõe-se de 15 membros com mandato de 2 anos, é presidido pelo Presidente do STF e exerce controle administrativo, financeiro e disciplinar, podendo avocar processos disciplinares em curso e rever atos administrativos, sem jamais exercer controle de conteúdo jurisdicional ou controle concentrado de constitucionalidade."
       },
       {
         "letter": "C",
-        "text": "O CNJ pode declarar a inconstitucionalidade de lei estadual com efeitos erga omnes em processo administrativo."
+        "text": "O CNJ pode declarar a inconstitucionalidade de lei estadual com efeitos erga omnes em processo administrativo, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       },
       {
         "letter": "D",
-        "text": "O CNJ é presidido pelo Procurador-Geral da República com mandato de 4 anos."
+        "text": "O CNJ é presidido pelo Procurador-Geral da República com mandato de 4 anos, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       }
     ],
     "correctAnswer": "B",
@@ -3792,19 +3792,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas são inválidas, pois a Súmula Vinculante 3 exige contraditório prévio mesmo na apreciação inicial de aposentadoria."
+        "text": "Ambas são inválidas, pois a Súmula Vinculante 3 exige contraditório prévio mesmo na apreciação inicial de aposentadoria. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "B",
-        "text": "A negativa de registro inicial do ato de aposentadoria dentro do prazo de 5 anos dispensa contraditório prévio (Súmula Vinculante nº 3 + Tema 445 STF); porém, a sustação direta de CONTRATO administrativo pelo TCU é inconstitucional, pois compete primeiro ao Congresso Nacional (Art. 71, § 1º)."
+        "text": "A negativa de registro inicial do ato de aposentadoria dentro do prazo de 5 anos dispensa contraditório prévio; porém, a sustação direta de contrato administrativo pelo TCU é inconstitucional, pois compete primeiro ao Congresso Nacional."
       },
       {
         "letter": "C",
-        "text": "O TCU pode sustar diretamente tanto atos administrativos quanto contratos administrativos sem ouvir o Congresso."
+        "text": "O TCU pode sustar diretamente tanto atos administrativos quanto contratos administrativos sem ouvir o Congresso, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "D",
-        "text": "As decisões do TCU das quais resulte imputação de débito ou multa não têm eficácia de título executivo."
+        "text": "As decisões do TCU das quais resulte imputação de débito ou multa não têm eficácia de título executivo, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       }
     ],
     "correctAnswer": "B",
@@ -3848,19 +3848,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Não. O Art. 5º, XXXIV, assegura a todos, independentemente do pagamento de taxas, o direito de petição aos Poderes Públicos e a obtenção de certidões em repartições públicas para defesa de direitos e esclarecimento de situações de interesse pessoal."
+        "text": "Não, o Art. 5º, XXXIV, assegura a todos, independentemente do pagamento de taxas, o direito de petição aos Poderes Públicos e a obtenção de certidões em repartições públicas para defesa de direitos e esclarecimento de situações de interesse pessoal."
       },
       {
         "letter": "B",
-        "text": "Sim, pois apenas a certidão de nascimento e óbito é gratuita aos reconhecidamente pobres."
+        "text": "Sim, pois apenas a certidão de nascimento e óbito é gratuita aos reconhecidamente pobres. Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial."
       },
       {
         "letter": "C",
-        "text": "Se a certidão for negada pela repartição pública, o remédio constitucional adequado para obtê-la é o Habeas Data."
+        "text": "Se a certidão for negada pela repartição pública, o remédio constitucional adequado para obtê-la é o Habeas Data, com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa."
       },
       {
         "letter": "D",
-        "text": "O direito de certidão aplica-se também para obtenção de dados cujo sigilo seja imprescindível à segurança da sociedade e do Estado."
+        "text": "O direito de certidão aplica-se também para obtenção de dados cujo sigilo seja imprescindível à segurança da sociedade e do Estado, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       }
     ],
     "correctAnswer": "A",
@@ -3903,19 +3903,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "O Deputado Estadual com foro por prerrogativa previsto na Constituição Estadual será julgado pelo Tribunal de Justiça (se o crime tiver sido cometido no cargo e em razão dele, ou pelo Júri se não tiver relação — Tema 1209/AP 937); já o latrocínio é crime patrimonial julgado pelo juiz singular, não pelo Tribunal do Júri (Súmula 603 STF)."
+        "text": "O Deputado Estadual com foro por prerrogativa previsto na Constituição Estadual será julgado pelo Tribunal de Justiça."
       },
       {
         "letter": "B",
-        "text": "Ambos devem ser julgados pelo Tribunal do Júri, pois homicídio e latrocínio são crimes dolosos contra a vida."
+        "text": "Ambos devem ser julgados pelo Tribunal do Júri, pois homicídio e latrocínio são crimes dolosos contra a vida. Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente."
       },
       {
         "letter": "C",
-        "text": "O foro por prerrogativa de função previsto na Constituição Estadual prevalece sobre a competência do Tribunal do Júri."
+        "text": "O foro por prerrogativa de função previsto na Constituição Estadual prevalece sobre a competência do Tribunal do Júri, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       },
       {
         "letter": "D",
-        "text": "A soberania dos veredictos impede a interposição de apelação contra decisão dos jurados manifestamente contrária à prova dos autos."
+        "text": "A soberania dos veredictos impede a interposição de apelação contra decisão dos jurados manifestamente contrária à prova dos autos, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       }
     ],
     "correctAnswer": "A",
@@ -3959,19 +3959,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Advogados de notório saber jurídico e reputação ilibada, com mais de dez anos de efetiva atividade profissional, indicados em lista sêxtupla pela OAB; o Tribunal forma lista tríplice e a envia ao Chefe do Poder Executivo, que escolhe e nomeia um dos integrantes nos 20 dias subsequentes."
+        "text": "Advogados de notório saber jurídico e reputação ilibada, com mais de dez anos de efetiva atividade profissional, indicados em lista sêxtupla pela OAB."
       },
       {
         "letter": "B",
-        "text": "Advogados com mais de 5 anos de atividade, indicados em lista tríplice pela OAB para escolha direta do Tribunal."
+        "text": "Advogados com mais de 5 anos de atividade, indicados em lista tríplice pela OAB para escolha direta do Tribunal, mediante observância formal do devido processo legislativo ordinário aplicável à espécie."
       },
       {
         "letter": "C",
-        "text": "Após tomar posse pelo quinto constitucional, o desembargador só adquire vitaliciedade após 2 anos de estágio probatório."
+        "text": "Após tomar posse pelo quinto constitucional, o desembargador só adquire vitaliciedade após 2 anos de estágio probatório, com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes."
       },
       {
         "letter": "D",
-        "text": "Juiz aposentado compulsoriamente por sanção disciplinar perde o cargo e não pode advogar por 3 anos no mesmo tribunal."
+        "text": "Juiz aposentado compulsoriamente por sanção disciplinar perde o cargo e não pode advogar por 3 anos no mesmo tribunal, consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente."
       }
     ],
     "correctAnswer": "A",
@@ -4014,19 +4014,19 @@ export const CONSTITUCIONAL_EXPANDED_QUESTIONS: LegalQuestion[] = [
     "options": [
       {
         "letter": "A",
-        "text": "Ambas são inconstitucionais: o empréstimo compulsório exige lei complementar e só cabe em calamidade pública, guerra externa ou investimento público urgente e de relevante interesse nacional; e a competência residual da União para novos impostos exige lei complementar (vedada MP), caráter não cumulativo e fato gerador/base de cálculo próprios."
+        "text": "Ambas são inconstitucionais: o empréstimo compulsório exige lei complementar e só cabe em calamidade pública, guerra externa ou investimento público urgente e de relevante interesse nacional."
       },
       {
         "letter": "B",
-        "text": "O empréstimo compulsório pode ser criado para cobrir déficit orçamentário comum desde que por lei complementar."
+        "text": "O empréstimo compulsório pode ser criado para cobrir déficit orçamentário comum desde que por lei complementar, com respaldo na autonomia federativa assegurada aos entes políticos para dispor sobre o tema."
       },
       {
         "letter": "C",
-        "text": "O imposto residual pode ser instituído por lei ordinária se for não cumulativo."
+        "text": "O imposto residual pode ser instituído por lei ordinária se for não cumulativo, sem admitir interpretação extensiva que amplie restrições não previstas na ordem constitucional."
       },
       {
         "letter": "D",
-        "text": "Em caso de guerra externa, a União pode instituir empréstimo compulsório por decreto presidencial."
+        "text": "Em caso de guerra externa, a União pode instituir empréstimo compulsório por decreto presidencial, mediante observância formal do devido processo legislativo ordinário aplicável à espécie. Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior."
       }
     ],
     "correctAnswer": "A",

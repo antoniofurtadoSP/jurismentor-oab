@@ -46,13 +46,13 @@ export const CadernoErrosView: React.FC<CadernoErrosViewProps> = ({
   return (
     <div className="max-w-6xl mx-auto px-4 py-6 space-y-8 animate-in fade-in">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-800">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-[#DFD7C8]">
         <div>
-          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-white flex items-center gap-2.5">
-            <AlertOctagon className="w-7 h-7 text-rose-400" />
+          <h1 className="font-display text-2xl sm:text-3xl font-bold text-stone-900 flex items-center gap-2.5">
+            <AlertOctagon className="w-7 h-7 text-[#7B1E26]" />
             Caderno de Erros & Aprendizado Ativo
           </h1>
-          <p className="text-sm text-slate-400 mt-1">
+          <p className="text-sm font-serif italic text-stone-600 mt-1">
             Revisão cirúrgica de todas as questões que você errou em simulados para sanar lacunas
           </p>
         </div>
@@ -60,51 +60,51 @@ export const CadernoErrosView: React.FC<CadernoErrosViewProps> = ({
         {errorQuestions.length > 0 && (
           <button
             onClick={handleTrainAll}
-            className="px-5 py-2.5 rounded-xl bg-rose-500 hover:bg-rose-400 text-white font-bold text-xs transition-colors cursor-pointer flex items-center gap-2 self-start sm:self-auto shadow-lg shadow-rose-500/20"
+            className="px-5 py-2.5 rounded-xl bg-[#7B1E26] hover:bg-[#61161D] text-[#FAF7F2] font-bold text-xs transition-colors cursor-pointer flex items-center gap-2 self-start sm:self-auto shadow-xs"
           >
-            <Play className="w-4 h-4 fill-white" />
+            <Play className="w-4 h-4" />
             Refazer Questões Erradas ({filteredQuestions.length})
           </button>
         )}
       </div>
 
       {/* Caderno Stats Overview */}
-      <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
+      <div className="bg-white border border-[#DFD7C8] rounded-2xl p-6 sm:p-8 shadow-xs">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2 max-w-xl text-center md:text-left">
-            <h2 className="font-serif text-xl font-bold text-white">
+            <h2 className="font-display text-xl font-bold text-stone-900">
               Por que o Caderno de Erros é a chave da aprovação?
             </h2>
-            <p className="text-sm text-slate-300 leading-relaxed font-sans">
-              Especialistas em concursos e na OAB comprovam que acertar questões que você já domina apenas traz conforto, mas <strong className="text-amber-400">é nos erros que reside o aumento real da sua pontuação</strong>. Refaça cada uma até dominar o dispositivo de lei violado.
+            <p className="text-sm text-stone-700 leading-relaxed font-serif">
+              Especialistas em concursos e na OAB comprovam que acertar questões que você já domina apenas traz conforto, mas <strong className="text-[#7B1E26]">é nos erros que reside o aumento real da sua pontuação</strong>. Refaça cada uma até dominar o dispositivo de lei violado.
             </p>
           </div>
 
-          <div className="flex items-center gap-4 bg-slate-950 p-4 rounded-2xl border border-slate-800">
+          <div className="flex items-center gap-4 bg-[#F5F0E6] p-4 rounded-xl border border-[#DFD7C8]">
             <div className="text-center px-4">
-              <div className="text-xs text-slate-400 font-semibold mb-1">Questões no Caderno</div>
-              <div className="text-3xl font-serif font-black text-rose-400">{errorQuestions.length}</div>
+              <div className="text-xs text-stone-600 font-semibold mb-1">Questões no Caderno</div>
+              <div className="text-3xl font-display font-black tabular-nums text-[#7B1E26]">{errorQuestions.length}</div>
             </div>
-            <div className="h-10 w-[1px] bg-slate-800" />
+            <div className="h-10 w-[1px] bg-[#D6CCB9]" />
             <div className="text-center px-4">
-              <div className="text-xs text-slate-400 font-semibold mb-1">Disciplinas com Dúvida</div>
-              <div className="text-3xl font-serif font-black text-amber-400">{errorSubjects.length}</div>
+              <div className="text-xs text-stone-600 font-semibold mb-1">Disciplinas com Dúvida</div>
+              <div className="text-3xl font-display font-black tabular-nums text-[#1B365D]">{errorSubjects.length}</div>
             </div>
           </div>
         </div>
 
         {/* Filter by subject if errors exist */}
         {errorSubjects.length > 0 && (
-          <div className="mt-6 pt-6 border-t border-slate-800/80 flex items-center gap-2 overflow-x-auto scrollbar-none">
-            <span className="text-xs text-slate-400 font-semibold flex items-center gap-1 shrink-0 mr-1">
+          <div className="mt-6 pt-6 border-t border-[#E6DFD3] flex items-center gap-2 overflow-x-auto scrollbar-none">
+            <span className="text-xs text-stone-600 font-semibold flex items-center gap-1 shrink-0 mr-1">
               <Filter className="w-3.5 h-3.5" /> Filtrar:
             </span>
             <button
               onClick={() => setSelectedSubject('ALL')}
               className={`text-xs px-3 py-1.5 rounded-lg border transition-colors cursor-pointer ${
                 selectedSubject === 'ALL'
-                  ? 'bg-amber-500/20 border-amber-500/40 text-amber-300 font-semibold'
-                  : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:text-slate-200'
+                  ? 'bg-[#1B365D] border-[#1B365D] text-[#FAF7F2] font-semibold'
+                  : 'bg-[#FAF7F2] border-[#D6CCB9] text-stone-700 hover:text-stone-950'
               }`}
             >
               Todas ({errorQuestions.length})
@@ -115,8 +115,8 @@ export const CadernoErrosView: React.FC<CadernoErrosViewProps> = ({
                 onClick={() => setSelectedSubject(sub)}
                 className={`text-xs px-3 py-1.5 rounded-lg border whitespace-nowrap transition-colors cursor-pointer ${
                   selectedSubject === sub
-                    ? 'bg-amber-500/20 border-amber-500/40 text-amber-300 font-semibold'
-                    : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:text-slate-200'
+                    ? 'bg-[#1B365D] border-[#1B365D] text-[#FAF7F2] font-semibold'
+                    : 'bg-[#FAF7F2] border-[#D6CCB9] text-stone-700 hover:text-stone-950'
                 }`}
               >
                 {sub}
@@ -128,14 +128,14 @@ export const CadernoErrosView: React.FC<CadernoErrosViewProps> = ({
 
       {/* List of Error Questions */}
       {filteredQuestions.length === 0 ? (
-        <div className="bg-slate-900 border border-slate-800 rounded-3xl p-12 text-center shadow-xl space-y-4">
-          <div className="w-16 h-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto">
+        <div className="bg-white border border-[#DFD7C8] rounded-2xl p-12 text-center shadow-xs space-y-4">
+          <div className="w-16 h-16 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-800 flex items-center justify-center mx-auto">
             <ShieldCheck className="w-8 h-8" />
           </div>
-          <h3 className="font-serif text-xl font-bold text-white">
+          <h3 className="font-display text-xl font-bold text-stone-900">
             Seu Caderno de Erros está limpo!
           </h3>
-          <p className="text-sm text-slate-400 max-w-md mx-auto">
+          <p className="text-sm font-serif text-stone-600 max-w-md mx-auto">
             {errorQuestions.length === 0 
               ? "Você ainda não errou nenhuma questão ou não realizou simulados. Inicie um simulado para diagnosticar eventuais dúvidas."
               : "Nenhuma questão encontrada para a disciplina selecionada."}
@@ -146,24 +146,24 @@ export const CadernoErrosView: React.FC<CadernoErrosViewProps> = ({
           {filteredQuestions.map((q) => (
             <div
               key={q.id}
-              className="bg-slate-900 border border-slate-800 hover:border-slate-700/80 rounded-2xl p-6 shadow-md transition-all space-y-4"
+              className="bg-white border border-[#DFD7C8] hover:border-[#C7BBA6] rounded-2xl p-6 shadow-xs transition-all space-y-4"
             >
-              <div className="flex flex-wrap items-baseline justify-between gap-2 pb-3 border-b border-slate-800 text-xs">
-                <div className="flex items-center gap-2 text-slate-400">
-                  <span className="text-amber-400 font-semibold">{q.exam}</span>
+              <div className="flex flex-wrap items-baseline justify-between gap-2 pb-3 border-b border-[#E6DFD3] text-xs">
+                <div className="flex items-center gap-2 text-stone-600">
+                  <span className="text-[#1B365D] font-bold">{q.exam}</span>
                   <span>·</span>
-                  <span className="text-slate-300 font-medium">{q.subject}</span>
+                  <span className="text-stone-800 font-semibold">{q.subject}</span>
                   <span>·</span>
                   <span>{q.topic}</span>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <span className="text-rose-400 font-semibold bg-rose-500/10 px-2 py-0.5 rounded border border-rose-500/20">
+                  <span className="text-[#7B1E26] font-semibold font-mono bg-rose-50 px-2.5 py-0.5 rounded border border-rose-200">
                     Gabarito Oficial: {q.correctAnswer}
                   </span>
                   <button
                     onClick={() => handleRemove(q.id)}
-                    className="p-1 rounded text-slate-500 hover:text-emerald-400 hover:bg-slate-800 transition-colors cursor-pointer"
+                    className="p-1 rounded text-stone-500 hover:text-emerald-800 hover:bg-emerald-50 transition-colors cursor-pointer"
                     title="Remover do caderno (marcar como dominada)"
                   >
                     <CheckCircle2 className="w-4 h-4" />
@@ -172,13 +172,13 @@ export const CadernoErrosView: React.FC<CadernoErrosViewProps> = ({
               </div>
 
               {/* Statement */}
-              <div className="font-serif text-sm sm:text-base text-slate-200 leading-relaxed">
+              <div className="font-serif text-sm sm:text-base text-stone-900 leading-relaxed">
                 {q.statement}
               </div>
 
               {/* Legal explanation summary */}
-              <div className="p-4 bg-slate-950/70 rounded-xl border border-slate-800/80 text-xs text-slate-300 leading-relaxed">
-                <strong className="text-amber-400 block mb-1">
+              <div className="p-4 bg-[#FAF7F2] rounded-xl border border-[#E2DBD0] text-xs sm:text-sm font-serif text-stone-800 leading-relaxed">
+                <strong className="font-sans text-xs uppercase tracking-wider text-[#1B365D] block mb-1">
                   Fundamento do Gabarito:
                 </strong>
                 {q.justification}
@@ -189,23 +189,23 @@ export const CadernoErrosView: React.FC<CadernoErrosViewProps> = ({
                 <div className="flex items-center gap-2">
                   <button
                     onClick={() => setSelectedQuestionForVade(q)}
-                    className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium flex items-center gap-1.5 transition-colors cursor-pointer"
+                    className="px-3 py-1.5 rounded-lg bg-[#F4EFE6] hover:bg-[#EAE3D5] text-stone-800 border border-[#D6CCB9] text-xs font-medium flex items-center gap-1.5 transition-colors cursor-pointer"
                   >
-                    <BookOpen className="w-3.5 h-3.5 text-amber-400" />
+                    <BookOpen className="w-3.5 h-3.5 text-[#1B365D]" />
                     <span>Ver Legislação</span>
                   </button>
                   <button
                     onClick={() => setSelectedQuestionForTutor(q)}
-                    className="px-3 py-1.5 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 text-xs font-semibold flex items-center gap-1.5 border border-amber-500/30 transition-colors cursor-pointer"
+                    className="px-3 py-1.5 rounded-lg bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer"
                   >
-                    <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                    <Sparkles className="w-3.5 h-3.5 text-[#E6C574]" />
                     <span>Perguntar ao Professor</span>
                   </button>
                 </div>
 
                 <button
                   onClick={() => handleRemove(q.id)}
-                  className="text-xs text-slate-400 hover:text-emerald-400 font-medium flex items-center gap-1 transition-colors cursor-pointer"
+                  className="text-xs text-stone-600 hover:text-emerald-800 font-medium flex items-center gap-1 transition-colors cursor-pointer"
                 >
                   <CheckCircle2 className="w-3.5 h-3.5" />
                   <span>Já aprendi, remover do caderno</span>

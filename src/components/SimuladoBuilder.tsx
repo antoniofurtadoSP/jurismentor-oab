@@ -324,54 +324,60 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
   return (
     <div className="max-w-6xl mx-auto px-4 py-6 space-y-8 animate-in fade-in">
       {/* Hero Banner */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-slate-900 to-amber-950/40 border border-slate-800 p-6 sm:p-8 shadow-2xl">
-        <div className="relative z-10 max-w-3xl">
-          <div className="flex flex-wrap items-center gap-2 mb-3">
-            <span className="text-amber-400 text-xs font-bold uppercase tracking-wider bg-amber-500/10 px-3 py-1 rounded-lg border border-amber-500/20 flex items-center gap-1.5 shadow-sm">
-              <Zap className="w-3.5 h-3.5 fill-amber-400" />
-              Acervo Oficial com {allQuestions.length} Questões
+      <div className="rounded-2xl bg-white border border-[#D6CCB9] p-6 sm:p-8 shadow-xs">
+        <div className="max-w-3xl">
+          <div className="flex flex-wrap items-center gap-2.5 text-[11px] font-bold uppercase tracking-[0.14em] text-[#8A6518] mb-3">
+            <span className="inline-flex items-center gap-1.5">
+              <Zap className="w-3.5 h-3.5" />
+              Acervo Oficial · {allQuestions.length} Questões
             </span>
-            <span className="text-emerald-400 text-xs font-medium bg-emerald-500/10 px-2.5 py-1 rounded-lg border border-emerald-500/20 flex items-center gap-1">
+            <span className="text-stone-400">·</span>
+            <span className="inline-flex items-center gap-1 text-emerald-800">
               <CheckCircle2 className="w-3.5 h-3.5" />
-              Todas as {availableSubjects.length} Disciplinas
+              {availableSubjects.length} Disciplinas
             </span>
-            <span className="text-indigo-400 text-xs font-medium bg-indigo-500/10 px-2.5 py-1 rounded-lg border border-indigo-500/20 flex items-center gap-1">
+            <span className="text-stone-400">·</span>
+            <span className="inline-flex items-center gap-1 text-[#1B365D]">
               <Sparkles className="w-3.5 h-3.5" />
               IA Ativa · Geração Ilimitada
             </span>
           </div>
-          <h1 className="font-serif text-2xl sm:text-4xl font-black text-white tracking-tight leading-tight mb-3">
+
+          <h1 className="font-display text-2xl sm:text-4xl font-bold text-stone-900 tracking-tight leading-tight mb-3">
             Preparação Completa: OAB, Faculdade e Concursos
           </h1>
-          <p className="text-sm sm:text-base text-slate-300 leading-relaxed mb-6 font-sans">
-            Treine com questões autênticas em larga escala. Simule a prova completa de <strong className="text-amber-300">80 questões da OAB 1ª Fase</strong>, faça baterias de casos concretos da <strong className="text-indigo-300">Faculdade de Direito</strong> ou dispute questões aprofundadas de <strong className="text-emerald-300">Carreiras Jurídicas</strong> com mentoria ativa do Professor.
+          <p className="font-serif text-sm sm:text-base text-stone-700 leading-relaxed mb-6">
+            Treine com questões autênticas em larga escala. Simule a prova completa de{' '}
+            <strong className="text-[#1B365D] font-semibold">80 questões da OAB 1ª Fase</strong>, faça baterias de casos concretos da{' '}
+            <strong className="text-[#7B1E26] font-semibold">Faculdade de Direito</strong> ou dispute questões aprofundadas de{' '}
+            <strong className="text-emerald-900 font-semibold">Carreiras Jurídicas</strong> com mentoria ativa do Professor.
           </p>
 
           <div className="flex flex-wrap gap-2.5 sm:gap-3">
             <button
               onClick={() => handleStartPreset('oab_80_oficial')}
-              className="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-sm font-bold flex items-center gap-2 transition-all cursor-pointer shadow-lg shadow-amber-500/20"
+              className="px-5 py-2.5 rounded-xl bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] text-sm font-semibold flex items-center gap-2 transition-all cursor-pointer shadow-xs"
             >
-              <Play className="w-4 h-4 fill-slate-950" />
+              <Play className="w-4 h-4 fill-[#E6C574] text-[#E6C574]" />
               Simulado Oficial OAB (80 Qs)
             </button>
             <button
               onClick={() => handleStartPreset('oab_express_40')}
-              className="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/30 text-sm font-bold flex items-center gap-2 transition-all cursor-pointer"
+              className="px-5 py-2.5 rounded-xl bg-[#F5F0E6] hover:bg-[#EAE3D5] text-stone-900 border border-[#C59B3E]/60 text-sm font-semibold flex items-center gap-2 transition-all cursor-pointer"
             >
-              <Zap className="w-4 h-4 fill-amber-400" />
+              <Zap className="w-4 h-4 text-[#8A6518]" />
               OAB Express (40 Qs)
             </button>
             <button
               onClick={() => handleStartPreset('faculdade_40')}
-              className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold flex items-center gap-2 transition-all cursor-pointer shadow-lg shadow-indigo-600/20"
+              className="px-5 py-2.5 rounded-xl bg-[#7B1E26] hover:bg-[#61161D] text-[#FAF7F2] text-sm font-semibold flex items-center gap-2 transition-all cursor-pointer shadow-xs"
             >
               <GraduationCap className="w-4 h-4" />
               Prova Faculdade ({Math.min(40, faculdadePoolCount || 40)} Qs)
             </button>
             <button
               onClick={() => handleStartPreset('maratona_infinita')}
-              className="px-5 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-sm font-bold flex items-center gap-2 transition-all cursor-pointer shadow-lg shadow-purple-600/20"
+              className="px-5 py-2.5 rounded-xl bg-white hover:bg-[#F5F0E6] text-[#1B365D] border border-[#1B365D]/40 text-sm font-semibold flex items-center gap-2 transition-all cursor-pointer"
             >
               <InfinityIcon className="w-4 h-4" />
               Maratona Sem Fim
@@ -379,58 +385,53 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
             {onOpenDiagnostic && (
               <button
                 onClick={onOpenDiagnostic}
-                className="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-emerald-300 border border-emerald-500/30 text-sm font-bold flex items-center gap-2 transition-all cursor-pointer"
+                className="px-5 py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border border-emerald-300 text-sm font-semibold flex items-center gap-2 transition-all cursor-pointer"
               >
-                <Crosshair className="w-4 h-4 text-emerald-400" />
+                <Crosshair className="w-4 h-4 text-emerald-800" />
                 Simulado Diagnóstico
               </button>
             )}
           </div>
         </div>
-
-        {/* Ambient watermark */}
-        <div className="absolute right-4 -bottom-6 opacity-5 pointer-events-none text-amber-400">
-          <BookOpen className="w-80 h-80" />
-        </div>
       </div>
 
       {/* Central de Expansão de Questões com Inteligência Artificial */}
-      <div className="bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 border border-indigo-500/30 rounded-3xl p-5 sm:p-6 shadow-xl">
+      <div className="bg-[#F5F0E6] border border-[#C59B3E]/50 rounded-2xl p-5 sm:p-6 shadow-xs">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div className="space-y-2 max-w-xl">
-            <div className="flex items-center gap-2">
-              <div className="p-2 bg-indigo-500/20 border border-indigo-500/40 rounded-xl text-indigo-400">
+            <div className="flex items-center gap-2.5">
+              <div className="p-2 bg-white border border-[#C59B3E]/40 rounded-lg text-[#1B365D]">
                 <Sparkles className="w-5 h-5" />
               </div>
-              <h3 className="font-serif font-bold text-base sm:text-lg text-white">
+              <h3 className="font-display font-bold text-base sm:text-lg text-stone-900">
                 Central de Expansão de Questões com Inteligência Artificial
               </h3>
             </div>
-            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            <p className="font-serif text-xs sm:text-sm text-stone-700 leading-relaxed">
               Precisa de mais questões? Nosso motor de IA jurídica gera baterias inteiras de questões inéditas e oficiais com gabarito fundamentado na legislação e súmulas, salvando-as permanentemente no seu aplicativo.
             </p>
-            <div className="flex flex-wrap items-center gap-4 text-xs font-mono text-slate-400 pt-1">
-              <span>Acervo Atual: <strong className="text-amber-400">{allQuestions.length} questões</strong></span>
+            <div className="flex flex-wrap items-center gap-3 text-xs font-mono tabular-nums text-stone-600 pt-1">
+              <span>Acervo Atual: <strong className="text-[#8A6518]">{allQuestions.length} questões</strong></span>
               <span>·</span>
-              <span>Disciplinas Ativas: <strong className="text-indigo-300">{availableSubjects.length}</strong></span>
+              <span>Disciplinas Ativas: <strong className="text-[#1B365D]">{availableSubjects.length}</strong></span>
               <span>·</span>
-              <span>Sincronização: <span className="text-emerald-400">{lastUpdated}</span></span>
+              <span>Sincronização: <span className="text-emerald-800 font-semibold">{lastUpdated}</span></span>
             </div>
           </div>
 
-          <div className="space-y-3 bg-slate-950/60 p-4 rounded-2xl border border-indigo-500/20 shrink-0 lg:w-96">
+          <div className="space-y-3 bg-white p-4 rounded-xl border border-[#DFD7C8] shrink-0 lg:w-96 shadow-xs">
             <div className="flex items-center justify-between text-xs">
-              <span className="text-slate-400 font-semibold">Foco das Novas Questões:</span>
+              <span className="text-stone-700 font-semibold">Foco das Novas Questões:</span>
               <div className="flex gap-1">
                 {(['OAB', 'FACULDADE', 'CONCURSO'] as const).map(focus => (
                   <button
                     key={focus}
                     type="button"
                     onClick={() => setExamFocus(focus)}
-                    className={`px-2 py-0.5 rounded text-[10px] font-bold transition-all cursor-pointer ${
+                    className={`px-2 py-0.5 rounded text-[10px] font-bold transition-all cursor-pointer border ${
                       examFocus === focus 
-                        ? 'bg-indigo-600 text-white' 
-                        : 'bg-slate-800 text-slate-400 hover:text-white'
+                        ? 'bg-[#1B365D] text-[#FAF7F2] border-[#1B365D]' 
+                        : 'bg-[#FAF7F2] text-stone-700 border-[#DFD7C8] hover:border-[#1B365D]/40'
                     }`}
                   >
                     {focus === 'OAB' ? 'OAB/FGV' : focus === 'FACULDADE' ? 'Faculdade' : 'Concursos'}
@@ -444,7 +445,7 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                 type="button"
                 onClick={() => handleBulkExpand(3)}
                 disabled={isGeneralSyncing}
-                className="px-3 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer shadow-md disabled:opacity-50"
+                className="px-3 py-2.5 rounded-xl bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] text-xs font-semibold flex items-center justify-center gap-1.5 transition-all cursor-pointer shadow-xs disabled:opacity-50"
               >
                 <RefreshCw className={`w-3.5 h-3.5 ${isGeneralSyncing ? 'animate-spin' : ''}`} />
                 <span>+33 Qs em Lote</span>
@@ -453,9 +454,9 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                 type="button"
                 onClick={() => handleBulkExpand(5)}
                 disabled={isGeneralSyncing}
-                className="px-3 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-xs font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer shadow-md disabled:opacity-50"
+                className="px-3 py-2.5 rounded-xl bg-[#7B1E26] hover:bg-[#61161D] text-[#FAF7F2] text-xs font-semibold flex items-center justify-center gap-1.5 transition-all cursor-pointer shadow-xs disabled:opacity-50"
               >
-                <Zap className="w-3.5 h-3.5 fill-purple-200" />
+                <Zap className="w-3.5 h-3.5 text-[#E6C574]" />
                 <span>+55 Qs (Megabateria)</span>
               </button>
             </div>
@@ -465,7 +466,7 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                 type="button"
                 onClick={() => handleGeneralSync()}
                 disabled={isGeneralSyncing}
-                className="w-full py-2 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 text-xs font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer disabled:opacity-50"
+                className="w-full py-2 rounded-xl bg-[#F5F0E6] hover:bg-[#EAE3D5] text-[#8A6518] border border-[#C59B3E]/60 text-xs font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer disabled:opacity-50"
               >
                 <RefreshCw className={`w-3 h-3 ${isGeneralSyncing ? 'animate-spin' : ''}`} />
                 <span>+ Gerar para as {selectedSubjects.length} matérias selecionadas</span>
@@ -476,14 +477,14 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
 
         {/* Progress bar if syncing */}
         {isGeneralSyncing && batchProgress && (
-          <div className="mt-4 pt-4 border-t border-indigo-500/20 space-y-2">
-            <div className="flex justify-between text-xs text-indigo-300 font-mono">
+          <div className="mt-4 pt-4 border-t border-[#DFD7C8] space-y-2">
+            <div className="flex justify-between text-xs text-[#1B365D] font-mono tabular-nums font-semibold">
               <span>Gerando: {batchProgress.subject}</span>
               <span>{batchProgress.current} de {batchProgress.total} disciplinas</span>
             </div>
-            <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+            <div className="w-full h-2 bg-[#E5DEC9] rounded-full overflow-hidden">
               <div 
-                className="h-full bg-gradient-to-r from-indigo-500 to-amber-500 transition-all duration-300"
+                className="h-full bg-[#1B365D] transition-all duration-300"
                 style={{ width: `${Math.round((batchProgress.current / batchProgress.total) * 100)}%` }}
               />
             </div>
@@ -492,11 +493,11 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
 
         {/* Sync feedback banner */}
         {syncFeedback && !isGeneralSyncing && (
-          <div className="mt-4 p-3 rounded-xl bg-indigo-950/80 border border-indigo-500/40 text-indigo-200 text-xs font-semibold flex items-center justify-between animate-in fade-in">
+          <div className="mt-4 p-3 rounded-xl bg-white border border-[#1B365D]/30 text-[#1B365D] text-xs font-semibold flex items-center justify-between animate-in fade-in">
             <span>{syncFeedback}</span>
             <button 
               onClick={() => setSyncFeedback(null)}
-              className="text-slate-400 hover:text-white ml-2 cursor-pointer"
+              className="text-stone-500 hover:text-stone-900 ml-2 cursor-pointer"
             >
               ✕
             </button>
@@ -507,37 +508,37 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
       {/* Preset Fast Cards */}
       <div>
         <div className="flex items-center justify-between mb-4">
-          <h2 className="font-serif text-lg font-bold text-white flex items-center gap-2">
-            <Layers className="w-5 h-5 text-amber-400" />
+          <h2 className="font-display text-lg sm:text-xl font-bold text-stone-900 flex items-center gap-2">
+            <Layers className="w-5 h-5 text-[#1B365D]" />
             Simulados Estruturados por Objetivo
           </h2>
-          <span className="text-xs text-slate-400 font-mono">{allQuestions.length} questões totais</span>
+          <span className="text-xs text-stone-600 font-mono tabular-nums">{allQuestions.length} questões totais</span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {/* Card 1: OAB Oficial 80 */}
           <div 
             onClick={() => handleStartPreset('oab_80_oficial')}
-            className="group p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-amber-500/50 hover:bg-slate-850 transition-all cursor-pointer shadow-md flex flex-col justify-between"
+            className="group p-5 rounded-2xl bg-white border border-[#DFD7C8] hover:border-[#1B365D] hover:bg-[#FCF9F4] transition-all cursor-pointer shadow-xs flex flex-col justify-between"
           >
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                <span className="text-amber-400 font-bold uppercase tracking-wider text-[10px] bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20">
+              <div className="flex items-center justify-between text-xs mb-2.5">
+                <span className="text-[#8A6518] font-bold uppercase tracking-wider text-[10px]">
                   Prova Oficial
                 </span>
-                <span className="font-mono text-amber-300 font-bold">80 Questões</span>
+                <span className="font-mono tabular-nums text-[#1B365D] font-bold">80 Questões</span>
               </div>
-              <h3 className="font-serif font-bold text-white group-hover:text-amber-400 transition-colors mb-1.5 text-base">
+              <h3 className="font-display font-bold text-stone-900 group-hover:text-[#1B365D] transition-colors mb-1.5 text-base">
                 1ª Fase OAB (80 Qs)
               </h3>
-              <p className="text-xs text-slate-400 leading-relaxed mb-4">
+              <p className="font-serif text-xs text-stone-600 leading-relaxed mb-4">
                 Simulado completo com a distribuição oficial exata da FGV em todas as 11 disciplinas e cronômetro de 5 horas.
               </p>
             </div>
-            <div className="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs">
-              <span className="text-slate-500 font-mono">Padrão FGV</span>
-              <span className="text-amber-400 font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
-                Iniciar <Play className="w-3 h-3 fill-amber-400" />
+            <div className="flex items-center justify-between pt-3 border-t border-[#ECE6D9] text-xs">
+              <span className="text-stone-500 font-mono">Padrão FGV</span>
+              <span className="text-[#1B365D] font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                Iniciar <Play className="w-3 h-3 fill-[#1B365D]" />
               </span>
             </div>
           </div>
@@ -545,26 +546,26 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
           {/* Card 2: OAB Express 40 */}
           <div 
             onClick={() => handleStartPreset('oab_express_40')}
-            className="group p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-amber-500/50 hover:bg-slate-850 transition-all cursor-pointer shadow-md flex flex-col justify-between"
+            className="group p-5 rounded-2xl bg-white border border-[#DFD7C8] hover:border-[#1B365D] hover:bg-[#FCF9F4] transition-all cursor-pointer shadow-xs flex flex-col justify-between"
           >
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                <span className="text-amber-300 font-bold uppercase tracking-wider text-[10px] bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20">
+              <div className="flex items-center justify-between text-xs mb-2.5">
+                <span className="text-[#8A6518] font-bold uppercase tracking-wider text-[10px]">
                   Revisão Rápida
                 </span>
-                <span className="font-mono text-amber-300 font-bold">40 Questões</span>
+                <span className="font-mono tabular-nums text-[#1B365D] font-bold">40 Questões</span>
               </div>
-              <h3 className="font-serif font-bold text-white group-hover:text-amber-300 transition-colors mb-1.5 text-base">
+              <h3 className="font-display font-bold text-stone-900 group-hover:text-[#1B365D] transition-colors mb-1.5 text-base">
                 OAB Express (40 Qs)
               </h3>
-              <p className="text-xs text-slate-400 leading-relaxed mb-4">
+              <p className="font-serif text-xs text-stone-600 leading-relaxed mb-4">
                 Metade da prova com questões de alta incidência para treino rápido diário com intervenção e fixação do professor.
               </p>
             </div>
-            <div className="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs">
-              <span className="text-slate-500 font-mono">Treino Ágil</span>
-              <span className="text-amber-400 font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
-                Iniciar <Play className="w-3 h-3 fill-amber-400" />
+            <div className="flex items-center justify-between pt-3 border-t border-[#ECE6D9] text-xs">
+              <span className="text-stone-500 font-mono">Treino Ágil</span>
+              <span className="text-[#1B365D] font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                Iniciar <Play className="w-3 h-3 fill-[#1B365D]" />
               </span>
             </div>
           </div>
@@ -572,26 +573,26 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
           {/* Card 3: Faculdade de Direito 40 */}
           <div 
             onClick={() => handleStartPreset('faculdade_40')}
-            className="group p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 hover:bg-slate-850 transition-all cursor-pointer shadow-md flex flex-col justify-between"
+            className="group p-5 rounded-2xl bg-white border border-[#DFD7C8] hover:border-[#7B1E26] hover:bg-[#FCF9F4] transition-all cursor-pointer shadow-xs flex flex-col justify-between"
           >
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                <span className="text-indigo-400 font-bold uppercase tracking-wider text-[10px] bg-indigo-500/10 px-2 py-0.5 rounded border border-indigo-500/20">
+              <div className="flex items-center justify-between text-xs mb-2.5">
+                <span className="text-[#7B1E26] font-bold uppercase tracking-wider text-[10px]">
                   Acadêmico
                 </span>
-                <span className="font-mono text-indigo-300 font-bold">{Math.min(40, faculdadePoolCount || 40)} Questões</span>
+                <span className="font-mono tabular-nums text-[#7B1E26] font-bold">{Math.min(40, faculdadePoolCount || 40)} Questões</span>
               </div>
-              <h3 className="font-serif font-bold text-white group-hover:text-indigo-300 transition-colors mb-1.5 text-base">
+              <h3 className="font-display font-bold text-stone-900 group-hover:text-[#7B1E26] transition-colors mb-1.5 text-base">
                 Prova Faculdade de Direito
               </h3>
-              <p className="text-xs text-slate-400 leading-relaxed mb-4">
+              <p className="font-serif text-xs text-stone-600 leading-relaxed mb-4">
                 Casos concretos multidisciplinares, teoria geral do crime, contratos, processo e direito constitucional com fundamentação doutrinária.
               </p>
             </div>
-            <div className="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs">
-              <span className="text-indigo-400 font-mono">{faculdadePoolCount} Qs no Acervo</span>
-              <span className="text-indigo-400 font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
-                Iniciar <Play className="w-3 h-3 fill-indigo-400" />
+            <div className="flex items-center justify-between pt-3 border-t border-[#ECE6D9] text-xs">
+              <span className="text-stone-600 font-mono tabular-nums">{faculdadePoolCount} Qs no Acervo</span>
+              <span className="text-[#7B1E26] font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                Iniciar <Play className="w-3 h-3 fill-[#7B1E26]" />
               </span>
             </div>
           </div>
@@ -599,26 +600,26 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
           {/* Card 4: Carreiras Jurídicas 40 */}
           <div 
             onClick={() => handleStartPreset('concursos_juridicos')}
-            className="group p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 hover:bg-slate-850 transition-all cursor-pointer shadow-md flex flex-col justify-between"
+            className="group p-5 rounded-2xl bg-white border border-[#DFD7C8] hover:border-emerald-700 hover:bg-[#FCF9F4] transition-all cursor-pointer shadow-xs flex flex-col justify-between"
           >
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                <span className="text-emerald-400 font-bold uppercase tracking-wider text-[10px] bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20">
+              <div className="flex items-center justify-between text-xs mb-2.5">
+                <span className="text-emerald-800 font-bold uppercase tracking-wider text-[10px]">
                   Concursos
                 </span>
-                <span className="font-mono text-emerald-300 font-bold">{Math.min(40, concursoPoolCount || 40)} Questões</span>
+                <span className="font-mono tabular-nums text-emerald-800 font-bold">{Math.min(40, concursoPoolCount || 40)} Questões</span>
               </div>
-              <h3 className="font-serif font-bold text-white group-hover:text-emerald-400 transition-colors mb-1.5 text-base">
+              <h3 className="font-display font-bold text-stone-900 group-hover:text-emerald-800 transition-colors mb-1.5 text-base">
                 Carreiras Jurídicas ({Math.min(40, concursoPoolCount || 40)} Qs)
               </h3>
-              <p className="text-xs text-slate-400 leading-relaxed mb-4">
+              <p className="font-serif text-xs text-stone-600 leading-relaxed mb-4">
                 Questões aprofundadas com base em concursos de Magistratura, MP e Defensoria Pública (VUNESP, CEBRASPE, FCC).
               </p>
             </div>
-            <div className="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs">
-              <span className="text-emerald-400 font-mono">{concursoPoolCount} Qs no Acervo</span>
-              <span className="text-emerald-400 font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
-                Iniciar <Play className="w-3 h-3 fill-emerald-400" />
+            <div className="flex items-center justify-between pt-3 border-t border-[#ECE6D9] text-xs">
+              <span className="text-stone-600 font-mono tabular-nums">{concursoPoolCount} Qs no Acervo</span>
+              <span className="text-emerald-800 font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                Iniciar <Play className="w-3 h-3 fill-emerald-800" />
               </span>
             </div>
           </div>
@@ -626,26 +627,26 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
           {/* Card 5: Tributário & Penal 40 */}
           <div 
             onClick={() => handleStartPreset('tributario_penal_40')}
-            className="group p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-purple-500/50 hover:bg-slate-850 transition-all cursor-pointer shadow-md flex flex-col justify-between"
+            className="group p-5 rounded-2xl bg-white border border-[#DFD7C8] hover:border-[#1B365D] hover:bg-[#FCF9F4] transition-all cursor-pointer shadow-xs flex flex-col justify-between"
           >
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                <span className="text-purple-400 font-bold uppercase tracking-wider text-[10px] bg-purple-500/10 px-2 py-0.5 rounded border border-purple-500/20">
+              <div className="flex items-center justify-between text-xs mb-2.5">
+                <span className="text-[#1B365D] font-bold uppercase tracking-wider text-[10px]">
                   Duo Temático
                 </span>
-                <span className="font-mono text-purple-300 font-bold">{Math.min(40, tribPenalCount || 40)} Questões</span>
+                <span className="font-mono tabular-nums text-[#1B365D] font-bold">{Math.min(40, tribPenalCount || 40)} Questões</span>
               </div>
-              <h3 className="font-serif font-bold text-white group-hover:text-purple-300 transition-colors mb-1.5 text-base">
+              <h3 className="font-display font-bold text-stone-900 group-hover:text-[#1B365D] transition-colors mb-1.5 text-base">
                 Tributário & Penal Focado
               </h3>
-              <p className="text-xs text-slate-400 leading-relaxed mb-4">
+              <p className="font-serif text-xs text-stone-600 leading-relaxed mb-4">
                 Treino direcionado com as questões de maior índice de reprovação na FGV em Direito Tributário e Penal.
               </p>
             </div>
-            <div className="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs">
-              <span className="text-purple-400 font-mono">{tribPenalCount} Qs no Acervo</span>
-              <span className="text-purple-400 font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
-                Iniciar <Play className="w-3 h-3 fill-purple-400" />
+            <div className="flex items-center justify-between pt-3 border-t border-[#ECE6D9] text-xs">
+              <span className="text-stone-600 font-mono tabular-nums">{tribPenalCount} Qs no Acervo</span>
+              <span className="text-[#1B365D] font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                Iniciar <Play className="w-3 h-3 fill-[#1B365D]" />
               </span>
             </div>
           </div>
@@ -653,26 +654,26 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
           {/* Card 6: Gabaritando Ética 25 */}
           <div 
             onClick={() => handleStartPreset('oab_etica_25')}
-            className="group p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-amber-500/50 hover:bg-slate-850 transition-all cursor-pointer shadow-md flex flex-col justify-between"
+            className="group p-5 rounded-2xl bg-white border border-[#DFD7C8] hover:border-[#8A6518] hover:bg-[#FCF9F4] transition-all cursor-pointer shadow-xs flex flex-col justify-between"
           >
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                <span className="text-amber-400 font-bold uppercase tracking-wider text-[10px] bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20">
+              <div className="flex items-center justify-between text-xs mb-2.5">
+                <span className="text-[#8A6518] font-bold uppercase tracking-wider text-[10px]">
                   Gabarito OAB
                 </span>
-                <span className="font-mono text-amber-300 font-bold">{Math.min(25, eticaCount || 25)} Questões</span>
+                <span className="font-mono tabular-nums text-[#8A6518] font-bold">{Math.min(25, eticaCount || 25)} Questões</span>
               </div>
-              <h3 className="font-serif font-bold text-white group-hover:text-amber-300 transition-colors mb-1.5 text-base">
+              <h3 className="font-display font-bold text-stone-900 group-hover:text-[#8A6518] transition-colors mb-1.5 text-base">
                 Gabaritando Ética OAB
               </h3>
-              <p className="text-xs text-slate-400 leading-relaxed mb-4">
+              <p className="font-serif text-xs text-stone-600 leading-relaxed mb-4">
                 Domine o Estatuto da OAB, CED e Provimento 205 para gabaritar a disciplina que mais pontua proporcionalmente.
               </p>
             </div>
-            <div className="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs">
-              <span className="text-amber-400 font-mono">{eticaCount} Qs no Acervo</span>
-              <span className="text-amber-400 font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
-                Iniciar <Play className="w-3 h-3 fill-amber-400" />
+            <div className="flex items-center justify-between pt-3 border-t border-[#ECE6D9] text-xs">
+              <span className="text-stone-600 font-mono tabular-nums">{eticaCount} Qs no Acervo</span>
+              <span className="text-[#8A6518] font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                Iniciar <Play className="w-3 h-3 fill-[#8A6518]" />
               </span>
             </div>
           </div>
@@ -680,25 +681,25 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
           {/* Card 7: Maratona Infinita */}
           <div 
             onClick={() => handleStartPreset('maratona_infinita')}
-            className="group p-5 rounded-2xl bg-slate-900 border border-purple-500/30 hover:border-purple-400 hover:bg-slate-850 transition-all cursor-pointer shadow-md flex flex-col justify-between"
+            className="group p-5 rounded-2xl bg-white border border-[#DFD7C8] hover:border-[#1B365D] hover:bg-[#FCF9F4] transition-all cursor-pointer shadow-xs flex flex-col justify-between"
           >
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                <span className="text-purple-300 font-bold uppercase tracking-wider text-[10px] bg-purple-500/10 px-2 py-0.5 rounded border border-purple-500/20">
+              <div className="flex items-center justify-between text-xs mb-2.5">
+                <span className="text-[#1B365D] font-bold uppercase tracking-wider text-[10px]">
                   Treino Contínuo
                 </span>
-                <span className="font-mono text-purple-300 font-bold">Sem Limite</span>
+                <span className="font-mono text-[#1B365D] font-bold">Sem Limite</span>
               </div>
-              <h3 className="font-serif font-bold text-white group-hover:text-purple-300 transition-colors mb-1.5 text-base">
+              <h3 className="font-display font-bold text-stone-900 group-hover:text-[#1B365D] transition-colors mb-1.5 text-base">
                 Maratona Ilimitada
               </h3>
-              <p className="text-xs text-slate-400 leading-relaxed mb-4">
+              <p className="font-serif text-xs text-stone-600 leading-relaxed mb-4">
                 Pratique sem parar! À medida que resolve, você pode adicionar novos lotes de questões sem encerrar a sessão.
               </p>
             </div>
-            <div className="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs">
-              <span className="text-purple-300 font-mono">Modo Fluido</span>
-              <span className="text-purple-300 font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+            <div className="flex items-center justify-between pt-3 border-t border-[#ECE6D9] text-xs">
+              <span className="text-stone-600 font-mono">Modo Fluido</span>
+              <span className="text-[#1B365D] font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
                 Iniciar <InfinityIcon className="w-3.5 h-3.5" />
               </span>
             </div>
@@ -707,30 +708,30 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
           {/* Card 8: Caderno de Erros */}
           <div 
             onClick={() => handleStartPreset('caderno_erros')}
-            className={`group p-5 rounded-2xl border transition-all cursor-pointer shadow-md flex flex-col justify-between ${
+            className={`group p-5 rounded-2xl border transition-all cursor-pointer shadow-xs flex flex-col justify-between ${
               cadernoErrosCount > 0
-                ? 'bg-rose-950/20 border-rose-500/40 hover:border-rose-500 hover:bg-rose-950/30'
-                : 'bg-slate-900 border-slate-800 hover:border-slate-700'
+                ? 'bg-rose-50/70 border-[#7B1E26]/40 hover:border-[#7B1E26] hover:bg-rose-50'
+                : 'bg-white border-[#DFD7C8] hover:border-stone-400'
             }`}
           >
             <div>
-              <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                <span className="text-rose-400 font-bold uppercase tracking-wider text-[10px] bg-rose-500/10 px-2 py-0.5 rounded border border-rose-500/20">
+              <div className="flex items-center justify-between text-xs mb-2.5">
+                <span className="text-[#7B1E26] font-bold uppercase tracking-wider text-[10px]">
                   Fixação Ativa
                 </span>
-                <span className="font-mono text-rose-300 font-bold">{cadernoErrosCount} pendentes</span>
+                <span className="font-mono tabular-nums text-[#7B1E26] font-bold">{cadernoErrosCount} pendentes</span>
               </div>
-              <h3 className="font-serif font-bold text-white group-hover:text-rose-300 transition-colors mb-1.5 text-base">
+              <h3 className="font-display font-bold text-stone-900 group-hover:text-[#7B1E26] transition-colors mb-1.5 text-base">
                 Caderno de Erros
               </h3>
-              <p className="text-xs text-slate-400 leading-relaxed mb-4">
+              <p className="font-serif text-xs text-stone-600 leading-relaxed mb-4">
                 Refaça apenas as questões que errou anteriormente com o professor até que fixe todos os pontos!
               </p>
             </div>
-            <div className="flex items-center justify-between pt-3 border-t border-slate-800/80 text-xs">
-              <span className="text-slate-500 font-mono">{cadernoErrosCount} questões</span>
-              <span className="text-rose-400 font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
-                Treinar <Play className="w-3 h-3 fill-rose-400" />
+            <div className="flex items-center justify-between pt-3 border-t border-[#ECE6D9] text-xs">
+              <span className="text-stone-600 font-mono tabular-nums">{cadernoErrosCount} questões</span>
+              <span className="text-[#7B1E26] font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                Treinar <Play className="w-3 h-3 fill-[#7B1E26]" />
               </span>
             </div>
           </div>
@@ -738,22 +739,22 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
       </div>
 
       {/* Custom Mock Exam Configurator */}
-      <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-6 border-b border-slate-800 mb-6 gap-4">
+      <div className="bg-white border border-[#DFD7C8] rounded-2xl p-6 sm:p-8 shadow-xs">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-6 border-b border-[#ECE6D9] mb-6 gap-4">
           <div>
-            <h3 className="font-serif text-xl font-bold text-white flex items-center gap-2">
-              <Sliders className="w-5 h-5 text-amber-400" />
+            <h3 className="font-display text-xl font-bold text-stone-900 flex items-center gap-2">
+              <Sliders className="w-5 h-5 text-[#1B365D]" />
               Personalizador de Simulado por Medida
             </h3>
-            <p className="text-xs text-slate-400 mt-1">
+            <p className="text-xs text-stone-600 mt-1">
               Escolha matérias, defina de 5 até 80 questões e ajuste o foco pedagógico
             </p>
           </div>
           <button
             onClick={handleStartCustom}
-            className="px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm transition-all cursor-pointer flex items-center justify-center gap-2 shadow-lg shadow-amber-500/20"
+            className="px-6 py-3 rounded-xl bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] font-semibold text-sm transition-all cursor-pointer flex items-center justify-center gap-2 shadow-xs"
           >
-            <Play className="w-4 h-4 fill-slate-950" />
+            <Play className="w-4 h-4 fill-[#E6C574] text-[#E6C574]" />
             Iniciar Simulado Personalizado ({questionCount} Qs)
           </button>
         </div>
@@ -763,7 +764,7 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
           <div className="lg:col-span-2 space-y-5">
             <div>
               <div className="flex items-center justify-between mb-2">
-                <label className="block text-xs font-bold uppercase tracking-wider text-slate-300">
+                <label className="block text-xs font-bold uppercase tracking-wider text-stone-700">
                   Disciplinas do Direito (Selecione uma ou mais)
                 </label>
                 <div className="flex items-center gap-2">
@@ -771,12 +772,12 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                     <button
                       type="button"
                       onClick={() => setSelectedSubjects([])}
-                      className="text-[11px] text-slate-400 hover:text-white underline cursor-pointer"
+                      className="text-[11px] text-stone-600 hover:text-stone-900 underline cursor-pointer"
                     >
                       Limpar seleção
                     </button>
                   )}
-                  <span className="text-[11px] text-amber-400 font-semibold">
+                  <span className="text-[11px] text-[#8A6518] font-bold">
                     {selectedSubjects.length === 0 ? `Todas as ${availableSubjects.length} Disciplinas` : `${selectedSubjects.length} selecionada(s)`}
                   </span>
                 </div>
@@ -795,13 +796,13 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                         onClick={() => toggleSubject(sub)}
                         className={`text-xs px-3 py-2 rounded-xl border transition-all cursor-pointer flex items-center gap-2 ${
                           isSelected
-                            ? 'bg-amber-500/20 border-amber-500/50 text-amber-200 font-semibold shadow-sm'
-                            : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:border-slate-700 hover:text-slate-200'
+                            ? 'bg-[#1B365D] border-[#1B365D] text-[#FAF7F2] font-semibold shadow-xs'
+                            : 'bg-[#FAF7F2] border-[#DFD7C8] text-stone-700 hover:border-[#1B365D]/40 hover:text-stone-900'
                         }`}
                       >
                         <span>{sub}</span>
-                        <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${
-                          isSelected ? 'bg-amber-500/30 text-amber-200' : 'bg-slate-800 text-slate-400'
+                        <span className={`text-[10px] px-1.5 py-0.5 rounded font-mono tabular-nums ${
+                          isSelected ? 'bg-[#FAF7F2]/20 text-[#E6C574]' : 'bg-[#EAE3D5] text-stone-700'
                         }`}>
                           {count}
                         </span>
@@ -817,9 +818,9 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                             handleUpdateSubject(sub, 4);
                           }}
                           disabled={isSubUpdating}
-                          className="ml-1 p-1.5 rounded-lg bg-indigo-950/80 border border-indigo-500/40 hover:border-indigo-400 text-indigo-300 hover:text-white transition-all text-[10px] cursor-pointer"
+                          className="ml-1 p-1.5 rounded-lg bg-[#F5F0E6] border border-[#D6CCB9] hover:border-[#1B365D] text-[#1B365D] transition-all text-[10px] cursor-pointer"
                         >
-                          <RefreshCw className={`w-3 h-3 ${isSubUpdating ? 'animate-spin text-amber-400' : ''}`} />
+                          <RefreshCw className={`w-3 h-3 ${isSubUpdating ? 'animate-spin text-[#8A6518]' : ''}`} />
                         </button>
                       )}
                     </div>
@@ -829,10 +830,10 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
 
               {/* Notice & Quick Add Action when subject selected */}
               {selectedSubjects.length > 0 && (
-                <div className="mt-3 p-3 bg-slate-950 border border-slate-800 rounded-xl flex flex-wrap items-center justify-between gap-2">
-                  <div className="text-xs text-slate-300 flex items-center gap-2">
-                    <span className="text-amber-400 font-bold">{matchingPoolCount}</span> questões disponíveis nas disciplinas selecionadas:
-                    <span className="text-slate-400 font-mono">({selectedSubjects.join(', ')})</span>
+                <div className="mt-3 p-3 bg-[#F5F0E6] border border-[#DFD7C8] rounded-xl flex flex-wrap items-center justify-between gap-2">
+                  <div className="text-xs text-stone-700 flex items-center gap-2">
+                    <span className="text-[#8A6518] font-bold font-mono tabular-nums">{matchingPoolCount}</span> questões disponíveis nas disciplinas selecionadas:
+                    <span className="text-stone-600 font-mono">({selectedSubjects.join(', ')})</span>
                   </div>
                   <button
                     type="button"
@@ -840,7 +841,7 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                       selectedSubjects.forEach(s => handleUpdateSubject(s, 3));
                     }}
                     disabled={updatingSubject !== null}
-                    className="px-3 py-1.5 rounded-lg bg-indigo-600/80 hover:bg-indigo-600 text-white text-xs font-semibold flex items-center gap-1.5 transition-all cursor-pointer disabled:opacity-50"
+                    className="px-3 py-1.5 rounded-lg bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] text-xs font-semibold flex items-center gap-1.5 transition-all cursor-pointer disabled:opacity-50"
                   >
                     <RefreshCw className={`w-3 h-3 ${updatingSubject ? 'animate-spin' : ''}`} />
                     + Gerar Mais Questões via IA para estas Matérias
@@ -848,14 +849,14 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                 </div>
               )}
 
-              <p className="text-[11px] text-slate-500 mt-2">
+              <p className="text-[11px] text-stone-600 mt-2">
                 *Dica: Deixe desmarcado para incluir todas as disciplinas proporcionalmente (ideal para simulado da OAB!), ou selecione matérias específicas para treino temático.
               </p>
             </div>
 
             {/* Custom Title */}
             <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">
+              <label className="block text-xs font-bold uppercase tracking-wider text-stone-700 mb-2">
                 Nome do Simulado (Opcional)
               </label>
               <input
@@ -863,16 +864,16 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                 value={customTitle}
                 onChange={(e) => setCustomTitle(e.target.value)}
                 placeholder="Ex: Treino de Revisão Tributário e Penal com Fixação"
-                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500/80"
+                className="w-full bg-[#FAF7F2] border border-[#D6CCB9] rounded-xl px-4 py-2.5 text-sm text-stone-900 placeholder-stone-500 focus:outline-none focus:border-[#1B365D]"
               />
             </div>
           </div>
 
           {/* Column 2: Filters & Modes */}
-          <div className="space-y-4 bg-slate-950/50 p-5 rounded-2xl border border-slate-800">
+          <div className="space-y-4 bg-[#FAF7F2] p-5 rounded-2xl border border-[#DFD7C8]">
             {/* Resolution Mode */}
             <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">
+              <label className="block text-xs font-bold uppercase tracking-wider text-stone-700 mb-2">
                 Modo Pedagógico
               </label>
               <div className="grid grid-cols-2 gap-2">
@@ -881,34 +882,38 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                   onClick={() => setMode('TREINO')}
                   className={`p-2.5 rounded-xl text-xs font-semibold border text-center transition-colors cursor-pointer ${
                     mode === 'TREINO'
-                      ? 'bg-amber-500/20 border-amber-500/50 text-amber-300'
-                      : 'bg-slate-900 border-slate-800 text-slate-400'
+                      ? 'bg-[#1B365D] border-[#1B365D] text-[#FAF7F2]'
+                      : 'bg-white border-[#DFD7C8] text-stone-700 hover:border-[#1B365D]/40'
                   }`}
                 >
                   Professor & Fixação
-                  <span className="block text-[10px] text-slate-500 font-normal mt-0.5">Explica e Repete Erradas</span>
+                  <span className={`block text-[10px] font-normal mt-0.5 ${mode === 'TREINO' ? 'text-[#E6C574]' : 'text-stone-500'}`}>
+                    Explica e Repete Erradas
+                  </span>
                 </button>
                 <button
                   type="button"
                   onClick={() => setMode('PROVA')}
                   className={`p-2.5 rounded-xl text-xs font-semibold border text-center transition-colors cursor-pointer ${
                     mode === 'PROVA'
-                      ? 'bg-amber-500/20 border-amber-500/50 text-amber-300'
-                      : 'bg-slate-900 border-slate-800 text-slate-400'
+                      ? 'bg-[#1B365D] border-[#1B365D] text-[#FAF7F2]'
+                      : 'bg-white border-[#DFD7C8] text-stone-700 hover:border-[#1B365D]/40'
                   }`}
                 >
                   Modo Prova
-                  <span className="block text-[10px] text-slate-500 font-normal mt-0.5">Cronometrado sem Dicas</span>
+                  <span className={`block text-[10px] font-normal mt-0.5 ${mode === 'PROVA' ? 'text-[#E6C574]' : 'text-stone-500'}`}>
+                    Cronometrado sem Dicas
+                  </span>
                 </button>
               </div>
             </div>
 
             {/* Repeat Interval if in Teacher Mode */}
             {mode === 'TREINO' && (
-              <div className="p-3 bg-purple-950/20 border border-purple-500/30 rounded-xl space-y-2">
+              <div className="p-3 bg-[#F5F0E6] border border-[#D6CCB9] rounded-xl space-y-2">
                 <div className="flex items-center justify-between text-xs">
-                  <span className="font-semibold text-purple-300">Retorno de Questões Erradas:</span>
-                  <span className="font-bold text-amber-400 font-mono">
+                  <span className="font-semibold text-stone-800">Retorno de Questões Erradas:</span>
+                  <span className="font-bold text-[#7B1E26] font-mono tabular-nums">
                     {repeatInterval === 1 ? 'Após 1 questão (~1 min)' :
                      repeatInterval === 2 ? 'Após 2 questões (~3 min)' :
                      'Após 3 questões (~5 min)'}
@@ -920,8 +925,8 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                     onClick={() => setRepeatInterval(1)}
                     className={`py-1 rounded-lg text-[11px] font-semibold border transition-colors cursor-pointer ${
                       repeatInterval === 1
-                        ? 'bg-purple-500 text-white border-purple-400'
-                        : 'bg-slate-900 border-slate-800 text-slate-400'
+                        ? 'bg-[#7B1E26] text-[#FAF7F2] border-[#7B1E26]'
+                        : 'bg-white border-[#DFD7C8] text-stone-700 hover:border-[#7B1E26]/40'
                     }`}
                   >
                     Rápido (1 q.)
@@ -931,8 +936,8 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                     onClick={() => setRepeatInterval(2)}
                     className={`py-1 rounded-lg text-[11px] font-semibold border transition-colors cursor-pointer ${
                       repeatInterval === 2
-                        ? 'bg-purple-500 text-white border-purple-400'
-                        : 'bg-slate-900 border-slate-800 text-slate-400'
+                        ? 'bg-[#7B1E26] text-[#FAF7F2] border-[#7B1E26]'
+                        : 'bg-white border-[#DFD7C8] text-stone-700 hover:border-[#7B1E26]/40'
                     }`}
                   >
                     Ideal (2 q.)
@@ -942,14 +947,14 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                     onClick={() => setRepeatInterval(3)}
                     className={`py-1 rounded-lg text-[11px] font-semibold border transition-colors cursor-pointer ${
                       repeatInterval === 3
-                        ? 'bg-purple-500 text-white border-purple-400'
-                        : 'bg-slate-900 border-slate-800 text-slate-400'
+                        ? 'bg-[#7B1E26] text-[#FAF7F2] border-[#7B1E26]'
+                        : 'bg-white border-[#DFD7C8] text-stone-700 hover:border-[#7B1E26]/40'
                     }`}
                   >
                     Espaçado (3 q.)
                   </button>
                 </div>
-                <p className="text-[10px] text-slate-400 leading-tight">
+                <p className="text-[10px] text-stone-600 leading-tight">
                   Toda pergunta que você errar retornará após o intervalo escolhido até que você fixe a fundamentação.
                 </p>
               </div>
@@ -957,13 +962,13 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
 
             {/* Board Selector */}
             <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">
+              <label className="block text-xs font-bold uppercase tracking-wider text-stone-700 mb-2">
                 Banca Examinadora
               </label>
               <select
                 value={selectedBoard}
                 onChange={(e) => setSelectedBoard(e.target.value)}
-                className="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-amber-500/80"
+                className="w-full bg-white border border-[#D6CCB9] rounded-xl px-3 py-2 text-xs text-stone-900 focus:outline-none focus:border-[#1B365D]"
               >
                 <option value="ALL">Todas as Bancas (FGV, Vunesp, Cebraspe, FCC, Faculdades)</option>
                 {AVAILABLE_BOARDS.map((b) => (
@@ -975,13 +980,13 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
             {/* Origin & Level Filters (Módulo 7) */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
               <div>
-                <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1.5">
+                <label className="block text-[11px] font-bold uppercase tracking-wider text-stone-700 mb-1.5">
                   Origem da Questão
                 </label>
                 <select
                   value={selectedOrigin}
                   onChange={(e) => setSelectedOrigin(e.target.value as QuestionOriginType | 'ALL')}
-                  className="w-full bg-slate-900 border border-slate-800 rounded-xl px-2.5 py-2 text-xs text-white focus:outline-none focus:border-amber-500/80"
+                  className="w-full bg-white border border-[#D6CCB9] rounded-xl px-2.5 py-2 text-xs text-stone-900 focus:outline-none focus:border-[#1B365D]"
                 >
                   <option value="ALL">Todas as Origens</option>
                   <option value="OFICIAL_OAB">Oficiais OAB/FGV</option>
@@ -991,7 +996,7 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                 </select>
               </div>
               <div>
-                <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1.5">
+                <label className="block text-[11px] font-bold uppercase tracking-wider text-stone-700 mb-1.5">
                   Nível (1 a 4)
                 </label>
                 <select
@@ -999,7 +1004,7 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                   onChange={(e) =>
                     setSelectedLevel(e.target.value === 'ALL' ? 'ALL' : (Number(e.target.value) as DifficultyLevel))
                   }
-                  className="w-full bg-slate-900 border border-slate-800 rounded-xl px-2.5 py-2 text-xs text-white focus:outline-none focus:border-amber-500/80"
+                  className="w-full bg-white border border-[#D6CCB9] rounded-xl px-2.5 py-2 text-xs text-stone-900 focus:outline-none focus:border-[#1B365D]"
                 >
                   <option value="ALL">Todos os Níveis</option>
                   <option value="1">Nível 1 · Básico</option>
@@ -1012,7 +1017,7 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
 
             {/* Topic Keyword Filter */}
             <div>
-              <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1.5">
+              <label className="block text-[11px] font-bold uppercase tracking-wider text-stone-700 mb-1.5">
                 Filtro por Assunto (Opcional)
               </label>
               <input
@@ -1020,17 +1025,17 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                 value={topicFilter}
                 onChange={(e) => setTopicFilter(e.target.value)}
                 placeholder="Ex: Imunidade, Insignificância, Honorários..."
-                className="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-500/80"
+                className="w-full bg-white border border-[#D6CCB9] rounded-xl px-3 py-2 text-xs text-stone-900 placeholder-stone-500 focus:outline-none focus:border-[#1B365D]"
               />
             </div>
 
             {/* Quantity Selector with Quick Buttons */}
             <div>
               <div className="flex items-center justify-between mb-2">
-                <label className="block text-xs font-bold uppercase tracking-wider text-slate-300">
-                  Quantidade: <strong className="text-amber-400 text-sm">{questionCount} Questões</strong>
+                <label className="block text-xs font-bold uppercase tracking-wider text-stone-700">
+                  Quantidade: <strong className="text-[#1B365D] text-sm font-mono tabular-nums">{questionCount} Questões</strong>
                 </label>
-                <span className="text-[11px] text-slate-400 font-mono">
+                <span className="text-[11px] text-stone-600 font-mono tabular-nums">
                   {matchingPoolCount} disponíveis no acervo
                 </span>
               </div>
@@ -1042,10 +1047,10 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                     key={count}
                     type="button"
                     onClick={() => setQuestionCount(count)}
-                    className={`py-1.5 rounded-lg text-xs font-mono font-bold border transition-all cursor-pointer ${
+                    className={`py-1.5 rounded-lg text-xs font-mono tabular-nums font-bold border transition-all cursor-pointer ${
                       questionCount === count
-                        ? 'bg-amber-500 text-slate-950 border-amber-400 shadow-sm'
-                        : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
+                        ? 'bg-[#1B365D] text-[#FAF7F2] border-[#1B365D] shadow-xs'
+                        : 'bg-white border-[#DFD7C8] text-stone-700 hover:border-[#1B365D]/40'
                     }`}
                   >
                     {count} {count === 80 ? '⭐ OAB' : 'Qs'}
@@ -1056,8 +1061,8 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                   onClick={() => setQuestionCount(matchingPoolCount)}
                   className={`py-1.5 rounded-lg text-xs font-bold border transition-all cursor-pointer ${
                     questionCount === matchingPoolCount
-                      ? 'bg-amber-500 text-slate-950 border-amber-400'
-                      : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
+                      ? 'bg-[#1B365D] text-[#FAF7F2] border-[#1B365D]'
+                      : 'bg-white border-[#DFD7C8] text-stone-700 hover:border-[#1B365D]/40'
                   }`}
                 >
                   Todas ({matchingPoolCount})
@@ -1071,9 +1076,9 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                 step={5}
                 value={questionCount}
                 onChange={(e) => setQuestionCount(Number(e.target.value))}
-                className="w-full accent-amber-500 cursor-pointer"
+                className="w-full accent-[#1B365D] cursor-pointer"
               />
-              <div className="flex justify-between text-[10px] text-slate-500 font-mono mt-1">
+              <div className="flex justify-between text-[10px] text-stone-600 font-mono mt-1">
                 <span>5 questões</span>
                 <span>80 questões (Prova Completa)</span>
               </div>
@@ -1081,7 +1086,7 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
 
             {/* Timer Limit */}
             <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">
+              <label className="block text-xs font-bold uppercase tracking-wider text-stone-700 mb-2">
                 Tempo Limite
               </label>
               <div className="grid grid-cols-4 gap-1.5">
@@ -1097,8 +1102,8 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
                     onClick={() => setTimeLimit(item.value)}
                     className={`py-1.5 rounded-lg text-xs font-medium border text-center transition-colors cursor-pointer ${
                       timeLimit === item.value
-                        ? 'bg-amber-500/20 border-amber-500/50 text-amber-300 font-bold'
-                        : 'bg-slate-900 border-slate-800 text-slate-400'
+                        ? 'bg-[#1B365D] border-[#1B365D] text-[#FAF7F2] font-bold'
+                        : 'bg-white border-[#DFD7C8] text-stone-700 hover:border-[#1B365D]/40'
                     }`}
                   >
                     {item.label}

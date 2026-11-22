@@ -179,7 +179,7 @@ export default function App() {
   const stats = getGlobalPerformanceStats(studyData);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-amber-500/30 selection:text-amber-200">
+    <div className="min-h-screen bg-[#FAF7F2] text-stone-900 flex flex-col font-sans selection:bg-[#1B365D]/15 selection:text-[#1B365D]">
       {/* Navigation Header */}
       <Header
         activeTab={activeTab}
@@ -292,12 +292,12 @@ export default function App() {
       />
 
       {/* Footer Legal & Educational Disclaimer */}
-      <footer className="border-t border-slate-900 bg-slate-950 py-6 text-center text-xs text-slate-500">
+      <footer className="border-t border-[#E2DBD0] bg-[#F3EFE6] py-6 text-center text-xs text-stone-600">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>
-            © {new Date().getFullYear()} JurisMentor · Plataforma de Estudos Jurídicos de Alta Performance.
+          <span className="font-serif text-stone-700">
+            © {new Date().getFullYear()} JurisMentor · Estudos Jurídicos Clássicos & Preparação OAB.
           </span>
-          <span className="font-mono text-[11px] text-slate-600">
+          <span className="font-mono text-[11px] text-stone-600">
             Conteúdo alinhado aos Exames Unificados FGV e Tribunais Superiores (STF/STJ).
           </span>
         </div>

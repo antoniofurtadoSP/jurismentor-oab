@@ -54,30 +54,30 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
   return (
     <div className="max-w-4xl mx-auto px-4 py-6 space-y-8 animate-in fade-in">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-800">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-[#DFD7C8]">
         <div>
-          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-white flex items-center gap-2.5">
-            <Scale className="w-7 h-7 text-purple-400" />
+          <h1 className="font-display text-2xl sm:text-3xl font-bold text-stone-900 flex items-center gap-2.5">
+            <Scale className="w-7 h-7 text-[#8A6518]" />
             Súmulas Vinculantes & Artigos-Chave
           </h1>
-          <p className="text-sm text-slate-400 mt-1">
-            Flashcards de memorização ativa dos entendimentos pacificadores do STF e STJ mais cobrados
+          <p className="text-sm font-serif italic text-stone-600 mt-1">
+            Fichas de memorização ativa dos entendimentos pacificadores do STF e STJ mais cobrados
           </p>
         </div>
 
-        <div className="px-4 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-300 font-mono self-start sm:self-auto">
-          Dominados: <strong className="text-emerald-400">{masteredCount}</strong> / {FLASHCARDS_DATABASE.length}
+        <div className="px-4 py-2 rounded-xl bg-white border border-[#DFD7C8] text-xs text-stone-700 font-mono tabular-nums self-start sm:self-auto shadow-xs">
+          Dominados: <strong className="text-emerald-800">{masteredCount}</strong> / {FLASHCARDS_DATABASE.length}
         </div>
       </div>
 
-      {/* Category Pills Filter */}
+      {/* Category Filter */}
       <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
         <button
           onClick={() => { setSelectedCategory('ALL'); setCurrentIndex(0); setIsFlipped(false); }}
-          className={`text-xs px-3.5 py-1.5 rounded-xl border transition-colors cursor-pointer ${
+          className={`text-xs px-3.5 py-1.5 rounded-lg border transition-colors cursor-pointer ${
             selectedCategory === 'ALL'
-              ? 'bg-purple-500/20 border-purple-500/50 text-purple-300 font-bold'
-              : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
+              ? 'bg-[#1B365D] border-[#1B365D] text-[#FAF7F2] font-semibold'
+              : 'bg-white border-[#D6CCB9] text-stone-700 hover:text-stone-950'
           }`}
         >
           Todos ({FLASHCARDS_DATABASE.length})
@@ -86,10 +86,10 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
           <button
             key={cat}
             onClick={() => { setSelectedCategory(cat); setCurrentIndex(0); setIsFlipped(false); }}
-            className={`text-xs px-3.5 py-1.5 rounded-xl border whitespace-nowrap transition-colors cursor-pointer ${
+            className={`text-xs px-3.5 py-1.5 rounded-lg border whitespace-nowrap transition-colors cursor-pointer ${
               selectedCategory === cat
-                ? 'bg-purple-500/20 border-purple-500/50 text-purple-300 font-bold'
-                : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
+                ? 'bg-[#1B365D] border-[#1B365D] text-[#FAF7F2] font-semibold'
+                : 'bg-white border-[#D6CCB9] text-stone-700 hover:text-stone-950'
             }`}
           >
             {cat}
@@ -102,22 +102,22 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
         <div className="space-y-6">
           <div
             onClick={() => setIsFlipped(prev => !prev)}
-            className="group relative min-h-[320px] sm:min-h-[360px] bg-slate-900 border border-slate-800 hover:border-purple-500/50 rounded-3xl p-8 flex flex-col justify-between shadow-2xl cursor-pointer transition-all duration-300"
+            className="group relative min-h-[320px] sm:min-h-[360px] bg-white border border-[#D6CCB9] hover:border-[#1B365D]/60 rounded-2xl p-8 flex flex-col justify-between shadow-sm cursor-pointer transition-all duration-300"
           >
             {/* Top kicker */}
-            <div className="flex items-center justify-between text-xs text-slate-400 border-b border-slate-800/80 pb-4">
+            <div className="flex items-center justify-between text-xs text-stone-600 border-b border-[#E6DFD3] pb-4">
               <div className="flex items-center gap-2">
-                <span className="font-semibold text-purple-400">{currentCard.category}</span>
+                <span className="font-semibold uppercase tracking-wider text-[#7B1E26]">{currentCard.category}</span>
                 <span>·</span>
-                <span className="text-slate-300">{currentCard.subject}</span>
+                <span className="text-stone-800 font-medium">{currentCard.subject}</span>
               </div>
               <div className="flex items-center gap-2">
                 {isMastered && (
-                  <span className="text-emerald-400 font-bold flex items-center gap-1 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20">
+                  <span className="text-emerald-800 font-bold flex items-center gap-1 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
                     <CheckCircle2 className="w-3.5 h-3.5" /> Dominado
                   </span>
                 )}
-                <span className="font-mono text-slate-500">
+                <span className="font-mono tabular-nums text-stone-600">
                   {currentIndex + 1} de {filteredCards.length}
                 </span>
               </div>
@@ -127,25 +127,25 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
             <div className="py-8 my-auto">
               {!isFlipped ? (
                 <div className="space-y-4 animate-in fade-in">
-                  <h3 className="font-serif text-lg sm:text-xl font-bold text-white text-center">
+                  <h3 className="font-display text-xl sm:text-2xl font-bold text-stone-900 text-center">
                     {currentCard.title}
                   </h3>
-                  <p className="font-serif text-base sm:text-lg text-slate-200 text-center leading-relaxed max-w-xl mx-auto">
+                  <p className="font-serif text-base sm:text-lg text-stone-800 text-center leading-relaxed max-w-xl mx-auto">
                     "{currentCard.front}"
                   </p>
-                  <p className="text-xs text-center text-slate-500 flex items-center justify-center gap-1.5 pt-4">
-                    <RotateCw className="w-3.5 h-3.5" /> Clique para virar o card e ver o fundamento
+                  <p className="text-xs text-center text-stone-500 flex items-center justify-center gap-1.5 pt-4">
+                    <RotateCw className="w-3.5 h-3.5" /> Clique para virar a ficha e ver o fundamento
                   </p>
                 </div>
               ) : (
                 <div className="space-y-4 animate-in fade-in">
-                  <div className="text-xs font-bold uppercase tracking-wider text-purple-400 text-center">
+                  <div className="text-xs font-bold uppercase tracking-[0.12em] text-[#7B1E26] text-center">
                     Tese Vinculante / Resposta:
                   </div>
-                  <div className="font-sans text-sm sm:text-base text-slate-200 leading-relaxed whitespace-pre-line max-w-xl mx-auto bg-slate-950/60 p-5 rounded-2xl border border-slate-800">
+                  <div className="font-serif text-sm sm:text-base text-stone-900 leading-relaxed whitespace-pre-line max-w-xl mx-auto bg-[#FAF7F2] p-5 rounded-xl border border-[#DFD7C8]">
                     {currentCard.back}
                   </div>
-                  <div className="text-center font-mono text-xs text-amber-400 font-semibold">
+                  <div className="text-center font-mono text-xs text-[#1B365D] font-semibold">
                     Referência: {currentCard.articleRef}
                   </div>
                 </div>
@@ -153,9 +153,9 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
             </div>
 
             {/* Bottom hint */}
-            <div className="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-500">
-              <span>{isFlipped ? 'Clique para retornar à pergunta' : 'Toque no card para revelar'}</span>
-              <span className="font-mono">JurisMentor Flashcards</span>
+            <div className="pt-4 border-t border-[#E6DFD3] flex items-center justify-between text-xs text-stone-500">
+              <span>{isFlipped ? 'Clique para retornar à pergunta' : 'Toque na ficha para revelar'}</span>
+              <span className="font-mono">JurisMentor · Vade Mecum</span>
             </div>
           </div>
 
@@ -164,13 +164,13 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
             <div className="flex items-center gap-2">
               <button
                 onClick={handlePrev}
-                className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:bg-slate-800 transition-colors cursor-pointer"
+                className="p-2.5 rounded-xl bg-white border border-[#D6CCB9] text-stone-700 hover:bg-[#F4EFE6] transition-colors cursor-pointer shadow-xs"
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
               <button
                 onClick={handleNext}
-                className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:bg-slate-800 transition-colors cursor-pointer"
+                className="p-2.5 rounded-xl bg-white border border-[#D6CCB9] text-stone-700 hover:bg-[#F4EFE6] transition-colors cursor-pointer shadow-xs"
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
@@ -192,16 +192,16 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
               <div className="flex items-center gap-3">
                 <button
                   onClick={() => handleMarkStatus(false)}
-                  className="px-4 py-2.5 rounded-xl bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/30 text-xs font-bold flex items-center gap-2 transition-colors cursor-pointer"
+                  className="px-4 py-2.5 rounded-xl bg-rose-50 hover:bg-rose-100 text-rose-900 border border-rose-300 text-xs font-bold flex items-center gap-2 transition-colors cursor-pointer"
                 >
-                  <AlertCircle className="w-4 h-4 text-rose-400" />
+                  <AlertCircle className="w-4 h-4 text-[#7B1E26]" />
                   Ainda com Dúvida
                 </button>
                 <button
                   onClick={() => handleMarkStatus(true)}
-                  className="px-4 py-2.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-bold flex items-center gap-2 transition-colors cursor-pointer"
+                  className="px-4 py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border border-emerald-300 text-xs font-bold flex items-center gap-2 transition-colors cursor-pointer"
                 >
-                  <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                  <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                   Dominado
                 </button>
               </div>

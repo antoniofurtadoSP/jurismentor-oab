@@ -40,16 +40,16 @@ class AppErrorBoundary extends React.Component<{ children: React.ReactNode }, Er
   render() {
     if (this.state.hasError) {
       return (
-        <div className="min-h-screen bg-slate-950 text-slate-100 flex items-center justify-center p-6">
-          <div className="max-w-md w-full bg-slate-900 border border-slate-800 rounded-2xl p-6 text-center space-y-4">
-            <h1 className="font-serif text-xl font-bold text-amber-400">JurisMentor</h1>
-            <p className="text-sm text-slate-300">
+        <div className="min-h-screen bg-[#FAF7F2] text-stone-900 flex items-center justify-center p-6">
+          <div className="max-w-md w-full bg-white border border-[#DFD7C8] rounded-2xl p-6 text-center space-y-4 shadow-xs">
+            <h1 className="font-display text-2xl font-bold text-[#1B365D]">JurisMentor</h1>
+            <p className="font-serif text-sm text-stone-700">
               Ocorreu uma falha ao iniciar o aplicativo neste dispositivo ({this.state.message}).
             </p>
             <button
               type="button"
               onClick={this.handleResetCache}
-              className="w-full py-2.5 px-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm cursor-pointer"
+              className="w-full py-2.5 px-4 rounded-xl bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] font-semibold text-sm cursor-pointer"
             >
               Limpar Cache e Recarregar
             </button>

@@ -175,27 +175,27 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
   return (
     <div className="max-w-6xl mx-auto px-4 py-6 space-y-8 animate-in fade-in">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-800">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-[#DFD7C8]">
         <div>
-          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-white flex items-center gap-2.5">
-            <Calendar className="w-7 h-7 text-sky-400" />
+          <h1 className="font-display text-2xl sm:text-3xl font-bold text-stone-900 flex items-center gap-2.5">
+            <Calendar className="w-7 h-7 text-[#1B365D]" />
             Cronogramas Inteligentes de Revisão Espaçada
           </h1>
-          <p className="text-sm text-slate-400 mt-1">
+          <p className="text-sm font-serif italic text-stone-600 mt-1">
             Planejamento estratégico baseado na curva do esquecimento (R24h, R7d e R30d) e peso estatístico do edital
           </p>
         </div>
 
         {/* Plan Switcher */}
-        <div className="flex items-center gap-1.5 p-1 bg-slate-900 border border-slate-800 rounded-xl overflow-x-auto">
+        <div className="flex items-center gap-1.5 p-1 bg-white border border-[#D6CCB9] rounded-xl overflow-x-auto shadow-xs">
           {STUDY_PLANS.map((plan) => (
             <button
               key={plan.id}
               onClick={() => setSelectedPlanId(plan.id)}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors cursor-pointer ${
                 selectedPlanId === plan.id
-                  ? 'bg-amber-500 text-slate-950 shadow-sm'
-                  : 'text-slate-400 hover:text-slate-200'
+                  ? 'bg-[#1B365D] text-[#FAF7F2] shadow-xs'
+                  : 'text-stone-700 hover:text-stone-950 hover:bg-[#F4EFE6]'
               }`}
             >
               {plan.title.split('(')[0].trim()}
@@ -205,38 +205,38 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
       </div>
 
       {/* Plan Header Info & Progress Bar */}
-      <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
+      <div className="bg-white border border-[#DFD7C8] rounded-2xl p-6 sm:p-8 shadow-xs">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 mb-6">
           <div className="max-w-2xl">
-            <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-400 mb-1">
+            <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.1em] text-[#7B1E26] mb-1">
               <span>Objetivo: {currentPlan.target}</span>
               <span aria-hidden="true">·</span>
               <span>{currentPlan.totalDays} Dias Programados</span>
             </div>
-            <h2 className="font-serif text-xl sm:text-2xl font-bold text-white mb-2">
+            <h2 className="font-display text-xl sm:text-2xl font-bold text-stone-900 mb-2">
               {currentPlan.title}
             </h2>
-            <p className="text-sm text-slate-300 leading-relaxed font-sans">
+            <p className="text-sm text-stone-700 leading-relaxed font-serif">
               {currentPlan.description}
             </p>
           </div>
 
-          <div className="bg-slate-950/70 p-5 rounded-2xl border border-slate-800 shrink-0 text-center sm:text-left min-w-[230px]">
-            <div className="text-xs text-slate-400 font-semibold mb-1">Metas Cumpridas</div>
+          <div className="bg-[#FAF7F2] p-5 rounded-xl border border-[#DFD7C8] shrink-0 text-center sm:text-left min-w-[230px]">
+            <div className="text-xs text-stone-600 font-semibold mb-1">Metas Cumpridas</div>
             <div className="flex items-baseline gap-2">
-              <span className="text-3xl font-serif font-black text-white">{completedCount}</span>
-              <span className="text-slate-500 text-sm">/ {currentPlan.days.length} dias</span>
-              <span className="text-sm font-bold text-sky-400 ml-auto">{progressPercent}%</span>
+              <span className="text-3xl font-display font-black tabular-nums text-stone-900">{completedCount}</span>
+              <span className="text-stone-600 text-sm">/ {currentPlan.days.length} dias</span>
+              <span className="text-sm font-bold font-mono tabular-nums text-[#1B365D] ml-auto">{progressPercent}%</span>
             </div>
-            <div className="w-full bg-slate-800 rounded-full h-2 mt-3 overflow-hidden">
+            <div className="w-full bg-[#E6DFD3] rounded-full h-2 mt-3 overflow-hidden">
               <div
-                className="bg-sky-400 h-full transition-all duration-500"
+                className="bg-[#1B365D] h-full transition-all duration-500"
                 style={{ width: `${progressPercent}%` }}
               />
             </div>
-            <div className="mt-3 pt-2.5 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
+            <div className="mt-3 pt-2.5 border-t border-[#E6DFD3] flex items-center justify-between text-[11px] text-stone-600">
               <span>Média/dia configurada:</span>
-              <span className="font-mono font-semibold text-amber-300">
+              <span className="font-mono font-semibold text-[#1B365D] tabular-nums">
                 {planGoalTotals.avgQuestions}q · {formatDuration(planGoalTotals.avgMinutes)}
               </span>
             </div>
@@ -244,31 +244,31 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
         </div>
 
         {/* Spaced repetition educational banner */}
-        <div className="p-4 rounded-xl bg-slate-950/40 border border-slate-800/80 flex items-start gap-3 text-xs text-slate-300">
-          <RefreshCw className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" />
+        <div className="p-4 rounded-xl bg-[#F5F0E6] border border-[#DFD7C8] flex items-start gap-3 text-xs text-stone-700 font-serif">
+          <RefreshCw className="w-4 h-4 text-[#1B365D] shrink-0 mt-0.5" />
           <div>
-            <strong className="text-white">Metodologia de Revisão Espaçada (Curva de Ebbinghaus):</strong> Ao concluir a leitura de lei seca e as questões do dia, faça uma revisão rápida de 10 minutos após 24 horas (R24h), após 7 dias (R7d) e após 30 dias (R30d) para fixar permanentemente na memória de longo prazo.
+            <strong className="text-stone-900 font-sans">Metodologia de Revisão Espaçada (Curva de Ebbinghaus):</strong> Ao concluir a leitura de lei seca e as questões do dia, faça uma revisão rápida de 10 minutos após 24 horas (R24h), após 7 dias (R7d) e após 30 dias (R30d) para fixar permanentemente na memória de longo prazo.
           </div>
         </div>
       </div>
 
       {/* Study Goals Configuration Panel */}
-      <div className="bg-slate-900 border border-amber-500/30 rounded-3xl p-6 sm:p-8 shadow-xl space-y-5">
+      <div className="bg-white border border-[#D6CCB9] rounded-2xl p-6 sm:p-8 shadow-xs space-y-5">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-1">
             <div className="flex flex-wrap items-center gap-2.5">
-              <Sliders className="w-5 h-5 text-amber-400" />
-              <h3 className="font-serif text-lg sm:text-xl font-bold text-white">
+              <Sliders className="w-5 h-5 text-[#1B365D]" />
+              <h3 className="font-display text-lg sm:text-xl font-bold text-stone-900">
                 Configuração de Metas Diárias por Disciplina
               </h3>
               {saveFeedback && (
-                <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-300 bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-0.5 rounded-lg animate-in fade-in">
-                  <Check className="w-3 h-3" />
+                <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-900 bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 rounded-lg animate-in fade-in">
+                  <Check className="w-3 h-3 text-emerald-800" />
                   {saveFeedback}
                 </span>
               )}
             </div>
-            <p className="text-xs sm:text-sm text-slate-400">
+            <p className="text-xs sm:text-sm font-serif text-stone-600">
               Defina o número de questões diárias e o tempo dedicado para cada disciplina. As metas ajustam automaticamente o seu roteiro e sessões de treino.
             </p>
           </div>
@@ -276,7 +276,7 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
           <button
             type="button"
             onClick={() => setIsGoalsPanelOpen(prev => !prev)}
-            className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-semibold text-slate-200 flex items-center gap-2 self-start md:self-auto transition-colors cursor-pointer shrink-0 whitespace-nowrap"
+            className="px-4 py-2 rounded-xl bg-[#F4EFE6] hover:bg-[#EAE3D5] border border-[#D6CCB9] text-xs font-semibold text-stone-800 flex items-center gap-2 self-start md:self-auto transition-colors cursor-pointer shrink-0 whitespace-nowrap"
           >
             <span>{isGoalsPanelOpen ? 'Recolher Painel' : 'Configurar Metas'}</span>
             {isGoalsPanelOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
@@ -285,51 +285,51 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
 
         {/* Summary KPI Strip */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-          <div className="p-3.5 rounded-2xl bg-slate-950/70 border border-slate-800 flex items-center justify-between">
+          <div className="p-3.5 rounded-xl bg-[#FAF7F2] border border-[#DFD7C8] flex items-center justify-between">
             <div>
-              <div className="text-[11px] text-slate-400">Média por Dia no Plano</div>
-              <div className="text-base font-serif font-bold text-white mt-0.5">
+              <div className="text-[11px] text-stone-600">Média por Dia no Plano</div>
+              <div className="text-base font-display font-bold text-stone-900 mt-0.5 tabular-nums">
                 {planGoalTotals.avgQuestions} questões / dia
               </div>
             </div>
-            <Target className="w-5 h-5 text-amber-400 shrink-0" />
+            <Target className="w-5 h-5 text-[#7B1E26] shrink-0" />
           </div>
 
-          <div className="p-3.5 rounded-2xl bg-slate-950/70 border border-slate-800 flex items-center justify-between">
+          <div className="p-3.5 rounded-xl bg-[#FAF7F2] border border-[#DFD7C8] flex items-center justify-between">
             <div>
-              <div className="text-[11px] text-slate-400">Tempo Médio Dedicado</div>
-              <div className="text-base font-serif font-bold text-white mt-0.5">
+              <div className="text-[11px] text-stone-600">Tempo Médio Dedicado</div>
+              <div className="text-base font-display font-bold text-stone-900 mt-0.5 tabular-nums">
                 {formatDuration(planGoalTotals.avgMinutes)} / dia
               </div>
             </div>
-            <Clock className="w-5 h-5 text-sky-400 shrink-0" />
+            <Clock className="w-5 h-5 text-[#1B365D] shrink-0" />
           </div>
 
-          <div className="p-3.5 rounded-2xl bg-slate-950/70 border border-slate-800 flex items-center justify-between">
+          <div className="p-3.5 rounded-xl bg-[#FAF7F2] border border-[#DFD7C8] flex items-center justify-between">
             <div>
-              <div className="text-[11px] text-slate-400">Carga Total das Matérias do Plano</div>
-              <div className="text-base font-serif font-bold text-white mt-0.5">
+              <div className="text-[11px] text-stone-600">Carga Total das Matérias do Plano</div>
+              <div className="text-base font-display font-bold text-stone-900 mt-0.5 tabular-nums">
                 {planGoalTotals.totalQuestions}q · {formatDuration(planGoalTotals.totalMinutes)}
               </div>
             </div>
-            <BookOpen className="w-5 h-5 text-emerald-400 shrink-0" />
+            <BookOpen className="w-5 h-5 text-emerald-800 shrink-0" />
           </div>
         </div>
 
         {isGoalsPanelOpen && (
-          <div className="space-y-4 pt-2 border-t border-slate-800/80 animate-in fade-in">
+          <div className="space-y-4 pt-3 border-t border-[#E6DFD3] animate-in fade-in">
             {/* Scope & Quick Presets Toolbar */}
             <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
               {/* Scope & Search */}
               <div className="flex flex-wrap items-center gap-2">
-                <div className="flex items-center bg-slate-950 border border-slate-800 rounded-xl p-1 text-xs">
+                <div className="flex items-center bg-[#F3EFE6] border border-[#D6CCB9] rounded-xl p-1 text-xs">
                   <button
                     type="button"
                     onClick={() => setGoalsScope('plan')}
                     className={`px-3 py-1.5 rounded-lg font-semibold transition-colors cursor-pointer whitespace-nowrap ${
                       goalsScope === 'plan'
-                        ? 'bg-amber-500 text-slate-950'
-                        : 'text-slate-400 hover:text-white'
+                        ? 'bg-[#1B365D] text-[#FAF7F2]'
+                        : 'text-stone-700 hover:text-stone-950'
                     }`}
                   >
                     Matérias do Plano ({planSubjects.length})
@@ -339,8 +339,8 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                     onClick={() => setGoalsScope('all')}
                     className={`px-3 py-1.5 rounded-lg font-semibold transition-colors cursor-pointer whitespace-nowrap ${
                       goalsScope === 'all'
-                        ? 'bg-amber-500 text-slate-950'
-                        : 'text-slate-400 hover:text-white'
+                        ? 'bg-[#1B365D] text-[#FAF7F2]'
+                        : 'text-stone-700 hover:text-stone-950'
                     }`}
                   >
                     Todas as Disciplinas ({mergedAllSubjects.length})
@@ -348,38 +348,38 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                 </div>
 
                 <div className="relative flex-1 min-w-[200px]">
-                  <Search className="w-3.5 h-3.5 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
+                  <Search className="w-3.5 h-3.5 text-stone-500 absolute left-3 top-1/2 -translate-y-1/2" />
                   <input
                     type="text"
                     value={subjectSearch}
                     onChange={(e) => setSubjectSearch(e.target.value)}
                     placeholder="Filtrar disciplina..."
-                    className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-8 pr-3 py-1.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-500/70"
+                    className="w-full bg-[#FAF7F2] border border-[#D6CCB9] rounded-xl pl-8 pr-3 py-1.5 text-xs text-stone-900 placeholder-stone-500 focus:outline-none focus:border-[#1B365D]"
                   />
                 </div>
               </div>
 
               {/* Presets */}
               <div className="flex flex-wrap items-center gap-2">
-                <span className="text-[11px] font-semibold text-slate-400 mr-0.5">Perfis rápidos:</span>
+                <span className="text-[11px] font-semibold text-stone-600 mr-0.5">Perfis rápidos:</span>
                 <button
                   type="button"
                   onClick={() => handleApplyPreset('leve')}
-                  className="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium border border-slate-700 transition-colors cursor-pointer"
+                  className="px-2.5 py-1.5 rounded-lg bg-[#F4EFE6] hover:bg-[#EAE3D5] text-stone-800 text-xs font-medium border border-[#D6CCB9] transition-colors cursor-pointer"
                 >
                   Rotina Leve (10q · 30m)
                 </button>
                 <button
                   type="button"
                   onClick={() => handleApplyPreset('intensivo')}
-                  className="px-2.5 py-1.5 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 text-xs font-semibold border border-amber-500/30 transition-colors cursor-pointer"
+                  className="px-2.5 py-1.5 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-950 text-xs font-semibold border border-amber-300 transition-colors cursor-pointer"
                 >
                   Intensivo (+50%)
                 </button>
                 <button
                   type="button"
                   onClick={() => handleApplyPreset('padrao')}
-                  className="px-2.5 py-1.5 rounded-lg bg-slate-950 hover:bg-slate-800 text-slate-300 text-xs font-medium border border-slate-800 flex items-center gap-1 transition-colors cursor-pointer"
+                  className="px-2.5 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] text-stone-700 text-xs font-medium border border-[#D6CCB9] flex items-center gap-1 transition-colors cursor-pointer"
                   title="Restaurar todas as disciplinas para as metas recomendadas da OAB"
                 >
                   <RotateCcw className="w-3 h-3" />
@@ -390,7 +390,7 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
 
             {/* Discipline Rows */}
             {visibleSubjects.length === 0 ? (
-              <div className="p-6 text-center text-xs text-slate-400 bg-slate-950/60 rounded-2xl border border-slate-800">
+              <div className="p-6 text-center text-xs text-stone-600 bg-[#FAF7F2] rounded-xl border border-[#DFD7C8]">
                 Nenhuma disciplina encontrada para "{subjectSearch}".
               </div>
             ) : (
@@ -405,25 +405,25 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                   return (
                     <div
                       key={subject}
-                      className={`p-4 rounded-2xl border transition-colors space-y-3 ${
+                      className={`p-4 rounded-xl border transition-colors space-y-3 ${
                         isCustom
-                          ? 'bg-slate-950/90 border-amber-500/35'
-                          : 'bg-slate-950/60 border-slate-800'
+                          ? 'bg-[#FDFBF6] border-[#C59B3E]'
+                          : 'bg-[#FAF7F2] border-[#DFD7C8]'
                       }`}
                     >
                       <div className="flex items-start justify-between gap-2">
                         <div className="min-w-0">
                           <div className="flex flex-wrap items-center gap-2">
-                            <h4 className="font-semibold text-sm text-white truncate">
+                            <h4 className="font-semibold text-sm text-stone-900 truncate">
                               {subject}
                             </h4>
                             {isCustom && (
-                              <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                              <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-amber-50 text-amber-950 border border-amber-300">
                                 Personalizada
                               </span>
                             )}
                           </div>
-                          <div className="text-[11px] text-slate-500 mt-0.5">
+                          <div className="text-[11px] text-stone-600 mt-0.5">
                             {availableCount > 0 ? `${availableCount} questões no banco` : 'Disciplina do roteiro'}
                           </div>
                         </div>
@@ -433,7 +433,7 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                             <button
                               type="button"
                               onClick={() => handleResetSingleSubject(subject)}
-                              className="p-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-amber-300 border border-slate-800 transition-colors cursor-pointer"
+                              className="p-1.5 rounded-lg bg-white hover:bg-[#EAE3D5] text-stone-600 hover:text-[#7B1E26] border border-[#D6CCB9] transition-colors cursor-pointer"
                               title={`Restaurar padrão (${def.dailyQuestions}q · ${def.dailyMinutes}min)`}
                             >
                               <RotateCcw className="w-3.5 h-3.5" />
@@ -442,7 +442,7 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                           <button
                             type="button"
                             onClick={() => onStartDayPractice(subject, 1)}
-                            className="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-amber-300 text-[11px] font-semibold border border-slate-700 transition-colors cursor-pointer whitespace-nowrap"
+                            className="px-2.5 py-1.5 rounded-lg bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] text-[11px] font-semibold transition-colors cursor-pointer whitespace-nowrap"
                           >
                             Treinar {goal.dailyQuestions}q
                           </button>
@@ -452,9 +452,9 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                       {/* Two Stepper Inputs: Daily Questions & Dedicated Time */}
                       <div className="grid grid-cols-2 gap-2.5">
                         {/* Daily Questions */}
-                        <div className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1.5">
-                          <label className="text-[11px] text-slate-400 font-medium flex items-center gap-1">
-                            <Target className="w-3 h-3 text-amber-400" />
+                        <div className="p-2.5 rounded-lg bg-white border border-[#DFD7C8] space-y-1.5">
+                          <label className="text-[11px] text-stone-600 font-medium flex items-center gap-1">
+                            <Target className="w-3 h-3 text-[#7B1E26]" />
                             Questões/dia
                           </label>
                           <div className="flex items-center gap-1.5">
@@ -463,7 +463,7 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                               onClick={() =>
                                 handleUpdateGoal(subject, { dailyQuestions: goal.dailyQuestions - 1 })
                               }
-                              className="w-7 h-7 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 flex items-center justify-center transition-colors cursor-pointer shrink-0"
+                              className="w-7 h-7 rounded-md bg-[#F4EFE6] hover:bg-[#EAE3D5] border border-[#D6CCB9] text-stone-800 flex items-center justify-center transition-colors cursor-pointer shrink-0"
                               aria-label={`Diminuir questões diárias de ${subject}`}
                             >
                               <Minus className="w-3.5 h-3.5" />
@@ -480,14 +480,14 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                                 }
                               }}
                               aria-label={`Questões diárias para ${subject}`}
-                              className="w-full bg-slate-950 border border-slate-800 rounded-lg py-1 text-center font-mono text-xs font-bold text-white focus:outline-none focus:border-amber-500/70"
+                              className="w-full bg-[#FAF7F2] border border-[#D6CCB9] rounded-md py-1 text-center font-mono tabular-nums text-xs font-bold text-stone-900 focus:outline-none focus:border-[#1B365D]"
                             />
                             <button
                               type="button"
                               onClick={() =>
                                 handleUpdateGoal(subject, { dailyQuestions: goal.dailyQuestions + 1 })
                               }
-                              className="w-7 h-7 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 flex items-center justify-center transition-colors cursor-pointer shrink-0"
+                              className="w-7 h-7 rounded-md bg-[#F4EFE6] hover:bg-[#EAE3D5] border border-[#D6CCB9] text-stone-800 flex items-center justify-center transition-colors cursor-pointer shrink-0"
                               aria-label={`Aumentar questões diárias de ${subject}`}
                             >
                               <Plus className="w-3.5 h-3.5" />
@@ -496,13 +496,13 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                         </div>
 
                         {/* Daily Minutes */}
-                        <div className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1.5">
-                          <label className="text-[11px] text-slate-400 font-medium flex items-center justify-between gap-1">
+                        <div className="p-2.5 rounded-lg bg-white border border-[#DFD7C8] space-y-1.5">
+                          <label className="text-[11px] text-stone-600 font-medium flex items-center justify-between gap-1">
                             <span className="flex items-center gap-1">
-                              <Clock className="w-3 h-3 text-sky-400" />
+                              <Clock className="w-3 h-3 text-[#1B365D]" />
                               Tempo (min)
                             </span>
-                            <span className="font-mono text-[10px] text-sky-300">
+                            <span className="font-mono tabular-nums text-[10px] font-semibold text-[#1B365D]">
                               {formatDuration(goal.dailyMinutes)}
                             </span>
                           </label>
@@ -512,7 +512,7 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                               onClick={() =>
                                 handleUpdateGoal(subject, { dailyMinutes: goal.dailyMinutes - 5 })
                               }
-                              className="w-7 h-7 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 flex items-center justify-center transition-colors cursor-pointer shrink-0"
+                              className="w-7 h-7 rounded-md bg-[#F4EFE6] hover:bg-[#EAE3D5] border border-[#D6CCB9] text-stone-800 flex items-center justify-center transition-colors cursor-pointer shrink-0"
                               aria-label={`Diminuir tempo dedicado de ${subject}`}
                             >
                               <Minus className="w-3.5 h-3.5" />
@@ -530,14 +530,14 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                                 }
                               }}
                               aria-label={`Tempo dedicado em minutos para ${subject}`}
-                              className="w-full bg-slate-950 border border-slate-800 rounded-lg py-1 text-center font-mono text-xs font-bold text-white focus:outline-none focus:border-sky-500/70"
+                              className="w-full bg-[#FAF7F2] border border-[#D6CCB9] rounded-md py-1 text-center font-mono tabular-nums text-xs font-bold text-stone-900 focus:outline-none focus:border-[#1B365D]"
                             />
                             <button
                               type="button"
                               onClick={() =>
                                 handleUpdateGoal(subject, { dailyMinutes: goal.dailyMinutes + 5 })
                               }
-                              className="w-7 h-7 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 flex items-center justify-center transition-colors cursor-pointer shrink-0"
+                              className="w-7 h-7 rounded-md bg-[#F4EFE6] hover:bg-[#EAE3D5] border border-[#D6CCB9] text-stone-800 flex items-center justify-center transition-colors cursor-pointer shrink-0"
                               aria-label={`Aumentar tempo dedicado de ${subject}`}
                             >
                               <Plus className="w-3.5 h-3.5" />
@@ -556,8 +556,8 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
 
       {/* Daily Roadmap Timeline */}
       <div className="space-y-4">
-        <h3 className="font-serif text-lg font-bold text-white flex items-center gap-2">
-          <Target className="w-5 h-5 text-amber-400" />
+        <h3 className="font-display text-lg font-bold text-stone-900 flex items-center gap-2">
+          <Target className="w-5 h-5 text-[#7B1E26]" />
           Roteiro Diário de Estudos & Metas
         </h3>
 
@@ -578,10 +578,10 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
             return (
               <div
                 key={day.dayNumber}
-                className={`p-5 rounded-2xl border transition-all ${
+                className={`p-5 rounded-xl border transition-all shadow-xs ${
                   isCompleted
-                    ? 'bg-slate-900/40 border-emerald-500/30'
-                    : 'bg-slate-900 border-slate-800 hover:border-slate-700'
+                    ? 'bg-emerald-50/60 border-emerald-200'
+                    : 'bg-white border-[#DFD7C8] hover:border-[#C7BBA6]'
                 }`}
               >
                 <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
@@ -589,64 +589,64 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
                     {/* Checkbox circle */}
                     <button
                       onClick={() => handleToggleDay(day.dayNumber)}
-                      className="mt-1 text-slate-500 hover:text-emerald-400 transition-colors cursor-pointer shrink-0"
+                      className="mt-1 text-stone-400 hover:text-emerald-800 transition-colors cursor-pointer shrink-0"
                       title={isCompleted ? 'Marcar como não concluído' : 'Marcar meta do dia como concluída'}
                     >
                       {isCompleted ? (
-                        <CheckCircle className="w-6 h-6 text-emerald-400 fill-emerald-500/20" />
+                        <CheckCircle className="w-6 h-6 text-emerald-800 fill-emerald-100" />
                       ) : (
-                        <Circle className="w-6 h-6 text-slate-600 hover:text-slate-400" />
+                        <Circle className="w-6 h-6 text-stone-400 hover:text-stone-600" />
                       )}
                     </button>
 
                     <div>
-                      <div className="flex flex-wrap items-center gap-2 text-xs text-slate-400 mb-1">
-                        <span className="font-mono font-bold text-amber-400">
+                      <div className="flex flex-wrap items-center gap-2 text-xs text-stone-600 mb-1">
+                        <span className="font-mono font-bold text-[#7B1E26]">
                           DIA {day.dayNumber.toString().padStart(2, '0')}
                         </span>
                         <span aria-hidden="true">·</span>
-                        <span className="text-slate-200 font-semibold">{day.subject}</span>
+                        <span className="text-stone-900 font-semibold">{day.subject}</span>
                         <span aria-hidden="true">·</span>
                         <span className={`text-[11px] font-semibold ${
-                          day.weightInExam === 'Muito Alto' ? 'text-amber-400' : 'text-slate-400'
+                          day.weightInExam === 'Muito Alto' ? 'text-[#8A6518]' : 'text-stone-600'
                         }`}>
                           Peso no Edital: {day.weightInExam}
                         </span>
                       </div>
 
-                      <h4 className={`font-serif text-base font-bold text-white mb-2 ${
-                        isCompleted ? 'line-through text-slate-400' : ''
+                      <h4 className={`font-display text-base font-bold text-stone-900 mb-2 ${
+                        isCompleted ? 'line-through text-stone-500' : ''
                       }`}>
                         {day.title}
                       </h4>
 
-                      <div className="space-y-1.5 text-xs text-slate-300">
+                      <div className="space-y-1.5 text-xs text-stone-700 font-serif">
                         <div>
-                          <strong className="text-slate-400">Conteúdo Teórico:</strong> {day.subtopic}
+                          <strong className="font-sans text-stone-800">Conteúdo Teórico:</strong> {day.subtopic}
                         </div>
-                        <div className="text-amber-300/90 font-medium">
-                          📖 <strong className="text-amber-400">Leitura de Lei Seca:</strong> {day.readingFocus}
+                        <div className="text-[#1B365D] font-medium">
+                          📖 <strong className="font-sans text-[#7B1E26]">Leitura de Lei Seca:</strong> {day.readingFocus}
                         </div>
                       </div>
                     </div>
                   </div>
 
                   {/* Practice button & Dynamic Goals */}
-                  <div className="flex sm:flex-col items-center sm:items-end justify-between gap-2 shrink-0 pt-3 sm:pt-0 border-t sm:border-t-0 border-slate-800">
-                    <div className="flex flex-col sm:items-end gap-0.5 text-xs font-mono">
-                      <span className="text-slate-300">
-                        Meta: <strong className={customGoal ? 'text-amber-300' : 'text-white'}>{effectiveQuestions} questões</strong>
+                  <div className="flex sm:flex-col items-center sm:items-end justify-between gap-2 shrink-0 pt-3 sm:pt-0 border-t sm:border-t-0 border-[#E6DFD3]">
+                    <div className="flex flex-col sm:items-end gap-0.5 text-xs font-mono tabular-nums">
+                      <span className="text-stone-700">
+                        Meta: <strong className={customGoal ? 'text-[#7B1E26]' : 'text-stone-900'}>{effectiveQuestions} questões</strong>
                       </span>
-                      <span className="text-[11px] text-sky-300/90 flex items-center gap-1">
+                      <span className="text-[11px] text-[#1B365D] flex items-center gap-1">
                         <Clock className="w-3 h-3" />
                         {formatDuration(effectiveMinutes)} dedicados
                       </span>
                     </div>
                     <button
                       onClick={() => onStartDayPractice(day.subject, day.dayNumber)}
-                      className="px-3.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-amber-400 text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer border border-slate-700 hover:border-amber-500/40"
+                      className="px-3.5 py-1.5 rounded-lg bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer"
                     >
-                      <BookOpen className="w-3.5 h-3.5" />
+                      <BookOpen className="w-3.5 h-3.5 text-[#E6C574]" />
                       <span>Treinar Matéria</span>
                     </button>
                   </div>

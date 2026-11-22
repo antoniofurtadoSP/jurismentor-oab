@@ -33,7 +33,7 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
     : SHARED_APP_URL;
 
   // QR Code URL generator
-  const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=240x240&bgcolor=0b1120&color=f59e0b&margin=10&data=${encodeURIComponent(appUrl)}`;
+  const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=240x240&bgcolor=FFFFFF&color=1B365D&margin=10&data=${encodeURIComponent(appUrl)}`;
 
   // Capture PWA install event if available
   useEffect(() => {
@@ -92,31 +92,31 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-sm animate-in fade-in duration-200">
-      <div className="bg-slate-900 border border-slate-700/80 rounded-3xl w-full max-w-2xl max-h-[92vh] flex flex-col shadow-2xl overflow-hidden">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-stone-950/45 backdrop-blur-xs animate-in fade-in duration-200">
+      <div className="bg-[#FAF7F2] border border-[#D6CCB9] rounded-2xl w-full max-w-2xl max-h-[92vh] flex flex-col shadow-2xl overflow-hidden">
         {/* Header */}
-        <div className="px-6 py-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/70">
+        <div className="px-6 py-4 border-b border-[#E2DBD0] flex items-center justify-between bg-[#F3EFE6]">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
+            <div className="w-10 h-10 rounded-xl bg-[#1B365D] text-[#E6C574] flex items-center justify-center shrink-0">
               <Globe className="w-5 h-5" />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h3 className="font-serif font-bold text-base text-white">
+                <h3 className="font-display font-bold text-base text-stone-900">
                   Acessar Fora da Plataforma & No Celular
                 </h3>
-                <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-500/20">
+                <span className="text-[10px] uppercase font-bold tracking-[0.1em] text-[#7B1E26] border-l border-[#D6CCB9] pl-2">
                   Web App PWA
                 </span>
               </div>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs font-serif italic text-stone-600">
                 Acesse de qualquer lugar sem precisar fazer login no Google AI Studio
               </p>
             </div>
           </div>
           <button
             onClick={onClose}
-            className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"
+            className="p-1.5 rounded-lg text-stone-600 hover:text-stone-950 hover:bg-[#EAE3D5] transition-colors cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
@@ -126,7 +126,7 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
         <div className="p-6 overflow-y-auto space-y-6">
           {/* Direct Link Section */}
           <div className="space-y-2">
-            <label className="block text-xs font-bold uppercase tracking-wider text-slate-300">
+            <label className="block text-xs font-bold uppercase tracking-wider text-stone-700">
               Seu Link Público de Acesso Direto:
             </label>
             <div className="flex items-center gap-2">
@@ -134,19 +134,19 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
                 type="text"
                 readOnly
                 value={appUrl}
-                className="flex-1 bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-xs sm:text-sm text-amber-300 font-mono select-all focus:outline-none"
+                className="flex-1 bg-white border border-[#D6CCB9] rounded-xl px-4 py-2.5 text-xs sm:text-sm text-[#1B365D] font-mono select-all focus:outline-none"
               />
               <button
                 onClick={handleCopyLink}
-                className={`px-4 py-2.5 rounded-xl font-bold text-xs flex items-center gap-1.5 transition-all cursor-pointer shrink-0 shadow-md ${
+                className={`px-4 py-2.5 rounded-xl font-bold text-xs flex items-center gap-1.5 transition-all cursor-pointer shrink-0 shadow-xs ${
                   copied
-                    ? 'bg-emerald-500 text-slate-950'
-                    : 'bg-amber-500 hover:bg-amber-400 text-slate-950'
+                    ? 'bg-emerald-800 text-[#FAF7F2]'
+                    : 'bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2]'
                 }`}
               >
                 {copied ? (
                   <>
-                    <Check className="w-4 h-4 stroke-[3]" />
+                    <Check className="w-4 h-4 stroke-[2.5]" />
                     <span>Copiado!</span>
                   </>
                 ) : (
@@ -160,38 +160,38 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
                 href={appUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="p-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors cursor-pointer shrink-0 border border-slate-700"
+                className="p-2.5 rounded-xl bg-white hover:bg-[#F4EFE6] text-stone-700 hover:text-stone-950 transition-colors cursor-pointer shrink-0 border border-[#D6CCB9]"
                 title="Abrir em nova aba"
               >
                 <ExternalLink className="w-4 h-4" />
               </a>
             </div>
-            <p className="text-[11px] text-amber-300/90 bg-amber-500/10 border border-amber-500/20 rounded-xl px-3 py-2 leading-relaxed">
-              <strong>Importante para Android/iPhone:</strong> Use sempre este link público (<code className="text-amber-200">ais-pre-...</code>) no Google Chrome ou Safari — nunca o link de desenvolvimento (<code className="text-amber-200">ais-dev-...</code>). Caso apareça tela branca no celular, clique em <strong>Share / Publicar</strong> no topo do Google AI Studio para ativar a versão mais recente neste link público.
+            <p className="text-[11px] text-amber-950 bg-amber-50 border border-amber-200 rounded-xl px-3.5 py-2.5 leading-relaxed">
+              <strong>Importante para Android/iPhone:</strong> Use sempre este link público (<code className="font-mono text-[#7B1E26]">ais-pre-...</code>) no Google Chrome ou Safari — nunca o link de desenvolvimento (<code className="font-mono text-[#7B1E26]">ais-dev-...</code>). Caso apareça tela branca no celular, clique em <strong>Share / Publicar</strong> no topo do Google AI Studio para ativar a versão mais recente neste link público.
             </p>
           </div>
 
           {/* QR Code and Quick Scan */}
-          <div className="p-5 rounded-2xl bg-slate-950/70 border border-slate-800 flex flex-col sm:flex-row items-center gap-6">
-            <div className="p-2 bg-slate-900 rounded-2xl border border-amber-500/30 shadow-lg shrink-0">
+          <div className="p-5 rounded-2xl bg-white border border-[#DFD7C8] flex flex-col sm:flex-row items-center gap-6 shadow-xs">
+            <div className="p-2.5 bg-white rounded-xl border border-[#D6CCB9] shadow-xs shrink-0">
               <img
                 src={qrCodeUrl}
                 alt="QR Code de Acesso Rápido ao JurisMentor"
-                className="w-36 h-36 rounded-xl object-contain"
+                className="w-36 h-36 rounded-lg object-contain"
               />
             </div>
             <div className="space-y-2 text-center sm:text-left">
-              <div className="flex items-center justify-center sm:justify-start gap-1.5 text-amber-400 font-serif font-bold text-sm">
-                <QrCode className="w-4 h-4" />
+              <div className="flex items-center justify-center sm:justify-start gap-1.5 text-[#1B365D] font-display font-bold text-sm">
+                <QrCode className="w-4 h-4 text-[#8A6518]" />
                 <span>Abra no seu Celular em 3 Segundos:</span>
               </div>
-              <p className="text-xs text-slate-300 leading-relaxed font-sans">
+              <p className="text-xs text-stone-700 leading-relaxed font-serif">
                 Aponte a câmera do seu smartphone (iPhone ou Android) para este QR Code. O aplicativo abrirá imediatamente no navegador do seu telefone!
               </p>
               {installPrompt && (
                 <button
                   onClick={handleInstallClick}
-                  className="mt-2 px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer shadow-md"
+                  className="mt-2 px-4 py-2 rounded-xl bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer shadow-xs"
                 >
                   <Download className="w-4 h-4" />
                   <span>Instalar Aplicativo no Dispositivo</span>
@@ -202,19 +202,19 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
 
           {/* Step-by-Step Installation Guides */}
           <div className="space-y-3">
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-2">
-              <Download className="w-4 h-4 text-amber-400" />
+            <h4 className="text-xs font-bold uppercase tracking-wider text-stone-700 flex items-center gap-2">
+              <Download className="w-4 h-4 text-[#1B365D]" />
               Como Salvar como Aplicativo no seu Aparelho:
             </h4>
 
             {/* Device tabs */}
-            <div className="flex items-center gap-1.5 p-1 bg-slate-950 border border-slate-800 rounded-xl">
+            <div className="flex items-center gap-1.5 p-1 bg-[#F3EFE6] border border-[#D6CCB9] rounded-xl">
               <button
                 onClick={() => setActiveDeviceTab('iphone')}
                 className={`flex-1 py-1.5 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors cursor-pointer ${
                   activeDeviceTab === 'iphone'
-                    ? 'bg-amber-500 text-slate-950 shadow-sm'
-                    : 'text-slate-400 hover:text-slate-200'
+                    ? 'bg-[#1B365D] text-[#FAF7F2] shadow-xs'
+                    : 'text-stone-700 hover:text-stone-950'
                 }`}
               >
                 <Apple className="w-3.5 h-3.5" />
@@ -224,8 +224,8 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
                 onClick={() => setActiveDeviceTab('android')}
                 className={`flex-1 py-1.5 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors cursor-pointer ${
                   activeDeviceTab === 'android'
-                    ? 'bg-amber-500 text-slate-950 shadow-sm'
-                    : 'text-slate-400 hover:text-slate-200'
+                    ? 'bg-[#1B365D] text-[#FAF7F2] shadow-xs'
+                    : 'text-stone-700 hover:text-stone-950'
                 }`}
               >
                 <Chrome className="w-3.5 h-3.5" />
@@ -235,8 +235,8 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
                 onClick={() => setActiveDeviceTab('pc')}
                 className={`flex-1 py-1.5 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors cursor-pointer ${
                   activeDeviceTab === 'pc'
-                    ? 'bg-amber-500 text-slate-950 shadow-sm'
-                    : 'text-slate-400 hover:text-slate-200'
+                    ? 'bg-[#1B365D] text-[#FAF7F2] shadow-xs'
+                    : 'text-stone-700 hover:text-stone-950'
                 }`}
               >
                 <Monitor className="w-3.5 h-3.5" />
@@ -245,14 +245,14 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
             </div>
 
             {/* Tab contents */}
-            <div className="p-4 rounded-2xl bg-slate-950/60 border border-slate-800 text-xs text-slate-300 space-y-2.5">
+            <div className="p-4 rounded-xl bg-white border border-[#DFD7C8] text-xs text-stone-700 space-y-2.5 font-serif">
               {activeDeviceTab === 'iphone' && (
                 <ol className="space-y-2 list-decimal list-inside leading-relaxed">
                   <li>Abra o link no navegador <strong>Safari</strong> do seu iPhone ou iPad.</li>
                   <li>Toque no botão de <strong>Compartilhar</strong> (o quadrado com uma seta para cima na barra inferior).</li>
                   <li>Role para baixo e toque em <strong>"Adicionar à Tela de Início"</strong> (ícone com um sinal de mais).</li>
                   <li>Toque em <strong>"Adicionar"</strong> no canto superior direito.</li>
-                  <li className="text-amber-300 font-medium">Pronto! O JurisMentor aparecerá como um aplicativo nativo na sua tela inicial, com ícone próprio e sem barra de navegação!</li>
+                  <li className="text-[#1B365D] font-semibold">Pronto! O JurisMentor aparecerá como um aplicativo nativo na sua tela inicial, com ícone próprio e sem barra de navegação!</li>
                 </ol>
               )}
 
@@ -262,7 +262,7 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
                   <li>Toque nos <strong>três pontinhos verticais (⋮)</strong> no canto superior direito do navegador.</li>
                   <li>Selecione <strong>"Instalar aplicativo"</strong> ou <strong>"Adicionar à tela inicial"</strong>.</li>
                   <li>Confirme tocando em <strong>"Instalar"</strong>.</li>
-                  <li className="text-amber-300 font-medium">O aplicativo será instalado automaticamente e funcionará em tela cheia mesmo se você fechar o Chrome!</li>
+                  <li className="text-[#1B365D] font-semibold">O aplicativo será instalado automaticamente e funcionará em tela cheia mesmo se você fechar o Chrome!</li>
                 </ol>
               )}
 
@@ -271,27 +271,27 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
                   <li>Abra o link no <strong>Google Chrome</strong> ou <strong>Microsoft Edge</strong> no seu computador.</li>
                   <li>Observe a barra de endereços no topo: clique no ícone de <strong>computador com seta para baixo</strong> ("Instalar aplicativo").</li>
                   <li>Ou clique no menu de três pontos ➔ <strong>"Salvar e compartilhar"</strong> ➔ <strong>"Instalar JurisMentor"</strong>.</li>
-                  <li className="text-amber-300 font-medium">O JurisMentor abrirá em uma janela própria dedicada, como um software desktop para estudos contínuos!</li>
+                  <li className="text-[#1B365D] font-semibold">O JurisMentor abrirá em uma janela própria dedicada, como um software desktop para estudos contínuos!</li>
                 </ol>
               )}
             </div>
           </div>
 
           {/* Export Source Code ZIP for PC / Independent Hosting */}
-          <div className="p-4 rounded-2xl bg-emerald-500/5 border border-emerald-500/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="p-4 rounded-xl bg-emerald-50 border border-emerald-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div className="space-y-1">
-              <div className="flex items-center gap-2 text-emerald-300 font-semibold text-xs">
-                <FolderArchive className="w-4 h-4 text-emerald-400" />
+              <div className="flex items-center gap-2 text-emerald-900 font-semibold text-xs">
+                <FolderArchive className="w-4 h-4 text-emerald-800" />
                 <span>Baixar Arquivos do App para seu PC (.zip)</span>
               </div>
-              <p className="text-[11px] text-slate-400 leading-relaxed">
+              <p className="text-[11px] text-emerald-900/80 leading-relaxed">
                 Exporte todo o código-fonte, banco jurídico e guia de instalação para rodar localmente ou publicar em servidor próprio fora do Google AI Studio.
               </p>
             </div>
             <button
               onClick={handleDownloadSourceZip}
               disabled={downloadingZip}
-              className="px-4 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 disabled:opacity-60 text-slate-950 font-bold text-xs flex items-center gap-1.5 transition-all cursor-pointer shrink-0 shadow-md"
+              className="px-4 py-2.5 rounded-xl bg-emerald-800 hover:bg-emerald-900 disabled:opacity-60 text-[#FAF7F2] font-bold text-xs flex items-center gap-1.5 transition-all cursor-pointer shrink-0 shadow-xs"
             >
               {downloadingZip ? (
                 <>
@@ -309,14 +309,14 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
         </div>
 
         {/* Footer */}
-        <div className="px-6 py-3.5 border-t border-slate-800 bg-slate-950/60 flex items-center justify-between text-xs text-slate-400">
-          <div className="flex items-center gap-1.5 text-emerald-400">
+        <div className="px-6 py-3.5 border-t border-[#E2DBD0] bg-[#F3EFE6] flex items-center justify-between text-xs text-stone-600">
+          <div className="flex items-center gap-1.5 text-emerald-800 font-medium">
             <ShieldCheck className="w-4 h-4" />
             <span>Seu progresso, respostas e Caderno de Erros ficam salvos localmente.</span>
           </div>
           <button
             onClick={onClose}
-            className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold transition-colors cursor-pointer"
+            className="px-4 py-2 rounded-lg bg-white hover:bg-[#EAE3D5] text-stone-800 border border-[#D6CCB9] font-semibold transition-colors cursor-pointer"
           >
             Fechar
           </button>

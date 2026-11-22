@@ -203,7 +203,6 @@ export const ProfessorTutorModal: React.FC<ProfessorTutorModalProps> = ({
                     <ProfessorAudioPlayer
                       textToSpeak={msg.text}
                       compact={true}
-                      autoPreload={i === messages.length - 1 && i > 0}
                     />
                   )}
                   <span className="font-mono ml-auto tabular-nums">{msg.time}</span>

@@ -192,7 +192,6 @@ export const InlineQuestionClarification: React.FC<InlineQuestionClarificationPr
                         <ProfessorAudioPlayer
                           textToSpeak={item.answer}
                           compact={true}
-                          autoPreload={idx === thread.length - 1}
                         />
                       </div>
 

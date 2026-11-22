@@ -1,6 +1,14 @@
 // Advanced Brazilian Portuguese (pt-BR) Speech Synthesis Service for Professor Jurídico
 // Supports Background Pre-loading + Progressive Streaming Neural AI Voice (Gemini TTS PCM) + Client Audio Cache + Browser Fallback
 
+export type SpeechFallbackReason =
+  | 'none'
+  | 'quota'
+  | 'auth'
+  | 'missing_key'
+  | 'timeout'
+  | 'unavailable';
+
 export interface SpeechStatus {
   isSpeaking: boolean;
   isPaused: boolean;
@@ -9,6 +17,9 @@ export interface SpeechStatus {
   currentChunkIndex: number;
   totalChunks: number;
   activeVoiceName: string;
+  fallbackReason: SpeechFallbackReason;
+  fallbackMessage: string | null;
+  neuralCooldownUntil: number | null;
 }
 
 type StatusListener = (status: SpeechStatus) => void;
@@ -17,6 +28,7 @@ interface ActiveTtsJob {
   cacheKey: string;
   formattedText: string;
   voice: string;
+  bypassCooldown: boolean;
   abortController: AbortController;
   attachedToPlayback: boolean;
   pcmChunks: Uint8Array[];
@@ -24,12 +36,14 @@ interface ActiveTtsJob {
   wavUrl: string | null;
   completed: boolean;
   failed: boolean;
+  failureReason?: SpeechFallbackReason;
+  retryAfterSeconds?: number;
   fallbackReason?: string;
   listeners: Set<() => void>;
 }
 
 const TTS_SAMPLE_RATE = 24000;
-const FIRST_CHUNK_TIMEOUT_MS = 15000;
+const FIRST_CHUNK_TIMEOUT_MS = 20000;
 const MAX_CLIENT_CACHE_ITEMS = 60;
 
 function base64ToBytes(base64: string): Uint8Array {
@@ -105,11 +119,14 @@ export class ProfessorAudioService {
   private static activeJobUnsubscribe: (() => void) | null = null;
   private static playbackSessionId = 0;
 
-  // Local Web Speech Fallback state
+  // Local Web Speech Fallback & Quota Cooldown state
   private static currentChunks: string[] = [];
   private static currentChunkIndex = 0;
   private static activeUtterance: SpeechSynthesisUtterance | null = null;
   private static keepAliveTimer: any = null;
+  private static fallbackReason: SpeechFallbackReason = 'none';
+  private static fallbackMessage: string | null = null;
+  private static neuralCooldownUntil: number | null = null;
 
   public static subscribe(listener: StatusListener): () => void {
     this.listeners.add(listener);
@@ -119,12 +136,21 @@ export class ProfessorAudioService {
     };
   }
 
+  private static getActiveCooldownUntil(): number | null {
+    if (this.neuralCooldownUntil && Date.now() < this.neuralCooldownUntil) {
+      return this.neuralCooldownUntil;
+    }
+    this.neuralCooldownUntil = null;
+    return null;
+  }
+
   private static notify() {
     const status = this.getStatus();
     this.listeners.forEach(fn => fn(status));
   }
 
   public static getStatus(): SpeechStatus {
+    const activeCooldownUntil = this.getActiveCooldownUntil();
     return {
       isSpeaking: this.isSpeaking,
       isPaused: this.isPaused,
@@ -136,7 +162,10 @@ export class ProfessorAudioService {
         ? this.selectedPersona === 'male'
           ? 'Prof. Eduardo (Voz Humana IA)'
           : 'Profª. Camila (Voz Humana IA)'
-        : 'Português do Brasil (pt-BR)',
+        : 'Voz Local do Navegador (pt-BR)',
+      fallbackReason: this.fallbackReason,
+      fallbackMessage: this.fallbackMessage,
+      neuralCooldownUntil: activeCooldownUntil,
     };
   }
 
@@ -292,7 +321,8 @@ export class ProfessorAudioService {
     cacheKey: string,
     formattedText: string,
     voice: string,
-    attachToPlayback: boolean
+    attachToPlayback: boolean,
+    bypassCooldown = false
   ): ActiveTtsJob {
     const existing = this.activeJobs.get(cacheKey);
     if (existing && !existing.failed) {
@@ -316,6 +346,7 @@ export class ProfessorAudioService {
       cacheKey,
       formattedText,
       voice,
+      bypassCooldown,
       abortController: new AbortController(),
       attachedToPlayback: attachToPlayback,
       pcmChunks: [],
@@ -332,6 +363,20 @@ export class ProfessorAudioService {
     return job;
   }
 
+  private static applyServerFailureState(
+    reason?: SpeechFallbackReason,
+    message?: string,
+    retryAfterSeconds?: number
+  ) {
+    const normalizedReason: SpeechFallbackReason = reason || 'unavailable';
+    this.fallbackReason = normalizedReason;
+    this.fallbackMessage = message || null;
+    if (normalizedReason === 'quota') {
+      const waitSec = Math.max(20, Math.min(180, Number(retryAfterSeconds || 60)));
+      this.neuralCooldownUntil = Date.now() + waitSec * 1000;
+    }
+  }
+
   private static async runStreamJob(job: ActiveTtsJob): Promise<void> {
     try {
       const response = await fetch('/api/tts/stream', {
@@ -340,11 +385,13 @@ export class ProfessorAudioService {
         body: JSON.stringify({
           text: job.formattedText,
           voice: job.voice,
+          bypassCooldown: job.bypassCooldown,
         }),
         signal: job.abortController.signal,
       });
 
       if (!response.ok || !response.body) {
+        job.failureReason = 'unavailable';
         throw new Error('Stream TTS indisponível');
       }
 
@@ -360,7 +407,10 @@ export class ProfessorAudioService {
           this.notify();
           return;
         }
-        throw new Error(json.message || 'Fallback solicitado');
+        job.failureReason = json.reason || 'unavailable';
+        job.retryAfterSeconds = json.retryAfterSeconds;
+        job.fallbackReason = json.message || 'Fallback solicitado';
+        throw new Error(job.fallbackReason);
       }
 
       const reader = response.body.getReader();
@@ -418,7 +468,10 @@ export class ProfessorAudioService {
               }
             }
           } else if (event.type === 'fallback') {
-            throw new Error(event.message || 'Fallback local solicitado');
+            job.failureReason = event.reason || 'unavailable';
+            job.retryAfterSeconds = event.retryAfterSeconds;
+            job.fallbackReason = event.message || event.error || 'Fallback local solicitado';
+            throw new Error(job.fallbackReason);
           } else if (event.type === 'done') {
             job.completed = true;
             if (job.pcmChunks.length > 0) {
@@ -441,11 +494,16 @@ export class ProfessorAudioService {
         this.notifyJobListeners(job);
         this.notify();
       } else if (!job.completed) {
+        job.failureReason = job.failureReason || 'unavailable';
         throw new Error('Stream encerrado sem áudio');
       }
     } catch (err: any) {
       job.failed = true;
-      job.fallbackReason = err?.message || 'Erro no stream TTS';
+      job.failureReason = job.failureReason || 'unavailable';
+      job.fallbackReason = job.fallbackReason || err?.message || 'Erro no stream TTS';
+      if (job.failureReason === 'quota' || job.failureReason === 'auth' || job.failureReason === 'missing_key') {
+        this.applyServerFailureState(job.failureReason, job.fallbackReason, job.retryAfterSeconds);
+      }
       this.activeJobs.delete(job.cacheKey);
       this.notifyJobListeners(job);
       this.notify();
@@ -453,12 +511,11 @@ export class ProfessorAudioService {
   }
 
   /**
-   * Background pre-loading: starts streaming/synthesizing segment 1 and subsequent segments
-   * before the user clicks Play, without playing any sound yet.
-   * If play() is called mid-stream, it attaches directly to this buffered stream at 0ms.
+   * Optional explicit preload (only runs when not in API cooldown).
    */
   public static preload(rawText: string): void {
     if (typeof window === 'undefined' || !rawText || !rawText.trim()) return;
+    if (this.getActiveCooldownUntil()) return;
     const { formatted, voice, cacheKey } = this.buildCacheKey(rawText);
     if (!formatted) return;
 
@@ -551,9 +608,20 @@ export class ProfessorAudioService {
     formatted: string,
     voice: string,
     cacheKey: string,
-    sessionId: number
+    sessionId: number,
+    reason: SpeechFallbackReason = 'unavailable',
+    message?: string,
+    retryAfterSeconds?: number
   ): Promise<void> {
     if (sessionId !== this.playbackSessionId) return;
+
+    // Never fire a second /api/tts request when quota/auth/missing_key/timeout already happened
+    if (reason === 'quota' || reason === 'auth' || reason === 'missing_key' || reason === 'timeout') {
+      this.isLoadingNeural = false;
+      this.applyServerFailureState(reason, message, retryAfterSeconds);
+      this.playWithLocalSpeech(formatted, reason, message);
+      return;
+    }
 
     try {
       const unaryRes = await fetch('/api/tts', {
@@ -568,10 +636,18 @@ export class ProfessorAudioService {
       if (unaryRes.ok) {
         const unaryData = await unaryRes.json();
         if (unaryData.success && unaryData.audioUrl) {
+          this.fallbackReason = 'none';
+          this.fallbackMessage = null;
           this.setClientCache(cacheKey, unaryData.audioUrl);
           this.playAudioUrl(unaryData.audioUrl, formatted, sessionId);
           return;
         }
+        const unaryReason: SpeechFallbackReason = unaryData.reason || 'unavailable';
+        const unaryMsg: string | undefined = unaryData.message;
+        this.applyServerFailureState(unaryReason, unaryMsg, unaryData.retryAfterSeconds);
+        this.isLoadingNeural = false;
+        this.playWithLocalSpeech(formatted, unaryReason, unaryMsg);
+        return;
       }
     } catch (unaryErr) {
       console.warn('Endpoint /api/tts indisponível, alternando para síntese local:', unaryErr);
@@ -579,7 +655,11 @@ export class ProfessorAudioService {
 
     if (sessionId === this.playbackSessionId) {
       this.isLoadingNeural = false;
-      this.playWithLocalSpeech(formatted);
+      this.playWithLocalSpeech(
+        formatted,
+        'unavailable',
+        message || 'Não foi possível conectar ao serviço de voz natural.'
+      );
     }
   }
 
@@ -639,36 +719,61 @@ export class ProfessorAudioService {
     this.activeUtterance = null;
   }
 
+  public static async retryNeural(rawText: string) {
+    this.neuralCooldownUntil = null;
+    this.fallbackReason = 'none';
+    this.fallbackMessage = null;
+    await this.play(rawText, { bypassCooldown: true });
+  }
+
   /**
    * Main Play function:
    * 1. Plays immediately (0ms) if audio is already in client cache
-   * 2. If a background preload job is already buffered/running for this text, attaches immediately (0ms if chunk 1 arrived)
-   * 3. Otherwise starts Progressive Streaming Neural TTS (/api/tts/stream) so playback begins on segment 1
-   * 4. Falls back cleanly to /api/tts or local browser SpeechSynthesis if unavailable or timed out
+   * 2. If in active Gemini API quota cooldown, uses local voice immediately without hammering the API
+   * 3. Otherwise starts Progressive Streaming Neural TTS (/api/tts/stream)
+   * 4. Falls back cleanly to local browser SpeechSynthesis with clear fallback status
    */
-  public static async play(rawText: string) {
+  public static async play(rawText: string, options?: { bypassCooldown?: boolean }) {
+    const bypassCooldown = Boolean(options?.bypassCooldown);
     const { formatted, voice, cacheKey } = this.buildCacheKey(rawText);
     this.stopPlaybackPreservingMatchingJob(cacheKey);
     const sessionId = this.playbackSessionId;
     this.activeFormattedKey = formatted.slice(0, 1200);
 
-    // 1. Instant client-side cache hit (0ms)
+    // 1. Instant client-side cache hit (0ms) — always plays neural audio even during cooldown
     const cachedUrl = this.clientAudioCache.get(cacheKey);
     if (cachedUrl) {
+      this.fallbackReason = 'none';
+      this.fallbackMessage = null;
       this.playAudioUrl(cachedUrl, formatted, sessionId);
       return;
     }
+
+    // 2. Active quota cooldown protection
+    const cooldownUntil = bypassCooldown ? null : this.getActiveCooldownUntil();
+    if (cooldownUntil) {
+      const waitSec = Math.max(1, Math.ceil((cooldownUntil - Date.now()) / 1000));
+      this.playWithLocalSpeech(
+        formatted,
+        'quota',
+        `Limite temporário da voz natural IA atingido. Nova tentativa em ~${waitSec}s.`
+      );
+      return;
+    }
+
+    this.fallbackReason = 'none';
+    this.fallbackMessage = null;
 
     // Unlock Web Audio Context immediately inside user gesture before any await
     const audioCtx = this.ensureAudioContext();
     if (!audioCtx) {
       this.isLoadingNeural = true;
       this.notify();
-      await this.fallbackToUnaryOrLocal(formatted, voice, cacheKey, sessionId);
+      await this.fallbackToUnaryOrLocal(formatted, voice, cacheKey, sessionId, 'unavailable');
       return;
     }
 
-    const job = this.startOrReuseJob(cacheKey, formatted, voice, true);
+    const job = this.startOrReuseJob(cacheKey, formatted, voice, true, bypassCooldown);
     this.activePlaybackJobKey = cacheKey;
 
     let consumedChunks = 0;
@@ -681,7 +786,14 @@ export class ProfessorAudioService {
         cleanupListener();
         job.abortController.abort();
         this.activeJobs.delete(cacheKey);
-        void this.fallbackToUnaryOrLocal(formatted, voice, cacheKey, sessionId);
+        void this.fallbackToUnaryOrLocal(
+          formatted,
+          voice,
+          cacheKey,
+          sessionId,
+          'timeout',
+          'A voz natural IA demorou para responder. Usando voz do navegador.'
+        );
       }
     }, FIRST_CHUNK_TIMEOUT_MS);
 
@@ -704,6 +816,8 @@ export class ProfessorAudioService {
         settled = true;
         firstAudioArrived = true;
         cleanupListener();
+        this.fallbackReason = 'none';
+        this.fallbackMessage = null;
         this.playAudioUrl(job.wavUrl, formatted, sessionId);
         return;
       }
@@ -718,6 +832,8 @@ export class ProfessorAudioService {
           this.isNeuralAudio = true;
           this.isSpeaking = true;
           this.isPaused = false;
+          this.fallbackReason = 'none';
+          this.fallbackMessage = null;
         }
 
         const pcmChunk = job.pcmChunks[consumedChunks];
@@ -735,7 +851,15 @@ export class ProfessorAudioService {
         if (firstAudioArrived && this.activeStreamSources.size === 0 && sessionId === this.playbackSessionId) {
           this.stop();
         } else if (!firstAudioArrived) {
-          void this.fallbackToUnaryOrLocal(formatted, voice, cacheKey, sessionId);
+          void this.fallbackToUnaryOrLocal(
+            formatted,
+            voice,
+            cacheKey,
+            sessionId,
+            job.failureReason || 'unavailable',
+            job.fallbackReason,
+            job.retryAfterSeconds
+          );
         }
         return;
       }
@@ -743,7 +867,15 @@ export class ProfessorAudioService {
       if (job.failed && !firstAudioArrived) {
         settled = true;
         cleanupListener();
-        void this.fallbackToUnaryOrLocal(formatted, voice, cacheKey, sessionId);
+        void this.fallbackToUnaryOrLocal(
+          formatted,
+          voice,
+          cacheKey,
+          sessionId,
+          job.failureReason || 'unavailable',
+          job.fallbackReason,
+          job.retryAfterSeconds
+        );
       }
     };
 
@@ -758,12 +890,20 @@ export class ProfessorAudioService {
     }
   }
 
-  private static playWithLocalSpeech(formattedText: string) {
+  private static playWithLocalSpeech(
+    formattedText: string,
+    reason: SpeechFallbackReason = 'unavailable',
+    message?: string
+  ) {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       this.stop();
       return;
     }
 
+    this.fallbackReason = reason;
+    if (message) {
+      this.fallbackMessage = message;
+    }
     this.isNeuralAudio = false;
     this.currentChunks = this.splitIntoChunks(formattedText);
     this.currentChunkIndex = 0;

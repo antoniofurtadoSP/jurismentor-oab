@@ -1,5 +1,5 @@
-// JurisMentor Service Worker v3 - Network-First for HTML + Keep-Alive Coordination
-const CACHE_NAME = 'jurismentor-cache-v3';
+// JurisMentor Service Worker v4 - Network-First for HTML + Keep-Alive Coordination
+const CACHE_NAME = 'jurismentor-cache-v4';
 const KEEP_ALIVE_URL = '/api/keep-alive';
 const DEFAULT_KEEP_ALIVE_MS = 5 * 60 * 1000;
 const MIN_PING_GAP_MS = 4 * 60 * 1000;
@@ -98,7 +98,7 @@ self.addEventListener('fetch', (event) => {
 
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
-  if (url.pathname.startsWith('/api/')) return;
+  if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/__/')) return;
 
   // Never intercept Vite dev HMR/source modules
   if (url.pathname.startsWith('/src/') || url.pathname.startsWith('/@') || url.pathname.startsWith('/node_modules/')) {

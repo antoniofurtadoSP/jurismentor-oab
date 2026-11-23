@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
-import { Scale, BookOpen, Calendar, BarChart3, AlertOctagon, Sparkles, Award, Flame, Volume2, Smartphone, Crosshair, Database, Download, Loader2, Cloud, Check, LogOut } from 'lucide-react';
+import {
+  Scale, BookOpen, Calendar, BarChart3, AlertOctagon, Sparkles, Award, Flame,
+  Volume2, Smartphone, Crosshair, Database, Download, Loader2, Cloud, Check,
+  LogOut, AlertTriangle, ExternalLink, RefreshCw, Copy, X
+} from 'lucide-react';
 import { useFirebase } from '../contexts/FirebaseContext';
 
 interface HeaderProps {
@@ -22,7 +26,19 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenAccessAnywhere,
 }) => {
   const [isDownloadingZip, setIsDownloadingZip] = useState(false);
-  const { user, authReady, syncStatus, authError, signInWithGoogle, signOutUser } = useFirebase();
+  const [copiedDomain, setCopiedDomain] = useState(false);
+  const {
+    user,
+    authReady,
+    isSigningIn,
+    syncStatus,
+    authError,
+    authErrorDetail,
+    clearAuthError,
+    signInWithGoogle,
+    signInWithGoogleRedirect,
+    signOutUser,
+  } = useFirebase();
 
   const handleDownloadProjectZip = async () => {
     if (isDownloadingZip) return;
@@ -132,12 +148,21 @@ export const Header: React.FC<HeaderProps> = ({
                 <button
                   type="button"
                   onClick={signInWithGoogle}
+                  disabled={isSigningIn}
                   title={authError || 'Entre com Google para salvar seu desenvolvimento na nuvem entre dispositivos'}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] text-[#1B365D] border border-[#1B365D]/35 text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] disabled:opacity-60 text-[#1B365D] border border-[#1B365D]/35 text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
                 >
-                  <Cloud className="w-3.5 h-3.5 text-[#8A6518]" />
-                  <span className="hidden sm:inline">Salvar na Nuvem</span>
-                  <span className="sm:hidden">Entrar</span>
+                  {isSigningIn ? (
+                    <Loader2 className="w-3.5 h-3.5 text-[#1B365D] animate-spin" />
+                  ) : (
+                    <Cloud className="w-3.5 h-3.5 text-[#8A6518]" />
+                  )}
+                  <span className="hidden sm:inline">
+                    {isSigningIn ? 'Conectando...' : 'Salvar na Nuvem'}
+                  </span>
+                  <span className="sm:hidden">
+                    {isSigningIn ? '...' : 'Entrar'}
+                  </span>
                 </button>
               )
             )}
@@ -286,6 +311,122 @@ export const Header: React.FC<HeaderProps> = ({
           </button>
         </nav>
       </div>
+
+      {/* Modal de Diagnóstico e Recuperação de Login Google */}
+      {authErrorDetail && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-950/50 backdrop-blur-xs">
+          <div className="bg-[#FAF7F2] border border-[#D6CCB9] rounded-2xl w-full max-w-lg shadow-2xl overflow-hidden animate-in fade-in duration-150">
+            <div className="px-5 py-4 bg-[#F3EFE6] border-b border-[#DFD7C8] flex items-center justify-between gap-3">
+              <div className="flex items-center gap-2.5">
+                <div className="w-9 h-9 rounded-lg bg-rose-50 border border-[#7B1E26]/30 text-[#7B1E26] flex items-center justify-center shrink-0">
+                  <AlertTriangle className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-display font-bold text-sm sm:text-base text-stone-900">
+                    {authErrorDetail.title}
+                  </h3>
+                  <p className="text-[11px] font-mono text-stone-600">
+                    Código: {authErrorDetail.code}
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={clearAuthError}
+                className="p-1.5 rounded-lg text-stone-600 hover:text-stone-900 hover:bg-[#EAE3D5] cursor-pointer"
+                aria-label="Fechar aviso"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <div className="p-5 space-y-4 text-xs sm:text-sm text-stone-800">
+              <p className="font-serif leading-relaxed">
+                {authErrorDetail.message}
+              </p>
+
+              {authErrorDetail.code === 'auth/unauthorized-domain' && authErrorDetail.currentHostname && (
+                <div className="p-3.5 rounded-xl bg-white border border-[#DFD7C8] space-y-2">
+                  <div className="text-[11px] font-bold uppercase tracking-wider text-[#1B365D]">
+                    Domínio para autorizar no Firebase Console:
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <code className="flex-1 px-3 py-2 rounded-lg bg-[#F4EFE6] border border-[#DFD7C8] font-mono text-xs text-[#7B1E26] break-all">
+                      {authErrorDetail.currentHostname}
+                    </code>
+                    <button
+                      type="button"
+                      onClick={async () => {
+                        try {
+                          await navigator.clipboard.writeText(authErrorDetail.currentHostname);
+                          setCopiedDomain(true);
+                          setTimeout(() => setCopiedDomain(false), 2000);
+                        } catch {
+                          // ignore clipboard failure
+                        }
+                      }}
+                      className="px-3 py-2 rounded-lg bg-[#1B365D] text-[#FAF7F2] text-xs font-semibold flex items-center gap-1.5 cursor-pointer shrink-0"
+                    >
+                      {copiedDomain ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                      <span>{copiedDomain ? 'Copiado' : 'Copiar'}</span>
+                    </button>
+                  </div>
+                  <p className="text-[11px] text-stone-600 font-serif">
+                    No Firebase Console: <strong>Authentication → Settings → Authorized domains → Add domain</strong>.
+                  </p>
+                </div>
+              )}
+
+              <div className="p-3 rounded-xl bg-emerald-50 border border-emerald-200 text-xs text-emerald-950 font-serif">
+                Seu desenvolvimento, simulados e respostas <strong>continuam salvos localmente neste navegador</strong> enquanto o login na nuvem não é concluído.
+              </div>
+
+              <div className="flex flex-wrap items-center justify-end gap-2 pt-2 border-t border-[#ECE6D9]">
+                {authErrorDetail.isEmbeddedIframe && typeof window !== 'undefined' && (
+                  <a
+                    href={window.location.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="px-4 py-2 rounded-xl bg-[#7B1E26] hover:bg-[#61161D] text-[#FAF7F2] text-xs font-semibold flex items-center gap-1.5 transition-colors"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" />
+                    Abrir em Nova Aba p/ Entrar
+                  </a>
+                )}
+
+                {authErrorDetail.canTryRedirect && (
+                  <button
+                    type="button"
+                    onClick={signInWithGoogleRedirect}
+                    disabled={isSigningIn}
+                    className="px-4 py-2 rounded-xl bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] text-xs font-semibold flex items-center gap-1.5 cursor-pointer transition-colors"
+                  >
+                    <RefreshCw className="w-3.5 h-3.5" />
+                    Entrar na Mesma Aba (Redirecionamento)
+                  </button>
+                )}
+
+                <button
+                  type="button"
+                  onClick={signInWithGoogle}
+                  disabled={isSigningIn}
+                  className="px-4 py-2 rounded-xl bg-white hover:bg-[#F4EFE6] text-[#1B365D] border border-[#1B365D]/40 text-xs font-semibold cursor-pointer transition-colors"
+                >
+                  Tentar Pop-up Novamente
+                </button>
+
+                <button
+                  type="button"
+                  onClick={clearAuthError}
+                  className="px-4 py-2 rounded-xl bg-[#F4EFE6] hover:bg-[#EAE3D5] text-stone-700 border border-[#DFD7C8] text-xs font-semibold cursor-pointer transition-colors"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   );
 };

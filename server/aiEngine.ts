@@ -16,7 +16,12 @@ import {
   mapLevelToDifficulty,
   normalizeTextForMatch,
 } from './legalDb';
-import { rebalanceQuestionOptions } from '../scripts/questionRebalancer';
+import {
+  evaluateOptionSymmetry,
+  rebalanceQuestionOptions,
+  stripLegacyBoilerplate,
+  type OptionSymmetryReport,
+} from '../scripts/questionRebalancer';
 
 const apiKey = process.env.GEMINI_API_KEY;
 export const aiClient = apiKey
@@ -141,41 +146,14 @@ export async function validateQuestionIndependently(
       : 'Sem duplicidade com questões existentes no banco.',
   });
 
-  // 7. Equilíbrio formal e ausência de pistas óbvias nas alternativas (padrão FGV)
-  const corrOption = (question.options || []).find(o => o.letter === question.correctAnswer);
-  const wrongOptions = (question.options || []).filter(o => o.letter !== question.correctAnswer);
-  const corrLen = corrOption?.text.trim().length || 0;
-  const wrongLens = wrongOptions.map(o => o.text.trim().length);
-  const avgWrongLen = wrongLens.length > 0 ? wrongLens.reduce((a, b) => a + b, 0) / wrongLens.length : 0;
-  const maxWrongLen = wrongLens.length > 0 ? Math.max(...wrongLens) : 0;
-  const hasEditorialMarkerInOptions = (question.options || []).some(
-    o => /!|\*\*|__|\(\s*(?:isto é|ou seja|pegadinha|atenção|cuidado)\b/i.test(o.text)
-  );
-  const citeRe = /\b(?:art\.?|artigo|súmula|tema|lei\s+n[º°]|enunciado)\s*\d+/i;
-  const asksCiteInStmt = /\b(?:quais|qual)\s+(?:o\s+número\s+d[oa]\s+|a\s+|o\s+|os\s+|as\s+)?(?:súmulas?|artigos?|dispositivos?|emendas?|temas?|incisos?|lei\s+n[º°])\b/i.test(
-    question.statement || ''
-  );
-  const citationAsymmetry =
-    !asksCiteInStmt &&
-    Boolean(corrOption && citeRe.test(corrOption.text)) &&
-    wrongOptions.every(w => !citeRe.test(w.text));
-  const extremeLengthBias =
-    corrLen > 95 && avgWrongLen > 0 && corrLen > avgWrongLen * 1.45 && corrLen > maxWrongLen * 1.25;
-  const balancedOptionsPassed =
-    !hasEditorialMarkerInOptions && !citationAsymmetry && !extremeLengthBias;
-
+  // 7. Equilíbrio formal, densidade técnica e simetria dos distratores (padrão FGV)
+  const symmetry = evaluateOptionSymmetry(question);
   checks.push({
-    name: 'Equilíbrio formal e simetria das alternativas',
-    passed: balancedOptionsPassed,
-    notes: balancedOptionsPassed
-      ? 'Alternativas equilibradas em extensão, formalidade e ausência de pistas visuais.'
-      : [
-          hasEditorialMarkerInOptions ? 'presença de marcação editorial (!, negrito ou glosa)' : '',
-          citationAsymmetry ? 'citação normativa exclusiva na alternativa correta' : '',
-          extremeLengthBias ? 'alternativa correta desproporcionalmente mais longa que os distratores' : '',
-        ]
-          .filter(Boolean)
-          .join('; '),
+    name: 'Equilíbrio formal, complexidade e simetria dos distratores',
+    passed: symmetry.isBalanced,
+    notes: symmetry.isBalanced
+      ? `Alternativas equilibradas (score ${symmetry.score}/100) em extensão, vocabulário técnico e densidade sintática, sem pistas visuais.`
+      : `${symmetry.issues.join('; ')} (score ${symmetry.score}/100).`,
   });
 
   // 8. Estágio 2 opcional: Auditoria independente via Gemini quando disponível
@@ -209,7 +187,7 @@ export async function validateQuestionIndependently(
             role: 'user',
             parts: [
               {
-                text: `Atue como REVISOR JURÍDICO INDEPENDENTE da banca FGV/OAB. Audite esta questão para garantir que não há ambiguidade, dupla resposta, lei revogada, erro jurídico ou pista óbvia de gabarito (como alternativa correta muito mais longa, mais detalhada ou com citações ausentes nas incorretas).\n\nFontes verificadas no banco:\n${groundingSummary || 'Consulte a legislação brasileira vigente.'}\n\nQuestão (${question.subject} - ${question.topic}):\nEnunciado: ${question.statement}\nAlternativas:\n${question.options.map(o => `${o.letter}) ${o.text}`).join('\n')}\nGabarito apontado: ${question.correctAnswer}\nFundamentação: ${question.justification}`,
+                text: `Atue como REVISOR JURÍDICO INDEPENDENTE da banca FGV/OAB. Audite esta questão para garantir que não há ambiguidade, dupla resposta, lei revogada, erro jurídico ou pista óbvia de gabarito (como alternativa correta muito mais longa, mais fundamentada, com vocabulário jurídico mais sofisticado ou com citações normativas ausentes nos distratores).\n\nFontes verificadas no banco:\n${groundingSummary || 'Consulte a legislação brasileira vigente.'}\n\nQuestão (${question.subject} - ${question.topic}):\nEnunciado: ${question.statement}\nAlternativas:\n${question.options.map(o => `${o.letter}) ${o.text}`).join('\n')}\nGabarito apontado: ${question.correctAnswer}\nFundamentação: ${question.justification}`,
               },
             ],
           },
@@ -345,14 +323,19 @@ export async function generateGroundedQuestions(params: {
 
     const lettersOrder: Array<'A' | 'B' | 'C' | 'D'> = ['A', 'B', 'C', 'D'];
     const targetCorrect = lettersOrder[Date.now() % lettersOrder.length];
-    const correctAssertion = primaryArt
-      ? `Aplica-se ao caso a diretriz normativa segundo a qual ${primaryArt.caput.charAt(0).toLowerCase()}${primaryArt.caput.slice(1)}`
-      : `Prevalece o entendimento consolidado de que ${primaryJur?.thesis ? `${primaryJur.thesis.charAt(0).toLowerCase()}${primaryJur.thesis.slice(1)}` : 'a regra legal vigente deve incidir integralmente sobre a relação jurídica analisada.'}`;
+    const subjectLabel = primaryArt?.subject || primaryJur?.subject || discipline;
+    const rawCore = primaryArt
+      ? `${primaryArt.caput.charAt(0).toLowerCase()}${primaryArt.caput.slice(1).replace(/\.$/, '')}`
+      : primaryJur?.thesis
+      ? `${primaryJur.thesis.charAt(0).toLowerCase()}${primaryJur.thesis.slice(1).replace(/\.$/, '')}`
+      : 'a disciplina normativa específica incide diretamente sobre o núcleo da relação jurídica controvertida';
+
+    const correctAssertion = `Assiste razão à pretensão juridicamente tutelada, visto que ${rawCore}, impondo observância integral desse preceito na solução do conflito concreto.`;
 
     const distractorAssertions = [
-      'A incidência da norma pode ser afastada por juízo de conveniência administrativa da autoridade competente, independentemente de previsão legal expressa.',
-      'O regime jurídico aplicável encontra-se tacitamente derrogado em razão do decurso do tempo, não produzindo efeitos imediatos sobre fatos pendentes.',
-      'A aplicação concreta da regra jurídica depende de prévia regulamentação complementar pelo Poder Legislativo estadual ou de homologação judicial específica.',
+      `Não se acolhe a pretensão principal, porquanto a controvérsia envolve ${subjectLabel} sob regime meramente subsidiário, exigindo prévia exaustão administrativa ou convenção expressa entre as partes antes de produzir efeitos imediatos.`,
+      `Configura-se hipótese de exceção sistemática em matéria de ${subjectLabel}, razão pela qual a regra ordinária cede diante da competência discricionária da autoridade competente para modular a incidência normativa no caso.`,
+      `A pretensão deve ser parcialmente afastada, uma vez que a aplicabilidade da disciplina relativa a ${subjectLabel} pressupõe ato normativo integrador superveniente e reserva específica para alcançar situações jurídicas em curso.`,
     ];
 
     let dIdx = 0;
@@ -360,6 +343,12 @@ export async function generateGroundedQuestions(params: {
       letter,
       text: letter === targetCorrect ? correctAssertion : distractorAssertions[dIdx++],
     }));
+
+    const distractorTechniques = [
+      'MEIA_VERDADE_TECNICA',
+      'INVERSAO_REGRA_EXCECAO',
+      'DESLOCAMENTO_DE_PRAZO_COMPETENCIA',
+    ];
 
     const qDraft: LegalQuestion = {
       id: `inedita_db_${Date.now()}`,
@@ -385,12 +374,13 @@ export async function generateGroundedQuestions(params: {
         .filter(l => l !== targetCorrect)
         .map((l, idx) => ({
           letter: l,
+          distractorTechnique: distractorTechniques[idx] || 'TROCA_DE_INSTITUTO',
           explanation:
             idx === 0
-              ? 'Incorreta. O princípio da legalidade estrita impede o afastamento discricionário da regra jurídica vigente.'
+              ? 'Incorreta (Meia verdade técnica). Não há exigência de prévia exaustão administrativa ou cláusula convencional como condição de eficácia imediata da norma aplicável.'
               : idx === 1
-              ? 'Incorreta. A diretriz jurídica permanece plenamente vigente e eficaz no ordenamento brasileiro.'
-              : 'Incorreta. Não existe tal exigência condicionante de autorização legislativa estadual ou homologação prévia.',
+              ? 'Incorreta (Inversão entre regra e exceção). O princípio da legalidade e a força normativa do preceito afastam a modulação discricionária sem autorização expressa.'
+              : 'Incorreta (Deslocamento de competência/eficácia). A norma tem aplicabilidade direta sem depender de ato integrador superveniente nos termos sugeridos.',
         })),
       statuteReferences: primaryArt
         ? [
@@ -417,7 +407,7 @@ export async function generateGroundedQuestions(params: {
       },
     };
 
-    qDraft.options = rebalanceQuestionOptions(qDraft).options;
+    qDraft.options = rebalanceQuestionOptions(qDraft, { stripLegacyFillers: true }).options;
     const validated = await validateQuestionIndependently(qDraft, false);
     qDraft.validationStatus = validated.status;
     qDraft.validationReport = validated.report;
@@ -481,9 +471,10 @@ export async function generateGroundedQuestions(params: {
             type: Type.OBJECT,
             properties: {
               letter: { type: Type.STRING },
+              distractorTechnique: { type: Type.STRING },
               explanation: { type: Type.STRING },
             },
-            required: ['letter', 'explanation'],
+            required: ['letter', 'distractorTechnique', 'explanation'],
           },
         },
         statuteReferences: {
@@ -525,14 +516,24 @@ export async function generateGroundedQuestions(params: {
 
   const systemInstruction = `Você é um Elaborador Sênior de Questões no padrão FGV / Exame de Ordem da OAB e Professor de Direito Brasileiro.
 
-REGRAS INVIOLÁVEIS DE INTEGRIDADE:
+REGRAS INVIOLÁVEIS DE INTEGRIDADE E ENGENHARIA DE DISTRATORES PLAUSÍVEIS:
 1. Utilize EXCLUSIVAMENTE as fontes jurídicas verificadas fornecidas abaixo e a legislação brasileira vigente correlata. NÃO invente números de súmulas, temas de repercussão geral, REsp, ADI ou artigos inexistentes.
 2. Classifique sempre como QUESTÃO INÉDITA (nunca rotule como prova passada oficial da FGV).
 3. Elabore enunciado com CASO PRÁTICO realista (nomes fictícios como João, Maria, Sociedade Empresária Alfa, Município Beta), com conflito jurídico claro que exija raciocínio e interpretação, nunca mera decoreba rasa.
-4. Gere exatamente 4 alternativas (A, B, C, D), sendo apenas 1 correta e 3 distratores plausíveis que explorem confusões doutrinárias comuns.
-5. SIMETRIA RIGOROSA DAS ALTERNATIVAS (OBRIGATÓRIO): TODAS as 4 alternativas devem apresentar extensão semelhante (idealmente entre 140 e 230 caracteres cada, com variação máxima de ~20% entre a correta e as incorretas) e exatamente o MESMO nível de formalidade e densidade técnico-jurídica. É PROIBIDO deixar as incorretas curtas/secas e a correta longa/explicativa.
-6. SEM PISTAS NA REDAÇÃO DAS ALTERNATIVAS: NÃO inclua citações de artigos, súmulas ou temas, glosas explicativas entre parênteses ("isto é...", "ou seja..."), pontos de exclamação (!), nem destaques em CAIXA ALTA exclusivamente na alternativa correta. Toda a fundamentação detalhada (artigos, súmulas e explicação doutrinária) deve ir para os campos "justification", "whyWrong", "statuteReferences" e "professorTip". Varie o gabarito ("correctAnswer") entre A, B, C e D.
-7. Preencha comentários em "whyWrong" para TODAS as 3 alternativas incorretas (explicitando o erro conceitual ou legal de cada uma).
+4. Gere exatamente 4 alternativas (A, B, C, D), sendo apenas 1 correta e 3 DISTRATORES PLAUSÍVEIS construídos deliberadamente com técnicas psicométricas de banca jurídica:
+   - TROCA_DE_INSTITUTO: confunde dois institutos jurídicos próximos da mesma disciplina (ex.: anistia vs. remissão; prescrição vs. decadência; nulidade vs. anulabilidade; dolo eventual vs. culpa consciente).
+   - INVERSAO_REGRA_EXCECAO: aplica com rigor a regra geral ignorando exceção constitucional/legal decisiva do caso, ou converte uma exceção restrita em regra ordinária.
+   - MEIA_VERDADE_TECNICA: inicia com uma premissa jurídica verdadeira e vocabulário técnico impecável, mas conclui com efeito processual ou material juridicamente equivocado.
+   - DESLOCAMENTO_DE_PRAZO_COMPETENCIA: altera de modo verossímil competência, legitimidade, quórum, rito procedimental ou marco temporal/prescricional.
+5. PARIDADE SINTÁTICA E DE COMPLEXIDADE (CRÍTICO — NÃO ENTREGAR O GABARITO):
+   - TODAS as 4 alternativas devem adotar exatamente a MESMA estrutura redacional em 2 ou 3 orações (ex.: conclusão jurídica aplicada ao personagem + fundamento/mecanismo jurídico específico + consequência jurídica concreta).
+   - TODAS as 4 alternativas devem possuir o MESMO nível de sofisticação vocabular técnico-jurídica, precisão conceitual e detalhamento. É terminantemente PROIBIDO redigir a correta bem fundamentada e deixar as incorretas curtas, genéricas, simplórias ou vagas.
+   - TODAS as 4 alternativas devem permanecer na faixa equilibrada de 155 a 235 caracteres, com diferença máxima de ±18% entre si — a alternativa correta NÃO deve ser sistematicamente a mais longa.
+   - NUNCA utilize frases genéricas vagas ("conforme a sistemática vigente...", "por juízo de conveniência...", "em observância aos princípios gerais...").
+6. SIMETRIA DE CITAÇÕES E AUSÊNCIA DE PISTAS:
+   - NÃO insira citações de artigos, incisos, súmulas ou temas dentro do texto das alternativas (salvo se o próprio enunciado perguntar expressamente o número da norma, caso em que TODAS as 4 devem citar números plausíveis). Toda citação normativa e explicação doutrinária deve ir para "justification", "whyWrong", "statuteReferences" e "professorTip".
+   - Proibido usar pontos de exclamação (!), negritos (**), glosas entre parênteses ("isto é...", "ou seja...") ou termos absolutos caricatos ("sempre", "nunca", "jamais") como muleta nos distratores. Varie o gabarito ("correctAnswer") entre A, B, C e D.
+7. Preencha "whyWrong" para TODAS as 3 alternativas incorretas indicando "distractorTechnique" (um dos 4 rótulos acima) e explicando exatamente por que a tese plausível daquela alternativa falha diante do caso e da lei.
 8. Preencha objetivo pedagógico, competência jurídica avaliada, exemplo prático e orientação de prova (como a banca FGV costuma cobrar).
 9. Dificuldade solicitada: ${DIFFICULTY_LEVEL_LABELS[level]}.`;
 
@@ -642,12 +643,31 @@ ${formattedJuris || 'Nenhuma súmula específica indexada para este subassunto; 
       },
     };
 
-    draft.options = rebalanceQuestionOptions(draft).options;
-    const validation = await validateQuestionIndependently(draft, false);
-    draft.validationStatus = validation.status;
-    draft.validationReport = validation.report;
+    let calibratedDraft: LegalQuestion = {
+      ...draft,
+      options: rebalanceQuestionOptions(draft, { stripLegacyFillers: true }).options,
+    };
 
-    savedQuestions.push(legalDb.upsertQuestion(draft));
+    const initialSymmetry = evaluateOptionSymmetry(calibratedDraft);
+    if (!initialSymmetry.isBalanced && aiClient) {
+      try {
+        const refined = await refineQuestionDistractorsWithGemini(calibratedDraft, {
+          articlesContext: formattedArticles,
+          jurisContext: formattedJuris,
+        });
+        if (refined) {
+          calibratedDraft = refined;
+        }
+      } catch (refErr) {
+        console.warn('[Auto-Calibração de Distratores] Mantendo versão limpa original:', refErr);
+      }
+    }
+
+    const validation = await validateQuestionIndependently(calibratedDraft, false);
+    calibratedDraft.validationStatus = validation.status;
+    calibratedDraft.validationReport = validation.report;
+
+    savedQuestions.push(legalDb.upsertQuestion(calibratedDraft));
   }
 
   return {
@@ -1191,4 +1211,299 @@ REGRAS OBRIGATÓRIAS:
     };
   }
 }
+
+// =========================================================================
+// MÓDULO 13: CALIBRAÇÃO E REFATORAÇÃO DE DISTRATORES PLAUSÍVEIS (PADRÃO FGV)
+// =========================================================================
+const VALID_LETTERS = ['A', 'B', 'C', 'D'] as const;
+
+async function refineQuestionDistractorsWithGemini(
+  question: LegalQuestion,
+  groundingCtx?: { articlesContext?: string; jurisContext?: string },
+  forceRewrite = false
+): Promise<LegalQuestion | null> {
+  if (!aiClient) return null;
+
+  const preCleaned: LegalQuestion = {
+    ...question,
+    options: (question.options || []).map(o => ({
+      letter: o.letter,
+      text: o.letter === question.correctAnswer ? o.text : stripLegacyBoilerplate(o.text),
+    })),
+  };
+  const beforeSymmetry = evaluateOptionSymmetry(preCleaned);
+
+  if (!forceRewrite && beforeSymmetry.isBalanced) {
+    return preCleaned;
+  }
+
+  const corrOpt = preCleaned.options.find(o => o.letter === preCleaned.correctAnswer);
+  if (!corrOpt) return null;
+
+  const targetLenHint = Math.min(Math.max(corrOpt.text.trim().length, 155), 230);
+
+  const schema = {
+    type: Type.OBJECT,
+    properties: {
+      options: {
+        type: Type.ARRAY,
+        items: {
+          type: Type.OBJECT,
+          properties: {
+            letter: { type: Type.STRING },
+            text: { type: Type.STRING },
+          },
+          required: ['letter', 'text'],
+        },
+      },
+      whyWrong: {
+        type: Type.ARRAY,
+        items: {
+          type: Type.OBJECT,
+          properties: {
+            letter: { type: Type.STRING },
+            distractorTechnique: { type: Type.STRING },
+            explanation: { type: Type.STRING },
+          },
+          required: ['letter', 'distractorTechnique', 'explanation'],
+        },
+      },
+      calibrationNotes: { type: Type.STRING },
+    },
+    required: ['options', 'whyWrong', 'calibrationNotes'],
+  };
+
+  const systemInstruction = `Você é um Engenheiro Psicométrico de Provas Jurídicas (padrão FGV/OAB).
+Sua missão é REESCREVER e CALIBRAR as alternativas de uma questão jurídica já existente para eliminar qualquer pista visual ou assimetria de qualidade, transformando os distratores incorretos em teses altamente plausíveis e tecnicamente sofisticadas.
+
+DIRETRIZES INVIOLÁVEIS:
+1. PRESERVE INTEGRALMENTE o gabarito oficial (${question.correctAnswer}) e a tese jurídica da alternativa correta. Você só pode enxugar glosas entre parênteses, marcações (! / ** / CAIXA ALTA) ou excesso redacional prolixo na correta, mantendo sua substância jurídica exata.
+2. REESCREVA os 3 distratores incorretos aplicando explicitamente técnicas de distrator plausível:
+   - TROCA_DE_INSTITUTO: aplica instituto afim da mesma área gerando confusão doutrinária verossímil.
+   - INVERSAO_REGRA_EXCECAO: inverte regra geral e exceção legal/constitucional ou ignora ressalva determinante do enunciado.
+   - MEIA_VERDADE_TECNICA: combina premissa jurídica verdadeira e técnica impecável com conclusão processual ou material incorreta.
+   - DESLOCAMENTO_DE_PRAZO_COMPETENCIA: desloca competência, legitimidade, quórum, rito ou prazo de maneira convincente.
+3. PARIDADE ESTRUTURAL E VOCABULAR:
+   - Todas as 4 alternativas (A, B, C e D) devem seguir a MESMA estrutura sintática em 2 ou 3 orações (conclusão aplicada ao caso + fundamento/mecanismo jurídico específico + consequência jurídica concreta).
+   - Todas as 4 devem ter densidade terminológica equivalente e extensão próxima a ${targetLenHint} caracteres (entre ${Math.max(125, targetLenHint - 30)} e ${Math.min(250, targetLenHint + 30)} caracteres), sem que a correta seja a mais longa nem a mais bem escrita.
+   - PROIBIDO usar preenchimentos genéricos vagos, chavões ("conforme a sistemática vigente...", "segundo os princípios aplicáveis...") ou palavras-pista absolutas ("sempre", "nunca", "jamais").
+4. SIMETRIA DE CITAÇÕES: Se nenhuma alternativa precisar citar número de artigo/súmula, remova citações numéricas das alternativas (pois já constam na fundamentação). Se o enunciado perguntar número de artigo/súmula, garanta que TODAS as 4 alternativas tragam referências numéricas plausíveis em formato idêntico.
+5. GARANTIA DE ERRO INEQUÍVOCO NOS DISTRATORES: Cada distrator deve parecer muito tentador ao candidato despreparado, mas continuar objetivamente ERRADO diante da legislação vigente e do enunciado, sem gerar dupla resposta.`;
+
+  const prompt = `Disciplina: ${question.subject} | Tema: ${question.topic}
+Enunciado: ${question.statement}
+
+Alternativas atuais (diagnóstico de simetria: ${beforeSymmetry.issues.join('; ') || 'refinamento qualitativo solicitado'}):
+${preCleaned.options.map(o => `${o.letter})${o.letter === question.correctAnswer ? ' [CORRETA]' : ' [DISTRATOR]'} ${o.text}`).join('\n')}
+
+Gabarito oficial preservado: ${question.correctAnswer}
+Fundamentação da questão: ${question.justification}
+${question.jurisprudence ? `Jurisprudência vinculada: ${question.jurisprudence}` : ''}
+${groundingCtx?.articlesContext ? `\nDispositivos relacionados na base:\n${groundingCtx.articlesContext}` : ''}
+${groundingCtx?.jurisContext ? `\nPrecedentes relacionados na base:\n${groundingCtx.jurisContext}` : ''}`;
+
+  const startMs = Date.now();
+  try {
+    const resp = await aiClient.models.generateContent({
+      model: PRIMARY_MODEL,
+      contents: [{ role: 'user', parts: [{ text: prompt }] }],
+      config: {
+        systemInstruction,
+        thinkingConfig: { thinkingLevel: ThinkingLevel.LOW },
+        responseMimeType: 'application/json',
+        responseSchema: schema,
+      },
+    });
+
+    const usage = extractTokenUsage(resp);
+    legalDb.logAiUsage({
+      endpoint: 'refineQuestionDistractors',
+      model: PRIMARY_MODEL,
+      ...usage,
+      cached: false,
+      durationMs: Date.now() - startMs,
+      success: true,
+    });
+
+    const parsed = JSON.parse(resp.text || '{}');
+    if (!Array.isArray(parsed.options) || parsed.options.length < 4) return null;
+
+    const mappedOptions = VALID_LETTERS.map(letter => {
+      const found = parsed.options.find((o: any) => String(o?.letter || '').toUpperCase().trim() === letter);
+      const orig = preCleaned.options.find(o => o.letter === letter);
+      const candidateText = String(found?.text || '').trim();
+      return {
+        letter,
+        text: candidateText.length >= 20 ? candidateText : orig?.text || '',
+      };
+    });
+
+    const wrongLetters = VALID_LETTERS.filter(l => l !== question.correctAnswer);
+    const mappedWhyWrong = wrongLetters.map(letter => {
+      const found = Array.isArray(parsed.whyWrong)
+        ? parsed.whyWrong.find((w: any) => String(w?.letter || '').toUpperCase().trim() === letter)
+        : null;
+      const orig = (question.whyWrong || []).find(w => w.letter === letter);
+      return {
+        letter,
+        distractorTechnique: found?.distractorTechnique ? String(found.distractorTechnique) : orig?.distractorTechnique,
+        explanation: String(found?.explanation || orig?.explanation || 'Alternativa incorreta conforme o ordenamento jurídico vigente.'),
+      };
+    });
+
+    const candidate: LegalQuestion = {
+      ...preCleaned,
+      options: mappedOptions,
+      whyWrong: mappedWhyWrong,
+    };
+
+    // Passagem final estritamente não-destrutiva para remover eventuais marcas residuais
+    const rebalanced = rebalanceQuestionOptions(candidate, { stripLegacyFillers: true });
+    const finalCandidate: LegalQuestion = {
+      ...candidate,
+      options: rebalanced.options,
+    };
+
+    const afterSymmetry = evaluateOptionSymmetry(finalCandidate);
+    if (!forceRewrite && afterSymmetry.score < beforeSymmetry.score) {
+      return preCleaned;
+    }
+
+    return finalCandidate;
+  } catch (err: any) {
+    legalDb.logAiUsage({
+      endpoint: 'refineQuestionDistractors',
+      model: PRIMARY_MODEL,
+      promptTokens: 0,
+      completionTokens: 0,
+      totalTokens: 0,
+      cached: false,
+      durationMs: Date.now() - startMs,
+      success: false,
+      errorMessage: err?.message,
+    });
+    throw err;
+  }
+}
+
+export async function refactorQuestionAlternatives(
+  question: LegalQuestion
+): Promise<{
+  success: boolean;
+  usedAi: boolean;
+  question: LegalQuestion;
+  beforeReport: OptionSymmetryReport;
+  afterReport: OptionSymmetryReport;
+}> {
+  const beforeReport = evaluateOptionSymmetry(question);
+  const sources = legalDb.findGroundingSources(
+    question.subject,
+    question.topic,
+    (question.statuteReferences || []).map(s => `${s.code} ${s.article}`)
+  );
+
+  const articlesContext = sources.articles
+    .map(a => `- ${a.normShortName} ${a.articleNumber}: ${a.caput}`)
+    .join('\n');
+  const jurisContext = sources.jurisprudence
+    .map(j => `- ${j.tribunal} ${j.identification}: ${j.thesis}`)
+    .join('\n');
+
+  let updated: LegalQuestion = {
+    ...question,
+    options: rebalanceQuestionOptions(question, { stripLegacyFillers: true }).options,
+  };
+  let usedAi = false;
+
+  if (aiClient) {
+    try {
+      const refined = await refineQuestionDistractorsWithGemini(
+        question,
+        { articlesContext, jurisContext },
+        true
+      );
+      if (refined) {
+        updated = refined;
+        usedAi = true;
+      }
+    } catch (err) {
+      console.warn('[Refactor Alternatives] Fallback determinístico aplicado após falha na IA:', err);
+    }
+  }
+
+  const afterReport = evaluateOptionSymmetry(updated);
+  const validation = await validateQuestionIndependently(updated, false);
+  const cfg = legalDb.getQualityConfig();
+  const wasPublished = (question.validationStatus || 'PUBLICADA') === 'PUBLICADA';
+  const nextStatus =
+    wasPublished && validation.report.score >= 70 && (!cfg.requireHumanApprovalBeforePublish || question.originType !== 'INEDITA_IA')
+      ? 'PUBLICADA'
+      : wasPublished && afterReport.isBalanced && validation.report.score >= 70
+      ? 'PUBLICADA'
+      : validation.status;
+
+  updated.validationStatus = nextStatus;
+  updated.validationReport = validation.report;
+
+  const saved = legalDb.upsertQuestion(updated);
+
+  return {
+    success: true,
+    usedAi,
+    question: saved,
+    beforeReport,
+    afterReport,
+  };
+}
+
+export async function refactorImbalancedQuestionsBatch(params?: {
+  limit?: number;
+  discipline?: string;
+}): Promise<{
+  success: boolean;
+  processedCount: number;
+  improvedCount: number;
+  usedAiCount: number;
+  remainingImbalancedCount: number;
+  questions: LegalQuestion[];
+}> {
+  const limit = Math.min(Math.max(Number(params?.limit) || 4, 1), 6);
+  const all = legalDb.getQuestions({
+    discipline: params?.discipline && params.discipline !== 'ALL' ? params.discipline : undefined,
+  });
+
+  const candidates = all
+    .map(q => ({ q, report: evaluateOptionSymmetry(q) }))
+    .filter(item => !item.report.isBalanced)
+    .sort((a, b) => a.report.score - b.report.score)
+    .slice(0, limit);
+
+  const updatedQuestions: LegalQuestion[] = [];
+  let improvedCount = 0;
+  let usedAiCount = 0;
+
+  for (const item of candidates) {
+    const res = await refactorQuestionAlternatives(item.q);
+    updatedQuestions.push(res.question);
+    if (res.usedAi) usedAiCount += 1;
+    if (res.afterReport.score > res.beforeReport.score || res.afterReport.isBalanced) {
+      improvedCount += 1;
+    }
+  }
+
+  const afterAll = legalDb.getQuestions({
+    discipline: params?.discipline && params.discipline !== 'ALL' ? params.discipline : undefined,
+  });
+  const remainingImbalancedCount = afterAll.filter(q => !evaluateOptionSymmetry(q).isBalanced).length;
+
+  return {
+    success: true,
+    processedCount: candidates.length,
+    improvedCount,
+    usedAiCount,
+    remainingImbalancedCount,
+    questions: updatedQuestions,
+  };
+}
+
 

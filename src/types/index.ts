@@ -45,6 +45,7 @@ export interface LegalQuestion {
   whyWrong: {
     letter: 'A' | 'B' | 'C' | 'D' | 'E';
     explanation: string;
+    distractorTechnique?: string;
   }[];
   statuteReferences: StatuteReference[];
   jurisprudence?: string; // Súmula do STF/STJ ou Tema Repetitivo
@@ -177,6 +178,38 @@ export interface UserStudyData {
   activePlanId: string;
   lastActiveDate: string;
   streakDays: number;
+}
+
+export interface ActiveQueueRef {
+  instanceId: string;
+  questionId: string;
+  attemptNumber: number;
+  isRetry: boolean;
+  previousWrongLetter?: string;
+}
+
+export interface ActiveSimuladoSession {
+  config: SimuladoConfig;
+  queueRefs: ActiveQueueRef[];
+  currentIndex: number;
+  questionMastery: Record<string, {
+    firstAttemptCorrect: boolean;
+    isFixed: boolean;
+    attempts: number;
+    wrongCount: number;
+  }>;
+  answers: Record<string, SimuladoAnswer>;
+  instanceAnswers: Record<string, {
+    selectedLetter: string;
+    isCorrect: boolean;
+  }>;
+  eliminated: Record<string, string[]>;
+  markedReview: Record<string, boolean>;
+  secondsRemaining: number | null;
+  elapsedSeconds: number;
+  repeatInterval: number;
+  isOpenInView?: boolean;
+  updatedAt: string;
 }
 
 export interface MissedQuestionSummary {

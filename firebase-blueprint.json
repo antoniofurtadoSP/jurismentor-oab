@@ -1,0 +1,312 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Authenticated student profile stored privately under the user document.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "displayName": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "maxLength": 200
+        },
+        "photoURL": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["uid", "email", "createdAt", "updatedAt"]
+    },
+    "StudyProfile": {
+      "title": "StudyProfile",
+      "description": "Core student study configuration, streak, schedule day completion, flashcard mastery, and per-subject goals.",
+      "type": "object",
+      "properties": {
+        "ownerId": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "activePlanId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "lastActiveDate": {
+          "type": "string",
+          "maxLength": 20,
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "streakDays": {
+          "type": "number"
+        },
+        "completedScheduleDays": {
+          "type": "object"
+        },
+        "flashcardStatus": {
+          "type": "object"
+        },
+        "subjectGoals": {
+          "type": "object"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "ownerId",
+        "activePlanId",
+        "lastActiveDate",
+        "streakDays",
+        "completedScheduleDays",
+        "flashcardStatus",
+        "subjectGoals",
+        "updatedAt"
+      ]
+    },
+    "QuestionMark": {
+      "title": "QuestionMark",
+      "description": "Per-question error notebook membership and bookmark flag.",
+      "type": "object",
+      "properties": {
+        "ownerId": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "questionId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "inErrorNotebook": {
+          "type": "boolean"
+        },
+        "isBookmarked": {
+          "type": "boolean"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["ownerId", "questionId", "inErrorNotebook", "isBookmarked", "updatedAt"]
+    },
+    "SimuladoResultRecord": {
+      "title": "SimuladoResultRecord",
+      "description": "Completed simulado result with per-question answers and subject performance breakdown.",
+      "type": "object",
+      "properties": {
+        "ownerId": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "configId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "date": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "totalQuestions": {
+          "type": "number"
+        },
+        "correctCount": {
+          "type": "number"
+        },
+        "wrongCount": {
+          "type": "number"
+        },
+        "unansweredCount": {
+          "type": "number"
+        },
+        "timeSpentSeconds": {
+          "type": "number"
+        },
+        "scorePercentage": {
+          "type": "number"
+        },
+        "passedOABCutoff": {
+          "type": "boolean"
+        },
+        "answers": {
+          "type": "object"
+        },
+        "subjectStats": {
+          "type": "object"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "ownerId",
+        "id",
+        "configId",
+        "title",
+        "date",
+        "totalQuestions",
+        "correctCount",
+        "wrongCount",
+        "unansweredCount",
+        "timeSpentSeconds",
+        "scorePercentage",
+        "passedOABCutoff",
+        "answers",
+        "subjectStats",
+        "createdAt"
+      ]
+    },
+    "ActiveSimuladoSessionRecord": {
+      "title": "ActiveSimuladoSessionRecord",
+      "description": "Auto-saved in-progress simulado session allowing seamless resume after closing the application.",
+      "type": "object",
+      "properties": {
+        "ownerId": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "config": {
+          "type": "object"
+        },
+        "queueRefs": {
+          "type": "array"
+        },
+        "currentIndex": {
+          "type": "number"
+        },
+        "questionMastery": {
+          "type": "object"
+        },
+        "answers": {
+          "type": "object"
+        },
+        "instanceAnswers": {
+          "type": "object"
+        },
+        "eliminated": {
+          "type": "object"
+        },
+        "markedReview": {
+          "type": "object"
+        },
+        "secondsRemaining": {
+          "type": "number"
+        },
+        "elapsedSeconds": {
+          "type": "number"
+        },
+        "repeatInterval": {
+          "type": "number"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "ownerId",
+        "config",
+        "queueRefs",
+        "currentIndex",
+        "questionMastery",
+        "answers",
+        "instanceAnswers",
+        "eliminated",
+        "markedReview",
+        "secondsRemaining",
+        "elapsedSeconds",
+        "repeatInterval",
+        "updatedAt"
+      ]
+    },
+    "PerformanceAnalysisCacheRecord": {
+      "title": "PerformanceAnalysisCacheRecord",
+      "description": "Persisted Gemini diagnostic error analysis synced to the student account.",
+      "type": "object",
+      "properties": {
+        "ownerId": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "fingerprint": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "analysis": {
+          "type": "object"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["ownerId", "fingerprint", "analysis", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "Private authenticated student profile document."
+    },
+    "/users/{userId}/studyProfile/{profileId}": {
+      "schema": { "$ref": "#/entities/StudyProfile" },
+      "description": "Student streak, active plan, schedule day progress, flashcards mastery, and subject study goals."
+    },
+    "/users/{userId}/questionMarks/{questionId}": {
+      "schema": { "$ref": "#/entities/QuestionMark" },
+      "description": "Student per-question Error Notebook and Bookmark flags."
+    },
+    "/users/{userId}/simuladoResults/{resultId}": {
+      "schema": { "$ref": "#/entities/SimuladoResultRecord" },
+      "description": "Completed simulado results belonging to the student."
+    },
+    "/users/{userId}/activeSessions/{sessionId}": {
+      "schema": { "$ref": "#/entities/ActiveSimuladoSessionRecord" },
+      "description": "In-progress simulado checkpoint saved automatically so closing the app never loses answers."
+    },
+    "/users/{userId}/aiInsights/{insightId}": {
+      "schema": { "$ref": "#/entities/PerformanceAnalysisCacheRecord" },
+      "description": "Cached Gemini diagnostic study recommendations per student."
+    }
+  }
+}

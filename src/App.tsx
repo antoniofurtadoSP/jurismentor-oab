@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Header } from './components/Header';
 import { SimuladoBuilder } from './components/SimuladoBuilder';
 import { SimuladoView } from './components/SimuladoView';
@@ -10,28 +10,92 @@ import { SimuladoDiagnostico } from './components/SimuladoDiagnostico';
 import { LegalKnowledgeAdminView } from './components/LegalKnowledgeAdminView';
 import { ProfessorTutorModal } from './components/ProfessorTutorModal';
 import { AccessAnywhereModal } from './components/AccessAnywhereModal';
-import { 
-  getStoredStudyData, 
-  recordSimuladoResult, 
+import {
+  getStoredStudyData,
+  saveStoredStudyData,
+  recordSimuladoResult,
   toggleBookmarkQuestion,
   getGlobalPerformanceStats,
   getEffectiveSubjectGoal,
+  setActiveCloudUserId,
+  setCloudSyncListener,
+  getStoredActiveSession,
+  saveStoredActiveSession,
+  setActiveSessionOpenInView,
+  clearStoredActiveSession,
+  flushPendingCloudWrites,
 } from './services/storage';
-import { SimuladoConfig, SimuladoResult, LegalQuestion, UserStudyData } from './types';
+import { sanitizeFirestoreId, syncAndLoadCloudStudyState } from './services/cloudSync';
+import { useFirebase } from './contexts/FirebaseContext';
+import {
+  ActiveSimuladoSession,
+  SimuladoConfig,
+  SimuladoResult,
+  LegalQuestion,
+  UserStudyData,
+} from './types';
 import { getAllQuestions, subscribeToQuestions, syncPublishedQuestionsFromServer } from './services/questionsService';
 import { startKeepAliveMonitor } from './services/keepAlive';
 
+interface ActiveSimuladoState {
+  config: SimuladoConfig;
+  questions: LegalQuestion[];
+  returnTab?: 'simulados' | 'diagnostico';
+  initialSession?: ActiveSimuladoSession | null;
+}
+
+function buildActiveSimuladoFromSession(session: ActiveSimuladoSession): ActiveSimuladoState | null {
+  const allQ = getAllQuestions();
+  const qMap = new Map<string, LegalQuestion>();
+  allQ.forEach((q) => {
+    qMap.set(q.id, q);
+    qMap.set(sanitizeFirestoreId(q.id, 'q'), q);
+  });
+
+  const baseMap = new Map<string, LegalQuestion>();
+  const fallbackMap = new Map<string, LegalQuestion>();
+  session.queueRefs.forEach((ref) => {
+    const found = qMap.get(ref.questionId);
+    if (!found) return;
+    fallbackMap.set(found.id, found);
+    if (!ref.isRetry && !ref.instanceId.includes('_comp_')) {
+      baseMap.set(found.id, found);
+    }
+  });
+
+  const resolvedQuestions = Array.from(baseMap.size > 0 ? baseMap.values() : fallbackMap.values());
+  if (resolvedQuestions.length === 0) return null;
+
+  return {
+    config: session.config,
+    questions: resolvedQuestions,
+    returnTab: 'simulados',
+    initialSession: session,
+  };
+}
+
 export default function App() {
+  const { user, authReady, setSyncStatus } = useFirebase();
   const [activeTab, setActiveTab] = useState<'simulados' | 'diagnostico' | 'cronograma' | 'desempenho' | 'erros' | 'flashcards' | 'base_admin' | 'professor'>('simulados');
-  const [studyData, setStudyData] = useState<UserStudyData>(getStoredStudyData());
-  const [activeSimulado, setActiveSimulado] = useState<{
-    config: SimuladoConfig;
-    questions: LegalQuestion[];
-    returnTab?: 'simulados' | 'diagnostico';
-  } | null>(null);
+  const [studyData, setStudyData] = useState<UserStudyData>(() => getStoredStudyData());
+  const [pausedSession, setPausedSession] = useState<ActiveSimuladoSession | null>(() =>
+    getStoredActiveSession()
+  );
+  const [activeSimulado, setActiveSimulado] = useState<ActiveSimuladoState | null>(() => {
+    const saved = getStoredActiveSession();
+    if (saved?.isOpenInView) {
+      return buildActiveSimuladoFromSession(saved);
+    }
+    return null;
+  });
   const [showDedicatedProfessorModal, setShowDedicatedProfessorModal] = useState(false);
   const [showAccessModal, setShowAccessModal] = useState(false);
-  const [, setQuestionsVersion] = useState(0);
+  const [questionsVersion, setQuestionsVersion] = useState(0);
+
+  const activeSimuladoRef = useRef<ActiveSimuladoState | null>(activeSimulado);
+  useEffect(() => {
+    activeSimuladoRef.current = activeSimulado;
+  }, [activeSimulado]);
 
   // Sync state with storage, server legal knowledge DB, and periodic keep-alive
   useEffect(() => {
@@ -45,6 +109,95 @@ export default function App() {
       stopKeepAlive();
     };
   }, []);
+
+  // Re-try restoring an open session if dynamic server questions finish loading right after mount
+  useEffect(() => {
+    if (!activeSimulado && pausedSession?.isOpenInView) {
+      const restored = buildActiveSimuladoFromSession(pausedSession);
+      if (restored) {
+        setActiveSimulado(restored);
+      }
+    }
+  }, [questionsVersion]);
+
+  // Keep pausedSession updated whenever leaving active simulado view
+  useEffect(() => {
+    if (!(activeSimulado && activeTab === 'simulados')) {
+      setPausedSession(getStoredActiveSession());
+    }
+  }, [activeSimulado, activeTab]);
+
+  // Flush any pending cloud session writes when closing or backgrounding the app
+  useEffect(() => {
+    const handleFlush = () => flushPendingCloudWrites();
+    const handleVisibility = () => {
+      if (document.visibilityState === 'hidden') {
+        flushPendingCloudWrites();
+      }
+    };
+    window.addEventListener('pagehide', handleFlush);
+    window.addEventListener('beforeunload', handleFlush);
+    document.addEventListener('visibilitychange', handleVisibility);
+    return () => {
+      window.removeEventListener('pagehide', handleFlush);
+      window.removeEventListener('beforeunload', handleFlush);
+      document.removeEventListener('visibilitychange', handleVisibility);
+    };
+  }, []);
+
+  // Connect Firebase user to automatic cloud sync and merge saved progress on login
+  useEffect(() => {
+    setCloudSyncListener(setSyncStatus);
+    if (!authReady) return;
+
+    if (!user) {
+      setActiveCloudUserId(null);
+      setSyncStatus('idle');
+      return;
+    }
+
+    let cancelled = false;
+    setActiveCloudUserId(user.uid);
+    setSyncStatus('syncing');
+
+    const localData = getStoredStudyData();
+    const localSession = getStoredActiveSession();
+
+    syncAndLoadCloudStudyState(user, localData, localSession)
+      .then(({ mergedData, activeSession }) => {
+        if (cancelled) return;
+        saveStoredStudyData(mergedData);
+        setStudyData(mergedData);
+
+        if (activeSession && !activeSimuladoRef.current) {
+          const withLocalOpenFlag: ActiveSimuladoSession = {
+            ...activeSession,
+            isOpenInView:
+              localSession?.config.id === activeSession.config.id
+                ? Boolean(localSession.isOpenInView)
+                : false,
+          };
+          saveStoredActiveSession(withLocalOpenFlag, false);
+          setPausedSession(withLocalOpenFlag);
+          if (withLocalOpenFlag.isOpenInView) {
+            const restored = buildActiveSimuladoFromSession(withLocalOpenFlag);
+            if (restored) {
+              setActiveSimulado(restored);
+            }
+          }
+        }
+        setSyncStatus('synced');
+      })
+      .catch((err) => {
+        if (cancelled) return;
+        console.error('Erro na sincronização inicial com Firebase:', err);
+        setSyncStatus('error');
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [authReady, user?.uid, setSyncStatus]);
 
   const refreshStudyData = () => {
     setStudyData(getStoredStudyData());
@@ -102,6 +255,7 @@ export default function App() {
       config,
       questions: selected.length > 0 ? selected : getAllQuestions().slice(0, 5),
       returnTab: 'simulados',
+      initialSession: null,
     });
     setActiveTab('simulados');
   };
@@ -111,6 +265,7 @@ export default function App() {
       config,
       questions: questions.length > 0 ? questions : getAllQuestions().slice(0, 10),
       returnTab: 'diagnostico',
+      initialSession: null,
     });
     setActiveTab('simulados');
   };
@@ -128,6 +283,7 @@ export default function App() {
         repeatWrongQuestionsInterval: 1,
       },
       questions,
+      initialSession: null,
     });
     setActiveTab('simulados');
   };
@@ -162,11 +318,30 @@ export default function App() {
         repeatWrongQuestionsInterval: 2,
       },
       questions: questionsToUse,
+      initialSession: null,
     });
     setActiveTab('simulados');
   };
 
+  const handleResumePausedSession = () => {
+    const latest = getStoredActiveSession() || pausedSession;
+    if (!latest) return;
+    const restored = buildActiveSimuladoFromSession({ ...latest, isOpenInView: true });
+    if (restored) {
+      setActiveSessionOpenInView(true);
+      setActiveSimulado(restored);
+      setActiveTab('simulados');
+    }
+  };
+
+  const handleDiscardPausedSession = () => {
+    clearStoredActiveSession();
+    setPausedSession(null);
+  };
+
   const handleSimuladoComplete = (result: SimuladoResult) => {
+    clearStoredActiveSession();
+    setPausedSession(null);
     const updated = recordSimuladoResult(result);
     setStudyData(updated);
   };
@@ -187,6 +362,12 @@ export default function App() {
           if (tab === 'professor') {
             setShowDedicatedProfessorModal(true);
           } else {
+            if (tab === 'simulados' && activeSimulado) {
+              const latest = getStoredActiveSession();
+              if (latest && latest.config.id === activeSimulado.config.id) {
+                setActiveSimulado(prev => prev ? { ...prev, initialSession: latest } : null);
+              }
+            }
             setActiveTab(tab);
           }
         }}
@@ -202,11 +383,22 @@ export default function App() {
         {/* If a simulado is active and we are in the simulados tab */}
         {activeSimulado && activeTab === 'simulados' ? (
           <SimuladoView
+            key={activeSimulado.config.id}
             config={activeSimulado.config}
             questions={activeSimulado.questions}
+            initialSession={activeSimulado.initialSession}
+            onPersistSession={(session, immediateCloud) => {
+              saveStoredActiveSession(session, immediateCloud);
+            }}
+            onDiscardSession={() => {
+              clearStoredActiveSession();
+              setPausedSession(null);
+            }}
             onComplete={handleSimuladoComplete}
             onExit={() => {
               const target = activeSimulado.returnTab || 'simulados';
+              setActiveSessionOpenInView(false);
+              setPausedSession(getStoredActiveSession());
               setActiveSimulado(null);
               setActiveTab(target);
             }}
@@ -220,6 +412,9 @@ export default function App() {
                 onStartSimulado={handleStartSimulado}
                 cadernoErrosCount={studyData.cadernoErrosIds.length}
                 onOpenDiagnostic={() => setActiveTab('diagnostico')}
+                pausedSession={pausedSession}
+                onResumeSession={handleResumePausedSession}
+                onDiscardPausedSession={handleDiscardPausedSession}
               />
             )}
 

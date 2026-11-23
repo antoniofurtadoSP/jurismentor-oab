@@ -239,6 +239,63 @@ export async function generateGroundedQuestionsApi(params: {
   return data;
 }
 
+export interface SymmetryAuditResponse {
+  success: boolean;
+  totalQuestions: number;
+  imbalancedCount: number;
+  legacyBoilerplateCount: number;
+  avgScore: number;
+  imbalancedIds: string[];
+}
+
+export async function fetchSymmetryAudit(discipline?: string): Promise<SymmetryAuditResponse> {
+  const qs = new URLSearchParams();
+  if (discipline && discipline !== 'ALL') qs.set('discipline', discipline);
+  const res = await fetch(`/api/kb/questions/symmetry-audit?${qs.toString()}`);
+  const data = await res.json();
+  if (!res.ok || !data.success) throw new Error(data.error || 'Erro ao auditar simetria das alternativas');
+  return data;
+}
+
+export async function refactorQuestionAlternativesApi(id: string): Promise<{
+  success: boolean;
+  usedAi: boolean;
+  question: LegalQuestion;
+  beforeReport: { score: number; isBalanced: boolean; issues: string[] };
+  afterReport: { score: number; isBalanced: boolean; issues: string[] };
+  message: string;
+}> {
+  const res = await fetch(`/api/kb/questions/${id}/refactor-alternatives`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+  });
+  const data = await res.json();
+  if (!res.ok || !data.success) throw new Error(data.error || 'Erro ao refatorar distratores da questão');
+  return data;
+}
+
+export async function refactorAlternativesBatchApi(params?: {
+  limit?: number;
+  discipline?: string;
+}): Promise<{
+  success: boolean;
+  processedCount: number;
+  improvedCount: number;
+  usedAiCount: number;
+  remainingImbalancedCount: number;
+  questions: LegalQuestion[];
+  message: string;
+}> {
+  const res = await fetch('/api/kb/questions/refactor-alternatives-batch', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(params || {}),
+  });
+  const data = await res.json();
+  if (!res.ok || !data.success) throw new Error(data.error || 'Erro ao calibrar lote de distratores');
+  return data;
+}
+
 export async function extractPdfTextFromFile(file: File): Promise<{ text: string; pageCount: number }> {
   const base64Data = await new Promise<string>((resolve, reject) => {
     const reader = new FileReader();

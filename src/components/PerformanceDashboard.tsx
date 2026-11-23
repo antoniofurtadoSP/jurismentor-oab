@@ -12,6 +12,8 @@ import {
   collectMissedQuestionSummaries,
 } from '../services/aiTutor';
 import { ProfessorAudioPlayer } from './ProfessorAudioPlayer';
+import { useFirebase } from '../contexts/FirebaseContext';
+import { fetchPerformanceInsightFromCloud, pushPerformanceInsightToCloud } from '../services/cloudSync';
 
 const ANALYSIS_CACHE_KEY = 'jurismentor_perf_ai_analysis_v1';
 
@@ -44,6 +46,7 @@ export const PerformanceDashboard: React.FC<PerformanceDashboardProps> = ({
     [stats.totalQuestionsAnswered, stats.cadernoErrosCount, missedQuestions]
   );
 
+  const { user } = useFirebase();
   const [analysis, setAnalysis] = useState<PerformanceErrorAnalysis | null>(null);
   const [cachedFingerprint, setCachedFingerprint] = useState<string | null>(null);
   const [analyzing, setAnalyzing] = useState(false);
@@ -63,6 +66,44 @@ export const PerformanceDashboard: React.FC<PerformanceDashboardProps> = ({
       // ignore corrupted cache
     }
   }, []);
+
+  useEffect(() => {
+    if (!user?.uid) return;
+    let cancelled = false;
+    fetchPerformanceInsightFromCloud(user.uid)
+      .then((cloudInsight) => {
+        if (cancelled || !cloudInsight?.analysis) return;
+        setAnalysis((prev) => {
+          if (!prev) {
+            try {
+              localStorage.setItem(ANALYSIS_CACHE_KEY, JSON.stringify(cloudInsight));
+            } catch {
+              // ignore quota errors
+            }
+            setCachedFingerprint(cloudInsight.fingerprint);
+            return cloudInsight.analysis;
+          }
+          const prevTs = Date.parse(prev.generatedAt || '') || 0;
+          const cloudTs = Date.parse(cloudInsight.analysis.generatedAt || '') || 0;
+          if (cloudTs > prevTs) {
+            try {
+              localStorage.setItem(ANALYSIS_CACHE_KEY, JSON.stringify(cloudInsight));
+            } catch {
+              // ignore quota errors
+            }
+            setCachedFingerprint(cloudInsight.fingerprint);
+            return cloudInsight.analysis;
+          }
+          return prev;
+        });
+      })
+      .catch(() => {
+        // non-blocking cloud cache load
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [user?.uid]);
 
   const isAnalysisStale = Boolean(analysis && cachedFingerprint && cachedFingerprint !== currentFingerprint);
 
@@ -89,6 +130,11 @@ export const PerformanceDashboard: React.FC<PerformanceDashboardProps> = ({
         );
       } catch {
         // ignore storage quota errors
+      }
+      if (user?.uid) {
+        pushPerformanceInsightToCloud(user.uid, currentFingerprint, result).catch(() => {
+          // non-blocking cloud write
+        });
       }
     } catch (err: any) {
       setAnalysisError(err?.message || 'Não foi possível concluir a análise de erros agora. Tente novamente.');

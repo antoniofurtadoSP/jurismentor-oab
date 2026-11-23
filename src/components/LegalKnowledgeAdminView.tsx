@@ -17,6 +17,7 @@ import {
   RefreshCw,
   FileText,
   Cpu,
+  SlidersHorizontal,
 } from 'lucide-react';
 import type { LegalQuestion } from '../types';
 import type {
@@ -39,16 +40,20 @@ import {
   fetchKbOverview,
   fetchKbQuestions,
   fetchLegalUpdates,
+  fetchSymmetryAudit,
   generateGroundedQuestionsApi,
   KnowledgeOverviewResponse,
   processImportApi,
   recordLegalUpdateApi,
+  refactorAlternativesBatchApi,
+  refactorQuestionAlternativesApi,
   runTwoStageValidation,
   saveArticle,
   saveJurisprudence,
   saveNorm,
   searchJurisprudence,
   searchLegislation,
+  SymmetryAuditResponse,
   updateQualityConfig,
   updateQuestionStatus,
 } from '../services/knowledgeBaseService';
@@ -139,6 +144,9 @@ export const LegalKnowledgeAdminView: React.FC = () => {
   const [qFilterQuery, setQFilterQuery] = useState('');
   const [questionsList, setQuestionsList] = useState<LegalQuestion[]>([]);
   const [validatingId, setValidatingId] = useState<string | null>(null);
+  const [refactoringId, setRefactoringId] = useState<string | null>(null);
+  const [refactoringBatch, setRefactoringBatch] = useState(false);
+  const [symmetryAudit, setSymmetryAudit] = useState<SymmetryAuditResponse | null>(null);
   const [editingQuestion, setEditingQuestion] = useState<LegalQuestion | null>(null);
   const [showManualQForm, setShowManualQForm] = useState(false);
   const [manualQ, setManualQ] = useState({
@@ -235,6 +243,15 @@ export const LegalKnowledgeAdminView: React.FC = () => {
     setQuestionsList(list);
   };
 
+  const loadSymmetryAudit = async () => {
+    try {
+      const audit = await fetchSymmetryAudit(qFilterDisc);
+      setSymmetryAudit(audit);
+    } catch {
+      // Non-blocking diagnostic metric
+    }
+  };
+
   const loadJobsAndUpdates = async () => {
     const [jobs, upds] = await Promise.all([fetchImportJobs(), fetchLegalUpdates()]);
     setImportJobs(jobs);
@@ -246,6 +263,7 @@ export const LegalKnowledgeAdminView: React.FC = () => {
     loadLegislation();
     loadJurisprudence();
     loadQuestions();
+    loadSymmetryAudit();
     loadJobsAndUpdates();
   }, []);
 
@@ -260,6 +278,10 @@ export const LegalKnowledgeAdminView: React.FC = () => {
   useEffect(() => {
     loadQuestions();
   }, [qFilterStatus, qFilterOrigin, qFilterDisc, qFilterQuery]);
+
+  useEffect(() => {
+    loadSymmetryAudit();
+  }, [qFilterDisc]);
 
   const handleSaveNorm = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -315,7 +337,7 @@ export const LegalKnowledgeAdminView: React.FC = () => {
           'Geração bloqueada pela regra de integridade: insuficiência de artigos ou jurisprudência cadastrada para este assunto na base.'
         );
       } else {
-        await Promise.all([loadQuestions(), loadOverview(), syncPublishedQuestionsFromServer()]);
+        await Promise.all([loadQuestions(), loadOverview(), loadSymmetryAudit(), syncPublishedQuestionsFromServer()]);
         notify(
           'ok',
           `${res.questions.length} questão(ões) inédita(s) gerada(s) com base em ${res.groundingSummary.articlesCount} artigo(s) e ${res.groundingSummary.jurisprudenceCount} julgado(s).`
@@ -332,12 +354,41 @@ export const LegalKnowledgeAdminView: React.FC = () => {
     setValidatingId(id);
     try {
       const res = await runTwoStageValidation(id, true);
-      await Promise.all([loadQuestions(), loadOverview(), syncPublishedQuestionsFromServer()]);
+      await Promise.all([loadQuestions(), loadOverview(), loadSymmetryAudit(), syncPublishedQuestionsFromServer()]);
       notify('ok', `Validação em 2 estágios concluída: ${res.validation.report.summary}`);
     } catch (err: any) {
       notify('err', err?.message || 'Erro na validação da questão.');
     } finally {
       setValidatingId(null);
+    }
+  };
+
+  const handleRefactorQuestionAlternatives = async (id: string) => {
+    setRefactoringId(id);
+    try {
+      const res = await refactorQuestionAlternativesApi(id);
+      await Promise.all([loadQuestions(), loadOverview(), loadSymmetryAudit(), syncPublishedQuestionsFromServer()]);
+      notify('ok', res.message);
+    } catch (err: any) {
+      notify('err', err?.message || 'Erro ao refatorar distratores da questão.');
+    } finally {
+      setRefactoringId(null);
+    }
+  };
+
+  const handleRefactorBatch = async () => {
+    setRefactoringBatch(true);
+    try {
+      const res = await refactorAlternativesBatchApi({
+        limit: 4,
+        discipline: qFilterDisc,
+      });
+      await Promise.all([loadQuestions(), loadOverview(), loadSymmetryAudit(), syncPublishedQuestionsFromServer()]);
+      notify(res.processedCount > 0 ? 'ok' : 'warn', res.message);
+    } catch (err: any) {
+      notify('err', err?.message || 'Erro ao recalibrar lote de distratores.');
+    } finally {
+      setRefactoringBatch(false);
     }
   };
 
@@ -1161,6 +1212,43 @@ export const LegalKnowledgeAdminView: React.FC = () => {
 
           {/* Lista & Auditoria de Questões */}
           <div className="bg-white border border-[#DFD7C8] rounded-2xl p-5 space-y-4 shadow-xs">
+            {symmetryAudit && (
+              <div className="p-4 rounded-xl bg-[#FAF7F2] border border-[#DFD7C8] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2 text-xs font-bold text-[#1B365D]">
+                    <SlidersHorizontal className="w-4 h-4 text-[#8A6518]" />
+                    <span>Auditoria Psicométrica de Distratores Plausíveis</span>
+                    <span className="font-mono text-[11px] px-2 py-0.5 rounded bg-white border border-[#D6CCB9] text-stone-800">
+                      Simetria média: {symmetryAudit.avgScore}/100
+                    </span>
+                  </div>
+                  <p className="font-serif text-xs text-stone-600">
+                    {symmetryAudit.imbalancedCount === 0
+                      ? `Todas as ${symmetryAudit.totalQuestions} questões analisadas apresentam paridade de extensão, vocabulário técnico e complexidade entre alternativa correta e distratores.`
+                      : `${symmetryAudit.imbalancedCount} de ${symmetryAudit.totalQuestions} questões com desequilíbrio de extensão, vocabulário ou pistas visuais${
+                          symmetryAudit.legacyBoilerplateCount > 0
+                            ? ` (${symmetryAudit.legacyBoilerplateCount} com sufixos genéricos legados)`
+                            : ''
+                        }.`}
+                  </p>
+                </div>
+
+                <button
+                  type="button"
+                  disabled={refactoringBatch || symmetryAudit.imbalancedCount === 0}
+                  onClick={handleRefactorBatch}
+                  className="px-3.5 py-2 rounded-xl bg-[#7B1E26] hover:bg-[#61161D] text-[#FAF7F2] text-xs font-semibold flex items-center justify-center gap-1.5 whitespace-nowrap cursor-pointer disabled:opacity-50"
+                >
+                  <RefreshCw className={`w-3.5 h-3.5 ${refactoringBatch ? 'animate-spin' : ''}`} />
+                  <span>
+                    {refactoringBatch
+                      ? 'Calibrando lote...'
+                      : 'Calibrar Lote de Distratores (IA)'}
+                  </span>
+                </button>
+              </div>
+            )}
+
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="flex flex-wrap items-center gap-2 flex-1">
                 <input
@@ -1376,6 +1464,20 @@ export const LegalKnowledgeAdminView: React.FC = () => {
                         <ShieldCheck className="w-3.5 h-3.5" />
                         {validatingId === q.id ? 'Auditando...' : 'Validar (2 Estágios)'}
                       </button>
+                      <button
+                        type="button"
+                        onClick={() => handleRefactorQuestionAlternatives(q.id)}
+                        disabled={refactoringId === q.id || refactoringBatch}
+                        className="px-2.5 py-1 rounded-lg bg-[#FAF5EB] hover:bg-[#F3E8D2] text-[#8A6518] border border-[#C59B3E] font-semibold cursor-pointer flex items-center gap-1 disabled:opacity-50"
+                      >
+                        <SlidersHorizontal className={`w-3.5 h-3.5 ${refactoringId === q.id ? 'animate-pulse' : ''}`} />
+                        {refactoringId === q.id ? 'Refatorando...' : 'Refatorar Distratores (IA)'}
+                      </button>
+                      {symmetryAudit?.imbalancedIds.includes(q.id) && (
+                        <span className="px-2 py-0.5 rounded bg-amber-50 border border-[#C59B3E]/70 text-[#8A6518] font-medium">
+                          Assimetria detectada
+                        </span>
+                      )}
                       {st !== 'PUBLICADA' && (
                         <button
                           type="button"

@@ -13,6 +13,7 @@ import {
   saveSubjectGoal,
   saveAllSubjectGoals,
   resetSubjectGoals,
+  setActivePlanId,
 } from '../services/storage';
 import {
   getAllAvailableSubjects,
@@ -48,6 +49,12 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
   const [goalsScope, setGoalsScope] = useState<'plan' | 'all'>('plan');
   const [subjectSearch, setSubjectSearch] = useState('');
   const [saveFeedback, setSaveFeedback] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (studyData.activePlanId) {
+      setSelectedPlanId(studyData.activePlanId);
+    }
+  }, [studyData.activePlanId]);
 
   useEffect(() => {
     const unsub = subscribeToQuestions(() => {
@@ -191,7 +198,11 @@ export const CronogramaView: React.FC<CronogramaViewProps> = ({
           {STUDY_PLANS.map((plan) => (
             <button
               key={plan.id}
-              onClick={() => setSelectedPlanId(plan.id)}
+              onClick={() => {
+                setSelectedPlanId(plan.id);
+                setActivePlanId(plan.id);
+                onRefreshData();
+              }}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors cursor-pointer ${
                 selectedPlanId === plan.id
                   ? 'bg-[#1B365D] text-[#FAF7F2] shadow-xs'

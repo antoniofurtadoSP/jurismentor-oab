@@ -1,10 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { 
   CheckCircle2, XCircle, ArrowLeft, ArrowRight, Flag, BookOpen, Sparkles, 
   Clock, Award, Bookmark, Strikethrough, AlertTriangle, 
   FileText, RefreshCw, PlusCircle, Compass
 } from 'lucide-react';
-import { LegalQuestion, SimuladoConfig, SimuladoResult, SimuladoAnswer } from '../types';
+import {
+  ActiveSimuladoSession,
+  LegalQuestion,
+  SimuladoConfig,
+  SimuladoResult,
+  SimuladoAnswer,
+} from '../types';
+import { sanitizeFirestoreId } from '../services/cloudSync';
 import { VadeMecumModal } from './VadeMecumModal';
 import { ProfessorTutorModal } from './ProfessorTutorModal';
 import { ProfessorAudioService } from '../services/speech';
@@ -37,64 +44,123 @@ interface QueueItem {
 interface SimuladoViewProps {
   config: SimuladoConfig;
   questions: LegalQuestion[];
+  initialSession?: ActiveSimuladoSession | null;
+  onPersistSession?: (session: ActiveSimuladoSession, immediateCloud?: boolean) => void;
+  onDiscardSession?: () => void;
   onComplete: (result: SimuladoResult) => void;
   onExit: () => void;
   bookmarkedIds: string[];
   onToggleBookmark: (qId: string) => void;
 }
 
+function buildInitialQueue(
+  questions: LegalQuestion[],
+  initialSession?: ActiveSimuladoSession | null
+): QueueItem[] {
+  if (initialSession && initialSession.queueRefs.length > 0) {
+    const qMap = new Map<string, LegalQuestion>();
+    questions.forEach((q) => {
+      qMap.set(q.id, q);
+      qMap.set(sanitizeFirestoreId(q.id, 'q'), q);
+    });
+    getAllQuestions().forEach((q) => {
+      if (!qMap.has(q.id)) qMap.set(q.id, q);
+      const safeId = sanitizeFirestoreId(q.id, 'q');
+      if (!qMap.has(safeId)) qMap.set(safeId, q);
+    });
+
+    const restored: QueueItem[] = [];
+    initialSession.queueRefs.forEach((ref) => {
+      const q = qMap.get(ref.questionId);
+      if (q) {
+        restored.push({
+          instanceId: ref.instanceId,
+          question: q,
+          attemptNumber: ref.attemptNumber,
+          isRetry: ref.isRetry,
+          previousWrongLetter: ref.previousWrongLetter,
+        });
+      }
+    });
+
+    if (restored.length > 0) {
+      return restored;
+    }
+  }
+
+  return questions.map((q, idx) => ({
+    instanceId: `${q.id}_orig_${idx}`,
+    question: q,
+    attemptNumber: 1,
+    isRetry: false,
+  }));
+}
+
 export const SimuladoView: React.FC<SimuladoViewProps> = ({
   config,
   questions,
+  initialSession,
+  onPersistSession,
+  onDiscardSession,
   onComplete,
   onExit,
   bookmarkedIds,
   onToggleBookmark,
 }) => {
-  // Setup question queue supporting dynamic spaced recall re-insertions
-  const [queue, setQueue] = useState<QueueItem[]>(() => 
-    questions.map((q, idx) => ({
-      instanceId: `${q.id}_orig_${idx}`,
-      question: q,
-      attemptNumber: 1,
-      isRetry: false,
-    }))
+  // Setup question queue supporting dynamic spaced recall re-insertions and session restoration
+  const [queue, setQueue] = useState<QueueItem[]>(() =>
+    buildInitialQueue(questions, initialSession)
   );
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-  
+  const [currentIndex, setCurrentIndex] = useState<number>(() => {
+    const maxIdx = Math.max(0, buildInitialQueue(questions, initialSession).length - 1);
+    const saved = initialSession?.currentIndex ?? 0;
+    return Math.max(0, Math.min(maxIdx, saved));
+  });
+
   // Track attempts and mastery per question ID
   const [questionMastery, setQuestionMastery] = useState<Record<string, {
     firstAttemptCorrect: boolean;
     isFixed: boolean;
     attempts: number;
     wrongCount: number;
-  }>>({});
+  }>>(() => initialSession?.questionMastery || {});
 
   // Answers recorded for the final score report (using the initial question IDs)
-  const [answers, setAnswers] = useState<Record<string, SimuladoAnswer>>({});
-  
+  const [answers, setAnswers] = useState<Record<string, SimuladoAnswer>>(
+    () => initialSession?.answers || {}
+  );
+
   // Current question instance answers and states
   const [instanceAnswers, setInstanceAnswers] = useState<Record<string, {
     selectedLetter: string;
     isCorrect: boolean;
-  }>>({});
+  }>>(() => initialSession?.instanceAnswers || {});
 
-  const [eliminated, setEliminated] = useState<Record<string, string[]>>({});
-  const [markedReview, setMarkedReview] = useState<Record<string, boolean>>({});
-  
-  const [secondsRemaining, setSecondsRemaining] = useState<number | null>(
-    config.timeLimitMinutes ? config.timeLimitMinutes * 60 : null
+  const [eliminated, setEliminated] = useState<Record<string, string[]>>(
+    () => initialSession?.eliminated || {}
   );
-  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const [markedReview, setMarkedReview] = useState<Record<string, boolean>>(
+    () => initialSession?.markedReview || {}
+  );
+
+  const [secondsRemaining, setSecondsRemaining] = useState<number | null>(() => {
+    if (initialSession && initialSession.secondsRemaining !== undefined) {
+      return initialSession.secondsRemaining;
+    }
+    return config.timeLimitMinutes ? config.timeLimitMinutes * 60 : null;
+  });
+  const [elapsedSeconds, setElapsedSeconds] = useState<number>(
+    () => initialSession?.elapsedSeconds ?? 0
+  );
   const [isFinished, setIsFinished] = useState(false);
   const [showVadeMecum, setShowVadeMecum] = useState(false);
   const [showTutorModal, setShowTutorModal] = useState(false);
   const [fontSize, setFontSize] = useState<'normal' | 'large'>('normal');
 
   // Spaced loop interval (how many questions later a wrong question returns)
-  const [repeatInterval, setRepeatInterval] = useState<number>(
-    config.repeatWrongQuestionsInterval || 2
+  const [repeatInterval] = useState<number>(
+    initialSession?.repeatInterval ?? (config.repeatWrongQuestionsInterval || 2)
   );
 
   const isProfessorMode = config.mode === 'TREINO' || config.mode === 'PROFESSOR_FIXACAO';
@@ -103,6 +169,105 @@ export const SimuladoView: React.FC<SimuladoViewProps> = ({
   const currentQ = currentItem?.question;
   const currentInstanceAns = currentItem ? instanceAnswers[currentItem.instanceId] : undefined;
   const isAnswered = Boolean(currentInstanceAns);
+
+  const buildSessionSnapshot = useCallback(
+    (isOpenInView = true): ActiveSimuladoSession => ({
+      config,
+      queueRefs: queue.map((item) => ({
+        instanceId: item.instanceId,
+        questionId: item.question.id,
+        attemptNumber: item.attemptNumber,
+        isRetry: item.isRetry,
+        ...(item.previousWrongLetter ? { previousWrongLetter: item.previousWrongLetter } : {}),
+      })),
+      currentIndex,
+      questionMastery,
+      answers,
+      instanceAnswers,
+      eliminated,
+      markedReview,
+      secondsRemaining,
+      elapsedSeconds,
+      repeatInterval,
+      isOpenInView,
+      updatedAt: new Date().toISOString(),
+    }),
+    [
+      config,
+      queue,
+      currentIndex,
+      questionMastery,
+      answers,
+      instanceAnswers,
+      eliminated,
+      markedReview,
+      secondsRemaining,
+      elapsedSeconds,
+      repeatInterval,
+    ]
+  );
+
+  const latestSnapshotRef = useRef<ActiveSimuladoSession>(buildSessionSnapshot(true));
+  const isFinishedRef = useRef<boolean>(isFinished);
+  const onPersistSessionRef = useRef(onPersistSession);
+
+  useEffect(() => {
+    latestSnapshotRef.current = buildSessionSnapshot(true);
+  }, [buildSessionSnapshot]);
+
+  useEffect(() => {
+    isFinishedRef.current = isFinished;
+  }, [isFinished]);
+
+  useEffect(() => {
+    onPersistSessionRef.current = onPersistSession;
+  }, [onPersistSession]);
+
+  // Persist structural & answer changes immediately (including cloud sync)
+  useEffect(() => {
+    if (isFinished) return;
+    onPersistSessionRef.current?.(buildSessionSnapshot(true), true);
+  }, [
+    isFinished,
+    queue,
+    currentIndex,
+    questionMastery,
+    answers,
+    instanceAnswers,
+    eliminated,
+    markedReview,
+    repeatInterval,
+  ]);
+
+  // Persist timer progress locally every tick and flush on page hide / close
+  useEffect(() => {
+    if (isFinished) return;
+    onPersistSessionRef.current?.(latestSnapshotRef.current, false);
+  }, [isFinished, elapsedSeconds, secondsRemaining]);
+
+  useEffect(() => {
+    const flushNow = () => {
+      if (!isFinishedRef.current) {
+        onPersistSessionRef.current?.(
+          { ...latestSnapshotRef.current, updatedAt: new Date().toISOString() },
+          true
+        );
+      }
+    };
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        flushNow();
+      }
+    };
+    window.addEventListener('pagehide', flushNow);
+    window.addEventListener('beforeunload', flushNow);
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => {
+      window.removeEventListener('pagehide', flushNow);
+      window.removeEventListener('beforeunload', flushNow);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, []);
 
   // Manage timer
   useEffect(() => {
@@ -278,6 +443,8 @@ export const SimuladoView: React.FC<SimuladoViewProps> = ({
     };
 
     setIsFinished(true);
+    isFinishedRef.current = true;
+    onDiscardSession?.();
     onComplete(result);
   };
 
@@ -595,9 +762,14 @@ export const SimuladoView: React.FC<SimuladoViewProps> = ({
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <button
-              onClick={onExit}
+              onClick={() => {
+                if (!isFinished) {
+                  onPersistSession?.(buildSessionSnapshot(false), true);
+                }
+                onExit();
+              }}
               className="p-2 rounded-lg bg-[#F5F0E6] hover:bg-[#EAE3D5] text-stone-700 border border-[#DFD7C8] transition-colors cursor-pointer"
-              title="Sair do simulado"
+              title="Pausar e salvar progresso"
             >
               <ArrowLeft className="w-4 h-4" />
             </button>

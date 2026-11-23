@@ -1,6 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
+import { FirebaseProvider } from './contexts/FirebaseContext';
 import './index.css';
 
 interface ErrorBoundaryState {
@@ -64,6 +65,8 @@ class AppErrorBoundary extends React.Component<{ children: React.ReactNode }, Er
 
 createRoot(document.getElementById('root')!).render(
   <AppErrorBoundary>
-    <App />
+    <FirebaseProvider>
+      <App />
+    </FirebaseProvider>
   </AppErrorBoundary>
 );

@@ -10,8 +10,11 @@ import {
   analyzePerformanceErrorsWithGemini,
   answerTutorWithGrounding,
   generateGroundedQuestions,
+  refactorImbalancedQuestionsBatch,
+  refactorQuestionAlternatives,
   validateQuestionIndependently,
 } from './server/aiEngine';
+import { evaluateOptionSymmetry } from './scripts/questionRebalancer';
 import {
   extractTextFromPdfBuffer,
   normalizeImportedJurisprudence,
@@ -903,6 +906,79 @@ app.post('/api/kb/questions/generate-grounded', async (req, res) => {
     res.status(500).json({
       success: false,
       error: err?.message || 'Erro ao gerar questões fundamentadas.',
+    });
+  }
+});
+
+app.get('/api/kb/questions/symmetry-audit', (req, res) => {
+  const { discipline } = req.query as Record<string, string | undefined>;
+  const all = legalDb.getQuestions({
+    discipline: discipline && discipline !== 'ALL' ? discipline : undefined,
+  });
+
+  let imbalancedCount = 0;
+  let legacyBoilerplateCount = 0;
+  let scoreSum = 0;
+  const imbalancedIds: string[] = [];
+
+  for (const q of all) {
+    const report = evaluateOptionSymmetry(q);
+    scoreSum += report.score;
+    if (!report.isBalanced) {
+      imbalancedCount += 1;
+      imbalancedIds.push(q.id);
+    }
+    if (report.metrics.hasLegacyBoilerplate) {
+      legacyBoilerplateCount += 1;
+    }
+  }
+
+  res.json({
+    success: true,
+    totalQuestions: all.length,
+    imbalancedCount,
+    legacyBoilerplateCount,
+    avgScore: all.length > 0 ? Math.round(scoreSum / all.length) : 100,
+    imbalancedIds: imbalancedIds.slice(0, 60),
+  });
+});
+
+app.post('/api/kb/questions/refactor-alternatives-batch', async (req, res) => {
+  try {
+    const { limit = 4, discipline } = req.body || {};
+    const result = await refactorImbalancedQuestionsBatch({ limit, discipline });
+    res.json({
+      ...result,
+      message:
+        result.processedCount === 0
+          ? 'Todas as questões filtradas já estão com simetria e distratores calibrados.'
+          : `${result.processedCount} questão(ões) calibrada(s) (${result.improvedCount} aprimorada(s)); restam ${result.remainingImbalancedCount} com desequilíbrio.`,
+    });
+  } catch (err: any) {
+    res.status(500).json({
+      success: false,
+      error: err?.message || 'Erro ao recalibrar lote de alternativas.',
+    });
+  }
+});
+
+app.post('/api/kb/questions/:id/refactor-alternatives', async (req, res) => {
+  try {
+    const q = legalDb.getQuestionById(req.params.id);
+    if (!q) {
+      return res.status(404).json({ success: false, error: 'Questão não encontrada.' });
+    }
+    const result = await refactorQuestionAlternatives(q);
+    res.json({
+      ...result,
+      message: result.usedAi
+        ? `Distratores refatorados com IA (simetria ${result.beforeReport.score} → ${result.afterReport.score}/100).`
+        : `Alternativas higienizadas localmente (simetria ${result.beforeReport.score} → ${result.afterReport.score}/100).`,
+    });
+  } catch (err: any) {
+    res.status(500).json({
+      success: false,
+      error: err?.message || 'Erro ao refatorar alternativas da questão.',
     });
   }
 });

@@ -448,643 +448,543 @@ function condenseCorrectOption(
   return out;
 }
 
-type ClauseBucket = {
-  negative: string[];
-  permissive: string[];
-  general: string[];
-  sentences: string[];
-};
-
-const DOMAIN_CLAUSES: Record<string, ClauseBucket> = {
-  constitucional: {
-    negative: [
-      'com fundamento na preservação do núcleo essencial da separação funcional dos Poderes',
-      'em observância estrita à reserva constitucional de competência legislativa privativa',
-      'sem admitir interpretação extensiva que amplie restrições não previstas na ordem constitucional',
-      'com vedação à modulação ou relativização de efeitos por ato normativo infralegal superveniente',
-    ],
-    permissive: [
-      'diante da eficácia imediata e vinculante atribuída à regra constitucional de organização estatal',
-      'com respaldo na autonomia federativa assegurada aos entes políticos para dispor sobre o tema',
-      'com produção regular de efeitos jurídicos independentemente de regulamentação complementar',
-      'em consonância com a presunção relativa de constitucionalidade dos atos normativos primários',
-    ],
-    general: [
-      'consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente',
-      'com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa',
-      'mediante observância formal do devido processo legislativo ordinário aplicável à espécie',
-      'com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes',
-    ],
-    sentences: [
-      'Nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior.',
-      'Essa orientação prevalece em face da supremacia formal da ordem constitucional vigente.',
-      'Tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial.',
-    ],
-  },
-  administrativo: {
-    negative: [
-      'em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita',
-      'sem possibilidade de convalidação posterior do ato administrativo por ausência de previsão regulamentar',
-      'com vedação ao administrador público de suprir a exigência legal por juízo de conveniência',
-      'sob pena de nulidade absoluta do procedimento administrativo e apuração funcional da autoridade',
-    ],
-    permissive: [
-      'com amparo na autoexecutoriedade e na presunção de legitimidade inerentes aos atos administrativos',
-      'mediante exercício regular do poder discricionário vinculado à finalidade administrativa primária',
-      'sem necessidade de prévia autorização judicial ou instauração de procedimento contraditório específico',
-      'em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público',
-    ],
-    general: [
-      'com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal',
-      'em vinculação direta da autoridade administrativa competente aos limites do regime de direito público',
-      'sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes',
-      'sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal',
-    ],
-    sentences: [
-      'Nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício.',
-      'Tal entendimento decorre diretamente da submissão da Administração ao regime jurídico público.',
-      'A medida dispensa homologação judicial prévia para surtir regular eficácia administrativa.',
-    ],
-  },
-  penal: {
-    negative: [
-      'em observância rigorosa ao princípio da legalidade estrita e da vedação à analogia prejudicial',
-      'com afastamento da tipicidade material da conduta por ausência de lesividade penal relevante',
-      'sem configuração de causa interruptiva ou suspensiva do curso regular da pretensão punitiva',
-      'com impossibilidade de reconhecimento de concurso formal ou de majorante não prevista no tipo',
-    ],
-    permissive: [
-      'com responsabilização direta pelo resultado naturalístico produzido pela conduta do agente',
-      'com incidência imediata dos efeitos secundários da condenação desde o recebimento da inicial',
-      'com consumação formal do delito independentemente da obtenção de vantagem ilícita efetiva',
-      'com agravação automática da resposta penal já na primeira fase da dosimetria da pena',
-    ],
-    general: [
-      'observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico',
-      'com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais',
-      'em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude',
-      'sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração',
-    ],
-    sentences: [
-      'Essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável.',
-      'Tal critério incide objetivamente na verificação da adequação típica da conduta.',
-      'A consequência jurídica se impõe de forma uniforme independentemente das circunstâncias posteriores.',
-    ],
-  },
-  processual_penal: {
-    negative: [
-      'sob pena de nulidade processual absoluta insanável por violação às garantias do devido processo',
-      'com preclusão imediata da oportunidade de produção probatória após a fase postulatória',
-      'sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação',
-      'com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão',
-    ],
-    permissive: [
-      'com autorização para atuação instrutória suplementar do magistrado na busca da verdade real',
-      'sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial',
-      'com eficácia preclusiva imediata quanto às questões processuais decididas interlocutoriamente',
-      'com prosseguimento regular da persecução penal independentemente de manifestação prévia do ofendido',
-    ],
-    general: [
-      'em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum',
-      'com preservação da competência funcional do juízo natural fixada no recebimento da acusação',
-      'mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível',
-      'com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito',
-    ],
-    sentences: [
-      'Essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo.',
-      'A inobservância dessa regra repercute diretamente na validade dos atos processuais subsequentes.',
-      'O juízo competente deve observar esse rito ao examinar a admissibilidade da acusação.',
-    ],
-  },
-  civil: {
-    negative: [
-      'com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores',
-      'sem possibilidade de modificação unilateral das obrigações contratuais sem anuência expressa',
-      'sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral',
-      'com impedimento à compensação ou repetição dos valores prestados na relação negocial',
-    ],
-    permissive: [
-      'com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual',
-      'com produção imediata de efeitos patrimoniais e pessoais independentemente de averbação registral',
-      'com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado',
-      'com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor',
-    ],
-    general: [
-      'em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais',
-      'observada a distinção dogmática entre os planos da existência, validade e eficácia do ato',
-      'com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional',
-      'com manutenção da vinculação jurídica das partes até a extinção regular da obrigação',
-    ],
-    sentences: [
-      'Essa consequência preserva a segurança jurídica e a estabilidade das relações privadas.',
-      'Os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes.',
-      'A solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias.',
-    ],
-  },
-  processual_civil: {
-    negative: [
-      'com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível',
-      'com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco',
-      'sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório',
-      'com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial',
-    ],
-    permissive: [
-      'com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas',
-      'sem exigência de caução prévia ou intimação complementar da parte adversa para efetivação',
-      'com prosseguimento imediato do rito executivo mediante constrição patrimonial do devedor',
-      'com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação',
-    ],
-    general: [
-      'observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual',
-      'em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual',
-      'com formação de coisa julgada formal e material após o exaurimento das vias ordinárias',
-      'com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto',
-    ],
-    sentences: [
-      'Tal regra incide imediatamente sobre os processos em curso perante o juízo cível.',
-      'A medida submete-se ao controle recursal ordinário nos prazos previstos para o procedimento.',
-      'Essa sistemática assegura a regularidade formal do rito de conhecimento e de execução.',
-    ],
-  },
-  trabalho: {
-    negative: [
-      'em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais',
-      'com nulidade absoluta de qualquer estipulação voltada a reduzir patamares protetivos básicos',
-      'sem integração na base de cálculo das demais parcelas contratuais e rescisórias devidas',
-      'com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária',
-    ],
-    permissive: [
-      'com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas',
-      'com autorização de compensação e flexibilização da jornada sem negociação sindical prévia',
-      'com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período',
-      'com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal',
-    ],
-    general: [
-      'observados os princípios da continuidade da relação de emprego e da primazia da realidade',
-      'com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários',
-      'com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual',
-      'em conformidade com o regime jurídico celetista e as garantias sociais constitucionais',
-    ],
-    sentences: [
-      'Essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador.',
-      'A regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais.',
-      'Tal entendimento produz efeitos diretos na composição da remuneração e dos encargos.',
-    ],
-  },
-  processual_trabalho: {
-    negative: [
-      'com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias',
-      'com deserção imediata do apelo ou preclusão do direito de impugnação pela parte interessada',
-      'sem admissão de fracionamento de instância nem recurso imediato de decisão interlocutória',
-      'com afastamento das normas processuais comuns diante da disciplina própria da execução laboral',
-    ],
-    permissive: [
-      'com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo',
-      'com processamento imediato do incidente nos mesmos autos e suspensão integral da execução',
-      'com prosseguimento regular da demanda mediante atuação pessoal das partes em qualquer grau',
-      'com reexame amplo de fatos, provas e pedidos não deduzidos na instância originária',
-    ],
-    general: [
-      'observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa',
-      'em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral',
-      'sujeita aos pressupostos específicos de admissibilidade e à competência da Justiça do Trabalho',
-      'com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal',
-    ],
-    sentences: [
-      'Essa exigência condiciona o processamento regular do feito na Justiça do Trabalho.',
-      'O descumprimento da formalidade impede o exame do mérito pelo órgão recursal trabalhista.',
-      'Tal disciplina reflete a autonomia procedimental própria do processo judiciário do trabalho.',
-    ],
-  },
-  tributario: {
-    negative: [
-      'em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal',
-      'sem configuração de hipótese de suspensão da exigibilidade nem de exclusão do crédito fiscal',
-      'com vedação à analogia ou equidade para exigir tributo ou dispensar crédito sem previsão legal',
-      'com impedimento à fruição imediata de imunidade ou isenção condicionada no caso concreto',
-    ],
-    permissive: [
-      'com legitimação do lançamento de ofício e inscrição imediata do débito em dívida ativa',
-      'com exigibilidade imediata do tributo no mesmo exercício financeiro sem anterioridade',
-      'com responsabilidade solidária automática dos sócios e administradores da pessoa jurídica',
-      'com possibilidade de instituição ou majoração de alíquota mediante ato normativo infralegal',
-    ],
-    general: [
-      'observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais',
-      'com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal',
-      'sujeita à repartição constitucional de receitas e à competência tributária do ente federado',
-      'com preservação da natureza jurídica específica determinada pelo respectivo fato gerador',
-    ],
-    sentences: [
-      'Essa regra orienta a constituição regular do crédito e a fiscalização fazendária.',
-      'A definição impacta diretamente os limites de cobrança e as garantias do contribuinte.',
-      'Tal critério determina a incidência tributária e a competência ativa do ente tributante.',
-    ],
-  },
-  empresarial: {
-    negative: [
-      'em proteção à autonomia patrimonial societária e à segurança das relações mercantis',
-      'com afastamento da responsabilidade pessoal dos sócios sem prévia demonstração de abuso',
-      'sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada',
-      'com inaplicabilidade automática dos efeitos falimentares fora das hipóteses legais taxativas',
-    ],
-    permissive: [
-      'com produção de efeitos cambiários autônomos e literais para execução contra coobrigados',
-      'com desconsideração direta da personalidade jurídica sem instauração prévia de incidente',
-      'com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso',
-      'com livre alienação e circulação do título ou participação societária entre os interessados',
-    ],
-    general: [
-      'observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações',
-      'em consonância com a preservação da empresa e a função social da atividade econômica',
-      'sujeita ao registro regular na Junta Comercial e à ordem legal de classificação concursal',
-      'com manutenção da estrutura de governança societária e da limitação de responsabilidade',
-    ],
-    sentences: [
-      'Essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito.',
-      'Os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso.',
-      'Tal entendimento preserva o regime próprio das obrigações empresariais e cambiárias.',
-    ],
-  },
-  etica: {
-    negative: [
-      'sob pena de configuração de infração ético-disciplinar apurável no órgão competente',
-      'com vedação expressa à mercantilização da atividade e à captação indevida de clientela',
-      'sem possibilidade de atuação concomitante diante do impedimento estatutário aplicável',
-      'em observância rigorosa aos deveres institucionais e às normas disciplinares da categoria',
-    ],
-    permissive: [
-      'com autonomia plena do exercício profissional dentro do regime estatutário da advocacia',
-      'sem necessidade de prévia autorização da Seccional competente ou deliberação do conselho',
-      'com validação imediata dos atos profissionais independentemente de formalidade complementar',
-      'com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar',
-    ],
-    general: [
-      'observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional',
-      'em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local',
-      'sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente',
-      'em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão',
-    ],
-    sentences: [
-      'Essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito.',
-      'A observância desse parâmetro é fiscalizada diretamente pelo Conselho Seccional competente.',
-      'Tal conduta repercute na regularidade estatutária dos atos praticados pelo profissional.',
-    ],
-  },
-  consumidor: {
-    negative: [
-      'com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual',
-      'com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar',
-      'sem possibilidade de transferir os riscos da atividade econômica ao consumidor final',
-      'com vedação à cobrança ou restrição cadastral sem prévia comunicação formal regular',
-    ],
-    permissive: [
-      'com responsabilidade objetiva e solidária de todos os integrantes da cadeia de fornecimento',
-      'com autorização para inversão do ônus da prova diante da verossimilhança ou hipossuficiência',
-      'com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro',
-      'com validação da estipulação padrão independentemente de destaque expresso no contrato',
-    ],
-    general: [
-      'em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo',
-      'observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito',
-      'com proteção à legítima expectativa de segurança e adequação do produto no mercado',
-      'sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema',
-    ],
-    sentences: [
-      'Essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado.',
-      'A responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista.',
-      'Tal critério define o alcance dos deveres anexos de informação e segurança ao destinatário.',
-    ],
-  },
-  ambiental: {
-    negative: [
-      'em consonância com os princípios da prevenção, precaução e vedação ao retrocesso ecológico',
-      'com proibição de supressão ou exploração da área sem prévio licenciamento ambiental válido',
-      'sem admissão de fato consumado ou boa-fé para afastar o dever de recuperação do dano',
-      'com impossibilidade de mera compensação pecuniária quando viável a restauração específica',
-    ],
-    permissive: [
-      'com autorização para implantação do empreendimento independentemente de estudo prévio de impacto',
-      'com responsabilidade civil ambiental objetiva e solidária sob a modalidade de risco integral',
-      'sem necessidade de manifestação técnica do órgão ambiental diante de urgência econômica local',
-      'com validação da transferência do passivo ambiental ao poder público por declaração unilateral',
-    ],
-    general: [
-      'observada a competência comum material dos entes federativos para fiscalização e proteção',
-      'com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental',
-      'sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional',
-      'com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico',
-    ],
-    sentences: [
-      'Essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público.',
-      'A tutela ambiental incide de forma cumulativa sobre a prevenção e a reparação integral.',
-      'Tal regime jurídico reflete a proteção constitucional atribuída aos recursos ecológicos.',
-    ],
-  },
-  eca: {
-    negative: [
-      'em observância absoluta à proteção integral e ao melhor interesse da criança e do adolescente',
-      'com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei',
-      'sem admissão de exposição indevida da identidade do menor ou redução de suas garantias',
-      'com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial',
-    ],
-    permissive: [
-      'com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial',
-      'com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida',
-      'sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal',
-      'com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação',
-    ],
-    general: [
-      'considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido',
-      'observadas as atribuições próprias entre Conselho Tutelar, Ministério Público e Judiciário',
-      'sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas',
-      'com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento',
-    ],
-    sentences: [
-      'Essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional.',
-      'A medida deve respeitar o princípio da proporcionalidade e a condição de pessoa em formação.',
-      'Tal competência delimita a atuação integrada da rede de garantia dos direitos infantojuvenis.',
-    ],
-  },
-  direitos_humanos: {
-    negative: [
-      'em observância à vedação ao retrocesso e aos tratados internacionais de proteção ratificados',
-      'com incompatibilidade entre restrição estatal desproporcional e controle de convencionalidade',
-      'sem admissão de norma interna posterior para descumprir obrigação internacional assumida',
-      'com impedimento à aplicação de sanções ou medidas contrárias à dignidade da pessoa humana',
-    ],
-    permissive: [
-      'com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno',
-      'com autorização de acionamento direto das cortes internacionais sem requisito prévio',
-      'com equivalência constitucional automática de qualquer declaração subscrita pelo Executivo',
-      'com possibilidade de mitigação temporária da garantia por simples decreto regulamentar',
-    ],
-    general: [
-      'observada a complementariedade entre o sistema global e o sistema interamericano de proteção',
-      'em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos',
-      'sujeita à responsabilidade internacional objetiva do Estado por violações de seus agentes',
-      'com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana',
-    ],
-    sentences: [
-      'Essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais.',
-      'A interpretação conforme a dignidade humana prevalece na colisão aparente de normas.',
-      'Tal obrigação vincula os três Poderes da República no cumprimento de tratados vigentes.',
-    ],
-  },
-  internacional: {
-    negative: [
-      'em respeito à igualdade soberana dos Estados e ao princípio da não intervenção interna',
-      'com eficácia interna condicionada à observância integral do rito constitucional de incorporação',
-      'sem execução forçada automática de decisão estrangeira antes de prévia homologação judicial',
-      'com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública',
-    ],
-    permissive: [
-      'com eficácia jurídica imediata no território nacional independentemente de referendo legislativo',
-      'com cooperação jurídica e extradição viabilizadas mediante simples solicitação diplomática direta',
-      'com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa',
-      'com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais',
-    ],
-    general: [
-      'observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria',
-      'em harmonia com os costumes internacionais consolidados e os princípios gerais de direito',
-      'sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas',
-      'com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros',
-    ],
-    sentences: [
-      'Essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal.',
-      'A eficácia territorial da medida observa os limites da soberania e da reciprocidade.',
-      'Tal critério orienta a aplicação das normas internacionais perante a jurisdição nacional.',
-    ],
-  },
-  eleitoral: {
-    negative: [
-      'em estrita observância à soberania popular, à legitimidade do pleito e à isonomia eleitoral',
-      'com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade',
-      'sem possibilidade de registro ou exercício do mandato diante da causa de inelegibilidade verificada',
-      'com cassação do registro ou diploma e imposição de multa após regular instrução processual',
-    ],
-    permissive: [
-      'com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial',
-      'sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado',
-      'com validação da propaganda antecipada independentemente de pedido explícito de voto',
-      'com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão',
-    ],
-    general: [
-      'observados os prazos preclusivos céleres próprios da Justiça Eleitoral no calendário oficial',
-      'sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder',
-      'em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais',
-      'com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos',
-    ],
-    sentences: [
-      'Essa regra garante a paridade de armas e a regularidade do processo democrático.',
-      'A inobservância do preceito submete o candidato e a agremiação às sanções da Justiça Eleitoral.',
-      'Tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito.',
-    ],
-  },
-  previdenciario: {
-    negative: [
-      'em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório',
-      'com vedação à concessão ou majoração de benefício sem cumprimento integral de carência e idade',
-      'sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei',
-      'com perda da qualidade de segurado após o esgotamento integral do período de graça legal',
-    ],
-    permissive: [
-      'com concessão imediata do benefício independentemente de comprovação de carência mínima',
-      'com acumulação integral e irrestrita das prestações sem redução proporcional de valor',
-      'com garantia de paridade e integralidade remuneratória a todos os segurados do regime geral',
-      'com livre aproveitamento ou desaposentação sem sujeição às regras constitucionais de transição',
-    ],
-    general: [
-      'observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema',
-      'com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento',
-      'sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios',
-      'com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime',
-    ],
-    sentences: [
-      'Essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente.',
-      'O preenchimento dos requisitos verifica-se segundo a legislação vigente na data do direito.',
-      'Tal critério incide diretamente sobre o enquadramento do segurado e o cálculo mensal.',
-    ],
-  },
-  financeiro: {
-    negative: [
-      'em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal',
-      'com vedação à realização de despesa ou abertura de crédito sem autorização legislativa prévia',
-      'sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais',
-      'com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais',
-    ],
-    permissive: [
-      'com remanejamento e suplementação orçamentária direta por ato exclusivo do Poder Executivo',
-      'sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal',
-      'com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal',
-      'com execução integral da despesa pública independentemente de prévio empenho e liquidação',
-    ],
-    general: [
-      'observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual',
-      'sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas',
-      'com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas',
-      'com respeito à ordem cronológica constitucional para quitação de débitos em precatório',
-    ],
-    sentences: [
-      'Essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos.',
-      'A execução orçamentária deve observar os estágios legais e os limites de endividamento.',
-      'Tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas.',
-    ],
-  },
-  filosofia: {
-    negative: [
-      'com rejeição de qualquer vinculação necessária entre validade formal e critérios morais materiais',
-      'com afastamento da fundamentação jusnaturalista metafísica para legitimação da norma estatal',
-      'sem reconhecimento de força jurídica aos costumes sociais não positivados pelo reconhecimento formal',
-      'com recusa à discricionariedade interpretativa do julgador diante de casos difíceis sem regra unívoca',
-    ],
-    permissive: [
-      'com primazia da racionalidade prática e da integridade interpretativa na reconstrução do direito',
-      'com reconhecimento da força normativa direta dos princípios morais na validade jurídica',
-      'com fundamentação da obrigatoriedade normativa na adesão racional e no consenso discursivo',
-      'com superação crítica da literalidade legal em favor da equidade e da justiça material concreta',
-    ],
-    general: [
-      'com articulação entre validade formal, eficácia social e legitimidade axiológica do direito',
-      'no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo',
-      'como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça',
-      'conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema',
-    ],
-    sentences: [
-      'Essa concepção fundamenta a crítica contemporânea sobre os limites entre Direito e Moral.',
-      'A análise teórica evidencia o papel da argumentação racional na justificação das decisões.',
-      'Tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa.',
-    ],
-  },
-};
-
-function mapSubjectToBucketKey(subject: string): string {
-  const s = (subject || '').toLowerCase();
-  if (s.includes('ética') || s.includes('etica')) return 'etica';
-  if (s.includes('tribut')) return 'tributario';
-  if (s.includes('processual penal')) return 'processual_penal';
-  if (s.includes('penal')) return 'penal';
-  if (s.includes('processual civil')) return 'processual_civil';
-  if (s.includes('civil')) return 'civil';
-  if (s.includes('processual do trabalho')) return 'processual_trabalho';
-  if (s.includes('trabalho')) return 'trabalho';
-  if (s.includes('constitucional')) return 'constitucional';
-  if (s.includes('administrativo')) return 'administrativo';
-  if (s.includes('empresarial')) return 'empresarial';
-  if (s.includes('consumidor')) return 'consumidor';
-  if (s.includes('ambiental')) return 'ambiental';
-  if (s.includes('criança') || s.includes('eca')) return 'eca';
-  if (s.includes('direitos humanos')) return 'direitos_humanos';
-  if (s.includes('internacional')) return 'internacional';
-  if (s.includes('eleitoral')) return 'eleitoral';
-  if (s.includes('previdenc')) return 'previdenciario';
-  if (s.includes('financeiro')) return 'financeiro';
-  if (s.includes('filosofia')) return 'filosofia';
-  return 'constitucional';
+export interface OptionSymmetryReport {
+  isBalanced: boolean;
+  score: number;
+  allShort: boolean;
+  issues: string[];
+  metrics: {
+    corrLen: number;
+    avgWrongLen: number;
+    minWrongLen: number;
+    maxWrongLen: number;
+    corrTechnicalWords: number;
+    avgWrongTechnicalWords: number;
+    hasLegacyBoilerplate: boolean;
+    hasCitationAsymmetry: boolean;
+    hasComplexityAsymmetry: boolean;
+    hasLengthBias: boolean;
+    hasEditorialMarkers: boolean;
+  };
 }
 
-function detectPolarity(text: string): 'negative' | 'permissive' | 'general' {
-  const lower = text.toLowerCase();
-  if (
-    /\b(não|nem|nunca|jamais|vedad[oa]|proibid[oa]|impossível|incabível|inaplicável|isento|dispensad[oa]|nulo|nula|anulável|inconstitucional|ilegal|ilícit[oa]|ausência|inexistência|proibição|vedação|exclusão|isenção|nulidade|desnecessário|prescinde|inadmissível|recusar)\b/.test(
-      lower
-    )
-  ) {
-    return 'negative';
-  }
-  if (
-    /\b(pode|poderá|podem|lícito|válido|válida|permitid[oa]|admitid[oa]|autorizad[oa]|facultado|deve|deverá|obrigatório|obrigatória|tem direito|assegura|exige|somente|exclusivamente|sempre|pleno|integral)\b/.test(
-      lower
-    )
-  ) {
-    return 'permissive';
-  }
-  return 'general';
+/**
+ * Legacy generic suffixes formerly appended to wrong options.
+ * Preserved solely so validators and refactoring tools can detect and remove them.
+ */
+const LEGACY_BOILERPLATE_PHRASES: string[] = [
+  'com fundamento na preservação do núcleo essencial da separação funcional dos poderes',
+  'em observância estrita à reserva constitucional de competência legislativa privativa',
+  'sem admitir interpretação extensiva que amplie restrições não previstas na ordem constitucional',
+  'com vedação à modulação ou relativização de efeitos por ato normativo infralegal superveniente',
+  'diante da eficácia imediata e vinculante atribuída à regra constitucional de organização estatal',
+  'com respaldo na autonomia federativa assegurada aos entes políticos para dispor sobre o tema',
+  'com produção regular de efeitos jurídicos independentemente de regulamentação complementar',
+  'em consonância com a presunção relativa de constitucionalidade dos atos normativos primários',
+  'consoante a sistemática de repartição de competências estabelecida no ordenamento constitucional vigente',
+  'com efeitos vinculantes no âmbito da jurisdição constitucional concentrada e difusa',
+  'mediante observância formal do devido processo legislativo ordinário aplicável à espécie',
+  'com prevalência do critério hierárquico formal sobre disposições regulamentares supervenientes',
+  'nessa hipótese, a eficácia da norma independe de regulamentação legislativa posterior',
+  'essa orientação prevalece em face da supremacia formal da ordem constitucional vigente',
+  'tal diretriz vincula a atuação dos órgãos públicos na esfera administrativa e judicial',
+  'em decorrência do princípio da indisponibilidade do interesse público e da legalidade administrativa estrita',
+  'sem possibilidade de convalidação posterior do ato administrativo por ausência de previsão regulamentar',
+  'com vedação ao administrador público de suprir a exigência legal por juízo de conveniência',
+  'sob pena de nulidade absoluta do procedimento administrativo e apuração funcional da autoridade',
+  'com amparo na autoexecutoriedade e na presunção de legitimidade inerentes aos atos administrativos',
+  'mediante exercício regular do poder discricionário vinculado à finalidade administrativa primária',
+  'sem necessidade de prévia autorização judicial ou instauração de procedimento contraditório específico',
+  'em conformidade com os parâmetros de eficiência administrativa e continuidade do serviço público',
+  'com observância dos atributos de imperatividade e exigibilidade próprios da atuação estatal',
+  'em vinculação direta da autoridade administrativa competente aos limites do regime de direito público',
+  'sem alteração automática do equilíbrio econômico-financeiro originalmente pactuado entre as partes',
+  'sujeita a revisão administrativa interna no exercício regular do poder de autotutela estatal',
+  'nessa situação, o ato administrativo produz efeitos imediatos até eventual revisão de ofício',
+  'tal entendimento decorre diretamente da submissão da administração ao regime jurídico público',
+  'a medida dispensa homologação judicial prévia para surtir regular eficácia administrativa',
+  'em observância rigorosa ao princípio da legalidade estrita e da vedação à analogia prejudicial',
+  'com afastamento da tipicidade material da conduta por ausência de lesividade penal relevante',
+  'sem configuração de causa interruptiva ou suspensiva do curso regular da pretensão punitiva',
+  'com impossibilidade de reconhecimento de concurso formal ou de majorante não prevista no tipo',
+  'com responsabilização direta pelo resultado naturalístico produzido pela conduta do agente',
+  'com incidência imediata dos efeitos secundários da condenação desde o recebimento da inicial',
+  'com consumação formal do delito independentemente da obtenção de vantagem ilícita efetiva',
+  'com agravação automática da resposta penal já na primeira fase da dosimetria da pena',
+  'observada a natureza do bem jurídico tutelado e a reprovabilidade atribuída ao fato típico',
+  'com reflexos diretos sobre a fixação do regime inicial de cumprimento e eventuais benefícios legais',
+  'em consonância com a estrutura finalista adotada para aferição da tipicidade e da ilicitude',
+  'sem exigência de vínculo subjetivo prévio ou de resultado material autônomo para configuração',
+  'essa solução orienta o cálculo da pena-base e a definição do regime inicial aplicável',
+  'tal critério incide objetivamente na verificação da adequação típica da conduta',
+  'a consequência jurídica se impõe de forma uniforme independentemente das circunstâncias posteriores',
+  'sob pena de nulidade processual absoluta insanável por violação às garantias do devido processo',
+  'com preclusão imediata da oportunidade de produção probatória após a fase postulatória',
+  'sem possibilidade de atuação judicial de ofício para suprir omissão técnica da acusação',
+  'com impossibilidade de utilização do elemento informativo como fundamento exclusivo da decisão',
+  'com autorização para atuação instrutória suplementar do magistrado na busca da verdade real',
+  'sem necessidade de prévia intimação pessoal da defesa técnica ou anuência ministerial',
+  'com eficácia preclusiva imediata quanto às questões processuais decididas interlocutoriamente',
+  'com prosseguimento regular da persecução penal independentemente de manifestação prévia do ofendido',
+  'em conformidade com a estrutura acusatória e com os prazos peremptórios do procedimento comum',
+  'com preservação da competência funcional do juízo natural fixada no recebimento da acusação',
+  'mediante controle de legalidade exercido apenas por ocasião do recurso ordinário cabível',
+  'com manutenção regular da marcha procedimental até a prolação da sentença definitiva de mérito',
+  'essa diretriz orienta o procedimento desde a fase investigatória até o julgamento definitivo',
+  'a inobservância dessa regra repercute diretamente na validade dos atos processuais subsequentes',
+  'o juízo competente deve observar esse rito ao examinar a admissibilidade da acusação',
+  'com ineficácia jurídica plena do negócio celebrado perante terceiros de boa-fé e credores',
+  'sem possibilidade de modificação unilateral das obrigações contratuais sem anuência expressa',
+  'sem transmissão automática dos direitos obrigacionais ou reais antes da formalização registral',
+  'com impedimento à compensação ou repetição dos valores prestados na relação negocial',
+  'com prevalência da força obrigatória do vínculo negocial e presunção de validade contratual',
+  'com produção imediata de efeitos patrimoniais e pessoais independentemente de averbação registral',
+  'com autorização ao credor para exigir o adimplemento integral desde o vencimento pactuado',
+  'com extensão da responsabilidade patrimonial aos bens presentes e futuros do devedor',
+  'em conformidade com a boa-fé objetiva e a função social dos negócios jurídicos patrimoniais',
+  'observada a distinção dogmática entre os planos da existência, validade e eficácia do ato',
+  'com sujeição dos efeitos patrimoniais às regras gerais de prescrição e mora obrigacional',
+  'com manutenção da vinculação jurídica das partes até a extinção regular da obrigação',
+  'essa consequência preserva a segurança jurídica e a estabilidade das relações privadas',
+  'os efeitos do negócio projetam-se diretamente sobre a esfera patrimonial dos contratantes',
+  'a solução aplica-se de modo uniforme tanto às obrigações principais quanto às acessórias',
+  'com preclusão consumativa e temporal da matéria no mesmo grau de jurisdição cível',
+  'com obstáculo ao conhecimento do pedido ou recurso por ausência de requisito extrínseco',
+  'sem produção de efeito suspensivo automático nem impedimento ao cumprimento provisório',
+  'com vedação ao órgão julgador de conceder tutela diversa da requerida na petição inicial',
+  'com efeito devolutivo amplo ao recurso para reexame integral das questões fáticas e jurídicas',
+  'sem exigência de caução prévia ou intimação complementar da parte adversa para efetivação',
+  'com prosseguimento imediato do rito executivo mediante constrição patrimonial do devedor',
+  'com reconhecimento de eficácia executiva plena do pronunciamento independentemente de liquidação',
+  'observada a contagem de prazos em dias úteis e a ordem cronológica de julgamento processual',
+  'em sintonia com o princípio da primazia da decisão de mérito e da cooperação processual',
+  'com formação de coisa julgada formal e material após o exaurimento das vias ordinárias',
+  'com distribuição dinâmica do ônus probatório conforme as peculiaridades do caso concreto',
+  'tal regra incide imediatamente sobre os processos em curso perante o juízo cível',
+  'a medida submete-se ao controle recursal ordinário nos prazos previstos para o procedimento',
+  'essa sistemática assegura a regularidade formal do rito de conhecimento e de execução',
+  'em decorrência do caráter irrenunciável e alimentar das verbas e garantias mínimas laborais',
+  'com nulidade absoluta de qualquer estipulação voltada a reduzir patamares protetivos básicos',
+  'sem integração na base de cálculo das demais parcelas contratuais e rescisórias devidas',
+  'com afastamento do reconhecimento de vínculo empregatício ou responsabilidade solidária',
+  'com prevalência do ajuste direto entre empregado e empregador sobre normas supletivas',
+  'com autorização de compensação e flexibilização da jornada sem negociação sindical prévia',
+  'com garantia de estabilidade provisória e pagamento integral dos reflexos durante o período',
+  'com possibilidade de alteração unilateral das condições laborais pelo poder diretivo patronal',
+  'observados os princípios da continuidade da relação de emprego e da primazia da realidade',
+  'com reflexo direto sobre o cálculo de férias, décimo terceiro salário e depósitos fundiários',
+  'com sujeição aos prazos prescricionais trabalhistas aplicáveis após a extinção contratual',
+  'em conformidade com o regime jurídico celetista e as garantias sociais constitucionais',
+  'essa diretriz repercute na apuração das verbas contratuais e rescisórias do trabalhador',
+  'a regra orienta tanto os contratos por prazo indeterminado quanto as contratações especiais',
+  'tal entendimento produz efeitos diretos na composição da remuneração e dos encargos',
+  'com impossibilidade de reexame de matéria fática ou probatória nas instâncias extraordinárias',
+  'com deserção imediata do apelo ou preclusão do direito de impugnação pela parte interessada',
+  'sem admissão de fracionamento de instância nem recurso imediato de decisão interlocutória',
+  'com afastamento das normas processuais comuns diante da disciplina própria da execução laboral',
+  'com dispensa de depósito recursal e recolhimento prévio de custas para conhecimento do apelo',
+  'com processamento imediato do incidente nos mesmos autos e suspensão integral da execução',
+  'com prosseguimento regular da demanda mediante atuação pessoal das partes em qualquer grau',
+  'com reexame amplo de fatos, provas e pedidos não deduzidos na instância originária',
+  'observada a contagem própria dos prazos trabalhistas e o rito aplicável ao valor da causa',
+  'em harmonia com os princípios da oralidade, simplicidade e celeridade do processo laboral',
+  'sujeita aos pressupostos específicos de admissibilidade e à competência da justiça do trabalho',
+  'com manutenção regular da fase instrutória ou executória até decisão definitiva do tribunal',
+  'essa exigência condiciona o processamento regular do feito na justiça do trabalho',
+  'o descumprimento da formalidade impede o exame do mérito pelo órgão recursal trabalhista',
+  'tal disciplina reflete a autonomia procedimental própria do processo judiciário do trabalho',
+  'em observância ao princípio da estrita legalidade tributária e da tipicidade cerrada fiscal',
+  'sem configuração de hipótese de suspensão da exigibilidade nem de exclusão do crédito fiscal',
+  'com vedação à analogia ou equidade para exigir tributo ou dispensar crédito sem previsão legal',
+  'com impedimento à fruição imediata de imunidade ou isenção condicionada no caso concreto',
+  'com legitimação do lançamento de ofício e inscrição imediata do débito em dívida ativa',
+  'com exigibilidade imediata do tributo no mesmo exercício financeiro sem anterioridade',
+  'com responsabilidade solidária automática dos sócios e administradores da pessoa jurídica',
+  'com possibilidade de instituição ou majoração de alíquota mediante ato normativo infralegal',
+  'observadas as limitações ao poder de tributar e as normas gerais tributárias nacionais',
+  'com reflexo direto sobre os prazos de decadência para constituição e prescrição fiscal',
+  'sujeita à repartição constitucional de receitas e à competência tributária do ente federado',
+  'com preservação da natureza jurídica específica determinada pelo respectivo fato gerador',
+  'essa regra orienta a constituição regular do crédito e a fiscalização fazendária',
+  'a definição impacta diretamente os limites de cobrança e as garantias do contribuinte',
+  'tal critério determina a incidência tributária e a competência ativa do ente tributante',
+  'em proteção à autonomia patrimonial societária e à segurança das relações mercantis',
+  'com afastamento da responsabilidade pessoal dos sócios sem prévia demonstração de abuso',
+  'sem produção de efeitos oponíveis contra terceiros de boa-fé nem habilitação privilegiada',
+  'com inaplicabilidade automática dos efeitos falimentares fora das hipóteses legais taxativas',
+  'com produção de efeitos cambiários autônomos e literais para execução contra coobrigados',
+  'com desconsideração direta da personalidade jurídica sem instauração prévia de incidente',
+  'com exclusão integral do crédito garantido dos efeitos da recuperação judicial em curso',
+  'com livre alienação e circulação do título ou participação societária entre os interessados',
+  'observados os princípios cambiários da cartularidade, literalidade e autonomia das obrigações',
+  'em consonância com a preservação da empresa e a função social da atividade econômica',
+  'sujeita ao registro regular na junta comercial e à ordem legal de classificação concursal',
+  'com manutenção da estrutura de governança societária e da limitação de responsabilidade',
+  'essa disciplina assegura previsibilidade nas operações societárias e na circulação de crédito',
+  'os efeitos da medida vinculam os administradores e os credores sujeitos ao concurso',
+  'tal entendimento preserva o regime próprio das obrigações empresariais e cambiárias',
+  'sob pena de configuração de infração ético-disciplinar apurável no órgão competente',
+  'com vedação expressa à mercantilização da atividade e à captação indevida de clientela',
+  'sem possibilidade de atuação concomitante diante do impedimento estatutário aplicável',
+  'em observância rigorosa aos deveres institucionais e às normas disciplinares da categoria',
+  'com autonomia plena do exercício profissional dentro do regime estatutário da advocacia',
+  'sem necessidade de prévia autorização da seccional competente ou deliberação do conselho',
+  'com validação imediata dos atos profissionais independentemente de formalidade complementar',
+  'com pleno reconhecimento institucional pela seccional de inscrição originária ou suplementar',
+  'observados os deveres de urbanidade, lealdade processual e moderação do estatuto profissional',
+  'em conformidade com as regras de inscrição, licenciamento e fiscalização da seccional local',
+  'sujeita ao controle administrativo e disciplinar previsto no regulamento profissional vigente',
+  'em consonância com as diretrizes institucionais que disciplinam o exercício regular da profissão',
+  'essa norma rege a atuação profissional e a responsabilidade disciplinar do inscrito',
+  'a observância desse parâmetro é fiscalizada diretamente pelo conselho seccional competente',
+  'tal conduta repercute na regularidade estatutária dos atos praticados pelo profissional',
+  'com configuração de prática abusiva e nulidade absoluta em face da vulnerabilidade contratual',
+  'com afastamento de qualquer cláusula que exonere ou atenue o dever legal de indenizar',
+  'sem possibilidade de transferir os riscos da atividade econômica ao consumidor final',
+  'com vedação à cobrança ou restrição cadastral sem prévia comunicação formal regular',
+  'com responsabilidade objetiva e solidária de todos os integrantes da cadeia de fornecimento',
+  'com autorização para inversão do ônus da prova diante da verossimilhança ou hipossuficiência',
+  'com afastamento do dever reparatório mediante comprovação de culpa concorrente de terceiro',
+  'com validação da estipulação padrão independentemente de destaque expresso no contrato',
+  'em consonância com a boa-fé objetiva, transparência e equilíbrio nas relações de consumo',
+  'observados os prazos específicos para reclamação de vícios e pretensão reparatória por defeito',
+  'com proteção à legítima expectativa de segurança e adequação do produto no mercado',
+  'sujeita ao controle administrativo e judicial de cláusulas abusivas no microssistema',
+  'essa proteção orienta a interpretação dos contratos de adesão e a oferta ao mercado',
+  'a responsabilidade civil decorrente dessa relação apura-se no microssistema consumerista',
+  'tal critério define o alcance dos deveres anexos de informação e segurança ao destinatário',
+  'em consonância com os princípios da prevenção, precaução e vedação ao retrocesso ecológico',
+  'com proibição de supressão ou exploração da área sem prévio licenciamento ambiental válido',
+  'sem admissão de fato consumado ou boa-fé para afastar o dever de recuperação do dano',
+  'com impossibilidade de mera compensação pecuniária quando viável a restauração específica',
+  'com autorização para implantação do empreendimento independentemente de estudo prévio de impacto',
+  'com responsabilidade civil ambiental objetiva e solidária sob a modalidade de risco integral',
+  'sem necessidade de manifestação técnica do órgão ambiental diante de urgência econômica local',
+  'com validação da transferência do passivo ambiental ao poder público por declaração unilateral',
+  'observada a competência comum material dos entes federativos para fiscalização e proteção',
+  'com repercussão autônoma e cumulativa nas esferas administrativa, cível e penal ambiental',
+  'sujeita ao regime constitucional de bem de uso comum do povo e equidade intergeracional',
+  'com preservação da imprescritibilidade da pretensão voltada à reparação do dano ecológico',
+  'essa exigência vincula tanto empreendimentos privados quanto obras executadas pelo poder público',
+  'a tutela ambiental incide de forma cumulativa sobre a prevenção e a reparação integral',
+  'tal regime jurídico reflete a proteção constitucional atribuída aos recursos ecológicos',
+  'em observância absoluta à proteção integral e ao melhor interesse da criança e do adolescente',
+  'com vedação à medida restritiva de liberdade fora das hipóteses taxativas previstas em lei',
+  'sem admissão de exposição indevida da identidade do menor ou redução de suas garantias',
+  'com impossibilidade de afastamento definitivo do convívio familiar sem ordem judicial',
+  'com prioridade absoluta de atendimento e oitiva regular na instância protetiva ou judicial',
+  'com autorização para atuação autônoma do órgão tutelar na aplicação imediata da medida',
+  'sem exigência de estágio prévio de convivência ou habilitação diante de consentimento informal',
+  'com cumprimento imediato de medida socioeducativa sem limite máximo legal de internação',
+  'considerada a condição peculiar de pessoa em desenvolvimento e o convívio familiar protegido',
+  'observadas as atribuições próprias entre conselho tutelar, ministério público e judiciário',
+  'sujeita à revisão periódica obrigatória das medidas protetivas e socioeducativas aplicadas',
+  'com garantia de assistência jurídica integral, contraditório e ampla defesa no procedimento',
+  'essa diretriz assegura a prioridade absoluta no atendimento protetivo e jurisdicional',
+  'a medida deve respeitar o princípio da proporcionalidade e a condição de pessoa em formação',
+  'tal competência delimita a atuação integrada da rede de garantia dos direitos infantojuvenis',
+  'em observância à vedação ao retrocesso e aos tratados internacionais de proteção ratificados',
+  'com incompatibilidade entre restrição estatal desproporcional e controle de convencionalidade',
+  'sem admissão de norma interna posterior para descumprir obrigação internacional assumida',
+  'com impedimento à aplicação de sanções ou medidas contrárias à dignidade da pessoa humana',
+  'com aplicabilidade imediata e força vinculante das garantias fundamentais no plano interno',
+  'com autorização de acionamento direto das cortes internacionais sem requisito prévio',
+  'com equivalência constitucional automática de qualquer declaração subscrita pelo executivo',
+  'com possibilidade de mitigação temporária da garantia por simples decreto regulamentar',
+  'observada a complementariedade entre o sistema global e o sistema interamericano de proteção',
+  'em sintonia com a universalidade, indivisibilidade e inalienabilidade dos direitos humanos',
+  'sujeita à responsabilidade internacional objetiva do estado por violações de seus agentes',
+  'com prevalência da interpretação mais favorável à efetiva proteção da pessoa humana',
+  'essa diretriz orienta o diálogo entre a jurisdição interna e os órgãos internacionais',
+  'a interpretação conforme a dignidade humana prevalece na colisão aparente de normas',
+  'tal obrigação vincula os três poderes da república no cumprimento de tratados vigentes',
+  'em respeito à igualdade soberana dos estados e ao princípio da não intervenção interna',
+  'com eficácia interna condicionada à observância integral do rito constitucional de incorporação',
+  'sem execução forçada automática de decisão estrangeira antes de prévia homologação judicial',
+  'com afastamento da lei material estrangeira quando contrariar a soberania e a ordem pública',
+  'com eficácia jurídica imediata no território nacional independentemente de referendo legislativo',
+  'com cooperação jurídica e extradição viabilizadas mediante simples solicitação diplomática direta',
+  'com prevalência do critério da nacionalidade originária sobre a lei do domicílio da pessoa',
+  'com renúncia tácita à imunidade de jurisdição e de execução em demandas patrimoniais',
+  'observadas as regras de conexão aplicáveis e os tratados multilaterais vigentes na matéria',
+  'em harmonia com os costumes internacionais consolidados e os princípios gerais de direito',
+  'sujeita à jurisdição contenciosa consensual e às prerrogativas diplomáticas reconhecidas',
+  'com preservação das garantias asseguradas pelo estatuto migratório aos residentes estrangeiros',
+  'essa solução disciplina os conflitos de leis no espaço e a cooperação interestatal',
+  'a eficácia territorial da medida observa os limites da soberania e da reciprocidade',
+  'tal critério orienta a aplicação das normas internacionais perante a jurisdição nacional',
+  'em estrita observância à soberania popular, à legitimidade do pleito e à isonomia eleitoral',
+  'com vedação à aplicação imediata de alteração legal eleitoral dentro do período de anterioridade',
+  'sem possibilidade de registro ou exercício do mandato diante da causa de inelegibilidade verificada',
+  'com cassação do registro ou diploma e imposição de multa após regular instrução processual',
+  'com autorização para emprego dos recursos partidários e divulgação regular de campanha oficial',
+  'sem necessidade de desincompatibilização prévia ou afastamento temporário do cargo ocupado',
+  'com validação da propaganda antecipada independentemente de pedido explícito de voto',
+  'com convocação imediata de eleições suplementares antes do trânsito em julgado da decisão',
+  'observados os prazos preclusivos céleres próprios da justiça eleitoral no calendário oficial',
+  'sujeita à fiscalização contábil das contas de campanha e ao controle de abuso de poder',
+  'em conformidade com as competências normativas e jurisdicionais dos tribunais eleitorais',
+  'com reflexo imediato sobre o cálculo do quociente eleitoral e a diplomação dos eleitos',
+  'essa regra garante a paridade de armas e a regularidade do processo democrático',
+  'a inobservância do preceito submete o candidato e a agremiação às sanções da justiça eleitoral',
+  'tal diretriz produz efeitos vinculantes em todo o território sujeito à circunscrição do pleito',
+  'em razão do princípio da prévia fonte de custeio total e do caráter contributivo obrigatório',
+  'com vedação à concessão ou majoração de benefício sem cumprimento integral de carência e idade',
+  'sem cômputo de tempo fictício nem possibilidade de acumulação indevida vedada em lei',
+  'com perda da qualidade de segurado após o esgotamento integral do período de graça legal',
+  'com concessão imediata do benefício independentemente de comprovação de carência mínima',
+  'com acumulação integral e irrestrita das prestações sem redução proporcional de valor',
+  'com garantia de paridade e integralidade remuneratória a todos os segurados do regime geral',
+  'com livre aproveitamento ou desaposentação sem sujeição às regras constitucionais de transição',
+  'observado o equilíbrio financeiro e atuarial exigido para a sustentabilidade do sistema',
+  'com repercussão direta sobre o cálculo do salário de benefício e a data de início do pagamento',
+  'sujeita às regras de filiação obrigatória ou facultativa e aos prazos decadenciais próprios',
+  'com preservação da irredutibilidade do valor nominal dos benefícios mantidos pelo regime',
+  'essa sistemática assegura a sustentabilidade financeira do regime protetivo correspondente',
+  'o preenchimento dos requisitos verifica-se segundo a legislação vigente na data do direito',
+  'tal critério incide diretamente sobre o enquadramento do segurado e o cálculo mensal',
+  'em obediência aos princípios da legalidade orçamentária, anualidade e responsabilidade fiscal',
+  'com vedação à realização de despesa ou abertura de crédito sem autorização legislativa prévia',
+  'sem vinculação genérica da receita de impostos a órgão ou despesa fora das exceções legais',
+  'com proibição de operações de crédito ou concessão de garantias acima dos limites fiscais',
+  'com remanejamento e suplementação orçamentária direta por ato exclusivo do poder executivo',
+  'sem exigência de estimativa de impacto financeiro e compensação prévia para benefício fiscal',
+  'com abertura direta de créditos extraordinários para custeio ordinário permanente de pessoal',
+  'com execução integral da despesa pública independentemente de prévio empenho e liquidação',
+  'observada a integração sistemática entre plano plurianual, diretrizes e orçamento anual',
+  'sujeita ao controle interno administrativo e à fiscalização contábil dos tribunais de contas',
+  'com observância estrita dos limites de despesa com pessoal e equilíbrio das contas públicas',
+  'com respeito à ordem cronológica constitucional para quitação de débitos em precatório',
+  'essa norma garante transparência e equilíbrio intertemporal na gestão dos recursos públicos',
+  'a execução orçamentária deve observar os estágios legais e os limites de endividamento',
+  'tal disciplina vincula a elaboração e a execução fiscal em todas as esferas federativas',
+  'com rejeição de qualquer vinculação necessária entre validade formal e critérios morais materiais',
+  'com afastamento da fundamentação jusnaturalista metafísica para legitimação da norma estatal',
+  'sem reconhecimento de força jurídica aos costumes sociais não positivados pelo reconhecimento formal',
+  'com recusa à discricionariedade interpretativa do julgador diante de casos difíceis sem regra unívoca',
+  'com primazia da racionalidade prática e da integridade interpretativa na reconstrução do direito',
+  'com reconhecimento da força normativa direta dos princípios morais na validade jurídica',
+  'com fundamentação da obrigatoriedade normativa na adesão racional e no consenso discursivo',
+  'com superação crítica da literalidade legal em favor da equidade e da justiça material concreta',
+  'com articulação entre validade formal, eficácia social e legitimidade axiológica do direito',
+  'no interior da tradição teórica voltada à distinção metodológica entre ser e dever-ser normativo',
+  'como expressão sistemática das relações entre poder soberano, norma, interpretação e justiça',
+  'conforme o modelo epistemológico estruturado para explicar coerência e completude do sistema',
+  'essa concepção fundamenta a crítica contemporânea sobre os limites entre direito e moral',
+  'a análise teórica evidencia o papel da argumentação racional na justificação das decisões',
+  'tal perspectiva orienta a compreensão estrutural das normas e da autoridade interpretativa',
+];
+
+const LEGACY_BOILERPLATE_SET = new Set(LEGACY_BOILERPLATE_PHRASES);
+
+function escapeRegex(str: string): string {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-function hasSemanticOverlapOrClash(baseText: string, candidateClause: string): boolean {
-  const b = baseText.toLowerCase();
-  const c = candidateClause.toLowerCase();
+const LEGACY_BOILERPLATE_TAIL_RES: RegExp[] = LEGACY_BOILERPLATE_PHRASES.map(
+  phrase => new RegExp(`(?:\\s*[.,;]\\s*)+${escapeRegex(phrase)}\\.?$`, 'i')
+);
 
-  const words = b.replace(/[^a-záàâãéêíóôõúç\s]/g, '').split(/\s+/).filter(w => w.length >= 6);
-  const tailWords = words.slice(-4);
-  let overlapCount = 0;
-  for (const w of tailWords) {
-    if (c.includes(w)) overlapCount++;
+export function detectLegacyBoilerplate(text: string): boolean {
+  const lower = (text || '').toLowerCase();
+  for (const phrase of LEGACY_BOILERPLATE_PHRASES) {
+    if (lower.includes(phrase)) return true;
   }
-  if (overlapCount >= 2) return true;
-
-  if (c.includes('responsabilização') && b.includes('isento de pena')) return true;
-  if (c.includes('prescri') && b.includes('imprescritíve')) return true;
-  if (c.includes('deserção') && !/\b(recurso|apelo|preparo|custas|depósito)\b/.test(b)) return true;
-
   return false;
 }
 
-function pickBestClause(
-  wrongText: string,
-  subject: string,
-  seed: number,
-  usedClauses: Set<string>,
-  targetMinLen: number,
-  mustReachTarget: boolean
-): string {
-  const bucketKey = mapSubjectToBucketKey(subject);
-  const bucket = DOMAIN_CLAUSES[bucketKey] || DOMAIN_CLAUSES.constitucional;
-  const polarity = detectPolarity(wrongText);
-
-  const baseClean = wrongText.trim().replace(/\.$/, '');
-  const hasHeavyTail = (baseClean.match(/,/g) || []).length >= 2 || /;|\bpois\b|\bporque\b/i.test(baseClean);
-
-  let result: string;
-  if (hasHeavyTail) {
-    const sPool = bucket.sentences.filter(s => !usedClauses.has(s) && !hasSemanticOverlapOrClash(baseClean, s));
-    const activeSPool = sPool.length > 0 ? sPool : bucket.sentences;
-    const chosenS = activeSPool[seed % activeSPool.length];
-    usedClauses.add(chosenS);
-    result = cleanupPunctuation(`${baseClean}. ${chosenS}`);
-  } else {
-    const orderedPool = [...bucket[polarity], ...bucket.general];
-    const needChars = Math.max(0, targetMinLen - baseClean.length - 2);
-
-    const candidates = orderedPool.filter(cl => !usedClauses.has(cl) && !hasSemanticOverlapOrClash(baseClean, cl));
-    const fallbackPool = orderedPool.filter(cl => !usedClauses.has(cl));
-    const pool = candidates.length > 0 ? candidates : fallbackPool.length > 0 ? fallbackPool : orderedPool;
-
-    const lengthFit = pool.filter(
-      cl => cl.length >= Math.min(needChars, 75) && baseClean.length + cl.length + 3 <= Math.max(255, targetMinLen + 45)
-    );
-    const activePool = lengthFit.length > 0 ? lengthFit : pool;
-
-    const chosen = activePool[seed % activePool.length];
-    usedClauses.add(chosen);
-
-    result = cleanupPunctuation(`${baseClean}, ${chosen}.`);
-  }
-
-  if (mustReachTarget && !hasHeavyTail && result.length < targetMinLen) {
-    const sPool = bucket.sentences.filter(s => !usedClauses.has(s) && !hasSemanticOverlapOrClash(result, s));
-    if (sPool.length > 0) {
-      const extraS = sPool[(seed + 3) % sPool.length];
-      if (result.length + extraS.length + 1 <= Math.max(300, targetMinLen + 45)) {
-        usedClauses.add(extraS);
-        result = cleanupPunctuation(`${result} ${extraS}`);
+export function stripLegacyBoilerplate(text: string): string {
+  let out = (text || '').trim();
+  let changed = true;
+  while (changed) {
+    changed = false;
+    for (const re of LEGACY_BOILERPLATE_TAIL_RES) {
+      if (re.test(out)) {
+        const candidate = out.replace(re, '').trim();
+        if (candidate.length >= 25) {
+          out = candidate;
+          changed = true;
+        }
       }
     }
   }
-
-  return result;
+  return cleanupPunctuation(out);
 }
 
-export function rebalanceQuestionOptions(q: LegalQuestion): {
+function countTechnicalLegalTokens(text: string): number {
+  const words = (text || '')
+    .toLowerCase()
+    .replace(/[^\p{L}\s]/gu, ' ')
+    .split(/\s+/)
+    .filter(w => w.length >= 7);
+  return new Set(words).size;
+}
+
+function countSyntacticComplexity(text: string): number {
+  const punctuationSignals = (text.match(/[,;:]/g) || []).length;
+  const connectorSignals = (
+    text
+      .toLowerCase()
+      .match(
+        /\b(desde que|salvo|exceto|ainda que|mesmo que|embora|mediante|independentemente|sob pena|nos termos|em razão|em decorrência|consoante|razão pela qual|hipótese em que|caso em que|ressalvada|vedada|exigindo-se|dispensando-se|caracterizando|ensejando|configurando)\b/g
+      ) || []
+  ).length;
+  return punctuationSignals + connectorSignals * 2;
+}
+
+export function evaluateOptionSymmetry(q: LegalQuestion): OptionSymmetryReport {
+  const options = q.options || [];
+  const corrOpt = options.find(o => o.letter === q.correctAnswer);
+  const wrongOpts = options.filter(o => o.letter !== q.correctAnswer);
+
+  if (!corrOpt || wrongOpts.length === 0) {
+    return {
+      isBalanced: false,
+      score: 0,
+      allShort: false,
+      issues: ['Alternativas incompletas ou gabarito ausente'],
+      metrics: {
+        corrLen: 0,
+        avgWrongLen: 0,
+        minWrongLen: 0,
+        maxWrongLen: 0,
+        corrTechnicalWords: 0,
+        avgWrongTechnicalWords: 0,
+        hasLegacyBoilerplate: false,
+        hasCitationAsymmetry: false,
+        hasComplexityAsymmetry: false,
+        hasLengthBias: false,
+        hasEditorialMarkers: false,
+      },
+    };
+  }
+
+  const corrText = corrOpt.text.trim();
+  const corrLen = corrText.length;
+  const wrongLens = wrongOpts.map(w => w.text.trim().length);
+  const avgWrongLen = Math.round(wrongLens.reduce((a, b) => a + b, 0) / wrongLens.length);
+  const minWrongLen = Math.min(...wrongLens);
+  const maxWrongLen = Math.max(...wrongLens);
+
+  const allShort = corrLen <= 85 && maxWrongLen <= 95;
+  const hasItemList =
+    /^(?:Apenas\s+o[s]?\s+iten[s]?|Somente\s+o[s]?\s+iten[s]?|Todos\s+os\s+itens|Nenhum\s+dos\s+itens)\b/i.test(
+      corrText
+    ) && wrongOpts.some(w => /\b(iten[s]?|ambos|nenhum|todos)\b/i.test(w.text));
+
+  const corrTechnicalWords = countTechnicalLegalTokens(corrText);
+  const wrongTechCounts = wrongOpts.map(w => countTechnicalLegalTokens(w.text));
+  const avgWrongTechnicalWords = Number(
+    (wrongTechCounts.reduce((a, b) => a + b, 0) / wrongTechCounts.length).toFixed(1)
+  );
+
+  const corrComplexity = countSyntacticComplexity(corrText);
+  const avgWrongComplexity =
+    wrongOpts.reduce((acc, w) => acc + countSyntacticComplexity(w.text), 0) / wrongOpts.length;
+
+  const hasEditorialMarkers = options.some(
+    o => /!|\*\*|__|\(\s*(?:isto é|ou seja|pegadinha|atenção|cuidado)\b/i.test(o.text)
+  );
+
+  const hasLegacyBoilerplate = wrongOpts.some(w => {
+    const lower = w.text.toLowerCase();
+    for (const phrase of LEGACY_BOILERPLATE_SET) {
+      if (lower.includes(phrase)) return true;
+    }
+    return false;
+  });
+
+  const citeRe =
+    /\b(?:art\.?|artigo|súmula|tema|re\s*\d+|resp\s*\d+|adi\s*\d+|adpf\s*\d+|lei\s+n[º°]|decreto(?:-lei)?\s+n[º°]|enunciado)\s*\d*/i;
+  const asksCiteInStmt =
+    /\b(?:quais|qual)\s+(?:o\s+número\s+d[oa]\s+|a\s+|o\s+|os\s+|as\s+)?(?:súmulas?|artigos?|dispositivos?|emendas?|temas?|incisos?|lei\s+n[º°])\b/i.test(
+      q.statement || ''
+    );
+  const hasCitationAsymmetry =
+    !asksCiteInStmt && citeRe.test(corrText) && wrongOpts.every(w => !citeRe.test(w.text));
+
+  const hasLengthBias =
+    !allShort &&
+    !hasItemList &&
+    ((corrLen > 95 && avgWrongLen > 0 && corrLen > avgWrongLen * 1.28) ||
+      (corrLen >= 110 && minWrongLen < corrLen * 0.65) ||
+      (corrLen >= 130 && minWrongLen < 85));
+
+  const hasComplexityAsymmetry =
+    !allShort &&
+    !hasItemList &&
+    ((corrTechnicalWords >= 5 && avgWrongTechnicalWords < corrTechnicalWords * 0.62) ||
+      (corrComplexity >= 3 && avgWrongComplexity < corrComplexity * 0.5));
+
+  const issues: string[] = [];
+  if (hasEditorialMarkers) {
+    issues.push('presença de marcação editorial (!, negrito ou glosa explicativa)');
+  }
+  if (hasLegacyBoilerplate) {
+    issues.push('distratores com preenchimento genérico padronizado detectado');
+  }
+  if (hasCitationAsymmetry) {
+    issues.push('citação normativa ou jurisprudencial presente apenas na alternativa correta');
+  }
+  if (hasLengthBias) {
+    issues.push(
+      `desequilíbrio de extensão (correta ${corrLen} chars vs. média das incorretas ${avgWrongLen} chars)`
+    );
+  }
+  if (hasComplexityAsymmetry) {
+    issues.push('assimetria de densidade técnico-jurídica e detalhamento entre correta e distratores');
+  }
+
+  let score = 100;
+  if (hasEditorialMarkers) score -= 20;
+  if (hasLegacyBoilerplate) score -= 35;
+  if (hasCitationAsymmetry) score -= 25;
+  if (hasLengthBias) score -= 25;
+  if (hasComplexityAsymmetry) score -= 20;
+  score = Math.max(0, score);
+
+  return {
+    isBalanced: issues.length === 0,
+    score,
+    allShort: allShort || hasItemList,
+    issues,
+    metrics: {
+      corrLen,
+      avgWrongLen,
+      minWrongLen,
+      maxWrongLen,
+      corrTechnicalWords,
+      avgWrongTechnicalWords,
+      hasLegacyBoilerplate,
+      hasCitationAsymmetry,
+      hasComplexityAsymmetry,
+      hasLengthBias,
+      hasEditorialMarkers,
+    },
+  };
+}
+
+/**
+ * Performs pure, non-destructive normalization on question options:
+ * - Removes draft notes (!, **, parenthetical glosses) and asymmetrical citations
+ * - Never appends generic boilerplate clauses onto wrong alternatives
+ * - Returns symmetry diagnostics indicating whether AI distractor refinement is needed
+ */
+export function rebalanceQuestionOptions(
+  q: LegalQuestion,
+  optionsConfig?: { stripLegacyFillers?: boolean }
+): {
   options: LegalQuestion['options'];
   stats: RebalanceStats;
+  symmetry: OptionSymmetryReport;
 } {
   const corrOpt = q.options.find(o => o.letter === q.correctAnswer);
   if (!corrOpt) {
+    const symmetry = evaluateOptionSymmetry(q);
     return {
       options: q.options,
       stats: { allShort: false, origCorrLen: 0, newCorrLen: 0, origAvgWrongLen: 0, newAvgWrongLen: 0 },
+      symmetry,
     };
   }
 
@@ -1110,11 +1010,11 @@ export function rebalanceQuestionOptions(q: LegalQuestion): {
     hasItemList,
   });
 
-  const qHash = stableHash(q.id || q.statement);
-  const usedClauses = new Set<string>();
+  const stripLegacy = Boolean(optionsConfig?.stripLegacyFillers);
 
   const cleanedWrongs = wrongOpts.map(w => {
-    let wt = stripAuthorDraftNotesAndPunctuation(w.text);
+    let wt = stripLegacy ? stripLegacyBoilerplate(w.text) : w.text;
+    wt = stripAuthorDraftNotesAndPunctuation(wt);
     wt = lowerEditorialCaps(wt);
     if (!isAllShort && !hasItemList) {
       wt = stripCitationsAndGlosses(wt, !asksForCitation);
@@ -1125,31 +1025,6 @@ export function rebalanceQuestionOptions(q: LegalQuestion): {
     return { letter: w.letter, text: wt };
   });
 
-  if (!isAllShort && !hasItemList && newCorrText.length >= 80) {
-    const bucketRoll = qHash % 100;
-    const ensureWrongLonger = bucketRoll < 74;
-    const longestWrongIdx = qHash % cleanedWrongs.length;
-
-    for (let idx = 0; idx < cleanedWrongs.length; idx++) {
-      const w = cleanedWrongs[idx];
-      const isPrimaryLonger = ensureWrongLonger && idx === longestWrongIdx;
-      const isSecondaryNear = ensureWrongLonger && idx === (longestWrongIdx + 1) % cleanedWrongs.length;
-
-      let targetMin: number;
-      if (isPrimaryLonger) {
-        targetMin = newCorrText.length + 10;
-      } else if (isSecondaryNear) {
-        targetMin = Math.max(145, newCorrText.length - 6);
-      } else {
-        targetMin = Math.max(130, newCorrText.length - 25);
-      }
-
-      if (w.text.length < targetMin) {
-        w.text = pickBestClause(w.text, q.subject, qHash + idx * 17, usedClauses, targetMin, isPrimaryLonger);
-      }
-    }
-  }
-
   const wrongMap = new Map(cleanedWrongs.map(w => [w.letter, w.text]));
   const finalOptions = q.options.map(o => ({
     letter: o.letter,
@@ -1158,6 +1033,7 @@ export function rebalanceQuestionOptions(q: LegalQuestion): {
 
   const newWrongLens = finalOptions.filter(o => o.letter !== q.correctAnswer).map(o => o.text.length);
   const newAvgWrongLen = newWrongLens.reduce((a, b) => a + b, 0) / Math.max(1, newWrongLens.length);
+  const symmetry = evaluateOptionSymmetry({ ...q, options: finalOptions });
 
   return {
     options: finalOptions,
@@ -1168,5 +1044,6 @@ export function rebalanceQuestionOptions(q: LegalQuestion): {
       origAvgWrongLen,
       newAvgWrongLen,
     },
+    symmetry,
   };
 }

@@ -1,0 +1,366 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Global Safety Net (Default-Deny)
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // ==================== PRIMITIVE HELPERS ====================
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isEmailVerified() {
+      return isSignedIn() && request.auth.token.email_verified == true;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isVerifiedOwner(userId) {
+      return isEmailVerified() && request.auth.uid == userId;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function userParentExists(userId) {
+      return exists(/databases/$(database)/documents/users/$(userId)) ||
+        existsAfter(/databases/$(database)/documents/users/$(userId));
+    }
+
+    // ==================== VALIDATION BLUEPRINTS ====================
+    function isValidUserProfile(data, userId) {
+      return data.keys().hasAll(['uid', 'email', 'createdAt', 'updatedAt']) &&
+        data.keys().hasOnly(['uid', 'displayName', 'email', 'photoURL', 'createdAt', 'updatedAt']) &&
+        data.uid is string && data.uid == userId && data.uid == request.auth.uid &&
+        isValidId(data.uid) &&
+        data.email is string && data.email.size() >= 3 && data.email.size() <= 200 &&
+        (!('displayName' in data) || (data.displayName is string && data.displayName.size() <= 120)) &&
+        (!('photoURL' in data) || (data.photoURL is string && data.photoURL.size() <= 500)) &&
+        data.createdAt is timestamp &&
+        data.updatedAt is timestamp;
+    }
+
+    function isValidStudyProfile(data, userId) {
+      return data.keys().hasAll([
+          'ownerId',
+          'activePlanId',
+          'lastActiveDate',
+          'streakDays',
+          'completedScheduleDays',
+          'flashcardStatus',
+          'subjectGoals',
+          'updatedAt'
+        ]) &&
+        data.keys().hasOnly([
+          'ownerId',
+          'activePlanId',
+          'lastActiveDate',
+          'streakDays',
+          'completedScheduleDays',
+          'flashcardStatus',
+          'subjectGoals',
+          'updatedAt'
+        ]) &&
+        data.ownerId is string && data.ownerId == userId && data.ownerId == request.auth.uid &&
+        isValidId(data.ownerId) &&
+        data.activePlanId is string && data.activePlanId.size() >= 1 && data.activePlanId.size() <= 80 &&
+        data.activePlanId.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.lastActiveDate is string && data.lastActiveDate.size() <= 20 &&
+        data.lastActiveDate.matches('^\\d{4}-\\d{2}-\\d{2}$') &&
+        data.streakDays is number && data.streakDays >= 0 && data.streakDays <= 36500 &&
+        data.completedScheduleDays is map && data.completedScheduleDays.keys().size() <= 300 &&
+        data.flashcardStatus is map && data.flashcardStatus.keys().size() <= 500 &&
+        data.subjectGoals is map && data.subjectGoals.keys().size() <= 60 &&
+        data.updatedAt is timestamp;
+    }
+
+    function isValidQuestionMark(data, userId, questionId) {
+      return data.keys().hasAll(['ownerId', 'questionId', 'inErrorNotebook', 'isBookmarked', 'updatedAt']) &&
+        data.keys().hasOnly(['ownerId', 'questionId', 'inErrorNotebook', 'isBookmarked', 'updatedAt']) &&
+        data.ownerId is string && data.ownerId == userId && data.ownerId == request.auth.uid &&
+        data.questionId is string && data.questionId == questionId && isValidId(data.questionId) &&
+        data.inErrorNotebook is bool &&
+        data.isBookmarked is bool &&
+        data.updatedAt is timestamp;
+    }
+
+    function isValidSimuladoResult(data, userId, resultId) {
+      return data.keys().hasAll([
+          'ownerId',
+          'id',
+          'configId',
+          'title',
+          'date',
+          'totalQuestions',
+          'correctCount',
+          'wrongCount',
+          'unansweredCount',
+          'timeSpentSeconds',
+          'scorePercentage',
+          'passedOABCutoff',
+          'answers',
+          'subjectStats',
+          'createdAt'
+        ]) &&
+        data.keys().hasOnly([
+          'ownerId',
+          'id',
+          'configId',
+          'title',
+          'date',
+          'totalQuestions',
+          'correctCount',
+          'wrongCount',
+          'unansweredCount',
+          'timeSpentSeconds',
+          'scorePercentage',
+          'passedOABCutoff',
+          'answers',
+          'subjectStats',
+          'createdAt'
+        ]) &&
+        data.ownerId is string && data.ownerId == userId && data.ownerId == request.auth.uid &&
+        data.id is string && data.id == resultId && isValidId(data.id) &&
+        data.configId is string && data.configId.size() >= 1 && data.configId.size() <= 128 &&
+        data.configId.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.title is string && data.title.size() >= 1 && data.title.size() <= 200 &&
+        data.date is string && data.date.size() >= 1 && data.date.size() <= 40 &&
+        data.totalQuestions is number && data.totalQuestions >= 1 && data.totalQuestions <= 500 &&
+        data.correctCount is number && data.correctCount >= 0 && data.correctCount <= 500 &&
+        data.wrongCount is number && data.wrongCount >= 0 && data.wrongCount <= 500 &&
+        data.unansweredCount is number && data.unansweredCount >= 0 && data.unansweredCount <= 500 &&
+        data.timeSpentSeconds is number && data.timeSpentSeconds >= 0 && data.timeSpentSeconds <= 86400 &&
+        data.scorePercentage is number && data.scorePercentage >= 0 && data.scorePercentage <= 100 &&
+        data.passedOABCutoff is bool &&
+        data.answers is map && data.answers.keys().size() <= 300 &&
+        data.subjectStats is map && data.subjectStats.keys().size() <= 40 &&
+        data.createdAt is timestamp;
+    }
+
+    function isValidActiveSession(data, userId) {
+      return data.keys().hasAll([
+          'ownerId',
+          'config',
+          'queueRefs',
+          'currentIndex',
+          'questionMastery',
+          'answers',
+          'instanceAnswers',
+          'eliminated',
+          'markedReview',
+          'secondsRemaining',
+          'elapsedSeconds',
+          'repeatInterval',
+          'updatedAt'
+        ]) &&
+        data.keys().hasOnly([
+          'ownerId',
+          'config',
+          'queueRefs',
+          'currentIndex',
+          'questionMastery',
+          'answers',
+          'instanceAnswers',
+          'eliminated',
+          'markedReview',
+          'secondsRemaining',
+          'elapsedSeconds',
+          'repeatInterval',
+          'updatedAt'
+        ]) &&
+        data.ownerId is string && data.ownerId == userId && data.ownerId == request.auth.uid &&
+        data.config is map && data.config.keys().hasAll(['id', 'title', 'type', 'mode', 'questionCount']) &&
+        data.config.id is string && data.config.id.size() >= 1 && data.config.id.size() <= 128 &&
+        data.config.title is string && data.config.title.size() >= 1 && data.config.title.size() <= 200 &&
+        data.queueRefs is list && data.queueRefs.size() >= 1 && data.queueRefs.size() <= 250 &&
+        data.queueRefs[0] is map &&
+        data.queueRefs[0].keys().hasAll(['instanceId', 'questionId', 'attemptNumber', 'isRetry']) &&
+        data.queueRefs[0].instanceId is string && data.queueRefs[0].instanceId.size() <= 160 &&
+        data.queueRefs[0].questionId is string && data.queueRefs[0].questionId.size() <= 128 &&
+        data.currentIndex is number && data.currentIndex >= 0 && data.currentIndex < 250 &&
+        data.questionMastery is map && data.questionMastery.keys().size() <= 250 &&
+        data.answers is map && data.answers.keys().size() <= 250 &&
+        data.instanceAnswers is map && data.instanceAnswers.keys().size() <= 300 &&
+        data.eliminated is map && data.eliminated.keys().size() <= 250 &&
+        data.markedReview is map && data.markedReview.keys().size() <= 250 &&
+        data.secondsRemaining is number && data.secondsRemaining >= -1 && data.secondsRemaining <= 86400 &&
+        data.elapsedSeconds is number && data.elapsedSeconds >= 0 && data.elapsedSeconds <= 86400 &&
+        data.repeatInterval is number && data.repeatInterval >= 1 && data.repeatInterval <= 20 &&
+        data.updatedAt is timestamp;
+    }
+
+    function isValidPerformanceInsight(data, userId) {
+      return data.keys().hasAll(['ownerId', 'fingerprint', 'analysis', 'updatedAt']) &&
+        data.keys().hasOnly(['ownerId', 'fingerprint', 'analysis', 'updatedAt']) &&
+        data.ownerId is string && data.ownerId == userId && data.ownerId == request.auth.uid &&
+        data.fingerprint is string && data.fingerprint.size() >= 1 && data.fingerprint.size() <= 160 &&
+        data.analysis is map &&
+        data.analysis.keys().hasAll(['summaryDiagnosis', 'hardestPatternAlert', 'priorityTopics', 'studyStrategySteps', 'analyzedErrorsCount', 'generatedAt']) &&
+        data.analysis.summaryDiagnosis is string && data.analysis.summaryDiagnosis.size() <= 3000 &&
+        data.analysis.hardestPatternAlert is string && data.analysis.hardestPatternAlert.size() <= 2000 &&
+        data.analysis.priorityTopics is list && data.analysis.priorityTopics.size() <= 10 &&
+        data.analysis.studyStrategySteps is list && data.analysis.studyStrategySteps.size() <= 10 &&
+        data.updatedAt is timestamp;
+    }
+
+    // ==================== COLLECTION MATCH BLOCKS ====================
+    match /users/{userId} {
+      // PII strictly isolated to owner; never allow listing /users
+      allow get: if isValidId(userId) && isOwner(userId);
+      allow list: if false;
+
+      allow create: if isValidId(userId) &&
+        isVerifiedOwner(userId) &&
+        isValidUserProfile(incoming(), userId) &&
+        incoming().createdAt == request.time &&
+        incoming().updatedAt == request.time;
+
+      allow update: if isValidId(userId) &&
+        isVerifiedOwner(userId) &&
+        isValidUserProfile(incoming(), userId) &&
+        incoming().uid == existing().uid &&
+        incoming().createdAt == existing().createdAt &&
+        incoming().updatedAt == request.time &&
+        incoming().diff(existing()).affectedKeys().hasOnly(['displayName', 'email', 'photoURL', 'updatedAt']);
+
+      allow delete: if false;
+
+      match /studyProfile/{profileId} {
+        allow get: if isValidId(userId) && isValidId(profileId) && profileId == 'main' && isOwner(userId);
+        allow list: if isOwner(userId) && existing().ownerId == request.auth.uid;
+
+        allow create: if isValidId(userId) && isValidId(profileId) && profileId == 'main' &&
+          isVerifiedOwner(userId) &&
+          isValidStudyProfile(incoming(), userId) &&
+          incoming().updatedAt == request.time &&
+          userParentExists(userId);
+
+        allow update: if isValidId(userId) && isValidId(profileId) && profileId == 'main' &&
+          isVerifiedOwner(userId) &&
+          isValidStudyProfile(incoming(), userId) &&
+          incoming().ownerId == existing().ownerId &&
+          incoming().updatedAt == request.time &&
+          userParentExists(userId) &&
+          incoming().diff(existing()).affectedKeys().hasOnly([
+            'activePlanId',
+            'lastActiveDate',
+            'streakDays',
+            'completedScheduleDays',
+            'flashcardStatus',
+            'subjectGoals',
+            'updatedAt'
+          ]);
+
+        allow delete: if false;
+      }
+
+      match /questionMarks/{questionId} {
+        allow get: if isValidId(userId) && isValidId(questionId) && isOwner(userId);
+        allow list: if isOwner(userId) && existing().ownerId == request.auth.uid;
+
+        allow create: if isValidId(userId) && isValidId(questionId) &&
+          isVerifiedOwner(userId) &&
+          isValidQuestionMark(incoming(), userId, questionId) &&
+          incoming().updatedAt == request.time &&
+          userParentExists(userId);
+
+        allow update: if isValidId(userId) && isValidId(questionId) &&
+          isVerifiedOwner(userId) &&
+          isValidQuestionMark(incoming(), userId, questionId) &&
+          incoming().ownerId == existing().ownerId &&
+          incoming().questionId == existing().questionId &&
+          incoming().updatedAt == request.time &&
+          userParentExists(userId) &&
+          incoming().diff(existing()).affectedKeys().hasOnly(['inErrorNotebook', 'isBookmarked', 'updatedAt']);
+
+        allow delete: if isValidId(userId) && isValidId(questionId) && isVerifiedOwner(userId);
+      }
+
+      match /simuladoResults/{resultId} {
+        allow get: if isValidId(userId) && isValidId(resultId) && isOwner(userId);
+        allow list: if isOwner(userId) && existing().ownerId == request.auth.uid;
+
+        allow create: if isValidId(userId) && isValidId(resultId) &&
+          isVerifiedOwner(userId) &&
+          isValidSimuladoResult(incoming(), userId, resultId) &&
+          incoming().createdAt == request.time &&
+          userParentExists(userId);
+
+        // Terminal lock: completed simulado results are immutable records
+        allow update: if false;
+
+        allow delete: if isValidId(userId) && isValidId(resultId) && isVerifiedOwner(userId);
+      }
+
+      match /activeSessions/{sessionId} {
+        allow get: if isValidId(userId) && isValidId(sessionId) && sessionId == 'current' && isOwner(userId);
+        allow list: if isOwner(userId) && existing().ownerId == request.auth.uid;
+
+        allow create: if isValidId(userId) && isValidId(sessionId) && sessionId == 'current' &&
+          isVerifiedOwner(userId) &&
+          isValidActiveSession(incoming(), userId) &&
+          incoming().updatedAt == request.time &&
+          userParentExists(userId);
+
+        allow update: if isValidId(userId) && isValidId(sessionId) && sessionId == 'current' &&
+          isVerifiedOwner(userId) &&
+          isValidActiveSession(incoming(), userId) &&
+          incoming().ownerId == existing().ownerId &&
+          incoming().updatedAt == request.time &&
+          userParentExists(userId) &&
+          incoming().diff(existing()).affectedKeys().hasOnly([
+            'config',
+            'queueRefs',
+            'currentIndex',
+            'questionMastery',
+            'answers',
+            'instanceAnswers',
+            'eliminated',
+            'markedReview',
+            'secondsRemaining',
+            'elapsedSeconds',
+            'repeatInterval',
+            'updatedAt'
+          ]);
+
+        allow delete: if isValidId(userId) && isValidId(sessionId) && sessionId == 'current' && isVerifiedOwner(userId);
+      }
+
+      match /aiInsights/{insightId} {
+        allow get: if isValidId(userId) && isValidId(insightId) && insightId == 'performance_analysis' && isOwner(userId);
+        allow list: if isOwner(userId) && existing().ownerId == request.auth.uid;
+
+        allow create: if isValidId(userId) && isValidId(insightId) && insightId == 'performance_analysis' &&
+          isVerifiedOwner(userId) &&
+          isValidPerformanceInsight(incoming(), userId) &&
+          incoming().updatedAt == request.time &&
+          userParentExists(userId);
+
+        allow update: if isValidId(userId) && isValidId(insightId) && insightId == 'performance_analysis' &&
+          isVerifiedOwner(userId) &&
+          isValidPerformanceInsight(incoming(), userId) &&
+          incoming().ownerId == existing().ownerId &&
+          incoming().updatedAt == request.time &&
+          userParentExists(userId) &&
+          incoming().diff(existing()).affectedKeys().hasOnly(['fingerprint', 'analysis', 'updatedAt']);
+
+        allow delete: if isValidId(userId) && isValidId(insightId) && insightId == 'performance_analysis' && isVerifiedOwner(userId);
+      }
+    }
+  }
+}

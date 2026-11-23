@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { 
   BookOpen, Sparkles, Sliders, Play, CheckCircle2, Award, 
   Flame, Filter, Clock, ShieldCheck, HelpCircle, Layers,
-  RefreshCw, Check, ArrowRight, Zap, GraduationCap, Compass, Infinity as InfinityIcon, Crosshair
+  RefreshCw, Check, ArrowRight, Zap, GraduationCap, Compass, Infinity as InfinityIcon, Crosshair,
+  BookmarkCheck, Trash2
 } from 'lucide-react';
-import { SimuladoConfig, SimuladoMode } from '../types';
+import { ActiveSimuladoSession, SimuladoConfig, SimuladoMode } from '../types';
 import type { DifficultyLevel, QuestionOriginType } from '../types/knowledgeBase';
 import { AVAILABLE_BOARDS } from '../data/questions';
 import { 
@@ -24,12 +25,18 @@ interface SimuladoBuilderProps {
   onStartSimulado: (config: SimuladoConfig) => void;
   cadernoErrosCount: number;
   onOpenDiagnostic?: () => void;
+  pausedSession?: ActiveSimuladoSession | null;
+  onResumeSession?: () => void;
+  onDiscardPausedSession?: () => void;
 }
 
 export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
   onStartSimulado,
   cadernoErrosCount,
   onOpenDiagnostic,
+  pausedSession,
+  onResumeSession,
+  onDiscardPausedSession,
 }) => {
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
   const [selectedBoard, setSelectedBoard] = useState<string>('ALL');
@@ -321,8 +328,64 @@ export const SimuladoBuilder: React.FC<SimuladoBuilderProps> = ({
   };
 
 
+  const formatSavedElapsed = (sec: number) => {
+    const m = Math.floor(sec / 60);
+    const s = sec % 60;
+    return `${m.toString().padStart(2, '0')}m ${s.toString().padStart(2, '0')}s`;
+  };
+
   return (
     <div className="max-w-6xl mx-auto px-4 py-6 space-y-8 animate-in fade-in">
+      {/* Paused / In-Progress Simulado Restoration Banner */}
+      {pausedSession && onResumeSession && (
+        <div className="rounded-2xl bg-[#F5F0E6] border border-[#C59B3E] p-5 sm:p-6 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div className="space-y-1.5">
+            <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#8A6518]">
+              <BookmarkCheck className="w-4 h-4" />
+              <span>Simulado Salvo em Andamento</span>
+            </div>
+            <h2 className="font-display text-lg sm:text-xl font-bold text-stone-900">
+              {pausedSession.config.title}
+            </h2>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-stone-700 font-mono tabular-nums">
+              <span>
+                Questão atual: <strong className="text-[#1B365D]">{pausedSession.currentIndex + 1} / {pausedSession.queueRefs.length}</strong>
+              </span>
+              <span>·</span>
+              <span>
+                Respondidas: <strong className="text-emerald-800">{Object.keys(pausedSession.answers).length}</strong>
+              </span>
+              <span>·</span>
+              <span>
+                Tempo decorrido: <strong className="text-stone-900">{formatSavedElapsed(pausedSession.elapsedSeconds)}</strong>
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2.5 shrink-0">
+            <button
+              type="button"
+              onClick={onResumeSession}
+              className="px-5 py-2.5 rounded-xl bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] text-xs sm:text-sm font-semibold flex items-center gap-2 transition-colors cursor-pointer shadow-xs"
+            >
+              <Play className="w-4 h-4 fill-[#E6C574] text-[#E6C574]" />
+              Retomar Simulado Salvo
+            </button>
+            {onDiscardPausedSession && (
+              <button
+                type="button"
+                onClick={onDiscardPausedSession}
+                className="px-3.5 py-2.5 rounded-xl bg-white hover:bg-rose-50 text-[#7B1E26] border border-[#D6CCB9] hover:border-[#7B1E26]/40 text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer"
+                title="Descartar sessão em andamento"
+              >
+                <Trash2 className="w-3.5 h-3.5" />
+                Descartar
+              </button>
+            )}
+          </div>
+        </div>
+      )}
+
       {/* Hero Banner */}
       <div className="rounded-2xl bg-white border border-[#D6CCB9] p-6 sm:p-8 shadow-xs">
         <div className="max-w-3xl">

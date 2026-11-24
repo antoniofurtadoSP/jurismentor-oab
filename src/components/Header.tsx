@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { createPortal } from 'react-dom';
 import {
   Scale, BookOpen, Calendar, BarChart3, AlertOctagon, Sparkles, Award, Flame,
-  Volume2, Smartphone, Crosshair, Database, Download, Loader2, Cloud, Check,
+  Smartphone, Crosshair, Database, Download, Loader2, Check,
   LogOut, AlertTriangle, ExternalLink, RefreshCw, Copy, X
 } from 'lucide-react';
 import { useFirebase } from '../contexts/FirebaseContext';
@@ -73,218 +73,227 @@ export const Header: React.FC<HeaderProps> = ({
   };
 
   return (
-    <header className="border-b border-[#DFD7C8] bg-[#FCF9F4]/95 backdrop-blur-md sticky top-0 z-40 shadow-[0_1px_3px_rgba(28,25,23,0.04)]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 gap-4">
+    <header className="w-full border-b border-[#DFD7C8] bg-[#FCF9F4]/95 backdrop-blur-md sticky top-0 z-40 shadow-[0_1px_3px_rgba(28,25,23,0.04)]">
+      <div className="max-w-6xl mx-auto px-4">
+        <div className="flex items-center justify-between gap-2 sm:gap-3 py-2.5 min-w-0">
           {/* Logo & Brand */}
-          <div 
+          <div
             onClick={() => setActiveTab('simulados')}
-            className="flex items-center gap-3 cursor-pointer group shrink-0"
+            className="flex items-center gap-2.5 cursor-pointer group min-w-0 shrink"
           >
-            <div className="w-10 h-10 rounded-lg bg-[#1B365D] border border-[#C59B3E]/60 flex items-center justify-center text-[#FAF7F2] shadow-sm group-hover:bg-[#142846] transition-colors">
-              <Scale className="w-5 h-5 stroke-[2] text-[#E6C574]" />
+            <div className="w-9 h-9 rounded-lg bg-[#1B365D] border border-[#C59B3E]/60 flex items-center justify-center text-[#FAF7F2] shadow-sm group-hover:bg-[#142846] transition-colors shrink-0">
+              <Scale className="w-4.5 h-4.5 stroke-[2] text-[#E6C574]" />
             </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="font-display text-xl font-bold tracking-tight text-[#1C1917] group-hover:text-[#1B365D] transition-colors">
+            <div className="min-w-0">
+              <div className="flex items-center gap-2 min-w-0">
+                <span className="font-display text-lg sm:text-xl font-bold tracking-tight text-[#1C1917] group-hover:text-[#1B365D] transition-colors whitespace-nowrap">
                   JurisMentor
                 </span>
-                <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-[#7B1E26] border-l border-[#DFD7C8] pl-2">
+                <span className="hidden sm:inline-block text-[10px] font-semibold uppercase tracking-[0.12em] text-[#7B1E26] border-l border-[#DFD7C8] pl-2 whitespace-nowrap">
                   OAB & Concursos
                 </span>
               </div>
-              <p className="text-[11px] font-serif italic text-stone-600 hidden sm:block">
-                Simulados Oficiais · Cronogramas · Análise de Desempenho
+              <p className="text-[11px] font-serif italic text-stone-600 hidden lg:block truncate">
+                Simulados Oficiais · Cronogramas · IA
               </p>
             </div>
           </div>
 
-          {/* Quick Stats Bar (clean hairline editorial metrics) */}
-          <div className="hidden lg:flex items-center gap-3 text-xs">
-            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#F4EFE6] border border-[#DFD7C8]">
+          {/* Compact Editorial Metrics (only on wide screens so nothing ever crowds) */}
+          <div className="hidden xl:flex items-center gap-2 px-2.5 py-1 rounded-lg bg-[#F4EFE6] border border-[#DFD7C8] text-[11px] text-stone-700 shrink-0">
+            <span className="inline-flex items-center gap-1" title="Dias consecutivos de estudo">
               <Flame className="w-3.5 h-3.5 text-[#8A6518]" />
-              <span className="text-stone-600">Ofensiva:</span>
-              <span className="font-semibold font-mono tabular-nums text-stone-900">{streakDays} {streakDays === 1 ? 'dia' : 'dias'}</span>
-            </div>
-
-            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#F4EFE6] border border-[#DFD7C8]">
+              <span className="font-semibold font-mono tabular-nums text-stone-900">{streakDays}d</span>
+            </span>
+            <span className="h-3 w-px bg-[#D6CCB9]" />
+            <span className="inline-flex items-center gap-1" title="Aproveitamento global nas questões">
               <Award className="w-3.5 h-3.5 text-[#1B365D]" />
-              <span className="text-stone-600">Aproveitamento:</span>
               <span className={`font-semibold font-mono tabular-nums ${accuracyRate >= 50 ? 'text-emerald-800' : 'text-[#7B1E26]'}`}>
                 {accuracyRate}%
               </span>
               <span className="text-stone-500 font-mono tabular-nums">({totalAnswered} q.)</span>
-            </div>
-
-            {cadernoErrosCount > 0 && (
-              <button
-                onClick={() => setActiveTab('erros')}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-rose-50 border border-rose-200 text-rose-900 hover:bg-rose-100 transition-colors cursor-pointer"
-              >
-                <AlertOctagon className="w-3.5 h-3.5 text-[#7B1E26]" />
-                <span className="font-medium">Caderno de Erros:</span>
-                <span className="font-bold font-mono tabular-nums text-[#7B1E26]">{cadernoErrosCount}</span>
-              </button>
-            )}
+            </span>
           </div>
 
-          <div className="flex items-center gap-2 shrink-0">
-            <div className="hidden xl:flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[#F4EFE6] border border-[#DFD7C8] text-[11px] text-stone-700 font-medium" title="Suporte completo a explicações em áudio em português brasileiro">
-              <Volume2 className="w-3.5 h-3.5 text-[#1B365D]" />
-              <span>Áudio pt-BR</span>
-            </div>
-
-            {/* Acessar no Celular / Fora da Plataforma button */}
+          {/* Right Actions (sempre dentro da largura do corpo; Google é o primeiro à direita) */}
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+            {/* Acessar no Celular */}
             <button
+              type="button"
               onClick={onOpenAccessAnywhere}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] text-stone-800 border border-[#D6CCB9] text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
-              title="Acessar no celular ou fora da plataforma via link público ou QR Code"
+              className="flex items-center gap-1.5 p-1.5 sm:px-2.5 sm:py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] text-stone-800 border border-[#D6CCB9] text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
+              title="Acessar no celular ou fora da plataforma via link ou QR Code"
+              aria-label="Acessar no Celular"
             >
-              <Smartphone className="w-3.5 h-3.5 text-[#1B365D]" />
-              <span className="hidden sm:inline">Acessar no Celular</span>
-              <span className="sm:hidden">App Móvel</span>
+              <Smartphone className="w-3.5 h-3.5 text-[#1B365D] shrink-0" />
+              <span className="hidden md:inline">Celular</span>
             </button>
 
             {/* Download Projeto ZIP (apenas ambiente de desenvolvimento / AI Studio) */}
             {isDevOrAiStudioEnv && (
               <button
+                type="button"
                 onClick={handleDownloadProjectZip}
                 disabled={isDownloadingZip}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] disabled:opacity-60 text-stone-800 border border-[#D6CCB9] text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
+                className="flex items-center gap-1.5 p-1.5 sm:px-2.5 sm:py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] disabled:opacity-60 text-stone-800 border border-[#D6CCB9] text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
                 title="Baixar todos os arquivos do aplicativo (.zip) para seu PC"
+                aria-label="Baixar ZIP do projeto"
               >
                 {isDownloadingZip ? (
-                  <Loader2 className="w-3.5 h-3.5 text-[#1B365D] animate-spin" />
+                  <Loader2 className="w-3.5 h-3.5 text-[#1B365D] animate-spin shrink-0" />
                 ) : (
-                  <Download className="w-3.5 h-3.5 text-emerald-800" />
+                  <Download className="w-3.5 h-3.5 text-emerald-800 shrink-0" />
                 )}
                 <span className="hidden md:inline">{isDownloadingZip ? 'Gerando...' : 'Baixar ZIP'}</span>
-                <span className="md:hidden">{isDownloadingZip ? '...' : 'ZIP'}</span>
               </button>
             )}
 
-            {/* Professor IA Quick CTA */}
+            {/* Professor Jurídico IA */}
             <button
+              type="button"
               onClick={() => setActiveTab('professor')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap shadow-xs ${
+              className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap shadow-xs ${
                 activeTab === 'professor'
                   ? 'bg-[#7B1E26] text-[#FAF7F2] border border-[#7B1E26]'
                   : 'bg-[#1B365D] text-[#FAF7F2] border border-[#1B365D] hover:bg-[#142846]'
               }`}
             >
-              <Sparkles className="w-3.5 h-3.5 text-[#E6C574]" />
-              <span className="hidden sm:inline">Professor Jurídico</span>
-              <span className="sm:hidden">Professor</span>
+              <Sparkles className="w-3.5 h-3.5 text-[#E6C574] shrink-0" />
+              <span className="hidden sm:inline">Professor IA</span>
+              <span className="sm:hidden">IA</span>
             </button>
 
-            {/* Conectar Conta Google / Salvar na Nuvem (primeiro ícone à direita) */}
-            {authReady && (
-              user ? (
-                <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[#F4EFE6] border border-[#DFD7C8] text-xs text-stone-800">
-                  {syncStatus === 'syncing' ? (
-                    <Loader2 className="w-3.5 h-3.5 text-[#1B365D] animate-spin shrink-0" />
-                  ) : (
-                    <Check className="w-3.5 h-3.5 text-emerald-800 shrink-0" />
-                  )}
-                  <span className="hidden md:inline font-medium max-w-[115px] truncate" title={user.email || undefined}>
-                    {user.displayName ? user.displayName.split(' ')[0] : 'Conta Salva'}
-                  </span>
-                  <span className="hidden xl:inline text-[11px] text-stone-600 border-l border-[#D6CCB9] pl-1.5">
-                    {syncStatus === 'syncing' ? 'Salvando...' : syncStatus === 'error' ? 'Local' : 'Nuvem'}
-                  </span>
-                  <button
-                    type="button"
-                    onClick={signOutUser}
-                    title="Sair da conta Google (seu progresso salvo permanece na nuvem)"
-                    className="p-0.5 rounded text-stone-500 hover:text-[#7B1E26] cursor-pointer ml-0.5"
-                  >
-                    <LogOut className="w-3.5 h-3.5" />
-                  </button>
-                </div>
-              ) : (
+            {/* Conectar Conta Google (primeiro botão/ícone da extrema direita) */}
+            {!authReady ? (
+              <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white/80 border border-[#DFD7C8] text-stone-500 text-xs whitespace-nowrap">
+                <Loader2 className="w-3.5 h-3.5 animate-spin text-[#1B365D]" />
+                <span className="hidden sm:inline">Conta...</span>
+              </div>
+            ) : user ? (
+              <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[#F4EFE6] border border-[#DFD7C8] text-xs text-stone-800 whitespace-nowrap">
+                {syncStatus === 'syncing' ? (
+                  <Loader2 className="w-3.5 h-3.5 text-[#1B365D] animate-spin shrink-0" />
+                ) : (
+                  <Check className="w-3.5 h-3.5 text-emerald-800 shrink-0" />
+                )}
+                <span className="hidden sm:inline font-medium max-w-[85px] truncate" title={user.email || undefined}>
+                  {user.displayName ? user.displayName.split(' ')[0] : 'Nuvem'}
+                </span>
                 <button
                   type="button"
-                  onClick={signInWithGoogle}
-                  disabled={isSigningIn}
-                  title={authError || 'Entre com Google para salvar seu desenvolvimento na nuvem entre dispositivos'}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] disabled:opacity-60 text-[#1B365D] border border-[#1B365D]/35 text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
+                  onClick={signOutUser}
+                  title="Sair da conta Google (seu progresso salvo permanece na nuvem)"
+                  className="p-0.5 rounded text-stone-500 hover:text-[#7B1E26] cursor-pointer"
+                  aria-label="Sair da conta Google"
                 >
-                  {isSigningIn ? (
-                    <Loader2 className="w-3.5 h-3.5 text-[#1B365D] animate-spin" />
-                  ) : (
-                    <Cloud className="w-3.5 h-3.5 text-[#8A6518]" />
-                  )}
-                  <span className="hidden sm:inline">
-                    {isSigningIn ? 'Conectando...' : 'Salvar na Nuvem'}
-                  </span>
-                  <span className="sm:hidden">
-                    {isSigningIn ? '...' : 'Entrar'}
-                  </span>
+                  <LogOut className="w-3.5 h-3.5" />
                 </button>
-              )
+              </div>
+            ) : (
+              <button
+                type="button"
+                onClick={signInWithGoogle}
+                disabled={isSigningIn}
+                title={authError || 'Entre com sua conta Google para salvar seu desenvolvimento na nuvem'}
+                className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] disabled:opacity-60 text-[#1B365D] border border-[#1B365D]/40 text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
+              >
+                {isSigningIn ? (
+                  <Loader2 className="w-3.5 h-3.5 text-[#1B365D] animate-spin shrink-0" />
+                ) : (
+                  <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="#4285F4"
+                      d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17Z"
+                    />
+                    <path
+                      fill="#34A853"
+                      d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.14C3.26 21.3 7.31 24 12 24Z"
+                    />
+                    <path
+                      fill="#FBBC05"
+                      d="M5.28 14.24c-.24-.72-.38-1.49-.38-2.24s.14-1.52.38-2.24V6.62H1.29C.47 8.24 0 10.06 0 12s.47 3.76 1.29 5.38l3.99-3.14Z"
+                    />
+                    <path
+                      fill="#EA4335"
+                      d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.62l3.99 3.14c.95-2.85 3.6-4.96 6.72-4.96Z"
+                    />
+                  </svg>
+                )}
+                <span className="hidden md:inline">
+                  {isSigningIn ? 'Conectando...' : 'Entrar com Google'}
+                </span>
+                <span className="md:hidden">
+                  {isSigningIn ? '...' : 'Entrar'}
+                </span>
+              </button>
             )}
           </div>
         </div>
 
-        {/* Primary Navigation Tabs */}
-        <nav className="flex items-center gap-1 overflow-x-auto pb-2 pt-1.5 border-t border-[#E6DFD3] -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-none text-xs">
+        {/* Primary Navigation Tabs (harmônica e sem sobras dentro de max-w-6xl) */}
+        <nav className="flex items-center lg:justify-between gap-1 overflow-x-auto py-1.5 border-t border-[#E6DFD3] scrollbar-none text-xs">
           <button
+            type="button"
             onClick={() => setActiveTab('simulados')}
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
+            className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
               activeTab === 'simulados'
                 ? 'bg-[#1B365D] text-[#FAF7F2] font-semibold shadow-xs'
                 : 'text-stone-700 hover:text-stone-950 hover:bg-[#F3EFE6]'
             }`}
           >
-            <BookOpen className={`w-4 h-4 ${activeTab === 'simulados' ? 'text-[#E6C574]' : 'text-[#1B365D]'}`} />
+            <BookOpen className={`w-3.5 h-3.5 ${activeTab === 'simulados' ? 'text-[#E6C574]' : 'text-[#1B365D]'}`} />
             Simulados & Questões
           </button>
 
           <button
+            type="button"
             onClick={() => setActiveTab('diagnostico')}
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
+            className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
               activeTab === 'diagnostico'
                 ? 'bg-[#1B365D] text-[#FAF7F2] font-semibold shadow-xs'
                 : 'text-stone-700 hover:text-stone-950 hover:bg-[#F3EFE6]'
             }`}
           >
-            <Crosshair className={`w-4 h-4 ${activeTab === 'diagnostico' ? 'text-[#E6C574]' : 'text-[#8A6518]'}`} />
-            Simulado Diagnóstico
+            <Crosshair className={`w-3.5 h-3.5 ${activeTab === 'diagnostico' ? 'text-[#E6C574]' : 'text-[#8A6518]'}`} />
+            Diagnóstico
           </button>
 
           <button
+            type="button"
             onClick={() => setActiveTab('cronograma')}
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
+            className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
               activeTab === 'cronograma'
                 ? 'bg-[#1B365D] text-[#FAF7F2] font-semibold shadow-xs'
                 : 'text-stone-700 hover:text-stone-950 hover:bg-[#F3EFE6]'
             }`}
           >
-            <Calendar className={`w-4 h-4 ${activeTab === 'cronograma' ? 'text-[#E6C574]' : 'text-[#1B365D]'}`} />
-            Cronogramas de Revisão
+            <Calendar className={`w-3.5 h-3.5 ${activeTab === 'cronograma' ? 'text-[#E6C574]' : 'text-[#1B365D]'}`} />
+            Cronograma
           </button>
 
           <button
+            type="button"
             onClick={() => setActiveTab('desempenho')}
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
+            className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
               activeTab === 'desempenho'
                 ? 'bg-[#1B365D] text-[#FAF7F2] font-semibold shadow-xs'
                 : 'text-stone-700 hover:text-stone-950 hover:bg-[#F3EFE6]'
             }`}
           >
-            <BarChart3 className={`w-4 h-4 ${activeTab === 'desempenho' ? 'text-[#E6C574]' : 'text-emerald-800'}`} />
-            Análise de Desempenho
+            <BarChart3 className={`w-3.5 h-3.5 ${activeTab === 'desempenho' ? 'text-[#E6C574]' : 'text-emerald-800'}`} />
+            Desempenho
           </button>
 
           <button
+            type="button"
             onClick={() => setActiveTab('erros')}
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
+            className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
               activeTab === 'erros'
                 ? 'bg-[#7B1E26] text-[#FAF7F2] font-semibold shadow-xs'
                 : 'text-stone-700 hover:text-stone-950 hover:bg-[#F3EFE6]'
             }`}
           >
-            <AlertOctagon className={`w-4 h-4 ${activeTab === 'erros' ? 'text-[#E6C574]' : 'text-[#7B1E26]'}`} />
+            <AlertOctagon className={`w-3.5 h-3.5 ${activeTab === 'erros' ? 'text-[#E6C574]' : 'text-[#7B1E26]'}`} />
             Caderno de Erros
             {cadernoErrosCount > 0 && (
               <span className={`px-1.5 py-0.5 text-[10px] rounded font-mono font-bold tabular-nums ${
@@ -298,27 +307,29 @@ export const Header: React.FC<HeaderProps> = ({
           </button>
 
           <button
+            type="button"
             onClick={() => setActiveTab('flashcards')}
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
+            className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
               activeTab === 'flashcards'
                 ? 'bg-[#1B365D] text-[#FAF7F2] font-semibold shadow-xs'
                 : 'text-stone-700 hover:text-stone-950 hover:bg-[#F3EFE6]'
             }`}
           >
-            <Scale className={`w-4 h-4 ${activeTab === 'flashcards' ? 'text-[#E6C574]' : 'text-[#8A6518]'}`} />
-            Súmulas & Artigos-Chave
+            <Scale className={`w-3.5 h-3.5 ${activeTab === 'flashcards' ? 'text-[#E6C574]' : 'text-[#8A6518]'}`} />
+            Súmulas & Leis
           </button>
 
           <button
+            type="button"
             onClick={() => setActiveTab('base_admin')}
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
+            className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
               activeTab === 'base_admin'
                 ? 'bg-[#1B365D] text-[#FAF7F2] font-semibold shadow-xs'
                 : 'text-stone-700 hover:text-stone-950 hover:bg-[#F3EFE6]'
             }`}
           >
-            <Database className={`w-4 h-4 ${activeTab === 'base_admin' ? 'text-[#E6C574]' : 'text-stone-700'}`} />
-            Base Jurídica & Admin
+            <Database className={`w-3.5 h-3.5 ${activeTab === 'base_admin' ? 'text-[#E6C574]' : 'text-stone-700'}`} />
+            Base Jurídica
           </button>
         </nav>
       </div>

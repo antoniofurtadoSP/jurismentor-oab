@@ -574,7 +574,7 @@ export const LegalKnowledgeAdminView: React.FC = () => {
   const disciplines = overview?.disciplines || [];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6 space-y-6 animate-in fade-in">
+    <div className="max-w-6xl mx-auto px-4 py-6 space-y-6 animate-in fade-in">
       {/* Header Summary Bar */}
       <div className="bg-white border border-[#DFD7C8] rounded-2xl p-6 shadow-xs">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">

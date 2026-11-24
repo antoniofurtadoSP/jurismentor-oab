@@ -160,7 +160,7 @@ export const SimuladoDiagnostico: React.FC<SimuladoDiagnosticoProps> = ({
   const globalErrorRate = summary.hasMetrics ? 100 - summary.overallAccuracy : 0;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-8 animate-in fade-in">
+    <div className="max-w-6xl mx-auto px-4 py-6 space-y-8 animate-in fade-in">
       {/* Cabeçalho da Seção */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-6 border-b border-[#DFD7C8]">
         <div className="space-y-1.5 max-w-2xl">

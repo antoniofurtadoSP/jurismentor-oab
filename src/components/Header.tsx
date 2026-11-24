@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { createPortal } from 'react-dom';
 import {
   Scale, BookOpen, Calendar, BarChart3, AlertOctagon, Sparkles, Award, Flame,
   Volume2, Smartphone, Crosshair, Database, Download, Loader2, Cloud, Check,
   LogOut, AlertTriangle, ExternalLink, RefreshCw, Copy, X
 } from 'lucide-react';
 import { useFirebase } from '../contexts/FirebaseContext';
+import firebaseConfig from '../../firebase-applet-config.json';
 
 interface HeaderProps {
   activeTab: 'simulados' | 'diagnostico' | 'cronograma' | 'desempenho' | 'erros' | 'flashcards' | 'base_admin' | 'professor';
@@ -312,10 +314,10 @@ export const Header: React.FC<HeaderProps> = ({
         </nav>
       </div>
 
-      {/* Modal de Diagnóstico e Recuperação de Login Google */}
-      {authErrorDetail && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-950/50 backdrop-blur-xs">
-          <div className="bg-[#FAF7F2] border border-[#D6CCB9] rounded-2xl w-full max-w-lg shadow-2xl overflow-hidden animate-in fade-in duration-150">
+      {/* Modal de Diagnóstico e Recuperação de Login Google (via Portal para não cortar no header) */}
+      {authErrorDetail && typeof document !== 'undefined' && createPortal(
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-950/50 backdrop-blur-xs overflow-y-auto">
+          <div className="bg-[#FAF7F2] border border-[#D6CCB9] rounded-2xl w-full max-w-lg max-h-[90vh] overflow-y-auto shadow-2xl animate-in fade-in duration-150 my-auto">
             <div className="px-5 py-4 bg-[#F3EFE6] border-b border-[#DFD7C8] flex items-center justify-between gap-3">
               <div className="flex items-center gap-2.5">
                 <div className="w-9 h-9 rounded-lg bg-rose-50 border border-[#7B1E26]/30 text-[#7B1E26] flex items-center justify-center shrink-0">
@@ -346,7 +348,7 @@ export const Header: React.FC<HeaderProps> = ({
               </p>
 
               {authErrorDetail.code === 'auth/unauthorized-domain' && authErrorDetail.currentHostname && (
-                <div className="p-3.5 rounded-xl bg-white border border-[#DFD7C8] space-y-2">
+                <div className="p-3.5 rounded-xl bg-white border border-[#DFD7C8] space-y-2.5">
                   <div className="text-[11px] font-bold uppercase tracking-wider text-[#1B365D]">
                     Domínio para autorizar no Firebase Console:
                   </div>
@@ -374,6 +376,17 @@ export const Header: React.FC<HeaderProps> = ({
                   <p className="text-[11px] text-stone-600 font-serif">
                     No Firebase Console: <strong>Authentication → Settings → Authorized domains → Add domain</strong>.
                   </p>
+                  {firebaseConfig.projectId && (
+                    <a
+                      href={`https://console.firebase.google.com/project/${firebaseConfig.projectId}/authentication/settings`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#F4EFE6] hover:bg-[#EAE3D5] border border-[#C59B3E]/60 text-[#1B365D] text-xs font-semibold transition-colors"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5 text-[#8A6518]" />
+                      Abrir Configurações do Firebase Console
+                    </a>
+                  )}
                 </div>
               )}
 
@@ -425,7 +438,8 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </header>
   );

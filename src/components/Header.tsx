@@ -29,6 +29,12 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const [isDownloadingZip, setIsDownloadingZip] = useState(false);
   const [copiedDomain, setCopiedDomain] = useState(false);
+  const isDevOrAiStudioEnv =
+    import.meta.env.DEV ||
+    (typeof window !== 'undefined' &&
+      (window.location.hostname.startsWith('ais-dev-') ||
+        window.location.hostname === 'localhost' ||
+        window.location.hostname === '127.0.0.1'));
   const {
     user,
     authReady,
@@ -123,6 +129,55 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
 
           <div className="flex items-center gap-2 shrink-0">
+            <div className="hidden xl:flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[#F4EFE6] border border-[#DFD7C8] text-[11px] text-stone-700 font-medium" title="Suporte completo a explicações em áudio em português brasileiro">
+              <Volume2 className="w-3.5 h-3.5 text-[#1B365D]" />
+              <span>Áudio pt-BR</span>
+            </div>
+
+            {/* Acessar no Celular / Fora da Plataforma button */}
+            <button
+              onClick={onOpenAccessAnywhere}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] text-stone-800 border border-[#D6CCB9] text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
+              title="Acessar no celular ou fora da plataforma via link público ou QR Code"
+            >
+              <Smartphone className="w-3.5 h-3.5 text-[#1B365D]" />
+              <span className="hidden sm:inline">Acessar no Celular</span>
+              <span className="sm:hidden">App Móvel</span>
+            </button>
+
+            {/* Download Projeto ZIP (apenas ambiente de desenvolvimento / AI Studio) */}
+            {isDevOrAiStudioEnv && (
+              <button
+                onClick={handleDownloadProjectZip}
+                disabled={isDownloadingZip}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] disabled:opacity-60 text-stone-800 border border-[#D6CCB9] text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
+                title="Baixar todos os arquivos do aplicativo (.zip) para seu PC"
+              >
+                {isDownloadingZip ? (
+                  <Loader2 className="w-3.5 h-3.5 text-[#1B365D] animate-spin" />
+                ) : (
+                  <Download className="w-3.5 h-3.5 text-emerald-800" />
+                )}
+                <span className="hidden md:inline">{isDownloadingZip ? 'Gerando...' : 'Baixar ZIP'}</span>
+                <span className="md:hidden">{isDownloadingZip ? '...' : 'ZIP'}</span>
+              </button>
+            )}
+
+            {/* Professor IA Quick CTA */}
+            <button
+              onClick={() => setActiveTab('professor')}
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap shadow-xs ${
+                activeTab === 'professor'
+                  ? 'bg-[#7B1E26] text-[#FAF7F2] border border-[#7B1E26]'
+                  : 'bg-[#1B365D] text-[#FAF7F2] border border-[#1B365D] hover:bg-[#142846]'
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5 text-[#E6C574]" />
+              <span className="hidden sm:inline">Professor Jurídico</span>
+              <span className="sm:hidden">Professor</span>
+            </button>
+
+            {/* Conectar Conta Google / Salvar na Nuvem (primeiro ícone à direita) */}
             {authReady && (
               user ? (
                 <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[#F4EFE6] border border-[#DFD7C8] text-xs text-stone-800">
@@ -168,52 +223,6 @@ export const Header: React.FC<HeaderProps> = ({
                 </button>
               )
             )}
-
-            <div className="hidden xl:flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[#F4EFE6] border border-[#DFD7C8] text-[11px] text-stone-700 font-medium" title="Suporte completo a explicações em áudio em português brasileiro">
-              <Volume2 className="w-3.5 h-3.5 text-[#1B365D]" />
-              <span>Áudio pt-BR</span>
-            </div>
-
-            {/* Acessar no Celular / Fora da Plataforma button */}
-            <button
-              onClick={onOpenAccessAnywhere}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] text-stone-800 border border-[#D6CCB9] text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
-              title="Acessar no celular ou fora da plataforma via link público ou QR Code"
-            >
-              <Smartphone className="w-3.5 h-3.5 text-[#1B365D]" />
-              <span className="hidden sm:inline">Acessar no Celular</span>
-              <span className="sm:hidden">App Móvel</span>
-            </button>
-
-            {/* Download Projeto ZIP */}
-            <button
-              onClick={handleDownloadProjectZip}
-              disabled={isDownloadingZip}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-[#F4EFE6] disabled:opacity-60 text-stone-800 border border-[#D6CCB9] text-xs font-semibold transition-all cursor-pointer shadow-xs whitespace-nowrap"
-              title="Baixar todos os arquivos do aplicativo (.zip) para seu PC"
-            >
-              {isDownloadingZip ? (
-                <Loader2 className="w-3.5 h-3.5 text-[#1B365D] animate-spin" />
-              ) : (
-                <Download className="w-3.5 h-3.5 text-emerald-800" />
-              )}
-              <span className="hidden md:inline">{isDownloadingZip ? 'Gerando...' : 'Baixar ZIP'}</span>
-              <span className="md:hidden">{isDownloadingZip ? '...' : 'ZIP'}</span>
-            </button>
-
-            {/* Professor IA Quick CTA */}
-            <button
-              onClick={() => setActiveTab('professor')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap shadow-xs ${
-                activeTab === 'professor'
-                  ? 'bg-[#7B1E26] text-[#FAF7F2] border border-[#7B1E26]'
-                  : 'bg-[#1B365D] text-[#FAF7F2] border border-[#1B365D] hover:bg-[#142846]'
-              }`}
-            >
-              <Sparkles className="w-3.5 h-3.5 text-[#E6C574]" />
-              <span className="hidden sm:inline">Professor Jurídico</span>
-              <span className="sm:hidden">Professor</span>
-            </button>
           </div>
         </div>
 

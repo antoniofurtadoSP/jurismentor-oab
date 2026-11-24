@@ -1244,8 +1244,14 @@ app.post('/api/kb/updates', (req, res) => {
   res.json({ success: true, log });
 });
 
-// Exportação completa do código-fonte do projeto em ZIP (para rodar no PC ou publicar fora do AI Studio)
+// Exportação completa do código-fonte do projeto em ZIP (apenas ambiente de desenvolvimento / AI Studio)
 app.get('/api/export-project-zip', async (_req, res) => {
+  if (process.env.NODE_ENV === 'production') {
+    return res.status(403).json({
+      success: false,
+      error: 'Exportação disponível apenas no ambiente de desenvolvimento.',
+    });
+  }
   try {
     const rootDir = path.resolve(__dirname);
     const zip = new JSZip();

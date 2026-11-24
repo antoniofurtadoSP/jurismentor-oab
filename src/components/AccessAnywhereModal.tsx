@@ -20,6 +20,13 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
   const [installPrompt, setInstallPrompt] = useState<any>(null);
   const [downloadingZip, setDownloadingZip] = useState(false);
 
+  const isDevOrAiStudioEnv =
+    import.meta.env.DEV ||
+    (typeof window !== 'undefined' &&
+      (window.location.hostname.startsWith('ais-dev-') ||
+        window.location.hostname === 'localhost' ||
+        window.location.hostname === '127.0.0.1'));
+
   // App URL: Never leak localhost or the auth-gated ais-dev-* preview URL into mobile QR codes / share links
   const appUrl = typeof window !== 'undefined'
     ? (
@@ -277,35 +284,37 @@ export const AccessAnywhereModal: React.FC<AccessAnywhereModalProps> = ({
             </div>
           </div>
 
-          {/* Export Source Code ZIP for PC / Independent Hosting */}
-          <div className="p-4 rounded-xl bg-emerald-50 border border-emerald-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-            <div className="space-y-1">
-              <div className="flex items-center gap-2 text-emerald-900 font-semibold text-xs">
-                <FolderArchive className="w-4 h-4 text-emerald-800" />
-                <span>Baixar Arquivos do App para seu PC (.zip)</span>
+          {/* Export Source Code ZIP for PC / Independent Hosting (apenas ambiente AI Studio / desenvolvimento) */}
+          {isDevOrAiStudioEnv && (
+            <div className="p-4 rounded-xl bg-emerald-50 border border-emerald-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+              <div className="space-y-1">
+                <div className="flex items-center gap-2 text-emerald-900 font-semibold text-xs">
+                  <FolderArchive className="w-4 h-4 text-emerald-800" />
+                  <span>Baixar Arquivos do App para seu PC (.zip)</span>
+                </div>
+                <p className="text-[11px] text-emerald-900/80 leading-relaxed">
+                  Exporte todo o código-fonte, banco jurídico e guia de instalação para rodar localmente ou publicar em servidor próprio fora do Google AI Studio.
+                </p>
               </div>
-              <p className="text-[11px] text-emerald-900/80 leading-relaxed">
-                Exporte todo o código-fonte, banco jurídico e guia de instalação para rodar localmente ou publicar em servidor próprio fora do Google AI Studio.
-              </p>
+              <button
+                onClick={handleDownloadSourceZip}
+                disabled={downloadingZip}
+                className="px-4 py-2.5 rounded-xl bg-emerald-800 hover:bg-emerald-900 disabled:opacity-60 text-[#FAF7F2] font-bold text-xs flex items-center gap-1.5 transition-all cursor-pointer shrink-0 shadow-xs"
+              >
+                {downloadingZip ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                    <span>Gerando ZIP...</span>
+                  </>
+                ) : (
+                  <>
+                    <Download className="w-4 h-4" />
+                    <span>Baixar Projeto (.zip)</span>
+                  </>
+                )}
+              </button>
             </div>
-            <button
-              onClick={handleDownloadSourceZip}
-              disabled={downloadingZip}
-              className="px-4 py-2.5 rounded-xl bg-emerald-800 hover:bg-emerald-900 disabled:opacity-60 text-[#FAF7F2] font-bold text-xs flex items-center gap-1.5 transition-all cursor-pointer shrink-0 shadow-xs"
-            >
-              {downloadingZip ? (
-                <>
-                  <Loader2 className="w-4 h-4 animate-spin" />
-                  <span>Gerando ZIP...</span>
-                </>
-              ) : (
-                <>
-                  <Download className="w-4 h-4" />
-                  <span>Baixar Projeto (.zip)</span>
-                </>
-              )}
-            </button>
-          </div>
+          )}
         </div>
 
         {/* Footer */}

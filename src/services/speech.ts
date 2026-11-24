@@ -1,5 +1,8 @@
 // Advanced Brazilian Portuguese (pt-BR) Speech Synthesis Service for Professor Jurídico
-// Supports Background Pre-loading + Progressive Streaming Neural AI Voice (Gemini TTS PCM) + Client Audio Cache + Browser Fallback
+// Supports:
+// - Background Pre-loading + Progressive Streaming Neural AI Voice (Gemini TTS PCM)
+// - In-memory + Persistent IndexedDB Audio Cache for zero-cost natural AI replay across sessions
+// - Ranked High-Fidelity Browser Fallback (prioritizing Microsoft Online Natural / Google pt-BR voices, natural pausing & no pitch distortion)
 
 export type SpeechFallbackReason =
   | 'none'
@@ -8,6 +11,13 @@ export type SpeechFallbackReason =
   | 'missing_key'
   | 'timeout'
   | 'unavailable';
+
+export interface LocalVoiceOption {
+  voiceURI: string;
+  name: string;
+  lang: string;
+  isNatural: boolean;
+}
 
 export interface SpeechStatus {
   isSpeaking: boolean;
@@ -20,6 +30,9 @@ export interface SpeechStatus {
   fallbackReason: SpeechFallbackReason;
   fallbackMessage: string | null;
   neuralCooldownUntil: number | null;
+  availableLocalVoices: LocalVoiceOption[];
+  selectedLocalVoiceURI: string | null;
+  activeLocalVoiceIsNatural: boolean;
 }
 
 type StatusListener = (status: SpeechStatus) => void;
@@ -34,6 +47,7 @@ interface ActiveTtsJob {
   pcmChunks: Uint8Array[];
   totalSegments: number;
   wavUrl: string | null;
+  providerLabel?: string;
   completed: boolean;
   failed: boolean;
   failureReason?: SpeechFallbackReason;
@@ -45,6 +59,10 @@ interface ActiveTtsJob {
 const TTS_SAMPLE_RATE = 24000;
 const FIRST_CHUNK_TIMEOUT_MS = 20000;
 const MAX_CLIENT_CACHE_ITEMS = 60;
+const PREFERRED_LOCAL_VOICE_KEY = 'jurismentor_preferred_local_voice_v1';
+const IDB_NAME = 'jurismentor_tts_audio_db';
+const IDB_STORE = 'audio_wavs';
+const MAX_IDB_ITEMS = 80;
 
 function base64ToBytes(base64: string): Uint8Array {
   const binary = atob(base64);
@@ -55,7 +73,7 @@ function base64ToBytes(base64: string): Uint8Array {
   return bytes;
 }
 
-function buildWavBlobUrlFromPcmChunks(chunks: Uint8Array[], sampleRate = TTS_SAMPLE_RATE): string {
+function buildWavBlobFromPcmChunks(chunks: Uint8Array[], sampleRate = TTS_SAMPLE_RATE): Blob {
   const totalPcmBytes = chunks.reduce((acc, c) => acc + c.byteLength, 0);
   const buffer = new ArrayBuffer(44 + totalPcmBytes);
   const view = new DataView(buffer);
@@ -70,13 +88,13 @@ function buildWavBlobUrlFromPcmChunks(chunks: Uint8Array[], sampleRate = TTS_SAM
   view.setUint32(4, 36 + totalPcmBytes, true);
   writeStr(8, 'WAVE');
   writeStr(12, 'fmt ');
-  view.setUint32(16, 16, true); // PCM
-  view.setUint16(20, 1, true); // Linear PCM
-  view.setUint16(22, 1, true); // Mono
+  view.setUint32(16, 16, true);
+  view.setUint16(20, 1, true);
+  view.setUint16(22, 1, true);
   view.setUint32(24, sampleRate, true);
-  view.setUint32(28, sampleRate * 2, true); // byteRate
-  view.setUint16(32, 2, true); // blockAlign
-  view.setUint16(34, 16, true); // bitsPerSample
+  view.setUint32(28, sampleRate * 2, true);
+  view.setUint16(32, 2, true);
+  view.setUint16(34, 16, true);
   writeStr(36, 'data');
   view.setUint32(40, totalPcmBytes, true);
 
@@ -87,7 +105,153 @@ function buildWavBlobUrlFromPcmChunks(chunks: Uint8Array[], sampleRate = TTS_SAM
     offset += chunk.byteLength;
   }
 
-  return URL.createObjectURL(new Blob([buffer], { type: 'audio/wav' }));
+  return new Blob([buffer], { type: 'audio/wav' });
+}
+
+function dataUrlToBlob(dataUrl: string): Blob | null {
+  try {
+    const commaIdx = dataUrl.indexOf(',');
+    if (commaIdx === -1) return null;
+    const header = dataUrl.slice(0, commaIdx);
+    const mimeMatch = header.match(/data:([^;]+)/);
+    const mime = mimeMatch ? mimeMatch[1] : 'audio/wav';
+    const bytes = base64ToBytes(dataUrl.slice(commaIdx + 1));
+    const copy = new Uint8Array(bytes.byteLength);
+    copy.set(bytes);
+    return new Blob([copy.buffer], { type: mime });
+  } catch {
+    return null;
+  }
+}
+
+function openTtsDb(): Promise<IDBDatabase | null> {
+  if (typeof window === 'undefined' || !('indexedDB' in window)) {
+    return Promise.resolve(null);
+  }
+  return new Promise((resolve) => {
+    try {
+      const req = window.indexedDB.open(IDB_NAME, 1);
+      req.onupgradeneeded = () => {
+        const db = req.result;
+        if (!db.objectStoreNames.contains(IDB_STORE)) {
+          const store = db.createObjectStore(IDB_STORE, { keyPath: 'key' });
+          store.createIndex('updatedAt', 'updatedAt', { unique: false });
+        }
+      };
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => resolve(null);
+    } catch {
+      resolve(null);
+    }
+  });
+}
+
+async function getAudioFromIndexedDb(key: string): Promise<string | null> {
+  const db = await openTtsDb();
+  if (!db) return null;
+  return new Promise((resolve) => {
+    try {
+      const tx = db.transaction(IDB_STORE, 'readonly');
+      const store = tx.objectStore(IDB_STORE);
+      const req = store.get(key);
+      req.onsuccess = () => {
+        const record = req.result as { key: string; blob?: Blob } | undefined;
+        if (record?.blob) {
+          resolve(URL.createObjectURL(record.blob));
+        } else {
+          resolve(null);
+        }
+      };
+      req.onerror = () => resolve(null);
+    } catch {
+      resolve(null);
+    }
+  });
+}
+
+async function saveAudioToIndexedDb(key: string, blob: Blob): Promise<void> {
+  const db = await openTtsDb();
+  if (!db) return;
+  try {
+    const tx = db.transaction(IDB_STORE, 'readwrite');
+    const store = tx.objectStore(IDB_STORE);
+    store.put({ key, blob, updatedAt: Date.now() });
+
+    const countReq = store.count();
+    countReq.onsuccess = () => {
+      if (countReq.result > MAX_IDB_ITEMS) {
+        const idx = store.index('updatedAt');
+        const cursorReq = idx.openCursor();
+        let toDelete = countReq.result - MAX_IDB_ITEMS;
+        cursorReq.onsuccess = () => {
+          const cursor = cursorReq.result;
+          if (cursor && toDelete > 0) {
+            store.delete(cursor.primaryKey);
+            toDelete -= 1;
+            cursor.continue();
+          }
+        };
+      }
+    };
+  } catch {
+    // ignore storage quota failures
+  }
+}
+
+function isVoiceNaturalByMetadata(voice: SpeechSynthesisVoice): boolean {
+  const name = voice.name.toLowerCase();
+  if (
+    name.includes('espeak') ||
+    name.includes('mbrola') ||
+    name.includes('festival') ||
+    name.includes('pico')
+  ) {
+    return false;
+  }
+  return (
+    name.includes('natural') ||
+    name.includes('neural') ||
+    name.includes('online') ||
+    name.includes('google') ||
+    name.includes('enhanced') ||
+    name.includes('premium') ||
+    !voice.localService
+  );
+}
+
+function scorePortugueseVoice(voice: SpeechSynthesisVoice, persona: 'male' | 'female'): number {
+  const name = voice.name.toLowerCase();
+  const lang = voice.lang.replace('_', '-').toLowerCase();
+  let score = 0;
+
+  if (lang === 'pt-br' || lang.startsWith('pt-br')) score += 60;
+  else if (lang.startsWith('pt')) score += 20;
+
+  if (name.includes('natural') || name.includes('neural')) score += 120;
+  if (name.includes('online')) score += 90;
+  if (name.includes('google')) score += 85;
+  if (name.includes('enhanced') || name.includes('premium')) score += 70;
+  if (!voice.localService) score += 45;
+
+  if (
+    name.includes('espeak') ||
+    name.includes('mbrola') ||
+    name.includes('festival') ||
+    name.includes('pico') ||
+    name.includes('compact')
+  ) {
+    score -= 120;
+  }
+
+  const maleKeywords = ['antonio', 'antônio', 'humberto', 'donato', 'nicolau', 'fabio', 'fábio', 'valerio', 'valério', 'julio', 'júlio', 'daniel', 'felipe', 'eduardo', 'male', 'homem'];
+  const femaleKeywords = ['francisca', 'thalita', 'brenda', 'giovanna', 'leila', 'leticia', 'letícia', 'manuela', 'yara', 'elsa', 'camila', 'luciana', 'maria', 'vitoria', 'vitória', 'female', 'mulher'];
+  const preferred = persona === 'male' ? maleKeywords : femaleKeywords;
+
+  if (preferred.some((k) => name.includes(k))) {
+    score += 18;
+  }
+
+  return score;
 }
 
 export class ProfessorAudioService {
@@ -95,20 +259,14 @@ export class ProfessorAudioService {
   private static isPaused = false;
   private static isLoadingNeural = false;
   private static isNeuralAudio = false;
-  private static currentRate = 1.05;
-  private static selectedPersona: 'male' | 'female' = 'male'; // male (Puck) / female (Kore)
+  private static currentRate = 1.0;
+  private static selectedPersona: 'male' | 'female' = 'male';
   private static listeners: Set<StatusListener> = new Set();
 
-  // Client-side LRU cache of synthesized WAV URLs for 0ms instant replay
   private static clientAudioCache: Map<string, string> = new Map();
-
-  // Active streaming / preloading jobs keyed by cacheKey so play() attaches seamlessly mid-stream
   private static activeJobs: Map<string, ActiveTtsJob> = new Map();
-
-  // HTML5 Audio instance (cached WAV playback)
   private static currentHtmlAudio: HTMLAudioElement | null = null;
 
-  // Web Audio API streaming playback state
   private static audioContext: AudioContext | null = null;
   private static activeStreamSources: Set<AudioBufferSourceNode> = new Set();
   private static streamNextPlayTime = 0;
@@ -119,16 +277,77 @@ export class ProfessorAudioService {
   private static activeJobUnsubscribe: (() => void) | null = null;
   private static playbackSessionId = 0;
 
-  // Local Web Speech Fallback & Quota Cooldown state
   private static currentChunks: string[] = [];
   private static currentChunkIndex = 0;
   private static activeUtterance: SpeechSynthesisUtterance | null = null;
+  private static chunkPauseTimer: any = null;
   private static keepAliveTimer: any = null;
   private static fallbackReason: SpeechFallbackReason = 'none';
   private static fallbackMessage: string | null = null;
   private static neuralCooldownUntil: number | null = null;
 
+  private static voicesInitialized = false;
+  private static cachedPortugueseVoices: SpeechSynthesisVoice[] = [];
+  private static selectedLocalVoiceURI: string | null = null;
+  private static activeLocalVoiceLabel = 'Voz Local do Navegador (pt-BR)';
+  private static activeLocalVoiceIsNatural = false;
+  private static activeNeuralProvider: string | null = null;
+
+  private static initVoicesWatcher() {
+    if (this.voicesInitialized || typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      return;
+    }
+    this.voicesInitialized = true;
+
+    try {
+      const saved = localStorage.getItem(PREFERRED_LOCAL_VOICE_KEY);
+      if (saved) this.selectedLocalVoiceURI = saved;
+    } catch {
+      // ignore storage errors
+    }
+
+    const refresh = () => {
+      const allVoices = window.speechSynthesis.getVoices() || [];
+      const ptVoices = allVoices
+        .filter((v) => v.lang.replace('_', '-').toLowerCase().startsWith('pt'))
+        .sort((a, b) => scorePortugueseVoice(b, this.selectedPersona) - scorePortugueseVoice(a, this.selectedPersona));
+      this.cachedPortugueseVoices = ptVoices;
+
+      const best = this.pickBestLocalVoice();
+      if (best) {
+        this.activeLocalVoiceLabel = best.name;
+        this.activeLocalVoiceIsNatural = isVoiceNaturalByMetadata(best);
+      }
+      this.notify();
+    };
+
+    refresh();
+    if (typeof window.speechSynthesis.addEventListener === 'function') {
+      window.speechSynthesis.addEventListener('voiceschanged', refresh);
+    } else {
+      window.speechSynthesis.onvoiceschanged = refresh;
+    }
+  }
+
+  private static pickBestLocalVoice(): SpeechSynthesisVoice | null {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return null;
+    const allVoices = window.speechSynthesis.getVoices() || [];
+    const ptVoices = (allVoices.length > 0 ? allVoices : this.cachedPortugueseVoices)
+      .filter((v) => v.lang.replace('_', '-').toLowerCase().startsWith('pt'))
+      .sort((a, b) => scorePortugueseVoice(b, this.selectedPersona) - scorePortugueseVoice(a, this.selectedPersona));
+
+    this.cachedPortugueseVoices = ptVoices;
+    if (ptVoices.length === 0) return null;
+
+    if (this.selectedLocalVoiceURI) {
+      const manual = ptVoices.find((v) => v.voiceURI === this.selectedLocalVoiceURI);
+      if (manual) return manual;
+    }
+    return ptVoices[0];
+  }
+
   public static subscribe(listener: StatusListener): () => void {
+    this.initVoicesWatcher();
     this.listeners.add(listener);
     listener(this.getStatus());
     return () => {
@@ -150,7 +369,16 @@ export class ProfessorAudioService {
   }
 
   public static getStatus(): SpeechStatus {
+    this.initVoicesWatcher();
     const activeCooldownUntil = this.getActiveCooldownUntil();
+    const bestLocal = this.pickBestLocalVoice();
+    const availableLocalVoices: LocalVoiceOption[] = this.cachedPortugueseVoices.map((v) => ({
+      voiceURI: v.voiceURI,
+      name: v.name,
+      lang: v.lang,
+      isNatural: isVoiceNaturalByMetadata(v),
+    }));
+
     return {
       isSpeaking: this.isSpeaking,
       isPaused: this.isPaused,
@@ -159,18 +387,43 @@ export class ProfessorAudioService {
       currentChunkIndex: this.currentChunkIndex,
       totalChunks: this.isNeuralAudio ? this.totalStreamChunks : this.currentChunks.length,
       activeVoiceName: this.isNeuralAudio
-        ? this.selectedPersona === 'male'
-          ? 'Prof. Eduardo (Voz Humana IA)'
-          : 'Profª. Camila (Voz Humana IA)'
-        : 'Voz Local do Navegador (pt-BR)',
+        ? `${this.selectedPersona === 'male' ? 'Prof. Eduardo' : 'Profª. Camila'} (${this.activeNeuralProvider || 'Voz Humana IA'})`
+        : bestLocal?.name || this.activeLocalVoiceLabel,
       fallbackReason: this.fallbackReason,
       fallbackMessage: this.fallbackMessage,
       neuralCooldownUntil: activeCooldownUntil,
+      availableLocalVoices,
+      selectedLocalVoiceURI: this.selectedLocalVoiceURI || bestLocal?.voiceURI || null,
+      activeLocalVoiceIsNatural: bestLocal ? isVoiceNaturalByMetadata(bestLocal) : this.activeLocalVoiceIsNatural,
     };
+  }
+
+  public static setLocalVoiceURI(voiceURI: string) {
+    this.selectedLocalVoiceURI = voiceURI || null;
+    try {
+      if (voiceURI) {
+        localStorage.setItem(PREFERRED_LOCAL_VOICE_KEY, voiceURI);
+      } else {
+        localStorage.removeItem(PREFERRED_LOCAL_VOICE_KEY);
+      }
+    } catch {
+      // ignore
+    }
+    const picked = this.pickBestLocalVoice();
+    if (picked) {
+      this.activeLocalVoiceLabel = picked.name;
+      this.activeLocalVoiceIsNatural = isVoiceNaturalByMetadata(picked);
+    }
+    if (this.isSpeaking && !this.isPaused && !this.isNeuralAudio && this.currentChunks.length > 0) {
+      this.speakChunk(this.currentChunkIndex);
+    } else {
+      this.notify();
+    }
   }
 
   public static setPersona(persona: 'male' | 'female') {
     this.selectedPersona = persona;
+    // Clear manual override only if auto-selecting by persona; keep explicit choice if desired
     this.notify();
   }
 
@@ -211,10 +464,6 @@ export class ProfessorAudioService {
     return { formatted, voice, cacheKey };
   }
 
-  /**
-   * Returns true if either the full WAV is cached or the first streamed PCM segment
-   * is already buffered in memory, enabling 0ms playback start.
-   */
   public static isReadyForInstantPlay(rawText: string): boolean {
     if (!rawText || !rawText.trim()) return false;
     const { cacheKey } = this.buildCacheKey(rawText);
@@ -237,7 +486,7 @@ export class ProfessorAudioService {
     return this.activeFormattedKey === formatted.slice(0, 1200);
   }
 
-  private static setClientCache(key: string, audioUrl: string) {
+  private static setClientCache(key: string, audioUrl: string, persistToIdb = true) {
     if (this.clientAudioCache.size >= MAX_CLIENT_CACHE_ITEMS) {
       const oldestKey = this.clientAudioCache.keys().next().value;
       if (oldestKey) {
@@ -249,6 +498,13 @@ export class ProfessorAudioService {
       }
     }
     this.clientAudioCache.set(key, audioUrl);
+
+    if (persistToIdb && audioUrl.startsWith('data:audio/')) {
+      const blob = dataUrlToBlob(audioUrl);
+      if (blob) {
+        void saveAudioToIndexedDb(key, blob);
+      }
+    }
   }
 
   private static ensureAudioContext(): AudioContext | null {
@@ -267,18 +523,18 @@ export class ProfessorAudioService {
   }
 
   /**
-   * Pre-processes legal text so that Brazilian statutes, acronyms and Roman numerals
-   * sound natural, fluid and authoritative when spoken.
+   * Pre-processes legal text so that Brazilian statutes, acronyms, abbreviations
+   * and pauses sound fluid, clear and natural in both Neural and Browser TTS.
    */
   public static formatLegalTextForSpeech(text: string): string {
     let spoken = text;
 
-    // Remove any prompt instruction prefix so the student hears the explanation directly
     spoken = spoken
       .replace(/^fale com entonação[^\n\:\.]*[\n\:\.]+\s*/i, '')
       .replace(/^[\[\(]?instru[çc][ãa]o[^\]\)]*[\]\)]*:?\s*/i, '')
       .replace(/[\*\_#\`\[\]]/g, '')
-      .replace(/•/g, '')
+      .replace(/•/g, ', ')
+      .replace(/\s·\s/g, ', ')
       .trim();
 
     spoken = spoken
@@ -286,19 +542,26 @@ export class ProfessorAudioService {
       .replace(/\bArts\.\s*/gi, 'Artigos ')
       .replace(/\bparágrafo\s*único\b/gi, 'parágrafo único')
       .replace(/§\s*(\d+)º?/gi, 'parágrafo $1')
+      .replace(/\binc\.\s*/gi, 'inciso ')
+      .replace(/\bal\.\s*/gi, 'alínea ')
+      .replace(/\bn[º°]\s*(\d+)/gi, 'número $1')
       .replace(/\bCF\/88\b/gi, 'Constituição Federal de 88')
       .replace(/\bCC\/02\b/gi, 'Código Civil')
       .replace(/\bCPC\/15\b/gi, 'Código de Processo Civil')
-      .replace(/\bCPP\b/gi, 'Código de Processo Penal')
-      .replace(/\bCP\b/gi, 'Código Penal')
-      .replace(/\bCLT\b/gi, 'Consolidação das Leis do Trabalho')
-      .replace(/\bCTN\b/gi, 'Código Tributário Nacional')
-      .replace(/\bCDC\b/gi, 'Código de Defesa do Consumidor')
+      .replace(/\bCPC\b/g, 'Código de Processo Civil')
+      .replace(/\bCPP\b/g, 'Código de Processo Penal')
+      .replace(/\bCP\b/g, 'Código Penal')
+      .replace(/\bCLT\b/g, 'Consolidação das Leis do Trabalho')
+      .replace(/\bCTN\b/g, 'Código Tributário Nacional')
+      .replace(/\bCDC\b/g, 'Código de Defesa do Consumidor')
+      .replace(/\bECA\b/g, 'Estatuto da Criança e do Adolescente')
+      .replace(/\bLINDB\b/g, 'Lei de Introdução às Normas do Direito Brasileiro')
       .replace(/\bEAOAB\b/gi, 'Estatuto da O. A. B.')
       .replace(/\bOAB\b/gi, 'O. A. B.')
       .replace(/\bCED\b/gi, 'Código de Ética e Disciplina')
       .replace(/\bSTF\b/gi, 'Supremo Tribunal Federal')
       .replace(/\bSTJ\b/gi, 'Superior Tribunal de Justiça')
+      .replace(/\bTST\b/gi, 'Tribunal Superior do Trabalho')
       .replace(/\bADI\b/gi, 'Ação Direta de Inconstitucionalidade')
       .replace(/\bADC\b/gi, 'Ação Declaratória de Constitucionalidade')
       .replace(/\bADPF\b/gi, 'Arguição de Descumprimento de Preceito Fundamental')
@@ -307,7 +570,8 @@ export class ProfessorAudioService {
       .replace(/\bSúmula Vinculante\s*nº?\s*(\d+)/gi, 'Súmula Vinculante número $1 do Supremo Tribunal Federal')
       .replace(/\bex nunc\b/gi, 'équis nunqui')
       .replace(/\bex tunc\b/gi, 'équis tunqui')
-      .replace(/\bquota litis\b/gi, 'quóta lítis');
+      .replace(/\bquota litis\b/gi, 'quóta lítis')
+      .replace(/\bpacta sunt servanda\b/gi, 'pácta sunt servânda');
 
     spoken = spoken.replace(/\s+/g, ' ').trim();
     return spoken;
@@ -332,7 +596,6 @@ export class ProfessorAudioService {
       return existing;
     }
 
-    // Keep at most one unattached background preload running at a time
     if (!attachToPlayback) {
       for (const [key, job] of this.activeJobs.entries()) {
         if (!job.attachedToPlayback && key !== cacheKey) {
@@ -400,6 +663,7 @@ export class ProfessorAudioService {
         const json = await response.json();
         if (json.success && json.audioUrl) {
           job.wavUrl = json.audioUrl;
+          job.providerLabel = json.provider || job.providerLabel;
           job.completed = true;
           this.setClientCache(job.cacheKey, json.audioUrl);
           this.activeJobs.delete(job.cacheKey);
@@ -436,6 +700,7 @@ export class ProfessorAudioService {
             this.notifyJobListeners(job);
           } else if (event.type === 'wav' && event.audioUrl) {
             job.wavUrl = event.audioUrl;
+            job.providerLabel = event.provider || job.providerLabel;
             job.completed = true;
             this.setClientCache(job.cacheKey, event.audioUrl);
             this.activeJobs.delete(job.cacheKey);
@@ -443,6 +708,9 @@ export class ProfessorAudioService {
             this.notify();
             return;
           } else if (event.type === 'pcm' && event.data) {
+            if (event.provider) {
+              job.providerLabel = event.provider;
+            }
             if (typeof event.total === 'number') {
               job.totalSegments = event.total;
             }
@@ -475,8 +743,10 @@ export class ProfessorAudioService {
           } else if (event.type === 'done') {
             job.completed = true;
             if (job.pcmChunks.length > 0) {
-              const wavBlobUrl = buildWavBlobUrlFromPcmChunks(job.pcmChunks, TTS_SAMPLE_RATE);
-              this.setClientCache(job.cacheKey, wavBlobUrl);
+              const wavBlob = buildWavBlobFromPcmChunks(job.pcmChunks, TTS_SAMPLE_RATE);
+              const wavBlobUrl = URL.createObjectURL(wavBlob);
+              this.setClientCache(job.cacheKey, wavBlobUrl, false);
+              void saveAudioToIndexedDb(job.cacheKey, wavBlob);
             }
             this.activeJobs.delete(job.cacheKey);
             this.notifyJobListeners(job);
@@ -488,8 +758,10 @@ export class ProfessorAudioService {
 
       if (!job.completed && job.pcmChunks.length > 0) {
         job.completed = true;
-        const wavBlobUrl = buildWavBlobUrlFromPcmChunks(job.pcmChunks, TTS_SAMPLE_RATE);
-        this.setClientCache(job.cacheKey, wavBlobUrl);
+        const wavBlob = buildWavBlobFromPcmChunks(job.pcmChunks, TTS_SAMPLE_RATE);
+        const wavBlobUrl = URL.createObjectURL(wavBlob);
+        this.setClientCache(job.cacheKey, wavBlobUrl, false);
+        void saveAudioToIndexedDb(job.cacheKey, wavBlob);
         this.activeJobs.delete(job.cacheKey);
         this.notifyJobListeners(job);
         this.notify();
@@ -510,9 +782,6 @@ export class ProfessorAudioService {
     }
   }
 
-  /**
-   * Optional explicit preload (only runs when not in API cooldown).
-   */
   public static preload(rawText: string): void {
     if (typeof window === 'undefined' || !rawText || !rawText.trim()) return;
     if (this.getActiveCooldownUntil()) return;
@@ -615,7 +884,6 @@ export class ProfessorAudioService {
   ): Promise<void> {
     if (sessionId !== this.playbackSessionId) return;
 
-    // Never fire a second /api/tts request when quota/auth/missing_key/timeout already happened
     if (reason === 'quota' || reason === 'auth' || reason === 'missing_key' || reason === 'timeout') {
       this.isLoadingNeural = false;
       this.applyServerFailureState(reason, message, retryAfterSeconds);
@@ -638,6 +906,7 @@ export class ProfessorAudioService {
         if (unaryData.success && unaryData.audioUrl) {
           this.fallbackReason = 'none';
           this.fallbackMessage = null;
+          this.activeNeuralProvider = unaryData.provider || null;
           this.setClientCache(cacheKey, unaryData.audioUrl);
           this.playAudioUrl(unaryData.audioUrl, formatted, sessionId);
           return;
@@ -665,6 +934,11 @@ export class ProfessorAudioService {
 
   private static stopPlaybackPreservingMatchingJob(preserveJobKey?: string) {
     this.playbackSessionId += 1;
+
+    if (this.chunkPauseTimer) {
+      clearTimeout(this.chunkPauseTimer);
+      this.chunkPauseTimer = null;
+    }
 
     if (this.activeJobUnsubscribe) {
       this.activeJobUnsubscribe();
@@ -714,6 +988,7 @@ export class ProfessorAudioService {
     this.isPaused = false;
     this.isLoadingNeural = false;
     this.isNeuralAudio = false;
+    this.activeNeuralProvider = null;
     this.currentChunks = [];
     this.currentChunkIndex = 0;
     this.activeUtterance = null;
@@ -726,21 +1001,15 @@ export class ProfessorAudioService {
     await this.play(rawText, { bypassCooldown: true });
   }
 
-  /**
-   * Main Play function:
-   * 1. Plays immediately (0ms) if audio is already in client cache
-   * 2. If in active Gemini API quota cooldown, uses local voice immediately without hammering the API
-   * 3. Otherwise starts Progressive Streaming Neural TTS (/api/tts/stream)
-   * 4. Falls back cleanly to local browser SpeechSynthesis with clear fallback status
-   */
   public static async play(rawText: string, options?: { bypassCooldown?: boolean }) {
+    this.initVoicesWatcher();
     const bypassCooldown = Boolean(options?.bypassCooldown);
     const { formatted, voice, cacheKey } = this.buildCacheKey(rawText);
     this.stopPlaybackPreservingMatchingJob(cacheKey);
     const sessionId = this.playbackSessionId;
     this.activeFormattedKey = formatted.slice(0, 1200);
 
-    // 1. Instant client-side cache hit (0ms) — always plays neural audio even during cooldown
+    // 1. Instant memory cache hit (0ms)
     const cachedUrl = this.clientAudioCache.get(cacheKey);
     if (cachedUrl) {
       this.fallbackReason = 'none';
@@ -749,7 +1018,21 @@ export class ProfessorAudioService {
       return;
     }
 
-    // 2. Active quota cooldown protection
+    // Unlock Web Audio Context immediately inside user gesture before any await
+    const audioCtx = this.ensureAudioContext();
+
+    // 2. Persistent IndexedDB cache hit (replays previously generated AI voices even after closing the app or during quota cooldown)
+    const idbUrl = await getAudioFromIndexedDb(cacheKey);
+    if (sessionId !== this.playbackSessionId) return;
+    if (idbUrl) {
+      this.setClientCache(cacheKey, idbUrl, false);
+      this.fallbackReason = 'none';
+      this.fallbackMessage = null;
+      this.playAudioUrl(idbUrl, formatted, sessionId);
+      return;
+    }
+
+    // 3. Active quota cooldown protection
     const cooldownUntil = bypassCooldown ? null : this.getActiveCooldownUntil();
     if (cooldownUntil) {
       const waitSec = Math.max(1, Math.ceil((cooldownUntil - Date.now()) / 1000));
@@ -764,8 +1047,6 @@ export class ProfessorAudioService {
     this.fallbackReason = 'none';
     this.fallbackMessage = null;
 
-    // Unlock Web Audio Context immediately inside user gesture before any await
-    const audioCtx = this.ensureAudioContext();
     if (!audioCtx) {
       this.isLoadingNeural = true;
       this.notify();
@@ -818,6 +1099,7 @@ export class ProfessorAudioService {
         cleanupListener();
         this.fallbackReason = 'none';
         this.fallbackMessage = null;
+        this.activeNeuralProvider = job.providerLabel || null;
         this.playAudioUrl(job.wavUrl, formatted, sessionId);
         return;
       }
@@ -834,6 +1116,7 @@ export class ProfessorAudioService {
           this.isPaused = false;
           this.fallbackReason = 'none';
           this.fallbackMessage = null;
+          this.activeNeuralProvider = job.providerLabel || null;
         }
 
         const pcmChunk = job.pcmChunks[consumedChunks];
@@ -880,8 +1163,6 @@ export class ProfessorAudioService {
     };
 
     job.listeners.add(onJobUpdate);
-
-    // Immediately consume anything already preloaded before showing loading state
     onJobUpdate();
 
     if (!settled && !firstAudioArrived && sessionId === this.playbackSessionId) {
@@ -915,6 +1196,10 @@ export class ProfessorAudioService {
     this.speakChunk(0);
   }
 
+  /**
+   * Splits legal text into natural breathing phrases so local synthesis
+   * doesn't rush breathlessly through long multi-clause sentences.
+   */
   private static splitIntoChunks(text: string): string[] {
     const sentences = text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [text];
     const chunks: string[] = [];
@@ -922,7 +1207,27 @@ export class ProfessorAudioService {
     for (const sentence of sentences) {
       const trimmed = sentence.trim();
       if (!trimmed) continue;
-      chunks.push(trimmed);
+      if (trimmed.length <= 170) {
+        chunks.push(trimmed);
+        continue;
+      }
+
+      // Break long legal periods on semicolons, colons, dashes, or balanced commas
+      const clauses = trimmed.split(/(?<=[;:—])\s+|(?<=,\s)(?=.{45,})/);
+      let buffer = '';
+      for (const clause of clauses) {
+        const cleanClause = clause.trim();
+        if (!cleanClause) continue;
+        if (!buffer) {
+          buffer = cleanClause;
+        } else if (buffer.length + 1 + cleanClause.length <= 170) {
+          buffer = `${buffer} ${cleanClause}`;
+        } else {
+          chunks.push(buffer);
+          buffer = cleanClause;
+        }
+      }
+      if (buffer) chunks.push(buffer);
     }
 
     return chunks.length > 0 ? chunks : [text];
@@ -934,60 +1239,55 @@ export class ProfessorAudioService {
       return;
     }
 
+    if (this.chunkPauseTimer) {
+      clearTimeout(this.chunkPauseTimer);
+      this.chunkPauseTimer = null;
+    }
+
     window.speechSynthesis.cancel();
 
     this.currentChunkIndex = index;
     const chunkText = this.currentChunks[index];
     const utterance = new SpeechSynthesisUtterance(chunkText);
 
-    utterance.lang = 'pt-BR';
-    utterance.rate = this.currentRate * 0.95; // slightly slower cadence sounds far more natural
-    utterance.pitch = this.selectedPersona === 'male' ? 0.95 : 1.05;
+    const bestVoice = this.pickBestLocalVoice();
+    const isNaturalBrowserVoice = bestVoice ? isVoiceNaturalByMetadata(bestVoice) : false;
 
-    // Pick best high-fidelity natural Brazilian Portuguese voice available on system/browser
-    const voices = window.speechSynthesis.getVoices();
-    const ptVoices = voices.filter(v => v.lang.replace('_', '-').toLowerCase().startsWith('pt'));
-
-    if (ptVoices.length > 0) {
-      const naturalKeywords = ['natural', 'neural', 'online', 'google', 'brazil', 'brasil'];
-      const brVoices = ptVoices.filter(v => v.lang.toLowerCase().includes('br'));
-      const pool = brVoices.length > 0 ? brVoices : ptVoices;
-
-      const maleKeywords = ['eduardo', 'antonio', 'jorge', 'male', 'homem', 'daniel', 'felipe'];
-      const femaleKeywords = ['camila', 'francisca', 'luciana', 'female', 'mulher', 'maria', 'vitoria', 'leticia'];
-      const preferredKeywords = this.selectedPersona === 'male' ? maleKeywords : femaleKeywords;
-
-      let bestVoice = pool.find(v => {
-        const name = v.name.toLowerCase();
-        return preferredKeywords.some(k => name.includes(k)) && naturalKeywords.some(k => name.includes(k));
-      });
-
-      if (!bestVoice) {
-        bestVoice = pool.find(v => {
-          const name = v.name.toLowerCase();
-          return naturalKeywords.some(k => name.includes(k));
-        });
-      }
-
-      if (!bestVoice) {
-        bestVoice = pool.find(v => {
-          const name = v.name.toLowerCase();
-          return preferredKeywords.some(k => name.includes(k));
-        });
-      }
-
-      utterance.voice = bestVoice || pool[0];
+    if (bestVoice) {
+      utterance.voice = bestVoice;
+      utterance.lang = bestVoice.lang || 'pt-BR';
+      this.activeLocalVoiceLabel = bestVoice.name;
+      this.activeLocalVoiceIsNatural = isNaturalBrowserVoice;
+    } else {
+      utterance.lang = 'pt-BR';
+      this.activeLocalVoiceLabel = 'Voz Local do Navegador (pt-BR)';
+      this.activeLocalVoiceIsNatural = false;
     }
 
+    // Never pitch-shift neural/Google/Edge online voices (artificial pitch causes robotic artifacts)
+    utterance.rate = isNaturalBrowserVoice ? this.currentRate : Math.max(0.82, this.currentRate * 0.96);
+    utterance.pitch = isNaturalBrowserVoice ? 1.0 : (this.selectedPersona === 'male' ? 0.96 : 1.04);
+
+    const activeSessionId = this.playbackSessionId;
+
     utterance.onend = () => {
+      if (activeSessionId !== this.playbackSessionId) return;
       if (this.isSpeaking && !this.isPaused && !this.isNeuralAudio) {
-        this.speakChunk(index + 1);
+        const endsSentence = /[.!?]$/.test(chunkText.trim());
+        const pauseMs = endsSentence ? 140 : 60;
+        this.chunkPauseTimer = setTimeout(() => {
+          if (activeSessionId === this.playbackSessionId && this.isSpeaking && !this.isPaused) {
+            this.speakChunk(index + 1);
+          }
+        }, pauseMs);
       }
     };
 
     utterance.onerror = e => {
       if (e.error === 'canceled' || e.error === 'interrupted') return;
-      this.speakChunk(index + 1);
+      if (activeSessionId === this.playbackSessionId) {
+        this.speakChunk(index + 1);
+      }
     };
 
     this.activeUtterance = utterance;
@@ -996,6 +1296,11 @@ export class ProfessorAudioService {
   }
 
   public static pause() {
+    if (this.chunkPauseTimer) {
+      clearTimeout(this.chunkPauseTimer);
+      this.chunkPauseTimer = null;
+    }
+
     if (this.currentHtmlAudio && this.isSpeaking) {
       this.currentHtmlAudio.pause();
       this.isPaused = true;

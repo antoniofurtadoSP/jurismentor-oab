@@ -23,13 +23,99 @@ import {
   type OptionSymmetryReport,
 } from '../scripts/questionRebalancer';
 
-const apiKey = process.env.GEMINI_API_KEY;
-export const aiClient = apiKey
-  ? new GoogleGenAI({
-      apiKey,
+function collectGeminiPoolKeys(): string[] {
+  const keys: string[] = [];
+  const pushKey = (candidate?: string) => {
+    const clean = (candidate || '').trim().replace(/^["']|["']$/g, '');
+    if (!clean || clean.startsWith('MY_')) return;
+    if (!keys.includes(clean)) keys.push(clean);
+  };
+
+  pushKey(process.env.GEMINI_API_KEY);
+  pushKey(process.env.GEMINI_API_KEY_BACKUP);
+  for (const idxKey of ['GEMINI_API_KEY_2', 'GEMINI_API_KEY_3', 'GEMINI_API_KEY_4', 'GEMINI_API_KEY_5']) {
+    pushKey(process.env[idxKey]);
+  }
+  if (process.env.GEMINI_API_KEYS) {
+    for (const part of process.env.GEMINI_API_KEYS.split(/[,;\n\r]+/)) {
+      pushKey(part);
+    }
+  }
+  return keys;
+}
+
+const geminiKeyClients: GoogleGenAI[] = collectGeminiPoolKeys().map(
+  (key) =>
+    new GoogleGenAI({
+      apiKey: key,
       httpOptions: { headers: { 'User-Agent': 'aistudio-build' } },
     })
-  : null;
+);
+
+export const aiClient: GoogleGenAI | null = geminiKeyClients[0] || null;
+const geminiKeyCooldownUntil = new Map<number, number>();
+
+function isQuotaOrAuthError(err: any): { quota: boolean; auth: boolean } {
+  const status = Number(err?.status || err?.code || 0);
+  const msg = `${status} ${String(err?.message || '')}`.toLowerCase();
+  const quota =
+    status === 429 ||
+    msg.includes('429') ||
+    msg.includes('resource_exhausted') ||
+    msg.includes('quota') ||
+    msg.includes('rate limit');
+  const auth =
+    status === 401 ||
+    status === 403 ||
+    msg.includes('api_key_invalid') ||
+    msg.includes('api key not valid') ||
+    msg.includes('permission_denied');
+  return { quota, auth };
+}
+
+async function generateGeminiContentWithFailover(
+  params: Parameters<GoogleGenAI['models']['generateContent']>[0]
+) {
+  if (geminiKeyClients.length === 0) {
+    throw new Error('Nenhuma chave Gemini configurada no servidor.');
+  }
+
+  const now = Date.now();
+  const orderedIndices: number[] = [];
+  for (let i = 0; i < geminiKeyClients.length; i++) {
+    if ((geminiKeyCooldownUntil.get(i) || 0) <= now) {
+      orderedIndices.push(i);
+    }
+  }
+  if (orderedIndices.length === 0) {
+    for (let i = 0; i < geminiKeyClients.length; i++) {
+      orderedIndices.push(i);
+    }
+  }
+
+  let lastError: any;
+  for (const idx of orderedIndices) {
+    try {
+      return await geminiKeyClients[idx].models.generateContent(params);
+    } catch (err: any) {
+      lastError = err;
+      const { quota, auth } = isQuotaOrAuthError(err);
+      if (quota) {
+        geminiKeyCooldownUntil.set(idx, Date.now() + 60_000);
+        console.warn(`[AI Engine] Chave Gemini #${idx + 1} atingiu cota (429), tentando próxima chave se disponível.`);
+        continue;
+      }
+      if (auth) {
+        geminiKeyCooldownUntil.set(idx, Date.now() + 600_000);
+        console.warn(`[AI Engine] Chave Gemini #${idx + 1} sem permissão/inválida, tentando próxima chave se disponível.`);
+        continue;
+      }
+      throw err;
+    }
+  }
+
+  throw lastError;
+}
 
 const PRIMARY_MODEL = 'gemini-4-hydrogen';
 
@@ -180,7 +266,7 @@ export async function validateQuestionIndependently(
         required: ['ambiguous', 'contradictsSources', 'hasMultipleCorrect', 'outdatedLaw', 'auditNotes'],
       };
 
-      const resp = await aiClient.models.generateContent({
+      const resp = await generateGeminiContentWithFailover({
         model: PRIMARY_MODEL,
         contents: [
           {
@@ -553,7 +639,7 @@ ${formattedJuris || 'Nenhuma súmula específica indexada para este subassunto; 
   const startMs = Date.now();
   let rawJson = '[]';
   try {
-    const resp = await aiClient.models.generateContent({
+    const resp = await generateGeminiContentWithFailover({
       model: PRIMARY_MODEL,
       contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
       config: {
@@ -790,7 +876,7 @@ Dúvida do aluno: "${params.userQuery || 'Explique a questão no nível selecion
 
   const startMs = Date.now();
   try {
-    const resp = await aiClient.models.generateContent({
+    const resp = await generateGeminiContentWithFailover({
       model: PRIMARY_MODEL,
       contents: [{ role: 'user', parts: [{ text: `${systemPrompt}\n\n${userPrompt}` }] }],
     });
@@ -1037,7 +1123,7 @@ REGRAS OBRIGATÓRIAS:
   for (const model of modelsToTry) {
     try {
       usedModel = model;
-      resp = await aiClient.models.generateContent({
+      resp = await generateGeminiContentWithFailover({
         model,
         contents: [{ role: 'user', parts: [{ text: prompt }] }],
         config: {
@@ -1304,7 +1390,7 @@ ${groundingCtx?.jurisContext ? `\nPrecedentes relacionados na base:\n${grounding
 
   const startMs = Date.now();
   try {
-    const resp = await aiClient.models.generateContent({
+    const resp = await generateGeminiContentWithFailover({
       model: PRIMARY_MODEL,
       contents: [{ role: 'user', parts: [{ text: prompt }] }],
       config: {

@@ -112,12 +112,12 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
   const getFallbackNoticeText = (): string => {
     if (status.fallbackReason === 'quota') {
       if (cooldownSecondsLeft > 0) {
-        return `Limite temporário da API Gemini atingido. Reproduzindo com a voz do navegador — nova tentativa automática disponível em ${cooldownSecondsLeft}s.`;
+        return `Limite temporário dos motores de voz IA atingido. Reproduzindo com a voz do navegador — nova tentativa automática disponível em ${cooldownSecondsLeft}s.`;
       }
-      return 'Limite temporário da API Gemini ocorreu na última tentativa. Você já pode tentar a voz natural novamente ou usar uma chave com faturamento ativo nas configurações.';
+      return 'Limite temporário de cota ocorreu na última tentativa. Você já pode tentar a voz natural novamente ou configurar chaves extras de backup no servidor.';
     }
     if (status.fallbackReason === 'auth' || status.fallbackReason === 'missing_key') {
-      return 'Voz natural IA indisponível (verifique a chave da API Gemini nas configurações do servidor). Reproduzindo com a voz do navegador.';
+      return 'Voz natural IA indisponível (verifique as chaves de API configuradas no servidor). Reproduzindo com a voz do navegador.';
     }
     if (status.fallbackReason === 'timeout') {
       return 'A voz natural IA demorou para responder e alternou para a voz do navegador.';
@@ -354,21 +354,54 @@ export const ProfessorAudioPlayer: React.FC<ProfessorAudioPlayerProps> = ({
       </div>
 
       {shouldShowFallbackBanner && (
-        <div className="pt-2.5 border-t border-[#DFD7C8] flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">
-          <div className="flex items-start gap-2 text-stone-700 font-serif">
-            <AlertCircle className="w-4 h-4 text-[#7B1E26] shrink-0 mt-0.5" />
-            <span>{getFallbackNoticeText()}</span>
+        <div className="pt-2.5 border-t border-[#DFD7C8] space-y-2 text-xs">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div className="flex items-start gap-2 text-stone-700 font-serif">
+              <AlertCircle className="w-4 h-4 text-[#7B1E26] shrink-0 mt-0.5" />
+              <span>{getFallbackNoticeText()}</span>
+            </div>
+            {status.fallbackReason !== 'auth' && status.fallbackReason !== 'missing_key' && (
+              <button
+                onClick={handleRetryNeural}
+                disabled={isThisLoading}
+                className="self-start sm:self-auto shrink-0 px-3 py-1.5 rounded-lg bg-white hover:bg-[#EAE3D5] text-[#1B365D] border border-[#D6CCB9] font-sans font-semibold text-[11px] flex items-center gap-1.5 transition-colors cursor-pointer"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                <span>{cooldownSecondsLeft > 0 ? `Tentar agora (${cooldownSecondsLeft}s)` : 'Tentar Voz Natural'}</span>
+              </button>
+            )}
           </div>
-          {status.fallbackReason !== 'auth' && status.fallbackReason !== 'missing_key' && (
-            <button
-              onClick={handleRetryNeural}
-              disabled={isThisLoading}
-              className="self-start sm:self-auto shrink-0 px-3 py-1.5 rounded-lg bg-white hover:bg-[#EAE3D5] text-[#1B365D] border border-[#D6CCB9] font-sans font-semibold text-[11px] flex items-center gap-1.5 transition-colors cursor-pointer"
-            >
-              <RotateCcw className="w-3.5 h-3.5" />
-              <span>{cooldownSecondsLeft > 0 ? `Tentar agora (${cooldownSecondsLeft}s)` : 'Tentar Voz Natural'}</span>
-            </button>
-          )}
+
+          <div className="flex flex-wrap items-center justify-between gap-2 pl-6 text-[11px] text-stone-600">
+            <div className="flex flex-wrap items-center gap-2">
+              {status.availableLocalVoices.length > 1 ? (
+                <label className="inline-flex items-center gap-1.5 font-sans">
+                  <span className="font-semibold text-stone-700">Voz local:</span>
+                  <select
+                    value={status.selectedLocalVoiceURI || ''}
+                    onChange={(e) => ProfessorAudioService.setLocalVoiceURI(e.target.value)}
+                    className="bg-white border border-[#D6CCB9] rounded-md px-2 py-1 text-[11px] text-stone-800 max-w-[240px] focus:outline-none focus:border-[#1B365D]"
+                  >
+                    {status.availableLocalVoices.map((v) => (
+                      <option key={v.voiceURI} value={v.voiceURI}>
+                        {v.isNatural ? `★ ${v.name}` : v.name}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              ) : (
+                <span>
+                  Voz ativa no aparelho: <strong className="text-stone-800">{status.activeVoiceName}</strong>
+                </span>
+              )}
+            </div>
+
+            {!status.activeLocalVoiceIsNatural && (
+              <span className="font-serif italic text-stone-600">
+                Dica: no Microsoft Edge ou Chrome atualizado há vozes neurais gratuitas (como Antonio/Francisca Online ou Google Português) muito mais naturais que a voz padrão do sistema.
+              </span>
+            )}
+          </div>
         </div>
       )}
     </div>

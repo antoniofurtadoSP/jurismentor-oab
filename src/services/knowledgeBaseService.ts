@@ -1,3 +1,4 @@
+import { auth } from '../firebase';
 import type { LegalQuestion } from '../types';
 import type {
   DifficultyLevel,
@@ -11,6 +12,45 @@ import type {
   QuestionValidationReport,
   QuestionValidationStatus,
 } from '../types/knowledgeBase';
+
+async function getAdminRequestHeaders(includeJson = true): Promise<Record<string, string>> {
+  const headers: Record<string, string> = {};
+  if (includeJson) {
+    headers['Content-Type'] = 'application/json';
+  }
+  try {
+    const user = auth.currentUser;
+    if (user) {
+      const token = await user.getIdToken();
+      if (token) {
+        headers.Authorization = `Bearer ${token}`;
+      }
+    }
+  } catch {
+    // Leave unauthenticated if token retrieval fails; server enforces fail-closed 401
+  }
+  return headers;
+}
+
+export async function fetchAdminSessionStatus(): Promise<{
+  authenticated: boolean;
+  isAdmin: boolean;
+  email?: string;
+}> {
+  try {
+    const headers = await getAdminRequestHeaders(false);
+    const res = await fetch('/api/kb/admin/session', { headers });
+    if (!res.ok) return { authenticated: false, isAdmin: false };
+    const data = await res.json();
+    return {
+      authenticated: Boolean(data?.authenticated),
+      isAdmin: Boolean(data?.isAdmin),
+      email: data?.email,
+    };
+  } catch {
+    return { authenticated: false, isAdmin: false };
+  }
+}
 
 export interface KnowledgeOverviewResponse {
   success: boolean;
@@ -66,7 +106,7 @@ export async function fetchKbOverview(): Promise<KnowledgeOverviewResponse> {
 export async function updateQualityConfig(partial: Partial<QualityConfig>): Promise<QualityConfig> {
   const res = await fetch('/api/kb/config', {
     method: 'PUT',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify(partial),
   });
   const data = await res.json();
@@ -95,7 +135,7 @@ export async function searchLegislation(params: {
 export async function saveNorm(norm: Partial<LegislationNorm>): Promise<LegislationNorm> {
   const res = await fetch('/api/kb/legislation/norm', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify(norm),
   });
   const data = await res.json();
@@ -106,7 +146,7 @@ export async function saveNorm(norm: Partial<LegislationNorm>): Promise<Legislat
 export async function saveArticle(article: Partial<LawArticle>): Promise<LawArticle> {
   const res = await fetch('/api/kb/legislation/article', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify(article),
   });
   const data = await res.json();
@@ -137,7 +177,7 @@ export async function searchJurisprudence(params: {
 export async function saveJurisprudence(record: Partial<JurisprudenceRecord>): Promise<JurisprudenceRecord> {
   const res = await fetch('/api/kb/jurisprudence', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify(record),
   });
   const data = await res.json();
@@ -178,7 +218,7 @@ export async function createOrUpdateKbQuestion(
   const url = isEdit ? `/api/kb/questions/${question.id}` : '/api/kb/questions';
   const res = await fetch(url, {
     method: isEdit ? 'PUT' : 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify(question),
   });
   const data = await res.json();
@@ -192,7 +232,7 @@ export async function updateQuestionStatus(
 ): Promise<LegalQuestion> {
   const res = await fetch(`/api/kb/questions/${id}/status`, {
     method: 'PATCH',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify({ status }),
   });
   const data = await res.json();
@@ -206,7 +246,7 @@ export async function runTwoStageValidation(
 ): Promise<{ question: LegalQuestion; validation: { status: QuestionValidationStatus; report: QuestionValidationReport } }> {
   const res = await fetch(`/api/kb/questions/${id}/validate`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify({ runAiSecondPass }),
   });
   const data = await res.json();
@@ -231,7 +271,7 @@ export async function generateGroundedQuestionsApi(params: {
 }> {
   const res = await fetch('/api/kb/questions/generate-grounded', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify(params),
   });
   const data = await res.json();
@@ -267,7 +307,7 @@ export async function refactorQuestionAlternativesApi(id: string): Promise<{
 }> {
   const res = await fetch(`/api/kb/questions/${id}/refactor-alternatives`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
   });
   const data = await res.json();
   if (!res.ok || !data.success) throw new Error(data.error || 'Erro ao refatorar distratores da questão');
@@ -288,7 +328,7 @@ export async function refactorAlternativesBatchApi(params?: {
 }> {
   const res = await fetch('/api/kb/questions/refactor-alternatives-batch', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify(params || {}),
   });
   const data = await res.json();
@@ -306,7 +346,7 @@ export async function extractPdfTextFromFile(file: File): Promise<{ text: string
 
   const res = await fetch('/api/kb/import/extract-pdf', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify({ base64Data }),
   });
   const data = await res.json();
@@ -332,7 +372,7 @@ export async function processImportApi(payload: {
 }> {
   const res = await fetch('/api/kb/import/process', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify(payload),
   });
   const data = await res.json();
@@ -366,7 +406,7 @@ export async function recordLegalUpdateApi(payload: {
 }): Promise<LegalUpdateLog> {
   const res = await fetch('/api/kb/updates', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: await getAdminRequestHeaders(true),
     body: JSON.stringify(payload),
   });
   const data = await res.json();

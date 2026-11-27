@@ -744,11 +744,24 @@ class LegalDatabaseStore {
   }
 
   // ==================== CACHE & TELEMETRIA DE IA (MÓDULO 12) ====================
+  private isSafeCacheKey(key: string): boolean {
+    return (
+      typeof key === 'string' &&
+      key.length > 0 &&
+      key.length <= 260 &&
+      key !== '__proto__' &&
+      key !== 'constructor' &&
+      key !== 'prototype'
+    );
+  }
+
   public getTutorCache(key: string) {
-    return this.db.tutorCache[key] || null;
+    if (!this.isSafeCacheKey(key)) return null;
+    return Object.hasOwn(this.db.tutorCache, key) ? this.db.tutorCache[key] : null;
   }
 
   public setTutorCache(key: string, answer: string, groundedSources: string[]) {
+    if (!this.isSafeCacheKey(key)) return;
     const keys = Object.keys(this.db.tutorCache);
     if (keys.length >= 250) {
       delete this.db.tutorCache[keys[0]];
@@ -799,7 +812,18 @@ class LegalDatabaseStore {
       totalPromptTokens,
       totalCompletionTokens,
       totalTokens,
-      recentLogs: this.db.aiLogs.slice(0, 20),
+      recentLogs: this.db.aiLogs.slice(0, 20).map((log) => ({
+        id: log.id,
+        endpoint: log.endpoint,
+        model: log.model,
+        promptTokens: log.promptTokens,
+        completionTokens: log.completionTokens,
+        totalTokens: log.totalTokens,
+        cached: log.cached,
+        durationMs: log.durationMs,
+        success: log.success,
+        createdAt: log.createdAt,
+      })),
     };
   }
 }

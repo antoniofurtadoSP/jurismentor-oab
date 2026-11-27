@@ -2,6 +2,8 @@ import type { LegalQuestion } from '../src/types';
 import type { LawArticle, JurisprudenceRecord } from '../src/types/knowledgeBase';
 import { computeContentHash, normalizeTextForMatch } from './legalDb';
 
+import { isSafeObjectKey, sanitizeHttpUrl } from './security';
+
 /**
  * Extrai texto de um buffer PDF usando pdfjs-dist (pure JS, compatível com Node ESM).
  */
@@ -16,7 +18,8 @@ export async function extractTextFromPdfBuffer(pdfBuffer: Buffer): Promise<{ tex
   });
 
   const doc = await loadingTask.promise;
-  const pageCount = doc.numPages || 0;
+  const totalPages = doc.numPages || 0;
+  const pageCount = Math.min(totalPages, 250);
   const pagesText: string[] = [];
 
   for (let p = 1; p <= pageCount; p++) {
@@ -72,13 +75,16 @@ export function parseCsvRows(csvText: string): Array<Record<string, string>> {
 
   const headers = splitCsvLine(lines[0]).map(h => h.trim());
   const rows: Array<Record<string, string>> = [];
+  const maxLines = Math.min(lines.length, 2001);
 
-  for (let i = 1; i < lines.length; i++) {
+  for (let i = 1; i < maxLines; i++) {
     const cols = splitCsvLine(lines[i]);
     if (cols.every(c => !c)) continue;
     const row: Record<string, string> = {};
     headers.forEach((h, idx) => {
-      row[h] = cols[idx] ?? '';
+      if (isSafeObjectKey(h)) {
+        row[h] = cols[idx] ?? '';
+      }
     });
     rows.push(row);
   }
@@ -218,7 +224,7 @@ export function parseRawExamTextToQuestions(
       validationStatus: gabMatch ? 'AGUARDANDO_REVISAO' : 'EM_VALIDACAO',
       sourceMeta: {
         originName: `Importação Oficial ${meta.examNumber}`,
-        originUrl: meta.officialSourceUrl || 'https://oab.fgv.br/',
+        originUrl: sanitizeHttpUrl(meta.officialSourceUrl, 'https://oab.fgv.br/'),
         rightsChecked: true,
         createdAt: now,
         updatedAt: now,
@@ -345,7 +351,7 @@ export function normalizeImportedQuestions(
       validationStatus: raw.validationStatus || 'AGUARDANDO_REVISAO',
       sourceMeta: {
         originName: defaults.examNumber ? `Importação ${defaults.examNumber}` : 'Importação Administrativa',
-        originUrl: defaults.officialSourceUrl || raw.originUrl || 'https://oab.fgv.br/',
+        originUrl: sanitizeHttpUrl(defaults.officialSourceUrl || raw.originUrl, 'https://oab.fgv.br/'),
         rightsChecked: true,
         createdAt: now,
         updatedAt: now,
@@ -362,9 +368,9 @@ export function normalizeImportedJurisprudence(items: any[]): { records: Jurispr
   const errors: string[] = [];
   const today = new Date().toISOString().slice(0, 10);
 
-  items.forEach((raw, idx) => {
-    const identification = String(raw.identification || raw.identificacao || '').trim();
-    const thesis = String(raw.thesis || raw.tese || '').trim();
+  items.slice(0, 1000).forEach((raw, idx) => {
+    const identification = String(raw.identification || raw.identificacao || '').trim().slice(0, 160);
+    const thesis = String(raw.thesis || raw.tese || '').trim().slice(0, 4000);
     if (!identification || !thesis) {
       errors.push(`Jurisprudência #${idx + 1}: identificação e tese são obrigatórias.`);
       return;
@@ -380,7 +386,7 @@ export function normalizeImportedJurisprudence(items: any[]): { records: Jurispr
       summary: raw.summary || raw.ementa || thesis,
       judgmentDate: raw.judgmentDate || raw.dataJulgamento || today,
       publicationDate: raw.publicationDate || raw.dataPublicacao || today,
-      officialSourceUrl: raw.officialSourceUrl || raw.fonte || 'https://portal.stf.jus.br/',
+      officialSourceUrl: sanitizeHttpUrl(raw.officialSourceUrl || raw.fonte, 'https://portal.stf.jus.br/'),
       status: raw.status || 'VIGENTE',
       divergenceNote: raw.divergenceNote,
       lastVerifiedAt: today,

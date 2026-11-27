@@ -24,7 +24,27 @@ import {
   parseRawExamTextToQuestions,
   parseRawLegislationText,
 } from './server/importParser';
-import type { ImportJobRecord, LawArticle, LegislationNorm } from './src/types/knowledgeBase';
+import type { ImportJobRecord, LawArticle } from './src/types/knowledgeBase';
+import {
+  createRateLimiter,
+  extractVerifiedUser,
+  isAdminEmail,
+  isPublicProductionDeployment,
+  requireAdmin,
+  sanitizeEntityId,
+  sanitizeHttpUrl,
+  sanitizeQualityConfigPayload,
+  sanitizeQuestionCreatePayload,
+  sanitizeQuestionUpdatePayload,
+  sanitizeStringArray,
+  sanitizeText,
+  securityHeadersMiddleware,
+  validateArticlePayload,
+  validateJurisprudencePayload,
+  validateNormPayload,
+  validatePdfBuffer,
+  validateQuestionStatus,
+} from './server/security';
 
 dotenv.config();
 
@@ -34,29 +54,86 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.use(express.json({ limit: '15mb' }));
+app.disable('x-powered-by');
+app.set('trust proxy', 1);
+app.use(securityHeadersMiddleware);
+
+const largeImportJsonParser = express.json({ limit: '15mb' });
+const defaultJsonParser = express.json({ limit: '1mb' });
+app.use((req, res, next) => {
+  if (req.path === '/api/kb/import/extract-pdf' || req.path === '/api/kb/import/process') {
+    return largeImportJsonParser(req, res, next);
+  }
+  return defaultJsonParser(req, res, next);
+});
+
+const tutorLimiter = createRateLimiter({
+  windowMs: 60_000,
+  maxRequests: 30,
+  message: 'Muitas consultas ao Professor IA em sequência. Aguarde alguns segundos.',
+});
+
+const performanceAnalysisLimiter = createRateLimiter({
+  windowMs: 5 * 60_000,
+  maxRequests: 15,
+  message: 'Muitas análises de desempenho solicitadas em pouco tempo. Aguarde alguns instantes.',
+});
+
+const ttsLimiter = createRateLimiter({
+  windowMs: 60_000,
+  maxRequests: 45,
+  message: 'Limite temporário de solicitações de voz atingido.',
+  ttsFallback: true,
+});
+
+const autoUpdateLimiter = createRateLimiter({
+  windowMs: 10 * 60_000,
+  maxRequests: 12,
+  message: 'Limite temporário de geração automática de questões atingido. Tente novamente em alguns minutos.',
+});
+
+const adminMutationLimiter = createRateLimiter({
+  windowMs: 60_000,
+  maxRequests: 60,
+  message: 'Muitas operações administrativas em sequência. Aguarde alguns segundos.',
+});
 
 const apiKey = process.env.GEMINI_API_KEY;
 
 // =========================================================================
 // MÓDULO 5 & 12: PROFESSOR JURÍDICO IA EM 3 NÍVEIS COM CACHE E GROUNDING
 // =========================================================================
-app.post('/api/tutor', async (req, res) => {
+app.post('/api/tutor', tutorLimiter, async (req, res) => {
   try {
-    const { question, userQuery, context, mode, explanationLevel } = req.body;
+    const body = req.body || {};
+    const mode = body.mode === 'explain_question' ? 'explain_question' : 'free_doubt';
+    const explanationLevel =
+      body.explanationLevel === 'simples' || body.explanationLevel === 'aprofundado'
+        ? body.explanationLevel
+        : 'intermediario';
+    const userQuery = sanitizeText(body.userQuery, 2000);
+    const context = body.context ? sanitizeText(body.context, 200) : undefined;
+
+    if (mode === 'free_doubt' && !userQuery) {
+      return res.status(400).json({
+        success: false,
+        error: 'Informe uma dúvida jurídica para consultar o Professor.',
+      });
+    }
+
     const result = await answerTutorWithGrounding({
-      question,
+      question: body.question && typeof body.question === 'object' ? body.question : undefined,
       userQuery,
       context,
-      mode: mode || 'free_doubt',
-      explanationLevel: explanationLevel || 'intermediario',
+      mode,
+      explanationLevel,
     });
     res.json(result);
   } catch (error: any) {
     console.error('Erro no endpoint /api/tutor:', error);
     res.status(500).json({
       success: false,
-      error: error?.message || 'Erro ao consultar o Professor Jurídico.',
+      error: 'Erro ao consultar o Professor Jurídico.',
     });
   }
 });
@@ -64,15 +141,15 @@ app.post('/api/tutor', async (req, res) => {
 // =========================================================================
 // ANÁLISE INTELIGENTE DE ERROS E TÓPICOS PRIORITÁRIOS (GEMINI)
 // =========================================================================
-app.post('/api/performance/analyze-errors', async (req, res) => {
+app.post('/api/performance/analyze-errors', performanceAnalysisLimiter, async (req, res) => {
   try {
     const { overallAccuracy, totalAnswered, totalCorrect, rankedSubjects, missedQuestions } = req.body || {};
     const result = await analyzePerformanceErrorsWithGemini({
-      overallAccuracy: Number(overallAccuracy || 0),
-      totalAnswered: Number(totalAnswered || 0),
-      totalCorrect: Number(totalCorrect || 0),
-      rankedSubjects: Array.isArray(rankedSubjects) ? rankedSubjects : [],
-      missedQuestions: Array.isArray(missedQuestions) ? missedQuestions : [],
+      overallAccuracy: Math.max(0, Math.min(100, Number(overallAccuracy || 0))),
+      totalAnswered: Math.max(0, Math.min(50000, Number(totalAnswered || 0))),
+      totalCorrect: Math.max(0, Math.min(50000, Number(totalCorrect || 0))),
+      rankedSubjects: Array.isArray(rankedSubjects) ? rankedSubjects.slice(0, 30) : [],
+      missedQuestions: Array.isArray(missedQuestions) ? missedQuestions.slice(0, 100) : [],
     });
 
     if (!result.success || !result.analysis) {
@@ -90,7 +167,7 @@ app.post('/api/performance/analyze-errors', async (req, res) => {
     console.error('Erro no endpoint /api/performance/analyze-errors:', error);
     res.status(500).json({
       success: false,
-      error: error?.message || 'Erro interno ao analisar erros de desempenho.',
+      error: 'Erro interno ao analisar erros de desempenho.',
     });
   }
 });
@@ -798,7 +875,7 @@ app.get('/api/tts/status', (_req, res) => {
   });
 });
 
-app.post('/api/tts/stream', async (req, res) => {
+app.post('/api/tts/stream', ttsLimiter, async (req, res) => {
   const sendLine = (payload: Record<string, unknown>) => {
     if (!res.writableEnded) {
       res.write(`${JSON.stringify(payload)}\n`);
@@ -823,7 +900,7 @@ app.post('/api/tts/stream', async (req, res) => {
     }
 
     const cleanText = sanitizeTtsText(text);
-    const selectedVoice = voice || 'Puck';
+    const selectedVoice = typeof voice === 'string' && voice.trim() ? voice.trim().slice(0, 32) : 'Puck';
     const cacheKey = `${selectedVoice}_${cleanText}`;
     const cache = getTtsCache();
 
@@ -971,7 +1048,6 @@ app.post('/api/tts/stream', async (req, res) => {
         reason: classified.reason,
         retryAfterSeconds: classified.retryAfterSeconds,
         message: classified.message,
-        error: err?.message || 'Falha no stream TTS.',
       });
     }
     sendLine({
@@ -979,13 +1055,12 @@ app.post('/api/tts/stream', async (req, res) => {
       reason: classified.reason,
       retryAfterSeconds: classified.retryAfterSeconds,
       message: classified.message,
-      error: err?.message || 'Falha no stream TTS.',
     });
     return res.end();
   }
 });
 
-app.post('/api/tts', async (req, res) => {
+app.post('/api/tts', ttsLimiter, async (req, res) => {
   try {
     const { text, voice = 'Puck', bypassCooldown = false } = req.body || {};
     const allEngines = getConfiguredTtsEngines();
@@ -1004,7 +1079,7 @@ app.post('/api/tts', async (req, res) => {
     }
 
     const cleanText = sanitizeTtsText(text);
-    const selectedVoice = voice || 'Puck';
+    const selectedVoice = typeof voice === 'string' && voice.trim() ? voice.trim().slice(0, 32) : 'Puck';
     const cacheKey = `${selectedVoice}_${cleanText}`;
     const cache = getTtsCache();
 
@@ -1040,7 +1115,6 @@ app.post('/api/tts', async (req, res) => {
       useLocalFallback: true,
       reason: outcome.failure?.reason || 'unavailable',
       retryAfterSeconds: outcome.failure?.retryAfterSeconds,
-      error: outcome.failure?.rawError || outcome.failure?.message || 'Sem áudio retornado pelos motores',
       message: outcome.failure?.message || 'Motores de voz IA indisponíveis, usando fallback local.',
     });
   } catch (err: any) {
@@ -1052,7 +1126,6 @@ app.post('/api/tts', async (req, res) => {
       reason: classified.reason,
       retryAfterSeconds: classified.retryAfterSeconds,
       message: classified.message,
-      error: err?.message,
     });
   }
 });
@@ -1060,16 +1133,17 @@ app.post('/api/tts', async (req, res) => {
 // =========================================================================
 // MÓDULO 3: GERAÇÃO DE QUESTÕES INÉDITAS FUNDAMENTADAS (COMPATÍVEL)
 // =========================================================================
-app.post('/api/questions/auto-update', async (req, res) => {
+app.post('/api/questions/auto-update', autoUpdateLimiter, async (req, res) => {
   try {
-    const {
-      subject = 'Direito Tributário',
-      targetExamType = 'OAB',
-      count = 3,
-      topic,
-      subtopic,
-      difficultyLevel = 2,
-    } = req.body;
+    const body = req.body || {};
+    const subject = sanitizeText(body.subject, 120, 'Direito Tributário');
+    const targetExamType =
+      body.targetExamType === 'FACULDADE' || body.targetExamType === 'CONCURSO' ? body.targetExamType : 'OAB';
+    const count = Math.max(1, Math.min(5, Math.round(Number(body.count) || 3)));
+    const topic = body.topic ? sanitizeText(body.topic, 160) : undefined;
+    const subtopic = body.subtopic ? sanitizeText(body.subtopic, 160) : undefined;
+    const lvl = Number(body.difficultyLevel);
+    const difficultyLevel = (lvl >= 1 && lvl <= 4 ? Math.round(lvl) : 2) as 1 | 2 | 3 | 4;
 
     const result = await generateGroundedQuestions({
       discipline: subject,
@@ -1101,7 +1175,7 @@ app.post('/api/questions/auto-update', async (req, res) => {
     console.error('Erro no endpoint /api/questions/auto-update:', error);
     res.status(500).json({
       success: false,
-      error: error?.message || 'Erro ao gerar questões jurídicas fundamentadas.',
+      error: 'Erro ao gerar questões jurídicas fundamentadas.',
     });
   }
 });
@@ -1110,14 +1184,33 @@ app.post('/api/questions/auto-update', async (req, res) => {
 // MÓDULOS 2, 8, 9, 10, 11 E 12: API DO BANCO DE CONHECIMENTO JURÍDICO
 // =========================================================================
 
+// Verifica se o usuário autenticado possui permissão administrativa
+app.get('/api/kb/admin/session', async (req, res) => {
+  try {
+    const user = await extractVerifiedUser(req);
+    if (!user) {
+      return res.json({ success: true, authenticated: false, isAdmin: false });
+    }
+    return res.json({
+      success: true,
+      authenticated: true,
+      isAdmin: isAdminEmail(user.email),
+      email: user.email,
+    });
+  } catch {
+    return res.json({ success: true, authenticated: false, isAdmin: false });
+  }
+});
+
 // Overview & métricas da base + IA
 app.get('/api/kb/overview', (_req, res) => {
   res.json({ success: true, ...legalDb.getOverview() });
 });
 
 // Configuração de qualidade e distribuição de dificuldade
-app.put('/api/kb/config', (req, res) => {
-  const updated = legalDb.updateQualityConfig(req.body || {});
+app.put('/api/kb/config', adminMutationLimiter, requireAdmin, (req, res) => {
+  const sanitizedConfig = sanitizeQualityConfigPayload(req.body || {});
+  const updated = legalDb.updateQualityConfig(sanitizedConfig);
   res.json({ success: true, qualityConfig: updated });
 });
 
@@ -1128,56 +1221,21 @@ app.get('/api/kb/legislation', (req, res) => {
   res.json({ success: true, ...data });
 });
 
-app.post('/api/kb/legislation/norm', (req, res) => {
-  const body = req.body as Partial<LegislationNorm>;
-  if (!body.title || !body.shortName || !body.discipline) {
-    return res.status(400).json({ success: false, error: 'Título, sigla e disciplina são obrigatórios.' });
+app.post('/api/kb/legislation/norm', adminMutationLimiter, requireAdmin, (req, res) => {
+  const validated = validateNormPayload(req.body);
+  if (validated.error || !validated.norm) {
+    return res.status(400).json({ success: false, error: validated.error || 'Dados da norma inválidos.' });
   }
-  const today = new Date().toISOString().slice(0, 10);
-  const norm: LegislationNorm = {
-    id: body.id || `norm_${Date.now()}`,
-    discipline: body.discipline,
-    title: body.title,
-    shortName: body.shortName,
-    numberAndYear: body.numberAndYear || body.shortName,
-    publicationDate: body.publicationDate || today,
-    status: body.status || 'VIGENTE',
-    officialSourceUrl: body.officialSourceUrl || 'https://www.planalto.gov.br/ccivil_03/',
-    lastVerifiedAt: today,
-    amendmentsHistory: body.amendmentsHistory || [],
-    revokedNote: body.revokedNote,
-  };
-  const saved = legalDb.upsertNorm(norm);
+  const saved = legalDb.upsertNorm(validated.norm);
   res.json({ success: true, norm: saved });
 });
 
-app.post('/api/kb/legislation/article', (req, res) => {
-  const body = req.body as Partial<LawArticle>;
-  if (!body.normId || !body.articleNumber || !body.caput || !body.discipline) {
-    return res.status(400).json({
-      success: false,
-      error: 'normId, articleNumber, caput e discipline são obrigatórios.',
-    });
+app.post('/api/kb/legislation/article', adminMutationLimiter, requireAdmin, (req, res) => {
+  const validated = validateArticlePayload(req.body);
+  if (validated.error || !validated.article) {
+    return res.status(400).json({ success: false, error: validated.error || 'Dados do artigo inválidos.' });
   }
-  const today = new Date().toISOString().slice(0, 10);
-  const article: LawArticle = {
-    id: body.id || `art_${body.normId}_${Date.now()}`,
-    normId: body.normId,
-    normShortName: body.normShortName || body.normId.toUpperCase(),
-    discipline: body.discipline,
-    subject: body.subject || 'Dispositivo Legal',
-    articleNumber: body.articleNumber,
-    caput: body.caput,
-    paragraphs: body.paragraphs,
-    items: body.items,
-    status: body.status || 'VIGENTE',
-    keywords: body.keywords || [body.articleNumber, body.subject || ''],
-    historicalVersions: body.historicalVersions,
-    amendmentNote: body.amendmentNote,
-    officialSourceUrl: body.officialSourceUrl || 'https://www.planalto.gov.br/ccivil_03/',
-    lastVerifiedAt: today,
-  };
-  const saved = legalDb.upsertArticle(article);
+  const saved = legalDb.upsertArticle(validated.article);
   res.json({ success: true, article: saved });
 });
 
@@ -1188,32 +1246,12 @@ app.get('/api/kb/jurisprudence', (req, res) => {
   res.json({ success: true, records });
 });
 
-app.post('/api/kb/jurisprudence', (req, res) => {
-  const body = req.body;
-  if (!body?.identification || !body?.thesis || !body?.discipline) {
-    return res.status(400).json({
-      success: false,
-      error: 'Identificação, tese e disciplina são obrigatórias.',
-    });
+app.post('/api/kb/jurisprudence', adminMutationLimiter, requireAdmin, (req, res) => {
+  const validated = validateJurisprudencePayload(req.body);
+  if (validated.error || !validated.record) {
+    return res.status(400).json({ success: false, error: validated.error || 'Dados de jurisprudência inválidos.' });
   }
-  const today = new Date().toISOString().slice(0, 10);
-  const saved = legalDb.upsertJurisprudence({
-    id: body.id || `jur_${Date.now()}`,
-    tribunal: body.tribunal || 'STF',
-    category: body.category || 'TESE',
-    identification: body.identification,
-    discipline: body.discipline,
-    subject: body.subject || 'Jurisprudência',
-    thesis: body.thesis,
-    summary: body.summary || body.thesis,
-    judgmentDate: body.judgmentDate || today,
-    publicationDate: body.publicationDate || today,
-    officialSourceUrl: body.officialSourceUrl || 'https://portal.stf.jus.br/',
-    status: body.status || 'VIGENTE',
-    divergenceNote: body.divergenceNote,
-    supersededBy: body.supersededBy,
-    lastVerifiedAt: today,
-  });
+  const saved = legalDb.upsertJurisprudence(validated.record);
   res.json({ success: true, record: saved });
 });
 
@@ -1236,17 +1274,17 @@ app.get('/api/kb/questions', (req, res) => {
   res.json({ success: true, total: questions.length, questions });
 });
 
-app.post('/api/kb/questions', async (req, res) => {
-  const body = req.body;
-  if (!body?.statement || !Array.isArray(body?.options) || body.options.length < 4) {
+app.post('/api/kb/questions', adminMutationLimiter, requireAdmin, async (req, res) => {
+  const validated = sanitizeQuestionCreatePayload(req.body);
+  if (validated.error || !validated.question) {
     return res.status(400).json({
       success: false,
-      error: 'Enunciado e 4 alternativas são obrigatórios.',
+      error: validated.error || 'Dados da questão inválidos.',
     });
   }
 
-  const dup = legalDb.detectDuplicateQuestion(body.statement);
-  if (dup.isDuplicate && !body.allowDuplicate) {
+  const dup = legalDb.detectDuplicateQuestion(validated.question.statement);
+  if (dup.isDuplicate && !req.body?.allowDuplicate) {
     return res.status(409).json({
       success: false,
       error: `Questão muito similar à questão ${dup.matchedId} (${Math.round(dup.similarity * 100)}% de similaridade).`,
@@ -1254,47 +1292,42 @@ app.post('/api/kb/questions', async (req, res) => {
     });
   }
 
-  const saved = legalDb.upsertQuestion({
-    ...body,
-    id: body.id || `manual_${Date.now()}`,
-    originType: body.originType || 'AUTORAL_PROFESSOR',
-  });
+  const saved = legalDb.upsertQuestion(validated.question);
   const validation = await validateQuestionIndependently(saved, false);
   const finalQ = legalDb.setQuestionValidation(
     saved.id,
-    body.validationStatus || validation.status,
+    validated.question.validationStatus || validation.status,
     validation.report
   );
   res.json({ success: true, question: finalQ || saved });
 });
 
-app.put('/api/kb/questions/:id', async (req, res) => {
+app.put('/api/kb/questions/:id', adminMutationLimiter, requireAdmin, async (req, res) => {
   const existing = legalDb.getQuestionById(req.params.id);
   if (!existing) {
     return res.status(404).json({ success: false, error: 'Questão não encontrada.' });
   }
-  const merged = {
-    ...existing,
-    ...req.body,
-    id: existing.id,
-  };
-  const saved = legalDb.upsertQuestion(merged);
+  const validated = sanitizeQuestionUpdatePayload(existing, req.body);
+  if (validated.error || !validated.question) {
+    return res.status(400).json({ success: false, error: validated.error || 'Dados de atualização inválidos.' });
+  }
+  const saved = legalDb.upsertQuestion(validated.question);
   res.json({ success: true, question: saved });
 });
 
-app.patch('/api/kb/questions/:id/status', (req, res) => {
-  const { status } = req.body;
-  if (!status) {
-    return res.status(400).json({ success: false, error: 'Status obrigatório.' });
+app.patch('/api/kb/questions/:id/status', adminMutationLimiter, requireAdmin, (req, res) => {
+  const validStatus = validateQuestionStatus(req.body?.status);
+  if (!validStatus) {
+    return res.status(400).json({ success: false, error: 'Status inválido ou ausente.' });
   }
-  const updated = legalDb.setQuestionValidation(req.params.id, status);
+  const updated = legalDb.setQuestionValidation(req.params.id, validStatus);
   if (!updated) {
     return res.status(404).json({ success: false, error: 'Questão não encontrada.' });
   }
   res.json({ success: true, question: updated });
 });
 
-app.post('/api/kb/questions/:id/validate', async (req, res) => {
+app.post('/api/kb/questions/:id/validate', adminMutationLimiter, requireAdmin, async (req, res) => {
   const q = legalDb.getQuestionById(req.params.id);
   if (!q) {
     return res.status(404).json({ success: false, error: 'Questão não encontrada.' });
@@ -1305,14 +1338,25 @@ app.post('/api/kb/questions/:id/validate', async (req, res) => {
   res.json({ success: true, question: updated, validation });
 });
 
-app.post('/api/kb/questions/generate-grounded', async (req, res) => {
+app.post('/api/kb/questions/generate-grounded', adminMutationLimiter, requireAdmin, async (req, res) => {
   try {
-    const result = await generateGroundedQuestions(req.body || {});
+    const body = req.body || {};
+    const lvl = Number(body.difficultyLevel);
+    const result = await generateGroundedQuestions({
+      discipline: sanitizeText(body.discipline, 120, 'Direito Tributário'),
+      topic: body.topic ? sanitizeText(body.topic, 160) : undefined,
+      subtopic: body.subtopic ? sanitizeText(body.subtopic, 160) : undefined,
+      difficultyLevel: (lvl >= 1 && lvl <= 4 ? Math.round(lvl) : 2) as 1 | 2 | 3 | 4,
+      count: Math.max(1, Math.min(6, Math.round(Number(body.count) || 2))),
+      targetExamType:
+        body.targetExamType === 'FACULDADE' || body.targetExamType === 'CONCURSO' ? body.targetExamType : 'OAB',
+    });
     res.json(result);
   } catch (err: any) {
+    console.error('Erro em /api/kb/questions/generate-grounded:', err);
     res.status(500).json({
       success: false,
-      error: err?.message || 'Erro ao gerar questões fundamentadas.',
+      error: 'Erro ao gerar questões fundamentadas.',
     });
   }
 });
@@ -1350,10 +1394,12 @@ app.get('/api/kb/questions/symmetry-audit', (req, res) => {
   });
 });
 
-app.post('/api/kb/questions/refactor-alternatives-batch', async (req, res) => {
+app.post('/api/kb/questions/refactor-alternatives-batch', adminMutationLimiter, requireAdmin, async (req, res) => {
   try {
     const { limit = 4, discipline } = req.body || {};
-    const result = await refactorImbalancedQuestionsBatch({ limit, discipline });
+    const safeLimit = Math.max(1, Math.min(6, Math.round(Number(limit) || 4)));
+    const safeDiscipline = typeof discipline === 'string' ? sanitizeText(discipline, 120) : undefined;
+    const result = await refactorImbalancedQuestionsBatch({ limit: safeLimit, discipline: safeDiscipline });
     res.json({
       ...result,
       message:
@@ -1362,14 +1408,15 @@ app.post('/api/kb/questions/refactor-alternatives-batch', async (req, res) => {
           : `${result.processedCount} questão(ões) calibrada(s) (${result.improvedCount} aprimorada(s)); restam ${result.remainingImbalancedCount} com desequilíbrio.`,
     });
   } catch (err: any) {
+    console.error('Erro em /api/kb/questions/refactor-alternatives-batch:', err);
     res.status(500).json({
       success: false,
-      error: err?.message || 'Erro ao recalibrar lote de alternativas.',
+      error: 'Erro ao recalibrar lote de alternativas.',
     });
   }
 });
 
-app.post('/api/kb/questions/:id/refactor-alternatives', async (req, res) => {
+app.post('/api/kb/questions/:id/refactor-alternatives', adminMutationLimiter, requireAdmin, async (req, res) => {
   try {
     const q = legalDb.getQuestionById(req.params.id);
     if (!q) {
@@ -1383,9 +1430,10 @@ app.post('/api/kb/questions/:id/refactor-alternatives', async (req, res) => {
         : `Alternativas higienizadas localmente (simetria ${result.beforeReport.score} → ${result.afterReport.score}/100).`,
     });
   } catch (err: any) {
+    console.error('Erro em /api/kb/questions/:id/refactor-alternatives:', err);
     res.status(500).json({
       success: false,
-      error: err?.message || 'Erro ao refatorar alternativas da questão.',
+      error: 'Erro ao refatorar alternativas da questão.',
     });
   }
 });
@@ -1393,25 +1441,30 @@ app.post('/api/kb/questions/:id/refactor-alternatives', async (req, res) => {
 // =========================================================================
 // MÓDULO 2.4: IMPORTADOR DE PDF, CSV, JSON E TXT COM ANTIDUPLICIDADE
 // =========================================================================
-app.post('/api/kb/import/extract-pdf', async (req, res) => {
+app.post('/api/kb/import/extract-pdf', adminMutationLimiter, requireAdmin, async (req, res) => {
   try {
-    const { base64Data } = req.body;
+    const { base64Data } = req.body || {};
     if (!base64Data || typeof base64Data !== 'string') {
       return res.status(400).json({ success: false, error: 'base64Data obrigatório.' });
     }
     const cleanB64 = base64Data.includes(',') ? base64Data.split(',')[1] : base64Data;
     const buffer = Buffer.from(cleanB64, 'base64');
+    const pdfCheck = validatePdfBuffer(buffer);
+    if (!pdfCheck.valid) {
+      return res.status(400).json({ success: false, error: pdfCheck.error || 'PDF inválido.' });
+    }
     const extracted = await extractTextFromPdfBuffer(buffer);
     res.json({ success: true, ...extracted });
   } catch (err: any) {
+    console.warn('Falha ao extrair PDF:', err?.message);
     res.status(400).json({
       success: false,
-      error: `Falha ao extrair texto do PDF: ${err?.message || 'arquivo inválido'}`,
+      error: 'Falha ao extrair texto do PDF. Verifique se o arquivo é um PDF válido.',
     });
   }
 });
 
-app.post('/api/kb/import/process', async (req, res) => {
+app.post('/api/kb/import/process', adminMutationLimiter, requireAdmin, async (req, res) => {
   try {
     const {
       importType = 'PROVA_OAB',
@@ -1420,7 +1473,7 @@ app.post('/api/kb/import/process', async (req, res) => {
       content = '',
       dryRun = false,
       metadata = {},
-    } = req.body;
+    } = req.body || {};
 
     if (!content || typeof content !== 'string' || content.trim().length < 10) {
       return res.status(400).json({
@@ -1428,6 +1481,17 @@ app.post('/api/kb/import/process', async (req, res) => {
         error: 'Conteúdo vazio ou insuficiente para processamento.',
       });
     }
+
+    const safeFileName = sanitizeText(fileName, 160, 'importacao_manual');
+    const safeMetadata = metadata && typeof metadata === 'object' ? metadata : {};
+    const safeOfficialUrl = sanitizeHttpUrl(
+      safeMetadata.officialSourceUrl,
+      importType === 'LEGISLACAO'
+        ? 'https://www.planalto.gov.br/ccivil_03/'
+        : importType === 'JURISPRUDENCIA'
+        ? 'https://portal.stf.jus.br/'
+        : 'https://oab.fgv.br/'
+    );
 
     const errors: string[] = [];
     let parsedCount = 0;
@@ -1439,12 +1503,12 @@ app.post('/api/kb/import/process', async (req, res) => {
       let candidateQuestions: any[] = [];
       if (format === 'JSON') {
         const raw = JSON.parse(content);
-        const list = Array.isArray(raw) ? raw : raw.questions || [];
+        const list = Array.isArray(raw) ? raw : raw?.questions || [];
         const norm = normalizeImportedQuestions(list, {
           originType: 'OFICIAL_OAB',
-          examNumber: metadata.examNumber,
-          year: Number(metadata.year || 2024),
-          officialSourceUrl: metadata.officialSourceUrl,
+          examNumber: sanitizeText(safeMetadata.examNumber, 80),
+          year: Number(safeMetadata.year || 2024),
+          officialSourceUrl: safeOfficialUrl,
         });
         candidateQuestions = norm.questions;
         errors.push(...norm.errors);
@@ -1452,19 +1516,19 @@ app.post('/api/kb/import/process', async (req, res) => {
         const rows = parseCsvRows(content);
         const norm = normalizeImportedQuestions(rows, {
           originType: 'OFICIAL_OAB',
-          examNumber: metadata.examNumber,
-          year: Number(metadata.year || 2024),
-          officialSourceUrl: metadata.officialSourceUrl,
+          examNumber: sanitizeText(safeMetadata.examNumber, 80),
+          year: Number(safeMetadata.year || 2024),
+          officialSourceUrl: safeOfficialUrl,
         });
         candidateQuestions = norm.questions;
         errors.push(...norm.errors);
       } else {
         const rawRes = parseRawExamTextToQuestions(content, {
-          examNumber: metadata.examNumber || 'Exame OAB Importado',
-          year: Number(metadata.year || 2024),
-          edition: metadata.edition || `${metadata.year || 2024}.1`,
-          defaultDiscipline: metadata.discipline,
-          officialSourceUrl: metadata.officialSourceUrl,
+          examNumber: sanitizeText(safeMetadata.examNumber, 80, 'Exame OAB Importado'),
+          year: Number(safeMetadata.year || 2024),
+          edition: sanitizeText(safeMetadata.edition, 40, `${safeMetadata.year || 2024}.1`),
+          defaultDiscipline: safeMetadata.discipline ? sanitizeText(safeMetadata.discipline, 120) : undefined,
+          officialSourceUrl: safeOfficialUrl,
         });
         candidateQuestions = rawRes.parsed;
         errors.push(...rawRes.errors);
@@ -1490,13 +1554,13 @@ app.post('/api/kb/import/process', async (req, res) => {
         if (insertedCount > 0) {
           legalDb.registerOfficialExam({
             id: `exam_imp_${Date.now()}`,
-            examNumber: metadata.examNumber || 'Exame OAB Importado',
-            year: Number(metadata.year || 2024),
-            edition: metadata.edition || `${metadata.year || 2024}.1`,
+            examNumber: sanitizeText(safeMetadata.examNumber, 80, 'Exame OAB Importado'),
+            year: Math.max(1990, Math.min(2100, Number(safeMetadata.year || 2024))),
+            edition: sanitizeText(safeMetadata.edition, 40, `${safeMetadata.year || 2024}.1`),
             board: 'FGV',
-            officialSourceUrl: metadata.officialSourceUrl || 'https://oab.fgv.br/',
-            rightsVerified: Boolean(metadata.rightsVerified ?? true),
-            rightsNote: metadata.rightsNote || 'Importação administrativa para estudo individual.',
+            officialSourceUrl: safeOfficialUrl,
+            rightsVerified: Boolean(safeMetadata.rightsVerified ?? true),
+            rightsNote: sanitizeText(safeMetadata.rightsNote, 300, 'Importação administrativa para estudo individual.'),
             questionCount: insertedCount,
             importedAt: new Date().toISOString(),
           });
@@ -1504,26 +1568,26 @@ app.post('/api/kb/import/process', async (req, res) => {
       }
     } else if (importType === 'LEGISLACAO') {
       let articles: LawArticle[] = [];
-      const normId = metadata.normId || `norm_imp_${Date.now()}`;
-      const normShort = metadata.normShortName || 'Norma Importada';
-      const discipline = metadata.discipline || 'Direito Constitucional';
+      const normId = sanitizeEntityId(safeMetadata.normId, 'norm_imp');
+      const normShort = sanitizeText(safeMetadata.normShortName, 80, 'Norma Importada');
+      const discipline = sanitizeText(safeMetadata.discipline, 120, 'Direito Constitucional');
 
       if (format === 'JSON') {
         const raw = JSON.parse(content);
-        const list = Array.isArray(raw) ? raw : raw.articles || [];
-        articles = list.map((a: any, i: number) => ({
-          id: a.id || `art_${normId}_${i}_${Date.now()}`,
-          normId: a.normId || normId,
-          normShortName: a.normShortName || normShort,
-          discipline: a.discipline || discipline,
-          subject: a.subject || metadata.subject || 'Dispositivo Normativo',
-          articleNumber: a.articleNumber || `Art. ${i + 1}`,
-          caput: a.caput || '',
-          paragraphs: a.paragraphs,
-          items: a.items,
-          status: a.status || 'VIGENTE',
-          keywords: a.keywords || [normShort],
-          officialSourceUrl: a.officialSourceUrl || metadata.officialSourceUrl || 'https://www.planalto.gov.br/ccivil_03/',
+        const list = Array.isArray(raw) ? raw : raw?.articles || [];
+        articles = list.slice(0, 1000).map((a: any, i: number) => ({
+          id: sanitizeEntityId(a?.id, `art_${normId}_${i}`),
+          normId: sanitizeEntityId(a?.normId, normId),
+          normShortName: sanitizeText(a?.normShortName, 80, normShort),
+          discipline: sanitizeText(a?.discipline, 120, discipline),
+          subject: sanitizeText(a?.subject, 160, sanitizeText(safeMetadata.subject, 160, 'Dispositivo Normativo')),
+          articleNumber: sanitizeText(a?.articleNumber, 80, `Art. ${i + 1}`),
+          caput: sanitizeText(a?.caput, 6000),
+          paragraphs: sanitizeStringArray(a?.paragraphs, 30, 1500),
+          items: sanitizeStringArray(a?.items, 30, 1000),
+          status: a?.status === 'ALTERADA' || a?.status === 'REVOGADA' ? a.status : 'VIGENTE',
+          keywords: sanitizeStringArray(a?.keywords, 20, 80).length > 0 ? sanitizeStringArray(a?.keywords, 20, 80) : [normShort],
+          officialSourceUrl: sanitizeHttpUrl(a?.officialSourceUrl || safeOfficialUrl, 'https://www.planalto.gov.br/ccivil_03/'),
           lastVerifiedAt: new Date().toISOString().slice(0, 10),
         }));
       } else {
@@ -1531,8 +1595,8 @@ app.post('/api/kb/import/process', async (req, res) => {
           normId,
           normShortName: normShort,
           discipline,
-          subject: metadata.subject || 'Legislação Importada',
-          officialSourceUrl: metadata.officialSourceUrl || 'https://www.planalto.gov.br/ccivil_03/',
+          subject: sanitizeText(safeMetadata.subject, 160, 'Legislação Importada'),
+          officialSourceUrl: safeOfficialUrl,
         });
       }
 
@@ -1540,16 +1604,16 @@ app.post('/api/kb/import/process', async (req, res) => {
       previewItems = articles;
 
       if (!dryRun && articles.length > 0) {
-        if (metadata.normTitle || metadata.normShortName) {
+        if (safeMetadata.normTitle || safeMetadata.normShortName) {
           legalDb.upsertNorm({
             id: normId,
             discipline,
-            title: metadata.normTitle || normShort,
+            title: sanitizeText(safeMetadata.normTitle, 240, normShort),
             shortName: normShort,
-            numberAndYear: metadata.numberAndYear || normShort,
+            numberAndYear: sanitizeText(safeMetadata.numberAndYear, 120, normShort),
             publicationDate: new Date().toISOString().slice(0, 10),
             status: 'VIGENTE',
-            officialSourceUrl: metadata.officialSourceUrl || 'https://www.planalto.gov.br/ccivil_03/',
+            officialSourceUrl: safeOfficialUrl,
             lastVerifiedAt: new Date().toISOString().slice(0, 10),
             amendmentsHistory: [],
           });
@@ -1564,7 +1628,7 @@ app.post('/api/kb/import/process', async (req, res) => {
         format === 'JSON'
           ? (() => {
               const raw = JSON.parse(content);
-              return Array.isArray(raw) ? raw : raw.records || [];
+              return Array.isArray(raw) ? raw : raw?.records || [];
             })()
           : format === 'CSV'
           ? parseCsvRows(content)
@@ -1588,7 +1652,7 @@ app.post('/api/kb/import/process', async (req, res) => {
         id: `job_${Date.now()}`,
         importType,
         format,
-        fileName,
+        fileName: safeFileName,
         totalParsed: parsedCount,
         insertedCount,
         duplicatesSkipped,
@@ -1610,9 +1674,10 @@ app.post('/api/kb/import/process', async (req, res) => {
       previewItems: previewItems.slice(0, 30),
     });
   } catch (err: any) {
+    console.warn('Erro no processamento da importação:', err?.message);
     res.status(400).json({
       success: false,
-      error: `Erro no processamento da importação: ${err?.message || 'formato inválido'}`,
+      error: 'Erro no processamento da importação. Verifique o formato do arquivo enviado.',
     });
   }
 });
@@ -1628,9 +1693,14 @@ app.get('/api/kb/updates', (_req, res) => {
   res.json({ success: true, updates: legalDb.getUpdateLogs() });
 });
 
-app.post('/api/kb/updates', (req, res) => {
-  const body = req.body;
-  if (!body?.entityType || !body?.entityId || !body?.updatedContent || !body?.source) {
+app.post('/api/kb/updates', adminMutationLimiter, requireAdmin, (req, res) => {
+  const body = req.body || {};
+  const entityType = body.entityType === 'JURISPRUDENCIA' ? 'JURISPRUDENCIA' : body.entityType === 'LEGISLACAO' ? 'LEGISLACAO' : null;
+  const entityId = sanitizeEntityId(body.entityId, '');
+  const updatedContent = sanitizeText(body.updatedContent, 6000);
+  const source = sanitizeText(body.source, 300);
+
+  if (!entityType || !body.entityId || !entityId || !updatedContent || !source) {
     return res.status(400).json({
       success: false,
       error: 'entityType, entityId, updatedContent e source são obrigatórios.',
@@ -1638,22 +1708,22 @@ app.post('/api/kb/updates', (req, res) => {
   }
 
   const log = legalDb.recordLegalUpdate({
-    entityType: body.entityType,
-    entityId: body.entityId,
-    entityLabel: body.entityLabel || body.entityId,
-    previousContent: body.previousContent || '',
-    updatedContent: body.updatedContent,
-    source: body.source,
-    affectedDevices: Array.isArray(body.affectedDevices) ? body.affectedDevices : [],
-    newStatus: body.newStatus,
+    entityType,
+    entityId,
+    entityLabel: sanitizeText(body.entityLabel, 200, entityId),
+    previousContent: sanitizeText(body.previousContent, 6000),
+    updatedContent,
+    source,
+    affectedDevices: sanitizeStringArray(body.affectedDevices, 40, 120),
+    newStatus: body.newStatus ? sanitizeText(body.newStatus, 40) : undefined,
   });
 
   res.json({ success: true, log });
 });
 
 // Exportação completa do código-fonte do projeto em ZIP (apenas ambiente de desenvolvimento / AI Studio)
-app.get('/api/export-project-zip', async (_req, res) => {
-  if (process.env.NODE_ENV === 'production') {
+app.get('/api/export-project-zip', async (req, res) => {
+  if (isPublicProductionDeployment(req)) {
     return res.status(403).json({
       success: false,
       error: 'Exportação disponível apenas no ambiente de desenvolvimento.',
@@ -1686,6 +1756,9 @@ app.get('/api/export-project-zip', async (_req, res) => {
           if (
             entry.name === '.DS_Store' ||
             entry.name.endsWith('.log') ||
+            entry.name.endsWith('.pem') ||
+            entry.name.endsWith('.key') ||
+            entry.name.endsWith('.p12') ||
             entry.name === '.env' ||
             (entry.name.startsWith('.env.') && entry.name !== '.env.example')
           ) {

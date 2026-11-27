@@ -36,6 +36,7 @@ import type {
 import {
   createOrUpdateKbQuestion,
   extractPdfTextFromFile,
+  fetchAdminSessionStatus,
   fetchImportJobs,
   fetchKbOverview,
   fetchKbQuestions,
@@ -58,6 +59,8 @@ import {
   updateQuestionStatus,
 } from '../services/knowledgeBaseService';
 import { syncPublishedQuestionsFromServer } from '../services/questionsService';
+import { useFirebase } from '../contexts/FirebaseContext';
+import { safeExternalHref } from '../utils/urlSecurity';
 
 type AdminSubTab = 'legislacao' | 'jurisprudencia' | 'fabrica_qualidade' | 'importador' | 'atualizacoes_ia';
 
@@ -79,6 +82,13 @@ const ORIGIN_LABELS: Record<QuestionOriginType, string> = {
 };
 
 export const LegalKnowledgeAdminView: React.FC = () => {
+  const { user, isSigningIn, signInWithGoogle } = useFirebase();
+  const [adminSession, setAdminSession] = useState<{
+    checked: boolean;
+    authenticated: boolean;
+    isAdmin: boolean;
+    email?: string;
+  }>({ checked: false, authenticated: false, isAdmin: false });
   const [subTab, setSubTab] = useState<AdminSubTab>('legislacao');
   const [overview, setOverview] = useState<KnowledgeOverviewResponse | null>(null);
   const [loadingOverview, setLoadingOverview] = useState(true);
@@ -257,6 +267,18 @@ export const LegalKnowledgeAdminView: React.FC = () => {
     setImportJobs(jobs);
     setUpdatesList(upds);
   };
+
+  useEffect(() => {
+    let active = true;
+    fetchAdminSessionStatus().then((status) => {
+      if (active) {
+        setAdminSession({ checked: true, ...status });
+      }
+    });
+    return () => {
+      active = false;
+    };
+  }, [user?.uid]);
 
   useEffect(() => {
     loadOverview();
@@ -648,6 +670,38 @@ export const LegalKnowledgeAdminView: React.FC = () => {
         </div>
       </div>
 
+      {/* Admin Access Indicator Banner */}
+      {adminSession.checked && (
+        <div
+          className={`px-4 py-3 rounded-xl border text-xs flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 ${
+            adminSession.isAdmin
+              ? 'bg-emerald-50/80 border-emerald-200 text-emerald-950'
+              : 'bg-amber-50/90 border-[#C59B3E]/70 text-amber-950'
+          }`}
+        >
+          <div className="flex items-center gap-2">
+            <ShieldCheck className={`w-4 h-4 shrink-0 ${adminSession.isAdmin ? 'text-emerald-700' : 'text-[#8A6518]'}`} />
+            <span>
+              {adminSession.isAdmin
+                ? `Edição administrativa liberada para ${adminSession.email}.`
+                : adminSession.authenticated
+                ? `Conectado como ${adminSession.email} (Somente Consulta — edição restrita ao administrador).`
+                : 'Modo Consulta (Somente Leitura). Para cadastrar normas, editar questões ou importar arquivos, entre com a conta Google do administrador.'}
+            </span>
+          </div>
+          {!adminSession.isAdmin && !adminSession.authenticated && (
+            <button
+              type="button"
+              onClick={signInWithGoogle}
+              disabled={isSigningIn}
+              className="px-3.5 py-1.5 rounded-lg bg-[#1B365D] hover:bg-[#142846] text-[#FAF7F2] font-semibold whitespace-nowrap cursor-pointer disabled:opacity-60 self-start sm:self-auto"
+            >
+              {isSigningIn ? 'Conectando...' : 'Entrar com Google (Admin)'}
+            </button>
+          )}
+        </div>
+      )}
+
       {/* Feedback Banner */}
       {feedback && (
         <div
@@ -854,9 +908,9 @@ export const LegalKnowledgeAdminView: React.FC = () => {
                     <div className="flex items-center justify-between pt-1 text-[11px] text-stone-600">
                       <span>Verificado: {n.lastVerifiedAt}</span>
                       <a
-                        href={n.officialSourceUrl}
+                        href={safeExternalHref(n.officialSourceUrl, 'https://www.planalto.gov.br/ccivil_03/')}
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         className="text-[#1B365D] hover:underline font-semibold inline-flex items-center gap-1"
                       >
                         Planalto <ExternalLink className="w-3 h-3" />
@@ -1089,9 +1143,9 @@ export const LegalKnowledgeAdminView: React.FC = () => {
                 <div className="flex items-center justify-between pt-2 border-t border-[#ECE6D9] text-[11px] text-stone-600">
                   <span>Julg.: {j.judgmentDate} · Verificado: {j.lastVerifiedAt}</span>
                   <a
-                    href={j.officialSourceUrl}
+                    href={safeExternalHref(j.officialSourceUrl, 'https://portal.stf.jus.br/')}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="text-[#1B365D] hover:underline font-semibold inline-flex items-center gap-1"
                   >
                     Fonte Oficial <ExternalLink className="w-3 h-3" />
@@ -1184,8 +1238,13 @@ export const LegalKnowledgeAdminView: React.FC = () => {
                     type="checkbox"
                     checked={overview.qualityConfig.blockGenerationWithoutGroundedSources}
                     onChange={async e => {
-                      await updateQualityConfig({ blockGenerationWithoutGroundedSources: e.target.checked });
-                      await loadOverview();
+                      try {
+                        await updateQualityConfig({ blockGenerationWithoutGroundedSources: e.target.checked });
+                        await loadOverview();
+                        notify('ok', 'Configuração de fontes verificadas atualizada.');
+                      } catch (err: any) {
+                        notify('err', err?.message || 'Erro ao atualizar configuração.');
+                      }
                     }}
                     className="mt-0.5 accent-[#1B365D]"
                   />
@@ -1196,8 +1255,13 @@ export const LegalKnowledgeAdminView: React.FC = () => {
                     type="checkbox"
                     checked={overview.qualityConfig.requireHumanApprovalBeforePublish}
                     onChange={async e => {
-                      await updateQualityConfig({ requireHumanApprovalBeforePublish: e.target.checked });
-                      await loadOverview();
+                      try {
+                        await updateQualityConfig({ requireHumanApprovalBeforePublish: e.target.checked });
+                        await loadOverview();
+                        notify('ok', 'Configuração de aprovação editorial atualizada.');
+                      } catch (err: any) {
+                        notify('err', err?.message || 'Erro ao atualizar configuração.');
+                      }
                     }}
                     className="mt-0.5 accent-[#1B365D]"
                   />
